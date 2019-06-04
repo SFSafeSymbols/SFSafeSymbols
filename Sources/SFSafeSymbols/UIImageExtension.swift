@@ -1,40 +1,29 @@
-#if os(iOS) || os(tvOS) || os(watchOS)
-
 import UIKit
 
 public extension UIImage {
-    /// TODO: Document
+    /// Retrieve a system symbol image of the given type.
+    ///
+    /// - systemSymbol: The SFSymbol describing this image.
     @available(iOS 13.0, *)
     convenience init(systemSymbol: SFSymbol) {
-        guard let _ = UIImage(systemName: systemSymbol.rawValue) else {
-            fatalError("Unknown system symbol")
-        }
-
-        /// TODO: Avoid double init
         self.init(systemName: systemSymbol.rawValue)!
     }
 
-    /// TODO: Document
+    /// Retrieve a system symbol image of the given type and with the given configuration.
+    ///
+    /// - systemSymbol: The SFSymbol describing this image.
+    /// - withConfiguration: The UIImage.Configuration applied to this system image.
     @available(iOS 13.0, *)
     convenience init(systemSymbol: SFSymbol, withConfiguration configuration: UIImage.Configuration?) {
-        guard let _ = UIImage(systemName: systemSymbol.rawValue, withConfiguration: configuration) else {
-            fatalError("Unknown system symbol")
-        }
-
-        /// TODO: Avoid double init
         self.init(systemName: systemSymbol.rawValue, withConfiguration: configuration)!
     }
 
-    /// TODO: Document
+    /// Retrieve a system symbol image of the given type and with the given traits.
+    ///
+    /// - systemSymbol: The SFSymbol describing this image.
+    /// - compatibleWith: The UITraitCollection applied to this system image.
     @available(iOS 13.0, *)
     convenience init(systemSymbol: SFSymbol, compatibleWith traitCollection: UITraitCollection?) {
-        guard let _ = UIImage(systemName: systemSymbol.rawValue, compatibleWith: traitCollection) else {
-            fatalError("Unknown system symbol")
-        }
-
-        /// TODO: Avoid double init
         self.init(systemName: systemSymbol.rawValue, compatibleWith: traitCollection)!
     }
 }
-
-#endif

@@ -1,5 +1,3 @@
-#if os(iOS) || os(tvOS) || os(watchOS)
-
 @testable import SFSafeSymbols
 import XCTest
 
@@ -27,5 +25,3 @@ class UIImageExtensionTests: XCTestCase {
         }
     }
 }
-
-#endif
