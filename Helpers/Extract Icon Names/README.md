@@ -6,8 +6,8 @@ Please note this makes use of the GUI Scripting Library that can be downloaded [
 
 The script will copy the icon names to the clipboard in a format like this:
 
-`, some.name, some.other, ..., the.last.icon"`
+`some.name, some.other, ..., the.last.icon, "`
 
 This string can then be further processed.
 
-Please note that the script may run for a while.
+Please note that the script runs for a very long time (~half an hour) as AppleScript UI scripting is super-slow.
