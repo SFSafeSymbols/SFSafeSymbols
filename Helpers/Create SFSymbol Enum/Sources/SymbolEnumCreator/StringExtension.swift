@@ -2,10 +2,16 @@ import Foundation
 
 extension String {
     var toEnumCaseName: String {
+        // Handle special swift keywords
+        guard self != "return" else { return "`return`" }
+        guard self != "repeat" else { return "`repeat`" }
+
+        // Perform naming style transformation
         var outputString = ""
         var shouldCapitalizeNextChar = false
 
-        if outputString.first?.isNumber == true {
+        // Avoid non-compiling leading numbers by prefixing with _
+        if first?.isNumber == true {
             outputString += "_"
         }
 
