@@ -10,4 +10,4 @@ The script will copy the icon names to the clipboard in a format like this:
 
 This string can then be further processed.
 
-Please note that the script runs for a very long time (~half an hour) as AppleScript UI scripting is super-slow.
+Please note that the script runs for a very long time (~1 hour) as AppleScript UI scripting is super-slow.
