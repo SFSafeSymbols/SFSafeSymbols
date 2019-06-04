@@ -4,13 +4,11 @@ import PackageDescription
 
 let package = Package(
     name: "SymbolEnumCreator",
-    dependencies: [
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "SymbolEnumCreator",
-            dependencies: [
-            ]
+            dependencies: []
         ),
     ]
 )

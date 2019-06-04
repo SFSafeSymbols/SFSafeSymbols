@@ -10,7 +10,7 @@ guard let stringToParse = pasteboard.pasteboardItems?.first?.string(forType: .st
 // Perform transformation
 let icons = stringToParse.components(separatedBy: ", ").filter { !$0.isEmpty && $0 != "" }
 let iconCaseNames = icons.map { ($0.toEnumCaseName, $0) }
-let outputString = "enum SFSymbol: String, CaseIterable {\n"
+let outputString = "public enum SFSymbol: String, CaseIterable {\n"
     + iconCaseNames.reduce("") { $0 + "    case \($1.0) = \"\($1.1)\"\n" }
     + "}"
 

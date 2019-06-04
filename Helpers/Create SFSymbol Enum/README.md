@@ -5,7 +5,7 @@ Creates the code for the SFSymbol enum by reading the clipboard (expecting a str
 E. g. having `abc.abc, 00.circle.big, ` in the pasteboard before execution will result in the following being in the pasteboard after execution:
 
 ```
-enum SFSymbol: String, CaseIterable {
+public enum SFSymbol: String, CaseIterable {
     case abcAbc = "abc.abc"
     case 00CircleBig = "00.circle.big"
 }
