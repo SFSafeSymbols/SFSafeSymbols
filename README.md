@@ -47,7 +47,7 @@ At WWDC 2019, Apple announced a new library of icons that come included with iOS
 let image = UIImage(systemName: "circle.fill")
 ```
 
-Just a little bit later, first [ideas came up](https://twitter.com/simjp/status/1135642837322588161?s=12) to make these icons accessible in a safe way using a framework. And this is just what this framework does!
+It didn't took long until [first ideas came up](https://twitter.com/simjp/status/1135642837322588161?s=12) to make these icons accessible in a safe way using a framework. And this is just what this framework does!
 
 ## Installation
 
@@ -76,6 +76,34 @@ github "piknotech/SFSafeSymbols" ~> 0.1
 ```
 
 Then run `carthage update`.
+
+## Usage
+
+All the system icons are accessible via the `SFSymbol` enum. They are named similar to Apple's naming, but use a lower camel case style and prefix names with leading numbers with a `_` character:
+
+```
+c.circle        ==> SFSymbol.cCircle
+e.circle.fill   ==> SFSymbol.eCircleFill
+11.circle.fill  ==> SFSymbol._11CircleFill
+```
+
+You can now either create the corresponding `UIImage` by initializing it using the `SFSymbol`...
+
+```swift
+let image = UIImage(systemSymbol: .cCircle)
+let image2 = UIImage(systemSymbol: .eCircleFill, withConfiguration: /* Some UIImage.Configuration */)
+let image3 = UIImage(systemSymbol: ._11CircleFill, compatibleWith: /* Some UITraitCollection */)
+```
+
+... or by calling a function on your  `SFSymbol` instance:
+
+```swift
+let image = SFSymbol.cCircle.toImage
+let image2 = SFSymbol.eCircleFill.toImage(withConfiguration: /* Some UIImage.Configuration */)
+let image3 = SFSymbol._11CircleFill.toImage(compatibleWith: /* Some UITraitCollection */)
+```
+
+All symbols are tested so you can be sure your code won't crash because an image couldn't be found!
 
 ## Contributing
 
