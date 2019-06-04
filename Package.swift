@@ -6,7 +6,7 @@ let package = Package(
     name: "SFSafeSymbols",
     platforms: [.iOS(.v10)],
     products: [
-        .library(name: "SFSafeSymbols", type: .dynamic, targets: ["SFSafeSymbols"])
+        .library(name: "SFSafeSymbols", type: .static, targets: ["SFSafeSymbols"])
     ],
     dependencies: [],
     targets: [
