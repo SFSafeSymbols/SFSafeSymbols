@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "SFSafeSymbols",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS],
     products: [
         .library(name: "SFSafeSymbols", type: .dynamic, targets: ["SFSafeSymbols"])
     ],

@@ -1,5 +1,6 @@
 import UIKit
 
+@available(iOS 13.0, *)
 public extension UIImage {
     /// Retrieve a system symbol image of the given type.
     ///

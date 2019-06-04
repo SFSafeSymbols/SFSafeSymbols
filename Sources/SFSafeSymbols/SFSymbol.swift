@@ -1,4 +1,5 @@
 
+@available(iOS 13.0, *)
 public enum SFSymbol: String, CaseIterable {
     case circle = "circle"
     case circleFill = "circle.fill"
