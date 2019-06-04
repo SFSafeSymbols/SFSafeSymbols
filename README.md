@@ -3,9 +3,6 @@
 </p>
 
 <p align="center">
-    <a href="https://travis-ci.org/piknotech/SFSafeSymbols">
-        <img src="https://travis-ci.org/piknotech/SFSafeSymbols.svg?branch=stable" alt="Build Status">
-    </a>
     <a href="#">
         <img src="https://img.shields.io/badge/swift-5.1-FFAC45.svg" alt="Swift: 5.1">
     </a>
