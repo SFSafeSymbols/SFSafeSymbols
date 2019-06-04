@@ -10,12 +10,6 @@ In order to generate the **Xcode project** to develop within, run this command:
 swift package generate-xcodeproj
 ```
 
-To check if all **tests** are passing correctly:
-
-```
-swift test
-```
-
 ### Commit Messages
 
 Please also try to follow the same syntax and semantic in your **commit messages** (see rationale [here](http://chris.beams.io/posts/git-commit/)).
