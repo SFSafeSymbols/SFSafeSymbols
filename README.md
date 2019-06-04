@@ -3,9 +3,6 @@
 </p>
 
 <p align="center">
-    <a href="https://travis-ci.org/piknotech/SFSafeSymbols">
-        <img src="https://travis-ci.org/piknotech/SFSafeSymbols.svg?branch=stable" alt="Build Status">
-    </a>
     <a href="#">
         <img src="https://img.shields.io/badge/swift-5.1-FFAC45.svg" alt="Swift: 5.1">
     </a>
@@ -32,11 +29,13 @@
 </p>
 
 <p align="center">
-    <a href="#documentation">Documentation</a>
-  • <a href="https://github.com/piknotech/SFSafeSymbols/issues">Issues</a>
-  • <a href="https://github.com/piknotech/SFSafeSymbols/pulls">Pull Requests</a>
+    <a href="#motivation">Motivation</a>
+  • <a href="#installation">Installation</a>
+  • <a href="#usage">Usage</a>
   • <a href="#contributing">Contributing</a>
   • <a href="#license">License</a>
+  • <a href="https://github.com/piknotech/SFSafeSymbols/issues">Issues</a>
+  • <a href="https://github.com/piknotech/SFSafeSymbols/pulls">Pull Requests</a>
 </p>
 
 ## Motivation
@@ -107,7 +106,7 @@ All symbols are tested so you can be sure your code won't crash because an image
 
 ## Contributing
 
-See the file [CONTRIBUTING.md](https://github.com/piknotech/SFSafeSymbols/blob/stable/CONTRIBUTING.md).
+Contributions are very much welcomed! See [CONTRIBUTING.md](https://github.com/piknotech/SFSafeSymbols/blob/stable/CONTRIBUTING.md) for more information.
 
 ## License
 This library is released under the [MIT License](http://opensource.org/licenses/MIT). See [LICENSE.md](https://github.com/piknotech/SFSafeSymbols/blob/stable/LICENSE.md) for details.
