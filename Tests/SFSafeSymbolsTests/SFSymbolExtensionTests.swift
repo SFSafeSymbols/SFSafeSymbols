@@ -1,11 +1,11 @@
 @testable import SFSafeSymbols
 import XCTest
 
-class UIImageExtensionTests: XCTestCase {
+class SFSymbolExtensionTests: XCTestCase {
     func testSimpleInit() {
         SFSymbol.allCases.forEach { symbol in
             // If this doesn't crash, everything works fine
-            _ = UIImage(systemSymbol: symbol)
+            _ = symbol.toImage
         }
     }
 
@@ -19,12 +19,12 @@ class UIImageExtensionTests: XCTestCase {
             UITraitCollection(legibilityWeight: .bold),
             UITraitCollection(legibilityWeight: .regular),
             UITraitCollection(legibilityWeight: .unspecified),
-        ].map { $0.imageConfiguration }
+            ].map { $0.imageConfiguration }
 
         SFSymbol.allCases.forEach { symbol in
             configurations.forEach { configuration in
                 // If this doesn't crash, everything works fine
-                _ = UIImage(systemSymbol: symbol, withConfiguration: configuration)
+                _ = symbol.toImage(withConfiguration: configuration)
             }
         }
     }
@@ -44,7 +44,7 @@ class UIImageExtensionTests: XCTestCase {
         SFSymbol.allCases.forEach { symbol in
             traits.forEach { trait in
                 // If this doesn't crash, everything works fine
-                _ = UIImage(systemSymbol: symbol, compatibleWith: trait)
+                _ = symbol.toImage(compatibleWith: trait)
             }
         }
     }
