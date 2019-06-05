@@ -102,6 +102,12 @@ let image2 = SFSymbol.eCircleFill.toImage(withConfiguration: /* Some UIImage.Con
 let image3 = SFSymbol._11CircleFill.toImage(compatibleWith: /* Some UITraitCollection */)
 ```
 
+... or create a `SwiftUI.Image` by initializing it using the `SFSymbol`...
+
+```swift
+Image(systemSymbol: .cCircle)
+```
+
 All symbols are tested so you can be sure your code won't crash because an image couldn't be found!
 
 ## Contributing
