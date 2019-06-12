@@ -13,3 +13,7 @@ swift package generate-xcodeproj
 ### Commit Messages
 
 Please also try to follow the same syntax and semantic in your **commit messages** (see rationale [here](http://chris.beams.io/posts/git-commit/)).
+
+### Tracking changes
+
+When issuing a pull request, please add a summary of your changes to the `CHANGELOG.md` file. Mention yourself as the author.

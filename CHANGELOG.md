@@ -3,12 +3,30 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [0.1.1] - 2019-06-04
+## [Unreleased]
+
+### Added
+
+- Add a changelog file keeping track of the changes (By [David Knothe](https://github.com/knothed))
+- Add iOS 13-availability tests to the tests (By [David Knothe](https://github.com/knothed))
+
 ### Changed
-- Make library static
+
+- Sort enum cases alphabetically (By [David Knothe](https://github.com/knothed))
+
+
+
+## [0.1.1] - 2019-06-04
+
+### Changed
+- Make library static (By [Frederick Pietschmann](https://github.com/fredpi))
+
+
 
 ## [0.1] - 2019-06-04
+
 ### Added (initial release)
 - Helper script to extract all icon names
 - Helper script to create a Swift enum
-- The generated Swift code plus a handy UIImage extension
+- The generated Swift code plus a handy UIImage extension, and
+- Test cases for all methods. All by [Frederick Pietschmann](https://github.com/fredpi).
