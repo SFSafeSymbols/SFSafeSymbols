@@ -1,6 +1,7 @@
 @testable import SFSafeSymbols
 import XCTest
 
+@available(iOS 13.0, *)
 class SFSymbolExtensionTests: XCTestCase {
     func testSimpleInit() {
         SFSymbol.allCases.forEach { symbol in
