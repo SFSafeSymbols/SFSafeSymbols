@@ -14,6 +14,7 @@ class UIImageExtensionTests: XCTestCase {
     }
 
     func testInitWithConfiguration() {
+        XCTFail("Test fail.")
         if #available(iOS 13.0, *) {
             let configurations = [
                 UITraitCollection(forceTouchCapability: .available),
