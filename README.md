@@ -3,6 +3,9 @@
 </p>
 
 <p align="center">
+	<a href="https://app.bitrise.io/app/f9e56287b4a18852#/builds">
+		<img src="https://app.bitrise.io/app/f9e56287b4a18852/status.svg?token=PwV0AjHnLm32ht_GGzff3w&branch=stable" alt="Build Status">
+	</a>
     <a href="#">
         <img src="https://img.shields.io/badge/swift-5.1-FFAC45.svg" alt="Swift: 5.1">
     </a>
