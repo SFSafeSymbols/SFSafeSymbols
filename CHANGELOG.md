@@ -8,11 +8,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ### Added
 
 - Add a changelog file keeping track of the changes (By [David Knothe](https://github.com/knothed))
-- Add iOS 13-availability tests to the tests (By [David Knothe](https://github.com/knothed))
 
 ### Changed
 
 - Sort enum cases alphabetically (By [David Knothe](https://github.com/knothed))
+
+### Fixed
+
+- Fix tests for iOS 12 and below; instead of not compiling, the tests simply fail (By [David Knothe](https://github.com/knothed))
 
 
 
