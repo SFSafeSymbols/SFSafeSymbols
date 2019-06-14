@@ -29,6 +29,9 @@
     <a href="https://github.com/Carthage/Carthage">
         <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage: compatible">
     </a>
+    <a href="https://cocoapods.org/pods/SFSafeSymbols">
+        <img src="https://img.shields.io/badge/CocoaPods-compatible-4BC51D.svg?style=flat" alt="Carthage: compatible">
+    </a>
 </p>
 
 <p align="center">
@@ -53,7 +56,7 @@ It didn't took long until [first ideas came up](https://twitter.com/simjp/status
 
 ## Installation
 
-SFSafeSymbols can be installed via Swift Package Manager, Accio or Carthage:
+SFSafeSymbols can be installed via Swift Package Manager, Accio, Carthage or CocoaPods:
 
 ### Swift Package Manager
 
@@ -78,6 +81,16 @@ github "piknotech/SFSafeSymbols" ~> 0.1
 ```
 
 Then run `carthage update`.
+
+### CocoaPods
+
+Add the following entry in your Podfile:
+
+```rb
+pod 'SFSafeSymbols', '~> 0.1'
+```
+
+Then run `pod install`.
 
 ## Usage
 
@@ -105,7 +118,7 @@ let image2 = SFSymbol.eCircleFill.toImage(withConfiguration: /* Some UIImage.Con
 let image3 = SFSymbol._11CircleFill.toImage(compatibleWith: /* Some UITraitCollection */)
 ```
 
-All symbols are tested so you can be sure your code won't crash because an image couldn't be found!
+**All symbols are tested** so you can be sure your code won't crash because an image couldn't be found!
 
 ## Contributing
 
