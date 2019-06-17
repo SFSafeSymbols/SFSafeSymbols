@@ -123,8 +123,6 @@ You can also create a `SwiftUI.Image` by using new initializers that take a `SFS
 
 ```swift
 Image(systemSymbol: .cCircle)
-Image(systemSymbol: .cCircle, withConfiguration: /* Some UIImage.Configuration */)
-Image(systemSymbol: .cCircle, compatibleWith: /* Some UITraitCollection */)
 ```
 
 **All symbols are tested** so you can be sure your code won't crash because an image couldn't be found!
