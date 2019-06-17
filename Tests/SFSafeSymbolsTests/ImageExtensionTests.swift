@@ -3,6 +3,8 @@ import XCTest
 
 #if canImport(SwiftUI)
 import SwiftUI
+#else
+XCTFail("SwiftUI ist required.")
 #endif
 
 class ImageExtensionTests: XCTestCase {
@@ -13,7 +15,7 @@ class ImageExtensionTests: XCTestCase {
                 _ = Image(systemSymbol: symbol)
             }
         } else {
-            XCTFail("iOS 13 is required for SFSafeSymbols and SwiftUI.Image.")
+            XCTFail("iOS 13 is required for SFSafeSymbols.")
         }
     }
 }
