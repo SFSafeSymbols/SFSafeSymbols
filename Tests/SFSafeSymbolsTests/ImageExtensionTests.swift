@@ -1,11 +1,6 @@
 @testable import SFSafeSymbols
 import XCTest
-
-#if canImport(SwiftUI)
 import SwiftUI
-#else
-XCTFail("SwiftUI ist required.")
-#endif
 
 class ImageExtensionTests: XCTestCase {
     func testSimpleInit() {
