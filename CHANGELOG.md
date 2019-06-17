@@ -17,6 +17,15 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - None
 
+
+## [0.3.0] - 2019-06-17
+
+### Added
+
+- Add support for SwiftUI.Image (By [Samuel Mellert](github.com/samuel-mellert))
+
+
+
 ## [0.2.0] - 2019-06-15
 
 ### Added
