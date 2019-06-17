@@ -1,6 +1,9 @@
 @testable import SFSafeSymbols
 import XCTest
+
+#if canImport(SwiftUI)
 import SwiftUI
+#endif
 
 class ImageExtensionTests: XCTestCase {
     func testSimpleInit() {
