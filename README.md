@@ -49,7 +49,7 @@
 At WWDC 2019, Apple announced a new library of icons that come included with iOS 13. To browse them, there's even a [dedicated Mac app](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/) called SF Symbols. However, developers still have to copy the name of an icon and reference it unsafely, resulting in code like this:
 
 ```swift
-let image = UIImage(systemName: "circle.fill")
+UIImage(systemName: "circle.fill")
 ```
 
 It didn't took long until [first ideas came up](https://twitter.com/simjp/status/1135642837322588161?s=12) to make these icons accessible in a safe way using a framework. And this is just what this framework does!
@@ -105,17 +105,17 @@ e.circle.fill   ==> SFSymbol.eCircleFill
 You can now either create the corresponding `UIImage` by initializing it using the `SFSymbol`...
 
 ```swift
-let image = UIImage(systemSymbol: .cCircle)
-let image2 = UIImage(systemSymbol: .eCircleFill, withConfiguration: /* Some UIImage.Configuration */)
-let image3 = UIImage(systemSymbol: ._11CircleFill, compatibleWith: /* Some UITraitCollection */)
+UIImage(systemSymbol: .cCircle)
+UIImage(systemSymbol: .eCircleFill, withConfiguration: /* Some UIImage.Configuration */)
+UIImage(systemSymbol: ._11CircleFill, compatibleWith: /* Some UITraitCollection */)
 ```
 
 ... or by calling a function on your  `SFSymbol` instance:
 
 ```swift
-let image = SFSymbol.cCircle.toImage
-let image2 = SFSymbol.eCircleFill.toImage(withConfiguration: /* Some UIImage.Configuration */)
-let image3 = SFSymbol._11CircleFill.toImage(compatibleWith: /* Some UITraitCollection */)
+SFSymbol.cCircle.toImage
+SFSymbol.eCircleFill.toImage(withConfiguration: /* Some UIImage.Configuration */)
+SFSymbol._11CircleFill.toImage(compatibleWith: /* Some UITraitCollection */)
 ```
 
 
