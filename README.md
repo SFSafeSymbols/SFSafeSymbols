@@ -10,8 +10,8 @@
         <img src="https://img.shields.io/badge/swift-5.1-FFAC45.svg" alt="Swift: 5.1">
     </a>
     <a href="https://github.com/piknotech/SFSafeSymbols/releases">
-        <img src="https://img.shields.io/badge/version-0.1.1-blue.svg"
-        alt="Version: 0.1.1">
+        <img src="https://img.shields.io/badge/version-0.2.0-blue.svg"
+        alt="Version: 0.2.0">
     </a>
     <a href="#">
     <img src="https://img.shields.io/badge/Platforms-iOS-FF69B4.svg"
@@ -28,6 +28,9 @@
     </a>
     <a href="https://github.com/Carthage/Carthage">
         <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage: compatible">
+    </a>
+    <a href="https://cocoapods.org/pods/SFSafeSymbols">
+        <img src="https://img.shields.io/badge/CocoaPods-compatible-4BC51D.svg?style=flat" alt="Carthage: compatible">
     </a>
 </p>
 
@@ -53,14 +56,14 @@ It didn't took long until [first ideas came up](https://twitter.com/simjp/status
 
 ## Installation
 
-SFSafeSymbols can be installed via Swift Package Manager, Accio or Carthage:
+SFSafeSymbols can be installed via Swift Package Manager, Accio, Carthage or CocoaPods:
 
 ### Swift Package Manager
 
 To integrate using Apple's Swift package manager, add the following as a dependency to your `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/piknotech/SFSafeSymbols.git", .upToNextMajor(from: "0.1"))
+.package(url: "https://github.com/piknotech/SFSafeSymbols.git", .upToNextMajor(from: "0.2"))
 ```
 
 After specifying `"SFSafeSymbols"` as a dependency of the target in which you want to use it, run `swift package update`.
@@ -74,10 +77,20 @@ Do the same configurations as for Swift PM, then run `accio update` instead of `
 Make the following entry in your Cartfile:
 
 ```
-github "piknotech/SFSafeSymbols" ~> 0.1
+github "piknotech/SFSafeSymbols" ~> 0.2
 ```
 
 Then run `carthage update`.
+
+### CocoaPods
+
+Add the following entry in your Podfile:
+
+```rb
+pod 'SFSafeSymbols', '~> 0.2'
+```
+
+Then run `pod install`.
 
 ## Usage
 
@@ -114,7 +127,7 @@ Image(systemSymbol: .cCircle, withConfiguration: /* Some UIImage.Configuration *
 Image(systemSymbol: .cCircle, compatibleWith: /* Some UITraitCollection */)
 ```
 
-All symbols are tested so you can be sure your code won't crash because an image couldn't be found!
+**All symbols are tested** so you can be sure your code won't crash because an image couldn't be found!
 
 ## Contributing
 

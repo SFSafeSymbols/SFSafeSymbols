@@ -7,7 +7,22 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
+- None
+
+### Changed
+
+- None
+
+### Fixed
+
+- None
+
+## [0.2.0] - 2019-06-15
+
+### Added
+
 - Add a changelog file keeping track of the changes (By [David Knothe](https://github.com/knothed))
+- Add support for CocoaPods (By [Frederick Pietschmann](https://github.com/fredpi))
 
 ### Changed
 
