@@ -1,10 +1,7 @@
-#if canImport(SwiftUI)
 import SwiftUI
-#endif
 
 @available(iOS 13.0, *)
 public extension Image {
-
     /// Creates a instance of `Image` with a system symbol image of the given type.
     ///
     /// - Parameter systemSymbol: The `SFSymbol` describing this image.
@@ -12,6 +9,4 @@ public extension Image {
     init(systemSymbol: SFSymbol) {
         self.init(systemName: systemSymbol.rawValue)
     }
-
 }
-
