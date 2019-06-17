@@ -10,8 +10,8 @@
         <img src="https://img.shields.io/badge/swift-5.1-FFAC45.svg" alt="Swift: 5.1">
     </a>
     <a href="https://github.com/piknotech/SFSafeSymbols/releases">
-        <img src="https://img.shields.io/badge/version-0.2.0-blue.svg"
-        alt="Version: 0.2.0">
+        <img src="https://img.shields.io/badge/version-0.3.0-blue.svg"
+        alt="Version: 0.3.0">
     </a>
     <a href="#">
     <img src="https://img.shields.io/badge/Platforms-iOS-FF69B4.svg"
@@ -49,7 +49,7 @@
 At WWDC 2019, Apple announced a new library of icons that come included with iOS 13. To browse them, there's even a [dedicated Mac app](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/) called SF Symbols. However, developers still have to copy the name of an icon and reference it unsafely, resulting in code like this:
 
 ```swift
-let image = UIImage(systemName: "circle.fill")
+UIImage(systemName: "circle.fill")
 ```
 
 It didn't took long until [first ideas came up](https://twitter.com/simjp/status/1135642837322588161?s=12) to make these icons accessible in a safe way using a framework. And this is just what this framework does!
@@ -63,7 +63,7 @@ SFSafeSymbols can be installed via Swift Package Manager, Accio, Carthage or Coc
 To integrate using Apple's Swift package manager, add the following as a dependency to your `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/piknotech/SFSafeSymbols.git", .upToNextMajor(from: "0.2"))
+.package(url: "https://github.com/piknotech/SFSafeSymbols.git", .upToNextMajor(from: "0.3"))
 ```
 
 After specifying `"SFSafeSymbols"` as a dependency of the target in which you want to use it, run `swift package update`.
@@ -77,7 +77,7 @@ Do the same configurations as for Swift PM, then run `accio update` instead of `
 Make the following entry in your Cartfile:
 
 ```
-github "piknotech/SFSafeSymbols" ~> 0.2
+github "piknotech/SFSafeSymbols" ~> 0.3
 ```
 
 Then run `carthage update`.
@@ -87,7 +87,7 @@ Then run `carthage update`.
 Add the following entry in your Podfile:
 
 ```rb
-pod 'SFSafeSymbols', '~> 0.2'
+pod 'SFSafeSymbols', '~> 0.3'
 ```
 
 Then run `pod install`.
@@ -105,17 +105,24 @@ e.circle.fill   ==> SFSymbol.eCircleFill
 You can now either create the corresponding `UIImage` by initializing it using the `SFSymbol`...
 
 ```swift
-let image = UIImage(systemSymbol: .cCircle)
-let image2 = UIImage(systemSymbol: .eCircleFill, withConfiguration: /* Some UIImage.Configuration */)
-let image3 = UIImage(systemSymbol: ._11CircleFill, compatibleWith: /* Some UITraitCollection */)
+UIImage(systemSymbol: .cCircle)
+UIImage(systemSymbol: .eCircleFill, withConfiguration: /* Some UIImage.Configuration */)
+UIImage(systemSymbol: ._11CircleFill, compatibleWith: /* Some UITraitCollection */)
 ```
 
 ... or by calling a function on your  `SFSymbol` instance:
 
 ```swift
-let image = SFSymbol.cCircle.toImage
-let image2 = SFSymbol.eCircleFill.toImage(withConfiguration: /* Some UIImage.Configuration */)
-let image3 = SFSymbol._11CircleFill.toImage(compatibleWith: /* Some UITraitCollection */)
+SFSymbol.cCircle.toImage
+SFSymbol.eCircleFill.toImage(withConfiguration: /* Some UIImage.Configuration */)
+SFSymbol._11CircleFill.toImage(compatibleWith: /* Some UITraitCollection */)
+```
+
+
+You can also create a `SwiftUI.Image` by using new initializers that take a `SFSymbol` reference:
+
+```swift
+Image(systemSymbol: .cCircle)
 ```
 
 **All symbols are tested** so you can be sure your code won't crash because an image couldn't be found!
