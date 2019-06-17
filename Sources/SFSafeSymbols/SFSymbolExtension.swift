@@ -13,7 +13,7 @@ public extension SFSymbol {
 
     /// Retrieves the corresponding `UIImage` with the given configuration.
     ///
-    /// - Parameter withConfiguration: The `UIImage.Configuration` applied to this system image.
+    /// - Parameter configuration: The `UIImage.Configuration` applied to this system image.
     /// - Returns: The corresponding `UIImage`.
     @available(iOS 13.0, *)
     func toImage(withConfiguration configuration: UIImage.Configuration?) -> UIImage {
@@ -22,7 +22,7 @@ public extension SFSymbol {
 
     /// Retrieves the corresponding `UIImage` with the given traits.
     ///
-    /// - Parameter compatibleWith: The `UITraitCollection` applied to this system
+    /// - Parameter traitCollection: The `UITraitCollection` applied to this system
     /// - Returns: The corresponding `UIImage`.
     @available(iOS 13.0, *)
     func toImage(compatibleWith traitCollection: UITraitCollection?) -> UIImage {
