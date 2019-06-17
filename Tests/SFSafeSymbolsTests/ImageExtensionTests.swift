@@ -1,5 +1,8 @@
 @testable import SFSafeSymbols
 import XCTest
+
+#if canImport(SwiftUI)
+
 import SwiftUI
 
 class ImageExtensionTests: XCTestCase {
@@ -14,3 +17,13 @@ class ImageExtensionTests: XCTestCase {
         }
     }
 }
+
+#else
+
+class JustFail: XCTestCase {
+    func justFail() {
+        XCTFail("SwiftUI should be available when testing.")
+    }
+}
+
+#endif
