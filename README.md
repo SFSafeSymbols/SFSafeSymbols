@@ -20,8 +20,9 @@
     <a href="https://github.com/piknotech/SFSafeSymbols/blob/stable/LICENSE.md">
         <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg" alt="License: MIT">
     </a>
+    <br />
     <a href="https://github.com/apple/swift-package-manager">
-        <img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg" alt="Swift Package Manager: Compatible">
+        <img src="https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg" alt="Swift Package Manager: Compatible">
     </a>
     <a href="https://github.com/JamitLabs/Accio">
         <img src="https://img.shields.io/badge/Accio-supported-0A7CF5.svg?style=flat" alt="Accio: supported">
@@ -52,7 +53,7 @@ At WWDC 2019, Apple announced a new library of icons that come included with iOS
 UIImage(systemName: "circle.fill")
 ```
 
-It didn't took long until [first ideas came up](https://twitter.com/simjp/status/1135642837322588161?s=12) to make these icons accessible in a safe way using a framework. And this is just what this framework does!
+It didn't take long until [first ideas came up](https://twitter.com/simjp/status/1135642837322588161?s=12) to make these icons accessible in a safe way using a framework. And this is just what this framework does!
 
 ## Installation
 
@@ -70,11 +71,11 @@ After specifying `"SFSafeSymbols"` as a dependency of the target in which you wa
 
 ### Accio
 
-Do the same configurations as for Swift PM, then run `accio update` instead of `swift package update`.
+Do the same configurations as for SwiftPM, then run `accio update` instead of `swift package update`.
 
 ### Carthage
 
-Make the following entry in your Cartfile:
+Make the following entry to your Cartfile:
 
 ```
 github "piknotech/SFSafeSymbols" ~> 0.3
@@ -84,7 +85,7 @@ Then run `carthage update`.
 
 ### CocoaPods
 
-Add the following entry in your Podfile:
+Add the following entry to your Podfile:
 
 ```rb
 pod 'SFSafeSymbols', '~> 0.3'
@@ -102,7 +103,7 @@ e.circle.fill   ==> SFSymbol.eCircleFill
 11.circle.fill  ==> SFSymbol._11CircleFill
 ```
 
-You can now either create the corresponding `UIImage` by initializing it using the `SFSymbol`...
+You can now either create the corresponding `UIImage` by initializing it using the `SFSymbol`:
 
 ```swift
 UIImage(systemSymbol: .cCircle)
@@ -110,14 +111,13 @@ UIImage(systemSymbol: .eCircleFill, withConfiguration: /* Some UIImage.Configura
 UIImage(systemSymbol: ._11CircleFill, compatibleWith: /* Some UITraitCollection */)
 ```
 
-... or by calling a function on your  `SFSymbol` instance:
+Or by calling a function on your `SFSymbol` instance:
 
 ```swift
 SFSymbol.cCircle.toImage
 SFSymbol.eCircleFill.toImage(withConfiguration: /* Some UIImage.Configuration */)
 SFSymbol._11CircleFill.toImage(compatibleWith: /* Some UITraitCollection */)
 ```
-
 
 You can also create a `SwiftUI.Image` by using new initializers that take a `SFSymbol` reference:
 
@@ -129,7 +129,7 @@ Image(systemSymbol: .cCircle)
 
 ## Contributing
 
-Contributions are very much welcomed! See [CONTRIBUTING.md](https://github.com/piknotech/SFSafeSymbols/blob/stable/CONTRIBUTING.md) for more information.
+Contributions are very much welcome! See [CONTRIBUTING.md](https://github.com/piknotech/SFSafeSymbols/blob/stable/CONTRIBUTING.md) for more information.
 
 ## License
 This library is released under the [MIT License](http://opensource.org/licenses/MIT). See [LICENSE.md](https://github.com/piknotech/SFSafeSymbols/blob/stable/LICENSE.md) for details.
