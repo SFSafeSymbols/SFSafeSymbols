@@ -75,7 +75,7 @@ Do the same configurations as for SwiftPM, then run `accio update` instead of `s
 
 ### Carthage
 
-Make the following entry to your Cartfile:
+Add the following entry to your Cartfile:
 
 ```
 github "piknotech/SFSafeSymbols" ~> 0.3
