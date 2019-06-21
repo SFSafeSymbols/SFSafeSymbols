@@ -22,16 +22,13 @@
     </a>
     <br />
     <a href="https://github.com/apple/swift-package-manager">
-        <img src="https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg" alt="Swift Package Manager: Compatible">
+        <img src="https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg" alt="SwiftPM: Compatible">
     </a>
     <a href="https://github.com/JamitLabs/Accio">
         <img src="https://img.shields.io/badge/Accio-supported-0A7CF5.svg?style=flat" alt="Accio: supported">
     </a>
     <a href="https://github.com/Carthage/Carthage">
         <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage: compatible">
-    </a>
-    <a href="https://cocoapods.org/pods/SFSafeSymbols">
-        <img src="https://img.shields.io/badge/CocoaPods-compatible-4BC51D.svg?style=flat" alt="Carthage: compatible">
     </a>
 </p>
 
@@ -85,13 +82,7 @@ Then run `carthage update`.
 
 ### CocoaPods
 
-Add the following entry to your Podfile:
-
-```rb
-pod 'SFSafeSymbols', '~> 0.3'
-```
-
-Then run `pod install`.
+CocoaPods support is currently on hold as there are some compatibility issues. However, we are working eagerly to readd it as soon as possible. [This issue](https://github.com/piknotech/SFSafeSymbols/issues/28) will track progress on the matter.
 
 ## Usage
 

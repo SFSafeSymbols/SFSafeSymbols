@@ -4,11 +4,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/piknot
 
 ## Getting Started
 
-In order to generate the **Xcode project** to develop within, run this command:
-
-```
-swift package generate-xcodeproj
-```
+To get started contributing, just open the existing Xcode project and you're ready to go!
 
 ### Commit Messages
 
