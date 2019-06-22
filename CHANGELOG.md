@@ -17,12 +17,26 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - None
 
+## [0.3.1] - 2019-06-22
+
+### Added
+
+- Extended support for `SwiftUI.Image` initializer to macOS, tvOS and watchOS platforms (By [Eric Lewis](github.com/ericlewis))
+
+### Changed
+
+- Temporarily removed CocoaPods support (By [Frederick Pietschmann](github.com/fredpi))
+
+### Fixed
+
+- None
+
 
 ## [0.3.0] - 2019-06-17
 
 ### Added
 
-- Add support for SwiftUI.Image (By [Samuel Mellert](github.com/samuel-mellert))
+- Added support for SwiftUI.Image (By [Samuel Mellert](github.com/samuel-mellert))
 
 
 
@@ -30,23 +44,23 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- Add a changelog file keeping track of the changes (By [David Knothe](https://github.com/knothed))
-- Add support for CocoaPods (By [Frederick Pietschmann](https://github.com/fredpi))
+- Added a changelog file keeping track of the changes (By [David Knothe](https://github.com/knothed))
+- Added support for CocoaPods (By [Frederick Pietschmann](https://github.com/fredpi))
 
 ### Changed
 
-- Sort enum cases alphabetically (By [David Knothe](https://github.com/knothed))
+- Sorted enum cases alphabetically (By [David Knothe](https://github.com/knothed))
 
 ### Fixed
 
-- Fix tests for iOS 12 and below; instead of not compiling, the tests simply fail (By [David Knothe](https://github.com/knothed))
+- Fixed tests for iOS 12 and below; instead of not compiling, the tests simply fail (By [David Knothe](https://github.com/knothed))
 
 
 
 ## [0.1.1] - 2019-06-04
 
 ### Changed
-- Make library static (By [Frederick Pietschmann](https://github.com/fredpi))
+- Made library static (By [Frederick Pietschmann](https://github.com/fredpi))
 
 
 

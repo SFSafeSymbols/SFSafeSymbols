@@ -10,8 +10,8 @@
         <img src="https://img.shields.io/badge/swift-5.1-FFAC45.svg" alt="Swift: 5.1">
     </a>
     <a href="https://github.com/piknotech/SFSafeSymbols/releases">
-        <img src="https://img.shields.io/badge/version-0.3.0-blue.svg"
-        alt="Version: 0.3.0">
+        <img src="https://img.shields.io/badge/version-0.3.1-blue.svg"
+        alt="Version: 0.3.1">
     </a>
     <a href="#">
     <img src="https://img.shields.io/badge/Platforms-iOS-FF69B4.svg"
