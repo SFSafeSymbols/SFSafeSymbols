@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 import UIKit
 
 @available(iOS 13.0, *)
@@ -25,3 +26,4 @@ public extension UIImage {
         self.init(systemName: systemSymbol.rawValue, compatibleWith: traitCollection)!
     }
 }
+#endif
