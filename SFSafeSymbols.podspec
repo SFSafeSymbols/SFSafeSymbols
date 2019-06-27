@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'SFSafeSymbols'
-  spec.version = '0.3.1'
+  spec.version = '0.4.0'
   spec.summary = "Safely access Apple's SF Symbols using static typing"
 
   spec.homepage = 'https://github.com/piknotech/SFSafeSymbols'
