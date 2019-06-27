@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.swift_version = '5.1'
 
-  spec.source = { :git => 'https://github.com/piknotech/SFSafeSymbols.git', :tag => '#{spec.version}' }
+  spec.source = { :git => "https://github.com/piknotech/SFSafeSymbols.git", :tag => "#{spec.version}" }
   spec.source_files = 'Sources/**/*'
 
   spec.frameworks = 'SwiftUI', 'UIKit'
