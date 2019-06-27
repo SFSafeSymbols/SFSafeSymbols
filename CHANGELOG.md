@@ -11,6 +11,22 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Changed
 
+- None
+
+### Fixed
+
+- None
+
+
+
+## [0.4.0] - 2019-06-27
+
+### Added
+
+- None
+
+### Changed
+
 - Readd CocoaPods compatibility (By [Frederick Pietschmann](github.com/fredpi))
 - Drop `UIImage(systemSymbol:compatibleWith:)` initializer (By [Frederick Pietschmann](github.com/fredpi))
 - Drop `SFSymbol.toImage`, `SFSymbol.toImage(withConfiguration:)`,  
@@ -25,6 +41,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - Drop macOS support (that didn't work). (By [Thiago Holanda](https://github.com/unnamedd))
 
+
+
 ## [0.3.1] - 2019-06-22
 
 ### Added
@@ -38,6 +56,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ### Fixed
 
 - None
+
 
 
 ## [0.3.0] - 2019-06-17
