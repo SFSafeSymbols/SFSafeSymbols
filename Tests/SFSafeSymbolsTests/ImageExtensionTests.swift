@@ -1,4 +1,7 @@
 @testable import SFSafeSymbols
+
+#if !os(watchOS)
+
 import XCTest
 
 #if canImport(SwiftUI)
@@ -6,14 +9,14 @@ import XCTest
 import SwiftUI
 
 class ImageExtensionTests: XCTestCase {
-    func testSimpleInit() {
-        if #available(iOS 13.0, *) {
+    func testInit() {
+        if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
             SFSymbol.allCases.forEach { symbol in
                 // If this doesn't crash, everything works fine
                 _ = Image(systemSymbol: symbol)
             }
         } else {
-            XCTFail("iOS 13 is required for SFSafeSymbols.")
+            XCTFail("iOS 13 or tvOS 13 is required to test  SFSafeSymbols.")
         }
     }
 }
@@ -25,5 +28,7 @@ class JustFail: XCTestCase {
         XCTFail("SwiftUI should be available when testing.")
     }
 }
+
+#endif
 
 #endif

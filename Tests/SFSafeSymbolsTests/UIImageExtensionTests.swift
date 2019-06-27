@@ -1,20 +1,23 @@
 @testable import SFSafeSymbols
+
+#if !os(watchOS)
+
 import XCTest
 
 class UIImageExtensionTests: XCTestCase {
     func testSimpleInit() {
-        if #available(iOS 13.0, *) {
+        if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
             SFSymbol.allCases.forEach { symbol in
                 // If this doesn't crash, everything works fine
                 _ = UIImage(systemSymbol: symbol)
             }
         } else {
-            XCTFail("iOS 13 is required for SFSafeSymbols.")
+            XCTFail("iOS 13 or tvOS 13 is required to test  SFSafeSymbols.")
         }
     }
 
     func testInitWithConfiguration() {
-        if #available(iOS 13.0, *) {
+        if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
             let configurations = [
                 UITraitCollection(forceTouchCapability: .available),
                 UITraitCollection(horizontalSizeClass: .compact),
@@ -33,31 +36,9 @@ class UIImageExtensionTests: XCTestCase {
                 }
             }
         } else {
-            XCTFail("iOS 13 is required for SFSafeSymbols.")
-        }
-    }
-
-    func testInitWithTraits() {
-        if #available(iOS 13.0, *) {
-            let traits = [
-                UITraitCollection(forceTouchCapability: .available),
-                UITraitCollection(horizontalSizeClass: .compact),
-                UITraitCollection(horizontalSizeClass: .regular),
-                UITraitCollection(verticalSizeClass: .compact),
-                UITraitCollection(verticalSizeClass: .unspecified),
-                UITraitCollection(legibilityWeight: .bold),
-                UITraitCollection(legibilityWeight: .regular),
-                UITraitCollection(legibilityWeight: .unspecified),
-            ]
-
-            SFSymbol.allCases.forEach { symbol in
-                traits.forEach { trait in
-                    // If this doesn't crash, everything works fine
-                    _ = UIImage(systemSymbol: symbol, compatibleWith: trait)
-                }
-            }
-        } else {
-            XCTFail("iOS 13 is required for SFSafeSymbols.")
+            XCTFail("iOS 13 or tvOS 13 is required to test  SFSafeSymbols.")
         }
     }
 }
+
+#endif
