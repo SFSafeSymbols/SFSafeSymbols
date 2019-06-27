@@ -19,6 +19,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 - Adjust deployment targets (By [Frederick Pietschmann](github.com/fredpi))
 - Improve documentation of available platforms and available initializers (By [Frederick Pietschmann](github.com/fredpi))
 - Adjust file structure (By [Frederick Pietschmann](github.com/fredpi))
+- Test different scales, weights and pointSizes (By [Frederick Pietschmann](github.com/fredpi))
 
 ### Fixed
 
