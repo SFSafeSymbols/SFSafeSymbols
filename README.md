@@ -14,8 +14,8 @@
         alt="Version: 0.3.1">
     </a>
     <a href="#">
-    <img src="https://img.shields.io/badge/Platforms-iOS-FF69B4.svg"
-        alt="Platforms: iOS">
+    <img src="https://img.shields.io/badge/Platforms-iOS%20|%20tvOS%20|%20watchOS-FF69B4.svg"
+        alt="Platforms: iOS – tvOS – watchOS">
     </a>
     <a href="https://github.com/piknotech/SFSafeSymbols/blob/stable/LICENSE.md">
         <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg" alt="License: MIT">
@@ -25,10 +25,13 @@
         <img src="https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg" alt="SwiftPM: Compatible">
     </a>
     <a href="https://github.com/JamitLabs/Accio">
-        <img src="https://img.shields.io/badge/Accio-supported-0A7CF5.svg?style=flat" alt="Accio: supported">
+        <img src="https://img.shields.io/badge/Accio-supported-0A7CF5.svg?style=flat" alt="Accio: Supported">
     </a>
     <a href="https://github.com/Carthage/Carthage">
-        <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage: compatible">
+        <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage: Compatible">
+    </a>
+    <a href="https://cocoapods.org/pods/SFSafeSymbols">
+    <img src="https://img.shields.io/badge/CocoaPods-compatible-4BC51D.svg?style=flat" alt="CocoaPods: Compatible">
     </a>
 </p>
 
@@ -50,11 +53,13 @@ At WWDC 2019, Apple announced a new library of icons that come included with iOS
 UIImage(systemName: "circle.fill")
 ```
 
-It didn't take long until [first ideas came up](https://twitter.com/simjp/status/1135642837322588161?s=12) to make these icons accessible in a safe way using a framework. And this is just what this framework does!
+It didn't take long until [first ideas came up](https://twitter.com/simjp/status/1135642837322588161?s=12) to make these icons accessible in a safe way using a framework. And this is just what `SFSafeSymbols` does!
 
 ## Installation
 
-SFSafeSymbols can be installed via Swift Package Manager, Accio, Carthage or CocoaPods:
+`SFSafeSymbols` can be installed via Swift Package Manager, Accio, Carthage or CocoaPods.
+
+Supported platforms are `iOS (11.0+)`, `tvOS (11.0+)` and `watchOS (6.0+)`, although the actual functionality is of course only accessible starting with `iOS 13.0`, `tvOS 13.0` and `watchOS 6.0`.
 
 ### Swift Package Manager
 
@@ -82,41 +87,40 @@ Then run `carthage update`.
 
 ### CocoaPods
 
-CocoaPods support is currently on hold as there are some compatibility issues. However, we are working eagerly to readd it as soon as possible. [This issue](https://github.com/piknotech/SFSafeSymbols/issues/28) will track progress on the matter.
+Add the following entry to your Podfile:
+
+```rb
+pod 'SFSafeSymbols', '~> 0.3'
+```
+
+Then run `pod install`.
 
 ## Usage
 
-All the system icons are accessible via the `SFSymbol` enum. They are named similar to Apple's naming, but use a lower camel case style and prefix names with leading numbers with a `_` character:
+All the system icons are accessible via the `SFSymbol` enum. They are named similar to Apple's names, but use a lower camel case style and prefix names with leading numbers with a `_` character:
 
 ```
-c.circle        ==> SFSymbol.cCircle
-e.circle.fill   ==> SFSymbol.eCircleFill
-11.circle.fill  ==> SFSymbol._11CircleFill
+c.circle        ~> SFSymbol.cCircle
+e.circle.fill   ~> SFSymbol.eCircleFill
+11.circle.fill  ~> SFSymbol._11CircleFill
 ```
 
-You can now either create the corresponding `UIImage` by initializing it using the `SFSymbol`:
+A SF Symbol `UIImage` can now be initialized using the `SFSymbol` enum. This image is already unwrapped, so you get a `UIImage` instead of a `UIImage?`:
 
 ```swift
 UIImage(systemSymbol: .cCircle)
-UIImage(systemSymbol: .eCircleFill, withConfiguration: /* Some UIImage.Configuration */)
-UIImage(systemSymbol: ._11CircleFill, compatibleWith: /* Some UITraitCollection */)
+UIImage(systemSymbol: SFSymbol.eCircleFill)
+UIImage(systemSymbol: ._11CircleFill, withConfiguration: /* Some UIImage.Configuration */)
 ```
 
-Or by calling a function on your `SFSymbol` instance:
-
-```swift
-SFSymbol.cCircle.toImage
-SFSymbol.eCircleFill.toImage(withConfiguration: /* Some UIImage.Configuration */)
-SFSymbol._11CircleFill.toImage(compatibleWith: /* Some UITraitCollection */)
-```
-
-You can also create a `SwiftUI.Image` by using new initializers that take a `SFSymbol` reference:
+A SF Symbol `SwiftUI.Image` can also be initialized using the `SFSymbol` enum. It's also unwrapped, so you get a `SwiftUI.Image` instead of a `SwiftUI.Image?`:
 
 ```swift
 Image(systemSymbol: .cCircle)
+Image(systemSymbol: SFSymbol.eCircleFill)
 ```
 
-**All symbols are tested** so you can be sure your code won't crash because an image couldn't be found!
+**All symbols are tested via a CI**, so you can be sure your code won't crash because an image couldn't be found!
 
 ## Contributing
 

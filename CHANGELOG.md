@@ -11,11 +11,19 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Changed
 
-- None
+- Readd CocoaPods compatibility (By [Frederick Pietschmann](github.com/fredpi))
+- Drop `UIImage(systemSymbol:compatibleWith:)` initializer (By [Frederick Pietschmann](github.com/fredpi))
+- Drop `SFSymbol.toImage`, `SFSymbol.toImage(withConfiguration:)`,  
+   `SFSymbol.toImage(compatibleWith:)` methods.  
+   Use the `UIImage(systemSymbol:)` initializers instead (By [Frederick Pietschmann](github.com/fredpi))
+- Adjust deployment targets (By [Frederick Pietschmann](github.com/fredpi))
+- Improve documentation of available platforms and available initializers (By [Frederick Pietschmann](github.com/fredpi))
+- Adjust file structure (By [Frederick Pietschmann](github.com/fredpi))
+- Test different scales, weights and pointSizes (By [Frederick Pietschmann](github.com/fredpi))
 
 ### Fixed
 
-- None
+- Drop macOS support (that didn't work). (By [Thiago Holanda](https://github.com/unnamedd))
 
 ## [0.3.1] - 2019-06-22
 

@@ -50,15 +50,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "SFSafeSymbols::SFSafeSymbols"
-            BuildableName = "SFSafeSymbols.framework"
-            BlueprintName = "SFSafeSymbols"
-            ReferencedContainer = "container:SFSafeSymbols.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
