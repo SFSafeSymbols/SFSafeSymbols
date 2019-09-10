@@ -13,6 +13,7 @@ class ImageExtensionTests: XCTestCase {
         if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
             SFSymbol.allCases.forEach { symbol in
                 // If this doesn't crash, everything works fine
+                print("Testing existence of \(symbol) via Image init")
                 _ = Image(systemSymbol: symbol)
             }
         } else {

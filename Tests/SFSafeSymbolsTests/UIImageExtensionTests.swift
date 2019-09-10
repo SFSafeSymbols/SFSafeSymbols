@@ -9,6 +9,7 @@ class UIImageExtensionTests: XCTestCase {
         if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
             SFSymbol.allCases.forEach { symbol in
                 // If this doesn't crash, everything works fine
+                print("Testing existence of \(symbol) via UIImage init")
                 _ = UIImage(systemSymbol: symbol)
             }
         } else {
@@ -71,6 +72,7 @@ class UIImageExtensionTests: XCTestCase {
             SFSymbol.allCases.forEach { symbol in
                 manyConfigurations.forEach { configuration in
                     // If this doesn't crash, everything works fine
+                    print("Testing existence of \(symbol) with configuration \(configuration)")
                     _ = UIImage(systemSymbol: symbol, withConfiguration: configuration)
                 }
             }
