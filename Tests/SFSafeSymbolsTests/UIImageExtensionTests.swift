@@ -5,11 +5,22 @@
 import XCTest
 
 class UIImageExtensionTests: XCTestCase {
+    func testFailingSymbols() {
+        // This is a test designed to print all the failing symbols
+        if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
+            let failingSymbols = SFSymbol.allCases.map { $0.rawValue }.map { ($0, UIImage(systemName: $0)) }.filter { $0.1 == nil }.map { $0.0 }
+            print("The following symbols are failing: \(failingSymbols)")
+            XCTAssert(failingSymbols.isEmpty, "There should be no failing symbols.")
+        } else {
+            XCTFail("iOS 13 or tvOS 13 is required to test  SFSafeSymbols.")
+        }
+    }
+
     func testSimpleInit() {
         if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
             SFSymbol.allCases.forEach { symbol in
                 // If this doesn't crash, everything works fine
-                print("Testing existence of \(symbol) via UIImage init")
+                print("Testing existence of \(symbol.rawValue) via UIImage init")
                 _ = UIImage(systemSymbol: symbol)
             }
         } else {
@@ -72,7 +83,7 @@ class UIImageExtensionTests: XCTestCase {
             SFSymbol.allCases.forEach { symbol in
                 manyConfigurations.forEach { configuration in
                     // If this doesn't crash, everything works fine
-                    print("Testing existence of \(symbol) with configuration \(configuration)")
+                    print("Testing existence of \(symbol.rawValue) with configuration \(configuration)")
                     _ = UIImage(systemSymbol: symbol, withConfiguration: configuration)
                 }
             }
