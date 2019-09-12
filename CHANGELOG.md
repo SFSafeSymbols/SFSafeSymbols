@@ -19,6 +19,22 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 
 
+## [1.0.0] - 2019-09-12
+
+### Added
+
+- None
+
+### Changed
+
+- Update to symbols that are actually available in the final iOS 13, tVOS 13 and watchOS 6 releases (By [Frederick Pietschmann](github.com/fredpi))
+
+### Fixed
+
+- None
+
+
+
 ## [0.4.0] - 2019-06-27
 
 ### Added
