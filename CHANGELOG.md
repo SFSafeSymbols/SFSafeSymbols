@@ -15,7 +15,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Fixed
 
-- None
+- macOS compilation—I know, but still (By [Chris Zielinski](https://github.com/chriszielinski))
 
 
 
@@ -27,7 +27,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Changed
 
-- Update to symbols that are actually available in the final iOS 13, tVOS 13 and watchOS 6 releases (By [Frederick Pietschmann](github.com/fredpi))
+- Update to symbols that are actually available in the final iOS 13, tvOS 13 and watchOS 6 releases (By [Frederick Pietschmann](github.com/fredpi))
 
 ### Fixed
 
