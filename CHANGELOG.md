@@ -15,7 +15,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Fixed
 
-- Fix macOS compilation (By [Chris Zielinski](https://github.com/chriszielinski))
+- Fix macOS compilation when installed via Carthage (By [Chris Zielinski](https://github.com/chriszielinski))
 - Fix compatibility with older iOS versions when installed via CocoaPods (By [@jstarfruits](https://www.github.com/jstarfruits))
 
 
