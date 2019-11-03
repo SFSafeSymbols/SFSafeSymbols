@@ -2,7 +2,7 @@
 // Note: Cases that are commented out are symbols defined in the SFSymbols app
 // that nonetheless aren't available on-device (Apple bug)
 
-@available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
+@available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
 public enum SFSymbol: String, CaseIterable {
     case _00Circle = "00.circle"
     case _00CircleFill = "00.circle.fill"
