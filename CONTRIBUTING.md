@@ -14,6 +14,14 @@ Please try to follow the same syntax and semantic in your **commit messages** (s
 
 When issuing a pull request, please add a summary of your changes to the `CHANGELOG.md` file and credit yourself as the author.
 
+## Regenerating the Xcode project
+
+If, for some reason, it is needed to regenerate the Xcode project using SPM, please use the following command:
+
+```
+swift package generate-xcodeproj --xcconfig-overrides Package.xcconfig
+```
+
 ## Releasing
 
 To release a new version, do the following things:

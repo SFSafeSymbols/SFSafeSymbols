@@ -15,7 +15,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Fixed
 
-- None
+- Fix App Store submission bug. (By [Yonas Kolb](https://github.com/yonaskolb))
 
 
 
