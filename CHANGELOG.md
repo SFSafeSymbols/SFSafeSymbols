@@ -15,6 +15,22 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Fixed
 
+- None
+
+
+
+## [1.0.2] - 2019-12-03
+
+### Added
+
+- None
+
+### Changed
+
+- None
+
+### Fixed
+
 - Fix App Store submission bug. (By [Yonas Kolb](https://github.com/yonaskolb))
 
 
