@@ -7,6 +7,22 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
+- None.
+
+### Changed
+
+- None
+
+### Fixed
+
+- None
+
+
+
+## [1.1.0] - 2019-12-16
+
+### Added
+
 - Show symbols & Apple-only-reference-hints in docs (By [Frederick Pietschmann](github.com/fredpi))
 
 ### Changed

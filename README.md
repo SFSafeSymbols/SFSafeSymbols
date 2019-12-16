@@ -10,8 +10,8 @@
         <img src="https://img.shields.io/badge/swift-5.1-FFAC45.svg" alt="Swift: 5.1">
     </a>
     <a href="https://github.com/piknotech/SFSafeSymbols/releases">
-        <img src="https://img.shields.io/badge/version-1.0.2-blue.svg"
-        alt="Version: 1.0.2">
+        <img src="https://img.shields.io/badge/version-1.1.0-blue.svg"
+        alt="Version: 1.1.0">
     </a>
     <a href="#">
     <img src="https://img.shields.io/badge/Platforms-iOS%20|%20tvOS%20|%20watchOS-FF69B4.svg"
@@ -66,7 +66,7 @@ Supported platforms are `iOS (11.0+)`, `tvOS (11.0+)` and `watchOS (6.0+)`, alth
 To integrate using Apple's Swift package manager, add the following as a dependency to your `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/piknotech/SFSafeSymbols.git", .upToNextMajor(from: "1.0.2"))
+.package(url: "https://github.com/piknotech/SFSafeSymbols.git", .upToNextMajor(from: "1.1.0"))
 ```
 
 After specifying `"SFSafeSymbols"` as a dependency of the target in which you want to use it, run `swift package update`.
@@ -80,7 +80,7 @@ Do the same configurations as for SwiftPM, then run `accio update` instead of `s
 Add the following entry to your Cartfile:
 
 ```
-github "piknotech/SFSafeSymbols" ~> 1.0.2
+github "piknotech/SFSafeSymbols" ~> 1.1.0
 ```
 
 Then run `carthage update`.
@@ -90,7 +90,7 @@ Then run `carthage update`.
 Add the following entry to your Podfile:
 
 ```rb
-pod 'SFSafeSymbols', '~> 1.0.2'
+pod 'SFSafeSymbols', '~> 1.1.0'
 ```
 
 Then run `pod install`.
