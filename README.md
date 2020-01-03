@@ -120,7 +120,16 @@ Image(systemSymbol: .cCircle)
 Image(systemSymbol: SFSymbol.eCircleFill)
 ```
 
-**All symbols are tested via a CI**, so you can be sure your code won't crash because an image couldn't be found!
+There's also an initializer for `UIApplicationShortcutItem`:
+
+```swift
+UIApplicationShortcutIcon(systemSymbol: .cCircle)
+UIApplicationShortcutIcon(systemSymbol: SFSymbol.eCircleFill)
+```
+
+## Testing
+
+**All symbols are tested via a CI** (on the latest iOS & tvOS versions), so you can be sure your code won't crash because an image couldn't be found!
 
 ## Contributing
 
