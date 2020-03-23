@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- None.
+- Add an UIButton extension with `systemButton(with:, target:, action:)`  initializer and `setImage(with:, for:)`   (By [Antonino Musolino](https://github.com/posix88))
 
 ### Changed
 
