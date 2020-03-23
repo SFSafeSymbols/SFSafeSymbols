@@ -1,8 +1,8 @@
-#if canImport(UIKit)
+#if canImport(UIKit) && (os(iOS) || targetEnvironment(macCatalyst))
 
 import UIKit
 
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, *)
+@available(iOS 13.0, *)
 public extension UIButton {
     
     class func systemButton(with symbol: SFSymbol, target: Any?, action: Selector?) -> Self {
