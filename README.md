@@ -120,7 +120,14 @@ Image(systemSymbol: .cCircle)
 Image(systemSymbol: SFSymbol.eCircleFill)
 ```
 
-There's also an initializer for `UIApplicationShortcutItem`:
+There also interfaces for `UIButton`:
+
+```swift
+let button = UIButton.systemButton(with: .cCircle, target: self, selector: #selector(testMethod))
+button.setImage(.eCircleFill, for: .normal)
+```
+
+... and an initializer for `UIApplicationShortcutItem`:
 
 ```swift
 UIApplicationShortcutIcon(systemSymbol: .cCircle)

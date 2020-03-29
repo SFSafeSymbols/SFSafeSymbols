@@ -118,8 +118,8 @@
 			children = (
 				OBJ_14 /* SwiftUIImageExtension.swift */,
 				OBJ_15 /* UIApplicationShortcutIconExtension.swift */,
-				OBJ_16 /* UIImageExtension.swift */,
 				4C86407E242925E40061EEAD /* UIButtonExtension.swift */,
+				OBJ_16 /* UIImageExtension.swift */,
 			);
 			path = Initializers;
 			sourceTree = "<group>";
