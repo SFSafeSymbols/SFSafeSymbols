@@ -1,13 +1,13 @@
 @testable import SFSafeSymbols
 
-#if os(iOS) || targetEnvironment(macCatalyst)
+#if (os(iOS) || os(tvOS) || targetEnvironment(macCatalyst))
 
 import XCTest
 
 class UIButtonExtensionTests: XCTestCase {
 
     func testButtonInit() {
-        if #available(iOS 13.0, *) {
+        if #available(iOS 13.0, tvOS 13.0, *) {
             SFSymbol.allCases.forEach { symbol in
                 print("Testing UIButton init with \(symbol.rawValue)")
                 let button = UIButton.systemButton(with: symbol, target: nil, action: nil)
@@ -19,12 +19,12 @@ class UIButtonExtensionTests: XCTestCase {
     }
     
     func testSetImage() {
-        if #available(iOS 13.0, *) {
+        if #available(iOS 13.0, tvOS 13.0, *) {
             SFSymbol.allCases.forEach { symbol in
                 print("Testing UIButton setImage with \(symbol.rawValue)")
                 let button = UIButton()
                 let symbolImage = UIImage(systemSymbol: symbol)
-                button.setImage(symbolImage, for: .normal)
+                button.setImage(symbol, for: .normal)
                 XCTAssertEqual(button.image(for: .normal), symbolImage)
             }
         } else {

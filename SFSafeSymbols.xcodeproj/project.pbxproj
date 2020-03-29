@@ -137,8 +137,8 @@
 			children = (
 				OBJ_19 /* ImageExtensionTests.swift */,
 				OBJ_20 /* UIApplicationShortcutIconExtensionTests.swift */,
-				OBJ_21 /* UIImageExtensionTests.swift */,
 				4C864080242928CF0061EEAD /* UIButtonExtensionTests.swift */,
+				OBJ_21 /* UIImageExtensionTests.swift */,
 			);
 			name = SFSafeSymbolsTests;
 			path = Tests/SFSafeSymbolsTests;
