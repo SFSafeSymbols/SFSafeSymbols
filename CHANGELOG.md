@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- Add an UIButton extension with `systemButton(with:, target:, action:)`  initializer and `setImage(with:, for:)`   (By [Antonino Musolino](https://github.com/posix88))
+- None
 
 ### Changed
 
@@ -19,6 +19,20 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 - None
 
 
+
+## [1.2.0] - 2020-03-29
+
+### Added
+
+- Add a UIButton extension with `systemButton(with:, target:, action:)`  initializer and `setImage(_:, for:)`   (By [Antonino Musolino](https://github.com/posix88))
+
+### Changed
+
+- None
+
+### Fixed
+
+- None
 
 ## [1.1.1] - 2020-01-03
 
