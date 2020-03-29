@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		4C86407F242925E40061EEAD /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C86407E242925E40061EEAD /* UIButtonExtension.swift */; };
+		4C864081242928CF0061EEAD /* UIButtonExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C864080242928CF0061EEAD /* UIButtonExtensionTests.swift */; };
 		OBJ_39 /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* SFSymbol.swift */; };
 		OBJ_40 /* SwiftUIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* SwiftUIImageExtension.swift */; };
 		OBJ_41 /* UIApplicationShortcutIconExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* UIApplicationShortcutIconExtension.swift */; };
@@ -50,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C86407E242925E40061EEAD /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		4C864080242928CF0061EEAD /* UIButtonExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtensionTests.swift; sourceTree = "<group>"; };
 		OBJ_12 /* SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol.swift; sourceTree = "<group>"; };
 		OBJ_14 /* SwiftUIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImageExtension.swift; sourceTree = "<group>"; };
 		OBJ_15 /* UIApplicationShortcutIconExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationShortcutIconExtension.swift; sourceTree = "<group>"; };
@@ -115,6 +119,7 @@
 				OBJ_14 /* SwiftUIImageExtension.swift */,
 				OBJ_15 /* UIApplicationShortcutIconExtension.swift */,
 				OBJ_16 /* UIImageExtension.swift */,
+				4C86407E242925E40061EEAD /* UIButtonExtension.swift */,
 			);
 			path = Initializers;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 				OBJ_19 /* ImageExtensionTests.swift */,
 				OBJ_20 /* UIApplicationShortcutIconExtensionTests.swift */,
 				OBJ_21 /* UIImageExtensionTests.swift */,
+				4C864080242928CF0061EEAD /* UIButtonExtensionTests.swift */,
 			);
 			name = SFSafeSymbolsTests;
 			path = Tests/SFSafeSymbolsTests;
@@ -147,7 +153,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -165,7 +171,6 @@
 				OBJ_32 /* CONTRIBUTING.md */,
 				OBJ_33 /* SFSafeSymbols.podspec */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Configs */ = {
@@ -250,7 +255,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_22 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -272,6 +277,7 @@
 				OBJ_40 /* SwiftUIImageExtension.swift in Sources */,
 				OBJ_41 /* UIApplicationShortcutIconExtension.swift in Sources */,
 				OBJ_42 /* UIImageExtension.swift in Sources */,
+				4C86407F242925E40061EEAD /* UIButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +294,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_60 /* ImageExtensionTests.swift in Sources */,
+				4C864081242928CF0061EEAD /* UIButtonExtensionTests.swift in Sources */,
 				OBJ_61 /* UIApplicationShortcutIconExtensionTests.swift in Sources */,
 				OBJ_62 /* UIImageExtensionTests.swift in Sources */,
 			);
