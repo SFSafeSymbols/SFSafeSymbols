@@ -143,4 +143,4 @@ UIApplicationShortcutIcon(systemSymbol: SFSymbol.eCircleFill)
 Contributions are very much welcome! See [CONTRIBUTING.md](https://github.com/piknotech/SFSafeSymbols/blob/stable/CONTRIBUTING.md) for more information.
 
 ## License
-This library is released under the [MIT License](http://opensource.org/licenses/MIT). See [LICENSE.md](https://github.com/piknotech/SFSafeSymbols/blob/stable/LICENSE.md) for details.
+This library is released under the [MIT License](http://opensource.org/licenses/MIT). See [LICENSE](https://github.com/piknotech/SFSafeSymbols/blob/stable/LICENSE) for details.
