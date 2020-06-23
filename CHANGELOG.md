@@ -8,11 +8,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- None
+- Add two SwiftUI `Label` initializers (By [Seb Jachec](https://github.com/sebj))
 
 ### Changed
 
-- None
+- Add macOS support for SwiftUI `Image` initializer (By [Seb Jachec](https://github.com/sebj))
 
 ### Fixed
 
