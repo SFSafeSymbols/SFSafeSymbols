@@ -8,16 +8,16 @@ import XCTest
 
 import SwiftUI
 
-class ImageExtensionTests: XCTestCase {
+class LabelExtensionTests: XCTestCase {
     func testInit() {
-        if #available(iOS 13.0, macOS 10.16, tvOS 13.0, watchOS 6.0, *) {
+        if #available(iOS 14.0, OSX 10.16, tvOS 14.0, watchOS 7.0, *) {
             SFSymbol.allCases.forEach { symbol in
                 // If this doesn't crash, everything works fine
                 print("Testing existence of \(symbol.rawValue) via Image init")
-                _ = Image(systemSymbol: symbol)
+                _ = Label("Title", systemSymbol: symbol)
             }
         } else {
-            XCTFail("iOS 13, macOS 10.16, or tvOS 13 is required to test SFSafeSymbols.")
+            XCTFail("iOS 14, macOS 10.16 or tvOS 14 is required to test SFSafeSymbols.")
         }
     }
 }
