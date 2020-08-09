@@ -26,3 +26,31 @@ public extension UIImage {
 }
 
 #endif
+
+enum TestEnum: String {
+    @available(iOS 14.0, *)
+    case test
+
+    @available(iOS 12.0, *)
+    case test2
+
+    var rawValue: String {
+        if #available(iOS 14.0, *) {
+            switch self {
+            case .test:
+                return "bla"
+
+            case .test2:
+                return "bla2"
+            }
+        } else {
+            switch self {
+            case .test2:
+                return "test2"
+
+            case .test:
+                fatalError()
+            }
+        }
+    }
+}

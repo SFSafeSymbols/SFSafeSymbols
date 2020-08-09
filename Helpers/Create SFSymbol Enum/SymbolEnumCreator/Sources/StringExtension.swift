@@ -5,6 +5,7 @@ extension String {
         // Handle special swift keywords
         guard self != "return" else { return "`return`" }
         guard self != "repeat" else { return "`repeat`" }
+        guard self != "case" else { return "`case`" }
 
         // Perform naming style transformation
         var outputString = ""
