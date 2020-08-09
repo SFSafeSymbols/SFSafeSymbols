@@ -1,0 +1,9 @@
+//
+// Created via manual analysis
+// Updated on August 9 2020
+//
+
+"ar" = "Arabic";
+"he" = "Hebrew";
+"hi" = "Devanagari";
+"rtl" = "Right-To-Left";
