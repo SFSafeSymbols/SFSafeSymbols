@@ -2373,7 +2373,7 @@ public enum SFSymbol: String, CaseIterable {
     /// 􀎙
     case eyedropperFull = "eyedropper.full"
 
-    /// 􀎙
+    /// 􀎘
     case eyedropperHalffull = "eyedropper.halffull"
 
     /// 􀖆
