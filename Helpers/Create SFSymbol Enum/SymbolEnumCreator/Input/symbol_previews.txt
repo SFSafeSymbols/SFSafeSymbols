@@ -787,7 +787,7 @@
 "eye.slash.fill" = "􀋰";
 "eyedropper" = "􀎗";
 "eyedropper.full" = "􀎙";
-"eyedropper.halffull" = "􀎙";
+"eyedropper.halffull" = "􀎘";
 "eyeglasses" = "􀖆";
 "f.circle" = "􀀎";
 "f.circle.fill" = "􀀎";
