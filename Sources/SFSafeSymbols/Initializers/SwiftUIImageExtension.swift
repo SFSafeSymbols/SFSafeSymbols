@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-@available(iOS 13.0, macOS 10.16, tvOS 13.0, watchOS 6.0, *)
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
 public extension SwiftUI.Image {
     
     /// Creates a instance of `Image` with a system symbol image of the given type.

@@ -10,14 +10,14 @@ import SwiftUI
 
 class ImageExtensionTests: XCTestCase {
     func testInit() {
-        if #available(iOS 13.0, macOS 10.16, tvOS 13.0, watchOS 6.0, *) {
+        if #available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *) {
             SFSymbol.allCases.forEach { symbol in
                 // If this doesn't crash, everything works fine
                 print("Testing existence of \(symbol.rawValue) via Image init")
                 _ = Image(systemSymbol: symbol)
             }
         } else {
-            XCTFail("iOS 13, macOS 10.16, or tvOS 13 is required to test SFSafeSymbols.")
+            XCTFail("iOS 13, macOS 11.0, tvOS 13 or watchOS 6.0 is required to test SFSafeSymbols.")
         }
     }
 }
