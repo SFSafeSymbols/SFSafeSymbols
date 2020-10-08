@@ -580,6 +580,14 @@
 		<string>2019</string>
 		<key>airplayvideo</key>
 		<string>2019</string>
+		<key>airpod.left</key>
+		<string>2020</string>
+		<key>airpod.right</key>
+		<string>2020</string>
+		<key>airpodpro.left</key>
+		<string>2020</string>
+		<key>airpodpro.right</key>
+		<string>2020</string>
 		<key>airpods</key>
 		<string>2020</string>
 		<key>airpodspro</key>
@@ -690,6 +698,10 @@
 		<string>2019</string>
 		<key>arrow.clockwise.circle.fill</key>
 		<string>2019</string>
+		<key>arrow.clockwise.heart</key>
+		<string>2020</string>
+		<key>arrow.clockwise.heart.fill</key>
+		<string>2020</string>
 		<key>arrow.clockwise.icloud</key>
 		<string>2019</string>
 		<key>arrow.clockwise.icloud.fill</key>
@@ -743,6 +755,10 @@
 		<key>arrow.down.forward.square</key>
 		<string>2020</string>
 		<key>arrow.down.forward.square.fill</key>
+		<string>2020</string>
+		<key>arrow.down.heart</key>
+		<string>2020</string>
+		<key>arrow.down.heart.fill</key>
 		<string>2020</string>
 		<key>arrow.down.left</key>
 		<string>2019</string>
@@ -989,6 +1005,10 @@
 		<key>arrow.up.forward.square</key>
 		<string>2020</string>
 		<key>arrow.up.forward.square.fill</key>
+		<string>2020</string>
+		<key>arrow.up.heart</key>
+		<string>2020</string>
+		<key>arrow.up.heart.fill</key>
 		<string>2020</string>
 		<key>arrow.up.left</key>
 		<string>2019</string>
@@ -1954,6 +1974,10 @@
 		<string>2020</string>
 		<key>command.square.fill</key>
 		<string>2020</string>
+		<key>cone</key>
+		<string>2020</string>
+		<key>cone.fill</key>
+		<string>2020</string>
 		<key>contextualmenu.and.cursorarrow</key>
 		<string>2020</string>
 		<key>control</key>
@@ -2006,6 +2030,8 @@
 		<string>2019</string>
 		<key>cube.transparent</key>
 		<string>2020</string>
+		<key>cube.transparent.fill</key>
+		<string>2020</string>
 		<key>curlybraces</key>
 		<string>2020</string>
 		<key>curlybraces.square</key>
@@ -2031,6 +2057,10 @@
 		<key>cursorarrow.rays</key>
 		<string>2020</string>
 		<key>cursorarrow.square</key>
+		<string>2020</string>
+		<key>cylinder</key>
+		<string>2020</string>
+		<key>cylinder.fill</key>
 		<string>2020</string>
 		<key>cylinder.split.1x2</key>
 		<string>2020</string>
@@ -2124,6 +2154,10 @@
 		<string>2019</string>
 		<key>doc.append.fill</key>
 		<string>2020</string>
+		<key>doc.append.fill.rtl</key>
+		<string>2020</string>
+		<key>doc.append.rtl</key>
+		<string>2020</string>
 		<key>doc.badge.ellipsis</key>
 		<string>2020</string>
 		<key>doc.badge.gearshape</key>
@@ -2168,6 +2202,10 @@
 		<string>2020</string>
 		<key>doc.text</key>
 		<string>2019</string>
+		<key>doc.text.below.ecg</key>
+		<string>2020</string>
+		<key>doc.text.below.ecg.fill</key>
+		<string>2020</string>
 		<key>doc.text.fill</key>
 		<string>2019</string>
 		<key>doc.text.fill.viewfinder</key>
@@ -2320,6 +2358,10 @@
 		<string>2019</string>
 		<key>escape</key>
 		<string>2019</string>
+		<key>esim</key>
+		<string>2020</string>
+		<key>esim.fill</key>
+		<string>2020</string>
 		<key>eurosign.circle</key>
 		<string>2019</string>
 		<key>eurosign.circle.fill</key>
@@ -2459,6 +2501,10 @@
 		<key>faxmachine</key>
 		<string>2020</string>
 		<key>fiberchannel</key>
+		<string>2020</string>
+		<key>figure.stand</key>
+		<string>2020</string>
+		<key>figure.stand.line.dotted.figure.stand</key>
 		<string>2020</string>
 		<key>figure.walk</key>
 		<string>2020</string>
@@ -2834,6 +2880,14 @@
 		<string>2020</string>
 		<key>hand.wave.fill</key>
 		<string>2020</string>
+		<key>hands.clap</key>
+		<string>2020</string>
+		<key>hands.clap.fill</key>
+		<string>2020</string>
+		<key>hands.sparkles</key>
+		<string>2020</string>
+		<key>hands.sparkles.fill</key>
+		<string>2020</string>
 		<key>hare</key>
 		<string>2019</string>
 		<key>hare.fill</key>
@@ -2874,6 +2928,14 @@
 		<string>2019</string>
 		<key>hifispeaker</key>
 		<string>2019</string>
+		<key>hifispeaker.2</key>
+		<string>2020</string>
+		<key>hifispeaker.2.fill</key>
+		<string>2020</string>
+		<key>hifispeaker.and.homepod</key>
+		<string>2020</string>
+		<key>hifispeaker.and.homepod.fill</key>
+		<string>2020</string>
 		<key>hifispeaker.fill</key>
 		<string>2019</string>
 		<key>highlighter</key>
@@ -3590,6 +3652,14 @@
 		<string>2020</string>
 		<key>option</key>
 		<string>2019</string>
+		<key>oval</key>
+		<string>2020</string>
+		<key>oval.fill</key>
+		<string>2020</string>
+		<key>oval.portrait</key>
+		<string>2020</string>
+		<key>oval.portrait.fill</key>
+		<string>2020</string>
 		<key>p.circle</key>
 		<string>2019</string>
 		<key>p.circle.fill</key>
@@ -3762,7 +3832,13 @@
 		<string>2020</string>
 		<key>person.fill.checkmark</key>
 		<string>2020</string>
+		<key>person.fill.checkmark.rtl</key>
+		<string>2020</string>
 		<key>person.fill.questionmark</key>
+		<string>2020</string>
+		<key>person.fill.questionmark.ar</key>
+		<string>2020</string>
+		<key>person.fill.questionmark.rtl</key>
 		<string>2020</string>
 		<key>person.fill.turn.down</key>
 		<string>2020</string>
@@ -3770,7 +3846,11 @@
 		<string>2020</string>
 		<key>person.fill.turn.right</key>
 		<string>2020</string>
+		<key>person.fill.viewfinder</key>
+		<string>2020</string>
 		<key>person.fill.xmark</key>
+		<string>2020</string>
+		<key>person.fill.xmark.rtl</key>
 		<string>2020</string>
 		<key>person.icloud</key>
 		<string>2019</string>
@@ -3964,6 +4044,12 @@
 		<string>2020</string>
 		<key>power</key>
 		<string>2019</string>
+		<key>poweroff</key>
+		<string>2020</string>
+		<key>poweron</key>
+		<string>2020</string>
+		<key>powersleep</key>
+		<string>2020</string>
 		<key>printer</key>
 		<string>2019</string>
 		<key>printer.dotmatrix</key>
@@ -3987,6 +4073,10 @@
 		<key>puzzlepiece</key>
 		<string>2020</string>
 		<key>puzzlepiece.fill</key>
+		<string>2020</string>
+		<key>pyramid</key>
+		<string>2020</string>
+		<key>pyramid.fill</key>
 		<string>2020</string>
 		<key>q.circle</key>
 		<string>2019</string>
@@ -4056,6 +4146,10 @@
 		<string>2019</string>
 		<key>quote.bubble.fill</key>
 		<string>2019</string>
+		<key>quote.bubble.fill.rtl</key>
+		<string>2020</string>
+		<key>quote.bubble.rtl</key>
+		<string>2020</string>
 		<key>r.circle</key>
 		<string>2019</string>
 		<key>r.circle.fill</key>
@@ -4386,6 +4480,14 @@
 		<string>2020</string>
 		<key>shadow</key>
 		<string>2020</string>
+		<key>shekelsign.circle</key>
+		<string>2020</string>
+		<key>shekelsign.circle.fill</key>
+		<string>2020</string>
+		<key>shekelsign.square</key>
+		<string>2020</string>
+		<key>shekelsign.square.fill</key>
+		<string>2020</string>
 		<key>sheqelsign.circle</key>
 		<string>2019</string>
 		<key>sheqelsign.circle.fill</key>
@@ -4435,6 +4537,8 @@
 		<key>signature</key>
 		<string>2019</string>
 		<key>signature.ar</key>
+		<string>2020</string>
+		<key>signature.he</key>
 		<string>2020</string>
 		<key>signpost.left</key>
 		<string>2020</string>
@@ -4492,6 +4596,10 @@
 		<string>2020</string>
 		<key>sparkles</key>
 		<string>2019</string>
+		<key>sparkles.rectangle.stack</key>
+		<string>2020</string>
+		<key>sparkles.rectangle.stack.fill</key>
+		<string>2020</string>
 		<key>sparkles.square.fill.on.square</key>
 		<string>2020</string>
 		<key>speaker</key>
@@ -4706,8 +4814,6 @@
 		<string>2019</string>
 		<key>square.stack.3d.down.dottedline</key>
 		<string>2019</string>
-		<key>square.stack.3d.down.dottedline.fill</key>
-		<string>2020</string>
 		<key>square.stack.3d.down.forward</key>
 		<string>2020</string>
 		<key>square.stack.3d.down.forward.fill</key>
@@ -4716,6 +4822,10 @@
 		<string>2019</string>
 		<key>square.stack.3d.down.right.fill</key>
 		<string>2019</string>
+		<key>square.stack.3d.forward.dottedline</key>
+		<string>2020</string>
+		<key>square.stack.3d.forward.dottedline.fill</key>
+		<string>2020</string>
 		<key>square.stack.3d.up</key>
 		<string>2019</string>
 		<key>square.stack.3d.up.badge.a</key>
@@ -4743,6 +4853,8 @@
 		<key>squareshape.fill</key>
 		<string>2020</string>
 		<key>squareshape.split.2x2</key>
+		<string>2020</string>
+		<key>squareshape.split.2x2.dotted</key>
 		<string>2020</string>
 		<key>squareshape.split.3x3</key>
 		<string>2020</string>
@@ -4942,6 +5054,10 @@
 		<string>2019</string>
 		<key>text.badge.xmark</key>
 		<string>2019</string>
+		<key>text.below.photo</key>
+		<string>2020</string>
+		<key>text.below.photo.fill</key>
+		<string>2020</string>
 		<key>text.book.closed</key>
 		<string>2020</string>
 		<key>text.book.closed.fill</key>
@@ -4960,6 +5076,16 @@
 		<string>2020</string>
 		<key>text.cursor.he</key>
 		<string>2020</string>
+		<key>text.cursor.hi</key>
+		<string>2020</string>
+		<key>text.cursor.ja</key>
+		<string>2020</string>
+		<key>text.cursor.ko</key>
+		<string>2020</string>
+		<key>text.cursor.th</key>
+		<string>2020</string>
+		<key>text.cursor.zh</key>
+		<string>2020</string>
 		<key>text.insert</key>
 		<string>2019</string>
 		<key>text.justify</key>
@@ -4974,6 +5100,8 @@
 		<string>2020</string>
 		<key>text.quote</key>
 		<string>2019</string>
+		<key>text.quote.rtl</key>
+		<string>2020</string>
 		<key>text.redaction</key>
 		<string>2020</string>
 		<key>textbox</key>
@@ -4981,6 +5109,16 @@
 		<key>textbox.ar</key>
 		<string>2020</string>
 		<key>textbox.he</key>
+		<string>2020</string>
+		<key>textbox.hi</key>
+		<string>2020</string>
+		<key>textbox.ja</key>
+		<string>2020</string>
+		<key>textbox.ko</key>
+		<string>2020</string>
+		<key>textbox.th</key>
+		<string>2020</string>
+		<key>textbox.zh</key>
 		<string>2020</string>
 		<key>textformat</key>
 		<string>2019</string>
@@ -5020,6 +5158,8 @@
 		<string>2019</string>
 		<key>timer.square</key>
 		<string>2020</string>
+		<key>togglepower</key>
+		<string>2020</string>
 		<key>tornado</key>
 		<string>2019</string>
 		<key>tortoise</key>
@@ -5029,6 +5169,10 @@
 		<key>touchid</key>
 		<string>2020</string>
 		<key>tram</key>
+		<string>2020</string>
+		<key>tram.circle</key>
+		<string>2020</string>
+		<key>tram.circle.fill</key>
 		<string>2020</string>
 		<key>tram.fill</key>
 		<string>2019</string>

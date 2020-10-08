@@ -1,12 +1,16 @@
 //
 // Retrieved via https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/
-// Updated on August 9 2020
+// Updated on October 8 2020
 //
 
 "airplayaudio" = "AirPlay";
 "airplayvideo" = "AirPlay";
 "airpods" = "AirPods";
+"airpod.left" = "AirPods";
+"airpod.right" = "AirPods";
 "airpodspro" = "AirPods Pro";
+"airpodpro.left" = "AirPods Pro";
+"airpodpro.right" = "AirPods Pro";
 "airport.express" = "AirPort Express";
 "airport.extreme" = "AirPort Extreme";
 "airport.extreme.tower" = "AirPort Extreme";

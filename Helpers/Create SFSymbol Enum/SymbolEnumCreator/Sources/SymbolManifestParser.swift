@@ -34,6 +34,10 @@ struct SymbolManifestParser {
             availabilityFile.append(ScannedSymbol(name: key, availability: availability))
         }
 
+        // Unfortunately, the data is inconsistent and for some symbols there are conflicting availability dates
+        // We just remove those symbols completely
+        availabilityFile = availabilityFile.filter { scannedSymbol in !availabilityFile.contains { $0.name == scannedSymbol.name && $0.availability != scannedSymbol.availability } }
+
         return availabilityFile
     }
 }

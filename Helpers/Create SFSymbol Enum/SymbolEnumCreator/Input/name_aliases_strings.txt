@@ -1,6 +1,6 @@
 //
 // Retrieved via the SFSymbols app package contents
-// Updated on August 9 2020
+// Updated on October 8 2020
 //
 
 "arrow.2.circlepath" = "arrow.triangle.2.circlepath";
@@ -81,6 +81,10 @@
 "rectangle.stack.badge.plus.fill" = "rectangle.stack.fill.badge.plus";
 "ring.circle" = "smallcircle.circle";
 "ring.circle.fill" = "smallcircle.circle.fill";
+"sheqelsign.circle" = "shekelsign.circle";
+"sheqelsign.circle.fill" = "shekelsign.circle.fill";
+"sheqelsign.square" = "shekelsign.square";
+"sheqelsign.square.fill" = "shekelsign.square.fill";
 "smiley" = "face.smiling";
 "smiley.fill" = "face.smiling.fill";
 "speaker.1" = "speaker.wave.1";
@@ -92,6 +96,7 @@
 "square.line.vertical.square.fill.left" = "square.fill.and.line.vertical.and.square";
 "square.on.circle.fill" = "square.fill.on.circle.fill";
 "square.on.square.fill" = "square.fill.on.square.fill";
+"square.stack.3d.down.dottedline" = "square.stack.3d.forward.dottedline";
 "star.fill.left" = "star.leadinghalf.fill";
 "star.lefthalf.fill" = "star.leadinghalf.fill";
 "table" = "tablecells";
