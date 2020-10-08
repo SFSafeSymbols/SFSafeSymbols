@@ -1043,16 +1043,6 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case a
 
-    /// 􀫕
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case aBookClosed
-
-    /// 􀫖
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
-    @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case aBookClosedFill
-
     /// 􀀄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case aCircle
@@ -11166,8 +11156,6 @@ public enum SFSymbol: String, CaseIterable {
             case ._9Square: return "9.square"
             case ._9SquareFill: return "9.square.fill"
             case .a: return "a"
-            case .aBookClosed: return "a.book.closed"
-            case .aBookClosedFill: return "a.book.closed.fill"
             case .aCircle: return "a.circle"
             case .aCircleFill: return "a.circle.fill"
             case .aMagnify: return "a.magnify"
@@ -15513,8 +15501,6 @@ public enum SFSymbol: String, CaseIterable {
                 ._9Square,
                 ._9SquareFill,
                 .a,
-                .aBookClosed,
-                .aBookClosedFill,
                 .aCircle,
                 .aCircleFill,
                 .aMagnify,

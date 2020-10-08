@@ -12,7 +12,7 @@ class UIImageExtensionTests: XCTestCase {
             print("The following symbols are failing: \(failingSymbols)")
             XCTAssert(failingSymbols.isEmpty, "There should be no failing symbols.")
         } else {
-            XCTFail("iOS 13 or tvOS 13 is required to test  SFSafeSymbols.")
+            XCTFail("iOS 13 or tvOS 13 is required to test SFSafeSymbols.")
         }
     }
 
@@ -24,7 +24,7 @@ class UIImageExtensionTests: XCTestCase {
                 _ = UIImage(systemSymbol: symbol)
             }
         } else {
-            XCTFail("iOS 13 or tvOS 13 is required to test  SFSafeSymbols.")
+            XCTFail("iOS 13 or tvOS 13 is required to test SFSafeSymbols.")
         }
     }
 
