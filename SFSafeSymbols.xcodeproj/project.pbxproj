@@ -61,7 +61,6 @@
 		OBJ_19 /* ImageExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensionTests.swift; sourceTree = "<group>"; };
 		OBJ_20 /* UIApplicationShortcutIconExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationShortcutIconExtensionTests.swift; sourceTree = "<group>"; };
 		OBJ_21 /* UIImageExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensionTests.swift; sourceTree = "<group>"; };
-		OBJ_25 /* Helpers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Helpers; sourceTree = SOURCE_ROOT; };
 		OBJ_26 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
 		OBJ_27 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		OBJ_28 /* Package.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Package.xcconfig; sourceTree = "<group>"; };
@@ -161,7 +160,6 @@
 				OBJ_9 /* Sources */,
 				OBJ_17 /* Tests */,
 				OBJ_22 /* Products */,
-				OBJ_25 /* Helpers */,
 				OBJ_26 /* CODE_OF_CONDUCT.md */,
 				OBJ_27 /* LICENSE */,
 				OBJ_28 /* Package.xcconfig */,
