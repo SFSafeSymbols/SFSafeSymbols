@@ -901,11 +901,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case _49SquareFill
 
-    /// No preview available.
+    /// 􀦽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case _4kTv
 
-    /// No preview available.
+    /// 􀦾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case _4kTvFill
 
@@ -1041,12 +1041,12 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case a
 
-    /// No preview available.
+    /// 􀫕
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case aBookClosed
 
-    /// No preview available.
+    /// 􀫖
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case aBookClosedFill
@@ -1059,7 +1059,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case aCircleFill
 
-    /// No preview available.
+    /// 􀤍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case aMagnify
 
@@ -1071,7 +1071,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case aSquareFill
 
-    /// No preview available.
+    /// 􀥊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case abc
 
@@ -1079,11 +1079,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case airplane
 
-    /// No preview available.
+    /// 􀒸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case airplaneCircle
 
-    /// No preview available.
+    /// 􀒹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case airplaneCircleFill
 
@@ -1097,47 +1097,47 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case airplayvideo
 
-    /// No preview available.
+    /// 􀲌
     /// ⚠️ This symbol can refer only to Apple's AirPods.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case airpodLeft
 
-    /// No preview available.
+    /// 􀲋
     /// ⚠️ This symbol can refer only to Apple's AirPods.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case airpodRight
 
-    /// No preview available.
+    /// 􀲎
     /// ⚠️ This symbol can refer only to Apple's AirPods Pro.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case airpodproLeft
 
-    /// No preview available.
+    /// 􀲍
     /// ⚠️ This symbol can refer only to Apple's AirPods Pro.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case airpodproRight
 
-    /// No preview available.
+    /// 􀟥
     /// ⚠️ This symbol can refer only to Apple's AirPods.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case airpods
 
-    /// No preview available.
+    /// 􀪷
     /// ⚠️ This symbol can refer only to Apple's AirPods Pro.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case airpodspro
 
-    /// No preview available.
+    /// 􀦯
     /// ⚠️ This symbol can refer only to Apple's AirPort Express.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case airportExpress
 
-    /// No preview available.
+    /// 􀑝
     /// ⚠️ This symbol can refer only to Apple's AirPort Extreme.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case airportExtreme
 
-    /// No preview available.
+    /// 􀦰
     /// ⚠️ This symbol can refer only to Apple's AirPort Extreme.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case airportExtremeTower
@@ -1154,7 +1154,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case alt
 
-    /// No preview available.
+    /// 􀧰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case amplifier
 
@@ -1202,72 +1202,72 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case appGiftFill
 
-    /// No preview available.
+    /// 􀭨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case appclip
 
-    /// No preview available.
+    /// 􀣺
     /// ⚠️ This symbol can refer only to Apple's Sign in with Apple.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case applelogo
 
-    /// No preview available.
+    /// 􀤭
     /// ⚠️ This symbol can refer only to Apple's AppleScript language.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case applescript
 
-    /// No preview available.
+    /// 􀤮
     /// ⚠️ This symbol can refer only to Apple's AppleScript language.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case applescriptFill
 
-    /// No preview available.
+    /// 􀨫
     /// ⚠️ This symbol can refer only to Apple's Apple TV.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case appletv
 
-    /// No preview available.
+    /// 􀡴
     /// ⚠️ This symbol can refer only to Apple's Apple TV.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case appletvFill
 
-    /// No preview available.
+    /// 􀟤
     /// ⚠️ This symbol can refer only to Apple's Apple Watch.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case applewatch
 
-    /// No preview available.
+    /// 􀢷
     /// ⚠️ This symbol can refer only to Apple's Apple Watch.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case applewatchRadiowavesLeftAndRight
 
-    /// No preview available.
+    /// 􀨶
     /// ⚠️ This symbol can refer only to Apple's Apple Watch.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case applewatchSlash
 
-    /// No preview available.
+    /// 􀫋
     /// ⚠️ This symbol can refer only to Apple's Apple Watch.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case applewatchWatchface
 
-    /// No preview available.
+    /// 􀮕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case appsIpad
 
-    /// No preview available.
+    /// 􀮖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case appsIpadLandscape
 
-    /// No preview available.
+    /// 􀟞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case appsIphone
 
-    /// No preview available.
+    /// 􀯖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case appsIphoneBadgePlus
 
-    /// No preview available.
+    /// 􀮔
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case appsIphoneLandscape
@@ -1276,11 +1276,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case archivebox
 
-    /// No preview available.
+    /// 􀈯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case archiveboxCircle
 
-    /// No preview available.
+    /// 􀈰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case archiveboxCircleFill
 
@@ -1301,23 +1301,23 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrow3Trianglepath
 
-    /// No preview available.
+    /// 􀰌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowBackward
 
-    /// No preview available.
+    /// 􀰍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowBackwardCircle
 
-    /// No preview available.
+    /// 􀰎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowBackwardCircleFill
 
-    /// No preview available.
+    /// 􀰏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowBackwardSquare
 
-    /// No preview available.
+    /// 􀰐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowBackwardSquareFill
 
@@ -1333,11 +1333,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowClockwiseCircleFill
 
-    /// No preview available.
+    /// 􀧡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowClockwiseHeart
 
-    /// No preview available.
+    /// 􀧢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowClockwiseHeartFill
 
@@ -1377,31 +1377,31 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowDown
 
-    /// No preview available.
+    /// 􀯴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownApp
 
-    /// No preview available.
+    /// 􀯵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownAppFill
 
-    /// No preview available.
+    /// 􀱃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownBackward
 
-    /// No preview available.
+    /// 􀱄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownBackwardCircle
 
-    /// No preview available.
+    /// 􀱅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownBackwardCircleFill
 
-    /// No preview available.
+    /// 􀱆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownBackwardSquare
 
-    /// No preview available.
+    /// 􀱇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownBackwardSquareFill
 
@@ -1421,43 +1421,43 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowDownDocFill
 
-    /// No preview available.
+    /// 􀱈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownForward
 
-    /// No preview available.
+    /// 􀱻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownForwardAndArrowUpBackward
 
-    /// No preview available.
+    /// 􀱼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownForwardAndArrowUpBackwardCircle
 
-    /// No preview available.
+    /// 􀱽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownForwardAndArrowUpBackwardCircleFill
 
-    /// No preview available.
+    /// 􀱉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownForwardCircle
 
-    /// No preview available.
+    /// 􀱊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownForwardCircleFill
 
-    /// No preview available.
+    /// 􀱋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownForwardSquare
 
-    /// No preview available.
+    /// 􀱌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownForwardSquareFill
 
-    /// No preview available.
+    /// 􀲗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownHeart
 
-    /// No preview available.
+    /// 􀲘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownHeartFill
 
@@ -1499,11 +1499,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowDownRightAndArrowUpLeft
 
-    /// No preview available.
+    /// 􀫞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownRightAndArrowUpLeftCircle
 
-    /// No preview available.
+    /// 􀫟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowDownRightAndArrowUpLeftCircleFill
 
@@ -1539,23 +1539,23 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowDownToLineAlt
 
-    /// No preview available.
+    /// 􀰑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowForward
 
-    /// No preview available.
+    /// 􀰒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowForwardCircle
 
-    /// No preview available.
+    /// 􀰓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowForwardCircleFill
 
-    /// No preview available.
+    /// 􀰔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowForwardSquare
 
-    /// No preview available.
+    /// 􀰕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowForwardSquareFill
 
@@ -1684,7 +1684,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowLeftToLineAlt
 
-    /// No preview available.
+    /// 􀣁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowRectanglepath
 
@@ -1700,7 +1700,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowRightCircleFill
 
-    /// No preview available.
+    /// 􀫵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowRightDocOnClipboard
 
@@ -1775,7 +1775,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCircleFill")
     case arrow2CirclepathCircleFill
 
-    /// No preview available.
+    /// 􀫷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowTriangle2CirclepathDocOnClipboard
 
@@ -1790,7 +1790,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleBranch")
     case arrowBranch
 
-    /// No preview available.
+    /// 􀤖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowTriangleCapsulepath
 
@@ -1805,7 +1805,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleMerge")
     case arrowMerge
 
-    /// No preview available.
+    /// 􀙡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowTrianglePull
 
@@ -1820,11 +1820,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleSwap")
     case arrowSwap
 
-    /// No preview available.
+    /// 􀟷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowTriangleTurnUpRightCircle
 
-    /// No preview available.
+    /// 􀟸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowTriangleTurnUpRightCircleFill
 
@@ -1874,11 +1874,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowTurnRightUp
 
-    /// No preview available.
+    /// 􀬫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowTurnUpForwardIphone
 
-    /// No preview available.
+    /// 􀬬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowTurnUpForwardIphoneFill
 
@@ -1898,7 +1898,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowUpAndDown
 
-    /// No preview available.
+    /// 􀧐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpAndDownAndArrowLeftAndRight
 
@@ -1910,11 +1910,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowUpAndDownCircleFill
 
-    /// No preview available.
+    /// 􀟩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpAndDownRighttriangleUpFillRighttriangleDownFill
 
-    /// No preview available.
+    /// 􀟨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpAndDownRighttriangleUpRighttriangleDown
 
@@ -1926,15 +1926,15 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowUpAndDownSquareFill
 
-    /// No preview available.
+    /// 􀪨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpAndPersonRectanglePortrait
 
-    /// No preview available.
+    /// 􀪪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpAndPersonRectangleTurnLeft
 
-    /// No preview available.
+    /// 􀪩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpAndPersonRectangleTurnRight
 
@@ -1958,35 +1958,35 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowUpArrowDownSquareFill
 
-    /// No preview available.
+    /// 􀰹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpBackward
 
-    /// No preview available.
+    /// 􀱶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpBackwardAndArrowDownForward
 
-    /// No preview available.
+    /// 􀱷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpBackwardAndArrowDownForwardCircle
 
-    /// No preview available.
+    /// 􀱸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpBackwardAndArrowDownForwardCircleFill
 
-    /// No preview available.
+    /// 􀰺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpBackwardCircle
 
-    /// No preview available.
+    /// 􀰻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpBackwardCircleFill
 
-    /// No preview available.
+    /// 􀰼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpBackwardSquare
 
-    /// No preview available.
+    /// 􀰽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpBackwardSquareFill
 
@@ -2014,43 +2014,43 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowUpDocFill
 
-    /// No preview available.
+    /// 􀫶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpDocOnClipboard
 
-    /// No preview available.
+    /// 􀰾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpForward
 
-    /// No preview available.
+    /// 􀮵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpForwardApp
 
-    /// No preview available.
+    /// 􀮶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpForwardAppFill
 
-    /// No preview available.
+    /// 􀰿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpForwardCircle
 
-    /// No preview available.
+    /// 􀱀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpForwardCircleFill
 
-    /// No preview available.
+    /// 􀱁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpForwardSquare
 
-    /// No preview available.
+    /// 􀱂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpForwardSquareFill
 
-    /// No preview available.
+    /// 􀲕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpHeart
 
-    /// No preview available.
+    /// 􀲖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpHeartFill
 
@@ -2062,19 +2062,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowUpLeftAndArrowDownRight
 
-    /// No preview available.
+    /// 􀧛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpLeftAndArrowDownRightCircle
 
-    /// No preview available.
+    /// 􀧜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpLeftAndArrowDownRightCircleFill
 
-    /// No preview available.
+    /// 􀬑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpLeftAndDownRightAndArrowUpRightAndDownLeft
 
-    /// No preview available.
+    /// 􀥩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpLeftAndDownRightMagnifyingglass
 
@@ -2094,12 +2094,12 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowUpLeftSquareFill
 
-    /// No preview available.
+    /// 􀜃
     /// ⚠️ This symbol can refer only to Apple's Messages app.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpMessage
 
-    /// No preview available.
+    /// 􀜄
     /// ⚠️ This symbol can refer only to Apple's Messages app.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpMessageFill
@@ -2108,11 +2108,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowUpRight
 
-    /// No preview available.
+    /// 􀢿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpRightAndArrowDownLeftRectangle
 
-    /// No preview available.
+    /// 􀣀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUpRightAndArrowDownLeftRectangleFill
 
@@ -2158,27 +2158,27 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowUpToLineAlt
 
-    /// No preview available.
+    /// 􀱍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUturnBackward
 
-    /// No preview available.
+    /// 􀱎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUturnBackwardCircle
 
-    /// No preview available.
+    /// 􀱐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUturnBackwardCircleBadgeEllipsis
 
-    /// No preview available.
+    /// 􀱏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUturnBackwardCircleFill
 
-    /// No preview available.
+    /// 􀱑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUturnBackwardSquare
 
-    /// No preview available.
+    /// 􀱒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUturnBackwardSquareFill
 
@@ -2202,23 +2202,23 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowUturnDownSquareFill
 
-    /// No preview available.
+    /// 􀱓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUturnForward
 
-    /// No preview available.
+    /// 􀱔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUturnForwardCircle
 
-    /// No preview available.
+    /// 􀱕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUturnForwardCircleFill
 
-    /// No preview available.
+    /// 􀱖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUturnForwardSquare
 
-    /// No preview available.
+    /// 􀱗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowUturnForwardSquareFill
 
@@ -2286,67 +2286,67 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowUturnUpSquareFill
 
-    /// No preview available.
+    /// 􀰨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeBounceForward
 
-    /// No preview available.
+    /// 􀰩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeBounceForwardFill
 
-    /// No preview available.
+    /// 􀉙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeBounceRight
 
-    /// No preview available.
+    /// 􀒑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeBounceRightFill
 
-    /// No preview available.
+    /// 􀰚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeTurnUpBackward
 
-    /// No preview available.
+    /// 􀰢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeTurnUpBackward2
 
-    /// No preview available.
+    /// 􀰤
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeTurnUpBackward2Circle
 
-    /// No preview available.
+    /// 􀰥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeTurnUpBackward2CircleFill
 
-    /// No preview available.
+    /// 􀰣
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeTurnUpBackward2Fill
 
-    /// No preview available.
+    /// 􀰜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeTurnUpBackwardCircle
 
-    /// No preview available.
+    /// 􀰝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeTurnUpBackwardCircleFill
 
-    /// No preview available.
+    /// 􀰛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeTurnUpBackwardFill
 
-    /// No preview available.
+    /// 􀰞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeTurnUpForward
 
-    /// No preview available.
+    /// 􀰠
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeTurnUpForwardCircle
 
-    /// No preview available.
+    /// 􀰡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeTurnUpForwardCircleFill
 
-    /// No preview available.
+    /// 􀰟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeTurnUpForwardFill
 
@@ -2358,11 +2358,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowshapeTurnUpLeft2
 
-    /// No preview available.
+    /// 􀉖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeTurnUpLeft2Circle
 
-    /// No preview available.
+    /// 􀉗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeTurnUpLeft2CircleFill
 
@@ -2398,43 +2398,43 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowshapeTurnUpRightFill
 
-    /// No preview available.
+    /// 􀰦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeZigzagForward
 
-    /// No preview available.
+    /// 􀰧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeZigzagForwardFill
 
-    /// No preview available.
+    /// 􀉘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeZigzagRight
 
-    /// No preview available.
+    /// 􀒐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowshapeZigzagRightFill
 
-    /// No preview available.
+    /// 􀰀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowtriangleBackward
 
-    /// No preview available.
+    /// 􀰂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowtriangleBackwardCircle
 
-    /// No preview available.
+    /// 􀰃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowtriangleBackwardCircleFill
 
-    /// No preview available.
+    /// 􀰁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowtriangleBackwardFill
 
-    /// No preview available.
+    /// 􀰄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowtriangleBackwardSquare
 
-    /// No preview available.
+    /// 􀰅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowtriangleBackwardSquareFill
 
@@ -2462,27 +2462,27 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowtriangleDownSquareFill
 
-    /// No preview available.
+    /// 􀰆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowtriangleForward
 
-    /// No preview available.
+    /// 􀰈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowtriangleForwardCircle
 
-    /// No preview available.
+    /// 􀰉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowtriangleForwardCircleFill
 
-    /// No preview available.
+    /// 􀰇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowtriangleForwardFill
 
-    /// No preview available.
+    /// 􀰊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowtriangleForwardSquare
 
-    /// No preview available.
+    /// 􀰋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowtriangleForwardSquareFill
 
@@ -2490,7 +2490,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowtriangleLeft
 
-    /// No preview available.
+    /// 􀠉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowtriangleLeftAndLineVerticalAndArrowtriangleRight
 
@@ -2506,7 +2506,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowtriangleLeftFill
 
-    /// No preview available.
+    /// 􀟦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowtriangleLeftFillAndLineVerticalAndArrowtriangleRightFill
 
@@ -2522,7 +2522,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowtriangleRight
 
-    /// No preview available.
+    /// 􀠊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowtriangleRightAndLineVerticalAndArrowtriangleLeft
 
@@ -2538,7 +2538,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowtriangleRightFill
 
-    /// No preview available.
+    /// 􀟧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowtriangleRightFillAndLineVerticalAndArrowtriangleLeftFill
 
@@ -2602,15 +2602,15 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case atBadgePlus
 
-    /// No preview available.
+    /// 􀢐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case atCircle
 
-    /// No preview available.
+    /// 􀢑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case atCircleFill
 
-    /// No preview available.
+    /// 􀬚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case atom
 
@@ -2670,15 +2670,15 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case backwardFill
 
-    /// No preview available.
+    /// 􀩨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case backwardFrame
 
-    /// No preview available.
+    /// 􀩩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case backwardFrameFill
 
-    /// No preview available.
+    /// 􀰮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case badgePlusRadiowavesForward
 
@@ -2698,11 +2698,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case bagBadgePlus
 
-    /// No preview available.
+    /// 􀒫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case bagCircle
 
-    /// No preview available.
+    /// 􀒬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case bagCircleFill
 
@@ -2742,11 +2742,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case bandageFill
 
-    /// No preview available.
+    /// 􀭿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case banknote
 
-    /// No preview available.
+    /// 􀮀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case banknoteFill
 
@@ -2758,7 +2758,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case barcodeViewfinder
 
-    /// No preview available.
+    /// 􀬧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case barometer
 
@@ -2770,7 +2770,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case battery100
 
-    /// No preview available.
+    /// 􀢋
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case battery100Bolt
@@ -2791,11 +2791,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case bell
 
-    /// No preview available.
+    /// 􀝖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case bellBadge
 
-    /// No preview available.
+    /// 􀝗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case bellBadgeFill
 
@@ -2815,11 +2815,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case bellSlash
 
-    /// No preview available.
+    /// 􀋟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case bellSlashCircle
 
-    /// No preview available.
+    /// 􀋠
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case bellSlashCircleFill
 
@@ -2827,23 +2827,23 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case bellSlashFill
 
-    /// No preview available.
+    /// 􀡥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case bicycle
 
-    /// No preview available.
+    /// 􀱬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case bicycleCircle
 
-    /// No preview available.
+    /// 􀱭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case bicycleCircleFill
 
-    /// No preview available.
+    /// 􀠍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case binoculars
 
-    /// No preview available.
+    /// 􀠎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case binocularsFill
 
@@ -2887,11 +2887,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case boltBadgeAFill
 
-    /// No preview available.
+    /// 􀡞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case boltCar
 
-    /// No preview available.
+    /// 􀝃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case boltCarFill
 
@@ -2907,19 +2907,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case boltFill
 
-    /// No preview available.
+    /// 􀫮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case boltFillBatteryblock
 
-    /// No preview available.
+    /// 􀫯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case boltFillBatteryblockFill
 
-    /// No preview available.
+    /// 􀞽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case boltHeart
 
-    /// No preview available.
+    /// 􀛥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case boltHeartFill
 
@@ -2953,11 +2953,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case boltSlash
 
-    /// No preview available.
+    /// 􀋫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case boltSlashCircle
 
-    /// No preview available.
+    /// 􀋬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case boltSlashCircleFill
 
@@ -2965,7 +2965,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case boltSlashFill
 
-    /// No preview available.
+    /// 􀥠
     /// ⚠️ This symbol can refer only to Apple's Bonjour networking.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case bonjour
@@ -2982,11 +2982,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case bookCircleFill
 
-    /// No preview available.
+    /// 􀤞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case bookClosed
 
-    /// No preview available.
+    /// 􀤟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case bookClosedFill
 
@@ -2998,11 +2998,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case bookmark
 
-    /// No preview available.
+    /// 􀉠
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case bookmarkCircle
 
-    /// No preview available.
+    /// 􀉡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case bookmarkCircleFill
 
@@ -3010,19 +3010,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case bookmarkFill
 
-    /// No preview available.
+    /// 􀟍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case bookmarkSlash
 
-    /// No preview available.
+    /// 􀟎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case bookmarkSlashFill
 
-    /// No preview available.
+    /// 􀬒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case booksVertical
 
-    /// No preview available.
+    /// 􀬓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case booksVerticalFill
 
@@ -3074,35 +3074,35 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case bubbleRightFill
 
-    /// No preview available.
+    /// 􀮅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case building
 
-    /// No preview available.
+    /// 􀝒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case building2
 
-    /// No preview available.
+    /// 􀝔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case building2CropCircle
 
-    /// No preview available.
+    /// 􀝕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case building2CropCircleFill
 
-    /// No preview available.
+    /// 􀝓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case building2Fill
 
-    /// No preview available.
+    /// 􀤨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case buildingColumns
 
-    /// No preview available.
+    /// 􀤩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case buildingColumnsFill
 
-    /// No preview available.
+    /// 􀮆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case buildingFill
 
@@ -3118,19 +3118,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case burstFill
 
-    /// No preview available.
+    /// 􀝈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case bus
 
-    /// No preview available.
+    /// 􀜛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case busDoubledecker
 
-    /// No preview available.
+    /// 􀜜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case busDoubledeckerFill
 
-    /// No preview available.
+    /// 􀝉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case busFill
 
@@ -3154,12 +3154,12 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case calendar
 
-    /// No preview available.
+    /// 􀧞
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case calendarBadgeClock
 
-    /// No preview available.
+    /// 􀮝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case calendarBadgeExclamationmark
 
@@ -3183,11 +3183,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case camera
 
-    /// No preview available.
+    /// 􀨺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cameraAperture
 
-    /// No preview available.
+    /// 􀢗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cameraBadgeEllipsis
 
@@ -3203,43 +3203,43 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case cameraFill
 
-    /// No preview available.
+    /// 􀢘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cameraFillBadgeEllipsis
 
-    /// No preview available.
+    /// 􀟗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cameraFilters
 
-    /// No preview available.
+    /// 􀢪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cameraMeteringCenterWeighted
 
-    /// No preview available.
+    /// 􀞲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cameraMeteringCenterWeightedAverage
 
-    /// No preview available.
+    /// 􀢫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cameraMeteringMatrix
 
-    /// No preview available.
+    /// 􀢬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cameraMeteringMultispot
 
-    /// No preview available.
+    /// 􀢭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cameraMeteringNone
 
-    /// No preview available.
+    /// 􀢮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cameraMeteringPartial
 
-    /// No preview available.
+    /// 􀢯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cameraMeteringSpot
 
-    /// No preview available.
+    /// 􀢰
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cameraMeteringUnknown
@@ -3256,7 +3256,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case cameraViewfinder
 
-    /// No preview available.
+    /// 􀪳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case candybarphone
 
@@ -3276,11 +3276,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case capsuleFill
 
-    /// No preview available.
+    /// 􀧶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case capsulePortrait
 
-    /// No preview available.
+    /// 􀧷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case capsulePortraitFill
 
@@ -3296,19 +3296,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case car
 
-    /// No preview available.
+    /// 􀝄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case car2
 
-    /// No preview available.
+    /// 􀝅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case car2Fill
 
-    /// No preview available.
+    /// 􀭯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case carCircle
 
-    /// No preview available.
+    /// 􀭰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case carCircleFill
 
@@ -3340,11 +3340,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case cartFillBadgePlus
 
-    /// No preview available.
+    /// 􀯡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case `case`
 
-    /// No preview available.
+    /// 􀯢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case caseFill
 
@@ -3384,11 +3384,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case chartBar
 
-    /// No preview available.
+    /// 􀥜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case chartBarDocHorizontal
 
-    /// No preview available.
+    /// 􀦌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case chartBarDocHorizontalFill
 
@@ -3396,7 +3396,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case chartBarFill
 
-    /// No preview available.
+    /// 􀣉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case chartBarXaxis
 
@@ -3408,7 +3408,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case chartPieFill
 
-    /// No preview available.
+    /// 􀪫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case checkerboardRectangle
 
@@ -3424,12 +3424,12 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case checkmarkCircleFill
 
-    /// No preview available.
+    /// 􀢓
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case checkmarkIcloud
 
-    /// No preview available.
+    /// 􀢔
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case checkmarkIcloudFill
@@ -3442,11 +3442,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case checkmarkRectangleFill
 
-    /// No preview available.
+    /// 􀡮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case checkmarkRectanglePortrait
 
-    /// No preview available.
+    /// 􀡯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case checkmarkRectanglePortraitFill
 
@@ -3474,27 +3474,27 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case checkmarkSquareFill
 
-    /// No preview available.
+    /// 􀯶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case chevronBackward
 
-    /// No preview available.
+    /// 􀰪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case chevronBackward2
 
-    /// No preview available.
+    /// 􀯷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case chevronBackwardCircle
 
-    /// No preview available.
+    /// 􀯸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case chevronBackwardCircleFill
 
-    /// No preview available.
+    /// 􀯹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case chevronBackwardSquare
 
-    /// No preview available.
+    /// 􀯺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case chevronBackwardSquareFill
 
@@ -3534,27 +3534,27 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case chevronDownSquareFill
 
-    /// No preview available.
+    /// 􀯻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case chevronForward
 
-    /// No preview available.
+    /// 􀰫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case chevronForward2
 
-    /// No preview available.
+    /// 􀯼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case chevronForwardCircle
 
-    /// No preview available.
+    /// 􀯽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case chevronForwardCircleFill
 
-    /// No preview available.
+    /// 􀯾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case chevronForwardSquare
 
-    /// No preview available.
+    /// 􀯿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case chevronForwardSquareFill
 
@@ -3638,23 +3638,23 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case circle
 
-    /// No preview available.
+    /// 􀪖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circleBottomhalfFill
 
-    /// No preview available.
+    /// 􀨁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circleCircle
 
-    /// No preview available.
+    /// 􀨂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circleCircleFill
 
-    /// No preview available.
+    /// 􀓞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circleDashed
 
-    /// No preview available.
+    /// 􀧒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circleDashedInsetFill
 
@@ -3662,7 +3662,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case circleFill
 
-    /// No preview available.
+    /// 􀧻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circleFillSquareFill
 
@@ -3682,27 +3682,27 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case circleGrid3x3Fill
 
-    /// No preview available.
+    /// 􀧸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circleGridCross
 
-    /// No preview available.
+    /// 􀩇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circleGridCrossDownFill
 
-    /// No preview available.
+    /// 􀧹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circleGridCrossFill
 
-    /// No preview available.
+    /// 􀩄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circleGridCrossLeftFill
 
-    /// No preview available.
+    /// 􀩆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circleGridCrossRightFill
 
-    /// No preview available.
+    /// 􀩅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circleGridCrossUpFill
 
@@ -3714,27 +3714,27 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case circleRighthalfFill
 
-    /// No preview available.
+    /// 􀧺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circleSquare
 
-    /// No preview available.
+    /// 􀪗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circleTophalfFill
 
-    /// No preview available.
+    /// 􀧙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circlebadge
 
-    /// No preview available.
+    /// 􀫲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circlebadge2
 
-    /// No preview available.
+    /// 􀣽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circlebadge2Fill
 
-    /// No preview available.
+    /// 􀜞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circlebadgeFill
 
@@ -3760,11 +3760,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "circlesHexagongridFill")
     case circleGridHexFill
 
-    /// No preview available.
+    /// 􀬎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circlesHexagonpath
 
-    /// No preview available.
+    /// 􀬏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circlesHexagonpathFill
 
@@ -3780,7 +3780,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case clock
 
-    /// No preview available.
+    /// 􀣔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case clockArrowCirclepath
 
@@ -3932,11 +3932,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case coloncurrencysignSquareFill
 
-    /// No preview available.
+    /// 􀦈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case comb
 
-    /// No preview available.
+    /// 􀦉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case combFill
 
@@ -3944,31 +3944,31 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case command
 
-    /// No preview available.
+    /// 􀩿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case commandCircle
 
-    /// No preview available.
+    /// 􀪀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case commandCircleFill
 
-    /// No preview available.
+    /// 􀪁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case commandSquare
 
-    /// No preview available.
+    /// 􀪂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case commandSquareFill
 
-    /// No preview available.
+    /// 􀳇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cone
 
-    /// No preview available.
+    /// 􀳈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case coneFill
 
-    /// No preview available.
+    /// 􀭈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case contextualmenuAndCursorarrow
 
@@ -3976,7 +3976,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case control
 
-    /// No preview available.
+    /// 􀫥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cpu
 
@@ -3984,11 +3984,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case creditcard
 
-    /// No preview available.
+    /// 􀒯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case creditcardCircle
 
-    /// No preview available.
+    /// 􀒰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case creditcardCircleFill
 
@@ -4004,35 +4004,35 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case cropRotate
 
-    /// No preview available.
+    /// 􀣜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cross
 
-    /// No preview available.
+    /// 􀯙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case crossCase
 
-    /// No preview available.
+    /// 􀯚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case crossCaseFill
 
-    /// No preview available.
+    /// 􀣞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case crossCircle
 
-    /// No preview available.
+    /// 􀣟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case crossCircleFill
 
-    /// No preview available.
+    /// 􀣝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case crossFill
 
-    /// No preview available.
+    /// 􀦅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case crown
 
-    /// No preview available.
+    /// 􀦆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case crownFill
 
@@ -4060,51 +4060,51 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case cubeFill
 
-    /// No preview available.
+    /// 􀬨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cubeTransparent
 
-    /// No preview available.
+    /// 􀳴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cubeTransparentFill
 
-    /// No preview available.
+    /// 􀡅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case curlybraces
 
-    /// No preview available.
+    /// 􀤘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case curlybracesSquare
 
-    /// No preview available.
+    /// 􀤙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case curlybracesSquareFill
 
-    /// No preview available.
+    /// 􀫌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cursorarrow
 
-    /// No preview available.
+    /// 􀮐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cursorarrowAndSquareOnSquareDashed
 
-    /// No preview available.
+    /// 􀭆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cursorarrowClick
 
-    /// No preview available.
+    /// 􀭇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cursorarrowClick2
 
-    /// No preview available.
+    /// 􀮴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cursorarrowClickBadgeClock
 
-    /// No preview available.
+    /// 􀣠
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cursorarrowMotionlines
 
-    /// No preview available.
+    /// 􀣡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cursorarrowMotionlinesClick
 
@@ -4119,23 +4119,23 @@ public enum SFSymbol: String, CaseIterable {
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "cursorarrowRays")
     case cursorRays
 
-    /// No preview available.
+    /// 􀭅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cursorarrowSquare
 
-    /// No preview available.
+    /// 􀳃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cylinder
 
-    /// No preview available.
+    /// 􀳄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cylinderFill
 
-    /// No preview available.
+    /// 􀡓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cylinderSplit1x2
 
-    /// No preview available.
+    /// 􀡔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case cylinderSplit1x2Fill
 
@@ -4179,11 +4179,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case deleteRightFill
 
-    /// No preview available.
+    /// 􀡑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case deskclock
 
-    /// No preview available.
+    /// 􀡒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case deskclockFill
 
@@ -4191,11 +4191,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case desktopcomputer
 
-    /// No preview available.
+    /// 􀪐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dialMax
 
-    /// No preview available.
+    /// 􀪑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dialMaxFill
 
@@ -4221,71 +4221,71 @@ public enum SFSymbol: String, CaseIterable {
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "dialMinFill")
     case dialFill
 
-    /// No preview available.
+    /// 􀟈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case diamond
 
-    /// No preview available.
+    /// 􀟉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case diamondFill
 
-    /// No preview available.
+    /// 􀧣
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dieFace1
 
-    /// No preview available.
+    /// 􀧤
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dieFace1Fill
 
-    /// No preview available.
+    /// 􀧥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dieFace2
 
-    /// No preview available.
+    /// 􀧦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dieFace2Fill
 
-    /// No preview available.
+    /// 􀧧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dieFace3
 
-    /// No preview available.
+    /// 􀧨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dieFace3Fill
 
-    /// No preview available.
+    /// 􀧩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dieFace4
 
-    /// No preview available.
+    /// 􀧪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dieFace4Fill
 
-    /// No preview available.
+    /// 􀧫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dieFace5
 
-    /// No preview available.
+    /// 􀧬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dieFace5Fill
 
-    /// No preview available.
+    /// 􀧭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dieFace6
 
-    /// No preview available.
+    /// 􀧮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dieFace6Fill
 
-    /// No preview available.
+    /// 􀢹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case display
 
-    /// No preview available.
+    /// 􀨧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case display2
 
-    /// No preview available.
+    /// 􀨦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case displayTrianglebadgeExclamationmark
 
@@ -4318,24 +4318,24 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case docAppend
 
-    /// No preview available.
+    /// 􀦋
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case docAppendFill
 
-    /// No preview available.
+    /// 􀩴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case docBadgeEllipsis
 
-    /// No preview available.
+    /// 􀩚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case docBadgeGearshape
 
-    /// No preview available.
+    /// 􀩛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case docBadgeGearshapeFill
 
-    /// No preview available.
+    /// 􀣗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case docBadgePlus
 
@@ -4351,11 +4351,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case docFill
 
-    /// No preview available.
+    /// 􀩵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case docFillBadgeEllipsis
 
-    /// No preview available.
+    /// 􀣘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case docFillBadgePlus
 
@@ -4379,7 +4379,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case docPlaintext
 
-    /// No preview available.
+    /// 􀥨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case docPlaintextFill
 
@@ -4388,7 +4388,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case docRichtext
 
-    /// No preview available.
+    /// 􀦊
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Hebrew
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case docRichtextFill
@@ -4397,11 +4397,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case docText
 
-    /// No preview available.
+    /// 􀳼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case docTextBelowEcg
 
-    /// No preview available.
+    /// 􀳽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case docTextBelowEcgFill
 
@@ -4409,7 +4409,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case docTextFill
 
-    /// No preview available.
+    /// 􀡢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case docTextFillViewfinder
 
@@ -4421,15 +4421,15 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case docTextViewfinder
 
-    /// No preview available.
+    /// 􀤧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case docZipper
 
-    /// No preview available.
+    /// 􀣿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dockArrowDownRectangle
 
-    /// No preview available.
+    /// 􀣾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dockArrowUpRectangle
 
@@ -4476,15 +4476,15 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case dongsignSquareFill
 
-    /// No preview available.
+    /// 􀝯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dotArrowtrianglesUpRightDownLeftCircle
 
-    /// No preview available.
+    /// 􀫍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dotCircleAndCursorarrow
 
-    /// No preview available.
+    /// 􀰭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dotRadiowavesForward
 
@@ -4504,47 +4504,47 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case dotSquareFill
 
-    /// No preview available.
+    /// 􀪵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dotSquareshape
 
-    /// No preview available.
+    /// 􀪶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dotSquareshapeFill
 
-    /// No preview available.
+    /// 􀮋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dotSquareshapeSplit2x2
 
-    /// No preview available.
+    /// 􀨲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dpad
 
-    /// No preview available.
+    /// 􀨀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dpadDownFill
 
-    /// No preview available.
+    /// 􀧼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dpadFill
 
-    /// No preview available.
+    /// 􀧽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dpadLeftFill
 
-    /// No preview available.
+    /// 􀧿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dpadRightFill
 
-    /// No preview available.
+    /// 􀧾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dpadUpFill
 
-    /// No preview available.
+    /// 􀠑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case drop
 
-    /// No preview available.
+    /// 􀠒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dropFill
 
@@ -4576,19 +4576,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case ear
 
-    /// No preview available.
+    /// 􀦿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case earBadgeCheckmark
 
-    /// No preview available.
+    /// 􀞇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case earFill
 
-    /// No preview available.
+    /// 􀧁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case earTrianglebadgeExclamationmark
 
-    /// No preview available.
+    /// 􀠦
     /// ⚠️ This symbol can refer only to Apple's EarPods.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case earpods
@@ -4597,11 +4597,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case eject
 
-    /// No preview available.
+    /// 􀢡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ejectCircle
 
-    /// No preview available.
+    /// 􀢢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ejectCircleFill
 
@@ -4643,11 +4643,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case ellipsisCircleFill
 
-    /// No preview available.
+    /// 􀠩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ellipsisRectangle
 
-    /// No preview available.
+    /// 􀠪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ellipsisRectangleFill
 
@@ -4655,11 +4655,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case envelope
 
-    /// No preview available.
+    /// 􀦗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case envelopeArrowTriangleBranch
 
-    /// No preview available.
+    /// 􀦘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case envelopeArrowTriangleBranchFill
 
@@ -4671,7 +4671,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case envelopeBadgeFill
 
-    /// No preview available.
+    /// 􀫙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case envelopeBadgeShieldLeadinghalfFill
 
@@ -4687,7 +4687,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case envelopeFill
 
-    /// No preview available.
+    /// 􀫚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case envelopeFillBadgeShieldTrailinghalfFill
 
@@ -4723,11 +4723,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case escape
 
-    /// No preview available.
+    /// 􀲵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case esim
 
-    /// No preview available.
+    /// 􀲶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case esimFill
 
@@ -4751,19 +4751,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case exclamationmark
 
-    /// No preview available.
+    /// 􀢒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case exclamationmark2
 
-    /// No preview available.
+    /// 􀣴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case exclamationmark3
 
-    /// No preview available.
+    /// 􀱨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case exclamationmarkArrowCirclepath
 
-    /// No preview available.
+    /// 􀢤
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case exclamationmarkArrowTriangle2Circlepath
 
@@ -4825,83 +4825,83 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case exclamationmarkTriangleFill
 
-    /// No preview available.
+    /// 􀤂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldrive
 
-    /// No preview available.
+    /// 􀩐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveBadgeCheckmark
 
-    /// No preview available.
+    /// 􀪹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveBadgeIcloud
 
-    /// No preview available.
+    /// 􀩏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveBadgeMinus
 
-    /// No preview available.
+    /// 􀩬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveBadgePersonCrop
 
-    /// No preview available.
+    /// 􀩎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveBadgePlus
 
-    /// No preview available.
+    /// 􀤜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveBadgeTimemachine
 
-    /// No preview available.
+    /// 􀩮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveBadgeWifi
 
-    /// No preview available.
+    /// 􀩑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveBadgeXmark
 
-    /// No preview available.
+    /// 􀨤
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveConnectedToLineBelow
 
-    /// No preview available.
+    /// 􀨥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveConnectedToLineBelowFill
 
-    /// No preview available.
+    /// 􀤃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveFill
 
-    /// No preview available.
+    /// 􀩔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveFillBadgeCheckmark
 
-    /// No preview available.
+    /// 􀪺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveFillBadgeIcloud
 
-    /// No preview available.
+    /// 􀩓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveFillBadgeMinus
 
-    /// No preview available.
+    /// 􀩭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveFillBadgePersonCrop
 
-    /// No preview available.
+    /// 􀩒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveFillBadgePlus
 
-    /// No preview available.
+    /// 􀤝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveFillBadgeTimemachine
 
-    /// No preview available.
+    /// 􀩯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveFillBadgeWifi
 
-    /// No preview available.
+    /// 􀩕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case externaldriveFillBadgeXmark
 
@@ -4909,11 +4909,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case eye
 
-    /// No preview available.
+    /// 􀛿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case eyeCircle
 
-    /// No preview available.
+    /// 􀜀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case eyeCircleFill
 
@@ -4929,7 +4929,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case eyeSlashFill
 
-    /// No preview available.
+    /// 􀦭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case eyebrow
 
@@ -4949,11 +4949,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case eyeglasses
 
-    /// No preview available.
+    /// 􀦧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case eyes
 
-    /// No preview available.
+    /// 􀨭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case eyesInverse
 
@@ -4961,7 +4961,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case fCircle
 
-    /// 􀀎
+    /// 􀀏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case fCircleFill
 
@@ -4985,11 +4985,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case fSquareFill
 
-    /// No preview available.
+    /// 􀥧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case faceDashed
 
-    /// No preview available.
+    /// 􀨸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case faceDashedFill
 
@@ -5020,60 +5020,60 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case faceid
 
-    /// No preview available.
+    /// 􀪌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case faxmachine
 
-    /// No preview available.
+    /// 􀥢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case fiberchannel
 
-    /// No preview available.
+    /// 􀳾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case figureStand
 
-    /// No preview available.
+    /// 􀳿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case figureStandLineDottedFigureStand
 
-    /// No preview available.
+    /// 􀝢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case figureWalk
 
-    /// No preview available.
+    /// 􀝣
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case figureWalkCircle
 
-    /// No preview available.
+    /// 􀝤
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case figureWalkCircleFill
 
-    /// No preview available.
+    /// 􀪢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case figureWalkDiamond
 
-    /// No preview available.
+    /// 􀪣
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case figureWalkDiamondFill
 
-    /// No preview available.
+    /// 􀝻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case figureWave
 
-    /// No preview available.
+    /// 􀝼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case figureWaveCircle
 
-    /// No preview available.
+    /// 􀝽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case figureWaveCircleFill
 
-    /// No preview available.
+    /// 􀯪
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case filemenuAndCursorarrow
 
-    /// No preview available.
+    /// 􀱢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case filemenuAndSelection
 
@@ -5089,11 +5089,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case flag
 
-    /// No preview available.
+    /// 􀤔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case flagBadgeEllipsis
 
-    /// No preview available.
+    /// 􀤕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case flagBadgeEllipsisFill
 
@@ -5113,11 +5113,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case flagSlash
 
-    /// No preview available.
+    /// 􀋏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case flagSlashCircle
 
-    /// No preview available.
+    /// 􀋐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case flagSlashCircleFill
 
@@ -5141,7 +5141,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case flashlightOnFill
 
-    /// No preview available.
+    /// 􀪴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case flipphone
 
@@ -5169,7 +5169,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case flowchartFill
 
-    /// No preview available.
+    /// 􀥌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case fn
 
@@ -5177,7 +5177,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case folder
 
-    /// No preview available.
+    /// 􀣍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case folderBadgeGear
 
@@ -5185,7 +5185,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case folderBadgeMinus
 
-    /// 􀈛
+    /// 􀈝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case folderBadgePersonCrop
 
@@ -5193,7 +5193,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case folderBadgePlus
 
-    /// No preview available.
+    /// 􀧆
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case folderBadgeQuestionmark
@@ -5210,11 +5210,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case folderFill
 
-    /// No preview available.
+    /// 􀣎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case folderFillBadgeGear
 
-    /// 􀈖
+    /// 􀈜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case folderFillBadgeMinus
 
@@ -5226,7 +5226,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case folderFillBadgePlus
 
-    /// No preview available.
+    /// 􀧇
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case folderFillBadgeQuestionmark
@@ -5255,11 +5255,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case forwardFill
 
-    /// No preview available.
+    /// 􀩪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case forwardFrame
 
-    /// No preview available.
+    /// 􀩫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case forwardFrameFill
 
@@ -5327,19 +5327,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case gear
 
-    /// No preview available.
+    /// 􀣋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case gearshape
 
-    /// No preview available.
+    /// 􀥎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case gearshape2
 
-    /// No preview available.
+    /// 􀥏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case gearshape2Fill
 
-    /// No preview available.
+    /// 􀣌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case gearshapeFill
 
@@ -5347,11 +5347,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case gift
 
-    /// No preview available.
+    /// 􀓀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case giftCircle
 
-    /// No preview available.
+    /// 􀓁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case giftCircleFill
 
@@ -5359,11 +5359,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case giftFill
 
-    /// No preview available.
+    /// 􀦠
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case giftcard
 
-    /// No preview available.
+    /// 􀦡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case giftcardFill
 
@@ -5457,11 +5457,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case goforwardPlus
 
-    /// No preview available.
+    /// 􀫓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case graduationcap
 
-    /// No preview available.
+    /// 􀫔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case graduationcapFill
 
@@ -5485,11 +5485,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case greaterthanSquareFill
 
-    /// No preview available.
+    /// 􀤠
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case greetingcard
 
-    /// No preview available.
+    /// 􀤡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case greetingcardFill
 
@@ -5525,11 +5525,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case guitars
 
-    /// No preview available.
+    /// 􀟑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case guitarsFill
 
-    /// No preview available.
+    /// 􀬗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case gyroscope
 
@@ -5549,11 +5549,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case hSquareFill
 
-    /// No preview available.
+    /// 􀭝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case hSquareFillOnSquareFill
 
-    /// No preview available.
+    /// 􀭜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case hSquareOnSquare
 
@@ -5573,11 +5573,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case handDrawFill
 
-    /// No preview available.
+    /// 􀤻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case handPointDown
 
-    /// No preview available.
+    /// 􀤼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case handPointDownFill
 
@@ -5597,27 +5597,27 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case handPointRightFill
 
-    /// No preview available.
+    /// 􀤹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case handPointUp
 
-    /// No preview available.
+    /// 􀦂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case handPointUpBraille
 
-    /// No preview available.
+    /// 􀦃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case handPointUpBrailleFill
 
-    /// No preview available.
+    /// 􀤺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case handPointUpFill
 
-    /// No preview available.
+    /// 􀝰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case handPointUpLeft
 
-    /// No preview available.
+    /// 􀝱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case handPointUpLeftFill
 
@@ -5637,11 +5637,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case handRaisedSlashFill
 
-    /// No preview available.
+    /// 􀬁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case handTap
 
-    /// No preview available.
+    /// 􀬂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case handTapFill
 
@@ -5661,27 +5661,27 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case handThumbsupFill
 
-    /// No preview available.
+    /// 􀟰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case handWave
 
-    /// No preview available.
+    /// 􀟱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case handWaveFill
 
-    /// No preview available.
+    /// 􀟮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case handsClap
 
-    /// No preview available.
+    /// 􀟯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case handsClapFill
 
-    /// No preview available.
+    /// 􀲮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case handsSparkles
 
-    /// No preview available.
+    /// 􀲯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case handsSparklesFill
 
@@ -5697,15 +5697,15 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case headphones
 
-    /// No preview available.
+    /// 􀒾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case headphonesCircle
 
-    /// No preview available.
+    /// 􀒿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case headphonesCircleFill
 
-    /// No preview available.
+    /// 􀪓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case hearingaidEar
 
@@ -5741,11 +5741,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case heartSlashFill
 
-    /// No preview available.
+    /// 􀥴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case heartTextSquare
 
-    /// No preview available.
+    /// 􀥵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case heartTextSquareFill
 
@@ -5765,19 +5765,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case hifispeaker
 
-    /// No preview available.
+    /// 􀟵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case hifispeaker2
 
-    /// No preview available.
+    /// 􀟶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case hifispeaker2Fill
 
-    /// No preview available.
+    /// 􀮎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case hifispeakerAndHomepod
 
-    /// No preview available.
+    /// 􀟴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case hifispeakerAndHomepodFill
 
@@ -5785,29 +5785,29 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case hifispeakerFill
 
-    /// No preview available.
+    /// 􀦇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case highlighter
 
-    /// No preview available.
+    /// 􀠀
     /// ⚠️ This symbol can refer only to Apple's HomeKit.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case homekit
 
-    /// No preview available.
+    /// 􀟢
     /// ⚠️ This symbol can refer only to Apple's HomePod.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case homepod
 
-    /// No preview available.
+    /// 􀮍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case homepod2
 
-    /// No preview available.
+    /// 􀟳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case homepod2Fill
 
-    /// No preview available.
+    /// 􀟣
     /// ⚠️ This symbol can refer only to Apple's HomePod.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case homepodFill
@@ -5816,7 +5816,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case hourglass
 
-    /// No preview available.
+    /// 􀣬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case hourglassBadgePlus
 
@@ -5832,11 +5832,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case house
 
-    /// No preview available.
+    /// 􀥆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case houseCircle
 
-    /// No preview available.
+    /// 􀥇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case houseCircleFill
 
@@ -5954,7 +5954,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case indianrupeesignSquareFill
 
-    /// No preview available.
+    /// 􀯠
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case infinity
 
@@ -5970,90 +5970,90 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case infoCircleFill
 
-    /// No preview available.
+    /// 􀥾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case internaldrive
 
-    /// No preview available.
+    /// 􀨪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case internaldriveFill
 
-    /// No preview available.
+    /// 􀟠
     /// ⚠️ This symbol can refer only to Apple's iPad.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ipad
 
-    /// No preview available.
+    /// 􀟟
     /// ⚠️ This symbol can refer only to Apple's iPad.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ipadHomebutton
 
-    /// No preview available.
+    /// 􀥓
     /// ⚠️ This symbol can refer only to Apple's iPad.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ipadHomebuttonLandscape
 
-    /// No preview available.
+    /// 􀥔
     /// ⚠️ This symbol can refer only to Apple's iPad.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ipadLandscape
 
-    /// No preview available.
+    /// 􀟜
     /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case iphone
 
-    /// No preview available.
+    /// 􀟝
     /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case iphoneHomebutton
 
-    /// No preview available.
+    /// 􀡆
     /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case iphoneHomebuttonRadiowavesLeftAndRight
 
-    /// No preview available.
+    /// 􀨴
     /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case iphoneHomebuttonSlash
 
-    /// No preview available.
+    /// 􀡇
     /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case iphoneRadiowavesLeftAndRight
 
-    /// No preview available.
+    /// 􀨵
     /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case iphoneSlash
 
-    /// No preview available.
+    /// 􀢺
     /// ⚠️ This symbol can refer only to Apple's iPod.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ipod
 
-    /// No preview available.
+    /// 􀫨
     /// ⚠️ This symbol can refer only to Apple's iPod shuffle.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ipodshuffleGen1
 
-    /// No preview available.
+    /// 􀫩
     /// ⚠️ This symbol can refer only to Apple's iPod shuffle.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ipodshuffleGen2
 
-    /// No preview available.
+    /// 􀫪
     /// ⚠️ This symbol can refer only to Apple's iPod shuffle.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ipodshuffleGen3
 
-    /// No preview available.
+    /// 􀫫
     /// ⚠️ This symbol can refer only to Apple's iPod shuffle.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ipodshuffleGen4
 
-    /// No preview available.
+    /// 􀫧
     /// ⚠️ This symbol can refer only to Apple's iPod touch.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ipodtouch
@@ -6078,15 +6078,15 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case jSquareFill
 
-    /// No preview available.
+    /// 􀭛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case jSquareFillOnSquareFill
 
-    /// No preview available.
+    /// 􀭚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case jSquareOnSquare
 
-    /// No preview available.
+    /// 􀥋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case k
 
@@ -6106,20 +6106,20 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case kSquareFill
 
-    /// No preview available.
+    /// 􀟕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case key
 
-    /// No preview available.
+    /// 􀟖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case keyFill
 
-    /// No preview available.
+    /// 􀢕
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case keyIcloud
 
-    /// No preview available.
+    /// 􀢖
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case keyIcloudFill
@@ -6128,7 +6128,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case keyboard
 
-    /// No preview available.
+    /// 􀫒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case keyboardBadgeEllipsis
 
@@ -6136,19 +6136,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case keyboardChevronCompactDown
 
-    /// No preview available.
+    /// 􀣭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case keyboardChevronCompactLeft
 
-    /// No preview available.
+    /// 􀤯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case keyboardMacwindow
 
-    /// No preview available.
+    /// 􀞹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case keyboardOnehandedLeft
 
-    /// No preview available.
+    /// 􀞺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case keyboardOnehandedRight
 
@@ -6176,27 +6176,27 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case lCircleFill
 
-    /// No preview available.
+    /// 􀦒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lJoystick
 
-    /// No preview available.
+    /// 􀦔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lJoystickDown
 
-    /// No preview available.
+    /// 􀫃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lJoystickDownFill
 
-    /// No preview available.
+    /// 􀫁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lJoystickFill
 
-    /// No preview available.
+    /// 􀨇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lRectangleRoundedbottom
 
-    /// No preview available.
+    /// 􀨈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lRectangleRoundedbottomFill
 
@@ -6208,35 +6208,35 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case lSquareFill
 
-    /// No preview available.
+    /// 􀨉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case l1RectangleRoundedbottom
 
-    /// No preview available.
+    /// 􀨊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case l1RectangleRoundedbottomFill
 
-    /// No preview available.
+    /// 􀨋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case l2RectangleRoundedtop
 
-    /// No preview available.
+    /// 􀨌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case l2RectangleRoundedtopFill
 
-    /// No preview available.
+    /// 􀯔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ladybug
 
-    /// No preview available.
+    /// 􀯕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ladybugFill
 
-    /// No preview available.
+    /// 􀟛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case laptopcomputer
 
-    /// No preview available.
+    /// 􀬩
     /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case laptopcomputerAndIphone
@@ -6265,27 +6265,27 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case lasso
 
-    /// No preview available.
+    /// 􀣳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lassoSparkles
 
-    /// No preview available.
+    /// 􀢟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case latch2Case
 
-    /// No preview available.
+    /// 􀢠
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case latch2CaseFill
 
-    /// No preview available.
+    /// 􀨓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lbRectangleRoundedbottom
 
-    /// No preview available.
+    /// 􀨔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lbRectangleRoundedbottomFill
 
-    /// No preview available.
+    /// 􀥲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case leaf
 
@@ -6300,7 +6300,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "leafArrowTriangleCirclepath")
     case leafArrowCirclepath
 
-    /// No preview available.
+    /// 􀥳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case leafFill
 
@@ -6324,19 +6324,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case lessthanSquareFill
 
-    /// No preview available.
+    /// 􀟂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case level
 
-    /// No preview available.
+    /// 􀟃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case levelFill
 
-    /// No preview available.
+    /// 􀡦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lifepreserver
 
-    /// No preview available.
+    /// 􀡧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lifepreserverFill
 
@@ -6364,27 +6364,27 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case lightbulbSlashFill
 
-    /// No preview available.
+    /// 􀫎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case line3CrossedSwirlCircle
 
-    /// No preview available.
+    /// 􀫏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case line3CrossedSwirlCircleFill
 
-    /// No preview available.
+    /// 􀫰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lineDiagonal
 
-    /// No preview available.
+    /// 􀫱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lineDiagonalArrow
 
-    /// No preview available.
+    /// 􀘵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lineHorizontal2DecreaseCircle
 
-    /// No preview available.
+    /// 􀘶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lineHorizontal2DecreaseCircleFill
 
@@ -6392,11 +6392,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case lineHorizontal3
 
-    /// No preview available.
+    /// 􀧱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lineHorizontal3Circle
 
-    /// No preview available.
+    /// 􀧲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lineHorizontal3CircleFill
 
@@ -6412,11 +6412,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case lineHorizontal3DecreaseCircleFill
 
-    /// No preview available.
+    /// 􀑮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lineHorizontalStarFillLineHorizontal
 
-    /// No preview available.
+    /// 􀉨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lineweight
 
@@ -6424,7 +6424,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case link
 
-    /// No preview available.
+    /// 􀥕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case linkBadgePlus
 
@@ -6462,7 +6462,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case lirasignSquareFill
 
-    /// No preview available.
+    /// 􀬉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case listAndFilm
 
@@ -6478,7 +6478,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case listBulletIndent
 
-    /// No preview available.
+    /// 􀩳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case listBulletRectangle
 
@@ -6492,11 +6492,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case listNumber
 
-    /// No preview available.
+    /// 􀣩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case listStar
 
-    /// No preview available.
+    /// 􀢽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case listTriangle
 
@@ -6505,7 +6505,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case livephoto
 
-    /// No preview available.
+    /// 􀙔
     /// ⚠️ This symbol can refer only to Apple's Live Photos feature.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case livephotoBadgeA
@@ -6536,7 +6536,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case locationFill
 
-    /// No preview available.
+    /// 􀮄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case locationFillViewfinder
 
@@ -6564,7 +6564,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case locationSlashFill
 
-    /// No preview available.
+    /// 􀮃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case locationViewfinder
 
@@ -6580,11 +6580,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case lockCircleFill
 
-    /// No preview available.
+    /// 􀢍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lockDoc
 
-    /// No preview available.
+    /// 􀢎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lockDocFill
 
@@ -6610,27 +6610,27 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case lockOpenFill
 
-    /// No preview available.
+    /// 􀢈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lockRectangle
 
-    /// No preview available.
+    /// 􀢉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lockRectangleFill
 
-    /// No preview available.
+    /// 􀢳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lockRectangleOnRectangle
 
-    /// No preview available.
+    /// 􀢴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lockRectangleOnRectangleFill
 
-    /// No preview available.
+    /// 􀢱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lockRectangleStack
 
-    /// No preview available.
+    /// 􀢲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lockRectangleStackFill
 
@@ -6658,39 +6658,39 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case lockSlashFill
 
-    /// No preview available.
+    /// 􀢵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lockSquare
 
-    /// No preview available.
+    /// 􀢶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lockSquareFill
 
-    /// No preview available.
+    /// 􀡜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lockSquareStack
 
-    /// No preview available.
+    /// 􀡝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lockSquareStackFill
 
-    /// No preview available.
+    /// 􀤎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case loupe
 
-    /// No preview available.
+    /// 􀨗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ltRectangleRoundedtop
 
-    /// No preview available.
+    /// 􀨘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ltRectangleRoundedtopFill
 
-    /// No preview available.
+    /// 􀦚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lungs
 
-    /// No preview available.
+    /// 􀦛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case lungsFill
 
@@ -6710,37 +6710,37 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case mSquareFill
 
-    /// No preview available.
+    /// 􀪯
     /// ⚠️ This symbol can refer only to Apple's Mac mini.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case macmini
 
-    /// No preview available.
+    /// 􀪰
     /// ⚠️ This symbol can refer only to Apple's Mac mini.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case macminiFill
 
-    /// No preview available.
+    /// 􀪲
     /// ⚠️ This symbol can refer only to Apple's Mac Pro.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case macproGen1
 
-    /// No preview available.
+    /// 􀦱
     /// ⚠️ This symbol can refer only to Apple's Mac Pro.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case macproGen2
 
-    /// No preview available.
+    /// 􀦮
     /// ⚠️ This symbol can refer only to Apple's Mac Pro.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case macproGen2Fill
 
-    /// No preview available.
+    /// 􀪱
     /// ⚠️ This symbol can refer only to Apple's Mac Pro.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case macproGen3
 
-    /// No preview available.
+    /// 􀨳
     /// ⚠️ This symbol can refer only to Apple's Mac Pro.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case macproGen3Server
@@ -6749,11 +6749,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case macwindow
 
-    /// No preview available.
+    /// 􀥃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case macwindowBadgePlus
 
-    /// No preview available.
+    /// 􀢌
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case macwindowOnRectangle
@@ -6770,24 +6770,24 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case magnifyingglassCircleFill
 
-    /// No preview available.
+    /// 􀣪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case mail
 
-    /// No preview available.
+    /// 􀢾
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case mailAndTextMagnifyingglass
 
-    /// No preview available.
+    /// 􀣫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case mailFill
 
-    /// No preview available.
+    /// 􀍝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case mailStack
 
-    /// No preview available.
+    /// 􀍞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case mailStackFill
 
@@ -6835,11 +6835,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case mappinSlash
 
-    /// No preview available.
+    /// 􀬲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case megaphone
 
-    /// No preview available.
+    /// 􀬳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case megaphoneFill
 
@@ -6855,27 +6855,27 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case memoriesBadgePlus
 
-    /// No preview available.
+    /// 􀫦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case memorychip
 
-    /// No preview available.
+    /// 􀤁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case menubarArrowDownRectangle
 
-    /// No preview available.
+    /// 􀤀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case menubarArrowUpRectangle
 
-    /// No preview available.
+    /// 􀣰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case menubarDockRectangle
 
-    /// No preview available.
+    /// 􀣑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case menubarDockRectangleBadgeRecord
 
-    /// No preview available.
+    /// 􀦍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case menubarRectangle
 
@@ -6903,7 +6903,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case metronome
 
-    /// No preview available.
+    /// 􀠕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case metronomeFill
 
@@ -6959,11 +6959,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case minusCircleFill
 
-    /// No preview available.
+    /// 􀢁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case minusDiamond
 
-    /// No preview available.
+    /// 􀢂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case minusDiamondFill
 
@@ -6971,11 +6971,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case minusMagnifyingglass
 
-    /// No preview available.
+    /// 􀫬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case minusPlusBatteryblock
 
-    /// No preview available.
+    /// 􀫭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case minusPlusBatteryblockFill
 
@@ -6987,11 +6987,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case minusRectangleFill
 
-    /// No preview available.
+    /// 􀡬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case minusRectanglePortrait
 
-    /// No preview available.
+    /// 􀡭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case minusRectanglePortraitFill
 
@@ -7039,31 +7039,31 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case moonZzzFill
 
-    /// No preview available.
+    /// 􀯫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case mosaic
 
-    /// No preview available.
+    /// 􀯬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case mosaicFill
 
-    /// No preview available.
+    /// 􀣊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case mount
 
-    /// No preview available.
+    /// 􀢣
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case mountFill
 
-    /// No preview available.
+    /// 􀦩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case mouth
 
-    /// No preview available.
+    /// 􀦪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case mouthFill
 
-    /// No preview available.
+    /// 􀢅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case move3d
 
@@ -7121,15 +7121,15 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case musicNoteList
 
-    /// No preview available.
+    /// 􀫀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case musicQuarternote3
 
-    /// No preview available.
+    /// 􀥿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case mustache
 
-    /// No preview available.
+    /// 􀦀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case mustacheFill
 
@@ -7165,23 +7165,23 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case nairasignSquareFill
 
-    /// No preview available.
+    /// 􀤆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case network
 
-    /// No preview available.
+    /// 􀤦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case newspaper
 
-    /// No preview available.
+    /// 􀥅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case newspaperFill
 
-    /// No preview available.
+    /// 􀨯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case nose
 
-    /// No preview available.
+    /// 􀨰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case noseFill
 
@@ -7189,15 +7189,15 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case nosign
 
-    /// No preview available.
+    /// 􀧵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case note
 
-    /// No preview available.
+    /// 􀓕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case noteText
 
-    /// No preview available.
+    /// 􀣙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case noteTextBadgePlus
 
@@ -7237,23 +7237,23 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case oSquareFill
 
-    /// No preview available.
+    /// 􀟊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case octagon
 
-    /// No preview available.
+    /// 􀟋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case octagonFill
 
-    /// No preview available.
+    /// 􀢸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case opticaldisc
 
-    /// No preview available.
+    /// 􀤄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case opticaldiscdrive
 
-    /// No preview available.
+    /// 􀤅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case opticaldiscdriveFill
 
@@ -7261,19 +7261,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case option
 
-    /// No preview available.
+    /// 􀲞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case oval
 
-    /// No preview available.
+    /// 􀲟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ovalFill
 
-    /// No preview available.
+    /// 􀲠
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ovalPortrait
 
-    /// No preview available.
+    /// 􀲡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ovalPortraitFill
 
@@ -7301,19 +7301,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case paintbrushFill
 
-    /// No preview available.
+    /// 􀣶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case paintbrushPointed
 
-    /// No preview available.
+    /// 􀣷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case paintbrushPointedFill
 
-    /// No preview available.
+    /// 􀝥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case paintpalette
 
-    /// No preview available.
+    /// 􀝦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case paintpaletteFill
 
@@ -7329,7 +7329,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case paperclip
 
-    /// No preview available.
+    /// 􀢏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case paperclipBadgeEllipsis
 
@@ -7345,11 +7345,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case paperplane
 
-    /// No preview available.
+    /// 􀈡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case paperplaneCircle
 
-    /// No preview available.
+    /// 􀈢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case paperplaneCircleFill
 
@@ -7392,7 +7392,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case pauseRectangleFill
 
-    /// No preview available.
+    /// 􀥺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case pc
 
@@ -7426,7 +7426,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case pencilTipCropCircle
 
-    /// No preview available.
+    /// 􀧚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case pencilTipCropCircleBadgeArrowForward
 
@@ -7453,11 +7453,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case person2
 
-    /// No preview available.
+    /// 􀠃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case person2Circle
 
-    /// No preview available.
+    /// 􀠄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case person2CircleFill
 
@@ -7481,7 +7481,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case person3Fill
 
-    /// No preview available.
+    /// 􀪼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case personAndArrowLeftAndArrowRight
 
@@ -7528,7 +7528,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case personCropCircleBadgePlus
 
-    /// No preview available.
+    /// 􀭽
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case personCropCircleBadgeQuestionmark
@@ -7564,7 +7564,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case personCropCircleFillBadgePlus
 
-    /// No preview available.
+    /// 􀭾
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case personCropCircleFillBadgeQuestionmark
@@ -7589,7 +7589,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case personCropSquareFill
 
-    /// No preview available.
+    /// 􀦎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case personCropSquareFillAndAtRectangle
 
@@ -7597,7 +7597,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case personFill
 
-    /// No preview available.
+    /// 􀪽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case personFillAndArrowLeftAndArrowRight
 
@@ -7623,33 +7623,33 @@ public enum SFSymbol: String, CaseIterable {
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personFillBadgePlus")
     case personBadgePlusFill
 
-    /// No preview available.
+    /// 􀯧
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case personFillCheckmark
 
-    /// No preview available.
+    /// 􀯩
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case personFillQuestionmark
 
-    /// No preview available.
+    /// 􀯒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case personFillTurnDown
 
-    /// No preview available.
+    /// 􀯓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case personFillTurnLeft
 
-    /// No preview available.
+    /// 􀯑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case personFillTurnRight
 
-    /// No preview available.
+    /// 􀲏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case personFillViewfinder
 
-    /// No preview available.
+    /// 􀯨
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case personFillXmark
@@ -7724,11 +7724,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case phoneBadgePlus
 
-    /// No preview available.
+    /// 􀱮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case phoneBubbleLeft
 
-    /// No preview available.
+    /// 􀱯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case phoneBubbleLeftFill
 
@@ -7740,7 +7740,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case phoneCircleFill
 
-    /// No preview available.
+    /// 􀬛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case phoneConnection
 
@@ -7780,7 +7780,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case phoneFillBadgePlus
 
-    /// No preview available.
+    /// 􀬜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case phoneFillConnection
 
@@ -7800,23 +7800,23 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case photoOnRectangle
 
-    /// No preview available.
+    /// 􀣵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case photoOnRectangleAngled
 
-    /// No preview available.
+    /// 􀎏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case pianokeys
 
-    /// No preview available.
+    /// 􀟽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case pianokeysInverse
 
-    /// No preview available.
+    /// 􀠱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case pills
 
-    /// No preview available.
+    /// 􀠲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case pillsFill
 
@@ -7844,31 +7844,31 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case pinSlashFill
 
-    /// No preview available.
+    /// 􀠳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case pip
 
-    /// No preview available.
+    /// 􀑨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case pipEnter
 
-    /// No preview available.
+    /// 􀑧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case pipExit
 
-    /// No preview available.
+    /// 􀠴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case pipFill
 
-    /// No preview available.
+    /// 􀭲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case pipRemove
 
-    /// No preview available.
+    /// 􀭱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case pipSwap
 
-    /// No preview available.
+    /// 􀮷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case placeholdertextFill
 
@@ -7896,11 +7896,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case playRectangleFill
 
-    /// No preview available.
+    /// 􀪅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case playSlash
 
-    /// No preview available.
+    /// 􀪆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case playSlashFill
 
@@ -7940,11 +7940,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case plusCircleFill
 
-    /// No preview available.
+    /// 􀡿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case plusDiamond
 
-    /// No preview available.
+    /// 􀢀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case plusDiamondFill
 
@@ -7952,12 +7952,12 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case plusMagnifyingglass
 
-    /// No preview available.
+    /// 􀡙
     /// ⚠️ This symbol can refer only to Apple's Messages app.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case plusMessage
 
-    /// No preview available.
+    /// 􀡚
     /// ⚠️ This symbol can refer only to Apple's Messages app.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case plusMessageFill
@@ -7970,7 +7970,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case plusRectangleFill
 
-    /// No preview available.
+    /// 􀤱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case plusRectangleFillOnFolderFill
 
@@ -7978,7 +7978,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case plusRectangleFillOnRectangleFill
 
-    /// No preview available.
+    /// 􀤰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case plusRectangleOnFolder
 
@@ -7986,11 +7986,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case plusRectangleOnRectangle
 
-    /// No preview available.
+    /// 􀡪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case plusRectanglePortrait
 
-    /// No preview available.
+    /// 􀡫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case plusRectanglePortraitFill
 
@@ -8014,7 +8014,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case plusSquareOnSquare
 
-    /// No preview available.
+    /// 􀥄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case plusViewfinder
 
@@ -8030,11 +8030,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case plusminusCircleFill
 
-    /// No preview available.
+    /// 􀬱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case pointFillTopleftDownCurvedtoPointFillBottomrightUp
 
-    /// No preview available.
+    /// 􀣱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case pointTopleftDownCurvedtoPointBottomrightUp
 
@@ -8042,15 +8042,15 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case power
 
-    /// No preview available.
+    /// 􀥥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case poweroff
 
-    /// No preview available.
+    /// 􀥤
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case poweron
 
-    /// No preview available.
+    /// 􀥦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case powersleep
 
@@ -8058,15 +8058,15 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case printer
 
-    /// No preview available.
+    /// 􀪞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case printerDotmatrix
 
-    /// No preview available.
+    /// 􀪟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case printerDotmatrixFill
 
-    /// No preview available.
+    /// 􀪿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case printerDotmatrixFillAndPaperFill
 
@@ -8074,7 +8074,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case printerFill
 
-    /// No preview available.
+    /// 􀪾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case printerFillAndPaperFill
 
@@ -8094,19 +8094,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case purchasedCircleFill
 
-    /// No preview available.
+    /// 􀤚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case puzzlepiece
 
-    /// No preview available.
+    /// 􀤛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case puzzlepieceFill
 
-    /// No preview available.
+    /// 􀳋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case pyramid
 
-    /// No preview available.
+    /// 􀳌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case pyramidFill
 
@@ -8159,12 +8159,12 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case questionmarkDiamondFill
 
-    /// No preview available.
+    /// 􀬔
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case questionmarkFolder
 
-    /// No preview available.
+    /// 􀬕
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case questionmarkFolderFill
@@ -8174,7 +8174,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case questionmarkSquare
 
-    /// No preview available.
+    /// 􀭉
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case questionmarkSquareDashed
@@ -8216,27 +8216,27 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case rCircleFill
 
-    /// No preview available.
+    /// 􀦓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rJoystick
 
-    /// No preview available.
+    /// 􀦕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rJoystickDown
 
-    /// No preview available.
+    /// 􀫄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rJoystickDownFill
 
-    /// No preview available.
+    /// 􀫂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rJoystickFill
 
-    /// No preview available.
+    /// 􀨍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rRectangleRoundedbottom
 
-    /// No preview available.
+    /// 􀨎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rRectangleRoundedbottomFill
 
@@ -8248,35 +8248,35 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case rSquareFill
 
-    /// No preview available.
+    /// 􀭙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rSquareFillOnSquareFill
 
-    /// No preview available.
+    /// 􀭘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rSquareOnSquare
 
-    /// No preview available.
+    /// 􀨏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case r1RectangleRoundedbottom
 
-    /// No preview available.
+    /// 􀨐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case r1RectangleRoundedbottomFill
 
-    /// No preview available.
+    /// 􀨑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case r2RectangleRoundedtop
 
-    /// No preview available.
+    /// 􀨒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case r2RectangleRoundedtopFill
 
-    /// No preview available.
+    /// 􀪔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case radio
 
-    /// No preview available.
+    /// 􀪕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case radioFill
 
@@ -8284,19 +8284,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case rays
 
-    /// No preview available.
+    /// 􀨕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rbRectangleRoundedbottom
 
-    /// No preview available.
+    /// 􀨖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rbRectangleRoundedbottomFill
 
-    /// No preview available.
+    /// 􀢙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case recordCircle
 
-    /// No preview available.
+    /// 􀢚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case recordCircleFill
 
@@ -8312,11 +8312,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case rectangle3Offgrid
 
-    /// No preview available.
+    /// 􀬄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangle3OffgridBubbleLeft
 
-    /// No preview available.
+    /// 􀬅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangle3OffgridBubbleLeftFill
 
@@ -8348,16 +8348,16 @@ public enum SFSymbol: String, CaseIterable {
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "rectangleAndPencilAndEllipsis")
     case pencilAndEllipsisRectangle
 
-    /// No preview available.
+    /// 􀬸
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleAndTextMagnifyingglass
 
-    /// No preview available.
+    /// 􀫺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleArrowtriangle2Inward
 
-    /// No preview available.
+    /// 􀫹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleArrowtriangle2Outward
 
@@ -8365,11 +8365,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case rectangleBadgeCheckmark
 
-    /// No preview available.
+    /// 􀏓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleBadgeMinus
 
-    /// No preview available.
+    /// 􀏑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleBadgePlus
 
@@ -8377,11 +8377,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case rectangleBadgeXmark
 
-    /// No preview available.
+    /// 􀨨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleBottomthirdInsetFill
 
-    /// No preview available.
+    /// 􀥝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleCenterInsetFill
 
@@ -8389,19 +8389,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case rectangleCompressVertical
 
-    /// No preview available.
+    /// 􀩲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleConnectedToLineBelow
 
-    /// No preview available.
+    /// 􀥁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleDashed
 
-    /// No preview available.
+    /// 􀥪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleDashedAndPaperclip
 
-    /// No preview available.
+    /// 􀥂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleDashedBadgeRecord
 
@@ -8417,11 +8417,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case rectangleFillBadgeCheckmark
 
-    /// No preview available.
+    /// 􀏔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleFillBadgeMinus
 
-    /// No preview available.
+    /// 􀏒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleFillBadgePlus
 
@@ -8437,15 +8437,15 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case rectangleFillOnRectangleFill
 
-    /// No preview available.
+    /// 􀤽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleFillOnRectangleFillCircle
 
-    /// No preview available.
+    /// 􀤾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleFillOnRectangleFillCircleFill
 
-    /// No preview available.
+    /// 􀤿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleFillOnRectangleFillSlashFill
 
@@ -8473,39 +8473,39 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case rectangleGrid3x2Fill
 
-    /// No preview available.
+    /// 􀭵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleInsetBottomleftFill
 
-    /// No preview available.
+    /// 􀭶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleInsetBottomrightFill
 
-    /// No preview available.
+    /// 􀤳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleInsetFill
 
-    /// No preview available.
+    /// 􀭳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleInsetTopleftFill
 
-    /// No preview available.
+    /// 􀭴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleInsetToprightFill
 
-    /// No preview available.
+    /// 􀤶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleLefthalfFill
 
-    /// No preview available.
+    /// 􀤴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleLefthalfInsetFill
 
-    /// No preview available.
+    /// 􀥞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleLefthalfInsetFillArrowLeft
 
-    /// No preview available.
+    /// 􀨱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleLeftthirdInsetFill
 
@@ -8517,87 +8517,87 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case rectangleOnRectangleAngled
 
-    /// No preview available.
+    /// 􀥀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleOnRectangleSlash
 
-    /// No preview available.
+    /// 􀟏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectanglePortrait
 
-    /// No preview available.
+    /// 􀫼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectanglePortraitArrowtriangle2Inward
 
-    /// No preview available.
+    /// 􀫻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectanglePortraitArrowtriangle2Outward
 
-    /// No preview available.
+    /// 􀟐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectanglePortraitFill
 
-    /// No preview available.
+    /// 􀤷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleRighthalfFill
 
-    /// No preview available.
+    /// 􀤵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleRighthalfInsetFill
 
-    /// No preview available.
+    /// 􀥟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleRighthalfInsetFillArrowRight
 
-    /// No preview available.
+    /// 􀨩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleRightthirdInsetFill
 
-    /// No preview available.
+    /// 􀩺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleRoundedbottom
 
-    /// No preview available.
+    /// 􀩻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleRoundedbottomFill
 
-    /// No preview available.
+    /// 􀩸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleRoundedtop
 
-    /// No preview available.
+    /// 􀩹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleRoundedtopFill
 
-    /// No preview available.
+    /// 􀣤
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleSlash
 
-    /// No preview available.
+    /// 􀣥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleSlashFill
 
-    /// No preview available.
+    /// 􀧊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleSplit1x2
 
-    /// No preview available.
+    /// 􀧋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleSplit1x2Fill
 
-    /// No preview available.
+    /// 􀧈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleSplit2x1
 
-    /// No preview available.
+    /// 􀧉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleSplit2x1Fill
 
-    /// No preview available.
+    /// 􀧌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleSplit2x2
 
-    /// No preview available.
+    /// 􀧍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleSplit2x2Fill
 
@@ -8665,11 +8665,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case repeat1
 
-    /// No preview available.
+    /// 􀯆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case restart
 
-    /// No preview available.
+    /// 􀣨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case restartCircle
 
@@ -8689,7 +8689,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case rosette
 
-    /// No preview available.
+    /// 􀢇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rotate3d
 
@@ -8709,11 +8709,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case rotateRightFill
 
-    /// No preview available.
+    /// 􀨙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rtRectangleRoundedtop
 
-    /// No preview available.
+    /// 􀨚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rtRectangleRoundedtopFill
 
@@ -8733,11 +8733,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case rublesignSquareFill
 
-    /// No preview available.
+    /// 􀟀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ruler
 
-    /// No preview available.
+    /// 􀟁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rulerFill
 
@@ -8783,23 +8783,23 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case safariFill
 
-    /// No preview available.
+    /// 􀢆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case scale3d
 
-    /// No preview available.
+    /// 􀭭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case scalemass
 
-    /// No preview available.
+    /// 􀭮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case scalemassFill
 
-    /// No preview available.
+    /// 􀪊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case scanner
 
-    /// No preview available.
+    /// 􀪋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case scannerFill
 
@@ -8819,31 +8819,31 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case scribble
 
-    /// No preview available.
+    /// 􀤑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case scribbleVariable
 
-    /// No preview available.
+    /// 􀤏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case scroll
 
-    /// No preview available.
+    /// 􀤐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case scrollFill
 
-    /// No preview available.
+    /// 􀪇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case sdcard
 
-    /// No preview available.
+    /// 􀪈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case sdcardFill
 
-    /// No preview available.
+    /// 􀟆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case seal
 
-    /// No preview available.
+    /// 􀟇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case sealFill
 
@@ -8851,11 +8851,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case selectionPinInOut
 
-    /// No preview available.
+    /// 􀪬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case serverRack
 
-    /// No preview available.
+    /// 􀨡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case shadow
 
@@ -8915,7 +8915,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case shieldLefthalfFill
 
-    /// No preview available.
+    /// 􀲊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case shieldLefthalfFillSlash
 
@@ -8961,7 +8961,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case shuffle
 
-    /// No preview available.
+    /// 􀰱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case sidebarLeading
 
@@ -8973,23 +8973,23 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case sidebarRight
 
-    /// No preview available.
+    /// 􀱦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case sidebarSquaresLeading
 
-    /// No preview available.
+    /// 􀱤
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case sidebarSquaresLeft
 
-    /// No preview available.
+    /// 􀱥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case sidebarSquaresRight
 
-    /// No preview available.
+    /// 􀱧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case sidebarSquaresTrailing
 
-    /// No preview available.
+    /// 􀰲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case sidebarTrailing
 
@@ -8998,35 +8998,35 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case signature
 
-    /// No preview available.
+    /// 􀰯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case signpostLeft
 
-    /// No preview available.
+    /// 􀰰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case signpostLeftFill
 
-    /// No preview available.
+    /// 􀯌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case signpostRight
 
-    /// No preview available.
+    /// 􀯍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case signpostRightFill
 
-    /// No preview available.
+    /// 􀠅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case simcard
 
-    /// No preview available.
+    /// 􀡹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case simcard2
 
-    /// No preview available.
+    /// 􀡺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case simcard2Fill
 
-    /// No preview available.
+    /// 􀠆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case simcardFill
 
@@ -9061,11 +9061,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case sliderHorizontalBelowRectangle
 
-    /// No preview available.
+    /// 􀰗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case sliderHorizontalBelowSquareFillAndSquare
 
-    /// No preview available.
+    /// 􀟲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case sliderVertical3
 
@@ -9101,7 +9101,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case snow
 
-    /// No preview available.
+    /// 􀫸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case sparkle
 
@@ -9109,15 +9109,15 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case sparkles
 
-    /// No preview available.
+    /// 􀲳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case sparklesRectangleStack
 
-    /// No preview available.
+    /// 􀲴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case sparklesRectangleStackFill
 
-    /// No preview available.
+    /// 􀰙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case sparklesSquareFillOnSquare
 
@@ -9134,12 +9134,12 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case speakerSlash
 
-    /// No preview available.
+    /// 􀫠
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case speakerSlashCircle
 
-    /// No preview available.
+    /// 􀫡
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case speakerSlashCircleFill
@@ -9182,11 +9182,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave2")
     case speaker2
 
-    /// No preview available.
+    /// 􀥑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case speakerWave2Circle
 
-    /// No preview available.
+    /// 􀥒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case speakerWave2CircleFill
 
@@ -9249,31 +9249,31 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case square
 
-    /// No preview available.
+    /// 􀯭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case square2Stack3d
 
-    /// No preview available.
+    /// 􀯯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case square2Stack3dBottomFill
 
-    /// No preview available.
+    /// 􀯮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case square2Stack3dTopFill
 
-    /// No preview available.
+    /// 􀯰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case square3Stack3d
 
-    /// No preview available.
+    /// 􀯳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case square3Stack3dBottomFill
 
-    /// No preview available.
+    /// 􀯲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case square3Stack3dMiddleFill
 
-    /// No preview available.
+    /// 􀯱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case square3Stack3dTopFill
 
@@ -9309,7 +9309,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case squareAndArrowUpOnSquareFill
 
-    /// No preview available.
+    /// 􀦏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareAndAtRectangle
 
@@ -9325,23 +9325,23 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case squareAndPencil
 
-    /// No preview available.
+    /// 􀪚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareBottomhalfFill
 
-    /// No preview available.
+    /// 􀨃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareCircle
 
-    /// No preview available.
+    /// 􀨄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareCircleFill
 
-    /// No preview available.
+    /// 􀓔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareDashed
 
-    /// No preview available.
+    /// 􀧑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareDashedInsetFill
 
@@ -9361,7 +9361,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case squareFillOnCircleFill
 
-    /// No preview available.
+    /// 􀫝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareFillOnSquare
 
@@ -9369,7 +9369,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case squareFillOnSquareFill
 
-    /// No preview available.
+    /// 􀭞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareFillTextGrid1x2
 
@@ -9381,19 +9381,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case squareGrid2x2Fill
 
-    /// No preview available.
+    /// 􀓙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3x1BelowLineGrid1x2
 
-    /// No preview available.
+    /// 􀤲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3x1FillBelowLineGrid1x2
 
-    /// No preview available.
+    /// 􀣕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3x1FolderBadgePlus
 
-    /// No preview available.
+    /// 􀣖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3x1FolderFillBadgePlus
 
@@ -9405,51 +9405,51 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case squareGrid3x2Fill
 
-    /// No preview available.
+    /// 􀦲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3x3
 
-    /// No preview available.
+    /// 􀦺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3x3BottomleftFill
 
-    /// No preview available.
+    /// 􀦻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3x3BottommiddleFill
 
-    /// No preview available.
+    /// 􀦼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3x3BottomrightFill
 
-    /// No preview available.
+    /// 􀦳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3x3Fill
 
-    /// No preview available.
+    /// 􀫐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3x3FillSquare
 
-    /// No preview available.
+    /// 􀦸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3x3MiddleFill
 
-    /// No preview available.
+    /// 􀦷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3x3MiddleleftFill
 
-    /// No preview available.
+    /// 􀦹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3x3MiddlerightFill
 
-    /// No preview available.
+    /// 􀦴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3x3TopleftFill
 
-    /// No preview available.
+    /// 􀦵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3x3TopmiddleFill
 
-    /// No preview available.
+    /// 􀦶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareGrid3x3ToprightFill
 
@@ -9469,11 +9469,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case squareOnSquare
 
-    /// No preview available.
+    /// 􀯇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareOnSquareDashed
 
-    /// No preview available.
+    /// 􀩶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareOnSquareSquareshapeControlhandles
 
@@ -9481,11 +9481,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case squareRighthalfFill
 
-    /// No preview available.
+    /// 􀣦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareSlash
 
-    /// No preview available.
+    /// 􀣧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareSlashFill
 
@@ -9513,27 +9513,27 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case squareSplit2x2Fill
 
-    /// No preview available.
+    /// 􀟻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareSplitBottomrightquarter
 
-    /// No preview available.
+    /// 􀟼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareSplitBottomrightquarterFill
 
-    /// No preview available.
+    /// 􀡗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareSplitDiagonal
 
-    /// No preview available.
+    /// 􀕲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareSplitDiagonal2x2
 
-    /// No preview available.
+    /// 􀕳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareSplitDiagonal2x2Fill
 
-    /// No preview available.
+    /// 􀡘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareSplitDiagonalFill
 
@@ -9541,11 +9541,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case squareStack
 
-    /// No preview available.
+    /// 􀰳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareStack3dDownForward
 
-    /// No preview available.
+    /// 􀰴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareStack3dDownForwardFill
 
@@ -9568,7 +9568,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "squareStack3dForwardDottedline")
     case squareStack3dDownDottedline
 
-    /// No preview available.
+    /// 􀧏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareStack3dForwardDottedlineFill
 
@@ -9576,11 +9576,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case squareStack3dUp
 
-    /// No preview available.
+    /// 􀙐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareStack3dUpBadgeA
 
-    /// No preview available.
+    /// 􀙑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareStack3dUpBadgeAFill
 
@@ -9600,7 +9600,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case squareStackFill
 
-    /// No preview available.
+    /// 􀪛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareTophalfFill
 
@@ -9608,35 +9608,35 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case squaresBelowRectangle
 
-    /// No preview available.
+    /// 􀣮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareshape
 
-    /// No preview available.
+    /// 􀩷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareshapeControlhandlesOnSquareshapeControlhandles
 
-    /// No preview available.
+    /// 􀩢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareshapeDashedSquareshape
 
-    /// No preview available.
+    /// 􀣯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareshapeFill
 
-    /// No preview available.
+    /// 􀮞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareshapeSplit2x2
 
-    /// No preview available.
+    /// 􀮌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareshapeSplit2x2Dotted
 
-    /// No preview available.
+    /// 􀮟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareshapeSplit3x3
 
-    /// No preview available.
+    /// 􀫴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareshapeSquareshapeDashed
 
@@ -9675,11 +9675,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case starSlashFill
 
-    /// No preview available.
+    /// 􀠧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case starSquare
 
-    /// No preview available.
+    /// 􀠨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case starSquareFill
 
@@ -9687,11 +9687,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case staroflife
 
-    /// No preview available.
+    /// 􀒺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case staroflifeCircle
 
-    /// No preview available.
+    /// 􀒻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case staroflifeCircleFill
 
@@ -9715,7 +9715,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case sterlingsignSquareFill
 
-    /// No preview available.
+    /// 􀝾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case stethoscope
 
@@ -9836,12 +9836,12 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case sunsetFill
 
-    /// No preview available.
+    /// 􀫊
     /// ⚠️ This symbol can refer only to Apple's Swift programming language.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case swift
 
-    /// No preview available.
+    /// 􀜊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case switch2
 
@@ -9931,15 +9931,15 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case tagFill
 
-    /// No preview available.
+    /// 􀦫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case tagSlash
 
-    /// No preview available.
+    /// 􀦬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case tagSlashFill
 
-    /// No preview available.
+    /// 􀢊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case target
 
@@ -9953,12 +9953,12 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case teletypeAnswer
 
-    /// No preview available.
+    /// 􀜅
     /// ⚠️ This symbol can refer only to Apple's Teletype feature.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case teletypeCircle
 
-    /// No preview available.
+    /// 􀜆
     /// ⚠️ This symbol can refer only to Apple's Teletype feature.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case teletypeCircleFill
@@ -9979,11 +9979,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case tengesignSquareFill
 
-    /// No preview available.
+    /// 􀩼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case terminal
 
-    /// No preview available.
+    /// 􀪏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case terminalFill
 
@@ -9999,7 +9999,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case textAlignright
 
-    /// No preview available.
+    /// 􀣚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case textAndCommandMacwindow
 
@@ -10028,19 +10028,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case textBadgeXmark
 
-    /// No preview available.
+    /// 􀲱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case textBelowPhoto
 
-    /// No preview available.
+    /// 􀲲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case textBelowPhotoFill
 
-    /// No preview available.
+    /// 􀫗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case textBookClosed
 
-    /// No preview available.
+    /// 􀫘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case textBookClosedFill
 
@@ -10075,7 +10075,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case textJustifyright
 
-    /// No preview available.
+    /// 􀭥
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case textMagnifyingglass
@@ -10085,7 +10085,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case textQuote
 
-    /// No preview available.
+    /// 􀧎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case textRedaction
 
@@ -10139,15 +10139,15 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case thermometerSun
 
-    /// No preview available.
+    /// 􀦜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case thermometerSunFill
 
-    /// No preview available.
+    /// 􀪃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ticket
 
-    /// No preview available.
+    /// 􀪄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case ticketFill
 
@@ -10155,7 +10155,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case timelapse
 
-    /// No preview available.
+    /// 􀣂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case timelineSelection
 
@@ -10163,11 +10163,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case timer
 
-    /// No preview available.
+    /// 􀭄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case timerSquare
 
-    /// No preview available.
+    /// 􀥣
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case togglepower
 
@@ -10183,20 +10183,20 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case tortoiseFill
 
-    /// No preview available.
+    /// 􀟒
     /// ⚠️ This symbol can refer only to Apple's Touch ID feature.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case touchid
 
-    /// No preview available.
+    /// 􀝆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case tram
 
-    /// No preview available.
+    /// 􀲛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case tramCircle
 
-    /// No preview available.
+    /// 􀲜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case tramCircleFill
 
@@ -10204,7 +10204,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case tramFill
 
-    /// No preview available.
+    /// 􀜝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case tramTunnelFill
 
@@ -10260,11 +10260,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case trayAndArrowUpFill
 
-    /// No preview available.
+    /// 􀒌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case trayCircle
 
-    /// No preview available.
+    /// 􀒍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case trayCircleFill
 
@@ -10284,11 +10284,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case triangle
 
-    /// No preview available.
+    /// 􀨅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case triangleCircle
 
-    /// No preview available.
+    /// 􀨆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case triangleCircleFill
 
@@ -10348,7 +10348,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case tv
 
-    /// No preview available.
+    /// 􀫑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case tvAndHifispeakerFill
 
@@ -10425,7 +10425,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case video
 
-    /// No preview available.
+    /// 􀮺
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case videoBadgeCheckmark
@@ -10435,11 +10435,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case videoBadgePlus
 
-    /// No preview available.
+    /// 􀱰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case videoBubbleLeft
 
-    /// No preview available.
+    /// 􀱱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case videoBubbleLeftFill
 
@@ -10458,7 +10458,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case videoFill
 
-    /// No preview available.
+    /// 􀮻
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case videoFillBadgeCheckmark
@@ -10522,15 +10522,15 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case wSquareFill
 
-    /// No preview available.
+    /// 􀪒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case wake
 
-    /// No preview available.
+    /// 􀟾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case walletPass
 
-    /// No preview available.
+    /// 􀟿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case walletPassFill
 
@@ -10550,27 +10550,27 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case wandAndStarsInverse
 
-    /// No preview available.
+    /// 􀱘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case wave3Backward
 
-    /// No preview available.
+    /// 􀱙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case wave3BackwardCircle
 
-    /// No preview available.
+    /// 􀱚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case wave3BackwardCircleFill
 
-    /// No preview available.
+    /// 􀱛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case wave3Forward
 
-    /// No preview available.
+    /// 􀱜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case wave3ForwardCircle
 
-    /// No preview available.
+    /// 􀱝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case wave3ForwardCircleFill
 
@@ -10585,11 +10585,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "wave3Left")
     case radiowavesLeft
 
-    /// No preview available.
+    /// 􀭷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case wave3LeftCircle
 
-    /// No preview available.
+    /// 􀭸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case wave3LeftCircleFill
 
@@ -10604,11 +10604,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "wave3Right")
     case radiowavesRight
 
-    /// No preview available.
+    /// 􀭹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case wave3RightCircle
 
-    /// No preview available.
+    /// 􀭺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case wave3RightCircleFill
 
@@ -10640,11 +10640,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case waveformPathEcg
 
-    /// No preview available.
+    /// 􀟪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case waveformPathEcgRectangle
 
-    /// No preview available.
+    /// 􀟫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case waveformPathEcgRectangleFill
 
@@ -10688,11 +10688,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case wrench
 
-    /// No preview available.
+    /// 􀤊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case wrenchAndScrewdriver
 
-    /// No preview available.
+    /// 􀤋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case wrenchAndScrewdriverFill
 
@@ -10735,11 +10735,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "xmarkBin")
     case binXmark
 
-    /// No preview available.
+    /// 􀈳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case xmarkBinCircle
 
-    /// No preview available.
+    /// 􀈴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case xmarkBinCircleFill
 
@@ -10762,11 +10762,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case xmarkCircleFill
 
-    /// No preview available.
+    /// 􀢃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case xmarkDiamond
 
-    /// No preview available.
+    /// 􀢄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case xmarkDiamondFill
 
@@ -10796,11 +10796,11 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case xmarkRectangleFill
 
-    /// No preview available.
+    /// 􀡰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case xmarkRectanglePortrait
 
-    /// No preview available.
+    /// 􀡱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case xmarkRectanglePortraitFill
 
@@ -10828,7 +10828,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case xmarkSquareFill
 
-    /// No preview available.
+    /// 􀧘
     /// ⚠️ This symbol can refer only to Apple's Xserve.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case xserve
@@ -10881,19 +10881,19 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case zSquareFill
 
-    /// No preview available.
+    /// 􀨛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case zlRectangleRoundedtop
 
-    /// No preview available.
+    /// 􀨜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case zlRectangleRoundedtopFill
 
-    /// No preview available.
+    /// 􀨝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case zrRectangleRoundedtop
 
-    /// No preview available.
+    /// 􀨞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case zrRectangleRoundedtopFill
 

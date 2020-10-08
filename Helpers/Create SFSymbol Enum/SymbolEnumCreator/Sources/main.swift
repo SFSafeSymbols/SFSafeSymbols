@@ -10,12 +10,18 @@ guard
     let legacyAliases = FileReader.read(file: "legacy_aliases_strings.txt").flatMap(StringEqualityFileParser.parse),
     let asIsSymbols = FileReader.read(file: "as_is_symbols.txt").flatMap(StringEqualityFileParser.parse),
     let localizationSuffixes = FileReader.read(file: "localization_suffixes.txt").flatMap(StringEqualityFileParser.parse),
-    let symbolPreviews = FileReader.read(file: "symbol_previews.txt").flatMap(StringEqualityFileParser.parse)
+    let symbolNames = FileReader.read(file: "symbol_names.txt").flatMap(SymbolNamesFileParser.parse),
+    let symbolPreviews = FileReader.read(file: "symbol_previews.txt").flatMap(SymbolPreviewsFileParser.parse)
 else {
     fatalError("Error reading input files")
 }
 
 // MARK: - Step 2: MERGE INTO SINGLE DATABASE
+
+// Create symbol preview dictionary based on symbolNames and symbolPreviews
+let symbolPreviewForName: [String: String] = Dictionary(uniqueKeysWithValues: zip(symbolNames, symbolPreviews))
+var symbolsWherePreviewIsntAvailable: [String] = []
+print(symbolNames, symbolPreviews)
 
 // Merge the two alias files
 nameAliases = nameAliases.filter { lhs, rhs in !legacyAliases.contains { $0.lhs == lhs && $0.rhs == rhs } }
@@ -28,7 +34,11 @@ for scannedSymbol in symbolManifest {
     let localization: String? = localizationSuffixAndName?.rhs
     let nameWithoutSuffix: String = String(scannedSymbol.name.dropLast((localizationSuffixAndName?.lhs.count ?? -1) + 1)) // + 1 because the . before the suffix must also go
 
-    let preview: String? = symbolPreviews.first { $0.lhs == nameWithoutSuffix }?.rhs
+    let preview: String? = symbolPreviewForName[nameWithoutSuffix]
+    if preview == nil {
+        symbolsWherePreviewIsntAvailable.append(nameWithoutSuffix)
+    }
+
     let primaryName = nameAliases.first { $0.lhs == nameWithoutSuffix }?.rhs ?? nameWithoutSuffix
 
     let newSymbol: Symbol
@@ -199,5 +209,9 @@ let outputString = "@available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
 let pasteboard = NSPasteboard.general
 pasteboard.declareTypes([NSPasteboard.PasteboardType.string], owner: nil)
 pasteboard.setString(outputString, forType: NSPasteboard.PasteboardType.string)
+
+if !symbolsWherePreviewIsntAvailable.isEmpty {
+    print("⚠️ No symbol preview available for symbols \(symbolsWherePreviewIsntAvailable)")
+}
 
 print("✅ DONE. Result copied to clipboard.")
