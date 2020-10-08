@@ -168,7 +168,7 @@ let symbolEnumRawValues = symbolEnumCases.flatMap { symbolEnumCase in
 
 // Generate rawValue and caseIterable code
 var rawValueString: String = "\tpublic var rawValue: String {\n\t\t"
-var caseIterableString: String = "\tpublic var allCases: [SFSymbol] {\n\t\t"
+var caseIterableString: String = "\tpublic static var allCases: [SFSymbol] {\n\t\t"
 
 for availability in (availabilities.sorted { $0 < $1 }) {
     let ifClause = availability.iOS == "13.0" ? "" : "if #available(iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS), *) "
