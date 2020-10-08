@@ -14,8 +14,9 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '11.0'
   spec.tvos.deployment_target = '11.0'
   spec.watchos.deployment_target = '6.0'
+  spec.macos.deployment_target = '10.13'
 
-  spec.swift_version = '5.1'
+  spec.swift_version = '5.3'
 
   spec.source = { :git => "https://github.com/piknotech/SFSafeSymbols.git", :tag => "#{spec.version}" }
   spec.source_files = 'Sources/**/*'
