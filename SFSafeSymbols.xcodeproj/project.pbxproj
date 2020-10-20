@@ -78,11 +78,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CCCCCFE3252F61E700C7CE9F /* Sources */ = {
+		96244F11253F15B700253B88 /* SFSafeSymbols */ = {
 			isa = PBXGroup;
 			children = (
 				CCCCCFE4252F61E700C7CE9F /* Enum */,
 				CCCCCFE6252F61E700C7CE9F /* Initializers */,
+			);
+			path = SFSafeSymbols;
+			sourceTree = "<group>";
+		};
+		CCCCCFE3252F61E700C7CE9F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				96244F11253F15B700253B88 /* SFSafeSymbols */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
