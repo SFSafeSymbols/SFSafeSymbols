@@ -14,8 +14,8 @@
     alt="Version: 1.2.0">
     </a>
     <a href="#">
-    <img src="https://img.shields.io/badge/Platforms-iOS%20|%20tvOS%20|%20watchOS-FF69B4.svg"
-        alt="Platforms: iOS – tvOS – watchOS">
+    <img src="https://img.shields.io/badge/Platforms-iOS%20|%20tvOS%20|%20watchOS%20|%20macOS-FF69B4.svg"
+        alt="Platforms: iOS – tvOS – watchOS – macOS">
     </a>
     <a href="https://github.com/piknotech/SFSafeSymbols/blob/stable/LICENSE.md">
         <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg" alt="License: MIT">
@@ -23,9 +23,6 @@
     <br />
     <a href="https://github.com/apple/swift-package-manager">
         <img src="https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg" alt="SwiftPM: Compatible">
-    </a>
-    <a href="https://github.com/JamitLabs/Accio">
-        <img src="https://img.shields.io/badge/Accio-supported-0A7CF5.svg?style=flat" alt="Accio: Supported">
     </a>
     <a href="https://github.com/Carthage/Carthage">
         <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage: Compatible">
@@ -36,7 +33,8 @@
 </p>
 
 <p align="center">
-    <a href="#motivation">Motivation</a>
+    <a href="#supported-versions">Supported Versions</a>
+  • <a href="#motivation">Motivation</a>
   • <a href="#installation">Installation</a>
   • <a href="#usage">Usage</a>
   • <a href="#contributing">Contributing</a>
@@ -45,9 +43,13 @@
   • <a href="https://github.com/piknotech/SFSafeSymbols/pulls">Pull Requests</a>
 </p>
 
+## Supported Versions
+
+The current version of `SFSafeSymbols` supports both the first version of SF Symbols (released in 2019) and the second version of SF Symbols (released in 2020). **The `@availability` of new symbols from 2020 that aren't available on 2019 operating systems is set accordingly.**
+
 ## Motivation
 
-At WWDC 2019, Apple announced a new library of icons that come included with iOS 13. To browse them, there's even a [dedicated Mac app](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/) called SF Symbols. However, developers still have to copy the name of an icon and reference it unsafely, resulting in code like this:
+At WWDC 2019, Apple announced a new library of icons that came included with that year's new operating system versions. To browse them, there's even a [dedicated Mac app](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/) called SF Symbols. However, developers still have to copy the name of an icon and reference it unsafely, resulting in code like this:
 
 ```swift
 UIImage(systemName: "circle.fill")
@@ -57,23 +59,23 @@ It didn't take long until [first ideas came up](https://twitter.com/simjp/status
 
 ## Installation
 
-`SFSafeSymbols` can be installed via Swift Package Manager, Accio, Carthage or CocoaPods.
+`SFSafeSymbols` can be installed via the **Swift Package Manager (recommended)**, Carthage or CocoaPods.
 
-Supported platforms are `iOS (11.0+)`, `tvOS (11.0+)` and `watchOS (6.0+)`, although the actual functionality is of course only accessible starting with `iOS 13.0`, `tvOS 13.0` and `watchOS 6.0`.
+Supported platforms are `iOS (11.0+)`, `tvOS (11.0+)`,  `watchOS (6.0+)` and `macOS (10.13+)`, although the actual functionality is of course only accessible starting with `iOS 13.0`, `tvOS 13.0`, `watchOS 6.0` and `macOS 11.0`.
 
-### Swift Package Manager
+### Swift Package Manager (Xcode-integrated)
 
-To integrate using Apple's Swift package manager, add the following as a dependency to your `Package.swift`:
+To integrate SFSafeSymbols using the Xcode-built-in SPM, choose `File` → `Swift Packages` → `Add Package Dependency`. Enter the following url: `https://github.com/piknotech/SFSafeSymbols`. From there on, just click `Next` multiple times and choose `Finish` in the end. That's it.
+
+### Swift Package Manager (standalone)
+
+To integrate using the standalone version of Apple's Swift Package Manager, add the following as a dependency to your `Package.swift`:
 
 ```swift
 .package(url: "https://github.com/piknotech/SFSafeSymbols.git", .upToNextMajor(from: "1.2.0"))
 ```
 
 After specifying `"SFSafeSymbols"` as a dependency of the target in which you want to use it, run `swift package update`.
-
-### Accio
-
-Do the same configurations as for SwiftPM, then run `accio update` instead of `swift package update`.
 
 ### Carthage
 
@@ -120,7 +122,14 @@ Image(systemSymbol: .cCircle)
 Image(systemSymbol: SFSymbol.eCircleFill)
 ```
 
-There also interfaces for `UIButton`:
+There are also `SwiftUI.Label` initializers:
+
+```swift
+Label("MyText", systemSymbol: .cCircle)
+Label(LocalizedStringKey("my.text"), systemSymbol: SFSymbol.eCircleFill)
+```
+
+... and interfaces for `UIButton`:
 
 ```swift
 let button = UIButton.systemButton(with: .cCircle, target: self, selector: #selector(testMethod))
@@ -132,6 +141,13 @@ button.setImage(.eCircleFill, for: .normal)
 ```swift
 UIApplicationShortcutIcon(systemSymbol: .cCircle)
 UIApplicationShortcutIcon(systemSymbol: SFSymbol.eCircleFill)
+```
+
+... and finally also an initializer for AppKit's `NSImage`:
+
+```swift
+NSImage(systemSymbol: .cCircle)
+NSImage(systemSymbol: SFSymbol.eCircleFill, accessibilityDescription: "some.description")
 ```
 
 ## Testing
