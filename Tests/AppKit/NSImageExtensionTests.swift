@@ -4,7 +4,7 @@
 
 import XCTest
 
-class UIImageExtensionTests: XCTestCase {
+class NSImageExtensionTests: XCTestCase {
     func testSimpleInit() {
         if #available(macOS 11.0, *) {
             SFSymbol.allCases.forEach { symbol in
