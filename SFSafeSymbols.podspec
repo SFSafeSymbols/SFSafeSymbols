@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
 
   spec.author = { 'Frederick Pietschmann' => 'cocoapods@fredpi.de' }
-  spec.social_media_url = 'https://twitter.com/fredcpi'
+  spec.social_media_url = 'https://twitter.com/piknotech'
 
   spec.static_framework = true
   
