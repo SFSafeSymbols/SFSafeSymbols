@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC0D5A1A252F43B40025D7D8 /* symbol_previews.txt in Sources */ = {isa = PBXBuildFile; fileRef = CC0D5A19252F43B40025D7D8 /* symbol_previews.txt */; };
+		CC0D5A20252F444A0025D7D8 /* SymbolNamesFileParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D5A1F252F444A0025D7D8 /* SymbolNamesFileParser.swift */; };
+		CC0D5A27252F446C0025D7D8 /* SymbolPreviewsFileParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D5A26252F446C0025D7D8 /* SymbolPreviewsFileParser.swift */; };
+		CC0D5A32252F47270025D7D8 /* symbol_previews.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC0D5A19252F43B40025D7D8 /* symbol_previews.txt */; };
+		CC41A7C524E016DD00D1BE05 /* legacy_aliases_strings.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC41A7BF24E015D600D1BE05 /* legacy_aliases_strings.txt */; };
+		CC41A7C624E016DD00D1BE05 /* name_aliases_strings.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC41A7C024E015D600D1BE05 /* name_aliases_strings.txt */; };
+		CC41A7C724E016DD00D1BE05 /* name_availability.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC41A7BE24E015D600D1BE05 /* name_availability.plist */; };
+		CC41A7C924E0171500D1BE05 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC41A7C824E0171500D1BE05 /* FileReader.swift */; };
+		CC41A7CB24E017D000D1BE05 /* StringEqualityFileParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC41A7CA24E017D000D1BE05 /* StringEqualityFileParser.swift */; };
+		CC41A7CD24E0191A00D1BE05 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC41A7CC24E0191A00D1BE05 /* Regex.swift */; };
+		CC41A7CF24E01BB100D1BE05 /* SymbolManifestParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC41A7CE24E01BB100D1BE05 /* SymbolManifestParser.swift */; };
+		CC41A7D524E038F000D1BE05 /* as_is_symbols.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC41A7D024E02EA300D1BE05 /* as_is_symbols.txt */; };
+		CC41A7D624E038F000D1BE05 /* localization_suffixes.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC41A7D324E034C700D1BE05 /* localization_suffixes.txt */; };
+		CC41A7D724E038F000D1BE05 /* symbol_names.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC41A7D424E0355000D1BE05 /* symbol_names.txt */; };
+		CC84C06824E0829300756231 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC84C06724E0829300756231 /* Types.swift */; };
+		OBJ_21 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* StringExtension.swift */; };
+		OBJ_22 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* main.swift */; };
+		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC41A7C424E016D300D1BE05 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				CC0D5A32252F47270025D7D8 /* symbol_previews.txt in CopyFiles */,
+				CC41A7D524E038F000D1BE05 /* as_is_symbols.txt in CopyFiles */,
+				CC41A7D624E038F000D1BE05 /* localization_suffixes.txt in CopyFiles */,
+				CC41A7D724E038F000D1BE05 /* symbol_names.txt in CopyFiles */,
+				CC41A7C524E016DD00D1BE05 /* legacy_aliases_strings.txt in CopyFiles */,
+				CC41A7C624E016DD00D1BE05 /* name_aliases_strings.txt in CopyFiles */,
+				CC41A7C724E016DD00D1BE05 /* name_availability.plist in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC0D5A19252F43B40025D7D8 /* symbol_previews.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = symbol_previews.txt; sourceTree = "<group>"; };
+		CC0D5A1F252F444A0025D7D8 /* SymbolNamesFileParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolNamesFileParser.swift; sourceTree = "<group>"; };
+		CC0D5A26252F446C0025D7D8 /* SymbolPreviewsFileParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolPreviewsFileParser.swift; sourceTree = "<group>"; };
+		CC41A7BE24E015D600D1BE05 /* name_availability.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = name_availability.plist; path = SymbolEnumCreator/Input/name_availability.plist; sourceTree = SOURCE_ROOT; };
+		CC41A7BF24E015D600D1BE05 /* legacy_aliases_strings.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = legacy_aliases_strings.txt; path = SymbolEnumCreator/Input/legacy_aliases_strings.txt; sourceTree = SOURCE_ROOT; };
+		CC41A7C024E015D600D1BE05 /* name_aliases_strings.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = name_aliases_strings.txt; path = SymbolEnumCreator/Input/name_aliases_strings.txt; sourceTree = SOURCE_ROOT; };
+		CC41A7C824E0171500D1BE05 /* FileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
+		CC41A7CA24E017D000D1BE05 /* StringEqualityFileParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEqualityFileParser.swift; sourceTree = "<group>"; };
+		CC41A7CC24E0191A00D1BE05 /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		CC41A7CE24E01BB100D1BE05 /* SymbolManifestParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolManifestParser.swift; sourceTree = "<group>"; };
+		CC41A7D024E02EA300D1BE05 /* as_is_symbols.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = as_is_symbols.txt; sourceTree = "<group>"; };
+		CC41A7D324E034C700D1BE05 /* localization_suffixes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = localization_suffixes.txt; sourceTree = "<group>"; };
+		CC41A7D424E0355000D1BE05 /* symbol_names.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = symbol_names.txt; sourceTree = "<group>"; };
+		CC84C06724E0829300756231 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		OBJ_10 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		"SymbolEnumCreator::SymbolEnumCreator::Product" /* SymbolEnumCreator */ = {isa = PBXFileReference; lastKnownFileType = text; path = SymbolEnumCreator; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC0D5A23252F44500025D7D8 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				CC41A7CA24E017D000D1BE05 /* StringEqualityFileParser.swift */,
+				CC41A7CE24E01BB100D1BE05 /* SymbolManifestParser.swift */,
+				CC0D5A1F252F444A0025D7D8 /* SymbolNamesFileParser.swift */,
+				CC0D5A26252F446C0025D7D8 /* SymbolPreviewsFileParser.swift */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		CC0D5A35252F47400025D7D8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CC41A7C824E0171500D1BE05 /* FileReader.swift */,
+				CC41A7CC24E0191A00D1BE05 /* Regex.swift */,
+				OBJ_9 /* StringExtension.swift */,
+				CC84C06724E0829300756231 /* Types.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CC41A7C124E015DB00D1BE05 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				CC41A7BE24E015D600D1BE05 /* name_availability.plist */,
+				CC41A7D024E02EA300D1BE05 /* as_is_symbols.txt */,
+				CC41A7BF24E015D600D1BE05 /* legacy_aliases_strings.txt */,
+				CC41A7D324E034C700D1BE05 /* localization_suffixes.txt */,
+				CC41A7C024E015D600D1BE05 /* name_aliases_strings.txt */,
+				CC41A7D424E0355000D1BE05 /* symbol_names.txt */,
+				CC0D5A19252F43B40025D7D8 /* symbol_previews.txt */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		CC41A7C324E0164800D1BE05 /* SymbolEnumCreator */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Sources */,
+				CC41A7C124E015DB00D1BE05 /* Input */,
+			);
+			path = SymbolEnumCreator;
+			sourceTree = "<group>";
+		};
+		OBJ_12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"SymbolEnumCreator::SymbolEnumCreator::Product" /* SymbolEnumCreator */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				CC41A7C324E0164800D1BE05 /* SymbolEnumCreator */,
+				OBJ_12 /* Products */,
+				OBJ_15 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* main.swift */,
+				CC0D5A35252F47400025D7D8 /* Helpers */,
+				CC0D5A23252F44500025D7D8 /* Parsers */,
+			);
+			name = Sources;
+			path = SymbolEnumCreator/Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"SymbolEnumCreator::SwiftPMPackageDescription" /* SymbolEnumCreatorPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "SymbolEnumCreatorPackageDescription" */;
+			buildPhases = (
+				OBJ_28 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SymbolEnumCreatorPackageDescription;
+			productName = SymbolEnumCreatorPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SymbolEnumCreator::SymbolEnumCreator" /* SymbolEnumCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_17 /* Build configuration list for PBXNativeTarget "SymbolEnumCreator" */;
+			buildPhases = (
+				CC41A7C424E016D300D1BE05 /* CopyFiles */,
+				OBJ_20 /* Sources */,
+				OBJ_23 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SymbolEnumCreator;
+			productName = SymbolEnumCreator;
+			productReference = "SymbolEnumCreator::SymbolEnumCreator::Product" /* SymbolEnumCreator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SymbolEnumCreator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"SymbolEnumCreator::SymbolEnumCreator" /* SymbolEnumCreator */,
+				"SymbolEnumCreator::SwiftPMPackageDescription" /* SymbolEnumCreatorPackageDescription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				CC41A7CB24E017D000D1BE05 /* StringEqualityFileParser.swift in Sources */,
+				OBJ_21 /* StringExtension.swift in Sources */,
+				CC0D5A27252F446C0025D7D8 /* SymbolPreviewsFileParser.swift in Sources */,
+				CC41A7CF24E01BB100D1BE05 /* SymbolManifestParser.swift in Sources */,
+				CC0D5A1A252F43B40025D7D8 /* symbol_previews.txt in Sources */,
+				CC0D5A20252F444A0025D7D8 /* SymbolNamesFileParser.swift in Sources */,
+				CC41A7C924E0171500D1BE05 /* FileReader.swift in Sources */,
+				CC84C06824E0829300756231 /* Types.swift in Sources */,
+				OBJ_22 /* main.swift in Sources */,
+				CC41A7CD24E0191A00D1BE05 /* Regex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_29 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SymbolEnumCreator.xcodeproj/SymbolEnumCreator_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SymbolEnumCreator;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SymbolEnumCreator.xcodeproj/SymbolEnumCreator_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SymbolEnumCreator;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_17 /* Build configuration list for PBXNativeTarget "SymbolEnumCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_18 /* Debug */,
+				OBJ_19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "SymbolEnumCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_25 /* Build configuration list for PBXNativeTarget "SymbolEnumCreatorPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_26 /* Debug */,
+				OBJ_27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

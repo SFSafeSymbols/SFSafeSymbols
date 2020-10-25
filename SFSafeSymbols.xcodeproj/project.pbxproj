@@ -6,31 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		"SFSafeSymbols::SFSafeSymbolsPackageTests::ProductTarget" /* SFSafeSymbolsPackageTests */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_51 /* Build configuration list for PBXAggregateTarget "SFSafeSymbolsPackageTests" */;
-			buildPhases = (
-			);
-			dependencies = (
-				OBJ_54 /* PBXTargetDependency */,
-			);
-			name = SFSafeSymbolsPackageTests;
-			productName = SFSafeSymbolsPackageTests;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		4C86407F242925E40061EEAD /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C86407E242925E40061EEAD /* UIButtonExtension.swift */; };
-		4C864081242928CF0061EEAD /* UIButtonExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C864080242928CF0061EEAD /* UIButtonExtensionTests.swift */; };
-		OBJ_39 /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* SFSymbol.swift */; };
-		OBJ_40 /* SwiftUIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* SwiftUIImageExtension.swift */; };
-		OBJ_41 /* UIApplicationShortcutIconExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* UIApplicationShortcutIconExtension.swift */; };
-		OBJ_42 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* UIImageExtension.swift */; };
-		OBJ_49 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_60 /* ImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* ImageExtensionTests.swift */; };
-		OBJ_61 /* UIApplicationShortcutIconExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* UIApplicationShortcutIconExtensionTests.swift */; };
-		OBJ_62 /* UIImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* UIImageExtensionTests.swift */; };
+		CCCCCFEC252F61E700C7CE9F /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE5252F61E700C7CE9F /* SFSymbol.swift */; };
+		CCCCCFED252F61E700C7CE9F /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE7252F61E700C7CE9F /* UIButtonExtension.swift */; };
+		CCCCCFEE252F61E700C7CE9F /* SwiftUIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE8252F61E700C7CE9F /* SwiftUIImageExtension.swift */; };
+		CCCCCFEF252F61E700C7CE9F /* UIApplicationShortcutIconExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE9252F61E700C7CE9F /* UIApplicationShortcutIconExtension.swift */; };
+		CCCCCFF0252F61E700C7CE9F /* SwiftUILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFEA252F61E700C7CE9F /* SwiftUILabelExtension.swift */; };
+		CCCCCFF1252F61E700C7CE9F /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFEB252F61E700C7CE9F /* UIImageExtension.swift */; };
+		CCCCD016252F622B00C7CE9F /* SwiftUIImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCD011252F622B00C7CE9F /* SwiftUIImageExtensionTests.swift */; };
+		CCCCD017252F622B00C7CE9F /* UIApplicationShortcutIconExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCD012252F622B00C7CE9F /* UIApplicationShortcutIconExtensionTests.swift */; };
+		CCCCD018252F622B00C7CE9F /* UIButtonExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCD013252F622B00C7CE9F /* UIButtonExtensionTests.swift */; };
+		CCCCD019252F622B00C7CE9F /* SwiftUILabelExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCD014252F622B00C7CE9F /* SwiftUILabelExtensionTests.swift */; };
+		CCCCD01A252F622B00C7CE9F /* UIImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCD015252F622B00C7CE9F /* UIImageExtensionTests.swift */; };
+		CCCCD047252F632600C7CE9F /* NSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCD046252F632600C7CE9F /* NSImageExtension.swift */; };
+		CCCCD064252F804400C7CE9F /* NSImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCD055252F7F7F00C7CE9F /* NSImageExtensionTests.swift */; };
 		OBJ_64 /* SFSafeSymbols.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SFSafeSymbols::SFSafeSymbols::Product" /* SFSafeSymbols.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,38 +31,32 @@
 			remoteGlobalIDString = "SFSafeSymbols::SFSafeSymbols";
 			remoteInfo = SFSafeSymbols;
 		};
-		CCAD3EDF23BFCC370047F583 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "SFSafeSymbols::SFSafeSymbolsTests";
-			remoteInfo = SFSafeSymbolsTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4C86407E242925E40061EEAD /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
-		4C864080242928CF0061EEAD /* UIButtonExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtensionTests.swift; sourceTree = "<group>"; };
-		OBJ_12 /* SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol.swift; sourceTree = "<group>"; };
-		OBJ_14 /* SwiftUIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImageExtension.swift; sourceTree = "<group>"; };
-		OBJ_15 /* UIApplicationShortcutIconExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationShortcutIconExtension.swift; sourceTree = "<group>"; };
-		OBJ_16 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
-		OBJ_19 /* ImageExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensionTests.swift; sourceTree = "<group>"; };
-		OBJ_20 /* UIApplicationShortcutIconExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationShortcutIconExtensionTests.swift; sourceTree = "<group>"; };
-		OBJ_21 /* UIImageExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensionTests.swift; sourceTree = "<group>"; };
-		OBJ_25 /* Helpers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Helpers; sourceTree = SOURCE_ROOT; };
+		CCCCCFE5252F61E700C7CE9F /* SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbol.swift; sourceTree = "<group>"; };
+		CCCCCFE7252F61E700C7CE9F /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		CCCCCFE8252F61E700C7CE9F /* SwiftUIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIImageExtension.swift; sourceTree = "<group>"; };
+		CCCCCFE9252F61E700C7CE9F /* UIApplicationShortcutIconExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationShortcutIconExtension.swift; sourceTree = "<group>"; };
+		CCCCCFEA252F61E700C7CE9F /* SwiftUILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUILabelExtension.swift; sourceTree = "<group>"; };
+		CCCCCFEB252F61E700C7CE9F /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		CCCCD011252F622B00C7CE9F /* SwiftUIImageExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIImageExtensionTests.swift; sourceTree = "<group>"; };
+		CCCCD012252F622B00C7CE9F /* UIApplicationShortcutIconExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationShortcutIconExtensionTests.swift; sourceTree = "<group>"; };
+		CCCCD013252F622B00C7CE9F /* UIButtonExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtensionTests.swift; sourceTree = "<group>"; };
+		CCCCD014252F622B00C7CE9F /* SwiftUILabelExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUILabelExtensionTests.swift; sourceTree = "<group>"; };
+		CCCCD015252F622B00C7CE9F /* UIImageExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensionTests.swift; sourceTree = "<group>"; };
+		CCCCD046252F632600C7CE9F /* NSImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImageExtension.swift; sourceTree = "<group>"; };
+		CCCCD055252F7F7F00C7CE9F /* NSImageExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImageExtensionTests.swift; sourceTree = "<group>"; };
 		OBJ_26 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
 		OBJ_27 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		OBJ_28 /* Package.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Package.xcconfig; sourceTree = "<group>"; };
 		OBJ_29 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		OBJ_30 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_31 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		OBJ_32 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
 		OBJ_33 /* SFSafeSymbols.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SFSafeSymbols.podspec; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_8 /* Package.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Package.xcconfig; sourceTree = "<group>"; };
-		"SFSafeSymbols::SFSafeSymbols::Product" /* SFSafeSymbols.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SFSafeSymbols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"SFSafeSymbols::SFSafeSymbolsTests::Product" /* SFSafeSymbolsTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFSafeSymbolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SFSafeSymbols::SFSafeSymbols::Product" /* SFSafeSymbols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SFSafeSymbols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SFSafeSymbols::SFSafeSymbolsTests::Product" /* SFSafeSymbolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = SFSafeSymbolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,54 +78,118 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		OBJ_10 /* SFSafeSymbols */ = {
+		96244F11253F15B700253B88 /* SFSafeSymbols */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_11 /* Enum */,
-				OBJ_13 /* Initializers */,
+				CCCCCFE4252F61E700C7CE9F /* Enum */,
+				CCCCCFE6252F61E700C7CE9F /* Initializers */,
 			);
-			name = SFSafeSymbols;
-			path = Sources/SFSafeSymbols;
-			sourceTree = SOURCE_ROOT;
+			path = SFSafeSymbols;
+			sourceTree = "<group>";
 		};
-		OBJ_11 /* Enum */ = {
+		CCCCCFE3252F61E700C7CE9F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* SFSymbol.swift */,
+				96244F11253F15B700253B88 /* SFSafeSymbols */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CCCCCFE4252F61E700C7CE9F /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCCFE5252F61E700C7CE9F /* SFSymbol.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
 		};
-		OBJ_13 /* Initializers */ = {
+		CCCCCFE6252F61E700C7CE9F /* Initializers */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_14 /* SwiftUIImageExtension.swift */,
-				OBJ_15 /* UIApplicationShortcutIconExtension.swift */,
-				4C86407E242925E40061EEAD /* UIButtonExtension.swift */,
-				OBJ_16 /* UIImageExtension.swift */,
+				CCCCD04C252F632900C7CE9F /* AppKit */,
+				CCCCCFFE252F620400C7CE9F /* SwiftUI */,
+				CCCCD003252F620B00C7CE9F /* UIKit */,
 			);
 			path = Initializers;
 			sourceTree = "<group>";
 		};
-		OBJ_17 /* Tests */ = {
+		CCCCCFFE252F620400C7CE9F /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_18 /* SFSafeSymbolsTests */,
+				CCCCCFE8252F61E700C7CE9F /* SwiftUIImageExtension.swift */,
+				CCCCCFEA252F61E700C7CE9F /* SwiftUILabelExtension.swift */,
 			);
-			name = Tests;
-			sourceTree = SOURCE_ROOT;
+			path = SwiftUI;
+			sourceTree = "<group>";
 		};
-		OBJ_18 /* SFSafeSymbolsTests */ = {
+		CCCCD003252F620B00C7CE9F /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_19 /* ImageExtensionTests.swift */,
-				OBJ_20 /* UIApplicationShortcutIconExtensionTests.swift */,
-				4C864080242928CF0061EEAD /* UIButtonExtensionTests.swift */,
-				OBJ_21 /* UIImageExtensionTests.swift */,
+				CCCCCFE9252F61E700C7CE9F /* UIApplicationShortcutIconExtension.swift */,
+				CCCCCFE7252F61E700C7CE9F /* UIButtonExtension.swift */,
+				CCCCCFEB252F61E700C7CE9F /* UIImageExtension.swift */,
 			);
-			name = SFSafeSymbolsTests;
-			path = Tests/SFSafeSymbolsTests;
-			sourceTree = SOURCE_ROOT;
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		CCCCD010252F622B00C7CE9F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCD05B252F7F8300C7CE9F /* AppKit */,
+				CCCCD034252F62D400C7CE9F /* SwiftUI */,
+				CCCCD039252F62DB00C7CE9F /* UIKit */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		CCCCD023252F625100C7CE9F /* Root Files */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_29 /* CHANGELOG.md */,
+				OBJ_26 /* CODE_OF_CONDUCT.md */,
+				OBJ_32 /* CONTRIBUTING.md */,
+				OBJ_27 /* LICENSE */,
+				OBJ_31 /* Logo.png */,
+				OBJ_30 /* README.md */,
+				OBJ_33 /* SFSafeSymbols.podspec */,
+			);
+			name = "Root Files";
+			sourceTree = "<group>";
+		};
+		CCCCD034252F62D400C7CE9F /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCD011252F622B00C7CE9F /* SwiftUIImageExtensionTests.swift */,
+				CCCCD014252F622B00C7CE9F /* SwiftUILabelExtensionTests.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		CCCCD039252F62DB00C7CE9F /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCD012252F622B00C7CE9F /* UIApplicationShortcutIconExtensionTests.swift */,
+				CCCCD013252F622B00C7CE9F /* UIButtonExtensionTests.swift */,
+				CCCCD015252F622B00C7CE9F /* UIImageExtensionTests.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		CCCCD04C252F632900C7CE9F /* AppKit */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCD046252F632600C7CE9F /* NSImageExtension.swift */,
+			);
+			path = AppKit;
+			sourceTree = "<group>";
+		};
+		CCCCD05B252F7F8300C7CE9F /* AppKit */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCD055252F7F7F00C7CE9F /* NSImageExtensionTests.swift */,
+			);
+			path = AppKit;
+			sourceTree = "<group>";
 		};
 		OBJ_22 /* Products */ = {
 			isa = PBXGroup;
@@ -157,37 +204,12 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
-				OBJ_7 /* Configs */,
-				OBJ_9 /* Sources */,
-				OBJ_17 /* Tests */,
+				CCCCCFE3252F61E700C7CE9F /* Sources */,
+				CCCCD010252F622B00C7CE9F /* Tests */,
 				OBJ_22 /* Products */,
-				OBJ_25 /* Helpers */,
-				OBJ_26 /* CODE_OF_CONDUCT.md */,
-				OBJ_27 /* LICENSE */,
-				OBJ_28 /* Package.xcconfig */,
-				OBJ_29 /* CHANGELOG.md */,
-				OBJ_30 /* README.md */,
-				OBJ_31 /* Logo.png */,
-				OBJ_32 /* CONTRIBUTING.md */,
-				OBJ_33 /* SFSafeSymbols.podspec */,
+				CCCCD023252F625100C7CE9F /* Root Files */,
 			);
 			sourceTree = "<group>";
-		};
-		OBJ_7 /* Configs */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_8 /* Package.xcconfig */,
-			);
-			name = Configs;
-			sourceTree = "<group>";
-		};
-		OBJ_9 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_10 /* SFSafeSymbols */,
-			);
-			name = Sources;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -225,20 +247,6 @@
 			productReference = "SFSafeSymbols::SFSafeSymbolsTests::Product" /* SFSafeSymbolsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		"SFSafeSymbols::SwiftPMPackageDescription" /* SFSafeSymbolsPackageDescription */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_45 /* Build configuration list for PBXNativeTarget "SFSafeSymbolsPackageDescription" */;
-			buildPhases = (
-				OBJ_48 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SFSafeSymbolsPackageDescription;
-			productName = SFSafeSymbolsPackageDescription;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -261,8 +269,6 @@
 			projectRoot = "";
 			targets = (
 				"SFSafeSymbols::SFSafeSymbols" /* SFSafeSymbols */,
-				"SFSafeSymbols::SwiftPMPackageDescription" /* SFSafeSymbolsPackageDescription */,
-				"SFSafeSymbols::SFSafeSymbolsPackageTests::ProductTarget" /* SFSafeSymbolsPackageTests */,
 				"SFSafeSymbols::SFSafeSymbolsTests" /* SFSafeSymbolsTests */,
 			);
 		};
@@ -273,19 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_39 /* SFSymbol.swift in Sources */,
-				OBJ_40 /* SwiftUIImageExtension.swift in Sources */,
-				OBJ_41 /* UIApplicationShortcutIconExtension.swift in Sources */,
-				OBJ_42 /* UIImageExtension.swift in Sources */,
-				4C86407F242925E40061EEAD /* UIButtonExtension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_48 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_49 /* Package.swift in Sources */,
+				CCCCCFF0252F61E700C7CE9F /* SwiftUILabelExtension.swift in Sources */,
+				CCCCCFEE252F61E700C7CE9F /* SwiftUIImageExtension.swift in Sources */,
+				CCCCCFEC252F61E700C7CE9F /* SFSymbol.swift in Sources */,
+				CCCCD047252F632600C7CE9F /* NSImageExtension.swift in Sources */,
+				CCCCCFED252F61E700C7CE9F /* UIButtonExtension.swift in Sources */,
+				CCCCCFEF252F61E700C7CE9F /* UIApplicationShortcutIconExtension.swift in Sources */,
+				CCCCCFF1252F61E700C7CE9F /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,21 +293,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_60 /* ImageExtensionTests.swift in Sources */,
-				4C864081242928CF0061EEAD /* UIButtonExtensionTests.swift in Sources */,
-				OBJ_61 /* UIApplicationShortcutIconExtensionTests.swift in Sources */,
-				OBJ_62 /* UIImageExtensionTests.swift in Sources */,
+				CCCCD019252F622B00C7CE9F /* SwiftUILabelExtensionTests.swift in Sources */,
+				CCCCD016252F622B00C7CE9F /* SwiftUIImageExtensionTests.swift in Sources */,
+				CCCCD064252F804400C7CE9F /* NSImageExtensionTests.swift in Sources */,
+				CCCCD017252F622B00C7CE9F /* UIApplicationShortcutIconExtensionTests.swift in Sources */,
+				CCCCD018252F622B00C7CE9F /* UIButtonExtensionTests.swift in Sources */,
+				CCCCD01A252F622B00C7CE9F /* UIImageExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_54 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SFSafeSymbols::SFSafeSymbolsTests" /* SFSafeSymbolsTests */;
-			targetProxy = CCAD3EDF23BFCC370047F583 /* PBXContainerItemProxy */;
-		};
 		OBJ_65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "SFSafeSymbols::SFSafeSymbols" /* SFSafeSymbols */;
@@ -345,7 +342,6 @@
 		};
 		OBJ_36 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = OBJ_8 /* Package.xcconfig */;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -374,7 +370,6 @@
 		};
 		OBJ_37 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = OBJ_8 /* Package.xcconfig */;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -425,40 +420,10 @@
 			};
 			name = Release;
 		};
-		OBJ_46 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		OBJ_47 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		OBJ_52 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		OBJ_53 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
 		OBJ_57 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = OBJ_8 /* Package.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -483,8 +448,8 @@
 		};
 		OBJ_58 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = OBJ_8 /* Package.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -524,24 +489,6 @@
 			buildConfigurations = (
 				OBJ_36 /* Debug */,
 				OBJ_37 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_45 /* Build configuration list for PBXNativeTarget "SFSafeSymbolsPackageDescription" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_46 /* Debug */,
-				OBJ_47 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_51 /* Build configuration list for PBXAggregateTarget "SFSafeSymbolsPackageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_52 /* Debug */,
-				OBJ_53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
