@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.summary = "Safely access Apple's SF Symbols using static typing"
 
   spec.homepage = 'https://github.com/piknotech/SFSafeSymbols'
-  spec.license = { :type => 'MIT', :file => 'LICENSE.md' }
+  spec.license = { :type => 'MIT', :file => 'LICENSE' }
 
   spec.author = { 'Frederick Pietschmann' => 'cocoapods@fredpi.de' }
   spec.social_media_url = 'https://twitter.com/fredcpi'
