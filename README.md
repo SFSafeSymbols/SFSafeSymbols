@@ -115,7 +115,7 @@ UIImage(systemSymbol: SFSymbol.eCircleFill)
 UIImage(systemSymbol: ._11CircleFill, withConfiguration: /* Some UIImage.Configuration */)
 ```
 
-A SF Symbol `SwiftUI.Image` can also be initialized using the `SFSymbol` enum. It's also unwrapped, so you get a `SwiftUI.Image` instead of a `SwiftUI.Image?`:
+A SF Symbol `SwiftUI.Image` can also be initialized using the `SFSymbol` enum:
 
 ```swift
 Image(systemSymbol: .cCircle)
