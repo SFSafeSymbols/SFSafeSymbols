@@ -8,7 +8,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
+- Add support for the new symbols from SF Symbols v2 (By [Frederick Pietschmann](https://github.com/fredpi))
 - Add two SwiftUI `Label` initializers (By [Seb Jachec](https://github.com/sebj))
+- Add `NSImage` initializer (By [Frederick Pietschmann](https://github.com/fredpi))
 
 ### Changed
 
