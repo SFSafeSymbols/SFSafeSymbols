@@ -8,6 +8,20 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
+- None
+
+### Changed
+
+- None
+
+### Fixed
+
+- None
+
+## [2.0.0] - 2020-10-25
+
+### Added
+
 - Add support for the new symbols from SF Symbols v2 (By [Frederick Pietschmann](https://github.com/fredpi))
 - Add two SwiftUI `Label` initializers (By [Seb Jachec](https://github.com/sebj))
 - Add `NSImage` initializer (By [Frederick Pietschmann](https://github.com/fredpi))
@@ -19,8 +33,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ### Fixed
 
 - None
-
-
 
 ## [1.2.0] - 2020-03-29
 
