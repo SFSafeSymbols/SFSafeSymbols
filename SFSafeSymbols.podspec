@@ -21,6 +21,5 @@ Pod::Spec.new do |spec|
   spec.source = { :git => "https://github.com/piknotech/SFSafeSymbols.git", :tag => "#{spec.version}" }
   spec.source_files = 'Sources/**/*'
 
-  spec.frameworks = 'UIKit'
   spec.weak_framework = 'SwiftUI'
 end
