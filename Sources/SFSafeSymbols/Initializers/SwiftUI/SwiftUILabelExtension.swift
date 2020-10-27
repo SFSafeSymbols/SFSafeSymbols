@@ -3,7 +3,7 @@
 import SwiftUI
 
 @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-extension Label where Title == Text, Icon == Image {
+public extension Label where Title == Text, Icon == Image {
     
     /// Creates a label with a system symbol image and a title generated from a
     /// localized string.
