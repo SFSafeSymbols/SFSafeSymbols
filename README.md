@@ -10,8 +10,8 @@
         <img src="https://img.shields.io/badge/swift-5-FFAC45.svg" alt="Swift: 5">
     </a>
     <a href="https://github.com/piknotech/SFSafeSymbols/releases">
-    <img src="https://img.shields.io/badge/version-2.0.1-blue.svg"
-    alt="Version: 2.0.1">
+    <img src="https://img.shields.io/badge/version-2.0.2-blue.svg"
+    alt="Version: 2.0.2">
     </a>
     <a href="#">
     <img src="https://img.shields.io/badge/Platforms-iOS%20|%20tvOS%20|%20watchOS%20|%20macOS-FF69B4.svg"
@@ -72,7 +72,7 @@ To integrate SFSafeSymbols using the Xcode-built-in SPM, choose `File` → `Swif
 To integrate using the standalone version of Apple's Swift Package Manager, add the following as a dependency to your `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/piknotech/SFSafeSymbols.git", .upToNextMajor(from: "2.0.1"))
+.package(url: "https://github.com/piknotech/SFSafeSymbols.git", .upToNextMajor(from: "2.0.2"))
 ```
 
 After specifying `"SFSafeSymbols"` as a dependency of the target in which you want to use it, run `swift package update`.
@@ -82,7 +82,7 @@ After specifying `"SFSafeSymbols"` as a dependency of the target in which you wa
 Add the following entry to your Cartfile:
 
 ```
-github "piknotech/SFSafeSymbols" ~> 2.0.1
+github "piknotech/SFSafeSymbols" ~> 2.0.2
 ```
 
 Then run `carthage update`.
@@ -92,7 +92,7 @@ Then run `carthage update`.
 Add the following entry to your Podfile:
 
 ```rb
-pod 'SFSafeSymbols', '~> 2.0.1'
+pod 'SFSafeSymbols', '~> 2.0.2'
 ```
 
 Then run `pod install`.

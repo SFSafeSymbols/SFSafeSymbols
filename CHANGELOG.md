@@ -18,6 +18,20 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - None
 
+## [2.0.2] - 2020-11-09
+
+### Added
+
+- None
+
+### Changed
+
+- None
+
+### Fixed
+
+- Fix macOS Catalyst support (By [Hernan Gonzalez](https://github.com/hernangonzalez))
+
 ## [2.0.1] - 2020-10-28
 
 ### Added
