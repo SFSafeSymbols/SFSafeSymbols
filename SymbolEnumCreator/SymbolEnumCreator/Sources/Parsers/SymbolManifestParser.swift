@@ -10,7 +10,7 @@ struct SymbolManifestParser {
         }
 
         var symbols: [String: String]
-        var yearToReleaseMapping: [Int: [String: String]]
+        var yearToReleaseMapping: [String: [String: String]]
     }
 
     static func parse(availabilityFileData: Data?) -> SymbolManifest? {
@@ -27,7 +27,7 @@ struct SymbolManifestParser {
         }
 
         for (key, value) in plist.symbols {
-            guard let availability = (availabilities.first { $0.year == Int(value) }) else {
+            guard let availability = (availabilities.first { $0.year == value }) else {
                 // Cancel on single failure
                 return nil
             }

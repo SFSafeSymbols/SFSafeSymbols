@@ -166,13 +166,16 @@ var availabilities: Set<Availability> = .init()
 symbols.forEach { availabilities.formUnion($0.nameVersions.keys) }
 
 // Compute enum case name, enum raw value and enum case availability relationship
-let symbolEnumRawValues = symbolEnumCases.flatMap { symbolEnumCase in
+let symbolEnumRawValues = symbolEnumCases.flatMap { symbolEnumCase -> [SymbolEnumRawValue] in
     symbolEnumCase.nameVersions.flatMap { nameVersion in
         availabilities
-            .filter { availability in (availability == nameVersion.key) || (availability < nameVersion.key && !symbolEnumCase.nameVersions.contains { $0.key == availability } ) }
+            .filter { availability in
+                (availability == nameVersion.key) ||
+                    (availability < nameVersion.key && !symbolEnumCase.nameVersions.contains { $0.key == availability } && !symbolEnumCase.nameVersions.contains { $0.key < nameVersion.key } )
+            }
             .map {
-            SymbolEnumRawValue(availability: $0, caseName: symbolEnumCase.caseName, name: nameVersion.value)
-        }
+                SymbolEnumRawValue(availability: $0, caseName: symbolEnumCase.caseName, name: nameVersion.value)
+            }
     }
 }
 

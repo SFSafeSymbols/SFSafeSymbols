@@ -1,8 +1,25 @@
 //
-// Retrieved via the SFSymbols app package contents
-// Updated on October 8 2020
+// Retrieved via the SFSymbols app package contents (Version 2.1)
+// Updated on November 21 2020
 //
 
+"a" = "character";
+"a.book.closed" = "character.book.closed";
+"a.book.closed.ar" = "character.book.closed.ar";
+"a.book.closed.fill" = "character.book.closed.fill";
+"a.book.closed.fill.ar" = "character.book.closed.fill.ar";
+"a.book.closed.fill.he" = "character.book.closed.fill.he";
+"a.book.closed.fill.hi" = "character.book.closed.fill.hi";
+"a.book.closed.fill.ja" = "character.book.closed.fill.ja";
+"a.book.closed.fill.ko" = "character.book.closed.fill.ko";
+"a.book.closed.fill.th" = "character.book.closed.fill.th";
+"a.book.closed.fill.zh" = "character.book.closed.fill.zh";
+"a.book.closed.he" = "character.book.closed.he";
+"a.book.closed.hi" = "character.book.closed.hi";
+"a.book.closed.ja" = "character.book.closed.ja";
+"a.book.closed.ko" = "character.book.closed.ko";
+"a.book.closed.th" = "character.book.closed.th";
+"a.book.closed.zh" = "character.book.closed.zh";
 "arrow.2.circlepath" = "arrow.triangle.2.circlepath";
 "arrow.2.circlepath.circle" = "arrow.triangle.2.circlepath.circle";
 "arrow.2.circlepath.circle.fill" = "arrow.triangle.2.circlepath.circle.fill";
