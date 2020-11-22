@@ -17,7 +17,7 @@ class LabelExtensionTests: XCTestCase {
                 _ = Label("Title", systemSymbol: symbol)
             }
         } else {
-            XCTFail("iOS 14, macOS 10.16 or tvOS 14 is required to test SFSafeSymbols.")
+            print("To test the Label initializer, iOS 14, macOS 11.0 or tvOS 14 is required.")
         }
     }
 }

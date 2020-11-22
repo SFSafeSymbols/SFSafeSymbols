@@ -81,7 +81,7 @@ for scannedSymbol in symbolManifest {
     symbols.append(newSymbol)
 }
 
-let failingSymbols = ["a.book.closed", "a.book.closed.fill"] // Those symbols are supposedly available, but actually aren't
+let failingSymbols: [String] = [] // Those symbols are supposedly available, but actually aren't
 symbols = symbols.sorted { $0.name < $1.name }.filter { symbol in !failingSymbols.contains { $0 == symbol.name } }
 
 // MARK: - Step 3: CODE GENERATION
