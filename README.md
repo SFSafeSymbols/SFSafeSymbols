@@ -45,7 +45,11 @@
 
 ## Supported Versions
 
-The current version of `SFSafeSymbols` supports both the first version of SF Symbols (released in 2019) and the second version of SF Symbols (released in 2020). **The `@availability` of new symbols from 2020 that aren't available on 2019 operating systems is set accordingly.**
+`SFSafeSymbols` supports multiple SF Symbols versions at the same time by utilizing the `@availability` flag. The following versions are currently supported:
+
+- SF Symbols 2.1 (`@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)`)
+- SF Symbols 2.0 (`@available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)`)
+- SF Symbols 1.0 (`@available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)`)
 
 ## Motivation
 
