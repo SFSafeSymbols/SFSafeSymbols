@@ -18,6 +18,20 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - None
 
+## [2.1.0] - 2020-11-24
+
+### Added
+
+- Add support for SF Symbols 2.1 (By [Frederick Pietschmann](https://github.com/fredpi))
+
+### Changed
+
+- None
+
+### Fixed
+
+- None
+
 ## [2.0.2] - 2020-11-09
 
 ### Added
