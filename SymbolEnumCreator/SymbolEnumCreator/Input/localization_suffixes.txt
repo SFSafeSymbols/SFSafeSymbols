@@ -11,3 +11,4 @@
 "ko" = "Korean";
 "th" = "Thai";
 "zh" = "Chinese";
+"zh.traditional" = "Traditional Chinese";

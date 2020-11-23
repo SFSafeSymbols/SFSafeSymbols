@@ -17,6 +17,7 @@ struct Symbol {
 
 /// The type representing a symbol enum case
 struct SymbolEnumCase {
+    var name: String
     var caseName: String
     var nameVersions: [Availability: String]
     var canOnlyReferTo: String?
@@ -38,14 +39,16 @@ struct Availability: Comparable, Equatable, Hashable {
     var tvOS: String
     var watchOS: String
     var macOS: String
-    var year: Int
+    var year: String // E. g. "2020" or "2020.1"
 
     static func < (lhs: Availability, rhs: Availability) -> Bool {
-        return lhs.year > rhs.year
+        guard let lhsYearDouble = Double(lhs.year), let rhsYearDouble = Double(rhs.year) else { fatalError("Year format error") }
+        return lhsYearDouble > rhsYearDouble // The > operator is intentional, because the availability is smaller when the year is higer
     }
 
     static func > (lhs: Availability, rhs: Availability) -> Bool {
-        return lhs.year < rhs.year
+        guard let lhsYearDouble = Double(lhs.year), let rhsYearDouble = Double(rhs.year) else { fatalError("Year format error") }
+        return lhsYearDouble < rhsYearDouble
     }
 
     static func == (lhs: Availability, rhs: Availability) -> Bool {

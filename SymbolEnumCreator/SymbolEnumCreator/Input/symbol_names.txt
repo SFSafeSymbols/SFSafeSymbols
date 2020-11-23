@@ -1,6 +1,6 @@
 //
-// Retrieved via the SFSymbols app (sort by name, select all, right-click and select 'Copy Names')
-// Updated on October 8 2020
+// Retrieved via the SFSymbols app (Version 2.1) (sort by name, select all, right-click and select 'Copy Names')
+// Updated on November 21 2020
 //
 
 0.circle
@@ -262,9 +262,6 @@
 50.circle.fill
 50.square
 50.square.fill
-a
-a.book.closed
-a.book.closed.fill
 a.circle
 a.circle.fill
 a.magnify
@@ -315,6 +312,9 @@ apps.ipad.landscape
 apps.iphone
 apps.iphone.badge.plus
 apps.iphone.landscape
+aqi.high
+aqi.low
+aqi.medium
 archivebox
 archivebox.circle
 archivebox.circle.fill
@@ -720,6 +720,10 @@ bookmark.slash
 bookmark.slash.fill
 books.vertical
 books.vertical.fill
+brazilianrealsign.circle
+brazilianrealsign.circle.fill
+brazilianrealsign.square
+brazilianrealsign.square.fill
 briefcase
 briefcase.fill
 bubble.left
@@ -795,6 +799,8 @@ car.fill
 cart
 cart.badge.minus
 cart.badge.plus
+cart.circle
+cart.circle.fill
 cart.fill
 cart.fill.badge.minus
 cart.fill.badge.plus
@@ -808,6 +814,9 @@ centsign.circle
 centsign.circle.fill
 centsign.square
 centsign.square.fill
+character
+character.book.closed
+character.book.closed.fill
 chart.bar
 chart.bar.doc.horizontal
 chart.bar.doc.horizontal.fill
@@ -904,6 +913,7 @@ circles.hexagonpath.fill
 clear
 clear.fill
 clock
+clock.arrow.2.circlepath
 clock.arrow.circlepath
 clock.fill
 cloud
@@ -1023,6 +1033,7 @@ die.face.5
 die.face.5.fill
 die.face.6
 die.face.6.fill
+directcurrent
 display
 display.2
 display.trianglebadge.exclamationmark
@@ -1137,6 +1148,7 @@ eurosign.square.fill
 exclamationmark
 exclamationmark.2
 exclamationmark.3
+exclamationmark.applewatch
 exclamationmark.arrow.circlepath
 exclamationmark.arrow.triangle.2.circlepath
 exclamationmark.bubble
@@ -1425,19 +1437,29 @@ indianrupeesign.circle.fill
 indianrupeesign.square
 indianrupeesign.square.fill
 infinity
+infinity.circle
+infinity.circle.fill
 info
 info.circle
 info.circle.fill
 internaldrive
 internaldrive.fill
 ipad
+ipad.badge.play
 ipad.homebutton
+ipad.homebutton.badge.play
 ipad.homebutton.landscape
+ipad.homebutton.landscape.badge.play
 ipad.landscape
+ipad.landscape.badge.play
 iphone
+iphone.badge.play
 iphone.homebutton
+iphone.homebutton.badge.play
+iphone.homebutton.landscape
 iphone.homebutton.radiowaves.left.and.right
 iphone.homebutton.slash
+iphone.landscape
 iphone.radiowaves.left.and.right
 iphone.slash
 ipod
@@ -1446,6 +1468,7 @@ ipodshuffle.gen2
 ipodshuffle.gen3
 ipodshuffle.gen4
 ipodtouch
+ipodtouch.landscape
 italic
 j.circle
 j.circle.fill
@@ -1570,6 +1593,7 @@ location.slash
 location.slash.fill
 location.viewfinder
 lock
+lock.applewatch
 lock.circle
 lock.circle.fill
 lock.doc
@@ -1859,6 +1883,7 @@ photo.fill
 photo.fill.on.rectangle.fill
 photo.on.rectangle
 photo.on.rectangle.angled
+photo.tv
 pianokeys
 pianokeys.inverse
 pills
@@ -1884,6 +1909,8 @@ play.rectangle
 play.rectangle.fill
 play.slash
 play.slash.fill
+play.tv
+play.tv.fill
 playpause
 playpause.fill
 plus
@@ -1993,6 +2020,7 @@ rectangle.arrowtriangle.2.inward
 rectangle.arrowtriangle.2.outward
 rectangle.badge.checkmark
 rectangle.badge.minus
+rectangle.badge.person.crop
 rectangle.badge.plus
 rectangle.badge.xmark
 rectangle.bottomthird.inset.fill
@@ -2006,6 +2034,7 @@ rectangle.expand.vertical
 rectangle.fill
 rectangle.fill.badge.checkmark
 rectangle.fill.badge.minus
+rectangle.fill.badge.person.crop
 rectangle.fill.badge.plus
 rectangle.fill.badge.xmark
 rectangle.fill.on.rectangle.angled.fill
@@ -2065,8 +2094,13 @@ rectangle.stack.fill.badge.person.crop
 rectangle.stack.fill.badge.plus
 rectangle.stack.person.crop
 rectangle.stack.person.crop.fill
+rectangle.topthird.inset
 repeat
 repeat.1
+repeat.1.circle
+repeat.1.circle.fill
+repeat.circle
+repeat.circle.fill
 restart
 restart.circle
 return
@@ -2120,6 +2154,7 @@ shekelsign.circle.fill
 shekelsign.square
 shekelsign.square.fill
 shield
+shield.checkerboard
 shield.fill
 shield.lefthalf.fill
 shield.lefthalf.fill.slash
@@ -2130,6 +2165,8 @@ shift.fill
 shippingbox
 shippingbox.fill
 shuffle
+shuffle.circle
+shuffle.circle.fill
 sidebar.leading
 sidebar.left
 sidebar.right
@@ -2391,6 +2428,8 @@ textformat.abc
 textformat.abc.dottedunderline
 textformat.alt
 textformat.size
+textformat.size.larger
+textformat.size.smaller
 textformat.subscript
 textformat.superscript
 thermometer
@@ -2407,6 +2446,7 @@ togglepower
 tornado
 tortoise
 tortoise.fill
+torus
 touchid
 tram
 tram.circle
@@ -2449,6 +2489,7 @@ turkishlirasign.square
 turkishlirasign.square.fill
 tv
 tv.and.hifispeaker.fill
+tv.and.mediabox
 tv.circle
 tv.circle.fill
 tv.fill

@@ -1,6 +1,6 @@
 //
-// Retrieved via the SFSymbols app package contents
-// Updated on October 8 2020
+// Retrieved via the SFSymbols app package contents (Version 2.1)
+// Updated on November 21 2020
 //
 
 "arrow.upright.circle" = "arrow.up.right.circle";
