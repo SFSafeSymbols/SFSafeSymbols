@@ -45,6 +45,7 @@
 "checkmark.icloud" = "iCloud service";
 "checkmark.icloud.fill" = "iCloud service";
 "earpods" = "EarPods";
+"exclamationmark.applewatch" = "Apple Watch";
 "exclamationmark.icloud" = "iCloud service";
 "exclamationmark.icloud.fill" = "iCloud service";
 "faceid" = "Face ID";
@@ -132,6 +133,8 @@
 "video" = "FaceTime app";
 "video.badge.checkmark" = "FaceTime app";
 "video.badge.plus" = "FaceTime app";
+"video.bubble.left" = "FaceTime app";
+"video.bubble.left.fill" = "FaceTime app";
 "video.circle" = "FaceTime app";
 "video.circle.fill" = "FaceTime app";
 "video.fill" = "FaceTime app";

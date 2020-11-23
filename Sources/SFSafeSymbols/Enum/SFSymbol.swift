@@ -4848,6 +4848,7 @@ public enum SFSymbol: String, CaseIterable {
     case exclamationmark3
 
     /// 􀵄
+    /// ⚠️ This symbol can refer only to Apple's Apple Watch.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
     case exclamationmarkApplewatch
 
@@ -10685,10 +10686,12 @@ public enum SFSymbol: String, CaseIterable {
     case videoBadgePlusFill
 
     /// 􀱰
+    /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case videoBubbleLeft
 
     /// 􀱱
+    /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case videoBubbleLeftFill
 
