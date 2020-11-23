@@ -81,9 +81,6 @@ for scannedSymbol in symbolManifest {
     symbols.append(newSymbol)
 }
 
-let failingSymbols: [String] = [] // Those symbols are supposedly available, but actually aren't
-symbols = symbols.sorted { $0.name < $1.name }.filter { symbol in !failingSymbols.contains { $0 == symbol.name } }
-
 // MARK: - Step 3: CODE GENERATION
 
 // Generate a type for each enum case that shall be created
@@ -94,6 +91,7 @@ let symbolEnumCases: [SymbolEnumCase] = symbols.flatMap { symbol -> [SymbolEnumC
     let primaryEnumCaseName = symbol.name.toEnumCaseName
     symbolEnumCases.append(
         SymbolEnumCase(
+            name: symbol.name,
             caseName: primaryEnumCaseName,
             nameVersions: symbol.nameVersions,
             canOnlyReferTo: symbol.canOnlyReferTo,
@@ -112,6 +110,7 @@ let symbolEnumCases: [SymbolEnumCase] = symbols.flatMap { symbol -> [SymbolEnumC
         guard let deprecation = (sortedNameVersions.first { $0 < availability && $1 != name }?.key) else { fatalError() }
         symbolEnumCases.append(
             SymbolEnumCase(
+                name: name,
                 caseName: name.toEnumCaseName,
                 nameVersions: symbol.nameVersions,
                 canOnlyReferTo: symbol.canOnlyReferTo,
@@ -124,7 +123,7 @@ let symbolEnumCases: [SymbolEnumCase] = symbols.flatMap { symbol -> [SymbolEnumC
     }
 
     return symbolEnumCases
-}
+}.sorted { $0.name < $1.name }
 
 let symbolsAsCode: [String] = symbolEnumCases.map { symbolEnumCase in
     // Generate preview docs
@@ -167,15 +166,23 @@ symbols.forEach { availabilities.formUnion($0.nameVersions.keys) }
 
 // Compute enum case name, enum raw value and enum case availability relationship
 let symbolEnumRawValues = symbolEnumCases.flatMap { symbolEnumCase -> [SymbolEnumRawValue] in
-    symbolEnumCase.nameVersions.flatMap { nameVersion in
-        availabilities
-            .filter { availability in
-                (availability == nameVersion.key) ||
-                    (availability < nameVersion.key && !symbolEnumCase.nameVersions.contains { $0.key == availability } && !symbolEnumCase.nameVersions.contains { $0.key < nameVersion.key } )
-            }
-            .map {
-                SymbolEnumRawValue(availability: $0, caseName: symbolEnumCase.caseName, name: nameVersion.value)
-            }
+    let sortedNameVersions = symbolEnumCase.nameVersions.sorted { $0.key < $1.key }
+    return availabilities.filter { $0 <= symbolEnumCase.availability }.map { availability in
+        SymbolEnumRawValue(
+            availability: availability,
+            caseName: symbolEnumCase.caseName,
+            name: sortedNameVersions.first { $0.key >= availability }!.value
+        )
+    }
+}
+
+// Validate symbolEnumRawValues
+for availability in availabilities {
+    guard
+        (symbolEnumRawValues.filter { $0.availability == availability }).count
+            == (symbolEnumCases.filter { $0.availability >= availability }.count)
+    else {
+        fatalError("Something went wrong when creating the symbolEnumRawValues.")
     }
 }
 

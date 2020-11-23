@@ -1039,6 +1039,29 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case _9SquareFill
 
+    /// 􀅏
+    @available(iOS, introduced: 13.0, deprecated: 14.2, renamed: "character")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "character")
+    @available(tvOS, introduced: 13.0, deprecated: 14.2, renamed: "character")
+    @available(watchOS, introduced: 6.0, deprecated: 7.1, renamed: "character")
+    case a
+
+    /// 􀫕
+    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
+    @available(iOS, introduced: 14.0, deprecated: 14.2, renamed: "characterBookClosed")
+    @available(macOS, introduced: 11.0, deprecated: 11.0, renamed: "characterBookClosed")
+    @available(tvOS, introduced: 14.0, deprecated: 14.2, renamed: "characterBookClosed")
+    @available(watchOS, introduced: 7.0, deprecated: 7.1, renamed: "characterBookClosed")
+    case aBookClosed
+
+    /// 􀫖
+    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
+    @available(iOS, introduced: 14.0, deprecated: 14.2, renamed: "characterBookClosedFill")
+    @available(macOS, introduced: 11.0, deprecated: 11.0, renamed: "characterBookClosedFill")
+    @available(tvOS, introduced: 14.0, deprecated: 14.2, renamed: "characterBookClosedFill")
+    @available(watchOS, introduced: 7.0, deprecated: 7.1, renamed: "characterBookClosedFill")
+    case aBookClosedFill
+
     /// 􀀄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case aCircle
@@ -1293,6 +1316,27 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arkit
 
+    /// 􀊯
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2Circlepath")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2Circlepath")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2Circlepath")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2Circlepath")
+    case arrow2Circlepath
+
+    /// 􀖊
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircle")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCircle")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircle")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCircle")
+    case arrow2CirclepathCircle
+
+    /// 􀖋
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircleFill")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCircleFill")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircleFill")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCircleFill")
+    case arrow2CirclepathCircleFill
+
     /// 􀅌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrow2Squarepath
@@ -1320,6 +1364,13 @@ public enum SFSymbol: String, CaseIterable {
     /// 􀰐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowBackwardSquareFill
+
+    /// 􀙠
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleBranch")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleBranch")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleBranch")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleBranch")
+    case arrowBranch
 
     /// 􀅈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -1579,23 +1630,9 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowLeftAndRightRighttriangleLeftRighttriangleRight
 
-    /// 􀞒
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
-    case flipHorizontal
-
     /// 􀞓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowLeftAndRightRighttriangleLeftRighttriangleRightFill
-
-    /// 􀞓
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
-    case flipHorizontalFill
 
     /// 􀒀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -1609,56 +1646,21 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowLeftArrowRight
 
-    /// 􀄭
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRight")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRight")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRight")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRight")
-    case arrowRightArrowLeft
-
     /// 􀂀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowLeftArrowRightCircle
-
-    /// 􀂀
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircle")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightCircle")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircle")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightCircle")
-    case arrowRightArrowLeftCircle
 
     /// 􀂁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowLeftArrowRightCircleFill
 
-    /// 􀂁
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircleFill")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightCircleFill")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircleFill")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightCircleFill")
-    case arrowRightArrowLeftCircleFill
-
     /// 􀄐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowLeftArrowRightSquare
 
-    /// 􀄐
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquare")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightSquare")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquare")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightSquare")
-    case arrowRightArrowLeftSquare
-
     /// 􀄑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowLeftArrowRightSquareFill
-
-    /// 􀄑
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquareFill")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightSquareFill")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquareFill")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightSquareFill")
-    case arrowRightArrowLeftSquareFill
 
     /// 􀁺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -1684,6 +1686,13 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowLeftToLineAlt
 
+    /// 􀖄
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleMerge")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleMerge")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleMerge")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleMerge")
+    case arrowMerge
+
     /// 􀣁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowRectanglepath
@@ -1691,6 +1700,41 @@ public enum SFSymbol: String, CaseIterable {
     /// 􀄫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowRight
+
+    /// 􀄭
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRight")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRight")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRight")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRight")
+    case arrowRightArrowLeft
+
+    /// 􀂀
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircle")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightCircle")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircle")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightCircle")
+    case arrowRightArrowLeftCircle
+
+    /// 􀂁
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircleFill")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightCircleFill")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircleFill")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightCircleFill")
+    case arrowRightArrowLeftCircleFill
+
+    /// 􀄐
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquare")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightSquare")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquare")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightSquare")
+    case arrowRightArrowLeftSquare
+
+    /// 􀄑
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquareFill")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightSquareFill")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquareFill")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightSquareFill")
+    case arrowRightArrowLeftSquareFill
 
     /// 􀁼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -1720,60 +1764,32 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowRightToLineAlt
 
+    /// 􀖅
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleSwap")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleSwap")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleSwap")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleSwap")
+    case arrowSwap
+
     /// 􀊯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowTriangle2Circlepath
-
-    /// 􀊯
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2Circlepath")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2Circlepath")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2Circlepath")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2Circlepath")
-    case arrow2Circlepath
 
     /// 􀌢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowTriangle2CirclepathCamera
 
-    /// 􀌢
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCamera")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCamera")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCamera")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCamera")
-    case cameraRotate
-
     /// 􀌣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowTriangle2CirclepathCameraFill
-
-    /// 􀌣
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCameraFill")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCameraFill")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCameraFill")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCameraFill")
-    case cameraRotateFill
 
     /// 􀖊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowTriangle2CirclepathCircle
 
-    /// 􀖊
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircle")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCircle")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircle")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCircle")
-    case arrow2CirclepathCircle
-
     /// 􀖋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowTriangle2CirclepathCircleFill
-
-    /// 􀖋
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircleFill")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCircleFill")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircleFill")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCircleFill")
-    case arrow2CirclepathCircleFill
 
     /// 􀫷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
@@ -1783,13 +1799,6 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowTriangleBranch
 
-    /// 􀙠
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleBranch")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleBranch")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleBranch")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleBranch")
-    case arrowBranch
-
     /// 􀤖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowTriangleCapsulepath
@@ -1798,13 +1807,6 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowTriangleMerge
 
-    /// 􀖄
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleMerge")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleMerge")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleMerge")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleMerge")
-    case arrowMerge
-
     /// 􀙡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case arrowTrianglePull
@@ -1812,13 +1814,6 @@ public enum SFSymbol: String, CaseIterable {
     /// 􀖅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowTriangleSwap
-
-    /// 􀖅
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleSwap")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleSwap")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleSwap")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleSwap")
-    case arrowSwap
 
     /// 􀟷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
@@ -1832,23 +1827,9 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowTriangleTurnUpRightDiamond
 
-    /// 􀙞
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamond")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleTurnUpRightDiamond")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamond")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleTurnUpRightDiamond")
-    case arrowUpRightDiamond
-
     /// 􀙟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowTriangleTurnUpRightDiamondFill
-
-    /// 􀙟
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
-    case arrowUpRightDiamondFill
 
     /// 􀄴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -2123,6 +2104,20 @@ public enum SFSymbol: String, CaseIterable {
     /// 􀂅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case arrowUpRightCircleFill
+
+    /// 􀙞
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamond")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleTurnUpRightDiamond")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamond")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleTurnUpRightDiamond")
+    case arrowUpRightDiamond
+
+    /// 􀙟
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
+    case arrowUpRightDiamondFill
 
     /// 􀄔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -2839,6 +2834,20 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case bicycleCircleFill
 
+    /// 􀈱
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBin")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "xmarkBin")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBin")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "xmarkBin")
+    case binXmark
+
+    /// 􀈲
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBinFill")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "xmarkBinFill")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBinFill")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "xmarkBinFill")
+    case binXmarkFill
+
     /// 􀠍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case binoculars
@@ -3268,6 +3277,20 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case cameraOnRectangleFill
 
+    /// 􀌢
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCamera")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCamera")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCamera")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCamera")
+    case cameraRotate
+
+    /// 􀌣
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCameraFill")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCameraFill")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCameraFill")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCameraFill")
+    case cameraRotateFill
+
     /// 􀎼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case cameraViewfinder
@@ -3409,40 +3432,17 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case character
 
-    /// 􀅏
-    @available(iOS, introduced: 13.0, deprecated: 14.2, renamed: "character")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "character")
-    @available(tvOS, introduced: 13.0, deprecated: 14.2, renamed: "character")
-    @available(watchOS, introduced: 6.0, deprecated: 7.1, renamed: "character")
-    case a
-
     /// 􀫕
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Traditional Chinese
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case characterBookClosed
 
-    /// 􀫕
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
-    @available(iOS, introduced: 14.0, deprecated: 14.2, renamed: "characterBookClosed")
-    @available(macOS, introduced: 11.0, deprecated: 11.0, renamed: "characterBookClosed")
-    @available(tvOS, introduced: 14.0, deprecated: 14.2, renamed: "characterBookClosed")
-    @available(watchOS, introduced: 7.0, deprecated: 7.1, renamed: "characterBookClosed")
-    case aBookClosed
-
     /// 􀫖
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Traditional Chinese
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case characterBookClosedFill
-
-    /// 􀫖
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
-    @available(iOS, introduced: 14.0, deprecated: 14.2, renamed: "characterBookClosedFill")
-    @available(macOS, introduced: 11.0, deprecated: 11.0, renamed: "characterBookClosedFill")
-    @available(tvOS, introduced: 14.0, deprecated: 14.2, renamed: "characterBookClosedFill")
-    @available(watchOS, introduced: 7.0, deprecated: 7.1, renamed: "characterBookClosedFill")
-    case aBookClosedFill
 
     /// 􀐾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -3706,6 +3706,13 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circleBottomhalfFill
 
+    /// 􀜚
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "sleep")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "sleep")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "sleep")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "sleep")
+    case circleBottomthirdSplit
+
     /// 􀨁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circleCircle
@@ -3770,6 +3777,20 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case circleGridCrossUpFill
 
+    /// 􀙢
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongrid")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "circlesHexagongrid")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongrid")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "circlesHexagongrid")
+    case circleGridHex
+
+    /// 􀙣
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongridFill")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "circlesHexagongridFill")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongridFill")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "circlesHexagongridFill")
+    case circleGridHexFill
+
     /// 􀀂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case circleLefthalfFill
@@ -3806,23 +3827,9 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case circlesHexagongrid
 
-    /// 􀙢
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongrid")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "circlesHexagongrid")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongrid")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "circlesHexagongrid")
-    case circleGridHex
-
     /// 􀙣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case circlesHexagongridFill
-
-    /// 􀙣
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongridFill")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "circlesHexagongridFill")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongridFill")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "circlesHexagongridFill")
-    case circleGridHexFill
 
     /// 􀬎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
@@ -4124,6 +4131,20 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case cube
 
+    /// 􀐚
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingbox")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shippingbox")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingbox")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shippingbox")
+    case cubeBox
+
+    /// 􀐛
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingboxFill")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shippingboxFill")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingboxFill")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shippingboxFill")
+    case cubeBoxFill
+
     /// 􀐙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case cubeFill
@@ -4147,6 +4168,13 @@ public enum SFSymbol: String, CaseIterable {
     /// 􀤙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case curlybracesSquareFill
+
+    /// 􀇰
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "cursorarrowRays")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "cursorarrowRays")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "cursorarrowRays")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "cursorarrowRays")
+    case cursorRays
 
     /// 􀫌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
@@ -4179,13 +4207,6 @@ public enum SFSymbol: String, CaseIterable {
     /// 􀇰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case cursorarrowRays
-
-    /// 􀇰
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "cursorarrowRays")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "cursorarrowRays")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "cursorarrowRays")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "cursorarrowRays")
-    case cursorRays
 
     /// 􀭅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
@@ -4259,6 +4280,20 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case desktopcomputer
 
+    /// 􀍺
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMin")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "dialMin")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMin")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "dialMin")
+    case dial
+
+    /// 􀍻
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMinFill")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "dialMinFill")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMinFill")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "dialMinFill")
+    case dialFill
+
     /// 􀪐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case dialMax
@@ -4271,23 +4306,9 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case dialMin
 
-    /// 􀍺
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMin")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "dialMin")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMin")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "dialMin")
-    case dial
-
     /// 􀍻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case dialMinFill
-
-    /// 􀍻
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMinFill")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "dialMinFill")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMinFill")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "dialMinFill")
-    case dialFill
 
     /// 􀟈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
@@ -4511,13 +4532,6 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case dockRectangle
 
-    /// 􀏞
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "dockRectangle")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "dockRectangle")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "dockRectangle")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "dockRectangle")
-    case rectangleDock
-
     /// 􀖗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case dollarsignCircle
@@ -4683,14 +4697,6 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case ejectFill
 
-    /// 􀍠
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case ellipsis
-
-    /// 􀕺
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case ellipsisBubble
-
     /// 􀕺
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "ellipsisBubble")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "ellipsisBubble")
@@ -4699,15 +4705,23 @@ public enum SFSymbol: String, CaseIterable {
     case ellipsesBubble
 
     /// 􀕻
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case ellipsisBubbleFill
-
-    /// 􀕻
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "ellipsisBubbleFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "ellipsisBubbleFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "ellipsisBubbleFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "ellipsisBubbleFill")
     case ellipsesBubbleFill
+
+    /// 􀍠
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
+    case ellipsis
+
+    /// 􀕺
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
+    case ellipsisBubble
+
+    /// 􀕻
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
+    case ellipsisBubbleFill
 
     /// 􀍡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -5075,23 +5089,9 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case faceSmiling
 
-    /// 􀎸
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmiling")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "faceSmiling")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmiling")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "faceSmiling")
-    case smiley
-
     /// 􀙌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case faceSmilingFill
-
-    /// 􀙌
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmilingFill")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "faceSmilingFill")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmilingFill")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "faceSmilingFill")
-    case smileyFill
 
     /// 􀎽
     /// ⚠️ This symbol can refer only to Apple's Face ID.
@@ -5218,6 +5218,20 @@ public enum SFSymbol: String, CaseIterable {
     /// 􀞋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case flashlightOnFill
+
+    /// 􀞒
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
+    case flipHorizontal
+
+    /// 􀞓
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
+    case flipHorizontalFill
 
     /// 􀪴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
@@ -6070,6 +6084,7 @@ public enum SFSymbol: String, CaseIterable {
     case ipad
 
     /// 􀴓
+    /// ⚠️ This symbol can refer only to Apple's iPad.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
     case ipadBadgePlay
 
@@ -6079,6 +6094,7 @@ public enum SFSymbol: String, CaseIterable {
     case ipadHomebutton
 
     /// 􀴒
+    /// ⚠️ This symbol can refer only to Apple's iPad.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
     case ipadHomebuttonBadgePlay
 
@@ -6088,6 +6104,7 @@ public enum SFSymbol: String, CaseIterable {
     case ipadHomebuttonLandscape
 
     /// 􀵑
+    /// ⚠️ This symbol can refer only to Apple's iPad.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
     case ipadHomebuttonLandscapeBadgePlay
 
@@ -6097,6 +6114,7 @@ public enum SFSymbol: String, CaseIterable {
     case ipadLandscape
 
     /// 􀵒
+    /// ⚠️ This symbol can refer only to Apple's iPad.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
     case ipadLandscapeBadgePlay
 
@@ -6106,6 +6124,7 @@ public enum SFSymbol: String, CaseIterable {
     case iphone
 
     /// 􀴑
+    /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
     case iphoneBadgePlay
 
@@ -6115,10 +6134,12 @@ public enum SFSymbol: String, CaseIterable {
     case iphoneHomebutton
 
     /// 􀐶
+    /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
     case iphoneHomebuttonBadgePlay
 
     /// 􀴎
+    /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
     case iphoneHomebuttonLandscape
 
@@ -6133,6 +6154,7 @@ public enum SFSymbol: String, CaseIterable {
     case iphoneHomebuttonSlash
 
     /// 􀴏
+    /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
     case iphoneLandscape
 
@@ -6177,6 +6199,7 @@ public enum SFSymbol: String, CaseIterable {
     case ipodtouch
 
     /// 􀴐
+    /// ⚠️ This symbol can refer only to Apple's iPod touch.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
     case ipodtouchLandscape
 
@@ -6412,15 +6435,15 @@ public enum SFSymbol: String, CaseIterable {
     case leaf
 
     /// 􀙜
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case leafArrowTriangleCirclepath
-
-    /// 􀙜
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "leafArrowTriangleCirclepath")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "leafArrowTriangleCirclepath")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "leafArrowTriangleCirclepath")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "leafArrowTriangleCirclepath")
     case leafArrowCirclepath
+
+    /// 􀙜
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
+    case leafArrowTriangleCirclepath
 
     /// 􀥳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
@@ -6695,6 +6718,7 @@ public enum SFSymbol: String, CaseIterable {
     case lock
 
     /// 􀵅
+    /// ⚠️ This symbol can refer only to Apple's Apple Watch.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
     case lockApplewatch
 
@@ -7213,6 +7237,20 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case multiplySquareFill
 
+    /// 􀒼
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouse")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "musicNoteHouse")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouse")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "musicNoteHouse")
+    case musicHouse
+
+    /// 􀒽
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouseFill")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "musicNoteHouseFill")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouseFill")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "musicNoteHouseFill")
+    case musicHouseFill
+
     /// 􀑫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case musicMic
@@ -7225,23 +7263,9 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case musicNoteHouse
 
-    /// 􀒼
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouse")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "musicNoteHouse")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouse")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "musicNoteHouse")
-    case musicHouse
-
     /// 􀒽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case musicNoteHouseFill
-
-    /// 􀒽
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouseFill")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "musicNoteHouseFill")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouseFill")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "musicNoteHouseFill")
-    case musicHouseFill
 
     /// 􀑬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -7484,15 +7508,15 @@ public enum SFSymbol: String, CaseIterable {
     case paperplaneFill
 
     /// 􀒆
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case paragraphsign
-
-    /// 􀒆
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "paragraphsign")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "paragraphsign")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "paragraphsign")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "paragraphsign")
     case paragraph
+
+    /// 􀒆
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
+    case paragraphsign
 
     /// 􀊅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -7525,6 +7549,13 @@ public enum SFSymbol: String, CaseIterable {
     /// 􀈊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case pencil
+
+    /// 􀈏
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "rectangleAndPencilAndEllipsis")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "rectangleAndPencilAndEllipsis")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "rectangleAndPencilAndEllipsis")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "rectangleAndPencilAndEllipsis")
+    case pencilAndEllipsisRectangle
 
     /// 􀈐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -7615,9 +7646,23 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case personBadgeMinus
 
+    /// 􀜘
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "personFillBadgeMinus")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "personFillBadgeMinus")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "personFillBadgeMinus")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personFillBadgeMinus")
+    case personBadgeMinusFill
+
     /// 􀜕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case personBadgePlus
+
+    /// 􀜖
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "personFillBadgePlus")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "personFillBadgePlus")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "personFillBadgePlus")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personFillBadgePlus")
+    case personBadgePlusFill
 
     /// 􀓣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -7636,15 +7681,15 @@ public enum SFSymbol: String, CaseIterable {
     case personCropCircleBadgeCheckmark
 
     /// 􀉷
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCropCircleBadgeExclamationmark
-
-    /// 􀉷
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "personCropCircleBadgeExclamationmark")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "personCropCircleBadgeExclamationmark")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "personCropCircleBadgeExclamationmark")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personCropCircleBadgeExclamationmark")
     case personCropCircleBadgeExclam
+
+    /// 􀉷
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
+    case personCropCircleBadgeExclamationmark
 
     /// 􀉱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -7672,15 +7717,15 @@ public enum SFSymbol: String, CaseIterable {
     case personCropCircleFillBadgeCheckmark
 
     /// 􀉸
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCropCircleFillBadgeExclamationmark
-
-    /// 􀉸
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "personCropCircleFillBadgeExclamationmark")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "personCropCircleFillBadgeExclamationmark")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "personCropCircleFillBadgeExclamationmark")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personCropCircleFillBadgeExclamationmark")
     case personCropCircleFillBadgeExclam
+
+    /// 􀉸
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
+    case personCropCircleFillBadgeExclamationmark
 
     /// 􀉲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -7731,23 +7776,9 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case personFillBadgeMinus
 
-    /// 􀜘
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "personFillBadgeMinus")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "personFillBadgeMinus")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "personFillBadgeMinus")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personFillBadgeMinus")
-    case personBadgeMinusFill
-
     /// 􀜖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case personFillBadgePlus
-
-    /// 􀜖
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "personFillBadgePlus")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "personFillBadgePlus")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "personFillBadgePlus")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personFillBadgePlus")
-    case personBadgePlusFill
 
     /// 􀯧
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
@@ -8418,6 +8449,20 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case radioFill
 
+    /// 􀙱
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Left")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "wave3Left")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Left")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "wave3Left")
+    case radiowavesLeft
+
+    /// 􀙲
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Right")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "wave3Right")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Right")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "wave3Right")
+    case radiowavesRight
+
     /// 􀇯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case rays
@@ -8479,13 +8524,6 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case rectangleAndPencilAndEllipsis
 
-    /// 􀈏
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "rectangleAndPencilAndEllipsis")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "rectangleAndPencilAndEllipsis")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "rectangleAndPencilAndEllipsis")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "rectangleAndPencilAndEllipsis")
-    case pencilAndEllipsisRectangle
-
     /// 􀬸
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
@@ -8546,6 +8584,13 @@ public enum SFSymbol: String, CaseIterable {
     /// 􀥂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case rectangleDashedBadgeRecord
+
+    /// 􀏞
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "dockRectangle")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "dockRectangle")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "dockRectangle")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "dockRectangle")
+    case rectangleDock
 
     /// 􀐸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -9029,16 +9074,24 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case shekelsignCircle
 
+    /// 􀗌
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
+    case shekelsignCircleFill
+
+    /// 􀘋
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
+    case shekelsignSquare
+
+    /// 􀘌
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
+    case shekelsignSquareFill
+
     /// 􀗋
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignCircle")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shekelsignCircle")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignCircle")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shekelsignCircle")
     case sheqelsignCircle
-
-    /// 􀗌
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case shekelsignCircleFill
 
     /// 􀗌
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignCircleFill")
@@ -9048,19 +9101,11 @@ public enum SFSymbol: String, CaseIterable {
     case sheqelsignCircleFill
 
     /// 􀘋
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case shekelsignSquare
-
-    /// 􀘋
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignSquare")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shekelsignSquare")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignSquare")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shekelsignSquare")
     case sheqelsignSquare
-
-    /// 􀘌
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case shekelsignSquareFill
 
     /// 􀘌
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignSquareFill")
@@ -9109,23 +9154,9 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case shippingbox
 
-    /// 􀐚
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingbox")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shippingbox")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingbox")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shippingbox")
-    case cubeBox
-
     /// 􀐛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case shippingboxFill
-
-    /// 􀐛
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingboxFill")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shippingboxFill")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingboxFill")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shippingboxFill")
-    case cubeBoxFill
 
     /// 􀊝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -9224,13 +9255,6 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case sleep
 
-    /// 􀜚
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "sleep")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "sleep")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "sleep")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "sleep")
-    case circleBottomthirdSplit
-
     /// 􀌆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case sliderHorizontal3
@@ -9266,6 +9290,20 @@ public enum SFSymbol: String, CaseIterable {
     /// 􀕩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case smallcircleFillCircleFill
+
+    /// 􀎸
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmiling")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "faceSmiling")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmiling")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "faceSmiling")
+    case smiley
+
+    /// 􀙌
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmilingFill")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "faceSmilingFill")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmilingFill")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "faceSmilingFill")
+    case smileyFill
 
     /// 􀇢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -9303,6 +9341,48 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case speaker
 
+    /// 􀊤
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave1")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave1")
+    case speaker1
+
+    /// 􀊥
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1Fill")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave1Fill")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1Fill")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave1Fill")
+    case speaker1Fill
+
+    /// 􀊦
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave2")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave2")
+    case speaker2
+
+    /// 􀊧
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2Fill")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave2Fill")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2Fill")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave2Fill")
+    case speaker2Fill
+
+    /// 􀊨
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave3")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave3")
+    case speaker3
+
+    /// 􀊩
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3Fill")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave3Fill")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3Fill")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave3Fill")
+    case speaker3Fill
+
     /// 􀊡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case speakerFill
@@ -9331,34 +9411,13 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case speakerWave1
 
-    /// 􀊤
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave1")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave1")
-    case speaker1
-
     /// 􀊥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case speakerWave1Fill
 
-    /// 􀊥
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1Fill")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave1Fill")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1Fill")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave1Fill")
-    case speaker1Fill
-
     /// 􀊦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case speakerWave2
-
-    /// 􀊦
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave2")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave2")
-    case speaker2
 
     /// 􀥑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
@@ -9372,34 +9431,13 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case speakerWave2Fill
 
-    /// 􀊧
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2Fill")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave2Fill")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2Fill")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave2Fill")
-    case speaker2Fill
-
     /// 􀊨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case speakerWave3
 
-    /// 􀊨
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave3")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave3")
-    case speaker3
-
     /// 􀊩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case speakerWave3Fill
-
-    /// 􀊩
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3Fill")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave3Fill")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3Fill")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave3Fill")
-    case speaker3Fill
 
     /// 􀌊
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
@@ -9719,6 +9757,13 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case squareStack
 
+    /// 􀐠
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "squareStack3dForwardDottedline")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "squareStack3dForwardDottedline")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "squareStack3dForwardDottedline")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "squareStack3dForwardDottedline")
+    case squareStack3dDownDottedline
+
     /// 􀰳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case squareStack3dDownForward
@@ -9738,13 +9783,6 @@ public enum SFSymbol: String, CaseIterable {
     /// 􀐠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case squareStack3dForwardDottedline
-
-    /// 􀐠
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "squareStack3dForwardDottedline")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "squareStack3dForwardDottedline")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "squareStack3dForwardDottedline")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "squareStack3dForwardDottedline")
-    case squareStack3dDownDottedline
 
     /// 􀧏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
@@ -10050,19 +10088,11 @@ public enum SFSymbol: String, CaseIterable {
     case tSquareFill
 
     /// 􀏣
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tablecells
-
-    /// 􀏣
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecells")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "tablecells")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecells")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "tablecells")
     case table
-
-    /// 􀏥
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tablecellsBadgeEllipsis
 
     /// 􀏥
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsBadgeEllipsis")
@@ -10072,10 +10102,6 @@ public enum SFSymbol: String, CaseIterable {
     case tableBadgeMore
 
     /// 􀏦
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tablecellsBadgeEllipsisFill
-
-    /// 􀏦
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsBadgeEllipsisFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "tablecellsBadgeEllipsisFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsBadgeEllipsisFill")
@@ -10083,15 +10109,27 @@ public enum SFSymbol: String, CaseIterable {
     case tableBadgeMoreFill
 
     /// 􀏤
-    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tablecellsFill
-
-    /// 􀏤
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "tablecellsFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "tablecellsFill")
     case tableFill
+
+    /// 􀏣
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
+    case tablecells
+
+    /// 􀏥
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
+    case tablecellsBadgeEllipsis
+
+    /// 􀏦
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
+    case tablecellsBadgeEllipsisFill
+
+    /// 􀏤
+    @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
+    case tablecellsFill
 
     /// 􀋡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -10638,6 +10676,14 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case videoBadgePlus
 
+    /// 􀜯
+    /// ⚠️ This symbol can refer only to Apple's FaceTime app.
+    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "videoFillBadgePlus")
+    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "videoFillBadgePlus")
+    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "videoFillBadgePlus")
+    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "videoFillBadgePlus")
+    case videoBadgePlusFill
+
     /// 􀱰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case videoBubbleLeft
@@ -10670,14 +10716,6 @@ public enum SFSymbol: String, CaseIterable {
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case videoFillBadgePlus
-
-    /// 􀜯
-    /// ⚠️ This symbol can refer only to Apple's FaceTime app.
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "videoFillBadgePlus")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "videoFillBadgePlus")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "videoFillBadgePlus")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "videoFillBadgePlus")
-    case videoBadgePlusFill
 
     /// 􀍍
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
@@ -10781,13 +10819,6 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case wave3Left
 
-    /// 􀙱
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Left")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "wave3Left")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Left")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "wave3Left")
-    case radiowavesLeft
-
     /// 􀭷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case wave3LeftCircle
@@ -10799,13 +10830,6 @@ public enum SFSymbol: String, CaseIterable {
     /// 􀙲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case wave3Right
-
-    /// 􀙲
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Right")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "wave3Right")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Right")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "wave3Right")
-    case radiowavesRight
 
     /// 􀭹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
@@ -10931,13 +10955,6 @@ public enum SFSymbol: String, CaseIterable {
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case xmarkBin
 
-    /// 􀈱
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBin")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "xmarkBin")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBin")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "xmarkBin")
-    case binXmark
-
     /// 􀈳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     case xmarkBinCircle
@@ -10949,13 +10966,6 @@ public enum SFSymbol: String, CaseIterable {
     /// 􀈲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
     case xmarkBinFill
-
-    /// 􀈲
-    @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBinFill")
-    @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "xmarkBinFill")
-    @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBinFill")
-    @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "xmarkBinFill")
-    case binXmarkFill
 
     /// 􀁠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -11366,6 +11376,9 @@ public enum SFSymbol: String, CaseIterable {
             case ._9CircleFill: return "9.circle.fill"
             case ._9Square: return "9.square"
             case ._9SquareFill: return "9.square.fill"
+            case .a: return "character"
+            case .aBookClosed: return "character.book.closed"
+            case .aBookClosedFill: return "character.book.closed.fill"
             case .aCircle: return "a.circle"
             case .aCircleFill: return "a.circle.fill"
             case .aMagnify: return "a.magnify"
@@ -11424,6 +11437,9 @@ public enum SFSymbol: String, CaseIterable {
             case .archiveboxCircleFill: return "archivebox.circle.fill"
             case .archiveboxFill: return "archivebox.fill"
             case .arkit: return "arkit"
+            case .arrow2Circlepath: return "arrow.triangle.2.circlepath"
+            case .arrow2CirclepathCircle: return "arrow.triangle.2.circlepath.circle"
+            case .arrow2CirclepathCircleFill: return "arrow.triangle.2.circlepath.circle.fill"
             case .arrow2Squarepath: return "arrow.2.squarepath"
             case .arrow3Trianglepath: return "arrow.3.trianglepath"
             case .arrowBackward: return "arrow.backward"
@@ -11431,6 +11447,7 @@ public enum SFSymbol: String, CaseIterable {
             case .arrowBackwardCircleFill: return "arrow.backward.circle.fill"
             case .arrowBackwardSquare: return "arrow.backward.square"
             case .arrowBackwardSquareFill: return "arrow.backward.square.fill"
+            case .arrowBranch: return "arrow.triangle.branch"
             case .arrowClockwise: return "arrow.clockwise"
             case .arrowClockwiseCircle: return "arrow.clockwise.circle"
             case .arrowClockwiseCircleFill: return "arrow.clockwise.circle.fill"
@@ -11494,29 +11511,28 @@ public enum SFSymbol: String, CaseIterable {
             case .arrowLeftAndRightCircle: return "arrow.left.and.right.circle"
             case .arrowLeftAndRightCircleFill: return "arrow.left.and.right.circle.fill"
             case .arrowLeftAndRightRighttriangleLeftRighttriangleRight: return "arrow.left.and.right.righttriangle.left.righttriangle.right"
-            case .flipHorizontal: return "arrow.left.and.right.righttriangle.left.righttriangle.right"
             case .arrowLeftAndRightRighttriangleLeftRighttriangleRightFill: return "arrow.left.and.right.righttriangle.left.righttriangle.right.fill"
-            case .flipHorizontalFill: return "arrow.left.and.right.righttriangle.left.righttriangle.right.fill"
             case .arrowLeftAndRightSquare: return "arrow.left.and.right.square"
             case .arrowLeftAndRightSquareFill: return "arrow.left.and.right.square.fill"
             case .arrowLeftArrowRight: return "arrow.left.arrow.right"
-            case .arrowRightArrowLeft: return "arrow.left.arrow.right"
             case .arrowLeftArrowRightCircle: return "arrow.left.arrow.right.circle"
-            case .arrowRightArrowLeftCircle: return "arrow.left.arrow.right.circle"
             case .arrowLeftArrowRightCircleFill: return "arrow.left.arrow.right.circle.fill"
-            case .arrowRightArrowLeftCircleFill: return "arrow.left.arrow.right.circle.fill"
             case .arrowLeftArrowRightSquare: return "arrow.left.arrow.right.square"
-            case .arrowRightArrowLeftSquare: return "arrow.left.arrow.right.square"
             case .arrowLeftArrowRightSquareFill: return "arrow.left.arrow.right.square.fill"
-            case .arrowRightArrowLeftSquareFill: return "arrow.left.arrow.right.square.fill"
             case .arrowLeftCircle: return "arrow.left.circle"
             case .arrowLeftCircleFill: return "arrow.left.circle.fill"
             case .arrowLeftSquare: return "arrow.left.square"
             case .arrowLeftSquareFill: return "arrow.left.square.fill"
             case .arrowLeftToLine: return "arrow.left.to.line"
             case .arrowLeftToLineAlt: return "arrow.left.to.line.alt"
+            case .arrowMerge: return "arrow.triangle.merge"
             case .arrowRectanglepath: return "arrow.rectanglepath"
             case .arrowRight: return "arrow.right"
+            case .arrowRightArrowLeft: return "arrow.left.arrow.right"
+            case .arrowRightArrowLeftCircle: return "arrow.left.arrow.right.circle"
+            case .arrowRightArrowLeftCircleFill: return "arrow.left.arrow.right.circle.fill"
+            case .arrowRightArrowLeftSquare: return "arrow.left.arrow.right.square"
+            case .arrowRightArrowLeftSquareFill: return "arrow.left.arrow.right.square.fill"
             case .arrowRightCircle: return "arrow.right.circle"
             case .arrowRightCircleFill: return "arrow.right.circle.fill"
             case .arrowRightDocOnClipboard: return "arrow.right.doc.on.clipboard"
@@ -11524,31 +11540,22 @@ public enum SFSymbol: String, CaseIterable {
             case .arrowRightSquareFill: return "arrow.right.square.fill"
             case .arrowRightToLine: return "arrow.right.to.line"
             case .arrowRightToLineAlt: return "arrow.right.to.line.alt"
+            case .arrowSwap: return "arrow.triangle.swap"
             case .arrowTriangle2Circlepath: return "arrow.triangle.2.circlepath"
-            case .arrow2Circlepath: return "arrow.triangle.2.circlepath"
             case .arrowTriangle2CirclepathCamera: return "arrow.triangle.2.circlepath.camera"
-            case .cameraRotate: return "arrow.triangle.2.circlepath.camera"
             case .arrowTriangle2CirclepathCameraFill: return "arrow.triangle.2.circlepath.camera.fill"
-            case .cameraRotateFill: return "arrow.triangle.2.circlepath.camera.fill"
             case .arrowTriangle2CirclepathCircle: return "arrow.triangle.2.circlepath.circle"
-            case .arrow2CirclepathCircle: return "arrow.triangle.2.circlepath.circle"
             case .arrowTriangle2CirclepathCircleFill: return "arrow.triangle.2.circlepath.circle.fill"
-            case .arrow2CirclepathCircleFill: return "arrow.triangle.2.circlepath.circle.fill"
             case .arrowTriangle2CirclepathDocOnClipboard: return "arrow.triangle.2.circlepath.doc.on.clipboard"
             case .arrowTriangleBranch: return "arrow.triangle.branch"
-            case .arrowBranch: return "arrow.triangle.branch"
             case .arrowTriangleCapsulepath: return "arrow.triangle.capsulepath"
             case .arrowTriangleMerge: return "arrow.triangle.merge"
-            case .arrowMerge: return "arrow.triangle.merge"
             case .arrowTrianglePull: return "arrow.triangle.pull"
             case .arrowTriangleSwap: return "arrow.triangle.swap"
-            case .arrowSwap: return "arrow.triangle.swap"
             case .arrowTriangleTurnUpRightCircle: return "arrow.triangle.turn.up.right.circle"
             case .arrowTriangleTurnUpRightCircleFill: return "arrow.triangle.turn.up.right.circle.fill"
             case .arrowTriangleTurnUpRightDiamond: return "arrow.triangle.turn.up.right.diamond"
-            case .arrowUpRightDiamond: return "arrow.triangle.turn.up.right.diamond"
             case .arrowTriangleTurnUpRightDiamondFill: return "arrow.triangle.turn.up.right.diamond.fill"
-            case .arrowUpRightDiamondFill: return "arrow.triangle.turn.up.right.diamond.fill"
             case .arrowTurnDownLeft: return "arrow.turn.down.left"
             case .arrowTurnDownRight: return "arrow.turn.down.right"
             case .arrowTurnLeftDown: return "arrow.turn.left.down"
@@ -11617,6 +11624,8 @@ public enum SFSymbol: String, CaseIterable {
             case .arrowUpRightAndArrowDownLeftRectangleFill: return "arrow.up.right.and.arrow.down.left.rectangle.fill"
             case .arrowUpRightCircle: return "arrow.up.right.circle"
             case .arrowUpRightCircleFill: return "arrow.up.right.circle.fill"
+            case .arrowUpRightDiamond: return "arrow.triangle.turn.up.right.diamond"
+            case .arrowUpRightDiamondFill: return "arrow.triangle.turn.up.right.diamond.fill"
             case .arrowUpRightSquare: return "arrow.up.right.square"
             case .arrowUpRightSquareFill: return "arrow.up.right.square.fill"
             case .arrowUpRightVideo: return "arrow.up.right.video"
@@ -11795,6 +11804,8 @@ public enum SFSymbol: String, CaseIterable {
             case .bicycle: return "bicycle"
             case .bicycleCircle: return "bicycle.circle"
             case .bicycleCircleFill: return "bicycle.circle.fill"
+            case .binXmark: return "xmark.bin"
+            case .binXmarkFill: return "xmark.bin.fill"
             case .binoculars: return "binoculars"
             case .binocularsFill: return "binoculars.fill"
             case .bitcoinsignCircle: return "bitcoinsign.circle"
@@ -11901,6 +11912,8 @@ public enum SFSymbol: String, CaseIterable {
             case .cameraMeteringUnknown: return "camera.metering.unknown"
             case .cameraOnRectangle: return "camera.on.rectangle"
             case .cameraOnRectangleFill: return "camera.on.rectangle.fill"
+            case .cameraRotate: return "arrow.triangle.2.circlepath.camera"
+            case .cameraRotateFill: return "arrow.triangle.2.circlepath.camera.fill"
             case .cameraViewfinder: return "camera.viewfinder"
             case .candybarphone: return "candybarphone"
             case .capslock: return "capslock"
@@ -11936,11 +11949,8 @@ public enum SFSymbol: String, CaseIterable {
             case .centsignSquare: return "centsign.square"
             case .centsignSquareFill: return "centsign.square.fill"
             case .character: return "character"
-            case .a: return "character"
             case .characterBookClosed: return "character.book.closed"
-            case .aBookClosed: return "character.book.closed"
             case .characterBookClosedFill: return "character.book.closed.fill"
-            case .aBookClosedFill: return "character.book.closed.fill"
             case .chartBar: return "chart.bar"
             case .chartBarDocHorizontal: return "chart.bar.doc.horizontal"
             case .chartBarDocHorizontalFill: return "chart.bar.doc.horizontal.fill"
@@ -12006,6 +12016,7 @@ public enum SFSymbol: String, CaseIterable {
             case .chevronUpSquareFill: return "chevron.up.square.fill"
             case .circle: return "circle"
             case .circleBottomhalfFill: return "circle.bottomhalf.fill"
+            case .circleBottomthirdSplit: return "sleep"
             case .circleCircle: return "circle.circle"
             case .circleCircleFill: return "circle.circle.fill"
             case .circleDashed: return "circle.dashed"
@@ -12022,6 +12033,8 @@ public enum SFSymbol: String, CaseIterable {
             case .circleGridCrossLeftFill: return "circle.grid.cross.left.fill"
             case .circleGridCrossRightFill: return "circle.grid.cross.right.fill"
             case .circleGridCrossUpFill: return "circle.grid.cross.up.fill"
+            case .circleGridHex: return "circles.hexagongrid"
+            case .circleGridHexFill: return "circles.hexagongrid.fill"
             case .circleLefthalfFill: return "circle.lefthalf.fill"
             case .circleRighthalfFill: return "circle.righthalf.fill"
             case .circleSquare: return "circle.square"
@@ -12031,9 +12044,7 @@ public enum SFSymbol: String, CaseIterable {
             case .circlebadge2Fill: return "circlebadge.2.fill"
             case .circlebadgeFill: return "circlebadge.fill"
             case .circlesHexagongrid: return "circles.hexagongrid"
-            case .circleGridHex: return "circles.hexagongrid"
             case .circlesHexagongridFill: return "circles.hexagongrid.fill"
-            case .circleGridHexFill: return "circles.hexagongrid.fill"
             case .circlesHexagonpath: return "circles.hexagonpath"
             case .circlesHexagonpathFill: return "circles.hexagonpath.fill"
             case .clear: return "clear"
@@ -12109,12 +12120,15 @@ public enum SFSymbol: String, CaseIterable {
             case .cruzeirosignSquare: return "cruzeirosign.square"
             case .cruzeirosignSquareFill: return "cruzeirosign.square.fill"
             case .cube: return "cube"
+            case .cubeBox: return "shippingbox"
+            case .cubeBoxFill: return "shippingbox.fill"
             case .cubeFill: return "cube.fill"
             case .cubeTransparent: return "cube.transparent"
             case .cubeTransparentFill: return "cube.transparent.fill"
             case .curlybraces: return "curlybraces"
             case .curlybracesSquare: return "curlybraces.square"
             case .curlybracesSquareFill: return "curlybraces.square.fill"
+            case .cursorRays: return "cursorarrow.rays"
             case .cursorarrow: return "cursorarrow"
             case .cursorarrowAndSquareOnSquareDashed: return "cursorarrow.and.square.on.square.dashed"
             case .cursorarrowClick: return "cursorarrow.click"
@@ -12123,7 +12137,6 @@ public enum SFSymbol: String, CaseIterable {
             case .cursorarrowMotionlines: return "cursorarrow.motionlines"
             case .cursorarrowMotionlinesClick: return "cursorarrow.motionlines.click"
             case .cursorarrowRays: return "cursorarrow.rays"
-            case .cursorRays: return "cursorarrow.rays"
             case .cursorarrowSquare: return "cursorarrow.square"
             case .cylinder: return "cylinder"
             case .cylinderFill: return "cylinder.fill"
@@ -12142,12 +12155,12 @@ public enum SFSymbol: String, CaseIterable {
             case .deskclock: return "deskclock"
             case .deskclockFill: return "deskclock.fill"
             case .desktopcomputer: return "desktopcomputer"
+            case .dial: return "dial.min"
+            case .dialFill: return "dial.min.fill"
             case .dialMax: return "dial.max"
             case .dialMaxFill: return "dial.max.fill"
             case .dialMin: return "dial.min"
-            case .dial: return "dial.min"
             case .dialMinFill: return "dial.min.fill"
-            case .dialFill: return "dial.min.fill"
             case .diamond: return "diamond"
             case .diamondFill: return "diamond.fill"
             case .dieFace1: return "die.face.1"
@@ -12202,7 +12215,6 @@ public enum SFSymbol: String, CaseIterable {
             case .dockArrowDownRectangle: return "dock.arrow.down.rectangle"
             case .dockArrowUpRectangle: return "dock.arrow.up.rectangle"
             case .dockRectangle: return "dock.rectangle"
-            case .rectangleDock: return "dock.rectangle"
             case .dollarsignCircle: return "dollarsign.circle"
             case .dollarsignCircleFill: return "dollarsign.circle.fill"
             case .dollarsignSquare: return "dollarsign.square"
@@ -12244,11 +12256,11 @@ public enum SFSymbol: String, CaseIterable {
             case .ejectCircle: return "eject.circle"
             case .ejectCircleFill: return "eject.circle.fill"
             case .ejectFill: return "eject.fill"
+            case .ellipsesBubble: return "ellipsis.bubble"
+            case .ellipsesBubbleFill: return "ellipsis.bubble.fill"
             case .ellipsis: return "ellipsis"
             case .ellipsisBubble: return "ellipsis.bubble"
-            case .ellipsesBubble: return "ellipsis.bubble"
             case .ellipsisBubbleFill: return "ellipsis.bubble.fill"
-            case .ellipsesBubbleFill: return "ellipsis.bubble.fill"
             case .ellipsisCircle: return "ellipsis.circle"
             case .ellipsisCircleFill: return "ellipsis.circle.fill"
             case .ellipsisRectangle: return "ellipsis.rectangle"
@@ -12340,9 +12352,7 @@ public enum SFSymbol: String, CaseIterable {
             case .faceDashed: return "face.dashed"
             case .faceDashedFill: return "face.dashed.fill"
             case .faceSmiling: return "face.smiling"
-            case .smiley: return "face.smiling"
             case .faceSmilingFill: return "face.smiling.fill"
-            case .smileyFill: return "face.smiling.fill"
             case .faceid: return "faceid"
             case .faxmachine: return "faxmachine"
             case .fiberchannel: return "fiberchannel"
@@ -12374,6 +12384,8 @@ public enum SFSymbol: String, CaseIterable {
             case .flameFill: return "flame.fill"
             case .flashlightOffFill: return "flashlight.off.fill"
             case .flashlightOnFill: return "flashlight.on.fill"
+            case .flipHorizontal: return "arrow.left.and.right.righttriangle.left.righttriangle.right"
+            case .flipHorizontalFill: return "arrow.left.and.right.righttriangle.left.righttriangle.right.fill"
             case .flipphone: return "flipphone"
             case .florinsignCircle: return "florinsign.circle"
             case .florinsignCircleFill: return "florinsign.circle.fill"
@@ -12660,8 +12672,8 @@ public enum SFSymbol: String, CaseIterable {
             case .lbRectangleRoundedbottom: return "lb.rectangle.roundedbottom"
             case .lbRectangleRoundedbottomFill: return "lb.rectangle.roundedbottom.fill"
             case .leaf: return "leaf"
-            case .leafArrowTriangleCirclepath: return "leaf.arrow.triangle.circlepath"
             case .leafArrowCirclepath: return "leaf.arrow.triangle.circlepath"
+            case .leafArrowTriangleCirclepath: return "leaf.arrow.triangle.circlepath"
             case .leafFill: return "leaf.fill"
             case .lessthan: return "lessthan"
             case .lessthanCircle: return "lessthan.circle"
@@ -12854,12 +12866,12 @@ public enum SFSymbol: String, CaseIterable {
             case .multiplyCircleFill: return "multiply.circle.fill"
             case .multiplySquare: return "multiply.square"
             case .multiplySquareFill: return "multiply.square.fill"
+            case .musicHouse: return "music.note.house"
+            case .musicHouseFill: return "music.note.house.fill"
             case .musicMic: return "music.mic"
             case .musicNote: return "music.note"
             case .musicNoteHouse: return "music.note.house"
-            case .musicHouse: return "music.note.house"
             case .musicNoteHouseFill: return "music.note.house.fill"
-            case .musicHouseFill: return "music.note.house.fill"
             case .musicNoteList: return "music.note.list"
             case .musicQuarternote3: return "music.quarternote.3"
             case .mustache: return "mustache"
@@ -12920,8 +12932,8 @@ public enum SFSymbol: String, CaseIterable {
             case .paperplaneCircle: return "paperplane.circle"
             case .paperplaneCircleFill: return "paperplane.circle.fill"
             case .paperplaneFill: return "paperplane.fill"
-            case .paragraphsign: return "paragraphsign"
             case .paragraph: return "paragraphsign"
+            case .paragraphsign: return "paragraphsign"
             case .pause: return "pause"
             case .pauseCircle: return "pause.circle"
             case .pauseCircleFill: return "pause.circle.fill"
@@ -12930,6 +12942,7 @@ public enum SFSymbol: String, CaseIterable {
             case .pauseRectangleFill: return "pause.rectangle.fill"
             case .pc: return "pc"
             case .pencil: return "pencil"
+            case .pencilAndEllipsisRectangle: return "rectangle.and.pencil.and.ellipsis"
             case .pencilAndOutline: return "pencil.and.outline"
             case .pencilCircle: return "pencil.circle"
             case .pencilCircleFill: return "pencil.circle.fill"
@@ -12951,21 +12964,23 @@ public enum SFSymbol: String, CaseIterable {
             case .person3Fill: return "person.3.fill"
             case .personAndArrowLeftAndArrowRight: return "person.and.arrow.left.and.arrow.right"
             case .personBadgeMinus: return "person.badge.minus"
+            case .personBadgeMinusFill: return "person.fill.badge.minus"
             case .personBadgePlus: return "person.badge.plus"
+            case .personBadgePlusFill: return "person.fill.badge.plus"
             case .personCircle: return "person.circle"
             case .personCircleFill: return "person.circle.fill"
             case .personCropCircle: return "person.crop.circle"
             case .personCropCircleBadgeCheckmark: return "person.crop.circle.badge.checkmark"
-            case .personCropCircleBadgeExclamationmark: return "person.crop.circle.badge.exclamationmark"
             case .personCropCircleBadgeExclam: return "person.crop.circle.badge.exclamationmark"
+            case .personCropCircleBadgeExclamationmark: return "person.crop.circle.badge.exclamationmark"
             case .personCropCircleBadgeMinus: return "person.crop.circle.badge.minus"
             case .personCropCircleBadgePlus: return "person.crop.circle.badge.plus"
             case .personCropCircleBadgeQuestionmark: return "person.crop.circle.badge.questionmark"
             case .personCropCircleBadgeXmark: return "person.crop.circle.badge.xmark"
             case .personCropCircleFill: return "person.crop.circle.fill"
             case .personCropCircleFillBadgeCheckmark: return "person.crop.circle.fill.badge.checkmark"
-            case .personCropCircleFillBadgeExclamationmark: return "person.crop.circle.fill.badge.exclamationmark"
             case .personCropCircleFillBadgeExclam: return "person.crop.circle.fill.badge.exclamationmark"
+            case .personCropCircleFillBadgeExclamationmark: return "person.crop.circle.fill.badge.exclamationmark"
             case .personCropCircleFillBadgeMinus: return "person.crop.circle.fill.badge.minus"
             case .personCropCircleFillBadgePlus: return "person.crop.circle.fill.badge.plus"
             case .personCropCircleFillBadgeQuestionmark: return "person.crop.circle.fill.badge.questionmark"
@@ -12978,9 +12993,7 @@ public enum SFSymbol: String, CaseIterable {
             case .personFill: return "person.fill"
             case .personFillAndArrowLeftAndArrowRight: return "person.fill.and.arrow.left.and.arrow.right"
             case .personFillBadgeMinus: return "person.fill.badge.minus"
-            case .personBadgeMinusFill: return "person.fill.badge.minus"
             case .personFillBadgePlus: return "person.fill.badge.plus"
-            case .personBadgePlusFill: return "person.fill.badge.plus"
             case .personFillCheckmark: return "person.fill.checkmark"
             case .personFillQuestionmark: return "person.fill.questionmark"
             case .personFillTurnDown: return "person.fill.turn.down"
@@ -13142,6 +13155,8 @@ public enum SFSymbol: String, CaseIterable {
             case .r2RectangleRoundedtopFill: return "r2.rectangle.roundedtop.fill"
             case .radio: return "radio"
             case .radioFill: return "radio.fill"
+            case .radiowavesLeft: return "wave.3.left"
+            case .radiowavesRight: return "wave.3.right"
             case .rays: return "rays"
             case .rbRectangleRoundedbottom: return "rb.rectangle.roundedbottom"
             case .rbRectangleRoundedbottomFill: return "rb.rectangle.roundedbottom.fill"
@@ -13157,7 +13172,6 @@ public enum SFSymbol: String, CaseIterable {
             case .rectangleAndArrowUpRightAndArrowDownLeftSlash: return "rectangle.and.arrow.up.right.and.arrow.down.left.slash"
             case .rectangleAndPaperclip: return "rectangle.and.paperclip"
             case .rectangleAndPencilAndEllipsis: return "rectangle.and.pencil.and.ellipsis"
-            case .pencilAndEllipsisRectangle: return "rectangle.and.pencil.and.ellipsis"
             case .rectangleAndTextMagnifyingglass: return "rectangle.and.text.magnifyingglass"
             case .rectangleArrowtriangle2Inward: return "rectangle.arrowtriangle.2.inward"
             case .rectangleArrowtriangle2Outward: return "rectangle.arrowtriangle.2.outward"
@@ -13173,6 +13187,7 @@ public enum SFSymbol: String, CaseIterable {
             case .rectangleDashed: return "rectangle.dashed"
             case .rectangleDashedAndPaperclip: return "rectangle.dashed.and.paperclip"
             case .rectangleDashedBadgeRecord: return "rectangle.dashed.badge.record"
+            case .rectangleDock: return "dock.rectangle"
             case .rectangleExpandVertical: return "rectangle.expand.vertical"
             case .rectangleFill: return "rectangle.fill"
             case .rectangleFillBadgeCheckmark: return "rectangle.fill.badge.checkmark"
@@ -13293,12 +13308,12 @@ public enum SFSymbol: String, CaseIterable {
             case .serverRack: return "server.rack"
             case .shadow: return "shadow"
             case .shekelsignCircle: return "shekelsign.circle"
-            case .sheqelsignCircle: return "shekelsign.circle"
             case .shekelsignCircleFill: return "shekelsign.circle.fill"
-            case .sheqelsignCircleFill: return "shekelsign.circle.fill"
             case .shekelsignSquare: return "shekelsign.square"
-            case .sheqelsignSquare: return "shekelsign.square"
             case .shekelsignSquareFill: return "shekelsign.square.fill"
+            case .sheqelsignCircle: return "shekelsign.circle"
+            case .sheqelsignCircleFill: return "shekelsign.circle.fill"
+            case .sheqelsignSquare: return "shekelsign.square"
             case .sheqelsignSquareFill: return "shekelsign.square.fill"
             case .shield: return "shield"
             case .shieldCheckerboard: return "shield.checkerboard"
@@ -13310,9 +13325,7 @@ public enum SFSymbol: String, CaseIterable {
             case .shift: return "shift"
             case .shiftFill: return "shift.fill"
             case .shippingbox: return "shippingbox"
-            case .cubeBox: return "shippingbox"
             case .shippingboxFill: return "shippingbox.fill"
-            case .cubeBoxFill: return "shippingbox.fill"
             case .shuffle: return "shuffle"
             case .shuffleCircle: return "shuffle.circle"
             case .shuffleCircleFill: return "shuffle.circle.fill"
@@ -13337,7 +13350,6 @@ public enum SFSymbol: String, CaseIterable {
             case .slashCircle: return "slash.circle"
             case .slashCircleFill: return "slash.circle.fill"
             case .sleep: return "sleep"
-            case .circleBottomthirdSplit: return "sleep"
             case .sliderHorizontal3: return "slider.horizontal.3"
             case .sliderHorizontalBelowRectangle: return "slider.horizontal.below.rectangle"
             case .sliderHorizontalBelowSquareFillAndSquare: return "slider.horizontal.below.square.fill.and.square"
@@ -13347,6 +13359,8 @@ public enum SFSymbol: String, CaseIterable {
             case .smallcircleCircleFill: return "smallcircle.circle.fill"
             case .smallcircleFillCircle: return "smallcircle.fill.circle"
             case .smallcircleFillCircleFill: return "smallcircle.fill.circle.fill"
+            case .smiley: return "face.smiling"
+            case .smileyFill: return "face.smiling.fill"
             case .smoke: return "smoke"
             case .smokeFill: return "smoke.fill"
             case .snow: return "snow"
@@ -13356,25 +13370,25 @@ public enum SFSymbol: String, CaseIterable {
             case .sparklesRectangleStackFill: return "sparkles.rectangle.stack.fill"
             case .sparklesSquareFillOnSquare: return "sparkles.square.fill.on.square"
             case .speaker: return "speaker"
+            case .speaker1: return "speaker.wave.1"
+            case .speaker1Fill: return "speaker.wave.1.fill"
+            case .speaker2: return "speaker.wave.2"
+            case .speaker2Fill: return "speaker.wave.2.fill"
+            case .speaker3: return "speaker.wave.3"
+            case .speaker3Fill: return "speaker.wave.3.fill"
             case .speakerFill: return "speaker.fill"
             case .speakerSlash: return "speaker.slash"
             case .speakerSlashCircle: return "speaker.slash.circle"
             case .speakerSlashCircleFill: return "speaker.slash.circle.fill"
             case .speakerSlashFill: return "speaker.slash.fill"
             case .speakerWave1: return "speaker.wave.1"
-            case .speaker1: return "speaker.wave.1"
             case .speakerWave1Fill: return "speaker.wave.1.fill"
-            case .speaker1Fill: return "speaker.wave.1.fill"
             case .speakerWave2: return "speaker.wave.2"
-            case .speaker2: return "speaker.wave.2"
             case .speakerWave2Circle: return "speaker.wave.2.circle"
             case .speakerWave2CircleFill: return "speaker.wave.2.circle.fill"
             case .speakerWave2Fill: return "speaker.wave.2.fill"
-            case .speaker2Fill: return "speaker.wave.2.fill"
             case .speakerWave3: return "speaker.wave.3"
-            case .speaker3: return "speaker.wave.3"
             case .speakerWave3Fill: return "speaker.wave.3.fill"
-            case .speaker3Fill: return "speaker.wave.3.fill"
             case .speakerZzz: return "speaker.zzz"
             case .speakerZzzFill: return "speaker.zzz.fill"
             case .speedometer: return "speedometer"
@@ -13454,12 +13468,12 @@ public enum SFSymbol: String, CaseIterable {
             case .squareSplitDiagonal2x2Fill: return "square.split.diagonal.2x2.fill"
             case .squareSplitDiagonalFill: return "square.split.diagonal.fill"
             case .squareStack: return "square.stack"
+            case .squareStack3dDownDottedline: return "square.stack.3d.forward.dottedline"
             case .squareStack3dDownForward: return "square.stack.3d.down.forward"
             case .squareStack3dDownForwardFill: return "square.stack.3d.down.forward.fill"
             case .squareStack3dDownRight: return "square.stack.3d.down.right"
             case .squareStack3dDownRightFill: return "square.stack.3d.down.right.fill"
             case .squareStack3dForwardDottedline: return "square.stack.3d.forward.dottedline"
-            case .squareStack3dDownDottedline: return "square.stack.3d.forward.dottedline"
             case .squareStack3dForwardDottedlineFill: return "square.stack.3d.forward.dottedline.fill"
             case .squareStack3dUp: return "square.stack.3d.up"
             case .squareStack3dUpBadgeA: return "square.stack.3d.up.badge.a"
@@ -13534,14 +13548,14 @@ public enum SFSymbol: String, CaseIterable {
             case .tCircleFill: return "t.circle.fill"
             case .tSquare: return "t.square"
             case .tSquareFill: return "t.square.fill"
-            case .tablecells: return "tablecells"
             case .table: return "tablecells"
-            case .tablecellsBadgeEllipsis: return "tablecells.badge.ellipsis"
             case .tableBadgeMore: return "tablecells.badge.ellipsis"
-            case .tablecellsBadgeEllipsisFill: return "tablecells.badge.ellipsis.fill"
             case .tableBadgeMoreFill: return "tablecells.badge.ellipsis.fill"
-            case .tablecellsFill: return "tablecells.fill"
             case .tableFill: return "tablecells.fill"
+            case .tablecells: return "tablecells"
+            case .tablecellsBadgeEllipsis: return "tablecells.badge.ellipsis"
+            case .tablecellsBadgeEllipsisFill: return "tablecells.badge.ellipsis.fill"
+            case .tablecellsFill: return "tablecells.fill"
             case .tag: return "tag"
             case .tagCircle: return "tag.circle"
             case .tagCircleFill: return "tag.circle.fill"
@@ -13672,6 +13686,7 @@ public enum SFSymbol: String, CaseIterable {
             case .video: return "video"
             case .videoBadgeCheckmark: return "video.badge.checkmark"
             case .videoBadgePlus: return "video.badge.plus"
+            case .videoBadgePlusFill: return "video.fill.badge.plus"
             case .videoBubbleLeft: return "video.bubble.left"
             case .videoBubbleLeftFill: return "video.bubble.left.fill"
             case .videoCircle: return "video.circle"
@@ -13679,7 +13694,6 @@ public enum SFSymbol: String, CaseIterable {
             case .videoFill: return "video.fill"
             case .videoFillBadgeCheckmark: return "video.fill.badge.checkmark"
             case .videoFillBadgePlus: return "video.fill.badge.plus"
-            case .videoBadgePlusFill: return "video.fill.badge.plus"
             case .videoSlash: return "video.slash"
             case .videoSlashFill: return "video.slash.fill"
             case .view2d: return "view.2d"
@@ -13705,11 +13719,9 @@ public enum SFSymbol: String, CaseIterable {
             case .wave3ForwardCircle: return "wave.3.forward.circle"
             case .wave3ForwardCircleFill: return "wave.3.forward.circle.fill"
             case .wave3Left: return "wave.3.left"
-            case .radiowavesLeft: return "wave.3.left"
             case .wave3LeftCircle: return "wave.3.left.circle"
             case .wave3LeftCircleFill: return "wave.3.left.circle.fill"
             case .wave3Right: return "wave.3.right"
-            case .radiowavesRight: return "wave.3.right"
             case .wave3RightCircle: return "wave.3.right.circle"
             case .wave3RightCircleFill: return "wave.3.right.circle.fill"
             case .waveform: return "waveform"
@@ -13741,11 +13753,9 @@ public enum SFSymbol: String, CaseIterable {
             case .xSquareroot: return "x.squareroot"
             case .xmark: return "xmark"
             case .xmarkBin: return "xmark.bin"
-            case .binXmark: return "xmark.bin"
             case .xmarkBinCircle: return "xmark.bin.circle"
             case .xmarkBinCircleFill: return "xmark.bin.circle.fill"
             case .xmarkBinFill: return "xmark.bin.fill"
-            case .binXmarkFill: return "xmark.bin.fill"
             case .xmarkCircle: return "xmark.circle"
             case .xmarkCircleFill: return "xmark.circle.fill"
             case .xmarkDiamond: return "xmark.diamond"
@@ -14045,6 +14055,9 @@ public enum SFSymbol: String, CaseIterable {
             case ._9CircleFill: return "9.circle.fill"
             case ._9Square: return "9.square"
             case ._9SquareFill: return "9.square.fill"
+            case .a: return "a"
+            case .aBookClosed: return "a.book.closed"
+            case .aBookClosedFill: return "a.book.closed.fill"
             case .aCircle: return "a.circle"
             case .aCircleFill: return "a.circle.fill"
             case .aMagnify: return "a.magnify"
@@ -14100,6 +14113,9 @@ public enum SFSymbol: String, CaseIterable {
             case .archiveboxCircleFill: return "archivebox.circle.fill"
             case .archiveboxFill: return "archivebox.fill"
             case .arkit: return "arkit"
+            case .arrow2Circlepath: return "arrow.triangle.2.circlepath"
+            case .arrow2CirclepathCircle: return "arrow.triangle.2.circlepath.circle"
+            case .arrow2CirclepathCircleFill: return "arrow.triangle.2.circlepath.circle.fill"
             case .arrow2Squarepath: return "arrow.2.squarepath"
             case .arrow3Trianglepath: return "arrow.3.trianglepath"
             case .arrowBackward: return "arrow.backward"
@@ -14107,6 +14123,7 @@ public enum SFSymbol: String, CaseIterable {
             case .arrowBackwardCircleFill: return "arrow.backward.circle.fill"
             case .arrowBackwardSquare: return "arrow.backward.square"
             case .arrowBackwardSquareFill: return "arrow.backward.square.fill"
+            case .arrowBranch: return "arrow.triangle.branch"
             case .arrowClockwise: return "arrow.clockwise"
             case .arrowClockwiseCircle: return "arrow.clockwise.circle"
             case .arrowClockwiseCircleFill: return "arrow.clockwise.circle.fill"
@@ -14170,29 +14187,28 @@ public enum SFSymbol: String, CaseIterable {
             case .arrowLeftAndRightCircle: return "arrow.left.and.right.circle"
             case .arrowLeftAndRightCircleFill: return "arrow.left.and.right.circle.fill"
             case .arrowLeftAndRightRighttriangleLeftRighttriangleRight: return "arrow.left.and.right.righttriangle.left.righttriangle.right"
-            case .flipHorizontal: return "arrow.left.and.right.righttriangle.left.righttriangle.right"
             case .arrowLeftAndRightRighttriangleLeftRighttriangleRightFill: return "arrow.left.and.right.righttriangle.left.righttriangle.right.fill"
-            case .flipHorizontalFill: return "arrow.left.and.right.righttriangle.left.righttriangle.right.fill"
             case .arrowLeftAndRightSquare: return "arrow.left.and.right.square"
             case .arrowLeftAndRightSquareFill: return "arrow.left.and.right.square.fill"
             case .arrowLeftArrowRight: return "arrow.left.arrow.right"
-            case .arrowRightArrowLeft: return "arrow.left.arrow.right"
             case .arrowLeftArrowRightCircle: return "arrow.left.arrow.right.circle"
-            case .arrowRightArrowLeftCircle: return "arrow.left.arrow.right.circle"
             case .arrowLeftArrowRightCircleFill: return "arrow.left.arrow.right.circle.fill"
-            case .arrowRightArrowLeftCircleFill: return "arrow.left.arrow.right.circle.fill"
             case .arrowLeftArrowRightSquare: return "arrow.left.arrow.right.square"
-            case .arrowRightArrowLeftSquare: return "arrow.left.arrow.right.square"
             case .arrowLeftArrowRightSquareFill: return "arrow.left.arrow.right.square.fill"
-            case .arrowRightArrowLeftSquareFill: return "arrow.left.arrow.right.square.fill"
             case .arrowLeftCircle: return "arrow.left.circle"
             case .arrowLeftCircleFill: return "arrow.left.circle.fill"
             case .arrowLeftSquare: return "arrow.left.square"
             case .arrowLeftSquareFill: return "arrow.left.square.fill"
             case .arrowLeftToLine: return "arrow.left.to.line"
             case .arrowLeftToLineAlt: return "arrow.left.to.line.alt"
+            case .arrowMerge: return "arrow.triangle.merge"
             case .arrowRectanglepath: return "arrow.rectanglepath"
             case .arrowRight: return "arrow.right"
+            case .arrowRightArrowLeft: return "arrow.left.arrow.right"
+            case .arrowRightArrowLeftCircle: return "arrow.left.arrow.right.circle"
+            case .arrowRightArrowLeftCircleFill: return "arrow.left.arrow.right.circle.fill"
+            case .arrowRightArrowLeftSquare: return "arrow.left.arrow.right.square"
+            case .arrowRightArrowLeftSquareFill: return "arrow.left.arrow.right.square.fill"
             case .arrowRightCircle: return "arrow.right.circle"
             case .arrowRightCircleFill: return "arrow.right.circle.fill"
             case .arrowRightDocOnClipboard: return "arrow.right.doc.on.clipboard"
@@ -14200,31 +14216,22 @@ public enum SFSymbol: String, CaseIterable {
             case .arrowRightSquareFill: return "arrow.right.square.fill"
             case .arrowRightToLine: return "arrow.right.to.line"
             case .arrowRightToLineAlt: return "arrow.right.to.line.alt"
+            case .arrowSwap: return "arrow.triangle.swap"
             case .arrowTriangle2Circlepath: return "arrow.triangle.2.circlepath"
-            case .arrow2Circlepath: return "arrow.triangle.2.circlepath"
             case .arrowTriangle2CirclepathCamera: return "arrow.triangle.2.circlepath.camera"
-            case .cameraRotate: return "arrow.triangle.2.circlepath.camera"
             case .arrowTriangle2CirclepathCameraFill: return "arrow.triangle.2.circlepath.camera.fill"
-            case .cameraRotateFill: return "arrow.triangle.2.circlepath.camera.fill"
             case .arrowTriangle2CirclepathCircle: return "arrow.triangle.2.circlepath.circle"
-            case .arrow2CirclepathCircle: return "arrow.triangle.2.circlepath.circle"
             case .arrowTriangle2CirclepathCircleFill: return "arrow.triangle.2.circlepath.circle.fill"
-            case .arrow2CirclepathCircleFill: return "arrow.triangle.2.circlepath.circle.fill"
             case .arrowTriangle2CirclepathDocOnClipboard: return "arrow.triangle.2.circlepath.doc.on.clipboard"
             case .arrowTriangleBranch: return "arrow.triangle.branch"
-            case .arrowBranch: return "arrow.triangle.branch"
             case .arrowTriangleCapsulepath: return "arrow.triangle.capsulepath"
             case .arrowTriangleMerge: return "arrow.triangle.merge"
-            case .arrowMerge: return "arrow.triangle.merge"
             case .arrowTrianglePull: return "arrow.triangle.pull"
             case .arrowTriangleSwap: return "arrow.triangle.swap"
-            case .arrowSwap: return "arrow.triangle.swap"
             case .arrowTriangleTurnUpRightCircle: return "arrow.triangle.turn.up.right.circle"
             case .arrowTriangleTurnUpRightCircleFill: return "arrow.triangle.turn.up.right.circle.fill"
             case .arrowTriangleTurnUpRightDiamond: return "arrow.triangle.turn.up.right.diamond"
-            case .arrowUpRightDiamond: return "arrow.triangle.turn.up.right.diamond"
             case .arrowTriangleTurnUpRightDiamondFill: return "arrow.triangle.turn.up.right.diamond.fill"
-            case .arrowUpRightDiamondFill: return "arrow.triangle.turn.up.right.diamond.fill"
             case .arrowTurnDownLeft: return "arrow.turn.down.left"
             case .arrowTurnDownRight: return "arrow.turn.down.right"
             case .arrowTurnLeftDown: return "arrow.turn.left.down"
@@ -14293,6 +14300,8 @@ public enum SFSymbol: String, CaseIterable {
             case .arrowUpRightAndArrowDownLeftRectangleFill: return "arrow.up.right.and.arrow.down.left.rectangle.fill"
             case .arrowUpRightCircle: return "arrow.up.right.circle"
             case .arrowUpRightCircleFill: return "arrow.up.right.circle.fill"
+            case .arrowUpRightDiamond: return "arrow.triangle.turn.up.right.diamond"
+            case .arrowUpRightDiamondFill: return "arrow.triangle.turn.up.right.diamond.fill"
             case .arrowUpRightSquare: return "arrow.up.right.square"
             case .arrowUpRightSquareFill: return "arrow.up.right.square.fill"
             case .arrowUpRightVideo: return "arrow.up.right.video"
@@ -14471,6 +14480,8 @@ public enum SFSymbol: String, CaseIterable {
             case .bicycle: return "bicycle"
             case .bicycleCircle: return "bicycle.circle"
             case .bicycleCircleFill: return "bicycle.circle.fill"
+            case .binXmark: return "xmark.bin"
+            case .binXmarkFill: return "xmark.bin.fill"
             case .binoculars: return "binoculars"
             case .binocularsFill: return "binoculars.fill"
             case .bitcoinsignCircle: return "bitcoinsign.circle"
@@ -14573,6 +14584,8 @@ public enum SFSymbol: String, CaseIterable {
             case .cameraMeteringUnknown: return "camera.metering.unknown"
             case .cameraOnRectangle: return "camera.on.rectangle"
             case .cameraOnRectangleFill: return "camera.on.rectangle.fill"
+            case .cameraRotate: return "arrow.triangle.2.circlepath.camera"
+            case .cameraRotateFill: return "arrow.triangle.2.circlepath.camera.fill"
             case .cameraViewfinder: return "camera.viewfinder"
             case .candybarphone: return "candybarphone"
             case .capslock: return "capslock"
@@ -14605,10 +14618,9 @@ public enum SFSymbol: String, CaseIterable {
             case .centsignCircleFill: return "centsign.circle.fill"
             case .centsignSquare: return "centsign.square"
             case .centsignSquareFill: return "centsign.square.fill"
+            case .character: return "a"
             case .characterBookClosed: return "a.book.closed"
-            case .aBookClosed: return "a.book.closed"
             case .characterBookClosedFill: return "a.book.closed.fill"
-            case .aBookClosedFill: return "a.book.closed.fill"
             case .chartBar: return "chart.bar"
             case .chartBarDocHorizontal: return "chart.bar.doc.horizontal"
             case .chartBarDocHorizontalFill: return "chart.bar.doc.horizontal.fill"
@@ -14674,6 +14686,7 @@ public enum SFSymbol: String, CaseIterable {
             case .chevronUpSquareFill: return "chevron.up.square.fill"
             case .circle: return "circle"
             case .circleBottomhalfFill: return "circle.bottomhalf.fill"
+            case .circleBottomthirdSplit: return "sleep"
             case .circleCircle: return "circle.circle"
             case .circleCircleFill: return "circle.circle.fill"
             case .circleDashed: return "circle.dashed"
@@ -14690,6 +14703,8 @@ public enum SFSymbol: String, CaseIterable {
             case .circleGridCrossLeftFill: return "circle.grid.cross.left.fill"
             case .circleGridCrossRightFill: return "circle.grid.cross.right.fill"
             case .circleGridCrossUpFill: return "circle.grid.cross.up.fill"
+            case .circleGridHex: return "circles.hexagongrid"
+            case .circleGridHexFill: return "circles.hexagongrid.fill"
             case .circleLefthalfFill: return "circle.lefthalf.fill"
             case .circleRighthalfFill: return "circle.righthalf.fill"
             case .circleSquare: return "circle.square"
@@ -14699,9 +14714,7 @@ public enum SFSymbol: String, CaseIterable {
             case .circlebadge2Fill: return "circlebadge.2.fill"
             case .circlebadgeFill: return "circlebadge.fill"
             case .circlesHexagongrid: return "circles.hexagongrid"
-            case .circleGridHex: return "circles.hexagongrid"
             case .circlesHexagongridFill: return "circles.hexagongrid.fill"
-            case .circleGridHexFill: return "circles.hexagongrid.fill"
             case .circlesHexagonpath: return "circles.hexagonpath"
             case .circlesHexagonpathFill: return "circles.hexagonpath.fill"
             case .clear: return "clear"
@@ -14776,12 +14789,15 @@ public enum SFSymbol: String, CaseIterable {
             case .cruzeirosignSquare: return "cruzeirosign.square"
             case .cruzeirosignSquareFill: return "cruzeirosign.square.fill"
             case .cube: return "cube"
+            case .cubeBox: return "shippingbox"
+            case .cubeBoxFill: return "shippingbox.fill"
             case .cubeFill: return "cube.fill"
             case .cubeTransparent: return "cube.transparent"
             case .cubeTransparentFill: return "cube.transparent.fill"
             case .curlybraces: return "curlybraces"
             case .curlybracesSquare: return "curlybraces.square"
             case .curlybracesSquareFill: return "curlybraces.square.fill"
+            case .cursorRays: return "cursorarrow.rays"
             case .cursorarrow: return "cursorarrow"
             case .cursorarrowAndSquareOnSquareDashed: return "cursorarrow.and.square.on.square.dashed"
             case .cursorarrowClick: return "cursorarrow.click"
@@ -14790,7 +14806,6 @@ public enum SFSymbol: String, CaseIterable {
             case .cursorarrowMotionlines: return "cursorarrow.motionlines"
             case .cursorarrowMotionlinesClick: return "cursorarrow.motionlines.click"
             case .cursorarrowRays: return "cursorarrow.rays"
-            case .cursorRays: return "cursorarrow.rays"
             case .cursorarrowSquare: return "cursorarrow.square"
             case .cylinder: return "cylinder"
             case .cylinderFill: return "cylinder.fill"
@@ -14809,12 +14824,12 @@ public enum SFSymbol: String, CaseIterable {
             case .deskclock: return "deskclock"
             case .deskclockFill: return "deskclock.fill"
             case .desktopcomputer: return "desktopcomputer"
+            case .dial: return "dial.min"
+            case .dialFill: return "dial.min.fill"
             case .dialMax: return "dial.max"
             case .dialMaxFill: return "dial.max.fill"
             case .dialMin: return "dial.min"
-            case .dial: return "dial.min"
             case .dialMinFill: return "dial.min.fill"
-            case .dialFill: return "dial.min.fill"
             case .diamond: return "diamond"
             case .diamondFill: return "diamond.fill"
             case .dieFace1: return "die.face.1"
@@ -14868,7 +14883,6 @@ public enum SFSymbol: String, CaseIterable {
             case .dockArrowDownRectangle: return "dock.arrow.down.rectangle"
             case .dockArrowUpRectangle: return "dock.arrow.up.rectangle"
             case .dockRectangle: return "dock.rectangle"
-            case .rectangleDock: return "dock.rectangle"
             case .dollarsignCircle: return "dollarsign.circle"
             case .dollarsignCircleFill: return "dollarsign.circle.fill"
             case .dollarsignSquare: return "dollarsign.square"
@@ -14910,11 +14924,11 @@ public enum SFSymbol: String, CaseIterable {
             case .ejectCircle: return "eject.circle"
             case .ejectCircleFill: return "eject.circle.fill"
             case .ejectFill: return "eject.fill"
+            case .ellipsesBubble: return "ellipsis.bubble"
+            case .ellipsesBubbleFill: return "ellipsis.bubble.fill"
             case .ellipsis: return "ellipsis"
             case .ellipsisBubble: return "ellipsis.bubble"
-            case .ellipsesBubble: return "ellipsis.bubble"
             case .ellipsisBubbleFill: return "ellipsis.bubble.fill"
-            case .ellipsesBubbleFill: return "ellipsis.bubble.fill"
             case .ellipsisCircle: return "ellipsis.circle"
             case .ellipsisCircleFill: return "ellipsis.circle.fill"
             case .ellipsisRectangle: return "ellipsis.rectangle"
@@ -15005,9 +15019,7 @@ public enum SFSymbol: String, CaseIterable {
             case .faceDashed: return "face.dashed"
             case .faceDashedFill: return "face.dashed.fill"
             case .faceSmiling: return "face.smiling"
-            case .smiley: return "face.smiling"
             case .faceSmilingFill: return "face.smiling.fill"
-            case .smileyFill: return "face.smiling.fill"
             case .faceid: return "faceid"
             case .faxmachine: return "faxmachine"
             case .fiberchannel: return "fiberchannel"
@@ -15039,6 +15051,8 @@ public enum SFSymbol: String, CaseIterable {
             case .flameFill: return "flame.fill"
             case .flashlightOffFill: return "flashlight.off.fill"
             case .flashlightOnFill: return "flashlight.on.fill"
+            case .flipHorizontal: return "arrow.left.and.right.righttriangle.left.righttriangle.right"
+            case .flipHorizontalFill: return "arrow.left.and.right.righttriangle.left.righttriangle.right.fill"
             case .flipphone: return "flipphone"
             case .florinsignCircle: return "florinsign.circle"
             case .florinsignCircleFill: return "florinsign.circle.fill"
@@ -15314,8 +15328,8 @@ public enum SFSymbol: String, CaseIterable {
             case .lbRectangleRoundedbottom: return "lb.rectangle.roundedbottom"
             case .lbRectangleRoundedbottomFill: return "lb.rectangle.roundedbottom.fill"
             case .leaf: return "leaf"
-            case .leafArrowTriangleCirclepath: return "leaf.arrow.triangle.circlepath"
             case .leafArrowCirclepath: return "leaf.arrow.triangle.circlepath"
+            case .leafArrowTriangleCirclepath: return "leaf.arrow.triangle.circlepath"
             case .leafFill: return "leaf.fill"
             case .lessthan: return "lessthan"
             case .lessthanCircle: return "lessthan.circle"
@@ -15507,12 +15521,12 @@ public enum SFSymbol: String, CaseIterable {
             case .multiplyCircleFill: return "multiply.circle.fill"
             case .multiplySquare: return "multiply.square"
             case .multiplySquareFill: return "multiply.square.fill"
+            case .musicHouse: return "music.note.house"
+            case .musicHouseFill: return "music.note.house.fill"
             case .musicMic: return "music.mic"
             case .musicNote: return "music.note"
             case .musicNoteHouse: return "music.note.house"
-            case .musicHouse: return "music.note.house"
             case .musicNoteHouseFill: return "music.note.house.fill"
-            case .musicHouseFill: return "music.note.house.fill"
             case .musicNoteList: return "music.note.list"
             case .musicQuarternote3: return "music.quarternote.3"
             case .mustache: return "mustache"
@@ -15573,8 +15587,8 @@ public enum SFSymbol: String, CaseIterable {
             case .paperplaneCircle: return "paperplane.circle"
             case .paperplaneCircleFill: return "paperplane.circle.fill"
             case .paperplaneFill: return "paperplane.fill"
-            case .paragraphsign: return "paragraphsign"
             case .paragraph: return "paragraphsign"
+            case .paragraphsign: return "paragraphsign"
             case .pause: return "pause"
             case .pauseCircle: return "pause.circle"
             case .pauseCircleFill: return "pause.circle.fill"
@@ -15583,6 +15597,7 @@ public enum SFSymbol: String, CaseIterable {
             case .pauseRectangleFill: return "pause.rectangle.fill"
             case .pc: return "pc"
             case .pencil: return "pencil"
+            case .pencilAndEllipsisRectangle: return "rectangle.and.pencil.and.ellipsis"
             case .pencilAndOutline: return "pencil.and.outline"
             case .pencilCircle: return "pencil.circle"
             case .pencilCircleFill: return "pencil.circle.fill"
@@ -15604,21 +15619,23 @@ public enum SFSymbol: String, CaseIterable {
             case .person3Fill: return "person.3.fill"
             case .personAndArrowLeftAndArrowRight: return "person.and.arrow.left.and.arrow.right"
             case .personBadgeMinus: return "person.badge.minus"
+            case .personBadgeMinusFill: return "person.fill.badge.minus"
             case .personBadgePlus: return "person.badge.plus"
+            case .personBadgePlusFill: return "person.fill.badge.plus"
             case .personCircle: return "person.circle"
             case .personCircleFill: return "person.circle.fill"
             case .personCropCircle: return "person.crop.circle"
             case .personCropCircleBadgeCheckmark: return "person.crop.circle.badge.checkmark"
-            case .personCropCircleBadgeExclamationmark: return "person.crop.circle.badge.exclamationmark"
             case .personCropCircleBadgeExclam: return "person.crop.circle.badge.exclamationmark"
+            case .personCropCircleBadgeExclamationmark: return "person.crop.circle.badge.exclamationmark"
             case .personCropCircleBadgeMinus: return "person.crop.circle.badge.minus"
             case .personCropCircleBadgePlus: return "person.crop.circle.badge.plus"
             case .personCropCircleBadgeQuestionmark: return "person.crop.circle.badge.questionmark"
             case .personCropCircleBadgeXmark: return "person.crop.circle.badge.xmark"
             case .personCropCircleFill: return "person.crop.circle.fill"
             case .personCropCircleFillBadgeCheckmark: return "person.crop.circle.fill.badge.checkmark"
-            case .personCropCircleFillBadgeExclamationmark: return "person.crop.circle.fill.badge.exclamationmark"
             case .personCropCircleFillBadgeExclam: return "person.crop.circle.fill.badge.exclamationmark"
+            case .personCropCircleFillBadgeExclamationmark: return "person.crop.circle.fill.badge.exclamationmark"
             case .personCropCircleFillBadgeMinus: return "person.crop.circle.fill.badge.minus"
             case .personCropCircleFillBadgePlus: return "person.crop.circle.fill.badge.plus"
             case .personCropCircleFillBadgeQuestionmark: return "person.crop.circle.fill.badge.questionmark"
@@ -15631,9 +15648,7 @@ public enum SFSymbol: String, CaseIterable {
             case .personFill: return "person.fill"
             case .personFillAndArrowLeftAndArrowRight: return "person.fill.and.arrow.left.and.arrow.right"
             case .personFillBadgeMinus: return "person.fill.badge.minus"
-            case .personBadgeMinusFill: return "person.fill.badge.minus"
             case .personFillBadgePlus: return "person.fill.badge.plus"
-            case .personBadgePlusFill: return "person.fill.badge.plus"
             case .personFillCheckmark: return "person.fill.checkmark"
             case .personFillQuestionmark: return "person.fill.questionmark"
             case .personFillTurnDown: return "person.fill.turn.down"
@@ -15792,6 +15807,8 @@ public enum SFSymbol: String, CaseIterable {
             case .r2RectangleRoundedtopFill: return "r2.rectangle.roundedtop.fill"
             case .radio: return "radio"
             case .radioFill: return "radio.fill"
+            case .radiowavesLeft: return "wave.3.left"
+            case .radiowavesRight: return "wave.3.right"
             case .rays: return "rays"
             case .rbRectangleRoundedbottom: return "rb.rectangle.roundedbottom"
             case .rbRectangleRoundedbottomFill: return "rb.rectangle.roundedbottom.fill"
@@ -15807,7 +15824,6 @@ public enum SFSymbol: String, CaseIterable {
             case .rectangleAndArrowUpRightAndArrowDownLeftSlash: return "rectangle.and.arrow.up.right.and.arrow.down.left.slash"
             case .rectangleAndPaperclip: return "rectangle.and.paperclip"
             case .rectangleAndPencilAndEllipsis: return "rectangle.and.pencil.and.ellipsis"
-            case .pencilAndEllipsisRectangle: return "rectangle.and.pencil.and.ellipsis"
             case .rectangleAndTextMagnifyingglass: return "rectangle.and.text.magnifyingglass"
             case .rectangleArrowtriangle2Inward: return "rectangle.arrowtriangle.2.inward"
             case .rectangleArrowtriangle2Outward: return "rectangle.arrowtriangle.2.outward"
@@ -15822,6 +15838,7 @@ public enum SFSymbol: String, CaseIterable {
             case .rectangleDashed: return "rectangle.dashed"
             case .rectangleDashedAndPaperclip: return "rectangle.dashed.and.paperclip"
             case .rectangleDashedBadgeRecord: return "rectangle.dashed.badge.record"
+            case .rectangleDock: return "dock.rectangle"
             case .rectangleExpandVertical: return "rectangle.expand.vertical"
             case .rectangleFill: return "rectangle.fill"
             case .rectangleFillBadgeCheckmark: return "rectangle.fill.badge.checkmark"
@@ -15936,12 +15953,12 @@ public enum SFSymbol: String, CaseIterable {
             case .serverRack: return "server.rack"
             case .shadow: return "shadow"
             case .shekelsignCircle: return "shekelsign.circle"
-            case .sheqelsignCircle: return "shekelsign.circle"
             case .shekelsignCircleFill: return "shekelsign.circle.fill"
-            case .sheqelsignCircleFill: return "shekelsign.circle.fill"
             case .shekelsignSquare: return "shekelsign.square"
-            case .sheqelsignSquare: return "shekelsign.square"
             case .shekelsignSquareFill: return "shekelsign.square.fill"
+            case .sheqelsignCircle: return "shekelsign.circle"
+            case .sheqelsignCircleFill: return "shekelsign.circle.fill"
+            case .sheqelsignSquare: return "shekelsign.square"
             case .sheqelsignSquareFill: return "shekelsign.square.fill"
             case .shield: return "shield"
             case .shieldFill: return "shield.fill"
@@ -15952,9 +15969,7 @@ public enum SFSymbol: String, CaseIterable {
             case .shift: return "shift"
             case .shiftFill: return "shift.fill"
             case .shippingbox: return "shippingbox"
-            case .cubeBox: return "shippingbox"
             case .shippingboxFill: return "shippingbox.fill"
-            case .cubeBoxFill: return "shippingbox.fill"
             case .shuffle: return "shuffle"
             case .sidebarLeading: return "sidebar.leading"
             case .sidebarLeft: return "sidebar.left"
@@ -15977,7 +15992,6 @@ public enum SFSymbol: String, CaseIterable {
             case .slashCircle: return "slash.circle"
             case .slashCircleFill: return "slash.circle.fill"
             case .sleep: return "sleep"
-            case .circleBottomthirdSplit: return "sleep"
             case .sliderHorizontal3: return "slider.horizontal.3"
             case .sliderHorizontalBelowRectangle: return "slider.horizontal.below.rectangle"
             case .sliderHorizontalBelowSquareFillAndSquare: return "slider.horizontal.below.square.fill.and.square"
@@ -15987,6 +16001,8 @@ public enum SFSymbol: String, CaseIterable {
             case .smallcircleCircleFill: return "smallcircle.circle.fill"
             case .smallcircleFillCircle: return "smallcircle.fill.circle"
             case .smallcircleFillCircleFill: return "smallcircle.fill.circle.fill"
+            case .smiley: return "face.smiling"
+            case .smileyFill: return "face.smiling.fill"
             case .smoke: return "smoke"
             case .smokeFill: return "smoke.fill"
             case .snow: return "snow"
@@ -15996,25 +16012,25 @@ public enum SFSymbol: String, CaseIterable {
             case .sparklesRectangleStackFill: return "sparkles.rectangle.stack.fill"
             case .sparklesSquareFillOnSquare: return "sparkles.square.fill.on.square"
             case .speaker: return "speaker"
+            case .speaker1: return "speaker.wave.1"
+            case .speaker1Fill: return "speaker.wave.1.fill"
+            case .speaker2: return "speaker.wave.2"
+            case .speaker2Fill: return "speaker.wave.2.fill"
+            case .speaker3: return "speaker.wave.3"
+            case .speaker3Fill: return "speaker.wave.3.fill"
             case .speakerFill: return "speaker.fill"
             case .speakerSlash: return "speaker.slash"
             case .speakerSlashCircle: return "speaker.slash.circle"
             case .speakerSlashCircleFill: return "speaker.slash.circle.fill"
             case .speakerSlashFill: return "speaker.slash.fill"
             case .speakerWave1: return "speaker.wave.1"
-            case .speaker1: return "speaker.wave.1"
             case .speakerWave1Fill: return "speaker.wave.1.fill"
-            case .speaker1Fill: return "speaker.wave.1.fill"
             case .speakerWave2: return "speaker.wave.2"
-            case .speaker2: return "speaker.wave.2"
             case .speakerWave2Circle: return "speaker.wave.2.circle"
             case .speakerWave2CircleFill: return "speaker.wave.2.circle.fill"
             case .speakerWave2Fill: return "speaker.wave.2.fill"
-            case .speaker2Fill: return "speaker.wave.2.fill"
             case .speakerWave3: return "speaker.wave.3"
-            case .speaker3: return "speaker.wave.3"
             case .speakerWave3Fill: return "speaker.wave.3.fill"
-            case .speaker3Fill: return "speaker.wave.3.fill"
             case .speakerZzz: return "speaker.zzz"
             case .speakerZzzFill: return "speaker.zzz.fill"
             case .speedometer: return "speedometer"
@@ -16094,12 +16110,12 @@ public enum SFSymbol: String, CaseIterable {
             case .squareSplitDiagonal2x2Fill: return "square.split.diagonal.2x2.fill"
             case .squareSplitDiagonalFill: return "square.split.diagonal.fill"
             case .squareStack: return "square.stack"
+            case .squareStack3dDownDottedline: return "square.stack.3d.forward.dottedline"
             case .squareStack3dDownForward: return "square.stack.3d.down.forward"
             case .squareStack3dDownForwardFill: return "square.stack.3d.down.forward.fill"
             case .squareStack3dDownRight: return "square.stack.3d.down.right"
             case .squareStack3dDownRightFill: return "square.stack.3d.down.right.fill"
             case .squareStack3dForwardDottedline: return "square.stack.3d.forward.dottedline"
-            case .squareStack3dDownDottedline: return "square.stack.3d.forward.dottedline"
             case .squareStack3dForwardDottedlineFill: return "square.stack.3d.forward.dottedline.fill"
             case .squareStack3dUp: return "square.stack.3d.up"
             case .squareStack3dUpBadgeA: return "square.stack.3d.up.badge.a"
@@ -16174,14 +16190,14 @@ public enum SFSymbol: String, CaseIterable {
             case .tCircleFill: return "t.circle.fill"
             case .tSquare: return "t.square"
             case .tSquareFill: return "t.square.fill"
-            case .tablecells: return "tablecells"
             case .table: return "tablecells"
-            case .tablecellsBadgeEllipsis: return "tablecells.badge.ellipsis"
             case .tableBadgeMore: return "tablecells.badge.ellipsis"
-            case .tablecellsBadgeEllipsisFill: return "tablecells.badge.ellipsis.fill"
             case .tableBadgeMoreFill: return "tablecells.badge.ellipsis.fill"
-            case .tablecellsFill: return "tablecells.fill"
             case .tableFill: return "tablecells.fill"
+            case .tablecells: return "tablecells"
+            case .tablecellsBadgeEllipsis: return "tablecells.badge.ellipsis"
+            case .tablecellsBadgeEllipsisFill: return "tablecells.badge.ellipsis.fill"
+            case .tablecellsFill: return "tablecells.fill"
             case .tag: return "tag"
             case .tagCircle: return "tag.circle"
             case .tagCircleFill: return "tag.circle.fill"
@@ -16229,6 +16245,9 @@ public enum SFSymbol: String, CaseIterable {
             case .textformatAbc: return "textformat.abc"
             case .textformatAbcDottedunderline: return "textformat.abc.dottedunderline"
             case .textformatAlt: return "textformat.alt"
+            case .textformatSize: return "textformat.size"
+            case .textformatSubscript: return "textformat.subscript"
+            case .textformatSuperscript: return "textformat.superscript"
             case .thermometer: return "thermometer"
             case .thermometerSnowflake: return "thermometer.snowflake"
             case .thermometerSun: return "thermometer.sun"
@@ -16305,6 +16324,7 @@ public enum SFSymbol: String, CaseIterable {
             case .video: return "video"
             case .videoBadgeCheckmark: return "video.badge.checkmark"
             case .videoBadgePlus: return "video.badge.plus"
+            case .videoBadgePlusFill: return "video.fill.badge.plus"
             case .videoBubbleLeft: return "video.bubble.left"
             case .videoBubbleLeftFill: return "video.bubble.left.fill"
             case .videoCircle: return "video.circle"
@@ -16312,7 +16332,6 @@ public enum SFSymbol: String, CaseIterable {
             case .videoFill: return "video.fill"
             case .videoFillBadgeCheckmark: return "video.fill.badge.checkmark"
             case .videoFillBadgePlus: return "video.fill.badge.plus"
-            case .videoBadgePlusFill: return "video.fill.badge.plus"
             case .videoSlash: return "video.slash"
             case .videoSlashFill: return "video.slash.fill"
             case .view2d: return "view.2d"
@@ -16338,11 +16357,9 @@ public enum SFSymbol: String, CaseIterable {
             case .wave3ForwardCircle: return "wave.3.forward.circle"
             case .wave3ForwardCircleFill: return "wave.3.forward.circle.fill"
             case .wave3Left: return "wave.3.left"
-            case .radiowavesLeft: return "wave.3.left"
             case .wave3LeftCircle: return "wave.3.left.circle"
             case .wave3LeftCircleFill: return "wave.3.left.circle.fill"
             case .wave3Right: return "wave.3.right"
-            case .radiowavesRight: return "wave.3.right"
             case .wave3RightCircle: return "wave.3.right.circle"
             case .wave3RightCircleFill: return "wave.3.right.circle.fill"
             case .waveform: return "waveform"
@@ -16374,11 +16391,9 @@ public enum SFSymbol: String, CaseIterable {
             case .xSquareroot: return "x.squareroot"
             case .xmark: return "xmark"
             case .xmarkBin: return "xmark.bin"
-            case .binXmark: return "xmark.bin"
             case .xmarkBinCircle: return "xmark.bin.circle"
             case .xmarkBinCircleFill: return "xmark.bin.circle.fill"
             case .xmarkBinFill: return "xmark.bin.fill"
-            case .binXmarkFill: return "xmark.bin.fill"
             case .xmarkCircle: return "xmark.circle"
             case .xmarkCircleFill: return "xmark.circle.fill"
             case .xmarkDiamond: return "xmark.diamond"
@@ -16676,6 +16691,7 @@ public enum SFSymbol: String, CaseIterable {
             case ._9CircleFill: return "9.circle.fill"
             case ._9Square: return "9.square"
             case ._9SquareFill: return "9.square.fill"
+            case .a: return "a"
             case .aCircle: return "a.circle"
             case .aCircleFill: return "a.circle.fill"
             case .aSquare: return "a.square"
@@ -16700,8 +16716,12 @@ public enum SFSymbol: String, CaseIterable {
             case .archivebox: return "archivebox"
             case .archiveboxFill: return "archivebox.fill"
             case .arkit: return "arkit"
+            case .arrow2Circlepath: return "arrow.2.circlepath"
+            case .arrow2CirclepathCircle: return "arrow.2.circlepath.circle"
+            case .arrow2CirclepathCircleFill: return "arrow.2.circlepath.circle.fill"
             case .arrow2Squarepath: return "arrow.2.squarepath"
             case .arrow3Trianglepath: return "arrow.3.trianglepath"
+            case .arrowBranch: return "arrow.branch"
             case .arrowClockwise: return "arrow.clockwise"
             case .arrowClockwiseCircle: return "arrow.clockwise.circle"
             case .arrowClockwiseCircleFill: return "arrow.clockwise.circle.fill"
@@ -16739,54 +16759,44 @@ public enum SFSymbol: String, CaseIterable {
             case .arrowLeftAndRightCircle: return "arrow.left.and.right.circle"
             case .arrowLeftAndRightCircleFill: return "arrow.left.and.right.circle.fill"
             case .arrowLeftAndRightRighttriangleLeftRighttriangleRight: return "flip.horizontal"
-            case .flipHorizontal: return "flip.horizontal"
             case .arrowLeftAndRightRighttriangleLeftRighttriangleRightFill: return "flip.horizontal.fill"
-            case .flipHorizontalFill: return "flip.horizontal.fill"
             case .arrowLeftAndRightSquare: return "arrow.left.and.right.square"
             case .arrowLeftAndRightSquareFill: return "arrow.left.and.right.square.fill"
             case .arrowLeftArrowRight: return "arrow.right.arrow.left"
-            case .arrowRightArrowLeft: return "arrow.right.arrow.left"
             case .arrowLeftArrowRightCircle: return "arrow.right.arrow.left.circle"
-            case .arrowRightArrowLeftCircle: return "arrow.right.arrow.left.circle"
             case .arrowLeftArrowRightCircleFill: return "arrow.right.arrow.left.circle.fill"
-            case .arrowRightArrowLeftCircleFill: return "arrow.right.arrow.left.circle.fill"
             case .arrowLeftArrowRightSquare: return "arrow.right.arrow.left.square"
-            case .arrowRightArrowLeftSquare: return "arrow.right.arrow.left.square"
             case .arrowLeftArrowRightSquareFill: return "arrow.right.arrow.left.square.fill"
-            case .arrowRightArrowLeftSquareFill: return "arrow.right.arrow.left.square.fill"
             case .arrowLeftCircle: return "arrow.left.circle"
             case .arrowLeftCircleFill: return "arrow.left.circle.fill"
             case .arrowLeftSquare: return "arrow.left.square"
             case .arrowLeftSquareFill: return "arrow.left.square.fill"
             case .arrowLeftToLine: return "arrow.left.to.line"
             case .arrowLeftToLineAlt: return "arrow.left.to.line.alt"
+            case .arrowMerge: return "arrow.merge"
             case .arrowRight: return "arrow.right"
+            case .arrowRightArrowLeft: return "arrow.right.arrow.left"
+            case .arrowRightArrowLeftCircle: return "arrow.right.arrow.left.circle"
+            case .arrowRightArrowLeftCircleFill: return "arrow.right.arrow.left.circle.fill"
+            case .arrowRightArrowLeftSquare: return "arrow.right.arrow.left.square"
+            case .arrowRightArrowLeftSquareFill: return "arrow.right.arrow.left.square.fill"
             case .arrowRightCircle: return "arrow.right.circle"
             case .arrowRightCircleFill: return "arrow.right.circle.fill"
             case .arrowRightSquare: return "arrow.right.square"
             case .arrowRightSquareFill: return "arrow.right.square.fill"
             case .arrowRightToLine: return "arrow.right.to.line"
             case .arrowRightToLineAlt: return "arrow.right.to.line.alt"
-            case .arrowTriangle2Circlepath: return "arrow.2.circlepath"
-            case .arrow2Circlepath: return "arrow.2.circlepath"
-            case .arrowTriangle2CirclepathCamera: return "camera.rotate"
-            case .cameraRotate: return "camera.rotate"
-            case .arrowTriangle2CirclepathCameraFill: return "camera.rotate.fill"
-            case .cameraRotateFill: return "camera.rotate.fill"
-            case .arrowTriangle2CirclepathCircle: return "arrow.2.circlepath.circle"
-            case .arrow2CirclepathCircle: return "arrow.2.circlepath.circle"
-            case .arrowTriangle2CirclepathCircleFill: return "arrow.2.circlepath.circle.fill"
-            case .arrow2CirclepathCircleFill: return "arrow.2.circlepath.circle.fill"
-            case .arrowTriangleBranch: return "arrow.branch"
-            case .arrowBranch: return "arrow.branch"
-            case .arrowTriangleMerge: return "arrow.merge"
-            case .arrowMerge: return "arrow.merge"
-            case .arrowTriangleSwap: return "arrow.swap"
             case .arrowSwap: return "arrow.swap"
+            case .arrowTriangle2Circlepath: return "arrow.2.circlepath"
+            case .arrowTriangle2CirclepathCamera: return "camera.rotate"
+            case .arrowTriangle2CirclepathCameraFill: return "camera.rotate.fill"
+            case .arrowTriangle2CirclepathCircle: return "arrow.2.circlepath.circle"
+            case .arrowTriangle2CirclepathCircleFill: return "arrow.2.circlepath.circle.fill"
+            case .arrowTriangleBranch: return "arrow.branch"
+            case .arrowTriangleMerge: return "arrow.merge"
+            case .arrowTriangleSwap: return "arrow.swap"
             case .arrowTriangleTurnUpRightDiamond: return "arrow.up.right.diamond"
-            case .arrowUpRightDiamond: return "arrow.up.right.diamond"
             case .arrowTriangleTurnUpRightDiamondFill: return "arrow.up.right.diamond.fill"
-            case .arrowUpRightDiamondFill: return "arrow.up.right.diamond.fill"
             case .arrowTurnDownLeft: return "arrow.turn.down.left"
             case .arrowTurnDownRight: return "arrow.turn.down.right"
             case .arrowTurnLeftDown: return "arrow.turn.left.down"
@@ -16821,6 +16831,8 @@ public enum SFSymbol: String, CaseIterable {
             case .arrowUpRight: return "arrow.up.right"
             case .arrowUpRightCircle: return "arrow.up.right.circle"
             case .arrowUpRightCircleFill: return "arrow.up.right.circle.fill"
+            case .arrowUpRightDiamond: return "arrow.up.right.diamond"
+            case .arrowUpRightDiamondFill: return "arrow.up.right.diamond.fill"
             case .arrowUpRightSquare: return "arrow.up.right.square"
             case .arrowUpRightSquareFill: return "arrow.up.right.square.fill"
             case .arrowUpRightVideo: return "arrow.up.right.video"
@@ -16931,6 +16943,8 @@ public enum SFSymbol: String, CaseIterable {
             case .bellFill: return "bell.fill"
             case .bellSlash: return "bell.slash"
             case .bellSlashFill: return "bell.slash.fill"
+            case .binXmark: return "bin.xmark"
+            case .binXmarkFill: return "bin.xmark.fill"
             case .bitcoinsignCircle: return "bitcoinsign.circle"
             case .bitcoinsignCircleFill: return "bitcoinsign.circle.fill"
             case .bitcoinsignSquare: return "bitcoinsign.square"
@@ -16988,6 +17002,8 @@ public enum SFSymbol: String, CaseIterable {
             case .cameraFill: return "camera.fill"
             case .cameraOnRectangle: return "camera.on.rectangle"
             case .cameraOnRectangleFill: return "camera.on.rectangle.fill"
+            case .cameraRotate: return "camera.rotate"
+            case .cameraRotateFill: return "camera.rotate.fill"
             case .cameraViewfinder: return "camera.viewfinder"
             case .capslock: return "capslock"
             case .capslockFill: return "capslock.fill"
@@ -17012,7 +17028,6 @@ public enum SFSymbol: String, CaseIterable {
             case .centsignSquare: return "centsign.square"
             case .centsignSquareFill: return "centsign.square.fill"
             case .character: return "a"
-            case .a: return "a"
             case .chartBar: return "chart.bar"
             case .chartBarFill: return "chart.bar.fill"
             case .chartPie: return "chart.pie"
@@ -17057,17 +17072,18 @@ public enum SFSymbol: String, CaseIterable {
             case .chevronUpSquare: return "chevron.up.square"
             case .chevronUpSquareFill: return "chevron.up.square.fill"
             case .circle: return "circle"
+            case .circleBottomthirdSplit: return "circle.bottomthird.split"
             case .circleFill: return "circle.fill"
             case .circleGrid2x2: return "circle.grid.2x2"
             case .circleGrid2x2Fill: return "circle.grid.2x2.fill"
             case .circleGrid3x3: return "circle.grid.3x3"
             case .circleGrid3x3Fill: return "circle.grid.3x3.fill"
+            case .circleGridHex: return "circle.grid.hex"
+            case .circleGridHexFill: return "circle.grid.hex.fill"
             case .circleLefthalfFill: return "circle.lefthalf.fill"
             case .circleRighthalfFill: return "circle.righthalf.fill"
             case .circlesHexagongrid: return "circle.grid.hex"
-            case .circleGridHex: return "circle.grid.hex"
             case .circlesHexagongridFill: return "circle.grid.hex.fill"
-            case .circleGridHexFill: return "circle.grid.hex.fill"
             case .clear: return "clear"
             case .clearFill: return "clear.fill"
             case .clock: return "clock"
@@ -17119,9 +17135,11 @@ public enum SFSymbol: String, CaseIterable {
             case .cruzeirosignSquare: return "cruzeirosign.square"
             case .cruzeirosignSquareFill: return "cruzeirosign.square.fill"
             case .cube: return "cube"
+            case .cubeBox: return "cube.box"
+            case .cubeBoxFill: return "cube.box.fill"
             case .cubeFill: return "cube.fill"
-            case .cursorarrowRays: return "cursor.rays"
             case .cursorRays: return "cursor.rays"
+            case .cursorarrowRays: return "cursor.rays"
             case .dCircle: return "d.circle"
             case .dCircleFill: return "d.circle.fill"
             case .dSquare: return "d.square"
@@ -17133,10 +17151,10 @@ public enum SFSymbol: String, CaseIterable {
             case .deleteRight: return "delete.right"
             case .deleteRightFill: return "delete.right.fill"
             case .desktopcomputer: return "desktopcomputer"
-            case .dialMin: return "dial"
             case .dial: return "dial"
-            case .dialMinFill: return "dial.fill"
             case .dialFill: return "dial.fill"
+            case .dialMin: return "dial"
+            case .dialMinFill: return "dial.fill"
             case .divide: return "divide"
             case .divideCircle: return "divide.circle"
             case .divideCircleFill: return "divide.circle.fill"
@@ -17158,7 +17176,6 @@ public enum SFSymbol: String, CaseIterable {
             case .docTextMagnifyingglass: return "doc.text.magnifyingglass"
             case .docTextViewfinder: return "doc.text.viewfinder"
             case .dockRectangle: return "rectangle.dock"
-            case .rectangleDock: return "rectangle.dock"
             case .dollarsignCircle: return "dollarsign.circle"
             case .dollarsignCircleFill: return "dollarsign.circle.fill"
             case .dollarsignSquare: return "dollarsign.square"
@@ -17180,11 +17197,11 @@ public enum SFSymbol: String, CaseIterable {
             case .ear: return "ear"
             case .eject: return "eject"
             case .ejectFill: return "eject.fill"
+            case .ellipsesBubble: return "ellipses.bubble"
+            case .ellipsesBubbleFill: return "ellipses.bubble.fill"
             case .ellipsis: return "ellipsis"
             case .ellipsisBubble: return "ellipses.bubble"
-            case .ellipsesBubble: return "ellipses.bubble"
             case .ellipsisBubbleFill: return "ellipses.bubble.fill"
-            case .ellipsesBubbleFill: return "ellipses.bubble.fill"
             case .ellipsisCircle: return "ellipsis.circle"
             case .ellipsisCircleFill: return "ellipsis.circle.fill"
             case .envelope: return "envelope"
@@ -17236,9 +17253,7 @@ public enum SFSymbol: String, CaseIterable {
             case .fSquare: return "f.square"
             case .fSquareFill: return "f.square.fill"
             case .faceSmiling: return "smiley"
-            case .smiley: return "smiley"
             case .faceSmilingFill: return "smiley.fill"
-            case .smileyFill: return "smiley.fill"
             case .faceid: return "faceid"
             case .film: return "film"
             case .filmFill: return "film.fill"
@@ -17252,6 +17267,8 @@ public enum SFSymbol: String, CaseIterable {
             case .flameFill: return "flame.fill"
             case .flashlightOffFill: return "flashlight.off.fill"
             case .flashlightOnFill: return "flashlight.on.fill"
+            case .flipHorizontal: return "flip.horizontal"
+            case .flipHorizontalFill: return "flip.horizontal.fill"
             case .florinsignCircle: return "florinsign.circle"
             case .florinsignCircleFill: return "florinsign.circle.fill"
             case .florinsignSquare: return "florinsign.square"
@@ -17418,8 +17435,8 @@ public enum SFSymbol: String, CaseIterable {
             case .larisignSquare: return "larisign.square"
             case .larisignSquareFill: return "larisign.square.fill"
             case .lasso: return "lasso"
-            case .leafArrowTriangleCirclepath: return "leaf.arrow.circlepath"
             case .leafArrowCirclepath: return "leaf.arrow.circlepath"
+            case .leafArrowTriangleCirclepath: return "leaf.arrow.circlepath"
             case .lessthan: return "lessthan"
             case .lessthanCircle: return "lessthan.circle"
             case .lessthanCircleFill: return "lessthan.circle.fill"
@@ -17535,12 +17552,12 @@ public enum SFSymbol: String, CaseIterable {
             case .multiplyCircleFill: return "multiply.circle.fill"
             case .multiplySquare: return "multiply.square"
             case .multiplySquareFill: return "multiply.square.fill"
+            case .musicHouse: return "music.house"
+            case .musicHouseFill: return "music.house.fill"
             case .musicMic: return "music.mic"
             case .musicNote: return "music.note"
             case .musicNoteHouse: return "music.house"
-            case .musicHouse: return "music.house"
             case .musicNoteHouseFill: return "music.house.fill"
-            case .musicHouseFill: return "music.house.fill"
             case .musicNoteList: return "music.note.list"
             case .nCircle: return "n.circle"
             case .nCircleFill: return "n.circle.fill"
@@ -17574,8 +17591,8 @@ public enum SFSymbol: String, CaseIterable {
             case .paperclipCircleFill: return "paperclip.circle.fill"
             case .paperplane: return "paperplane"
             case .paperplaneFill: return "paperplane.fill"
-            case .paragraphsign: return "paragraph"
             case .paragraph: return "paragraph"
+            case .paragraphsign: return "paragraph"
             case .pause: return "pause"
             case .pauseCircle: return "pause.circle"
             case .pauseCircleFill: return "pause.circle.fill"
@@ -17583,6 +17600,7 @@ public enum SFSymbol: String, CaseIterable {
             case .pauseRectangle: return "pause.rectangle"
             case .pauseRectangleFill: return "pause.rectangle.fill"
             case .pencil: return "pencil"
+            case .pencilAndEllipsisRectangle: return "pencil.and.ellipsis.rectangle"
             case .pencilAndOutline: return "pencil.and.outline"
             case .pencilCircle: return "pencil.circle"
             case .pencilCircleFill: return "pencil.circle.fill"
@@ -17600,20 +17618,22 @@ public enum SFSymbol: String, CaseIterable {
             case .person3: return "person.3"
             case .person3Fill: return "person.3.fill"
             case .personBadgeMinus: return "person.badge.minus"
+            case .personBadgeMinusFill: return "person.badge.minus.fill"
             case .personBadgePlus: return "person.badge.plus"
+            case .personBadgePlusFill: return "person.badge.plus.fill"
             case .personCircle: return "person.circle"
             case .personCircleFill: return "person.circle.fill"
             case .personCropCircle: return "person.crop.circle"
             case .personCropCircleBadgeCheckmark: return "person.crop.circle.badge.checkmark"
-            case .personCropCircleBadgeExclamationmark: return "person.crop.circle.badge.exclam"
             case .personCropCircleBadgeExclam: return "person.crop.circle.badge.exclam"
+            case .personCropCircleBadgeExclamationmark: return "person.crop.circle.badge.exclam"
             case .personCropCircleBadgeMinus: return "person.crop.circle.badge.minus"
             case .personCropCircleBadgePlus: return "person.crop.circle.badge.plus"
             case .personCropCircleBadgeXmark: return "person.crop.circle.badge.xmark"
             case .personCropCircleFill: return "person.crop.circle.fill"
             case .personCropCircleFillBadgeCheckmark: return "person.crop.circle.fill.badge.checkmark"
-            case .personCropCircleFillBadgeExclamationmark: return "person.crop.circle.fill.badge.exclam"
             case .personCropCircleFillBadgeExclam: return "person.crop.circle.fill.badge.exclam"
+            case .personCropCircleFillBadgeExclamationmark: return "person.crop.circle.fill.badge.exclam"
             case .personCropCircleFillBadgeMinus: return "person.crop.circle.fill.badge.minus"
             case .personCropCircleFillBadgePlus: return "person.crop.circle.fill.badge.plus"
             case .personCropCircleFillBadgeXmark: return "person.crop.circle.fill.badge.xmark"
@@ -17623,9 +17643,7 @@ public enum SFSymbol: String, CaseIterable {
             case .personCropSquareFill: return "person.crop.square.fill"
             case .personFill: return "person.fill"
             case .personFillBadgeMinus: return "person.badge.minus.fill"
-            case .personBadgeMinusFill: return "person.badge.minus.fill"
             case .personFillBadgePlus: return "person.badge.plus.fill"
-            case .personBadgePlusFill: return "person.badge.plus.fill"
             case .personIcloud: return "person.icloud"
             case .personIcloudFill: return "person.icloud.fill"
             case .personalhotspot: return "personalhotspot"
@@ -17720,6 +17738,8 @@ public enum SFSymbol: String, CaseIterable {
             case .rCircleFill: return "r.circle.fill"
             case .rSquare: return "r.square"
             case .rSquareFill: return "r.square.fill"
+            case .radiowavesLeft: return "radiowaves.left"
+            case .radiowavesRight: return "radiowaves.right"
             case .rays: return "rays"
             case .recordingtape: return "recordingtape"
             case .rectangle: return "rectangle"
@@ -17729,10 +17749,10 @@ public enum SFSymbol: String, CaseIterable {
             case .rectangleAndArrowUpRightAndArrowDownLeftSlash: return "rectangle.and.arrow.up.right.and.arrow.down.left.slash"
             case .rectangleAndPaperclip: return "rectangle.and.paperclip"
             case .rectangleAndPencilAndEllipsis: return "pencil.and.ellipsis.rectangle"
-            case .pencilAndEllipsisRectangle: return "pencil.and.ellipsis.rectangle"
             case .rectangleBadgeCheckmark: return "rectangle.badge.checkmark"
             case .rectangleBadgeXmark: return "rectangle.badge.xmark"
             case .rectangleCompressVertical: return "rectangle.compress.vertical"
+            case .rectangleDock: return "rectangle.dock"
             case .rectangleExpandVertical: return "rectangle.expand.vertical"
             case .rectangleFill: return "rectangle.fill"
             case .rectangleFillBadgeCheckmark: return "rectangle.fill.badge.checkmark"
@@ -17791,12 +17811,12 @@ public enum SFSymbol: String, CaseIterable {
             case .scribble: return "scribble"
             case .selectionPinInOut: return "selection.pin.in.out"
             case .shekelsignCircle: return "sheqelsign.circle"
-            case .sheqelsignCircle: return "sheqelsign.circle"
             case .shekelsignCircleFill: return "sheqelsign.circle.fill"
-            case .sheqelsignCircleFill: return "sheqelsign.circle.fill"
             case .shekelsignSquare: return "sheqelsign.square"
-            case .sheqelsignSquare: return "sheqelsign.square"
             case .shekelsignSquareFill: return "sheqelsign.square.fill"
+            case .sheqelsignCircle: return "sheqelsign.circle"
+            case .sheqelsignCircleFill: return "sheqelsign.circle.fill"
+            case .sheqelsignSquare: return "sheqelsign.square"
             case .sheqelsignSquareFill: return "sheqelsign.square.fill"
             case .shield: return "shield"
             case .shieldFill: return "shield.fill"
@@ -17806,9 +17826,7 @@ public enum SFSymbol: String, CaseIterable {
             case .shift: return "shift"
             case .shiftFill: return "shift.fill"
             case .shippingbox: return "cube.box"
-            case .cubeBox: return "cube.box"
             case .shippingboxFill: return "cube.box.fill"
-            case .cubeBoxFill: return "cube.box.fill"
             case .shuffle: return "shuffle"
             case .sidebarLeft: return "sidebar.left"
             case .sidebarRight: return "sidebar.right"
@@ -17817,7 +17835,6 @@ public enum SFSymbol: String, CaseIterable {
             case .slashCircle: return "slash.circle"
             case .slashCircleFill: return "slash.circle.fill"
             case .sleep: return "circle.bottomthird.split"
-            case .circleBottomthirdSplit: return "circle.bottomthird.split"
             case .sliderHorizontal3: return "slider.horizontal.3"
             case .sliderHorizontalBelowRectangle: return "slider.horizontal.below.rectangle"
             case .slowmo: return "slowmo"
@@ -17825,26 +17842,28 @@ public enum SFSymbol: String, CaseIterable {
             case .smallcircleCircleFill: return "smallcircle.circle.fill"
             case .smallcircleFillCircle: return "smallcircle.fill.circle"
             case .smallcircleFillCircleFill: return "smallcircle.fill.circle.fill"
+            case .smiley: return "smiley"
+            case .smileyFill: return "smiley.fill"
             case .smoke: return "smoke"
             case .smokeFill: return "smoke.fill"
             case .snow: return "snow"
             case .sparkles: return "sparkles"
             case .speaker: return "speaker"
+            case .speaker1: return "speaker.1"
+            case .speaker1Fill: return "speaker.1.fill"
+            case .speaker2: return "speaker.2"
+            case .speaker2Fill: return "speaker.2.fill"
+            case .speaker3: return "speaker.3"
+            case .speaker3Fill: return "speaker.3.fill"
             case .speakerFill: return "speaker.fill"
             case .speakerSlash: return "speaker.slash"
             case .speakerSlashFill: return "speaker.slash.fill"
             case .speakerWave1: return "speaker.1"
-            case .speaker1: return "speaker.1"
             case .speakerWave1Fill: return "speaker.1.fill"
-            case .speaker1Fill: return "speaker.1.fill"
             case .speakerWave2: return "speaker.2"
-            case .speaker2: return "speaker.2"
             case .speakerWave2Fill: return "speaker.2.fill"
-            case .speaker2Fill: return "speaker.2.fill"
             case .speakerWave3: return "speaker.3"
-            case .speaker3: return "speaker.3"
             case .speakerWave3Fill: return "speaker.3.fill"
-            case .speaker3Fill: return "speaker.3.fill"
             case .speakerZzz: return "speaker.zzz"
             case .speakerZzzFill: return "speaker.zzz.fill"
             case .speedometer: return "speedometer"
@@ -17883,10 +17902,10 @@ public enum SFSymbol: String, CaseIterable {
             case .squareSplit2x2: return "square.split.2x2"
             case .squareSplit2x2Fill: return "square.split.2x2.fill"
             case .squareStack: return "square.stack"
+            case .squareStack3dDownDottedline: return "square.stack.3d.down.dottedline"
             case .squareStack3dDownRight: return "square.stack.3d.down.right"
             case .squareStack3dDownRightFill: return "square.stack.3d.down.right.fill"
             case .squareStack3dForwardDottedline: return "square.stack.3d.down.dottedline"
-            case .squareStack3dDownDottedline: return "square.stack.3d.down.dottedline"
             case .squareStack3dUp: return "square.stack.3d.up"
             case .squareStack3dUpFill: return "square.stack.3d.up.fill"
             case .squareStack3dUpSlash: return "square.stack.3d.up.slash"
@@ -17942,14 +17961,14 @@ public enum SFSymbol: String, CaseIterable {
             case .tCircleFill: return "t.circle.fill"
             case .tSquare: return "t.square"
             case .tSquareFill: return "t.square.fill"
-            case .tablecells: return "table"
             case .table: return "table"
-            case .tablecellsBadgeEllipsis: return "table.badge.more"
             case .tableBadgeMore: return "table.badge.more"
-            case .tablecellsBadgeEllipsisFill: return "table.badge.more.fill"
             case .tableBadgeMoreFill: return "table.badge.more.fill"
-            case .tablecellsFill: return "table.fill"
             case .tableFill: return "table.fill"
+            case .tablecells: return "table"
+            case .tablecellsBadgeEllipsis: return "table.badge.more"
+            case .tablecellsBadgeEllipsisFill: return "table.badge.more.fill"
+            case .tablecellsFill: return "table.fill"
             case .tag: return "tag"
             case .tagCircle: return "tag.circle"
             case .tagCircleFill: return "tag.circle.fill"
@@ -18045,11 +18064,11 @@ public enum SFSymbol: String, CaseIterable {
             case .vSquareFill: return "v.square.fill"
             case .video: return "video"
             case .videoBadgePlus: return "video.badge.plus"
+            case .videoBadgePlusFill: return "video.badge.plus.fill"
             case .videoCircle: return "video.circle"
             case .videoCircleFill: return "video.circle.fill"
             case .videoFill: return "video.fill"
             case .videoFillBadgePlus: return "video.badge.plus.fill"
-            case .videoBadgePlusFill: return "video.badge.plus.fill"
             case .videoSlash: return "video.slash"
             case .videoSlashFill: return "video.slash.fill"
             case .view2d: return "view.2d"
@@ -18066,9 +18085,7 @@ public enum SFSymbol: String, CaseIterable {
             case .wandAndStars: return "wand.and.stars"
             case .wandAndStarsInverse: return "wand.and.stars.inverse"
             case .wave3Left: return "radiowaves.left"
-            case .radiowavesLeft: return "radiowaves.left"
             case .wave3Right: return "radiowaves.right"
-            case .radiowavesRight: return "radiowaves.right"
             case .waveform: return "waveform"
             case .waveformCircle: return "waveform.circle"
             case .waveformCircleFill: return "waveform.circle.fill"
@@ -18094,9 +18111,7 @@ public enum SFSymbol: String, CaseIterable {
             case .xSquareroot: return "x.squareroot"
             case .xmark: return "xmark"
             case .xmarkBin: return "bin.xmark"
-            case .binXmark: return "bin.xmark"
             case .xmarkBinFill: return "bin.xmark.fill"
-            case .binXmarkFill: return "bin.xmark.fill"
             case .xmarkCircle: return "xmark.circle"
             case .xmarkCircleFill: return "xmark.circle.fill"
             case .xmarkIcloud: return "xmark.icloud"
@@ -18391,6 +18406,9 @@ public enum SFSymbol: String, CaseIterable {
                 ._9CircleFill,
                 ._9Square,
                 ._9SquareFill,
+                .a,
+                .aBookClosed,
+                .aBookClosedFill,
                 .aCircle,
                 .aCircleFill,
                 .aMagnify,
@@ -18449,6 +18467,9 @@ public enum SFSymbol: String, CaseIterable {
                 .archiveboxCircleFill,
                 .archiveboxFill,
                 .arkit,
+                .arrow2Circlepath,
+                .arrow2CirclepathCircle,
+                .arrow2CirclepathCircleFill,
                 .arrow2Squarepath,
                 .arrow3Trianglepath,
                 .arrowBackward,
@@ -18456,6 +18477,7 @@ public enum SFSymbol: String, CaseIterable {
                 .arrowBackwardCircleFill,
                 .arrowBackwardSquare,
                 .arrowBackwardSquareFill,
+                .arrowBranch,
                 .arrowClockwise,
                 .arrowClockwiseCircle,
                 .arrowClockwiseCircleFill,
@@ -18519,29 +18541,28 @@ public enum SFSymbol: String, CaseIterable {
                 .arrowLeftAndRightCircle,
                 .arrowLeftAndRightCircleFill,
                 .arrowLeftAndRightRighttriangleLeftRighttriangleRight,
-                .flipHorizontal,
                 .arrowLeftAndRightRighttriangleLeftRighttriangleRightFill,
-                .flipHorizontalFill,
                 .arrowLeftAndRightSquare,
                 .arrowLeftAndRightSquareFill,
                 .arrowLeftArrowRight,
-                .arrowRightArrowLeft,
                 .arrowLeftArrowRightCircle,
-                .arrowRightArrowLeftCircle,
                 .arrowLeftArrowRightCircleFill,
-                .arrowRightArrowLeftCircleFill,
                 .arrowLeftArrowRightSquare,
-                .arrowRightArrowLeftSquare,
                 .arrowLeftArrowRightSquareFill,
-                .arrowRightArrowLeftSquareFill,
                 .arrowLeftCircle,
                 .arrowLeftCircleFill,
                 .arrowLeftSquare,
                 .arrowLeftSquareFill,
                 .arrowLeftToLine,
                 .arrowLeftToLineAlt,
+                .arrowMerge,
                 .arrowRectanglepath,
                 .arrowRight,
+                .arrowRightArrowLeft,
+                .arrowRightArrowLeftCircle,
+                .arrowRightArrowLeftCircleFill,
+                .arrowRightArrowLeftSquare,
+                .arrowRightArrowLeftSquareFill,
                 .arrowRightCircle,
                 .arrowRightCircleFill,
                 .arrowRightDocOnClipboard,
@@ -18549,31 +18570,22 @@ public enum SFSymbol: String, CaseIterable {
                 .arrowRightSquareFill,
                 .arrowRightToLine,
                 .arrowRightToLineAlt,
+                .arrowSwap,
                 .arrowTriangle2Circlepath,
-                .arrow2Circlepath,
                 .arrowTriangle2CirclepathCamera,
-                .cameraRotate,
                 .arrowTriangle2CirclepathCameraFill,
-                .cameraRotateFill,
                 .arrowTriangle2CirclepathCircle,
-                .arrow2CirclepathCircle,
                 .arrowTriangle2CirclepathCircleFill,
-                .arrow2CirclepathCircleFill,
                 .arrowTriangle2CirclepathDocOnClipboard,
                 .arrowTriangleBranch,
-                .arrowBranch,
                 .arrowTriangleCapsulepath,
                 .arrowTriangleMerge,
-                .arrowMerge,
                 .arrowTrianglePull,
                 .arrowTriangleSwap,
-                .arrowSwap,
                 .arrowTriangleTurnUpRightCircle,
                 .arrowTriangleTurnUpRightCircleFill,
                 .arrowTriangleTurnUpRightDiamond,
-                .arrowUpRightDiamond,
                 .arrowTriangleTurnUpRightDiamondFill,
-                .arrowUpRightDiamondFill,
                 .arrowTurnDownLeft,
                 .arrowTurnDownRight,
                 .arrowTurnLeftDown,
@@ -18642,6 +18654,8 @@ public enum SFSymbol: String, CaseIterable {
                 .arrowUpRightAndArrowDownLeftRectangleFill,
                 .arrowUpRightCircle,
                 .arrowUpRightCircleFill,
+                .arrowUpRightDiamond,
+                .arrowUpRightDiamondFill,
                 .arrowUpRightSquare,
                 .arrowUpRightSquareFill,
                 .arrowUpRightVideo,
@@ -18820,6 +18834,8 @@ public enum SFSymbol: String, CaseIterable {
                 .bicycle,
                 .bicycleCircle,
                 .bicycleCircleFill,
+                .binXmark,
+                .binXmarkFill,
                 .binoculars,
                 .binocularsFill,
                 .bitcoinsignCircle,
@@ -18926,6 +18942,8 @@ public enum SFSymbol: String, CaseIterable {
                 .cameraMeteringUnknown,
                 .cameraOnRectangle,
                 .cameraOnRectangleFill,
+                .cameraRotate,
+                .cameraRotateFill,
                 .cameraViewfinder,
                 .candybarphone,
                 .capslock,
@@ -18961,11 +18979,8 @@ public enum SFSymbol: String, CaseIterable {
                 .centsignSquare,
                 .centsignSquareFill,
                 .character,
-                .a,
                 .characterBookClosed,
-                .aBookClosed,
                 .characterBookClosedFill,
-                .aBookClosedFill,
                 .chartBar,
                 .chartBarDocHorizontal,
                 .chartBarDocHorizontalFill,
@@ -19031,6 +19046,7 @@ public enum SFSymbol: String, CaseIterable {
                 .chevronUpSquareFill,
                 .circle,
                 .circleBottomhalfFill,
+                .circleBottomthirdSplit,
                 .circleCircle,
                 .circleCircleFill,
                 .circleDashed,
@@ -19047,6 +19063,8 @@ public enum SFSymbol: String, CaseIterable {
                 .circleGridCrossLeftFill,
                 .circleGridCrossRightFill,
                 .circleGridCrossUpFill,
+                .circleGridHex,
+                .circleGridHexFill,
                 .circleLefthalfFill,
                 .circleRighthalfFill,
                 .circleSquare,
@@ -19056,9 +19074,7 @@ public enum SFSymbol: String, CaseIterable {
                 .circlebadge2Fill,
                 .circlebadgeFill,
                 .circlesHexagongrid,
-                .circleGridHex,
                 .circlesHexagongridFill,
-                .circleGridHexFill,
                 .circlesHexagonpath,
                 .circlesHexagonpathFill,
                 .clear,
@@ -19134,12 +19150,15 @@ public enum SFSymbol: String, CaseIterable {
                 .cruzeirosignSquare,
                 .cruzeirosignSquareFill,
                 .cube,
+                .cubeBox,
+                .cubeBoxFill,
                 .cubeFill,
                 .cubeTransparent,
                 .cubeTransparentFill,
                 .curlybraces,
                 .curlybracesSquare,
                 .curlybracesSquareFill,
+                .cursorRays,
                 .cursorarrow,
                 .cursorarrowAndSquareOnSquareDashed,
                 .cursorarrowClick,
@@ -19148,7 +19167,6 @@ public enum SFSymbol: String, CaseIterable {
                 .cursorarrowMotionlines,
                 .cursorarrowMotionlinesClick,
                 .cursorarrowRays,
-                .cursorRays,
                 .cursorarrowSquare,
                 .cylinder,
                 .cylinderFill,
@@ -19167,12 +19185,12 @@ public enum SFSymbol: String, CaseIterable {
                 .deskclock,
                 .deskclockFill,
                 .desktopcomputer,
+                .dial,
+                .dialFill,
                 .dialMax,
                 .dialMaxFill,
                 .dialMin,
-                .dial,
                 .dialMinFill,
-                .dialFill,
                 .diamond,
                 .diamondFill,
                 .dieFace1,
@@ -19227,7 +19245,6 @@ public enum SFSymbol: String, CaseIterable {
                 .dockArrowDownRectangle,
                 .dockArrowUpRectangle,
                 .dockRectangle,
-                .rectangleDock,
                 .dollarsignCircle,
                 .dollarsignCircleFill,
                 .dollarsignSquare,
@@ -19269,11 +19286,11 @@ public enum SFSymbol: String, CaseIterable {
                 .ejectCircle,
                 .ejectCircleFill,
                 .ejectFill,
+                .ellipsesBubble,
+                .ellipsesBubbleFill,
                 .ellipsis,
                 .ellipsisBubble,
-                .ellipsesBubble,
                 .ellipsisBubbleFill,
-                .ellipsesBubbleFill,
                 .ellipsisCircle,
                 .ellipsisCircleFill,
                 .ellipsisRectangle,
@@ -19365,9 +19382,7 @@ public enum SFSymbol: String, CaseIterable {
                 .faceDashed,
                 .faceDashedFill,
                 .faceSmiling,
-                .smiley,
                 .faceSmilingFill,
-                .smileyFill,
                 .faceid,
                 .faxmachine,
                 .fiberchannel,
@@ -19399,6 +19414,8 @@ public enum SFSymbol: String, CaseIterable {
                 .flameFill,
                 .flashlightOffFill,
                 .flashlightOnFill,
+                .flipHorizontal,
+                .flipHorizontalFill,
                 .flipphone,
                 .florinsignCircle,
                 .florinsignCircleFill,
@@ -19685,8 +19702,8 @@ public enum SFSymbol: String, CaseIterable {
                 .lbRectangleRoundedbottom,
                 .lbRectangleRoundedbottomFill,
                 .leaf,
-                .leafArrowTriangleCirclepath,
                 .leafArrowCirclepath,
+                .leafArrowTriangleCirclepath,
                 .leafFill,
                 .lessthan,
                 .lessthanCircle,
@@ -19879,12 +19896,12 @@ public enum SFSymbol: String, CaseIterable {
                 .multiplyCircleFill,
                 .multiplySquare,
                 .multiplySquareFill,
+                .musicHouse,
+                .musicHouseFill,
                 .musicMic,
                 .musicNote,
                 .musicNoteHouse,
-                .musicHouse,
                 .musicNoteHouseFill,
-                .musicHouseFill,
                 .musicNoteList,
                 .musicQuarternote3,
                 .mustache,
@@ -19945,8 +19962,8 @@ public enum SFSymbol: String, CaseIterable {
                 .paperplaneCircle,
                 .paperplaneCircleFill,
                 .paperplaneFill,
-                .paragraphsign,
                 .paragraph,
+                .paragraphsign,
                 .pause,
                 .pauseCircle,
                 .pauseCircleFill,
@@ -19955,6 +19972,7 @@ public enum SFSymbol: String, CaseIterable {
                 .pauseRectangleFill,
                 .pc,
                 .pencil,
+                .pencilAndEllipsisRectangle,
                 .pencilAndOutline,
                 .pencilCircle,
                 .pencilCircleFill,
@@ -19976,21 +19994,23 @@ public enum SFSymbol: String, CaseIterable {
                 .person3Fill,
                 .personAndArrowLeftAndArrowRight,
                 .personBadgeMinus,
+                .personBadgeMinusFill,
                 .personBadgePlus,
+                .personBadgePlusFill,
                 .personCircle,
                 .personCircleFill,
                 .personCropCircle,
                 .personCropCircleBadgeCheckmark,
-                .personCropCircleBadgeExclamationmark,
                 .personCropCircleBadgeExclam,
+                .personCropCircleBadgeExclamationmark,
                 .personCropCircleBadgeMinus,
                 .personCropCircleBadgePlus,
                 .personCropCircleBadgeQuestionmark,
                 .personCropCircleBadgeXmark,
                 .personCropCircleFill,
                 .personCropCircleFillBadgeCheckmark,
-                .personCropCircleFillBadgeExclamationmark,
                 .personCropCircleFillBadgeExclam,
+                .personCropCircleFillBadgeExclamationmark,
                 .personCropCircleFillBadgeMinus,
                 .personCropCircleFillBadgePlus,
                 .personCropCircleFillBadgeQuestionmark,
@@ -20003,9 +20023,7 @@ public enum SFSymbol: String, CaseIterable {
                 .personFill,
                 .personFillAndArrowLeftAndArrowRight,
                 .personFillBadgeMinus,
-                .personBadgeMinusFill,
                 .personFillBadgePlus,
-                .personBadgePlusFill,
                 .personFillCheckmark,
                 .personFillQuestionmark,
                 .personFillTurnDown,
@@ -20167,6 +20185,8 @@ public enum SFSymbol: String, CaseIterable {
                 .r2RectangleRoundedtopFill,
                 .radio,
                 .radioFill,
+                .radiowavesLeft,
+                .radiowavesRight,
                 .rays,
                 .rbRectangleRoundedbottom,
                 .rbRectangleRoundedbottomFill,
@@ -20182,7 +20202,6 @@ public enum SFSymbol: String, CaseIterable {
                 .rectangleAndArrowUpRightAndArrowDownLeftSlash,
                 .rectangleAndPaperclip,
                 .rectangleAndPencilAndEllipsis,
-                .pencilAndEllipsisRectangle,
                 .rectangleAndTextMagnifyingglass,
                 .rectangleArrowtriangle2Inward,
                 .rectangleArrowtriangle2Outward,
@@ -20198,6 +20217,7 @@ public enum SFSymbol: String, CaseIterable {
                 .rectangleDashed,
                 .rectangleDashedAndPaperclip,
                 .rectangleDashedBadgeRecord,
+                .rectangleDock,
                 .rectangleExpandVertical,
                 .rectangleFill,
                 .rectangleFillBadgeCheckmark,
@@ -20318,12 +20338,12 @@ public enum SFSymbol: String, CaseIterable {
                 .serverRack,
                 .shadow,
                 .shekelsignCircle,
-                .sheqelsignCircle,
                 .shekelsignCircleFill,
-                .sheqelsignCircleFill,
                 .shekelsignSquare,
-                .sheqelsignSquare,
                 .shekelsignSquareFill,
+                .sheqelsignCircle,
+                .sheqelsignCircleFill,
+                .sheqelsignSquare,
                 .sheqelsignSquareFill,
                 .shield,
                 .shieldCheckerboard,
@@ -20335,9 +20355,7 @@ public enum SFSymbol: String, CaseIterable {
                 .shift,
                 .shiftFill,
                 .shippingbox,
-                .cubeBox,
                 .shippingboxFill,
-                .cubeBoxFill,
                 .shuffle,
                 .shuffleCircle,
                 .shuffleCircleFill,
@@ -20362,7 +20380,6 @@ public enum SFSymbol: String, CaseIterable {
                 .slashCircle,
                 .slashCircleFill,
                 .sleep,
-                .circleBottomthirdSplit,
                 .sliderHorizontal3,
                 .sliderHorizontalBelowRectangle,
                 .sliderHorizontalBelowSquareFillAndSquare,
@@ -20372,6 +20389,8 @@ public enum SFSymbol: String, CaseIterable {
                 .smallcircleCircleFill,
                 .smallcircleFillCircle,
                 .smallcircleFillCircleFill,
+                .smiley,
+                .smileyFill,
                 .smoke,
                 .smokeFill,
                 .snow,
@@ -20381,25 +20400,25 @@ public enum SFSymbol: String, CaseIterable {
                 .sparklesRectangleStackFill,
                 .sparklesSquareFillOnSquare,
                 .speaker,
+                .speaker1,
+                .speaker1Fill,
+                .speaker2,
+                .speaker2Fill,
+                .speaker3,
+                .speaker3Fill,
                 .speakerFill,
                 .speakerSlash,
                 .speakerSlashCircle,
                 .speakerSlashCircleFill,
                 .speakerSlashFill,
                 .speakerWave1,
-                .speaker1,
                 .speakerWave1Fill,
-                .speaker1Fill,
                 .speakerWave2,
-                .speaker2,
                 .speakerWave2Circle,
                 .speakerWave2CircleFill,
                 .speakerWave2Fill,
-                .speaker2Fill,
                 .speakerWave3,
-                .speaker3,
                 .speakerWave3Fill,
-                .speaker3Fill,
                 .speakerZzz,
                 .speakerZzzFill,
                 .speedometer,
@@ -20479,12 +20498,12 @@ public enum SFSymbol: String, CaseIterable {
                 .squareSplitDiagonal2x2Fill,
                 .squareSplitDiagonalFill,
                 .squareStack,
+                .squareStack3dDownDottedline,
                 .squareStack3dDownForward,
                 .squareStack3dDownForwardFill,
                 .squareStack3dDownRight,
                 .squareStack3dDownRightFill,
                 .squareStack3dForwardDottedline,
-                .squareStack3dDownDottedline,
                 .squareStack3dForwardDottedlineFill,
                 .squareStack3dUp,
                 .squareStack3dUpBadgeA,
@@ -20559,14 +20578,14 @@ public enum SFSymbol: String, CaseIterable {
                 .tCircleFill,
                 .tSquare,
                 .tSquareFill,
-                .tablecells,
                 .table,
-                .tablecellsBadgeEllipsis,
                 .tableBadgeMore,
-                .tablecellsBadgeEllipsisFill,
                 .tableBadgeMoreFill,
-                .tablecellsFill,
                 .tableFill,
+                .tablecells,
+                .tablecellsBadgeEllipsis,
+                .tablecellsBadgeEllipsisFill,
+                .tablecellsFill,
                 .tag,
                 .tagCircle,
                 .tagCircleFill,
@@ -20697,6 +20716,7 @@ public enum SFSymbol: String, CaseIterable {
                 .video,
                 .videoBadgeCheckmark,
                 .videoBadgePlus,
+                .videoBadgePlusFill,
                 .videoBubbleLeft,
                 .videoBubbleLeftFill,
                 .videoCircle,
@@ -20704,7 +20724,6 @@ public enum SFSymbol: String, CaseIterable {
                 .videoFill,
                 .videoFillBadgeCheckmark,
                 .videoFillBadgePlus,
-                .videoBadgePlusFill,
                 .videoSlash,
                 .videoSlashFill,
                 .view2d,
@@ -20730,11 +20749,9 @@ public enum SFSymbol: String, CaseIterable {
                 .wave3ForwardCircle,
                 .wave3ForwardCircleFill,
                 .wave3Left,
-                .radiowavesLeft,
                 .wave3LeftCircle,
                 .wave3LeftCircleFill,
                 .wave3Right,
-                .radiowavesRight,
                 .wave3RightCircle,
                 .wave3RightCircleFill,
                 .waveform,
@@ -20766,11 +20783,9 @@ public enum SFSymbol: String, CaseIterable {
                 .xSquareroot,
                 .xmark,
                 .xmarkBin,
-                .binXmark,
                 .xmarkBinCircle,
                 .xmarkBinCircleFill,
                 .xmarkBinFill,
-                .binXmarkFill,
                 .xmarkCircle,
                 .xmarkCircleFill,
                 .xmarkDiamond,
@@ -21069,6 +21084,9 @@ public enum SFSymbol: String, CaseIterable {
                 ._9CircleFill,
                 ._9Square,
                 ._9SquareFill,
+                .a,
+                .aBookClosed,
+                .aBookClosedFill,
                 .aCircle,
                 .aCircleFill,
                 .aMagnify,
@@ -21124,6 +21142,9 @@ public enum SFSymbol: String, CaseIterable {
                 .archiveboxCircleFill,
                 .archiveboxFill,
                 .arkit,
+                .arrow2Circlepath,
+                .arrow2CirclepathCircle,
+                .arrow2CirclepathCircleFill,
                 .arrow2Squarepath,
                 .arrow3Trianglepath,
                 .arrowBackward,
@@ -21131,6 +21152,7 @@ public enum SFSymbol: String, CaseIterable {
                 .arrowBackwardCircleFill,
                 .arrowBackwardSquare,
                 .arrowBackwardSquareFill,
+                .arrowBranch,
                 .arrowClockwise,
                 .arrowClockwiseCircle,
                 .arrowClockwiseCircleFill,
@@ -21194,29 +21216,28 @@ public enum SFSymbol: String, CaseIterable {
                 .arrowLeftAndRightCircle,
                 .arrowLeftAndRightCircleFill,
                 .arrowLeftAndRightRighttriangleLeftRighttriangleRight,
-                .flipHorizontal,
                 .arrowLeftAndRightRighttriangleLeftRighttriangleRightFill,
-                .flipHorizontalFill,
                 .arrowLeftAndRightSquare,
                 .arrowLeftAndRightSquareFill,
                 .arrowLeftArrowRight,
-                .arrowRightArrowLeft,
                 .arrowLeftArrowRightCircle,
-                .arrowRightArrowLeftCircle,
                 .arrowLeftArrowRightCircleFill,
-                .arrowRightArrowLeftCircleFill,
                 .arrowLeftArrowRightSquare,
-                .arrowRightArrowLeftSquare,
                 .arrowLeftArrowRightSquareFill,
-                .arrowRightArrowLeftSquareFill,
                 .arrowLeftCircle,
                 .arrowLeftCircleFill,
                 .arrowLeftSquare,
                 .arrowLeftSquareFill,
                 .arrowLeftToLine,
                 .arrowLeftToLineAlt,
+                .arrowMerge,
                 .arrowRectanglepath,
                 .arrowRight,
+                .arrowRightArrowLeft,
+                .arrowRightArrowLeftCircle,
+                .arrowRightArrowLeftCircleFill,
+                .arrowRightArrowLeftSquare,
+                .arrowRightArrowLeftSquareFill,
                 .arrowRightCircle,
                 .arrowRightCircleFill,
                 .arrowRightDocOnClipboard,
@@ -21224,31 +21245,22 @@ public enum SFSymbol: String, CaseIterable {
                 .arrowRightSquareFill,
                 .arrowRightToLine,
                 .arrowRightToLineAlt,
+                .arrowSwap,
                 .arrowTriangle2Circlepath,
-                .arrow2Circlepath,
                 .arrowTriangle2CirclepathCamera,
-                .cameraRotate,
                 .arrowTriangle2CirclepathCameraFill,
-                .cameraRotateFill,
                 .arrowTriangle2CirclepathCircle,
-                .arrow2CirclepathCircle,
                 .arrowTriangle2CirclepathCircleFill,
-                .arrow2CirclepathCircleFill,
                 .arrowTriangle2CirclepathDocOnClipboard,
                 .arrowTriangleBranch,
-                .arrowBranch,
                 .arrowTriangleCapsulepath,
                 .arrowTriangleMerge,
-                .arrowMerge,
                 .arrowTrianglePull,
                 .arrowTriangleSwap,
-                .arrowSwap,
                 .arrowTriangleTurnUpRightCircle,
                 .arrowTriangleTurnUpRightCircleFill,
                 .arrowTriangleTurnUpRightDiamond,
-                .arrowUpRightDiamond,
                 .arrowTriangleTurnUpRightDiamondFill,
-                .arrowUpRightDiamondFill,
                 .arrowTurnDownLeft,
                 .arrowTurnDownRight,
                 .arrowTurnLeftDown,
@@ -21317,6 +21329,8 @@ public enum SFSymbol: String, CaseIterable {
                 .arrowUpRightAndArrowDownLeftRectangleFill,
                 .arrowUpRightCircle,
                 .arrowUpRightCircleFill,
+                .arrowUpRightDiamond,
+                .arrowUpRightDiamondFill,
                 .arrowUpRightSquare,
                 .arrowUpRightSquareFill,
                 .arrowUpRightVideo,
@@ -21495,6 +21509,8 @@ public enum SFSymbol: String, CaseIterable {
                 .bicycle,
                 .bicycleCircle,
                 .bicycleCircleFill,
+                .binXmark,
+                .binXmarkFill,
                 .binoculars,
                 .binocularsFill,
                 .bitcoinsignCircle,
@@ -21597,6 +21613,8 @@ public enum SFSymbol: String, CaseIterable {
                 .cameraMeteringUnknown,
                 .cameraOnRectangle,
                 .cameraOnRectangleFill,
+                .cameraRotate,
+                .cameraRotateFill,
                 .cameraViewfinder,
                 .candybarphone,
                 .capslock,
@@ -21629,10 +21647,9 @@ public enum SFSymbol: String, CaseIterable {
                 .centsignCircleFill,
                 .centsignSquare,
                 .centsignSquareFill,
+                .character,
                 .characterBookClosed,
-                .aBookClosed,
                 .characterBookClosedFill,
-                .aBookClosedFill,
                 .chartBar,
                 .chartBarDocHorizontal,
                 .chartBarDocHorizontalFill,
@@ -21698,6 +21715,7 @@ public enum SFSymbol: String, CaseIterable {
                 .chevronUpSquareFill,
                 .circle,
                 .circleBottomhalfFill,
+                .circleBottomthirdSplit,
                 .circleCircle,
                 .circleCircleFill,
                 .circleDashed,
@@ -21714,6 +21732,8 @@ public enum SFSymbol: String, CaseIterable {
                 .circleGridCrossLeftFill,
                 .circleGridCrossRightFill,
                 .circleGridCrossUpFill,
+                .circleGridHex,
+                .circleGridHexFill,
                 .circleLefthalfFill,
                 .circleRighthalfFill,
                 .circleSquare,
@@ -21723,9 +21743,7 @@ public enum SFSymbol: String, CaseIterable {
                 .circlebadge2Fill,
                 .circlebadgeFill,
                 .circlesHexagongrid,
-                .circleGridHex,
                 .circlesHexagongridFill,
-                .circleGridHexFill,
                 .circlesHexagonpath,
                 .circlesHexagonpathFill,
                 .clear,
@@ -21800,12 +21818,15 @@ public enum SFSymbol: String, CaseIterable {
                 .cruzeirosignSquare,
                 .cruzeirosignSquareFill,
                 .cube,
+                .cubeBox,
+                .cubeBoxFill,
                 .cubeFill,
                 .cubeTransparent,
                 .cubeTransparentFill,
                 .curlybraces,
                 .curlybracesSquare,
                 .curlybracesSquareFill,
+                .cursorRays,
                 .cursorarrow,
                 .cursorarrowAndSquareOnSquareDashed,
                 .cursorarrowClick,
@@ -21814,7 +21835,6 @@ public enum SFSymbol: String, CaseIterable {
                 .cursorarrowMotionlines,
                 .cursorarrowMotionlinesClick,
                 .cursorarrowRays,
-                .cursorRays,
                 .cursorarrowSquare,
                 .cylinder,
                 .cylinderFill,
@@ -21833,12 +21853,12 @@ public enum SFSymbol: String, CaseIterable {
                 .deskclock,
                 .deskclockFill,
                 .desktopcomputer,
+                .dial,
+                .dialFill,
                 .dialMax,
                 .dialMaxFill,
                 .dialMin,
-                .dial,
                 .dialMinFill,
-                .dialFill,
                 .diamond,
                 .diamondFill,
                 .dieFace1,
@@ -21892,7 +21912,6 @@ public enum SFSymbol: String, CaseIterable {
                 .dockArrowDownRectangle,
                 .dockArrowUpRectangle,
                 .dockRectangle,
-                .rectangleDock,
                 .dollarsignCircle,
                 .dollarsignCircleFill,
                 .dollarsignSquare,
@@ -21934,11 +21953,11 @@ public enum SFSymbol: String, CaseIterable {
                 .ejectCircle,
                 .ejectCircleFill,
                 .ejectFill,
+                .ellipsesBubble,
+                .ellipsesBubbleFill,
                 .ellipsis,
                 .ellipsisBubble,
-                .ellipsesBubble,
                 .ellipsisBubbleFill,
-                .ellipsesBubbleFill,
                 .ellipsisCircle,
                 .ellipsisCircleFill,
                 .ellipsisRectangle,
@@ -22029,9 +22048,7 @@ public enum SFSymbol: String, CaseIterable {
                 .faceDashed,
                 .faceDashedFill,
                 .faceSmiling,
-                .smiley,
                 .faceSmilingFill,
-                .smileyFill,
                 .faceid,
                 .faxmachine,
                 .fiberchannel,
@@ -22063,6 +22080,8 @@ public enum SFSymbol: String, CaseIterable {
                 .flameFill,
                 .flashlightOffFill,
                 .flashlightOnFill,
+                .flipHorizontal,
+                .flipHorizontalFill,
                 .flipphone,
                 .florinsignCircle,
                 .florinsignCircleFill,
@@ -22338,8 +22357,8 @@ public enum SFSymbol: String, CaseIterable {
                 .lbRectangleRoundedbottom,
                 .lbRectangleRoundedbottomFill,
                 .leaf,
-                .leafArrowTriangleCirclepath,
                 .leafArrowCirclepath,
+                .leafArrowTriangleCirclepath,
                 .leafFill,
                 .lessthan,
                 .lessthanCircle,
@@ -22531,12 +22550,12 @@ public enum SFSymbol: String, CaseIterable {
                 .multiplyCircleFill,
                 .multiplySquare,
                 .multiplySquareFill,
+                .musicHouse,
+                .musicHouseFill,
                 .musicMic,
                 .musicNote,
                 .musicNoteHouse,
-                .musicHouse,
                 .musicNoteHouseFill,
-                .musicHouseFill,
                 .musicNoteList,
                 .musicQuarternote3,
                 .mustache,
@@ -22597,8 +22616,8 @@ public enum SFSymbol: String, CaseIterable {
                 .paperplaneCircle,
                 .paperplaneCircleFill,
                 .paperplaneFill,
-                .paragraphsign,
                 .paragraph,
+                .paragraphsign,
                 .pause,
                 .pauseCircle,
                 .pauseCircleFill,
@@ -22607,6 +22626,7 @@ public enum SFSymbol: String, CaseIterable {
                 .pauseRectangleFill,
                 .pc,
                 .pencil,
+                .pencilAndEllipsisRectangle,
                 .pencilAndOutline,
                 .pencilCircle,
                 .pencilCircleFill,
@@ -22628,21 +22648,23 @@ public enum SFSymbol: String, CaseIterable {
                 .person3Fill,
                 .personAndArrowLeftAndArrowRight,
                 .personBadgeMinus,
+                .personBadgeMinusFill,
                 .personBadgePlus,
+                .personBadgePlusFill,
                 .personCircle,
                 .personCircleFill,
                 .personCropCircle,
                 .personCropCircleBadgeCheckmark,
-                .personCropCircleBadgeExclamationmark,
                 .personCropCircleBadgeExclam,
+                .personCropCircleBadgeExclamationmark,
                 .personCropCircleBadgeMinus,
                 .personCropCircleBadgePlus,
                 .personCropCircleBadgeQuestionmark,
                 .personCropCircleBadgeXmark,
                 .personCropCircleFill,
                 .personCropCircleFillBadgeCheckmark,
-                .personCropCircleFillBadgeExclamationmark,
                 .personCropCircleFillBadgeExclam,
+                .personCropCircleFillBadgeExclamationmark,
                 .personCropCircleFillBadgeMinus,
                 .personCropCircleFillBadgePlus,
                 .personCropCircleFillBadgeQuestionmark,
@@ -22655,9 +22677,7 @@ public enum SFSymbol: String, CaseIterable {
                 .personFill,
                 .personFillAndArrowLeftAndArrowRight,
                 .personFillBadgeMinus,
-                .personBadgeMinusFill,
                 .personFillBadgePlus,
-                .personBadgePlusFill,
                 .personFillCheckmark,
                 .personFillQuestionmark,
                 .personFillTurnDown,
@@ -22816,6 +22836,8 @@ public enum SFSymbol: String, CaseIterable {
                 .r2RectangleRoundedtopFill,
                 .radio,
                 .radioFill,
+                .radiowavesLeft,
+                .radiowavesRight,
                 .rays,
                 .rbRectangleRoundedbottom,
                 .rbRectangleRoundedbottomFill,
@@ -22831,7 +22853,6 @@ public enum SFSymbol: String, CaseIterable {
                 .rectangleAndArrowUpRightAndArrowDownLeftSlash,
                 .rectangleAndPaperclip,
                 .rectangleAndPencilAndEllipsis,
-                .pencilAndEllipsisRectangle,
                 .rectangleAndTextMagnifyingglass,
                 .rectangleArrowtriangle2Inward,
                 .rectangleArrowtriangle2Outward,
@@ -22846,6 +22867,7 @@ public enum SFSymbol: String, CaseIterable {
                 .rectangleDashed,
                 .rectangleDashedAndPaperclip,
                 .rectangleDashedBadgeRecord,
+                .rectangleDock,
                 .rectangleExpandVertical,
                 .rectangleFill,
                 .rectangleFillBadgeCheckmark,
@@ -22960,12 +22982,12 @@ public enum SFSymbol: String, CaseIterable {
                 .serverRack,
                 .shadow,
                 .shekelsignCircle,
-                .sheqelsignCircle,
                 .shekelsignCircleFill,
-                .sheqelsignCircleFill,
                 .shekelsignSquare,
-                .sheqelsignSquare,
                 .shekelsignSquareFill,
+                .sheqelsignCircle,
+                .sheqelsignCircleFill,
+                .sheqelsignSquare,
                 .sheqelsignSquareFill,
                 .shield,
                 .shieldFill,
@@ -22976,9 +22998,7 @@ public enum SFSymbol: String, CaseIterable {
                 .shift,
                 .shiftFill,
                 .shippingbox,
-                .cubeBox,
                 .shippingboxFill,
-                .cubeBoxFill,
                 .shuffle,
                 .sidebarLeading,
                 .sidebarLeft,
@@ -23001,7 +23021,6 @@ public enum SFSymbol: String, CaseIterable {
                 .slashCircle,
                 .slashCircleFill,
                 .sleep,
-                .circleBottomthirdSplit,
                 .sliderHorizontal3,
                 .sliderHorizontalBelowRectangle,
                 .sliderHorizontalBelowSquareFillAndSquare,
@@ -23011,6 +23030,8 @@ public enum SFSymbol: String, CaseIterable {
                 .smallcircleCircleFill,
                 .smallcircleFillCircle,
                 .smallcircleFillCircleFill,
+                .smiley,
+                .smileyFill,
                 .smoke,
                 .smokeFill,
                 .snow,
@@ -23020,25 +23041,25 @@ public enum SFSymbol: String, CaseIterable {
                 .sparklesRectangleStackFill,
                 .sparklesSquareFillOnSquare,
                 .speaker,
+                .speaker1,
+                .speaker1Fill,
+                .speaker2,
+                .speaker2Fill,
+                .speaker3,
+                .speaker3Fill,
                 .speakerFill,
                 .speakerSlash,
                 .speakerSlashCircle,
                 .speakerSlashCircleFill,
                 .speakerSlashFill,
                 .speakerWave1,
-                .speaker1,
                 .speakerWave1Fill,
-                .speaker1Fill,
                 .speakerWave2,
-                .speaker2,
                 .speakerWave2Circle,
                 .speakerWave2CircleFill,
                 .speakerWave2Fill,
-                .speaker2Fill,
                 .speakerWave3,
-                .speaker3,
                 .speakerWave3Fill,
-                .speaker3Fill,
                 .speakerZzz,
                 .speakerZzzFill,
                 .speedometer,
@@ -23118,12 +23139,12 @@ public enum SFSymbol: String, CaseIterable {
                 .squareSplitDiagonal2x2Fill,
                 .squareSplitDiagonalFill,
                 .squareStack,
+                .squareStack3dDownDottedline,
                 .squareStack3dDownForward,
                 .squareStack3dDownForwardFill,
                 .squareStack3dDownRight,
                 .squareStack3dDownRightFill,
                 .squareStack3dForwardDottedline,
-                .squareStack3dDownDottedline,
                 .squareStack3dForwardDottedlineFill,
                 .squareStack3dUp,
                 .squareStack3dUpBadgeA,
@@ -23198,14 +23219,14 @@ public enum SFSymbol: String, CaseIterable {
                 .tCircleFill,
                 .tSquare,
                 .tSquareFill,
-                .tablecells,
                 .table,
-                .tablecellsBadgeEllipsis,
                 .tableBadgeMore,
-                .tablecellsBadgeEllipsisFill,
                 .tableBadgeMoreFill,
-                .tablecellsFill,
                 .tableFill,
+                .tablecells,
+                .tablecellsBadgeEllipsis,
+                .tablecellsBadgeEllipsisFill,
+                .tablecellsFill,
                 .tag,
                 .tagCircle,
                 .tagCircleFill,
@@ -23253,6 +23274,9 @@ public enum SFSymbol: String, CaseIterable {
                 .textformatAbc,
                 .textformatAbcDottedunderline,
                 .textformatAlt,
+                .textformatSize,
+                .textformatSubscript,
+                .textformatSuperscript,
                 .thermometer,
                 .thermometerSnowflake,
                 .thermometerSun,
@@ -23329,6 +23353,7 @@ public enum SFSymbol: String, CaseIterable {
                 .video,
                 .videoBadgeCheckmark,
                 .videoBadgePlus,
+                .videoBadgePlusFill,
                 .videoBubbleLeft,
                 .videoBubbleLeftFill,
                 .videoCircle,
@@ -23336,7 +23361,6 @@ public enum SFSymbol: String, CaseIterable {
                 .videoFill,
                 .videoFillBadgeCheckmark,
                 .videoFillBadgePlus,
-                .videoBadgePlusFill,
                 .videoSlash,
                 .videoSlashFill,
                 .view2d,
@@ -23362,11 +23386,9 @@ public enum SFSymbol: String, CaseIterable {
                 .wave3ForwardCircle,
                 .wave3ForwardCircleFill,
                 .wave3Left,
-                .radiowavesLeft,
                 .wave3LeftCircle,
                 .wave3LeftCircleFill,
                 .wave3Right,
-                .radiowavesRight,
                 .wave3RightCircle,
                 .wave3RightCircleFill,
                 .waveform,
@@ -23398,11 +23420,9 @@ public enum SFSymbol: String, CaseIterable {
                 .xSquareroot,
                 .xmark,
                 .xmarkBin,
-                .binXmark,
                 .xmarkBinCircle,
                 .xmarkBinCircleFill,
                 .xmarkBinFill,
-                .binXmarkFill,
                 .xmarkCircle,
                 .xmarkCircleFill,
                 .xmarkDiamond,
@@ -23699,6 +23719,7 @@ public enum SFSymbol: String, CaseIterable {
                 ._9CircleFill,
                 ._9Square,
                 ._9SquareFill,
+                .a,
                 .aCircle,
                 .aCircleFill,
                 .aSquare,
@@ -23723,8 +23744,12 @@ public enum SFSymbol: String, CaseIterable {
                 .archivebox,
                 .archiveboxFill,
                 .arkit,
+                .arrow2Circlepath,
+                .arrow2CirclepathCircle,
+                .arrow2CirclepathCircleFill,
                 .arrow2Squarepath,
                 .arrow3Trianglepath,
+                .arrowBranch,
                 .arrowClockwise,
                 .arrowClockwiseCircle,
                 .arrowClockwiseCircleFill,
@@ -23762,54 +23787,44 @@ public enum SFSymbol: String, CaseIterable {
                 .arrowLeftAndRightCircle,
                 .arrowLeftAndRightCircleFill,
                 .arrowLeftAndRightRighttriangleLeftRighttriangleRight,
-                .flipHorizontal,
                 .arrowLeftAndRightRighttriangleLeftRighttriangleRightFill,
-                .flipHorizontalFill,
                 .arrowLeftAndRightSquare,
                 .arrowLeftAndRightSquareFill,
                 .arrowLeftArrowRight,
-                .arrowRightArrowLeft,
                 .arrowLeftArrowRightCircle,
-                .arrowRightArrowLeftCircle,
                 .arrowLeftArrowRightCircleFill,
-                .arrowRightArrowLeftCircleFill,
                 .arrowLeftArrowRightSquare,
-                .arrowRightArrowLeftSquare,
                 .arrowLeftArrowRightSquareFill,
-                .arrowRightArrowLeftSquareFill,
                 .arrowLeftCircle,
                 .arrowLeftCircleFill,
                 .arrowLeftSquare,
                 .arrowLeftSquareFill,
                 .arrowLeftToLine,
                 .arrowLeftToLineAlt,
+                .arrowMerge,
                 .arrowRight,
+                .arrowRightArrowLeft,
+                .arrowRightArrowLeftCircle,
+                .arrowRightArrowLeftCircleFill,
+                .arrowRightArrowLeftSquare,
+                .arrowRightArrowLeftSquareFill,
                 .arrowRightCircle,
                 .arrowRightCircleFill,
                 .arrowRightSquare,
                 .arrowRightSquareFill,
                 .arrowRightToLine,
                 .arrowRightToLineAlt,
-                .arrowTriangle2Circlepath,
-                .arrow2Circlepath,
-                .arrowTriangle2CirclepathCamera,
-                .cameraRotate,
-                .arrowTriangle2CirclepathCameraFill,
-                .cameraRotateFill,
-                .arrowTriangle2CirclepathCircle,
-                .arrow2CirclepathCircle,
-                .arrowTriangle2CirclepathCircleFill,
-                .arrow2CirclepathCircleFill,
-                .arrowTriangleBranch,
-                .arrowBranch,
-                .arrowTriangleMerge,
-                .arrowMerge,
-                .arrowTriangleSwap,
                 .arrowSwap,
+                .arrowTriangle2Circlepath,
+                .arrowTriangle2CirclepathCamera,
+                .arrowTriangle2CirclepathCameraFill,
+                .arrowTriangle2CirclepathCircle,
+                .arrowTriangle2CirclepathCircleFill,
+                .arrowTriangleBranch,
+                .arrowTriangleMerge,
+                .arrowTriangleSwap,
                 .arrowTriangleTurnUpRightDiamond,
-                .arrowUpRightDiamond,
                 .arrowTriangleTurnUpRightDiamondFill,
-                .arrowUpRightDiamondFill,
                 .arrowTurnDownLeft,
                 .arrowTurnDownRight,
                 .arrowTurnLeftDown,
@@ -23844,6 +23859,8 @@ public enum SFSymbol: String, CaseIterable {
                 .arrowUpRight,
                 .arrowUpRightCircle,
                 .arrowUpRightCircleFill,
+                .arrowUpRightDiamond,
+                .arrowUpRightDiamondFill,
                 .arrowUpRightSquare,
                 .arrowUpRightSquareFill,
                 .arrowUpRightVideo,
@@ -23954,6 +23971,8 @@ public enum SFSymbol: String, CaseIterable {
                 .bellFill,
                 .bellSlash,
                 .bellSlashFill,
+                .binXmark,
+                .binXmarkFill,
                 .bitcoinsignCircle,
                 .bitcoinsignCircleFill,
                 .bitcoinsignSquare,
@@ -24011,6 +24030,8 @@ public enum SFSymbol: String, CaseIterable {
                 .cameraFill,
                 .cameraOnRectangle,
                 .cameraOnRectangleFill,
+                .cameraRotate,
+                .cameraRotateFill,
                 .cameraViewfinder,
                 .capslock,
                 .capslockFill,
@@ -24035,7 +24056,6 @@ public enum SFSymbol: String, CaseIterable {
                 .centsignSquare,
                 .centsignSquareFill,
                 .character,
-                .a,
                 .chartBar,
                 .chartBarFill,
                 .chartPie,
@@ -24080,17 +24100,18 @@ public enum SFSymbol: String, CaseIterable {
                 .chevronUpSquare,
                 .chevronUpSquareFill,
                 .circle,
+                .circleBottomthirdSplit,
                 .circleFill,
                 .circleGrid2x2,
                 .circleGrid2x2Fill,
                 .circleGrid3x3,
                 .circleGrid3x3Fill,
+                .circleGridHex,
+                .circleGridHexFill,
                 .circleLefthalfFill,
                 .circleRighthalfFill,
                 .circlesHexagongrid,
-                .circleGridHex,
                 .circlesHexagongridFill,
-                .circleGridHexFill,
                 .clear,
                 .clearFill,
                 .clock,
@@ -24142,9 +24163,11 @@ public enum SFSymbol: String, CaseIterable {
                 .cruzeirosignSquare,
                 .cruzeirosignSquareFill,
                 .cube,
+                .cubeBox,
+                .cubeBoxFill,
                 .cubeFill,
-                .cursorarrowRays,
                 .cursorRays,
+                .cursorarrowRays,
                 .dCircle,
                 .dCircleFill,
                 .dSquare,
@@ -24156,10 +24179,10 @@ public enum SFSymbol: String, CaseIterable {
                 .deleteRight,
                 .deleteRightFill,
                 .desktopcomputer,
-                .dialMin,
                 .dial,
-                .dialMinFill,
                 .dialFill,
+                .dialMin,
+                .dialMinFill,
                 .divide,
                 .divideCircle,
                 .divideCircleFill,
@@ -24181,7 +24204,6 @@ public enum SFSymbol: String, CaseIterable {
                 .docTextMagnifyingglass,
                 .docTextViewfinder,
                 .dockRectangle,
-                .rectangleDock,
                 .dollarsignCircle,
                 .dollarsignCircleFill,
                 .dollarsignSquare,
@@ -24203,11 +24225,11 @@ public enum SFSymbol: String, CaseIterable {
                 .ear,
                 .eject,
                 .ejectFill,
+                .ellipsesBubble,
+                .ellipsesBubbleFill,
                 .ellipsis,
                 .ellipsisBubble,
-                .ellipsesBubble,
                 .ellipsisBubbleFill,
-                .ellipsesBubbleFill,
                 .ellipsisCircle,
                 .ellipsisCircleFill,
                 .envelope,
@@ -24259,9 +24281,7 @@ public enum SFSymbol: String, CaseIterable {
                 .fSquare,
                 .fSquareFill,
                 .faceSmiling,
-                .smiley,
                 .faceSmilingFill,
-                .smileyFill,
                 .faceid,
                 .film,
                 .filmFill,
@@ -24275,6 +24295,8 @@ public enum SFSymbol: String, CaseIterable {
                 .flameFill,
                 .flashlightOffFill,
                 .flashlightOnFill,
+                .flipHorizontal,
+                .flipHorizontalFill,
                 .florinsignCircle,
                 .florinsignCircleFill,
                 .florinsignSquare,
@@ -24441,8 +24463,8 @@ public enum SFSymbol: String, CaseIterable {
                 .larisignSquare,
                 .larisignSquareFill,
                 .lasso,
-                .leafArrowTriangleCirclepath,
                 .leafArrowCirclepath,
+                .leafArrowTriangleCirclepath,
                 .lessthan,
                 .lessthanCircle,
                 .lessthanCircleFill,
@@ -24558,12 +24580,12 @@ public enum SFSymbol: String, CaseIterable {
                 .multiplyCircleFill,
                 .multiplySquare,
                 .multiplySquareFill,
+                .musicHouse,
+                .musicHouseFill,
                 .musicMic,
                 .musicNote,
                 .musicNoteHouse,
-                .musicHouse,
                 .musicNoteHouseFill,
-                .musicHouseFill,
                 .musicNoteList,
                 .nCircle,
                 .nCircleFill,
@@ -24597,8 +24619,8 @@ public enum SFSymbol: String, CaseIterable {
                 .paperclipCircleFill,
                 .paperplane,
                 .paperplaneFill,
-                .paragraphsign,
                 .paragraph,
+                .paragraphsign,
                 .pause,
                 .pauseCircle,
                 .pauseCircleFill,
@@ -24606,6 +24628,7 @@ public enum SFSymbol: String, CaseIterable {
                 .pauseRectangle,
                 .pauseRectangleFill,
                 .pencil,
+                .pencilAndEllipsisRectangle,
                 .pencilAndOutline,
                 .pencilCircle,
                 .pencilCircleFill,
@@ -24623,20 +24646,22 @@ public enum SFSymbol: String, CaseIterable {
                 .person3,
                 .person3Fill,
                 .personBadgeMinus,
+                .personBadgeMinusFill,
                 .personBadgePlus,
+                .personBadgePlusFill,
                 .personCircle,
                 .personCircleFill,
                 .personCropCircle,
                 .personCropCircleBadgeCheckmark,
-                .personCropCircleBadgeExclamationmark,
                 .personCropCircleBadgeExclam,
+                .personCropCircleBadgeExclamationmark,
                 .personCropCircleBadgeMinus,
                 .personCropCircleBadgePlus,
                 .personCropCircleBadgeXmark,
                 .personCropCircleFill,
                 .personCropCircleFillBadgeCheckmark,
-                .personCropCircleFillBadgeExclamationmark,
                 .personCropCircleFillBadgeExclam,
+                .personCropCircleFillBadgeExclamationmark,
                 .personCropCircleFillBadgeMinus,
                 .personCropCircleFillBadgePlus,
                 .personCropCircleFillBadgeXmark,
@@ -24646,9 +24671,7 @@ public enum SFSymbol: String, CaseIterable {
                 .personCropSquareFill,
                 .personFill,
                 .personFillBadgeMinus,
-                .personBadgeMinusFill,
                 .personFillBadgePlus,
-                .personBadgePlusFill,
                 .personIcloud,
                 .personIcloudFill,
                 .personalhotspot,
@@ -24743,6 +24766,8 @@ public enum SFSymbol: String, CaseIterable {
                 .rCircleFill,
                 .rSquare,
                 .rSquareFill,
+                .radiowavesLeft,
+                .radiowavesRight,
                 .rays,
                 .recordingtape,
                 .rectangle,
@@ -24752,10 +24777,10 @@ public enum SFSymbol: String, CaseIterable {
                 .rectangleAndArrowUpRightAndArrowDownLeftSlash,
                 .rectangleAndPaperclip,
                 .rectangleAndPencilAndEllipsis,
-                .pencilAndEllipsisRectangle,
                 .rectangleBadgeCheckmark,
                 .rectangleBadgeXmark,
                 .rectangleCompressVertical,
+                .rectangleDock,
                 .rectangleExpandVertical,
                 .rectangleFill,
                 .rectangleFillBadgeCheckmark,
@@ -24814,12 +24839,12 @@ public enum SFSymbol: String, CaseIterable {
                 .scribble,
                 .selectionPinInOut,
                 .shekelsignCircle,
-                .sheqelsignCircle,
                 .shekelsignCircleFill,
-                .sheqelsignCircleFill,
                 .shekelsignSquare,
-                .sheqelsignSquare,
                 .shekelsignSquareFill,
+                .sheqelsignCircle,
+                .sheqelsignCircleFill,
+                .sheqelsignSquare,
                 .sheqelsignSquareFill,
                 .shield,
                 .shieldFill,
@@ -24829,9 +24854,7 @@ public enum SFSymbol: String, CaseIterable {
                 .shift,
                 .shiftFill,
                 .shippingbox,
-                .cubeBox,
                 .shippingboxFill,
-                .cubeBoxFill,
                 .shuffle,
                 .sidebarLeft,
                 .sidebarRight,
@@ -24840,7 +24863,6 @@ public enum SFSymbol: String, CaseIterable {
                 .slashCircle,
                 .slashCircleFill,
                 .sleep,
-                .circleBottomthirdSplit,
                 .sliderHorizontal3,
                 .sliderHorizontalBelowRectangle,
                 .slowmo,
@@ -24848,26 +24870,28 @@ public enum SFSymbol: String, CaseIterable {
                 .smallcircleCircleFill,
                 .smallcircleFillCircle,
                 .smallcircleFillCircleFill,
+                .smiley,
+                .smileyFill,
                 .smoke,
                 .smokeFill,
                 .snow,
                 .sparkles,
                 .speaker,
+                .speaker1,
+                .speaker1Fill,
+                .speaker2,
+                .speaker2Fill,
+                .speaker3,
+                .speaker3Fill,
                 .speakerFill,
                 .speakerSlash,
                 .speakerSlashFill,
                 .speakerWave1,
-                .speaker1,
                 .speakerWave1Fill,
-                .speaker1Fill,
                 .speakerWave2,
-                .speaker2,
                 .speakerWave2Fill,
-                .speaker2Fill,
                 .speakerWave3,
-                .speaker3,
                 .speakerWave3Fill,
-                .speaker3Fill,
                 .speakerZzz,
                 .speakerZzzFill,
                 .speedometer,
@@ -24906,10 +24930,10 @@ public enum SFSymbol: String, CaseIterable {
                 .squareSplit2x2,
                 .squareSplit2x2Fill,
                 .squareStack,
+                .squareStack3dDownDottedline,
                 .squareStack3dDownRight,
                 .squareStack3dDownRightFill,
                 .squareStack3dForwardDottedline,
-                .squareStack3dDownDottedline,
                 .squareStack3dUp,
                 .squareStack3dUpFill,
                 .squareStack3dUpSlash,
@@ -24965,14 +24989,14 @@ public enum SFSymbol: String, CaseIterable {
                 .tCircleFill,
                 .tSquare,
                 .tSquareFill,
-                .tablecells,
                 .table,
-                .tablecellsBadgeEllipsis,
                 .tableBadgeMore,
-                .tablecellsBadgeEllipsisFill,
                 .tableBadgeMoreFill,
-                .tablecellsFill,
                 .tableFill,
+                .tablecells,
+                .tablecellsBadgeEllipsis,
+                .tablecellsBadgeEllipsisFill,
+                .tablecellsFill,
                 .tag,
                 .tagCircle,
                 .tagCircleFill,
@@ -25068,11 +25092,11 @@ public enum SFSymbol: String, CaseIterable {
                 .vSquareFill,
                 .video,
                 .videoBadgePlus,
+                .videoBadgePlusFill,
                 .videoCircle,
                 .videoCircleFill,
                 .videoFill,
                 .videoFillBadgePlus,
-                .videoBadgePlusFill,
                 .videoSlash,
                 .videoSlashFill,
                 .view2d,
@@ -25089,9 +25113,7 @@ public enum SFSymbol: String, CaseIterable {
                 .wandAndStars,
                 .wandAndStarsInverse,
                 .wave3Left,
-                .radiowavesLeft,
                 .wave3Right,
-                .radiowavesRight,
                 .waveform,
                 .waveformCircle,
                 .waveformCircleFill,
@@ -25117,9 +25139,7 @@ public enum SFSymbol: String, CaseIterable {
                 .xSquareroot,
                 .xmark,
                 .xmarkBin,
-                .binXmark,
                 .xmarkBinFill,
-                .binXmarkFill,
                 .xmarkCircle,
                 .xmarkCircleFill,
                 .xmarkIcloud,

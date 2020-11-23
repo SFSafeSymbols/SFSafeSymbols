@@ -17,6 +17,7 @@ struct Symbol {
 
 /// The type representing a symbol enum case
 struct SymbolEnumCase {
+    var name: String
     var caseName: String
     var nameVersions: [Availability: String]
     var canOnlyReferTo: String?

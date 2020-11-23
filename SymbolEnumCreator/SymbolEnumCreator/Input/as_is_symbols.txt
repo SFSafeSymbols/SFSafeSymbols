@@ -1,6 +1,7 @@
 //
 // Retrieved via https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/
-// Updated on October 8 2020
+// As that list isn't always up-to-date; some information was also retrieved via the SFSymbols app
+// Updated on November 23 2020
 //
 
 "airplayaudio" = "AirPlay";
@@ -61,13 +62,21 @@
 "icloud.slash" = "iCloud service";
 "icloud.slash.fill" = "iCloud service";
 "ipad" = "iPad";
+"ipad.badge.play" = "iPad";
 "ipad.homebutton" = "iPad";
+"ipad.homebutton.badge.play" = "iPad";
 "ipad.homebutton.landscape" = "iPad";
+"ipad.homebutton.landscape.badge.play" = "iPad";
 "ipad.landscape" = "iPad";
+"ipad.landscape.badge.play" = "iPad";
 "iphone" = "iPhone";
+"iphone.badge.play" = "iPhone";
 "iphone.homebutton" = "iPhone";
+"iphone.homebutton.badge.play" = "iPhone";
+"iphone.homebutton.landscape" = "iPhone";
 "iphone.homebutton.radiowaves.left.and.right" = "iPhone";
 "iphone.homebutton.slash" = "iPhone";
+"iphone.landscape" = "iPhone";
 "iphone.radiowaves.left.and.right" = "iPhone";
 "iphone.slash" = "iPhone";
 "ipod" = "iPod";
@@ -76,6 +85,7 @@
 "ipodshuffle.gen3" = "iPod shuffle";
 "ipodshuffle.gen4" = "iPod shuffle";
 "ipodtouch" = "iPod touch";
+"ipodtouch.landscape" = "iPod touch";
 "key.icloud" = "iCloud service";
 "key.icloud.fill" = "iCloud service";
 "laptopcomputer.and.iphone" = "iPhone";
@@ -85,6 +95,7 @@
 "livephoto.badge.a" = "Live Photos feature";
 "livephoto.play" = "Live Photos feature";
 "livephoto.slash" = "Live Photos feature";
+"lock.applewatch" = "Apple Watch";
 "lock.icloud" = "iCloud service";
 "lock.icloud.fill" = "iCloud service";
 "macmini" = "Mac mini";
