@@ -18,6 +18,20 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - None
 
+## [2.1.1] - 2020-12-13
+
+### Added
+
+- Add dynamic target (By [noppefoxwolf](https://github.com/noppefoxwolf))
+
+### Changed
+
+- None
+
+### Fixed
+
+- None
+
 ## [2.1.0] - 2020-11-24
 
 ### Added
