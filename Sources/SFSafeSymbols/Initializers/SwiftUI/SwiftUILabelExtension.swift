@@ -17,6 +17,7 @@ public extension Label where Title == Text, Icon == Image {
     /// string.
     ///
     /// - Parameter systemSymbol: The `SFSymbol` describing this image.
+    @_disfavoredOverload
     init<S>(_ title: S, systemSymbol: SFSymbol) where S : StringProtocol {
         self.init(title, systemImage: systemSymbol.rawValue)
     }
