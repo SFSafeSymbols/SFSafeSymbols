@@ -16,7 +16,22 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Fixed
 
+- None
+
+## [2.1.2] - 2021-02-18
+
+### Added
+
+- None
+
+### Changed
+
+- None
+
+### Fixed
+
 - Mark UIImage extension initializers as available for watchOS (By [Tomas Franzén](https://github.com/tomasf))
+- Fix `Label.init(_:systemImage:)` type inference issue (By [ddddxxx](https://github.com/ddddxxx))
 
 ## [2.1.1] - 2020-12-13
 
