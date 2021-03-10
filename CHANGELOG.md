@@ -16,7 +16,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Fixed
 
-- None
+- Fix App Store submission bug. (By [Yonas Kolb](https://github.com/yonaskolb))
+- Fix wrong path to the test files that prevented the use of `swift build`. (By [Frederick Pietschmann](https://github.com/fredpi))
 
 ## [2.1.2] - 2021-02-18
 
