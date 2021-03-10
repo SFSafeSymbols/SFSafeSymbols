@@ -87,6 +87,16 @@
 			path = SFSafeSymbols;
 			sourceTree = "<group>";
 		};
+		CCA564F525F95CA300429C7B /* SFSafeSymbolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCD05B252F7F8300C7CE9F /* AppKit */,
+				CCCCD034252F62D400C7CE9F /* SwiftUI */,
+				CCCCD039252F62DB00C7CE9F /* UIKit */,
+			);
+			path = SFSafeSymbolsTests;
+			sourceTree = "<group>";
+		};
 		CCCCCFE3252F61E700C7CE9F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,9 +145,7 @@
 		CCCCD010252F622B00C7CE9F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				CCCCD05B252F7F8300C7CE9F /* AppKit */,
-				CCCCD034252F62D400C7CE9F /* SwiftUI */,
-				CCCCD039252F62DB00C7CE9F /* UIKit */,
+				CCA564F525F95CA300429C7B /* SFSafeSymbolsTests */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
