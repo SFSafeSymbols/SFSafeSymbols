@@ -5,13 +5,27 @@ import Foundation
 print("⏳ GENERATING...")
 
 guard
-    let symbolManifest = FileReader.read(file: "name_availability.plist").flatMap(SymbolManifestParser.parse),
-    var nameAliases = FileReader.read(file: "name_aliases_strings.txt").flatMap(StringEqualityFileParser.parse),
-    let legacyAliases = FileReader.read(file: "legacy_aliases_strings.txt").flatMap(StringEqualityFileParser.parse),
-    let asIsSymbols = FileReader.read(file: "as_is_symbols.txt").flatMap(StringEqualityFileParser.parse),
-    let localizationSuffixes = FileReader.read(file: "localization_suffixes.txt").flatMap(StringEqualityFileParser.parse),
-    let symbolNames = FileReader.read(file: "symbol_names.txt").flatMap(SymbolNamesFileParser.parse),
-    let symbolPreviews = FileReader.read(file: "symbol_previews.txt").flatMap(SymbolPreviewsFileParser.parse)
+    let symbolManifest = FileReader
+        .read(file: "name_availability", withExtension: "plist")
+        .flatMap(SymbolManifestParser.parse),
+    var nameAliases = FileReader
+        .read(file: "name_aliases_strings", withExtension: "txt")
+        .flatMap(StringEqualityFileParser.parse),
+    let legacyAliases = FileReader
+        .read(file: "legacy_aliases_strings", withExtension: "txt")
+        .flatMap(StringEqualityFileParser.parse),
+    let asIsSymbols = FileReader
+        .read(file: "as_is_symbols", withExtension: "txt")
+        .flatMap(StringEqualityFileParser.parse),
+    let localizationSuffixes = FileReader
+        .read(file: "localization_suffixes", withExtension: "txt")
+        .flatMap(StringEqualityFileParser.parse),
+    let symbolNames = FileReader
+        .read(file: "symbol_names", withExtension: "txt")
+        .flatMap(SymbolNamesFileParser.parse),
+    let symbolPreviews = FileReader
+        .read(file: "symbol_previews", withExtension: "txt")
+        .flatMap(SymbolPreviewsFileParser.parse)
 else {
     fatalError("Error reading input files")
 }
