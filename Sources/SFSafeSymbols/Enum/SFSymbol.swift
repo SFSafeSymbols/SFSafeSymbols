@@ -4,1047 +4,1047 @@
 public enum SFSymbol: String, CaseIterable {
     /// 􀀸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _0Circle
+    case _0Circle = "0.circle"
 
     /// 􀀹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _0CircleFill
+    case _0CircleFill = "0.circle.fill"
 
     /// 􀃈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _0Square
+    case _0Square = "0.square"
 
     /// 􀃉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _0SquareFill
+    case _0SquareFill = "0.square.fill"
 
     /// 􀓫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _00Circle
+    case _00Circle = "00.circle"
 
     /// 􀔊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _00CircleFill
+    case _00CircleFill = "00.circle.fill"
 
     /// 􀔩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _00Square
+    case _00Square = "00.square"
 
     /// 􀕈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _00SquareFill
+    case _00SquareFill = "00.square.fill"
 
     /// 􀓬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _01Circle
+    case _01Circle = "01.circle"
 
     /// 􀔋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _01CircleFill
+    case _01CircleFill = "01.circle.fill"
 
     /// 􀔪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _01Square
+    case _01Square = "01.square"
 
     /// 􀕉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _01SquareFill
+    case _01SquareFill = "01.square.fill"
 
     /// 􀓭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _02Circle
+    case _02Circle = "02.circle"
 
     /// 􀔌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _02CircleFill
+    case _02CircleFill = "02.circle.fill"
 
     /// 􀔫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _02Square
+    case _02Square = "02.square"
 
     /// 􀕊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _02SquareFill
+    case _02SquareFill = "02.square.fill"
 
     /// 􀓮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _03Circle
+    case _03Circle = "03.circle"
 
     /// 􀔍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _03CircleFill
+    case _03CircleFill = "03.circle.fill"
 
     /// 􀔬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _03Square
+    case _03Square = "03.square"
 
     /// 􀕋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _03SquareFill
+    case _03SquareFill = "03.square.fill"
 
     /// 􀓯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _04Circle
+    case _04Circle = "04.circle"
 
     /// 􀔎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _04CircleFill
+    case _04CircleFill = "04.circle.fill"
 
     /// 􀔭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _04Square
+    case _04Square = "04.square"
 
     /// 􀕌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _04SquareFill
+    case _04SquareFill = "04.square.fill"
 
     /// 􀓰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _05Circle
+    case _05Circle = "05.circle"
 
     /// 􀔏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _05CircleFill
+    case _05CircleFill = "05.circle.fill"
 
     /// 􀔮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _05Square
+    case _05Square = "05.square"
 
     /// 􀕍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _05SquareFill
+    case _05SquareFill = "05.square.fill"
 
     /// 􀓱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _06Circle
+    case _06Circle = "06.circle"
 
     /// 􀔐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _06CircleFill
+    case _06CircleFill = "06.circle.fill"
 
     /// 􀔯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _06Square
+    case _06Square = "06.square"
 
     /// 􀕎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _06SquareFill
+    case _06SquareFill = "06.square.fill"
 
     /// 􀓲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _07Circle
+    case _07Circle = "07.circle"
 
     /// 􀔑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _07CircleFill
+    case _07CircleFill = "07.circle.fill"
 
     /// 􀔰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _07Square
+    case _07Square = "07.square"
 
     /// 􀕏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _07SquareFill
+    case _07SquareFill = "07.square.fill"
 
     /// 􀓳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _08Circle
+    case _08Circle = "08.circle"
 
     /// 􀔒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _08CircleFill
+    case _08CircleFill = "08.circle.fill"
 
     /// 􀔱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _08Square
+    case _08Square = "08.square"
 
     /// 􀕐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _08SquareFill
+    case _08SquareFill = "08.square.fill"
 
     /// 􀓴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _09Circle
+    case _09Circle = "09.circle"
 
     /// 􀔓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _09CircleFill
+    case _09CircleFill = "09.circle.fill"
 
     /// 􀔲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _09Square
+    case _09Square = "09.square"
 
     /// 􀕑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _09SquareFill
+    case _09SquareFill = "09.square.fill"
 
     /// 􀀺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _1Circle
+    case _1Circle = "1.circle"
 
     /// 􀀻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _1CircleFill
+    case _1CircleFill = "1.circle.fill"
 
     /// 􀊮
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _1Magnifyingglass
+    case _1Magnifyingglass = "1.magnifyingglass"
 
     /// 􀃊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _1Square
+    case _1Square = "1.square"
 
     /// 􀃋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _1SquareFill
+    case _1SquareFill = "1.square.fill"
 
     /// 􀓵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _10Circle
+    case _10Circle = "10.circle"
 
     /// 􀔔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _10CircleFill
+    case _10CircleFill = "10.circle.fill"
 
     /// 􀔳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _10Square
+    case _10Square = "10.square"
 
     /// 􀕒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _10SquareFill
+    case _10SquareFill = "10.square.fill"
 
     /// 􀓶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _11Circle
+    case _11Circle = "11.circle"
 
     /// 􀔕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _11CircleFill
+    case _11CircleFill = "11.circle.fill"
 
     /// 􀔴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _11Square
+    case _11Square = "11.square"
 
     /// 􀕓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _11SquareFill
+    case _11SquareFill = "11.square.fill"
 
     /// 􀓷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _12Circle
+    case _12Circle = "12.circle"
 
     /// 􀔖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _12CircleFill
+    case _12CircleFill = "12.circle.fill"
 
     /// 􀔵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _12Square
+    case _12Square = "12.square"
 
     /// 􀕔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _12SquareFill
+    case _12SquareFill = "12.square.fill"
 
     /// 􀓸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _13Circle
+    case _13Circle = "13.circle"
 
     /// 􀔗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _13CircleFill
+    case _13CircleFill = "13.circle.fill"
 
     /// 􀔶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _13Square
+    case _13Square = "13.square"
 
     /// 􀕕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _13SquareFill
+    case _13SquareFill = "13.square.fill"
 
     /// 􀓹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _14Circle
+    case _14Circle = "14.circle"
 
     /// 􀔘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _14CircleFill
+    case _14CircleFill = "14.circle.fill"
 
     /// 􀔷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _14Square
+    case _14Square = "14.square"
 
     /// 􀕖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _14SquareFill
+    case _14SquareFill = "14.square.fill"
 
     /// 􀓺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _15Circle
+    case _15Circle = "15.circle"
 
     /// 􀔙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _15CircleFill
+    case _15CircleFill = "15.circle.fill"
 
     /// 􀔸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _15Square
+    case _15Square = "15.square"
 
     /// 􀕗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _15SquareFill
+    case _15SquareFill = "15.square.fill"
 
     /// 􀓻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _16Circle
+    case _16Circle = "16.circle"
 
     /// 􀔚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _16CircleFill
+    case _16CircleFill = "16.circle.fill"
 
     /// 􀔹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _16Square
+    case _16Square = "16.square"
 
     /// 􀕘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _16SquareFill
+    case _16SquareFill = "16.square.fill"
 
     /// 􀓼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _17Circle
+    case _17Circle = "17.circle"
 
     /// 􀔛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _17CircleFill
+    case _17CircleFill = "17.circle.fill"
 
     /// 􀔺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _17Square
+    case _17Square = "17.square"
 
     /// 􀕙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _17SquareFill
+    case _17SquareFill = "17.square.fill"
 
     /// 􀓽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _18Circle
+    case _18Circle = "18.circle"
 
     /// 􀔜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _18CircleFill
+    case _18CircleFill = "18.circle.fill"
 
     /// 􀔻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _18Square
+    case _18Square = "18.square"
 
     /// 􀕚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _18SquareFill
+    case _18SquareFill = "18.square.fill"
 
     /// 􀓾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _19Circle
+    case _19Circle = "19.circle"
 
     /// 􀔝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _19CircleFill
+    case _19CircleFill = "19.circle.fill"
 
     /// 􀔼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _19Square
+    case _19Square = "19.square"
 
     /// 􀕛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _19SquareFill
+    case _19SquareFill = "19.square.fill"
 
     /// 􀀼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _2Circle
+    case _2Circle = "2.circle"
 
     /// 􀀽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _2CircleFill
+    case _2CircleFill = "2.circle.fill"
 
     /// 􀃌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _2Square
+    case _2Square = "2.square"
 
     /// 􀃍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _2SquareFill
+    case _2SquareFill = "2.square.fill"
 
     /// 􀓿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _20Circle
+    case _20Circle = "20.circle"
 
     /// 􀔞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _20CircleFill
+    case _20CircleFill = "20.circle.fill"
 
     /// 􀔽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _20Square
+    case _20Square = "20.square"
 
     /// 􀕜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _20SquareFill
+    case _20SquareFill = "20.square.fill"
 
     /// 􀔀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _21Circle
+    case _21Circle = "21.circle"
 
     /// 􀔟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _21CircleFill
+    case _21CircleFill = "21.circle.fill"
 
     /// 􀔾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _21Square
+    case _21Square = "21.square"
 
     /// 􀕝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _21SquareFill
+    case _21SquareFill = "21.square.fill"
 
     /// 􀔁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _22Circle
+    case _22Circle = "22.circle"
 
     /// 􀔠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _22CircleFill
+    case _22CircleFill = "22.circle.fill"
 
     /// 􀔿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _22Square
+    case _22Square = "22.square"
 
     /// 􀕞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _22SquareFill
+    case _22SquareFill = "22.square.fill"
 
     /// 􀔂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _23Circle
+    case _23Circle = "23.circle"
 
     /// 􀔡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _23CircleFill
+    case _23CircleFill = "23.circle.fill"
 
     /// 􀕀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _23Square
+    case _23Square = "23.square"
 
     /// 􀕟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _23SquareFill
+    case _23SquareFill = "23.square.fill"
 
     /// 􀔃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _24Circle
+    case _24Circle = "24.circle"
 
     /// 􀔢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _24CircleFill
+    case _24CircleFill = "24.circle.fill"
 
     /// 􀕁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _24Square
+    case _24Square = "24.square"
 
     /// 􀕠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _24SquareFill
+    case _24SquareFill = "24.square.fill"
 
     /// 􀔄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _25Circle
+    case _25Circle = "25.circle"
 
     /// 􀔣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _25CircleFill
+    case _25CircleFill = "25.circle.fill"
 
     /// 􀕂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _25Square
+    case _25Square = "25.square"
 
     /// 􀕡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _25SquareFill
+    case _25SquareFill = "25.square.fill"
 
     /// 􀔅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _26Circle
+    case _26Circle = "26.circle"
 
     /// 􀔤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _26CircleFill
+    case _26CircleFill = "26.circle.fill"
 
     /// 􀕃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _26Square
+    case _26Square = "26.square"
 
     /// 􀕢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _26SquareFill
+    case _26SquareFill = "26.square.fill"
 
     /// 􀔆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _27Circle
+    case _27Circle = "27.circle"
 
     /// 􀔥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _27CircleFill
+    case _27CircleFill = "27.circle.fill"
 
     /// 􀕄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _27Square
+    case _27Square = "27.square"
 
     /// 􀕣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _27SquareFill
+    case _27SquareFill = "27.square.fill"
 
     /// 􀔇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _28Circle
+    case _28Circle = "28.circle"
 
     /// 􀔦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _28CircleFill
+    case _28CircleFill = "28.circle.fill"
 
     /// 􀕅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _28Square
+    case _28Square = "28.square"
 
     /// 􀕤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _28SquareFill
+    case _28SquareFill = "28.square.fill"
 
     /// 􀔈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _29Circle
+    case _29Circle = "29.circle"
 
     /// 􀔧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _29CircleFill
+    case _29CircleFill = "29.circle.fill"
 
     /// 􀕆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _29Square
+    case _29Square = "29.square"
 
     /// 􀕥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _29SquareFill
+    case _29SquareFill = "29.square.fill"
 
     /// 􀀾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _3Circle
+    case _3Circle = "3.circle"
 
     /// 􀀿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _3CircleFill
+    case _3CircleFill = "3.circle.fill"
 
     /// 􀃎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _3Square
+    case _3Square = "3.square"
 
     /// 􀃏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _3SquareFill
+    case _3SquareFill = "3.square.fill"
 
     /// 􀔉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _30Circle
+    case _30Circle = "30.circle"
 
     /// 􀔨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _30CircleFill
+    case _30CircleFill = "30.circle.fill"
 
     /// 􀕇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _30Square
+    case _30Square = "30.square"
 
     /// 􀕦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _30SquareFill
+    case _30SquareFill = "30.square.fill"
 
     /// 􀘠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _31Circle
+    case _31Circle = "31.circle"
 
     /// 􀘡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _31CircleFill
+    case _31CircleFill = "31.circle.fill"
 
     /// 􀘢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _31Square
+    case _31Square = "31.square"
 
     /// 􀘣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _31SquareFill
+    case _31SquareFill = "31.square.fill"
 
     /// 􀚗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _32Circle
+    case _32Circle = "32.circle"
 
     /// 􀚘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _32CircleFill
+    case _32CircleFill = "32.circle.fill"
 
     /// 􀚽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _32Square
+    case _32Square = "32.square"
 
     /// 􀚾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _32SquareFill
+    case _32SquareFill = "32.square.fill"
 
     /// 􀚙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _33Circle
+    case _33Circle = "33.circle"
 
     /// 􀚚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _33CircleFill
+    case _33CircleFill = "33.circle.fill"
 
     /// 􀚿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _33Square
+    case _33Square = "33.square"
 
     /// 􀛀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _33SquareFill
+    case _33SquareFill = "33.square.fill"
 
     /// 􀚛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _34Circle
+    case _34Circle = "34.circle"
 
     /// 􀚜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _34CircleFill
+    case _34CircleFill = "34.circle.fill"
 
     /// 􀛁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _34Square
+    case _34Square = "34.square"
 
     /// 􀛂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _34SquareFill
+    case _34SquareFill = "34.square.fill"
 
     /// 􀚝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _35Circle
+    case _35Circle = "35.circle"
 
     /// 􀚞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _35CircleFill
+    case _35CircleFill = "35.circle.fill"
 
     /// 􀛃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _35Square
+    case _35Square = "35.square"
 
     /// 􀛄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _35SquareFill
+    case _35SquareFill = "35.square.fill"
 
     /// 􀚟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _36Circle
+    case _36Circle = "36.circle"
 
     /// 􀚠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _36CircleFill
+    case _36CircleFill = "36.circle.fill"
 
     /// 􀛅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _36Square
+    case _36Square = "36.square"
 
     /// 􀛆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _36SquareFill
+    case _36SquareFill = "36.square.fill"
 
     /// 􀚡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _37Circle
+    case _37Circle = "37.circle"
 
     /// 􀚢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _37CircleFill
+    case _37CircleFill = "37.circle.fill"
 
     /// 􀛇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _37Square
+    case _37Square = "37.square"
 
     /// 􀛈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _37SquareFill
+    case _37SquareFill = "37.square.fill"
 
     /// 􀚣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _38Circle
+    case _38Circle = "38.circle"
 
     /// 􀚤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _38CircleFill
+    case _38CircleFill = "38.circle.fill"
 
     /// 􀛉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _38Square
+    case _38Square = "38.square"
 
     /// 􀛊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _38SquareFill
+    case _38SquareFill = "38.square.fill"
 
     /// 􀚥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _39Circle
+    case _39Circle = "39.circle"
 
     /// 􀚦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _39CircleFill
+    case _39CircleFill = "39.circle.fill"
 
     /// 􀛋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _39Square
+    case _39Square = "39.square"
 
     /// 􀛌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _39SquareFill
+    case _39SquareFill = "39.square.fill"
 
     /// 􀘗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _4AltCircle
+    case _4AltCircle = "4.alt.circle"
 
     /// 􀘘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _4AltCircleFill
+    case _4AltCircleFill = "4.alt.circle.fill"
 
     /// 􀘙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _4AltSquare
+    case _4AltSquare = "4.alt.square"
 
     /// 􀘚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _4AltSquareFill
+    case _4AltSquareFill = "4.alt.square.fill"
 
     /// 􀁀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _4Circle
+    case _4Circle = "4.circle"
 
     /// 􀁁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _4CircleFill
+    case _4CircleFill = "4.circle.fill"
 
     /// 􀃐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _4Square
+    case _4Square = "4.square"
 
     /// 􀃑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _4SquareFill
+    case _4SquareFill = "4.square.fill"
 
     /// 􀚧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _40Circle
+    case _40Circle = "40.circle"
 
     /// 􀚨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _40CircleFill
+    case _40CircleFill = "40.circle.fill"
 
     /// 􀛍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _40Square
+    case _40Square = "40.square"
 
     /// 􀛎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _40SquareFill
+    case _40SquareFill = "40.square.fill"
 
     /// 􀚩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _41Circle
+    case _41Circle = "41.circle"
 
     /// 􀚪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _41CircleFill
+    case _41CircleFill = "41.circle.fill"
 
     /// 􀛏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _41Square
+    case _41Square = "41.square"
 
     /// 􀛐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _41SquareFill
+    case _41SquareFill = "41.square.fill"
 
     /// 􀚫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _42Circle
+    case _42Circle = "42.circle"
 
     /// 􀚬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _42CircleFill
+    case _42CircleFill = "42.circle.fill"
 
     /// 􀛑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _42Square
+    case _42Square = "42.square"
 
     /// 􀛒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _42SquareFill
+    case _42SquareFill = "42.square.fill"
 
     /// 􀚭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _43Circle
+    case _43Circle = "43.circle"
 
     /// 􀚮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _43CircleFill
+    case _43CircleFill = "43.circle.fill"
 
     /// 􀛓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _43Square
+    case _43Square = "43.square"
 
     /// 􀛔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _43SquareFill
+    case _43SquareFill = "43.square.fill"
 
     /// 􀚯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _44Circle
+    case _44Circle = "44.circle"
 
     /// 􀚰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _44CircleFill
+    case _44CircleFill = "44.circle.fill"
 
     /// 􀛕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _44Square
+    case _44Square = "44.square"
 
     /// 􀛖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _44SquareFill
+    case _44SquareFill = "44.square.fill"
 
     /// 􀚱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _45Circle
+    case _45Circle = "45.circle"
 
     /// 􀚲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _45CircleFill
+    case _45CircleFill = "45.circle.fill"
 
     /// 􀛗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _45Square
+    case _45Square = "45.square"
 
     /// 􀛘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _45SquareFill
+    case _45SquareFill = "45.square.fill"
 
     /// 􀚳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _46Circle
+    case _46Circle = "46.circle"
 
     /// 􀚴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _46CircleFill
+    case _46CircleFill = "46.circle.fill"
 
     /// 􀛙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _46Square
+    case _46Square = "46.square"
 
     /// 􀛚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _46SquareFill
+    case _46SquareFill = "46.square.fill"
 
     /// 􀚵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _47Circle
+    case _47Circle = "47.circle"
 
     /// 􀚶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _47CircleFill
+    case _47CircleFill = "47.circle.fill"
 
     /// 􀛛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _47Square
+    case _47Square = "47.square"
 
     /// 􀛜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _47SquareFill
+    case _47SquareFill = "47.square.fill"
 
     /// 􀚷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _48Circle
+    case _48Circle = "48.circle"
 
     /// 􀚸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _48CircleFill
+    case _48CircleFill = "48.circle.fill"
 
     /// 􀛝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _48Square
+    case _48Square = "48.square"
 
     /// 􀛞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _48SquareFill
+    case _48SquareFill = "48.square.fill"
 
     /// 􀚹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _49Circle
+    case _49Circle = "49.circle"
 
     /// 􀚺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _49CircleFill
+    case _49CircleFill = "49.circle.fill"
 
     /// 􀛟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _49Square
+    case _49Square = "49.square"
 
     /// 􀛠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _49SquareFill
+    case _49SquareFill = "49.square.fill"
 
     /// 􀦽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case _4kTv
+    case _4kTv = "4k.tv"
 
     /// 􀦾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case _4kTvFill
+    case _4kTvFill = "4k.tv.fill"
 
     /// 􀁂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _5Circle
+    case _5Circle = "5.circle"
 
     /// 􀁃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _5CircleFill
+    case _5CircleFill = "5.circle.fill"
 
     /// 􀃒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _5Square
+    case _5Square = "5.square"
 
     /// 􀃓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _5SquareFill
+    case _5SquareFill = "5.square.fill"
 
     /// 􀚻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _50Circle
+    case _50Circle = "50.circle"
 
     /// 􀚼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _50CircleFill
+    case _50CircleFill = "50.circle.fill"
 
     /// 􀛡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _50Square
+    case _50Square = "50.square"
 
     /// 􀛢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _50SquareFill
+    case _50SquareFill = "50.square.fill"
 
     /// 􀑱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _6AltCircle
+    case _6AltCircle = "6.alt.circle"
 
     /// 􀑲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _6AltCircleFill
+    case _6AltCircleFill = "6.alt.circle.fill"
 
     /// 􀑵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _6AltSquare
+    case _6AltSquare = "6.alt.square"
 
     /// 􀑶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _6AltSquareFill
+    case _6AltSquareFill = "6.alt.square.fill"
 
     /// 􀁄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _6Circle
+    case _6Circle = "6.circle"
 
     /// 􀁅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _6CircleFill
+    case _6CircleFill = "6.circle.fill"
 
     /// 􀃔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _6Square
+    case _6Square = "6.square"
 
     /// 􀃕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _6SquareFill
+    case _6SquareFill = "6.square.fill"
 
     /// 􀁆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _7Circle
+    case _7Circle = "7.circle"
 
     /// 􀁇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _7CircleFill
+    case _7CircleFill = "7.circle.fill"
 
     /// 􀃖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _7Square
+    case _7Square = "7.square"
 
     /// 􀃗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _7SquareFill
+    case _7SquareFill = "7.square.fill"
 
     /// 􀁈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _8Circle
+    case _8Circle = "8.circle"
 
     /// 􀁉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _8CircleFill
+    case _8CircleFill = "8.circle.fill"
 
     /// 􀃘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _8Square
+    case _8Square = "8.square"
 
     /// 􀃙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _8SquareFill
+    case _8SquareFill = "8.square.fill"
 
     /// 􀑳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _9AltCircle
+    case _9AltCircle = "9.alt.circle"
 
     /// 􀑴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _9AltCircleFill
+    case _9AltCircleFill = "9.alt.circle.fill"
 
     /// 􀑷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _9AltSquare
+    case _9AltSquare = "9.alt.square"
 
     /// 􀑸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _9AltSquareFill
+    case _9AltSquareFill = "9.alt.square.fill"
 
     /// 􀁊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _9Circle
+    case _9Circle = "9.circle"
 
     /// 􀁋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _9CircleFill
+    case _9CircleFill = "9.circle.fill"
 
     /// 􀃚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _9Square
+    case _9Square = "9.square"
 
     /// 􀃛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case _9SquareFill
+    case _9SquareFill = "9.square.fill"
 
     /// 􀅏
     @available(iOS, introduced: 13.0, deprecated: 14.2, renamed: "character")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "character")
     @available(tvOS, introduced: 13.0, deprecated: 14.2, renamed: "character")
     @available(watchOS, introduced: 6.0, deprecated: 7.1, renamed: "character")
-    case a
+    case a = "a"
 
     /// 􀫕
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
@@ -1052,7 +1052,7 @@ public enum SFSymbol: String, CaseIterable {
     @available(macOS, introduced: 11.0, deprecated: 11.0, renamed: "characterBookClosed")
     @available(tvOS, introduced: 14.0, deprecated: 14.2, renamed: "characterBookClosed")
     @available(watchOS, introduced: 7.0, deprecated: 7.1, renamed: "characterBookClosed")
-    case aBookClosed
+    case aBookClosed = "a.book.closed"
 
     /// 􀫖
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
@@ -1060,9622 +1060,9622 @@ public enum SFSymbol: String, CaseIterable {
     @available(macOS, introduced: 11.0, deprecated: 11.0, renamed: "characterBookClosedFill")
     @available(tvOS, introduced: 14.0, deprecated: 14.2, renamed: "characterBookClosedFill")
     @available(watchOS, introduced: 7.0, deprecated: 7.1, renamed: "characterBookClosedFill")
-    case aBookClosedFill
+    case aBookClosedFill = "a.book.closed.fill"
 
     /// 􀀄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case aCircle
+    case aCircle = "a.circle"
 
     /// 􀀅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case aCircleFill
+    case aCircleFill = "a.circle.fill"
 
     /// 􀤍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case aMagnify
+    case aMagnify = "a.magnify"
 
     /// 􀂔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case aSquare
+    case aSquare = "a.square"
 
     /// 􀂕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case aSquareFill
+    case aSquareFill = "a.square.fill"
 
     /// 􀥊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case abc
+    case abc = "abc"
 
     /// 􀑓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case airplane
+    case airplane = "airplane"
 
     /// 􀒸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case airplaneCircle
+    case airplaneCircle = "airplane.circle"
 
     /// 􀒹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case airplaneCircleFill
+    case airplaneCircleFill = "airplane.circle.fill"
 
     /// 􀑢
     /// ⚠️ This symbol can refer only to Apple's AirPlay.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case airplayaudio
+    case airplayaudio = "airplayaudio"
 
     /// 􀑡
     /// ⚠️ This symbol can refer only to Apple's AirPlay.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case airplayvideo
+    case airplayvideo = "airplayvideo"
 
     /// 􀲌
     /// ⚠️ This symbol can refer only to Apple's AirPods.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case airpodLeft
+    case airpodLeft = "airpod.left"
 
     /// 􀲋
     /// ⚠️ This symbol can refer only to Apple's AirPods.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case airpodRight
+    case airpodRight = "airpod.right"
 
     /// 􀲎
     /// ⚠️ This symbol can refer only to Apple's AirPods Pro.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case airpodproLeft
+    case airpodproLeft = "airpodpro.left"
 
     /// 􀲍
     /// ⚠️ This symbol can refer only to Apple's AirPods Pro.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case airpodproRight
+    case airpodproRight = "airpodpro.right"
 
     /// 􀟥
     /// ⚠️ This symbol can refer only to Apple's AirPods.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case airpods
+    case airpods = "airpods"
 
     /// 􀪷
     /// ⚠️ This symbol can refer only to Apple's AirPods Pro.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case airpodspro
+    case airpodspro = "airpodspro"
 
     /// 􀦯
     /// ⚠️ This symbol can refer only to Apple's AirPort Express.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case airportExpress
+    case airportExpress = "airport.express"
 
     /// 􀑝
     /// ⚠️ This symbol can refer only to Apple's AirPort Extreme.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case airportExtreme
+    case airportExtreme = "airport.extreme"
 
     /// 􀦰
     /// ⚠️ This symbol can refer only to Apple's AirPort Extreme.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case airportExtremeTower
+    case airportExtremeTower = "airport.extreme.tower"
 
     /// 􀐭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case alarm
+    case alarm = "alarm"
 
     /// 􀐮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case alarmFill
+    case alarmFill = "alarm.fill"
 
     /// 􀆖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case alt
+    case alt = "alt"
 
     /// 􀧰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case amplifier
+    case amplifier = "amplifier"
 
     /// 􀌚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case ant
+    case ant = "ant"
 
     /// 􀌜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case antCircle
+    case antCircle = "ant.circle"
 
     /// 􀌝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case antCircleFill
+    case antCircleFill = "ant.circle.fill"
 
     /// 􀌛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case antFill
+    case antFill = "ant.fill"
 
     /// 􀖀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case antennaRadiowavesLeftAndRight
+    case antennaRadiowavesLeftAndRight = "antenna.radiowaves.left.and.right"
 
     /// 􀑋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case app
+    case app = "app"
 
     /// 􀑏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case appBadge
+    case appBadge = "app.badge"
 
     /// 􀑐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case appBadgeFill
+    case appBadgeFill = "app.badge.fill"
 
     /// 􀑌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case appFill
+    case appFill = "app.fill"
 
     /// 􀑑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case appGift
+    case appGift = "app.gift"
 
     /// 􀑒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case appGiftFill
+    case appGiftFill = "app.gift.fill"
 
     /// 􀭨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case appclip
+    case appclip = "appclip"
 
     /// 􀣺
     /// ⚠️ This symbol can refer only to Apple's Sign in with Apple.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case applelogo
+    case applelogo = "applelogo"
 
     /// 􀤭
     /// ⚠️ This symbol can refer only to Apple's AppleScript language.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case applescript
+    case applescript = "applescript"
 
     /// 􀤮
     /// ⚠️ This symbol can refer only to Apple's AppleScript language.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case applescriptFill
+    case applescriptFill = "applescript.fill"
 
     /// 􀨫
     /// ⚠️ This symbol can refer only to Apple's Apple TV.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case appletv
+    case appletv = "appletv"
 
     /// 􀡴
     /// ⚠️ This symbol can refer only to Apple's Apple TV.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case appletvFill
+    case appletvFill = "appletv.fill"
 
     /// 􀟤
     /// ⚠️ This symbol can refer only to Apple's Apple Watch.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case applewatch
+    case applewatch = "applewatch"
 
     /// 􀢷
     /// ⚠️ This symbol can refer only to Apple's Apple Watch.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case applewatchRadiowavesLeftAndRight
+    case applewatchRadiowavesLeftAndRight = "applewatch.radiowaves.left.and.right"
 
     /// 􀨶
     /// ⚠️ This symbol can refer only to Apple's Apple Watch.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case applewatchSlash
+    case applewatchSlash = "applewatch.slash"
 
     /// 􀫋
     /// ⚠️ This symbol can refer only to Apple's Apple Watch.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case applewatchWatchface
+    case applewatchWatchface = "applewatch.watchface"
 
     /// 􀮕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case appsIpad
+    case appsIpad = "apps.ipad"
 
     /// 􀮖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case appsIpadLandscape
+    case appsIpadLandscape = "apps.ipad.landscape"
 
     /// 􀟞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case appsIphone
+    case appsIphone = "apps.iphone"
 
     /// 􀯖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case appsIphoneBadgePlus
+    case appsIphoneBadgePlus = "apps.iphone.badge.plus"
 
     /// 􀮔
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case appsIphoneLandscape
+    case appsIphoneLandscape = "apps.iphone.landscape"
 
     /// 􀵀
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case aqiHigh
+    case aqiHigh = "aqi.high"
 
     /// 􀴾
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case aqiLow
+    case aqiLow = "aqi.low"
 
     /// 􀴿
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case aqiMedium
+    case aqiMedium = "aqi.medium"
 
     /// 􀈭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case archivebox
+    case archivebox = "archivebox"
 
     /// 􀈯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case archiveboxCircle
+    case archiveboxCircle = "archivebox.circle"
 
     /// 􀈰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case archiveboxCircleFill
+    case archiveboxCircleFill = "archivebox.circle.fill"
 
     /// 􀈮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case archiveboxFill
+    case archiveboxFill = "archivebox.fill"
 
     /// 􀘸
     /// ⚠️ This symbol can refer only to Apple's ARKit.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arkit
+    case arkit = "arkit"
 
     /// 􀊯
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2Circlepath")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2Circlepath")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2Circlepath")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2Circlepath")
-    case arrow2Circlepath
+    case arrow2Circlepath = "arrow.2.circlepath"
 
     /// 􀖊
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircle")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCircle")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircle")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCircle")
-    case arrow2CirclepathCircle
+    case arrow2CirclepathCircle = "arrow.2.circlepath.circle"
 
     /// 􀖋
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircleFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCircleFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircleFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCircleFill")
-    case arrow2CirclepathCircleFill
+    case arrow2CirclepathCircleFill = "arrow.2.circlepath.circle.fill"
 
     /// 􀅌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrow2Squarepath
+    case arrow2Squarepath = "arrow.2.squarepath"
 
     /// 􀙛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrow3Trianglepath
+    case arrow3Trianglepath = "arrow.3.trianglepath"
 
     /// 􀰌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowBackward
+    case arrowBackward = "arrow.backward"
 
     /// 􀰍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowBackwardCircle
+    case arrowBackwardCircle = "arrow.backward.circle"
 
     /// 􀰎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowBackwardCircleFill
+    case arrowBackwardCircleFill = "arrow.backward.circle.fill"
 
     /// 􀰏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowBackwardSquare
+    case arrowBackwardSquare = "arrow.backward.square"
 
     /// 􀰐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowBackwardSquareFill
+    case arrowBackwardSquareFill = "arrow.backward.square.fill"
 
     /// 􀙠
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleBranch")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleBranch")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleBranch")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleBranch")
-    case arrowBranch
+    case arrowBranch = "arrow.branch"
 
     /// 􀅈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowClockwise
+    case arrowClockwise = "arrow.clockwise"
 
     /// 􀚁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowClockwiseCircle
+    case arrowClockwiseCircle = "arrow.clockwise.circle"
 
     /// 􀚂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowClockwiseCircleFill
+    case arrowClockwiseCircleFill = "arrow.clockwise.circle.fill"
 
     /// 􀧡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowClockwiseHeart
+    case arrowClockwiseHeart = "arrow.clockwise.heart"
 
     /// 􀧢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowClockwiseHeartFill
+    case arrowClockwiseHeartFill = "arrow.clockwise.heart.fill"
 
     /// 􀙷
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowClockwiseIcloud
+    case arrowClockwiseIcloud = "arrow.clockwise.icloud"
 
     /// 􀙸
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowClockwiseIcloudFill
+    case arrowClockwiseIcloudFill = "arrow.clockwise.icloud.fill"
 
     /// 􀅉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowCounterclockwise
+    case arrowCounterclockwise = "arrow.counterclockwise"
 
     /// 􀚃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowCounterclockwiseCircle
+    case arrowCounterclockwiseCircle = "arrow.counterclockwise.circle"
 
     /// 􀚄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowCounterclockwiseCircleFill
+    case arrowCounterclockwiseCircleFill = "arrow.counterclockwise.circle.fill"
 
     /// 􀙹
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowCounterclockwiseIcloud
+    case arrowCounterclockwiseIcloud = "arrow.counterclockwise.icloud"
 
     /// 􀙺
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowCounterclockwiseIcloudFill
+    case arrowCounterclockwiseIcloudFill = "arrow.counterclockwise.icloud.fill"
 
     /// 􀄩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDown
+    case arrowDown = "arrow.down"
 
     /// 􀯴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownApp
+    case arrowDownApp = "arrow.down.app"
 
     /// 􀯵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownAppFill
+    case arrowDownAppFill = "arrow.down.app.fill"
 
     /// 􀱃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownBackward
+    case arrowDownBackward = "arrow.down.backward"
 
     /// 􀱄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownBackwardCircle
+    case arrowDownBackwardCircle = "arrow.down.backward.circle"
 
     /// 􀱅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownBackwardCircleFill
+    case arrowDownBackwardCircleFill = "arrow.down.backward.circle.fill"
 
     /// 􀱆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownBackwardSquare
+    case arrowDownBackwardSquare = "arrow.down.backward.square"
 
     /// 􀱇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownBackwardSquareFill
+    case arrowDownBackwardSquareFill = "arrow.down.backward.square.fill"
 
     /// 􀁸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownCircle
+    case arrowDownCircle = "arrow.down.circle"
 
     /// 􀁹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownCircleFill
+    case arrowDownCircleFill = "arrow.down.circle.fill"
 
     /// 􀈽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownDoc
+    case arrowDownDoc = "arrow.down.doc"
 
     /// 􀈾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownDocFill
+    case arrowDownDocFill = "arrow.down.doc.fill"
 
     /// 􀱈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownForward
+    case arrowDownForward = "arrow.down.forward"
 
     /// 􀱻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownForwardAndArrowUpBackward
+    case arrowDownForwardAndArrowUpBackward = "arrow.down.forward.and.arrow.up.backward"
 
     /// 􀱼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownForwardAndArrowUpBackwardCircle
+    case arrowDownForwardAndArrowUpBackwardCircle = "arrow.down.forward.and.arrow.up.backward.circle"
 
     /// 􀱽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownForwardAndArrowUpBackwardCircleFill
+    case arrowDownForwardAndArrowUpBackwardCircleFill = "arrow.down.forward.and.arrow.up.backward.circle.fill"
 
     /// 􀱉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownForwardCircle
+    case arrowDownForwardCircle = "arrow.down.forward.circle"
 
     /// 􀱊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownForwardCircleFill
+    case arrowDownForwardCircleFill = "arrow.down.forward.circle.fill"
 
     /// 􀱋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownForwardSquare
+    case arrowDownForwardSquare = "arrow.down.forward.square"
 
     /// 􀱌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownForwardSquareFill
+    case arrowDownForwardSquareFill = "arrow.down.forward.square.fill"
 
     /// 􀲗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownHeart
+    case arrowDownHeart = "arrow.down.heart"
 
     /// 􀲘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownHeartFill
+    case arrowDownHeartFill = "arrow.down.heart.fill"
 
     /// 􀄰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownLeft
+    case arrowDownLeft = "arrow.down.left"
 
     /// 􀂆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownLeftCircle
+    case arrowDownLeftCircle = "arrow.down.left.circle"
 
     /// 􀂇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownLeftCircleFill
+    case arrowDownLeftCircleFill = "arrow.down.left.circle.fill"
 
     /// 􀄖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownLeftSquare
+    case arrowDownLeftSquare = "arrow.down.left.square"
 
     /// 􀄗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownLeftSquareFill
+    case arrowDownLeftSquareFill = "arrow.down.left.square.fill"
 
     /// 􀍑
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownLeftVideo
+    case arrowDownLeftVideo = "arrow.down.left.video"
 
     /// 􀍒
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownLeftVideoFill
+    case arrowDownLeftVideoFill = "arrow.down.left.video.fill"
 
     /// 􀄱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownRight
+    case arrowDownRight = "arrow.down.right"
 
     /// 􀅋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownRightAndArrowUpLeft
+    case arrowDownRightAndArrowUpLeft = "arrow.down.right.and.arrow.up.left"
 
     /// 􀫞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownRightAndArrowUpLeftCircle
+    case arrowDownRightAndArrowUpLeftCircle = "arrow.down.right.and.arrow.up.left.circle"
 
     /// 􀫟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowDownRightAndArrowUpLeftCircleFill
+    case arrowDownRightAndArrowUpLeftCircleFill = "arrow.down.right.and.arrow.up.left.circle.fill"
 
     /// 􀂈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownRightCircle
+    case arrowDownRightCircle = "arrow.down.right.circle"
 
     /// 􀂉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownRightCircleFill
+    case arrowDownRightCircleFill = "arrow.down.right.circle.fill"
 
     /// 􀄘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownRightSquare
+    case arrowDownRightSquare = "arrow.down.right.square"
 
     /// 􀄙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownRightSquareFill
+    case arrowDownRightSquareFill = "arrow.down.right.square.fill"
 
     /// 􀄈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownSquare
+    case arrowDownSquare = "arrow.down.square"
 
     /// 􀄉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownSquareFill
+    case arrowDownSquareFill = "arrow.down.square.fill"
 
     /// 􀅀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownToLine
+    case arrowDownToLine = "arrow.down.to.line"
 
     /// 􀅄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowDownToLineAlt
+    case arrowDownToLineAlt = "arrow.down.to.line.alt"
 
     /// 􀰑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowForward
+    case arrowForward = "arrow.forward"
 
     /// 􀰒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowForwardCircle
+    case arrowForwardCircle = "arrow.forward.circle"
 
     /// 􀰓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowForwardCircleFill
+    case arrowForwardCircleFill = "arrow.forward.circle.fill"
 
     /// 􀰔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowForwardSquare
+    case arrowForwardSquare = "arrow.forward.square"
 
     /// 􀰕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowForwardSquareFill
+    case arrowForwardSquareFill = "arrow.forward.square.fill"
 
     /// 􀄪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeft
+    case arrowLeft = "arrow.left"
 
     /// 􀄾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeftAndRight
+    case arrowLeftAndRight = "arrow.left.and.right"
 
     /// 􀑾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeftAndRightCircle
+    case arrowLeftAndRightCircle = "arrow.left.and.right.circle"
 
     /// 􀑿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeftAndRightCircleFill
+    case arrowLeftAndRightCircleFill = "arrow.left.and.right.circle.fill"
 
     /// 􀞒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeftAndRightRighttriangleLeftRighttriangleRight
+    case arrowLeftAndRightRighttriangleLeftRighttriangleRight = "arrow.left.and.right.righttriangle.left.righttriangle.right"
 
     /// 􀞓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeftAndRightRighttriangleLeftRighttriangleRightFill
+    case arrowLeftAndRightRighttriangleLeftRighttriangleRightFill = "arrow.left.and.right.righttriangle.left.righttriangle.right.fill"
 
     /// 􀒀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeftAndRightSquare
+    case arrowLeftAndRightSquare = "arrow.left.and.right.square"
 
     /// 􀒁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeftAndRightSquareFill
+    case arrowLeftAndRightSquareFill = "arrow.left.and.right.square.fill"
 
     /// 􀄭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeftArrowRight
+    case arrowLeftArrowRight = "arrow.left.arrow.right"
 
     /// 􀂀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeftArrowRightCircle
+    case arrowLeftArrowRightCircle = "arrow.left.arrow.right.circle"
 
     /// 􀂁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeftArrowRightCircleFill
+    case arrowLeftArrowRightCircleFill = "arrow.left.arrow.right.circle.fill"
 
     /// 􀄐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeftArrowRightSquare
+    case arrowLeftArrowRightSquare = "arrow.left.arrow.right.square"
 
     /// 􀄑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeftArrowRightSquareFill
+    case arrowLeftArrowRightSquareFill = "arrow.left.arrow.right.square.fill"
 
     /// 􀁺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeftCircle
+    case arrowLeftCircle = "arrow.left.circle"
 
     /// 􀁻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeftCircleFill
+    case arrowLeftCircleFill = "arrow.left.circle.fill"
 
     /// 􀄊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeftSquare
+    case arrowLeftSquare = "arrow.left.square"
 
     /// 􀄋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeftSquareFill
+    case arrowLeftSquareFill = "arrow.left.square.fill"
 
     /// 􀅁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeftToLine
+    case arrowLeftToLine = "arrow.left.to.line"
 
     /// 􀅅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowLeftToLineAlt
+    case arrowLeftToLineAlt = "arrow.left.to.line.alt"
 
     /// 􀖄
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleMerge")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleMerge")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleMerge")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleMerge")
-    case arrowMerge
+    case arrowMerge = "arrow.merge"
 
     /// 􀣁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowRectanglepath
+    case arrowRectanglepath = "arrow.rectanglepath"
 
     /// 􀄫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowRight
+    case arrowRight = "arrow.right"
 
     /// 􀄭
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRight")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRight")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRight")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRight")
-    case arrowRightArrowLeft
+    case arrowRightArrowLeft = "arrow.right.arrow.left"
 
     /// 􀂀
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircle")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightCircle")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircle")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightCircle")
-    case arrowRightArrowLeftCircle
+    case arrowRightArrowLeftCircle = "arrow.right.arrow.left.circle"
 
     /// 􀂁
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircleFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightCircleFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircleFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightCircleFill")
-    case arrowRightArrowLeftCircleFill
+    case arrowRightArrowLeftCircleFill = "arrow.right.arrow.left.circle.fill"
 
     /// 􀄐
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquare")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightSquare")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquare")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightSquare")
-    case arrowRightArrowLeftSquare
+    case arrowRightArrowLeftSquare = "arrow.right.arrow.left.square"
 
     /// 􀄑
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquareFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightSquareFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquareFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightSquareFill")
-    case arrowRightArrowLeftSquareFill
+    case arrowRightArrowLeftSquareFill = "arrow.right.arrow.left.square.fill"
 
     /// 􀁼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowRightCircle
+    case arrowRightCircle = "arrow.right.circle"
 
     /// 􀁽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowRightCircleFill
+    case arrowRightCircleFill = "arrow.right.circle.fill"
 
     /// 􀫵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowRightDocOnClipboard
+    case arrowRightDocOnClipboard = "arrow.right.doc.on.clipboard"
 
     /// 􀄌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowRightSquare
+    case arrowRightSquare = "arrow.right.square"
 
     /// 􀄍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowRightSquareFill
+    case arrowRightSquareFill = "arrow.right.square.fill"
 
     /// 􀅂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowRightToLine
+    case arrowRightToLine = "arrow.right.to.line"
 
     /// 􀅆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowRightToLineAlt
+    case arrowRightToLineAlt = "arrow.right.to.line.alt"
 
     /// 􀖅
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleSwap")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleSwap")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleSwap")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleSwap")
-    case arrowSwap
+    case arrowSwap = "arrow.swap"
 
     /// 􀊯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowTriangle2Circlepath
+    case arrowTriangle2Circlepath = "arrow.triangle.2.circlepath"
 
     /// 􀌢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowTriangle2CirclepathCamera
+    case arrowTriangle2CirclepathCamera = "arrow.triangle.2.circlepath.camera"
 
     /// 􀌣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowTriangle2CirclepathCameraFill
+    case arrowTriangle2CirclepathCameraFill = "arrow.triangle.2.circlepath.camera.fill"
 
     /// 􀖊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowTriangle2CirclepathCircle
+    case arrowTriangle2CirclepathCircle = "arrow.triangle.2.circlepath.circle"
 
     /// 􀖋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowTriangle2CirclepathCircleFill
+    case arrowTriangle2CirclepathCircleFill = "arrow.triangle.2.circlepath.circle.fill"
 
     /// 􀫷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowTriangle2CirclepathDocOnClipboard
+    case arrowTriangle2CirclepathDocOnClipboard = "arrow.triangle.2.circlepath.doc.on.clipboard"
 
     /// 􀙠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowTriangleBranch
+    case arrowTriangleBranch = "arrow.triangle.branch"
 
     /// 􀤖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowTriangleCapsulepath
+    case arrowTriangleCapsulepath = "arrow.triangle.capsulepath"
 
     /// 􀖄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowTriangleMerge
+    case arrowTriangleMerge = "arrow.triangle.merge"
 
     /// 􀙡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowTrianglePull
+    case arrowTrianglePull = "arrow.triangle.pull"
 
     /// 􀖅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowTriangleSwap
+    case arrowTriangleSwap = "arrow.triangle.swap"
 
     /// 􀟷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowTriangleTurnUpRightCircle
+    case arrowTriangleTurnUpRightCircle = "arrow.triangle.turn.up.right.circle"
 
     /// 􀟸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowTriangleTurnUpRightCircleFill
+    case arrowTriangleTurnUpRightCircleFill = "arrow.triangle.turn.up.right.circle.fill"
 
     /// 􀙞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowTriangleTurnUpRightDiamond
+    case arrowTriangleTurnUpRightDiamond = "arrow.triangle.turn.up.right.diamond"
 
     /// 􀙟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowTriangleTurnUpRightDiamondFill
+    case arrowTriangleTurnUpRightDiamondFill = "arrow.triangle.turn.up.right.diamond.fill"
 
     /// 􀄴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowTurnDownLeft
+    case arrowTurnDownLeft = "arrow.turn.down.left"
 
     /// 􀄵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowTurnDownRight
+    case arrowTurnDownRight = "arrow.turn.down.right"
 
     /// 􀄷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowTurnLeftDown
+    case arrowTurnLeftDown = "arrow.turn.left.down"
 
     /// 􀄶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowTurnLeftUp
+    case arrowTurnLeftUp = "arrow.turn.left.up"
 
     /// 􀄳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowTurnRightDown
+    case arrowTurnRightDown = "arrow.turn.right.down"
 
     /// 􀄲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowTurnRightUp
+    case arrowTurnRightUp = "arrow.turn.right.up"
 
     /// 􀬫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowTurnUpForwardIphone
+    case arrowTurnUpForwardIphone = "arrow.turn.up.forward.iphone"
 
     /// 􀬬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowTurnUpForwardIphoneFill
+    case arrowTurnUpForwardIphoneFill = "arrow.turn.up.forward.iphone.fill"
 
     /// 􀄸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowTurnUpLeft
+    case arrowTurnUpLeft = "arrow.turn.up.left"
 
     /// 􀄹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowTurnUpRight
+    case arrowTurnUpRight = "arrow.turn.up.right"
 
     /// 􀄨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUp
+    case arrowUp = "arrow.up"
 
     /// 􀑹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpAndDown
+    case arrowUpAndDown = "arrow.up.and.down"
 
     /// 􀧐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpAndDownAndArrowLeftAndRight
+    case arrowUpAndDownAndArrowLeftAndRight = "arrow.up.and.down.and.arrow.left.and.right"
 
     /// 􀑺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpAndDownCircle
+    case arrowUpAndDownCircle = "arrow.up.and.down.circle"
 
     /// 􀑻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpAndDownCircleFill
+    case arrowUpAndDownCircleFill = "arrow.up.and.down.circle.fill"
 
     /// 􀟩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpAndDownRighttriangleUpFillRighttriangleDownFill
+    case arrowUpAndDownRighttriangleUpFillRighttriangleDownFill = "arrow.up.and.down.righttriangle.up.fill.righttriangle.down.fill"
 
     /// 􀟨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpAndDownRighttriangleUpRighttriangleDown
+    case arrowUpAndDownRighttriangleUpRighttriangleDown = "arrow.up.and.down.righttriangle.up.righttriangle.down"
 
     /// 􀑼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpAndDownSquare
+    case arrowUpAndDownSquare = "arrow.up.and.down.square"
 
     /// 􀑽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpAndDownSquareFill
+    case arrowUpAndDownSquareFill = "arrow.up.and.down.square.fill"
 
     /// 􀪨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpAndPersonRectanglePortrait
+    case arrowUpAndPersonRectanglePortrait = "arrow.up.and.person.rectangle.portrait"
 
     /// 􀪪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpAndPersonRectangleTurnLeft
+    case arrowUpAndPersonRectangleTurnLeft = "arrow.up.and.person.rectangle.turn.left"
 
     /// 􀪩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpAndPersonRectangleTurnRight
+    case arrowUpAndPersonRectangleTurnRight = "arrow.up.and.person.rectangle.turn.right"
 
     /// 􀄬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpArrowDown
+    case arrowUpArrowDown = "arrow.up.arrow.down"
 
     /// 􀁾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpArrowDownCircle
+    case arrowUpArrowDownCircle = "arrow.up.arrow.down.circle"
 
     /// 􀁿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpArrowDownCircleFill
+    case arrowUpArrowDownCircleFill = "arrow.up.arrow.down.circle.fill"
 
     /// 􀄎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpArrowDownSquare
+    case arrowUpArrowDownSquare = "arrow.up.arrow.down.square"
 
     /// 􀄏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpArrowDownSquareFill
+    case arrowUpArrowDownSquareFill = "arrow.up.arrow.down.square.fill"
 
     /// 􀰹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpBackward
+    case arrowUpBackward = "arrow.up.backward"
 
     /// 􀱶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpBackwardAndArrowDownForward
+    case arrowUpBackwardAndArrowDownForward = "arrow.up.backward.and.arrow.down.forward"
 
     /// 􀱷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpBackwardAndArrowDownForwardCircle
+    case arrowUpBackwardAndArrowDownForwardCircle = "arrow.up.backward.and.arrow.down.forward.circle"
 
     /// 􀱸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpBackwardAndArrowDownForwardCircleFill
+    case arrowUpBackwardAndArrowDownForwardCircleFill = "arrow.up.backward.and.arrow.down.forward.circle.fill"
 
     /// 􀰺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpBackwardCircle
+    case arrowUpBackwardCircle = "arrow.up.backward.circle"
 
     /// 􀰻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpBackwardCircleFill
+    case arrowUpBackwardCircleFill = "arrow.up.backward.circle.fill"
 
     /// 􀰼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpBackwardSquare
+    case arrowUpBackwardSquare = "arrow.up.backward.square"
 
     /// 􀰽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpBackwardSquareFill
+    case arrowUpBackwardSquareFill = "arrow.up.backward.square.fill"
 
     /// 􀈵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpBin
+    case arrowUpBin = "arrow.up.bin"
 
     /// 􀈶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpBinFill
+    case arrowUpBinFill = "arrow.up.bin.fill"
 
     /// 􀁶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpCircle
+    case arrowUpCircle = "arrow.up.circle"
 
     /// 􀁷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpCircleFill
+    case arrowUpCircleFill = "arrow.up.circle.fill"
 
     /// 􀈻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpDoc
+    case arrowUpDoc = "arrow.up.doc"
 
     /// 􀈼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpDocFill
+    case arrowUpDocFill = "arrow.up.doc.fill"
 
     /// 􀫶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpDocOnClipboard
+    case arrowUpDocOnClipboard = "arrow.up.doc.on.clipboard"
 
     /// 􀰾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpForward
+    case arrowUpForward = "arrow.up.forward"
 
     /// 􀮵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpForwardApp
+    case arrowUpForwardApp = "arrow.up.forward.app"
 
     /// 􀮶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpForwardAppFill
+    case arrowUpForwardAppFill = "arrow.up.forward.app.fill"
 
     /// 􀰿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpForwardCircle
+    case arrowUpForwardCircle = "arrow.up.forward.circle"
 
     /// 􀱀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpForwardCircleFill
+    case arrowUpForwardCircleFill = "arrow.up.forward.circle.fill"
 
     /// 􀱁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpForwardSquare
+    case arrowUpForwardSquare = "arrow.up.forward.square"
 
     /// 􀱂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpForwardSquareFill
+    case arrowUpForwardSquareFill = "arrow.up.forward.square.fill"
 
     /// 􀲕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpHeart
+    case arrowUpHeart = "arrow.up.heart"
 
     /// 􀲖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpHeartFill
+    case arrowUpHeartFill = "arrow.up.heart.fill"
 
     /// 􀄮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpLeft
+    case arrowUpLeft = "arrow.up.left"
 
     /// 􀅊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpLeftAndArrowDownRight
+    case arrowUpLeftAndArrowDownRight = "arrow.up.left.and.arrow.down.right"
 
     /// 􀧛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpLeftAndArrowDownRightCircle
+    case arrowUpLeftAndArrowDownRightCircle = "arrow.up.left.and.arrow.down.right.circle"
 
     /// 􀧜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpLeftAndArrowDownRightCircleFill
+    case arrowUpLeftAndArrowDownRightCircleFill = "arrow.up.left.and.arrow.down.right.circle.fill"
 
     /// 􀬑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpLeftAndDownRightAndArrowUpRightAndDownLeft
+    case arrowUpLeftAndDownRightAndArrowUpRightAndDownLeft = "arrow.up.left.and.down.right.and.arrow.up.right.and.down.left"
 
     /// 􀥩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpLeftAndDownRightMagnifyingglass
+    case arrowUpLeftAndDownRightMagnifyingglass = "arrow.up.left.and.down.right.magnifyingglass"
 
     /// 􀂂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpLeftCircle
+    case arrowUpLeftCircle = "arrow.up.left.circle"
 
     /// 􀂃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpLeftCircleFill
+    case arrowUpLeftCircleFill = "arrow.up.left.circle.fill"
 
     /// 􀄒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpLeftSquare
+    case arrowUpLeftSquare = "arrow.up.left.square"
 
     /// 􀄓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpLeftSquareFill
+    case arrowUpLeftSquareFill = "arrow.up.left.square.fill"
 
     /// 􀜃
     /// ⚠️ This symbol can refer only to Apple's Messages app.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpMessage
+    case arrowUpMessage = "arrow.up.message"
 
     /// 􀜄
     /// ⚠️ This symbol can refer only to Apple's Messages app.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpMessageFill
+    case arrowUpMessageFill = "arrow.up.message.fill"
 
     /// 􀄯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpRight
+    case arrowUpRight = "arrow.up.right"
 
     /// 􀢿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpRightAndArrowDownLeftRectangle
+    case arrowUpRightAndArrowDownLeftRectangle = "arrow.up.right.and.arrow.down.left.rectangle"
 
     /// 􀣀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUpRightAndArrowDownLeftRectangleFill
+    case arrowUpRightAndArrowDownLeftRectangleFill = "arrow.up.right.and.arrow.down.left.rectangle.fill"
 
     /// 􀂄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpRightCircle
+    case arrowUpRightCircle = "arrow.up.right.circle"
 
     /// 􀂅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpRightCircleFill
+    case arrowUpRightCircleFill = "arrow.up.right.circle.fill"
 
     /// 􀙞
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamond")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleTurnUpRightDiamond")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamond")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleTurnUpRightDiamond")
-    case arrowUpRightDiamond
+    case arrowUpRightDiamond = "arrow.up.right.diamond"
 
     /// 􀙟
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
-    case arrowUpRightDiamondFill
+    case arrowUpRightDiamondFill = "arrow.up.right.diamond.fill"
 
     /// 􀄔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpRightSquare
+    case arrowUpRightSquare = "arrow.up.right.square"
 
     /// 􀄕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpRightSquareFill
+    case arrowUpRightSquareFill = "arrow.up.right.square.fill"
 
     /// 􀍏
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpRightVideo
+    case arrowUpRightVideo = "arrow.up.right.video"
 
     /// 􀍐
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpRightVideoFill
+    case arrowUpRightVideoFill = "arrow.up.right.video.fill"
 
     /// 􀄆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpSquare
+    case arrowUpSquare = "arrow.up.square"
 
     /// 􀄇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpSquareFill
+    case arrowUpSquareFill = "arrow.up.square.fill"
 
     /// 􀄿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpToLine
+    case arrowUpToLine = "arrow.up.to.line"
 
     /// 􀅃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUpToLineAlt
+    case arrowUpToLineAlt = "arrow.up.to.line.alt"
 
     /// 􀱍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUturnBackward
+    case arrowUturnBackward = "arrow.uturn.backward"
 
     /// 􀱎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUturnBackwardCircle
+    case arrowUturnBackwardCircle = "arrow.uturn.backward.circle"
 
     /// 􀱐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUturnBackwardCircleBadgeEllipsis
+    case arrowUturnBackwardCircleBadgeEllipsis = "arrow.uturn.backward.circle.badge.ellipsis"
 
     /// 􀱏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUturnBackwardCircleFill
+    case arrowUturnBackwardCircleFill = "arrow.uturn.backward.circle.fill"
 
     /// 􀱑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUturnBackwardSquare
+    case arrowUturnBackwardSquare = "arrow.uturn.backward.square"
 
     /// 􀱒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUturnBackwardSquareFill
+    case arrowUturnBackwardSquareFill = "arrow.uturn.backward.square.fill"
 
     /// 􀄻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnDown
+    case arrowUturnDown = "arrow.uturn.down"
 
     /// 􀂌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnDownCircle
+    case arrowUturnDownCircle = "arrow.uturn.down.circle"
 
     /// 􀂍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnDownCircleFill
+    case arrowUturnDownCircleFill = "arrow.uturn.down.circle.fill"
 
     /// 􀄜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnDownSquare
+    case arrowUturnDownSquare = "arrow.uturn.down.square"
 
     /// 􀄝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnDownSquareFill
+    case arrowUturnDownSquareFill = "arrow.uturn.down.square.fill"
 
     /// 􀱓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUturnForward
+    case arrowUturnForward = "arrow.uturn.forward"
 
     /// 􀱔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUturnForwardCircle
+    case arrowUturnForwardCircle = "arrow.uturn.forward.circle"
 
     /// 􀱕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUturnForwardCircleFill
+    case arrowUturnForwardCircleFill = "arrow.uturn.forward.circle.fill"
 
     /// 􀱖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUturnForwardSquare
+    case arrowUturnForwardSquare = "arrow.uturn.forward.square"
 
     /// 􀱗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowUturnForwardSquareFill
+    case arrowUturnForwardSquareFill = "arrow.uturn.forward.square.fill"
 
     /// 􀄼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnLeft
+    case arrowUturnLeft = "arrow.uturn.left"
 
     /// 􀂎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnLeftCircle
+    case arrowUturnLeftCircle = "arrow.uturn.left.circle"
 
     /// 􀞸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnLeftCircleBadgeEllipsis
+    case arrowUturnLeftCircleBadgeEllipsis = "arrow.uturn.left.circle.badge.ellipsis"
 
     /// 􀂏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnLeftCircleFill
+    case arrowUturnLeftCircleFill = "arrow.uturn.left.circle.fill"
 
     /// 􀄞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnLeftSquare
+    case arrowUturnLeftSquare = "arrow.uturn.left.square"
 
     /// 􀄟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnLeftSquareFill
+    case arrowUturnLeftSquareFill = "arrow.uturn.left.square.fill"
 
     /// 􀄽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnRight
+    case arrowUturnRight = "arrow.uturn.right"
 
     /// 􀂐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnRightCircle
+    case arrowUturnRightCircle = "arrow.uturn.right.circle"
 
     /// 􀂑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnRightCircleFill
+    case arrowUturnRightCircleFill = "arrow.uturn.right.circle.fill"
 
     /// 􀄠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnRightSquare
+    case arrowUturnRightSquare = "arrow.uturn.right.square"
 
     /// 􀄡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnRightSquareFill
+    case arrowUturnRightSquareFill = "arrow.uturn.right.square.fill"
 
     /// 􀄺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnUp
+    case arrowUturnUp = "arrow.uturn.up"
 
     /// 􀂊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnUpCircle
+    case arrowUturnUpCircle = "arrow.uturn.up.circle"
 
     /// 􀂋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnUpCircleFill
+    case arrowUturnUpCircleFill = "arrow.uturn.up.circle.fill"
 
     /// 􀄚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnUpSquare
+    case arrowUturnUpSquare = "arrow.uturn.up.square"
 
     /// 􀄛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowUturnUpSquareFill
+    case arrowUturnUpSquareFill = "arrow.uturn.up.square.fill"
 
     /// 􀰨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeBounceForward
+    case arrowshapeBounceForward = "arrowshape.bounce.forward"
 
     /// 􀰩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeBounceForwardFill
+    case arrowshapeBounceForwardFill = "arrowshape.bounce.forward.fill"
 
     /// 􀉙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeBounceRight
+    case arrowshapeBounceRight = "arrowshape.bounce.right"
 
     /// 􀒑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeBounceRightFill
+    case arrowshapeBounceRightFill = "arrowshape.bounce.right.fill"
 
     /// 􀰚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeTurnUpBackward
+    case arrowshapeTurnUpBackward = "arrowshape.turn.up.backward"
 
     /// 􀰢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeTurnUpBackward2
+    case arrowshapeTurnUpBackward2 = "arrowshape.turn.up.backward.2"
 
     /// 􀰤
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeTurnUpBackward2Circle
+    case arrowshapeTurnUpBackward2Circle = "arrowshape.turn.up.backward.2.circle"
 
     /// 􀰥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeTurnUpBackward2CircleFill
+    case arrowshapeTurnUpBackward2CircleFill = "arrowshape.turn.up.backward.2.circle.fill"
 
     /// 􀰣
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeTurnUpBackward2Fill
+    case arrowshapeTurnUpBackward2Fill = "arrowshape.turn.up.backward.2.fill"
 
     /// 􀰜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeTurnUpBackwardCircle
+    case arrowshapeTurnUpBackwardCircle = "arrowshape.turn.up.backward.circle"
 
     /// 􀰝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeTurnUpBackwardCircleFill
+    case arrowshapeTurnUpBackwardCircleFill = "arrowshape.turn.up.backward.circle.fill"
 
     /// 􀰛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeTurnUpBackwardFill
+    case arrowshapeTurnUpBackwardFill = "arrowshape.turn.up.backward.fill"
 
     /// 􀰞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeTurnUpForward
+    case arrowshapeTurnUpForward = "arrowshape.turn.up.forward"
 
     /// 􀰠
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeTurnUpForwardCircle
+    case arrowshapeTurnUpForwardCircle = "arrowshape.turn.up.forward.circle"
 
     /// 􀰡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeTurnUpForwardCircleFill
+    case arrowshapeTurnUpForwardCircleFill = "arrowshape.turn.up.forward.circle.fill"
 
     /// 􀰟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeTurnUpForwardFill
+    case arrowshapeTurnUpForwardFill = "arrowshape.turn.up.forward.fill"
 
     /// 􀉌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowshapeTurnUpLeft
+    case arrowshapeTurnUpLeft = "arrowshape.turn.up.left"
 
     /// 􀉔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowshapeTurnUpLeft2
+    case arrowshapeTurnUpLeft2 = "arrowshape.turn.up.left.2"
 
     /// 􀉖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeTurnUpLeft2Circle
+    case arrowshapeTurnUpLeft2Circle = "arrowshape.turn.up.left.2.circle"
 
     /// 􀉗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeTurnUpLeft2CircleFill
+    case arrowshapeTurnUpLeft2CircleFill = "arrowshape.turn.up.left.2.circle.fill"
 
     /// 􀉕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowshapeTurnUpLeft2Fill
+    case arrowshapeTurnUpLeft2Fill = "arrowshape.turn.up.left.2.fill"
 
     /// 􀉎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowshapeTurnUpLeftCircle
+    case arrowshapeTurnUpLeftCircle = "arrowshape.turn.up.left.circle"
 
     /// 􀉏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowshapeTurnUpLeftCircleFill
+    case arrowshapeTurnUpLeftCircleFill = "arrowshape.turn.up.left.circle.fill"
 
     /// 􀉍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowshapeTurnUpLeftFill
+    case arrowshapeTurnUpLeftFill = "arrowshape.turn.up.left.fill"
 
     /// 􀉐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowshapeTurnUpRight
+    case arrowshapeTurnUpRight = "arrowshape.turn.up.right"
 
     /// 􀉒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowshapeTurnUpRightCircle
+    case arrowshapeTurnUpRightCircle = "arrowshape.turn.up.right.circle"
 
     /// 􀉓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowshapeTurnUpRightCircleFill
+    case arrowshapeTurnUpRightCircleFill = "arrowshape.turn.up.right.circle.fill"
 
     /// 􀉑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowshapeTurnUpRightFill
+    case arrowshapeTurnUpRightFill = "arrowshape.turn.up.right.fill"
 
     /// 􀰦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeZigzagForward
+    case arrowshapeZigzagForward = "arrowshape.zigzag.forward"
 
     /// 􀰧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeZigzagForwardFill
+    case arrowshapeZigzagForwardFill = "arrowshape.zigzag.forward.fill"
 
     /// 􀉘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeZigzagRight
+    case arrowshapeZigzagRight = "arrowshape.zigzag.right"
 
     /// 􀒐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowshapeZigzagRightFill
+    case arrowshapeZigzagRightFill = "arrowshape.zigzag.right.fill"
 
     /// 􀰀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowtriangleBackward
+    case arrowtriangleBackward = "arrowtriangle.backward"
 
     /// 􀰂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowtriangleBackwardCircle
+    case arrowtriangleBackwardCircle = "arrowtriangle.backward.circle"
 
     /// 􀰃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowtriangleBackwardCircleFill
+    case arrowtriangleBackwardCircleFill = "arrowtriangle.backward.circle.fill"
 
     /// 􀰁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowtriangleBackwardFill
+    case arrowtriangleBackwardFill = "arrowtriangle.backward.fill"
 
     /// 􀰄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowtriangleBackwardSquare
+    case arrowtriangleBackwardSquare = "arrowtriangle.backward.square"
 
     /// 􀰅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowtriangleBackwardSquareFill
+    case arrowtriangleBackwardSquareFill = "arrowtriangle.backward.square.fill"
 
     /// 􀓃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleDown
+    case arrowtriangleDown = "arrowtriangle.down"
 
     /// 􀁨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleDownCircle
+    case arrowtriangleDownCircle = "arrowtriangle.down.circle"
 
     /// 􀁩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleDownCircleFill
+    case arrowtriangleDownCircleFill = "arrowtriangle.down.circle.fill"
 
     /// 􀄥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleDownFill
+    case arrowtriangleDownFill = "arrowtriangle.down.fill"
 
     /// 􀃸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleDownSquare
+    case arrowtriangleDownSquare = "arrowtriangle.down.square"
 
     /// 􀃹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleDownSquareFill
+    case arrowtriangleDownSquareFill = "arrowtriangle.down.square.fill"
 
     /// 􀰆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowtriangleForward
+    case arrowtriangleForward = "arrowtriangle.forward"
 
     /// 􀰈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowtriangleForwardCircle
+    case arrowtriangleForwardCircle = "arrowtriangle.forward.circle"
 
     /// 􀰉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowtriangleForwardCircleFill
+    case arrowtriangleForwardCircleFill = "arrowtriangle.forward.circle.fill"
 
     /// 􀰇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowtriangleForwardFill
+    case arrowtriangleForwardFill = "arrowtriangle.forward.fill"
 
     /// 􀰊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowtriangleForwardSquare
+    case arrowtriangleForwardSquare = "arrowtriangle.forward.square"
 
     /// 􀰋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowtriangleForwardSquareFill
+    case arrowtriangleForwardSquareFill = "arrowtriangle.forward.square.fill"
 
     /// 􀓄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleLeft
+    case arrowtriangleLeft = "arrowtriangle.left"
 
     /// 􀠉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowtriangleLeftAndLineVerticalAndArrowtriangleRight
+    case arrowtriangleLeftAndLineVerticalAndArrowtriangleRight = "arrowtriangle.left.and.line.vertical.and.arrowtriangle.right"
 
     /// 􀁪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleLeftCircle
+    case arrowtriangleLeftCircle = "arrowtriangle.left.circle"
 
     /// 􀁫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleLeftCircleFill
+    case arrowtriangleLeftCircleFill = "arrowtriangle.left.circle.fill"
 
     /// 􀄦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleLeftFill
+    case arrowtriangleLeftFill = "arrowtriangle.left.fill"
 
     /// 􀟦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowtriangleLeftFillAndLineVerticalAndArrowtriangleRightFill
+    case arrowtriangleLeftFillAndLineVerticalAndArrowtriangleRightFill = "arrowtriangle.left.fill.and.line.vertical.and.arrowtriangle.right.fill"
 
     /// 􀃺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleLeftSquare
+    case arrowtriangleLeftSquare = "arrowtriangle.left.square"
 
     /// 􀃻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleLeftSquareFill
+    case arrowtriangleLeftSquareFill = "arrowtriangle.left.square.fill"
 
     /// 􀓅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleRight
+    case arrowtriangleRight = "arrowtriangle.right"
 
     /// 􀠊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowtriangleRightAndLineVerticalAndArrowtriangleLeft
+    case arrowtriangleRightAndLineVerticalAndArrowtriangleLeft = "arrowtriangle.right.and.line.vertical.and.arrowtriangle.left"
 
     /// 􀁬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleRightCircle
+    case arrowtriangleRightCircle = "arrowtriangle.right.circle"
 
     /// 􀁭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleRightCircleFill
+    case arrowtriangleRightCircleFill = "arrowtriangle.right.circle.fill"
 
     /// 􀄧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleRightFill
+    case arrowtriangleRightFill = "arrowtriangle.right.fill"
 
     /// 􀟧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case arrowtriangleRightFillAndLineVerticalAndArrowtriangleLeftFill
+    case arrowtriangleRightFillAndLineVerticalAndArrowtriangleLeftFill = "arrowtriangle.right.fill.and.line.vertical.and.arrowtriangle.left.fill"
 
     /// 􀃼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleRightSquare
+    case arrowtriangleRightSquare = "arrowtriangle.right.square"
 
     /// 􀃽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleRightSquareFill
+    case arrowtriangleRightSquareFill = "arrowtriangle.right.square.fill"
 
     /// 􀓂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleUp
+    case arrowtriangleUp = "arrowtriangle.up"
 
     /// 􀁦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleUpCircle
+    case arrowtriangleUpCircle = "arrowtriangle.up.circle"
 
     /// 􀁧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleUpCircleFill
+    case arrowtriangleUpCircleFill = "arrowtriangle.up.circle.fill"
 
     /// 􀄤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleUpFill
+    case arrowtriangleUpFill = "arrowtriangle.up.fill"
 
     /// 􀃶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleUpSquare
+    case arrowtriangleUpSquare = "arrowtriangle.up.square"
 
     /// 􀃷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case arrowtriangleUpSquareFill
+    case arrowtriangleUpSquareFill = "arrowtriangle.up.square.fill"
 
     /// 􀞖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case aspectratio
+    case aspectratio = "aspectratio"
 
     /// 􀞏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case aspectratioFill
+    case aspectratioFill = "aspectratio.fill"
 
     /// 􀕬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case asteriskCircle
+    case asteriskCircle = "asterisk.circle"
 
     /// 􀕭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case asteriskCircleFill
+    case asteriskCircleFill = "asterisk.circle.fill"
 
     /// 􀅷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case at
+    case at = "at"
 
     /// 􀅹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case atBadgeMinus
+    case atBadgeMinus = "at.badge.minus"
 
     /// 􀅸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case atBadgePlus
+    case atBadgePlus = "at.badge.plus"
 
     /// 􀢐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case atCircle
+    case atCircle = "at.circle"
 
     /// 􀢑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case atCircleFill
+    case atCircleFill = "at.circle.fill"
 
     /// 􀬚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case atom
+    case atom = "atom"
 
     /// 􀖹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case australsignCircle
+    case australsignCircle = "australsign.circle"
 
     /// 􀖺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case australsignCircleFill
+    case australsignCircleFill = "australsign.circle.fill"
 
     /// 􀗹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case australsignSquare
+    case australsignSquare = "australsign.square"
 
     /// 􀗺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case australsignSquareFill
+    case australsignSquareFill = "australsign.square.fill"
 
     /// 􀀆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bCircle
+    case bCircle = "b.circle"
 
     /// 􀀇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bCircleFill
+    case bCircleFill = "b.circle.fill"
 
     /// 􀂖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bSquare
+    case bSquare = "b.square"
 
     /// 􀂗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bSquareFill
+    case bSquareFill = "b.square.fill"
 
     /// 􀊉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case backward
+    case backward = "backward"
 
     /// 􀊍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case backwardEnd
+    case backwardEnd = "backward.end"
 
     /// 􀊑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case backwardEndAlt
+    case backwardEndAlt = "backward.end.alt"
 
     /// 􀊒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case backwardEndAltFill
+    case backwardEndAltFill = "backward.end.alt.fill"
 
     /// 􀊎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case backwardEndFill
+    case backwardEndFill = "backward.end.fill"
 
     /// 􀊊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case backwardFill
+    case backwardFill = "backward.fill"
 
     /// 􀩨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case backwardFrame
+    case backwardFrame = "backward.frame"
 
     /// 􀩩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case backwardFrameFill
+    case backwardFrameFill = "backward.frame.fill"
 
     /// 􀰮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case badgePlusRadiowavesForward
+    case badgePlusRadiowavesForward = "badge.plus.radiowaves.forward"
 
     /// 􀊪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case badgePlusRadiowavesRight
+    case badgePlusRadiowavesRight = "badge.plus.radiowaves.right"
 
     /// 􀍣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bag
+    case bag = "bag"
 
     /// 􀍧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bagBadgeMinus
+    case bagBadgeMinus = "bag.badge.minus"
 
     /// 􀍥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bagBadgePlus
+    case bagBadgePlus = "bag.badge.plus"
 
     /// 􀒫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case bagCircle
+    case bagCircle = "bag.circle"
 
     /// 􀒬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case bagCircleFill
+    case bagCircleFill = "bag.circle.fill"
 
     /// 􀍤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bagFill
+    case bagFill = "bag.fill"
 
     /// 􀍨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bagFillBadgeMinus
+    case bagFillBadgeMinus = "bag.fill.badge.minus"
 
     /// 􀍦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bagFillBadgePlus
+    case bagFillBadgePlus = "bag.fill.badge.plus"
 
     /// 􀗑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bahtsignCircle
+    case bahtsignCircle = "bahtsign.circle"
 
     /// 􀗒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bahtsignCircleFill
+    case bahtsignCircleFill = "bahtsign.circle.fill"
 
     /// 􀘑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bahtsignSquare
+    case bahtsignSquare = "bahtsign.square"
 
     /// 􀘒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bahtsignSquareFill
+    case bahtsignSquareFill = "bahtsign.square.fill"
 
     /// 􀎓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bandage
+    case bandage = "bandage"
 
     /// 􀎔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bandageFill
+    case bandageFill = "bandage.fill"
 
     /// 􀭿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case banknote
+    case banknote = "banknote"
 
     /// 􀮀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case banknoteFill
+    case banknoteFill = "banknote.fill"
 
     /// 􀘱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case barcode
+    case barcode = "barcode"
 
     /// 􀎺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case barcodeViewfinder
+    case barcodeViewfinder = "barcode.viewfinder"
 
     /// 􀬧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case barometer
+    case barometer = "barometer"
 
     /// 􀛪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case battery0
+    case battery0 = "battery.0"
 
     /// 􀛨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case battery100
+    case battery100 = "battery.100"
 
     /// 􀢋
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case battery100Bolt
+    case battery100Bolt = "battery.100.bolt"
 
     /// 􀛩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case battery25
+    case battery25 = "battery.25"
 
     /// 􀙩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bedDouble
+    case bedDouble = "bed.double"
 
     /// 􀙪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bedDoubleFill
+    case bedDoubleFill = "bed.double.fill"
 
     /// 􀋙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bell
+    case bell = "bell"
 
     /// 􀝖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case bellBadge
+    case bellBadge = "bell.badge"
 
     /// 􀝗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case bellBadgeFill
+    case bellBadgeFill = "bell.badge.fill"
 
     /// 􀋛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bellCircle
+    case bellCircle = "bell.circle"
 
     /// 􀋜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bellCircleFill
+    case bellCircleFill = "bell.circle.fill"
 
     /// 􀋚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bellFill
+    case bellFill = "bell.fill"
 
     /// 􀋝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bellSlash
+    case bellSlash = "bell.slash"
 
     /// 􀋟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case bellSlashCircle
+    case bellSlashCircle = "bell.slash.circle"
 
     /// 􀋠
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case bellSlashCircleFill
+    case bellSlashCircleFill = "bell.slash.circle.fill"
 
     /// 􀋞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bellSlashFill
+    case bellSlashFill = "bell.slash.fill"
 
     /// 􀡥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case bicycle
+    case bicycle = "bicycle"
 
     /// 􀱬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case bicycleCircle
+    case bicycleCircle = "bicycle.circle"
 
     /// 􀱭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case bicycleCircleFill
+    case bicycleCircleFill = "bicycle.circle.fill"
 
     /// 􀈱
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBin")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "xmarkBin")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBin")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "xmarkBin")
-    case binXmark
+    case binXmark = "bin.xmark"
 
     /// 􀈲
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBinFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "xmarkBinFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBinFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "xmarkBinFill")
-    case binXmarkFill
+    case binXmarkFill = "bin.xmark.fill"
 
     /// 􀠍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case binoculars
+    case binoculars = "binoculars"
 
     /// 􀠎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case binocularsFill
+    case binocularsFill = "binoculars.fill"
 
     /// 􀗕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bitcoinsignCircle
+    case bitcoinsignCircle = "bitcoinsign.circle"
 
     /// 􀗖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bitcoinsignCircleFill
+    case bitcoinsignCircleFill = "bitcoinsign.circle.fill"
 
     /// 􀘕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bitcoinsignSquare
+    case bitcoinsignSquare = "bitcoinsign.square"
 
     /// 􀘖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bitcoinsignSquareFill
+    case bitcoinsignSquareFill = "bitcoinsign.square.fill"
 
     /// 􀅓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bold
+    case bold = "bold"
 
     /// 􀅗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case boldItalicUnderline
+    case boldItalicUnderline = "bold.italic.underline"
 
     /// 􀅘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case boldUnderline
+    case boldUnderline = "bold.underline"
 
     /// 􀋥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bolt
+    case bolt = "bolt"
 
     /// 􀘳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case boltBadgeA
+    case boltBadgeA = "bolt.badge.a"
 
     /// 􀘴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case boltBadgeAFill
+    case boltBadgeAFill = "bolt.badge.a.fill"
 
     /// 􀡞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case boltCar
+    case boltCar = "bolt.car"
 
     /// 􀝃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case boltCarFill
+    case boltCarFill = "bolt.car.fill"
 
     /// 􀋧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case boltCircle
+    case boltCircle = "bolt.circle"
 
     /// 􀋨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case boltCircleFill
+    case boltCircleFill = "bolt.circle.fill"
 
     /// 􀋦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case boltFill
+    case boltFill = "bolt.fill"
 
     /// 􀫮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case boltFillBatteryblock
+    case boltFillBatteryblock = "bolt.fill.batteryblock"
 
     /// 􀫯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case boltFillBatteryblockFill
+    case boltFillBatteryblockFill = "bolt.fill.batteryblock.fill"
 
     /// 􀞽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case boltHeart
+    case boltHeart = "bolt.heart"
 
     /// 􀛥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case boltHeartFill
+    case boltHeartFill = "bolt.heart.fill"
 
     /// 􀒗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case boltHorizontal
+    case boltHorizontal = "bolt.horizontal"
 
     /// 􀒙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case boltHorizontalCircle
+    case boltHorizontalCircle = "bolt.horizontal.circle"
 
     /// 􀒚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case boltHorizontalCircleFill
+    case boltHorizontalCircleFill = "bolt.horizontal.circle.fill"
 
     /// 􀒘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case boltHorizontalFill
+    case boltHorizontalFill = "bolt.horizontal.fill"
 
     /// 􀘿
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case boltHorizontalIcloud
+    case boltHorizontalIcloud = "bolt.horizontal.icloud"
 
     /// 􀙀
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case boltHorizontalIcloudFill
+    case boltHorizontalIcloudFill = "bolt.horizontal.icloud.fill"
 
     /// 􀋩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case boltSlash
+    case boltSlash = "bolt.slash"
 
     /// 􀋫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case boltSlashCircle
+    case boltSlashCircle = "bolt.slash.circle"
 
     /// 􀋬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case boltSlashCircleFill
+    case boltSlashCircleFill = "bolt.slash.circle.fill"
 
     /// 􀋪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case boltSlashFill
+    case boltSlashFill = "bolt.slash.fill"
 
     /// 􀥠
     /// ⚠️ This symbol can refer only to Apple's Bonjour networking.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case bonjour
+    case bonjour = "bonjour"
 
     /// 􀉚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case book
+    case book = "book"
 
     /// 􀉜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bookCircle
+    case bookCircle = "book.circle"
 
     /// 􀉝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bookCircleFill
+    case bookCircleFill = "book.circle.fill"
 
     /// 􀤞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case bookClosed
+    case bookClosed = "book.closed"
 
     /// 􀤟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case bookClosedFill
+    case bookClosedFill = "book.closed.fill"
 
     /// 􀉛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bookFill
+    case bookFill = "book.fill"
 
     /// 􀉞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bookmark
+    case bookmark = "bookmark"
 
     /// 􀉠
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case bookmarkCircle
+    case bookmarkCircle = "bookmark.circle"
 
     /// 􀉡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case bookmarkCircleFill
+    case bookmarkCircleFill = "bookmark.circle.fill"
 
     /// 􀉟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bookmarkFill
+    case bookmarkFill = "bookmark.fill"
 
     /// 􀟍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case bookmarkSlash
+    case bookmarkSlash = "bookmark.slash"
 
     /// 􀟎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case bookmarkSlashFill
+    case bookmarkSlashFill = "bookmark.slash.fill"
 
     /// 􀬒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case booksVertical
+    case booksVertical = "books.vertical"
 
     /// 􀬓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case booksVerticalFill
+    case booksVerticalFill = "books.vertical.fill"
 
     /// 􀮰
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case brazilianrealsignCircle
+    case brazilianrealsignCircle = "brazilianrealsign.circle"
 
     /// 􀮱
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case brazilianrealsignCircleFill
+    case brazilianrealsignCircleFill = "brazilianrealsign.circle.fill"
 
     /// 􀮲
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case brazilianrealsignSquare
+    case brazilianrealsignSquare = "brazilianrealsign.square"
 
     /// 􀮳
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case brazilianrealsignSquareFill
+    case brazilianrealsignSquareFill = "brazilianrealsign.square.fill"
 
     /// 􀎜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case briefcase
+    case briefcase = "briefcase"
 
     /// 􀎝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case briefcaseFill
+    case briefcaseFill = "briefcase.fill"
 
     /// 􀌪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bubbleLeft
+    case bubbleLeft = "bubble.left"
 
     /// 􀒤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bubbleLeftAndBubbleRight
+    case bubbleLeftAndBubbleRight = "bubble.left.and.bubble.right"
 
     /// 􀘲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bubbleLeftAndBubbleRightFill
+    case bubbleLeftAndBubbleRightFill = "bubble.left.and.bubble.right.fill"
 
     /// 􀌫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bubbleLeftFill
+    case bubbleLeftFill = "bubble.left.fill"
 
     /// 􀌸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bubbleMiddleBottom
+    case bubbleMiddleBottom = "bubble.middle.bottom"
 
     /// 􀌹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bubbleMiddleBottomFill
+    case bubbleMiddleBottomFill = "bubble.middle.bottom.fill"
 
     /// 􀌼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bubbleMiddleTop
+    case bubbleMiddleTop = "bubble.middle.top"
 
     /// 􀌽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bubbleMiddleTopFill
+    case bubbleMiddleTopFill = "bubble.middle.top.fill"
 
     /// 􀌨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bubbleRight
+    case bubbleRight = "bubble.right"
 
     /// 􀌩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case bubbleRightFill
+    case bubbleRightFill = "bubble.right.fill"
 
     /// 􀮅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case building
+    case building = "building"
 
     /// 􀝒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case building2
+    case building2 = "building.2"
 
     /// 􀝔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case building2CropCircle
+    case building2CropCircle = "building.2.crop.circle"
 
     /// 􀝕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case building2CropCircleFill
+    case building2CropCircleFill = "building.2.crop.circle.fill"
 
     /// 􀝓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case building2Fill
+    case building2Fill = "building.2.fill"
 
     /// 􀤨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case buildingColumns
+    case buildingColumns = "building.columns"
 
     /// 􀤩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case buildingColumnsFill
+    case buildingColumnsFill = "building.columns.fill"
 
     /// 􀮆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case buildingFill
+    case buildingFill = "building.fill"
 
     /// 􀓜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case burn
+    case burn = "burn"
 
     /// 􀑂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case burst
+    case burst = "burst"
 
     /// 􀘞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case burstFill
+    case burstFill = "burst.fill"
 
     /// 􀝈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case bus
+    case bus = "bus"
 
     /// 􀜛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case busDoubledecker
+    case busDoubledecker = "bus.doubledecker"
 
     /// 􀜜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case busDoubledeckerFill
+    case busDoubledeckerFill = "bus.doubledecker.fill"
 
     /// 􀝉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case busFill
+    case busFill = "bus.fill"
 
     /// 􀀈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cCircle
+    case cCircle = "c.circle"
 
     /// 􀀉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cCircleFill
+    case cCircleFill = "c.circle.fill"
 
     /// 􀂘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cSquare
+    case cSquare = "c.square"
 
     /// 􀂙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cSquareFill
+    case cSquareFill = "c.square.fill"
 
     /// 􀉉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case calendar
+    case calendar = "calendar"
 
     /// 􀧞
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case calendarBadgeClock
+    case calendarBadgeClock = "calendar.badge.clock"
 
     /// 􀮝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case calendarBadgeExclamationmark
+    case calendarBadgeExclamationmark = "calendar.badge.exclamationmark"
 
     /// 􀉋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case calendarBadgeMinus
+    case calendarBadgeMinus = "calendar.badge.minus"
 
     /// 􀉊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case calendarBadgePlus
+    case calendarBadgePlus = "calendar.badge.plus"
 
     /// 􀒎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case calendarCircle
+    case calendarCircle = "calendar.circle"
 
     /// 􀒏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case calendarCircleFill
+    case calendarCircleFill = "calendar.circle.fill"
 
     /// 􀌞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case camera
+    case camera = "camera"
 
     /// 􀨺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cameraAperture
+    case cameraAperture = "camera.aperture"
 
     /// 􀢗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cameraBadgeEllipsis
+    case cameraBadgeEllipsis = "camera.badge.ellipsis"
 
     /// 􀌠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cameraCircle
+    case cameraCircle = "camera.circle"
 
     /// 􀌡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cameraCircleFill
+    case cameraCircleFill = "camera.circle.fill"
 
     /// 􀌟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cameraFill
+    case cameraFill = "camera.fill"
 
     /// 􀢘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cameraFillBadgeEllipsis
+    case cameraFillBadgeEllipsis = "camera.fill.badge.ellipsis"
 
     /// 􀟗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cameraFilters
+    case cameraFilters = "camera.filters"
 
     /// 􀢪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cameraMeteringCenterWeighted
+    case cameraMeteringCenterWeighted = "camera.metering.center.weighted"
 
     /// 􀞲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cameraMeteringCenterWeightedAverage
+    case cameraMeteringCenterWeightedAverage = "camera.metering.center.weighted.average"
 
     /// 􀢫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cameraMeteringMatrix
+    case cameraMeteringMatrix = "camera.metering.matrix"
 
     /// 􀢬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cameraMeteringMultispot
+    case cameraMeteringMultispot = "camera.metering.multispot"
 
     /// 􀢭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cameraMeteringNone
+    case cameraMeteringNone = "camera.metering.none"
 
     /// 􀢮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cameraMeteringPartial
+    case cameraMeteringPartial = "camera.metering.partial"
 
     /// 􀢯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cameraMeteringSpot
+    case cameraMeteringSpot = "camera.metering.spot"
 
     /// 􀢰
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cameraMeteringUnknown
+    case cameraMeteringUnknown = "camera.metering.unknown"
 
     /// 􀝁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cameraOnRectangle
+    case cameraOnRectangle = "camera.on.rectangle"
 
     /// 􀝂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cameraOnRectangleFill
+    case cameraOnRectangleFill = "camera.on.rectangle.fill"
 
     /// 􀌢
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCamera")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCamera")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCamera")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCamera")
-    case cameraRotate
+    case cameraRotate = "camera.rotate"
 
     /// 􀌣
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCameraFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCameraFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCameraFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCameraFill")
-    case cameraRotateFill
+    case cameraRotateFill = "camera.rotate.fill"
 
     /// 􀎼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cameraViewfinder
+    case cameraViewfinder = "camera.viewfinder"
 
     /// 􀪳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case candybarphone
+    case candybarphone = "candybarphone"
 
     /// 􀆡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case capslock
+    case capslock = "capslock"
 
     /// 􀆢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case capslockFill
+    case capslockFill = "capslock.fill"
 
     /// 􀝶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case capsule
+    case capsule = "capsule"
 
     /// 􀝷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case capsuleFill
+    case capsuleFill = "capsule.fill"
 
     /// 􀧶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case capsulePortrait
+    case capsulePortrait = "capsule.portrait"
 
     /// 􀧷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case capsulePortraitFill
+    case capsulePortraitFill = "capsule.portrait.fill"
 
     /// 􀌴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case captionsBubble
+    case captionsBubble = "captions.bubble"
 
     /// 􀌵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case captionsBubbleFill
+    case captionsBubbleFill = "captions.bubble.fill"
 
     /// 􀙘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case car
+    case car = "car"
 
     /// 􀝄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case car2
+    case car2 = "car.2"
 
     /// 􀝅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case car2Fill
+    case car2Fill = "car.2.fill"
 
     /// 􀭯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case carCircle
+    case carCircle = "car.circle"
 
     /// 􀭰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case carCircleFill
+    case carCircleFill = "car.circle.fill"
 
     /// 􀙙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case carFill
+    case carFill = "car.fill"
 
     /// 􀍩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cart
+    case cart = "cart"
 
     /// 􀍭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cartBadgeMinus
+    case cartBadgeMinus = "cart.badge.minus"
 
     /// 􀍫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cartBadgePlus
+    case cartBadgePlus = "cart.badge.plus"
 
     /// 􀒭
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case cartCircle
+    case cartCircle = "cart.circle"
 
     /// 􀒮
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case cartCircleFill
+    case cartCircleFill = "cart.circle.fill"
 
     /// 􀍪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cartFill
+    case cartFill = "cart.fill"
 
     /// 􀍮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cartFillBadgeMinus
+    case cartFillBadgeMinus = "cart.fill.badge.minus"
 
     /// 􀍬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cartFillBadgePlus
+    case cartFillBadgePlus = "cart.fill.badge.plus"
 
     /// 􀯡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case `case`
+    case `case` = "case"
 
     /// 􀯢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case caseFill
+    case caseFill = "case.fill"
 
     /// 􀗃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cedisignCircle
+    case cedisignCircle = "cedisign.circle"
 
     /// 􀗄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cedisignCircleFill
+    case cedisignCircleFill = "cedisign.circle.fill"
 
     /// 􀘃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cedisignSquare
+    case cedisignSquare = "cedisign.square"
 
     /// 􀘄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cedisignSquareFill
+    case cedisignSquareFill = "cedisign.square.fill"
 
     /// 􀖙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case centsignCircle
+    case centsignCircle = "centsign.circle"
 
     /// 􀖚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case centsignCircleFill
+    case centsignCircleFill = "centsign.circle.fill"
 
     /// 􀗙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case centsignSquare
+    case centsignSquare = "centsign.square"
 
     /// 􀗚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case centsignSquareFill
+    case centsignSquareFill = "centsign.square.fill"
 
     /// 􀅏
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case character
+    case character = "character"
 
     /// 􀫕
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Traditional Chinese
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case characterBookClosed
+    case characterBookClosed = "character.book.closed"
 
     /// 􀫖
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Traditional Chinese
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case characterBookClosedFill
+    case characterBookClosedFill = "character.book.closed.fill"
 
     /// 􀐾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chartBar
+    case chartBar = "chart.bar"
 
     /// 􀥜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case chartBarDocHorizontal
+    case chartBarDocHorizontal = "chart.bar.doc.horizontal"
 
     /// 􀦌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case chartBarDocHorizontalFill
+    case chartBarDocHorizontalFill = "chart.bar.doc.horizontal.fill"
 
     /// 􀐿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chartBarFill
+    case chartBarFill = "chart.bar.fill"
 
     /// 􀣉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case chartBarXaxis
+    case chartBarXaxis = "chart.bar.xaxis"
 
     /// 􀑀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chartPie
+    case chartPie = "chart.pie"
 
     /// 􀜋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chartPieFill
+    case chartPieFill = "chart.pie.fill"
 
     /// 􀪫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case checkerboardRectangle
+    case checkerboardRectangle = "checkerboard.rectangle"
 
     /// 􀆅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case checkmark
+    case checkmark = "checkmark"
 
     /// 􀁢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case checkmarkCircle
+    case checkmarkCircle = "checkmark.circle"
 
     /// 􀁣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case checkmarkCircleFill
+    case checkmarkCircleFill = "checkmark.circle.fill"
 
     /// 􀢓
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case checkmarkIcloud
+    case checkmarkIcloud = "checkmark.icloud"
 
     /// 􀢔
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case checkmarkIcloudFill
+    case checkmarkIcloudFill = "checkmark.icloud.fill"
 
     /// 􀏋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case checkmarkRectangle
+    case checkmarkRectangle = "checkmark.rectangle"
 
     /// 􀏌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case checkmarkRectangleFill
+    case checkmarkRectangleFill = "checkmark.rectangle.fill"
 
     /// 􀡮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case checkmarkRectanglePortrait
+    case checkmarkRectanglePortrait = "checkmark.rectangle.portrait"
 
     /// 􀡯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case checkmarkRectanglePortraitFill
+    case checkmarkRectanglePortraitFill = "checkmark.rectangle.portrait.fill"
 
     /// 􀇺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case checkmarkSeal
+    case checkmarkSeal = "checkmark.seal"
 
     /// 􀇻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case checkmarkSealFill
+    case checkmarkSealFill = "checkmark.seal.fill"
 
     /// 􀞛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case checkmarkShield
+    case checkmarkShield = "checkmark.shield"
 
     /// 􀞜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case checkmarkShieldFill
+    case checkmarkShieldFill = "checkmark.shield.fill"
 
     /// 􀃲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case checkmarkSquare
+    case checkmarkSquare = "checkmark.square"
 
     /// 􀃳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case checkmarkSquareFill
+    case checkmarkSquareFill = "checkmark.square.fill"
 
     /// 􀯶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case chevronBackward
+    case chevronBackward = "chevron.backward"
 
     /// 􀰪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case chevronBackward2
+    case chevronBackward2 = "chevron.backward.2"
 
     /// 􀯷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case chevronBackwardCircle
+    case chevronBackwardCircle = "chevron.backward.circle"
 
     /// 􀯸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case chevronBackwardCircleFill
+    case chevronBackwardCircleFill = "chevron.backward.circle.fill"
 
     /// 􀯹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case chevronBackwardSquare
+    case chevronBackwardSquare = "chevron.backward.square"
 
     /// 􀯺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case chevronBackwardSquareFill
+    case chevronBackwardSquareFill = "chevron.backward.square.fill"
 
     /// 􀆑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronCompactDown
+    case chevronCompactDown = "chevron.compact.down"
 
     /// 􀆒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronCompactLeft
+    case chevronCompactLeft = "chevron.compact.left"
 
     /// 􀆓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronCompactRight
+    case chevronCompactRight = "chevron.compact.right"
 
     /// 􀆐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronCompactUp
+    case chevronCompactUp = "chevron.compact.up"
 
     /// 􀆈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronDown
+    case chevronDown = "chevron.down"
 
     /// 􀁰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronDownCircle
+    case chevronDownCircle = "chevron.down.circle"
 
     /// 􀁱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronDownCircleFill
+    case chevronDownCircleFill = "chevron.down.circle.fill"
 
     /// 􀄀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronDownSquare
+    case chevronDownSquare = "chevron.down.square"
 
     /// 􀄁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronDownSquareFill
+    case chevronDownSquareFill = "chevron.down.square.fill"
 
     /// 􀯻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case chevronForward
+    case chevronForward = "chevron.forward"
 
     /// 􀰫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case chevronForward2
+    case chevronForward2 = "chevron.forward.2"
 
     /// 􀯼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case chevronForwardCircle
+    case chevronForwardCircle = "chevron.forward.circle"
 
     /// 􀯽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case chevronForwardCircleFill
+    case chevronForwardCircleFill = "chevron.forward.circle.fill"
 
     /// 􀯾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case chevronForwardSquare
+    case chevronForwardSquare = "chevron.forward.square"
 
     /// 􀯿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case chevronForwardSquareFill
+    case chevronForwardSquareFill = "chevron.forward.square.fill"
 
     /// 􀆉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronLeft
+    case chevronLeft = "chevron.left"
 
     /// 􀆋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronLeft2
+    case chevronLeft2 = "chevron.left.2"
 
     /// 􀁲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronLeftCircle
+    case chevronLeftCircle = "chevron.left.circle"
 
     /// 􀁳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronLeftCircleFill
+    case chevronLeftCircleFill = "chevron.left.circle.fill"
 
     /// 􀙚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronLeftSlashChevronRight
+    case chevronLeftSlashChevronRight = "chevron.left.slash.chevron.right"
 
     /// 􀄂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronLeftSquare
+    case chevronLeftSquare = "chevron.left.square"
 
     /// 􀄃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronLeftSquareFill
+    case chevronLeftSquareFill = "chevron.left.square.fill"
 
     /// 􀆊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronRight
+    case chevronRight = "chevron.right"
 
     /// 􀆌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronRight2
+    case chevronRight2 = "chevron.right.2"
 
     /// 􀁴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronRightCircle
+    case chevronRightCircle = "chevron.right.circle"
 
     /// 􀁵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronRightCircleFill
+    case chevronRightCircleFill = "chevron.right.circle.fill"
 
     /// 􀄄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronRightSquare
+    case chevronRightSquare = "chevron.right.square"
 
     /// 􀄅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronRightSquareFill
+    case chevronRightSquareFill = "chevron.right.square.fill"
 
     /// 􀆇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronUp
+    case chevronUp = "chevron.up"
 
     /// 􀆏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronUpChevronDown
+    case chevronUpChevronDown = "chevron.up.chevron.down"
 
     /// 􀁮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronUpCircle
+    case chevronUpCircle = "chevron.up.circle"
 
     /// 􀁯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronUpCircleFill
+    case chevronUpCircleFill = "chevron.up.circle.fill"
 
     /// 􀃾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronUpSquare
+    case chevronUpSquare = "chevron.up.square"
 
     /// 􀃿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case chevronUpSquareFill
+    case chevronUpSquareFill = "chevron.up.square.fill"
 
     /// 􀀀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case circle
+    case circle = "circle"
 
     /// 􀪖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circleBottomhalfFill
+    case circleBottomhalfFill = "circle.bottomhalf.fill"
 
     /// 􀜚
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "sleep")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "sleep")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "sleep")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "sleep")
-    case circleBottomthirdSplit
+    case circleBottomthirdSplit = "circle.bottomthird.split"
 
     /// 􀨁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circleCircle
+    case circleCircle = "circle.circle"
 
     /// 􀨂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circleCircleFill
+    case circleCircleFill = "circle.circle.fill"
 
     /// 􀓞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circleDashed
+    case circleDashed = "circle.dashed"
 
     /// 􀧒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circleDashedInsetFill
+    case circleDashedInsetFill = "circle.dashed.inset.fill"
 
     /// 􀀁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case circleFill
+    case circleFill = "circle.fill"
 
     /// 􀧻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circleFillSquareFill
+    case circleFillSquareFill = "circle.fill.square.fill"
 
     /// 􀞾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case circleGrid2x2
+    case circleGrid2x2 = "circle.grid.2x2"
 
     /// 􀞿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case circleGrid2x2Fill
+    case circleGrid2x2Fill = "circle.grid.2x2.fill"
 
     /// 􀇸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case circleGrid3x3
+    case circleGrid3x3 = "circle.grid.3x3"
 
     /// 􀇹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case circleGrid3x3Fill
+    case circleGrid3x3Fill = "circle.grid.3x3.fill"
 
     /// 􀧸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circleGridCross
+    case circleGridCross = "circle.grid.cross"
 
     /// 􀩇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circleGridCrossDownFill
+    case circleGridCrossDownFill = "circle.grid.cross.down.fill"
 
     /// 􀧹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circleGridCrossFill
+    case circleGridCrossFill = "circle.grid.cross.fill"
 
     /// 􀩄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circleGridCrossLeftFill
+    case circleGridCrossLeftFill = "circle.grid.cross.left.fill"
 
     /// 􀩆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circleGridCrossRightFill
+    case circleGridCrossRightFill = "circle.grid.cross.right.fill"
 
     /// 􀩅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circleGridCrossUpFill
+    case circleGridCrossUpFill = "circle.grid.cross.up.fill"
 
     /// 􀙢
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongrid")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "circlesHexagongrid")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongrid")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "circlesHexagongrid")
-    case circleGridHex
+    case circleGridHex = "circle.grid.hex"
 
     /// 􀙣
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongridFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "circlesHexagongridFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongridFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "circlesHexagongridFill")
-    case circleGridHexFill
+    case circleGridHexFill = "circle.grid.hex.fill"
 
     /// 􀀂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case circleLefthalfFill
+    case circleLefthalfFill = "circle.lefthalf.fill"
 
     /// 􀀃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case circleRighthalfFill
+    case circleRighthalfFill = "circle.righthalf.fill"
 
     /// 􀧺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circleSquare
+    case circleSquare = "circle.square"
 
     /// 􀪗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circleTophalfFill
+    case circleTophalfFill = "circle.tophalf.fill"
 
     /// 􀧙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circlebadge
+    case circlebadge = "circlebadge"
 
     /// 􀫲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circlebadge2
+    case circlebadge2 = "circlebadge.2"
 
     /// 􀣽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circlebadge2Fill
+    case circlebadge2Fill = "circlebadge.2.fill"
 
     /// 􀜞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circlebadgeFill
+    case circlebadgeFill = "circlebadge.fill"
 
     /// 􀙢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case circlesHexagongrid
+    case circlesHexagongrid = "circles.hexagongrid"
 
     /// 􀙣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case circlesHexagongridFill
+    case circlesHexagongridFill = "circles.hexagongrid.fill"
 
     /// 􀬎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circlesHexagonpath
+    case circlesHexagonpath = "circles.hexagonpath"
 
     /// 􀬏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case circlesHexagonpathFill
+    case circlesHexagonpathFill = "circles.hexagonpath.fill"
 
     /// 􀆙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case clear
+    case clear = "clear"
 
     /// 􀆚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case clearFill
+    case clearFill = "clear.fill"
 
     /// 􀐫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case clock
+    case clock = "clock"
 
     /// 􀯛
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case clockArrow2Circlepath
+    case clockArrow2Circlepath = "clock.arrow.2.circlepath"
 
     /// 􀣔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case clockArrowCirclepath
+    case clockArrowCirclepath = "clock.arrow.circlepath"
 
     /// 􀐬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case clockFill
+    case clockFill = "clock.fill"
 
     /// 􀇂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloud
+    case cloud = "cloud"
 
     /// 􀇒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudBolt
+    case cloudBolt = "cloud.bolt"
 
     /// 􀇓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudBoltFill
+    case cloudBoltFill = "cloud.bolt.fill"
 
     /// 􀇞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudBoltRain
+    case cloudBoltRain = "cloud.bolt.rain"
 
     /// 􀇟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudBoltRainFill
+    case cloudBoltRainFill = "cloud.bolt.rain.fill"
 
     /// 􀇄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudDrizzle
+    case cloudDrizzle = "cloud.drizzle"
 
     /// 􀇅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudDrizzleFill
+    case cloudDrizzleFill = "cloud.drizzle.fill"
 
     /// 􀇃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudFill
+    case cloudFill = "cloud.fill"
 
     /// 􀇊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudFog
+    case cloudFog = "cloud.fog"
 
     /// 􀇋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudFogFill
+    case cloudFogFill = "cloud.fog.fill"
 
     /// 􀇌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudHail
+    case cloudHail = "cloud.hail"
 
     /// 􀇍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudHailFill
+    case cloudHailFill = "cloud.hail.fill"
 
     /// 􀇈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudHeavyrain
+    case cloudHeavyrain = "cloud.heavyrain"
 
     /// 􀇉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudHeavyrainFill
+    case cloudHeavyrainFill = "cloud.heavyrain.fill"
 
     /// 􀇚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudMoon
+    case cloudMoon = "cloud.moon"
 
     /// 􀇠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudMoonBolt
+    case cloudMoonBolt = "cloud.moon.bolt"
 
     /// 􀇡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudMoonBoltFill
+    case cloudMoonBoltFill = "cloud.moon.bolt.fill"
 
     /// 􀇛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudMoonFill
+    case cloudMoonFill = "cloud.moon.fill"
 
     /// 􀇜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudMoonRain
+    case cloudMoonRain = "cloud.moon.rain"
 
     /// 􀇝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudMoonRainFill
+    case cloudMoonRainFill = "cloud.moon.rain.fill"
 
     /// 􀇆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudRain
+    case cloudRain = "cloud.rain"
 
     /// 􀇇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudRainFill
+    case cloudRainFill = "cloud.rain.fill"
 
     /// 􀇐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudSleet
+    case cloudSleet = "cloud.sleet"
 
     /// 􀇑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudSleetFill
+    case cloudSleetFill = "cloud.sleet.fill"
 
     /// 􀇎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudSnow
+    case cloudSnow = "cloud.snow"
 
     /// 􀇏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudSnowFill
+    case cloudSnowFill = "cloud.snow.fill"
 
     /// 􀇔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudSun
+    case cloudSun = "cloud.sun"
 
     /// 􀇘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudSunBolt
+    case cloudSunBolt = "cloud.sun.bolt"
 
     /// 􀇙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudSunBoltFill
+    case cloudSunBoltFill = "cloud.sun.bolt.fill"
 
     /// 􀇕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudSunFill
+    case cloudSunFill = "cloud.sun.fill"
 
     /// 􀇖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudSunRain
+    case cloudSunRain = "cloud.sun.rain"
 
     /// 􀇗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cloudSunRainFill
+    case cloudSunRainFill = "cloud.sun.rain.fill"
 
     /// 􀗁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case coloncurrencysignCircle
+    case coloncurrencysignCircle = "coloncurrencysign.circle"
 
     /// 􀗂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case coloncurrencysignCircleFill
+    case coloncurrencysignCircleFill = "coloncurrencysign.circle.fill"
 
     /// 􀘁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case coloncurrencysignSquare
+    case coloncurrencysignSquare = "coloncurrencysign.square"
 
     /// 􀘂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case coloncurrencysignSquareFill
+    case coloncurrencysignSquareFill = "coloncurrencysign.square.fill"
 
     /// 􀦈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case comb
+    case comb = "comb"
 
     /// 􀦉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case combFill
+    case combFill = "comb.fill"
 
     /// 􀆔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case command
+    case command = "command"
 
     /// 􀩿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case commandCircle
+    case commandCircle = "command.circle"
 
     /// 􀪀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case commandCircleFill
+    case commandCircleFill = "command.circle.fill"
 
     /// 􀪁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case commandSquare
+    case commandSquare = "command.square"
 
     /// 􀪂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case commandSquareFill
+    case commandSquareFill = "command.square.fill"
 
     /// 􀳇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cone
+    case cone = "cone"
 
     /// 􀳈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case coneFill
+    case coneFill = "cone.fill"
 
     /// 􀭈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case contextualmenuAndCursorarrow
+    case contextualmenuAndCursorarrow = "contextualmenu.and.cursorarrow"
 
     /// 􀆍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case control
+    case control = "control"
 
     /// 􀫥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cpu
+    case cpu = "cpu"
 
     /// 􀍯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case creditcard
+    case creditcard = "creditcard"
 
     /// 􀒯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case creditcardCircle
+    case creditcardCircle = "creditcard.circle"
 
     /// 􀒰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case creditcardCircleFill
+    case creditcardCircleFill = "creditcard.circle.fill"
 
     /// 􀍰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case creditcardFill
+    case creditcardFill = "creditcard.fill"
 
     /// 􀍳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case crop
+    case crop = "crop"
 
     /// 􀍴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cropRotate
+    case cropRotate = "crop.rotate"
 
     /// 􀣜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cross
+    case cross = "cross"
 
     /// 􀯙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case crossCase
+    case crossCase = "cross.case"
 
     /// 􀯚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case crossCaseFill
+    case crossCaseFill = "cross.case.fill"
 
     /// 􀣞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case crossCircle
+    case crossCircle = "cross.circle"
 
     /// 􀣟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case crossCircleFill
+    case crossCircleFill = "cross.circle.fill"
 
     /// 􀣝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case crossFill
+    case crossFill = "cross.fill"
 
     /// 􀦅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case crown
+    case crown = "crown"
 
     /// 􀦆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case crownFill
+    case crownFill = "crown.fill"
 
     /// 􀗅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cruzeirosignCircle
+    case cruzeirosignCircle = "cruzeirosign.circle"
 
     /// 􀗆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cruzeirosignCircleFill
+    case cruzeirosignCircleFill = "cruzeirosign.circle.fill"
 
     /// 􀘅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cruzeirosignSquare
+    case cruzeirosignSquare = "cruzeirosign.square"
 
     /// 􀘆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cruzeirosignSquareFill
+    case cruzeirosignSquareFill = "cruzeirosign.square.fill"
 
     /// 􀐘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cube
+    case cube = "cube"
 
     /// 􀐚
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingbox")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shippingbox")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingbox")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shippingbox")
-    case cubeBox
+    case cubeBox = "cube.box"
 
     /// 􀐛
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingboxFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shippingboxFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingboxFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shippingboxFill")
-    case cubeBoxFill
+    case cubeBoxFill = "cube.box.fill"
 
     /// 􀐙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cubeFill
+    case cubeFill = "cube.fill"
 
     /// 􀬨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cubeTransparent
+    case cubeTransparent = "cube.transparent"
 
     /// 􀳴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cubeTransparentFill
+    case cubeTransparentFill = "cube.transparent.fill"
 
     /// 􀡅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case curlybraces
+    case curlybraces = "curlybraces"
 
     /// 􀤘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case curlybracesSquare
+    case curlybracesSquare = "curlybraces.square"
 
     /// 􀤙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case curlybracesSquareFill
+    case curlybracesSquareFill = "curlybraces.square.fill"
 
     /// 􀇰
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "cursorarrowRays")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "cursorarrowRays")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "cursorarrowRays")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "cursorarrowRays")
-    case cursorRays
+    case cursorRays = "cursor.rays"
 
     /// 􀫌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cursorarrow
+    case cursorarrow = "cursorarrow"
 
     /// 􀮐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cursorarrowAndSquareOnSquareDashed
+    case cursorarrowAndSquareOnSquareDashed = "cursorarrow.and.square.on.square.dashed"
 
     /// 􀭆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cursorarrowClick
+    case cursorarrowClick = "cursorarrow.click"
 
     /// 􀭇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cursorarrowClick2
+    case cursorarrowClick2 = "cursorarrow.click.2"
 
     /// 􀮴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cursorarrowClickBadgeClock
+    case cursorarrowClickBadgeClock = "cursorarrow.click.badge.clock"
 
     /// 􀣠
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cursorarrowMotionlines
+    case cursorarrowMotionlines = "cursorarrow.motionlines"
 
     /// 􀣡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cursorarrowMotionlinesClick
+    case cursorarrowMotionlinesClick = "cursorarrow.motionlines.click"
 
     /// 􀇰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case cursorarrowRays
+    case cursorarrowRays = "cursorarrow.rays"
 
     /// 􀭅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cursorarrowSquare
+    case cursorarrowSquare = "cursorarrow.square"
 
     /// 􀳃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cylinder
+    case cylinder = "cylinder"
 
     /// 􀳄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cylinderFill
+    case cylinderFill = "cylinder.fill"
 
     /// 􀡓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cylinderSplit1x2
+    case cylinderSplit1x2 = "cylinder.split.1x2"
 
     /// 􀡔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case cylinderSplit1x2Fill
+    case cylinderSplit1x2Fill = "cylinder.split.1x2.fill"
 
     /// 􀀊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dCircle
+    case dCircle = "d.circle"
 
     /// 􀀋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dCircleFill
+    case dCircleFill = "d.circle.fill"
 
     /// 􀂚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dSquare
+    case dSquare = "d.square"
 
     /// 􀂛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dSquareFill
+    case dSquareFill = "d.square.fill"
 
     /// 􀋶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case decreaseIndent
+    case decreaseIndent = "decrease.indent"
 
     /// 􀝿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case decreaseQuotelevel
+    case decreaseQuotelevel = "decrease.quotelevel"
 
     /// 􀆛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case deleteLeft
+    case deleteLeft = "delete.left"
 
     /// 􀆜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case deleteLeftFill
+    case deleteLeftFill = "delete.left.fill"
 
     /// 􀆗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case deleteRight
+    case deleteRight = "delete.right"
 
     /// 􀆘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case deleteRightFill
+    case deleteRightFill = "delete.right.fill"
 
     /// 􀡑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case deskclock
+    case deskclock = "deskclock"
 
     /// 􀡒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case deskclockFill
+    case deskclockFill = "deskclock.fill"
 
     /// 􀙗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case desktopcomputer
+    case desktopcomputer = "desktopcomputer"
 
     /// 􀍺
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMin")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "dialMin")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMin")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "dialMin")
-    case dial
+    case dial = "dial"
 
     /// 􀍻
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMinFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "dialMinFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMinFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "dialMinFill")
-    case dialFill
+    case dialFill = "dial.fill"
 
     /// 􀪐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dialMax
+    case dialMax = "dial.max"
 
     /// 􀪑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dialMaxFill
+    case dialMaxFill = "dial.max.fill"
 
     /// 􀍺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dialMin
+    case dialMin = "dial.min"
 
     /// 􀍻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dialMinFill
+    case dialMinFill = "dial.min.fill"
 
     /// 􀟈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case diamond
+    case diamond = "diamond"
 
     /// 􀟉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case diamondFill
+    case diamondFill = "diamond.fill"
 
     /// 􀧣
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dieFace1
+    case dieFace1 = "die.face.1"
 
     /// 􀧤
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dieFace1Fill
+    case dieFace1Fill = "die.face.1.fill"
 
     /// 􀧥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dieFace2
+    case dieFace2 = "die.face.2"
 
     /// 􀧦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dieFace2Fill
+    case dieFace2Fill = "die.face.2.fill"
 
     /// 􀧧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dieFace3
+    case dieFace3 = "die.face.3"
 
     /// 􀧨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dieFace3Fill
+    case dieFace3Fill = "die.face.3.fill"
 
     /// 􀧩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dieFace4
+    case dieFace4 = "die.face.4"
 
     /// 􀧪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dieFace4Fill
+    case dieFace4Fill = "die.face.4.fill"
 
     /// 􀧫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dieFace5
+    case dieFace5 = "die.face.5"
 
     /// 􀧬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dieFace5Fill
+    case dieFace5Fill = "die.face.5.fill"
 
     /// 􀧭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dieFace6
+    case dieFace6 = "die.face.6"
 
     /// 􀧮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dieFace6Fill
+    case dieFace6Fill = "die.face.6.fill"
 
     /// 􀯝
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case directcurrent
+    case directcurrent = "directcurrent"
 
     /// 􀢹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case display
+    case display = "display"
 
     /// 􀨧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case display2
+    case display2 = "display.2"
 
     /// 􀨦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case displayTrianglebadgeExclamationmark
+    case displayTrianglebadgeExclamationmark = "display.trianglebadge.exclamationmark"
 
     /// 􀅿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case divide
+    case divide = "divide"
 
     /// 􀁒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case divideCircle
+    case divideCircle = "divide.circle"
 
     /// 􀁓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case divideCircleFill
+    case divideCircleFill = "divide.circle.fill"
 
     /// 􀃢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case divideSquare
+    case divideSquare = "divide.square"
 
     /// 􀃣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case divideSquareFill
+    case divideSquareFill = "divide.square.fill"
 
     /// 􀈷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case doc
+    case doc = "doc"
 
     /// 􀉇
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case docAppend
+    case docAppend = "doc.append"
 
     /// 􀦋
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case docAppendFill
+    case docAppendFill = "doc.append.fill"
 
     /// 􀩴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case docBadgeEllipsis
+    case docBadgeEllipsis = "doc.badge.ellipsis"
 
     /// 􀩚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case docBadgeGearshape
+    case docBadgeGearshape = "doc.badge.gearshape"
 
     /// 􀩛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case docBadgeGearshapeFill
+    case docBadgeGearshapeFill = "doc.badge.gearshape.fill"
 
     /// 􀣗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case docBadgePlus
+    case docBadgePlus = "doc.badge.plus"
 
     /// 􀈹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case docCircle
+    case docCircle = "doc.circle"
 
     /// 􀈺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case docCircleFill
+    case docCircleFill = "doc.circle.fill"
 
     /// 􀈸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case docFill
+    case docFill = "doc.fill"
 
     /// 􀩵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case docFillBadgeEllipsis
+    case docFillBadgeEllipsis = "doc.fill.badge.ellipsis"
 
     /// 􀣘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case docFillBadgePlus
+    case docFillBadgePlus = "doc.fill.badge.plus"
 
     /// 􀉃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case docOnClipboard
+    case docOnClipboard = "doc.on.clipboard"
 
     /// 􀉄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case docOnClipboardFill
+    case docOnClipboardFill = "doc.on.clipboard.fill"
 
     /// 􀉁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case docOnDoc
+    case docOnDoc = "doc.on.doc"
 
     /// 􀉂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case docOnDocFill
+    case docOnDocFill = "doc.on.doc.fill"
 
     /// 􀉆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case docPlaintext
+    case docPlaintext = "doc.plaintext"
 
     /// 􀥨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case docPlaintextFill
+    case docPlaintextFill = "doc.plaintext.fill"
 
     /// 􀉅
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Hebrew
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case docRichtext
+    case docRichtext = "doc.richtext"
 
     /// 􀦊
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Hebrew
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case docRichtextFill
+    case docRichtextFill = "doc.richtext.fill"
 
     /// 􀈿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case docText
+    case docText = "doc.text"
 
     /// 􀳼
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case docTextBelowEcg
+    case docTextBelowEcg = "doc.text.below.ecg"
 
     /// 􀳽
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case docTextBelowEcgFill
+    case docTextBelowEcgFill = "doc.text.below.ecg.fill"
 
     /// 􀉀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case docTextFill
+    case docTextFill = "doc.text.fill"
 
     /// 􀡢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case docTextFillViewfinder
+    case docTextFillViewfinder = "doc.text.fill.viewfinder"
 
     /// 􀕹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case docTextMagnifyingglass
+    case docTextMagnifyingglass = "doc.text.magnifyingglass"
 
     /// 􀎾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case docTextViewfinder
+    case docTextViewfinder = "doc.text.viewfinder"
 
     /// 􀤧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case docZipper
+    case docZipper = "doc.zipper"
 
     /// 􀣿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dockArrowDownRectangle
+    case dockArrowDownRectangle = "dock.arrow.down.rectangle"
 
     /// 􀣾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dockArrowUpRectangle
+    case dockArrowUpRectangle = "dock.arrow.up.rectangle"
 
     /// 􀏞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dockRectangle
+    case dockRectangle = "dock.rectangle"
 
     /// 􀖗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dollarsignCircle
+    case dollarsignCircle = "dollarsign.circle"
 
     /// 􀖘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dollarsignCircleFill
+    case dollarsignCircleFill = "dollarsign.circle.fill"
 
     /// 􀗗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dollarsignSquare
+    case dollarsignSquare = "dollarsign.square"
 
     /// 􀗘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dollarsignSquareFill
+    case dollarsignSquareFill = "dollarsign.square.fill"
 
     /// 􀖩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dongsignCircle
+    case dongsignCircle = "dongsign.circle"
 
     /// 􀖪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dongsignCircleFill
+    case dongsignCircleFill = "dongsign.circle.fill"
 
     /// 􀗩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dongsignSquare
+    case dongsignSquare = "dongsign.square"
 
     /// 􀗪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dongsignSquareFill
+    case dongsignSquareFill = "dongsign.square.fill"
 
     /// 􀝯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dotArrowtrianglesUpRightDownLeftCircle
+    case dotArrowtrianglesUpRightDownLeftCircle = "dot.arrowtriangles.up.right.down.left.circle"
 
     /// 􀫍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dotCircleAndCursorarrow
+    case dotCircleAndCursorarrow = "dot.circle.and.cursorarrow"
 
     /// 􀰭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dotRadiowavesForward
+    case dotRadiowavesForward = "dot.radiowaves.forward"
 
     /// 􀌙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dotRadiowavesLeftAndRight
+    case dotRadiowavesLeftAndRight = "dot.radiowaves.left.and.right"
 
     /// 􀖒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dotRadiowavesRight
+    case dotRadiowavesRight = "dot.radiowaves.right"
 
     /// 􀕴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dotSquare
+    case dotSquare = "dot.square"
 
     /// 􀕵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dotSquareFill
+    case dotSquareFill = "dot.square.fill"
 
     /// 􀪵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dotSquareshape
+    case dotSquareshape = "dot.squareshape"
 
     /// 􀪶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dotSquareshapeFill
+    case dotSquareshapeFill = "dot.squareshape.fill"
 
     /// 􀮋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dotSquareshapeSplit2x2
+    case dotSquareshapeSplit2x2 = "dot.squareshape.split.2x2"
 
     /// 􀨲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dpad
+    case dpad = "dpad"
 
     /// 􀨀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dpadDownFill
+    case dpadDownFill = "dpad.down.fill"
 
     /// 􀧼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dpadFill
+    case dpadFill = "dpad.fill"
 
     /// 􀧽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dpadLeftFill
+    case dpadLeftFill = "dpad.left.fill"
 
     /// 􀧿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dpadRightFill
+    case dpadRightFill = "dpad.right.fill"
 
     /// 􀧾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dpadUpFill
+    case dpadUpFill = "dpad.up.fill"
 
     /// 􀠑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case drop
+    case drop = "drop"
 
     /// 􀠒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case dropFill
+    case dropFill = "drop.fill"
 
     /// 􀈀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dropTriangle
+    case dropTriangle = "drop.triangle"
 
     /// 􀈁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case dropTriangleFill
+    case dropTriangleFill = "drop.triangle.fill"
 
     /// 􀀌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case eCircle
+    case eCircle = "e.circle"
 
     /// 􀀍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case eCircleFill
+    case eCircleFill = "e.circle.fill"
 
     /// 􀂜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case eSquare
+    case eSquare = "e.square"
 
     /// 􀂝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case eSquareFill
+    case eSquareFill = "e.square.fill"
 
     /// 􀜣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case ear
+    case ear = "ear"
 
     /// 􀦿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case earBadgeCheckmark
+    case earBadgeCheckmark = "ear.badge.checkmark"
 
     /// 􀞇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case earFill
+    case earFill = "ear.fill"
 
     /// 􀧁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case earTrianglebadgeExclamationmark
+    case earTrianglebadgeExclamationmark = "ear.trianglebadge.exclamationmark"
 
     /// 􀠦
     /// ⚠️ This symbol can refer only to Apple's EarPods.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case earpods
+    case earpods = "earpods"
 
     /// 􀆥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case eject
+    case eject = "eject"
 
     /// 􀢡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ejectCircle
+    case ejectCircle = "eject.circle"
 
     /// 􀢢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ejectCircleFill
+    case ejectCircleFill = "eject.circle.fill"
 
     /// 􀆦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case ejectFill
+    case ejectFill = "eject.fill"
 
     /// 􀕺
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "ellipsisBubble")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "ellipsisBubble")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "ellipsisBubble")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "ellipsisBubble")
-    case ellipsesBubble
+    case ellipsesBubble = "ellipses.bubble"
 
     /// 􀕻
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "ellipsisBubbleFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "ellipsisBubbleFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "ellipsisBubbleFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "ellipsisBubbleFill")
-    case ellipsesBubbleFill
+    case ellipsesBubbleFill = "ellipses.bubble.fill"
 
     /// 􀍠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case ellipsis
+    case ellipsis = "ellipsis"
 
     /// 􀕺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case ellipsisBubble
+    case ellipsisBubble = "ellipsis.bubble"
 
     /// 􀕻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case ellipsisBubbleFill
+    case ellipsisBubbleFill = "ellipsis.bubble.fill"
 
     /// 􀍡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case ellipsisCircle
+    case ellipsisCircle = "ellipsis.circle"
 
     /// 􀍢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case ellipsisCircleFill
+    case ellipsisCircleFill = "ellipsis.circle.fill"
 
     /// 􀠩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ellipsisRectangle
+    case ellipsisRectangle = "ellipsis.rectangle"
 
     /// 􀠪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ellipsisRectangleFill
+    case ellipsisRectangleFill = "ellipsis.rectangle.fill"
 
     /// 􀍕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case envelope
+    case envelope = "envelope"
 
     /// 􀦗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case envelopeArrowTriangleBranch
+    case envelopeArrowTriangleBranch = "envelope.arrow.triangle.branch"
 
     /// 􀦘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case envelopeArrowTriangleBranchFill
+    case envelopeArrowTriangleBranchFill = "envelope.arrow.triangle.branch.fill"
 
     /// 􀍛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case envelopeBadge
+    case envelopeBadge = "envelope.badge"
 
     /// 􀍜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case envelopeBadgeFill
+    case envelopeBadgeFill = "envelope.badge.fill"
 
     /// 􀫙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case envelopeBadgeShieldLeadinghalfFill
+    case envelopeBadgeShieldLeadinghalfFill = "envelope.badge.shield.leadinghalf.fill"
 
     /// 􀍗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case envelopeCircle
+    case envelopeCircle = "envelope.circle"
 
     /// 􀍘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case envelopeCircleFill
+    case envelopeCircleFill = "envelope.circle.fill"
 
     /// 􀍖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case envelopeFill
+    case envelopeFill = "envelope.fill"
 
     /// 􀫚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case envelopeFillBadgeShieldTrailinghalfFill
+    case envelopeFillBadgeShieldTrailinghalfFill = "envelope.fill.badge.shield.trailinghalf.fill"
 
     /// 􀍙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case envelopeOpen
+    case envelopeOpen = "envelope.open"
 
     /// 􀍚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case envelopeOpenFill
+    case envelopeOpenFill = "envelope.open.fill"
 
     /// 􀆀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case equal
+    case equal = "equal"
 
     /// 􀁔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case equalCircle
+    case equalCircle = "equal.circle"
 
     /// 􀁕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case equalCircleFill
+    case equalCircleFill = "equal.circle.fill"
 
     /// 􀃤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case equalSquare
+    case equalSquare = "equal.square"
 
     /// 􀃥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case equalSquareFill
+    case equalSquareFill = "equal.square.fill"
 
     /// 􀆧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case escape
+    case escape = "escape"
 
     /// 􀲵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case esim
+    case esim = "esim"
 
     /// 􀲶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case esimFill
+    case esimFill = "esim.fill"
 
     /// 􀖧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case eurosignCircle
+    case eurosignCircle = "eurosign.circle"
 
     /// 􀖨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case eurosignCircleFill
+    case eurosignCircleFill = "eurosign.circle.fill"
 
     /// 􀗧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case eurosignSquare
+    case eurosignSquare = "eurosign.square"
 
     /// 􀗨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case eurosignSquareFill
+    case eurosignSquareFill = "eurosign.square.fill"
 
     /// 􀅎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case exclamationmark
+    case exclamationmark = "exclamationmark"
 
     /// 􀢒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case exclamationmark2
+    case exclamationmark2 = "exclamationmark.2"
 
     /// 􀣴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case exclamationmark3
+    case exclamationmark3 = "exclamationmark.3"
 
     /// 􀵄
     /// ⚠️ This symbol can refer only to Apple's Apple Watch.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case exclamationmarkApplewatch
+    case exclamationmarkApplewatch = "exclamationmark.applewatch"
 
     /// 􀱨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case exclamationmarkArrowCirclepath
+    case exclamationmarkArrowCirclepath = "exclamationmark.arrow.circlepath"
 
     /// 􀢤
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case exclamationmarkArrowTriangle2Circlepath
+    case exclamationmarkArrowTriangle2Circlepath = "exclamationmark.arrow.triangle.2.circlepath"
 
     /// 􀌬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case exclamationmarkBubble
+    case exclamationmarkBubble = "exclamationmark.bubble"
 
     /// 􀌭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case exclamationmarkBubbleFill
+    case exclamationmarkBubbleFill = "exclamationmark.bubble.fill"
 
     /// 􀁞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case exclamationmarkCircle
+    case exclamationmarkCircle = "exclamationmark.circle"
 
     /// 􀁟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case exclamationmarkCircleFill
+    case exclamationmarkCircleFill = "exclamationmark.circle.fill"
 
     /// 􀌑
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case exclamationmarkIcloud
+    case exclamationmarkIcloud = "exclamationmark.icloud"
 
     /// 􀌒
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case exclamationmarkIcloudFill
+    case exclamationmarkIcloudFill = "exclamationmark.icloud.fill"
 
     /// 􀘯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case exclamationmarkOctagon
+    case exclamationmarkOctagon = "exclamationmark.octagon"
 
     /// 􀘰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case exclamationmarkOctagonFill
+    case exclamationmarkOctagonFill = "exclamationmark.octagon.fill"
 
     /// 􀞟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case exclamationmarkShield
+    case exclamationmarkShield = "exclamationmark.shield"
 
     /// 􀞠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case exclamationmarkShieldFill
+    case exclamationmarkShieldFill = "exclamationmark.shield.fill"
 
     /// 􀃮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case exclamationmarkSquare
+    case exclamationmarkSquare = "exclamationmark.square"
 
     /// 􀃯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case exclamationmarkSquareFill
+    case exclamationmarkSquareFill = "exclamationmark.square.fill"
 
     /// 􀇾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case exclamationmarkTriangle
+    case exclamationmarkTriangle = "exclamationmark.triangle"
 
     /// 􀇿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case exclamationmarkTriangleFill
+    case exclamationmarkTriangleFill = "exclamationmark.triangle.fill"
 
     /// 􀤂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldrive
+    case externaldrive = "externaldrive"
 
     /// 􀩐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveBadgeCheckmark
+    case externaldriveBadgeCheckmark = "externaldrive.badge.checkmark"
 
     /// 􀪹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveBadgeIcloud
+    case externaldriveBadgeIcloud = "externaldrive.badge.icloud"
 
     /// 􀩏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveBadgeMinus
+    case externaldriveBadgeMinus = "externaldrive.badge.minus"
 
     /// 􀩬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveBadgePersonCrop
+    case externaldriveBadgePersonCrop = "externaldrive.badge.person.crop"
 
     /// 􀩎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveBadgePlus
+    case externaldriveBadgePlus = "externaldrive.badge.plus"
 
     /// 􀤜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveBadgeTimemachine
+    case externaldriveBadgeTimemachine = "externaldrive.badge.timemachine"
 
     /// 􀩮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveBadgeWifi
+    case externaldriveBadgeWifi = "externaldrive.badge.wifi"
 
     /// 􀩑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveBadgeXmark
+    case externaldriveBadgeXmark = "externaldrive.badge.xmark"
 
     /// 􀨤
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveConnectedToLineBelow
+    case externaldriveConnectedToLineBelow = "externaldrive.connected.to.line.below"
 
     /// 􀨥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveConnectedToLineBelowFill
+    case externaldriveConnectedToLineBelowFill = "externaldrive.connected.to.line.below.fill"
 
     /// 􀤃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveFill
+    case externaldriveFill = "externaldrive.fill"
 
     /// 􀩔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveFillBadgeCheckmark
+    case externaldriveFillBadgeCheckmark = "externaldrive.fill.badge.checkmark"
 
     /// 􀪺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveFillBadgeIcloud
+    case externaldriveFillBadgeIcloud = "externaldrive.fill.badge.icloud"
 
     /// 􀩓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveFillBadgeMinus
+    case externaldriveFillBadgeMinus = "externaldrive.fill.badge.minus"
 
     /// 􀩭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveFillBadgePersonCrop
+    case externaldriveFillBadgePersonCrop = "externaldrive.fill.badge.person.crop"
 
     /// 􀩒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveFillBadgePlus
+    case externaldriveFillBadgePlus = "externaldrive.fill.badge.plus"
 
     /// 􀤝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveFillBadgeTimemachine
+    case externaldriveFillBadgeTimemachine = "externaldrive.fill.badge.timemachine"
 
     /// 􀩯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveFillBadgeWifi
+    case externaldriveFillBadgeWifi = "externaldrive.fill.badge.wifi"
 
     /// 􀩕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case externaldriveFillBadgeXmark
+    case externaldriveFillBadgeXmark = "externaldrive.fill.badge.xmark"
 
     /// 􀋭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case eye
+    case eye = "eye"
 
     /// 􀛿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case eyeCircle
+    case eyeCircle = "eye.circle"
 
     /// 􀜀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case eyeCircleFill
+    case eyeCircleFill = "eye.circle.fill"
 
     /// 􀋮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case eyeFill
+    case eyeFill = "eye.fill"
 
     /// 􀋯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case eyeSlash
+    case eyeSlash = "eye.slash"
 
     /// 􀋰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case eyeSlashFill
+    case eyeSlashFill = "eye.slash.fill"
 
     /// 􀦭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case eyebrow
+    case eyebrow = "eyebrow"
 
     /// 􀎗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case eyedropper
+    case eyedropper = "eyedropper"
 
     /// 􀎙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case eyedropperFull
+    case eyedropperFull = "eyedropper.full"
 
     /// 􀎘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case eyedropperHalffull
+    case eyedropperHalffull = "eyedropper.halffull"
 
     /// 􀖆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case eyeglasses
+    case eyeglasses = "eyeglasses"
 
     /// 􀦧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case eyes
+    case eyes = "eyes"
 
     /// 􀨭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case eyesInverse
+    case eyesInverse = "eyes.inverse"
 
     /// 􀀎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case fCircle
+    case fCircle = "f.circle"
 
     /// 􀀏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case fCircleFill
+    case fCircleFill = "f.circle.fill"
 
     /// 􀅭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case fCursive
+    case fCursive = "f.cursive"
 
     /// 􀝧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case fCursiveCircle
+    case fCursiveCircle = "f.cursive.circle"
 
     /// 􀝨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case fCursiveCircleFill
+    case fCursiveCircleFill = "f.cursive.circle.fill"
 
     /// 􀂞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case fSquare
+    case fSquare = "f.square"
 
     /// 􀂟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case fSquareFill
+    case fSquareFill = "f.square.fill"
 
     /// 􀥧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case faceDashed
+    case faceDashed = "face.dashed"
 
     /// 􀨸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case faceDashedFill
+    case faceDashedFill = "face.dashed.fill"
 
     /// 􀎸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case faceSmiling
+    case faceSmiling = "face.smiling"
 
     /// 􀙌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case faceSmilingFill
+    case faceSmilingFill = "face.smiling.fill"
 
     /// 􀎽
     /// ⚠️ This symbol can refer only to Apple's Face ID.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case faceid
+    case faceid = "faceid"
 
     /// 􀪌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case faxmachine
+    case faxmachine = "faxmachine"
 
     /// 􀥢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case fiberchannel
+    case fiberchannel = "fiberchannel"
 
     /// 􀳾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case figureStand
+    case figureStand = "figure.stand"
 
     /// 􀳿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case figureStandLineDottedFigureStand
+    case figureStandLineDottedFigureStand = "figure.stand.line.dotted.figure.stand"
 
     /// 􀝢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case figureWalk
+    case figureWalk = "figure.walk"
 
     /// 􀝣
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case figureWalkCircle
+    case figureWalkCircle = "figure.walk.circle"
 
     /// 􀝤
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case figureWalkCircleFill
+    case figureWalkCircleFill = "figure.walk.circle.fill"
 
     /// 􀪢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case figureWalkDiamond
+    case figureWalkDiamond = "figure.walk.diamond"
 
     /// 􀪣
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case figureWalkDiamondFill
+    case figureWalkDiamondFill = "figure.walk.diamond.fill"
 
     /// 􀝻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case figureWave
+    case figureWave = "figure.wave"
 
     /// 􀝼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case figureWaveCircle
+    case figureWaveCircle = "figure.wave.circle"
 
     /// 􀝽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case figureWaveCircleFill
+    case figureWaveCircleFill = "figure.wave.circle.fill"
 
     /// 􀯪
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case filemenuAndCursorarrow
+    case filemenuAndCursorarrow = "filemenu.and.cursorarrow"
 
     /// 􀱢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case filemenuAndSelection
+    case filemenuAndSelection = "filemenu.and.selection"
 
     /// 􀎶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case film
+    case film = "film"
 
     /// 􀎷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case filmFill
+    case filmFill = "film.fill"
 
     /// 􀋉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case flag
+    case flag = "flag"
 
     /// 􀤔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case flagBadgeEllipsis
+    case flagBadgeEllipsis = "flag.badge.ellipsis"
 
     /// 􀤕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case flagBadgeEllipsisFill
+    case flagBadgeEllipsisFill = "flag.badge.ellipsis.fill"
 
     /// 􀋋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case flagCircle
+    case flagCircle = "flag.circle"
 
     /// 􀋌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case flagCircleFill
+    case flagCircleFill = "flag.circle.fill"
 
     /// 􀋊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case flagFill
+    case flagFill = "flag.fill"
 
     /// 􀋍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case flagSlash
+    case flagSlash = "flag.slash"
 
     /// 􀋏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case flagSlashCircle
+    case flagSlashCircle = "flag.slash.circle"
 
     /// 􀋐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case flagSlashCircleFill
+    case flagSlashCircleFill = "flag.slash.circle.fill"
 
     /// 􀋎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case flagSlashFill
+    case flagSlashFill = "flag.slash.fill"
 
     /// 􀙬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case flame
+    case flame = "flame"
 
     /// 􀙭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case flameFill
+    case flameFill = "flame.fill"
 
     /// 􀝌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case flashlightOffFill
+    case flashlightOffFill = "flashlight.off.fill"
 
     /// 􀞋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case flashlightOnFill
+    case flashlightOnFill = "flashlight.on.fill"
 
     /// 􀞒
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
-    case flipHorizontal
+    case flipHorizontal = "flip.horizontal"
 
     /// 􀞓
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
-    case flipHorizontalFill
+    case flipHorizontalFill = "flip.horizontal.fill"
 
     /// 􀪴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case flipphone
+    case flipphone = "flipphone"
 
     /// 􀖡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case florinsignCircle
+    case florinsignCircle = "florinsign.circle"
 
     /// 􀖢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case florinsignCircleFill
+    case florinsignCircleFill = "florinsign.circle.fill"
 
     /// 􀗡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case florinsignSquare
+    case florinsignSquare = "florinsign.square"
 
     /// 􀗢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case florinsignSquareFill
+    case florinsignSquareFill = "florinsign.square.fill"
 
     /// 􀐕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case flowchart
+    case flowchart = "flowchart"
 
     /// 􀐖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case flowchartFill
+    case flowchartFill = "flowchart.fill"
 
     /// 􀥌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case fn
+    case fn = "fn"
 
     /// 􀈕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case folder
+    case folder = "folder"
 
     /// 􀣍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case folderBadgeGear
+    case folderBadgeGear = "folder.badge.gear"
 
     /// 􀈛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case folderBadgeMinus
+    case folderBadgeMinus = "folder.badge.minus"
 
     /// 􀈝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case folderBadgePersonCrop
+    case folderBadgePersonCrop = "folder.badge.person.crop"
 
     /// 􀈙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case folderBadgePlus
+    case folderBadgePlus = "folder.badge.plus"
 
     /// 􀧆
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case folderBadgeQuestionmark
+    case folderBadgeQuestionmark = "folder.badge.questionmark"
 
     /// 􀈗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case folderCircle
+    case folderCircle = "folder.circle"
 
     /// 􀈘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case folderCircleFill
+    case folderCircleFill = "folder.circle.fill"
 
     /// 􀈖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case folderFill
+    case folderFill = "folder.fill"
 
     /// 􀣎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case folderFillBadgeGear
+    case folderFillBadgeGear = "folder.fill.badge.gear"
 
     /// 􀈜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case folderFillBadgeMinus
+    case folderFillBadgeMinus = "folder.fill.badge.minus"
 
     /// 􀈞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case folderFillBadgePersonCrop
+    case folderFillBadgePersonCrop = "folder.fill.badge.person.crop"
 
     /// 􀈚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case folderFillBadgePlus
+    case folderFillBadgePlus = "folder.fill.badge.plus"
 
     /// 􀧇
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case folderFillBadgeQuestionmark
+    case folderFillBadgeQuestionmark = "folder.fill.badge.questionmark"
 
     /// 􀊋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case forward
+    case forward = "forward"
 
     /// 􀊏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case forwardEnd
+    case forwardEnd = "forward.end"
 
     /// 􀊓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case forwardEndAlt
+    case forwardEndAlt = "forward.end.alt"
 
     /// 􀊔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case forwardEndAltFill
+    case forwardEndAltFill = "forward.end.alt.fill"
 
     /// 􀊐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case forwardEndFill
+    case forwardEndFill = "forward.end.fill"
 
     /// 􀊌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case forwardFill
+    case forwardFill = "forward.fill"
 
     /// 􀩪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case forwardFrame
+    case forwardFrame = "forward.frame"
 
     /// 􀩫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case forwardFrameFill
+    case forwardFrameFill = "forward.frame.fill"
 
     /// 􀖟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case francsignCircle
+    case francsignCircle = "francsign.circle"
 
     /// 􀖠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case francsignCircleFill
+    case francsignCircleFill = "francsign.circle.fill"
 
     /// 􀗟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case francsignSquare
+    case francsignSquare = "francsign.square"
 
     /// 􀗠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case francsignSquareFill
+    case francsignSquareFill = "francsign.square.fill"
 
     /// 􀅮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case function
+    case function = "function"
 
     /// 􀅬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case fx
+    case fx = "fx"
 
     /// 􀀐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gCircle
+    case gCircle = "g.circle"
 
     /// 􀀑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gCircleFill
+    case gCircleFill = "g.circle.fill"
 
     /// 􀂠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gSquare
+    case gSquare = "g.square"
 
     /// 􀂡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gSquareFill
+    case gSquareFill = "g.square.fill"
 
     /// 􀛸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gamecontroller
+    case gamecontroller = "gamecontroller"
 
     /// 􀛹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gamecontrollerFill
+    case gamecontrollerFill = "gamecontroller.fill"
 
     /// 􀍽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gauge
+    case gauge = "gauge"
 
     /// 􀓧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gaugeBadgeMinus
+    case gaugeBadgeMinus = "gauge.badge.minus"
 
     /// 􀓓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gaugeBadgePlus
+    case gaugeBadgePlus = "gauge.badge.plus"
 
     /// 􀍟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gear
+    case gear = "gear"
 
     /// 􀣋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case gearshape
+    case gearshape = "gearshape"
 
     /// 􀥎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case gearshape2
+    case gearshape2 = "gearshape.2"
 
     /// 􀥏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case gearshape2Fill
+    case gearshape2Fill = "gearshape.2.fill"
 
     /// 􀣌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case gearshapeFill
+    case gearshapeFill = "gearshape.fill"
 
     /// 􀑉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gift
+    case gift = "gift"
 
     /// 􀓀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case giftCircle
+    case giftCircle = "gift.circle"
 
     /// 􀓁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case giftCircleFill
+    case giftCircleFill = "gift.circle.fill"
 
     /// 􀑊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case giftFill
+    case giftFill = "gift.fill"
 
     /// 􀦠
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case giftcard
+    case giftcard = "giftcard"
 
     /// 􀦡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case giftcardFill
+    case giftcardFill = "giftcard.fill"
 
     /// 􀆪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case globe
+    case globe = "globe"
 
     /// 􀎀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gobackward
+    case gobackward = "gobackward"
 
     /// 􀎂
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gobackward10
+    case gobackward10 = "gobackward.10"
 
     /// 􀎄
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gobackward15
+    case gobackward15 = "gobackward.15"
 
     /// 􀎆
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gobackward30
+    case gobackward30 = "gobackward.30"
 
     /// 􀎈
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gobackward45
+    case gobackward45 = "gobackward.45"
 
     /// 􀎊
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gobackward60
+    case gobackward60 = "gobackward.60"
 
     /// 􀘥
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gobackward75
+    case gobackward75 = "gobackward.75"
 
     /// 􀘧
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gobackward90
+    case gobackward90 = "gobackward.90"
 
     /// 􀘩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gobackwardMinus
+    case gobackwardMinus = "gobackward.minus"
 
     /// 􀍿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case goforward
+    case goforward = "goforward"
 
     /// 􀎁
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case goforward10
+    case goforward10 = "goforward.10"
 
     /// 􀎃
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case goforward15
+    case goforward15 = "goforward.15"
 
     /// 􀎅
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case goforward30
+    case goforward30 = "goforward.30"
 
     /// 􀎇
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case goforward45
+    case goforward45 = "goforward.45"
 
     /// 􀎉
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case goforward60
+    case goforward60 = "goforward.60"
 
     /// 􀘤
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case goforward75
+    case goforward75 = "goforward.75"
 
     /// 􀘦
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case goforward90
+    case goforward90 = "goforward.90"
 
     /// 􀘨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case goforwardPlus
+    case goforwardPlus = "goforward.plus"
 
     /// 􀫓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case graduationcap
+    case graduationcap = "graduationcap"
 
     /// 􀫔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case graduationcapFill
+    case graduationcapFill = "graduationcap.fill"
 
     /// 􀆂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case greaterthan
+    case greaterthan = "greaterthan"
 
     /// 􀁖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case greaterthanCircle
+    case greaterthanCircle = "greaterthan.circle"
 
     /// 􀁗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case greaterthanCircleFill
+    case greaterthanCircleFill = "greaterthan.circle.fill"
 
     /// 􀃨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case greaterthanSquare
+    case greaterthanSquare = "greaterthan.square"
 
     /// 􀃩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case greaterthanSquareFill
+    case greaterthanSquareFill = "greaterthan.square.fill"
 
     /// 􀤠
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case greetingcard
+    case greetingcard = "greetingcard"
 
     /// 􀤡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case greetingcardFill
+    case greetingcardFill = "greetingcard.fill"
 
     /// 􀓗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case grid
+    case grid = "grid"
 
     /// 􀓘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gridCircle
+    case gridCircle = "grid.circle"
 
     /// 􀘟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case gridCircleFill
+    case gridCircleFill = "grid.circle.fill"
 
     /// 􀖿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case guaranisignCircle
+    case guaranisignCircle = "guaranisign.circle"
 
     /// 􀗀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case guaranisignCircleFill
+    case guaranisignCircleFill = "guaranisign.circle.fill"
 
     /// 􀗿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case guaranisignSquare
+    case guaranisignSquare = "guaranisign.square"
 
     /// 􀘀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case guaranisignSquareFill
+    case guaranisignSquareFill = "guaranisign.square.fill"
 
     /// 􀑭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case guitars
+    case guitars = "guitars"
 
     /// 􀟑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case guitarsFill
+    case guitarsFill = "guitars.fill"
 
     /// 􀬗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case gyroscope
+    case gyroscope = "gyroscope"
 
     /// 􀀒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hCircle
+    case hCircle = "h.circle"
 
     /// 􀀓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hCircleFill
+    case hCircleFill = "h.circle.fill"
 
     /// 􀂢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hSquare
+    case hSquare = "h.square"
 
     /// 􀂣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hSquareFill
+    case hSquareFill = "h.square.fill"
 
     /// 􀭝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case hSquareFillOnSquareFill
+    case hSquareFillOnSquareFill = "h.square.fill.on.square.fill"
 
     /// 􀭜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case hSquareOnSquare
+    case hSquareOnSquare = "h.square.on.square"
 
     /// 􀙄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hammer
+    case hammer = "hammer"
 
     /// 􀙅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hammerFill
+    case hammerFill = "hammer.fill"
 
     /// 􀖓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case handDraw
+    case handDraw = "hand.draw"
 
     /// 􀖔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case handDrawFill
+    case handDrawFill = "hand.draw.fill"
 
     /// 􀤻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case handPointDown
+    case handPointDown = "hand.point.down"
 
     /// 􀤼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case handPointDownFill
+    case handPointDownFill = "hand.point.down.fill"
 
     /// 􀙽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case handPointLeft
+    case handPointLeft = "hand.point.left"
 
     /// 􀙾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case handPointLeftFill
+    case handPointLeftFill = "hand.point.left.fill"
 
     /// 􀙿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case handPointRight
+    case handPointRight = "hand.point.right"
 
     /// 􀚀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case handPointRightFill
+    case handPointRightFill = "hand.point.right.fill"
 
     /// 􀤹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case handPointUp
+    case handPointUp = "hand.point.up"
 
     /// 􀦂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case handPointUpBraille
+    case handPointUpBraille = "hand.point.up.braille"
 
     /// 􀦃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case handPointUpBrailleFill
+    case handPointUpBrailleFill = "hand.point.up.braille.fill"
 
     /// 􀤺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case handPointUpFill
+    case handPointUpFill = "hand.point.up.fill"
 
     /// 􀝰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case handPointUpLeft
+    case handPointUpLeft = "hand.point.up.left"
 
     /// 􀝱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case handPointUpLeftFill
+    case handPointUpLeftFill = "hand.point.up.left.fill"
 
     /// 􀉻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case handRaised
+    case handRaised = "hand.raised"
 
     /// 􀉼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case handRaisedFill
+    case handRaisedFill = "hand.raised.fill"
 
     /// 􀉽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case handRaisedSlash
+    case handRaisedSlash = "hand.raised.slash"
 
     /// 􀉾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case handRaisedSlashFill
+    case handRaisedSlashFill = "hand.raised.slash.fill"
 
     /// 􀬁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case handTap
+    case handTap = "hand.tap"
 
     /// 􀬂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case handTapFill
+    case handTapFill = "hand.tap.fill"
 
     /// 􀊁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case handThumbsdown
+    case handThumbsdown = "hand.thumbsdown"
 
     /// 􀊂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case handThumbsdownFill
+    case handThumbsdownFill = "hand.thumbsdown.fill"
 
     /// 􀉿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case handThumbsup
+    case handThumbsup = "hand.thumbsup"
 
     /// 􀊀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case handThumbsupFill
+    case handThumbsupFill = "hand.thumbsup.fill"
 
     /// 􀟰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case handWave
+    case handWave = "hand.wave"
 
     /// 􀟱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case handWaveFill
+    case handWaveFill = "hand.wave.fill"
 
     /// 􀟮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case handsClap
+    case handsClap = "hands.clap"
 
     /// 􀟯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case handsClapFill
+    case handsClapFill = "hands.clap.fill"
 
     /// 􀲮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case handsSparkles
+    case handsSparkles = "hands.sparkles"
 
     /// 􀲯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case handsSparklesFill
+    case handsSparklesFill = "hands.sparkles.fill"
 
     /// 􀓎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hare
+    case hare = "hare"
 
     /// 􀓏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hareFill
+    case hareFill = "hare.fill"
 
     /// 􀑈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case headphones
+    case headphones = "headphones"
 
     /// 􀒾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case headphonesCircle
+    case headphonesCircle = "headphones.circle"
 
     /// 􀒿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case headphonesCircleFill
+    case headphonesCircleFill = "headphones.circle.fill"
 
     /// 􀪓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case hearingaidEar
+    case hearingaidEar = "hearingaid.ear"
 
     /// 􀊴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case heart
+    case heart = "heart"
 
     /// 􀊸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case heartCircle
+    case heartCircle = "heart.circle"
 
     /// 􀊹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case heartCircleFill
+    case heartCircleFill = "heart.circle.fill"
 
     /// 􀊵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case heartFill
+    case heartFill = "heart.fill"
 
     /// 􀊶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case heartSlash
+    case heartSlash = "heart.slash"
 
     /// 􀊺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case heartSlashCircle
+    case heartSlashCircle = "heart.slash.circle"
 
     /// 􀊻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case heartSlashCircleFill
+    case heartSlashCircleFill = "heart.slash.circle.fill"
 
     /// 􀊷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case heartSlashFill
+    case heartSlashFill = "heart.slash.fill"
 
     /// 􀥴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case heartTextSquare
+    case heartTextSquare = "heart.text.square"
 
     /// 􀥵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case heartTextSquareFill
+    case heartTextSquareFill = "heart.text.square.fill"
 
     /// 􀐪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case helm
+    case helm = "helm"
 
     /// 􀝝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hexagon
+    case hexagon = "hexagon"
 
     /// 􀝞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hexagonFill
+    case hexagonFill = "hexagon.fill"
 
     /// 􀝎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hifispeaker
+    case hifispeaker = "hifispeaker"
 
     /// 􀟵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case hifispeaker2
+    case hifispeaker2 = "hifispeaker.2"
 
     /// 􀟶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case hifispeaker2Fill
+    case hifispeaker2Fill = "hifispeaker.2.fill"
 
     /// 􀮎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case hifispeakerAndHomepod
+    case hifispeakerAndHomepod = "hifispeaker.and.homepod"
 
     /// 􀟴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case hifispeakerAndHomepodFill
+    case hifispeakerAndHomepodFill = "hifispeaker.and.homepod.fill"
 
     /// 􀝏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hifispeakerFill
+    case hifispeakerFill = "hifispeaker.fill"
 
     /// 􀦇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case highlighter
+    case highlighter = "highlighter"
 
     /// 􀠀
     /// ⚠️ This symbol can refer only to Apple's HomeKit.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case homekit
+    case homekit = "homekit"
 
     /// 􀟢
     /// ⚠️ This symbol can refer only to Apple's HomePod.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case homepod
+    case homepod = "homepod"
 
     /// 􀮍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case homepod2
+    case homepod2 = "homepod.2"
 
     /// 􀟳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case homepod2Fill
+    case homepod2Fill = "homepod.2.fill"
 
     /// 􀟣
     /// ⚠️ This symbol can refer only to Apple's HomePod.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case homepodFill
+    case homepodFill = "homepod.fill"
 
     /// 􀖇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hourglass
+    case hourglass = "hourglass"
 
     /// 􀣬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case hourglassBadgePlus
+    case hourglassBadgePlus = "hourglass.badge.plus"
 
     /// 􀖈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hourglassBottomhalfFill
+    case hourglassBottomhalfFill = "hourglass.bottomhalf.fill"
 
     /// 􀖉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hourglassTophalfFill
+    case hourglassTophalfFill = "hourglass.tophalf.fill"
 
     /// 􀎞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case house
+    case house = "house"
 
     /// 􀥆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case houseCircle
+    case houseCircle = "house.circle"
 
     /// 􀥇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case houseCircleFill
+    case houseCircleFill = "house.circle.fill"
 
     /// 􀎟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case houseFill
+    case houseFill = "house.fill"
 
     /// 􀖻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hryvniasignCircle
+    case hryvniasignCircle = "hryvniasign.circle"
 
     /// 􀖼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hryvniasignCircleFill
+    case hryvniasignCircleFill = "hryvniasign.circle.fill"
 
     /// 􀗻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hryvniasignSquare
+    case hryvniasignSquare = "hryvniasign.square"
 
     /// 􀗼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hryvniasignSquareFill
+    case hryvniasignSquareFill = "hryvniasign.square.fill"
 
     /// 􀇩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case hurricane
+    case hurricane = "hurricane"
 
     /// 􀀔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case iCircle
+    case iCircle = "i.circle"
 
     /// 􀀕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case iCircleFill
+    case iCircleFill = "i.circle.fill"
 
     /// 􀂤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case iSquare
+    case iSquare = "i.square"
 
     /// 􀂥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case iSquareFill
+    case iSquareFill = "i.square.fill"
 
     /// 􀌋
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case icloud
+    case icloud = "icloud"
 
     /// 􀌕
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case icloudAndArrowDown
+    case icloudAndArrowDown = "icloud.and.arrow.down"
 
     /// 􀌖
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case icloudAndArrowDownFill
+    case icloudAndArrowDownFill = "icloud.and.arrow.down.fill"
 
     /// 􀌗
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case icloudAndArrowUp
+    case icloudAndArrowUp = "icloud.and.arrow.up"
 
     /// 􀌘
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case icloudAndArrowUpFill
+    case icloudAndArrowUpFill = "icloud.and.arrow.up.fill"
 
     /// 􀌍
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case icloudCircle
+    case icloudCircle = "icloud.circle"
 
     /// 􀌎
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case icloudCircleFill
+    case icloudCircleFill = "icloud.circle.fill"
 
     /// 􀌌
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case icloudFill
+    case icloudFill = "icloud.fill"
 
     /// 􀌏
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case icloudSlash
+    case icloudSlash = "icloud.slash"
 
     /// 􀌐
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case icloudSlashFill
+    case icloudSlashFill = "icloud.slash.fill"
 
     /// 􀋵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case increaseIndent
+    case increaseIndent = "increase.indent"
 
     /// 􀞀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case increaseQuotelevel
+    case increaseQuotelevel = "increase.quotelevel"
 
     /// 􀖫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case indianrupeesignCircle
+    case indianrupeesignCircle = "indianrupeesign.circle"
 
     /// 􀖬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case indianrupeesignCircleFill
+    case indianrupeesignCircleFill = "indianrupeesign.circle.fill"
 
     /// 􀗫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case indianrupeesignSquare
+    case indianrupeesignSquare = "indianrupeesign.square"
 
     /// 􀗬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case indianrupeesignSquareFill
+    case indianrupeesignSquareFill = "indianrupeesign.square.fill"
 
     /// 􀯠
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case infinity
+    case infinity = "infinity"
 
     /// 􀵏
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case infinityCircle
+    case infinityCircle = "infinity.circle"
 
     /// 􀵐
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case infinityCircleFill
+    case infinityCircleFill = "infinity.circle.fill"
 
     /// 􀅳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case info
+    case info = "info"
 
     /// 􀅴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case infoCircle
+    case infoCircle = "info.circle"
 
     /// 􀅵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case infoCircleFill
+    case infoCircleFill = "info.circle.fill"
 
     /// 􀥾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case internaldrive
+    case internaldrive = "internaldrive"
 
     /// 􀨪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case internaldriveFill
+    case internaldriveFill = "internaldrive.fill"
 
     /// 􀟠
     /// ⚠️ This symbol can refer only to Apple's iPad.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ipad
+    case ipad = "ipad"
 
     /// 􀴓
     /// ⚠️ This symbol can refer only to Apple's iPad.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case ipadBadgePlay
+    case ipadBadgePlay = "ipad.badge.play"
 
     /// 􀟟
     /// ⚠️ This symbol can refer only to Apple's iPad.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ipadHomebutton
+    case ipadHomebutton = "ipad.homebutton"
 
     /// 􀴒
     /// ⚠️ This symbol can refer only to Apple's iPad.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case ipadHomebuttonBadgePlay
+    case ipadHomebuttonBadgePlay = "ipad.homebutton.badge.play"
 
     /// 􀥓
     /// ⚠️ This symbol can refer only to Apple's iPad.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ipadHomebuttonLandscape
+    case ipadHomebuttonLandscape = "ipad.homebutton.landscape"
 
     /// 􀵑
     /// ⚠️ This symbol can refer only to Apple's iPad.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case ipadHomebuttonLandscapeBadgePlay
+    case ipadHomebuttonLandscapeBadgePlay = "ipad.homebutton.landscape.badge.play"
 
     /// 􀥔
     /// ⚠️ This symbol can refer only to Apple's iPad.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ipadLandscape
+    case ipadLandscape = "ipad.landscape"
 
     /// 􀵒
     /// ⚠️ This symbol can refer only to Apple's iPad.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case ipadLandscapeBadgePlay
+    case ipadLandscapeBadgePlay = "ipad.landscape.badge.play"
 
     /// 􀟜
     /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case iphone
+    case iphone = "iphone"
 
     /// 􀴑
     /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case iphoneBadgePlay
+    case iphoneBadgePlay = "iphone.badge.play"
 
     /// 􀟝
     /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case iphoneHomebutton
+    case iphoneHomebutton = "iphone.homebutton"
 
     /// 􀐶
     /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case iphoneHomebuttonBadgePlay
+    case iphoneHomebuttonBadgePlay = "iphone.homebutton.badge.play"
 
     /// 􀴎
     /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case iphoneHomebuttonLandscape
+    case iphoneHomebuttonLandscape = "iphone.homebutton.landscape"
 
     /// 􀡆
     /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case iphoneHomebuttonRadiowavesLeftAndRight
+    case iphoneHomebuttonRadiowavesLeftAndRight = "iphone.homebutton.radiowaves.left.and.right"
 
     /// 􀨴
     /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case iphoneHomebuttonSlash
+    case iphoneHomebuttonSlash = "iphone.homebutton.slash"
 
     /// 􀴏
     /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case iphoneLandscape
+    case iphoneLandscape = "iphone.landscape"
 
     /// 􀡇
     /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case iphoneRadiowavesLeftAndRight
+    case iphoneRadiowavesLeftAndRight = "iphone.radiowaves.left.and.right"
 
     /// 􀨵
     /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case iphoneSlash
+    case iphoneSlash = "iphone.slash"
 
     /// 􀢺
     /// ⚠️ This symbol can refer only to Apple's iPod.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ipod
+    case ipod = "ipod"
 
     /// 􀫨
     /// ⚠️ This symbol can refer only to Apple's iPod shuffle.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ipodshuffleGen1
+    case ipodshuffleGen1 = "ipodshuffle.gen1"
 
     /// 􀫩
     /// ⚠️ This symbol can refer only to Apple's iPod shuffle.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ipodshuffleGen2
+    case ipodshuffleGen2 = "ipodshuffle.gen2"
 
     /// 􀫪
     /// ⚠️ This symbol can refer only to Apple's iPod shuffle.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ipodshuffleGen3
+    case ipodshuffleGen3 = "ipodshuffle.gen3"
 
     /// 􀫫
     /// ⚠️ This symbol can refer only to Apple's iPod shuffle.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ipodshuffleGen4
+    case ipodshuffleGen4 = "ipodshuffle.gen4"
 
     /// 􀫧
     /// ⚠️ This symbol can refer only to Apple's iPod touch.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ipodtouch
+    case ipodtouch = "ipodtouch"
 
     /// 􀴐
     /// ⚠️ This symbol can refer only to Apple's iPod touch.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case ipodtouchLandscape
+    case ipodtouchLandscape = "ipodtouch.landscape"
 
     /// 􀅔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case italic
+    case italic = "italic"
 
     /// 􀀖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case jCircle
+    case jCircle = "j.circle"
 
     /// 􀀗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case jCircleFill
+    case jCircleFill = "j.circle.fill"
 
     /// 􀂦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case jSquare
+    case jSquare = "j.square"
 
     /// 􀂧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case jSquareFill
+    case jSquareFill = "j.square.fill"
 
     /// 􀭛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case jSquareFillOnSquareFill
+    case jSquareFillOnSquareFill = "j.square.fill.on.square.fill"
 
     /// 􀭚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case jSquareOnSquare
+    case jSquareOnSquare = "j.square.on.square"
 
     /// 􀥋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case k
+    case k = "k"
 
     /// 􀀘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case kCircle
+    case kCircle = "k.circle"
 
     /// 􀀙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case kCircleFill
+    case kCircleFill = "k.circle.fill"
 
     /// 􀂨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case kSquare
+    case kSquare = "k.square"
 
     /// 􀂩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case kSquareFill
+    case kSquareFill = "k.square.fill"
 
     /// 􀟕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case key
+    case key = "key"
 
     /// 􀟖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case keyFill
+    case keyFill = "key.fill"
 
     /// 􀢕
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case keyIcloud
+    case keyIcloud = "key.icloud"
 
     /// 􀢖
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case keyIcloudFill
+    case keyIcloudFill = "key.icloud.fill"
 
     /// 􀇳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case keyboard
+    case keyboard = "keyboard"
 
     /// 􀫒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case keyboardBadgeEllipsis
+    case keyboardBadgeEllipsis = "keyboard.badge.ellipsis"
 
     /// 􀓖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case keyboardChevronCompactDown
+    case keyboardChevronCompactDown = "keyboard.chevron.compact.down"
 
     /// 􀣭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case keyboardChevronCompactLeft
+    case keyboardChevronCompactLeft = "keyboard.chevron.compact.left"
 
     /// 􀤯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case keyboardMacwindow
+    case keyboardMacwindow = "keyboard.macwindow"
 
     /// 􀞹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case keyboardOnehandedLeft
+    case keyboardOnehandedLeft = "keyboard.onehanded.left"
 
     /// 􀞺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case keyboardOnehandedRight
+    case keyboardOnehandedRight = "keyboard.onehanded.right"
 
     /// 􀖳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case kipsignCircle
+    case kipsignCircle = "kipsign.circle"
 
     /// 􀖴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case kipsignCircleFill
+    case kipsignCircleFill = "kipsign.circle.fill"
 
     /// 􀗳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case kipsignSquare
+    case kipsignSquare = "kipsign.square"
 
     /// 􀗴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case kipsignSquareFill
+    case kipsignSquareFill = "kipsign.square.fill"
 
     /// 􀀚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lCircle
+    case lCircle = "l.circle"
 
     /// 􀀛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lCircleFill
+    case lCircleFill = "l.circle.fill"
 
     /// 􀦒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lJoystick
+    case lJoystick = "l.joystick"
 
     /// 􀦔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lJoystickDown
+    case lJoystickDown = "l.joystick.down"
 
     /// 􀫃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lJoystickDownFill
+    case lJoystickDownFill = "l.joystick.down.fill"
 
     /// 􀫁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lJoystickFill
+    case lJoystickFill = "l.joystick.fill"
 
     /// 􀨇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lRectangleRoundedbottom
+    case lRectangleRoundedbottom = "l.rectangle.roundedbottom"
 
     /// 􀨈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lRectangleRoundedbottomFill
+    case lRectangleRoundedbottomFill = "l.rectangle.roundedbottom.fill"
 
     /// 􀂪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lSquare
+    case lSquare = "l.square"
 
     /// 􀂫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lSquareFill
+    case lSquareFill = "l.square.fill"
 
     /// 􀨉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case l1RectangleRoundedbottom
+    case l1RectangleRoundedbottom = "l1.rectangle.roundedbottom"
 
     /// 􀨊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case l1RectangleRoundedbottomFill
+    case l1RectangleRoundedbottomFill = "l1.rectangle.roundedbottom.fill"
 
     /// 􀨋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case l2RectangleRoundedtop
+    case l2RectangleRoundedtop = "l2.rectangle.roundedtop"
 
     /// 􀨌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case l2RectangleRoundedtopFill
+    case l2RectangleRoundedtopFill = "l2.rectangle.roundedtop.fill"
 
     /// 􀯔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ladybug
+    case ladybug = "ladybug"
 
     /// 􀯕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ladybugFill
+    case ladybugFill = "ladybug.fill"
 
     /// 􀟛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case laptopcomputer
+    case laptopcomputer = "laptopcomputer"
 
     /// 􀬩
     /// ⚠️ This symbol can refer only to Apple's iPhone.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case laptopcomputerAndIphone
+    case laptopcomputerAndIphone = "laptopcomputer.and.iphone"
 
     /// 􀝜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case largecircleFillCircle
+    case largecircleFillCircle = "largecircle.fill.circle"
 
     /// 􀗓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case larisignCircle
+    case larisignCircle = "larisign.circle"
 
     /// 􀗔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case larisignCircleFill
+    case larisignCircleFill = "larisign.circle.fill"
 
     /// 􀘓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case larisignSquare
+    case larisignSquare = "larisign.square"
 
     /// 􀘔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case larisignSquareFill
+    case larisignSquareFill = "larisign.square.fill"
 
     /// 􀓩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lasso
+    case lasso = "lasso"
 
     /// 􀣳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lassoSparkles
+    case lassoSparkles = "lasso.sparkles"
 
     /// 􀢟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case latch2Case
+    case latch2Case = "latch.2.case"
 
     /// 􀢠
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case latch2CaseFill
+    case latch2CaseFill = "latch.2.case.fill"
 
     /// 􀨓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lbRectangleRoundedbottom
+    case lbRectangleRoundedbottom = "lb.rectangle.roundedbottom"
 
     /// 􀨔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lbRectangleRoundedbottomFill
+    case lbRectangleRoundedbottomFill = "lb.rectangle.roundedbottom.fill"
 
     /// 􀥲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case leaf
+    case leaf = "leaf"
 
     /// 􀙜
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "leafArrowTriangleCirclepath")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "leafArrowTriangleCirclepath")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "leafArrowTriangleCirclepath")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "leafArrowTriangleCirclepath")
-    case leafArrowCirclepath
+    case leafArrowCirclepath = "leaf.arrow.circlepath"
 
     /// 􀙜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case leafArrowTriangleCirclepath
+    case leafArrowTriangleCirclepath = "leaf.arrow.triangle.circlepath"
 
     /// 􀥳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case leafFill
+    case leafFill = "leaf.fill"
 
     /// 􀆁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lessthan
+    case lessthan = "lessthan"
 
     /// 􀁘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lessthanCircle
+    case lessthanCircle = "lessthan.circle"
 
     /// 􀁙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lessthanCircleFill
+    case lessthanCircleFill = "lessthan.circle.fill"
 
     /// 􀃦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lessthanSquare
+    case lessthanSquare = "lessthan.square"
 
     /// 􀃧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lessthanSquareFill
+    case lessthanSquareFill = "lessthan.square.fill"
 
     /// 􀟂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case level
+    case level = "level"
 
     /// 􀟃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case levelFill
+    case levelFill = "level.fill"
 
     /// 􀡦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lifepreserver
+    case lifepreserver = "lifepreserver"
 
     /// 􀡧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lifepreserverFill
+    case lifepreserverFill = "lifepreserver.fill"
 
     /// 􀇮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lightMax
+    case lightMax = "light.max"
 
     /// 􀇭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lightMin
+    case lightMin = "light.min"
 
     /// 􀛭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lightbulb
+    case lightbulb = "lightbulb"
 
     /// 􀛮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lightbulbFill
+    case lightbulbFill = "lightbulb.fill"
 
     /// 􀞃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lightbulbSlash
+    case lightbulbSlash = "lightbulb.slash"
 
     /// 􀞄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lightbulbSlashFill
+    case lightbulbSlashFill = "lightbulb.slash.fill"
 
     /// 􀫎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case line3CrossedSwirlCircle
+    case line3CrossedSwirlCircle = "line.3.crossed.swirl.circle"
 
     /// 􀫏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case line3CrossedSwirlCircleFill
+    case line3CrossedSwirlCircleFill = "line.3.crossed.swirl.circle.fill"
 
     /// 􀫰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lineDiagonal
+    case lineDiagonal = "line.diagonal"
 
     /// 􀫱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lineDiagonalArrow
+    case lineDiagonalArrow = "line.diagonal.arrow"
 
     /// 􀘵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lineHorizontal2DecreaseCircle
+    case lineHorizontal2DecreaseCircle = "line.horizontal.2.decrease.circle"
 
     /// 􀘶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lineHorizontal2DecreaseCircleFill
+    case lineHorizontal2DecreaseCircleFill = "line.horizontal.2.decrease.circle.fill"
 
     /// 􀌇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lineHorizontal3
+    case lineHorizontal3 = "line.horizontal.3"
 
     /// 􀧱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lineHorizontal3Circle
+    case lineHorizontal3Circle = "line.horizontal.3.circle"
 
     /// 􀧲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lineHorizontal3CircleFill
+    case lineHorizontal3CircleFill = "line.horizontal.3.circle.fill"
 
     /// 􀜓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lineHorizontal3Decrease
+    case lineHorizontal3Decrease = "line.horizontal.3.decrease"
 
     /// 􀌈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lineHorizontal3DecreaseCircle
+    case lineHorizontal3DecreaseCircle = "line.horizontal.3.decrease.circle"
 
     /// 􀌉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lineHorizontal3DecreaseCircleFill
+    case lineHorizontal3DecreaseCircleFill = "line.horizontal.3.decrease.circle.fill"
 
     /// 􀑮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lineHorizontalStarFillLineHorizontal
+    case lineHorizontalStarFillLineHorizontal = "line.horizontal.star.fill.line.horizontal"
 
     /// 􀉨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lineweight
+    case lineweight = "lineweight"
 
     /// 􀉣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case link
+    case link = "link"
 
     /// 􀥕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case linkBadgePlus
+    case linkBadgePlus = "link.badge.plus"
 
     /// 􀒠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case linkCircle
+    case linkCircle = "link.circle"
 
     /// 􀒡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case linkCircleFill
+    case linkCircleFill = "link.circle.fill"
 
     /// 􀒞
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case linkIcloud
+    case linkIcloud = "link.icloud"
 
     /// 􀒟
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case linkIcloudFill
+    case linkIcloudFill = "link.icloud.fill"
 
     /// 􀖷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lirasignCircle
+    case lirasignCircle = "lirasign.circle"
 
     /// 􀖸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lirasignCircleFill
+    case lirasignCircleFill = "lirasign.circle.fill"
 
     /// 􀗷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lirasignSquare
+    case lirasignSquare = "lirasign.square"
 
     /// 􀗸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lirasignSquareFill
+    case lirasignSquareFill = "lirasign.square.fill"
 
     /// 􀬉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case listAndFilm
+    case listAndFilm = "list.and.film"
 
     /// 􀋲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case listBullet
+    case listBullet = "list.bullet"
 
     /// 􀋷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case listBulletBelowRectangle
+    case listBulletBelowRectangle = "list.bullet.below.rectangle"
 
     /// 􀋳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case listBulletIndent
+    case listBulletIndent = "list.bullet.indent"
 
     /// 􀩳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case listBulletRectangle
+    case listBulletRectangle = "list.bullet.rectangle"
 
     /// 􀋱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case listDash
+    case listDash = "list.dash"
 
     /// 􀋴
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case listNumber
+    case listNumber = "list.number"
 
     /// 􀣩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case listStar
+    case listStar = "list.star"
 
     /// 􀢽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case listTriangle
+    case listTriangle = "list.triangle"
 
     /// 􀐡
     /// ⚠️ This symbol can refer only to Apple's Live Photos feature.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case livephoto
+    case livephoto = "livephoto"
 
     /// 􀙔
     /// ⚠️ This symbol can refer only to Apple's Live Photos feature.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case livephotoBadgeA
+    case livephotoBadgeA = "livephoto.badge.a"
 
     /// 􀐣
     /// ⚠️ This symbol can refer only to Apple's Live Photos feature.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case livephotoPlay
+    case livephotoPlay = "livephoto.play"
 
     /// 􀐢
     /// ⚠️ This symbol can refer only to Apple's Live Photos feature.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case livephotoSlash
+    case livephotoSlash = "livephoto.slash"
 
     /// 􀋑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case location
+    case location = "location"
 
     /// 􀋕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case locationCircle
+    case locationCircle = "location.circle"
 
     /// 􀋖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case locationCircleFill
+    case locationCircleFill = "location.circle.fill"
 
     /// 􀋒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case locationFill
+    case locationFill = "location.fill"
 
     /// 􀮄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case locationFillViewfinder
+    case locationFillViewfinder = "location.fill.viewfinder"
 
     /// 􀋓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case locationNorth
+    case locationNorth = "location.north"
 
     /// 􀋔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case locationNorthFill
+    case locationNorthFill = "location.north.fill"
 
     /// 􀋗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case locationNorthLine
+    case locationNorthLine = "location.north.line"
 
     /// 􀋘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case locationNorthLineFill
+    case locationNorthLineFill = "location.north.line.fill"
 
     /// 􀘬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case locationSlash
+    case locationSlash = "location.slash"
 
     /// 􀘭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case locationSlashFill
+    case locationSlashFill = "location.slash.fill"
 
     /// 􀮃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case locationViewfinder
+    case locationViewfinder = "location.viewfinder"
 
     /// 􀎠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lock
+    case lock = "lock"
 
     /// 􀵅
     /// ⚠️ This symbol can refer only to Apple's Apple Watch.
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case lockApplewatch
+    case lockApplewatch = "lock.applewatch"
 
     /// 􀒲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lockCircle
+    case lockCircle = "lock.circle"
 
     /// 􀒳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lockCircleFill
+    case lockCircleFill = "lock.circle.fill"
 
     /// 􀢍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lockDoc
+    case lockDoc = "lock.doc"
 
     /// 􀢎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lockDocFill
+    case lockDocFill = "lock.doc.fill"
 
     /// 􀎡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lockFill
+    case lockFill = "lock.fill"
 
     /// 􀙵
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lockIcloud
+    case lockIcloud = "lock.icloud"
 
     /// 􀙶
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lockIcloudFill
+    case lockIcloudFill = "lock.icloud.fill"
 
     /// 􀎤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lockOpen
+    case lockOpen = "lock.open"
 
     /// 􀎥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lockOpenFill
+    case lockOpenFill = "lock.open.fill"
 
     /// 􀢈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lockRectangle
+    case lockRectangle = "lock.rectangle"
 
     /// 􀢉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lockRectangleFill
+    case lockRectangleFill = "lock.rectangle.fill"
 
     /// 􀢳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lockRectangleOnRectangle
+    case lockRectangleOnRectangle = "lock.rectangle.on.rectangle"
 
     /// 􀢴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lockRectangleOnRectangleFill
+    case lockRectangleOnRectangleFill = "lock.rectangle.on.rectangle.fill"
 
     /// 􀢱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lockRectangleStack
+    case lockRectangleStack = "lock.rectangle.stack"
 
     /// 􀢲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lockRectangleStackFill
+    case lockRectangleStackFill = "lock.rectangle.stack.fill"
 
     /// 􀑙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lockRotation
+    case lockRotation = "lock.rotation"
 
     /// 􀑚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lockRotationOpen
+    case lockRotationOpen = "lock.rotation.open"
 
     /// 􀞙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lockShield
+    case lockShield = "lock.shield"
 
     /// 􀞚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lockShieldFill
+    case lockShieldFill = "lock.shield.fill"
 
     /// 􀎢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lockSlash
+    case lockSlash = "lock.slash"
 
     /// 􀎣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case lockSlashFill
+    case lockSlashFill = "lock.slash.fill"
 
     /// 􀢵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lockSquare
+    case lockSquare = "lock.square"
 
     /// 􀢶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lockSquareFill
+    case lockSquareFill = "lock.square.fill"
 
     /// 􀡜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lockSquareStack
+    case lockSquareStack = "lock.square.stack"
 
     /// 􀡝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lockSquareStackFill
+    case lockSquareStackFill = "lock.square.stack.fill"
 
     /// 􀤎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case loupe
+    case loupe = "loupe"
 
     /// 􀨗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ltRectangleRoundedtop
+    case ltRectangleRoundedtop = "lt.rectangle.roundedtop"
 
     /// 􀨘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ltRectangleRoundedtopFill
+    case ltRectangleRoundedtopFill = "lt.rectangle.roundedtop.fill"
 
     /// 􀦚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lungs
+    case lungs = "lungs"
 
     /// 􀦛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case lungsFill
+    case lungsFill = "lungs.fill"
 
     /// 􀀜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case mCircle
+    case mCircle = "m.circle"
 
     /// 􀀝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case mCircleFill
+    case mCircleFill = "m.circle.fill"
 
     /// 􀂬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case mSquare
+    case mSquare = "m.square"
 
     /// 􀂭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case mSquareFill
+    case mSquareFill = "m.square.fill"
 
     /// 􀪯
     /// ⚠️ This symbol can refer only to Apple's Mac mini.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case macmini
+    case macmini = "macmini"
 
     /// 􀪰
     /// ⚠️ This symbol can refer only to Apple's Mac mini.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case macminiFill
+    case macminiFill = "macmini.fill"
 
     /// 􀪲
     /// ⚠️ This symbol can refer only to Apple's Mac Pro.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case macproGen1
+    case macproGen1 = "macpro.gen1"
 
     /// 􀦱
     /// ⚠️ This symbol can refer only to Apple's Mac Pro.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case macproGen2
+    case macproGen2 = "macpro.gen2"
 
     /// 􀦮
     /// ⚠️ This symbol can refer only to Apple's Mac Pro.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case macproGen2Fill
+    case macproGen2Fill = "macpro.gen2.fill"
 
     /// 􀪱
     /// ⚠️ This symbol can refer only to Apple's Mac Pro.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case macproGen3
+    case macproGen3 = "macpro.gen3"
 
     /// 􀨳
     /// ⚠️ This symbol can refer only to Apple's Mac Pro.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case macproGen3Server
+    case macproGen3Server = "macpro.gen3.server"
 
     /// 􀏜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case macwindow
+    case macwindow = "macwindow"
 
     /// 􀥃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case macwindowBadgePlus
+    case macwindowBadgePlus = "macwindow.badge.plus"
 
     /// 􀢌
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case macwindowOnRectangle
+    case macwindowOnRectangle = "macwindow.on.rectangle"
 
     /// 􀊫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case magnifyingglass
+    case magnifyingglass = "magnifyingglass"
 
     /// 􀒒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case magnifyingglassCircle
+    case magnifyingglassCircle = "magnifyingglass.circle"
 
     /// 􀒓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case magnifyingglassCircleFill
+    case magnifyingglassCircleFill = "magnifyingglass.circle.fill"
 
     /// 􀣪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case mail
+    case mail = "mail"
 
     /// 􀢾
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case mailAndTextMagnifyingglass
+    case mailAndTextMagnifyingglass = "mail.and.text.magnifyingglass"
 
     /// 􀣫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case mailFill
+    case mailFill = "mail.fill"
 
     /// 􀍝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case mailStack
+    case mailStack = "mail.stack"
 
     /// 􀍞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case mailStackFill
+    case mailStackFill = "mail.stack.fill"
 
     /// 􀗍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case manatsignCircle
+    case manatsignCircle = "manatsign.circle"
 
     /// 􀗎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case manatsignCircleFill
+    case manatsignCircleFill = "manatsign.circle.fill"
 
     /// 􀘍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case manatsignSquare
+    case manatsignSquare = "manatsign.square"
 
     /// 􀘎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case manatsignSquareFill
+    case manatsignSquareFill = "manatsign.square.fill"
 
     /// 􀙊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case map
+    case map = "map"
 
     /// 􀙋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case mapFill
+    case mapFill = "map.fill"
 
     /// 􀎪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case mappin
+    case mappin = "mappin"
 
     /// 􀎫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case mappinAndEllipse
+    case mappinAndEllipse = "mappin.and.ellipse"
 
     /// 􀜇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case mappinCircle
+    case mappinCircle = "mappin.circle"
 
     /// 􀜈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case mappinCircleFill
+    case mappinCircleFill = "mappin.circle.fill"
 
     /// 􀙉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case mappinSlash
+    case mappinSlash = "mappin.slash"
 
     /// 􀬲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case megaphone
+    case megaphone = "megaphone"
 
     /// 􀬳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case megaphoneFill
+    case megaphoneFill = "megaphone.fill"
 
     /// 􀑖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case memories
+    case memories = "memories"
 
     /// 􀑘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case memoriesBadgeMinus
+    case memoriesBadgeMinus = "memories.badge.minus"
 
     /// 􀑗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case memoriesBadgePlus
+    case memoriesBadgePlus = "memories.badge.plus"
 
     /// 􀫦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case memorychip
+    case memorychip = "memorychip"
 
     /// 􀤁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case menubarArrowDownRectangle
+    case menubarArrowDownRectangle = "menubar.arrow.down.rectangle"
 
     /// 􀤀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case menubarArrowUpRectangle
+    case menubarArrowUpRectangle = "menubar.arrow.up.rectangle"
 
     /// 􀣰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case menubarDockRectangle
+    case menubarDockRectangle = "menubar.dock.rectangle"
 
     /// 􀣑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case menubarDockRectangleBadgeRecord
+    case menubarDockRectangleBadgeRecord = "menubar.dock.rectangle.badge.record"
 
     /// 􀦍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case menubarRectangle
+    case menubarRectangle = "menubar.rectangle"
 
     /// 􀌤
     /// ⚠️ This symbol can refer only to Apple's Messages app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case message
+    case message = "message"
 
     /// 􀌦
     /// ⚠️ This symbol can refer only to Apple's Messages app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case messageCircle
+    case messageCircle = "message.circle"
 
     /// 􀌧
     /// ⚠️ This symbol can refer only to Apple's Messages app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case messageCircleFill
+    case messageCircleFill = "message.circle.fill"
 
     /// 􀌥
     /// ⚠️ This symbol can refer only to Apple's Messages app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case messageFill
+    case messageFill = "message.fill"
 
     /// 􀎌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case metronome
+    case metronome = "metronome"
 
     /// 􀠕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case metronomeFill
+    case metronomeFill = "metronome.fill"
 
     /// 􀊰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case mic
+    case mic = "mic"
 
     /// 􀒩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case micCircle
+    case micCircle = "mic.circle"
 
     /// 􀒪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case micCircleFill
+    case micCircleFill = "mic.circle.fill"
 
     /// 􀊱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case micFill
+    case micFill = "mic.fill"
 
     /// 􀊲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case micSlash
+    case micSlash = "mic.slash"
 
     /// 􀊳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case micSlashFill
+    case micSlashFill = "mic.slash.fill"
 
     /// 􀗉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case millsignCircle
+    case millsignCircle = "millsign.circle"
 
     /// 􀗊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case millsignCircleFill
+    case millsignCircleFill = "millsign.circle.fill"
 
     /// 􀘉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case millsignSquare
+    case millsignSquare = "millsign.square"
 
     /// 􀘊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case millsignSquareFill
+    case millsignSquareFill = "millsign.square.fill"
 
     /// 􀅽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case minus
+    case minus = "minus"
 
     /// 􀁎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case minusCircle
+    case minusCircle = "minus.circle"
 
     /// 􀁏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case minusCircleFill
+    case minusCircleFill = "minus.circle.fill"
 
     /// 􀢁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case minusDiamond
+    case minusDiamond = "minus.diamond"
 
     /// 􀢂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case minusDiamondFill
+    case minusDiamondFill = "minus.diamond.fill"
 
     /// 􀊭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case minusMagnifyingglass
+    case minusMagnifyingglass = "minus.magnifyingglass"
 
     /// 􀫬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case minusPlusBatteryblock
+    case minusPlusBatteryblock = "minus.plus.batteryblock"
 
     /// 􀫭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case minusPlusBatteryblockFill
+    case minusPlusBatteryblockFill = "minus.plus.batteryblock.fill"
 
     /// 􀏉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case minusRectangle
+    case minusRectangle = "minus.rectangle"
 
     /// 􀏊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case minusRectangleFill
+    case minusRectangleFill = "minus.rectangle.fill"
 
     /// 􀡬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case minusRectanglePortrait
+    case minusRectanglePortrait = "minus.rectangle.portrait"
 
     /// 􀡭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case minusRectanglePortraitFill
+    case minusRectanglePortraitFill = "minus.rectangle.portrait.fill"
 
     /// 􀅻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case minusSlashPlus
+    case minusSlashPlus = "minus.slash.plus"
 
     /// 􀃞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case minusSquare
+    case minusSquare = "minus.square"
 
     /// 􀃟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case minusSquareFill
+    case minusSquareFill = "minus.square.fill"
 
     /// 􀆹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case moon
+    case moon = "moon"
 
     /// 􀆻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case moonCircle
+    case moonCircle = "moon.circle"
 
     /// 􀆼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case moonCircleFill
+    case moonCircleFill = "moon.circle.fill"
 
     /// 􀆺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case moonFill
+    case moonFill = "moon.fill"
 
     /// 􀇀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case moonStars
+    case moonStars = "moon.stars"
 
     /// 􀇁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case moonStarsFill
+    case moonStarsFill = "moon.stars.fill"
 
     /// 􀆽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case moonZzz
+    case moonZzz = "moon.zzz"
 
     /// 􀆾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case moonZzzFill
+    case moonZzzFill = "moon.zzz.fill"
 
     /// 􀯫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case mosaic
+    case mosaic = "mosaic"
 
     /// 􀯬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case mosaicFill
+    case mosaicFill = "mosaic.fill"
 
     /// 􀣊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case mount
+    case mount = "mount"
 
     /// 􀢣
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case mountFill
+    case mountFill = "mount.fill"
 
     /// 􀦩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case mouth
+    case mouth = "mouth"
 
     /// 􀦪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case mouthFill
+    case mouthFill = "mouth.fill"
 
     /// 􀢅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case move3d
+    case move3d = "move.3d"
 
     /// 􀅾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case multiply
+    case multiply = "multiply"
 
     /// 􀁐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case multiplyCircle
+    case multiplyCircle = "multiply.circle"
 
     /// 􀁑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case multiplyCircleFill
+    case multiplyCircleFill = "multiply.circle.fill"
 
     /// 􀃠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case multiplySquare
+    case multiplySquare = "multiply.square"
 
     /// 􀃡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case multiplySquareFill
+    case multiplySquareFill = "multiply.square.fill"
 
     /// 􀒼
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouse")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "musicNoteHouse")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouse")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "musicNoteHouse")
-    case musicHouse
+    case musicHouse = "music.house"
 
     /// 􀒽
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouseFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "musicNoteHouseFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouseFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "musicNoteHouseFill")
-    case musicHouseFill
+    case musicHouseFill = "music.house.fill"
 
     /// 􀑫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case musicMic
+    case musicMic = "music.mic"
 
     /// 􀑪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case musicNote
+    case musicNote = "music.note"
 
     /// 􀒼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case musicNoteHouse
+    case musicNoteHouse = "music.note.house"
 
     /// 􀒽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case musicNoteHouseFill
+    case musicNoteHouseFill = "music.note.house.fill"
 
     /// 􀑬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case musicNoteList
+    case musicNoteList = "music.note.list"
 
     /// 􀫀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case musicQuarternote3
+    case musicQuarternote3 = "music.quarternote.3"
 
     /// 􀥿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case mustache
+    case mustache = "mustache"
 
     /// 􀦀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case mustacheFill
+    case mustacheFill = "mustache.fill"
 
     /// 􀀞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case nCircle
+    case nCircle = "n.circle"
 
     /// 􀀟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case nCircleFill
+    case nCircleFill = "n.circle.fill"
 
     /// 􀂮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case nSquare
+    case nSquare = "n.square"
 
     /// 􀂯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case nSquareFill
+    case nSquareFill = "n.square.fill"
 
     /// 􀖽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case nairasignCircle
+    case nairasignCircle = "nairasign.circle"
 
     /// 􀖾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case nairasignCircleFill
+    case nairasignCircleFill = "nairasign.circle.fill"
 
     /// 􀗽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case nairasignSquare
+    case nairasignSquare = "nairasign.square"
 
     /// 􀗾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case nairasignSquareFill
+    case nairasignSquareFill = "nairasign.square.fill"
 
     /// 􀤆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case network
+    case network = "network"
 
     /// 􀤦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case newspaper
+    case newspaper = "newspaper"
 
     /// 􀥅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case newspaperFill
+    case newspaperFill = "newspaper.fill"
 
     /// 􀨯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case nose
+    case nose = "nose"
 
     /// 􀨰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case noseFill
+    case noseFill = "nose.fill"
 
     /// 􀍼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case nosign
+    case nosign = "nosign"
 
     /// 􀧵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case note
+    case note = "note"
 
     /// 􀓕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case noteText
+    case noteText = "note.text"
 
     /// 􀣙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case noteTextBadgePlus
+    case noteTextBadgePlus = "note.text.badge.plus"
 
     /// 􀆃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case number
+    case number = "number"
 
     /// 􀁚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case numberCircle
+    case numberCircle = "number.circle"
 
     /// 􀁛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case numberCircleFill
+    case numberCircleFill = "number.circle.fill"
 
     /// 􀃪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case numberSquare
+    case numberSquare = "number.square"
 
     /// 􀃫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case numberSquareFill
+    case numberSquareFill = "number.square.fill"
 
     /// 􀀠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case oCircle
+    case oCircle = "o.circle"
 
     /// 􀀡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case oCircleFill
+    case oCircleFill = "o.circle.fill"
 
     /// 􀂰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case oSquare
+    case oSquare = "o.square"
 
     /// 􀂱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case oSquareFill
+    case oSquareFill = "o.square.fill"
 
     /// 􀟊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case octagon
+    case octagon = "octagon"
 
     /// 􀟋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case octagonFill
+    case octagonFill = "octagon.fill"
 
     /// 􀢸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case opticaldisc
+    case opticaldisc = "opticaldisc"
 
     /// 􀤄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case opticaldiscdrive
+    case opticaldiscdrive = "opticaldiscdrive"
 
     /// 􀤅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case opticaldiscdriveFill
+    case opticaldiscdriveFill = "opticaldiscdrive.fill"
 
     /// 􀆕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case option
+    case option = "option"
 
     /// 􀲞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case oval
+    case oval = "oval"
 
     /// 􀲟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ovalFill
+    case ovalFill = "oval.fill"
 
     /// 􀲠
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ovalPortrait
+    case ovalPortrait = "oval.portrait"
 
     /// 􀲡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ovalPortraitFill
+    case ovalPortraitFill = "oval.portrait.fill"
 
     /// 􀀢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pCircle
+    case pCircle = "p.circle"
 
     /// 􀀣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pCircleFill
+    case pCircleFill = "p.circle.fill"
 
     /// 􀂲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pSquare
+    case pSquare = "p.square"
 
     /// 􀂳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pSquareFill
+    case pSquareFill = "p.square.fill"
 
     /// 􀎑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case paintbrush
+    case paintbrush = "paintbrush"
 
     /// 􀎒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case paintbrushFill
+    case paintbrushFill = "paintbrush.fill"
 
     /// 􀣶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case paintbrushPointed
+    case paintbrushPointed = "paintbrush.pointed"
 
     /// 􀣷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case paintbrushPointedFill
+    case paintbrushPointedFill = "paintbrush.pointed.fill"
 
     /// 􀝥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case paintpalette
+    case paintpalette = "paintpalette"
 
     /// 􀝦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case paintpaletteFill
+    case paintpaletteFill = "paintpalette.fill"
 
     /// 􀐏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pano
+    case pano = "pano"
 
     /// 􀐐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case panoFill
+    case panoFill = "pano.fill"
 
     /// 􀉢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case paperclip
+    case paperclip = "paperclip"
 
     /// 􀢏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case paperclipBadgeEllipsis
+    case paperclipBadgeEllipsis = "paperclip.badge.ellipsis"
 
     /// 􀒔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case paperclipCircle
+    case paperclipCircle = "paperclip.circle"
 
     /// 􀒕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case paperclipCircleFill
+    case paperclipCircleFill = "paperclip.circle.fill"
 
     /// 􀈟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case paperplane
+    case paperplane = "paperplane"
 
     /// 􀈡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case paperplaneCircle
+    case paperplaneCircle = "paperplane.circle"
 
     /// 􀈢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case paperplaneCircleFill
+    case paperplaneCircleFill = "paperplane.circle.fill"
 
     /// 􀈠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case paperplaneFill
+    case paperplaneFill = "paperplane.fill"
 
     /// 􀒆
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "paragraphsign")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "paragraphsign")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "paragraphsign")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "paragraphsign")
-    case paragraph
+    case paragraph = "paragraph"
 
     /// 􀒆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case paragraphsign
+    case paragraphsign = "paragraphsign"
 
     /// 􀊅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pause
+    case pause = "pause"
 
     /// 􀊗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pauseCircle
+    case pauseCircle = "pause.circle"
 
     /// 􀊘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pauseCircleFill
+    case pauseCircleFill = "pause.circle.fill"
 
     /// 􀊆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pauseFill
+    case pauseFill = "pause.fill"
 
     /// 􀊛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pauseRectangle
+    case pauseRectangle = "pause.rectangle"
 
     /// 􀊜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pauseRectangleFill
+    case pauseRectangleFill = "pause.rectangle.fill"
 
     /// 􀥺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case pc
+    case pc = "pc"
 
     /// 􀈊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pencil
+    case pencil = "pencil"
 
     /// 􀈏
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "rectangleAndPencilAndEllipsis")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "rectangleAndPencilAndEllipsis")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "rectangleAndPencilAndEllipsis")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "rectangleAndPencilAndEllipsis")
-    case pencilAndEllipsisRectangle
+    case pencilAndEllipsisRectangle = "pencil.and.ellipsis.rectangle"
 
     /// 􀈐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pencilAndOutline
+    case pencilAndOutline = "pencil.and.outline"
 
     /// 􀈋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pencilCircle
+    case pencilCircle = "pencil.circle"
 
     /// 􀈌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pencilCircleFill
+    case pencilCircleFill = "pencil.circle.fill"
 
     /// 􀈍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pencilSlash
+    case pencilSlash = "pencil.slash"
 
     /// 􀒋
     /// ⚠️ This symbol can refer only to Apple's Markup feature.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pencilTip
+    case pencilTip = "pencil.tip"
 
     /// 􀉥
     /// ⚠️ This symbol can refer only to Apple's Markup feature.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pencilTipCropCircle
+    case pencilTipCropCircle = "pencil.tip.crop.circle"
 
     /// 􀧚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case pencilTipCropCircleBadgeArrowForward
+    case pencilTipCropCircleBadgeArrowForward = "pencil.tip.crop.circle.badge.arrow.forward"
 
     /// 􀉧
     /// ⚠️ This symbol can refer only to Apple's Markup feature.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pencilTipCropCircleBadgeMinus
+    case pencilTipCropCircleBadgeMinus = "pencil.tip.crop.circle.badge.minus"
 
     /// 􀉦
     /// ⚠️ This symbol can refer only to Apple's Markup feature.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pencilTipCropCircleBadgePlus
+    case pencilTipCropCircleBadgePlus = "pencil.tip.crop.circle.badge.plus"
 
     /// 􀘾
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case percent
+    case percent = "percent"
 
     /// 􀉩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case person
+    case person = "person"
 
     /// 􀉫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case person2
+    case person2 = "person.2"
 
     /// 􀠃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case person2Circle
+    case person2Circle = "person.2.circle"
 
     /// 􀠄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case person2CircleFill
+    case person2CircleFill = "person.2.circle.fill"
 
     /// 􀉬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case person2Fill
+    case person2Fill = "person.2.fill"
 
     /// 􀓥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case person2SquareStack
+    case person2SquareStack = "person.2.square.stack"
 
     /// 􀓦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case person2SquareStackFill
+    case person2SquareStackFill = "person.2.square.stack.fill"
 
     /// 􀝊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case person3
+    case person3 = "person.3"
 
     /// 􀝋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case person3Fill
+    case person3Fill = "person.3.fill"
 
     /// 􀪼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case personAndArrowLeftAndArrowRight
+    case personAndArrowLeftAndArrowRight = "person.and.arrow.left.and.arrow.right"
 
     /// 􀜗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personBadgeMinus
+    case personBadgeMinus = "person.badge.minus"
 
     /// 􀜘
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "personFillBadgeMinus")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "personFillBadgeMinus")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "personFillBadgeMinus")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personFillBadgeMinus")
-    case personBadgeMinusFill
+    case personBadgeMinusFill = "person.badge.minus.fill"
 
     /// 􀜕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personBadgePlus
+    case personBadgePlus = "person.badge.plus"
 
     /// 􀜖
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "personFillBadgePlus")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "personFillBadgePlus")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "personFillBadgePlus")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personFillBadgePlus")
-    case personBadgePlusFill
+    case personBadgePlusFill = "person.badge.plus.fill"
 
     /// 􀓣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCircle
+    case personCircle = "person.circle"
 
     /// 􀓤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCircleFill
+    case personCircleFill = "person.circle.fill"
 
     /// 􀉭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCropCircle
+    case personCropCircle = "person.crop.circle"
 
     /// 􀉳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCropCircleBadgeCheckmark
+    case personCropCircleBadgeCheckmark = "person.crop.circle.badge.checkmark"
 
     /// 􀉷
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "personCropCircleBadgeExclamationmark")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "personCropCircleBadgeExclamationmark")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "personCropCircleBadgeExclamationmark")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personCropCircleBadgeExclamationmark")
-    case personCropCircleBadgeExclam
+    case personCropCircleBadgeExclam = "person.crop.circle.badge.exclam"
 
     /// 􀉷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCropCircleBadgeExclamationmark
+    case personCropCircleBadgeExclamationmark = "person.crop.circle.badge.exclamationmark"
 
     /// 􀉱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCropCircleBadgeMinus
+    case personCropCircleBadgeMinus = "person.crop.circle.badge.minus"
 
     /// 􀉯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCropCircleBadgePlus
+    case personCropCircleBadgePlus = "person.crop.circle.badge.plus"
 
     /// 􀭽
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case personCropCircleBadgeQuestionmark
+    case personCropCircleBadgeQuestionmark = "person.crop.circle.badge.questionmark"
 
     /// 􀉵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCropCircleBadgeXmark
+    case personCropCircleBadgeXmark = "person.crop.circle.badge.xmark"
 
     /// 􀉮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCropCircleFill
+    case personCropCircleFill = "person.crop.circle.fill"
 
     /// 􀉴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCropCircleFillBadgeCheckmark
+    case personCropCircleFillBadgeCheckmark = "person.crop.circle.fill.badge.checkmark"
 
     /// 􀉸
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "personCropCircleFillBadgeExclamationmark")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "personCropCircleFillBadgeExclamationmark")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "personCropCircleFillBadgeExclamationmark")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personCropCircleFillBadgeExclamationmark")
-    case personCropCircleFillBadgeExclam
+    case personCropCircleFillBadgeExclam = "person.crop.circle.fill.badge.exclam"
 
     /// 􀉸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCropCircleFillBadgeExclamationmark
+    case personCropCircleFillBadgeExclamationmark = "person.crop.circle.fill.badge.exclamationmark"
 
     /// 􀉲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCropCircleFillBadgeMinus
+    case personCropCircleFillBadgeMinus = "person.crop.circle.fill.badge.minus"
 
     /// 􀉰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCropCircleFillBadgePlus
+    case personCropCircleFillBadgePlus = "person.crop.circle.fill.badge.plus"
 
     /// 􀭾
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case personCropCircleFillBadgeQuestionmark
+    case personCropCircleFillBadgeQuestionmark = "person.crop.circle.fill.badge.questionmark"
 
     /// 􀉶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCropCircleFillBadgeXmark
+    case personCropCircleFillBadgeXmark = "person.crop.circle.fill.badge.xmark"
 
     /// 􀏏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCropRectangle
+    case personCropRectangle = "person.crop.rectangle"
 
     /// 􀏐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCropRectangleFill
+    case personCropRectangleFill = "person.crop.rectangle.fill"
 
     /// 􀉹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCropSquare
+    case personCropSquare = "person.crop.square"
 
     /// 􀉺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personCropSquareFill
+    case personCropSquareFill = "person.crop.square.fill"
 
     /// 􀦎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case personCropSquareFillAndAtRectangle
+    case personCropSquareFillAndAtRectangle = "person.crop.square.fill.and.at.rectangle"
 
     /// 􀉪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personFill
+    case personFill = "person.fill"
 
     /// 􀪽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case personFillAndArrowLeftAndArrowRight
+    case personFillAndArrowLeftAndArrowRight = "person.fill.and.arrow.left.and.arrow.right"
 
     /// 􀜘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personFillBadgeMinus
+    case personFillBadgeMinus = "person.fill.badge.minus"
 
     /// 􀜖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personFillBadgePlus
+    case personFillBadgePlus = "person.fill.badge.plus"
 
     /// 􀯧
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case personFillCheckmark
+    case personFillCheckmark = "person.fill.checkmark"
 
     /// 􀯩
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case personFillQuestionmark
+    case personFillQuestionmark = "person.fill.questionmark"
 
     /// 􀯒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case personFillTurnDown
+    case personFillTurnDown = "person.fill.turn.down"
 
     /// 􀯓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case personFillTurnLeft
+    case personFillTurnLeft = "person.fill.turn.left"
 
     /// 􀯑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case personFillTurnRight
+    case personFillTurnRight = "person.fill.turn.right"
 
     /// 􀲏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case personFillViewfinder
+    case personFillViewfinder = "person.fill.viewfinder"
 
     /// 􀯨
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case personFillXmark
+    case personFillXmark = "person.fill.xmark"
 
     /// 􀙳
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personIcloud
+    case personIcloud = "person.icloud"
 
     /// 􀙴
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personIcloudFill
+    case personIcloudFill = "person.icloud.fill"
 
     /// 􀉤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case personalhotspot
+    case personalhotspot = "personalhotspot"
 
     /// 􀒱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case perspective
+    case perspective = "perspective"
 
     /// 􀖯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pesetasignCircle
+    case pesetasignCircle = "pesetasign.circle"
 
     /// 􀖰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pesetasignCircleFill
+    case pesetasignCircleFill = "pesetasign.circle.fill"
 
     /// 􀗯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pesetasignSquare
+    case pesetasignSquare = "pesetasign.square"
 
     /// 􀗰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pesetasignSquareFill
+    case pesetasignSquareFill = "pesetasign.square.fill"
 
     /// 􀖱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pesosignCircle
+    case pesosignCircle = "pesosign.circle"
 
     /// 􀖲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pesosignCircleFill
+    case pesosignCircleFill = "pesosign.circle.fill"
 
     /// 􀗱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pesosignSquare
+    case pesosignSquare = "pesosign.square"
 
     /// 􀗲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pesosignSquareFill
+    case pesosignSquareFill = "pesosign.square.fill"
 
     /// 􀌾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case phone
+    case phone = "phone"
 
     /// 􀍂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case phoneArrowDownLeft
+    case phoneArrowDownLeft = "phone.arrow.down.left"
 
     /// 􀍄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case phoneArrowRight
+    case phoneArrowRight = "phone.arrow.right"
 
     /// 􀍀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case phoneArrowUpRight
+    case phoneArrowUpRight = "phone.arrow.up.right"
 
     /// 􀖎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case phoneBadgePlus
+    case phoneBadgePlus = "phone.badge.plus"
 
     /// 􀱮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case phoneBubbleLeft
+    case phoneBubbleLeft = "phone.bubble.left"
 
     /// 􀱯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case phoneBubbleLeftFill
+    case phoneBubbleLeftFill = "phone.bubble.left.fill"
 
     /// 􀒥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case phoneCircle
+    case phoneCircle = "phone.circle"
 
     /// 􀒦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case phoneCircleFill
+    case phoneCircleFill = "phone.circle.fill"
 
     /// 􀬛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case phoneConnection
+    case phoneConnection = "phone.connection"
 
     /// 􀍆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case phoneDown
+    case phoneDown = "phone.down"
 
     /// 􀒧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case phoneDownCircle
+    case phoneDownCircle = "phone.down.circle"
 
     /// 􀒨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case phoneDownCircleFill
+    case phoneDownCircleFill = "phone.down.circle.fill"
 
     /// 􀍇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case phoneDownFill
+    case phoneDownFill = "phone.down.fill"
 
     /// 􀌿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case phoneFill
+    case phoneFill = "phone.fill"
 
     /// 􀍃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case phoneFillArrowDownLeft
+    case phoneFillArrowDownLeft = "phone.fill.arrow.down.left"
 
     /// 􀍅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case phoneFillArrowRight
+    case phoneFillArrowRight = "phone.fill.arrow.right"
 
     /// 􀍁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case phoneFillArrowUpRight
+    case phoneFillArrowUpRight = "phone.fill.arrow.up.right"
 
     /// 􀖏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case phoneFillBadgePlus
+    case phoneFillBadgePlus = "phone.fill.badge.plus"
 
     /// 􀬜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case phoneFillConnection
+    case phoneFillConnection = "phone.fill.connection"
 
     /// 􀏅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case photo
+    case photo = "photo"
 
     /// 􀏆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case photoFill
+    case photoFill = "photo.fill"
 
     /// 􀏬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case photoFillOnRectangleFill
+    case photoFillOnRectangleFill = "photo.fill.on.rectangle.fill"
 
     /// 􀏫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case photoOnRectangle
+    case photoOnRectangle = "photo.on.rectangle"
 
     /// 􀣵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case photoOnRectangleAngled
+    case photoOnRectangleAngled = "photo.on.rectangle.angled"
 
     /// 􀵪
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case photoTv
+    case photoTv = "photo.tv"
 
     /// 􀎏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case pianokeys
+    case pianokeys = "pianokeys"
 
     /// 􀟽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case pianokeysInverse
+    case pianokeysInverse = "pianokeys.inverse"
 
     /// 􀠱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case pills
+    case pills = "pills"
 
     /// 􀠲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case pillsFill
+    case pillsFill = "pills.fill"
 
     /// 􀎦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pin
+    case pin = "pin"
 
     /// 􀒴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pinCircle
+    case pinCircle = "pin.circle"
 
     /// 􀒵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pinCircleFill
+    case pinCircleFill = "pin.circle.fill"
 
     /// 􀎧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pinFill
+    case pinFill = "pin.fill"
 
     /// 􀎨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pinSlash
+    case pinSlash = "pin.slash"
 
     /// 􀎩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case pinSlashFill
+    case pinSlashFill = "pin.slash.fill"
 
     /// 􀠳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case pip
+    case pip = "pip"
 
     /// 􀑨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case pipEnter
+    case pipEnter = "pip.enter"
 
     /// 􀑧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case pipExit
+    case pipExit = "pip.exit"
 
     /// 􀠴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case pipFill
+    case pipFill = "pip.fill"
 
     /// 􀭲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case pipRemove
+    case pipRemove = "pip.remove"
 
     /// 􀭱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case pipSwap
+    case pipSwap = "pip.swap"
 
     /// 􀮷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case placeholdertextFill
+    case placeholdertextFill = "placeholdertext.fill"
 
     /// 􀊃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case play
+    case play = "play"
 
     /// 􀊕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case playCircle
+    case playCircle = "play.circle"
 
     /// 􀊖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case playCircleFill
+    case playCircleFill = "play.circle.fill"
 
     /// 􀊄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case playFill
+    case playFill = "play.fill"
 
     /// 􀊙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case playRectangle
+    case playRectangle = "play.rectangle"
 
     /// 􀊚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case playRectangleFill
+    case playRectangleFill = "play.rectangle.fill"
 
     /// 􀪅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case playSlash
+    case playSlash = "play.slash"
 
     /// 􀪆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case playSlashFill
+    case playSlashFill = "play.slash.fill"
 
     /// 􀵨
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case playTv
+    case playTv = "play.tv"
 
     /// 􀵩
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case playTvFill
+    case playTvFill = "play.tv.fill"
 
     /// 􀊇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case playpause
+    case playpause = "playpause"
 
     /// 􀊈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case playpauseFill
+    case playpauseFill = "playpause.fill"
 
     /// 􀅼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plus
+    case plus = "plus"
 
     /// 􀑍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusApp
+    case plusApp = "plus.app"
 
     /// 􀑎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusAppFill
+    case plusAppFill = "plus.app.fill"
 
     /// 􀌶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusBubble
+    case plusBubble = "plus.bubble"
 
     /// 􀌷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusBubbleFill
+    case plusBubbleFill = "plus.bubble.fill"
 
     /// 􀁌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusCircle
+    case plusCircle = "plus.circle"
 
     /// 􀁍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusCircleFill
+    case plusCircleFill = "plus.circle.fill"
 
     /// 􀡿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case plusDiamond
+    case plusDiamond = "plus.diamond"
 
     /// 􀢀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case plusDiamondFill
+    case plusDiamondFill = "plus.diamond.fill"
 
     /// 􀊬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusMagnifyingglass
+    case plusMagnifyingglass = "plus.magnifyingglass"
 
     /// 􀡙
     /// ⚠️ This symbol can refer only to Apple's Messages app.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case plusMessage
+    case plusMessage = "plus.message"
 
     /// 􀡚
     /// ⚠️ This symbol can refer only to Apple's Messages app.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case plusMessageFill
+    case plusMessageFill = "plus.message.fill"
 
     /// 􀏇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusRectangle
+    case plusRectangle = "plus.rectangle"
 
     /// 􀏈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusRectangleFill
+    case plusRectangleFill = "plus.rectangle.fill"
 
     /// 􀤱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case plusRectangleFillOnFolderFill
+    case plusRectangleFillOnFolderFill = "plus.rectangle.fill.on.folder.fill"
 
     /// 􀏪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusRectangleFillOnRectangleFill
+    case plusRectangleFillOnRectangleFill = "plus.rectangle.fill.on.rectangle.fill"
 
     /// 􀤰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case plusRectangleOnFolder
+    case plusRectangleOnFolder = "plus.rectangle.on.folder"
 
     /// 􀏩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusRectangleOnRectangle
+    case plusRectangleOnRectangle = "plus.rectangle.on.rectangle"
 
     /// 􀡪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case plusRectanglePortrait
+    case plusRectanglePortrait = "plus.rectangle.portrait"
 
     /// 􀡫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case plusRectanglePortraitFill
+    case plusRectanglePortraitFill = "plus.rectangle.portrait.fill"
 
     /// 􀅺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusSlashMinus
+    case plusSlashMinus = "plus.slash.minus"
 
     /// 􀃜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusSquare
+    case plusSquare = "plus.square"
 
     /// 􀃝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusSquareFill
+    case plusSquareFill = "plus.square.fill"
 
     /// 􀐈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusSquareFillOnSquareFill
+    case plusSquareFillOnSquareFill = "plus.square.fill.on.square.fill"
 
     /// 􀐇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusSquareOnSquare
+    case plusSquareOnSquare = "plus.square.on.square"
 
     /// 􀥄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case plusViewfinder
+    case plusViewfinder = "plus.viewfinder"
 
     /// 􀛺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusminus
+    case plusminus = "plusminus"
 
     /// 􀍶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusminusCircle
+    case plusminusCircle = "plusminus.circle"
 
     /// 􀘝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case plusminusCircleFill
+    case plusminusCircleFill = "plusminus.circle.fill"
 
     /// 􀬱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case pointFillTopleftDownCurvedtoPointFillBottomrightUp
+    case pointFillTopleftDownCurvedtoPointFillBottomrightUp = "point.fill.topleft.down.curvedto.point.fill.bottomright.up"
 
     /// 􀣱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case pointTopleftDownCurvedtoPointBottomrightUp
+    case pointTopleftDownCurvedtoPointBottomrightUp = "point.topleft.down.curvedto.point.bottomright.up"
 
     /// 􀆨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case power
+    case power = "power"
 
     /// 􀥥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case poweroff
+    case poweroff = "poweroff"
 
     /// 􀥤
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case poweron
+    case poweron = "poweron"
 
     /// 􀥦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case powersleep
+    case powersleep = "powersleep"
 
     /// 􀎚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case printer
+    case printer = "printer"
 
     /// 􀪞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case printerDotmatrix
+    case printerDotmatrix = "printer.dotmatrix"
 
     /// 􀪟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case printerDotmatrixFill
+    case printerDotmatrixFill = "printer.dotmatrix.fill"
 
     /// 􀪿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case printerDotmatrixFillAndPaperFill
+    case printerDotmatrixFillAndPaperFill = "printer.dotmatrix.fill.and.paper.fill"
 
     /// 􀎛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case printerFill
+    case printerFill = "printer.fill"
 
     /// 􀪾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case printerFillAndPaperFill
+    case printerFillAndPaperFill = "printer.fill.and.paper.fill"
 
     /// 􀆎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case projective
+    case projective = "projective"
 
     /// 􀚐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case purchased
+    case purchased = "purchased"
 
     /// 􀚑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case purchasedCircle
+    case purchasedCircle = "purchased.circle"
 
     /// 􀚒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case purchasedCircleFill
+    case purchasedCircleFill = "purchased.circle.fill"
 
     /// 􀤚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case puzzlepiece
+    case puzzlepiece = "puzzlepiece"
 
     /// 􀤛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case puzzlepieceFill
+    case puzzlepieceFill = "puzzlepiece.fill"
 
     /// 􀳋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case pyramid
+    case pyramid = "pyramid"
 
     /// 􀳌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case pyramidFill
+    case pyramidFill = "pyramid.fill"
 
     /// 􀀤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case qCircle
+    case qCircle = "q.circle"
 
     /// 􀀥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case qCircleFill
+    case qCircleFill = "q.circle.fill"
 
     /// 􀂴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case qSquare
+    case qSquare = "q.square"
 
     /// 􀂵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case qSquareFill
+    case qSquareFill = "q.square.fill"
 
     /// 􀖂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case qrcode
+    case qrcode = "qrcode"
 
     /// 􀎻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case qrcodeViewfinder
+    case qrcodeViewfinder = "qrcode.viewfinder"
 
     /// 􀅍
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case questionmark
+    case questionmark = "questionmark"
 
     /// 􀁜
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case questionmarkCircle
+    case questionmarkCircle = "questionmark.circle"
 
     /// 􀁝
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case questionmarkCircleFill
+    case questionmarkCircleFill = "questionmark.circle.fill"
 
     /// 􀄢
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case questionmarkDiamond
+    case questionmarkDiamond = "questionmark.diamond"
 
     /// 􀄣
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case questionmarkDiamondFill
+    case questionmarkDiamondFill = "questionmark.diamond.fill"
 
     /// 􀬔
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case questionmarkFolder
+    case questionmarkFolder = "questionmark.folder"
 
     /// 􀬕
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case questionmarkFolderFill
+    case questionmarkFolderFill = "questionmark.folder.fill"
 
     /// 􀃬
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case questionmarkSquare
+    case questionmarkSquare = "questionmark.square"
 
     /// 􀭉
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case questionmarkSquareDashed
+    case questionmarkSquareDashed = "questionmark.square.dashed"
 
     /// 􀃭
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case questionmarkSquareFill
+    case questionmarkSquareFill = "questionmark.square.fill"
 
     /// 􀍓
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case questionmarkVideo
+    case questionmarkVideo = "questionmark.video"
 
     /// 􀍔
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case questionmarkVideoFill
+    case questionmarkVideoFill = "questionmark.video.fill"
 
     /// 􀌮
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case quoteBubble
+    case quoteBubble = "quote.bubble"
 
     /// 􀌯
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case quoteBubbleFill
+    case quoteBubbleFill = "quote.bubble.fill"
 
     /// 􀀦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rCircle
+    case rCircle = "r.circle"
 
     /// 􀀧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rCircleFill
+    case rCircleFill = "r.circle.fill"
 
     /// 􀦓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rJoystick
+    case rJoystick = "r.joystick"
 
     /// 􀦕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rJoystickDown
+    case rJoystickDown = "r.joystick.down"
 
     /// 􀫄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rJoystickDownFill
+    case rJoystickDownFill = "r.joystick.down.fill"
 
     /// 􀫂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rJoystickFill
+    case rJoystickFill = "r.joystick.fill"
 
     /// 􀨍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rRectangleRoundedbottom
+    case rRectangleRoundedbottom = "r.rectangle.roundedbottom"
 
     /// 􀨎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rRectangleRoundedbottomFill
+    case rRectangleRoundedbottomFill = "r.rectangle.roundedbottom.fill"
 
     /// 􀂶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rSquare
+    case rSquare = "r.square"
 
     /// 􀂷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rSquareFill
+    case rSquareFill = "r.square.fill"
 
     /// 􀭙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rSquareFillOnSquareFill
+    case rSquareFillOnSquareFill = "r.square.fill.on.square.fill"
 
     /// 􀭘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rSquareOnSquare
+    case rSquareOnSquare = "r.square.on.square"
 
     /// 􀨏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case r1RectangleRoundedbottom
+    case r1RectangleRoundedbottom = "r1.rectangle.roundedbottom"
 
     /// 􀨐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case r1RectangleRoundedbottomFill
+    case r1RectangleRoundedbottomFill = "r1.rectangle.roundedbottom.fill"
 
     /// 􀨑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case r2RectangleRoundedtop
+    case r2RectangleRoundedtop = "r2.rectangle.roundedtop"
 
     /// 􀨒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case r2RectangleRoundedtopFill
+    case r2RectangleRoundedtopFill = "r2.rectangle.roundedtop.fill"
 
     /// 􀪔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case radio
+    case radio = "radio"
 
     /// 􀪕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case radioFill
+    case radioFill = "radio.fill"
 
     /// 􀙱
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Left")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "wave3Left")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Left")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "wave3Left")
-    case radiowavesLeft
+    case radiowavesLeft = "radiowaves.left"
 
     /// 􀙲
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Right")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "wave3Right")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Right")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "wave3Right")
-    case radiowavesRight
+    case radiowavesRight = "radiowaves.right"
 
     /// 􀇯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rays
+    case rays = "rays"
 
     /// 􀨕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rbRectangleRoundedbottom
+    case rbRectangleRoundedbottom = "rb.rectangle.roundedbottom"
 
     /// 􀨖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rbRectangleRoundedbottomFill
+    case rbRectangleRoundedbottomFill = "rb.rectangle.roundedbottom.fill"
 
     /// 􀢙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case recordCircle
+    case recordCircle = "record.circle"
 
     /// 􀢚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case recordCircleFill
+    case recordCircleFill = "record.circle.fill"
 
     /// 􀕼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case recordingtape
+    case recordingtape = "recordingtape"
 
     /// 􀏃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangle
+    case rectangle = "rectangle"
 
     /// 􀇴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangle3Offgrid
+    case rectangle3Offgrid = "rectangle.3.offgrid"
 
     /// 􀬄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangle3OffgridBubbleLeft
+    case rectangle3OffgridBubbleLeft = "rectangle.3.offgrid.bubble.left"
 
     /// 􀬅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangle3OffgridBubbleLeftFill
+    case rectangle3OffgridBubbleLeftFill = "rectangle.3.offgrid.bubble.left.fill"
 
     /// 􀚅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangle3OffgridFill
+    case rectangle3OffgridFill = "rectangle.3.offgrid.fill"
 
     /// 􀙮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleAndArrowUpRightAndArrowDownLeft
+    case rectangleAndArrowUpRightAndArrowDownLeft = "rectangle.and.arrow.up.right.and.arrow.down.left"
 
     /// 􀙯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleAndArrowUpRightAndArrowDownLeftSlash
+    case rectangleAndArrowUpRightAndArrowDownLeftSlash = "rectangle.and.arrow.up.right.and.arrow.down.left.slash"
 
     /// 􀒖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleAndPaperclip
+    case rectangleAndPaperclip = "rectangle.and.paperclip"
 
     /// 􀈏
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleAndPencilAndEllipsis
+    case rectangleAndPencilAndEllipsis = "rectangle.and.pencil.and.ellipsis"
 
     /// 􀬸
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleAndTextMagnifyingglass
+    case rectangleAndTextMagnifyingglass = "rectangle.and.text.magnifyingglass"
 
     /// 􀫺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleArrowtriangle2Inward
+    case rectangleArrowtriangle2Inward = "rectangle.arrowtriangle.2.inward"
 
     /// 􀫹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleArrowtriangle2Outward
+    case rectangleArrowtriangle2Outward = "rectangle.arrowtriangle.2.outward"
 
     /// 􀏕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleBadgeCheckmark
+    case rectangleBadgeCheckmark = "rectangle.badge.checkmark"
 
     /// 􀏓
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleBadgeMinus
+    case rectangleBadgeMinus = "rectangle.badge.minus"
 
     /// 􀵚
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case rectangleBadgePersonCrop
+    case rectangleBadgePersonCrop = "rectangle.badge.person.crop"
 
     /// 􀏑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleBadgePlus
+    case rectangleBadgePlus = "rectangle.badge.plus"
 
     /// 􀏗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleBadgeXmark
+    case rectangleBadgeXmark = "rectangle.badge.xmark"
 
     /// 􀨨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleBottomthirdInsetFill
+    case rectangleBottomthirdInsetFill = "rectangle.bottomthird.inset.fill"
 
     /// 􀥝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleCenterInsetFill
+    case rectangleCenterInsetFill = "rectangle.center.inset.fill"
 
     /// 􀐷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleCompressVertical
+    case rectangleCompressVertical = "rectangle.compress.vertical"
 
     /// 􀩲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleConnectedToLineBelow
+    case rectangleConnectedToLineBelow = "rectangle.connected.to.line.below"
 
     /// 􀥁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleDashed
+    case rectangleDashed = "rectangle.dashed"
 
     /// 􀥪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleDashedAndPaperclip
+    case rectangleDashedAndPaperclip = "rectangle.dashed.and.paperclip"
 
     /// 􀥂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleDashedBadgeRecord
+    case rectangleDashedBadgeRecord = "rectangle.dashed.badge.record"
 
     /// 􀏞
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "dockRectangle")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "dockRectangle")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "dockRectangle")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "dockRectangle")
-    case rectangleDock
+    case rectangleDock = "rectangle.dock"
 
     /// 􀐸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleExpandVertical
+    case rectangleExpandVertical = "rectangle.expand.vertical"
 
     /// 􀏄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleFill
+    case rectangleFill = "rectangle.fill"
 
     /// 􀏖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleFillBadgeCheckmark
+    case rectangleFillBadgeCheckmark = "rectangle.fill.badge.checkmark"
 
     /// 􀏔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleFillBadgeMinus
+    case rectangleFillBadgeMinus = "rectangle.fill.badge.minus"
 
     /// 􀵛
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case rectangleFillBadgePersonCrop
+    case rectangleFillBadgePersonCrop = "rectangle.fill.badge.person.crop"
 
     /// 􀏒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleFillBadgePlus
+    case rectangleFillBadgePlus = "rectangle.fill.badge.plus"
 
     /// 􀏘
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleFillBadgeXmark
+    case rectangleFillBadgeXmark = "rectangle.fill.badge.xmark"
 
     /// 􀑰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleFillOnRectangleAngledFill
+    case rectangleFillOnRectangleAngledFill = "rectangle.fill.on.rectangle.angled.fill"
 
     /// 􀏨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleFillOnRectangleFill
+    case rectangleFillOnRectangleFill = "rectangle.fill.on.rectangle.fill"
 
     /// 􀤽
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleFillOnRectangleFillCircle
+    case rectangleFillOnRectangleFillCircle = "rectangle.fill.on.rectangle.fill.circle"
 
     /// 􀤾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleFillOnRectangleFillCircleFill
+    case rectangleFillOnRectangleFillCircleFill = "rectangle.fill.on.rectangle.fill.circle.fill"
 
     /// 􀤿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleFillOnRectangleFillSlashFill
+    case rectangleFillOnRectangleFillSlashFill = "rectangle.fill.on.rectangle.fill.slash.fill"
 
     /// 􀓛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleGrid1x2
+    case rectangleGrid1x2 = "rectangle.grid.1x2"
 
     /// 􀚉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleGrid1x2Fill
+    case rectangleGrid1x2Fill = "rectangle.grid.1x2.fill"
 
     /// 􀛦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleGrid2x2
+    case rectangleGrid2x2 = "rectangle.grid.2x2"
 
     /// 􀛧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleGrid2x2Fill
+    case rectangleGrid2x2Fill = "rectangle.grid.2x2.fill"
 
     /// 􀇶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleGrid3x2
+    case rectangleGrid3x2 = "rectangle.grid.3x2"
 
     /// 􀚆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleGrid3x2Fill
+    case rectangleGrid3x2Fill = "rectangle.grid.3x2.fill"
 
     /// 􀭵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleInsetBottomleftFill
+    case rectangleInsetBottomleftFill = "rectangle.inset.bottomleft.fill"
 
     /// 􀭶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleInsetBottomrightFill
+    case rectangleInsetBottomrightFill = "rectangle.inset.bottomright.fill"
 
     /// 􀤳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleInsetFill
+    case rectangleInsetFill = "rectangle.inset.fill"
 
     /// 􀭳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleInsetTopleftFill
+    case rectangleInsetTopleftFill = "rectangle.inset.topleft.fill"
 
     /// 􀭴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleInsetToprightFill
+    case rectangleInsetToprightFill = "rectangle.inset.topright.fill"
 
     /// 􀤶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleLefthalfFill
+    case rectangleLefthalfFill = "rectangle.lefthalf.fill"
 
     /// 􀤴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleLefthalfInsetFill
+    case rectangleLefthalfInsetFill = "rectangle.lefthalf.inset.fill"
 
     /// 􀥞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleLefthalfInsetFillArrowLeft
+    case rectangleLefthalfInsetFillArrowLeft = "rectangle.lefthalf.inset.fill.arrow.left"
 
     /// 􀨱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleLeftthirdInsetFill
+    case rectangleLeftthirdInsetFill = "rectangle.leftthird.inset.fill"
 
     /// 􀏧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleOnRectangle
+    case rectangleOnRectangle = "rectangle.on.rectangle"
 
     /// 􀑯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleOnRectangleAngled
+    case rectangleOnRectangleAngled = "rectangle.on.rectangle.angled"
 
     /// 􀥀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleOnRectangleSlash
+    case rectangleOnRectangleSlash = "rectangle.on.rectangle.slash"
 
     /// 􀟏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectanglePortrait
+    case rectanglePortrait = "rectangle.portrait"
 
     /// 􀫼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectanglePortraitArrowtriangle2Inward
+    case rectanglePortraitArrowtriangle2Inward = "rectangle.portrait.arrowtriangle.2.inward"
 
     /// 􀫻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectanglePortraitArrowtriangle2Outward
+    case rectanglePortraitArrowtriangle2Outward = "rectangle.portrait.arrowtriangle.2.outward"
 
     /// 􀟐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectanglePortraitFill
+    case rectanglePortraitFill = "rectangle.portrait.fill"
 
     /// 􀤷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleRighthalfFill
+    case rectangleRighthalfFill = "rectangle.righthalf.fill"
 
     /// 􀤵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleRighthalfInsetFill
+    case rectangleRighthalfInsetFill = "rectangle.righthalf.inset.fill"
 
     /// 􀥟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleRighthalfInsetFillArrowRight
+    case rectangleRighthalfInsetFillArrowRight = "rectangle.righthalf.inset.fill.arrow.right"
 
     /// 􀨩
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleRightthirdInsetFill
+    case rectangleRightthirdInsetFill = "rectangle.rightthird.inset.fill"
 
     /// 􀩺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleRoundedbottom
+    case rectangleRoundedbottom = "rectangle.roundedbottom"
 
     /// 􀩻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleRoundedbottomFill
+    case rectangleRoundedbottomFill = "rectangle.roundedbottom.fill"
 
     /// 􀩸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleRoundedtop
+    case rectangleRoundedtop = "rectangle.roundedtop"
 
     /// 􀩹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleRoundedtopFill
+    case rectangleRoundedtopFill = "rectangle.roundedtop.fill"
 
     /// 􀣤
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleSlash
+    case rectangleSlash = "rectangle.slash"
 
     /// 􀣥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleSlashFill
+    case rectangleSlashFill = "rectangle.slash.fill"
 
     /// 􀧊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleSplit1x2
+    case rectangleSplit1x2 = "rectangle.split.1x2"
 
     /// 􀧋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleSplit1x2Fill
+    case rectangleSplit1x2Fill = "rectangle.split.1x2.fill"
 
     /// 􀧈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleSplit2x1
+    case rectangleSplit2x1 = "rectangle.split.2x1"
 
     /// 􀧉
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleSplit2x1Fill
+    case rectangleSplit2x1Fill = "rectangle.split.2x1.fill"
 
     /// 􀧌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleSplit2x2
+    case rectangleSplit2x2 = "rectangle.split.2x2"
 
     /// 􀧍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rectangleSplit2x2Fill
+    case rectangleSplit2x2Fill = "rectangle.split.2x2.fill"
 
     /// 􀏟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleSplit3x1
+    case rectangleSplit3x1 = "rectangle.split.3x1"
 
     /// 􀕸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleSplit3x1Fill
+    case rectangleSplit3x1Fill = "rectangle.split.3x1.fill"
 
     /// 􀏢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleSplit3x3
+    case rectangleSplit3x3 = "rectangle.split.3x3"
 
     /// 􀘮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleSplit3x3Fill
+    case rectangleSplit3x3Fill = "rectangle.split.3x3.fill"
 
     /// 􀏭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleStack
+    case rectangleStack = "rectangle.stack"
 
     /// 􀏳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleStackBadgeMinus
+    case rectangleStackBadgeMinus = "rectangle.stack.badge.minus"
 
     /// 􀏹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleStackBadgePersonCrop
+    case rectangleStackBadgePersonCrop = "rectangle.stack.badge.person.crop"
 
     /// 􀏱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleStackBadgePlus
+    case rectangleStackBadgePlus = "rectangle.stack.badge.plus"
 
     /// 􀏮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleStackFill
+    case rectangleStackFill = "rectangle.stack.fill"
 
     /// 􀏴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleStackFillBadgeMinus
+    case rectangleStackFillBadgeMinus = "rectangle.stack.fill.badge.minus"
 
     /// 􀏺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleStackFillBadgePersonCrop
+    case rectangleStackFillBadgePersonCrop = "rectangle.stack.fill.badge.person.crop"
 
     /// 􀏲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleStackFillBadgePlus
+    case rectangleStackFillBadgePlus = "rectangle.stack.fill.badge.plus"
 
     /// 􀏻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleStackPersonCrop
+    case rectangleStackPersonCrop = "rectangle.stack.person.crop"
 
     /// 􀏼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rectangleStackPersonCropFill
+    case rectangleStackPersonCropFill = "rectangle.stack.person.crop.fill"
 
     /// 􀴊
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case rectangleTopthirdInset
+    case rectangleTopthirdInset = "rectangle.topthird.inset"
 
     /// 􀊞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case `repeat`
+    case `repeat` = "repeat"
 
     /// 􀊟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case repeat1
+    case repeat1 = "repeat.1"
 
     /// 􀵍
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case repeat1Circle
+    case repeat1Circle = "repeat.1.circle"
 
     /// 􀵎
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case repeat1CircleFill
+    case repeat1CircleFill = "repeat.1.circle.fill"
 
     /// 􀵋
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case repeatCircle
+    case repeatCircle = "repeat.circle"
 
     /// 􀵌
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case repeatCircleFill
+    case repeatCircleFill = "repeat.circle.fill"
 
     /// 􀯆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case restart
+    case restart = "restart"
 
     /// 􀣨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case restartCircle
+    case restartCircle = "restart.circle"
 
     /// 􀅇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case `return`
+    case `return` = "return"
 
     /// 􀋀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rhombus
+    case rhombus = "rhombus"
 
     /// 􀋁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rhombusFill
+    case rhombusFill = "rhombus.fill"
 
     /// 􀛯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rosette
+    case rosette = "rosette"
 
     /// 􀢇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rotate3d
+    case rotate3d = "rotate.3d"
 
     /// 􀎮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rotateLeft
+    case rotateLeft = "rotate.left"
 
     /// 􀎯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rotateLeftFill
+    case rotateLeftFill = "rotate.left.fill"
 
     /// 􀎰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rotateRight
+    case rotateRight = "rotate.right"
 
     /// 􀎱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rotateRightFill
+    case rotateRightFill = "rotate.right.fill"
 
     /// 􀨙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rtRectangleRoundedtop
+    case rtRectangleRoundedtop = "rt.rectangle.roundedtop"
 
     /// 􀨚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rtRectangleRoundedtopFill
+    case rtRectangleRoundedtopFill = "rt.rectangle.roundedtop.fill"
 
     /// 􀖥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rublesignCircle
+    case rublesignCircle = "rublesign.circle"
 
     /// 􀖦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rublesignCircleFill
+    case rublesignCircleFill = "rublesign.circle.fill"
 
     /// 􀗥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rublesignSquare
+    case rublesignSquare = "rublesign.square"
 
     /// 􀗦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rublesignSquareFill
+    case rublesignSquareFill = "rublesign.square.fill"
 
     /// 􀟀
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ruler
+    case ruler = "ruler"
 
     /// 􀟁
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case rulerFill
+    case rulerFill = "ruler.fill"
 
     /// 􀗏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rupeesignCircle
+    case rupeesignCircle = "rupeesign.circle"
 
     /// 􀗐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rupeesignCircleFill
+    case rupeesignCircleFill = "rupeesign.circle.fill"
 
     /// 􀘏
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rupeesignSquare
+    case rupeesignSquare = "rupeesign.square"
 
     /// 􀘐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case rupeesignSquareFill
+    case rupeesignSquareFill = "rupeesign.square.fill"
 
     /// 􀀨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sCircle
+    case sCircle = "s.circle"
 
     /// 􀀩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sCircleFill
+    case sCircleFill = "s.circle.fill"
 
     /// 􀂸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sSquare
+    case sSquare = "s.square"
 
     /// 􀂹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sSquareFill
+    case sSquareFill = "s.square.fill"
 
     /// 􀎬
     /// ⚠️ This symbol can refer only to Apple's Safari browser.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case safari
+    case safari = "safari"
 
     /// 􀎭
     /// ⚠️ This symbol can refer only to Apple's Safari browser.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case safariFill
+    case safariFill = "safari.fill"
 
     /// 􀢆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case scale3d
+    case scale3d = "scale.3d"
 
     /// 􀭭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case scalemass
+    case scalemass = "scalemass"
 
     /// 􀭮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case scalemassFill
+    case scalemassFill = "scalemass.fill"
 
     /// 􀪊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case scanner
+    case scanner = "scanner"
 
     /// 􀪋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case scannerFill
+    case scannerFill = "scanner.fill"
 
     /// 􀉈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case scissors
+    case scissors = "scissors"
 
     /// 􀞷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case scissorsBadgeEllipsis
+    case scissorsBadgeEllipsis = "scissors.badge.ellipsis"
 
     /// 􀐩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case scope
+    case scope = "scope"
 
     /// 􀓨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case scribble
+    case scribble = "scribble"
 
     /// 􀤑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case scribbleVariable
+    case scribbleVariable = "scribble.variable"
 
     /// 􀤏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case scroll
+    case scroll = "scroll"
 
     /// 􀤐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case scrollFill
+    case scrollFill = "scroll.fill"
 
     /// 􀪇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case sdcard
+    case sdcard = "sdcard"
 
     /// 􀪈
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case sdcardFill
+    case sdcardFill = "sdcard.fill"
 
     /// 􀟆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case seal
+    case seal = "seal"
 
     /// 􀟇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case sealFill
+    case sealFill = "seal.fill"
 
     /// 􀑠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case selectionPinInOut
+    case selectionPinInOut = "selection.pin.in.out"
 
     /// 􀪬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case serverRack
+    case serverRack = "server.rack"
 
     /// 􀨡
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case shadow
+    case shadow = "shadow"
 
     /// 􀗋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case shekelsignCircle
+    case shekelsignCircle = "shekelsign.circle"
 
     /// 􀗌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case shekelsignCircleFill
+    case shekelsignCircleFill = "shekelsign.circle.fill"
 
     /// 􀘋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case shekelsignSquare
+    case shekelsignSquare = "shekelsign.square"
 
     /// 􀘌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case shekelsignSquareFill
+    case shekelsignSquareFill = "shekelsign.square.fill"
 
     /// 􀗋
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignCircle")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shekelsignCircle")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignCircle")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shekelsignCircle")
-    case sheqelsignCircle
+    case sheqelsignCircle = "sheqelsign.circle"
 
     /// 􀗌
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignCircleFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shekelsignCircleFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignCircleFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shekelsignCircleFill")
-    case sheqelsignCircleFill
+    case sheqelsignCircleFill = "sheqelsign.circle.fill"
 
     /// 􀘋
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignSquare")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shekelsignSquare")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignSquare")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shekelsignSquare")
-    case sheqelsignSquare
+    case sheqelsignSquare = "sheqelsign.square"
 
     /// 􀘌
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignSquareFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shekelsignSquareFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignSquareFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shekelsignSquareFill")
-    case sheqelsignSquareFill
+    case sheqelsignSquareFill = "sheqelsign.square.fill"
 
     /// 􀙦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case shield
+    case shield = "shield"
 
     /// 􀵔
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case shieldCheckerboard
+    case shieldCheckerboard = "shield.checkerboard"
 
     /// 􀙧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case shieldFill
+    case shieldFill = "shield.fill"
 
     /// 􀙨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case shieldLefthalfFill
+    case shieldLefthalfFill = "shield.lefthalf.fill"
 
     /// 􀲊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case shieldLefthalfFillSlash
+    case shieldLefthalfFillSlash = "shield.lefthalf.fill.slash"
 
     /// 􀞡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case shieldSlash
+    case shieldSlash = "shield.slash"
 
     /// 􀞢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case shieldSlashFill
+    case shieldSlashFill = "shield.slash.fill"
 
     /// 􀆝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case shift
+    case shift = "shift"
 
     /// 􀆞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case shiftFill
+    case shiftFill = "shift.fill"
 
     /// 􀐚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case shippingbox
+    case shippingbox = "shippingbox"
 
     /// 􀐛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case shippingboxFill
+    case shippingboxFill = "shippingbox.fill"
 
     /// 􀊝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case shuffle
+    case shuffle = "shuffle"
 
     /// 􀵉
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case shuffleCircle
+    case shuffleCircle = "shuffle.circle"
 
     /// 􀵊
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case shuffleCircleFill
+    case shuffleCircleFill = "shuffle.circle.fill"
 
     /// 􀰱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case sidebarLeading
+    case sidebarLeading = "sidebar.leading"
 
     /// 􀏚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sidebarLeft
+    case sidebarLeft = "sidebar.left"
 
     /// 􀏛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sidebarRight
+    case sidebarRight = "sidebar.right"
 
     /// 􀱦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case sidebarSquaresLeading
+    case sidebarSquaresLeading = "sidebar.squares.leading"
 
     /// 􀱤
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case sidebarSquaresLeft
+    case sidebarSquaresLeft = "sidebar.squares.left"
 
     /// 􀱥
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case sidebarSquaresRight
+    case sidebarSquaresRight = "sidebar.squares.right"
 
     /// 􀱧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case sidebarSquaresTrailing
+    case sidebarSquaresTrailing = "sidebar.squares.trailing"
 
     /// 􀰲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case sidebarTrailing
+    case sidebarTrailing = "sidebar.trailing"
 
     /// 􀙤
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Hebrew
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case signature
+    case signature = "signature"
 
     /// 􀰯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case signpostLeft
+    case signpostLeft = "signpost.left"
 
     /// 􀰰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case signpostLeftFill
+    case signpostLeftFill = "signpost.left.fill"
 
     /// 􀯌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case signpostRight
+    case signpostRight = "signpost.right"
 
     /// 􀯍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case signpostRightFill
+    case signpostRightFill = "signpost.right.fill"
 
     /// 􀠅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case simcard
+    case simcard = "simcard"
 
     /// 􀡹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case simcard2
+    case simcard2 = "simcard.2"
 
     /// 􀡺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case simcard2Fill
+    case simcard2Fill = "simcard.2.fill"
 
     /// 􀠆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case simcardFill
+    case simcardFill = "simcard.fill"
 
     /// 􀍵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case skew
+    case skew = "skew"
 
     /// 􀕧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case slashCircle
+    case slashCircle = "slash.circle"
 
     /// 􀕨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case slashCircleFill
+    case slashCircleFill = "slash.circle.fill"
 
     /// 􀜚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sleep
+    case sleep = "sleep"
 
     /// 􀌆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sliderHorizontal3
+    case sliderHorizontal3 = "slider.horizontal.3"
 
     /// 􀐗
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sliderHorizontalBelowRectangle
+    case sliderHorizontalBelowRectangle = "slider.horizontal.below.rectangle"
 
     /// 􀰗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case sliderHorizontalBelowSquareFillAndSquare
+    case sliderHorizontalBelowSquareFillAndSquare = "slider.horizontal.below.square.fill.and.square"
 
     /// 􀟲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case sliderVertical3
+    case sliderVertical3 = "slider.vertical.3"
 
     /// 􀇱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case slowmo
+    case slowmo = "slowmo"
 
     /// 􀕪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case smallcircleCircle
+    case smallcircleCircle = "smallcircle.circle"
 
     /// 􀕫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case smallcircleCircleFill
+    case smallcircleCircleFill = "smallcircle.circle.fill"
 
     /// 􀍷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case smallcircleFillCircle
+    case smallcircleFillCircle = "smallcircle.fill.circle"
 
     /// 􀕩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case smallcircleFillCircleFill
+    case smallcircleFillCircleFill = "smallcircle.fill.circle.fill"
 
     /// 􀎸
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmiling")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "faceSmiling")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmiling")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "faceSmiling")
-    case smiley
+    case smiley = "smiley"
 
     /// 􀙌
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmilingFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "faceSmilingFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmilingFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "faceSmilingFill")
-    case smileyFill
+    case smileyFill = "smiley.fill"
 
     /// 􀇢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case smoke
+    case smoke = "smoke"
 
     /// 􀇣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case smokeFill
+    case smokeFill = "smoke.fill"
 
     /// 􀇥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case snow
+    case snow = "snow"
 
     /// 􀫸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case sparkle
+    case sparkle = "sparkle"
 
     /// 􀆿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sparkles
+    case sparkles = "sparkles"
 
     /// 􀲳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case sparklesRectangleStack
+    case sparklesRectangleStack = "sparkles.rectangle.stack"
 
     /// 􀲴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case sparklesRectangleStackFill
+    case sparklesRectangleStackFill = "sparkles.rectangle.stack.fill"
 
     /// 􀰙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case sparklesSquareFillOnSquare
+    case sparklesSquareFillOnSquare = "sparkles.square.fill.on.square"
 
     /// 􀊠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case speaker
+    case speaker = "speaker"
 
     /// 􀊤
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave1")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave1")
-    case speaker1
+    case speaker1 = "speaker.1"
 
     /// 􀊥
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1Fill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave1Fill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1Fill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave1Fill")
-    case speaker1Fill
+    case speaker1Fill = "speaker.1.fill"
 
     /// 􀊦
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave2")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave2")
-    case speaker2
+    case speaker2 = "speaker.2"
 
     /// 􀊧
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2Fill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave2Fill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2Fill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave2Fill")
-    case speaker2Fill
+    case speaker2Fill = "speaker.2.fill"
 
     /// 􀊨
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave3")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave3")
-    case speaker3
+    case speaker3 = "speaker.3"
 
     /// 􀊩
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3Fill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave3Fill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3Fill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave3Fill")
-    case speaker3Fill
+    case speaker3Fill = "speaker.3.fill"
 
     /// 􀊡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case speakerFill
+    case speakerFill = "speaker.fill"
 
     /// 􀊢
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case speakerSlash
+    case speakerSlash = "speaker.slash"
 
     /// 􀫠
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case speakerSlashCircle
+    case speakerSlashCircle = "speaker.slash.circle"
 
     /// 􀫡
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case speakerSlashCircleFill
+    case speakerSlashCircleFill = "speaker.slash.circle.fill"
 
     /// 􀊣
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case speakerSlashFill
+    case speakerSlashFill = "speaker.slash.fill"
 
     /// 􀊤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case speakerWave1
+    case speakerWave1 = "speaker.wave.1"
 
     /// 􀊥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case speakerWave1Fill
+    case speakerWave1Fill = "speaker.wave.1.fill"
 
     /// 􀊦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case speakerWave2
+    case speakerWave2 = "speaker.wave.2"
 
     /// 􀥑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case speakerWave2Circle
+    case speakerWave2Circle = "speaker.wave.2.circle"
 
     /// 􀥒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case speakerWave2CircleFill
+    case speakerWave2CircleFill = "speaker.wave.2.circle.fill"
 
     /// 􀊧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case speakerWave2Fill
+    case speakerWave2Fill = "speaker.wave.2.fill"
 
     /// 􀊨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case speakerWave3
+    case speakerWave3 = "speaker.wave.3"
 
     /// 􀊩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case speakerWave3Fill
+    case speakerWave3Fill = "speaker.wave.3.fill"
 
     /// 􀌊
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case speakerZzz
+    case speakerZzz = "speaker.zzz"
 
     /// 􀑞
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case speakerZzzFill
+    case speakerZzzFill = "speaker.zzz.fill"
 
     /// 􀍾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case speedometer
+    case speedometer = "speedometer"
 
     /// 􀝐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sportscourt
+    case sportscourt = "sportscourt"
 
     /// 􀝑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sportscourtFill
+    case sportscourtFill = "sportscourt.fill"
 
     /// 􀂒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case square
+    case square = "square"
 
     /// 􀯭
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case square2Stack3d
+    case square2Stack3d = "square.2.stack.3d"
 
     /// 􀯯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case square2Stack3dBottomFill
+    case square2Stack3dBottomFill = "square.2.stack.3d.bottom.fill"
 
     /// 􀯮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case square2Stack3dTopFill
+    case square2Stack3dTopFill = "square.2.stack.3d.top.fill"
 
     /// 􀯰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case square3Stack3d
+    case square3Stack3d = "square.3.stack.3d"
 
     /// 􀯳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case square3Stack3dBottomFill
+    case square3Stack3dBottomFill = "square.3.stack.3d.bottom.fill"
 
     /// 􀯲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case square3Stack3dMiddleFill
+    case square3Stack3dMiddleFill = "square.3.stack.3d.middle.fill"
 
     /// 􀯱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case square3Stack3dTopFill
+    case square3Stack3dTopFill = "square.3.stack.3d.top.fill"
 
     /// 􀈄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareAndArrowDown
+    case squareAndArrowDown = "square.and.arrow.down"
 
     /// 􀈅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareAndArrowDownFill
+    case squareAndArrowDownFill = "square.and.arrow.down.fill"
 
     /// 􀈈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareAndArrowDownOnSquare
+    case squareAndArrowDownOnSquare = "square.and.arrow.down.on.square"
 
     /// 􀈉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareAndArrowDownOnSquareFill
+    case squareAndArrowDownOnSquareFill = "square.and.arrow.down.on.square.fill"
 
     /// 􀈂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareAndArrowUp
+    case squareAndArrowUp = "square.and.arrow.up"
 
     /// 􀈃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareAndArrowUpFill
+    case squareAndArrowUpFill = "square.and.arrow.up.fill"
 
     /// 􀈆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareAndArrowUpOnSquare
+    case squareAndArrowUpOnSquare = "square.and.arrow.up.on.square"
 
     /// 􀈇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareAndArrowUpOnSquareFill
+    case squareAndArrowUpOnSquareFill = "square.and.arrow.up.on.square.fill"
 
     /// 􀦏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareAndAtRectangle
+    case squareAndAtRectangle = "square.and.at.rectangle"
 
     /// 􀐑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareAndLineVerticalAndSquare
+    case squareAndLineVerticalAndSquare = "square.and.line.vertical.and.square"
 
     /// 􀐔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareAndLineVerticalAndSquareFill
+    case squareAndLineVerticalAndSquareFill = "square.and.line.vertical.and.square.fill"
 
     /// 􀈎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareAndPencil
+    case squareAndPencil = "square.and.pencil"
 
     /// 􀪚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareBottomhalfFill
+    case squareBottomhalfFill = "square.bottomhalf.fill"
 
     /// 􀨃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareCircle
+    case squareCircle = "square.circle"
 
     /// 􀨄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareCircleFill
+    case squareCircleFill = "square.circle.fill"
 
     /// 􀓔
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareDashed
+    case squareDashed = "square.dashed"
 
     /// 􀧑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareDashedInsetFill
+    case squareDashedInsetFill = "square.dashed.inset.fill"
 
     /// 􀂓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareFill
+    case squareFill = "square.fill"
 
     /// 􀐓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareFillAndLineVerticalAndSquare
+    case squareFillAndLineVerticalAndSquare = "square.fill.and.line.vertical.and.square"
 
     /// 􀐒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareFillAndLineVerticalSquareFill
+    case squareFillAndLineVerticalSquareFill = "square.fill.and.line.vertical.square.fill"
 
     /// 􀐊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareFillOnCircleFill
+    case squareFillOnCircleFill = "square.fill.on.circle.fill"
 
     /// 􀫝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareFillOnSquare
+    case squareFillOnSquare = "square.fill.on.square"
 
     /// 􀐆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareFillOnSquareFill
+    case squareFillOnSquareFill = "square.fill.on.square.fill"
 
     /// 􀭞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareFillTextGrid1x2
+    case squareFillTextGrid1x2 = "square.fill.text.grid.1x2"
 
     /// 􀇷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareGrid2x2
+    case squareGrid2x2 = "square.grid.2x2"
 
     /// 􀚈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareGrid2x2Fill
+    case squareGrid2x2Fill = "square.grid.2x2.fill"
 
     /// 􀓙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareGrid3x1BelowLineGrid1x2
+    case squareGrid3x1BelowLineGrid1x2 = "square.grid.3x1.below.line.grid.1x2"
 
     /// 􀤲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareGrid3x1FillBelowLineGrid1x2
+    case squareGrid3x1FillBelowLineGrid1x2 = "square.grid.3x1.fill.below.line.grid.1x2"
 
     /// 􀣕
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareGrid3x1FolderBadgePlus
+    case squareGrid3x1FolderBadgePlus = "square.grid.3x1.folder.badge.plus"
 
     /// 􀣖
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareGrid3x1FolderFillBadgePlus
+    case squareGrid3x1FolderFillBadgePlus = "square.grid.3x1.folder.fill.badge.plus"
 
     /// 􀇵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareGrid3x2
+    case squareGrid3x2 = "square.grid.3x2"
 
     /// 􀚇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareGrid3x2Fill
+    case squareGrid3x2Fill = "square.grid.3x2.fill"
 
     /// 􀦲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareGrid3x3
+    case squareGrid3x3 = "square.grid.3x3"
 
     /// 􀦺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareGrid3x3BottomleftFill
+    case squareGrid3x3BottomleftFill = "square.grid.3x3.bottomleft.fill"
 
     /// 􀦻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareGrid3x3BottommiddleFill
+    case squareGrid3x3BottommiddleFill = "square.grid.3x3.bottommiddle.fill"
 
     /// 􀦼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareGrid3x3BottomrightFill
+    case squareGrid3x3BottomrightFill = "square.grid.3x3.bottomright.fill"
 
     /// 􀦳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareGrid3x3Fill
+    case squareGrid3x3Fill = "square.grid.3x3.fill"
 
     /// 􀫐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareGrid3x3FillSquare
+    case squareGrid3x3FillSquare = "square.grid.3x3.fill.square"
 
     /// 􀦸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareGrid3x3MiddleFill
+    case squareGrid3x3MiddleFill = "square.grid.3x3.middle.fill"
 
     /// 􀦷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareGrid3x3MiddleleftFill
+    case squareGrid3x3MiddleleftFill = "square.grid.3x3.middleleft.fill"
 
     /// 􀦹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareGrid3x3MiddlerightFill
+    case squareGrid3x3MiddlerightFill = "square.grid.3x3.middleright.fill"
 
     /// 􀦴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareGrid3x3TopleftFill
+    case squareGrid3x3TopleftFill = "square.grid.3x3.topleft.fill"
 
     /// 􀦵
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareGrid3x3TopmiddleFill
+    case squareGrid3x3TopmiddleFill = "square.grid.3x3.topmiddle.fill"
 
     /// 􀦶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareGrid3x3ToprightFill
+    case squareGrid3x3ToprightFill = "square.grid.3x3.topright.fill"
 
     /// 􀓚
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareGrid4x3Fill
+    case squareGrid4x3Fill = "square.grid.4x3.fill"
 
     /// 􀚓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareLefthalfFill
+    case squareLefthalfFill = "square.lefthalf.fill"
 
     /// 􀐉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareOnCircle
+    case squareOnCircle = "square.on.circle"
 
     /// 􀐅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareOnSquare
+    case squareOnSquare = "square.on.square"
 
     /// 􀯇
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareOnSquareDashed
+    case squareOnSquareDashed = "square.on.square.dashed"
 
     /// 􀩶
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareOnSquareSquareshapeControlhandles
+    case squareOnSquareSquareshapeControlhandles = "square.on.square.squareshape.controlhandles"
 
     /// 􀚔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareRighthalfFill
+    case squareRighthalfFill = "square.righthalf.fill"
 
     /// 􀣦
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareSlash
+    case squareSlash = "square.slash"
 
     /// 􀣧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareSlashFill
+    case squareSlashFill = "square.slash.fill"
 
     /// 􀕰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareSplit1x2
+    case squareSplit1x2 = "square.split.1x2"
 
     /// 􀕱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareSplit1x2Fill
+    case squareSplit1x2Fill = "square.split.1x2.fill"
 
     /// 􀏠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareSplit2x1
+    case squareSplit2x1 = "square.split.2x1"
 
     /// 􀘜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareSplit2x1Fill
+    case squareSplit2x1Fill = "square.split.2x1.fill"
 
     /// 􀕮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareSplit2x2
+    case squareSplit2x2 = "square.split.2x2"
 
     /// 􀕯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareSplit2x2Fill
+    case squareSplit2x2Fill = "square.split.2x2.fill"
 
     /// 􀟻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareSplitBottomrightquarter
+    case squareSplitBottomrightquarter = "square.split.bottomrightquarter"
 
     /// 􀟼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareSplitBottomrightquarterFill
+    case squareSplitBottomrightquarterFill = "square.split.bottomrightquarter.fill"
 
     /// 􀡗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareSplitDiagonal
+    case squareSplitDiagonal = "square.split.diagonal"
 
     /// 􀕲
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareSplitDiagonal2x2
+    case squareSplitDiagonal2x2 = "square.split.diagonal.2x2"
 
     /// 􀕳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareSplitDiagonal2x2Fill
+    case squareSplitDiagonal2x2Fill = "square.split.diagonal.2x2.fill"
 
     /// 􀡘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareSplitDiagonalFill
+    case squareSplitDiagonalFill = "square.split.diagonal.fill"
 
     /// 􀐋
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareStack
+    case squareStack = "square.stack"
 
     /// 􀐠
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "squareStack3dForwardDottedline")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "squareStack3dForwardDottedline")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "squareStack3dForwardDottedline")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "squareStack3dForwardDottedline")
-    case squareStack3dDownDottedline
+    case squareStack3dDownDottedline = "square.stack.3d.down.dottedline"
 
     /// 􀰳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareStack3dDownForward
+    case squareStack3dDownForward = "square.stack.3d.down.forward"
 
     /// 􀰴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareStack3dDownForwardFill
+    case squareStack3dDownForwardFill = "square.stack.3d.down.forward.fill"
 
     /// 􀐜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareStack3dDownRight
+    case squareStack3dDownRight = "square.stack.3d.down.right"
 
     /// 􀐝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareStack3dDownRightFill
+    case squareStack3dDownRightFill = "square.stack.3d.down.right.fill"
 
     /// 􀐠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareStack3dForwardDottedline
+    case squareStack3dForwardDottedline = "square.stack.3d.forward.dottedline"
 
     /// 􀧏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareStack3dForwardDottedlineFill
+    case squareStack3dForwardDottedlineFill = "square.stack.3d.forward.dottedline.fill"
 
     /// 􀐞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareStack3dUp
+    case squareStack3dUp = "square.stack.3d.up"
 
     /// 􀙐
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareStack3dUpBadgeA
+    case squareStack3dUpBadgeA = "square.stack.3d.up.badge.a"
 
     /// 􀙑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareStack3dUpBadgeAFill
+    case squareStack3dUpBadgeAFill = "square.stack.3d.up.badge.a.fill"
 
     /// 􀐟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareStack3dUpFill
+    case squareStack3dUpFill = "square.stack.3d.up.fill"
 
     /// 􀙒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareStack3dUpSlash
+    case squareStack3dUpSlash = "square.stack.3d.up.slash"
 
     /// 􀙓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareStack3dUpSlashFill
+    case squareStack3dUpSlashFill = "square.stack.3d.up.slash.fill"
 
     /// 􀐌
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squareStackFill
+    case squareStackFill = "square.stack.fill"
 
     /// 􀪛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareTophalfFill
+    case squareTophalfFill = "square.tophalf.fill"
 
     /// 􀏡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case squaresBelowRectangle
+    case squaresBelowRectangle = "squares.below.rectangle"
 
     /// 􀣮
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareshape
+    case squareshape = "squareshape"
 
     /// 􀩷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareshapeControlhandlesOnSquareshapeControlhandles
+    case squareshapeControlhandlesOnSquareshapeControlhandles = "squareshape.controlhandles.on.squareshape.controlhandles"
 
     /// 􀩢
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareshapeDashedSquareshape
+    case squareshapeDashedSquareshape = "squareshape.dashed.squareshape"
 
     /// 􀣯
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareshapeFill
+    case squareshapeFill = "squareshape.fill"
 
     /// 􀮞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareshapeSplit2x2
+    case squareshapeSplit2x2 = "squareshape.split.2x2"
 
     /// 􀮌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareshapeSplit2x2Dotted
+    case squareshapeSplit2x2Dotted = "squareshape.split.2x2.dotted"
 
     /// 􀮟
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareshapeSplit3x3
+    case squareshapeSplit3x3 = "squareshape.split.3x3"
 
     /// 􀫴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case squareshapeSquareshapeDashed
+    case squareshapeSquareshapeDashed = "squareshape.squareshape.dashed"
 
     /// 􀋂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case star
+    case star = "star"
 
     /// 􀋅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case starCircle
+    case starCircle = "star.circle"
 
     /// 􀋆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case starCircleFill
+    case starCircleFill = "star.circle.fill"
 
     /// 􀋃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case starFill
+    case starFill = "star.fill"
 
     /// 􀋄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case starLeadinghalfFill
+    case starLeadinghalfFill = "star.leadinghalf.fill"
 
     /// 􀋄
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "starLeadinghalfFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "starLeadinghalfFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "starLeadinghalfFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "starLeadinghalfFill")
-    case starLefthalfFill
+    case starLefthalfFill = "star.lefthalf.fill"
 
     /// 􀋇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case starSlash
+    case starSlash = "star.slash"
 
     /// 􀋈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case starSlashFill
+    case starSlashFill = "star.slash.fill"
 
     /// 􀠧
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case starSquare
+    case starSquare = "star.square"
 
     /// 􀠨
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case starSquareFill
+    case starSquareFill = "star.square.fill"
 
     /// 􀑆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case staroflife
+    case staroflife = "staroflife"
 
     /// 􀒺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case staroflifeCircle
+    case staroflifeCircle = "staroflife.circle"
 
     /// 􀒻
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case staroflifeCircleFill
+    case staroflifeCircleFill = "staroflife.circle.fill"
 
     /// 􀑇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case staroflifeFill
+    case staroflifeFill = "staroflife.fill"
 
     /// 􀖝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sterlingsignCircle
+    case sterlingsignCircle = "sterlingsign.circle"
 
     /// 􀖞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sterlingsignCircleFill
+    case sterlingsignCircleFill = "sterlingsign.circle.fill"
 
     /// 􀗝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sterlingsignSquare
+    case sterlingsignSquare = "sterlingsign.square"
 
     /// 􀗞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sterlingsignSquareFill
+    case sterlingsignSquareFill = "sterlingsign.square.fill"
 
     /// 􀝾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case stethoscope
+    case stethoscope = "stethoscope"
 
     /// 􀛶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case stop
+    case stop = "stop"
 
     /// 􀜪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case stopCircle
+    case stopCircle = "stop.circle"
 
     /// 􀜫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case stopCircleFill
+    case stopCircleFill = "stop.circle.fill"
 
     /// 􀛷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case stopFill
+    case stopFill = "stop.fill"
 
     /// 􀐯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case stopwatch
+    case stopwatch = "stopwatch"
 
     /// 􀐰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case stopwatchFill
+    case stopwatchFill = "stopwatch.fill"
 
     /// 􀅖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case strikethrough
+    case strikethrough = "strikethrough"
 
     /// 􀑔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case studentdesk
+    case studentdesk = "studentdesk"
 
     /// 􀒃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case suitClub
+    case suitClub = "suit.club"
 
     /// 􀊽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case suitClubFill
+    case suitClubFill = "suit.club.fill"
 
     /// 􀒄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case suitDiamond
+    case suitDiamond = "suit.diamond"
 
     /// 􀊿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case suitDiamondFill
+    case suitDiamondFill = "suit.diamond.fill"
 
     /// 􀒂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case suitHeart
+    case suitHeart = "suit.heart"
 
     /// 􀊼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case suitHeartFill
+    case suitHeartFill = "suit.heart.fill"
 
     /// 􀒅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case suitSpade
+    case suitSpade = "suit.spade"
 
     /// 􀊾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case suitSpadeFill
+    case suitSpadeFill = "suit.spade.fill"
 
     /// 􀘽
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sum
+    case sum = "sum"
 
     /// 􀆵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sunDust
+    case sunDust = "sun.dust"
 
     /// 􀆶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sunDustFill
+    case sunDustFill = "sun.dust.fill"
 
     /// 􀆷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sunHaze
+    case sunHaze = "sun.haze"
 
     /// 􀆸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sunHazeFill
+    case sunHazeFill = "sun.haze.fill"
 
     /// 􀆭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sunMax
+    case sunMax = "sun.max"
 
     /// 􀆮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sunMaxFill
+    case sunMaxFill = "sun.max.fill"
 
     /// 􀆫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sunMin
+    case sunMin = "sun.min"
 
     /// 􀆬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sunMinFill
+    case sunMinFill = "sun.min.fill"
 
     /// 􀆱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sunrise
+    case sunrise = "sunrise"
 
     /// 􀆲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sunriseFill
+    case sunriseFill = "sunrise.fill"
 
     /// 􀆳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sunset
+    case sunset = "sunset"
 
     /// 􀆴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case sunsetFill
+    case sunsetFill = "sunset.fill"
 
     /// 􀫊
     /// ⚠️ This symbol can refer only to Apple's Swift programming language.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case swift
+    case swift = "swift"
 
     /// 􀜊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case switch2
+    case switch2 = "switch.2"
 
     /// 􀌰
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Hebrew
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tBubble
+    case tBubble = "t.bubble"
 
     /// 􀌱
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Hebrew
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tBubbleFill
+    case tBubbleFill = "t.bubble.fill"
 
     /// 􀀪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tCircle
+    case tCircle = "t.circle"
 
     /// 􀀫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tCircleFill
+    case tCircleFill = "t.circle.fill"
 
     /// 􀂺
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tSquare
+    case tSquare = "t.square"
 
     /// 􀂻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tSquareFill
+    case tSquareFill = "t.square.fill"
 
     /// 􀏣
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecells")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "tablecells")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecells")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "tablecells")
-    case table
+    case table = "table"
 
     /// 􀏥
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsBadgeEllipsis")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "tablecellsBadgeEllipsis")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsBadgeEllipsis")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "tablecellsBadgeEllipsis")
-    case tableBadgeMore
+    case tableBadgeMore = "table.badge.more"
 
     /// 􀏦
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsBadgeEllipsisFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "tablecellsBadgeEllipsisFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsBadgeEllipsisFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "tablecellsBadgeEllipsisFill")
-    case tableBadgeMoreFill
+    case tableBadgeMoreFill = "table.badge.more.fill"
 
     /// 􀏤
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "tablecellsFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "tablecellsFill")
-    case tableFill
+    case tableFill = "table.fill"
 
     /// 􀏣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tablecells
+    case tablecells = "tablecells"
 
     /// 􀏥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tablecellsBadgeEllipsis
+    case tablecellsBadgeEllipsis = "tablecells.badge.ellipsis"
 
     /// 􀏦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tablecellsBadgeEllipsisFill
+    case tablecellsBadgeEllipsisFill = "tablecells.badge.ellipsis.fill"
 
     /// 􀏤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tablecellsFill
+    case tablecellsFill = "tablecells.fill"
 
     /// 􀋡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tag
+    case tag = "tag"
 
     /// 􀋣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tagCircle
+    case tagCircle = "tag.circle"
 
     /// 􀋤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tagCircleFill
+    case tagCircleFill = "tag.circle.fill"
 
     /// 􀋢
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tagFill
+    case tagFill = "tag.fill"
 
     /// 􀦫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case tagSlash
+    case tagSlash = "tag.slash"
 
     /// 􀦬
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case tagSlashFill
+    case tagSlashFill = "tag.slash.fill"
 
     /// 􀢊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case target
+    case target = "target"
 
     /// 􀍈
     /// ⚠️ This symbol can refer only to Apple's Teletype feature.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case teletype
+    case teletype = "teletype"
 
     /// 􀙰
     /// ⚠️ This symbol can refer only to Apple's Teletype feature.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case teletypeAnswer
+    case teletypeAnswer = "teletype.answer"
 
     /// 􀜅
     /// ⚠️ This symbol can refer only to Apple's Teletype feature.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case teletypeCircle
+    case teletypeCircle = "teletype.circle"
 
     /// 􀜆
     /// ⚠️ This symbol can refer only to Apple's Teletype feature.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case teletypeCircleFill
+    case teletypeCircleFill = "teletype.circle.fill"
 
     /// 􀖭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tengesignCircle
+    case tengesignCircle = "tengesign.circle"
 
     /// 􀖮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tengesignCircleFill
+    case tengesignCircleFill = "tengesign.circle.fill"
 
     /// 􀗭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tengesignSquare
+    case tengesignSquare = "tengesign.square"
 
     /// 􀗮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tengesignSquareFill
+    case tengesignSquareFill = "tengesign.square.fill"
 
     /// 􀩼
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case terminal
+    case terminal = "terminal"
 
     /// 􀪏
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case terminalFill
+    case terminalFill = "terminal.fill"
 
     /// 􀌁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textAligncenter
+    case textAligncenter = "text.aligncenter"
 
     /// 􀌀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textAlignleft
+    case textAlignleft = "text.alignleft"
 
     /// 􀌂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textAlignright
+    case textAlignright = "text.alignright"
 
     /// 􀣚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case textAndCommandMacwindow
+    case textAndCommandMacwindow = "text.and.command.macwindow"
 
     /// 􀋾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textAppend
+    case textAppend = "text.append"
 
     /// 􀋺
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textBadgeCheckmark
+    case textBadgeCheckmark = "text.badge.checkmark"
 
     /// 􀋹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textBadgeMinus
+    case textBadgeMinus = "text.badge.minus"
 
     /// 􀋸
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textBadgePlus
+    case textBadgePlus = "text.badge.plus"
 
     /// 􀋼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textBadgeStar
+    case textBadgeStar = "text.badge.star"
 
     /// 􀋻
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textBadgeXmark
+    case textBadgeXmark = "text.badge.xmark"
 
     /// 􀲱
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case textBelowPhoto
+    case textBelowPhoto = "text.below.photo"
 
     /// 􀲲
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case textBelowPhotoFill
+    case textBelowPhotoFill = "text.below.photo.fill"
 
     /// 􀫗
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case textBookClosed
+    case textBookClosed = "text.book.closed"
 
     /// 􀫘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case textBookClosedFill
+    case textBookClosedFill = "text.book.closed.fill"
 
     /// 􀌲
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textBubble
+    case textBubble = "text.bubble"
 
     /// 􀌳
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textBubbleFill
+    case textBubbleFill = "text.bubble.fill"
 
     /// 􀅫
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Traditional Chinese
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textCursor
+    case textCursor = "text.cursor"
 
     /// 􀋽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textInsert
+    case textInsert = "text.insert"
 
     /// 􀌃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textJustify
+    case textJustify = "text.justify"
 
     /// 􀌄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textJustifyleft
+    case textJustifyleft = "text.justifyleft"
 
     /// 􀌅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textJustifyright
+    case textJustifyright = "text.justifyright"
 
     /// 􀭥
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case textMagnifyingglass
+    case textMagnifyingglass = "text.magnifyingglass"
 
     /// 􀋿
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textQuote
+    case textQuote = "text.quote"
 
     /// 􀧎
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case textRedaction
+    case textRedaction = "text.redaction"
 
     /// 􀅶
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Traditional Chinese
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textbox
+    case textbox = "textbox"
 
     /// 􀅒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textformat
+    case textformat = "textformat"
 
     /// 􀅱
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textformat123
+    case textformat123 = "textformat.123"
 
     /// 􀅯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textformatAbc
+    case textformatAbc = "textformat.abc"
 
     /// 􀅰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textformatAbcDottedunderline
+    case textformatAbcDottedunderline = "textformat.abc.dottedunderline"
 
     /// 􀅑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textformatAlt
+    case textformatAlt = "textformat.alt"
 
     /// 􀅐
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textformatSize
+    case textformatSize = "textformat.size"
 
     /// 􀵿
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case textformatSizeLarger
+    case textformatSizeLarger = "textformat.size.larger"
 
     /// 􀵷
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case textformatSizeSmaller
+    case textformatSizeSmaller = "textformat.size.smaller"
 
     /// 􀓡
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textformatSubscript
+    case textformatSubscript = "textformat.subscript"
 
     /// 􀓢
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case textformatSuperscript
+    case textformatSuperscript = "textformat.superscript"
 
     /// 􀇬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case thermometer
+    case thermometer = "thermometer"
 
     /// 􀇫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case thermometerSnowflake
+    case thermometerSnowflake = "thermometer.snowflake"
 
     /// 􀇪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case thermometerSun
+    case thermometerSun = "thermometer.sun"
 
     /// 􀦜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case thermometerSunFill
+    case thermometerSunFill = "thermometer.sun.fill"
 
     /// 􀪃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ticket
+    case ticket = "ticket"
 
     /// 􀪄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case ticketFill
+    case ticketFill = "ticket.fill"
 
     /// 􀇲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case timelapse
+    case timelapse = "timelapse"
 
     /// 􀣂
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case timelineSelection
+    case timelineSelection = "timeline.selection"
 
     /// 􀐱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case timer
+    case timer = "timer"
 
     /// 􀭄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case timerSquare
+    case timerSquare = "timer.square"
 
     /// 􀥣
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case togglepower
+    case togglepower = "togglepower"
 
     /// 􀇧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tornado
+    case tornado = "tornado"
 
     /// 􀓐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tortoise
+    case tortoise = "tortoise"
 
     /// 􀓑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tortoiseFill
+    case tortoiseFill = "tortoise.fill"
 
     /// 􀴌
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case torus
+    case torus = "torus"
 
     /// 􀟒
     /// ⚠️ This symbol can refer only to Apple's Touch ID feature.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case touchid
+    case touchid = "touchid"
 
     /// 􀝆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case tram
+    case tram = "tram"
 
     /// 􀲛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case tramCircle
+    case tramCircle = "tram.circle"
 
     /// 􀲜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case tramCircleFill
+    case tramCircleFill = "tram.circle.fill"
 
     /// 􀝇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tramFill
+    case tramFill = "tram.fill"
 
     /// 􀜝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case tramTunnelFill
+    case tramTunnelFill = "tram.tunnel.fill"
 
     /// 􀈑
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case trash
+    case trash = "trash"
 
     /// 􀈓
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case trashCircle
+    case trashCircle = "trash.circle"
 
     /// 􀈔
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case trashCircleFill
+    case trashCircleFill = "trash.circle.fill"
 
     /// 􀈒
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case trashFill
+    case trashFill = "trash.fill"
 
     /// 􀜧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case trashSlash
+    case trashSlash = "trash.slash"
 
     /// 􀜨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case trashSlashFill
+    case trashSlashFill = "trash.slash.fill"
 
     /// 􀈣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tray
+    case tray = "tray"
 
     /// 􀈩
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tray2
+    case tray2 = "tray.2"
 
     /// 􀈪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tray2Fill
+    case tray2Fill = "tray.2.fill"
 
     /// 􀈧
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case trayAndArrowDown
+    case trayAndArrowDown = "tray.and.arrow.down"
 
     /// 􀈨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case trayAndArrowDownFill
+    case trayAndArrowDownFill = "tray.and.arrow.down.fill"
 
     /// 􀈥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case trayAndArrowUp
+    case trayAndArrowUp = "tray.and.arrow.up"
 
     /// 􀈦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case trayAndArrowUpFill
+    case trayAndArrowUpFill = "tray.and.arrow.up.fill"
 
     /// 􀒌
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case trayCircle
+    case trayCircle = "tray.circle"
 
     /// 􀒍
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case trayCircleFill
+    case trayCircleFill = "tray.circle.fill"
 
     /// 􀈤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case trayFill
+    case trayFill = "tray.fill"
 
     /// 􀈫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case trayFull
+    case trayFull = "tray.full"
 
     /// 􀈬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case trayFullFill
+    case trayFullFill = "tray.full.fill"
 
     /// 􀛣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case triangle
+    case triangle = "triangle"
 
     /// 􀨅
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case triangleCircle
+    case triangleCircle = "triangle.circle"
 
     /// 􀨆
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case triangleCircleFill
+    case triangleCircleFill = "triangle.circle.fill"
 
     /// 􀛤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case triangleFill
+    case triangleFill = "triangle.fill"
 
     /// 􀚕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case triangleLefthalfFill
+    case triangleLefthalfFill = "triangle.lefthalf.fill"
 
     /// 􀚖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case triangleRighthalfFill
+    case triangleRighthalfFill = "triangle.righthalf.fill"
 
     /// 􀇨
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tropicalstorm
+    case tropicalstorm = "tropicalstorm"
 
     /// 􀗇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tugriksignCircle
+    case tugriksignCircle = "tugriksign.circle"
 
     /// 􀗈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tugriksignCircleFill
+    case tugriksignCircleFill = "tugriksign.circle.fill"
 
     /// 􀘇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tugriksignSquare
+    case tugriksignSquare = "tugriksign.square"
 
     /// 􀘈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tugriksignSquareFill
+    case tugriksignSquareFill = "tugriksign.square.fill"
 
     /// 􀎐
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tuningfork
+    case tuningfork = "tuningfork"
 
     /// 􀖣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case turkishlirasignCircle
+    case turkishlirasignCircle = "turkishlirasign.circle"
 
     /// 􀖤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case turkishlirasignCircleFill
+    case turkishlirasignCircleFill = "turkishlirasign.circle.fill"
 
     /// 􀗣
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case turkishlirasignSquare
+    case turkishlirasignSquare = "turkishlirasign.square"
 
     /// 􀗤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case turkishlirasignSquareFill
+    case turkishlirasignSquareFill = "turkishlirasign.square.fill"
 
     /// 􀎲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tv
+    case tv = "tv"
 
     /// 􀫑
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case tvAndHifispeakerFill
+    case tvAndHifispeakerFill = "tv.and.hifispeaker.fill"
 
     /// 􀲰
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
-    case tvAndMediabox
+    case tvAndMediabox = "tv.and.mediabox"
 
     /// 􀎳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tvCircle
+    case tvCircle = "tv.circle"
 
     /// 􀎴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tvCircleFill
+    case tvCircleFill = "tv.circle.fill"
 
     /// 􀒶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tvFill
+    case tvFill = "tv.fill"
 
     /// 􀎵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tvMusicNote
+    case tvMusicNote = "tv.music.note"
 
     /// 􀒷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case tvMusicNoteFill
+    case tvMusicNoteFill = "tv.music.note.fill"
 
     /// 􀀬
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case uCircle
+    case uCircle = "u.circle"
 
     /// 􀀭
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case uCircleFill
+    case uCircleFill = "u.circle.fill"
 
     /// 􀂼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case uSquare
+    case uSquare = "u.square"
 
     /// 􀂽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case uSquareFill
+    case uSquareFill = "u.square.fill"
 
     /// 􀏝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case uiwindowSplit2x1
+    case uiwindowSplit2x1 = "uiwindow.split.2x1"
 
     /// 􀙕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case umbrella
+    case umbrella = "umbrella"
 
     /// 􀙖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case umbrellaFill
+    case umbrellaFill = "umbrella.fill"
 
     /// 􀅕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case underline
+    case underline = "underline"
 
     /// 􀀮
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case vCircle
+    case vCircle = "v.circle"
 
     /// 􀀯
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case vCircleFill
+    case vCircleFill = "v.circle.fill"
 
     /// 􀂾
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case vSquare
+    case vSquare = "v.square"
 
     /// 􀂿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case vSquareFill
+    case vSquareFill = "v.square.fill"
 
     /// 􀍉
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case video
+    case video = "video"
 
     /// 􀮺
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case videoBadgeCheckmark
+    case videoBadgeCheckmark = "video.badge.checkmark"
 
     /// 􀜮
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case videoBadgePlus
+    case videoBadgePlus = "video.badge.plus"
 
     /// 􀜯
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
@@ -10683,7469 +10683,439 @@ public enum SFSymbol: String, CaseIterable {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "videoFillBadgePlus")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "videoFillBadgePlus")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "videoFillBadgePlus")
-    case videoBadgePlusFill
+    case videoBadgePlusFill = "video.badge.plus.fill"
 
     /// 􀱰
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case videoBubbleLeft
+    case videoBubbleLeft = "video.bubble.left"
 
     /// 􀱱
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case videoBubbleLeftFill
+    case videoBubbleLeftFill = "video.bubble.left.fill"
 
     /// 􀍋
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case videoCircle
+    case videoCircle = "video.circle"
 
     /// 􀍌
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case videoCircleFill
+    case videoCircleFill = "video.circle.fill"
 
     /// 􀍊
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case videoFill
+    case videoFill = "video.fill"
 
     /// 􀮻
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case videoFillBadgeCheckmark
+    case videoFillBadgeCheckmark = "video.fill.badge.checkmark"
 
     /// 􀜯
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case videoFillBadgePlus
+    case videoFillBadgePlus = "video.fill.badge.plus"
 
     /// 􀍍
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case videoSlash
+    case videoSlash = "video.slash"
 
     /// 􀍎
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case videoSlashFill
+    case videoSlashFill = "video.slash.fill"
 
     /// 􀅙
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case view2d
+    case view2d = "view.2d"
 
     /// 􀅪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case view3d
+    case view3d = "view.3d"
 
     /// 􀎹
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case viewfinder
+    case viewfinder = "viewfinder"
 
     /// 􀎿
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case viewfinderCircle
+    case viewfinderCircle = "viewfinder.circle"
 
     /// 􀏀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case viewfinderCircleFill
+    case viewfinderCircleFill = "viewfinder.circle.fill"
 
     /// 􀀰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wCircle
+    case wCircle = "w.circle"
 
     /// 􀀱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wCircleFill
+    case wCircleFill = "w.circle.fill"
 
     /// 􀃀
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wSquare
+    case wSquare = "w.square"
 
     /// 􀃁
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wSquareFill
+    case wSquareFill = "w.square.fill"
 
     /// 􀪒
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case wake
+    case wake = "wake"
 
     /// 􀟾
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case walletPass
+    case walletPass = "wallet.pass"
 
     /// 􀟿
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case walletPassFill
+    case walletPassFill = "wallet.pass.fill"
 
     /// 􀍱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wandAndRays
+    case wandAndRays = "wand.and.rays"
 
     /// 􀍲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wandAndRaysInverse
+    case wandAndRaysInverse = "wand.and.rays.inverse"
 
     /// 􀜍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wandAndStars
+    case wandAndStars = "wand.and.stars"
 
     /// 􀜎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wandAndStarsInverse
+    case wandAndStarsInverse = "wand.and.stars.inverse"
 
     /// 􀱘
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case wave3Backward
+    case wave3Backward = "wave.3.backward"
 
     /// 􀱙
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case wave3BackwardCircle
+    case wave3BackwardCircle = "wave.3.backward.circle"
 
     /// 􀱚
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case wave3BackwardCircleFill
+    case wave3BackwardCircleFill = "wave.3.backward.circle.fill"
 
     /// 􀱛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case wave3Forward
+    case wave3Forward = "wave.3.forward"
 
     /// 􀱜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case wave3ForwardCircle
+    case wave3ForwardCircle = "wave.3.forward.circle"
 
     /// 􀱝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case wave3ForwardCircleFill
+    case wave3ForwardCircleFill = "wave.3.forward.circle.fill"
 
     /// 􀙱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wave3Left
+    case wave3Left = "wave.3.left"
 
     /// 􀭷
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case wave3LeftCircle
+    case wave3LeftCircle = "wave.3.left.circle"
 
     /// 􀭸
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case wave3LeftCircleFill
+    case wave3LeftCircleFill = "wave.3.left.circle.fill"
 
     /// 􀙲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wave3Right
+    case wave3Right = "wave.3.right"
 
     /// 􀭹
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case wave3RightCircle
+    case wave3RightCircle = "wave.3.right.circle"
 
     /// 􀭺
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case wave3RightCircleFill
+    case wave3RightCircleFill = "wave.3.right.circle.fill"
 
     /// 􀙫
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case waveform
+    case waveform = "waveform"
 
     /// 􀞈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case waveformCircle
+    case waveformCircle = "waveform.circle"
 
     /// 􀞉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case waveformCircleFill
+    case waveformCircleFill = "waveform.circle.fill"
 
     /// 􀑃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case waveformPath
+    case waveformPath = "waveform.path"
 
     /// 􀑅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case waveformPathBadgeMinus
+    case waveformPathBadgeMinus = "waveform.path.badge.minus"
 
     /// 􀑄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case waveformPathBadgePlus
+    case waveformPathBadgePlus = "waveform.path.badge.plus"
 
     /// 􀜟
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case waveformPathEcg
+    case waveformPathEcg = "waveform.path.ecg"
 
     /// 􀟪
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case waveformPathEcgRectangle
+    case waveformPathEcgRectangle = "waveform.path.ecg.rectangle"
 
     /// 􀟫
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case waveformPathEcgRectangleFill
+    case waveformPathEcgRectangleFill = "waveform.path.ecg.rectangle.fill"
 
     /// 􀙇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wifi
+    case wifi = "wifi"
 
     /// 􀙥
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wifiExclamationmark
+    case wifiExclamationmark = "wifi.exclamationmark"
 
     /// 􀙈
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wifiSlash
+    case wifiSlash = "wifi.slash"
 
     /// 􀇤
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wind
+    case wind = "wind"
 
     /// 􀇦
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case windSnow
+    case windSnow = "wind.snow"
 
     /// 􀖵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wonsignCircle
+    case wonsignCircle = "wonsign.circle"
 
     /// 􀖶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wonsignCircleFill
+    case wonsignCircleFill = "wonsign.circle.fill"
 
     /// 􀗵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wonsignSquare
+    case wonsignSquare = "wonsign.square"
 
     /// 􀗶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wonsignSquareFill
+    case wonsignSquareFill = "wonsign.square.fill"
 
     /// 􀎕
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wrench
+    case wrench = "wrench"
 
     /// 􀤊
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case wrenchAndScrewdriver
+    case wrenchAndScrewdriver = "wrench.and.screwdriver"
 
     /// 􀤋
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case wrenchAndScrewdriverFill
+    case wrenchAndScrewdriverFill = "wrench.and.screwdriver.fill"
 
     /// 􀎖
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case wrenchFill
+    case wrenchFill = "wrench.fill"
 
     /// 􀀲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xCircle
+    case xCircle = "x.circle"
 
     /// 􀀳
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xCircleFill
+    case xCircleFill = "x.circle.fill"
 
     /// 􀃂
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xSquare
+    case xSquare = "x.square"
 
     /// 􀃃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xSquareFill
+    case xSquareFill = "x.square.fill"
 
     /// 􀓪
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xSquareroot
+    case xSquareroot = "x.squareroot"
 
     /// 􀆄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xmark
+    case xmark = "xmark"
 
     /// 􀈱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xmarkBin
+    case xmarkBin = "xmark.bin"
 
     /// 􀈳
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case xmarkBinCircle
+    case xmarkBinCircle = "xmark.bin.circle"
 
     /// 􀈴
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case xmarkBinCircleFill
+    case xmarkBinCircleFill = "xmark.bin.circle.fill"
 
     /// 􀈲
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xmarkBinFill
+    case xmarkBinFill = "xmark.bin.fill"
 
     /// 􀁠
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xmarkCircle
+    case xmarkCircle = "xmark.circle"
 
     /// 􀁡
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xmarkCircleFill
+    case xmarkCircleFill = "xmark.circle.fill"
 
     /// 􀢃
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case xmarkDiamond
+    case xmarkDiamond = "xmark.diamond"
 
     /// 􀢄
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case xmarkDiamondFill
+    case xmarkDiamondFill = "xmark.diamond.fill"
 
     /// 􀌓
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xmarkIcloud
+    case xmarkIcloud = "xmark.icloud"
 
     /// 􀌔
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xmarkIcloudFill
+    case xmarkIcloudFill = "xmark.icloud.fill"
 
     /// 􀒉
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xmarkOctagon
+    case xmarkOctagon = "xmark.octagon"
 
     /// 􀒊
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xmarkOctagonFill
+    case xmarkOctagonFill = "xmark.octagon.fill"
 
     /// 􀏍
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xmarkRectangle
+    case xmarkRectangle = "xmark.rectangle"
 
     /// 􀏎
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xmarkRectangleFill
+    case xmarkRectangleFill = "xmark.rectangle.fill"
 
     /// 􀡰
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case xmarkRectanglePortrait
+    case xmarkRectanglePortrait = "xmark.rectangle.portrait"
 
     /// 􀡱
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case xmarkRectanglePortraitFill
+    case xmarkRectanglePortraitFill = "xmark.rectangle.portrait.fill"
 
     /// 􀇼
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xmarkSeal
+    case xmarkSeal = "xmark.seal"
 
     /// 􀇽
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xmarkSealFill
+    case xmarkSealFill = "xmark.seal.fill"
 
     /// 􀞝
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xmarkShield
+    case xmarkShield = "xmark.shield"
 
     /// 􀞞
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xmarkShieldFill
+    case xmarkShieldFill = "xmark.shield.fill"
 
     /// 􀃰
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xmarkSquare
+    case xmarkSquare = "xmark.square"
 
     /// 􀃱
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case xmarkSquareFill
+    case xmarkSquareFill = "xmark.square.fill"
 
     /// 􀧘
     /// ⚠️ This symbol can refer only to Apple's Xserve.
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case xserve
+    case xserve = "xserve"
 
     /// 􀀴
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case yCircle
+    case yCircle = "y.circle"
 
     /// 􀀵
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case yCircleFill
+    case yCircleFill = "y.circle.fill"
 
     /// 􀃄
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case ySquare
+    case ySquare = "y.square"
 
     /// 􀃅
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case ySquareFill
+    case ySquareFill = "y.square.fill"
 
     /// 􀖛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case yensignCircle
+    case yensignCircle = "yensign.circle"
 
     /// 􀖜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case yensignCircleFill
+    case yensignCircleFill = "yensign.circle.fill"
 
     /// 􀗛
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case yensignSquare
+    case yensignSquare = "yensign.square"
 
     /// 􀗜
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case yensignSquareFill
+    case yensignSquareFill = "yensign.square.fill"
 
     /// 􀀶
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case zCircle
+    case zCircle = "z.circle"
 
     /// 􀀷
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case zCircleFill
+    case zCircleFill = "z.circle.fill"
 
     /// 􀃆
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case zSquare
+    case zSquare = "z.square"
 
     /// 􀃇
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case zSquareFill
+    case zSquareFill = "z.square.fill"
 
     /// 􀨛
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case zlRectangleRoundedtop
+    case zlRectangleRoundedtop = "zl.rectangle.roundedtop"
 
     /// 􀨜
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case zlRectangleRoundedtopFill
+    case zlRectangleRoundedtopFill = "zl.rectangle.roundedtop.fill"
 
     /// 􀨝
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case zrRectangleRoundedtop
+    case zrRectangleRoundedtop = "zr.rectangle.roundedtop"
 
     /// 􀨞
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-    case zrRectangleRoundedtopFill
+    case zrRectangleRoundedtopFill = "zr.rectangle.roundedtop.fill"
 
     /// 􀖃
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-    case zzz
-
-    public var rawValue: String {
-        if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *) {
-            switch self {
-            case ._0Circle: return "0.circle"
-            case ._0CircleFill: return "0.circle.fill"
-            case ._0Square: return "0.square"
-            case ._0SquareFill: return "0.square.fill"
-            case ._00Circle: return "00.circle"
-            case ._00CircleFill: return "00.circle.fill"
-            case ._00Square: return "00.square"
-            case ._00SquareFill: return "00.square.fill"
-            case ._01Circle: return "01.circle"
-            case ._01CircleFill: return "01.circle.fill"
-            case ._01Square: return "01.square"
-            case ._01SquareFill: return "01.square.fill"
-            case ._02Circle: return "02.circle"
-            case ._02CircleFill: return "02.circle.fill"
-            case ._02Square: return "02.square"
-            case ._02SquareFill: return "02.square.fill"
-            case ._03Circle: return "03.circle"
-            case ._03CircleFill: return "03.circle.fill"
-            case ._03Square: return "03.square"
-            case ._03SquareFill: return "03.square.fill"
-            case ._04Circle: return "04.circle"
-            case ._04CircleFill: return "04.circle.fill"
-            case ._04Square: return "04.square"
-            case ._04SquareFill: return "04.square.fill"
-            case ._05Circle: return "05.circle"
-            case ._05CircleFill: return "05.circle.fill"
-            case ._05Square: return "05.square"
-            case ._05SquareFill: return "05.square.fill"
-            case ._06Circle: return "06.circle"
-            case ._06CircleFill: return "06.circle.fill"
-            case ._06Square: return "06.square"
-            case ._06SquareFill: return "06.square.fill"
-            case ._07Circle: return "07.circle"
-            case ._07CircleFill: return "07.circle.fill"
-            case ._07Square: return "07.square"
-            case ._07SquareFill: return "07.square.fill"
-            case ._08Circle: return "08.circle"
-            case ._08CircleFill: return "08.circle.fill"
-            case ._08Square: return "08.square"
-            case ._08SquareFill: return "08.square.fill"
-            case ._09Circle: return "09.circle"
-            case ._09CircleFill: return "09.circle.fill"
-            case ._09Square: return "09.square"
-            case ._09SquareFill: return "09.square.fill"
-            case ._1Circle: return "1.circle"
-            case ._1CircleFill: return "1.circle.fill"
-            case ._1Magnifyingglass: return "1.magnifyingglass"
-            case ._1Square: return "1.square"
-            case ._1SquareFill: return "1.square.fill"
-            case ._10Circle: return "10.circle"
-            case ._10CircleFill: return "10.circle.fill"
-            case ._10Square: return "10.square"
-            case ._10SquareFill: return "10.square.fill"
-            case ._11Circle: return "11.circle"
-            case ._11CircleFill: return "11.circle.fill"
-            case ._11Square: return "11.square"
-            case ._11SquareFill: return "11.square.fill"
-            case ._12Circle: return "12.circle"
-            case ._12CircleFill: return "12.circle.fill"
-            case ._12Square: return "12.square"
-            case ._12SquareFill: return "12.square.fill"
-            case ._13Circle: return "13.circle"
-            case ._13CircleFill: return "13.circle.fill"
-            case ._13Square: return "13.square"
-            case ._13SquareFill: return "13.square.fill"
-            case ._14Circle: return "14.circle"
-            case ._14CircleFill: return "14.circle.fill"
-            case ._14Square: return "14.square"
-            case ._14SquareFill: return "14.square.fill"
-            case ._15Circle: return "15.circle"
-            case ._15CircleFill: return "15.circle.fill"
-            case ._15Square: return "15.square"
-            case ._15SquareFill: return "15.square.fill"
-            case ._16Circle: return "16.circle"
-            case ._16CircleFill: return "16.circle.fill"
-            case ._16Square: return "16.square"
-            case ._16SquareFill: return "16.square.fill"
-            case ._17Circle: return "17.circle"
-            case ._17CircleFill: return "17.circle.fill"
-            case ._17Square: return "17.square"
-            case ._17SquareFill: return "17.square.fill"
-            case ._18Circle: return "18.circle"
-            case ._18CircleFill: return "18.circle.fill"
-            case ._18Square: return "18.square"
-            case ._18SquareFill: return "18.square.fill"
-            case ._19Circle: return "19.circle"
-            case ._19CircleFill: return "19.circle.fill"
-            case ._19Square: return "19.square"
-            case ._19SquareFill: return "19.square.fill"
-            case ._2Circle: return "2.circle"
-            case ._2CircleFill: return "2.circle.fill"
-            case ._2Square: return "2.square"
-            case ._2SquareFill: return "2.square.fill"
-            case ._20Circle: return "20.circle"
-            case ._20CircleFill: return "20.circle.fill"
-            case ._20Square: return "20.square"
-            case ._20SquareFill: return "20.square.fill"
-            case ._21Circle: return "21.circle"
-            case ._21CircleFill: return "21.circle.fill"
-            case ._21Square: return "21.square"
-            case ._21SquareFill: return "21.square.fill"
-            case ._22Circle: return "22.circle"
-            case ._22CircleFill: return "22.circle.fill"
-            case ._22Square: return "22.square"
-            case ._22SquareFill: return "22.square.fill"
-            case ._23Circle: return "23.circle"
-            case ._23CircleFill: return "23.circle.fill"
-            case ._23Square: return "23.square"
-            case ._23SquareFill: return "23.square.fill"
-            case ._24Circle: return "24.circle"
-            case ._24CircleFill: return "24.circle.fill"
-            case ._24Square: return "24.square"
-            case ._24SquareFill: return "24.square.fill"
-            case ._25Circle: return "25.circle"
-            case ._25CircleFill: return "25.circle.fill"
-            case ._25Square: return "25.square"
-            case ._25SquareFill: return "25.square.fill"
-            case ._26Circle: return "26.circle"
-            case ._26CircleFill: return "26.circle.fill"
-            case ._26Square: return "26.square"
-            case ._26SquareFill: return "26.square.fill"
-            case ._27Circle: return "27.circle"
-            case ._27CircleFill: return "27.circle.fill"
-            case ._27Square: return "27.square"
-            case ._27SquareFill: return "27.square.fill"
-            case ._28Circle: return "28.circle"
-            case ._28CircleFill: return "28.circle.fill"
-            case ._28Square: return "28.square"
-            case ._28SquareFill: return "28.square.fill"
-            case ._29Circle: return "29.circle"
-            case ._29CircleFill: return "29.circle.fill"
-            case ._29Square: return "29.square"
-            case ._29SquareFill: return "29.square.fill"
-            case ._3Circle: return "3.circle"
-            case ._3CircleFill: return "3.circle.fill"
-            case ._3Square: return "3.square"
-            case ._3SquareFill: return "3.square.fill"
-            case ._30Circle: return "30.circle"
-            case ._30CircleFill: return "30.circle.fill"
-            case ._30Square: return "30.square"
-            case ._30SquareFill: return "30.square.fill"
-            case ._31Circle: return "31.circle"
-            case ._31CircleFill: return "31.circle.fill"
-            case ._31Square: return "31.square"
-            case ._31SquareFill: return "31.square.fill"
-            case ._32Circle: return "32.circle"
-            case ._32CircleFill: return "32.circle.fill"
-            case ._32Square: return "32.square"
-            case ._32SquareFill: return "32.square.fill"
-            case ._33Circle: return "33.circle"
-            case ._33CircleFill: return "33.circle.fill"
-            case ._33Square: return "33.square"
-            case ._33SquareFill: return "33.square.fill"
-            case ._34Circle: return "34.circle"
-            case ._34CircleFill: return "34.circle.fill"
-            case ._34Square: return "34.square"
-            case ._34SquareFill: return "34.square.fill"
-            case ._35Circle: return "35.circle"
-            case ._35CircleFill: return "35.circle.fill"
-            case ._35Square: return "35.square"
-            case ._35SquareFill: return "35.square.fill"
-            case ._36Circle: return "36.circle"
-            case ._36CircleFill: return "36.circle.fill"
-            case ._36Square: return "36.square"
-            case ._36SquareFill: return "36.square.fill"
-            case ._37Circle: return "37.circle"
-            case ._37CircleFill: return "37.circle.fill"
-            case ._37Square: return "37.square"
-            case ._37SquareFill: return "37.square.fill"
-            case ._38Circle: return "38.circle"
-            case ._38CircleFill: return "38.circle.fill"
-            case ._38Square: return "38.square"
-            case ._38SquareFill: return "38.square.fill"
-            case ._39Circle: return "39.circle"
-            case ._39CircleFill: return "39.circle.fill"
-            case ._39Square: return "39.square"
-            case ._39SquareFill: return "39.square.fill"
-            case ._4AltCircle: return "4.alt.circle"
-            case ._4AltCircleFill: return "4.alt.circle.fill"
-            case ._4AltSquare: return "4.alt.square"
-            case ._4AltSquareFill: return "4.alt.square.fill"
-            case ._4Circle: return "4.circle"
-            case ._4CircleFill: return "4.circle.fill"
-            case ._4Square: return "4.square"
-            case ._4SquareFill: return "4.square.fill"
-            case ._40Circle: return "40.circle"
-            case ._40CircleFill: return "40.circle.fill"
-            case ._40Square: return "40.square"
-            case ._40SquareFill: return "40.square.fill"
-            case ._41Circle: return "41.circle"
-            case ._41CircleFill: return "41.circle.fill"
-            case ._41Square: return "41.square"
-            case ._41SquareFill: return "41.square.fill"
-            case ._42Circle: return "42.circle"
-            case ._42CircleFill: return "42.circle.fill"
-            case ._42Square: return "42.square"
-            case ._42SquareFill: return "42.square.fill"
-            case ._43Circle: return "43.circle"
-            case ._43CircleFill: return "43.circle.fill"
-            case ._43Square: return "43.square"
-            case ._43SquareFill: return "43.square.fill"
-            case ._44Circle: return "44.circle"
-            case ._44CircleFill: return "44.circle.fill"
-            case ._44Square: return "44.square"
-            case ._44SquareFill: return "44.square.fill"
-            case ._45Circle: return "45.circle"
-            case ._45CircleFill: return "45.circle.fill"
-            case ._45Square: return "45.square"
-            case ._45SquareFill: return "45.square.fill"
-            case ._46Circle: return "46.circle"
-            case ._46CircleFill: return "46.circle.fill"
-            case ._46Square: return "46.square"
-            case ._46SquareFill: return "46.square.fill"
-            case ._47Circle: return "47.circle"
-            case ._47CircleFill: return "47.circle.fill"
-            case ._47Square: return "47.square"
-            case ._47SquareFill: return "47.square.fill"
-            case ._48Circle: return "48.circle"
-            case ._48CircleFill: return "48.circle.fill"
-            case ._48Square: return "48.square"
-            case ._48SquareFill: return "48.square.fill"
-            case ._49Circle: return "49.circle"
-            case ._49CircleFill: return "49.circle.fill"
-            case ._49Square: return "49.square"
-            case ._49SquareFill: return "49.square.fill"
-            case ._4kTv: return "4k.tv"
-            case ._4kTvFill: return "4k.tv.fill"
-            case ._5Circle: return "5.circle"
-            case ._5CircleFill: return "5.circle.fill"
-            case ._5Square: return "5.square"
-            case ._5SquareFill: return "5.square.fill"
-            case ._50Circle: return "50.circle"
-            case ._50CircleFill: return "50.circle.fill"
-            case ._50Square: return "50.square"
-            case ._50SquareFill: return "50.square.fill"
-            case ._6AltCircle: return "6.alt.circle"
-            case ._6AltCircleFill: return "6.alt.circle.fill"
-            case ._6AltSquare: return "6.alt.square"
-            case ._6AltSquareFill: return "6.alt.square.fill"
-            case ._6Circle: return "6.circle"
-            case ._6CircleFill: return "6.circle.fill"
-            case ._6Square: return "6.square"
-            case ._6SquareFill: return "6.square.fill"
-            case ._7Circle: return "7.circle"
-            case ._7CircleFill: return "7.circle.fill"
-            case ._7Square: return "7.square"
-            case ._7SquareFill: return "7.square.fill"
-            case ._8Circle: return "8.circle"
-            case ._8CircleFill: return "8.circle.fill"
-            case ._8Square: return "8.square"
-            case ._8SquareFill: return "8.square.fill"
-            case ._9AltCircle: return "9.alt.circle"
-            case ._9AltCircleFill: return "9.alt.circle.fill"
-            case ._9AltSquare: return "9.alt.square"
-            case ._9AltSquareFill: return "9.alt.square.fill"
-            case ._9Circle: return "9.circle"
-            case ._9CircleFill: return "9.circle.fill"
-            case ._9Square: return "9.square"
-            case ._9SquareFill: return "9.square.fill"
-            case .a: return "character"
-            case .aBookClosed: return "character.book.closed"
-            case .aBookClosedFill: return "character.book.closed.fill"
-            case .aCircle: return "a.circle"
-            case .aCircleFill: return "a.circle.fill"
-            case .aMagnify: return "a.magnify"
-            case .aSquare: return "a.square"
-            case .aSquareFill: return "a.square.fill"
-            case .abc: return "abc"
-            case .airplane: return "airplane"
-            case .airplaneCircle: return "airplane.circle"
-            case .airplaneCircleFill: return "airplane.circle.fill"
-            case .airplayaudio: return "airplayaudio"
-            case .airplayvideo: return "airplayvideo"
-            case .airpodLeft: return "airpod.left"
-            case .airpodRight: return "airpod.right"
-            case .airpodproLeft: return "airpodpro.left"
-            case .airpodproRight: return "airpodpro.right"
-            case .airpods: return "airpods"
-            case .airpodspro: return "airpodspro"
-            case .airportExpress: return "airport.express"
-            case .airportExtreme: return "airport.extreme"
-            case .airportExtremeTower: return "airport.extreme.tower"
-            case .alarm: return "alarm"
-            case .alarmFill: return "alarm.fill"
-            case .alt: return "alt"
-            case .amplifier: return "amplifier"
-            case .ant: return "ant"
-            case .antCircle: return "ant.circle"
-            case .antCircleFill: return "ant.circle.fill"
-            case .antFill: return "ant.fill"
-            case .antennaRadiowavesLeftAndRight: return "antenna.radiowaves.left.and.right"
-            case .app: return "app"
-            case .appBadge: return "app.badge"
-            case .appBadgeFill: return "app.badge.fill"
-            case .appFill: return "app.fill"
-            case .appGift: return "app.gift"
-            case .appGiftFill: return "app.gift.fill"
-            case .appclip: return "appclip"
-            case .applelogo: return "applelogo"
-            case .applescript: return "applescript"
-            case .applescriptFill: return "applescript.fill"
-            case .appletv: return "appletv"
-            case .appletvFill: return "appletv.fill"
-            case .applewatch: return "applewatch"
-            case .applewatchRadiowavesLeftAndRight: return "applewatch.radiowaves.left.and.right"
-            case .applewatchSlash: return "applewatch.slash"
-            case .applewatchWatchface: return "applewatch.watchface"
-            case .appsIpad: return "apps.ipad"
-            case .appsIpadLandscape: return "apps.ipad.landscape"
-            case .appsIphone: return "apps.iphone"
-            case .appsIphoneBadgePlus: return "apps.iphone.badge.plus"
-            case .appsIphoneLandscape: return "apps.iphone.landscape"
-            case .aqiHigh: return "aqi.high"
-            case .aqiLow: return "aqi.low"
-            case .aqiMedium: return "aqi.medium"
-            case .archivebox: return "archivebox"
-            case .archiveboxCircle: return "archivebox.circle"
-            case .archiveboxCircleFill: return "archivebox.circle.fill"
-            case .archiveboxFill: return "archivebox.fill"
-            case .arkit: return "arkit"
-            case .arrow2Circlepath: return "arrow.triangle.2.circlepath"
-            case .arrow2CirclepathCircle: return "arrow.triangle.2.circlepath.circle"
-            case .arrow2CirclepathCircleFill: return "arrow.triangle.2.circlepath.circle.fill"
-            case .arrow2Squarepath: return "arrow.2.squarepath"
-            case .arrow3Trianglepath: return "arrow.3.trianglepath"
-            case .arrowBackward: return "arrow.backward"
-            case .arrowBackwardCircle: return "arrow.backward.circle"
-            case .arrowBackwardCircleFill: return "arrow.backward.circle.fill"
-            case .arrowBackwardSquare: return "arrow.backward.square"
-            case .arrowBackwardSquareFill: return "arrow.backward.square.fill"
-            case .arrowBranch: return "arrow.triangle.branch"
-            case .arrowClockwise: return "arrow.clockwise"
-            case .arrowClockwiseCircle: return "arrow.clockwise.circle"
-            case .arrowClockwiseCircleFill: return "arrow.clockwise.circle.fill"
-            case .arrowClockwiseHeart: return "arrow.clockwise.heart"
-            case .arrowClockwiseHeartFill: return "arrow.clockwise.heart.fill"
-            case .arrowClockwiseIcloud: return "arrow.clockwise.icloud"
-            case .arrowClockwiseIcloudFill: return "arrow.clockwise.icloud.fill"
-            case .arrowCounterclockwise: return "arrow.counterclockwise"
-            case .arrowCounterclockwiseCircle: return "arrow.counterclockwise.circle"
-            case .arrowCounterclockwiseCircleFill: return "arrow.counterclockwise.circle.fill"
-            case .arrowCounterclockwiseIcloud: return "arrow.counterclockwise.icloud"
-            case .arrowCounterclockwiseIcloudFill: return "arrow.counterclockwise.icloud.fill"
-            case .arrowDown: return "arrow.down"
-            case .arrowDownApp: return "arrow.down.app"
-            case .arrowDownAppFill: return "arrow.down.app.fill"
-            case .arrowDownBackward: return "arrow.down.backward"
-            case .arrowDownBackwardCircle: return "arrow.down.backward.circle"
-            case .arrowDownBackwardCircleFill: return "arrow.down.backward.circle.fill"
-            case .arrowDownBackwardSquare: return "arrow.down.backward.square"
-            case .arrowDownBackwardSquareFill: return "arrow.down.backward.square.fill"
-            case .arrowDownCircle: return "arrow.down.circle"
-            case .arrowDownCircleFill: return "arrow.down.circle.fill"
-            case .arrowDownDoc: return "arrow.down.doc"
-            case .arrowDownDocFill: return "arrow.down.doc.fill"
-            case .arrowDownForward: return "arrow.down.forward"
-            case .arrowDownForwardAndArrowUpBackward: return "arrow.down.forward.and.arrow.up.backward"
-            case .arrowDownForwardAndArrowUpBackwardCircle: return "arrow.down.forward.and.arrow.up.backward.circle"
-            case .arrowDownForwardAndArrowUpBackwardCircleFill: return "arrow.down.forward.and.arrow.up.backward.circle.fill"
-            case .arrowDownForwardCircle: return "arrow.down.forward.circle"
-            case .arrowDownForwardCircleFill: return "arrow.down.forward.circle.fill"
-            case .arrowDownForwardSquare: return "arrow.down.forward.square"
-            case .arrowDownForwardSquareFill: return "arrow.down.forward.square.fill"
-            case .arrowDownHeart: return "arrow.down.heart"
-            case .arrowDownHeartFill: return "arrow.down.heart.fill"
-            case .arrowDownLeft: return "arrow.down.left"
-            case .arrowDownLeftCircle: return "arrow.down.left.circle"
-            case .arrowDownLeftCircleFill: return "arrow.down.left.circle.fill"
-            case .arrowDownLeftSquare: return "arrow.down.left.square"
-            case .arrowDownLeftSquareFill: return "arrow.down.left.square.fill"
-            case .arrowDownLeftVideo: return "arrow.down.left.video"
-            case .arrowDownLeftVideoFill: return "arrow.down.left.video.fill"
-            case .arrowDownRight: return "arrow.down.right"
-            case .arrowDownRightAndArrowUpLeft: return "arrow.down.right.and.arrow.up.left"
-            case .arrowDownRightAndArrowUpLeftCircle: return "arrow.down.right.and.arrow.up.left.circle"
-            case .arrowDownRightAndArrowUpLeftCircleFill: return "arrow.down.right.and.arrow.up.left.circle.fill"
-            case .arrowDownRightCircle: return "arrow.down.right.circle"
-            case .arrowDownRightCircleFill: return "arrow.down.right.circle.fill"
-            case .arrowDownRightSquare: return "arrow.down.right.square"
-            case .arrowDownRightSquareFill: return "arrow.down.right.square.fill"
-            case .arrowDownSquare: return "arrow.down.square"
-            case .arrowDownSquareFill: return "arrow.down.square.fill"
-            case .arrowDownToLine: return "arrow.down.to.line"
-            case .arrowDownToLineAlt: return "arrow.down.to.line.alt"
-            case .arrowForward: return "arrow.forward"
-            case .arrowForwardCircle: return "arrow.forward.circle"
-            case .arrowForwardCircleFill: return "arrow.forward.circle.fill"
-            case .arrowForwardSquare: return "arrow.forward.square"
-            case .arrowForwardSquareFill: return "arrow.forward.square.fill"
-            case .arrowLeft: return "arrow.left"
-            case .arrowLeftAndRight: return "arrow.left.and.right"
-            case .arrowLeftAndRightCircle: return "arrow.left.and.right.circle"
-            case .arrowLeftAndRightCircleFill: return "arrow.left.and.right.circle.fill"
-            case .arrowLeftAndRightRighttriangleLeftRighttriangleRight: return "arrow.left.and.right.righttriangle.left.righttriangle.right"
-            case .arrowLeftAndRightRighttriangleLeftRighttriangleRightFill: return "arrow.left.and.right.righttriangle.left.righttriangle.right.fill"
-            case .arrowLeftAndRightSquare: return "arrow.left.and.right.square"
-            case .arrowLeftAndRightSquareFill: return "arrow.left.and.right.square.fill"
-            case .arrowLeftArrowRight: return "arrow.left.arrow.right"
-            case .arrowLeftArrowRightCircle: return "arrow.left.arrow.right.circle"
-            case .arrowLeftArrowRightCircleFill: return "arrow.left.arrow.right.circle.fill"
-            case .arrowLeftArrowRightSquare: return "arrow.left.arrow.right.square"
-            case .arrowLeftArrowRightSquareFill: return "arrow.left.arrow.right.square.fill"
-            case .arrowLeftCircle: return "arrow.left.circle"
-            case .arrowLeftCircleFill: return "arrow.left.circle.fill"
-            case .arrowLeftSquare: return "arrow.left.square"
-            case .arrowLeftSquareFill: return "arrow.left.square.fill"
-            case .arrowLeftToLine: return "arrow.left.to.line"
-            case .arrowLeftToLineAlt: return "arrow.left.to.line.alt"
-            case .arrowMerge: return "arrow.triangle.merge"
-            case .arrowRectanglepath: return "arrow.rectanglepath"
-            case .arrowRight: return "arrow.right"
-            case .arrowRightArrowLeft: return "arrow.left.arrow.right"
-            case .arrowRightArrowLeftCircle: return "arrow.left.arrow.right.circle"
-            case .arrowRightArrowLeftCircleFill: return "arrow.left.arrow.right.circle.fill"
-            case .arrowRightArrowLeftSquare: return "arrow.left.arrow.right.square"
-            case .arrowRightArrowLeftSquareFill: return "arrow.left.arrow.right.square.fill"
-            case .arrowRightCircle: return "arrow.right.circle"
-            case .arrowRightCircleFill: return "arrow.right.circle.fill"
-            case .arrowRightDocOnClipboard: return "arrow.right.doc.on.clipboard"
-            case .arrowRightSquare: return "arrow.right.square"
-            case .arrowRightSquareFill: return "arrow.right.square.fill"
-            case .arrowRightToLine: return "arrow.right.to.line"
-            case .arrowRightToLineAlt: return "arrow.right.to.line.alt"
-            case .arrowSwap: return "arrow.triangle.swap"
-            case .arrowTriangle2Circlepath: return "arrow.triangle.2.circlepath"
-            case .arrowTriangle2CirclepathCamera: return "arrow.triangle.2.circlepath.camera"
-            case .arrowTriangle2CirclepathCameraFill: return "arrow.triangle.2.circlepath.camera.fill"
-            case .arrowTriangle2CirclepathCircle: return "arrow.triangle.2.circlepath.circle"
-            case .arrowTriangle2CirclepathCircleFill: return "arrow.triangle.2.circlepath.circle.fill"
-            case .arrowTriangle2CirclepathDocOnClipboard: return "arrow.triangle.2.circlepath.doc.on.clipboard"
-            case .arrowTriangleBranch: return "arrow.triangle.branch"
-            case .arrowTriangleCapsulepath: return "arrow.triangle.capsulepath"
-            case .arrowTriangleMerge: return "arrow.triangle.merge"
-            case .arrowTrianglePull: return "arrow.triangle.pull"
-            case .arrowTriangleSwap: return "arrow.triangle.swap"
-            case .arrowTriangleTurnUpRightCircle: return "arrow.triangle.turn.up.right.circle"
-            case .arrowTriangleTurnUpRightCircleFill: return "arrow.triangle.turn.up.right.circle.fill"
-            case .arrowTriangleTurnUpRightDiamond: return "arrow.triangle.turn.up.right.diamond"
-            case .arrowTriangleTurnUpRightDiamondFill: return "arrow.triangle.turn.up.right.diamond.fill"
-            case .arrowTurnDownLeft: return "arrow.turn.down.left"
-            case .arrowTurnDownRight: return "arrow.turn.down.right"
-            case .arrowTurnLeftDown: return "arrow.turn.left.down"
-            case .arrowTurnLeftUp: return "arrow.turn.left.up"
-            case .arrowTurnRightDown: return "arrow.turn.right.down"
-            case .arrowTurnRightUp: return "arrow.turn.right.up"
-            case .arrowTurnUpForwardIphone: return "arrow.turn.up.forward.iphone"
-            case .arrowTurnUpForwardIphoneFill: return "arrow.turn.up.forward.iphone.fill"
-            case .arrowTurnUpLeft: return "arrow.turn.up.left"
-            case .arrowTurnUpRight: return "arrow.turn.up.right"
-            case .arrowUp: return "arrow.up"
-            case .arrowUpAndDown: return "arrow.up.and.down"
-            case .arrowUpAndDownAndArrowLeftAndRight: return "arrow.up.and.down.and.arrow.left.and.right"
-            case .arrowUpAndDownCircle: return "arrow.up.and.down.circle"
-            case .arrowUpAndDownCircleFill: return "arrow.up.and.down.circle.fill"
-            case .arrowUpAndDownRighttriangleUpFillRighttriangleDownFill: return "arrow.up.and.down.righttriangle.up.fill.righttriangle.down.fill"
-            case .arrowUpAndDownRighttriangleUpRighttriangleDown: return "arrow.up.and.down.righttriangle.up.righttriangle.down"
-            case .arrowUpAndDownSquare: return "arrow.up.and.down.square"
-            case .arrowUpAndDownSquareFill: return "arrow.up.and.down.square.fill"
-            case .arrowUpAndPersonRectanglePortrait: return "arrow.up.and.person.rectangle.portrait"
-            case .arrowUpAndPersonRectangleTurnLeft: return "arrow.up.and.person.rectangle.turn.left"
-            case .arrowUpAndPersonRectangleTurnRight: return "arrow.up.and.person.rectangle.turn.right"
-            case .arrowUpArrowDown: return "arrow.up.arrow.down"
-            case .arrowUpArrowDownCircle: return "arrow.up.arrow.down.circle"
-            case .arrowUpArrowDownCircleFill: return "arrow.up.arrow.down.circle.fill"
-            case .arrowUpArrowDownSquare: return "arrow.up.arrow.down.square"
-            case .arrowUpArrowDownSquareFill: return "arrow.up.arrow.down.square.fill"
-            case .arrowUpBackward: return "arrow.up.backward"
-            case .arrowUpBackwardAndArrowDownForward: return "arrow.up.backward.and.arrow.down.forward"
-            case .arrowUpBackwardAndArrowDownForwardCircle: return "arrow.up.backward.and.arrow.down.forward.circle"
-            case .arrowUpBackwardAndArrowDownForwardCircleFill: return "arrow.up.backward.and.arrow.down.forward.circle.fill"
-            case .arrowUpBackwardCircle: return "arrow.up.backward.circle"
-            case .arrowUpBackwardCircleFill: return "arrow.up.backward.circle.fill"
-            case .arrowUpBackwardSquare: return "arrow.up.backward.square"
-            case .arrowUpBackwardSquareFill: return "arrow.up.backward.square.fill"
-            case .arrowUpBin: return "arrow.up.bin"
-            case .arrowUpBinFill: return "arrow.up.bin.fill"
-            case .arrowUpCircle: return "arrow.up.circle"
-            case .arrowUpCircleFill: return "arrow.up.circle.fill"
-            case .arrowUpDoc: return "arrow.up.doc"
-            case .arrowUpDocFill: return "arrow.up.doc.fill"
-            case .arrowUpDocOnClipboard: return "arrow.up.doc.on.clipboard"
-            case .arrowUpForward: return "arrow.up.forward"
-            case .arrowUpForwardApp: return "arrow.up.forward.app"
-            case .arrowUpForwardAppFill: return "arrow.up.forward.app.fill"
-            case .arrowUpForwardCircle: return "arrow.up.forward.circle"
-            case .arrowUpForwardCircleFill: return "arrow.up.forward.circle.fill"
-            case .arrowUpForwardSquare: return "arrow.up.forward.square"
-            case .arrowUpForwardSquareFill: return "arrow.up.forward.square.fill"
-            case .arrowUpHeart: return "arrow.up.heart"
-            case .arrowUpHeartFill: return "arrow.up.heart.fill"
-            case .arrowUpLeft: return "arrow.up.left"
-            case .arrowUpLeftAndArrowDownRight: return "arrow.up.left.and.arrow.down.right"
-            case .arrowUpLeftAndArrowDownRightCircle: return "arrow.up.left.and.arrow.down.right.circle"
-            case .arrowUpLeftAndArrowDownRightCircleFill: return "arrow.up.left.and.arrow.down.right.circle.fill"
-            case .arrowUpLeftAndDownRightAndArrowUpRightAndDownLeft: return "arrow.up.left.and.down.right.and.arrow.up.right.and.down.left"
-            case .arrowUpLeftAndDownRightMagnifyingglass: return "arrow.up.left.and.down.right.magnifyingglass"
-            case .arrowUpLeftCircle: return "arrow.up.left.circle"
-            case .arrowUpLeftCircleFill: return "arrow.up.left.circle.fill"
-            case .arrowUpLeftSquare: return "arrow.up.left.square"
-            case .arrowUpLeftSquareFill: return "arrow.up.left.square.fill"
-            case .arrowUpMessage: return "arrow.up.message"
-            case .arrowUpMessageFill: return "arrow.up.message.fill"
-            case .arrowUpRight: return "arrow.up.right"
-            case .arrowUpRightAndArrowDownLeftRectangle: return "arrow.up.right.and.arrow.down.left.rectangle"
-            case .arrowUpRightAndArrowDownLeftRectangleFill: return "arrow.up.right.and.arrow.down.left.rectangle.fill"
-            case .arrowUpRightCircle: return "arrow.up.right.circle"
-            case .arrowUpRightCircleFill: return "arrow.up.right.circle.fill"
-            case .arrowUpRightDiamond: return "arrow.triangle.turn.up.right.diamond"
-            case .arrowUpRightDiamondFill: return "arrow.triangle.turn.up.right.diamond.fill"
-            case .arrowUpRightSquare: return "arrow.up.right.square"
-            case .arrowUpRightSquareFill: return "arrow.up.right.square.fill"
-            case .arrowUpRightVideo: return "arrow.up.right.video"
-            case .arrowUpRightVideoFill: return "arrow.up.right.video.fill"
-            case .arrowUpSquare: return "arrow.up.square"
-            case .arrowUpSquareFill: return "arrow.up.square.fill"
-            case .arrowUpToLine: return "arrow.up.to.line"
-            case .arrowUpToLineAlt: return "arrow.up.to.line.alt"
-            case .arrowUturnBackward: return "arrow.uturn.backward"
-            case .arrowUturnBackwardCircle: return "arrow.uturn.backward.circle"
-            case .arrowUturnBackwardCircleBadgeEllipsis: return "arrow.uturn.backward.circle.badge.ellipsis"
-            case .arrowUturnBackwardCircleFill: return "arrow.uturn.backward.circle.fill"
-            case .arrowUturnBackwardSquare: return "arrow.uturn.backward.square"
-            case .arrowUturnBackwardSquareFill: return "arrow.uturn.backward.square.fill"
-            case .arrowUturnDown: return "arrow.uturn.down"
-            case .arrowUturnDownCircle: return "arrow.uturn.down.circle"
-            case .arrowUturnDownCircleFill: return "arrow.uturn.down.circle.fill"
-            case .arrowUturnDownSquare: return "arrow.uturn.down.square"
-            case .arrowUturnDownSquareFill: return "arrow.uturn.down.square.fill"
-            case .arrowUturnForward: return "arrow.uturn.forward"
-            case .arrowUturnForwardCircle: return "arrow.uturn.forward.circle"
-            case .arrowUturnForwardCircleFill: return "arrow.uturn.forward.circle.fill"
-            case .arrowUturnForwardSquare: return "arrow.uturn.forward.square"
-            case .arrowUturnForwardSquareFill: return "arrow.uturn.forward.square.fill"
-            case .arrowUturnLeft: return "arrow.uturn.left"
-            case .arrowUturnLeftCircle: return "arrow.uturn.left.circle"
-            case .arrowUturnLeftCircleBadgeEllipsis: return "arrow.uturn.left.circle.badge.ellipsis"
-            case .arrowUturnLeftCircleFill: return "arrow.uturn.left.circle.fill"
-            case .arrowUturnLeftSquare: return "arrow.uturn.left.square"
-            case .arrowUturnLeftSquareFill: return "arrow.uturn.left.square.fill"
-            case .arrowUturnRight: return "arrow.uturn.right"
-            case .arrowUturnRightCircle: return "arrow.uturn.right.circle"
-            case .arrowUturnRightCircleFill: return "arrow.uturn.right.circle.fill"
-            case .arrowUturnRightSquare: return "arrow.uturn.right.square"
-            case .arrowUturnRightSquareFill: return "arrow.uturn.right.square.fill"
-            case .arrowUturnUp: return "arrow.uturn.up"
-            case .arrowUturnUpCircle: return "arrow.uturn.up.circle"
-            case .arrowUturnUpCircleFill: return "arrow.uturn.up.circle.fill"
-            case .arrowUturnUpSquare: return "arrow.uturn.up.square"
-            case .arrowUturnUpSquareFill: return "arrow.uturn.up.square.fill"
-            case .arrowshapeBounceForward: return "arrowshape.bounce.forward"
-            case .arrowshapeBounceForwardFill: return "arrowshape.bounce.forward.fill"
-            case .arrowshapeBounceRight: return "arrowshape.bounce.right"
-            case .arrowshapeBounceRightFill: return "arrowshape.bounce.right.fill"
-            case .arrowshapeTurnUpBackward: return "arrowshape.turn.up.backward"
-            case .arrowshapeTurnUpBackward2: return "arrowshape.turn.up.backward.2"
-            case .arrowshapeTurnUpBackward2Circle: return "arrowshape.turn.up.backward.2.circle"
-            case .arrowshapeTurnUpBackward2CircleFill: return "arrowshape.turn.up.backward.2.circle.fill"
-            case .arrowshapeTurnUpBackward2Fill: return "arrowshape.turn.up.backward.2.fill"
-            case .arrowshapeTurnUpBackwardCircle: return "arrowshape.turn.up.backward.circle"
-            case .arrowshapeTurnUpBackwardCircleFill: return "arrowshape.turn.up.backward.circle.fill"
-            case .arrowshapeTurnUpBackwardFill: return "arrowshape.turn.up.backward.fill"
-            case .arrowshapeTurnUpForward: return "arrowshape.turn.up.forward"
-            case .arrowshapeTurnUpForwardCircle: return "arrowshape.turn.up.forward.circle"
-            case .arrowshapeTurnUpForwardCircleFill: return "arrowshape.turn.up.forward.circle.fill"
-            case .arrowshapeTurnUpForwardFill: return "arrowshape.turn.up.forward.fill"
-            case .arrowshapeTurnUpLeft: return "arrowshape.turn.up.left"
-            case .arrowshapeTurnUpLeft2: return "arrowshape.turn.up.left.2"
-            case .arrowshapeTurnUpLeft2Circle: return "arrowshape.turn.up.left.2.circle"
-            case .arrowshapeTurnUpLeft2CircleFill: return "arrowshape.turn.up.left.2.circle.fill"
-            case .arrowshapeTurnUpLeft2Fill: return "arrowshape.turn.up.left.2.fill"
-            case .arrowshapeTurnUpLeftCircle: return "arrowshape.turn.up.left.circle"
-            case .arrowshapeTurnUpLeftCircleFill: return "arrowshape.turn.up.left.circle.fill"
-            case .arrowshapeTurnUpLeftFill: return "arrowshape.turn.up.left.fill"
-            case .arrowshapeTurnUpRight: return "arrowshape.turn.up.right"
-            case .arrowshapeTurnUpRightCircle: return "arrowshape.turn.up.right.circle"
-            case .arrowshapeTurnUpRightCircleFill: return "arrowshape.turn.up.right.circle.fill"
-            case .arrowshapeTurnUpRightFill: return "arrowshape.turn.up.right.fill"
-            case .arrowshapeZigzagForward: return "arrowshape.zigzag.forward"
-            case .arrowshapeZigzagForwardFill: return "arrowshape.zigzag.forward.fill"
-            case .arrowshapeZigzagRight: return "arrowshape.zigzag.right"
-            case .arrowshapeZigzagRightFill: return "arrowshape.zigzag.right.fill"
-            case .arrowtriangleBackward: return "arrowtriangle.backward"
-            case .arrowtriangleBackwardCircle: return "arrowtriangle.backward.circle"
-            case .arrowtriangleBackwardCircleFill: return "arrowtriangle.backward.circle.fill"
-            case .arrowtriangleBackwardFill: return "arrowtriangle.backward.fill"
-            case .arrowtriangleBackwardSquare: return "arrowtriangle.backward.square"
-            case .arrowtriangleBackwardSquareFill: return "arrowtriangle.backward.square.fill"
-            case .arrowtriangleDown: return "arrowtriangle.down"
-            case .arrowtriangleDownCircle: return "arrowtriangle.down.circle"
-            case .arrowtriangleDownCircleFill: return "arrowtriangle.down.circle.fill"
-            case .arrowtriangleDownFill: return "arrowtriangle.down.fill"
-            case .arrowtriangleDownSquare: return "arrowtriangle.down.square"
-            case .arrowtriangleDownSquareFill: return "arrowtriangle.down.square.fill"
-            case .arrowtriangleForward: return "arrowtriangle.forward"
-            case .arrowtriangleForwardCircle: return "arrowtriangle.forward.circle"
-            case .arrowtriangleForwardCircleFill: return "arrowtriangle.forward.circle.fill"
-            case .arrowtriangleForwardFill: return "arrowtriangle.forward.fill"
-            case .arrowtriangleForwardSquare: return "arrowtriangle.forward.square"
-            case .arrowtriangleForwardSquareFill: return "arrowtriangle.forward.square.fill"
-            case .arrowtriangleLeft: return "arrowtriangle.left"
-            case .arrowtriangleLeftAndLineVerticalAndArrowtriangleRight: return "arrowtriangle.left.and.line.vertical.and.arrowtriangle.right"
-            case .arrowtriangleLeftCircle: return "arrowtriangle.left.circle"
-            case .arrowtriangleLeftCircleFill: return "arrowtriangle.left.circle.fill"
-            case .arrowtriangleLeftFill: return "arrowtriangle.left.fill"
-            case .arrowtriangleLeftFillAndLineVerticalAndArrowtriangleRightFill: return "arrowtriangle.left.fill.and.line.vertical.and.arrowtriangle.right.fill"
-            case .arrowtriangleLeftSquare: return "arrowtriangle.left.square"
-            case .arrowtriangleLeftSquareFill: return "arrowtriangle.left.square.fill"
-            case .arrowtriangleRight: return "arrowtriangle.right"
-            case .arrowtriangleRightAndLineVerticalAndArrowtriangleLeft: return "arrowtriangle.right.and.line.vertical.and.arrowtriangle.left"
-            case .arrowtriangleRightCircle: return "arrowtriangle.right.circle"
-            case .arrowtriangleRightCircleFill: return "arrowtriangle.right.circle.fill"
-            case .arrowtriangleRightFill: return "arrowtriangle.right.fill"
-            case .arrowtriangleRightFillAndLineVerticalAndArrowtriangleLeftFill: return "arrowtriangle.right.fill.and.line.vertical.and.arrowtriangle.left.fill"
-            case .arrowtriangleRightSquare: return "arrowtriangle.right.square"
-            case .arrowtriangleRightSquareFill: return "arrowtriangle.right.square.fill"
-            case .arrowtriangleUp: return "arrowtriangle.up"
-            case .arrowtriangleUpCircle: return "arrowtriangle.up.circle"
-            case .arrowtriangleUpCircleFill: return "arrowtriangle.up.circle.fill"
-            case .arrowtriangleUpFill: return "arrowtriangle.up.fill"
-            case .arrowtriangleUpSquare: return "arrowtriangle.up.square"
-            case .arrowtriangleUpSquareFill: return "arrowtriangle.up.square.fill"
-            case .aspectratio: return "aspectratio"
-            case .aspectratioFill: return "aspectratio.fill"
-            case .asteriskCircle: return "asterisk.circle"
-            case .asteriskCircleFill: return "asterisk.circle.fill"
-            case .at: return "at"
-            case .atBadgeMinus: return "at.badge.minus"
-            case .atBadgePlus: return "at.badge.plus"
-            case .atCircle: return "at.circle"
-            case .atCircleFill: return "at.circle.fill"
-            case .atom: return "atom"
-            case .australsignCircle: return "australsign.circle"
-            case .australsignCircleFill: return "australsign.circle.fill"
-            case .australsignSquare: return "australsign.square"
-            case .australsignSquareFill: return "australsign.square.fill"
-            case .bCircle: return "b.circle"
-            case .bCircleFill: return "b.circle.fill"
-            case .bSquare: return "b.square"
-            case .bSquareFill: return "b.square.fill"
-            case .backward: return "backward"
-            case .backwardEnd: return "backward.end"
-            case .backwardEndAlt: return "backward.end.alt"
-            case .backwardEndAltFill: return "backward.end.alt.fill"
-            case .backwardEndFill: return "backward.end.fill"
-            case .backwardFill: return "backward.fill"
-            case .backwardFrame: return "backward.frame"
-            case .backwardFrameFill: return "backward.frame.fill"
-            case .badgePlusRadiowavesForward: return "badge.plus.radiowaves.forward"
-            case .badgePlusRadiowavesRight: return "badge.plus.radiowaves.right"
-            case .bag: return "bag"
-            case .bagBadgeMinus: return "bag.badge.minus"
-            case .bagBadgePlus: return "bag.badge.plus"
-            case .bagCircle: return "bag.circle"
-            case .bagCircleFill: return "bag.circle.fill"
-            case .bagFill: return "bag.fill"
-            case .bagFillBadgeMinus: return "bag.fill.badge.minus"
-            case .bagFillBadgePlus: return "bag.fill.badge.plus"
-            case .bahtsignCircle: return "bahtsign.circle"
-            case .bahtsignCircleFill: return "bahtsign.circle.fill"
-            case .bahtsignSquare: return "bahtsign.square"
-            case .bahtsignSquareFill: return "bahtsign.square.fill"
-            case .bandage: return "bandage"
-            case .bandageFill: return "bandage.fill"
-            case .banknote: return "banknote"
-            case .banknoteFill: return "banknote.fill"
-            case .barcode: return "barcode"
-            case .barcodeViewfinder: return "barcode.viewfinder"
-            case .barometer: return "barometer"
-            case .battery0: return "battery.0"
-            case .battery100: return "battery.100"
-            case .battery100Bolt: return "battery.100.bolt"
-            case .battery25: return "battery.25"
-            case .bedDouble: return "bed.double"
-            case .bedDoubleFill: return "bed.double.fill"
-            case .bell: return "bell"
-            case .bellBadge: return "bell.badge"
-            case .bellBadgeFill: return "bell.badge.fill"
-            case .bellCircle: return "bell.circle"
-            case .bellCircleFill: return "bell.circle.fill"
-            case .bellFill: return "bell.fill"
-            case .bellSlash: return "bell.slash"
-            case .bellSlashCircle: return "bell.slash.circle"
-            case .bellSlashCircleFill: return "bell.slash.circle.fill"
-            case .bellSlashFill: return "bell.slash.fill"
-            case .bicycle: return "bicycle"
-            case .bicycleCircle: return "bicycle.circle"
-            case .bicycleCircleFill: return "bicycle.circle.fill"
-            case .binXmark: return "xmark.bin"
-            case .binXmarkFill: return "xmark.bin.fill"
-            case .binoculars: return "binoculars"
-            case .binocularsFill: return "binoculars.fill"
-            case .bitcoinsignCircle: return "bitcoinsign.circle"
-            case .bitcoinsignCircleFill: return "bitcoinsign.circle.fill"
-            case .bitcoinsignSquare: return "bitcoinsign.square"
-            case .bitcoinsignSquareFill: return "bitcoinsign.square.fill"
-            case .bold: return "bold"
-            case .boldItalicUnderline: return "bold.italic.underline"
-            case .boldUnderline: return "bold.underline"
-            case .bolt: return "bolt"
-            case .boltBadgeA: return "bolt.badge.a"
-            case .boltBadgeAFill: return "bolt.badge.a.fill"
-            case .boltCar: return "bolt.car"
-            case .boltCarFill: return "bolt.car.fill"
-            case .boltCircle: return "bolt.circle"
-            case .boltCircleFill: return "bolt.circle.fill"
-            case .boltFill: return "bolt.fill"
-            case .boltFillBatteryblock: return "bolt.fill.batteryblock"
-            case .boltFillBatteryblockFill: return "bolt.fill.batteryblock.fill"
-            case .boltHeart: return "bolt.heart"
-            case .boltHeartFill: return "bolt.heart.fill"
-            case .boltHorizontal: return "bolt.horizontal"
-            case .boltHorizontalCircle: return "bolt.horizontal.circle"
-            case .boltHorizontalCircleFill: return "bolt.horizontal.circle.fill"
-            case .boltHorizontalFill: return "bolt.horizontal.fill"
-            case .boltHorizontalIcloud: return "bolt.horizontal.icloud"
-            case .boltHorizontalIcloudFill: return "bolt.horizontal.icloud.fill"
-            case .boltSlash: return "bolt.slash"
-            case .boltSlashCircle: return "bolt.slash.circle"
-            case .boltSlashCircleFill: return "bolt.slash.circle.fill"
-            case .boltSlashFill: return "bolt.slash.fill"
-            case .bonjour: return "bonjour"
-            case .book: return "book"
-            case .bookCircle: return "book.circle"
-            case .bookCircleFill: return "book.circle.fill"
-            case .bookClosed: return "book.closed"
-            case .bookClosedFill: return "book.closed.fill"
-            case .bookFill: return "book.fill"
-            case .bookmark: return "bookmark"
-            case .bookmarkCircle: return "bookmark.circle"
-            case .bookmarkCircleFill: return "bookmark.circle.fill"
-            case .bookmarkFill: return "bookmark.fill"
-            case .bookmarkSlash: return "bookmark.slash"
-            case .bookmarkSlashFill: return "bookmark.slash.fill"
-            case .booksVertical: return "books.vertical"
-            case .booksVerticalFill: return "books.vertical.fill"
-            case .brazilianrealsignCircle: return "brazilianrealsign.circle"
-            case .brazilianrealsignCircleFill: return "brazilianrealsign.circle.fill"
-            case .brazilianrealsignSquare: return "brazilianrealsign.square"
-            case .brazilianrealsignSquareFill: return "brazilianrealsign.square.fill"
-            case .briefcase: return "briefcase"
-            case .briefcaseFill: return "briefcase.fill"
-            case .bubbleLeft: return "bubble.left"
-            case .bubbleLeftAndBubbleRight: return "bubble.left.and.bubble.right"
-            case .bubbleLeftAndBubbleRightFill: return "bubble.left.and.bubble.right.fill"
-            case .bubbleLeftFill: return "bubble.left.fill"
-            case .bubbleMiddleBottom: return "bubble.middle.bottom"
-            case .bubbleMiddleBottomFill: return "bubble.middle.bottom.fill"
-            case .bubbleMiddleTop: return "bubble.middle.top"
-            case .bubbleMiddleTopFill: return "bubble.middle.top.fill"
-            case .bubbleRight: return "bubble.right"
-            case .bubbleRightFill: return "bubble.right.fill"
-            case .building: return "building"
-            case .building2: return "building.2"
-            case .building2CropCircle: return "building.2.crop.circle"
-            case .building2CropCircleFill: return "building.2.crop.circle.fill"
-            case .building2Fill: return "building.2.fill"
-            case .buildingColumns: return "building.columns"
-            case .buildingColumnsFill: return "building.columns.fill"
-            case .buildingFill: return "building.fill"
-            case .burn: return "burn"
-            case .burst: return "burst"
-            case .burstFill: return "burst.fill"
-            case .bus: return "bus"
-            case .busDoubledecker: return "bus.doubledecker"
-            case .busDoubledeckerFill: return "bus.doubledecker.fill"
-            case .busFill: return "bus.fill"
-            case .cCircle: return "c.circle"
-            case .cCircleFill: return "c.circle.fill"
-            case .cSquare: return "c.square"
-            case .cSquareFill: return "c.square.fill"
-            case .calendar: return "calendar"
-            case .calendarBadgeClock: return "calendar.badge.clock"
-            case .calendarBadgeExclamationmark: return "calendar.badge.exclamationmark"
-            case .calendarBadgeMinus: return "calendar.badge.minus"
-            case .calendarBadgePlus: return "calendar.badge.plus"
-            case .calendarCircle: return "calendar.circle"
-            case .calendarCircleFill: return "calendar.circle.fill"
-            case .camera: return "camera"
-            case .cameraAperture: return "camera.aperture"
-            case .cameraBadgeEllipsis: return "camera.badge.ellipsis"
-            case .cameraCircle: return "camera.circle"
-            case .cameraCircleFill: return "camera.circle.fill"
-            case .cameraFill: return "camera.fill"
-            case .cameraFillBadgeEllipsis: return "camera.fill.badge.ellipsis"
-            case .cameraFilters: return "camera.filters"
-            case .cameraMeteringCenterWeighted: return "camera.metering.center.weighted"
-            case .cameraMeteringCenterWeightedAverage: return "camera.metering.center.weighted.average"
-            case .cameraMeteringMatrix: return "camera.metering.matrix"
-            case .cameraMeteringMultispot: return "camera.metering.multispot"
-            case .cameraMeteringNone: return "camera.metering.none"
-            case .cameraMeteringPartial: return "camera.metering.partial"
-            case .cameraMeteringSpot: return "camera.metering.spot"
-            case .cameraMeteringUnknown: return "camera.metering.unknown"
-            case .cameraOnRectangle: return "camera.on.rectangle"
-            case .cameraOnRectangleFill: return "camera.on.rectangle.fill"
-            case .cameraRotate: return "arrow.triangle.2.circlepath.camera"
-            case .cameraRotateFill: return "arrow.triangle.2.circlepath.camera.fill"
-            case .cameraViewfinder: return "camera.viewfinder"
-            case .candybarphone: return "candybarphone"
-            case .capslock: return "capslock"
-            case .capslockFill: return "capslock.fill"
-            case .capsule: return "capsule"
-            case .capsuleFill: return "capsule.fill"
-            case .capsulePortrait: return "capsule.portrait"
-            case .capsulePortraitFill: return "capsule.portrait.fill"
-            case .captionsBubble: return "captions.bubble"
-            case .captionsBubbleFill: return "captions.bubble.fill"
-            case .car: return "car"
-            case .car2: return "car.2"
-            case .car2Fill: return "car.2.fill"
-            case .carCircle: return "car.circle"
-            case .carCircleFill: return "car.circle.fill"
-            case .carFill: return "car.fill"
-            case .cart: return "cart"
-            case .cartBadgeMinus: return "cart.badge.minus"
-            case .cartBadgePlus: return "cart.badge.plus"
-            case .cartCircle: return "cart.circle"
-            case .cartCircleFill: return "cart.circle.fill"
-            case .cartFill: return "cart.fill"
-            case .cartFillBadgeMinus: return "cart.fill.badge.minus"
-            case .cartFillBadgePlus: return "cart.fill.badge.plus"
-            case .`case`: return "case"
-            case .caseFill: return "case.fill"
-            case .cedisignCircle: return "cedisign.circle"
-            case .cedisignCircleFill: return "cedisign.circle.fill"
-            case .cedisignSquare: return "cedisign.square"
-            case .cedisignSquareFill: return "cedisign.square.fill"
-            case .centsignCircle: return "centsign.circle"
-            case .centsignCircleFill: return "centsign.circle.fill"
-            case .centsignSquare: return "centsign.square"
-            case .centsignSquareFill: return "centsign.square.fill"
-            case .character: return "character"
-            case .characterBookClosed: return "character.book.closed"
-            case .characterBookClosedFill: return "character.book.closed.fill"
-            case .chartBar: return "chart.bar"
-            case .chartBarDocHorizontal: return "chart.bar.doc.horizontal"
-            case .chartBarDocHorizontalFill: return "chart.bar.doc.horizontal.fill"
-            case .chartBarFill: return "chart.bar.fill"
-            case .chartBarXaxis: return "chart.bar.xaxis"
-            case .chartPie: return "chart.pie"
-            case .chartPieFill: return "chart.pie.fill"
-            case .checkerboardRectangle: return "checkerboard.rectangle"
-            case .checkmark: return "checkmark"
-            case .checkmarkCircle: return "checkmark.circle"
-            case .checkmarkCircleFill: return "checkmark.circle.fill"
-            case .checkmarkIcloud: return "checkmark.icloud"
-            case .checkmarkIcloudFill: return "checkmark.icloud.fill"
-            case .checkmarkRectangle: return "checkmark.rectangle"
-            case .checkmarkRectangleFill: return "checkmark.rectangle.fill"
-            case .checkmarkRectanglePortrait: return "checkmark.rectangle.portrait"
-            case .checkmarkRectanglePortraitFill: return "checkmark.rectangle.portrait.fill"
-            case .checkmarkSeal: return "checkmark.seal"
-            case .checkmarkSealFill: return "checkmark.seal.fill"
-            case .checkmarkShield: return "checkmark.shield"
-            case .checkmarkShieldFill: return "checkmark.shield.fill"
-            case .checkmarkSquare: return "checkmark.square"
-            case .checkmarkSquareFill: return "checkmark.square.fill"
-            case .chevronBackward: return "chevron.backward"
-            case .chevronBackward2: return "chevron.backward.2"
-            case .chevronBackwardCircle: return "chevron.backward.circle"
-            case .chevronBackwardCircleFill: return "chevron.backward.circle.fill"
-            case .chevronBackwardSquare: return "chevron.backward.square"
-            case .chevronBackwardSquareFill: return "chevron.backward.square.fill"
-            case .chevronCompactDown: return "chevron.compact.down"
-            case .chevronCompactLeft: return "chevron.compact.left"
-            case .chevronCompactRight: return "chevron.compact.right"
-            case .chevronCompactUp: return "chevron.compact.up"
-            case .chevronDown: return "chevron.down"
-            case .chevronDownCircle: return "chevron.down.circle"
-            case .chevronDownCircleFill: return "chevron.down.circle.fill"
-            case .chevronDownSquare: return "chevron.down.square"
-            case .chevronDownSquareFill: return "chevron.down.square.fill"
-            case .chevronForward: return "chevron.forward"
-            case .chevronForward2: return "chevron.forward.2"
-            case .chevronForwardCircle: return "chevron.forward.circle"
-            case .chevronForwardCircleFill: return "chevron.forward.circle.fill"
-            case .chevronForwardSquare: return "chevron.forward.square"
-            case .chevronForwardSquareFill: return "chevron.forward.square.fill"
-            case .chevronLeft: return "chevron.left"
-            case .chevronLeft2: return "chevron.left.2"
-            case .chevronLeftCircle: return "chevron.left.circle"
-            case .chevronLeftCircleFill: return "chevron.left.circle.fill"
-            case .chevronLeftSlashChevronRight: return "chevron.left.slash.chevron.right"
-            case .chevronLeftSquare: return "chevron.left.square"
-            case .chevronLeftSquareFill: return "chevron.left.square.fill"
-            case .chevronRight: return "chevron.right"
-            case .chevronRight2: return "chevron.right.2"
-            case .chevronRightCircle: return "chevron.right.circle"
-            case .chevronRightCircleFill: return "chevron.right.circle.fill"
-            case .chevronRightSquare: return "chevron.right.square"
-            case .chevronRightSquareFill: return "chevron.right.square.fill"
-            case .chevronUp: return "chevron.up"
-            case .chevronUpChevronDown: return "chevron.up.chevron.down"
-            case .chevronUpCircle: return "chevron.up.circle"
-            case .chevronUpCircleFill: return "chevron.up.circle.fill"
-            case .chevronUpSquare: return "chevron.up.square"
-            case .chevronUpSquareFill: return "chevron.up.square.fill"
-            case .circle: return "circle"
-            case .circleBottomhalfFill: return "circle.bottomhalf.fill"
-            case .circleBottomthirdSplit: return "sleep"
-            case .circleCircle: return "circle.circle"
-            case .circleCircleFill: return "circle.circle.fill"
-            case .circleDashed: return "circle.dashed"
-            case .circleDashedInsetFill: return "circle.dashed.inset.fill"
-            case .circleFill: return "circle.fill"
-            case .circleFillSquareFill: return "circle.fill.square.fill"
-            case .circleGrid2x2: return "circle.grid.2x2"
-            case .circleGrid2x2Fill: return "circle.grid.2x2.fill"
-            case .circleGrid3x3: return "circle.grid.3x3"
-            case .circleGrid3x3Fill: return "circle.grid.3x3.fill"
-            case .circleGridCross: return "circle.grid.cross"
-            case .circleGridCrossDownFill: return "circle.grid.cross.down.fill"
-            case .circleGridCrossFill: return "circle.grid.cross.fill"
-            case .circleGridCrossLeftFill: return "circle.grid.cross.left.fill"
-            case .circleGridCrossRightFill: return "circle.grid.cross.right.fill"
-            case .circleGridCrossUpFill: return "circle.grid.cross.up.fill"
-            case .circleGridHex: return "circles.hexagongrid"
-            case .circleGridHexFill: return "circles.hexagongrid.fill"
-            case .circleLefthalfFill: return "circle.lefthalf.fill"
-            case .circleRighthalfFill: return "circle.righthalf.fill"
-            case .circleSquare: return "circle.square"
-            case .circleTophalfFill: return "circle.tophalf.fill"
-            case .circlebadge: return "circlebadge"
-            case .circlebadge2: return "circlebadge.2"
-            case .circlebadge2Fill: return "circlebadge.2.fill"
-            case .circlebadgeFill: return "circlebadge.fill"
-            case .circlesHexagongrid: return "circles.hexagongrid"
-            case .circlesHexagongridFill: return "circles.hexagongrid.fill"
-            case .circlesHexagonpath: return "circles.hexagonpath"
-            case .circlesHexagonpathFill: return "circles.hexagonpath.fill"
-            case .clear: return "clear"
-            case .clearFill: return "clear.fill"
-            case .clock: return "clock"
-            case .clockArrow2Circlepath: return "clock.arrow.2.circlepath"
-            case .clockArrowCirclepath: return "clock.arrow.circlepath"
-            case .clockFill: return "clock.fill"
-            case .cloud: return "cloud"
-            case .cloudBolt: return "cloud.bolt"
-            case .cloudBoltFill: return "cloud.bolt.fill"
-            case .cloudBoltRain: return "cloud.bolt.rain"
-            case .cloudBoltRainFill: return "cloud.bolt.rain.fill"
-            case .cloudDrizzle: return "cloud.drizzle"
-            case .cloudDrizzleFill: return "cloud.drizzle.fill"
-            case .cloudFill: return "cloud.fill"
-            case .cloudFog: return "cloud.fog"
-            case .cloudFogFill: return "cloud.fog.fill"
-            case .cloudHail: return "cloud.hail"
-            case .cloudHailFill: return "cloud.hail.fill"
-            case .cloudHeavyrain: return "cloud.heavyrain"
-            case .cloudHeavyrainFill: return "cloud.heavyrain.fill"
-            case .cloudMoon: return "cloud.moon"
-            case .cloudMoonBolt: return "cloud.moon.bolt"
-            case .cloudMoonBoltFill: return "cloud.moon.bolt.fill"
-            case .cloudMoonFill: return "cloud.moon.fill"
-            case .cloudMoonRain: return "cloud.moon.rain"
-            case .cloudMoonRainFill: return "cloud.moon.rain.fill"
-            case .cloudRain: return "cloud.rain"
-            case .cloudRainFill: return "cloud.rain.fill"
-            case .cloudSleet: return "cloud.sleet"
-            case .cloudSleetFill: return "cloud.sleet.fill"
-            case .cloudSnow: return "cloud.snow"
-            case .cloudSnowFill: return "cloud.snow.fill"
-            case .cloudSun: return "cloud.sun"
-            case .cloudSunBolt: return "cloud.sun.bolt"
-            case .cloudSunBoltFill: return "cloud.sun.bolt.fill"
-            case .cloudSunFill: return "cloud.sun.fill"
-            case .cloudSunRain: return "cloud.sun.rain"
-            case .cloudSunRainFill: return "cloud.sun.rain.fill"
-            case .coloncurrencysignCircle: return "coloncurrencysign.circle"
-            case .coloncurrencysignCircleFill: return "coloncurrencysign.circle.fill"
-            case .coloncurrencysignSquare: return "coloncurrencysign.square"
-            case .coloncurrencysignSquareFill: return "coloncurrencysign.square.fill"
-            case .comb: return "comb"
-            case .combFill: return "comb.fill"
-            case .command: return "command"
-            case .commandCircle: return "command.circle"
-            case .commandCircleFill: return "command.circle.fill"
-            case .commandSquare: return "command.square"
-            case .commandSquareFill: return "command.square.fill"
-            case .cone: return "cone"
-            case .coneFill: return "cone.fill"
-            case .contextualmenuAndCursorarrow: return "contextualmenu.and.cursorarrow"
-            case .control: return "control"
-            case .cpu: return "cpu"
-            case .creditcard: return "creditcard"
-            case .creditcardCircle: return "creditcard.circle"
-            case .creditcardCircleFill: return "creditcard.circle.fill"
-            case .creditcardFill: return "creditcard.fill"
-            case .crop: return "crop"
-            case .cropRotate: return "crop.rotate"
-            case .cross: return "cross"
-            case .crossCase: return "cross.case"
-            case .crossCaseFill: return "cross.case.fill"
-            case .crossCircle: return "cross.circle"
-            case .crossCircleFill: return "cross.circle.fill"
-            case .crossFill: return "cross.fill"
-            case .crown: return "crown"
-            case .crownFill: return "crown.fill"
-            case .cruzeirosignCircle: return "cruzeirosign.circle"
-            case .cruzeirosignCircleFill: return "cruzeirosign.circle.fill"
-            case .cruzeirosignSquare: return "cruzeirosign.square"
-            case .cruzeirosignSquareFill: return "cruzeirosign.square.fill"
-            case .cube: return "cube"
-            case .cubeBox: return "shippingbox"
-            case .cubeBoxFill: return "shippingbox.fill"
-            case .cubeFill: return "cube.fill"
-            case .cubeTransparent: return "cube.transparent"
-            case .cubeTransparentFill: return "cube.transparent.fill"
-            case .curlybraces: return "curlybraces"
-            case .curlybracesSquare: return "curlybraces.square"
-            case .curlybracesSquareFill: return "curlybraces.square.fill"
-            case .cursorRays: return "cursorarrow.rays"
-            case .cursorarrow: return "cursorarrow"
-            case .cursorarrowAndSquareOnSquareDashed: return "cursorarrow.and.square.on.square.dashed"
-            case .cursorarrowClick: return "cursorarrow.click"
-            case .cursorarrowClick2: return "cursorarrow.click.2"
-            case .cursorarrowClickBadgeClock: return "cursorarrow.click.badge.clock"
-            case .cursorarrowMotionlines: return "cursorarrow.motionlines"
-            case .cursorarrowMotionlinesClick: return "cursorarrow.motionlines.click"
-            case .cursorarrowRays: return "cursorarrow.rays"
-            case .cursorarrowSquare: return "cursorarrow.square"
-            case .cylinder: return "cylinder"
-            case .cylinderFill: return "cylinder.fill"
-            case .cylinderSplit1x2: return "cylinder.split.1x2"
-            case .cylinderSplit1x2Fill: return "cylinder.split.1x2.fill"
-            case .dCircle: return "d.circle"
-            case .dCircleFill: return "d.circle.fill"
-            case .dSquare: return "d.square"
-            case .dSquareFill: return "d.square.fill"
-            case .decreaseIndent: return "decrease.indent"
-            case .decreaseQuotelevel: return "decrease.quotelevel"
-            case .deleteLeft: return "delete.left"
-            case .deleteLeftFill: return "delete.left.fill"
-            case .deleteRight: return "delete.right"
-            case .deleteRightFill: return "delete.right.fill"
-            case .deskclock: return "deskclock"
-            case .deskclockFill: return "deskclock.fill"
-            case .desktopcomputer: return "desktopcomputer"
-            case .dial: return "dial.min"
-            case .dialFill: return "dial.min.fill"
-            case .dialMax: return "dial.max"
-            case .dialMaxFill: return "dial.max.fill"
-            case .dialMin: return "dial.min"
-            case .dialMinFill: return "dial.min.fill"
-            case .diamond: return "diamond"
-            case .diamondFill: return "diamond.fill"
-            case .dieFace1: return "die.face.1"
-            case .dieFace1Fill: return "die.face.1.fill"
-            case .dieFace2: return "die.face.2"
-            case .dieFace2Fill: return "die.face.2.fill"
-            case .dieFace3: return "die.face.3"
-            case .dieFace3Fill: return "die.face.3.fill"
-            case .dieFace4: return "die.face.4"
-            case .dieFace4Fill: return "die.face.4.fill"
-            case .dieFace5: return "die.face.5"
-            case .dieFace5Fill: return "die.face.5.fill"
-            case .dieFace6: return "die.face.6"
-            case .dieFace6Fill: return "die.face.6.fill"
-            case .directcurrent: return "directcurrent"
-            case .display: return "display"
-            case .display2: return "display.2"
-            case .displayTrianglebadgeExclamationmark: return "display.trianglebadge.exclamationmark"
-            case .divide: return "divide"
-            case .divideCircle: return "divide.circle"
-            case .divideCircleFill: return "divide.circle.fill"
-            case .divideSquare: return "divide.square"
-            case .divideSquareFill: return "divide.square.fill"
-            case .doc: return "doc"
-            case .docAppend: return "doc.append"
-            case .docAppendFill: return "doc.append.fill"
-            case .docBadgeEllipsis: return "doc.badge.ellipsis"
-            case .docBadgeGearshape: return "doc.badge.gearshape"
-            case .docBadgeGearshapeFill: return "doc.badge.gearshape.fill"
-            case .docBadgePlus: return "doc.badge.plus"
-            case .docCircle: return "doc.circle"
-            case .docCircleFill: return "doc.circle.fill"
-            case .docFill: return "doc.fill"
-            case .docFillBadgeEllipsis: return "doc.fill.badge.ellipsis"
-            case .docFillBadgePlus: return "doc.fill.badge.plus"
-            case .docOnClipboard: return "doc.on.clipboard"
-            case .docOnClipboardFill: return "doc.on.clipboard.fill"
-            case .docOnDoc: return "doc.on.doc"
-            case .docOnDocFill: return "doc.on.doc.fill"
-            case .docPlaintext: return "doc.plaintext"
-            case .docPlaintextFill: return "doc.plaintext.fill"
-            case .docRichtext: return "doc.richtext"
-            case .docRichtextFill: return "doc.richtext.fill"
-            case .docText: return "doc.text"
-            case .docTextBelowEcg: return "doc.text.below.ecg"
-            case .docTextBelowEcgFill: return "doc.text.below.ecg.fill"
-            case .docTextFill: return "doc.text.fill"
-            case .docTextFillViewfinder: return "doc.text.fill.viewfinder"
-            case .docTextMagnifyingglass: return "doc.text.magnifyingglass"
-            case .docTextViewfinder: return "doc.text.viewfinder"
-            case .docZipper: return "doc.zipper"
-            case .dockArrowDownRectangle: return "dock.arrow.down.rectangle"
-            case .dockArrowUpRectangle: return "dock.arrow.up.rectangle"
-            case .dockRectangle: return "dock.rectangle"
-            case .dollarsignCircle: return "dollarsign.circle"
-            case .dollarsignCircleFill: return "dollarsign.circle.fill"
-            case .dollarsignSquare: return "dollarsign.square"
-            case .dollarsignSquareFill: return "dollarsign.square.fill"
-            case .dongsignCircle: return "dongsign.circle"
-            case .dongsignCircleFill: return "dongsign.circle.fill"
-            case .dongsignSquare: return "dongsign.square"
-            case .dongsignSquareFill: return "dongsign.square.fill"
-            case .dotArrowtrianglesUpRightDownLeftCircle: return "dot.arrowtriangles.up.right.down.left.circle"
-            case .dotCircleAndCursorarrow: return "dot.circle.and.cursorarrow"
-            case .dotRadiowavesForward: return "dot.radiowaves.forward"
-            case .dotRadiowavesLeftAndRight: return "dot.radiowaves.left.and.right"
-            case .dotRadiowavesRight: return "dot.radiowaves.right"
-            case .dotSquare: return "dot.square"
-            case .dotSquareFill: return "dot.square.fill"
-            case .dotSquareshape: return "dot.squareshape"
-            case .dotSquareshapeFill: return "dot.squareshape.fill"
-            case .dotSquareshapeSplit2x2: return "dot.squareshape.split.2x2"
-            case .dpad: return "dpad"
-            case .dpadDownFill: return "dpad.down.fill"
-            case .dpadFill: return "dpad.fill"
-            case .dpadLeftFill: return "dpad.left.fill"
-            case .dpadRightFill: return "dpad.right.fill"
-            case .dpadUpFill: return "dpad.up.fill"
-            case .drop: return "drop"
-            case .dropFill: return "drop.fill"
-            case .dropTriangle: return "drop.triangle"
-            case .dropTriangleFill: return "drop.triangle.fill"
-            case .eCircle: return "e.circle"
-            case .eCircleFill: return "e.circle.fill"
-            case .eSquare: return "e.square"
-            case .eSquareFill: return "e.square.fill"
-            case .ear: return "ear"
-            case .earBadgeCheckmark: return "ear.badge.checkmark"
-            case .earFill: return "ear.fill"
-            case .earTrianglebadgeExclamationmark: return "ear.trianglebadge.exclamationmark"
-            case .earpods: return "earpods"
-            case .eject: return "eject"
-            case .ejectCircle: return "eject.circle"
-            case .ejectCircleFill: return "eject.circle.fill"
-            case .ejectFill: return "eject.fill"
-            case .ellipsesBubble: return "ellipsis.bubble"
-            case .ellipsesBubbleFill: return "ellipsis.bubble.fill"
-            case .ellipsis: return "ellipsis"
-            case .ellipsisBubble: return "ellipsis.bubble"
-            case .ellipsisBubbleFill: return "ellipsis.bubble.fill"
-            case .ellipsisCircle: return "ellipsis.circle"
-            case .ellipsisCircleFill: return "ellipsis.circle.fill"
-            case .ellipsisRectangle: return "ellipsis.rectangle"
-            case .ellipsisRectangleFill: return "ellipsis.rectangle.fill"
-            case .envelope: return "envelope"
-            case .envelopeArrowTriangleBranch: return "envelope.arrow.triangle.branch"
-            case .envelopeArrowTriangleBranchFill: return "envelope.arrow.triangle.branch.fill"
-            case .envelopeBadge: return "envelope.badge"
-            case .envelopeBadgeFill: return "envelope.badge.fill"
-            case .envelopeBadgeShieldLeadinghalfFill: return "envelope.badge.shield.leadinghalf.fill"
-            case .envelopeCircle: return "envelope.circle"
-            case .envelopeCircleFill: return "envelope.circle.fill"
-            case .envelopeFill: return "envelope.fill"
-            case .envelopeFillBadgeShieldTrailinghalfFill: return "envelope.fill.badge.shield.trailinghalf.fill"
-            case .envelopeOpen: return "envelope.open"
-            case .envelopeOpenFill: return "envelope.open.fill"
-            case .equal: return "equal"
-            case .equalCircle: return "equal.circle"
-            case .equalCircleFill: return "equal.circle.fill"
-            case .equalSquare: return "equal.square"
-            case .equalSquareFill: return "equal.square.fill"
-            case .escape: return "escape"
-            case .esim: return "esim"
-            case .esimFill: return "esim.fill"
-            case .eurosignCircle: return "eurosign.circle"
-            case .eurosignCircleFill: return "eurosign.circle.fill"
-            case .eurosignSquare: return "eurosign.square"
-            case .eurosignSquareFill: return "eurosign.square.fill"
-            case .exclamationmark: return "exclamationmark"
-            case .exclamationmark2: return "exclamationmark.2"
-            case .exclamationmark3: return "exclamationmark.3"
-            case .exclamationmarkApplewatch: return "exclamationmark.applewatch"
-            case .exclamationmarkArrowCirclepath: return "exclamationmark.arrow.circlepath"
-            case .exclamationmarkArrowTriangle2Circlepath: return "exclamationmark.arrow.triangle.2.circlepath"
-            case .exclamationmarkBubble: return "exclamationmark.bubble"
-            case .exclamationmarkBubbleFill: return "exclamationmark.bubble.fill"
-            case .exclamationmarkCircle: return "exclamationmark.circle"
-            case .exclamationmarkCircleFill: return "exclamationmark.circle.fill"
-            case .exclamationmarkIcloud: return "exclamationmark.icloud"
-            case .exclamationmarkIcloudFill: return "exclamationmark.icloud.fill"
-            case .exclamationmarkOctagon: return "exclamationmark.octagon"
-            case .exclamationmarkOctagonFill: return "exclamationmark.octagon.fill"
-            case .exclamationmarkShield: return "exclamationmark.shield"
-            case .exclamationmarkShieldFill: return "exclamationmark.shield.fill"
-            case .exclamationmarkSquare: return "exclamationmark.square"
-            case .exclamationmarkSquareFill: return "exclamationmark.square.fill"
-            case .exclamationmarkTriangle: return "exclamationmark.triangle"
-            case .exclamationmarkTriangleFill: return "exclamationmark.triangle.fill"
-            case .externaldrive: return "externaldrive"
-            case .externaldriveBadgeCheckmark: return "externaldrive.badge.checkmark"
-            case .externaldriveBadgeIcloud: return "externaldrive.badge.icloud"
-            case .externaldriveBadgeMinus: return "externaldrive.badge.minus"
-            case .externaldriveBadgePersonCrop: return "externaldrive.badge.person.crop"
-            case .externaldriveBadgePlus: return "externaldrive.badge.plus"
-            case .externaldriveBadgeTimemachine: return "externaldrive.badge.timemachine"
-            case .externaldriveBadgeWifi: return "externaldrive.badge.wifi"
-            case .externaldriveBadgeXmark: return "externaldrive.badge.xmark"
-            case .externaldriveConnectedToLineBelow: return "externaldrive.connected.to.line.below"
-            case .externaldriveConnectedToLineBelowFill: return "externaldrive.connected.to.line.below.fill"
-            case .externaldriveFill: return "externaldrive.fill"
-            case .externaldriveFillBadgeCheckmark: return "externaldrive.fill.badge.checkmark"
-            case .externaldriveFillBadgeIcloud: return "externaldrive.fill.badge.icloud"
-            case .externaldriveFillBadgeMinus: return "externaldrive.fill.badge.minus"
-            case .externaldriveFillBadgePersonCrop: return "externaldrive.fill.badge.person.crop"
-            case .externaldriveFillBadgePlus: return "externaldrive.fill.badge.plus"
-            case .externaldriveFillBadgeTimemachine: return "externaldrive.fill.badge.timemachine"
-            case .externaldriveFillBadgeWifi: return "externaldrive.fill.badge.wifi"
-            case .externaldriveFillBadgeXmark: return "externaldrive.fill.badge.xmark"
-            case .eye: return "eye"
-            case .eyeCircle: return "eye.circle"
-            case .eyeCircleFill: return "eye.circle.fill"
-            case .eyeFill: return "eye.fill"
-            case .eyeSlash: return "eye.slash"
-            case .eyeSlashFill: return "eye.slash.fill"
-            case .eyebrow: return "eyebrow"
-            case .eyedropper: return "eyedropper"
-            case .eyedropperFull: return "eyedropper.full"
-            case .eyedropperHalffull: return "eyedropper.halffull"
-            case .eyeglasses: return "eyeglasses"
-            case .eyes: return "eyes"
-            case .eyesInverse: return "eyes.inverse"
-            case .fCircle: return "f.circle"
-            case .fCircleFill: return "f.circle.fill"
-            case .fCursive: return "f.cursive"
-            case .fCursiveCircle: return "f.cursive.circle"
-            case .fCursiveCircleFill: return "f.cursive.circle.fill"
-            case .fSquare: return "f.square"
-            case .fSquareFill: return "f.square.fill"
-            case .faceDashed: return "face.dashed"
-            case .faceDashedFill: return "face.dashed.fill"
-            case .faceSmiling: return "face.smiling"
-            case .faceSmilingFill: return "face.smiling.fill"
-            case .faceid: return "faceid"
-            case .faxmachine: return "faxmachine"
-            case .fiberchannel: return "fiberchannel"
-            case .figureStand: return "figure.stand"
-            case .figureStandLineDottedFigureStand: return "figure.stand.line.dotted.figure.stand"
-            case .figureWalk: return "figure.walk"
-            case .figureWalkCircle: return "figure.walk.circle"
-            case .figureWalkCircleFill: return "figure.walk.circle.fill"
-            case .figureWalkDiamond: return "figure.walk.diamond"
-            case .figureWalkDiamondFill: return "figure.walk.diamond.fill"
-            case .figureWave: return "figure.wave"
-            case .figureWaveCircle: return "figure.wave.circle"
-            case .figureWaveCircleFill: return "figure.wave.circle.fill"
-            case .filemenuAndCursorarrow: return "filemenu.and.cursorarrow"
-            case .filemenuAndSelection: return "filemenu.and.selection"
-            case .film: return "film"
-            case .filmFill: return "film.fill"
-            case .flag: return "flag"
-            case .flagBadgeEllipsis: return "flag.badge.ellipsis"
-            case .flagBadgeEllipsisFill: return "flag.badge.ellipsis.fill"
-            case .flagCircle: return "flag.circle"
-            case .flagCircleFill: return "flag.circle.fill"
-            case .flagFill: return "flag.fill"
-            case .flagSlash: return "flag.slash"
-            case .flagSlashCircle: return "flag.slash.circle"
-            case .flagSlashCircleFill: return "flag.slash.circle.fill"
-            case .flagSlashFill: return "flag.slash.fill"
-            case .flame: return "flame"
-            case .flameFill: return "flame.fill"
-            case .flashlightOffFill: return "flashlight.off.fill"
-            case .flashlightOnFill: return "flashlight.on.fill"
-            case .flipHorizontal: return "arrow.left.and.right.righttriangle.left.righttriangle.right"
-            case .flipHorizontalFill: return "arrow.left.and.right.righttriangle.left.righttriangle.right.fill"
-            case .flipphone: return "flipphone"
-            case .florinsignCircle: return "florinsign.circle"
-            case .florinsignCircleFill: return "florinsign.circle.fill"
-            case .florinsignSquare: return "florinsign.square"
-            case .florinsignSquareFill: return "florinsign.square.fill"
-            case .flowchart: return "flowchart"
-            case .flowchartFill: return "flowchart.fill"
-            case .fn: return "fn"
-            case .folder: return "folder"
-            case .folderBadgeGear: return "folder.badge.gear"
-            case .folderBadgeMinus: return "folder.badge.minus"
-            case .folderBadgePersonCrop: return "folder.badge.person.crop"
-            case .folderBadgePlus: return "folder.badge.plus"
-            case .folderBadgeQuestionmark: return "folder.badge.questionmark"
-            case .folderCircle: return "folder.circle"
-            case .folderCircleFill: return "folder.circle.fill"
-            case .folderFill: return "folder.fill"
-            case .folderFillBadgeGear: return "folder.fill.badge.gear"
-            case .folderFillBadgeMinus: return "folder.fill.badge.minus"
-            case .folderFillBadgePersonCrop: return "folder.fill.badge.person.crop"
-            case .folderFillBadgePlus: return "folder.fill.badge.plus"
-            case .folderFillBadgeQuestionmark: return "folder.fill.badge.questionmark"
-            case .forward: return "forward"
-            case .forwardEnd: return "forward.end"
-            case .forwardEndAlt: return "forward.end.alt"
-            case .forwardEndAltFill: return "forward.end.alt.fill"
-            case .forwardEndFill: return "forward.end.fill"
-            case .forwardFill: return "forward.fill"
-            case .forwardFrame: return "forward.frame"
-            case .forwardFrameFill: return "forward.frame.fill"
-            case .francsignCircle: return "francsign.circle"
-            case .francsignCircleFill: return "francsign.circle.fill"
-            case .francsignSquare: return "francsign.square"
-            case .francsignSquareFill: return "francsign.square.fill"
-            case .function: return "function"
-            case .fx: return "fx"
-            case .gCircle: return "g.circle"
-            case .gCircleFill: return "g.circle.fill"
-            case .gSquare: return "g.square"
-            case .gSquareFill: return "g.square.fill"
-            case .gamecontroller: return "gamecontroller"
-            case .gamecontrollerFill: return "gamecontroller.fill"
-            case .gauge: return "gauge"
-            case .gaugeBadgeMinus: return "gauge.badge.minus"
-            case .gaugeBadgePlus: return "gauge.badge.plus"
-            case .gear: return "gear"
-            case .gearshape: return "gearshape"
-            case .gearshape2: return "gearshape.2"
-            case .gearshape2Fill: return "gearshape.2.fill"
-            case .gearshapeFill: return "gearshape.fill"
-            case .gift: return "gift"
-            case .giftCircle: return "gift.circle"
-            case .giftCircleFill: return "gift.circle.fill"
-            case .giftFill: return "gift.fill"
-            case .giftcard: return "giftcard"
-            case .giftcardFill: return "giftcard.fill"
-            case .globe: return "globe"
-            case .gobackward: return "gobackward"
-            case .gobackward10: return "gobackward.10"
-            case .gobackward15: return "gobackward.15"
-            case .gobackward30: return "gobackward.30"
-            case .gobackward45: return "gobackward.45"
-            case .gobackward60: return "gobackward.60"
-            case .gobackward75: return "gobackward.75"
-            case .gobackward90: return "gobackward.90"
-            case .gobackwardMinus: return "gobackward.minus"
-            case .goforward: return "goforward"
-            case .goforward10: return "goforward.10"
-            case .goforward15: return "goforward.15"
-            case .goforward30: return "goforward.30"
-            case .goforward45: return "goforward.45"
-            case .goforward60: return "goforward.60"
-            case .goforward75: return "goforward.75"
-            case .goforward90: return "goforward.90"
-            case .goforwardPlus: return "goforward.plus"
-            case .graduationcap: return "graduationcap"
-            case .graduationcapFill: return "graduationcap.fill"
-            case .greaterthan: return "greaterthan"
-            case .greaterthanCircle: return "greaterthan.circle"
-            case .greaterthanCircleFill: return "greaterthan.circle.fill"
-            case .greaterthanSquare: return "greaterthan.square"
-            case .greaterthanSquareFill: return "greaterthan.square.fill"
-            case .greetingcard: return "greetingcard"
-            case .greetingcardFill: return "greetingcard.fill"
-            case .grid: return "grid"
-            case .gridCircle: return "grid.circle"
-            case .gridCircleFill: return "grid.circle.fill"
-            case .guaranisignCircle: return "guaranisign.circle"
-            case .guaranisignCircleFill: return "guaranisign.circle.fill"
-            case .guaranisignSquare: return "guaranisign.square"
-            case .guaranisignSquareFill: return "guaranisign.square.fill"
-            case .guitars: return "guitars"
-            case .guitarsFill: return "guitars.fill"
-            case .gyroscope: return "gyroscope"
-            case .hCircle: return "h.circle"
-            case .hCircleFill: return "h.circle.fill"
-            case .hSquare: return "h.square"
-            case .hSquareFill: return "h.square.fill"
-            case .hSquareFillOnSquareFill: return "h.square.fill.on.square.fill"
-            case .hSquareOnSquare: return "h.square.on.square"
-            case .hammer: return "hammer"
-            case .hammerFill: return "hammer.fill"
-            case .handDraw: return "hand.draw"
-            case .handDrawFill: return "hand.draw.fill"
-            case .handPointDown: return "hand.point.down"
-            case .handPointDownFill: return "hand.point.down.fill"
-            case .handPointLeft: return "hand.point.left"
-            case .handPointLeftFill: return "hand.point.left.fill"
-            case .handPointRight: return "hand.point.right"
-            case .handPointRightFill: return "hand.point.right.fill"
-            case .handPointUp: return "hand.point.up"
-            case .handPointUpBraille: return "hand.point.up.braille"
-            case .handPointUpBrailleFill: return "hand.point.up.braille.fill"
-            case .handPointUpFill: return "hand.point.up.fill"
-            case .handPointUpLeft: return "hand.point.up.left"
-            case .handPointUpLeftFill: return "hand.point.up.left.fill"
-            case .handRaised: return "hand.raised"
-            case .handRaisedFill: return "hand.raised.fill"
-            case .handRaisedSlash: return "hand.raised.slash"
-            case .handRaisedSlashFill: return "hand.raised.slash.fill"
-            case .handTap: return "hand.tap"
-            case .handTapFill: return "hand.tap.fill"
-            case .handThumbsdown: return "hand.thumbsdown"
-            case .handThumbsdownFill: return "hand.thumbsdown.fill"
-            case .handThumbsup: return "hand.thumbsup"
-            case .handThumbsupFill: return "hand.thumbsup.fill"
-            case .handWave: return "hand.wave"
-            case .handWaveFill: return "hand.wave.fill"
-            case .handsClap: return "hands.clap"
-            case .handsClapFill: return "hands.clap.fill"
-            case .handsSparkles: return "hands.sparkles"
-            case .handsSparklesFill: return "hands.sparkles.fill"
-            case .hare: return "hare"
-            case .hareFill: return "hare.fill"
-            case .headphones: return "headphones"
-            case .headphonesCircle: return "headphones.circle"
-            case .headphonesCircleFill: return "headphones.circle.fill"
-            case .hearingaidEar: return "hearingaid.ear"
-            case .heart: return "heart"
-            case .heartCircle: return "heart.circle"
-            case .heartCircleFill: return "heart.circle.fill"
-            case .heartFill: return "heart.fill"
-            case .heartSlash: return "heart.slash"
-            case .heartSlashCircle: return "heart.slash.circle"
-            case .heartSlashCircleFill: return "heart.slash.circle.fill"
-            case .heartSlashFill: return "heart.slash.fill"
-            case .heartTextSquare: return "heart.text.square"
-            case .heartTextSquareFill: return "heart.text.square.fill"
-            case .helm: return "helm"
-            case .hexagon: return "hexagon"
-            case .hexagonFill: return "hexagon.fill"
-            case .hifispeaker: return "hifispeaker"
-            case .hifispeaker2: return "hifispeaker.2"
-            case .hifispeaker2Fill: return "hifispeaker.2.fill"
-            case .hifispeakerAndHomepod: return "hifispeaker.and.homepod"
-            case .hifispeakerAndHomepodFill: return "hifispeaker.and.homepod.fill"
-            case .hifispeakerFill: return "hifispeaker.fill"
-            case .highlighter: return "highlighter"
-            case .homekit: return "homekit"
-            case .homepod: return "homepod"
-            case .homepod2: return "homepod.2"
-            case .homepod2Fill: return "homepod.2.fill"
-            case .homepodFill: return "homepod.fill"
-            case .hourglass: return "hourglass"
-            case .hourglassBadgePlus: return "hourglass.badge.plus"
-            case .hourglassBottomhalfFill: return "hourglass.bottomhalf.fill"
-            case .hourglassTophalfFill: return "hourglass.tophalf.fill"
-            case .house: return "house"
-            case .houseCircle: return "house.circle"
-            case .houseCircleFill: return "house.circle.fill"
-            case .houseFill: return "house.fill"
-            case .hryvniasignCircle: return "hryvniasign.circle"
-            case .hryvniasignCircleFill: return "hryvniasign.circle.fill"
-            case .hryvniasignSquare: return "hryvniasign.square"
-            case .hryvniasignSquareFill: return "hryvniasign.square.fill"
-            case .hurricane: return "hurricane"
-            case .iCircle: return "i.circle"
-            case .iCircleFill: return "i.circle.fill"
-            case .iSquare: return "i.square"
-            case .iSquareFill: return "i.square.fill"
-            case .icloud: return "icloud"
-            case .icloudAndArrowDown: return "icloud.and.arrow.down"
-            case .icloudAndArrowDownFill: return "icloud.and.arrow.down.fill"
-            case .icloudAndArrowUp: return "icloud.and.arrow.up"
-            case .icloudAndArrowUpFill: return "icloud.and.arrow.up.fill"
-            case .icloudCircle: return "icloud.circle"
-            case .icloudCircleFill: return "icloud.circle.fill"
-            case .icloudFill: return "icloud.fill"
-            case .icloudSlash: return "icloud.slash"
-            case .icloudSlashFill: return "icloud.slash.fill"
-            case .increaseIndent: return "increase.indent"
-            case .increaseQuotelevel: return "increase.quotelevel"
-            case .indianrupeesignCircle: return "indianrupeesign.circle"
-            case .indianrupeesignCircleFill: return "indianrupeesign.circle.fill"
-            case .indianrupeesignSquare: return "indianrupeesign.square"
-            case .indianrupeesignSquareFill: return "indianrupeesign.square.fill"
-            case .infinity: return "infinity"
-            case .infinityCircle: return "infinity.circle"
-            case .infinityCircleFill: return "infinity.circle.fill"
-            case .info: return "info"
-            case .infoCircle: return "info.circle"
-            case .infoCircleFill: return "info.circle.fill"
-            case .internaldrive: return "internaldrive"
-            case .internaldriveFill: return "internaldrive.fill"
-            case .ipad: return "ipad"
-            case .ipadBadgePlay: return "ipad.badge.play"
-            case .ipadHomebutton: return "ipad.homebutton"
-            case .ipadHomebuttonBadgePlay: return "ipad.homebutton.badge.play"
-            case .ipadHomebuttonLandscape: return "ipad.homebutton.landscape"
-            case .ipadHomebuttonLandscapeBadgePlay: return "ipad.homebutton.landscape.badge.play"
-            case .ipadLandscape: return "ipad.landscape"
-            case .ipadLandscapeBadgePlay: return "ipad.landscape.badge.play"
-            case .iphone: return "iphone"
-            case .iphoneBadgePlay: return "iphone.badge.play"
-            case .iphoneHomebutton: return "iphone.homebutton"
-            case .iphoneHomebuttonBadgePlay: return "iphone.homebutton.badge.play"
-            case .iphoneHomebuttonLandscape: return "iphone.homebutton.landscape"
-            case .iphoneHomebuttonRadiowavesLeftAndRight: return "iphone.homebutton.radiowaves.left.and.right"
-            case .iphoneHomebuttonSlash: return "iphone.homebutton.slash"
-            case .iphoneLandscape: return "iphone.landscape"
-            case .iphoneRadiowavesLeftAndRight: return "iphone.radiowaves.left.and.right"
-            case .iphoneSlash: return "iphone.slash"
-            case .ipod: return "ipod"
-            case .ipodshuffleGen1: return "ipodshuffle.gen1"
-            case .ipodshuffleGen2: return "ipodshuffle.gen2"
-            case .ipodshuffleGen3: return "ipodshuffle.gen3"
-            case .ipodshuffleGen4: return "ipodshuffle.gen4"
-            case .ipodtouch: return "ipodtouch"
-            case .ipodtouchLandscape: return "ipodtouch.landscape"
-            case .italic: return "italic"
-            case .jCircle: return "j.circle"
-            case .jCircleFill: return "j.circle.fill"
-            case .jSquare: return "j.square"
-            case .jSquareFill: return "j.square.fill"
-            case .jSquareFillOnSquareFill: return "j.square.fill.on.square.fill"
-            case .jSquareOnSquare: return "j.square.on.square"
-            case .k: return "k"
-            case .kCircle: return "k.circle"
-            case .kCircleFill: return "k.circle.fill"
-            case .kSquare: return "k.square"
-            case .kSquareFill: return "k.square.fill"
-            case .key: return "key"
-            case .keyFill: return "key.fill"
-            case .keyIcloud: return "key.icloud"
-            case .keyIcloudFill: return "key.icloud.fill"
-            case .keyboard: return "keyboard"
-            case .keyboardBadgeEllipsis: return "keyboard.badge.ellipsis"
-            case .keyboardChevronCompactDown: return "keyboard.chevron.compact.down"
-            case .keyboardChevronCompactLeft: return "keyboard.chevron.compact.left"
-            case .keyboardMacwindow: return "keyboard.macwindow"
-            case .keyboardOnehandedLeft: return "keyboard.onehanded.left"
-            case .keyboardOnehandedRight: return "keyboard.onehanded.right"
-            case .kipsignCircle: return "kipsign.circle"
-            case .kipsignCircleFill: return "kipsign.circle.fill"
-            case .kipsignSquare: return "kipsign.square"
-            case .kipsignSquareFill: return "kipsign.square.fill"
-            case .lCircle: return "l.circle"
-            case .lCircleFill: return "l.circle.fill"
-            case .lJoystick: return "l.joystick"
-            case .lJoystickDown: return "l.joystick.down"
-            case .lJoystickDownFill: return "l.joystick.down.fill"
-            case .lJoystickFill: return "l.joystick.fill"
-            case .lRectangleRoundedbottom: return "l.rectangle.roundedbottom"
-            case .lRectangleRoundedbottomFill: return "l.rectangle.roundedbottom.fill"
-            case .lSquare: return "l.square"
-            case .lSquareFill: return "l.square.fill"
-            case .l1RectangleRoundedbottom: return "l1.rectangle.roundedbottom"
-            case .l1RectangleRoundedbottomFill: return "l1.rectangle.roundedbottom.fill"
-            case .l2RectangleRoundedtop: return "l2.rectangle.roundedtop"
-            case .l2RectangleRoundedtopFill: return "l2.rectangle.roundedtop.fill"
-            case .ladybug: return "ladybug"
-            case .ladybugFill: return "ladybug.fill"
-            case .laptopcomputer: return "laptopcomputer"
-            case .laptopcomputerAndIphone: return "laptopcomputer.and.iphone"
-            case .largecircleFillCircle: return "largecircle.fill.circle"
-            case .larisignCircle: return "larisign.circle"
-            case .larisignCircleFill: return "larisign.circle.fill"
-            case .larisignSquare: return "larisign.square"
-            case .larisignSquareFill: return "larisign.square.fill"
-            case .lasso: return "lasso"
-            case .lassoSparkles: return "lasso.sparkles"
-            case .latch2Case: return "latch.2.case"
-            case .latch2CaseFill: return "latch.2.case.fill"
-            case .lbRectangleRoundedbottom: return "lb.rectangle.roundedbottom"
-            case .lbRectangleRoundedbottomFill: return "lb.rectangle.roundedbottom.fill"
-            case .leaf: return "leaf"
-            case .leafArrowCirclepath: return "leaf.arrow.triangle.circlepath"
-            case .leafArrowTriangleCirclepath: return "leaf.arrow.triangle.circlepath"
-            case .leafFill: return "leaf.fill"
-            case .lessthan: return "lessthan"
-            case .lessthanCircle: return "lessthan.circle"
-            case .lessthanCircleFill: return "lessthan.circle.fill"
-            case .lessthanSquare: return "lessthan.square"
-            case .lessthanSquareFill: return "lessthan.square.fill"
-            case .level: return "level"
-            case .levelFill: return "level.fill"
-            case .lifepreserver: return "lifepreserver"
-            case .lifepreserverFill: return "lifepreserver.fill"
-            case .lightMax: return "light.max"
-            case .lightMin: return "light.min"
-            case .lightbulb: return "lightbulb"
-            case .lightbulbFill: return "lightbulb.fill"
-            case .lightbulbSlash: return "lightbulb.slash"
-            case .lightbulbSlashFill: return "lightbulb.slash.fill"
-            case .line3CrossedSwirlCircle: return "line.3.crossed.swirl.circle"
-            case .line3CrossedSwirlCircleFill: return "line.3.crossed.swirl.circle.fill"
-            case .lineDiagonal: return "line.diagonal"
-            case .lineDiagonalArrow: return "line.diagonal.arrow"
-            case .lineHorizontal2DecreaseCircle: return "line.horizontal.2.decrease.circle"
-            case .lineHorizontal2DecreaseCircleFill: return "line.horizontal.2.decrease.circle.fill"
-            case .lineHorizontal3: return "line.horizontal.3"
-            case .lineHorizontal3Circle: return "line.horizontal.3.circle"
-            case .lineHorizontal3CircleFill: return "line.horizontal.3.circle.fill"
-            case .lineHorizontal3Decrease: return "line.horizontal.3.decrease"
-            case .lineHorizontal3DecreaseCircle: return "line.horizontal.3.decrease.circle"
-            case .lineHorizontal3DecreaseCircleFill: return "line.horizontal.3.decrease.circle.fill"
-            case .lineHorizontalStarFillLineHorizontal: return "line.horizontal.star.fill.line.horizontal"
-            case .lineweight: return "lineweight"
-            case .link: return "link"
-            case .linkBadgePlus: return "link.badge.plus"
-            case .linkCircle: return "link.circle"
-            case .linkCircleFill: return "link.circle.fill"
-            case .linkIcloud: return "link.icloud"
-            case .linkIcloudFill: return "link.icloud.fill"
-            case .lirasignCircle: return "lirasign.circle"
-            case .lirasignCircleFill: return "lirasign.circle.fill"
-            case .lirasignSquare: return "lirasign.square"
-            case .lirasignSquareFill: return "lirasign.square.fill"
-            case .listAndFilm: return "list.and.film"
-            case .listBullet: return "list.bullet"
-            case .listBulletBelowRectangle: return "list.bullet.below.rectangle"
-            case .listBulletIndent: return "list.bullet.indent"
-            case .listBulletRectangle: return "list.bullet.rectangle"
-            case .listDash: return "list.dash"
-            case .listNumber: return "list.number"
-            case .listStar: return "list.star"
-            case .listTriangle: return "list.triangle"
-            case .livephoto: return "livephoto"
-            case .livephotoBadgeA: return "livephoto.badge.a"
-            case .livephotoPlay: return "livephoto.play"
-            case .livephotoSlash: return "livephoto.slash"
-            case .location: return "location"
-            case .locationCircle: return "location.circle"
-            case .locationCircleFill: return "location.circle.fill"
-            case .locationFill: return "location.fill"
-            case .locationFillViewfinder: return "location.fill.viewfinder"
-            case .locationNorth: return "location.north"
-            case .locationNorthFill: return "location.north.fill"
-            case .locationNorthLine: return "location.north.line"
-            case .locationNorthLineFill: return "location.north.line.fill"
-            case .locationSlash: return "location.slash"
-            case .locationSlashFill: return "location.slash.fill"
-            case .locationViewfinder: return "location.viewfinder"
-            case .lock: return "lock"
-            case .lockApplewatch: return "lock.applewatch"
-            case .lockCircle: return "lock.circle"
-            case .lockCircleFill: return "lock.circle.fill"
-            case .lockDoc: return "lock.doc"
-            case .lockDocFill: return "lock.doc.fill"
-            case .lockFill: return "lock.fill"
-            case .lockIcloud: return "lock.icloud"
-            case .lockIcloudFill: return "lock.icloud.fill"
-            case .lockOpen: return "lock.open"
-            case .lockOpenFill: return "lock.open.fill"
-            case .lockRectangle: return "lock.rectangle"
-            case .lockRectangleFill: return "lock.rectangle.fill"
-            case .lockRectangleOnRectangle: return "lock.rectangle.on.rectangle"
-            case .lockRectangleOnRectangleFill: return "lock.rectangle.on.rectangle.fill"
-            case .lockRectangleStack: return "lock.rectangle.stack"
-            case .lockRectangleStackFill: return "lock.rectangle.stack.fill"
-            case .lockRotation: return "lock.rotation"
-            case .lockRotationOpen: return "lock.rotation.open"
-            case .lockShield: return "lock.shield"
-            case .lockShieldFill: return "lock.shield.fill"
-            case .lockSlash: return "lock.slash"
-            case .lockSlashFill: return "lock.slash.fill"
-            case .lockSquare: return "lock.square"
-            case .lockSquareFill: return "lock.square.fill"
-            case .lockSquareStack: return "lock.square.stack"
-            case .lockSquareStackFill: return "lock.square.stack.fill"
-            case .loupe: return "loupe"
-            case .ltRectangleRoundedtop: return "lt.rectangle.roundedtop"
-            case .ltRectangleRoundedtopFill: return "lt.rectangle.roundedtop.fill"
-            case .lungs: return "lungs"
-            case .lungsFill: return "lungs.fill"
-            case .mCircle: return "m.circle"
-            case .mCircleFill: return "m.circle.fill"
-            case .mSquare: return "m.square"
-            case .mSquareFill: return "m.square.fill"
-            case .macmini: return "macmini"
-            case .macminiFill: return "macmini.fill"
-            case .macproGen1: return "macpro.gen1"
-            case .macproGen2: return "macpro.gen2"
-            case .macproGen2Fill: return "macpro.gen2.fill"
-            case .macproGen3: return "macpro.gen3"
-            case .macproGen3Server: return "macpro.gen3.server"
-            case .macwindow: return "macwindow"
-            case .macwindowBadgePlus: return "macwindow.badge.plus"
-            case .macwindowOnRectangle: return "macwindow.on.rectangle"
-            case .magnifyingglass: return "magnifyingglass"
-            case .magnifyingglassCircle: return "magnifyingglass.circle"
-            case .magnifyingglassCircleFill: return "magnifyingglass.circle.fill"
-            case .mail: return "mail"
-            case .mailAndTextMagnifyingglass: return "mail.and.text.magnifyingglass"
-            case .mailFill: return "mail.fill"
-            case .mailStack: return "mail.stack"
-            case .mailStackFill: return "mail.stack.fill"
-            case .manatsignCircle: return "manatsign.circle"
-            case .manatsignCircleFill: return "manatsign.circle.fill"
-            case .manatsignSquare: return "manatsign.square"
-            case .manatsignSquareFill: return "manatsign.square.fill"
-            case .map: return "map"
-            case .mapFill: return "map.fill"
-            case .mappin: return "mappin"
-            case .mappinAndEllipse: return "mappin.and.ellipse"
-            case .mappinCircle: return "mappin.circle"
-            case .mappinCircleFill: return "mappin.circle.fill"
-            case .mappinSlash: return "mappin.slash"
-            case .megaphone: return "megaphone"
-            case .megaphoneFill: return "megaphone.fill"
-            case .memories: return "memories"
-            case .memoriesBadgeMinus: return "memories.badge.minus"
-            case .memoriesBadgePlus: return "memories.badge.plus"
-            case .memorychip: return "memorychip"
-            case .menubarArrowDownRectangle: return "menubar.arrow.down.rectangle"
-            case .menubarArrowUpRectangle: return "menubar.arrow.up.rectangle"
-            case .menubarDockRectangle: return "menubar.dock.rectangle"
-            case .menubarDockRectangleBadgeRecord: return "menubar.dock.rectangle.badge.record"
-            case .menubarRectangle: return "menubar.rectangle"
-            case .message: return "message"
-            case .messageCircle: return "message.circle"
-            case .messageCircleFill: return "message.circle.fill"
-            case .messageFill: return "message.fill"
-            case .metronome: return "metronome"
-            case .metronomeFill: return "metronome.fill"
-            case .mic: return "mic"
-            case .micCircle: return "mic.circle"
-            case .micCircleFill: return "mic.circle.fill"
-            case .micFill: return "mic.fill"
-            case .micSlash: return "mic.slash"
-            case .micSlashFill: return "mic.slash.fill"
-            case .millsignCircle: return "millsign.circle"
-            case .millsignCircleFill: return "millsign.circle.fill"
-            case .millsignSquare: return "millsign.square"
-            case .millsignSquareFill: return "millsign.square.fill"
-            case .minus: return "minus"
-            case .minusCircle: return "minus.circle"
-            case .minusCircleFill: return "minus.circle.fill"
-            case .minusDiamond: return "minus.diamond"
-            case .minusDiamondFill: return "minus.diamond.fill"
-            case .minusMagnifyingglass: return "minus.magnifyingglass"
-            case .minusPlusBatteryblock: return "minus.plus.batteryblock"
-            case .minusPlusBatteryblockFill: return "minus.plus.batteryblock.fill"
-            case .minusRectangle: return "minus.rectangle"
-            case .minusRectangleFill: return "minus.rectangle.fill"
-            case .minusRectanglePortrait: return "minus.rectangle.portrait"
-            case .minusRectanglePortraitFill: return "minus.rectangle.portrait.fill"
-            case .minusSlashPlus: return "minus.slash.plus"
-            case .minusSquare: return "minus.square"
-            case .minusSquareFill: return "minus.square.fill"
-            case .moon: return "moon"
-            case .moonCircle: return "moon.circle"
-            case .moonCircleFill: return "moon.circle.fill"
-            case .moonFill: return "moon.fill"
-            case .moonStars: return "moon.stars"
-            case .moonStarsFill: return "moon.stars.fill"
-            case .moonZzz: return "moon.zzz"
-            case .moonZzzFill: return "moon.zzz.fill"
-            case .mosaic: return "mosaic"
-            case .mosaicFill: return "mosaic.fill"
-            case .mount: return "mount"
-            case .mountFill: return "mount.fill"
-            case .mouth: return "mouth"
-            case .mouthFill: return "mouth.fill"
-            case .move3d: return "move.3d"
-            case .multiply: return "multiply"
-            case .multiplyCircle: return "multiply.circle"
-            case .multiplyCircleFill: return "multiply.circle.fill"
-            case .multiplySquare: return "multiply.square"
-            case .multiplySquareFill: return "multiply.square.fill"
-            case .musicHouse: return "music.note.house"
-            case .musicHouseFill: return "music.note.house.fill"
-            case .musicMic: return "music.mic"
-            case .musicNote: return "music.note"
-            case .musicNoteHouse: return "music.note.house"
-            case .musicNoteHouseFill: return "music.note.house.fill"
-            case .musicNoteList: return "music.note.list"
-            case .musicQuarternote3: return "music.quarternote.3"
-            case .mustache: return "mustache"
-            case .mustacheFill: return "mustache.fill"
-            case .nCircle: return "n.circle"
-            case .nCircleFill: return "n.circle.fill"
-            case .nSquare: return "n.square"
-            case .nSquareFill: return "n.square.fill"
-            case .nairasignCircle: return "nairasign.circle"
-            case .nairasignCircleFill: return "nairasign.circle.fill"
-            case .nairasignSquare: return "nairasign.square"
-            case .nairasignSquareFill: return "nairasign.square.fill"
-            case .network: return "network"
-            case .newspaper: return "newspaper"
-            case .newspaperFill: return "newspaper.fill"
-            case .nose: return "nose"
-            case .noseFill: return "nose.fill"
-            case .nosign: return "nosign"
-            case .note: return "note"
-            case .noteText: return "note.text"
-            case .noteTextBadgePlus: return "note.text.badge.plus"
-            case .number: return "number"
-            case .numberCircle: return "number.circle"
-            case .numberCircleFill: return "number.circle.fill"
-            case .numberSquare: return "number.square"
-            case .numberSquareFill: return "number.square.fill"
-            case .oCircle: return "o.circle"
-            case .oCircleFill: return "o.circle.fill"
-            case .oSquare: return "o.square"
-            case .oSquareFill: return "o.square.fill"
-            case .octagon: return "octagon"
-            case .octagonFill: return "octagon.fill"
-            case .opticaldisc: return "opticaldisc"
-            case .opticaldiscdrive: return "opticaldiscdrive"
-            case .opticaldiscdriveFill: return "opticaldiscdrive.fill"
-            case .option: return "option"
-            case .oval: return "oval"
-            case .ovalFill: return "oval.fill"
-            case .ovalPortrait: return "oval.portrait"
-            case .ovalPortraitFill: return "oval.portrait.fill"
-            case .pCircle: return "p.circle"
-            case .pCircleFill: return "p.circle.fill"
-            case .pSquare: return "p.square"
-            case .pSquareFill: return "p.square.fill"
-            case .paintbrush: return "paintbrush"
-            case .paintbrushFill: return "paintbrush.fill"
-            case .paintbrushPointed: return "paintbrush.pointed"
-            case .paintbrushPointedFill: return "paintbrush.pointed.fill"
-            case .paintpalette: return "paintpalette"
-            case .paintpaletteFill: return "paintpalette.fill"
-            case .pano: return "pano"
-            case .panoFill: return "pano.fill"
-            case .paperclip: return "paperclip"
-            case .paperclipBadgeEllipsis: return "paperclip.badge.ellipsis"
-            case .paperclipCircle: return "paperclip.circle"
-            case .paperclipCircleFill: return "paperclip.circle.fill"
-            case .paperplane: return "paperplane"
-            case .paperplaneCircle: return "paperplane.circle"
-            case .paperplaneCircleFill: return "paperplane.circle.fill"
-            case .paperplaneFill: return "paperplane.fill"
-            case .paragraph: return "paragraphsign"
-            case .paragraphsign: return "paragraphsign"
-            case .pause: return "pause"
-            case .pauseCircle: return "pause.circle"
-            case .pauseCircleFill: return "pause.circle.fill"
-            case .pauseFill: return "pause.fill"
-            case .pauseRectangle: return "pause.rectangle"
-            case .pauseRectangleFill: return "pause.rectangle.fill"
-            case .pc: return "pc"
-            case .pencil: return "pencil"
-            case .pencilAndEllipsisRectangle: return "rectangle.and.pencil.and.ellipsis"
-            case .pencilAndOutline: return "pencil.and.outline"
-            case .pencilCircle: return "pencil.circle"
-            case .pencilCircleFill: return "pencil.circle.fill"
-            case .pencilSlash: return "pencil.slash"
-            case .pencilTip: return "pencil.tip"
-            case .pencilTipCropCircle: return "pencil.tip.crop.circle"
-            case .pencilTipCropCircleBadgeArrowForward: return "pencil.tip.crop.circle.badge.arrow.forward"
-            case .pencilTipCropCircleBadgeMinus: return "pencil.tip.crop.circle.badge.minus"
-            case .pencilTipCropCircleBadgePlus: return "pencil.tip.crop.circle.badge.plus"
-            case .percent: return "percent"
-            case .person: return "person"
-            case .person2: return "person.2"
-            case .person2Circle: return "person.2.circle"
-            case .person2CircleFill: return "person.2.circle.fill"
-            case .person2Fill: return "person.2.fill"
-            case .person2SquareStack: return "person.2.square.stack"
-            case .person2SquareStackFill: return "person.2.square.stack.fill"
-            case .person3: return "person.3"
-            case .person3Fill: return "person.3.fill"
-            case .personAndArrowLeftAndArrowRight: return "person.and.arrow.left.and.arrow.right"
-            case .personBadgeMinus: return "person.badge.minus"
-            case .personBadgeMinusFill: return "person.fill.badge.minus"
-            case .personBadgePlus: return "person.badge.plus"
-            case .personBadgePlusFill: return "person.fill.badge.plus"
-            case .personCircle: return "person.circle"
-            case .personCircleFill: return "person.circle.fill"
-            case .personCropCircle: return "person.crop.circle"
-            case .personCropCircleBadgeCheckmark: return "person.crop.circle.badge.checkmark"
-            case .personCropCircleBadgeExclam: return "person.crop.circle.badge.exclamationmark"
-            case .personCropCircleBadgeExclamationmark: return "person.crop.circle.badge.exclamationmark"
-            case .personCropCircleBadgeMinus: return "person.crop.circle.badge.minus"
-            case .personCropCircleBadgePlus: return "person.crop.circle.badge.plus"
-            case .personCropCircleBadgeQuestionmark: return "person.crop.circle.badge.questionmark"
-            case .personCropCircleBadgeXmark: return "person.crop.circle.badge.xmark"
-            case .personCropCircleFill: return "person.crop.circle.fill"
-            case .personCropCircleFillBadgeCheckmark: return "person.crop.circle.fill.badge.checkmark"
-            case .personCropCircleFillBadgeExclam: return "person.crop.circle.fill.badge.exclamationmark"
-            case .personCropCircleFillBadgeExclamationmark: return "person.crop.circle.fill.badge.exclamationmark"
-            case .personCropCircleFillBadgeMinus: return "person.crop.circle.fill.badge.minus"
-            case .personCropCircleFillBadgePlus: return "person.crop.circle.fill.badge.plus"
-            case .personCropCircleFillBadgeQuestionmark: return "person.crop.circle.fill.badge.questionmark"
-            case .personCropCircleFillBadgeXmark: return "person.crop.circle.fill.badge.xmark"
-            case .personCropRectangle: return "person.crop.rectangle"
-            case .personCropRectangleFill: return "person.crop.rectangle.fill"
-            case .personCropSquare: return "person.crop.square"
-            case .personCropSquareFill: return "person.crop.square.fill"
-            case .personCropSquareFillAndAtRectangle: return "person.crop.square.fill.and.at.rectangle"
-            case .personFill: return "person.fill"
-            case .personFillAndArrowLeftAndArrowRight: return "person.fill.and.arrow.left.and.arrow.right"
-            case .personFillBadgeMinus: return "person.fill.badge.minus"
-            case .personFillBadgePlus: return "person.fill.badge.plus"
-            case .personFillCheckmark: return "person.fill.checkmark"
-            case .personFillQuestionmark: return "person.fill.questionmark"
-            case .personFillTurnDown: return "person.fill.turn.down"
-            case .personFillTurnLeft: return "person.fill.turn.left"
-            case .personFillTurnRight: return "person.fill.turn.right"
-            case .personFillViewfinder: return "person.fill.viewfinder"
-            case .personFillXmark: return "person.fill.xmark"
-            case .personIcloud: return "person.icloud"
-            case .personIcloudFill: return "person.icloud.fill"
-            case .personalhotspot: return "personalhotspot"
-            case .perspective: return "perspective"
-            case .pesetasignCircle: return "pesetasign.circle"
-            case .pesetasignCircleFill: return "pesetasign.circle.fill"
-            case .pesetasignSquare: return "pesetasign.square"
-            case .pesetasignSquareFill: return "pesetasign.square.fill"
-            case .pesosignCircle: return "pesosign.circle"
-            case .pesosignCircleFill: return "pesosign.circle.fill"
-            case .pesosignSquare: return "pesosign.square"
-            case .pesosignSquareFill: return "pesosign.square.fill"
-            case .phone: return "phone"
-            case .phoneArrowDownLeft: return "phone.arrow.down.left"
-            case .phoneArrowRight: return "phone.arrow.right"
-            case .phoneArrowUpRight: return "phone.arrow.up.right"
-            case .phoneBadgePlus: return "phone.badge.plus"
-            case .phoneBubbleLeft: return "phone.bubble.left"
-            case .phoneBubbleLeftFill: return "phone.bubble.left.fill"
-            case .phoneCircle: return "phone.circle"
-            case .phoneCircleFill: return "phone.circle.fill"
-            case .phoneConnection: return "phone.connection"
-            case .phoneDown: return "phone.down"
-            case .phoneDownCircle: return "phone.down.circle"
-            case .phoneDownCircleFill: return "phone.down.circle.fill"
-            case .phoneDownFill: return "phone.down.fill"
-            case .phoneFill: return "phone.fill"
-            case .phoneFillArrowDownLeft: return "phone.fill.arrow.down.left"
-            case .phoneFillArrowRight: return "phone.fill.arrow.right"
-            case .phoneFillArrowUpRight: return "phone.fill.arrow.up.right"
-            case .phoneFillBadgePlus: return "phone.fill.badge.plus"
-            case .phoneFillConnection: return "phone.fill.connection"
-            case .photo: return "photo"
-            case .photoFill: return "photo.fill"
-            case .photoFillOnRectangleFill: return "photo.fill.on.rectangle.fill"
-            case .photoOnRectangle: return "photo.on.rectangle"
-            case .photoOnRectangleAngled: return "photo.on.rectangle.angled"
-            case .photoTv: return "photo.tv"
-            case .pianokeys: return "pianokeys"
-            case .pianokeysInverse: return "pianokeys.inverse"
-            case .pills: return "pills"
-            case .pillsFill: return "pills.fill"
-            case .pin: return "pin"
-            case .pinCircle: return "pin.circle"
-            case .pinCircleFill: return "pin.circle.fill"
-            case .pinFill: return "pin.fill"
-            case .pinSlash: return "pin.slash"
-            case .pinSlashFill: return "pin.slash.fill"
-            case .pip: return "pip"
-            case .pipEnter: return "pip.enter"
-            case .pipExit: return "pip.exit"
-            case .pipFill: return "pip.fill"
-            case .pipRemove: return "pip.remove"
-            case .pipSwap: return "pip.swap"
-            case .placeholdertextFill: return "placeholdertext.fill"
-            case .play: return "play"
-            case .playCircle: return "play.circle"
-            case .playCircleFill: return "play.circle.fill"
-            case .playFill: return "play.fill"
-            case .playRectangle: return "play.rectangle"
-            case .playRectangleFill: return "play.rectangle.fill"
-            case .playSlash: return "play.slash"
-            case .playSlashFill: return "play.slash.fill"
-            case .playTv: return "play.tv"
-            case .playTvFill: return "play.tv.fill"
-            case .playpause: return "playpause"
-            case .playpauseFill: return "playpause.fill"
-            case .plus: return "plus"
-            case .plusApp: return "plus.app"
-            case .plusAppFill: return "plus.app.fill"
-            case .plusBubble: return "plus.bubble"
-            case .plusBubbleFill: return "plus.bubble.fill"
-            case .plusCircle: return "plus.circle"
-            case .plusCircleFill: return "plus.circle.fill"
-            case .plusDiamond: return "plus.diamond"
-            case .plusDiamondFill: return "plus.diamond.fill"
-            case .plusMagnifyingglass: return "plus.magnifyingglass"
-            case .plusMessage: return "plus.message"
-            case .plusMessageFill: return "plus.message.fill"
-            case .plusRectangle: return "plus.rectangle"
-            case .plusRectangleFill: return "plus.rectangle.fill"
-            case .plusRectangleFillOnFolderFill: return "plus.rectangle.fill.on.folder.fill"
-            case .plusRectangleFillOnRectangleFill: return "plus.rectangle.fill.on.rectangle.fill"
-            case .plusRectangleOnFolder: return "plus.rectangle.on.folder"
-            case .plusRectangleOnRectangle: return "plus.rectangle.on.rectangle"
-            case .plusRectanglePortrait: return "plus.rectangle.portrait"
-            case .plusRectanglePortraitFill: return "plus.rectangle.portrait.fill"
-            case .plusSlashMinus: return "plus.slash.minus"
-            case .plusSquare: return "plus.square"
-            case .plusSquareFill: return "plus.square.fill"
-            case .plusSquareFillOnSquareFill: return "plus.square.fill.on.square.fill"
-            case .plusSquareOnSquare: return "plus.square.on.square"
-            case .plusViewfinder: return "plus.viewfinder"
-            case .plusminus: return "plusminus"
-            case .plusminusCircle: return "plusminus.circle"
-            case .plusminusCircleFill: return "plusminus.circle.fill"
-            case .pointFillTopleftDownCurvedtoPointFillBottomrightUp: return "point.fill.topleft.down.curvedto.point.fill.bottomright.up"
-            case .pointTopleftDownCurvedtoPointBottomrightUp: return "point.topleft.down.curvedto.point.bottomright.up"
-            case .power: return "power"
-            case .poweroff: return "poweroff"
-            case .poweron: return "poweron"
-            case .powersleep: return "powersleep"
-            case .printer: return "printer"
-            case .printerDotmatrix: return "printer.dotmatrix"
-            case .printerDotmatrixFill: return "printer.dotmatrix.fill"
-            case .printerDotmatrixFillAndPaperFill: return "printer.dotmatrix.fill.and.paper.fill"
-            case .printerFill: return "printer.fill"
-            case .printerFillAndPaperFill: return "printer.fill.and.paper.fill"
-            case .projective: return "projective"
-            case .purchased: return "purchased"
-            case .purchasedCircle: return "purchased.circle"
-            case .purchasedCircleFill: return "purchased.circle.fill"
-            case .puzzlepiece: return "puzzlepiece"
-            case .puzzlepieceFill: return "puzzlepiece.fill"
-            case .pyramid: return "pyramid"
-            case .pyramidFill: return "pyramid.fill"
-            case .qCircle: return "q.circle"
-            case .qCircleFill: return "q.circle.fill"
-            case .qSquare: return "q.square"
-            case .qSquareFill: return "q.square.fill"
-            case .qrcode: return "qrcode"
-            case .qrcodeViewfinder: return "qrcode.viewfinder"
-            case .questionmark: return "questionmark"
-            case .questionmarkCircle: return "questionmark.circle"
-            case .questionmarkCircleFill: return "questionmark.circle.fill"
-            case .questionmarkDiamond: return "questionmark.diamond"
-            case .questionmarkDiamondFill: return "questionmark.diamond.fill"
-            case .questionmarkFolder: return "questionmark.folder"
-            case .questionmarkFolderFill: return "questionmark.folder.fill"
-            case .questionmarkSquare: return "questionmark.square"
-            case .questionmarkSquareDashed: return "questionmark.square.dashed"
-            case .questionmarkSquareFill: return "questionmark.square.fill"
-            case .questionmarkVideo: return "questionmark.video"
-            case .questionmarkVideoFill: return "questionmark.video.fill"
-            case .quoteBubble: return "quote.bubble"
-            case .quoteBubbleFill: return "quote.bubble.fill"
-            case .rCircle: return "r.circle"
-            case .rCircleFill: return "r.circle.fill"
-            case .rJoystick: return "r.joystick"
-            case .rJoystickDown: return "r.joystick.down"
-            case .rJoystickDownFill: return "r.joystick.down.fill"
-            case .rJoystickFill: return "r.joystick.fill"
-            case .rRectangleRoundedbottom: return "r.rectangle.roundedbottom"
-            case .rRectangleRoundedbottomFill: return "r.rectangle.roundedbottom.fill"
-            case .rSquare: return "r.square"
-            case .rSquareFill: return "r.square.fill"
-            case .rSquareFillOnSquareFill: return "r.square.fill.on.square.fill"
-            case .rSquareOnSquare: return "r.square.on.square"
-            case .r1RectangleRoundedbottom: return "r1.rectangle.roundedbottom"
-            case .r1RectangleRoundedbottomFill: return "r1.rectangle.roundedbottom.fill"
-            case .r2RectangleRoundedtop: return "r2.rectangle.roundedtop"
-            case .r2RectangleRoundedtopFill: return "r2.rectangle.roundedtop.fill"
-            case .radio: return "radio"
-            case .radioFill: return "radio.fill"
-            case .radiowavesLeft: return "wave.3.left"
-            case .radiowavesRight: return "wave.3.right"
-            case .rays: return "rays"
-            case .rbRectangleRoundedbottom: return "rb.rectangle.roundedbottom"
-            case .rbRectangleRoundedbottomFill: return "rb.rectangle.roundedbottom.fill"
-            case .recordCircle: return "record.circle"
-            case .recordCircleFill: return "record.circle.fill"
-            case .recordingtape: return "recordingtape"
-            case .rectangle: return "rectangle"
-            case .rectangle3Offgrid: return "rectangle.3.offgrid"
-            case .rectangle3OffgridBubbleLeft: return "rectangle.3.offgrid.bubble.left"
-            case .rectangle3OffgridBubbleLeftFill: return "rectangle.3.offgrid.bubble.left.fill"
-            case .rectangle3OffgridFill: return "rectangle.3.offgrid.fill"
-            case .rectangleAndArrowUpRightAndArrowDownLeft: return "rectangle.and.arrow.up.right.and.arrow.down.left"
-            case .rectangleAndArrowUpRightAndArrowDownLeftSlash: return "rectangle.and.arrow.up.right.and.arrow.down.left.slash"
-            case .rectangleAndPaperclip: return "rectangle.and.paperclip"
-            case .rectangleAndPencilAndEllipsis: return "rectangle.and.pencil.and.ellipsis"
-            case .rectangleAndTextMagnifyingglass: return "rectangle.and.text.magnifyingglass"
-            case .rectangleArrowtriangle2Inward: return "rectangle.arrowtriangle.2.inward"
-            case .rectangleArrowtriangle2Outward: return "rectangle.arrowtriangle.2.outward"
-            case .rectangleBadgeCheckmark: return "rectangle.badge.checkmark"
-            case .rectangleBadgeMinus: return "rectangle.badge.minus"
-            case .rectangleBadgePersonCrop: return "rectangle.badge.person.crop"
-            case .rectangleBadgePlus: return "rectangle.badge.plus"
-            case .rectangleBadgeXmark: return "rectangle.badge.xmark"
-            case .rectangleBottomthirdInsetFill: return "rectangle.bottomthird.inset.fill"
-            case .rectangleCenterInsetFill: return "rectangle.center.inset.fill"
-            case .rectangleCompressVertical: return "rectangle.compress.vertical"
-            case .rectangleConnectedToLineBelow: return "rectangle.connected.to.line.below"
-            case .rectangleDashed: return "rectangle.dashed"
-            case .rectangleDashedAndPaperclip: return "rectangle.dashed.and.paperclip"
-            case .rectangleDashedBadgeRecord: return "rectangle.dashed.badge.record"
-            case .rectangleDock: return "dock.rectangle"
-            case .rectangleExpandVertical: return "rectangle.expand.vertical"
-            case .rectangleFill: return "rectangle.fill"
-            case .rectangleFillBadgeCheckmark: return "rectangle.fill.badge.checkmark"
-            case .rectangleFillBadgeMinus: return "rectangle.fill.badge.minus"
-            case .rectangleFillBadgePersonCrop: return "rectangle.fill.badge.person.crop"
-            case .rectangleFillBadgePlus: return "rectangle.fill.badge.plus"
-            case .rectangleFillBadgeXmark: return "rectangle.fill.badge.xmark"
-            case .rectangleFillOnRectangleAngledFill: return "rectangle.fill.on.rectangle.angled.fill"
-            case .rectangleFillOnRectangleFill: return "rectangle.fill.on.rectangle.fill"
-            case .rectangleFillOnRectangleFillCircle: return "rectangle.fill.on.rectangle.fill.circle"
-            case .rectangleFillOnRectangleFillCircleFill: return "rectangle.fill.on.rectangle.fill.circle.fill"
-            case .rectangleFillOnRectangleFillSlashFill: return "rectangle.fill.on.rectangle.fill.slash.fill"
-            case .rectangleGrid1x2: return "rectangle.grid.1x2"
-            case .rectangleGrid1x2Fill: return "rectangle.grid.1x2.fill"
-            case .rectangleGrid2x2: return "rectangle.grid.2x2"
-            case .rectangleGrid2x2Fill: return "rectangle.grid.2x2.fill"
-            case .rectangleGrid3x2: return "rectangle.grid.3x2"
-            case .rectangleGrid3x2Fill: return "rectangle.grid.3x2.fill"
-            case .rectangleInsetBottomleftFill: return "rectangle.inset.bottomleft.fill"
-            case .rectangleInsetBottomrightFill: return "rectangle.inset.bottomright.fill"
-            case .rectangleInsetFill: return "rectangle.inset.fill"
-            case .rectangleInsetTopleftFill: return "rectangle.inset.topleft.fill"
-            case .rectangleInsetToprightFill: return "rectangle.inset.topright.fill"
-            case .rectangleLefthalfFill: return "rectangle.lefthalf.fill"
-            case .rectangleLefthalfInsetFill: return "rectangle.lefthalf.inset.fill"
-            case .rectangleLefthalfInsetFillArrowLeft: return "rectangle.lefthalf.inset.fill.arrow.left"
-            case .rectangleLeftthirdInsetFill: return "rectangle.leftthird.inset.fill"
-            case .rectangleOnRectangle: return "rectangle.on.rectangle"
-            case .rectangleOnRectangleAngled: return "rectangle.on.rectangle.angled"
-            case .rectangleOnRectangleSlash: return "rectangle.on.rectangle.slash"
-            case .rectanglePortrait: return "rectangle.portrait"
-            case .rectanglePortraitArrowtriangle2Inward: return "rectangle.portrait.arrowtriangle.2.inward"
-            case .rectanglePortraitArrowtriangle2Outward: return "rectangle.portrait.arrowtriangle.2.outward"
-            case .rectanglePortraitFill: return "rectangle.portrait.fill"
-            case .rectangleRighthalfFill: return "rectangle.righthalf.fill"
-            case .rectangleRighthalfInsetFill: return "rectangle.righthalf.inset.fill"
-            case .rectangleRighthalfInsetFillArrowRight: return "rectangle.righthalf.inset.fill.arrow.right"
-            case .rectangleRightthirdInsetFill: return "rectangle.rightthird.inset.fill"
-            case .rectangleRoundedbottom: return "rectangle.roundedbottom"
-            case .rectangleRoundedbottomFill: return "rectangle.roundedbottom.fill"
-            case .rectangleRoundedtop: return "rectangle.roundedtop"
-            case .rectangleRoundedtopFill: return "rectangle.roundedtop.fill"
-            case .rectangleSlash: return "rectangle.slash"
-            case .rectangleSlashFill: return "rectangle.slash.fill"
-            case .rectangleSplit1x2: return "rectangle.split.1x2"
-            case .rectangleSplit1x2Fill: return "rectangle.split.1x2.fill"
-            case .rectangleSplit2x1: return "rectangle.split.2x1"
-            case .rectangleSplit2x1Fill: return "rectangle.split.2x1.fill"
-            case .rectangleSplit2x2: return "rectangle.split.2x2"
-            case .rectangleSplit2x2Fill: return "rectangle.split.2x2.fill"
-            case .rectangleSplit3x1: return "rectangle.split.3x1"
-            case .rectangleSplit3x1Fill: return "rectangle.split.3x1.fill"
-            case .rectangleSplit3x3: return "rectangle.split.3x3"
-            case .rectangleSplit3x3Fill: return "rectangle.split.3x3.fill"
-            case .rectangleStack: return "rectangle.stack"
-            case .rectangleStackBadgeMinus: return "rectangle.stack.badge.minus"
-            case .rectangleStackBadgePersonCrop: return "rectangle.stack.badge.person.crop"
-            case .rectangleStackBadgePlus: return "rectangle.stack.badge.plus"
-            case .rectangleStackFill: return "rectangle.stack.fill"
-            case .rectangleStackFillBadgeMinus: return "rectangle.stack.fill.badge.minus"
-            case .rectangleStackFillBadgePersonCrop: return "rectangle.stack.fill.badge.person.crop"
-            case .rectangleStackFillBadgePlus: return "rectangle.stack.fill.badge.plus"
-            case .rectangleStackPersonCrop: return "rectangle.stack.person.crop"
-            case .rectangleStackPersonCropFill: return "rectangle.stack.person.crop.fill"
-            case .rectangleTopthirdInset: return "rectangle.topthird.inset"
-            case .`repeat`: return "repeat"
-            case .repeat1: return "repeat.1"
-            case .repeat1Circle: return "repeat.1.circle"
-            case .repeat1CircleFill: return "repeat.1.circle.fill"
-            case .repeatCircle: return "repeat.circle"
-            case .repeatCircleFill: return "repeat.circle.fill"
-            case .restart: return "restart"
-            case .restartCircle: return "restart.circle"
-            case .`return`: return "return"
-            case .rhombus: return "rhombus"
-            case .rhombusFill: return "rhombus.fill"
-            case .rosette: return "rosette"
-            case .rotate3d: return "rotate.3d"
-            case .rotateLeft: return "rotate.left"
-            case .rotateLeftFill: return "rotate.left.fill"
-            case .rotateRight: return "rotate.right"
-            case .rotateRightFill: return "rotate.right.fill"
-            case .rtRectangleRoundedtop: return "rt.rectangle.roundedtop"
-            case .rtRectangleRoundedtopFill: return "rt.rectangle.roundedtop.fill"
-            case .rublesignCircle: return "rublesign.circle"
-            case .rublesignCircleFill: return "rublesign.circle.fill"
-            case .rublesignSquare: return "rublesign.square"
-            case .rublesignSquareFill: return "rublesign.square.fill"
-            case .ruler: return "ruler"
-            case .rulerFill: return "ruler.fill"
-            case .rupeesignCircle: return "rupeesign.circle"
-            case .rupeesignCircleFill: return "rupeesign.circle.fill"
-            case .rupeesignSquare: return "rupeesign.square"
-            case .rupeesignSquareFill: return "rupeesign.square.fill"
-            case .sCircle: return "s.circle"
-            case .sCircleFill: return "s.circle.fill"
-            case .sSquare: return "s.square"
-            case .sSquareFill: return "s.square.fill"
-            case .safari: return "safari"
-            case .safariFill: return "safari.fill"
-            case .scale3d: return "scale.3d"
-            case .scalemass: return "scalemass"
-            case .scalemassFill: return "scalemass.fill"
-            case .scanner: return "scanner"
-            case .scannerFill: return "scanner.fill"
-            case .scissors: return "scissors"
-            case .scissorsBadgeEllipsis: return "scissors.badge.ellipsis"
-            case .scope: return "scope"
-            case .scribble: return "scribble"
-            case .scribbleVariable: return "scribble.variable"
-            case .scroll: return "scroll"
-            case .scrollFill: return "scroll.fill"
-            case .sdcard: return "sdcard"
-            case .sdcardFill: return "sdcard.fill"
-            case .seal: return "seal"
-            case .sealFill: return "seal.fill"
-            case .selectionPinInOut: return "selection.pin.in.out"
-            case .serverRack: return "server.rack"
-            case .shadow: return "shadow"
-            case .shekelsignCircle: return "shekelsign.circle"
-            case .shekelsignCircleFill: return "shekelsign.circle.fill"
-            case .shekelsignSquare: return "shekelsign.square"
-            case .shekelsignSquareFill: return "shekelsign.square.fill"
-            case .sheqelsignCircle: return "shekelsign.circle"
-            case .sheqelsignCircleFill: return "shekelsign.circle.fill"
-            case .sheqelsignSquare: return "shekelsign.square"
-            case .sheqelsignSquareFill: return "shekelsign.square.fill"
-            case .shield: return "shield"
-            case .shieldCheckerboard: return "shield.checkerboard"
-            case .shieldFill: return "shield.fill"
-            case .shieldLefthalfFill: return "shield.lefthalf.fill"
-            case .shieldLefthalfFillSlash: return "shield.lefthalf.fill.slash"
-            case .shieldSlash: return "shield.slash"
-            case .shieldSlashFill: return "shield.slash.fill"
-            case .shift: return "shift"
-            case .shiftFill: return "shift.fill"
-            case .shippingbox: return "shippingbox"
-            case .shippingboxFill: return "shippingbox.fill"
-            case .shuffle: return "shuffle"
-            case .shuffleCircle: return "shuffle.circle"
-            case .shuffleCircleFill: return "shuffle.circle.fill"
-            case .sidebarLeading: return "sidebar.leading"
-            case .sidebarLeft: return "sidebar.left"
-            case .sidebarRight: return "sidebar.right"
-            case .sidebarSquaresLeading: return "sidebar.squares.leading"
-            case .sidebarSquaresLeft: return "sidebar.squares.left"
-            case .sidebarSquaresRight: return "sidebar.squares.right"
-            case .sidebarSquaresTrailing: return "sidebar.squares.trailing"
-            case .sidebarTrailing: return "sidebar.trailing"
-            case .signature: return "signature"
-            case .signpostLeft: return "signpost.left"
-            case .signpostLeftFill: return "signpost.left.fill"
-            case .signpostRight: return "signpost.right"
-            case .signpostRightFill: return "signpost.right.fill"
-            case .simcard: return "simcard"
-            case .simcard2: return "simcard.2"
-            case .simcard2Fill: return "simcard.2.fill"
-            case .simcardFill: return "simcard.fill"
-            case .skew: return "skew"
-            case .slashCircle: return "slash.circle"
-            case .slashCircleFill: return "slash.circle.fill"
-            case .sleep: return "sleep"
-            case .sliderHorizontal3: return "slider.horizontal.3"
-            case .sliderHorizontalBelowRectangle: return "slider.horizontal.below.rectangle"
-            case .sliderHorizontalBelowSquareFillAndSquare: return "slider.horizontal.below.square.fill.and.square"
-            case .sliderVertical3: return "slider.vertical.3"
-            case .slowmo: return "slowmo"
-            case .smallcircleCircle: return "smallcircle.circle"
-            case .smallcircleCircleFill: return "smallcircle.circle.fill"
-            case .smallcircleFillCircle: return "smallcircle.fill.circle"
-            case .smallcircleFillCircleFill: return "smallcircle.fill.circle.fill"
-            case .smiley: return "face.smiling"
-            case .smileyFill: return "face.smiling.fill"
-            case .smoke: return "smoke"
-            case .smokeFill: return "smoke.fill"
-            case .snow: return "snow"
-            case .sparkle: return "sparkle"
-            case .sparkles: return "sparkles"
-            case .sparklesRectangleStack: return "sparkles.rectangle.stack"
-            case .sparklesRectangleStackFill: return "sparkles.rectangle.stack.fill"
-            case .sparklesSquareFillOnSquare: return "sparkles.square.fill.on.square"
-            case .speaker: return "speaker"
-            case .speaker1: return "speaker.wave.1"
-            case .speaker1Fill: return "speaker.wave.1.fill"
-            case .speaker2: return "speaker.wave.2"
-            case .speaker2Fill: return "speaker.wave.2.fill"
-            case .speaker3: return "speaker.wave.3"
-            case .speaker3Fill: return "speaker.wave.3.fill"
-            case .speakerFill: return "speaker.fill"
-            case .speakerSlash: return "speaker.slash"
-            case .speakerSlashCircle: return "speaker.slash.circle"
-            case .speakerSlashCircleFill: return "speaker.slash.circle.fill"
-            case .speakerSlashFill: return "speaker.slash.fill"
-            case .speakerWave1: return "speaker.wave.1"
-            case .speakerWave1Fill: return "speaker.wave.1.fill"
-            case .speakerWave2: return "speaker.wave.2"
-            case .speakerWave2Circle: return "speaker.wave.2.circle"
-            case .speakerWave2CircleFill: return "speaker.wave.2.circle.fill"
-            case .speakerWave2Fill: return "speaker.wave.2.fill"
-            case .speakerWave3: return "speaker.wave.3"
-            case .speakerWave3Fill: return "speaker.wave.3.fill"
-            case .speakerZzz: return "speaker.zzz"
-            case .speakerZzzFill: return "speaker.zzz.fill"
-            case .speedometer: return "speedometer"
-            case .sportscourt: return "sportscourt"
-            case .sportscourtFill: return "sportscourt.fill"
-            case .square: return "square"
-            case .square2Stack3d: return "square.2.stack.3d"
-            case .square2Stack3dBottomFill: return "square.2.stack.3d.bottom.fill"
-            case .square2Stack3dTopFill: return "square.2.stack.3d.top.fill"
-            case .square3Stack3d: return "square.3.stack.3d"
-            case .square3Stack3dBottomFill: return "square.3.stack.3d.bottom.fill"
-            case .square3Stack3dMiddleFill: return "square.3.stack.3d.middle.fill"
-            case .square3Stack3dTopFill: return "square.3.stack.3d.top.fill"
-            case .squareAndArrowDown: return "square.and.arrow.down"
-            case .squareAndArrowDownFill: return "square.and.arrow.down.fill"
-            case .squareAndArrowDownOnSquare: return "square.and.arrow.down.on.square"
-            case .squareAndArrowDownOnSquareFill: return "square.and.arrow.down.on.square.fill"
-            case .squareAndArrowUp: return "square.and.arrow.up"
-            case .squareAndArrowUpFill: return "square.and.arrow.up.fill"
-            case .squareAndArrowUpOnSquare: return "square.and.arrow.up.on.square"
-            case .squareAndArrowUpOnSquareFill: return "square.and.arrow.up.on.square.fill"
-            case .squareAndAtRectangle: return "square.and.at.rectangle"
-            case .squareAndLineVerticalAndSquare: return "square.and.line.vertical.and.square"
-            case .squareAndLineVerticalAndSquareFill: return "square.and.line.vertical.and.square.fill"
-            case .squareAndPencil: return "square.and.pencil"
-            case .squareBottomhalfFill: return "square.bottomhalf.fill"
-            case .squareCircle: return "square.circle"
-            case .squareCircleFill: return "square.circle.fill"
-            case .squareDashed: return "square.dashed"
-            case .squareDashedInsetFill: return "square.dashed.inset.fill"
-            case .squareFill: return "square.fill"
-            case .squareFillAndLineVerticalAndSquare: return "square.fill.and.line.vertical.and.square"
-            case .squareFillAndLineVerticalSquareFill: return "square.fill.and.line.vertical.square.fill"
-            case .squareFillOnCircleFill: return "square.fill.on.circle.fill"
-            case .squareFillOnSquare: return "square.fill.on.square"
-            case .squareFillOnSquareFill: return "square.fill.on.square.fill"
-            case .squareFillTextGrid1x2: return "square.fill.text.grid.1x2"
-            case .squareGrid2x2: return "square.grid.2x2"
-            case .squareGrid2x2Fill: return "square.grid.2x2.fill"
-            case .squareGrid3x1BelowLineGrid1x2: return "square.grid.3x1.below.line.grid.1x2"
-            case .squareGrid3x1FillBelowLineGrid1x2: return "square.grid.3x1.fill.below.line.grid.1x2"
-            case .squareGrid3x1FolderBadgePlus: return "square.grid.3x1.folder.badge.plus"
-            case .squareGrid3x1FolderFillBadgePlus: return "square.grid.3x1.folder.fill.badge.plus"
-            case .squareGrid3x2: return "square.grid.3x2"
-            case .squareGrid3x2Fill: return "square.grid.3x2.fill"
-            case .squareGrid3x3: return "square.grid.3x3"
-            case .squareGrid3x3BottomleftFill: return "square.grid.3x3.bottomleft.fill"
-            case .squareGrid3x3BottommiddleFill: return "square.grid.3x3.bottommiddle.fill"
-            case .squareGrid3x3BottomrightFill: return "square.grid.3x3.bottomright.fill"
-            case .squareGrid3x3Fill: return "square.grid.3x3.fill"
-            case .squareGrid3x3FillSquare: return "square.grid.3x3.fill.square"
-            case .squareGrid3x3MiddleFill: return "square.grid.3x3.middle.fill"
-            case .squareGrid3x3MiddleleftFill: return "square.grid.3x3.middleleft.fill"
-            case .squareGrid3x3MiddlerightFill: return "square.grid.3x3.middleright.fill"
-            case .squareGrid3x3TopleftFill: return "square.grid.3x3.topleft.fill"
-            case .squareGrid3x3TopmiddleFill: return "square.grid.3x3.topmiddle.fill"
-            case .squareGrid3x3ToprightFill: return "square.grid.3x3.topright.fill"
-            case .squareGrid4x3Fill: return "square.grid.4x3.fill"
-            case .squareLefthalfFill: return "square.lefthalf.fill"
-            case .squareOnCircle: return "square.on.circle"
-            case .squareOnSquare: return "square.on.square"
-            case .squareOnSquareDashed: return "square.on.square.dashed"
-            case .squareOnSquareSquareshapeControlhandles: return "square.on.square.squareshape.controlhandles"
-            case .squareRighthalfFill: return "square.righthalf.fill"
-            case .squareSlash: return "square.slash"
-            case .squareSlashFill: return "square.slash.fill"
-            case .squareSplit1x2: return "square.split.1x2"
-            case .squareSplit1x2Fill: return "square.split.1x2.fill"
-            case .squareSplit2x1: return "square.split.2x1"
-            case .squareSplit2x1Fill: return "square.split.2x1.fill"
-            case .squareSplit2x2: return "square.split.2x2"
-            case .squareSplit2x2Fill: return "square.split.2x2.fill"
-            case .squareSplitBottomrightquarter: return "square.split.bottomrightquarter"
-            case .squareSplitBottomrightquarterFill: return "square.split.bottomrightquarter.fill"
-            case .squareSplitDiagonal: return "square.split.diagonal"
-            case .squareSplitDiagonal2x2: return "square.split.diagonal.2x2"
-            case .squareSplitDiagonal2x2Fill: return "square.split.diagonal.2x2.fill"
-            case .squareSplitDiagonalFill: return "square.split.diagonal.fill"
-            case .squareStack: return "square.stack"
-            case .squareStack3dDownDottedline: return "square.stack.3d.forward.dottedline"
-            case .squareStack3dDownForward: return "square.stack.3d.down.forward"
-            case .squareStack3dDownForwardFill: return "square.stack.3d.down.forward.fill"
-            case .squareStack3dDownRight: return "square.stack.3d.down.right"
-            case .squareStack3dDownRightFill: return "square.stack.3d.down.right.fill"
-            case .squareStack3dForwardDottedline: return "square.stack.3d.forward.dottedline"
-            case .squareStack3dForwardDottedlineFill: return "square.stack.3d.forward.dottedline.fill"
-            case .squareStack3dUp: return "square.stack.3d.up"
-            case .squareStack3dUpBadgeA: return "square.stack.3d.up.badge.a"
-            case .squareStack3dUpBadgeAFill: return "square.stack.3d.up.badge.a.fill"
-            case .squareStack3dUpFill: return "square.stack.3d.up.fill"
-            case .squareStack3dUpSlash: return "square.stack.3d.up.slash"
-            case .squareStack3dUpSlashFill: return "square.stack.3d.up.slash.fill"
-            case .squareStackFill: return "square.stack.fill"
-            case .squareTophalfFill: return "square.tophalf.fill"
-            case .squaresBelowRectangle: return "squares.below.rectangle"
-            case .squareshape: return "squareshape"
-            case .squareshapeControlhandlesOnSquareshapeControlhandles: return "squareshape.controlhandles.on.squareshape.controlhandles"
-            case .squareshapeDashedSquareshape: return "squareshape.dashed.squareshape"
-            case .squareshapeFill: return "squareshape.fill"
-            case .squareshapeSplit2x2: return "squareshape.split.2x2"
-            case .squareshapeSplit2x2Dotted: return "squareshape.split.2x2.dotted"
-            case .squareshapeSplit3x3: return "squareshape.split.3x3"
-            case .squareshapeSquareshapeDashed: return "squareshape.squareshape.dashed"
-            case .star: return "star"
-            case .starCircle: return "star.circle"
-            case .starCircleFill: return "star.circle.fill"
-            case .starFill: return "star.fill"
-            case .starLeadinghalfFill: return "star.leadinghalf.fill"
-            case .starLefthalfFill: return "star.leadinghalf.fill"
-            case .starSlash: return "star.slash"
-            case .starSlashFill: return "star.slash.fill"
-            case .starSquare: return "star.square"
-            case .starSquareFill: return "star.square.fill"
-            case .staroflife: return "staroflife"
-            case .staroflifeCircle: return "staroflife.circle"
-            case .staroflifeCircleFill: return "staroflife.circle.fill"
-            case .staroflifeFill: return "staroflife.fill"
-            case .sterlingsignCircle: return "sterlingsign.circle"
-            case .sterlingsignCircleFill: return "sterlingsign.circle.fill"
-            case .sterlingsignSquare: return "sterlingsign.square"
-            case .sterlingsignSquareFill: return "sterlingsign.square.fill"
-            case .stethoscope: return "stethoscope"
-            case .stop: return "stop"
-            case .stopCircle: return "stop.circle"
-            case .stopCircleFill: return "stop.circle.fill"
-            case .stopFill: return "stop.fill"
-            case .stopwatch: return "stopwatch"
-            case .stopwatchFill: return "stopwatch.fill"
-            case .strikethrough: return "strikethrough"
-            case .studentdesk: return "studentdesk"
-            case .suitClub: return "suit.club"
-            case .suitClubFill: return "suit.club.fill"
-            case .suitDiamond: return "suit.diamond"
-            case .suitDiamondFill: return "suit.diamond.fill"
-            case .suitHeart: return "suit.heart"
-            case .suitHeartFill: return "suit.heart.fill"
-            case .suitSpade: return "suit.spade"
-            case .suitSpadeFill: return "suit.spade.fill"
-            case .sum: return "sum"
-            case .sunDust: return "sun.dust"
-            case .sunDustFill: return "sun.dust.fill"
-            case .sunHaze: return "sun.haze"
-            case .sunHazeFill: return "sun.haze.fill"
-            case .sunMax: return "sun.max"
-            case .sunMaxFill: return "sun.max.fill"
-            case .sunMin: return "sun.min"
-            case .sunMinFill: return "sun.min.fill"
-            case .sunrise: return "sunrise"
-            case .sunriseFill: return "sunrise.fill"
-            case .sunset: return "sunset"
-            case .sunsetFill: return "sunset.fill"
-            case .swift: return "swift"
-            case .switch2: return "switch.2"
-            case .tBubble: return "t.bubble"
-            case .tBubbleFill: return "t.bubble.fill"
-            case .tCircle: return "t.circle"
-            case .tCircleFill: return "t.circle.fill"
-            case .tSquare: return "t.square"
-            case .tSquareFill: return "t.square.fill"
-            case .table: return "tablecells"
-            case .tableBadgeMore: return "tablecells.badge.ellipsis"
-            case .tableBadgeMoreFill: return "tablecells.badge.ellipsis.fill"
-            case .tableFill: return "tablecells.fill"
-            case .tablecells: return "tablecells"
-            case .tablecellsBadgeEllipsis: return "tablecells.badge.ellipsis"
-            case .tablecellsBadgeEllipsisFill: return "tablecells.badge.ellipsis.fill"
-            case .tablecellsFill: return "tablecells.fill"
-            case .tag: return "tag"
-            case .tagCircle: return "tag.circle"
-            case .tagCircleFill: return "tag.circle.fill"
-            case .tagFill: return "tag.fill"
-            case .tagSlash: return "tag.slash"
-            case .tagSlashFill: return "tag.slash.fill"
-            case .target: return "target"
-            case .teletype: return "teletype"
-            case .teletypeAnswer: return "teletype.answer"
-            case .teletypeCircle: return "teletype.circle"
-            case .teletypeCircleFill: return "teletype.circle.fill"
-            case .tengesignCircle: return "tengesign.circle"
-            case .tengesignCircleFill: return "tengesign.circle.fill"
-            case .tengesignSquare: return "tengesign.square"
-            case .tengesignSquareFill: return "tengesign.square.fill"
-            case .terminal: return "terminal"
-            case .terminalFill: return "terminal.fill"
-            case .textAligncenter: return "text.aligncenter"
-            case .textAlignleft: return "text.alignleft"
-            case .textAlignright: return "text.alignright"
-            case .textAndCommandMacwindow: return "text.and.command.macwindow"
-            case .textAppend: return "text.append"
-            case .textBadgeCheckmark: return "text.badge.checkmark"
-            case .textBadgeMinus: return "text.badge.minus"
-            case .textBadgePlus: return "text.badge.plus"
-            case .textBadgeStar: return "text.badge.star"
-            case .textBadgeXmark: return "text.badge.xmark"
-            case .textBelowPhoto: return "text.below.photo"
-            case .textBelowPhotoFill: return "text.below.photo.fill"
-            case .textBookClosed: return "text.book.closed"
-            case .textBookClosedFill: return "text.book.closed.fill"
-            case .textBubble: return "text.bubble"
-            case .textBubbleFill: return "text.bubble.fill"
-            case .textCursor: return "text.cursor"
-            case .textInsert: return "text.insert"
-            case .textJustify: return "text.justify"
-            case .textJustifyleft: return "text.justifyleft"
-            case .textJustifyright: return "text.justifyright"
-            case .textMagnifyingglass: return "text.magnifyingglass"
-            case .textQuote: return "text.quote"
-            case .textRedaction: return "text.redaction"
-            case .textbox: return "textbox"
-            case .textformat: return "textformat"
-            case .textformat123: return "textformat.123"
-            case .textformatAbc: return "textformat.abc"
-            case .textformatAbcDottedunderline: return "textformat.abc.dottedunderline"
-            case .textformatAlt: return "textformat.alt"
-            case .textformatSize: return "textformat.size"
-            case .textformatSizeLarger: return "textformat.size.larger"
-            case .textformatSizeSmaller: return "textformat.size.smaller"
-            case .textformatSubscript: return "textformat.subscript"
-            case .textformatSuperscript: return "textformat.superscript"
-            case .thermometer: return "thermometer"
-            case .thermometerSnowflake: return "thermometer.snowflake"
-            case .thermometerSun: return "thermometer.sun"
-            case .thermometerSunFill: return "thermometer.sun.fill"
-            case .ticket: return "ticket"
-            case .ticketFill: return "ticket.fill"
-            case .timelapse: return "timelapse"
-            case .timelineSelection: return "timeline.selection"
-            case .timer: return "timer"
-            case .timerSquare: return "timer.square"
-            case .togglepower: return "togglepower"
-            case .tornado: return "tornado"
-            case .tortoise: return "tortoise"
-            case .tortoiseFill: return "tortoise.fill"
-            case .torus: return "torus"
-            case .touchid: return "touchid"
-            case .tram: return "tram"
-            case .tramCircle: return "tram.circle"
-            case .tramCircleFill: return "tram.circle.fill"
-            case .tramFill: return "tram.fill"
-            case .tramTunnelFill: return "tram.tunnel.fill"
-            case .trash: return "trash"
-            case .trashCircle: return "trash.circle"
-            case .trashCircleFill: return "trash.circle.fill"
-            case .trashFill: return "trash.fill"
-            case .trashSlash: return "trash.slash"
-            case .trashSlashFill: return "trash.slash.fill"
-            case .tray: return "tray"
-            case .tray2: return "tray.2"
-            case .tray2Fill: return "tray.2.fill"
-            case .trayAndArrowDown: return "tray.and.arrow.down"
-            case .trayAndArrowDownFill: return "tray.and.arrow.down.fill"
-            case .trayAndArrowUp: return "tray.and.arrow.up"
-            case .trayAndArrowUpFill: return "tray.and.arrow.up.fill"
-            case .trayCircle: return "tray.circle"
-            case .trayCircleFill: return "tray.circle.fill"
-            case .trayFill: return "tray.fill"
-            case .trayFull: return "tray.full"
-            case .trayFullFill: return "tray.full.fill"
-            case .triangle: return "triangle"
-            case .triangleCircle: return "triangle.circle"
-            case .triangleCircleFill: return "triangle.circle.fill"
-            case .triangleFill: return "triangle.fill"
-            case .triangleLefthalfFill: return "triangle.lefthalf.fill"
-            case .triangleRighthalfFill: return "triangle.righthalf.fill"
-            case .tropicalstorm: return "tropicalstorm"
-            case .tugriksignCircle: return "tugriksign.circle"
-            case .tugriksignCircleFill: return "tugriksign.circle.fill"
-            case .tugriksignSquare: return "tugriksign.square"
-            case .tugriksignSquareFill: return "tugriksign.square.fill"
-            case .tuningfork: return "tuningfork"
-            case .turkishlirasignCircle: return "turkishlirasign.circle"
-            case .turkishlirasignCircleFill: return "turkishlirasign.circle.fill"
-            case .turkishlirasignSquare: return "turkishlirasign.square"
-            case .turkishlirasignSquareFill: return "turkishlirasign.square.fill"
-            case .tv: return "tv"
-            case .tvAndHifispeakerFill: return "tv.and.hifispeaker.fill"
-            case .tvAndMediabox: return "tv.and.mediabox"
-            case .tvCircle: return "tv.circle"
-            case .tvCircleFill: return "tv.circle.fill"
-            case .tvFill: return "tv.fill"
-            case .tvMusicNote: return "tv.music.note"
-            case .tvMusicNoteFill: return "tv.music.note.fill"
-            case .uCircle: return "u.circle"
-            case .uCircleFill: return "u.circle.fill"
-            case .uSquare: return "u.square"
-            case .uSquareFill: return "u.square.fill"
-            case .uiwindowSplit2x1: return "uiwindow.split.2x1"
-            case .umbrella: return "umbrella"
-            case .umbrellaFill: return "umbrella.fill"
-            case .underline: return "underline"
-            case .vCircle: return "v.circle"
-            case .vCircleFill: return "v.circle.fill"
-            case .vSquare: return "v.square"
-            case .vSquareFill: return "v.square.fill"
-            case .video: return "video"
-            case .videoBadgeCheckmark: return "video.badge.checkmark"
-            case .videoBadgePlus: return "video.badge.plus"
-            case .videoBadgePlusFill: return "video.fill.badge.plus"
-            case .videoBubbleLeft: return "video.bubble.left"
-            case .videoBubbleLeftFill: return "video.bubble.left.fill"
-            case .videoCircle: return "video.circle"
-            case .videoCircleFill: return "video.circle.fill"
-            case .videoFill: return "video.fill"
-            case .videoFillBadgeCheckmark: return "video.fill.badge.checkmark"
-            case .videoFillBadgePlus: return "video.fill.badge.plus"
-            case .videoSlash: return "video.slash"
-            case .videoSlashFill: return "video.slash.fill"
-            case .view2d: return "view.2d"
-            case .view3d: return "view.3d"
-            case .viewfinder: return "viewfinder"
-            case .viewfinderCircle: return "viewfinder.circle"
-            case .viewfinderCircleFill: return "viewfinder.circle.fill"
-            case .wCircle: return "w.circle"
-            case .wCircleFill: return "w.circle.fill"
-            case .wSquare: return "w.square"
-            case .wSquareFill: return "w.square.fill"
-            case .wake: return "wake"
-            case .walletPass: return "wallet.pass"
-            case .walletPassFill: return "wallet.pass.fill"
-            case .wandAndRays: return "wand.and.rays"
-            case .wandAndRaysInverse: return "wand.and.rays.inverse"
-            case .wandAndStars: return "wand.and.stars"
-            case .wandAndStarsInverse: return "wand.and.stars.inverse"
-            case .wave3Backward: return "wave.3.backward"
-            case .wave3BackwardCircle: return "wave.3.backward.circle"
-            case .wave3BackwardCircleFill: return "wave.3.backward.circle.fill"
-            case .wave3Forward: return "wave.3.forward"
-            case .wave3ForwardCircle: return "wave.3.forward.circle"
-            case .wave3ForwardCircleFill: return "wave.3.forward.circle.fill"
-            case .wave3Left: return "wave.3.left"
-            case .wave3LeftCircle: return "wave.3.left.circle"
-            case .wave3LeftCircleFill: return "wave.3.left.circle.fill"
-            case .wave3Right: return "wave.3.right"
-            case .wave3RightCircle: return "wave.3.right.circle"
-            case .wave3RightCircleFill: return "wave.3.right.circle.fill"
-            case .waveform: return "waveform"
-            case .waveformCircle: return "waveform.circle"
-            case .waveformCircleFill: return "waveform.circle.fill"
-            case .waveformPath: return "waveform.path"
-            case .waveformPathBadgeMinus: return "waveform.path.badge.minus"
-            case .waveformPathBadgePlus: return "waveform.path.badge.plus"
-            case .waveformPathEcg: return "waveform.path.ecg"
-            case .waveformPathEcgRectangle: return "waveform.path.ecg.rectangle"
-            case .waveformPathEcgRectangleFill: return "waveform.path.ecg.rectangle.fill"
-            case .wifi: return "wifi"
-            case .wifiExclamationmark: return "wifi.exclamationmark"
-            case .wifiSlash: return "wifi.slash"
-            case .wind: return "wind"
-            case .windSnow: return "wind.snow"
-            case .wonsignCircle: return "wonsign.circle"
-            case .wonsignCircleFill: return "wonsign.circle.fill"
-            case .wonsignSquare: return "wonsign.square"
-            case .wonsignSquareFill: return "wonsign.square.fill"
-            case .wrench: return "wrench"
-            case .wrenchAndScrewdriver: return "wrench.and.screwdriver"
-            case .wrenchAndScrewdriverFill: return "wrench.and.screwdriver.fill"
-            case .wrenchFill: return "wrench.fill"
-            case .xCircle: return "x.circle"
-            case .xCircleFill: return "x.circle.fill"
-            case .xSquare: return "x.square"
-            case .xSquareFill: return "x.square.fill"
-            case .xSquareroot: return "x.squareroot"
-            case .xmark: return "xmark"
-            case .xmarkBin: return "xmark.bin"
-            case .xmarkBinCircle: return "xmark.bin.circle"
-            case .xmarkBinCircleFill: return "xmark.bin.circle.fill"
-            case .xmarkBinFill: return "xmark.bin.fill"
-            case .xmarkCircle: return "xmark.circle"
-            case .xmarkCircleFill: return "xmark.circle.fill"
-            case .xmarkDiamond: return "xmark.diamond"
-            case .xmarkDiamondFill: return "xmark.diamond.fill"
-            case .xmarkIcloud: return "xmark.icloud"
-            case .xmarkIcloudFill: return "xmark.icloud.fill"
-            case .xmarkOctagon: return "xmark.octagon"
-            case .xmarkOctagonFill: return "xmark.octagon.fill"
-            case .xmarkRectangle: return "xmark.rectangle"
-            case .xmarkRectangleFill: return "xmark.rectangle.fill"
-            case .xmarkRectanglePortrait: return "xmark.rectangle.portrait"
-            case .xmarkRectanglePortraitFill: return "xmark.rectangle.portrait.fill"
-            case .xmarkSeal: return "xmark.seal"
-            case .xmarkSealFill: return "xmark.seal.fill"
-            case .xmarkShield: return "xmark.shield"
-            case .xmarkShieldFill: return "xmark.shield.fill"
-            case .xmarkSquare: return "xmark.square"
-            case .xmarkSquareFill: return "xmark.square.fill"
-            case .xserve: return "xserve"
-            case .yCircle: return "y.circle"
-            case .yCircleFill: return "y.circle.fill"
-            case .ySquare: return "y.square"
-            case .ySquareFill: return "y.square.fill"
-            case .yensignCircle: return "yensign.circle"
-            case .yensignCircleFill: return "yensign.circle.fill"
-            case .yensignSquare: return "yensign.square"
-            case .yensignSquareFill: return "yensign.square.fill"
-            case .zCircle: return "z.circle"
-            case .zCircleFill: return "z.circle.fill"
-            case .zSquare: return "z.square"
-            case .zSquareFill: return "z.square.fill"
-            case .zlRectangleRoundedtop: return "zl.rectangle.roundedtop"
-            case .zlRectangleRoundedtopFill: return "zl.rectangle.roundedtop.fill"
-            case .zrRectangleRoundedtop: return "zr.rectangle.roundedtop"
-            case .zrRectangleRoundedtopFill: return "zr.rectangle.roundedtop.fill"
-            case .zzz: return "zzz"
-            default: fatalError() // While this triggers a compiler warning, without this, the compiler would fail
-            }
-        } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
-            switch self {
-            case ._0Circle: return "0.circle"
-            case ._0CircleFill: return "0.circle.fill"
-            case ._0Square: return "0.square"
-            case ._0SquareFill: return "0.square.fill"
-            case ._00Circle: return "00.circle"
-            case ._00CircleFill: return "00.circle.fill"
-            case ._00Square: return "00.square"
-            case ._00SquareFill: return "00.square.fill"
-            case ._01Circle: return "01.circle"
-            case ._01CircleFill: return "01.circle.fill"
-            case ._01Square: return "01.square"
-            case ._01SquareFill: return "01.square.fill"
-            case ._02Circle: return "02.circle"
-            case ._02CircleFill: return "02.circle.fill"
-            case ._02Square: return "02.square"
-            case ._02SquareFill: return "02.square.fill"
-            case ._03Circle: return "03.circle"
-            case ._03CircleFill: return "03.circle.fill"
-            case ._03Square: return "03.square"
-            case ._03SquareFill: return "03.square.fill"
-            case ._04Circle: return "04.circle"
-            case ._04CircleFill: return "04.circle.fill"
-            case ._04Square: return "04.square"
-            case ._04SquareFill: return "04.square.fill"
-            case ._05Circle: return "05.circle"
-            case ._05CircleFill: return "05.circle.fill"
-            case ._05Square: return "05.square"
-            case ._05SquareFill: return "05.square.fill"
-            case ._06Circle: return "06.circle"
-            case ._06CircleFill: return "06.circle.fill"
-            case ._06Square: return "06.square"
-            case ._06SquareFill: return "06.square.fill"
-            case ._07Circle: return "07.circle"
-            case ._07CircleFill: return "07.circle.fill"
-            case ._07Square: return "07.square"
-            case ._07SquareFill: return "07.square.fill"
-            case ._08Circle: return "08.circle"
-            case ._08CircleFill: return "08.circle.fill"
-            case ._08Square: return "08.square"
-            case ._08SquareFill: return "08.square.fill"
-            case ._09Circle: return "09.circle"
-            case ._09CircleFill: return "09.circle.fill"
-            case ._09Square: return "09.square"
-            case ._09SquareFill: return "09.square.fill"
-            case ._1Circle: return "1.circle"
-            case ._1CircleFill: return "1.circle.fill"
-            case ._1Magnifyingglass: return "1.magnifyingglass"
-            case ._1Square: return "1.square"
-            case ._1SquareFill: return "1.square.fill"
-            case ._10Circle: return "10.circle"
-            case ._10CircleFill: return "10.circle.fill"
-            case ._10Square: return "10.square"
-            case ._10SquareFill: return "10.square.fill"
-            case ._11Circle: return "11.circle"
-            case ._11CircleFill: return "11.circle.fill"
-            case ._11Square: return "11.square"
-            case ._11SquareFill: return "11.square.fill"
-            case ._12Circle: return "12.circle"
-            case ._12CircleFill: return "12.circle.fill"
-            case ._12Square: return "12.square"
-            case ._12SquareFill: return "12.square.fill"
-            case ._13Circle: return "13.circle"
-            case ._13CircleFill: return "13.circle.fill"
-            case ._13Square: return "13.square"
-            case ._13SquareFill: return "13.square.fill"
-            case ._14Circle: return "14.circle"
-            case ._14CircleFill: return "14.circle.fill"
-            case ._14Square: return "14.square"
-            case ._14SquareFill: return "14.square.fill"
-            case ._15Circle: return "15.circle"
-            case ._15CircleFill: return "15.circle.fill"
-            case ._15Square: return "15.square"
-            case ._15SquareFill: return "15.square.fill"
-            case ._16Circle: return "16.circle"
-            case ._16CircleFill: return "16.circle.fill"
-            case ._16Square: return "16.square"
-            case ._16SquareFill: return "16.square.fill"
-            case ._17Circle: return "17.circle"
-            case ._17CircleFill: return "17.circle.fill"
-            case ._17Square: return "17.square"
-            case ._17SquareFill: return "17.square.fill"
-            case ._18Circle: return "18.circle"
-            case ._18CircleFill: return "18.circle.fill"
-            case ._18Square: return "18.square"
-            case ._18SquareFill: return "18.square.fill"
-            case ._19Circle: return "19.circle"
-            case ._19CircleFill: return "19.circle.fill"
-            case ._19Square: return "19.square"
-            case ._19SquareFill: return "19.square.fill"
-            case ._2Circle: return "2.circle"
-            case ._2CircleFill: return "2.circle.fill"
-            case ._2Square: return "2.square"
-            case ._2SquareFill: return "2.square.fill"
-            case ._20Circle: return "20.circle"
-            case ._20CircleFill: return "20.circle.fill"
-            case ._20Square: return "20.square"
-            case ._20SquareFill: return "20.square.fill"
-            case ._21Circle: return "21.circle"
-            case ._21CircleFill: return "21.circle.fill"
-            case ._21Square: return "21.square"
-            case ._21SquareFill: return "21.square.fill"
-            case ._22Circle: return "22.circle"
-            case ._22CircleFill: return "22.circle.fill"
-            case ._22Square: return "22.square"
-            case ._22SquareFill: return "22.square.fill"
-            case ._23Circle: return "23.circle"
-            case ._23CircleFill: return "23.circle.fill"
-            case ._23Square: return "23.square"
-            case ._23SquareFill: return "23.square.fill"
-            case ._24Circle: return "24.circle"
-            case ._24CircleFill: return "24.circle.fill"
-            case ._24Square: return "24.square"
-            case ._24SquareFill: return "24.square.fill"
-            case ._25Circle: return "25.circle"
-            case ._25CircleFill: return "25.circle.fill"
-            case ._25Square: return "25.square"
-            case ._25SquareFill: return "25.square.fill"
-            case ._26Circle: return "26.circle"
-            case ._26CircleFill: return "26.circle.fill"
-            case ._26Square: return "26.square"
-            case ._26SquareFill: return "26.square.fill"
-            case ._27Circle: return "27.circle"
-            case ._27CircleFill: return "27.circle.fill"
-            case ._27Square: return "27.square"
-            case ._27SquareFill: return "27.square.fill"
-            case ._28Circle: return "28.circle"
-            case ._28CircleFill: return "28.circle.fill"
-            case ._28Square: return "28.square"
-            case ._28SquareFill: return "28.square.fill"
-            case ._29Circle: return "29.circle"
-            case ._29CircleFill: return "29.circle.fill"
-            case ._29Square: return "29.square"
-            case ._29SquareFill: return "29.square.fill"
-            case ._3Circle: return "3.circle"
-            case ._3CircleFill: return "3.circle.fill"
-            case ._3Square: return "3.square"
-            case ._3SquareFill: return "3.square.fill"
-            case ._30Circle: return "30.circle"
-            case ._30CircleFill: return "30.circle.fill"
-            case ._30Square: return "30.square"
-            case ._30SquareFill: return "30.square.fill"
-            case ._31Circle: return "31.circle"
-            case ._31CircleFill: return "31.circle.fill"
-            case ._31Square: return "31.square"
-            case ._31SquareFill: return "31.square.fill"
-            case ._32Circle: return "32.circle"
-            case ._32CircleFill: return "32.circle.fill"
-            case ._32Square: return "32.square"
-            case ._32SquareFill: return "32.square.fill"
-            case ._33Circle: return "33.circle"
-            case ._33CircleFill: return "33.circle.fill"
-            case ._33Square: return "33.square"
-            case ._33SquareFill: return "33.square.fill"
-            case ._34Circle: return "34.circle"
-            case ._34CircleFill: return "34.circle.fill"
-            case ._34Square: return "34.square"
-            case ._34SquareFill: return "34.square.fill"
-            case ._35Circle: return "35.circle"
-            case ._35CircleFill: return "35.circle.fill"
-            case ._35Square: return "35.square"
-            case ._35SquareFill: return "35.square.fill"
-            case ._36Circle: return "36.circle"
-            case ._36CircleFill: return "36.circle.fill"
-            case ._36Square: return "36.square"
-            case ._36SquareFill: return "36.square.fill"
-            case ._37Circle: return "37.circle"
-            case ._37CircleFill: return "37.circle.fill"
-            case ._37Square: return "37.square"
-            case ._37SquareFill: return "37.square.fill"
-            case ._38Circle: return "38.circle"
-            case ._38CircleFill: return "38.circle.fill"
-            case ._38Square: return "38.square"
-            case ._38SquareFill: return "38.square.fill"
-            case ._39Circle: return "39.circle"
-            case ._39CircleFill: return "39.circle.fill"
-            case ._39Square: return "39.square"
-            case ._39SquareFill: return "39.square.fill"
-            case ._4AltCircle: return "4.alt.circle"
-            case ._4AltCircleFill: return "4.alt.circle.fill"
-            case ._4AltSquare: return "4.alt.square"
-            case ._4AltSquareFill: return "4.alt.square.fill"
-            case ._4Circle: return "4.circle"
-            case ._4CircleFill: return "4.circle.fill"
-            case ._4Square: return "4.square"
-            case ._4SquareFill: return "4.square.fill"
-            case ._40Circle: return "40.circle"
-            case ._40CircleFill: return "40.circle.fill"
-            case ._40Square: return "40.square"
-            case ._40SquareFill: return "40.square.fill"
-            case ._41Circle: return "41.circle"
-            case ._41CircleFill: return "41.circle.fill"
-            case ._41Square: return "41.square"
-            case ._41SquareFill: return "41.square.fill"
-            case ._42Circle: return "42.circle"
-            case ._42CircleFill: return "42.circle.fill"
-            case ._42Square: return "42.square"
-            case ._42SquareFill: return "42.square.fill"
-            case ._43Circle: return "43.circle"
-            case ._43CircleFill: return "43.circle.fill"
-            case ._43Square: return "43.square"
-            case ._43SquareFill: return "43.square.fill"
-            case ._44Circle: return "44.circle"
-            case ._44CircleFill: return "44.circle.fill"
-            case ._44Square: return "44.square"
-            case ._44SquareFill: return "44.square.fill"
-            case ._45Circle: return "45.circle"
-            case ._45CircleFill: return "45.circle.fill"
-            case ._45Square: return "45.square"
-            case ._45SquareFill: return "45.square.fill"
-            case ._46Circle: return "46.circle"
-            case ._46CircleFill: return "46.circle.fill"
-            case ._46Square: return "46.square"
-            case ._46SquareFill: return "46.square.fill"
-            case ._47Circle: return "47.circle"
-            case ._47CircleFill: return "47.circle.fill"
-            case ._47Square: return "47.square"
-            case ._47SquareFill: return "47.square.fill"
-            case ._48Circle: return "48.circle"
-            case ._48CircleFill: return "48.circle.fill"
-            case ._48Square: return "48.square"
-            case ._48SquareFill: return "48.square.fill"
-            case ._49Circle: return "49.circle"
-            case ._49CircleFill: return "49.circle.fill"
-            case ._49Square: return "49.square"
-            case ._49SquareFill: return "49.square.fill"
-            case ._4kTv: return "4k.tv"
-            case ._4kTvFill: return "4k.tv.fill"
-            case ._5Circle: return "5.circle"
-            case ._5CircleFill: return "5.circle.fill"
-            case ._5Square: return "5.square"
-            case ._5SquareFill: return "5.square.fill"
-            case ._50Circle: return "50.circle"
-            case ._50CircleFill: return "50.circle.fill"
-            case ._50Square: return "50.square"
-            case ._50SquareFill: return "50.square.fill"
-            case ._6AltCircle: return "6.alt.circle"
-            case ._6AltCircleFill: return "6.alt.circle.fill"
-            case ._6AltSquare: return "6.alt.square"
-            case ._6AltSquareFill: return "6.alt.square.fill"
-            case ._6Circle: return "6.circle"
-            case ._6CircleFill: return "6.circle.fill"
-            case ._6Square: return "6.square"
-            case ._6SquareFill: return "6.square.fill"
-            case ._7Circle: return "7.circle"
-            case ._7CircleFill: return "7.circle.fill"
-            case ._7Square: return "7.square"
-            case ._7SquareFill: return "7.square.fill"
-            case ._8Circle: return "8.circle"
-            case ._8CircleFill: return "8.circle.fill"
-            case ._8Square: return "8.square"
-            case ._8SquareFill: return "8.square.fill"
-            case ._9AltCircle: return "9.alt.circle"
-            case ._9AltCircleFill: return "9.alt.circle.fill"
-            case ._9AltSquare: return "9.alt.square"
-            case ._9AltSquareFill: return "9.alt.square.fill"
-            case ._9Circle: return "9.circle"
-            case ._9CircleFill: return "9.circle.fill"
-            case ._9Square: return "9.square"
-            case ._9SquareFill: return "9.square.fill"
-            case .a: return "a"
-            case .aBookClosed: return "a.book.closed"
-            case .aBookClosedFill: return "a.book.closed.fill"
-            case .aCircle: return "a.circle"
-            case .aCircleFill: return "a.circle.fill"
-            case .aMagnify: return "a.magnify"
-            case .aSquare: return "a.square"
-            case .aSquareFill: return "a.square.fill"
-            case .abc: return "abc"
-            case .airplane: return "airplane"
-            case .airplaneCircle: return "airplane.circle"
-            case .airplaneCircleFill: return "airplane.circle.fill"
-            case .airplayaudio: return "airplayaudio"
-            case .airplayvideo: return "airplayvideo"
-            case .airpodLeft: return "airpod.left"
-            case .airpodRight: return "airpod.right"
-            case .airpodproLeft: return "airpodpro.left"
-            case .airpodproRight: return "airpodpro.right"
-            case .airpods: return "airpods"
-            case .airpodspro: return "airpodspro"
-            case .airportExpress: return "airport.express"
-            case .airportExtreme: return "airport.extreme"
-            case .airportExtremeTower: return "airport.extreme.tower"
-            case .alarm: return "alarm"
-            case .alarmFill: return "alarm.fill"
-            case .alt: return "alt"
-            case .amplifier: return "amplifier"
-            case .ant: return "ant"
-            case .antCircle: return "ant.circle"
-            case .antCircleFill: return "ant.circle.fill"
-            case .antFill: return "ant.fill"
-            case .antennaRadiowavesLeftAndRight: return "antenna.radiowaves.left.and.right"
-            case .app: return "app"
-            case .appBadge: return "app.badge"
-            case .appBadgeFill: return "app.badge.fill"
-            case .appFill: return "app.fill"
-            case .appGift: return "app.gift"
-            case .appGiftFill: return "app.gift.fill"
-            case .appclip: return "appclip"
-            case .applelogo: return "applelogo"
-            case .applescript: return "applescript"
-            case .applescriptFill: return "applescript.fill"
-            case .appletv: return "appletv"
-            case .appletvFill: return "appletv.fill"
-            case .applewatch: return "applewatch"
-            case .applewatchRadiowavesLeftAndRight: return "applewatch.radiowaves.left.and.right"
-            case .applewatchSlash: return "applewatch.slash"
-            case .applewatchWatchface: return "applewatch.watchface"
-            case .appsIpad: return "apps.ipad"
-            case .appsIpadLandscape: return "apps.ipad.landscape"
-            case .appsIphone: return "apps.iphone"
-            case .appsIphoneBadgePlus: return "apps.iphone.badge.plus"
-            case .appsIphoneLandscape: return "apps.iphone.landscape"
-            case .archivebox: return "archivebox"
-            case .archiveboxCircle: return "archivebox.circle"
-            case .archiveboxCircleFill: return "archivebox.circle.fill"
-            case .archiveboxFill: return "archivebox.fill"
-            case .arkit: return "arkit"
-            case .arrow2Circlepath: return "arrow.triangle.2.circlepath"
-            case .arrow2CirclepathCircle: return "arrow.triangle.2.circlepath.circle"
-            case .arrow2CirclepathCircleFill: return "arrow.triangle.2.circlepath.circle.fill"
-            case .arrow2Squarepath: return "arrow.2.squarepath"
-            case .arrow3Trianglepath: return "arrow.3.trianglepath"
-            case .arrowBackward: return "arrow.backward"
-            case .arrowBackwardCircle: return "arrow.backward.circle"
-            case .arrowBackwardCircleFill: return "arrow.backward.circle.fill"
-            case .arrowBackwardSquare: return "arrow.backward.square"
-            case .arrowBackwardSquareFill: return "arrow.backward.square.fill"
-            case .arrowBranch: return "arrow.triangle.branch"
-            case .arrowClockwise: return "arrow.clockwise"
-            case .arrowClockwiseCircle: return "arrow.clockwise.circle"
-            case .arrowClockwiseCircleFill: return "arrow.clockwise.circle.fill"
-            case .arrowClockwiseHeart: return "arrow.clockwise.heart"
-            case .arrowClockwiseHeartFill: return "arrow.clockwise.heart.fill"
-            case .arrowClockwiseIcloud: return "arrow.clockwise.icloud"
-            case .arrowClockwiseIcloudFill: return "arrow.clockwise.icloud.fill"
-            case .arrowCounterclockwise: return "arrow.counterclockwise"
-            case .arrowCounterclockwiseCircle: return "arrow.counterclockwise.circle"
-            case .arrowCounterclockwiseCircleFill: return "arrow.counterclockwise.circle.fill"
-            case .arrowCounterclockwiseIcloud: return "arrow.counterclockwise.icloud"
-            case .arrowCounterclockwiseIcloudFill: return "arrow.counterclockwise.icloud.fill"
-            case .arrowDown: return "arrow.down"
-            case .arrowDownApp: return "arrow.down.app"
-            case .arrowDownAppFill: return "arrow.down.app.fill"
-            case .arrowDownBackward: return "arrow.down.backward"
-            case .arrowDownBackwardCircle: return "arrow.down.backward.circle"
-            case .arrowDownBackwardCircleFill: return "arrow.down.backward.circle.fill"
-            case .arrowDownBackwardSquare: return "arrow.down.backward.square"
-            case .arrowDownBackwardSquareFill: return "arrow.down.backward.square.fill"
-            case .arrowDownCircle: return "arrow.down.circle"
-            case .arrowDownCircleFill: return "arrow.down.circle.fill"
-            case .arrowDownDoc: return "arrow.down.doc"
-            case .arrowDownDocFill: return "arrow.down.doc.fill"
-            case .arrowDownForward: return "arrow.down.forward"
-            case .arrowDownForwardAndArrowUpBackward: return "arrow.down.forward.and.arrow.up.backward"
-            case .arrowDownForwardAndArrowUpBackwardCircle: return "arrow.down.forward.and.arrow.up.backward.circle"
-            case .arrowDownForwardAndArrowUpBackwardCircleFill: return "arrow.down.forward.and.arrow.up.backward.circle.fill"
-            case .arrowDownForwardCircle: return "arrow.down.forward.circle"
-            case .arrowDownForwardCircleFill: return "arrow.down.forward.circle.fill"
-            case .arrowDownForwardSquare: return "arrow.down.forward.square"
-            case .arrowDownForwardSquareFill: return "arrow.down.forward.square.fill"
-            case .arrowDownHeart: return "arrow.down.heart"
-            case .arrowDownHeartFill: return "arrow.down.heart.fill"
-            case .arrowDownLeft: return "arrow.down.left"
-            case .arrowDownLeftCircle: return "arrow.down.left.circle"
-            case .arrowDownLeftCircleFill: return "arrow.down.left.circle.fill"
-            case .arrowDownLeftSquare: return "arrow.down.left.square"
-            case .arrowDownLeftSquareFill: return "arrow.down.left.square.fill"
-            case .arrowDownLeftVideo: return "arrow.down.left.video"
-            case .arrowDownLeftVideoFill: return "arrow.down.left.video.fill"
-            case .arrowDownRight: return "arrow.down.right"
-            case .arrowDownRightAndArrowUpLeft: return "arrow.down.right.and.arrow.up.left"
-            case .arrowDownRightAndArrowUpLeftCircle: return "arrow.down.right.and.arrow.up.left.circle"
-            case .arrowDownRightAndArrowUpLeftCircleFill: return "arrow.down.right.and.arrow.up.left.circle.fill"
-            case .arrowDownRightCircle: return "arrow.down.right.circle"
-            case .arrowDownRightCircleFill: return "arrow.down.right.circle.fill"
-            case .arrowDownRightSquare: return "arrow.down.right.square"
-            case .arrowDownRightSquareFill: return "arrow.down.right.square.fill"
-            case .arrowDownSquare: return "arrow.down.square"
-            case .arrowDownSquareFill: return "arrow.down.square.fill"
-            case .arrowDownToLine: return "arrow.down.to.line"
-            case .arrowDownToLineAlt: return "arrow.down.to.line.alt"
-            case .arrowForward: return "arrow.forward"
-            case .arrowForwardCircle: return "arrow.forward.circle"
-            case .arrowForwardCircleFill: return "arrow.forward.circle.fill"
-            case .arrowForwardSquare: return "arrow.forward.square"
-            case .arrowForwardSquareFill: return "arrow.forward.square.fill"
-            case .arrowLeft: return "arrow.left"
-            case .arrowLeftAndRight: return "arrow.left.and.right"
-            case .arrowLeftAndRightCircle: return "arrow.left.and.right.circle"
-            case .arrowLeftAndRightCircleFill: return "arrow.left.and.right.circle.fill"
-            case .arrowLeftAndRightRighttriangleLeftRighttriangleRight: return "arrow.left.and.right.righttriangle.left.righttriangle.right"
-            case .arrowLeftAndRightRighttriangleLeftRighttriangleRightFill: return "arrow.left.and.right.righttriangle.left.righttriangle.right.fill"
-            case .arrowLeftAndRightSquare: return "arrow.left.and.right.square"
-            case .arrowLeftAndRightSquareFill: return "arrow.left.and.right.square.fill"
-            case .arrowLeftArrowRight: return "arrow.left.arrow.right"
-            case .arrowLeftArrowRightCircle: return "arrow.left.arrow.right.circle"
-            case .arrowLeftArrowRightCircleFill: return "arrow.left.arrow.right.circle.fill"
-            case .arrowLeftArrowRightSquare: return "arrow.left.arrow.right.square"
-            case .arrowLeftArrowRightSquareFill: return "arrow.left.arrow.right.square.fill"
-            case .arrowLeftCircle: return "arrow.left.circle"
-            case .arrowLeftCircleFill: return "arrow.left.circle.fill"
-            case .arrowLeftSquare: return "arrow.left.square"
-            case .arrowLeftSquareFill: return "arrow.left.square.fill"
-            case .arrowLeftToLine: return "arrow.left.to.line"
-            case .arrowLeftToLineAlt: return "arrow.left.to.line.alt"
-            case .arrowMerge: return "arrow.triangle.merge"
-            case .arrowRectanglepath: return "arrow.rectanglepath"
-            case .arrowRight: return "arrow.right"
-            case .arrowRightArrowLeft: return "arrow.left.arrow.right"
-            case .arrowRightArrowLeftCircle: return "arrow.left.arrow.right.circle"
-            case .arrowRightArrowLeftCircleFill: return "arrow.left.arrow.right.circle.fill"
-            case .arrowRightArrowLeftSquare: return "arrow.left.arrow.right.square"
-            case .arrowRightArrowLeftSquareFill: return "arrow.left.arrow.right.square.fill"
-            case .arrowRightCircle: return "arrow.right.circle"
-            case .arrowRightCircleFill: return "arrow.right.circle.fill"
-            case .arrowRightDocOnClipboard: return "arrow.right.doc.on.clipboard"
-            case .arrowRightSquare: return "arrow.right.square"
-            case .arrowRightSquareFill: return "arrow.right.square.fill"
-            case .arrowRightToLine: return "arrow.right.to.line"
-            case .arrowRightToLineAlt: return "arrow.right.to.line.alt"
-            case .arrowSwap: return "arrow.triangle.swap"
-            case .arrowTriangle2Circlepath: return "arrow.triangle.2.circlepath"
-            case .arrowTriangle2CirclepathCamera: return "arrow.triangle.2.circlepath.camera"
-            case .arrowTriangle2CirclepathCameraFill: return "arrow.triangle.2.circlepath.camera.fill"
-            case .arrowTriangle2CirclepathCircle: return "arrow.triangle.2.circlepath.circle"
-            case .arrowTriangle2CirclepathCircleFill: return "arrow.triangle.2.circlepath.circle.fill"
-            case .arrowTriangle2CirclepathDocOnClipboard: return "arrow.triangle.2.circlepath.doc.on.clipboard"
-            case .arrowTriangleBranch: return "arrow.triangle.branch"
-            case .arrowTriangleCapsulepath: return "arrow.triangle.capsulepath"
-            case .arrowTriangleMerge: return "arrow.triangle.merge"
-            case .arrowTrianglePull: return "arrow.triangle.pull"
-            case .arrowTriangleSwap: return "arrow.triangle.swap"
-            case .arrowTriangleTurnUpRightCircle: return "arrow.triangle.turn.up.right.circle"
-            case .arrowTriangleTurnUpRightCircleFill: return "arrow.triangle.turn.up.right.circle.fill"
-            case .arrowTriangleTurnUpRightDiamond: return "arrow.triangle.turn.up.right.diamond"
-            case .arrowTriangleTurnUpRightDiamondFill: return "arrow.triangle.turn.up.right.diamond.fill"
-            case .arrowTurnDownLeft: return "arrow.turn.down.left"
-            case .arrowTurnDownRight: return "arrow.turn.down.right"
-            case .arrowTurnLeftDown: return "arrow.turn.left.down"
-            case .arrowTurnLeftUp: return "arrow.turn.left.up"
-            case .arrowTurnRightDown: return "arrow.turn.right.down"
-            case .arrowTurnRightUp: return "arrow.turn.right.up"
-            case .arrowTurnUpForwardIphone: return "arrow.turn.up.forward.iphone"
-            case .arrowTurnUpForwardIphoneFill: return "arrow.turn.up.forward.iphone.fill"
-            case .arrowTurnUpLeft: return "arrow.turn.up.left"
-            case .arrowTurnUpRight: return "arrow.turn.up.right"
-            case .arrowUp: return "arrow.up"
-            case .arrowUpAndDown: return "arrow.up.and.down"
-            case .arrowUpAndDownAndArrowLeftAndRight: return "arrow.up.and.down.and.arrow.left.and.right"
-            case .arrowUpAndDownCircle: return "arrow.up.and.down.circle"
-            case .arrowUpAndDownCircleFill: return "arrow.up.and.down.circle.fill"
-            case .arrowUpAndDownRighttriangleUpFillRighttriangleDownFill: return "arrow.up.and.down.righttriangle.up.fill.righttriangle.down.fill"
-            case .arrowUpAndDownRighttriangleUpRighttriangleDown: return "arrow.up.and.down.righttriangle.up.righttriangle.down"
-            case .arrowUpAndDownSquare: return "arrow.up.and.down.square"
-            case .arrowUpAndDownSquareFill: return "arrow.up.and.down.square.fill"
-            case .arrowUpAndPersonRectanglePortrait: return "arrow.up.and.person.rectangle.portrait"
-            case .arrowUpAndPersonRectangleTurnLeft: return "arrow.up.and.person.rectangle.turn.left"
-            case .arrowUpAndPersonRectangleTurnRight: return "arrow.up.and.person.rectangle.turn.right"
-            case .arrowUpArrowDown: return "arrow.up.arrow.down"
-            case .arrowUpArrowDownCircle: return "arrow.up.arrow.down.circle"
-            case .arrowUpArrowDownCircleFill: return "arrow.up.arrow.down.circle.fill"
-            case .arrowUpArrowDownSquare: return "arrow.up.arrow.down.square"
-            case .arrowUpArrowDownSquareFill: return "arrow.up.arrow.down.square.fill"
-            case .arrowUpBackward: return "arrow.up.backward"
-            case .arrowUpBackwardAndArrowDownForward: return "arrow.up.backward.and.arrow.down.forward"
-            case .arrowUpBackwardAndArrowDownForwardCircle: return "arrow.up.backward.and.arrow.down.forward.circle"
-            case .arrowUpBackwardAndArrowDownForwardCircleFill: return "arrow.up.backward.and.arrow.down.forward.circle.fill"
-            case .arrowUpBackwardCircle: return "arrow.up.backward.circle"
-            case .arrowUpBackwardCircleFill: return "arrow.up.backward.circle.fill"
-            case .arrowUpBackwardSquare: return "arrow.up.backward.square"
-            case .arrowUpBackwardSquareFill: return "arrow.up.backward.square.fill"
-            case .arrowUpBin: return "arrow.up.bin"
-            case .arrowUpBinFill: return "arrow.up.bin.fill"
-            case .arrowUpCircle: return "arrow.up.circle"
-            case .arrowUpCircleFill: return "arrow.up.circle.fill"
-            case .arrowUpDoc: return "arrow.up.doc"
-            case .arrowUpDocFill: return "arrow.up.doc.fill"
-            case .arrowUpDocOnClipboard: return "arrow.up.doc.on.clipboard"
-            case .arrowUpForward: return "arrow.up.forward"
-            case .arrowUpForwardApp: return "arrow.up.forward.app"
-            case .arrowUpForwardAppFill: return "arrow.up.forward.app.fill"
-            case .arrowUpForwardCircle: return "arrow.up.forward.circle"
-            case .arrowUpForwardCircleFill: return "arrow.up.forward.circle.fill"
-            case .arrowUpForwardSquare: return "arrow.up.forward.square"
-            case .arrowUpForwardSquareFill: return "arrow.up.forward.square.fill"
-            case .arrowUpHeart: return "arrow.up.heart"
-            case .arrowUpHeartFill: return "arrow.up.heart.fill"
-            case .arrowUpLeft: return "arrow.up.left"
-            case .arrowUpLeftAndArrowDownRight: return "arrow.up.left.and.arrow.down.right"
-            case .arrowUpLeftAndArrowDownRightCircle: return "arrow.up.left.and.arrow.down.right.circle"
-            case .arrowUpLeftAndArrowDownRightCircleFill: return "arrow.up.left.and.arrow.down.right.circle.fill"
-            case .arrowUpLeftAndDownRightAndArrowUpRightAndDownLeft: return "arrow.up.left.and.down.right.and.arrow.up.right.and.down.left"
-            case .arrowUpLeftAndDownRightMagnifyingglass: return "arrow.up.left.and.down.right.magnifyingglass"
-            case .arrowUpLeftCircle: return "arrow.up.left.circle"
-            case .arrowUpLeftCircleFill: return "arrow.up.left.circle.fill"
-            case .arrowUpLeftSquare: return "arrow.up.left.square"
-            case .arrowUpLeftSquareFill: return "arrow.up.left.square.fill"
-            case .arrowUpMessage: return "arrow.up.message"
-            case .arrowUpMessageFill: return "arrow.up.message.fill"
-            case .arrowUpRight: return "arrow.up.right"
-            case .arrowUpRightAndArrowDownLeftRectangle: return "arrow.up.right.and.arrow.down.left.rectangle"
-            case .arrowUpRightAndArrowDownLeftRectangleFill: return "arrow.up.right.and.arrow.down.left.rectangle.fill"
-            case .arrowUpRightCircle: return "arrow.up.right.circle"
-            case .arrowUpRightCircleFill: return "arrow.up.right.circle.fill"
-            case .arrowUpRightDiamond: return "arrow.triangle.turn.up.right.diamond"
-            case .arrowUpRightDiamondFill: return "arrow.triangle.turn.up.right.diamond.fill"
-            case .arrowUpRightSquare: return "arrow.up.right.square"
-            case .arrowUpRightSquareFill: return "arrow.up.right.square.fill"
-            case .arrowUpRightVideo: return "arrow.up.right.video"
-            case .arrowUpRightVideoFill: return "arrow.up.right.video.fill"
-            case .arrowUpSquare: return "arrow.up.square"
-            case .arrowUpSquareFill: return "arrow.up.square.fill"
-            case .arrowUpToLine: return "arrow.up.to.line"
-            case .arrowUpToLineAlt: return "arrow.up.to.line.alt"
-            case .arrowUturnBackward: return "arrow.uturn.backward"
-            case .arrowUturnBackwardCircle: return "arrow.uturn.backward.circle"
-            case .arrowUturnBackwardCircleBadgeEllipsis: return "arrow.uturn.backward.circle.badge.ellipsis"
-            case .arrowUturnBackwardCircleFill: return "arrow.uturn.backward.circle.fill"
-            case .arrowUturnBackwardSquare: return "arrow.uturn.backward.square"
-            case .arrowUturnBackwardSquareFill: return "arrow.uturn.backward.square.fill"
-            case .arrowUturnDown: return "arrow.uturn.down"
-            case .arrowUturnDownCircle: return "arrow.uturn.down.circle"
-            case .arrowUturnDownCircleFill: return "arrow.uturn.down.circle.fill"
-            case .arrowUturnDownSquare: return "arrow.uturn.down.square"
-            case .arrowUturnDownSquareFill: return "arrow.uturn.down.square.fill"
-            case .arrowUturnForward: return "arrow.uturn.forward"
-            case .arrowUturnForwardCircle: return "arrow.uturn.forward.circle"
-            case .arrowUturnForwardCircleFill: return "arrow.uturn.forward.circle.fill"
-            case .arrowUturnForwardSquare: return "arrow.uturn.forward.square"
-            case .arrowUturnForwardSquareFill: return "arrow.uturn.forward.square.fill"
-            case .arrowUturnLeft: return "arrow.uturn.left"
-            case .arrowUturnLeftCircle: return "arrow.uturn.left.circle"
-            case .arrowUturnLeftCircleBadgeEllipsis: return "arrow.uturn.left.circle.badge.ellipsis"
-            case .arrowUturnLeftCircleFill: return "arrow.uturn.left.circle.fill"
-            case .arrowUturnLeftSquare: return "arrow.uturn.left.square"
-            case .arrowUturnLeftSquareFill: return "arrow.uturn.left.square.fill"
-            case .arrowUturnRight: return "arrow.uturn.right"
-            case .arrowUturnRightCircle: return "arrow.uturn.right.circle"
-            case .arrowUturnRightCircleFill: return "arrow.uturn.right.circle.fill"
-            case .arrowUturnRightSquare: return "arrow.uturn.right.square"
-            case .arrowUturnRightSquareFill: return "arrow.uturn.right.square.fill"
-            case .arrowUturnUp: return "arrow.uturn.up"
-            case .arrowUturnUpCircle: return "arrow.uturn.up.circle"
-            case .arrowUturnUpCircleFill: return "arrow.uturn.up.circle.fill"
-            case .arrowUturnUpSquare: return "arrow.uturn.up.square"
-            case .arrowUturnUpSquareFill: return "arrow.uturn.up.square.fill"
-            case .arrowshapeBounceForward: return "arrowshape.bounce.forward"
-            case .arrowshapeBounceForwardFill: return "arrowshape.bounce.forward.fill"
-            case .arrowshapeBounceRight: return "arrowshape.bounce.right"
-            case .arrowshapeBounceRightFill: return "arrowshape.bounce.right.fill"
-            case .arrowshapeTurnUpBackward: return "arrowshape.turn.up.backward"
-            case .arrowshapeTurnUpBackward2: return "arrowshape.turn.up.backward.2"
-            case .arrowshapeTurnUpBackward2Circle: return "arrowshape.turn.up.backward.2.circle"
-            case .arrowshapeTurnUpBackward2CircleFill: return "arrowshape.turn.up.backward.2.circle.fill"
-            case .arrowshapeTurnUpBackward2Fill: return "arrowshape.turn.up.backward.2.fill"
-            case .arrowshapeTurnUpBackwardCircle: return "arrowshape.turn.up.backward.circle"
-            case .arrowshapeTurnUpBackwardCircleFill: return "arrowshape.turn.up.backward.circle.fill"
-            case .arrowshapeTurnUpBackwardFill: return "arrowshape.turn.up.backward.fill"
-            case .arrowshapeTurnUpForward: return "arrowshape.turn.up.forward"
-            case .arrowshapeTurnUpForwardCircle: return "arrowshape.turn.up.forward.circle"
-            case .arrowshapeTurnUpForwardCircleFill: return "arrowshape.turn.up.forward.circle.fill"
-            case .arrowshapeTurnUpForwardFill: return "arrowshape.turn.up.forward.fill"
-            case .arrowshapeTurnUpLeft: return "arrowshape.turn.up.left"
-            case .arrowshapeTurnUpLeft2: return "arrowshape.turn.up.left.2"
-            case .arrowshapeTurnUpLeft2Circle: return "arrowshape.turn.up.left.2.circle"
-            case .arrowshapeTurnUpLeft2CircleFill: return "arrowshape.turn.up.left.2.circle.fill"
-            case .arrowshapeTurnUpLeft2Fill: return "arrowshape.turn.up.left.2.fill"
-            case .arrowshapeTurnUpLeftCircle: return "arrowshape.turn.up.left.circle"
-            case .arrowshapeTurnUpLeftCircleFill: return "arrowshape.turn.up.left.circle.fill"
-            case .arrowshapeTurnUpLeftFill: return "arrowshape.turn.up.left.fill"
-            case .arrowshapeTurnUpRight: return "arrowshape.turn.up.right"
-            case .arrowshapeTurnUpRightCircle: return "arrowshape.turn.up.right.circle"
-            case .arrowshapeTurnUpRightCircleFill: return "arrowshape.turn.up.right.circle.fill"
-            case .arrowshapeTurnUpRightFill: return "arrowshape.turn.up.right.fill"
-            case .arrowshapeZigzagForward: return "arrowshape.zigzag.forward"
-            case .arrowshapeZigzagForwardFill: return "arrowshape.zigzag.forward.fill"
-            case .arrowshapeZigzagRight: return "arrowshape.zigzag.right"
-            case .arrowshapeZigzagRightFill: return "arrowshape.zigzag.right.fill"
-            case .arrowtriangleBackward: return "arrowtriangle.backward"
-            case .arrowtriangleBackwardCircle: return "arrowtriangle.backward.circle"
-            case .arrowtriangleBackwardCircleFill: return "arrowtriangle.backward.circle.fill"
-            case .arrowtriangleBackwardFill: return "arrowtriangle.backward.fill"
-            case .arrowtriangleBackwardSquare: return "arrowtriangle.backward.square"
-            case .arrowtriangleBackwardSquareFill: return "arrowtriangle.backward.square.fill"
-            case .arrowtriangleDown: return "arrowtriangle.down"
-            case .arrowtriangleDownCircle: return "arrowtriangle.down.circle"
-            case .arrowtriangleDownCircleFill: return "arrowtriangle.down.circle.fill"
-            case .arrowtriangleDownFill: return "arrowtriangle.down.fill"
-            case .arrowtriangleDownSquare: return "arrowtriangle.down.square"
-            case .arrowtriangleDownSquareFill: return "arrowtriangle.down.square.fill"
-            case .arrowtriangleForward: return "arrowtriangle.forward"
-            case .arrowtriangleForwardCircle: return "arrowtriangle.forward.circle"
-            case .arrowtriangleForwardCircleFill: return "arrowtriangle.forward.circle.fill"
-            case .arrowtriangleForwardFill: return "arrowtriangle.forward.fill"
-            case .arrowtriangleForwardSquare: return "arrowtriangle.forward.square"
-            case .arrowtriangleForwardSquareFill: return "arrowtriangle.forward.square.fill"
-            case .arrowtriangleLeft: return "arrowtriangle.left"
-            case .arrowtriangleLeftAndLineVerticalAndArrowtriangleRight: return "arrowtriangle.left.and.line.vertical.and.arrowtriangle.right"
-            case .arrowtriangleLeftCircle: return "arrowtriangle.left.circle"
-            case .arrowtriangleLeftCircleFill: return "arrowtriangle.left.circle.fill"
-            case .arrowtriangleLeftFill: return "arrowtriangle.left.fill"
-            case .arrowtriangleLeftFillAndLineVerticalAndArrowtriangleRightFill: return "arrowtriangle.left.fill.and.line.vertical.and.arrowtriangle.right.fill"
-            case .arrowtriangleLeftSquare: return "arrowtriangle.left.square"
-            case .arrowtriangleLeftSquareFill: return "arrowtriangle.left.square.fill"
-            case .arrowtriangleRight: return "arrowtriangle.right"
-            case .arrowtriangleRightAndLineVerticalAndArrowtriangleLeft: return "arrowtriangle.right.and.line.vertical.and.arrowtriangle.left"
-            case .arrowtriangleRightCircle: return "arrowtriangle.right.circle"
-            case .arrowtriangleRightCircleFill: return "arrowtriangle.right.circle.fill"
-            case .arrowtriangleRightFill: return "arrowtriangle.right.fill"
-            case .arrowtriangleRightFillAndLineVerticalAndArrowtriangleLeftFill: return "arrowtriangle.right.fill.and.line.vertical.and.arrowtriangle.left.fill"
-            case .arrowtriangleRightSquare: return "arrowtriangle.right.square"
-            case .arrowtriangleRightSquareFill: return "arrowtriangle.right.square.fill"
-            case .arrowtriangleUp: return "arrowtriangle.up"
-            case .arrowtriangleUpCircle: return "arrowtriangle.up.circle"
-            case .arrowtriangleUpCircleFill: return "arrowtriangle.up.circle.fill"
-            case .arrowtriangleUpFill: return "arrowtriangle.up.fill"
-            case .arrowtriangleUpSquare: return "arrowtriangle.up.square"
-            case .arrowtriangleUpSquareFill: return "arrowtriangle.up.square.fill"
-            case .aspectratio: return "aspectratio"
-            case .aspectratioFill: return "aspectratio.fill"
-            case .asteriskCircle: return "asterisk.circle"
-            case .asteriskCircleFill: return "asterisk.circle.fill"
-            case .at: return "at"
-            case .atBadgeMinus: return "at.badge.minus"
-            case .atBadgePlus: return "at.badge.plus"
-            case .atCircle: return "at.circle"
-            case .atCircleFill: return "at.circle.fill"
-            case .atom: return "atom"
-            case .australsignCircle: return "australsign.circle"
-            case .australsignCircleFill: return "australsign.circle.fill"
-            case .australsignSquare: return "australsign.square"
-            case .australsignSquareFill: return "australsign.square.fill"
-            case .bCircle: return "b.circle"
-            case .bCircleFill: return "b.circle.fill"
-            case .bSquare: return "b.square"
-            case .bSquareFill: return "b.square.fill"
-            case .backward: return "backward"
-            case .backwardEnd: return "backward.end"
-            case .backwardEndAlt: return "backward.end.alt"
-            case .backwardEndAltFill: return "backward.end.alt.fill"
-            case .backwardEndFill: return "backward.end.fill"
-            case .backwardFill: return "backward.fill"
-            case .backwardFrame: return "backward.frame"
-            case .backwardFrameFill: return "backward.frame.fill"
-            case .badgePlusRadiowavesForward: return "badge.plus.radiowaves.forward"
-            case .badgePlusRadiowavesRight: return "badge.plus.radiowaves.right"
-            case .bag: return "bag"
-            case .bagBadgeMinus: return "bag.badge.minus"
-            case .bagBadgePlus: return "bag.badge.plus"
-            case .bagCircle: return "bag.circle"
-            case .bagCircleFill: return "bag.circle.fill"
-            case .bagFill: return "bag.fill"
-            case .bagFillBadgeMinus: return "bag.fill.badge.minus"
-            case .bagFillBadgePlus: return "bag.fill.badge.plus"
-            case .bahtsignCircle: return "bahtsign.circle"
-            case .bahtsignCircleFill: return "bahtsign.circle.fill"
-            case .bahtsignSquare: return "bahtsign.square"
-            case .bahtsignSquareFill: return "bahtsign.square.fill"
-            case .bandage: return "bandage"
-            case .bandageFill: return "bandage.fill"
-            case .banknote: return "banknote"
-            case .banknoteFill: return "banknote.fill"
-            case .barcode: return "barcode"
-            case .barcodeViewfinder: return "barcode.viewfinder"
-            case .barometer: return "barometer"
-            case .battery0: return "battery.0"
-            case .battery100: return "battery.100"
-            case .battery100Bolt: return "battery.100.bolt"
-            case .battery25: return "battery.25"
-            case .bedDouble: return "bed.double"
-            case .bedDoubleFill: return "bed.double.fill"
-            case .bell: return "bell"
-            case .bellBadge: return "bell.badge"
-            case .bellBadgeFill: return "bell.badge.fill"
-            case .bellCircle: return "bell.circle"
-            case .bellCircleFill: return "bell.circle.fill"
-            case .bellFill: return "bell.fill"
-            case .bellSlash: return "bell.slash"
-            case .bellSlashCircle: return "bell.slash.circle"
-            case .bellSlashCircleFill: return "bell.slash.circle.fill"
-            case .bellSlashFill: return "bell.slash.fill"
-            case .bicycle: return "bicycle"
-            case .bicycleCircle: return "bicycle.circle"
-            case .bicycleCircleFill: return "bicycle.circle.fill"
-            case .binXmark: return "xmark.bin"
-            case .binXmarkFill: return "xmark.bin.fill"
-            case .binoculars: return "binoculars"
-            case .binocularsFill: return "binoculars.fill"
-            case .bitcoinsignCircle: return "bitcoinsign.circle"
-            case .bitcoinsignCircleFill: return "bitcoinsign.circle.fill"
-            case .bitcoinsignSquare: return "bitcoinsign.square"
-            case .bitcoinsignSquareFill: return "bitcoinsign.square.fill"
-            case .bold: return "bold"
-            case .boldItalicUnderline: return "bold.italic.underline"
-            case .boldUnderline: return "bold.underline"
-            case .bolt: return "bolt"
-            case .boltBadgeA: return "bolt.badge.a"
-            case .boltBadgeAFill: return "bolt.badge.a.fill"
-            case .boltCar: return "bolt.car"
-            case .boltCarFill: return "bolt.car.fill"
-            case .boltCircle: return "bolt.circle"
-            case .boltCircleFill: return "bolt.circle.fill"
-            case .boltFill: return "bolt.fill"
-            case .boltFillBatteryblock: return "bolt.fill.batteryblock"
-            case .boltFillBatteryblockFill: return "bolt.fill.batteryblock.fill"
-            case .boltHeart: return "bolt.heart"
-            case .boltHeartFill: return "bolt.heart.fill"
-            case .boltHorizontal: return "bolt.horizontal"
-            case .boltHorizontalCircle: return "bolt.horizontal.circle"
-            case .boltHorizontalCircleFill: return "bolt.horizontal.circle.fill"
-            case .boltHorizontalFill: return "bolt.horizontal.fill"
-            case .boltHorizontalIcloud: return "bolt.horizontal.icloud"
-            case .boltHorizontalIcloudFill: return "bolt.horizontal.icloud.fill"
-            case .boltSlash: return "bolt.slash"
-            case .boltSlashCircle: return "bolt.slash.circle"
-            case .boltSlashCircleFill: return "bolt.slash.circle.fill"
-            case .boltSlashFill: return "bolt.slash.fill"
-            case .bonjour: return "bonjour"
-            case .book: return "book"
-            case .bookCircle: return "book.circle"
-            case .bookCircleFill: return "book.circle.fill"
-            case .bookClosed: return "book.closed"
-            case .bookClosedFill: return "book.closed.fill"
-            case .bookFill: return "book.fill"
-            case .bookmark: return "bookmark"
-            case .bookmarkCircle: return "bookmark.circle"
-            case .bookmarkCircleFill: return "bookmark.circle.fill"
-            case .bookmarkFill: return "bookmark.fill"
-            case .bookmarkSlash: return "bookmark.slash"
-            case .bookmarkSlashFill: return "bookmark.slash.fill"
-            case .booksVertical: return "books.vertical"
-            case .booksVerticalFill: return "books.vertical.fill"
-            case .briefcase: return "briefcase"
-            case .briefcaseFill: return "briefcase.fill"
-            case .bubbleLeft: return "bubble.left"
-            case .bubbleLeftAndBubbleRight: return "bubble.left.and.bubble.right"
-            case .bubbleLeftAndBubbleRightFill: return "bubble.left.and.bubble.right.fill"
-            case .bubbleLeftFill: return "bubble.left.fill"
-            case .bubbleMiddleBottom: return "bubble.middle.bottom"
-            case .bubbleMiddleBottomFill: return "bubble.middle.bottom.fill"
-            case .bubbleMiddleTop: return "bubble.middle.top"
-            case .bubbleMiddleTopFill: return "bubble.middle.top.fill"
-            case .bubbleRight: return "bubble.right"
-            case .bubbleRightFill: return "bubble.right.fill"
-            case .building: return "building"
-            case .building2: return "building.2"
-            case .building2CropCircle: return "building.2.crop.circle"
-            case .building2CropCircleFill: return "building.2.crop.circle.fill"
-            case .building2Fill: return "building.2.fill"
-            case .buildingColumns: return "building.columns"
-            case .buildingColumnsFill: return "building.columns.fill"
-            case .buildingFill: return "building.fill"
-            case .burn: return "burn"
-            case .burst: return "burst"
-            case .burstFill: return "burst.fill"
-            case .bus: return "bus"
-            case .busDoubledecker: return "bus.doubledecker"
-            case .busDoubledeckerFill: return "bus.doubledecker.fill"
-            case .busFill: return "bus.fill"
-            case .cCircle: return "c.circle"
-            case .cCircleFill: return "c.circle.fill"
-            case .cSquare: return "c.square"
-            case .cSquareFill: return "c.square.fill"
-            case .calendar: return "calendar"
-            case .calendarBadgeClock: return "calendar.badge.clock"
-            case .calendarBadgeExclamationmark: return "calendar.badge.exclamationmark"
-            case .calendarBadgeMinus: return "calendar.badge.minus"
-            case .calendarBadgePlus: return "calendar.badge.plus"
-            case .calendarCircle: return "calendar.circle"
-            case .calendarCircleFill: return "calendar.circle.fill"
-            case .camera: return "camera"
-            case .cameraAperture: return "camera.aperture"
-            case .cameraBadgeEllipsis: return "camera.badge.ellipsis"
-            case .cameraCircle: return "camera.circle"
-            case .cameraCircleFill: return "camera.circle.fill"
-            case .cameraFill: return "camera.fill"
-            case .cameraFillBadgeEllipsis: return "camera.fill.badge.ellipsis"
-            case .cameraFilters: return "camera.filters"
-            case .cameraMeteringCenterWeighted: return "camera.metering.center.weighted"
-            case .cameraMeteringCenterWeightedAverage: return "camera.metering.center.weighted.average"
-            case .cameraMeteringMatrix: return "camera.metering.matrix"
-            case .cameraMeteringMultispot: return "camera.metering.multispot"
-            case .cameraMeteringNone: return "camera.metering.none"
-            case .cameraMeteringPartial: return "camera.metering.partial"
-            case .cameraMeteringSpot: return "camera.metering.spot"
-            case .cameraMeteringUnknown: return "camera.metering.unknown"
-            case .cameraOnRectangle: return "camera.on.rectangle"
-            case .cameraOnRectangleFill: return "camera.on.rectangle.fill"
-            case .cameraRotate: return "arrow.triangle.2.circlepath.camera"
-            case .cameraRotateFill: return "arrow.triangle.2.circlepath.camera.fill"
-            case .cameraViewfinder: return "camera.viewfinder"
-            case .candybarphone: return "candybarphone"
-            case .capslock: return "capslock"
-            case .capslockFill: return "capslock.fill"
-            case .capsule: return "capsule"
-            case .capsuleFill: return "capsule.fill"
-            case .capsulePortrait: return "capsule.portrait"
-            case .capsulePortraitFill: return "capsule.portrait.fill"
-            case .captionsBubble: return "captions.bubble"
-            case .captionsBubbleFill: return "captions.bubble.fill"
-            case .car: return "car"
-            case .car2: return "car.2"
-            case .car2Fill: return "car.2.fill"
-            case .carCircle: return "car.circle"
-            case .carCircleFill: return "car.circle.fill"
-            case .carFill: return "car.fill"
-            case .cart: return "cart"
-            case .cartBadgeMinus: return "cart.badge.minus"
-            case .cartBadgePlus: return "cart.badge.plus"
-            case .cartFill: return "cart.fill"
-            case .cartFillBadgeMinus: return "cart.fill.badge.minus"
-            case .cartFillBadgePlus: return "cart.fill.badge.plus"
-            case .`case`: return "case"
-            case .caseFill: return "case.fill"
-            case .cedisignCircle: return "cedisign.circle"
-            case .cedisignCircleFill: return "cedisign.circle.fill"
-            case .cedisignSquare: return "cedisign.square"
-            case .cedisignSquareFill: return "cedisign.square.fill"
-            case .centsignCircle: return "centsign.circle"
-            case .centsignCircleFill: return "centsign.circle.fill"
-            case .centsignSquare: return "centsign.square"
-            case .centsignSquareFill: return "centsign.square.fill"
-            case .character: return "a"
-            case .characterBookClosed: return "a.book.closed"
-            case .characterBookClosedFill: return "a.book.closed.fill"
-            case .chartBar: return "chart.bar"
-            case .chartBarDocHorizontal: return "chart.bar.doc.horizontal"
-            case .chartBarDocHorizontalFill: return "chart.bar.doc.horizontal.fill"
-            case .chartBarFill: return "chart.bar.fill"
-            case .chartBarXaxis: return "chart.bar.xaxis"
-            case .chartPie: return "chart.pie"
-            case .chartPieFill: return "chart.pie.fill"
-            case .checkerboardRectangle: return "checkerboard.rectangle"
-            case .checkmark: return "checkmark"
-            case .checkmarkCircle: return "checkmark.circle"
-            case .checkmarkCircleFill: return "checkmark.circle.fill"
-            case .checkmarkIcloud: return "checkmark.icloud"
-            case .checkmarkIcloudFill: return "checkmark.icloud.fill"
-            case .checkmarkRectangle: return "checkmark.rectangle"
-            case .checkmarkRectangleFill: return "checkmark.rectangle.fill"
-            case .checkmarkRectanglePortrait: return "checkmark.rectangle.portrait"
-            case .checkmarkRectanglePortraitFill: return "checkmark.rectangle.portrait.fill"
-            case .checkmarkSeal: return "checkmark.seal"
-            case .checkmarkSealFill: return "checkmark.seal.fill"
-            case .checkmarkShield: return "checkmark.shield"
-            case .checkmarkShieldFill: return "checkmark.shield.fill"
-            case .checkmarkSquare: return "checkmark.square"
-            case .checkmarkSquareFill: return "checkmark.square.fill"
-            case .chevronBackward: return "chevron.backward"
-            case .chevronBackward2: return "chevron.backward.2"
-            case .chevronBackwardCircle: return "chevron.backward.circle"
-            case .chevronBackwardCircleFill: return "chevron.backward.circle.fill"
-            case .chevronBackwardSquare: return "chevron.backward.square"
-            case .chevronBackwardSquareFill: return "chevron.backward.square.fill"
-            case .chevronCompactDown: return "chevron.compact.down"
-            case .chevronCompactLeft: return "chevron.compact.left"
-            case .chevronCompactRight: return "chevron.compact.right"
-            case .chevronCompactUp: return "chevron.compact.up"
-            case .chevronDown: return "chevron.down"
-            case .chevronDownCircle: return "chevron.down.circle"
-            case .chevronDownCircleFill: return "chevron.down.circle.fill"
-            case .chevronDownSquare: return "chevron.down.square"
-            case .chevronDownSquareFill: return "chevron.down.square.fill"
-            case .chevronForward: return "chevron.forward"
-            case .chevronForward2: return "chevron.forward.2"
-            case .chevronForwardCircle: return "chevron.forward.circle"
-            case .chevronForwardCircleFill: return "chevron.forward.circle.fill"
-            case .chevronForwardSquare: return "chevron.forward.square"
-            case .chevronForwardSquareFill: return "chevron.forward.square.fill"
-            case .chevronLeft: return "chevron.left"
-            case .chevronLeft2: return "chevron.left.2"
-            case .chevronLeftCircle: return "chevron.left.circle"
-            case .chevronLeftCircleFill: return "chevron.left.circle.fill"
-            case .chevronLeftSlashChevronRight: return "chevron.left.slash.chevron.right"
-            case .chevronLeftSquare: return "chevron.left.square"
-            case .chevronLeftSquareFill: return "chevron.left.square.fill"
-            case .chevronRight: return "chevron.right"
-            case .chevronRight2: return "chevron.right.2"
-            case .chevronRightCircle: return "chevron.right.circle"
-            case .chevronRightCircleFill: return "chevron.right.circle.fill"
-            case .chevronRightSquare: return "chevron.right.square"
-            case .chevronRightSquareFill: return "chevron.right.square.fill"
-            case .chevronUp: return "chevron.up"
-            case .chevronUpChevronDown: return "chevron.up.chevron.down"
-            case .chevronUpCircle: return "chevron.up.circle"
-            case .chevronUpCircleFill: return "chevron.up.circle.fill"
-            case .chevronUpSquare: return "chevron.up.square"
-            case .chevronUpSquareFill: return "chevron.up.square.fill"
-            case .circle: return "circle"
-            case .circleBottomhalfFill: return "circle.bottomhalf.fill"
-            case .circleBottomthirdSplit: return "sleep"
-            case .circleCircle: return "circle.circle"
-            case .circleCircleFill: return "circle.circle.fill"
-            case .circleDashed: return "circle.dashed"
-            case .circleDashedInsetFill: return "circle.dashed.inset.fill"
-            case .circleFill: return "circle.fill"
-            case .circleFillSquareFill: return "circle.fill.square.fill"
-            case .circleGrid2x2: return "circle.grid.2x2"
-            case .circleGrid2x2Fill: return "circle.grid.2x2.fill"
-            case .circleGrid3x3: return "circle.grid.3x3"
-            case .circleGrid3x3Fill: return "circle.grid.3x3.fill"
-            case .circleGridCross: return "circle.grid.cross"
-            case .circleGridCrossDownFill: return "circle.grid.cross.down.fill"
-            case .circleGridCrossFill: return "circle.grid.cross.fill"
-            case .circleGridCrossLeftFill: return "circle.grid.cross.left.fill"
-            case .circleGridCrossRightFill: return "circle.grid.cross.right.fill"
-            case .circleGridCrossUpFill: return "circle.grid.cross.up.fill"
-            case .circleGridHex: return "circles.hexagongrid"
-            case .circleGridHexFill: return "circles.hexagongrid.fill"
-            case .circleLefthalfFill: return "circle.lefthalf.fill"
-            case .circleRighthalfFill: return "circle.righthalf.fill"
-            case .circleSquare: return "circle.square"
-            case .circleTophalfFill: return "circle.tophalf.fill"
-            case .circlebadge: return "circlebadge"
-            case .circlebadge2: return "circlebadge.2"
-            case .circlebadge2Fill: return "circlebadge.2.fill"
-            case .circlebadgeFill: return "circlebadge.fill"
-            case .circlesHexagongrid: return "circles.hexagongrid"
-            case .circlesHexagongridFill: return "circles.hexagongrid.fill"
-            case .circlesHexagonpath: return "circles.hexagonpath"
-            case .circlesHexagonpathFill: return "circles.hexagonpath.fill"
-            case .clear: return "clear"
-            case .clearFill: return "clear.fill"
-            case .clock: return "clock"
-            case .clockArrowCirclepath: return "clock.arrow.circlepath"
-            case .clockFill: return "clock.fill"
-            case .cloud: return "cloud"
-            case .cloudBolt: return "cloud.bolt"
-            case .cloudBoltFill: return "cloud.bolt.fill"
-            case .cloudBoltRain: return "cloud.bolt.rain"
-            case .cloudBoltRainFill: return "cloud.bolt.rain.fill"
-            case .cloudDrizzle: return "cloud.drizzle"
-            case .cloudDrizzleFill: return "cloud.drizzle.fill"
-            case .cloudFill: return "cloud.fill"
-            case .cloudFog: return "cloud.fog"
-            case .cloudFogFill: return "cloud.fog.fill"
-            case .cloudHail: return "cloud.hail"
-            case .cloudHailFill: return "cloud.hail.fill"
-            case .cloudHeavyrain: return "cloud.heavyrain"
-            case .cloudHeavyrainFill: return "cloud.heavyrain.fill"
-            case .cloudMoon: return "cloud.moon"
-            case .cloudMoonBolt: return "cloud.moon.bolt"
-            case .cloudMoonBoltFill: return "cloud.moon.bolt.fill"
-            case .cloudMoonFill: return "cloud.moon.fill"
-            case .cloudMoonRain: return "cloud.moon.rain"
-            case .cloudMoonRainFill: return "cloud.moon.rain.fill"
-            case .cloudRain: return "cloud.rain"
-            case .cloudRainFill: return "cloud.rain.fill"
-            case .cloudSleet: return "cloud.sleet"
-            case .cloudSleetFill: return "cloud.sleet.fill"
-            case .cloudSnow: return "cloud.snow"
-            case .cloudSnowFill: return "cloud.snow.fill"
-            case .cloudSun: return "cloud.sun"
-            case .cloudSunBolt: return "cloud.sun.bolt"
-            case .cloudSunBoltFill: return "cloud.sun.bolt.fill"
-            case .cloudSunFill: return "cloud.sun.fill"
-            case .cloudSunRain: return "cloud.sun.rain"
-            case .cloudSunRainFill: return "cloud.sun.rain.fill"
-            case .coloncurrencysignCircle: return "coloncurrencysign.circle"
-            case .coloncurrencysignCircleFill: return "coloncurrencysign.circle.fill"
-            case .coloncurrencysignSquare: return "coloncurrencysign.square"
-            case .coloncurrencysignSquareFill: return "coloncurrencysign.square.fill"
-            case .comb: return "comb"
-            case .combFill: return "comb.fill"
-            case .command: return "command"
-            case .commandCircle: return "command.circle"
-            case .commandCircleFill: return "command.circle.fill"
-            case .commandSquare: return "command.square"
-            case .commandSquareFill: return "command.square.fill"
-            case .cone: return "cone"
-            case .coneFill: return "cone.fill"
-            case .contextualmenuAndCursorarrow: return "contextualmenu.and.cursorarrow"
-            case .control: return "control"
-            case .cpu: return "cpu"
-            case .creditcard: return "creditcard"
-            case .creditcardCircle: return "creditcard.circle"
-            case .creditcardCircleFill: return "creditcard.circle.fill"
-            case .creditcardFill: return "creditcard.fill"
-            case .crop: return "crop"
-            case .cropRotate: return "crop.rotate"
-            case .cross: return "cross"
-            case .crossCase: return "cross.case"
-            case .crossCaseFill: return "cross.case.fill"
-            case .crossCircle: return "cross.circle"
-            case .crossCircleFill: return "cross.circle.fill"
-            case .crossFill: return "cross.fill"
-            case .crown: return "crown"
-            case .crownFill: return "crown.fill"
-            case .cruzeirosignCircle: return "cruzeirosign.circle"
-            case .cruzeirosignCircleFill: return "cruzeirosign.circle.fill"
-            case .cruzeirosignSquare: return "cruzeirosign.square"
-            case .cruzeirosignSquareFill: return "cruzeirosign.square.fill"
-            case .cube: return "cube"
-            case .cubeBox: return "shippingbox"
-            case .cubeBoxFill: return "shippingbox.fill"
-            case .cubeFill: return "cube.fill"
-            case .cubeTransparent: return "cube.transparent"
-            case .cubeTransparentFill: return "cube.transparent.fill"
-            case .curlybraces: return "curlybraces"
-            case .curlybracesSquare: return "curlybraces.square"
-            case .curlybracesSquareFill: return "curlybraces.square.fill"
-            case .cursorRays: return "cursorarrow.rays"
-            case .cursorarrow: return "cursorarrow"
-            case .cursorarrowAndSquareOnSquareDashed: return "cursorarrow.and.square.on.square.dashed"
-            case .cursorarrowClick: return "cursorarrow.click"
-            case .cursorarrowClick2: return "cursorarrow.click.2"
-            case .cursorarrowClickBadgeClock: return "cursorarrow.click.badge.clock"
-            case .cursorarrowMotionlines: return "cursorarrow.motionlines"
-            case .cursorarrowMotionlinesClick: return "cursorarrow.motionlines.click"
-            case .cursorarrowRays: return "cursorarrow.rays"
-            case .cursorarrowSquare: return "cursorarrow.square"
-            case .cylinder: return "cylinder"
-            case .cylinderFill: return "cylinder.fill"
-            case .cylinderSplit1x2: return "cylinder.split.1x2"
-            case .cylinderSplit1x2Fill: return "cylinder.split.1x2.fill"
-            case .dCircle: return "d.circle"
-            case .dCircleFill: return "d.circle.fill"
-            case .dSquare: return "d.square"
-            case .dSquareFill: return "d.square.fill"
-            case .decreaseIndent: return "decrease.indent"
-            case .decreaseQuotelevel: return "decrease.quotelevel"
-            case .deleteLeft: return "delete.left"
-            case .deleteLeftFill: return "delete.left.fill"
-            case .deleteRight: return "delete.right"
-            case .deleteRightFill: return "delete.right.fill"
-            case .deskclock: return "deskclock"
-            case .deskclockFill: return "deskclock.fill"
-            case .desktopcomputer: return "desktopcomputer"
-            case .dial: return "dial.min"
-            case .dialFill: return "dial.min.fill"
-            case .dialMax: return "dial.max"
-            case .dialMaxFill: return "dial.max.fill"
-            case .dialMin: return "dial.min"
-            case .dialMinFill: return "dial.min.fill"
-            case .diamond: return "diamond"
-            case .diamondFill: return "diamond.fill"
-            case .dieFace1: return "die.face.1"
-            case .dieFace1Fill: return "die.face.1.fill"
-            case .dieFace2: return "die.face.2"
-            case .dieFace2Fill: return "die.face.2.fill"
-            case .dieFace3: return "die.face.3"
-            case .dieFace3Fill: return "die.face.3.fill"
-            case .dieFace4: return "die.face.4"
-            case .dieFace4Fill: return "die.face.4.fill"
-            case .dieFace5: return "die.face.5"
-            case .dieFace5Fill: return "die.face.5.fill"
-            case .dieFace6: return "die.face.6"
-            case .dieFace6Fill: return "die.face.6.fill"
-            case .display: return "display"
-            case .display2: return "display.2"
-            case .displayTrianglebadgeExclamationmark: return "display.trianglebadge.exclamationmark"
-            case .divide: return "divide"
-            case .divideCircle: return "divide.circle"
-            case .divideCircleFill: return "divide.circle.fill"
-            case .divideSquare: return "divide.square"
-            case .divideSquareFill: return "divide.square.fill"
-            case .doc: return "doc"
-            case .docAppend: return "doc.append"
-            case .docAppendFill: return "doc.append.fill"
-            case .docBadgeEllipsis: return "doc.badge.ellipsis"
-            case .docBadgeGearshape: return "doc.badge.gearshape"
-            case .docBadgeGearshapeFill: return "doc.badge.gearshape.fill"
-            case .docBadgePlus: return "doc.badge.plus"
-            case .docCircle: return "doc.circle"
-            case .docCircleFill: return "doc.circle.fill"
-            case .docFill: return "doc.fill"
-            case .docFillBadgeEllipsis: return "doc.fill.badge.ellipsis"
-            case .docFillBadgePlus: return "doc.fill.badge.plus"
-            case .docOnClipboard: return "doc.on.clipboard"
-            case .docOnClipboardFill: return "doc.on.clipboard.fill"
-            case .docOnDoc: return "doc.on.doc"
-            case .docOnDocFill: return "doc.on.doc.fill"
-            case .docPlaintext: return "doc.plaintext"
-            case .docPlaintextFill: return "doc.plaintext.fill"
-            case .docRichtext: return "doc.richtext"
-            case .docRichtextFill: return "doc.richtext.fill"
-            case .docText: return "doc.text"
-            case .docTextBelowEcg: return "doc.text.below.ecg"
-            case .docTextBelowEcgFill: return "doc.text.below.ecg.fill"
-            case .docTextFill: return "doc.text.fill"
-            case .docTextFillViewfinder: return "doc.text.fill.viewfinder"
-            case .docTextMagnifyingglass: return "doc.text.magnifyingglass"
-            case .docTextViewfinder: return "doc.text.viewfinder"
-            case .docZipper: return "doc.zipper"
-            case .dockArrowDownRectangle: return "dock.arrow.down.rectangle"
-            case .dockArrowUpRectangle: return "dock.arrow.up.rectangle"
-            case .dockRectangle: return "dock.rectangle"
-            case .dollarsignCircle: return "dollarsign.circle"
-            case .dollarsignCircleFill: return "dollarsign.circle.fill"
-            case .dollarsignSquare: return "dollarsign.square"
-            case .dollarsignSquareFill: return "dollarsign.square.fill"
-            case .dongsignCircle: return "dongsign.circle"
-            case .dongsignCircleFill: return "dongsign.circle.fill"
-            case .dongsignSquare: return "dongsign.square"
-            case .dongsignSquareFill: return "dongsign.square.fill"
-            case .dotArrowtrianglesUpRightDownLeftCircle: return "dot.arrowtriangles.up.right.down.left.circle"
-            case .dotCircleAndCursorarrow: return "dot.circle.and.cursorarrow"
-            case .dotRadiowavesForward: return "dot.radiowaves.forward"
-            case .dotRadiowavesLeftAndRight: return "dot.radiowaves.left.and.right"
-            case .dotRadiowavesRight: return "dot.radiowaves.right"
-            case .dotSquare: return "dot.square"
-            case .dotSquareFill: return "dot.square.fill"
-            case .dotSquareshape: return "dot.squareshape"
-            case .dotSquareshapeFill: return "dot.squareshape.fill"
-            case .dotSquareshapeSplit2x2: return "dot.squareshape.split.2x2"
-            case .dpad: return "dpad"
-            case .dpadDownFill: return "dpad.down.fill"
-            case .dpadFill: return "dpad.fill"
-            case .dpadLeftFill: return "dpad.left.fill"
-            case .dpadRightFill: return "dpad.right.fill"
-            case .dpadUpFill: return "dpad.up.fill"
-            case .drop: return "drop"
-            case .dropFill: return "drop.fill"
-            case .dropTriangle: return "drop.triangle"
-            case .dropTriangleFill: return "drop.triangle.fill"
-            case .eCircle: return "e.circle"
-            case .eCircleFill: return "e.circle.fill"
-            case .eSquare: return "e.square"
-            case .eSquareFill: return "e.square.fill"
-            case .ear: return "ear"
-            case .earBadgeCheckmark: return "ear.badge.checkmark"
-            case .earFill: return "ear.fill"
-            case .earTrianglebadgeExclamationmark: return "ear.trianglebadge.exclamationmark"
-            case .earpods: return "earpods"
-            case .eject: return "eject"
-            case .ejectCircle: return "eject.circle"
-            case .ejectCircleFill: return "eject.circle.fill"
-            case .ejectFill: return "eject.fill"
-            case .ellipsesBubble: return "ellipsis.bubble"
-            case .ellipsesBubbleFill: return "ellipsis.bubble.fill"
-            case .ellipsis: return "ellipsis"
-            case .ellipsisBubble: return "ellipsis.bubble"
-            case .ellipsisBubbleFill: return "ellipsis.bubble.fill"
-            case .ellipsisCircle: return "ellipsis.circle"
-            case .ellipsisCircleFill: return "ellipsis.circle.fill"
-            case .ellipsisRectangle: return "ellipsis.rectangle"
-            case .ellipsisRectangleFill: return "ellipsis.rectangle.fill"
-            case .envelope: return "envelope"
-            case .envelopeArrowTriangleBranch: return "envelope.arrow.triangle.branch"
-            case .envelopeArrowTriangleBranchFill: return "envelope.arrow.triangle.branch.fill"
-            case .envelopeBadge: return "envelope.badge"
-            case .envelopeBadgeFill: return "envelope.badge.fill"
-            case .envelopeBadgeShieldLeadinghalfFill: return "envelope.badge.shield.leadinghalf.fill"
-            case .envelopeCircle: return "envelope.circle"
-            case .envelopeCircleFill: return "envelope.circle.fill"
-            case .envelopeFill: return "envelope.fill"
-            case .envelopeFillBadgeShieldTrailinghalfFill: return "envelope.fill.badge.shield.trailinghalf.fill"
-            case .envelopeOpen: return "envelope.open"
-            case .envelopeOpenFill: return "envelope.open.fill"
-            case .equal: return "equal"
-            case .equalCircle: return "equal.circle"
-            case .equalCircleFill: return "equal.circle.fill"
-            case .equalSquare: return "equal.square"
-            case .equalSquareFill: return "equal.square.fill"
-            case .escape: return "escape"
-            case .esim: return "esim"
-            case .esimFill: return "esim.fill"
-            case .eurosignCircle: return "eurosign.circle"
-            case .eurosignCircleFill: return "eurosign.circle.fill"
-            case .eurosignSquare: return "eurosign.square"
-            case .eurosignSquareFill: return "eurosign.square.fill"
-            case .exclamationmark: return "exclamationmark"
-            case .exclamationmark2: return "exclamationmark.2"
-            case .exclamationmark3: return "exclamationmark.3"
-            case .exclamationmarkArrowCirclepath: return "exclamationmark.arrow.circlepath"
-            case .exclamationmarkArrowTriangle2Circlepath: return "exclamationmark.arrow.triangle.2.circlepath"
-            case .exclamationmarkBubble: return "exclamationmark.bubble"
-            case .exclamationmarkBubbleFill: return "exclamationmark.bubble.fill"
-            case .exclamationmarkCircle: return "exclamationmark.circle"
-            case .exclamationmarkCircleFill: return "exclamationmark.circle.fill"
-            case .exclamationmarkIcloud: return "exclamationmark.icloud"
-            case .exclamationmarkIcloudFill: return "exclamationmark.icloud.fill"
-            case .exclamationmarkOctagon: return "exclamationmark.octagon"
-            case .exclamationmarkOctagonFill: return "exclamationmark.octagon.fill"
-            case .exclamationmarkShield: return "exclamationmark.shield"
-            case .exclamationmarkShieldFill: return "exclamationmark.shield.fill"
-            case .exclamationmarkSquare: return "exclamationmark.square"
-            case .exclamationmarkSquareFill: return "exclamationmark.square.fill"
-            case .exclamationmarkTriangle: return "exclamationmark.triangle"
-            case .exclamationmarkTriangleFill: return "exclamationmark.triangle.fill"
-            case .externaldrive: return "externaldrive"
-            case .externaldriveBadgeCheckmark: return "externaldrive.badge.checkmark"
-            case .externaldriveBadgeIcloud: return "externaldrive.badge.icloud"
-            case .externaldriveBadgeMinus: return "externaldrive.badge.minus"
-            case .externaldriveBadgePersonCrop: return "externaldrive.badge.person.crop"
-            case .externaldriveBadgePlus: return "externaldrive.badge.plus"
-            case .externaldriveBadgeTimemachine: return "externaldrive.badge.timemachine"
-            case .externaldriveBadgeWifi: return "externaldrive.badge.wifi"
-            case .externaldriveBadgeXmark: return "externaldrive.badge.xmark"
-            case .externaldriveConnectedToLineBelow: return "externaldrive.connected.to.line.below"
-            case .externaldriveConnectedToLineBelowFill: return "externaldrive.connected.to.line.below.fill"
-            case .externaldriveFill: return "externaldrive.fill"
-            case .externaldriveFillBadgeCheckmark: return "externaldrive.fill.badge.checkmark"
-            case .externaldriveFillBadgeIcloud: return "externaldrive.fill.badge.icloud"
-            case .externaldriveFillBadgeMinus: return "externaldrive.fill.badge.minus"
-            case .externaldriveFillBadgePersonCrop: return "externaldrive.fill.badge.person.crop"
-            case .externaldriveFillBadgePlus: return "externaldrive.fill.badge.plus"
-            case .externaldriveFillBadgeTimemachine: return "externaldrive.fill.badge.timemachine"
-            case .externaldriveFillBadgeWifi: return "externaldrive.fill.badge.wifi"
-            case .externaldriveFillBadgeXmark: return "externaldrive.fill.badge.xmark"
-            case .eye: return "eye"
-            case .eyeCircle: return "eye.circle"
-            case .eyeCircleFill: return "eye.circle.fill"
-            case .eyeFill: return "eye.fill"
-            case .eyeSlash: return "eye.slash"
-            case .eyeSlashFill: return "eye.slash.fill"
-            case .eyebrow: return "eyebrow"
-            case .eyedropper: return "eyedropper"
-            case .eyedropperFull: return "eyedropper.full"
-            case .eyedropperHalffull: return "eyedropper.halffull"
-            case .eyeglasses: return "eyeglasses"
-            case .eyes: return "eyes"
-            case .eyesInverse: return "eyes.inverse"
-            case .fCircle: return "f.circle"
-            case .fCircleFill: return "f.circle.fill"
-            case .fCursive: return "f.cursive"
-            case .fCursiveCircle: return "f.cursive.circle"
-            case .fCursiveCircleFill: return "f.cursive.circle.fill"
-            case .fSquare: return "f.square"
-            case .fSquareFill: return "f.square.fill"
-            case .faceDashed: return "face.dashed"
-            case .faceDashedFill: return "face.dashed.fill"
-            case .faceSmiling: return "face.smiling"
-            case .faceSmilingFill: return "face.smiling.fill"
-            case .faceid: return "faceid"
-            case .faxmachine: return "faxmachine"
-            case .fiberchannel: return "fiberchannel"
-            case .figureStand: return "figure.stand"
-            case .figureStandLineDottedFigureStand: return "figure.stand.line.dotted.figure.stand"
-            case .figureWalk: return "figure.walk"
-            case .figureWalkCircle: return "figure.walk.circle"
-            case .figureWalkCircleFill: return "figure.walk.circle.fill"
-            case .figureWalkDiamond: return "figure.walk.diamond"
-            case .figureWalkDiamondFill: return "figure.walk.diamond.fill"
-            case .figureWave: return "figure.wave"
-            case .figureWaveCircle: return "figure.wave.circle"
-            case .figureWaveCircleFill: return "figure.wave.circle.fill"
-            case .filemenuAndCursorarrow: return "filemenu.and.cursorarrow"
-            case .filemenuAndSelection: return "filemenu.and.selection"
-            case .film: return "film"
-            case .filmFill: return "film.fill"
-            case .flag: return "flag"
-            case .flagBadgeEllipsis: return "flag.badge.ellipsis"
-            case .flagBadgeEllipsisFill: return "flag.badge.ellipsis.fill"
-            case .flagCircle: return "flag.circle"
-            case .flagCircleFill: return "flag.circle.fill"
-            case .flagFill: return "flag.fill"
-            case .flagSlash: return "flag.slash"
-            case .flagSlashCircle: return "flag.slash.circle"
-            case .flagSlashCircleFill: return "flag.slash.circle.fill"
-            case .flagSlashFill: return "flag.slash.fill"
-            case .flame: return "flame"
-            case .flameFill: return "flame.fill"
-            case .flashlightOffFill: return "flashlight.off.fill"
-            case .flashlightOnFill: return "flashlight.on.fill"
-            case .flipHorizontal: return "arrow.left.and.right.righttriangle.left.righttriangle.right"
-            case .flipHorizontalFill: return "arrow.left.and.right.righttriangle.left.righttriangle.right.fill"
-            case .flipphone: return "flipphone"
-            case .florinsignCircle: return "florinsign.circle"
-            case .florinsignCircleFill: return "florinsign.circle.fill"
-            case .florinsignSquare: return "florinsign.square"
-            case .florinsignSquareFill: return "florinsign.square.fill"
-            case .flowchart: return "flowchart"
-            case .flowchartFill: return "flowchart.fill"
-            case .fn: return "fn"
-            case .folder: return "folder"
-            case .folderBadgeGear: return "folder.badge.gear"
-            case .folderBadgeMinus: return "folder.badge.minus"
-            case .folderBadgePersonCrop: return "folder.badge.person.crop"
-            case .folderBadgePlus: return "folder.badge.plus"
-            case .folderBadgeQuestionmark: return "folder.badge.questionmark"
-            case .folderCircle: return "folder.circle"
-            case .folderCircleFill: return "folder.circle.fill"
-            case .folderFill: return "folder.fill"
-            case .folderFillBadgeGear: return "folder.fill.badge.gear"
-            case .folderFillBadgeMinus: return "folder.fill.badge.minus"
-            case .folderFillBadgePersonCrop: return "folder.fill.badge.person.crop"
-            case .folderFillBadgePlus: return "folder.fill.badge.plus"
-            case .folderFillBadgeQuestionmark: return "folder.fill.badge.questionmark"
-            case .forward: return "forward"
-            case .forwardEnd: return "forward.end"
-            case .forwardEndAlt: return "forward.end.alt"
-            case .forwardEndAltFill: return "forward.end.alt.fill"
-            case .forwardEndFill: return "forward.end.fill"
-            case .forwardFill: return "forward.fill"
-            case .forwardFrame: return "forward.frame"
-            case .forwardFrameFill: return "forward.frame.fill"
-            case .francsignCircle: return "francsign.circle"
-            case .francsignCircleFill: return "francsign.circle.fill"
-            case .francsignSquare: return "francsign.square"
-            case .francsignSquareFill: return "francsign.square.fill"
-            case .function: return "function"
-            case .fx: return "fx"
-            case .gCircle: return "g.circle"
-            case .gCircleFill: return "g.circle.fill"
-            case .gSquare: return "g.square"
-            case .gSquareFill: return "g.square.fill"
-            case .gamecontroller: return "gamecontroller"
-            case .gamecontrollerFill: return "gamecontroller.fill"
-            case .gauge: return "gauge"
-            case .gaugeBadgeMinus: return "gauge.badge.minus"
-            case .gaugeBadgePlus: return "gauge.badge.plus"
-            case .gear: return "gear"
-            case .gearshape: return "gearshape"
-            case .gearshape2: return "gearshape.2"
-            case .gearshape2Fill: return "gearshape.2.fill"
-            case .gearshapeFill: return "gearshape.fill"
-            case .gift: return "gift"
-            case .giftCircle: return "gift.circle"
-            case .giftCircleFill: return "gift.circle.fill"
-            case .giftFill: return "gift.fill"
-            case .giftcard: return "giftcard"
-            case .giftcardFill: return "giftcard.fill"
-            case .globe: return "globe"
-            case .gobackward: return "gobackward"
-            case .gobackward10: return "gobackward.10"
-            case .gobackward15: return "gobackward.15"
-            case .gobackward30: return "gobackward.30"
-            case .gobackward45: return "gobackward.45"
-            case .gobackward60: return "gobackward.60"
-            case .gobackward75: return "gobackward.75"
-            case .gobackward90: return "gobackward.90"
-            case .gobackwardMinus: return "gobackward.minus"
-            case .goforward: return "goforward"
-            case .goforward10: return "goforward.10"
-            case .goforward15: return "goforward.15"
-            case .goforward30: return "goforward.30"
-            case .goforward45: return "goforward.45"
-            case .goforward60: return "goforward.60"
-            case .goforward75: return "goforward.75"
-            case .goforward90: return "goforward.90"
-            case .goforwardPlus: return "goforward.plus"
-            case .graduationcap: return "graduationcap"
-            case .graduationcapFill: return "graduationcap.fill"
-            case .greaterthan: return "greaterthan"
-            case .greaterthanCircle: return "greaterthan.circle"
-            case .greaterthanCircleFill: return "greaterthan.circle.fill"
-            case .greaterthanSquare: return "greaterthan.square"
-            case .greaterthanSquareFill: return "greaterthan.square.fill"
-            case .greetingcard: return "greetingcard"
-            case .greetingcardFill: return "greetingcard.fill"
-            case .grid: return "grid"
-            case .gridCircle: return "grid.circle"
-            case .gridCircleFill: return "grid.circle.fill"
-            case .guaranisignCircle: return "guaranisign.circle"
-            case .guaranisignCircleFill: return "guaranisign.circle.fill"
-            case .guaranisignSquare: return "guaranisign.square"
-            case .guaranisignSquareFill: return "guaranisign.square.fill"
-            case .guitars: return "guitars"
-            case .guitarsFill: return "guitars.fill"
-            case .gyroscope: return "gyroscope"
-            case .hCircle: return "h.circle"
-            case .hCircleFill: return "h.circle.fill"
-            case .hSquare: return "h.square"
-            case .hSquareFill: return "h.square.fill"
-            case .hSquareFillOnSquareFill: return "h.square.fill.on.square.fill"
-            case .hSquareOnSquare: return "h.square.on.square"
-            case .hammer: return "hammer"
-            case .hammerFill: return "hammer.fill"
-            case .handDraw: return "hand.draw"
-            case .handDrawFill: return "hand.draw.fill"
-            case .handPointDown: return "hand.point.down"
-            case .handPointDownFill: return "hand.point.down.fill"
-            case .handPointLeft: return "hand.point.left"
-            case .handPointLeftFill: return "hand.point.left.fill"
-            case .handPointRight: return "hand.point.right"
-            case .handPointRightFill: return "hand.point.right.fill"
-            case .handPointUp: return "hand.point.up"
-            case .handPointUpBraille: return "hand.point.up.braille"
-            case .handPointUpBrailleFill: return "hand.point.up.braille.fill"
-            case .handPointUpFill: return "hand.point.up.fill"
-            case .handPointUpLeft: return "hand.point.up.left"
-            case .handPointUpLeftFill: return "hand.point.up.left.fill"
-            case .handRaised: return "hand.raised"
-            case .handRaisedFill: return "hand.raised.fill"
-            case .handRaisedSlash: return "hand.raised.slash"
-            case .handRaisedSlashFill: return "hand.raised.slash.fill"
-            case .handTap: return "hand.tap"
-            case .handTapFill: return "hand.tap.fill"
-            case .handThumbsdown: return "hand.thumbsdown"
-            case .handThumbsdownFill: return "hand.thumbsdown.fill"
-            case .handThumbsup: return "hand.thumbsup"
-            case .handThumbsupFill: return "hand.thumbsup.fill"
-            case .handWave: return "hand.wave"
-            case .handWaveFill: return "hand.wave.fill"
-            case .handsClap: return "hands.clap"
-            case .handsClapFill: return "hands.clap.fill"
-            case .handsSparkles: return "hands.sparkles"
-            case .handsSparklesFill: return "hands.sparkles.fill"
-            case .hare: return "hare"
-            case .hareFill: return "hare.fill"
-            case .headphones: return "headphones"
-            case .headphonesCircle: return "headphones.circle"
-            case .headphonesCircleFill: return "headphones.circle.fill"
-            case .hearingaidEar: return "hearingaid.ear"
-            case .heart: return "heart"
-            case .heartCircle: return "heart.circle"
-            case .heartCircleFill: return "heart.circle.fill"
-            case .heartFill: return "heart.fill"
-            case .heartSlash: return "heart.slash"
-            case .heartSlashCircle: return "heart.slash.circle"
-            case .heartSlashCircleFill: return "heart.slash.circle.fill"
-            case .heartSlashFill: return "heart.slash.fill"
-            case .heartTextSquare: return "heart.text.square"
-            case .heartTextSquareFill: return "heart.text.square.fill"
-            case .helm: return "helm"
-            case .hexagon: return "hexagon"
-            case .hexagonFill: return "hexagon.fill"
-            case .hifispeaker: return "hifispeaker"
-            case .hifispeaker2: return "hifispeaker.2"
-            case .hifispeaker2Fill: return "hifispeaker.2.fill"
-            case .hifispeakerAndHomepod: return "hifispeaker.and.homepod"
-            case .hifispeakerAndHomepodFill: return "hifispeaker.and.homepod.fill"
-            case .hifispeakerFill: return "hifispeaker.fill"
-            case .highlighter: return "highlighter"
-            case .homekit: return "homekit"
-            case .homepod: return "homepod"
-            case .homepod2: return "homepod.2"
-            case .homepod2Fill: return "homepod.2.fill"
-            case .homepodFill: return "homepod.fill"
-            case .hourglass: return "hourglass"
-            case .hourglassBadgePlus: return "hourglass.badge.plus"
-            case .hourglassBottomhalfFill: return "hourglass.bottomhalf.fill"
-            case .hourglassTophalfFill: return "hourglass.tophalf.fill"
-            case .house: return "house"
-            case .houseCircle: return "house.circle"
-            case .houseCircleFill: return "house.circle.fill"
-            case .houseFill: return "house.fill"
-            case .hryvniasignCircle: return "hryvniasign.circle"
-            case .hryvniasignCircleFill: return "hryvniasign.circle.fill"
-            case .hryvniasignSquare: return "hryvniasign.square"
-            case .hryvniasignSquareFill: return "hryvniasign.square.fill"
-            case .hurricane: return "hurricane"
-            case .iCircle: return "i.circle"
-            case .iCircleFill: return "i.circle.fill"
-            case .iSquare: return "i.square"
-            case .iSquareFill: return "i.square.fill"
-            case .icloud: return "icloud"
-            case .icloudAndArrowDown: return "icloud.and.arrow.down"
-            case .icloudAndArrowDownFill: return "icloud.and.arrow.down.fill"
-            case .icloudAndArrowUp: return "icloud.and.arrow.up"
-            case .icloudAndArrowUpFill: return "icloud.and.arrow.up.fill"
-            case .icloudCircle: return "icloud.circle"
-            case .icloudCircleFill: return "icloud.circle.fill"
-            case .icloudFill: return "icloud.fill"
-            case .icloudSlash: return "icloud.slash"
-            case .icloudSlashFill: return "icloud.slash.fill"
-            case .increaseIndent: return "increase.indent"
-            case .increaseQuotelevel: return "increase.quotelevel"
-            case .indianrupeesignCircle: return "indianrupeesign.circle"
-            case .indianrupeesignCircleFill: return "indianrupeesign.circle.fill"
-            case .indianrupeesignSquare: return "indianrupeesign.square"
-            case .indianrupeesignSquareFill: return "indianrupeesign.square.fill"
-            case .infinity: return "infinity"
-            case .info: return "info"
-            case .infoCircle: return "info.circle"
-            case .infoCircleFill: return "info.circle.fill"
-            case .internaldrive: return "internaldrive"
-            case .internaldriveFill: return "internaldrive.fill"
-            case .ipad: return "ipad"
-            case .ipadHomebutton: return "ipad.homebutton"
-            case .ipadHomebuttonLandscape: return "ipad.homebutton.landscape"
-            case .ipadLandscape: return "ipad.landscape"
-            case .iphone: return "iphone"
-            case .iphoneHomebutton: return "iphone.homebutton"
-            case .iphoneHomebuttonRadiowavesLeftAndRight: return "iphone.homebutton.radiowaves.left.and.right"
-            case .iphoneHomebuttonSlash: return "iphone.homebutton.slash"
-            case .iphoneRadiowavesLeftAndRight: return "iphone.radiowaves.left.and.right"
-            case .iphoneSlash: return "iphone.slash"
-            case .ipod: return "ipod"
-            case .ipodshuffleGen1: return "ipodshuffle.gen1"
-            case .ipodshuffleGen2: return "ipodshuffle.gen2"
-            case .ipodshuffleGen3: return "ipodshuffle.gen3"
-            case .ipodshuffleGen4: return "ipodshuffle.gen4"
-            case .ipodtouch: return "ipodtouch"
-            case .italic: return "italic"
-            case .jCircle: return "j.circle"
-            case .jCircleFill: return "j.circle.fill"
-            case .jSquare: return "j.square"
-            case .jSquareFill: return "j.square.fill"
-            case .jSquareFillOnSquareFill: return "j.square.fill.on.square.fill"
-            case .jSquareOnSquare: return "j.square.on.square"
-            case .k: return "k"
-            case .kCircle: return "k.circle"
-            case .kCircleFill: return "k.circle.fill"
-            case .kSquare: return "k.square"
-            case .kSquareFill: return "k.square.fill"
-            case .key: return "key"
-            case .keyFill: return "key.fill"
-            case .keyIcloud: return "key.icloud"
-            case .keyIcloudFill: return "key.icloud.fill"
-            case .keyboard: return "keyboard"
-            case .keyboardBadgeEllipsis: return "keyboard.badge.ellipsis"
-            case .keyboardChevronCompactDown: return "keyboard.chevron.compact.down"
-            case .keyboardChevronCompactLeft: return "keyboard.chevron.compact.left"
-            case .keyboardMacwindow: return "keyboard.macwindow"
-            case .keyboardOnehandedLeft: return "keyboard.onehanded.left"
-            case .keyboardOnehandedRight: return "keyboard.onehanded.right"
-            case .kipsignCircle: return "kipsign.circle"
-            case .kipsignCircleFill: return "kipsign.circle.fill"
-            case .kipsignSquare: return "kipsign.square"
-            case .kipsignSquareFill: return "kipsign.square.fill"
-            case .lCircle: return "l.circle"
-            case .lCircleFill: return "l.circle.fill"
-            case .lJoystick: return "l.joystick"
-            case .lJoystickDown: return "l.joystick.down"
-            case .lJoystickDownFill: return "l.joystick.down.fill"
-            case .lJoystickFill: return "l.joystick.fill"
-            case .lRectangleRoundedbottom: return "l.rectangle.roundedbottom"
-            case .lRectangleRoundedbottomFill: return "l.rectangle.roundedbottom.fill"
-            case .lSquare: return "l.square"
-            case .lSquareFill: return "l.square.fill"
-            case .l1RectangleRoundedbottom: return "l1.rectangle.roundedbottom"
-            case .l1RectangleRoundedbottomFill: return "l1.rectangle.roundedbottom.fill"
-            case .l2RectangleRoundedtop: return "l2.rectangle.roundedtop"
-            case .l2RectangleRoundedtopFill: return "l2.rectangle.roundedtop.fill"
-            case .ladybug: return "ladybug"
-            case .ladybugFill: return "ladybug.fill"
-            case .laptopcomputer: return "laptopcomputer"
-            case .laptopcomputerAndIphone: return "laptopcomputer.and.iphone"
-            case .largecircleFillCircle: return "largecircle.fill.circle"
-            case .larisignCircle: return "larisign.circle"
-            case .larisignCircleFill: return "larisign.circle.fill"
-            case .larisignSquare: return "larisign.square"
-            case .larisignSquareFill: return "larisign.square.fill"
-            case .lasso: return "lasso"
-            case .lassoSparkles: return "lasso.sparkles"
-            case .latch2Case: return "latch.2.case"
-            case .latch2CaseFill: return "latch.2.case.fill"
-            case .lbRectangleRoundedbottom: return "lb.rectangle.roundedbottom"
-            case .lbRectangleRoundedbottomFill: return "lb.rectangle.roundedbottom.fill"
-            case .leaf: return "leaf"
-            case .leafArrowCirclepath: return "leaf.arrow.triangle.circlepath"
-            case .leafArrowTriangleCirclepath: return "leaf.arrow.triangle.circlepath"
-            case .leafFill: return "leaf.fill"
-            case .lessthan: return "lessthan"
-            case .lessthanCircle: return "lessthan.circle"
-            case .lessthanCircleFill: return "lessthan.circle.fill"
-            case .lessthanSquare: return "lessthan.square"
-            case .lessthanSquareFill: return "lessthan.square.fill"
-            case .level: return "level"
-            case .levelFill: return "level.fill"
-            case .lifepreserver: return "lifepreserver"
-            case .lifepreserverFill: return "lifepreserver.fill"
-            case .lightMax: return "light.max"
-            case .lightMin: return "light.min"
-            case .lightbulb: return "lightbulb"
-            case .lightbulbFill: return "lightbulb.fill"
-            case .lightbulbSlash: return "lightbulb.slash"
-            case .lightbulbSlashFill: return "lightbulb.slash.fill"
-            case .line3CrossedSwirlCircle: return "line.3.crossed.swirl.circle"
-            case .line3CrossedSwirlCircleFill: return "line.3.crossed.swirl.circle.fill"
-            case .lineDiagonal: return "line.diagonal"
-            case .lineDiagonalArrow: return "line.diagonal.arrow"
-            case .lineHorizontal2DecreaseCircle: return "line.horizontal.2.decrease.circle"
-            case .lineHorizontal2DecreaseCircleFill: return "line.horizontal.2.decrease.circle.fill"
-            case .lineHorizontal3: return "line.horizontal.3"
-            case .lineHorizontal3Circle: return "line.horizontal.3.circle"
-            case .lineHorizontal3CircleFill: return "line.horizontal.3.circle.fill"
-            case .lineHorizontal3Decrease: return "line.horizontal.3.decrease"
-            case .lineHorizontal3DecreaseCircle: return "line.horizontal.3.decrease.circle"
-            case .lineHorizontal3DecreaseCircleFill: return "line.horizontal.3.decrease.circle.fill"
-            case .lineHorizontalStarFillLineHorizontal: return "line.horizontal.star.fill.line.horizontal"
-            case .lineweight: return "lineweight"
-            case .link: return "link"
-            case .linkBadgePlus: return "link.badge.plus"
-            case .linkCircle: return "link.circle"
-            case .linkCircleFill: return "link.circle.fill"
-            case .linkIcloud: return "link.icloud"
-            case .linkIcloudFill: return "link.icloud.fill"
-            case .lirasignCircle: return "lirasign.circle"
-            case .lirasignCircleFill: return "lirasign.circle.fill"
-            case .lirasignSquare: return "lirasign.square"
-            case .lirasignSquareFill: return "lirasign.square.fill"
-            case .listAndFilm: return "list.and.film"
-            case .listBullet: return "list.bullet"
-            case .listBulletBelowRectangle: return "list.bullet.below.rectangle"
-            case .listBulletIndent: return "list.bullet.indent"
-            case .listBulletRectangle: return "list.bullet.rectangle"
-            case .listDash: return "list.dash"
-            case .listNumber: return "list.number"
-            case .listStar: return "list.star"
-            case .listTriangle: return "list.triangle"
-            case .livephoto: return "livephoto"
-            case .livephotoBadgeA: return "livephoto.badge.a"
-            case .livephotoPlay: return "livephoto.play"
-            case .livephotoSlash: return "livephoto.slash"
-            case .location: return "location"
-            case .locationCircle: return "location.circle"
-            case .locationCircleFill: return "location.circle.fill"
-            case .locationFill: return "location.fill"
-            case .locationFillViewfinder: return "location.fill.viewfinder"
-            case .locationNorth: return "location.north"
-            case .locationNorthFill: return "location.north.fill"
-            case .locationNorthLine: return "location.north.line"
-            case .locationNorthLineFill: return "location.north.line.fill"
-            case .locationSlash: return "location.slash"
-            case .locationSlashFill: return "location.slash.fill"
-            case .locationViewfinder: return "location.viewfinder"
-            case .lock: return "lock"
-            case .lockCircle: return "lock.circle"
-            case .lockCircleFill: return "lock.circle.fill"
-            case .lockDoc: return "lock.doc"
-            case .lockDocFill: return "lock.doc.fill"
-            case .lockFill: return "lock.fill"
-            case .lockIcloud: return "lock.icloud"
-            case .lockIcloudFill: return "lock.icloud.fill"
-            case .lockOpen: return "lock.open"
-            case .lockOpenFill: return "lock.open.fill"
-            case .lockRectangle: return "lock.rectangle"
-            case .lockRectangleFill: return "lock.rectangle.fill"
-            case .lockRectangleOnRectangle: return "lock.rectangle.on.rectangle"
-            case .lockRectangleOnRectangleFill: return "lock.rectangle.on.rectangle.fill"
-            case .lockRectangleStack: return "lock.rectangle.stack"
-            case .lockRectangleStackFill: return "lock.rectangle.stack.fill"
-            case .lockRotation: return "lock.rotation"
-            case .lockRotationOpen: return "lock.rotation.open"
-            case .lockShield: return "lock.shield"
-            case .lockShieldFill: return "lock.shield.fill"
-            case .lockSlash: return "lock.slash"
-            case .lockSlashFill: return "lock.slash.fill"
-            case .lockSquare: return "lock.square"
-            case .lockSquareFill: return "lock.square.fill"
-            case .lockSquareStack: return "lock.square.stack"
-            case .lockSquareStackFill: return "lock.square.stack.fill"
-            case .loupe: return "loupe"
-            case .ltRectangleRoundedtop: return "lt.rectangle.roundedtop"
-            case .ltRectangleRoundedtopFill: return "lt.rectangle.roundedtop.fill"
-            case .lungs: return "lungs"
-            case .lungsFill: return "lungs.fill"
-            case .mCircle: return "m.circle"
-            case .mCircleFill: return "m.circle.fill"
-            case .mSquare: return "m.square"
-            case .mSquareFill: return "m.square.fill"
-            case .macmini: return "macmini"
-            case .macminiFill: return "macmini.fill"
-            case .macproGen1: return "macpro.gen1"
-            case .macproGen2: return "macpro.gen2"
-            case .macproGen2Fill: return "macpro.gen2.fill"
-            case .macproGen3: return "macpro.gen3"
-            case .macproGen3Server: return "macpro.gen3.server"
-            case .macwindow: return "macwindow"
-            case .macwindowBadgePlus: return "macwindow.badge.plus"
-            case .macwindowOnRectangle: return "macwindow.on.rectangle"
-            case .magnifyingglass: return "magnifyingglass"
-            case .magnifyingglassCircle: return "magnifyingglass.circle"
-            case .magnifyingglassCircleFill: return "magnifyingglass.circle.fill"
-            case .mail: return "mail"
-            case .mailAndTextMagnifyingglass: return "mail.and.text.magnifyingglass"
-            case .mailFill: return "mail.fill"
-            case .mailStack: return "mail.stack"
-            case .mailStackFill: return "mail.stack.fill"
-            case .manatsignCircle: return "manatsign.circle"
-            case .manatsignCircleFill: return "manatsign.circle.fill"
-            case .manatsignSquare: return "manatsign.square"
-            case .manatsignSquareFill: return "manatsign.square.fill"
-            case .map: return "map"
-            case .mapFill: return "map.fill"
-            case .mappin: return "mappin"
-            case .mappinAndEllipse: return "mappin.and.ellipse"
-            case .mappinCircle: return "mappin.circle"
-            case .mappinCircleFill: return "mappin.circle.fill"
-            case .mappinSlash: return "mappin.slash"
-            case .megaphone: return "megaphone"
-            case .megaphoneFill: return "megaphone.fill"
-            case .memories: return "memories"
-            case .memoriesBadgeMinus: return "memories.badge.minus"
-            case .memoriesBadgePlus: return "memories.badge.plus"
-            case .memorychip: return "memorychip"
-            case .menubarArrowDownRectangle: return "menubar.arrow.down.rectangle"
-            case .menubarArrowUpRectangle: return "menubar.arrow.up.rectangle"
-            case .menubarDockRectangle: return "menubar.dock.rectangle"
-            case .menubarDockRectangleBadgeRecord: return "menubar.dock.rectangle.badge.record"
-            case .menubarRectangle: return "menubar.rectangle"
-            case .message: return "message"
-            case .messageCircle: return "message.circle"
-            case .messageCircleFill: return "message.circle.fill"
-            case .messageFill: return "message.fill"
-            case .metronome: return "metronome"
-            case .metronomeFill: return "metronome.fill"
-            case .mic: return "mic"
-            case .micCircle: return "mic.circle"
-            case .micCircleFill: return "mic.circle.fill"
-            case .micFill: return "mic.fill"
-            case .micSlash: return "mic.slash"
-            case .micSlashFill: return "mic.slash.fill"
-            case .millsignCircle: return "millsign.circle"
-            case .millsignCircleFill: return "millsign.circle.fill"
-            case .millsignSquare: return "millsign.square"
-            case .millsignSquareFill: return "millsign.square.fill"
-            case .minus: return "minus"
-            case .minusCircle: return "minus.circle"
-            case .minusCircleFill: return "minus.circle.fill"
-            case .minusDiamond: return "minus.diamond"
-            case .minusDiamondFill: return "minus.diamond.fill"
-            case .minusMagnifyingglass: return "minus.magnifyingglass"
-            case .minusPlusBatteryblock: return "minus.plus.batteryblock"
-            case .minusPlusBatteryblockFill: return "minus.plus.batteryblock.fill"
-            case .minusRectangle: return "minus.rectangle"
-            case .minusRectangleFill: return "minus.rectangle.fill"
-            case .minusRectanglePortrait: return "minus.rectangle.portrait"
-            case .minusRectanglePortraitFill: return "minus.rectangle.portrait.fill"
-            case .minusSlashPlus: return "minus.slash.plus"
-            case .minusSquare: return "minus.square"
-            case .minusSquareFill: return "minus.square.fill"
-            case .moon: return "moon"
-            case .moonCircle: return "moon.circle"
-            case .moonCircleFill: return "moon.circle.fill"
-            case .moonFill: return "moon.fill"
-            case .moonStars: return "moon.stars"
-            case .moonStarsFill: return "moon.stars.fill"
-            case .moonZzz: return "moon.zzz"
-            case .moonZzzFill: return "moon.zzz.fill"
-            case .mosaic: return "mosaic"
-            case .mosaicFill: return "mosaic.fill"
-            case .mount: return "mount"
-            case .mountFill: return "mount.fill"
-            case .mouth: return "mouth"
-            case .mouthFill: return "mouth.fill"
-            case .move3d: return "move.3d"
-            case .multiply: return "multiply"
-            case .multiplyCircle: return "multiply.circle"
-            case .multiplyCircleFill: return "multiply.circle.fill"
-            case .multiplySquare: return "multiply.square"
-            case .multiplySquareFill: return "multiply.square.fill"
-            case .musicHouse: return "music.note.house"
-            case .musicHouseFill: return "music.note.house.fill"
-            case .musicMic: return "music.mic"
-            case .musicNote: return "music.note"
-            case .musicNoteHouse: return "music.note.house"
-            case .musicNoteHouseFill: return "music.note.house.fill"
-            case .musicNoteList: return "music.note.list"
-            case .musicQuarternote3: return "music.quarternote.3"
-            case .mustache: return "mustache"
-            case .mustacheFill: return "mustache.fill"
-            case .nCircle: return "n.circle"
-            case .nCircleFill: return "n.circle.fill"
-            case .nSquare: return "n.square"
-            case .nSquareFill: return "n.square.fill"
-            case .nairasignCircle: return "nairasign.circle"
-            case .nairasignCircleFill: return "nairasign.circle.fill"
-            case .nairasignSquare: return "nairasign.square"
-            case .nairasignSquareFill: return "nairasign.square.fill"
-            case .network: return "network"
-            case .newspaper: return "newspaper"
-            case .newspaperFill: return "newspaper.fill"
-            case .nose: return "nose"
-            case .noseFill: return "nose.fill"
-            case .nosign: return "nosign"
-            case .note: return "note"
-            case .noteText: return "note.text"
-            case .noteTextBadgePlus: return "note.text.badge.plus"
-            case .number: return "number"
-            case .numberCircle: return "number.circle"
-            case .numberCircleFill: return "number.circle.fill"
-            case .numberSquare: return "number.square"
-            case .numberSquareFill: return "number.square.fill"
-            case .oCircle: return "o.circle"
-            case .oCircleFill: return "o.circle.fill"
-            case .oSquare: return "o.square"
-            case .oSquareFill: return "o.square.fill"
-            case .octagon: return "octagon"
-            case .octagonFill: return "octagon.fill"
-            case .opticaldisc: return "opticaldisc"
-            case .opticaldiscdrive: return "opticaldiscdrive"
-            case .opticaldiscdriveFill: return "opticaldiscdrive.fill"
-            case .option: return "option"
-            case .oval: return "oval"
-            case .ovalFill: return "oval.fill"
-            case .ovalPortrait: return "oval.portrait"
-            case .ovalPortraitFill: return "oval.portrait.fill"
-            case .pCircle: return "p.circle"
-            case .pCircleFill: return "p.circle.fill"
-            case .pSquare: return "p.square"
-            case .pSquareFill: return "p.square.fill"
-            case .paintbrush: return "paintbrush"
-            case .paintbrushFill: return "paintbrush.fill"
-            case .paintbrushPointed: return "paintbrush.pointed"
-            case .paintbrushPointedFill: return "paintbrush.pointed.fill"
-            case .paintpalette: return "paintpalette"
-            case .paintpaletteFill: return "paintpalette.fill"
-            case .pano: return "pano"
-            case .panoFill: return "pano.fill"
-            case .paperclip: return "paperclip"
-            case .paperclipBadgeEllipsis: return "paperclip.badge.ellipsis"
-            case .paperclipCircle: return "paperclip.circle"
-            case .paperclipCircleFill: return "paperclip.circle.fill"
-            case .paperplane: return "paperplane"
-            case .paperplaneCircle: return "paperplane.circle"
-            case .paperplaneCircleFill: return "paperplane.circle.fill"
-            case .paperplaneFill: return "paperplane.fill"
-            case .paragraph: return "paragraphsign"
-            case .paragraphsign: return "paragraphsign"
-            case .pause: return "pause"
-            case .pauseCircle: return "pause.circle"
-            case .pauseCircleFill: return "pause.circle.fill"
-            case .pauseFill: return "pause.fill"
-            case .pauseRectangle: return "pause.rectangle"
-            case .pauseRectangleFill: return "pause.rectangle.fill"
-            case .pc: return "pc"
-            case .pencil: return "pencil"
-            case .pencilAndEllipsisRectangle: return "rectangle.and.pencil.and.ellipsis"
-            case .pencilAndOutline: return "pencil.and.outline"
-            case .pencilCircle: return "pencil.circle"
-            case .pencilCircleFill: return "pencil.circle.fill"
-            case .pencilSlash: return "pencil.slash"
-            case .pencilTip: return "pencil.tip"
-            case .pencilTipCropCircle: return "pencil.tip.crop.circle"
-            case .pencilTipCropCircleBadgeArrowForward: return "pencil.tip.crop.circle.badge.arrow.forward"
-            case .pencilTipCropCircleBadgeMinus: return "pencil.tip.crop.circle.badge.minus"
-            case .pencilTipCropCircleBadgePlus: return "pencil.tip.crop.circle.badge.plus"
-            case .percent: return "percent"
-            case .person: return "person"
-            case .person2: return "person.2"
-            case .person2Circle: return "person.2.circle"
-            case .person2CircleFill: return "person.2.circle.fill"
-            case .person2Fill: return "person.2.fill"
-            case .person2SquareStack: return "person.2.square.stack"
-            case .person2SquareStackFill: return "person.2.square.stack.fill"
-            case .person3: return "person.3"
-            case .person3Fill: return "person.3.fill"
-            case .personAndArrowLeftAndArrowRight: return "person.and.arrow.left.and.arrow.right"
-            case .personBadgeMinus: return "person.badge.minus"
-            case .personBadgeMinusFill: return "person.fill.badge.minus"
-            case .personBadgePlus: return "person.badge.plus"
-            case .personBadgePlusFill: return "person.fill.badge.plus"
-            case .personCircle: return "person.circle"
-            case .personCircleFill: return "person.circle.fill"
-            case .personCropCircle: return "person.crop.circle"
-            case .personCropCircleBadgeCheckmark: return "person.crop.circle.badge.checkmark"
-            case .personCropCircleBadgeExclam: return "person.crop.circle.badge.exclamationmark"
-            case .personCropCircleBadgeExclamationmark: return "person.crop.circle.badge.exclamationmark"
-            case .personCropCircleBadgeMinus: return "person.crop.circle.badge.minus"
-            case .personCropCircleBadgePlus: return "person.crop.circle.badge.plus"
-            case .personCropCircleBadgeQuestionmark: return "person.crop.circle.badge.questionmark"
-            case .personCropCircleBadgeXmark: return "person.crop.circle.badge.xmark"
-            case .personCropCircleFill: return "person.crop.circle.fill"
-            case .personCropCircleFillBadgeCheckmark: return "person.crop.circle.fill.badge.checkmark"
-            case .personCropCircleFillBadgeExclam: return "person.crop.circle.fill.badge.exclamationmark"
-            case .personCropCircleFillBadgeExclamationmark: return "person.crop.circle.fill.badge.exclamationmark"
-            case .personCropCircleFillBadgeMinus: return "person.crop.circle.fill.badge.minus"
-            case .personCropCircleFillBadgePlus: return "person.crop.circle.fill.badge.plus"
-            case .personCropCircleFillBadgeQuestionmark: return "person.crop.circle.fill.badge.questionmark"
-            case .personCropCircleFillBadgeXmark: return "person.crop.circle.fill.badge.xmark"
-            case .personCropRectangle: return "person.crop.rectangle"
-            case .personCropRectangleFill: return "person.crop.rectangle.fill"
-            case .personCropSquare: return "person.crop.square"
-            case .personCropSquareFill: return "person.crop.square.fill"
-            case .personCropSquareFillAndAtRectangle: return "person.crop.square.fill.and.at.rectangle"
-            case .personFill: return "person.fill"
-            case .personFillAndArrowLeftAndArrowRight: return "person.fill.and.arrow.left.and.arrow.right"
-            case .personFillBadgeMinus: return "person.fill.badge.minus"
-            case .personFillBadgePlus: return "person.fill.badge.plus"
-            case .personFillCheckmark: return "person.fill.checkmark"
-            case .personFillQuestionmark: return "person.fill.questionmark"
-            case .personFillTurnDown: return "person.fill.turn.down"
-            case .personFillTurnLeft: return "person.fill.turn.left"
-            case .personFillTurnRight: return "person.fill.turn.right"
-            case .personFillViewfinder: return "person.fill.viewfinder"
-            case .personFillXmark: return "person.fill.xmark"
-            case .personIcloud: return "person.icloud"
-            case .personIcloudFill: return "person.icloud.fill"
-            case .personalhotspot: return "personalhotspot"
-            case .perspective: return "perspective"
-            case .pesetasignCircle: return "pesetasign.circle"
-            case .pesetasignCircleFill: return "pesetasign.circle.fill"
-            case .pesetasignSquare: return "pesetasign.square"
-            case .pesetasignSquareFill: return "pesetasign.square.fill"
-            case .pesosignCircle: return "pesosign.circle"
-            case .pesosignCircleFill: return "pesosign.circle.fill"
-            case .pesosignSquare: return "pesosign.square"
-            case .pesosignSquareFill: return "pesosign.square.fill"
-            case .phone: return "phone"
-            case .phoneArrowDownLeft: return "phone.arrow.down.left"
-            case .phoneArrowRight: return "phone.arrow.right"
-            case .phoneArrowUpRight: return "phone.arrow.up.right"
-            case .phoneBadgePlus: return "phone.badge.plus"
-            case .phoneBubbleLeft: return "phone.bubble.left"
-            case .phoneBubbleLeftFill: return "phone.bubble.left.fill"
-            case .phoneCircle: return "phone.circle"
-            case .phoneCircleFill: return "phone.circle.fill"
-            case .phoneConnection: return "phone.connection"
-            case .phoneDown: return "phone.down"
-            case .phoneDownCircle: return "phone.down.circle"
-            case .phoneDownCircleFill: return "phone.down.circle.fill"
-            case .phoneDownFill: return "phone.down.fill"
-            case .phoneFill: return "phone.fill"
-            case .phoneFillArrowDownLeft: return "phone.fill.arrow.down.left"
-            case .phoneFillArrowRight: return "phone.fill.arrow.right"
-            case .phoneFillArrowUpRight: return "phone.fill.arrow.up.right"
-            case .phoneFillBadgePlus: return "phone.fill.badge.plus"
-            case .phoneFillConnection: return "phone.fill.connection"
-            case .photo: return "photo"
-            case .photoFill: return "photo.fill"
-            case .photoFillOnRectangleFill: return "photo.fill.on.rectangle.fill"
-            case .photoOnRectangle: return "photo.on.rectangle"
-            case .photoOnRectangleAngled: return "photo.on.rectangle.angled"
-            case .pianokeys: return "pianokeys"
-            case .pianokeysInverse: return "pianokeys.inverse"
-            case .pills: return "pills"
-            case .pillsFill: return "pills.fill"
-            case .pin: return "pin"
-            case .pinCircle: return "pin.circle"
-            case .pinCircleFill: return "pin.circle.fill"
-            case .pinFill: return "pin.fill"
-            case .pinSlash: return "pin.slash"
-            case .pinSlashFill: return "pin.slash.fill"
-            case .pip: return "pip"
-            case .pipEnter: return "pip.enter"
-            case .pipExit: return "pip.exit"
-            case .pipFill: return "pip.fill"
-            case .pipRemove: return "pip.remove"
-            case .pipSwap: return "pip.swap"
-            case .placeholdertextFill: return "placeholdertext.fill"
-            case .play: return "play"
-            case .playCircle: return "play.circle"
-            case .playCircleFill: return "play.circle.fill"
-            case .playFill: return "play.fill"
-            case .playRectangle: return "play.rectangle"
-            case .playRectangleFill: return "play.rectangle.fill"
-            case .playSlash: return "play.slash"
-            case .playSlashFill: return "play.slash.fill"
-            case .playpause: return "playpause"
-            case .playpauseFill: return "playpause.fill"
-            case .plus: return "plus"
-            case .plusApp: return "plus.app"
-            case .plusAppFill: return "plus.app.fill"
-            case .plusBubble: return "plus.bubble"
-            case .plusBubbleFill: return "plus.bubble.fill"
-            case .plusCircle: return "plus.circle"
-            case .plusCircleFill: return "plus.circle.fill"
-            case .plusDiamond: return "plus.diamond"
-            case .plusDiamondFill: return "plus.diamond.fill"
-            case .plusMagnifyingglass: return "plus.magnifyingglass"
-            case .plusMessage: return "plus.message"
-            case .plusMessageFill: return "plus.message.fill"
-            case .plusRectangle: return "plus.rectangle"
-            case .plusRectangleFill: return "plus.rectangle.fill"
-            case .plusRectangleFillOnFolderFill: return "plus.rectangle.fill.on.folder.fill"
-            case .plusRectangleFillOnRectangleFill: return "plus.rectangle.fill.on.rectangle.fill"
-            case .plusRectangleOnFolder: return "plus.rectangle.on.folder"
-            case .plusRectangleOnRectangle: return "plus.rectangle.on.rectangle"
-            case .plusRectanglePortrait: return "plus.rectangle.portrait"
-            case .plusRectanglePortraitFill: return "plus.rectangle.portrait.fill"
-            case .plusSlashMinus: return "plus.slash.minus"
-            case .plusSquare: return "plus.square"
-            case .plusSquareFill: return "plus.square.fill"
-            case .plusSquareFillOnSquareFill: return "plus.square.fill.on.square.fill"
-            case .plusSquareOnSquare: return "plus.square.on.square"
-            case .plusViewfinder: return "plus.viewfinder"
-            case .plusminus: return "plusminus"
-            case .plusminusCircle: return "plusminus.circle"
-            case .plusminusCircleFill: return "plusminus.circle.fill"
-            case .pointFillTopleftDownCurvedtoPointFillBottomrightUp: return "point.fill.topleft.down.curvedto.point.fill.bottomright.up"
-            case .pointTopleftDownCurvedtoPointBottomrightUp: return "point.topleft.down.curvedto.point.bottomright.up"
-            case .power: return "power"
-            case .poweroff: return "poweroff"
-            case .poweron: return "poweron"
-            case .powersleep: return "powersleep"
-            case .printer: return "printer"
-            case .printerDotmatrix: return "printer.dotmatrix"
-            case .printerDotmatrixFill: return "printer.dotmatrix.fill"
-            case .printerDotmatrixFillAndPaperFill: return "printer.dotmatrix.fill.and.paper.fill"
-            case .printerFill: return "printer.fill"
-            case .printerFillAndPaperFill: return "printer.fill.and.paper.fill"
-            case .projective: return "projective"
-            case .purchased: return "purchased"
-            case .purchasedCircle: return "purchased.circle"
-            case .purchasedCircleFill: return "purchased.circle.fill"
-            case .puzzlepiece: return "puzzlepiece"
-            case .puzzlepieceFill: return "puzzlepiece.fill"
-            case .pyramid: return "pyramid"
-            case .pyramidFill: return "pyramid.fill"
-            case .qCircle: return "q.circle"
-            case .qCircleFill: return "q.circle.fill"
-            case .qSquare: return "q.square"
-            case .qSquareFill: return "q.square.fill"
-            case .qrcode: return "qrcode"
-            case .qrcodeViewfinder: return "qrcode.viewfinder"
-            case .questionmark: return "questionmark"
-            case .questionmarkCircle: return "questionmark.circle"
-            case .questionmarkCircleFill: return "questionmark.circle.fill"
-            case .questionmarkDiamond: return "questionmark.diamond"
-            case .questionmarkDiamondFill: return "questionmark.diamond.fill"
-            case .questionmarkFolder: return "questionmark.folder"
-            case .questionmarkFolderFill: return "questionmark.folder.fill"
-            case .questionmarkSquare: return "questionmark.square"
-            case .questionmarkSquareDashed: return "questionmark.square.dashed"
-            case .questionmarkSquareFill: return "questionmark.square.fill"
-            case .questionmarkVideo: return "questionmark.video"
-            case .questionmarkVideoFill: return "questionmark.video.fill"
-            case .quoteBubble: return "quote.bubble"
-            case .quoteBubbleFill: return "quote.bubble.fill"
-            case .rCircle: return "r.circle"
-            case .rCircleFill: return "r.circle.fill"
-            case .rJoystick: return "r.joystick"
-            case .rJoystickDown: return "r.joystick.down"
-            case .rJoystickDownFill: return "r.joystick.down.fill"
-            case .rJoystickFill: return "r.joystick.fill"
-            case .rRectangleRoundedbottom: return "r.rectangle.roundedbottom"
-            case .rRectangleRoundedbottomFill: return "r.rectangle.roundedbottom.fill"
-            case .rSquare: return "r.square"
-            case .rSquareFill: return "r.square.fill"
-            case .rSquareFillOnSquareFill: return "r.square.fill.on.square.fill"
-            case .rSquareOnSquare: return "r.square.on.square"
-            case .r1RectangleRoundedbottom: return "r1.rectangle.roundedbottom"
-            case .r1RectangleRoundedbottomFill: return "r1.rectangle.roundedbottom.fill"
-            case .r2RectangleRoundedtop: return "r2.rectangle.roundedtop"
-            case .r2RectangleRoundedtopFill: return "r2.rectangle.roundedtop.fill"
-            case .radio: return "radio"
-            case .radioFill: return "radio.fill"
-            case .radiowavesLeft: return "wave.3.left"
-            case .radiowavesRight: return "wave.3.right"
-            case .rays: return "rays"
-            case .rbRectangleRoundedbottom: return "rb.rectangle.roundedbottom"
-            case .rbRectangleRoundedbottomFill: return "rb.rectangle.roundedbottom.fill"
-            case .recordCircle: return "record.circle"
-            case .recordCircleFill: return "record.circle.fill"
-            case .recordingtape: return "recordingtape"
-            case .rectangle: return "rectangle"
-            case .rectangle3Offgrid: return "rectangle.3.offgrid"
-            case .rectangle3OffgridBubbleLeft: return "rectangle.3.offgrid.bubble.left"
-            case .rectangle3OffgridBubbleLeftFill: return "rectangle.3.offgrid.bubble.left.fill"
-            case .rectangle3OffgridFill: return "rectangle.3.offgrid.fill"
-            case .rectangleAndArrowUpRightAndArrowDownLeft: return "rectangle.and.arrow.up.right.and.arrow.down.left"
-            case .rectangleAndArrowUpRightAndArrowDownLeftSlash: return "rectangle.and.arrow.up.right.and.arrow.down.left.slash"
-            case .rectangleAndPaperclip: return "rectangle.and.paperclip"
-            case .rectangleAndPencilAndEllipsis: return "rectangle.and.pencil.and.ellipsis"
-            case .rectangleAndTextMagnifyingglass: return "rectangle.and.text.magnifyingglass"
-            case .rectangleArrowtriangle2Inward: return "rectangle.arrowtriangle.2.inward"
-            case .rectangleArrowtriangle2Outward: return "rectangle.arrowtriangle.2.outward"
-            case .rectangleBadgeCheckmark: return "rectangle.badge.checkmark"
-            case .rectangleBadgeMinus: return "rectangle.badge.minus"
-            case .rectangleBadgePlus: return "rectangle.badge.plus"
-            case .rectangleBadgeXmark: return "rectangle.badge.xmark"
-            case .rectangleBottomthirdInsetFill: return "rectangle.bottomthird.inset.fill"
-            case .rectangleCenterInsetFill: return "rectangle.center.inset.fill"
-            case .rectangleCompressVertical: return "rectangle.compress.vertical"
-            case .rectangleConnectedToLineBelow: return "rectangle.connected.to.line.below"
-            case .rectangleDashed: return "rectangle.dashed"
-            case .rectangleDashedAndPaperclip: return "rectangle.dashed.and.paperclip"
-            case .rectangleDashedBadgeRecord: return "rectangle.dashed.badge.record"
-            case .rectangleDock: return "dock.rectangle"
-            case .rectangleExpandVertical: return "rectangle.expand.vertical"
-            case .rectangleFill: return "rectangle.fill"
-            case .rectangleFillBadgeCheckmark: return "rectangle.fill.badge.checkmark"
-            case .rectangleFillBadgeMinus: return "rectangle.fill.badge.minus"
-            case .rectangleFillBadgePlus: return "rectangle.fill.badge.plus"
-            case .rectangleFillBadgeXmark: return "rectangle.fill.badge.xmark"
-            case .rectangleFillOnRectangleAngledFill: return "rectangle.fill.on.rectangle.angled.fill"
-            case .rectangleFillOnRectangleFill: return "rectangle.fill.on.rectangle.fill"
-            case .rectangleFillOnRectangleFillCircle: return "rectangle.fill.on.rectangle.fill.circle"
-            case .rectangleFillOnRectangleFillCircleFill: return "rectangle.fill.on.rectangle.fill.circle.fill"
-            case .rectangleFillOnRectangleFillSlashFill: return "rectangle.fill.on.rectangle.fill.slash.fill"
-            case .rectangleGrid1x2: return "rectangle.grid.1x2"
-            case .rectangleGrid1x2Fill: return "rectangle.grid.1x2.fill"
-            case .rectangleGrid2x2: return "rectangle.grid.2x2"
-            case .rectangleGrid2x2Fill: return "rectangle.grid.2x2.fill"
-            case .rectangleGrid3x2: return "rectangle.grid.3x2"
-            case .rectangleGrid3x2Fill: return "rectangle.grid.3x2.fill"
-            case .rectangleInsetBottomleftFill: return "rectangle.inset.bottomleft.fill"
-            case .rectangleInsetBottomrightFill: return "rectangle.inset.bottomright.fill"
-            case .rectangleInsetFill: return "rectangle.inset.fill"
-            case .rectangleInsetTopleftFill: return "rectangle.inset.topleft.fill"
-            case .rectangleInsetToprightFill: return "rectangle.inset.topright.fill"
-            case .rectangleLefthalfFill: return "rectangle.lefthalf.fill"
-            case .rectangleLefthalfInsetFill: return "rectangle.lefthalf.inset.fill"
-            case .rectangleLefthalfInsetFillArrowLeft: return "rectangle.lefthalf.inset.fill.arrow.left"
-            case .rectangleLeftthirdInsetFill: return "rectangle.leftthird.inset.fill"
-            case .rectangleOnRectangle: return "rectangle.on.rectangle"
-            case .rectangleOnRectangleAngled: return "rectangle.on.rectangle.angled"
-            case .rectangleOnRectangleSlash: return "rectangle.on.rectangle.slash"
-            case .rectanglePortrait: return "rectangle.portrait"
-            case .rectanglePortraitArrowtriangle2Inward: return "rectangle.portrait.arrowtriangle.2.inward"
-            case .rectanglePortraitArrowtriangle2Outward: return "rectangle.portrait.arrowtriangle.2.outward"
-            case .rectanglePortraitFill: return "rectangle.portrait.fill"
-            case .rectangleRighthalfFill: return "rectangle.righthalf.fill"
-            case .rectangleRighthalfInsetFill: return "rectangle.righthalf.inset.fill"
-            case .rectangleRighthalfInsetFillArrowRight: return "rectangle.righthalf.inset.fill.arrow.right"
-            case .rectangleRightthirdInsetFill: return "rectangle.rightthird.inset.fill"
-            case .rectangleRoundedbottom: return "rectangle.roundedbottom"
-            case .rectangleRoundedbottomFill: return "rectangle.roundedbottom.fill"
-            case .rectangleRoundedtop: return "rectangle.roundedtop"
-            case .rectangleRoundedtopFill: return "rectangle.roundedtop.fill"
-            case .rectangleSlash: return "rectangle.slash"
-            case .rectangleSlashFill: return "rectangle.slash.fill"
-            case .rectangleSplit1x2: return "rectangle.split.1x2"
-            case .rectangleSplit1x2Fill: return "rectangle.split.1x2.fill"
-            case .rectangleSplit2x1: return "rectangle.split.2x1"
-            case .rectangleSplit2x1Fill: return "rectangle.split.2x1.fill"
-            case .rectangleSplit2x2: return "rectangle.split.2x2"
-            case .rectangleSplit2x2Fill: return "rectangle.split.2x2.fill"
-            case .rectangleSplit3x1: return "rectangle.split.3x1"
-            case .rectangleSplit3x1Fill: return "rectangle.split.3x1.fill"
-            case .rectangleSplit3x3: return "rectangle.split.3x3"
-            case .rectangleSplit3x3Fill: return "rectangle.split.3x3.fill"
-            case .rectangleStack: return "rectangle.stack"
-            case .rectangleStackBadgeMinus: return "rectangle.stack.badge.minus"
-            case .rectangleStackBadgePersonCrop: return "rectangle.stack.badge.person.crop"
-            case .rectangleStackBadgePlus: return "rectangle.stack.badge.plus"
-            case .rectangleStackFill: return "rectangle.stack.fill"
-            case .rectangleStackFillBadgeMinus: return "rectangle.stack.fill.badge.minus"
-            case .rectangleStackFillBadgePersonCrop: return "rectangle.stack.fill.badge.person.crop"
-            case .rectangleStackFillBadgePlus: return "rectangle.stack.fill.badge.plus"
-            case .rectangleStackPersonCrop: return "rectangle.stack.person.crop"
-            case .rectangleStackPersonCropFill: return "rectangle.stack.person.crop.fill"
-            case .`repeat`: return "repeat"
-            case .repeat1: return "repeat.1"
-            case .restart: return "restart"
-            case .restartCircle: return "restart.circle"
-            case .`return`: return "return"
-            case .rhombus: return "rhombus"
-            case .rhombusFill: return "rhombus.fill"
-            case .rosette: return "rosette"
-            case .rotate3d: return "rotate.3d"
-            case .rotateLeft: return "rotate.left"
-            case .rotateLeftFill: return "rotate.left.fill"
-            case .rotateRight: return "rotate.right"
-            case .rotateRightFill: return "rotate.right.fill"
-            case .rtRectangleRoundedtop: return "rt.rectangle.roundedtop"
-            case .rtRectangleRoundedtopFill: return "rt.rectangle.roundedtop.fill"
-            case .rublesignCircle: return "rublesign.circle"
-            case .rublesignCircleFill: return "rublesign.circle.fill"
-            case .rublesignSquare: return "rublesign.square"
-            case .rublesignSquareFill: return "rublesign.square.fill"
-            case .ruler: return "ruler"
-            case .rulerFill: return "ruler.fill"
-            case .rupeesignCircle: return "rupeesign.circle"
-            case .rupeesignCircleFill: return "rupeesign.circle.fill"
-            case .rupeesignSquare: return "rupeesign.square"
-            case .rupeesignSquareFill: return "rupeesign.square.fill"
-            case .sCircle: return "s.circle"
-            case .sCircleFill: return "s.circle.fill"
-            case .sSquare: return "s.square"
-            case .sSquareFill: return "s.square.fill"
-            case .safari: return "safari"
-            case .safariFill: return "safari.fill"
-            case .scale3d: return "scale.3d"
-            case .scalemass: return "scalemass"
-            case .scalemassFill: return "scalemass.fill"
-            case .scanner: return "scanner"
-            case .scannerFill: return "scanner.fill"
-            case .scissors: return "scissors"
-            case .scissorsBadgeEllipsis: return "scissors.badge.ellipsis"
-            case .scope: return "scope"
-            case .scribble: return "scribble"
-            case .scribbleVariable: return "scribble.variable"
-            case .scroll: return "scroll"
-            case .scrollFill: return "scroll.fill"
-            case .sdcard: return "sdcard"
-            case .sdcardFill: return "sdcard.fill"
-            case .seal: return "seal"
-            case .sealFill: return "seal.fill"
-            case .selectionPinInOut: return "selection.pin.in.out"
-            case .serverRack: return "server.rack"
-            case .shadow: return "shadow"
-            case .shekelsignCircle: return "shekelsign.circle"
-            case .shekelsignCircleFill: return "shekelsign.circle.fill"
-            case .shekelsignSquare: return "shekelsign.square"
-            case .shekelsignSquareFill: return "shekelsign.square.fill"
-            case .sheqelsignCircle: return "shekelsign.circle"
-            case .sheqelsignCircleFill: return "shekelsign.circle.fill"
-            case .sheqelsignSquare: return "shekelsign.square"
-            case .sheqelsignSquareFill: return "shekelsign.square.fill"
-            case .shield: return "shield"
-            case .shieldFill: return "shield.fill"
-            case .shieldLefthalfFill: return "shield.lefthalf.fill"
-            case .shieldLefthalfFillSlash: return "shield.lefthalf.fill.slash"
-            case .shieldSlash: return "shield.slash"
-            case .shieldSlashFill: return "shield.slash.fill"
-            case .shift: return "shift"
-            case .shiftFill: return "shift.fill"
-            case .shippingbox: return "shippingbox"
-            case .shippingboxFill: return "shippingbox.fill"
-            case .shuffle: return "shuffle"
-            case .sidebarLeading: return "sidebar.leading"
-            case .sidebarLeft: return "sidebar.left"
-            case .sidebarRight: return "sidebar.right"
-            case .sidebarSquaresLeading: return "sidebar.squares.leading"
-            case .sidebarSquaresLeft: return "sidebar.squares.left"
-            case .sidebarSquaresRight: return "sidebar.squares.right"
-            case .sidebarSquaresTrailing: return "sidebar.squares.trailing"
-            case .sidebarTrailing: return "sidebar.trailing"
-            case .signature: return "signature"
-            case .signpostLeft: return "signpost.left"
-            case .signpostLeftFill: return "signpost.left.fill"
-            case .signpostRight: return "signpost.right"
-            case .signpostRightFill: return "signpost.right.fill"
-            case .simcard: return "simcard"
-            case .simcard2: return "simcard.2"
-            case .simcard2Fill: return "simcard.2.fill"
-            case .simcardFill: return "simcard.fill"
-            case .skew: return "skew"
-            case .slashCircle: return "slash.circle"
-            case .slashCircleFill: return "slash.circle.fill"
-            case .sleep: return "sleep"
-            case .sliderHorizontal3: return "slider.horizontal.3"
-            case .sliderHorizontalBelowRectangle: return "slider.horizontal.below.rectangle"
-            case .sliderHorizontalBelowSquareFillAndSquare: return "slider.horizontal.below.square.fill.and.square"
-            case .sliderVertical3: return "slider.vertical.3"
-            case .slowmo: return "slowmo"
-            case .smallcircleCircle: return "smallcircle.circle"
-            case .smallcircleCircleFill: return "smallcircle.circle.fill"
-            case .smallcircleFillCircle: return "smallcircle.fill.circle"
-            case .smallcircleFillCircleFill: return "smallcircle.fill.circle.fill"
-            case .smiley: return "face.smiling"
-            case .smileyFill: return "face.smiling.fill"
-            case .smoke: return "smoke"
-            case .smokeFill: return "smoke.fill"
-            case .snow: return "snow"
-            case .sparkle: return "sparkle"
-            case .sparkles: return "sparkles"
-            case .sparklesRectangleStack: return "sparkles.rectangle.stack"
-            case .sparklesRectangleStackFill: return "sparkles.rectangle.stack.fill"
-            case .sparklesSquareFillOnSquare: return "sparkles.square.fill.on.square"
-            case .speaker: return "speaker"
-            case .speaker1: return "speaker.wave.1"
-            case .speaker1Fill: return "speaker.wave.1.fill"
-            case .speaker2: return "speaker.wave.2"
-            case .speaker2Fill: return "speaker.wave.2.fill"
-            case .speaker3: return "speaker.wave.3"
-            case .speaker3Fill: return "speaker.wave.3.fill"
-            case .speakerFill: return "speaker.fill"
-            case .speakerSlash: return "speaker.slash"
-            case .speakerSlashCircle: return "speaker.slash.circle"
-            case .speakerSlashCircleFill: return "speaker.slash.circle.fill"
-            case .speakerSlashFill: return "speaker.slash.fill"
-            case .speakerWave1: return "speaker.wave.1"
-            case .speakerWave1Fill: return "speaker.wave.1.fill"
-            case .speakerWave2: return "speaker.wave.2"
-            case .speakerWave2Circle: return "speaker.wave.2.circle"
-            case .speakerWave2CircleFill: return "speaker.wave.2.circle.fill"
-            case .speakerWave2Fill: return "speaker.wave.2.fill"
-            case .speakerWave3: return "speaker.wave.3"
-            case .speakerWave3Fill: return "speaker.wave.3.fill"
-            case .speakerZzz: return "speaker.zzz"
-            case .speakerZzzFill: return "speaker.zzz.fill"
-            case .speedometer: return "speedometer"
-            case .sportscourt: return "sportscourt"
-            case .sportscourtFill: return "sportscourt.fill"
-            case .square: return "square"
-            case .square2Stack3d: return "square.2.stack.3d"
-            case .square2Stack3dBottomFill: return "square.2.stack.3d.bottom.fill"
-            case .square2Stack3dTopFill: return "square.2.stack.3d.top.fill"
-            case .square3Stack3d: return "square.3.stack.3d"
-            case .square3Stack3dBottomFill: return "square.3.stack.3d.bottom.fill"
-            case .square3Stack3dMiddleFill: return "square.3.stack.3d.middle.fill"
-            case .square3Stack3dTopFill: return "square.3.stack.3d.top.fill"
-            case .squareAndArrowDown: return "square.and.arrow.down"
-            case .squareAndArrowDownFill: return "square.and.arrow.down.fill"
-            case .squareAndArrowDownOnSquare: return "square.and.arrow.down.on.square"
-            case .squareAndArrowDownOnSquareFill: return "square.and.arrow.down.on.square.fill"
-            case .squareAndArrowUp: return "square.and.arrow.up"
-            case .squareAndArrowUpFill: return "square.and.arrow.up.fill"
-            case .squareAndArrowUpOnSquare: return "square.and.arrow.up.on.square"
-            case .squareAndArrowUpOnSquareFill: return "square.and.arrow.up.on.square.fill"
-            case .squareAndAtRectangle: return "square.and.at.rectangle"
-            case .squareAndLineVerticalAndSquare: return "square.and.line.vertical.and.square"
-            case .squareAndLineVerticalAndSquareFill: return "square.and.line.vertical.and.square.fill"
-            case .squareAndPencil: return "square.and.pencil"
-            case .squareBottomhalfFill: return "square.bottomhalf.fill"
-            case .squareCircle: return "square.circle"
-            case .squareCircleFill: return "square.circle.fill"
-            case .squareDashed: return "square.dashed"
-            case .squareDashedInsetFill: return "square.dashed.inset.fill"
-            case .squareFill: return "square.fill"
-            case .squareFillAndLineVerticalAndSquare: return "square.fill.and.line.vertical.and.square"
-            case .squareFillAndLineVerticalSquareFill: return "square.fill.and.line.vertical.square.fill"
-            case .squareFillOnCircleFill: return "square.fill.on.circle.fill"
-            case .squareFillOnSquare: return "square.fill.on.square"
-            case .squareFillOnSquareFill: return "square.fill.on.square.fill"
-            case .squareFillTextGrid1x2: return "square.fill.text.grid.1x2"
-            case .squareGrid2x2: return "square.grid.2x2"
-            case .squareGrid2x2Fill: return "square.grid.2x2.fill"
-            case .squareGrid3x1BelowLineGrid1x2: return "square.grid.3x1.below.line.grid.1x2"
-            case .squareGrid3x1FillBelowLineGrid1x2: return "square.grid.3x1.fill.below.line.grid.1x2"
-            case .squareGrid3x1FolderBadgePlus: return "square.grid.3x1.folder.badge.plus"
-            case .squareGrid3x1FolderFillBadgePlus: return "square.grid.3x1.folder.fill.badge.plus"
-            case .squareGrid3x2: return "square.grid.3x2"
-            case .squareGrid3x2Fill: return "square.grid.3x2.fill"
-            case .squareGrid3x3: return "square.grid.3x3"
-            case .squareGrid3x3BottomleftFill: return "square.grid.3x3.bottomleft.fill"
-            case .squareGrid3x3BottommiddleFill: return "square.grid.3x3.bottommiddle.fill"
-            case .squareGrid3x3BottomrightFill: return "square.grid.3x3.bottomright.fill"
-            case .squareGrid3x3Fill: return "square.grid.3x3.fill"
-            case .squareGrid3x3FillSquare: return "square.grid.3x3.fill.square"
-            case .squareGrid3x3MiddleFill: return "square.grid.3x3.middle.fill"
-            case .squareGrid3x3MiddleleftFill: return "square.grid.3x3.middleleft.fill"
-            case .squareGrid3x3MiddlerightFill: return "square.grid.3x3.middleright.fill"
-            case .squareGrid3x3TopleftFill: return "square.grid.3x3.topleft.fill"
-            case .squareGrid3x3TopmiddleFill: return "square.grid.3x3.topmiddle.fill"
-            case .squareGrid3x3ToprightFill: return "square.grid.3x3.topright.fill"
-            case .squareGrid4x3Fill: return "square.grid.4x3.fill"
-            case .squareLefthalfFill: return "square.lefthalf.fill"
-            case .squareOnCircle: return "square.on.circle"
-            case .squareOnSquare: return "square.on.square"
-            case .squareOnSquareDashed: return "square.on.square.dashed"
-            case .squareOnSquareSquareshapeControlhandles: return "square.on.square.squareshape.controlhandles"
-            case .squareRighthalfFill: return "square.righthalf.fill"
-            case .squareSlash: return "square.slash"
-            case .squareSlashFill: return "square.slash.fill"
-            case .squareSplit1x2: return "square.split.1x2"
-            case .squareSplit1x2Fill: return "square.split.1x2.fill"
-            case .squareSplit2x1: return "square.split.2x1"
-            case .squareSplit2x1Fill: return "square.split.2x1.fill"
-            case .squareSplit2x2: return "square.split.2x2"
-            case .squareSplit2x2Fill: return "square.split.2x2.fill"
-            case .squareSplitBottomrightquarter: return "square.split.bottomrightquarter"
-            case .squareSplitBottomrightquarterFill: return "square.split.bottomrightquarter.fill"
-            case .squareSplitDiagonal: return "square.split.diagonal"
-            case .squareSplitDiagonal2x2: return "square.split.diagonal.2x2"
-            case .squareSplitDiagonal2x2Fill: return "square.split.diagonal.2x2.fill"
-            case .squareSplitDiagonalFill: return "square.split.diagonal.fill"
-            case .squareStack: return "square.stack"
-            case .squareStack3dDownDottedline: return "square.stack.3d.forward.dottedline"
-            case .squareStack3dDownForward: return "square.stack.3d.down.forward"
-            case .squareStack3dDownForwardFill: return "square.stack.3d.down.forward.fill"
-            case .squareStack3dDownRight: return "square.stack.3d.down.right"
-            case .squareStack3dDownRightFill: return "square.stack.3d.down.right.fill"
-            case .squareStack3dForwardDottedline: return "square.stack.3d.forward.dottedline"
-            case .squareStack3dForwardDottedlineFill: return "square.stack.3d.forward.dottedline.fill"
-            case .squareStack3dUp: return "square.stack.3d.up"
-            case .squareStack3dUpBadgeA: return "square.stack.3d.up.badge.a"
-            case .squareStack3dUpBadgeAFill: return "square.stack.3d.up.badge.a.fill"
-            case .squareStack3dUpFill: return "square.stack.3d.up.fill"
-            case .squareStack3dUpSlash: return "square.stack.3d.up.slash"
-            case .squareStack3dUpSlashFill: return "square.stack.3d.up.slash.fill"
-            case .squareStackFill: return "square.stack.fill"
-            case .squareTophalfFill: return "square.tophalf.fill"
-            case .squaresBelowRectangle: return "squares.below.rectangle"
-            case .squareshape: return "squareshape"
-            case .squareshapeControlhandlesOnSquareshapeControlhandles: return "squareshape.controlhandles.on.squareshape.controlhandles"
-            case .squareshapeDashedSquareshape: return "squareshape.dashed.squareshape"
-            case .squareshapeFill: return "squareshape.fill"
-            case .squareshapeSplit2x2: return "squareshape.split.2x2"
-            case .squareshapeSplit2x2Dotted: return "squareshape.split.2x2.dotted"
-            case .squareshapeSplit3x3: return "squareshape.split.3x3"
-            case .squareshapeSquareshapeDashed: return "squareshape.squareshape.dashed"
-            case .star: return "star"
-            case .starCircle: return "star.circle"
-            case .starCircleFill: return "star.circle.fill"
-            case .starFill: return "star.fill"
-            case .starLeadinghalfFill: return "star.leadinghalf.fill"
-            case .starLefthalfFill: return "star.leadinghalf.fill"
-            case .starSlash: return "star.slash"
-            case .starSlashFill: return "star.slash.fill"
-            case .starSquare: return "star.square"
-            case .starSquareFill: return "star.square.fill"
-            case .staroflife: return "staroflife"
-            case .staroflifeCircle: return "staroflife.circle"
-            case .staroflifeCircleFill: return "staroflife.circle.fill"
-            case .staroflifeFill: return "staroflife.fill"
-            case .sterlingsignCircle: return "sterlingsign.circle"
-            case .sterlingsignCircleFill: return "sterlingsign.circle.fill"
-            case .sterlingsignSquare: return "sterlingsign.square"
-            case .sterlingsignSquareFill: return "sterlingsign.square.fill"
-            case .stethoscope: return "stethoscope"
-            case .stop: return "stop"
-            case .stopCircle: return "stop.circle"
-            case .stopCircleFill: return "stop.circle.fill"
-            case .stopFill: return "stop.fill"
-            case .stopwatch: return "stopwatch"
-            case .stopwatchFill: return "stopwatch.fill"
-            case .strikethrough: return "strikethrough"
-            case .studentdesk: return "studentdesk"
-            case .suitClub: return "suit.club"
-            case .suitClubFill: return "suit.club.fill"
-            case .suitDiamond: return "suit.diamond"
-            case .suitDiamondFill: return "suit.diamond.fill"
-            case .suitHeart: return "suit.heart"
-            case .suitHeartFill: return "suit.heart.fill"
-            case .suitSpade: return "suit.spade"
-            case .suitSpadeFill: return "suit.spade.fill"
-            case .sum: return "sum"
-            case .sunDust: return "sun.dust"
-            case .sunDustFill: return "sun.dust.fill"
-            case .sunHaze: return "sun.haze"
-            case .sunHazeFill: return "sun.haze.fill"
-            case .sunMax: return "sun.max"
-            case .sunMaxFill: return "sun.max.fill"
-            case .sunMin: return "sun.min"
-            case .sunMinFill: return "sun.min.fill"
-            case .sunrise: return "sunrise"
-            case .sunriseFill: return "sunrise.fill"
-            case .sunset: return "sunset"
-            case .sunsetFill: return "sunset.fill"
-            case .swift: return "swift"
-            case .switch2: return "switch.2"
-            case .tBubble: return "t.bubble"
-            case .tBubbleFill: return "t.bubble.fill"
-            case .tCircle: return "t.circle"
-            case .tCircleFill: return "t.circle.fill"
-            case .tSquare: return "t.square"
-            case .tSquareFill: return "t.square.fill"
-            case .table: return "tablecells"
-            case .tableBadgeMore: return "tablecells.badge.ellipsis"
-            case .tableBadgeMoreFill: return "tablecells.badge.ellipsis.fill"
-            case .tableFill: return "tablecells.fill"
-            case .tablecells: return "tablecells"
-            case .tablecellsBadgeEllipsis: return "tablecells.badge.ellipsis"
-            case .tablecellsBadgeEllipsisFill: return "tablecells.badge.ellipsis.fill"
-            case .tablecellsFill: return "tablecells.fill"
-            case .tag: return "tag"
-            case .tagCircle: return "tag.circle"
-            case .tagCircleFill: return "tag.circle.fill"
-            case .tagFill: return "tag.fill"
-            case .tagSlash: return "tag.slash"
-            case .tagSlashFill: return "tag.slash.fill"
-            case .target: return "target"
-            case .teletype: return "teletype"
-            case .teletypeAnswer: return "teletype.answer"
-            case .teletypeCircle: return "teletype.circle"
-            case .teletypeCircleFill: return "teletype.circle.fill"
-            case .tengesignCircle: return "tengesign.circle"
-            case .tengesignCircleFill: return "tengesign.circle.fill"
-            case .tengesignSquare: return "tengesign.square"
-            case .tengesignSquareFill: return "tengesign.square.fill"
-            case .terminal: return "terminal"
-            case .terminalFill: return "terminal.fill"
-            case .textAligncenter: return "text.aligncenter"
-            case .textAlignleft: return "text.alignleft"
-            case .textAlignright: return "text.alignright"
-            case .textAndCommandMacwindow: return "text.and.command.macwindow"
-            case .textAppend: return "text.append"
-            case .textBadgeCheckmark: return "text.badge.checkmark"
-            case .textBadgeMinus: return "text.badge.minus"
-            case .textBadgePlus: return "text.badge.plus"
-            case .textBadgeStar: return "text.badge.star"
-            case .textBadgeXmark: return "text.badge.xmark"
-            case .textBelowPhoto: return "text.below.photo"
-            case .textBelowPhotoFill: return "text.below.photo.fill"
-            case .textBookClosed: return "text.book.closed"
-            case .textBookClosedFill: return "text.book.closed.fill"
-            case .textBubble: return "text.bubble"
-            case .textBubbleFill: return "text.bubble.fill"
-            case .textCursor: return "text.cursor"
-            case .textInsert: return "text.insert"
-            case .textJustify: return "text.justify"
-            case .textJustifyleft: return "text.justifyleft"
-            case .textJustifyright: return "text.justifyright"
-            case .textMagnifyingglass: return "text.magnifyingglass"
-            case .textQuote: return "text.quote"
-            case .textRedaction: return "text.redaction"
-            case .textbox: return "textbox"
-            case .textformat: return "textformat"
-            case .textformat123: return "textformat.123"
-            case .textformatAbc: return "textformat.abc"
-            case .textformatAbcDottedunderline: return "textformat.abc.dottedunderline"
-            case .textformatAlt: return "textformat.alt"
-            case .textformatSize: return "textformat.size"
-            case .textformatSubscript: return "textformat.subscript"
-            case .textformatSuperscript: return "textformat.superscript"
-            case .thermometer: return "thermometer"
-            case .thermometerSnowflake: return "thermometer.snowflake"
-            case .thermometerSun: return "thermometer.sun"
-            case .thermometerSunFill: return "thermometer.sun.fill"
-            case .ticket: return "ticket"
-            case .ticketFill: return "ticket.fill"
-            case .timelapse: return "timelapse"
-            case .timelineSelection: return "timeline.selection"
-            case .timer: return "timer"
-            case .timerSquare: return "timer.square"
-            case .togglepower: return "togglepower"
-            case .tornado: return "tornado"
-            case .tortoise: return "tortoise"
-            case .tortoiseFill: return "tortoise.fill"
-            case .touchid: return "touchid"
-            case .tram: return "tram"
-            case .tramCircle: return "tram.circle"
-            case .tramCircleFill: return "tram.circle.fill"
-            case .tramFill: return "tram.fill"
-            case .tramTunnelFill: return "tram.tunnel.fill"
-            case .trash: return "trash"
-            case .trashCircle: return "trash.circle"
-            case .trashCircleFill: return "trash.circle.fill"
-            case .trashFill: return "trash.fill"
-            case .trashSlash: return "trash.slash"
-            case .trashSlashFill: return "trash.slash.fill"
-            case .tray: return "tray"
-            case .tray2: return "tray.2"
-            case .tray2Fill: return "tray.2.fill"
-            case .trayAndArrowDown: return "tray.and.arrow.down"
-            case .trayAndArrowDownFill: return "tray.and.arrow.down.fill"
-            case .trayAndArrowUp: return "tray.and.arrow.up"
-            case .trayAndArrowUpFill: return "tray.and.arrow.up.fill"
-            case .trayCircle: return "tray.circle"
-            case .trayCircleFill: return "tray.circle.fill"
-            case .trayFill: return "tray.fill"
-            case .trayFull: return "tray.full"
-            case .trayFullFill: return "tray.full.fill"
-            case .triangle: return "triangle"
-            case .triangleCircle: return "triangle.circle"
-            case .triangleCircleFill: return "triangle.circle.fill"
-            case .triangleFill: return "triangle.fill"
-            case .triangleLefthalfFill: return "triangle.lefthalf.fill"
-            case .triangleRighthalfFill: return "triangle.righthalf.fill"
-            case .tropicalstorm: return "tropicalstorm"
-            case .tugriksignCircle: return "tugriksign.circle"
-            case .tugriksignCircleFill: return "tugriksign.circle.fill"
-            case .tugriksignSquare: return "tugriksign.square"
-            case .tugriksignSquareFill: return "tugriksign.square.fill"
-            case .tuningfork: return "tuningfork"
-            case .turkishlirasignCircle: return "turkishlirasign.circle"
-            case .turkishlirasignCircleFill: return "turkishlirasign.circle.fill"
-            case .turkishlirasignSquare: return "turkishlirasign.square"
-            case .turkishlirasignSquareFill: return "turkishlirasign.square.fill"
-            case .tv: return "tv"
-            case .tvAndHifispeakerFill: return "tv.and.hifispeaker.fill"
-            case .tvCircle: return "tv.circle"
-            case .tvCircleFill: return "tv.circle.fill"
-            case .tvFill: return "tv.fill"
-            case .tvMusicNote: return "tv.music.note"
-            case .tvMusicNoteFill: return "tv.music.note.fill"
-            case .uCircle: return "u.circle"
-            case .uCircleFill: return "u.circle.fill"
-            case .uSquare: return "u.square"
-            case .uSquareFill: return "u.square.fill"
-            case .uiwindowSplit2x1: return "uiwindow.split.2x1"
-            case .umbrella: return "umbrella"
-            case .umbrellaFill: return "umbrella.fill"
-            case .underline: return "underline"
-            case .vCircle: return "v.circle"
-            case .vCircleFill: return "v.circle.fill"
-            case .vSquare: return "v.square"
-            case .vSquareFill: return "v.square.fill"
-            case .video: return "video"
-            case .videoBadgeCheckmark: return "video.badge.checkmark"
-            case .videoBadgePlus: return "video.badge.plus"
-            case .videoBadgePlusFill: return "video.fill.badge.plus"
-            case .videoBubbleLeft: return "video.bubble.left"
-            case .videoBubbleLeftFill: return "video.bubble.left.fill"
-            case .videoCircle: return "video.circle"
-            case .videoCircleFill: return "video.circle.fill"
-            case .videoFill: return "video.fill"
-            case .videoFillBadgeCheckmark: return "video.fill.badge.checkmark"
-            case .videoFillBadgePlus: return "video.fill.badge.plus"
-            case .videoSlash: return "video.slash"
-            case .videoSlashFill: return "video.slash.fill"
-            case .view2d: return "view.2d"
-            case .view3d: return "view.3d"
-            case .viewfinder: return "viewfinder"
-            case .viewfinderCircle: return "viewfinder.circle"
-            case .viewfinderCircleFill: return "viewfinder.circle.fill"
-            case .wCircle: return "w.circle"
-            case .wCircleFill: return "w.circle.fill"
-            case .wSquare: return "w.square"
-            case .wSquareFill: return "w.square.fill"
-            case .wake: return "wake"
-            case .walletPass: return "wallet.pass"
-            case .walletPassFill: return "wallet.pass.fill"
-            case .wandAndRays: return "wand.and.rays"
-            case .wandAndRaysInverse: return "wand.and.rays.inverse"
-            case .wandAndStars: return "wand.and.stars"
-            case .wandAndStarsInverse: return "wand.and.stars.inverse"
-            case .wave3Backward: return "wave.3.backward"
-            case .wave3BackwardCircle: return "wave.3.backward.circle"
-            case .wave3BackwardCircleFill: return "wave.3.backward.circle.fill"
-            case .wave3Forward: return "wave.3.forward"
-            case .wave3ForwardCircle: return "wave.3.forward.circle"
-            case .wave3ForwardCircleFill: return "wave.3.forward.circle.fill"
-            case .wave3Left: return "wave.3.left"
-            case .wave3LeftCircle: return "wave.3.left.circle"
-            case .wave3LeftCircleFill: return "wave.3.left.circle.fill"
-            case .wave3Right: return "wave.3.right"
-            case .wave3RightCircle: return "wave.3.right.circle"
-            case .wave3RightCircleFill: return "wave.3.right.circle.fill"
-            case .waveform: return "waveform"
-            case .waveformCircle: return "waveform.circle"
-            case .waveformCircleFill: return "waveform.circle.fill"
-            case .waveformPath: return "waveform.path"
-            case .waveformPathBadgeMinus: return "waveform.path.badge.minus"
-            case .waveformPathBadgePlus: return "waveform.path.badge.plus"
-            case .waveformPathEcg: return "waveform.path.ecg"
-            case .waveformPathEcgRectangle: return "waveform.path.ecg.rectangle"
-            case .waveformPathEcgRectangleFill: return "waveform.path.ecg.rectangle.fill"
-            case .wifi: return "wifi"
-            case .wifiExclamationmark: return "wifi.exclamationmark"
-            case .wifiSlash: return "wifi.slash"
-            case .wind: return "wind"
-            case .windSnow: return "wind.snow"
-            case .wonsignCircle: return "wonsign.circle"
-            case .wonsignCircleFill: return "wonsign.circle.fill"
-            case .wonsignSquare: return "wonsign.square"
-            case .wonsignSquareFill: return "wonsign.square.fill"
-            case .wrench: return "wrench"
-            case .wrenchAndScrewdriver: return "wrench.and.screwdriver"
-            case .wrenchAndScrewdriverFill: return "wrench.and.screwdriver.fill"
-            case .wrenchFill: return "wrench.fill"
-            case .xCircle: return "x.circle"
-            case .xCircleFill: return "x.circle.fill"
-            case .xSquare: return "x.square"
-            case .xSquareFill: return "x.square.fill"
-            case .xSquareroot: return "x.squareroot"
-            case .xmark: return "xmark"
-            case .xmarkBin: return "xmark.bin"
-            case .xmarkBinCircle: return "xmark.bin.circle"
-            case .xmarkBinCircleFill: return "xmark.bin.circle.fill"
-            case .xmarkBinFill: return "xmark.bin.fill"
-            case .xmarkCircle: return "xmark.circle"
-            case .xmarkCircleFill: return "xmark.circle.fill"
-            case .xmarkDiamond: return "xmark.diamond"
-            case .xmarkDiamondFill: return "xmark.diamond.fill"
-            case .xmarkIcloud: return "xmark.icloud"
-            case .xmarkIcloudFill: return "xmark.icloud.fill"
-            case .xmarkOctagon: return "xmark.octagon"
-            case .xmarkOctagonFill: return "xmark.octagon.fill"
-            case .xmarkRectangle: return "xmark.rectangle"
-            case .xmarkRectangleFill: return "xmark.rectangle.fill"
-            case .xmarkRectanglePortrait: return "xmark.rectangle.portrait"
-            case .xmarkRectanglePortraitFill: return "xmark.rectangle.portrait.fill"
-            case .xmarkSeal: return "xmark.seal"
-            case .xmarkSealFill: return "xmark.seal.fill"
-            case .xmarkShield: return "xmark.shield"
-            case .xmarkShieldFill: return "xmark.shield.fill"
-            case .xmarkSquare: return "xmark.square"
-            case .xmarkSquareFill: return "xmark.square.fill"
-            case .xserve: return "xserve"
-            case .yCircle: return "y.circle"
-            case .yCircleFill: return "y.circle.fill"
-            case .ySquare: return "y.square"
-            case .ySquareFill: return "y.square.fill"
-            case .yensignCircle: return "yensign.circle"
-            case .yensignCircleFill: return "yensign.circle.fill"
-            case .yensignSquare: return "yensign.square"
-            case .yensignSquareFill: return "yensign.square.fill"
-            case .zCircle: return "z.circle"
-            case .zCircleFill: return "z.circle.fill"
-            case .zSquare: return "z.square"
-            case .zSquareFill: return "z.square.fill"
-            case .zlRectangleRoundedtop: return "zl.rectangle.roundedtop"
-            case .zlRectangleRoundedtopFill: return "zl.rectangle.roundedtop.fill"
-            case .zrRectangleRoundedtop: return "zr.rectangle.roundedtop"
-            case .zrRectangleRoundedtopFill: return "zr.rectangle.roundedtop.fill"
-            case .zzz: return "zzz"
-            default: fatalError() // While this triggers a compiler warning, without this, the compiler would fail
-            }
-        } else {
-            switch self {
-            case ._0Circle: return "0.circle"
-            case ._0CircleFill: return "0.circle.fill"
-            case ._0Square: return "0.square"
-            case ._0SquareFill: return "0.square.fill"
-            case ._00Circle: return "00.circle"
-            case ._00CircleFill: return "00.circle.fill"
-            case ._00Square: return "00.square"
-            case ._00SquareFill: return "00.square.fill"
-            case ._01Circle: return "01.circle"
-            case ._01CircleFill: return "01.circle.fill"
-            case ._01Square: return "01.square"
-            case ._01SquareFill: return "01.square.fill"
-            case ._02Circle: return "02.circle"
-            case ._02CircleFill: return "02.circle.fill"
-            case ._02Square: return "02.square"
-            case ._02SquareFill: return "02.square.fill"
-            case ._03Circle: return "03.circle"
-            case ._03CircleFill: return "03.circle.fill"
-            case ._03Square: return "03.square"
-            case ._03SquareFill: return "03.square.fill"
-            case ._04Circle: return "04.circle"
-            case ._04CircleFill: return "04.circle.fill"
-            case ._04Square: return "04.square"
-            case ._04SquareFill: return "04.square.fill"
-            case ._05Circle: return "05.circle"
-            case ._05CircleFill: return "05.circle.fill"
-            case ._05Square: return "05.square"
-            case ._05SquareFill: return "05.square.fill"
-            case ._06Circle: return "06.circle"
-            case ._06CircleFill: return "06.circle.fill"
-            case ._06Square: return "06.square"
-            case ._06SquareFill: return "06.square.fill"
-            case ._07Circle: return "07.circle"
-            case ._07CircleFill: return "07.circle.fill"
-            case ._07Square: return "07.square"
-            case ._07SquareFill: return "07.square.fill"
-            case ._08Circle: return "08.circle"
-            case ._08CircleFill: return "08.circle.fill"
-            case ._08Square: return "08.square"
-            case ._08SquareFill: return "08.square.fill"
-            case ._09Circle: return "09.circle"
-            case ._09CircleFill: return "09.circle.fill"
-            case ._09Square: return "09.square"
-            case ._09SquareFill: return "09.square.fill"
-            case ._1Circle: return "1.circle"
-            case ._1CircleFill: return "1.circle.fill"
-            case ._1Magnifyingglass: return "1.magnifyingglass"
-            case ._1Square: return "1.square"
-            case ._1SquareFill: return "1.square.fill"
-            case ._10Circle: return "10.circle"
-            case ._10CircleFill: return "10.circle.fill"
-            case ._10Square: return "10.square"
-            case ._10SquareFill: return "10.square.fill"
-            case ._11Circle: return "11.circle"
-            case ._11CircleFill: return "11.circle.fill"
-            case ._11Square: return "11.square"
-            case ._11SquareFill: return "11.square.fill"
-            case ._12Circle: return "12.circle"
-            case ._12CircleFill: return "12.circle.fill"
-            case ._12Square: return "12.square"
-            case ._12SquareFill: return "12.square.fill"
-            case ._13Circle: return "13.circle"
-            case ._13CircleFill: return "13.circle.fill"
-            case ._13Square: return "13.square"
-            case ._13SquareFill: return "13.square.fill"
-            case ._14Circle: return "14.circle"
-            case ._14CircleFill: return "14.circle.fill"
-            case ._14Square: return "14.square"
-            case ._14SquareFill: return "14.square.fill"
-            case ._15Circle: return "15.circle"
-            case ._15CircleFill: return "15.circle.fill"
-            case ._15Square: return "15.square"
-            case ._15SquareFill: return "15.square.fill"
-            case ._16Circle: return "16.circle"
-            case ._16CircleFill: return "16.circle.fill"
-            case ._16Square: return "16.square"
-            case ._16SquareFill: return "16.square.fill"
-            case ._17Circle: return "17.circle"
-            case ._17CircleFill: return "17.circle.fill"
-            case ._17Square: return "17.square"
-            case ._17SquareFill: return "17.square.fill"
-            case ._18Circle: return "18.circle"
-            case ._18CircleFill: return "18.circle.fill"
-            case ._18Square: return "18.square"
-            case ._18SquareFill: return "18.square.fill"
-            case ._19Circle: return "19.circle"
-            case ._19CircleFill: return "19.circle.fill"
-            case ._19Square: return "19.square"
-            case ._19SquareFill: return "19.square.fill"
-            case ._2Circle: return "2.circle"
-            case ._2CircleFill: return "2.circle.fill"
-            case ._2Square: return "2.square"
-            case ._2SquareFill: return "2.square.fill"
-            case ._20Circle: return "20.circle"
-            case ._20CircleFill: return "20.circle.fill"
-            case ._20Square: return "20.square"
-            case ._20SquareFill: return "20.square.fill"
-            case ._21Circle: return "21.circle"
-            case ._21CircleFill: return "21.circle.fill"
-            case ._21Square: return "21.square"
-            case ._21SquareFill: return "21.square.fill"
-            case ._22Circle: return "22.circle"
-            case ._22CircleFill: return "22.circle.fill"
-            case ._22Square: return "22.square"
-            case ._22SquareFill: return "22.square.fill"
-            case ._23Circle: return "23.circle"
-            case ._23CircleFill: return "23.circle.fill"
-            case ._23Square: return "23.square"
-            case ._23SquareFill: return "23.square.fill"
-            case ._24Circle: return "24.circle"
-            case ._24CircleFill: return "24.circle.fill"
-            case ._24Square: return "24.square"
-            case ._24SquareFill: return "24.square.fill"
-            case ._25Circle: return "25.circle"
-            case ._25CircleFill: return "25.circle.fill"
-            case ._25Square: return "25.square"
-            case ._25SquareFill: return "25.square.fill"
-            case ._26Circle: return "26.circle"
-            case ._26CircleFill: return "26.circle.fill"
-            case ._26Square: return "26.square"
-            case ._26SquareFill: return "26.square.fill"
-            case ._27Circle: return "27.circle"
-            case ._27CircleFill: return "27.circle.fill"
-            case ._27Square: return "27.square"
-            case ._27SquareFill: return "27.square.fill"
-            case ._28Circle: return "28.circle"
-            case ._28CircleFill: return "28.circle.fill"
-            case ._28Square: return "28.square"
-            case ._28SquareFill: return "28.square.fill"
-            case ._29Circle: return "29.circle"
-            case ._29CircleFill: return "29.circle.fill"
-            case ._29Square: return "29.square"
-            case ._29SquareFill: return "29.square.fill"
-            case ._3Circle: return "3.circle"
-            case ._3CircleFill: return "3.circle.fill"
-            case ._3Square: return "3.square"
-            case ._3SquareFill: return "3.square.fill"
-            case ._30Circle: return "30.circle"
-            case ._30CircleFill: return "30.circle.fill"
-            case ._30Square: return "30.square"
-            case ._30SquareFill: return "30.square.fill"
-            case ._31Circle: return "31.circle"
-            case ._31CircleFill: return "31.circle.fill"
-            case ._31Square: return "31.square"
-            case ._31SquareFill: return "31.square.fill"
-            case ._32Circle: return "32.circle"
-            case ._32CircleFill: return "32.circle.fill"
-            case ._32Square: return "32.square"
-            case ._32SquareFill: return "32.square.fill"
-            case ._33Circle: return "33.circle"
-            case ._33CircleFill: return "33.circle.fill"
-            case ._33Square: return "33.square"
-            case ._33SquareFill: return "33.square.fill"
-            case ._34Circle: return "34.circle"
-            case ._34CircleFill: return "34.circle.fill"
-            case ._34Square: return "34.square"
-            case ._34SquareFill: return "34.square.fill"
-            case ._35Circle: return "35.circle"
-            case ._35CircleFill: return "35.circle.fill"
-            case ._35Square: return "35.square"
-            case ._35SquareFill: return "35.square.fill"
-            case ._36Circle: return "36.circle"
-            case ._36CircleFill: return "36.circle.fill"
-            case ._36Square: return "36.square"
-            case ._36SquareFill: return "36.square.fill"
-            case ._37Circle: return "37.circle"
-            case ._37CircleFill: return "37.circle.fill"
-            case ._37Square: return "37.square"
-            case ._37SquareFill: return "37.square.fill"
-            case ._38Circle: return "38.circle"
-            case ._38CircleFill: return "38.circle.fill"
-            case ._38Square: return "38.square"
-            case ._38SquareFill: return "38.square.fill"
-            case ._39Circle: return "39.circle"
-            case ._39CircleFill: return "39.circle.fill"
-            case ._39Square: return "39.square"
-            case ._39SquareFill: return "39.square.fill"
-            case ._4AltCircle: return "4.alt.circle"
-            case ._4AltCircleFill: return "4.alt.circle.fill"
-            case ._4AltSquare: return "4.alt.square"
-            case ._4AltSquareFill: return "4.alt.square.fill"
-            case ._4Circle: return "4.circle"
-            case ._4CircleFill: return "4.circle.fill"
-            case ._4Square: return "4.square"
-            case ._4SquareFill: return "4.square.fill"
-            case ._40Circle: return "40.circle"
-            case ._40CircleFill: return "40.circle.fill"
-            case ._40Square: return "40.square"
-            case ._40SquareFill: return "40.square.fill"
-            case ._41Circle: return "41.circle"
-            case ._41CircleFill: return "41.circle.fill"
-            case ._41Square: return "41.square"
-            case ._41SquareFill: return "41.square.fill"
-            case ._42Circle: return "42.circle"
-            case ._42CircleFill: return "42.circle.fill"
-            case ._42Square: return "42.square"
-            case ._42SquareFill: return "42.square.fill"
-            case ._43Circle: return "43.circle"
-            case ._43CircleFill: return "43.circle.fill"
-            case ._43Square: return "43.square"
-            case ._43SquareFill: return "43.square.fill"
-            case ._44Circle: return "44.circle"
-            case ._44CircleFill: return "44.circle.fill"
-            case ._44Square: return "44.square"
-            case ._44SquareFill: return "44.square.fill"
-            case ._45Circle: return "45.circle"
-            case ._45CircleFill: return "45.circle.fill"
-            case ._45Square: return "45.square"
-            case ._45SquareFill: return "45.square.fill"
-            case ._46Circle: return "46.circle"
-            case ._46CircleFill: return "46.circle.fill"
-            case ._46Square: return "46.square"
-            case ._46SquareFill: return "46.square.fill"
-            case ._47Circle: return "47.circle"
-            case ._47CircleFill: return "47.circle.fill"
-            case ._47Square: return "47.square"
-            case ._47SquareFill: return "47.square.fill"
-            case ._48Circle: return "48.circle"
-            case ._48CircleFill: return "48.circle.fill"
-            case ._48Square: return "48.square"
-            case ._48SquareFill: return "48.square.fill"
-            case ._49Circle: return "49.circle"
-            case ._49CircleFill: return "49.circle.fill"
-            case ._49Square: return "49.square"
-            case ._49SquareFill: return "49.square.fill"
-            case ._5Circle: return "5.circle"
-            case ._5CircleFill: return "5.circle.fill"
-            case ._5Square: return "5.square"
-            case ._5SquareFill: return "5.square.fill"
-            case ._50Circle: return "50.circle"
-            case ._50CircleFill: return "50.circle.fill"
-            case ._50Square: return "50.square"
-            case ._50SquareFill: return "50.square.fill"
-            case ._6AltCircle: return "6.alt.circle"
-            case ._6AltCircleFill: return "6.alt.circle.fill"
-            case ._6AltSquare: return "6.alt.square"
-            case ._6AltSquareFill: return "6.alt.square.fill"
-            case ._6Circle: return "6.circle"
-            case ._6CircleFill: return "6.circle.fill"
-            case ._6Square: return "6.square"
-            case ._6SquareFill: return "6.square.fill"
-            case ._7Circle: return "7.circle"
-            case ._7CircleFill: return "7.circle.fill"
-            case ._7Square: return "7.square"
-            case ._7SquareFill: return "7.square.fill"
-            case ._8Circle: return "8.circle"
-            case ._8CircleFill: return "8.circle.fill"
-            case ._8Square: return "8.square"
-            case ._8SquareFill: return "8.square.fill"
-            case ._9AltCircle: return "9.alt.circle"
-            case ._9AltCircleFill: return "9.alt.circle.fill"
-            case ._9AltSquare: return "9.alt.square"
-            case ._9AltSquareFill: return "9.alt.square.fill"
-            case ._9Circle: return "9.circle"
-            case ._9CircleFill: return "9.circle.fill"
-            case ._9Square: return "9.square"
-            case ._9SquareFill: return "9.square.fill"
-            case .a: return "a"
-            case .aCircle: return "a.circle"
-            case .aCircleFill: return "a.circle.fill"
-            case .aSquare: return "a.square"
-            case .aSquareFill: return "a.square.fill"
-            case .airplane: return "airplane"
-            case .airplayaudio: return "airplayaudio"
-            case .airplayvideo: return "airplayvideo"
-            case .alarm: return "alarm"
-            case .alarmFill: return "alarm.fill"
-            case .alt: return "alt"
-            case .ant: return "ant"
-            case .antCircle: return "ant.circle"
-            case .antCircleFill: return "ant.circle.fill"
-            case .antFill: return "ant.fill"
-            case .antennaRadiowavesLeftAndRight: return "antenna.radiowaves.left.and.right"
-            case .app: return "app"
-            case .appBadge: return "app.badge"
-            case .appBadgeFill: return "app.badge.fill"
-            case .appFill: return "app.fill"
-            case .appGift: return "app.gift"
-            case .appGiftFill: return "app.gift.fill"
-            case .archivebox: return "archivebox"
-            case .archiveboxFill: return "archivebox.fill"
-            case .arkit: return "arkit"
-            case .arrow2Circlepath: return "arrow.2.circlepath"
-            case .arrow2CirclepathCircle: return "arrow.2.circlepath.circle"
-            case .arrow2CirclepathCircleFill: return "arrow.2.circlepath.circle.fill"
-            case .arrow2Squarepath: return "arrow.2.squarepath"
-            case .arrow3Trianglepath: return "arrow.3.trianglepath"
-            case .arrowBranch: return "arrow.branch"
-            case .arrowClockwise: return "arrow.clockwise"
-            case .arrowClockwiseCircle: return "arrow.clockwise.circle"
-            case .arrowClockwiseCircleFill: return "arrow.clockwise.circle.fill"
-            case .arrowClockwiseIcloud: return "arrow.clockwise.icloud"
-            case .arrowClockwiseIcloudFill: return "arrow.clockwise.icloud.fill"
-            case .arrowCounterclockwise: return "arrow.counterclockwise"
-            case .arrowCounterclockwiseCircle: return "arrow.counterclockwise.circle"
-            case .arrowCounterclockwiseCircleFill: return "arrow.counterclockwise.circle.fill"
-            case .arrowCounterclockwiseIcloud: return "arrow.counterclockwise.icloud"
-            case .arrowCounterclockwiseIcloudFill: return "arrow.counterclockwise.icloud.fill"
-            case .arrowDown: return "arrow.down"
-            case .arrowDownCircle: return "arrow.down.circle"
-            case .arrowDownCircleFill: return "arrow.down.circle.fill"
-            case .arrowDownDoc: return "arrow.down.doc"
-            case .arrowDownDocFill: return "arrow.down.doc.fill"
-            case .arrowDownLeft: return "arrow.down.left"
-            case .arrowDownLeftCircle: return "arrow.down.left.circle"
-            case .arrowDownLeftCircleFill: return "arrow.down.left.circle.fill"
-            case .arrowDownLeftSquare: return "arrow.down.left.square"
-            case .arrowDownLeftSquareFill: return "arrow.down.left.square.fill"
-            case .arrowDownLeftVideo: return "arrow.down.left.video"
-            case .arrowDownLeftVideoFill: return "arrow.down.left.video.fill"
-            case .arrowDownRight: return "arrow.down.right"
-            case .arrowDownRightAndArrowUpLeft: return "arrow.down.right.and.arrow.up.left"
-            case .arrowDownRightCircle: return "arrow.down.right.circle"
-            case .arrowDownRightCircleFill: return "arrow.down.right.circle.fill"
-            case .arrowDownRightSquare: return "arrow.down.right.square"
-            case .arrowDownRightSquareFill: return "arrow.down.right.square.fill"
-            case .arrowDownSquare: return "arrow.down.square"
-            case .arrowDownSquareFill: return "arrow.down.square.fill"
-            case .arrowDownToLine: return "arrow.down.to.line"
-            case .arrowDownToLineAlt: return "arrow.down.to.line.alt"
-            case .arrowLeft: return "arrow.left"
-            case .arrowLeftAndRight: return "arrow.left.and.right"
-            case .arrowLeftAndRightCircle: return "arrow.left.and.right.circle"
-            case .arrowLeftAndRightCircleFill: return "arrow.left.and.right.circle.fill"
-            case .arrowLeftAndRightRighttriangleLeftRighttriangleRight: return "flip.horizontal"
-            case .arrowLeftAndRightRighttriangleLeftRighttriangleRightFill: return "flip.horizontal.fill"
-            case .arrowLeftAndRightSquare: return "arrow.left.and.right.square"
-            case .arrowLeftAndRightSquareFill: return "arrow.left.and.right.square.fill"
-            case .arrowLeftArrowRight: return "arrow.right.arrow.left"
-            case .arrowLeftArrowRightCircle: return "arrow.right.arrow.left.circle"
-            case .arrowLeftArrowRightCircleFill: return "arrow.right.arrow.left.circle.fill"
-            case .arrowLeftArrowRightSquare: return "arrow.right.arrow.left.square"
-            case .arrowLeftArrowRightSquareFill: return "arrow.right.arrow.left.square.fill"
-            case .arrowLeftCircle: return "arrow.left.circle"
-            case .arrowLeftCircleFill: return "arrow.left.circle.fill"
-            case .arrowLeftSquare: return "arrow.left.square"
-            case .arrowLeftSquareFill: return "arrow.left.square.fill"
-            case .arrowLeftToLine: return "arrow.left.to.line"
-            case .arrowLeftToLineAlt: return "arrow.left.to.line.alt"
-            case .arrowMerge: return "arrow.merge"
-            case .arrowRight: return "arrow.right"
-            case .arrowRightArrowLeft: return "arrow.right.arrow.left"
-            case .arrowRightArrowLeftCircle: return "arrow.right.arrow.left.circle"
-            case .arrowRightArrowLeftCircleFill: return "arrow.right.arrow.left.circle.fill"
-            case .arrowRightArrowLeftSquare: return "arrow.right.arrow.left.square"
-            case .arrowRightArrowLeftSquareFill: return "arrow.right.arrow.left.square.fill"
-            case .arrowRightCircle: return "arrow.right.circle"
-            case .arrowRightCircleFill: return "arrow.right.circle.fill"
-            case .arrowRightSquare: return "arrow.right.square"
-            case .arrowRightSquareFill: return "arrow.right.square.fill"
-            case .arrowRightToLine: return "arrow.right.to.line"
-            case .arrowRightToLineAlt: return "arrow.right.to.line.alt"
-            case .arrowSwap: return "arrow.swap"
-            case .arrowTriangle2Circlepath: return "arrow.2.circlepath"
-            case .arrowTriangle2CirclepathCamera: return "camera.rotate"
-            case .arrowTriangle2CirclepathCameraFill: return "camera.rotate.fill"
-            case .arrowTriangle2CirclepathCircle: return "arrow.2.circlepath.circle"
-            case .arrowTriangle2CirclepathCircleFill: return "arrow.2.circlepath.circle.fill"
-            case .arrowTriangleBranch: return "arrow.branch"
-            case .arrowTriangleMerge: return "arrow.merge"
-            case .arrowTriangleSwap: return "arrow.swap"
-            case .arrowTriangleTurnUpRightDiamond: return "arrow.up.right.diamond"
-            case .arrowTriangleTurnUpRightDiamondFill: return "arrow.up.right.diamond.fill"
-            case .arrowTurnDownLeft: return "arrow.turn.down.left"
-            case .arrowTurnDownRight: return "arrow.turn.down.right"
-            case .arrowTurnLeftDown: return "arrow.turn.left.down"
-            case .arrowTurnLeftUp: return "arrow.turn.left.up"
-            case .arrowTurnRightDown: return "arrow.turn.right.down"
-            case .arrowTurnRightUp: return "arrow.turn.right.up"
-            case .arrowTurnUpLeft: return "arrow.turn.up.left"
-            case .arrowTurnUpRight: return "arrow.turn.up.right"
-            case .arrowUp: return "arrow.up"
-            case .arrowUpAndDown: return "arrow.up.and.down"
-            case .arrowUpAndDownCircle: return "arrow.up.and.down.circle"
-            case .arrowUpAndDownCircleFill: return "arrow.up.and.down.circle.fill"
-            case .arrowUpAndDownSquare: return "arrow.up.and.down.square"
-            case .arrowUpAndDownSquareFill: return "arrow.up.and.down.square.fill"
-            case .arrowUpArrowDown: return "arrow.up.arrow.down"
-            case .arrowUpArrowDownCircle: return "arrow.up.arrow.down.circle"
-            case .arrowUpArrowDownCircleFill: return "arrow.up.arrow.down.circle.fill"
-            case .arrowUpArrowDownSquare: return "arrow.up.arrow.down.square"
-            case .arrowUpArrowDownSquareFill: return "arrow.up.arrow.down.square.fill"
-            case .arrowUpBin: return "arrow.up.bin"
-            case .arrowUpBinFill: return "arrow.up.bin.fill"
-            case .arrowUpCircle: return "arrow.up.circle"
-            case .arrowUpCircleFill: return "arrow.up.circle.fill"
-            case .arrowUpDoc: return "arrow.up.doc"
-            case .arrowUpDocFill: return "arrow.up.doc.fill"
-            case .arrowUpLeft: return "arrow.up.left"
-            case .arrowUpLeftAndArrowDownRight: return "arrow.up.left.and.arrow.down.right"
-            case .arrowUpLeftCircle: return "arrow.up.left.circle"
-            case .arrowUpLeftCircleFill: return "arrow.up.left.circle.fill"
-            case .arrowUpLeftSquare: return "arrow.up.left.square"
-            case .arrowUpLeftSquareFill: return "arrow.up.left.square.fill"
-            case .arrowUpRight: return "arrow.up.right"
-            case .arrowUpRightCircle: return "arrow.up.right.circle"
-            case .arrowUpRightCircleFill: return "arrow.up.right.circle.fill"
-            case .arrowUpRightDiamond: return "arrow.up.right.diamond"
-            case .arrowUpRightDiamondFill: return "arrow.up.right.diamond.fill"
-            case .arrowUpRightSquare: return "arrow.up.right.square"
-            case .arrowUpRightSquareFill: return "arrow.up.right.square.fill"
-            case .arrowUpRightVideo: return "arrow.up.right.video"
-            case .arrowUpRightVideoFill: return "arrow.up.right.video.fill"
-            case .arrowUpSquare: return "arrow.up.square"
-            case .arrowUpSquareFill: return "arrow.up.square.fill"
-            case .arrowUpToLine: return "arrow.up.to.line"
-            case .arrowUpToLineAlt: return "arrow.up.to.line.alt"
-            case .arrowUturnDown: return "arrow.uturn.down"
-            case .arrowUturnDownCircle: return "arrow.uturn.down.circle"
-            case .arrowUturnDownCircleFill: return "arrow.uturn.down.circle.fill"
-            case .arrowUturnDownSquare: return "arrow.uturn.down.square"
-            case .arrowUturnDownSquareFill: return "arrow.uturn.down.square.fill"
-            case .arrowUturnLeft: return "arrow.uturn.left"
-            case .arrowUturnLeftCircle: return "arrow.uturn.left.circle"
-            case .arrowUturnLeftCircleBadgeEllipsis: return "arrow.uturn.left.circle.badge.ellipsis"
-            case .arrowUturnLeftCircleFill: return "arrow.uturn.left.circle.fill"
-            case .arrowUturnLeftSquare: return "arrow.uturn.left.square"
-            case .arrowUturnLeftSquareFill: return "arrow.uturn.left.square.fill"
-            case .arrowUturnRight: return "arrow.uturn.right"
-            case .arrowUturnRightCircle: return "arrow.uturn.right.circle"
-            case .arrowUturnRightCircleFill: return "arrow.uturn.right.circle.fill"
-            case .arrowUturnRightSquare: return "arrow.uturn.right.square"
-            case .arrowUturnRightSquareFill: return "arrow.uturn.right.square.fill"
-            case .arrowUturnUp: return "arrow.uturn.up"
-            case .arrowUturnUpCircle: return "arrow.uturn.up.circle"
-            case .arrowUturnUpCircleFill: return "arrow.uturn.up.circle.fill"
-            case .arrowUturnUpSquare: return "arrow.uturn.up.square"
-            case .arrowUturnUpSquareFill: return "arrow.uturn.up.square.fill"
-            case .arrowshapeTurnUpLeft: return "arrowshape.turn.up.left"
-            case .arrowshapeTurnUpLeft2: return "arrowshape.turn.up.left.2"
-            case .arrowshapeTurnUpLeft2Fill: return "arrowshape.turn.up.left.2.fill"
-            case .arrowshapeTurnUpLeftCircle: return "arrowshape.turn.up.left.circle"
-            case .arrowshapeTurnUpLeftCircleFill: return "arrowshape.turn.up.left.circle.fill"
-            case .arrowshapeTurnUpLeftFill: return "arrowshape.turn.up.left.fill"
-            case .arrowshapeTurnUpRight: return "arrowshape.turn.up.right"
-            case .arrowshapeTurnUpRightCircle: return "arrowshape.turn.up.right.circle"
-            case .arrowshapeTurnUpRightCircleFill: return "arrowshape.turn.up.right.circle.fill"
-            case .arrowshapeTurnUpRightFill: return "arrowshape.turn.up.right.fill"
-            case .arrowtriangleDown: return "arrowtriangle.down"
-            case .arrowtriangleDownCircle: return "arrowtriangle.down.circle"
-            case .arrowtriangleDownCircleFill: return "arrowtriangle.down.circle.fill"
-            case .arrowtriangleDownFill: return "arrowtriangle.down.fill"
-            case .arrowtriangleDownSquare: return "arrowtriangle.down.square"
-            case .arrowtriangleDownSquareFill: return "arrowtriangle.down.square.fill"
-            case .arrowtriangleLeft: return "arrowtriangle.left"
-            case .arrowtriangleLeftCircle: return "arrowtriangle.left.circle"
-            case .arrowtriangleLeftCircleFill: return "arrowtriangle.left.circle.fill"
-            case .arrowtriangleLeftFill: return "arrowtriangle.left.fill"
-            case .arrowtriangleLeftSquare: return "arrowtriangle.left.square"
-            case .arrowtriangleLeftSquareFill: return "arrowtriangle.left.square.fill"
-            case .arrowtriangleRight: return "arrowtriangle.right"
-            case .arrowtriangleRightCircle: return "arrowtriangle.right.circle"
-            case .arrowtriangleRightCircleFill: return "arrowtriangle.right.circle.fill"
-            case .arrowtriangleRightFill: return "arrowtriangle.right.fill"
-            case .arrowtriangleRightSquare: return "arrowtriangle.right.square"
-            case .arrowtriangleRightSquareFill: return "arrowtriangle.right.square.fill"
-            case .arrowtriangleUp: return "arrowtriangle.up"
-            case .arrowtriangleUpCircle: return "arrowtriangle.up.circle"
-            case .arrowtriangleUpCircleFill: return "arrowtriangle.up.circle.fill"
-            case .arrowtriangleUpFill: return "arrowtriangle.up.fill"
-            case .arrowtriangleUpSquare: return "arrowtriangle.up.square"
-            case .arrowtriangleUpSquareFill: return "arrowtriangle.up.square.fill"
-            case .aspectratio: return "aspectratio"
-            case .aspectratioFill: return "aspectratio.fill"
-            case .asteriskCircle: return "asterisk.circle"
-            case .asteriskCircleFill: return "asterisk.circle.fill"
-            case .at: return "at"
-            case .atBadgeMinus: return "at.badge.minus"
-            case .atBadgePlus: return "at.badge.plus"
-            case .australsignCircle: return "australsign.circle"
-            case .australsignCircleFill: return "australsign.circle.fill"
-            case .australsignSquare: return "australsign.square"
-            case .australsignSquareFill: return "australsign.square.fill"
-            case .bCircle: return "b.circle"
-            case .bCircleFill: return "b.circle.fill"
-            case .bSquare: return "b.square"
-            case .bSquareFill: return "b.square.fill"
-            case .backward: return "backward"
-            case .backwardEnd: return "backward.end"
-            case .backwardEndAlt: return "backward.end.alt"
-            case .backwardEndAltFill: return "backward.end.alt.fill"
-            case .backwardEndFill: return "backward.end.fill"
-            case .backwardFill: return "backward.fill"
-            case .badgePlusRadiowavesRight: return "badge.plus.radiowaves.right"
-            case .bag: return "bag"
-            case .bagBadgeMinus: return "bag.badge.minus"
-            case .bagBadgePlus: return "bag.badge.plus"
-            case .bagFill: return "bag.fill"
-            case .bagFillBadgeMinus: return "bag.fill.badge.minus"
-            case .bagFillBadgePlus: return "bag.fill.badge.plus"
-            case .bahtsignCircle: return "bahtsign.circle"
-            case .bahtsignCircleFill: return "bahtsign.circle.fill"
-            case .bahtsignSquare: return "bahtsign.square"
-            case .bahtsignSquareFill: return "bahtsign.square.fill"
-            case .bandage: return "bandage"
-            case .bandageFill: return "bandage.fill"
-            case .barcode: return "barcode"
-            case .barcodeViewfinder: return "barcode.viewfinder"
-            case .battery0: return "battery.0"
-            case .battery100: return "battery.100"
-            case .battery25: return "battery.25"
-            case .bedDouble: return "bed.double"
-            case .bedDoubleFill: return "bed.double.fill"
-            case .bell: return "bell"
-            case .bellCircle: return "bell.circle"
-            case .bellCircleFill: return "bell.circle.fill"
-            case .bellFill: return "bell.fill"
-            case .bellSlash: return "bell.slash"
-            case .bellSlashFill: return "bell.slash.fill"
-            case .binXmark: return "bin.xmark"
-            case .binXmarkFill: return "bin.xmark.fill"
-            case .bitcoinsignCircle: return "bitcoinsign.circle"
-            case .bitcoinsignCircleFill: return "bitcoinsign.circle.fill"
-            case .bitcoinsignSquare: return "bitcoinsign.square"
-            case .bitcoinsignSquareFill: return "bitcoinsign.square.fill"
-            case .bold: return "bold"
-            case .boldItalicUnderline: return "bold.italic.underline"
-            case .boldUnderline: return "bold.underline"
-            case .bolt: return "bolt"
-            case .boltBadgeA: return "bolt.badge.a"
-            case .boltBadgeAFill: return "bolt.badge.a.fill"
-            case .boltCircle: return "bolt.circle"
-            case .boltCircleFill: return "bolt.circle.fill"
-            case .boltFill: return "bolt.fill"
-            case .boltHorizontal: return "bolt.horizontal"
-            case .boltHorizontalCircle: return "bolt.horizontal.circle"
-            case .boltHorizontalCircleFill: return "bolt.horizontal.circle.fill"
-            case .boltHorizontalFill: return "bolt.horizontal.fill"
-            case .boltHorizontalIcloud: return "bolt.horizontal.icloud"
-            case .boltHorizontalIcloudFill: return "bolt.horizontal.icloud.fill"
-            case .boltSlash: return "bolt.slash"
-            case .boltSlashFill: return "bolt.slash.fill"
-            case .book: return "book"
-            case .bookCircle: return "book.circle"
-            case .bookCircleFill: return "book.circle.fill"
-            case .bookFill: return "book.fill"
-            case .bookmark: return "bookmark"
-            case .bookmarkFill: return "bookmark.fill"
-            case .briefcase: return "briefcase"
-            case .briefcaseFill: return "briefcase.fill"
-            case .bubbleLeft: return "bubble.left"
-            case .bubbleLeftAndBubbleRight: return "bubble.left.and.bubble.right"
-            case .bubbleLeftAndBubbleRightFill: return "bubble.left.and.bubble.right.fill"
-            case .bubbleLeftFill: return "bubble.left.fill"
-            case .bubbleMiddleBottom: return "bubble.middle.bottom"
-            case .bubbleMiddleBottomFill: return "bubble.middle.bottom.fill"
-            case .bubbleMiddleTop: return "bubble.middle.top"
-            case .bubbleMiddleTopFill: return "bubble.middle.top.fill"
-            case .bubbleRight: return "bubble.right"
-            case .bubbleRightFill: return "bubble.right.fill"
-            case .burn: return "burn"
-            case .burst: return "burst"
-            case .burstFill: return "burst.fill"
-            case .cCircle: return "c.circle"
-            case .cCircleFill: return "c.circle.fill"
-            case .cSquare: return "c.square"
-            case .cSquareFill: return "c.square.fill"
-            case .calendar: return "calendar"
-            case .calendarBadgeMinus: return "calendar.badge.minus"
-            case .calendarBadgePlus: return "calendar.badge.plus"
-            case .calendarCircle: return "calendar.circle"
-            case .calendarCircleFill: return "calendar.circle.fill"
-            case .camera: return "camera"
-            case .cameraCircle: return "camera.circle"
-            case .cameraCircleFill: return "camera.circle.fill"
-            case .cameraFill: return "camera.fill"
-            case .cameraOnRectangle: return "camera.on.rectangle"
-            case .cameraOnRectangleFill: return "camera.on.rectangle.fill"
-            case .cameraRotate: return "camera.rotate"
-            case .cameraRotateFill: return "camera.rotate.fill"
-            case .cameraViewfinder: return "camera.viewfinder"
-            case .capslock: return "capslock"
-            case .capslockFill: return "capslock.fill"
-            case .capsule: return "capsule"
-            case .capsuleFill: return "capsule.fill"
-            case .captionsBubble: return "captions.bubble"
-            case .captionsBubbleFill: return "captions.bubble.fill"
-            case .car: return "car"
-            case .carFill: return "car.fill"
-            case .cart: return "cart"
-            case .cartBadgeMinus: return "cart.badge.minus"
-            case .cartBadgePlus: return "cart.badge.plus"
-            case .cartFill: return "cart.fill"
-            case .cartFillBadgeMinus: return "cart.fill.badge.minus"
-            case .cartFillBadgePlus: return "cart.fill.badge.plus"
-            case .cedisignCircle: return "cedisign.circle"
-            case .cedisignCircleFill: return "cedisign.circle.fill"
-            case .cedisignSquare: return "cedisign.square"
-            case .cedisignSquareFill: return "cedisign.square.fill"
-            case .centsignCircle: return "centsign.circle"
-            case .centsignCircleFill: return "centsign.circle.fill"
-            case .centsignSquare: return "centsign.square"
-            case .centsignSquareFill: return "centsign.square.fill"
-            case .character: return "a"
-            case .chartBar: return "chart.bar"
-            case .chartBarFill: return "chart.bar.fill"
-            case .chartPie: return "chart.pie"
-            case .chartPieFill: return "chart.pie.fill"
-            case .checkmark: return "checkmark"
-            case .checkmarkCircle: return "checkmark.circle"
-            case .checkmarkCircleFill: return "checkmark.circle.fill"
-            case .checkmarkRectangle: return "checkmark.rectangle"
-            case .checkmarkRectangleFill: return "checkmark.rectangle.fill"
-            case .checkmarkSeal: return "checkmark.seal"
-            case .checkmarkSealFill: return "checkmark.seal.fill"
-            case .checkmarkShield: return "checkmark.shield"
-            case .checkmarkShieldFill: return "checkmark.shield.fill"
-            case .checkmarkSquare: return "checkmark.square"
-            case .checkmarkSquareFill: return "checkmark.square.fill"
-            case .chevronCompactDown: return "chevron.compact.down"
-            case .chevronCompactLeft: return "chevron.compact.left"
-            case .chevronCompactRight: return "chevron.compact.right"
-            case .chevronCompactUp: return "chevron.compact.up"
-            case .chevronDown: return "chevron.down"
-            case .chevronDownCircle: return "chevron.down.circle"
-            case .chevronDownCircleFill: return "chevron.down.circle.fill"
-            case .chevronDownSquare: return "chevron.down.square"
-            case .chevronDownSquareFill: return "chevron.down.square.fill"
-            case .chevronLeft: return "chevron.left"
-            case .chevronLeft2: return "chevron.left.2"
-            case .chevronLeftCircle: return "chevron.left.circle"
-            case .chevronLeftCircleFill: return "chevron.left.circle.fill"
-            case .chevronLeftSlashChevronRight: return "chevron.left.slash.chevron.right"
-            case .chevronLeftSquare: return "chevron.left.square"
-            case .chevronLeftSquareFill: return "chevron.left.square.fill"
-            case .chevronRight: return "chevron.right"
-            case .chevronRight2: return "chevron.right.2"
-            case .chevronRightCircle: return "chevron.right.circle"
-            case .chevronRightCircleFill: return "chevron.right.circle.fill"
-            case .chevronRightSquare: return "chevron.right.square"
-            case .chevronRightSquareFill: return "chevron.right.square.fill"
-            case .chevronUp: return "chevron.up"
-            case .chevronUpChevronDown: return "chevron.up.chevron.down"
-            case .chevronUpCircle: return "chevron.up.circle"
-            case .chevronUpCircleFill: return "chevron.up.circle.fill"
-            case .chevronUpSquare: return "chevron.up.square"
-            case .chevronUpSquareFill: return "chevron.up.square.fill"
-            case .circle: return "circle"
-            case .circleBottomthirdSplit: return "circle.bottomthird.split"
-            case .circleFill: return "circle.fill"
-            case .circleGrid2x2: return "circle.grid.2x2"
-            case .circleGrid2x2Fill: return "circle.grid.2x2.fill"
-            case .circleGrid3x3: return "circle.grid.3x3"
-            case .circleGrid3x3Fill: return "circle.grid.3x3.fill"
-            case .circleGridHex: return "circle.grid.hex"
-            case .circleGridHexFill: return "circle.grid.hex.fill"
-            case .circleLefthalfFill: return "circle.lefthalf.fill"
-            case .circleRighthalfFill: return "circle.righthalf.fill"
-            case .circlesHexagongrid: return "circle.grid.hex"
-            case .circlesHexagongridFill: return "circle.grid.hex.fill"
-            case .clear: return "clear"
-            case .clearFill: return "clear.fill"
-            case .clock: return "clock"
-            case .clockFill: return "clock.fill"
-            case .cloud: return "cloud"
-            case .cloudBolt: return "cloud.bolt"
-            case .cloudBoltFill: return "cloud.bolt.fill"
-            case .cloudBoltRain: return "cloud.bolt.rain"
-            case .cloudBoltRainFill: return "cloud.bolt.rain.fill"
-            case .cloudDrizzle: return "cloud.drizzle"
-            case .cloudDrizzleFill: return "cloud.drizzle.fill"
-            case .cloudFill: return "cloud.fill"
-            case .cloudFog: return "cloud.fog"
-            case .cloudFogFill: return "cloud.fog.fill"
-            case .cloudHail: return "cloud.hail"
-            case .cloudHailFill: return "cloud.hail.fill"
-            case .cloudHeavyrain: return "cloud.heavyrain"
-            case .cloudHeavyrainFill: return "cloud.heavyrain.fill"
-            case .cloudMoon: return "cloud.moon"
-            case .cloudMoonBolt: return "cloud.moon.bolt"
-            case .cloudMoonBoltFill: return "cloud.moon.bolt.fill"
-            case .cloudMoonFill: return "cloud.moon.fill"
-            case .cloudMoonRain: return "cloud.moon.rain"
-            case .cloudMoonRainFill: return "cloud.moon.rain.fill"
-            case .cloudRain: return "cloud.rain"
-            case .cloudRainFill: return "cloud.rain.fill"
-            case .cloudSleet: return "cloud.sleet"
-            case .cloudSleetFill: return "cloud.sleet.fill"
-            case .cloudSnow: return "cloud.snow"
-            case .cloudSnowFill: return "cloud.snow.fill"
-            case .cloudSun: return "cloud.sun"
-            case .cloudSunBolt: return "cloud.sun.bolt"
-            case .cloudSunBoltFill: return "cloud.sun.bolt.fill"
-            case .cloudSunFill: return "cloud.sun.fill"
-            case .cloudSunRain: return "cloud.sun.rain"
-            case .cloudSunRainFill: return "cloud.sun.rain.fill"
-            case .coloncurrencysignCircle: return "coloncurrencysign.circle"
-            case .coloncurrencysignCircleFill: return "coloncurrencysign.circle.fill"
-            case .coloncurrencysignSquare: return "coloncurrencysign.square"
-            case .coloncurrencysignSquareFill: return "coloncurrencysign.square.fill"
-            case .command: return "command"
-            case .control: return "control"
-            case .creditcard: return "creditcard"
-            case .creditcardFill: return "creditcard.fill"
-            case .crop: return "crop"
-            case .cropRotate: return "crop.rotate"
-            case .cruzeirosignCircle: return "cruzeirosign.circle"
-            case .cruzeirosignCircleFill: return "cruzeirosign.circle.fill"
-            case .cruzeirosignSquare: return "cruzeirosign.square"
-            case .cruzeirosignSquareFill: return "cruzeirosign.square.fill"
-            case .cube: return "cube"
-            case .cubeBox: return "cube.box"
-            case .cubeBoxFill: return "cube.box.fill"
-            case .cubeFill: return "cube.fill"
-            case .cursorRays: return "cursor.rays"
-            case .cursorarrowRays: return "cursor.rays"
-            case .dCircle: return "d.circle"
-            case .dCircleFill: return "d.circle.fill"
-            case .dSquare: return "d.square"
-            case .dSquareFill: return "d.square.fill"
-            case .decreaseIndent: return "decrease.indent"
-            case .decreaseQuotelevel: return "decrease.quotelevel"
-            case .deleteLeft: return "delete.left"
-            case .deleteLeftFill: return "delete.left.fill"
-            case .deleteRight: return "delete.right"
-            case .deleteRightFill: return "delete.right.fill"
-            case .desktopcomputer: return "desktopcomputer"
-            case .dial: return "dial"
-            case .dialFill: return "dial.fill"
-            case .dialMin: return "dial"
-            case .dialMinFill: return "dial.fill"
-            case .divide: return "divide"
-            case .divideCircle: return "divide.circle"
-            case .divideCircleFill: return "divide.circle.fill"
-            case .divideSquare: return "divide.square"
-            case .divideSquareFill: return "divide.square.fill"
-            case .doc: return "doc"
-            case .docAppend: return "doc.append"
-            case .docCircle: return "doc.circle"
-            case .docCircleFill: return "doc.circle.fill"
-            case .docFill: return "doc.fill"
-            case .docOnClipboard: return "doc.on.clipboard"
-            case .docOnClipboardFill: return "doc.on.clipboard.fill"
-            case .docOnDoc: return "doc.on.doc"
-            case .docOnDocFill: return "doc.on.doc.fill"
-            case .docPlaintext: return "doc.plaintext"
-            case .docRichtext: return "doc.richtext"
-            case .docText: return "doc.text"
-            case .docTextFill: return "doc.text.fill"
-            case .docTextMagnifyingglass: return "doc.text.magnifyingglass"
-            case .docTextViewfinder: return "doc.text.viewfinder"
-            case .dockRectangle: return "rectangle.dock"
-            case .dollarsignCircle: return "dollarsign.circle"
-            case .dollarsignCircleFill: return "dollarsign.circle.fill"
-            case .dollarsignSquare: return "dollarsign.square"
-            case .dollarsignSquareFill: return "dollarsign.square.fill"
-            case .dongsignCircle: return "dongsign.circle"
-            case .dongsignCircleFill: return "dongsign.circle.fill"
-            case .dongsignSquare: return "dongsign.square"
-            case .dongsignSquareFill: return "dongsign.square.fill"
-            case .dotRadiowavesLeftAndRight: return "dot.radiowaves.left.and.right"
-            case .dotRadiowavesRight: return "dot.radiowaves.right"
-            case .dotSquare: return "dot.square"
-            case .dotSquareFill: return "dot.square.fill"
-            case .dropTriangle: return "drop.triangle"
-            case .dropTriangleFill: return "drop.triangle.fill"
-            case .eCircle: return "e.circle"
-            case .eCircleFill: return "e.circle.fill"
-            case .eSquare: return "e.square"
-            case .eSquareFill: return "e.square.fill"
-            case .ear: return "ear"
-            case .eject: return "eject"
-            case .ejectFill: return "eject.fill"
-            case .ellipsesBubble: return "ellipses.bubble"
-            case .ellipsesBubbleFill: return "ellipses.bubble.fill"
-            case .ellipsis: return "ellipsis"
-            case .ellipsisBubble: return "ellipses.bubble"
-            case .ellipsisBubbleFill: return "ellipses.bubble.fill"
-            case .ellipsisCircle: return "ellipsis.circle"
-            case .ellipsisCircleFill: return "ellipsis.circle.fill"
-            case .envelope: return "envelope"
-            case .envelopeBadge: return "envelope.badge"
-            case .envelopeBadgeFill: return "envelope.badge.fill"
-            case .envelopeCircle: return "envelope.circle"
-            case .envelopeCircleFill: return "envelope.circle.fill"
-            case .envelopeFill: return "envelope.fill"
-            case .envelopeOpen: return "envelope.open"
-            case .envelopeOpenFill: return "envelope.open.fill"
-            case .equal: return "equal"
-            case .equalCircle: return "equal.circle"
-            case .equalCircleFill: return "equal.circle.fill"
-            case .equalSquare: return "equal.square"
-            case .equalSquareFill: return "equal.square.fill"
-            case .escape: return "escape"
-            case .eurosignCircle: return "eurosign.circle"
-            case .eurosignCircleFill: return "eurosign.circle.fill"
-            case .eurosignSquare: return "eurosign.square"
-            case .eurosignSquareFill: return "eurosign.square.fill"
-            case .exclamationmark: return "exclamationmark"
-            case .exclamationmarkBubble: return "exclamationmark.bubble"
-            case .exclamationmarkBubbleFill: return "exclamationmark.bubble.fill"
-            case .exclamationmarkCircle: return "exclamationmark.circle"
-            case .exclamationmarkCircleFill: return "exclamationmark.circle.fill"
-            case .exclamationmarkIcloud: return "exclamationmark.icloud"
-            case .exclamationmarkIcloudFill: return "exclamationmark.icloud.fill"
-            case .exclamationmarkOctagon: return "exclamationmark.octagon"
-            case .exclamationmarkOctagonFill: return "exclamationmark.octagon.fill"
-            case .exclamationmarkShield: return "exclamationmark.shield"
-            case .exclamationmarkShieldFill: return "exclamationmark.shield.fill"
-            case .exclamationmarkSquare: return "exclamationmark.square"
-            case .exclamationmarkSquareFill: return "exclamationmark.square.fill"
-            case .exclamationmarkTriangle: return "exclamationmark.triangle"
-            case .exclamationmarkTriangleFill: return "exclamationmark.triangle.fill"
-            case .eye: return "eye"
-            case .eyeFill: return "eye.fill"
-            case .eyeSlash: return "eye.slash"
-            case .eyeSlashFill: return "eye.slash.fill"
-            case .eyedropper: return "eyedropper"
-            case .eyedropperFull: return "eyedropper.full"
-            case .eyedropperHalffull: return "eyedropper.halffull"
-            case .eyeglasses: return "eyeglasses"
-            case .fCircle: return "f.circle"
-            case .fCircleFill: return "f.circle.fill"
-            case .fCursive: return "f.cursive"
-            case .fCursiveCircle: return "f.cursive.circle"
-            case .fCursiveCircleFill: return "f.cursive.circle.fill"
-            case .fSquare: return "f.square"
-            case .fSquareFill: return "f.square.fill"
-            case .faceSmiling: return "smiley"
-            case .faceSmilingFill: return "smiley.fill"
-            case .faceid: return "faceid"
-            case .film: return "film"
-            case .filmFill: return "film.fill"
-            case .flag: return "flag"
-            case .flagCircle: return "flag.circle"
-            case .flagCircleFill: return "flag.circle.fill"
-            case .flagFill: return "flag.fill"
-            case .flagSlash: return "flag.slash"
-            case .flagSlashFill: return "flag.slash.fill"
-            case .flame: return "flame"
-            case .flameFill: return "flame.fill"
-            case .flashlightOffFill: return "flashlight.off.fill"
-            case .flashlightOnFill: return "flashlight.on.fill"
-            case .flipHorizontal: return "flip.horizontal"
-            case .flipHorizontalFill: return "flip.horizontal.fill"
-            case .florinsignCircle: return "florinsign.circle"
-            case .florinsignCircleFill: return "florinsign.circle.fill"
-            case .florinsignSquare: return "florinsign.square"
-            case .florinsignSquareFill: return "florinsign.square.fill"
-            case .flowchart: return "flowchart"
-            case .flowchartFill: return "flowchart.fill"
-            case .folder: return "folder"
-            case .folderBadgeMinus: return "folder.badge.minus"
-            case .folderBadgePersonCrop: return "folder.badge.person.crop"
-            case .folderBadgePlus: return "folder.badge.plus"
-            case .folderCircle: return "folder.circle"
-            case .folderCircleFill: return "folder.circle.fill"
-            case .folderFill: return "folder.fill"
-            case .folderFillBadgeMinus: return "folder.fill.badge.minus"
-            case .folderFillBadgePersonCrop: return "folder.fill.badge.person.crop"
-            case .folderFillBadgePlus: return "folder.fill.badge.plus"
-            case .forward: return "forward"
-            case .forwardEnd: return "forward.end"
-            case .forwardEndAlt: return "forward.end.alt"
-            case .forwardEndAltFill: return "forward.end.alt.fill"
-            case .forwardEndFill: return "forward.end.fill"
-            case .forwardFill: return "forward.fill"
-            case .francsignCircle: return "francsign.circle"
-            case .francsignCircleFill: return "francsign.circle.fill"
-            case .francsignSquare: return "francsign.square"
-            case .francsignSquareFill: return "francsign.square.fill"
-            case .function: return "function"
-            case .fx: return "fx"
-            case .gCircle: return "g.circle"
-            case .gCircleFill: return "g.circle.fill"
-            case .gSquare: return "g.square"
-            case .gSquareFill: return "g.square.fill"
-            case .gamecontroller: return "gamecontroller"
-            case .gamecontrollerFill: return "gamecontroller.fill"
-            case .gauge: return "gauge"
-            case .gaugeBadgeMinus: return "gauge.badge.minus"
-            case .gaugeBadgePlus: return "gauge.badge.plus"
-            case .gear: return "gear"
-            case .gift: return "gift"
-            case .giftFill: return "gift.fill"
-            case .globe: return "globe"
-            case .gobackward: return "gobackward"
-            case .gobackward10: return "gobackward.10"
-            case .gobackward15: return "gobackward.15"
-            case .gobackward30: return "gobackward.30"
-            case .gobackward45: return "gobackward.45"
-            case .gobackward60: return "gobackward.60"
-            case .gobackward75: return "gobackward.75"
-            case .gobackward90: return "gobackward.90"
-            case .gobackwardMinus: return "gobackward.minus"
-            case .goforward: return "goforward"
-            case .goforward10: return "goforward.10"
-            case .goforward15: return "goforward.15"
-            case .goforward30: return "goforward.30"
-            case .goforward45: return "goforward.45"
-            case .goforward60: return "goforward.60"
-            case .goforward75: return "goforward.75"
-            case .goforward90: return "goforward.90"
-            case .goforwardPlus: return "goforward.plus"
-            case .greaterthan: return "greaterthan"
-            case .greaterthanCircle: return "greaterthan.circle"
-            case .greaterthanCircleFill: return "greaterthan.circle.fill"
-            case .greaterthanSquare: return "greaterthan.square"
-            case .greaterthanSquareFill: return "greaterthan.square.fill"
-            case .grid: return "grid"
-            case .gridCircle: return "grid.circle"
-            case .gridCircleFill: return "grid.circle.fill"
-            case .guaranisignCircle: return "guaranisign.circle"
-            case .guaranisignCircleFill: return "guaranisign.circle.fill"
-            case .guaranisignSquare: return "guaranisign.square"
-            case .guaranisignSquareFill: return "guaranisign.square.fill"
-            case .guitars: return "guitars"
-            case .hCircle: return "h.circle"
-            case .hCircleFill: return "h.circle.fill"
-            case .hSquare: return "h.square"
-            case .hSquareFill: return "h.square.fill"
-            case .hammer: return "hammer"
-            case .hammerFill: return "hammer.fill"
-            case .handDraw: return "hand.draw"
-            case .handDrawFill: return "hand.draw.fill"
-            case .handPointLeft: return "hand.point.left"
-            case .handPointLeftFill: return "hand.point.left.fill"
-            case .handPointRight: return "hand.point.right"
-            case .handPointRightFill: return "hand.point.right.fill"
-            case .handRaised: return "hand.raised"
-            case .handRaisedFill: return "hand.raised.fill"
-            case .handRaisedSlash: return "hand.raised.slash"
-            case .handRaisedSlashFill: return "hand.raised.slash.fill"
-            case .handThumbsdown: return "hand.thumbsdown"
-            case .handThumbsdownFill: return "hand.thumbsdown.fill"
-            case .handThumbsup: return "hand.thumbsup"
-            case .handThumbsupFill: return "hand.thumbsup.fill"
-            case .hare: return "hare"
-            case .hareFill: return "hare.fill"
-            case .headphones: return "headphones"
-            case .heart: return "heart"
-            case .heartCircle: return "heart.circle"
-            case .heartCircleFill: return "heart.circle.fill"
-            case .heartFill: return "heart.fill"
-            case .heartSlash: return "heart.slash"
-            case .heartSlashCircle: return "heart.slash.circle"
-            case .heartSlashCircleFill: return "heart.slash.circle.fill"
-            case .heartSlashFill: return "heart.slash.fill"
-            case .helm: return "helm"
-            case .hexagon: return "hexagon"
-            case .hexagonFill: return "hexagon.fill"
-            case .hifispeaker: return "hifispeaker"
-            case .hifispeakerFill: return "hifispeaker.fill"
-            case .hourglass: return "hourglass"
-            case .hourglassBottomhalfFill: return "hourglass.bottomhalf.fill"
-            case .hourglassTophalfFill: return "hourglass.tophalf.fill"
-            case .house: return "house"
-            case .houseFill: return "house.fill"
-            case .hryvniasignCircle: return "hryvniasign.circle"
-            case .hryvniasignCircleFill: return "hryvniasign.circle.fill"
-            case .hryvniasignSquare: return "hryvniasign.square"
-            case .hryvniasignSquareFill: return "hryvniasign.square.fill"
-            case .hurricane: return "hurricane"
-            case .iCircle: return "i.circle"
-            case .iCircleFill: return "i.circle.fill"
-            case .iSquare: return "i.square"
-            case .iSquareFill: return "i.square.fill"
-            case .icloud: return "icloud"
-            case .icloudAndArrowDown: return "icloud.and.arrow.down"
-            case .icloudAndArrowDownFill: return "icloud.and.arrow.down.fill"
-            case .icloudAndArrowUp: return "icloud.and.arrow.up"
-            case .icloudAndArrowUpFill: return "icloud.and.arrow.up.fill"
-            case .icloudCircle: return "icloud.circle"
-            case .icloudCircleFill: return "icloud.circle.fill"
-            case .icloudFill: return "icloud.fill"
-            case .icloudSlash: return "icloud.slash"
-            case .icloudSlashFill: return "icloud.slash.fill"
-            case .increaseIndent: return "increase.indent"
-            case .increaseQuotelevel: return "increase.quotelevel"
-            case .indianrupeesignCircle: return "indianrupeesign.circle"
-            case .indianrupeesignCircleFill: return "indianrupeesign.circle.fill"
-            case .indianrupeesignSquare: return "indianrupeesign.square"
-            case .indianrupeesignSquareFill: return "indianrupeesign.square.fill"
-            case .info: return "info"
-            case .infoCircle: return "info.circle"
-            case .infoCircleFill: return "info.circle.fill"
-            case .italic: return "italic"
-            case .jCircle: return "j.circle"
-            case .jCircleFill: return "j.circle.fill"
-            case .jSquare: return "j.square"
-            case .jSquareFill: return "j.square.fill"
-            case .kCircle: return "k.circle"
-            case .kCircleFill: return "k.circle.fill"
-            case .kSquare: return "k.square"
-            case .kSquareFill: return "k.square.fill"
-            case .keyboard: return "keyboard"
-            case .keyboardChevronCompactDown: return "keyboard.chevron.compact.down"
-            case .kipsignCircle: return "kipsign.circle"
-            case .kipsignCircleFill: return "kipsign.circle.fill"
-            case .kipsignSquare: return "kipsign.square"
-            case .kipsignSquareFill: return "kipsign.square.fill"
-            case .lCircle: return "l.circle"
-            case .lCircleFill: return "l.circle.fill"
-            case .lSquare: return "l.square"
-            case .lSquareFill: return "l.square.fill"
-            case .largecircleFillCircle: return "largecircle.fill.circle"
-            case .larisignCircle: return "larisign.circle"
-            case .larisignCircleFill: return "larisign.circle.fill"
-            case .larisignSquare: return "larisign.square"
-            case .larisignSquareFill: return "larisign.square.fill"
-            case .lasso: return "lasso"
-            case .leafArrowCirclepath: return "leaf.arrow.circlepath"
-            case .leafArrowTriangleCirclepath: return "leaf.arrow.circlepath"
-            case .lessthan: return "lessthan"
-            case .lessthanCircle: return "lessthan.circle"
-            case .lessthanCircleFill: return "lessthan.circle.fill"
-            case .lessthanSquare: return "lessthan.square"
-            case .lessthanSquareFill: return "lessthan.square.fill"
-            case .lightMax: return "light.max"
-            case .lightMin: return "light.min"
-            case .lightbulb: return "lightbulb"
-            case .lightbulbFill: return "lightbulb.fill"
-            case .lightbulbSlash: return "lightbulb.slash"
-            case .lightbulbSlashFill: return "lightbulb.slash.fill"
-            case .lineHorizontal3: return "line.horizontal.3"
-            case .lineHorizontal3Decrease: return "line.horizontal.3.decrease"
-            case .lineHorizontal3DecreaseCircle: return "line.horizontal.3.decrease.circle"
-            case .lineHorizontal3DecreaseCircleFill: return "line.horizontal.3.decrease.circle.fill"
-            case .link: return "link"
-            case .linkCircle: return "link.circle"
-            case .linkCircleFill: return "link.circle.fill"
-            case .linkIcloud: return "link.icloud"
-            case .linkIcloudFill: return "link.icloud.fill"
-            case .lirasignCircle: return "lirasign.circle"
-            case .lirasignCircleFill: return "lirasign.circle.fill"
-            case .lirasignSquare: return "lirasign.square"
-            case .lirasignSquareFill: return "lirasign.square.fill"
-            case .listBullet: return "list.bullet"
-            case .listBulletBelowRectangle: return "list.bullet.below.rectangle"
-            case .listBulletIndent: return "list.bullet.indent"
-            case .listDash: return "list.dash"
-            case .listNumber: return "list.number"
-            case .livephoto: return "livephoto"
-            case .livephotoPlay: return "livephoto.play"
-            case .livephotoSlash: return "livephoto.slash"
-            case .location: return "location"
-            case .locationCircle: return "location.circle"
-            case .locationCircleFill: return "location.circle.fill"
-            case .locationFill: return "location.fill"
-            case .locationNorth: return "location.north"
-            case .locationNorthFill: return "location.north.fill"
-            case .locationNorthLine: return "location.north.line"
-            case .locationNorthLineFill: return "location.north.line.fill"
-            case .locationSlash: return "location.slash"
-            case .locationSlashFill: return "location.slash.fill"
-            case .lock: return "lock"
-            case .lockCircle: return "lock.circle"
-            case .lockCircleFill: return "lock.circle.fill"
-            case .lockFill: return "lock.fill"
-            case .lockIcloud: return "lock.icloud"
-            case .lockIcloudFill: return "lock.icloud.fill"
-            case .lockOpen: return "lock.open"
-            case .lockOpenFill: return "lock.open.fill"
-            case .lockRotation: return "lock.rotation"
-            case .lockRotationOpen: return "lock.rotation.open"
-            case .lockShield: return "lock.shield"
-            case .lockShieldFill: return "lock.shield.fill"
-            case .lockSlash: return "lock.slash"
-            case .lockSlashFill: return "lock.slash.fill"
-            case .mCircle: return "m.circle"
-            case .mCircleFill: return "m.circle.fill"
-            case .mSquare: return "m.square"
-            case .mSquareFill: return "m.square.fill"
-            case .macwindow: return "macwindow"
-            case .magnifyingglass: return "magnifyingglass"
-            case .magnifyingglassCircle: return "magnifyingglass.circle"
-            case .magnifyingglassCircleFill: return "magnifyingglass.circle.fill"
-            case .manatsignCircle: return "manatsign.circle"
-            case .manatsignCircleFill: return "manatsign.circle.fill"
-            case .manatsignSquare: return "manatsign.square"
-            case .manatsignSquareFill: return "manatsign.square.fill"
-            case .map: return "map"
-            case .mapFill: return "map.fill"
-            case .mappin: return "mappin"
-            case .mappinAndEllipse: return "mappin.and.ellipse"
-            case .mappinCircle: return "mappin.circle"
-            case .mappinCircleFill: return "mappin.circle.fill"
-            case .mappinSlash: return "mappin.slash"
-            case .memories: return "memories"
-            case .memoriesBadgeMinus: return "memories.badge.minus"
-            case .memoriesBadgePlus: return "memories.badge.plus"
-            case .message: return "message"
-            case .messageCircle: return "message.circle"
-            case .messageCircleFill: return "message.circle.fill"
-            case .messageFill: return "message.fill"
-            case .metronome: return "metronome"
-            case .mic: return "mic"
-            case .micCircle: return "mic.circle"
-            case .micCircleFill: return "mic.circle.fill"
-            case .micFill: return "mic.fill"
-            case .micSlash: return "mic.slash"
-            case .micSlashFill: return "mic.slash.fill"
-            case .millsignCircle: return "millsign.circle"
-            case .millsignCircleFill: return "millsign.circle.fill"
-            case .millsignSquare: return "millsign.square"
-            case .millsignSquareFill: return "millsign.square.fill"
-            case .minus: return "minus"
-            case .minusCircle: return "minus.circle"
-            case .minusCircleFill: return "minus.circle.fill"
-            case .minusMagnifyingglass: return "minus.magnifyingglass"
-            case .minusRectangle: return "minus.rectangle"
-            case .minusRectangleFill: return "minus.rectangle.fill"
-            case .minusSlashPlus: return "minus.slash.plus"
-            case .minusSquare: return "minus.square"
-            case .minusSquareFill: return "minus.square.fill"
-            case .moon: return "moon"
-            case .moonCircle: return "moon.circle"
-            case .moonCircleFill: return "moon.circle.fill"
-            case .moonFill: return "moon.fill"
-            case .moonStars: return "moon.stars"
-            case .moonStarsFill: return "moon.stars.fill"
-            case .moonZzz: return "moon.zzz"
-            case .moonZzzFill: return "moon.zzz.fill"
-            case .multiply: return "multiply"
-            case .multiplyCircle: return "multiply.circle"
-            case .multiplyCircleFill: return "multiply.circle.fill"
-            case .multiplySquare: return "multiply.square"
-            case .multiplySquareFill: return "multiply.square.fill"
-            case .musicHouse: return "music.house"
-            case .musicHouseFill: return "music.house.fill"
-            case .musicMic: return "music.mic"
-            case .musicNote: return "music.note"
-            case .musicNoteHouse: return "music.house"
-            case .musicNoteHouseFill: return "music.house.fill"
-            case .musicNoteList: return "music.note.list"
-            case .nCircle: return "n.circle"
-            case .nCircleFill: return "n.circle.fill"
-            case .nSquare: return "n.square"
-            case .nSquareFill: return "n.square.fill"
-            case .nairasignCircle: return "nairasign.circle"
-            case .nairasignCircleFill: return "nairasign.circle.fill"
-            case .nairasignSquare: return "nairasign.square"
-            case .nairasignSquareFill: return "nairasign.square.fill"
-            case .nosign: return "nosign"
-            case .number: return "number"
-            case .numberCircle: return "number.circle"
-            case .numberCircleFill: return "number.circle.fill"
-            case .numberSquare: return "number.square"
-            case .numberSquareFill: return "number.square.fill"
-            case .oCircle: return "o.circle"
-            case .oCircleFill: return "o.circle.fill"
-            case .oSquare: return "o.square"
-            case .oSquareFill: return "o.square.fill"
-            case .option: return "option"
-            case .pCircle: return "p.circle"
-            case .pCircleFill: return "p.circle.fill"
-            case .pSquare: return "p.square"
-            case .pSquareFill: return "p.square.fill"
-            case .paintbrush: return "paintbrush"
-            case .paintbrushFill: return "paintbrush.fill"
-            case .pano: return "pano"
-            case .panoFill: return "pano.fill"
-            case .paperclip: return "paperclip"
-            case .paperclipCircle: return "paperclip.circle"
-            case .paperclipCircleFill: return "paperclip.circle.fill"
-            case .paperplane: return "paperplane"
-            case .paperplaneFill: return "paperplane.fill"
-            case .paragraph: return "paragraph"
-            case .paragraphsign: return "paragraph"
-            case .pause: return "pause"
-            case .pauseCircle: return "pause.circle"
-            case .pauseCircleFill: return "pause.circle.fill"
-            case .pauseFill: return "pause.fill"
-            case .pauseRectangle: return "pause.rectangle"
-            case .pauseRectangleFill: return "pause.rectangle.fill"
-            case .pencil: return "pencil"
-            case .pencilAndEllipsisRectangle: return "pencil.and.ellipsis.rectangle"
-            case .pencilAndOutline: return "pencil.and.outline"
-            case .pencilCircle: return "pencil.circle"
-            case .pencilCircleFill: return "pencil.circle.fill"
-            case .pencilSlash: return "pencil.slash"
-            case .pencilTip: return "pencil.tip"
-            case .pencilTipCropCircle: return "pencil.tip.crop.circle"
-            case .pencilTipCropCircleBadgeMinus: return "pencil.tip.crop.circle.badge.minus"
-            case .pencilTipCropCircleBadgePlus: return "pencil.tip.crop.circle.badge.plus"
-            case .percent: return "percent"
-            case .person: return "person"
-            case .person2: return "person.2"
-            case .person2Fill: return "person.2.fill"
-            case .person2SquareStack: return "person.2.square.stack"
-            case .person2SquareStackFill: return "person.2.square.stack.fill"
-            case .person3: return "person.3"
-            case .person3Fill: return "person.3.fill"
-            case .personBadgeMinus: return "person.badge.minus"
-            case .personBadgeMinusFill: return "person.badge.minus.fill"
-            case .personBadgePlus: return "person.badge.plus"
-            case .personBadgePlusFill: return "person.badge.plus.fill"
-            case .personCircle: return "person.circle"
-            case .personCircleFill: return "person.circle.fill"
-            case .personCropCircle: return "person.crop.circle"
-            case .personCropCircleBadgeCheckmark: return "person.crop.circle.badge.checkmark"
-            case .personCropCircleBadgeExclam: return "person.crop.circle.badge.exclam"
-            case .personCropCircleBadgeExclamationmark: return "person.crop.circle.badge.exclam"
-            case .personCropCircleBadgeMinus: return "person.crop.circle.badge.minus"
-            case .personCropCircleBadgePlus: return "person.crop.circle.badge.plus"
-            case .personCropCircleBadgeXmark: return "person.crop.circle.badge.xmark"
-            case .personCropCircleFill: return "person.crop.circle.fill"
-            case .personCropCircleFillBadgeCheckmark: return "person.crop.circle.fill.badge.checkmark"
-            case .personCropCircleFillBadgeExclam: return "person.crop.circle.fill.badge.exclam"
-            case .personCropCircleFillBadgeExclamationmark: return "person.crop.circle.fill.badge.exclam"
-            case .personCropCircleFillBadgeMinus: return "person.crop.circle.fill.badge.minus"
-            case .personCropCircleFillBadgePlus: return "person.crop.circle.fill.badge.plus"
-            case .personCropCircleFillBadgeXmark: return "person.crop.circle.fill.badge.xmark"
-            case .personCropRectangle: return "person.crop.rectangle"
-            case .personCropRectangleFill: return "person.crop.rectangle.fill"
-            case .personCropSquare: return "person.crop.square"
-            case .personCropSquareFill: return "person.crop.square.fill"
-            case .personFill: return "person.fill"
-            case .personFillBadgeMinus: return "person.badge.minus.fill"
-            case .personFillBadgePlus: return "person.badge.plus.fill"
-            case .personIcloud: return "person.icloud"
-            case .personIcloudFill: return "person.icloud.fill"
-            case .personalhotspot: return "personalhotspot"
-            case .perspective: return "perspective"
-            case .pesetasignCircle: return "pesetasign.circle"
-            case .pesetasignCircleFill: return "pesetasign.circle.fill"
-            case .pesetasignSquare: return "pesetasign.square"
-            case .pesetasignSquareFill: return "pesetasign.square.fill"
-            case .pesosignCircle: return "pesosign.circle"
-            case .pesosignCircleFill: return "pesosign.circle.fill"
-            case .pesosignSquare: return "pesosign.square"
-            case .pesosignSquareFill: return "pesosign.square.fill"
-            case .phone: return "phone"
-            case .phoneArrowDownLeft: return "phone.arrow.down.left"
-            case .phoneArrowRight: return "phone.arrow.right"
-            case .phoneArrowUpRight: return "phone.arrow.up.right"
-            case .phoneBadgePlus: return "phone.badge.plus"
-            case .phoneCircle: return "phone.circle"
-            case .phoneCircleFill: return "phone.circle.fill"
-            case .phoneDown: return "phone.down"
-            case .phoneDownCircle: return "phone.down.circle"
-            case .phoneDownCircleFill: return "phone.down.circle.fill"
-            case .phoneDownFill: return "phone.down.fill"
-            case .phoneFill: return "phone.fill"
-            case .phoneFillArrowDownLeft: return "phone.fill.arrow.down.left"
-            case .phoneFillArrowRight: return "phone.fill.arrow.right"
-            case .phoneFillArrowUpRight: return "phone.fill.arrow.up.right"
-            case .phoneFillBadgePlus: return "phone.fill.badge.plus"
-            case .photo: return "photo"
-            case .photoFill: return "photo.fill"
-            case .photoFillOnRectangleFill: return "photo.fill.on.rectangle.fill"
-            case .photoOnRectangle: return "photo.on.rectangle"
-            case .pin: return "pin"
-            case .pinCircle: return "pin.circle"
-            case .pinCircleFill: return "pin.circle.fill"
-            case .pinFill: return "pin.fill"
-            case .pinSlash: return "pin.slash"
-            case .pinSlashFill: return "pin.slash.fill"
-            case .play: return "play"
-            case .playCircle: return "play.circle"
-            case .playCircleFill: return "play.circle.fill"
-            case .playFill: return "play.fill"
-            case .playRectangle: return "play.rectangle"
-            case .playRectangleFill: return "play.rectangle.fill"
-            case .playpause: return "playpause"
-            case .playpauseFill: return "playpause.fill"
-            case .plus: return "plus"
-            case .plusApp: return "plus.app"
-            case .plusAppFill: return "plus.app.fill"
-            case .plusBubble: return "plus.bubble"
-            case .plusBubbleFill: return "plus.bubble.fill"
-            case .plusCircle: return "plus.circle"
-            case .plusCircleFill: return "plus.circle.fill"
-            case .plusMagnifyingglass: return "plus.magnifyingglass"
-            case .plusRectangle: return "plus.rectangle"
-            case .plusRectangleFill: return "plus.rectangle.fill"
-            case .plusRectangleFillOnRectangleFill: return "plus.rectangle.fill.on.rectangle.fill"
-            case .plusRectangleOnRectangle: return "plus.rectangle.on.rectangle"
-            case .plusSlashMinus: return "plus.slash.minus"
-            case .plusSquare: return "plus.square"
-            case .plusSquareFill: return "plus.square.fill"
-            case .plusSquareFillOnSquareFill: return "plus.square.fill.on.square.fill"
-            case .plusSquareOnSquare: return "plus.square.on.square"
-            case .plusminus: return "plusminus"
-            case .plusminusCircle: return "plusminus.circle"
-            case .plusminusCircleFill: return "plusminus.circle.fill"
-            case .power: return "power"
-            case .printer: return "printer"
-            case .printerFill: return "printer.fill"
-            case .projective: return "projective"
-            case .purchased: return "purchased"
-            case .purchasedCircle: return "purchased.circle"
-            case .purchasedCircleFill: return "purchased.circle.fill"
-            case .qCircle: return "q.circle"
-            case .qCircleFill: return "q.circle.fill"
-            case .qSquare: return "q.square"
-            case .qSquareFill: return "q.square.fill"
-            case .qrcode: return "qrcode"
-            case .qrcodeViewfinder: return "qrcode.viewfinder"
-            case .questionmark: return "questionmark"
-            case .questionmarkCircle: return "questionmark.circle"
-            case .questionmarkCircleFill: return "questionmark.circle.fill"
-            case .questionmarkDiamond: return "questionmark.diamond"
-            case .questionmarkDiamondFill: return "questionmark.diamond.fill"
-            case .questionmarkSquare: return "questionmark.square"
-            case .questionmarkSquareFill: return "questionmark.square.fill"
-            case .questionmarkVideo: return "questionmark.video"
-            case .questionmarkVideoFill: return "questionmark.video.fill"
-            case .quoteBubble: return "quote.bubble"
-            case .quoteBubbleFill: return "quote.bubble.fill"
-            case .rCircle: return "r.circle"
-            case .rCircleFill: return "r.circle.fill"
-            case .rSquare: return "r.square"
-            case .rSquareFill: return "r.square.fill"
-            case .radiowavesLeft: return "radiowaves.left"
-            case .radiowavesRight: return "radiowaves.right"
-            case .rays: return "rays"
-            case .recordingtape: return "recordingtape"
-            case .rectangle: return "rectangle"
-            case .rectangle3Offgrid: return "rectangle.3.offgrid"
-            case .rectangle3OffgridFill: return "rectangle.3.offgrid.fill"
-            case .rectangleAndArrowUpRightAndArrowDownLeft: return "rectangle.and.arrow.up.right.and.arrow.down.left"
-            case .rectangleAndArrowUpRightAndArrowDownLeftSlash: return "rectangle.and.arrow.up.right.and.arrow.down.left.slash"
-            case .rectangleAndPaperclip: return "rectangle.and.paperclip"
-            case .rectangleAndPencilAndEllipsis: return "pencil.and.ellipsis.rectangle"
-            case .rectangleBadgeCheckmark: return "rectangle.badge.checkmark"
-            case .rectangleBadgeXmark: return "rectangle.badge.xmark"
-            case .rectangleCompressVertical: return "rectangle.compress.vertical"
-            case .rectangleDock: return "rectangle.dock"
-            case .rectangleExpandVertical: return "rectangle.expand.vertical"
-            case .rectangleFill: return "rectangle.fill"
-            case .rectangleFillBadgeCheckmark: return "rectangle.fill.badge.checkmark"
-            case .rectangleFillBadgeXmark: return "rectangle.fill.badge.xmark"
-            case .rectangleFillOnRectangleAngledFill: return "rectangle.fill.on.rectangle.angled.fill"
-            case .rectangleFillOnRectangleFill: return "rectangle.fill.on.rectangle.fill"
-            case .rectangleGrid1x2: return "rectangle.grid.1x2"
-            case .rectangleGrid1x2Fill: return "rectangle.grid.1x2.fill"
-            case .rectangleGrid2x2: return "rectangle.grid.2x2"
-            case .rectangleGrid2x2Fill: return "rectangle.grid.2x2.fill"
-            case .rectangleGrid3x2: return "rectangle.grid.3x2"
-            case .rectangleGrid3x2Fill: return "rectangle.grid.3x2.fill"
-            case .rectangleOnRectangle: return "rectangle.on.rectangle"
-            case .rectangleOnRectangleAngled: return "rectangle.on.rectangle.angled"
-            case .rectangleSplit3x1: return "rectangle.split.3x1"
-            case .rectangleSplit3x1Fill: return "rectangle.split.3x1.fill"
-            case .rectangleSplit3x3: return "rectangle.split.3x3"
-            case .rectangleSplit3x3Fill: return "rectangle.split.3x3.fill"
-            case .rectangleStack: return "rectangle.stack"
-            case .rectangleStackBadgeMinus: return "rectangle.stack.badge.minus"
-            case .rectangleStackBadgePersonCrop: return "rectangle.stack.badge.person.crop"
-            case .rectangleStackBadgePlus: return "rectangle.stack.badge.plus"
-            case .rectangleStackFill: return "rectangle.stack.fill"
-            case .rectangleStackFillBadgeMinus: return "rectangle.stack.fill.badge.minus"
-            case .rectangleStackFillBadgePersonCrop: return "rectangle.stack.fill.badge.person.crop"
-            case .rectangleStackFillBadgePlus: return "rectangle.stack.fill.badge.plus"
-            case .rectangleStackPersonCrop: return "rectangle.stack.person.crop"
-            case .rectangleStackPersonCropFill: return "rectangle.stack.person.crop.fill"
-            case .`repeat`: return "repeat"
-            case .repeat1: return "repeat.1"
-            case .`return`: return "return"
-            case .rhombus: return "rhombus"
-            case .rhombusFill: return "rhombus.fill"
-            case .rosette: return "rosette"
-            case .rotateLeft: return "rotate.left"
-            case .rotateLeftFill: return "rotate.left.fill"
-            case .rotateRight: return "rotate.right"
-            case .rotateRightFill: return "rotate.right.fill"
-            case .rublesignCircle: return "rublesign.circle"
-            case .rublesignCircleFill: return "rublesign.circle.fill"
-            case .rublesignSquare: return "rublesign.square"
-            case .rublesignSquareFill: return "rublesign.square.fill"
-            case .rupeesignCircle: return "rupeesign.circle"
-            case .rupeesignCircleFill: return "rupeesign.circle.fill"
-            case .rupeesignSquare: return "rupeesign.square"
-            case .rupeesignSquareFill: return "rupeesign.square.fill"
-            case .sCircle: return "s.circle"
-            case .sCircleFill: return "s.circle.fill"
-            case .sSquare: return "s.square"
-            case .sSquareFill: return "s.square.fill"
-            case .safari: return "safari"
-            case .safariFill: return "safari.fill"
-            case .scissors: return "scissors"
-            case .scissorsBadgeEllipsis: return "scissors.badge.ellipsis"
-            case .scope: return "scope"
-            case .scribble: return "scribble"
-            case .selectionPinInOut: return "selection.pin.in.out"
-            case .shekelsignCircle: return "sheqelsign.circle"
-            case .shekelsignCircleFill: return "sheqelsign.circle.fill"
-            case .shekelsignSquare: return "sheqelsign.square"
-            case .shekelsignSquareFill: return "sheqelsign.square.fill"
-            case .sheqelsignCircle: return "sheqelsign.circle"
-            case .sheqelsignCircleFill: return "sheqelsign.circle.fill"
-            case .sheqelsignSquare: return "sheqelsign.square"
-            case .sheqelsignSquareFill: return "sheqelsign.square.fill"
-            case .shield: return "shield"
-            case .shieldFill: return "shield.fill"
-            case .shieldLefthalfFill: return "shield.lefthalf.fill"
-            case .shieldSlash: return "shield.slash"
-            case .shieldSlashFill: return "shield.slash.fill"
-            case .shift: return "shift"
-            case .shiftFill: return "shift.fill"
-            case .shippingbox: return "cube.box"
-            case .shippingboxFill: return "cube.box.fill"
-            case .shuffle: return "shuffle"
-            case .sidebarLeft: return "sidebar.left"
-            case .sidebarRight: return "sidebar.right"
-            case .signature: return "signature"
-            case .skew: return "skew"
-            case .slashCircle: return "slash.circle"
-            case .slashCircleFill: return "slash.circle.fill"
-            case .sleep: return "circle.bottomthird.split"
-            case .sliderHorizontal3: return "slider.horizontal.3"
-            case .sliderHorizontalBelowRectangle: return "slider.horizontal.below.rectangle"
-            case .slowmo: return "slowmo"
-            case .smallcircleCircle: return "smallcircle.circle"
-            case .smallcircleCircleFill: return "smallcircle.circle.fill"
-            case .smallcircleFillCircle: return "smallcircle.fill.circle"
-            case .smallcircleFillCircleFill: return "smallcircle.fill.circle.fill"
-            case .smiley: return "smiley"
-            case .smileyFill: return "smiley.fill"
-            case .smoke: return "smoke"
-            case .smokeFill: return "smoke.fill"
-            case .snow: return "snow"
-            case .sparkles: return "sparkles"
-            case .speaker: return "speaker"
-            case .speaker1: return "speaker.1"
-            case .speaker1Fill: return "speaker.1.fill"
-            case .speaker2: return "speaker.2"
-            case .speaker2Fill: return "speaker.2.fill"
-            case .speaker3: return "speaker.3"
-            case .speaker3Fill: return "speaker.3.fill"
-            case .speakerFill: return "speaker.fill"
-            case .speakerSlash: return "speaker.slash"
-            case .speakerSlashFill: return "speaker.slash.fill"
-            case .speakerWave1: return "speaker.1"
-            case .speakerWave1Fill: return "speaker.1.fill"
-            case .speakerWave2: return "speaker.2"
-            case .speakerWave2Fill: return "speaker.2.fill"
-            case .speakerWave3: return "speaker.3"
-            case .speakerWave3Fill: return "speaker.3.fill"
-            case .speakerZzz: return "speaker.zzz"
-            case .speakerZzzFill: return "speaker.zzz.fill"
-            case .speedometer: return "speedometer"
-            case .sportscourt: return "sportscourt"
-            case .sportscourtFill: return "sportscourt.fill"
-            case .square: return "square"
-            case .squareAndArrowDown: return "square.and.arrow.down"
-            case .squareAndArrowDownFill: return "square.and.arrow.down.fill"
-            case .squareAndArrowDownOnSquare: return "square.and.arrow.down.on.square"
-            case .squareAndArrowDownOnSquareFill: return "square.and.arrow.down.on.square.fill"
-            case .squareAndArrowUp: return "square.and.arrow.up"
-            case .squareAndArrowUpFill: return "square.and.arrow.up.fill"
-            case .squareAndArrowUpOnSquare: return "square.and.arrow.up.on.square"
-            case .squareAndArrowUpOnSquareFill: return "square.and.arrow.up.on.square.fill"
-            case .squareAndLineVerticalAndSquare: return "square.and.line.vertical.and.square"
-            case .squareAndLineVerticalAndSquareFill: return "square.and.line.vertical.and.square.fill"
-            case .squareAndPencil: return "square.and.pencil"
-            case .squareFill: return "square.fill"
-            case .squareFillAndLineVerticalAndSquare: return "square.fill.and.line.vertical.and.square"
-            case .squareFillAndLineVerticalSquareFill: return "square.fill.and.line.vertical.square.fill"
-            case .squareFillOnCircleFill: return "square.fill.on.circle.fill"
-            case .squareFillOnSquareFill: return "square.fill.on.square.fill"
-            case .squareGrid2x2: return "square.grid.2x2"
-            case .squareGrid2x2Fill: return "square.grid.2x2.fill"
-            case .squareGrid3x2: return "square.grid.3x2"
-            case .squareGrid3x2Fill: return "square.grid.3x2.fill"
-            case .squareGrid4x3Fill: return "square.grid.4x3.fill"
-            case .squareLefthalfFill: return "square.lefthalf.fill"
-            case .squareOnCircle: return "square.on.circle"
-            case .squareOnSquare: return "square.on.square"
-            case .squareRighthalfFill: return "square.righthalf.fill"
-            case .squareSplit1x2: return "square.split.1x2"
-            case .squareSplit1x2Fill: return "square.split.1x2.fill"
-            case .squareSplit2x1: return "square.split.2x1"
-            case .squareSplit2x1Fill: return "square.split.2x1.fill"
-            case .squareSplit2x2: return "square.split.2x2"
-            case .squareSplit2x2Fill: return "square.split.2x2.fill"
-            case .squareStack: return "square.stack"
-            case .squareStack3dDownDottedline: return "square.stack.3d.down.dottedline"
-            case .squareStack3dDownRight: return "square.stack.3d.down.right"
-            case .squareStack3dDownRightFill: return "square.stack.3d.down.right.fill"
-            case .squareStack3dForwardDottedline: return "square.stack.3d.down.dottedline"
-            case .squareStack3dUp: return "square.stack.3d.up"
-            case .squareStack3dUpFill: return "square.stack.3d.up.fill"
-            case .squareStack3dUpSlash: return "square.stack.3d.up.slash"
-            case .squareStack3dUpSlashFill: return "square.stack.3d.up.slash.fill"
-            case .squareStackFill: return "square.stack.fill"
-            case .squaresBelowRectangle: return "squares.below.rectangle"
-            case .star: return "star"
-            case .starCircle: return "star.circle"
-            case .starCircleFill: return "star.circle.fill"
-            case .starFill: return "star.fill"
-            case .starLeadinghalfFill: return "star.lefthalf.fill"
-            case .starLefthalfFill: return "star.lefthalf.fill"
-            case .starSlash: return "star.slash"
-            case .starSlashFill: return "star.slash.fill"
-            case .staroflife: return "staroflife"
-            case .staroflifeFill: return "staroflife.fill"
-            case .sterlingsignCircle: return "sterlingsign.circle"
-            case .sterlingsignCircleFill: return "sterlingsign.circle.fill"
-            case .sterlingsignSquare: return "sterlingsign.square"
-            case .sterlingsignSquareFill: return "sterlingsign.square.fill"
-            case .stop: return "stop"
-            case .stopCircle: return "stop.circle"
-            case .stopCircleFill: return "stop.circle.fill"
-            case .stopFill: return "stop.fill"
-            case .stopwatch: return "stopwatch"
-            case .stopwatchFill: return "stopwatch.fill"
-            case .strikethrough: return "strikethrough"
-            case .studentdesk: return "studentdesk"
-            case .suitClub: return "suit.club"
-            case .suitClubFill: return "suit.club.fill"
-            case .suitDiamond: return "suit.diamond"
-            case .suitDiamondFill: return "suit.diamond.fill"
-            case .suitHeart: return "suit.heart"
-            case .suitHeartFill: return "suit.heart.fill"
-            case .suitSpade: return "suit.spade"
-            case .suitSpadeFill: return "suit.spade.fill"
-            case .sum: return "sum"
-            case .sunDust: return "sun.dust"
-            case .sunDustFill: return "sun.dust.fill"
-            case .sunHaze: return "sun.haze"
-            case .sunHazeFill: return "sun.haze.fill"
-            case .sunMax: return "sun.max"
-            case .sunMaxFill: return "sun.max.fill"
-            case .sunMin: return "sun.min"
-            case .sunMinFill: return "sun.min.fill"
-            case .sunrise: return "sunrise"
-            case .sunriseFill: return "sunrise.fill"
-            case .sunset: return "sunset"
-            case .sunsetFill: return "sunset.fill"
-            case .tBubble: return "t.bubble"
-            case .tBubbleFill: return "t.bubble.fill"
-            case .tCircle: return "t.circle"
-            case .tCircleFill: return "t.circle.fill"
-            case .tSquare: return "t.square"
-            case .tSquareFill: return "t.square.fill"
-            case .table: return "table"
-            case .tableBadgeMore: return "table.badge.more"
-            case .tableBadgeMoreFill: return "table.badge.more.fill"
-            case .tableFill: return "table.fill"
-            case .tablecells: return "table"
-            case .tablecellsBadgeEllipsis: return "table.badge.more"
-            case .tablecellsBadgeEllipsisFill: return "table.badge.more.fill"
-            case .tablecellsFill: return "table.fill"
-            case .tag: return "tag"
-            case .tagCircle: return "tag.circle"
-            case .tagCircleFill: return "tag.circle.fill"
-            case .tagFill: return "tag.fill"
-            case .teletype: return "teletype"
-            case .teletypeAnswer: return "teletype.answer"
-            case .tengesignCircle: return "tengesign.circle"
-            case .tengesignCircleFill: return "tengesign.circle.fill"
-            case .tengesignSquare: return "tengesign.square"
-            case .tengesignSquareFill: return "tengesign.square.fill"
-            case .textAligncenter: return "text.aligncenter"
-            case .textAlignleft: return "text.alignleft"
-            case .textAlignright: return "text.alignright"
-            case .textAppend: return "text.append"
-            case .textBadgeCheckmark: return "text.badge.checkmark"
-            case .textBadgeMinus: return "text.badge.minus"
-            case .textBadgePlus: return "text.badge.plus"
-            case .textBadgeStar: return "text.badge.star"
-            case .textBadgeXmark: return "text.badge.xmark"
-            case .textBubble: return "text.bubble"
-            case .textBubbleFill: return "text.bubble.fill"
-            case .textCursor: return "text.cursor"
-            case .textInsert: return "text.insert"
-            case .textJustify: return "text.justify"
-            case .textJustifyleft: return "text.justifyleft"
-            case .textJustifyright: return "text.justifyright"
-            case .textQuote: return "text.quote"
-            case .textbox: return "textbox"
-            case .textformat: return "textformat"
-            case .textformat123: return "textformat.123"
-            case .textformatAbc: return "textformat.abc"
-            case .textformatAbcDottedunderline: return "textformat.abc.dottedunderline"
-            case .textformatAlt: return "textformat.alt"
-            case .textformatSize: return "textformat.size"
-            case .textformatSubscript: return "textformat.subscript"
-            case .textformatSuperscript: return "textformat.superscript"
-            case .thermometer: return "thermometer"
-            case .thermometerSnowflake: return "thermometer.snowflake"
-            case .thermometerSun: return "thermometer.sun"
-            case .timelapse: return "timelapse"
-            case .timer: return "timer"
-            case .tornado: return "tornado"
-            case .tortoise: return "tortoise"
-            case .tortoiseFill: return "tortoise.fill"
-            case .tramFill: return "tram.fill"
-            case .trash: return "trash"
-            case .trashCircle: return "trash.circle"
-            case .trashCircleFill: return "trash.circle.fill"
-            case .trashFill: return "trash.fill"
-            case .trashSlash: return "trash.slash"
-            case .trashSlashFill: return "trash.slash.fill"
-            case .tray: return "tray"
-            case .tray2: return "tray.2"
-            case .tray2Fill: return "tray.2.fill"
-            case .trayAndArrowDown: return "tray.and.arrow.down"
-            case .trayAndArrowDownFill: return "tray.and.arrow.down.fill"
-            case .trayAndArrowUp: return "tray.and.arrow.up"
-            case .trayAndArrowUpFill: return "tray.and.arrow.up.fill"
-            case .trayFill: return "tray.fill"
-            case .trayFull: return "tray.full"
-            case .trayFullFill: return "tray.full.fill"
-            case .triangle: return "triangle"
-            case .triangleFill: return "triangle.fill"
-            case .triangleLefthalfFill: return "triangle.lefthalf.fill"
-            case .triangleRighthalfFill: return "triangle.righthalf.fill"
-            case .tropicalstorm: return "tropicalstorm"
-            case .tugriksignCircle: return "tugriksign.circle"
-            case .tugriksignCircleFill: return "tugriksign.circle.fill"
-            case .tugriksignSquare: return "tugriksign.square"
-            case .tugriksignSquareFill: return "tugriksign.square.fill"
-            case .tuningfork: return "tuningfork"
-            case .turkishlirasignCircle: return "turkishlirasign.circle"
-            case .turkishlirasignCircleFill: return "turkishlirasign.circle.fill"
-            case .turkishlirasignSquare: return "turkishlirasign.square"
-            case .turkishlirasignSquareFill: return "turkishlirasign.square.fill"
-            case .tv: return "tv"
-            case .tvCircle: return "tv.circle"
-            case .tvCircleFill: return "tv.circle.fill"
-            case .tvFill: return "tv.fill"
-            case .tvMusicNote: return "tv.music.note"
-            case .tvMusicNoteFill: return "tv.music.note.fill"
-            case .uCircle: return "u.circle"
-            case .uCircleFill: return "u.circle.fill"
-            case .uSquare: return "u.square"
-            case .uSquareFill: return "u.square.fill"
-            case .uiwindowSplit2x1: return "uiwindow.split.2x1"
-            case .umbrella: return "umbrella"
-            case .umbrellaFill: return "umbrella.fill"
-            case .underline: return "underline"
-            case .vCircle: return "v.circle"
-            case .vCircleFill: return "v.circle.fill"
-            case .vSquare: return "v.square"
-            case .vSquareFill: return "v.square.fill"
-            case .video: return "video"
-            case .videoBadgePlus: return "video.badge.plus"
-            case .videoBadgePlusFill: return "video.badge.plus.fill"
-            case .videoCircle: return "video.circle"
-            case .videoCircleFill: return "video.circle.fill"
-            case .videoFill: return "video.fill"
-            case .videoFillBadgePlus: return "video.badge.plus.fill"
-            case .videoSlash: return "video.slash"
-            case .videoSlashFill: return "video.slash.fill"
-            case .view2d: return "view.2d"
-            case .view3d: return "view.3d"
-            case .viewfinder: return "viewfinder"
-            case .viewfinderCircle: return "viewfinder.circle"
-            case .viewfinderCircleFill: return "viewfinder.circle.fill"
-            case .wCircle: return "w.circle"
-            case .wCircleFill: return "w.circle.fill"
-            case .wSquare: return "w.square"
-            case .wSquareFill: return "w.square.fill"
-            case .wandAndRays: return "wand.and.rays"
-            case .wandAndRaysInverse: return "wand.and.rays.inverse"
-            case .wandAndStars: return "wand.and.stars"
-            case .wandAndStarsInverse: return "wand.and.stars.inverse"
-            case .wave3Left: return "radiowaves.left"
-            case .wave3Right: return "radiowaves.right"
-            case .waveform: return "waveform"
-            case .waveformCircle: return "waveform.circle"
-            case .waveformCircleFill: return "waveform.circle.fill"
-            case .waveformPath: return "waveform.path"
-            case .waveformPathBadgeMinus: return "waveform.path.badge.minus"
-            case .waveformPathBadgePlus: return "waveform.path.badge.plus"
-            case .waveformPathEcg: return "waveform.path.ecg"
-            case .wifi: return "wifi"
-            case .wifiExclamationmark: return "wifi.exclamationmark"
-            case .wifiSlash: return "wifi.slash"
-            case .wind: return "wind"
-            case .windSnow: return "wind.snow"
-            case .wonsignCircle: return "wonsign.circle"
-            case .wonsignCircleFill: return "wonsign.circle.fill"
-            case .wonsignSquare: return "wonsign.square"
-            case .wonsignSquareFill: return "wonsign.square.fill"
-            case .wrench: return "wrench"
-            case .wrenchFill: return "wrench.fill"
-            case .xCircle: return "x.circle"
-            case .xCircleFill: return "x.circle.fill"
-            case .xSquare: return "x.square"
-            case .xSquareFill: return "x.square.fill"
-            case .xSquareroot: return "x.squareroot"
-            case .xmark: return "xmark"
-            case .xmarkBin: return "bin.xmark"
-            case .xmarkBinFill: return "bin.xmark.fill"
-            case .xmarkCircle: return "xmark.circle"
-            case .xmarkCircleFill: return "xmark.circle.fill"
-            case .xmarkIcloud: return "xmark.icloud"
-            case .xmarkIcloudFill: return "xmark.icloud.fill"
-            case .xmarkOctagon: return "xmark.octagon"
-            case .xmarkOctagonFill: return "xmark.octagon.fill"
-            case .xmarkRectangle: return "xmark.rectangle"
-            case .xmarkRectangleFill: return "xmark.rectangle.fill"
-            case .xmarkSeal: return "xmark.seal"
-            case .xmarkSealFill: return "xmark.seal.fill"
-            case .xmarkShield: return "xmark.shield"
-            case .xmarkShieldFill: return "xmark.shield.fill"
-            case .xmarkSquare: return "xmark.square"
-            case .xmarkSquareFill: return "xmark.square.fill"
-            case .yCircle: return "y.circle"
-            case .yCircleFill: return "y.circle.fill"
-            case .ySquare: return "y.square"
-            case .ySquareFill: return "y.square.fill"
-            case .yensignCircle: return "yensign.circle"
-            case .yensignCircleFill: return "yensign.circle.fill"
-            case .yensignSquare: return "yensign.square"
-            case .yensignSquareFill: return "yensign.square.fill"
-            case .zCircle: return "z.circle"
-            case .zCircleFill: return "z.circle.fill"
-            case .zSquare: return "z.square"
-            case .zSquareFill: return "z.square.fill"
-            case .zzz: return "zzz"
-            default: fatalError() // While this triggers a compiler warning, without this, the compiler would fail
-            }
-        }
-    }
+    case zzz = "zzz"
 
     public static var allCases: [SFSymbol] {
         if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *) {
