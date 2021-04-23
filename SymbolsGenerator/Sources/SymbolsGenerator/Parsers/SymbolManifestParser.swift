@@ -26,7 +26,7 @@ struct SymbolManifestParser {
             Availability(iOS: value["iOS"]!, tvOS: value["tvOS"]!, watchOS: value["watchOS"]!, macOS: value["macOS"]!, year: key)
         }
 
-        for (key, value) in plist.symbols {
+        for (key, value) in plist.symbols.sorted(by: { $0.key < $1.key }) {
             guard let availability = (availabilities.first { $0.year == value }) else {
                 // Cancel on single failure
                 return nil
@@ -36,8 +36,10 @@ struct SymbolManifestParser {
 
         // Unfortunately, the data is inconsistent and for some symbols there are conflicting availability dates
         // We just remove those symbols completely
-        availabilityFile = availabilityFile.filter { scannedSymbol in !availabilityFile.contains { $0.name == scannedSymbol.name && $0.availability != scannedSymbol.availability } }
-
+        availabilityFile = availabilityFile.filter { scannedSymbol in
+            !availabilityFile.contains { $0.name == scannedSymbol.name && $0.availability != scannedSymbol.availability }
+        }
+        
         return availabilityFile
     }
 }

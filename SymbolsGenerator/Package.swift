@@ -3,17 +3,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "SymbolEnumCreator",
+    name: "SymbolsGenerator",
     products: [
-        .executable(name: "SymbolEnumCreator", targets: ["SymbolEnumCreator"])
+        .executable(name: "SymbolsGenerator", targets: ["SymbolsGenerator"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "SymbolEnumCreator",
+            name: "SymbolsGenerator",
             dependencies: [],
             resources: [
-                .copy("Resources")
+                .copy("Resources"),
             ]
         ),
     ]
