@@ -131,7 +131,7 @@ let symbolToCode: (Symbol) -> String = { symbol in
     }
 
     // Generate case
-    outputString += "\n\tstatic let \(symbol.propertyName) = SFSymbol(rawValue: \"\(symbol.name)\")"
+    outputString += "\n\tstatic let \(symbol.propertyName) = SFSymbol(systemName: \"\(symbol.name)\")"
 
     return outputString
 }

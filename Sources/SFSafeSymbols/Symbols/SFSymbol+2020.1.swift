@@ -4,150 +4,150 @@
 @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
 public extension SFSymbol {
     /// 􀵀
-    static let aqiHigh = SFSymbol(rawValue: "aqi.high")
+    static let aqiHigh = SFSymbol(systemName: "aqi.high")
 
     /// 􀴾
-    static let aqiLow = SFSymbol(rawValue: "aqi.low")
+    static let aqiLow = SFSymbol(systemName: "aqi.low")
 
     /// 􀴿
-    static let aqiMedium = SFSymbol(rawValue: "aqi.medium")
+    static let aqiMedium = SFSymbol(systemName: "aqi.medium")
 
     /// 􀮰
-    static let brazilianrealsignCircle = SFSymbol(rawValue: "brazilianrealsign.circle")
+    static let brazilianrealsignCircle = SFSymbol(systemName: "brazilianrealsign.circle")
 
     /// 􀮱
-    static let brazilianrealsignCircleFill = SFSymbol(rawValue: "brazilianrealsign.circle.fill")
+    static let brazilianrealsignCircleFill = SFSymbol(systemName: "brazilianrealsign.circle.fill")
 
     /// 􀮲
-    static let brazilianrealsignSquare = SFSymbol(rawValue: "brazilianrealsign.square")
+    static let brazilianrealsignSquare = SFSymbol(systemName: "brazilianrealsign.square")
 
     /// 􀮳
-    static let brazilianrealsignSquareFill = SFSymbol(rawValue: "brazilianrealsign.square.fill")
+    static let brazilianrealsignSquareFill = SFSymbol(systemName: "brazilianrealsign.square.fill")
 
     /// 􀒭
-    static let cartCircle = SFSymbol(rawValue: "cart.circle")
+    static let cartCircle = SFSymbol(systemName: "cart.circle")
 
     /// 􀒮
-    static let cartCircleFill = SFSymbol(rawValue: "cart.circle.fill")
+    static let cartCircleFill = SFSymbol(systemName: "cart.circle.fill")
 
     /// 􀅏
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
-    static let character = SFSymbol(rawValue: "character")
+    static let character = SFSymbol(systemName: "character")
 
     /// 􀫕
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
-    static let characterBookClosed = SFSymbol(rawValue: "character.book.closed")
+    static let characterBookClosed = SFSymbol(systemName: "character.book.closed")
 
     /// 􀫖
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
-    static let characterBookClosedFill = SFSymbol(rawValue: "character.book.closed.fill")
+    static let characterBookClosedFill = SFSymbol(systemName: "character.book.closed.fill")
 
     /// 􀯛
-    static let clockArrow2Circlepath = SFSymbol(rawValue: "clock.arrow.2.circlepath")
+    static let clockArrow2Circlepath = SFSymbol(systemName: "clock.arrow.2.circlepath")
 
     /// 􀯝
-    static let directcurrent = SFSymbol(rawValue: "directcurrent")
+    static let directcurrent = SFSymbol(systemName: "directcurrent")
 
     /// 􀵄
     /// ⚠️ This symbol can refer only to Apple's Apple Watch.
-    static let exclamationmarkApplewatch = SFSymbol(rawValue: "exclamationmark.applewatch")
+    static let exclamationmarkApplewatch = SFSymbol(systemName: "exclamationmark.applewatch")
 
     /// 􀵏
-    static let infinityCircle = SFSymbol(rawValue: "infinity.circle")
+    static let infinityCircle = SFSymbol(systemName: "infinity.circle")
 
     /// 􀵐
-    static let infinityCircleFill = SFSymbol(rawValue: "infinity.circle.fill")
+    static let infinityCircleFill = SFSymbol(systemName: "infinity.circle.fill")
 
     /// 􀴓
     /// ⚠️ This symbol can refer only to Apple's iPad.
-    static let ipadBadgePlay = SFSymbol(rawValue: "ipad.badge.play")
+    static let ipadBadgePlay = SFSymbol(systemName: "ipad.badge.play")
 
     /// 􀴒
     /// ⚠️ This symbol can refer only to Apple's iPad.
-    static let ipadHomebuttonBadgePlay = SFSymbol(rawValue: "ipad.homebutton.badge.play")
+    static let ipadHomebuttonBadgePlay = SFSymbol(systemName: "ipad.homebutton.badge.play")
 
     /// 􀵑
     /// ⚠️ This symbol can refer only to Apple's iPad.
-    static let ipadHomebuttonLandscapeBadgePlay = SFSymbol(rawValue: "ipad.homebutton.landscape.badge.play")
+    static let ipadHomebuttonLandscapeBadgePlay = SFSymbol(systemName: "ipad.homebutton.landscape.badge.play")
 
     /// 􀵒
     /// ⚠️ This symbol can refer only to Apple's iPad.
-    static let ipadLandscapeBadgePlay = SFSymbol(rawValue: "ipad.landscape.badge.play")
+    static let ipadLandscapeBadgePlay = SFSymbol(systemName: "ipad.landscape.badge.play")
 
     /// 􀴑
     /// ⚠️ This symbol can refer only to Apple's iPhone.
-    static let iphoneBadgePlay = SFSymbol(rawValue: "iphone.badge.play")
+    static let iphoneBadgePlay = SFSymbol(systemName: "iphone.badge.play")
 
     /// 􀐶
     /// ⚠️ This symbol can refer only to Apple's iPhone.
-    static let iphoneHomebuttonBadgePlay = SFSymbol(rawValue: "iphone.homebutton.badge.play")
+    static let iphoneHomebuttonBadgePlay = SFSymbol(systemName: "iphone.homebutton.badge.play")
 
     /// 􀴎
     /// ⚠️ This symbol can refer only to Apple's iPhone.
-    static let iphoneHomebuttonLandscape = SFSymbol(rawValue: "iphone.homebutton.landscape")
+    static let iphoneHomebuttonLandscape = SFSymbol(systemName: "iphone.homebutton.landscape")
 
     /// 􀴏
     /// ⚠️ This symbol can refer only to Apple's iPhone.
-    static let iphoneLandscape = SFSymbol(rawValue: "iphone.landscape")
+    static let iphoneLandscape = SFSymbol(systemName: "iphone.landscape")
 
     /// 􀴐
     /// ⚠️ This symbol can refer only to Apple's iPod touch.
-    static let ipodtouchLandscape = SFSymbol(rawValue: "ipodtouch.landscape")
+    static let ipodtouchLandscape = SFSymbol(systemName: "ipodtouch.landscape")
 
     /// 􀵅
     /// ⚠️ This symbol can refer only to Apple's Apple Watch.
-    static let lockApplewatch = SFSymbol(rawValue: "lock.applewatch")
+    static let lockApplewatch = SFSymbol(systemName: "lock.applewatch")
 
     /// 􀵪
-    static let photoTv = SFSymbol(rawValue: "photo.tv")
+    static let photoTv = SFSymbol(systemName: "photo.tv")
 
     /// 􀵨
-    static let playTv = SFSymbol(rawValue: "play.tv")
+    static let playTv = SFSymbol(systemName: "play.tv")
 
     /// 􀵩
-    static let playTvFill = SFSymbol(rawValue: "play.tv.fill")
+    static let playTvFill = SFSymbol(systemName: "play.tv.fill")
 
     /// 􀵚
-    static let rectangleBadgePersonCrop = SFSymbol(rawValue: "rectangle.badge.person.crop")
+    static let rectangleBadgePersonCrop = SFSymbol(systemName: "rectangle.badge.person.crop")
 
     /// 􀵛
-    static let rectangleFillBadgePersonCrop = SFSymbol(rawValue: "rectangle.fill.badge.person.crop")
+    static let rectangleFillBadgePersonCrop = SFSymbol(systemName: "rectangle.fill.badge.person.crop")
 
     /// 􀴊
-    static let rectangleTopthirdInset = SFSymbol(rawValue: "rectangle.topthird.inset")
+    static let rectangleTopthirdInset = SFSymbol(systemName: "rectangle.topthird.inset")
 
     /// 􀵍
-    static let repeat1Circle = SFSymbol(rawValue: "repeat.1.circle")
+    static let repeat1Circle = SFSymbol(systemName: "repeat.1.circle")
 
     /// 􀵎
-    static let repeat1CircleFill = SFSymbol(rawValue: "repeat.1.circle.fill")
+    static let repeat1CircleFill = SFSymbol(systemName: "repeat.1.circle.fill")
 
     /// 􀵋
-    static let repeatCircle = SFSymbol(rawValue: "repeat.circle")
+    static let repeatCircle = SFSymbol(systemName: "repeat.circle")
 
     /// 􀵌
-    static let repeatCircleFill = SFSymbol(rawValue: "repeat.circle.fill")
+    static let repeatCircleFill = SFSymbol(systemName: "repeat.circle.fill")
 
     /// 􀵔
-    static let shieldCheckerboard = SFSymbol(rawValue: "shield.checkerboard")
+    static let shieldCheckerboard = SFSymbol(systemName: "shield.checkerboard")
 
     /// 􀵉
-    static let shuffleCircle = SFSymbol(rawValue: "shuffle.circle")
+    static let shuffleCircle = SFSymbol(systemName: "shuffle.circle")
 
     /// 􀵊
-    static let shuffleCircleFill = SFSymbol(rawValue: "shuffle.circle.fill")
+    static let shuffleCircleFill = SFSymbol(systemName: "shuffle.circle.fill")
 
     /// 􀵿
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
-    static let textformatSizeLarger = SFSymbol(rawValue: "textformat.size.larger")
+    static let textformatSizeLarger = SFSymbol(systemName: "textformat.size.larger")
 
     /// 􀵷
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
-    static let textformatSizeSmaller = SFSymbol(rawValue: "textformat.size.smaller")
+    static let textformatSizeSmaller = SFSymbol(systemName: "textformat.size.smaller")
 
     /// 􀴌
-    static let torus = SFSymbol(rawValue: "torus")
+    static let torus = SFSymbol(systemName: "torus")
 
     /// 􀲰
-    static let tvAndMediabox = SFSymbol(rawValue: "tv.and.mediabox")
+    static let tvAndMediabox = SFSymbol(systemName: "tv.and.mediabox")
 }

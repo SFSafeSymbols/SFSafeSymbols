@@ -4,5070 +4,5070 @@
 @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
 public extension SFSymbol {
     /// 􀀸
-    static let _0Circle = SFSymbol(rawValue: "0.circle")
+    static let _0Circle = SFSymbol(systemName: "0.circle")
 
     /// 􀀹
-    static let _0CircleFill = SFSymbol(rawValue: "0.circle.fill")
+    static let _0CircleFill = SFSymbol(systemName: "0.circle.fill")
 
     /// 􀃈
-    static let _0Square = SFSymbol(rawValue: "0.square")
+    static let _0Square = SFSymbol(systemName: "0.square")
 
     /// 􀃉
-    static let _0SquareFill = SFSymbol(rawValue: "0.square.fill")
+    static let _0SquareFill = SFSymbol(systemName: "0.square.fill")
 
     /// 􀓫
-    static let _00Circle = SFSymbol(rawValue: "00.circle")
+    static let _00Circle = SFSymbol(systemName: "00.circle")
 
     /// 􀔊
-    static let _00CircleFill = SFSymbol(rawValue: "00.circle.fill")
+    static let _00CircleFill = SFSymbol(systemName: "00.circle.fill")
 
     /// 􀔩
-    static let _00Square = SFSymbol(rawValue: "00.square")
+    static let _00Square = SFSymbol(systemName: "00.square")
 
     /// 􀕈
-    static let _00SquareFill = SFSymbol(rawValue: "00.square.fill")
+    static let _00SquareFill = SFSymbol(systemName: "00.square.fill")
 
     /// 􀓬
-    static let _01Circle = SFSymbol(rawValue: "01.circle")
+    static let _01Circle = SFSymbol(systemName: "01.circle")
 
     /// 􀔋
-    static let _01CircleFill = SFSymbol(rawValue: "01.circle.fill")
+    static let _01CircleFill = SFSymbol(systemName: "01.circle.fill")
 
     /// 􀔪
-    static let _01Square = SFSymbol(rawValue: "01.square")
+    static let _01Square = SFSymbol(systemName: "01.square")
 
     /// 􀕉
-    static let _01SquareFill = SFSymbol(rawValue: "01.square.fill")
+    static let _01SquareFill = SFSymbol(systemName: "01.square.fill")
 
     /// 􀓭
-    static let _02Circle = SFSymbol(rawValue: "02.circle")
+    static let _02Circle = SFSymbol(systemName: "02.circle")
 
     /// 􀔌
-    static let _02CircleFill = SFSymbol(rawValue: "02.circle.fill")
+    static let _02CircleFill = SFSymbol(systemName: "02.circle.fill")
 
     /// 􀔫
-    static let _02Square = SFSymbol(rawValue: "02.square")
+    static let _02Square = SFSymbol(systemName: "02.square")
 
     /// 􀕊
-    static let _02SquareFill = SFSymbol(rawValue: "02.square.fill")
+    static let _02SquareFill = SFSymbol(systemName: "02.square.fill")
 
     /// 􀓮
-    static let _03Circle = SFSymbol(rawValue: "03.circle")
+    static let _03Circle = SFSymbol(systemName: "03.circle")
 
     /// 􀔍
-    static let _03CircleFill = SFSymbol(rawValue: "03.circle.fill")
+    static let _03CircleFill = SFSymbol(systemName: "03.circle.fill")
 
     /// 􀔬
-    static let _03Square = SFSymbol(rawValue: "03.square")
+    static let _03Square = SFSymbol(systemName: "03.square")
 
     /// 􀕋
-    static let _03SquareFill = SFSymbol(rawValue: "03.square.fill")
+    static let _03SquareFill = SFSymbol(systemName: "03.square.fill")
 
     /// 􀓯
-    static let _04Circle = SFSymbol(rawValue: "04.circle")
+    static let _04Circle = SFSymbol(systemName: "04.circle")
 
     /// 􀔎
-    static let _04CircleFill = SFSymbol(rawValue: "04.circle.fill")
+    static let _04CircleFill = SFSymbol(systemName: "04.circle.fill")
 
     /// 􀔭
-    static let _04Square = SFSymbol(rawValue: "04.square")
+    static let _04Square = SFSymbol(systemName: "04.square")
 
     /// 􀕌
-    static let _04SquareFill = SFSymbol(rawValue: "04.square.fill")
+    static let _04SquareFill = SFSymbol(systemName: "04.square.fill")
 
     /// 􀓰
-    static let _05Circle = SFSymbol(rawValue: "05.circle")
+    static let _05Circle = SFSymbol(systemName: "05.circle")
 
     /// 􀔏
-    static let _05CircleFill = SFSymbol(rawValue: "05.circle.fill")
+    static let _05CircleFill = SFSymbol(systemName: "05.circle.fill")
 
     /// 􀔮
-    static let _05Square = SFSymbol(rawValue: "05.square")
+    static let _05Square = SFSymbol(systemName: "05.square")
 
     /// 􀕍
-    static let _05SquareFill = SFSymbol(rawValue: "05.square.fill")
+    static let _05SquareFill = SFSymbol(systemName: "05.square.fill")
 
     /// 􀓱
-    static let _06Circle = SFSymbol(rawValue: "06.circle")
+    static let _06Circle = SFSymbol(systemName: "06.circle")
 
     /// 􀔐
-    static let _06CircleFill = SFSymbol(rawValue: "06.circle.fill")
+    static let _06CircleFill = SFSymbol(systemName: "06.circle.fill")
 
     /// 􀔯
-    static let _06Square = SFSymbol(rawValue: "06.square")
+    static let _06Square = SFSymbol(systemName: "06.square")
 
     /// 􀕎
-    static let _06SquareFill = SFSymbol(rawValue: "06.square.fill")
+    static let _06SquareFill = SFSymbol(systemName: "06.square.fill")
 
     /// 􀓲
-    static let _07Circle = SFSymbol(rawValue: "07.circle")
+    static let _07Circle = SFSymbol(systemName: "07.circle")
 
     /// 􀔑
-    static let _07CircleFill = SFSymbol(rawValue: "07.circle.fill")
+    static let _07CircleFill = SFSymbol(systemName: "07.circle.fill")
 
     /// 􀔰
-    static let _07Square = SFSymbol(rawValue: "07.square")
+    static let _07Square = SFSymbol(systemName: "07.square")
 
     /// 􀕏
-    static let _07SquareFill = SFSymbol(rawValue: "07.square.fill")
+    static let _07SquareFill = SFSymbol(systemName: "07.square.fill")
 
     /// 􀓳
-    static let _08Circle = SFSymbol(rawValue: "08.circle")
+    static let _08Circle = SFSymbol(systemName: "08.circle")
 
     /// 􀔒
-    static let _08CircleFill = SFSymbol(rawValue: "08.circle.fill")
+    static let _08CircleFill = SFSymbol(systemName: "08.circle.fill")
 
     /// 􀔱
-    static let _08Square = SFSymbol(rawValue: "08.square")
+    static let _08Square = SFSymbol(systemName: "08.square")
 
     /// 􀕐
-    static let _08SquareFill = SFSymbol(rawValue: "08.square.fill")
+    static let _08SquareFill = SFSymbol(systemName: "08.square.fill")
 
     /// 􀓴
-    static let _09Circle = SFSymbol(rawValue: "09.circle")
+    static let _09Circle = SFSymbol(systemName: "09.circle")
 
     /// 􀔓
-    static let _09CircleFill = SFSymbol(rawValue: "09.circle.fill")
+    static let _09CircleFill = SFSymbol(systemName: "09.circle.fill")
 
     /// 􀔲
-    static let _09Square = SFSymbol(rawValue: "09.square")
+    static let _09Square = SFSymbol(systemName: "09.square")
 
     /// 􀕑
-    static let _09SquareFill = SFSymbol(rawValue: "09.square.fill")
+    static let _09SquareFill = SFSymbol(systemName: "09.square.fill")
 
     /// 􀀺
-    static let _1Circle = SFSymbol(rawValue: "1.circle")
+    static let _1Circle = SFSymbol(systemName: "1.circle")
 
     /// 􀀻
-    static let _1CircleFill = SFSymbol(rawValue: "1.circle.fill")
+    static let _1CircleFill = SFSymbol(systemName: "1.circle.fill")
 
     /// 􀊮
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
-    static let _1Magnifyingglass = SFSymbol(rawValue: "1.magnifyingglass")
+    static let _1Magnifyingglass = SFSymbol(systemName: "1.magnifyingglass")
 
     /// 􀃊
-    static let _1Square = SFSymbol(rawValue: "1.square")
+    static let _1Square = SFSymbol(systemName: "1.square")
 
     /// 􀃋
-    static let _1SquareFill = SFSymbol(rawValue: "1.square.fill")
+    static let _1SquareFill = SFSymbol(systemName: "1.square.fill")
 
     /// 􀓵
-    static let _10Circle = SFSymbol(rawValue: "10.circle")
+    static let _10Circle = SFSymbol(systemName: "10.circle")
 
     /// 􀔔
-    static let _10CircleFill = SFSymbol(rawValue: "10.circle.fill")
+    static let _10CircleFill = SFSymbol(systemName: "10.circle.fill")
 
     /// 􀔳
-    static let _10Square = SFSymbol(rawValue: "10.square")
+    static let _10Square = SFSymbol(systemName: "10.square")
 
     /// 􀕒
-    static let _10SquareFill = SFSymbol(rawValue: "10.square.fill")
+    static let _10SquareFill = SFSymbol(systemName: "10.square.fill")
 
     /// 􀓶
-    static let _11Circle = SFSymbol(rawValue: "11.circle")
+    static let _11Circle = SFSymbol(systemName: "11.circle")
 
     /// 􀔕
-    static let _11CircleFill = SFSymbol(rawValue: "11.circle.fill")
+    static let _11CircleFill = SFSymbol(systemName: "11.circle.fill")
 
     /// 􀔴
-    static let _11Square = SFSymbol(rawValue: "11.square")
+    static let _11Square = SFSymbol(systemName: "11.square")
 
     /// 􀕓
-    static let _11SquareFill = SFSymbol(rawValue: "11.square.fill")
+    static let _11SquareFill = SFSymbol(systemName: "11.square.fill")
 
     /// 􀓷
-    static let _12Circle = SFSymbol(rawValue: "12.circle")
+    static let _12Circle = SFSymbol(systemName: "12.circle")
 
     /// 􀔖
-    static let _12CircleFill = SFSymbol(rawValue: "12.circle.fill")
+    static let _12CircleFill = SFSymbol(systemName: "12.circle.fill")
 
     /// 􀔵
-    static let _12Square = SFSymbol(rawValue: "12.square")
+    static let _12Square = SFSymbol(systemName: "12.square")
 
     /// 􀕔
-    static let _12SquareFill = SFSymbol(rawValue: "12.square.fill")
+    static let _12SquareFill = SFSymbol(systemName: "12.square.fill")
 
     /// 􀓸
-    static let _13Circle = SFSymbol(rawValue: "13.circle")
+    static let _13Circle = SFSymbol(systemName: "13.circle")
 
     /// 􀔗
-    static let _13CircleFill = SFSymbol(rawValue: "13.circle.fill")
+    static let _13CircleFill = SFSymbol(systemName: "13.circle.fill")
 
     /// 􀔶
-    static let _13Square = SFSymbol(rawValue: "13.square")
+    static let _13Square = SFSymbol(systemName: "13.square")
 
     /// 􀕕
-    static let _13SquareFill = SFSymbol(rawValue: "13.square.fill")
+    static let _13SquareFill = SFSymbol(systemName: "13.square.fill")
 
     /// 􀓹
-    static let _14Circle = SFSymbol(rawValue: "14.circle")
+    static let _14Circle = SFSymbol(systemName: "14.circle")
 
     /// 􀔘
-    static let _14CircleFill = SFSymbol(rawValue: "14.circle.fill")
+    static let _14CircleFill = SFSymbol(systemName: "14.circle.fill")
 
     /// 􀔷
-    static let _14Square = SFSymbol(rawValue: "14.square")
+    static let _14Square = SFSymbol(systemName: "14.square")
 
     /// 􀕖
-    static let _14SquareFill = SFSymbol(rawValue: "14.square.fill")
+    static let _14SquareFill = SFSymbol(systemName: "14.square.fill")
 
     /// 􀓺
-    static let _15Circle = SFSymbol(rawValue: "15.circle")
+    static let _15Circle = SFSymbol(systemName: "15.circle")
 
     /// 􀔙
-    static let _15CircleFill = SFSymbol(rawValue: "15.circle.fill")
+    static let _15CircleFill = SFSymbol(systemName: "15.circle.fill")
 
     /// 􀔸
-    static let _15Square = SFSymbol(rawValue: "15.square")
+    static let _15Square = SFSymbol(systemName: "15.square")
 
     /// 􀕗
-    static let _15SquareFill = SFSymbol(rawValue: "15.square.fill")
+    static let _15SquareFill = SFSymbol(systemName: "15.square.fill")
 
     /// 􀓻
-    static let _16Circle = SFSymbol(rawValue: "16.circle")
+    static let _16Circle = SFSymbol(systemName: "16.circle")
 
     /// 􀔚
-    static let _16CircleFill = SFSymbol(rawValue: "16.circle.fill")
+    static let _16CircleFill = SFSymbol(systemName: "16.circle.fill")
 
     /// 􀔹
-    static let _16Square = SFSymbol(rawValue: "16.square")
+    static let _16Square = SFSymbol(systemName: "16.square")
 
     /// 􀕘
-    static let _16SquareFill = SFSymbol(rawValue: "16.square.fill")
+    static let _16SquareFill = SFSymbol(systemName: "16.square.fill")
 
     /// 􀓼
-    static let _17Circle = SFSymbol(rawValue: "17.circle")
+    static let _17Circle = SFSymbol(systemName: "17.circle")
 
     /// 􀔛
-    static let _17CircleFill = SFSymbol(rawValue: "17.circle.fill")
+    static let _17CircleFill = SFSymbol(systemName: "17.circle.fill")
 
     /// 􀔺
-    static let _17Square = SFSymbol(rawValue: "17.square")
+    static let _17Square = SFSymbol(systemName: "17.square")
 
     /// 􀕙
-    static let _17SquareFill = SFSymbol(rawValue: "17.square.fill")
+    static let _17SquareFill = SFSymbol(systemName: "17.square.fill")
 
     /// 􀓽
-    static let _18Circle = SFSymbol(rawValue: "18.circle")
+    static let _18Circle = SFSymbol(systemName: "18.circle")
 
     /// 􀔜
-    static let _18CircleFill = SFSymbol(rawValue: "18.circle.fill")
+    static let _18CircleFill = SFSymbol(systemName: "18.circle.fill")
 
     /// 􀔻
-    static let _18Square = SFSymbol(rawValue: "18.square")
+    static let _18Square = SFSymbol(systemName: "18.square")
 
     /// 􀕚
-    static let _18SquareFill = SFSymbol(rawValue: "18.square.fill")
+    static let _18SquareFill = SFSymbol(systemName: "18.square.fill")
 
     /// 􀓾
-    static let _19Circle = SFSymbol(rawValue: "19.circle")
+    static let _19Circle = SFSymbol(systemName: "19.circle")
 
     /// 􀔝
-    static let _19CircleFill = SFSymbol(rawValue: "19.circle.fill")
+    static let _19CircleFill = SFSymbol(systemName: "19.circle.fill")
 
     /// 􀔼
-    static let _19Square = SFSymbol(rawValue: "19.square")
+    static let _19Square = SFSymbol(systemName: "19.square")
 
     /// 􀕛
-    static let _19SquareFill = SFSymbol(rawValue: "19.square.fill")
+    static let _19SquareFill = SFSymbol(systemName: "19.square.fill")
 
     /// 􀀼
-    static let _2Circle = SFSymbol(rawValue: "2.circle")
+    static let _2Circle = SFSymbol(systemName: "2.circle")
 
     /// 􀀽
-    static let _2CircleFill = SFSymbol(rawValue: "2.circle.fill")
+    static let _2CircleFill = SFSymbol(systemName: "2.circle.fill")
 
     /// 􀃌
-    static let _2Square = SFSymbol(rawValue: "2.square")
+    static let _2Square = SFSymbol(systemName: "2.square")
 
     /// 􀃍
-    static let _2SquareFill = SFSymbol(rawValue: "2.square.fill")
+    static let _2SquareFill = SFSymbol(systemName: "2.square.fill")
 
     /// 􀓿
-    static let _20Circle = SFSymbol(rawValue: "20.circle")
+    static let _20Circle = SFSymbol(systemName: "20.circle")
 
     /// 􀔞
-    static let _20CircleFill = SFSymbol(rawValue: "20.circle.fill")
+    static let _20CircleFill = SFSymbol(systemName: "20.circle.fill")
 
     /// 􀔽
-    static let _20Square = SFSymbol(rawValue: "20.square")
+    static let _20Square = SFSymbol(systemName: "20.square")
 
     /// 􀕜
-    static let _20SquareFill = SFSymbol(rawValue: "20.square.fill")
+    static let _20SquareFill = SFSymbol(systemName: "20.square.fill")
 
     /// 􀔀
-    static let _21Circle = SFSymbol(rawValue: "21.circle")
+    static let _21Circle = SFSymbol(systemName: "21.circle")
 
     /// 􀔟
-    static let _21CircleFill = SFSymbol(rawValue: "21.circle.fill")
+    static let _21CircleFill = SFSymbol(systemName: "21.circle.fill")
 
     /// 􀔾
-    static let _21Square = SFSymbol(rawValue: "21.square")
+    static let _21Square = SFSymbol(systemName: "21.square")
 
     /// 􀕝
-    static let _21SquareFill = SFSymbol(rawValue: "21.square.fill")
+    static let _21SquareFill = SFSymbol(systemName: "21.square.fill")
 
     /// 􀔁
-    static let _22Circle = SFSymbol(rawValue: "22.circle")
+    static let _22Circle = SFSymbol(systemName: "22.circle")
 
     /// 􀔠
-    static let _22CircleFill = SFSymbol(rawValue: "22.circle.fill")
+    static let _22CircleFill = SFSymbol(systemName: "22.circle.fill")
 
     /// 􀔿
-    static let _22Square = SFSymbol(rawValue: "22.square")
+    static let _22Square = SFSymbol(systemName: "22.square")
 
     /// 􀕞
-    static let _22SquareFill = SFSymbol(rawValue: "22.square.fill")
+    static let _22SquareFill = SFSymbol(systemName: "22.square.fill")
 
     /// 􀔂
-    static let _23Circle = SFSymbol(rawValue: "23.circle")
+    static let _23Circle = SFSymbol(systemName: "23.circle")
 
     /// 􀔡
-    static let _23CircleFill = SFSymbol(rawValue: "23.circle.fill")
+    static let _23CircleFill = SFSymbol(systemName: "23.circle.fill")
 
     /// 􀕀
-    static let _23Square = SFSymbol(rawValue: "23.square")
+    static let _23Square = SFSymbol(systemName: "23.square")
 
     /// 􀕟
-    static let _23SquareFill = SFSymbol(rawValue: "23.square.fill")
+    static let _23SquareFill = SFSymbol(systemName: "23.square.fill")
 
     /// 􀔃
-    static let _24Circle = SFSymbol(rawValue: "24.circle")
+    static let _24Circle = SFSymbol(systemName: "24.circle")
 
     /// 􀔢
-    static let _24CircleFill = SFSymbol(rawValue: "24.circle.fill")
+    static let _24CircleFill = SFSymbol(systemName: "24.circle.fill")
 
     /// 􀕁
-    static let _24Square = SFSymbol(rawValue: "24.square")
+    static let _24Square = SFSymbol(systemName: "24.square")
 
     /// 􀕠
-    static let _24SquareFill = SFSymbol(rawValue: "24.square.fill")
+    static let _24SquareFill = SFSymbol(systemName: "24.square.fill")
 
     /// 􀔄
-    static let _25Circle = SFSymbol(rawValue: "25.circle")
+    static let _25Circle = SFSymbol(systemName: "25.circle")
 
     /// 􀔣
-    static let _25CircleFill = SFSymbol(rawValue: "25.circle.fill")
+    static let _25CircleFill = SFSymbol(systemName: "25.circle.fill")
 
     /// 􀕂
-    static let _25Square = SFSymbol(rawValue: "25.square")
+    static let _25Square = SFSymbol(systemName: "25.square")
 
     /// 􀕡
-    static let _25SquareFill = SFSymbol(rawValue: "25.square.fill")
+    static let _25SquareFill = SFSymbol(systemName: "25.square.fill")
 
     /// 􀔅
-    static let _26Circle = SFSymbol(rawValue: "26.circle")
+    static let _26Circle = SFSymbol(systemName: "26.circle")
 
     /// 􀔤
-    static let _26CircleFill = SFSymbol(rawValue: "26.circle.fill")
+    static let _26CircleFill = SFSymbol(systemName: "26.circle.fill")
 
     /// 􀕃
-    static let _26Square = SFSymbol(rawValue: "26.square")
+    static let _26Square = SFSymbol(systemName: "26.square")
 
     /// 􀕢
-    static let _26SquareFill = SFSymbol(rawValue: "26.square.fill")
+    static let _26SquareFill = SFSymbol(systemName: "26.square.fill")
 
     /// 􀔆
-    static let _27Circle = SFSymbol(rawValue: "27.circle")
+    static let _27Circle = SFSymbol(systemName: "27.circle")
 
     /// 􀔥
-    static let _27CircleFill = SFSymbol(rawValue: "27.circle.fill")
+    static let _27CircleFill = SFSymbol(systemName: "27.circle.fill")
 
     /// 􀕄
-    static let _27Square = SFSymbol(rawValue: "27.square")
+    static let _27Square = SFSymbol(systemName: "27.square")
 
     /// 􀕣
-    static let _27SquareFill = SFSymbol(rawValue: "27.square.fill")
+    static let _27SquareFill = SFSymbol(systemName: "27.square.fill")
 
     /// 􀔇
-    static let _28Circle = SFSymbol(rawValue: "28.circle")
+    static let _28Circle = SFSymbol(systemName: "28.circle")
 
     /// 􀔦
-    static let _28CircleFill = SFSymbol(rawValue: "28.circle.fill")
+    static let _28CircleFill = SFSymbol(systemName: "28.circle.fill")
 
     /// 􀕅
-    static let _28Square = SFSymbol(rawValue: "28.square")
+    static let _28Square = SFSymbol(systemName: "28.square")
 
     /// 􀕤
-    static let _28SquareFill = SFSymbol(rawValue: "28.square.fill")
+    static let _28SquareFill = SFSymbol(systemName: "28.square.fill")
 
     /// 􀔈
-    static let _29Circle = SFSymbol(rawValue: "29.circle")
+    static let _29Circle = SFSymbol(systemName: "29.circle")
 
     /// 􀔧
-    static let _29CircleFill = SFSymbol(rawValue: "29.circle.fill")
+    static let _29CircleFill = SFSymbol(systemName: "29.circle.fill")
 
     /// 􀕆
-    static let _29Square = SFSymbol(rawValue: "29.square")
+    static let _29Square = SFSymbol(systemName: "29.square")
 
     /// 􀕥
-    static let _29SquareFill = SFSymbol(rawValue: "29.square.fill")
+    static let _29SquareFill = SFSymbol(systemName: "29.square.fill")
 
     /// 􀀾
-    static let _3Circle = SFSymbol(rawValue: "3.circle")
+    static let _3Circle = SFSymbol(systemName: "3.circle")
 
     /// 􀀿
-    static let _3CircleFill = SFSymbol(rawValue: "3.circle.fill")
+    static let _3CircleFill = SFSymbol(systemName: "3.circle.fill")
 
     /// 􀃎
-    static let _3Square = SFSymbol(rawValue: "3.square")
+    static let _3Square = SFSymbol(systemName: "3.square")
 
     /// 􀃏
-    static let _3SquareFill = SFSymbol(rawValue: "3.square.fill")
+    static let _3SquareFill = SFSymbol(systemName: "3.square.fill")
 
     /// 􀔉
-    static let _30Circle = SFSymbol(rawValue: "30.circle")
+    static let _30Circle = SFSymbol(systemName: "30.circle")
 
     /// 􀔨
-    static let _30CircleFill = SFSymbol(rawValue: "30.circle.fill")
+    static let _30CircleFill = SFSymbol(systemName: "30.circle.fill")
 
     /// 􀕇
-    static let _30Square = SFSymbol(rawValue: "30.square")
+    static let _30Square = SFSymbol(systemName: "30.square")
 
     /// 􀕦
-    static let _30SquareFill = SFSymbol(rawValue: "30.square.fill")
+    static let _30SquareFill = SFSymbol(systemName: "30.square.fill")
 
     /// 􀘠
-    static let _31Circle = SFSymbol(rawValue: "31.circle")
+    static let _31Circle = SFSymbol(systemName: "31.circle")
 
     /// 􀘡
-    static let _31CircleFill = SFSymbol(rawValue: "31.circle.fill")
+    static let _31CircleFill = SFSymbol(systemName: "31.circle.fill")
 
     /// 􀘢
-    static let _31Square = SFSymbol(rawValue: "31.square")
+    static let _31Square = SFSymbol(systemName: "31.square")
 
     /// 􀘣
-    static let _31SquareFill = SFSymbol(rawValue: "31.square.fill")
+    static let _31SquareFill = SFSymbol(systemName: "31.square.fill")
 
     /// 􀚗
-    static let _32Circle = SFSymbol(rawValue: "32.circle")
+    static let _32Circle = SFSymbol(systemName: "32.circle")
 
     /// 􀚘
-    static let _32CircleFill = SFSymbol(rawValue: "32.circle.fill")
+    static let _32CircleFill = SFSymbol(systemName: "32.circle.fill")
 
     /// 􀚽
-    static let _32Square = SFSymbol(rawValue: "32.square")
+    static let _32Square = SFSymbol(systemName: "32.square")
 
     /// 􀚾
-    static let _32SquareFill = SFSymbol(rawValue: "32.square.fill")
+    static let _32SquareFill = SFSymbol(systemName: "32.square.fill")
 
     /// 􀚙
-    static let _33Circle = SFSymbol(rawValue: "33.circle")
+    static let _33Circle = SFSymbol(systemName: "33.circle")
 
     /// 􀚚
-    static let _33CircleFill = SFSymbol(rawValue: "33.circle.fill")
+    static let _33CircleFill = SFSymbol(systemName: "33.circle.fill")
 
     /// 􀚿
-    static let _33Square = SFSymbol(rawValue: "33.square")
+    static let _33Square = SFSymbol(systemName: "33.square")
 
     /// 􀛀
-    static let _33SquareFill = SFSymbol(rawValue: "33.square.fill")
+    static let _33SquareFill = SFSymbol(systemName: "33.square.fill")
 
     /// 􀚛
-    static let _34Circle = SFSymbol(rawValue: "34.circle")
+    static let _34Circle = SFSymbol(systemName: "34.circle")
 
     /// 􀚜
-    static let _34CircleFill = SFSymbol(rawValue: "34.circle.fill")
+    static let _34CircleFill = SFSymbol(systemName: "34.circle.fill")
 
     /// 􀛁
-    static let _34Square = SFSymbol(rawValue: "34.square")
+    static let _34Square = SFSymbol(systemName: "34.square")
 
     /// 􀛂
-    static let _34SquareFill = SFSymbol(rawValue: "34.square.fill")
+    static let _34SquareFill = SFSymbol(systemName: "34.square.fill")
 
     /// 􀚝
-    static let _35Circle = SFSymbol(rawValue: "35.circle")
+    static let _35Circle = SFSymbol(systemName: "35.circle")
 
     /// 􀚞
-    static let _35CircleFill = SFSymbol(rawValue: "35.circle.fill")
+    static let _35CircleFill = SFSymbol(systemName: "35.circle.fill")
 
     /// 􀛃
-    static let _35Square = SFSymbol(rawValue: "35.square")
+    static let _35Square = SFSymbol(systemName: "35.square")
 
     /// 􀛄
-    static let _35SquareFill = SFSymbol(rawValue: "35.square.fill")
+    static let _35SquareFill = SFSymbol(systemName: "35.square.fill")
 
     /// 􀚟
-    static let _36Circle = SFSymbol(rawValue: "36.circle")
+    static let _36Circle = SFSymbol(systemName: "36.circle")
 
     /// 􀚠
-    static let _36CircleFill = SFSymbol(rawValue: "36.circle.fill")
+    static let _36CircleFill = SFSymbol(systemName: "36.circle.fill")
 
     /// 􀛅
-    static let _36Square = SFSymbol(rawValue: "36.square")
+    static let _36Square = SFSymbol(systemName: "36.square")
 
     /// 􀛆
-    static let _36SquareFill = SFSymbol(rawValue: "36.square.fill")
+    static let _36SquareFill = SFSymbol(systemName: "36.square.fill")
 
     /// 􀚡
-    static let _37Circle = SFSymbol(rawValue: "37.circle")
+    static let _37Circle = SFSymbol(systemName: "37.circle")
 
     /// 􀚢
-    static let _37CircleFill = SFSymbol(rawValue: "37.circle.fill")
+    static let _37CircleFill = SFSymbol(systemName: "37.circle.fill")
 
     /// 􀛇
-    static let _37Square = SFSymbol(rawValue: "37.square")
+    static let _37Square = SFSymbol(systemName: "37.square")
 
     /// 􀛈
-    static let _37SquareFill = SFSymbol(rawValue: "37.square.fill")
+    static let _37SquareFill = SFSymbol(systemName: "37.square.fill")
 
     /// 􀚣
-    static let _38Circle = SFSymbol(rawValue: "38.circle")
+    static let _38Circle = SFSymbol(systemName: "38.circle")
 
     /// 􀚤
-    static let _38CircleFill = SFSymbol(rawValue: "38.circle.fill")
+    static let _38CircleFill = SFSymbol(systemName: "38.circle.fill")
 
     /// 􀛉
-    static let _38Square = SFSymbol(rawValue: "38.square")
+    static let _38Square = SFSymbol(systemName: "38.square")
 
     /// 􀛊
-    static let _38SquareFill = SFSymbol(rawValue: "38.square.fill")
+    static let _38SquareFill = SFSymbol(systemName: "38.square.fill")
 
     /// 􀚥
-    static let _39Circle = SFSymbol(rawValue: "39.circle")
+    static let _39Circle = SFSymbol(systemName: "39.circle")
 
     /// 􀚦
-    static let _39CircleFill = SFSymbol(rawValue: "39.circle.fill")
+    static let _39CircleFill = SFSymbol(systemName: "39.circle.fill")
 
     /// 􀛋
-    static let _39Square = SFSymbol(rawValue: "39.square")
+    static let _39Square = SFSymbol(systemName: "39.square")
 
     /// 􀛌
-    static let _39SquareFill = SFSymbol(rawValue: "39.square.fill")
+    static let _39SquareFill = SFSymbol(systemName: "39.square.fill")
 
     /// 􀘗
-    static let _4AltCircle = SFSymbol(rawValue: "4.alt.circle")
+    static let _4AltCircle = SFSymbol(systemName: "4.alt.circle")
 
     /// 􀘘
-    static let _4AltCircleFill = SFSymbol(rawValue: "4.alt.circle.fill")
+    static let _4AltCircleFill = SFSymbol(systemName: "4.alt.circle.fill")
 
     /// 􀘙
-    static let _4AltSquare = SFSymbol(rawValue: "4.alt.square")
+    static let _4AltSquare = SFSymbol(systemName: "4.alt.square")
 
     /// 􀘚
-    static let _4AltSquareFill = SFSymbol(rawValue: "4.alt.square.fill")
+    static let _4AltSquareFill = SFSymbol(systemName: "4.alt.square.fill")
 
     /// 􀁀
-    static let _4Circle = SFSymbol(rawValue: "4.circle")
+    static let _4Circle = SFSymbol(systemName: "4.circle")
 
     /// 􀁁
-    static let _4CircleFill = SFSymbol(rawValue: "4.circle.fill")
+    static let _4CircleFill = SFSymbol(systemName: "4.circle.fill")
 
     /// 􀃐
-    static let _4Square = SFSymbol(rawValue: "4.square")
+    static let _4Square = SFSymbol(systemName: "4.square")
 
     /// 􀃑
-    static let _4SquareFill = SFSymbol(rawValue: "4.square.fill")
+    static let _4SquareFill = SFSymbol(systemName: "4.square.fill")
 
     /// 􀚧
-    static let _40Circle = SFSymbol(rawValue: "40.circle")
+    static let _40Circle = SFSymbol(systemName: "40.circle")
 
     /// 􀚨
-    static let _40CircleFill = SFSymbol(rawValue: "40.circle.fill")
+    static let _40CircleFill = SFSymbol(systemName: "40.circle.fill")
 
     /// 􀛍
-    static let _40Square = SFSymbol(rawValue: "40.square")
+    static let _40Square = SFSymbol(systemName: "40.square")
 
     /// 􀛎
-    static let _40SquareFill = SFSymbol(rawValue: "40.square.fill")
+    static let _40SquareFill = SFSymbol(systemName: "40.square.fill")
 
     /// 􀚩
-    static let _41Circle = SFSymbol(rawValue: "41.circle")
+    static let _41Circle = SFSymbol(systemName: "41.circle")
 
     /// 􀚪
-    static let _41CircleFill = SFSymbol(rawValue: "41.circle.fill")
+    static let _41CircleFill = SFSymbol(systemName: "41.circle.fill")
 
     /// 􀛏
-    static let _41Square = SFSymbol(rawValue: "41.square")
+    static let _41Square = SFSymbol(systemName: "41.square")
 
     /// 􀛐
-    static let _41SquareFill = SFSymbol(rawValue: "41.square.fill")
+    static let _41SquareFill = SFSymbol(systemName: "41.square.fill")
 
     /// 􀚫
-    static let _42Circle = SFSymbol(rawValue: "42.circle")
+    static let _42Circle = SFSymbol(systemName: "42.circle")
 
     /// 􀚬
-    static let _42CircleFill = SFSymbol(rawValue: "42.circle.fill")
+    static let _42CircleFill = SFSymbol(systemName: "42.circle.fill")
 
     /// 􀛑
-    static let _42Square = SFSymbol(rawValue: "42.square")
+    static let _42Square = SFSymbol(systemName: "42.square")
 
     /// 􀛒
-    static let _42SquareFill = SFSymbol(rawValue: "42.square.fill")
+    static let _42SquareFill = SFSymbol(systemName: "42.square.fill")
 
     /// 􀚭
-    static let _43Circle = SFSymbol(rawValue: "43.circle")
+    static let _43Circle = SFSymbol(systemName: "43.circle")
 
     /// 􀚮
-    static let _43CircleFill = SFSymbol(rawValue: "43.circle.fill")
+    static let _43CircleFill = SFSymbol(systemName: "43.circle.fill")
 
     /// 􀛓
-    static let _43Square = SFSymbol(rawValue: "43.square")
+    static let _43Square = SFSymbol(systemName: "43.square")
 
     /// 􀛔
-    static let _43SquareFill = SFSymbol(rawValue: "43.square.fill")
+    static let _43SquareFill = SFSymbol(systemName: "43.square.fill")
 
     /// 􀚯
-    static let _44Circle = SFSymbol(rawValue: "44.circle")
+    static let _44Circle = SFSymbol(systemName: "44.circle")
 
     /// 􀚰
-    static let _44CircleFill = SFSymbol(rawValue: "44.circle.fill")
+    static let _44CircleFill = SFSymbol(systemName: "44.circle.fill")
 
     /// 􀛕
-    static let _44Square = SFSymbol(rawValue: "44.square")
+    static let _44Square = SFSymbol(systemName: "44.square")
 
     /// 􀛖
-    static let _44SquareFill = SFSymbol(rawValue: "44.square.fill")
+    static let _44SquareFill = SFSymbol(systemName: "44.square.fill")
 
     /// 􀚱
-    static let _45Circle = SFSymbol(rawValue: "45.circle")
+    static let _45Circle = SFSymbol(systemName: "45.circle")
 
     /// 􀚲
-    static let _45CircleFill = SFSymbol(rawValue: "45.circle.fill")
+    static let _45CircleFill = SFSymbol(systemName: "45.circle.fill")
 
     /// 􀛗
-    static let _45Square = SFSymbol(rawValue: "45.square")
+    static let _45Square = SFSymbol(systemName: "45.square")
 
     /// 􀛘
-    static let _45SquareFill = SFSymbol(rawValue: "45.square.fill")
+    static let _45SquareFill = SFSymbol(systemName: "45.square.fill")
 
     /// 􀚳
-    static let _46Circle = SFSymbol(rawValue: "46.circle")
+    static let _46Circle = SFSymbol(systemName: "46.circle")
 
     /// 􀚴
-    static let _46CircleFill = SFSymbol(rawValue: "46.circle.fill")
+    static let _46CircleFill = SFSymbol(systemName: "46.circle.fill")
 
     /// 􀛙
-    static let _46Square = SFSymbol(rawValue: "46.square")
+    static let _46Square = SFSymbol(systemName: "46.square")
 
     /// 􀛚
-    static let _46SquareFill = SFSymbol(rawValue: "46.square.fill")
+    static let _46SquareFill = SFSymbol(systemName: "46.square.fill")
 
     /// 􀚵
-    static let _47Circle = SFSymbol(rawValue: "47.circle")
+    static let _47Circle = SFSymbol(systemName: "47.circle")
 
     /// 􀚶
-    static let _47CircleFill = SFSymbol(rawValue: "47.circle.fill")
+    static let _47CircleFill = SFSymbol(systemName: "47.circle.fill")
 
     /// 􀛛
-    static let _47Square = SFSymbol(rawValue: "47.square")
+    static let _47Square = SFSymbol(systemName: "47.square")
 
     /// 􀛜
-    static let _47SquareFill = SFSymbol(rawValue: "47.square.fill")
+    static let _47SquareFill = SFSymbol(systemName: "47.square.fill")
 
     /// 􀚷
-    static let _48Circle = SFSymbol(rawValue: "48.circle")
+    static let _48Circle = SFSymbol(systemName: "48.circle")
 
     /// 􀚸
-    static let _48CircleFill = SFSymbol(rawValue: "48.circle.fill")
+    static let _48CircleFill = SFSymbol(systemName: "48.circle.fill")
 
     /// 􀛝
-    static let _48Square = SFSymbol(rawValue: "48.square")
+    static let _48Square = SFSymbol(systemName: "48.square")
 
     /// 􀛞
-    static let _48SquareFill = SFSymbol(rawValue: "48.square.fill")
+    static let _48SquareFill = SFSymbol(systemName: "48.square.fill")
 
     /// 􀚹
-    static let _49Circle = SFSymbol(rawValue: "49.circle")
+    static let _49Circle = SFSymbol(systemName: "49.circle")
 
     /// 􀚺
-    static let _49CircleFill = SFSymbol(rawValue: "49.circle.fill")
+    static let _49CircleFill = SFSymbol(systemName: "49.circle.fill")
 
     /// 􀛟
-    static let _49Square = SFSymbol(rawValue: "49.square")
+    static let _49Square = SFSymbol(systemName: "49.square")
 
     /// 􀛠
-    static let _49SquareFill = SFSymbol(rawValue: "49.square.fill")
+    static let _49SquareFill = SFSymbol(systemName: "49.square.fill")
 
     /// 􀁂
-    static let _5Circle = SFSymbol(rawValue: "5.circle")
+    static let _5Circle = SFSymbol(systemName: "5.circle")
 
     /// 􀁃
-    static let _5CircleFill = SFSymbol(rawValue: "5.circle.fill")
+    static let _5CircleFill = SFSymbol(systemName: "5.circle.fill")
 
     /// 􀃒
-    static let _5Square = SFSymbol(rawValue: "5.square")
+    static let _5Square = SFSymbol(systemName: "5.square")
 
     /// 􀃓
-    static let _5SquareFill = SFSymbol(rawValue: "5.square.fill")
+    static let _5SquareFill = SFSymbol(systemName: "5.square.fill")
 
     /// 􀚻
-    static let _50Circle = SFSymbol(rawValue: "50.circle")
+    static let _50Circle = SFSymbol(systemName: "50.circle")
 
     /// 􀚼
-    static let _50CircleFill = SFSymbol(rawValue: "50.circle.fill")
+    static let _50CircleFill = SFSymbol(systemName: "50.circle.fill")
 
     /// 􀛡
-    static let _50Square = SFSymbol(rawValue: "50.square")
+    static let _50Square = SFSymbol(systemName: "50.square")
 
     /// 􀛢
-    static let _50SquareFill = SFSymbol(rawValue: "50.square.fill")
+    static let _50SquareFill = SFSymbol(systemName: "50.square.fill")
 
     /// 􀑱
-    static let _6AltCircle = SFSymbol(rawValue: "6.alt.circle")
+    static let _6AltCircle = SFSymbol(systemName: "6.alt.circle")
 
     /// 􀑲
-    static let _6AltCircleFill = SFSymbol(rawValue: "6.alt.circle.fill")
+    static let _6AltCircleFill = SFSymbol(systemName: "6.alt.circle.fill")
 
     /// 􀑵
-    static let _6AltSquare = SFSymbol(rawValue: "6.alt.square")
+    static let _6AltSquare = SFSymbol(systemName: "6.alt.square")
 
     /// 􀑶
-    static let _6AltSquareFill = SFSymbol(rawValue: "6.alt.square.fill")
+    static let _6AltSquareFill = SFSymbol(systemName: "6.alt.square.fill")
 
     /// 􀁄
-    static let _6Circle = SFSymbol(rawValue: "6.circle")
+    static let _6Circle = SFSymbol(systemName: "6.circle")
 
     /// 􀁅
-    static let _6CircleFill = SFSymbol(rawValue: "6.circle.fill")
+    static let _6CircleFill = SFSymbol(systemName: "6.circle.fill")
 
     /// 􀃔
-    static let _6Square = SFSymbol(rawValue: "6.square")
+    static let _6Square = SFSymbol(systemName: "6.square")
 
     /// 􀃕
-    static let _6SquareFill = SFSymbol(rawValue: "6.square.fill")
+    static let _6SquareFill = SFSymbol(systemName: "6.square.fill")
 
     /// 􀁆
-    static let _7Circle = SFSymbol(rawValue: "7.circle")
+    static let _7Circle = SFSymbol(systemName: "7.circle")
 
     /// 􀁇
-    static let _7CircleFill = SFSymbol(rawValue: "7.circle.fill")
+    static let _7CircleFill = SFSymbol(systemName: "7.circle.fill")
 
     /// 􀃖
-    static let _7Square = SFSymbol(rawValue: "7.square")
+    static let _7Square = SFSymbol(systemName: "7.square")
 
     /// 􀃗
-    static let _7SquareFill = SFSymbol(rawValue: "7.square.fill")
+    static let _7SquareFill = SFSymbol(systemName: "7.square.fill")
 
     /// 􀁈
-    static let _8Circle = SFSymbol(rawValue: "8.circle")
+    static let _8Circle = SFSymbol(systemName: "8.circle")
 
     /// 􀁉
-    static let _8CircleFill = SFSymbol(rawValue: "8.circle.fill")
+    static let _8CircleFill = SFSymbol(systemName: "8.circle.fill")
 
     /// 􀃘
-    static let _8Square = SFSymbol(rawValue: "8.square")
+    static let _8Square = SFSymbol(systemName: "8.square")
 
     /// 􀃙
-    static let _8SquareFill = SFSymbol(rawValue: "8.square.fill")
+    static let _8SquareFill = SFSymbol(systemName: "8.square.fill")
 
     /// 􀑳
-    static let _9AltCircle = SFSymbol(rawValue: "9.alt.circle")
+    static let _9AltCircle = SFSymbol(systemName: "9.alt.circle")
 
     /// 􀑴
-    static let _9AltCircleFill = SFSymbol(rawValue: "9.alt.circle.fill")
+    static let _9AltCircleFill = SFSymbol(systemName: "9.alt.circle.fill")
 
     /// 􀑷
-    static let _9AltSquare = SFSymbol(rawValue: "9.alt.square")
+    static let _9AltSquare = SFSymbol(systemName: "9.alt.square")
 
     /// 􀑸
-    static let _9AltSquareFill = SFSymbol(rawValue: "9.alt.square.fill")
+    static let _9AltSquareFill = SFSymbol(systemName: "9.alt.square.fill")
 
     /// 􀁊
-    static let _9Circle = SFSymbol(rawValue: "9.circle")
+    static let _9Circle = SFSymbol(systemName: "9.circle")
 
     /// 􀁋
-    static let _9CircleFill = SFSymbol(rawValue: "9.circle.fill")
+    static let _9CircleFill = SFSymbol(systemName: "9.circle.fill")
 
     /// 􀃚
-    static let _9Square = SFSymbol(rawValue: "9.square")
+    static let _9Square = SFSymbol(systemName: "9.square")
 
     /// 􀃛
-    static let _9SquareFill = SFSymbol(rawValue: "9.square.fill")
+    static let _9SquareFill = SFSymbol(systemName: "9.square.fill")
 
     /// 􀅏
     @available(iOS, introduced: 13.0, deprecated: 14.2, renamed: "character")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "character")
     @available(tvOS, introduced: 13.0, deprecated: 14.2, renamed: "character")
     @available(watchOS, introduced: 6.0, deprecated: 7.1, renamed: "character")
-    static let a = SFSymbol(rawValue: "a")
+    static let a = SFSymbol(systemName: "a")
 
     /// 􀀄
-    static let aCircle = SFSymbol(rawValue: "a.circle")
+    static let aCircle = SFSymbol(systemName: "a.circle")
 
     /// 􀀅
-    static let aCircleFill = SFSymbol(rawValue: "a.circle.fill")
+    static let aCircleFill = SFSymbol(systemName: "a.circle.fill")
 
     /// 􀂔
-    static let aSquare = SFSymbol(rawValue: "a.square")
+    static let aSquare = SFSymbol(systemName: "a.square")
 
     /// 􀂕
-    static let aSquareFill = SFSymbol(rawValue: "a.square.fill")
+    static let aSquareFill = SFSymbol(systemName: "a.square.fill")
 
     /// 􀑓
-    static let airplane = SFSymbol(rawValue: "airplane")
+    static let airplane = SFSymbol(systemName: "airplane")
 
     /// 􀑢
     /// ⚠️ This symbol can refer only to Apple's AirPlay.
-    static let airplayaudio = SFSymbol(rawValue: "airplayaudio")
+    static let airplayaudio = SFSymbol(systemName: "airplayaudio")
 
     /// 􀑡
     /// ⚠️ This symbol can refer only to Apple's AirPlay.
-    static let airplayvideo = SFSymbol(rawValue: "airplayvideo")
+    static let airplayvideo = SFSymbol(systemName: "airplayvideo")
 
     /// 􀐭
-    static let alarm = SFSymbol(rawValue: "alarm")
+    static let alarm = SFSymbol(systemName: "alarm")
 
     /// 􀐮
-    static let alarmFill = SFSymbol(rawValue: "alarm.fill")
+    static let alarmFill = SFSymbol(systemName: "alarm.fill")
 
     /// 􀆖
-    static let alt = SFSymbol(rawValue: "alt")
+    static let alt = SFSymbol(systemName: "alt")
 
     /// 􀌚
-    static let ant = SFSymbol(rawValue: "ant")
+    static let ant = SFSymbol(systemName: "ant")
 
     /// 􀌜
-    static let antCircle = SFSymbol(rawValue: "ant.circle")
+    static let antCircle = SFSymbol(systemName: "ant.circle")
 
     /// 􀌝
-    static let antCircleFill = SFSymbol(rawValue: "ant.circle.fill")
+    static let antCircleFill = SFSymbol(systemName: "ant.circle.fill")
 
     /// 􀌛
-    static let antFill = SFSymbol(rawValue: "ant.fill")
+    static let antFill = SFSymbol(systemName: "ant.fill")
 
     /// 􀖀
-    static let antennaRadiowavesLeftAndRight = SFSymbol(rawValue: "antenna.radiowaves.left.and.right")
+    static let antennaRadiowavesLeftAndRight = SFSymbol(systemName: "antenna.radiowaves.left.and.right")
 
     /// 􀑋
-    static let app = SFSymbol(rawValue: "app")
+    static let app = SFSymbol(systemName: "app")
 
     /// 􀑏
-    static let appBadge = SFSymbol(rawValue: "app.badge")
+    static let appBadge = SFSymbol(systemName: "app.badge")
 
     /// 􀑐
-    static let appBadgeFill = SFSymbol(rawValue: "app.badge.fill")
+    static let appBadgeFill = SFSymbol(systemName: "app.badge.fill")
 
     /// 􀑌
-    static let appFill = SFSymbol(rawValue: "app.fill")
+    static let appFill = SFSymbol(systemName: "app.fill")
 
     /// 􀑑
-    static let appGift = SFSymbol(rawValue: "app.gift")
+    static let appGift = SFSymbol(systemName: "app.gift")
 
     /// 􀑒
-    static let appGiftFill = SFSymbol(rawValue: "app.gift.fill")
+    static let appGiftFill = SFSymbol(systemName: "app.gift.fill")
 
     /// 􀈭
-    static let archivebox = SFSymbol(rawValue: "archivebox")
+    static let archivebox = SFSymbol(systemName: "archivebox")
 
     /// 􀈮
-    static let archiveboxFill = SFSymbol(rawValue: "archivebox.fill")
+    static let archiveboxFill = SFSymbol(systemName: "archivebox.fill")
 
     /// 􀘸
     /// ⚠️ This symbol can refer only to Apple's ARKit.
-    static let arkit = SFSymbol(rawValue: "arkit")
+    static let arkit = SFSymbol(systemName: "arkit")
 
     /// 􀊯
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2Circlepath")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2Circlepath")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2Circlepath")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2Circlepath")
-    static let arrow2Circlepath = SFSymbol(rawValue: "arrow.2.circlepath")
+    static let arrow2Circlepath = SFSymbol(systemName: "arrow.2.circlepath")
 
     /// 􀖊
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircle")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCircle")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircle")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCircle")
-    static let arrow2CirclepathCircle = SFSymbol(rawValue: "arrow.2.circlepath.circle")
+    static let arrow2CirclepathCircle = SFSymbol(systemName: "arrow.2.circlepath.circle")
 
     /// 􀖋
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircleFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCircleFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircleFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCircleFill")
-    static let arrow2CirclepathCircleFill = SFSymbol(rawValue: "arrow.2.circlepath.circle.fill")
+    static let arrow2CirclepathCircleFill = SFSymbol(systemName: "arrow.2.circlepath.circle.fill")
 
     /// 􀅌
-    static let arrow2Squarepath = SFSymbol(rawValue: "arrow.2.squarepath")
+    static let arrow2Squarepath = SFSymbol(systemName: "arrow.2.squarepath")
 
     /// 􀙛
-    static let arrow3Trianglepath = SFSymbol(rawValue: "arrow.3.trianglepath")
+    static let arrow3Trianglepath = SFSymbol(systemName: "arrow.3.trianglepath")
 
     /// 􀙠
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleBranch")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleBranch")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleBranch")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleBranch")
-    static let arrowBranch = SFSymbol(rawValue: "arrow.branch")
+    static let arrowBranch = SFSymbol(systemName: "arrow.branch")
 
     /// 􀅈
-    static let arrowClockwise = SFSymbol(rawValue: "arrow.clockwise")
+    static let arrowClockwise = SFSymbol(systemName: "arrow.clockwise")
 
     /// 􀚁
-    static let arrowClockwiseCircle = SFSymbol(rawValue: "arrow.clockwise.circle")
+    static let arrowClockwiseCircle = SFSymbol(systemName: "arrow.clockwise.circle")
 
     /// 􀚂
-    static let arrowClockwiseCircleFill = SFSymbol(rawValue: "arrow.clockwise.circle.fill")
+    static let arrowClockwiseCircleFill = SFSymbol(systemName: "arrow.clockwise.circle.fill")
 
     /// 􀙷
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let arrowClockwiseIcloud = SFSymbol(rawValue: "arrow.clockwise.icloud")
+    static let arrowClockwiseIcloud = SFSymbol(systemName: "arrow.clockwise.icloud")
 
     /// 􀙸
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let arrowClockwiseIcloudFill = SFSymbol(rawValue: "arrow.clockwise.icloud.fill")
+    static let arrowClockwiseIcloudFill = SFSymbol(systemName: "arrow.clockwise.icloud.fill")
 
     /// 􀅉
-    static let arrowCounterclockwise = SFSymbol(rawValue: "arrow.counterclockwise")
+    static let arrowCounterclockwise = SFSymbol(systemName: "arrow.counterclockwise")
 
     /// 􀚃
-    static let arrowCounterclockwiseCircle = SFSymbol(rawValue: "arrow.counterclockwise.circle")
+    static let arrowCounterclockwiseCircle = SFSymbol(systemName: "arrow.counterclockwise.circle")
 
     /// 􀚄
-    static let arrowCounterclockwiseCircleFill = SFSymbol(rawValue: "arrow.counterclockwise.circle.fill")
+    static let arrowCounterclockwiseCircleFill = SFSymbol(systemName: "arrow.counterclockwise.circle.fill")
 
     /// 􀙹
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let arrowCounterclockwiseIcloud = SFSymbol(rawValue: "arrow.counterclockwise.icloud")
+    static let arrowCounterclockwiseIcloud = SFSymbol(systemName: "arrow.counterclockwise.icloud")
 
     /// 􀙺
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let arrowCounterclockwiseIcloudFill = SFSymbol(rawValue: "arrow.counterclockwise.icloud.fill")
+    static let arrowCounterclockwiseIcloudFill = SFSymbol(systemName: "arrow.counterclockwise.icloud.fill")
 
     /// 􀄩
-    static let arrowDown = SFSymbol(rawValue: "arrow.down")
+    static let arrowDown = SFSymbol(systemName: "arrow.down")
 
     /// 􀁸
-    static let arrowDownCircle = SFSymbol(rawValue: "arrow.down.circle")
+    static let arrowDownCircle = SFSymbol(systemName: "arrow.down.circle")
 
     /// 􀁹
-    static let arrowDownCircleFill = SFSymbol(rawValue: "arrow.down.circle.fill")
+    static let arrowDownCircleFill = SFSymbol(systemName: "arrow.down.circle.fill")
 
     /// 􀈽
-    static let arrowDownDoc = SFSymbol(rawValue: "arrow.down.doc")
+    static let arrowDownDoc = SFSymbol(systemName: "arrow.down.doc")
 
     /// 􀈾
-    static let arrowDownDocFill = SFSymbol(rawValue: "arrow.down.doc.fill")
+    static let arrowDownDocFill = SFSymbol(systemName: "arrow.down.doc.fill")
 
     /// 􀄰
-    static let arrowDownLeft = SFSymbol(rawValue: "arrow.down.left")
+    static let arrowDownLeft = SFSymbol(systemName: "arrow.down.left")
 
     /// 􀂆
-    static let arrowDownLeftCircle = SFSymbol(rawValue: "arrow.down.left.circle")
+    static let arrowDownLeftCircle = SFSymbol(systemName: "arrow.down.left.circle")
 
     /// 􀂇
-    static let arrowDownLeftCircleFill = SFSymbol(rawValue: "arrow.down.left.circle.fill")
+    static let arrowDownLeftCircleFill = SFSymbol(systemName: "arrow.down.left.circle.fill")
 
     /// 􀄖
-    static let arrowDownLeftSquare = SFSymbol(rawValue: "arrow.down.left.square")
+    static let arrowDownLeftSquare = SFSymbol(systemName: "arrow.down.left.square")
 
     /// 􀄗
-    static let arrowDownLeftSquareFill = SFSymbol(rawValue: "arrow.down.left.square.fill")
+    static let arrowDownLeftSquareFill = SFSymbol(systemName: "arrow.down.left.square.fill")
 
     /// 􀍑
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
-    static let arrowDownLeftVideo = SFSymbol(rawValue: "arrow.down.left.video")
+    static let arrowDownLeftVideo = SFSymbol(systemName: "arrow.down.left.video")
 
     /// 􀍒
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
-    static let arrowDownLeftVideoFill = SFSymbol(rawValue: "arrow.down.left.video.fill")
+    static let arrowDownLeftVideoFill = SFSymbol(systemName: "arrow.down.left.video.fill")
 
     /// 􀄱
-    static let arrowDownRight = SFSymbol(rawValue: "arrow.down.right")
+    static let arrowDownRight = SFSymbol(systemName: "arrow.down.right")
 
     /// 􀅋
-    static let arrowDownRightAndArrowUpLeft = SFSymbol(rawValue: "arrow.down.right.and.arrow.up.left")
+    static let arrowDownRightAndArrowUpLeft = SFSymbol(systemName: "arrow.down.right.and.arrow.up.left")
 
     /// 􀂈
-    static let arrowDownRightCircle = SFSymbol(rawValue: "arrow.down.right.circle")
+    static let arrowDownRightCircle = SFSymbol(systemName: "arrow.down.right.circle")
 
     /// 􀂉
-    static let arrowDownRightCircleFill = SFSymbol(rawValue: "arrow.down.right.circle.fill")
+    static let arrowDownRightCircleFill = SFSymbol(systemName: "arrow.down.right.circle.fill")
 
     /// 􀄘
-    static let arrowDownRightSquare = SFSymbol(rawValue: "arrow.down.right.square")
+    static let arrowDownRightSquare = SFSymbol(systemName: "arrow.down.right.square")
 
     /// 􀄙
-    static let arrowDownRightSquareFill = SFSymbol(rawValue: "arrow.down.right.square.fill")
+    static let arrowDownRightSquareFill = SFSymbol(systemName: "arrow.down.right.square.fill")
 
     /// 􀄈
-    static let arrowDownSquare = SFSymbol(rawValue: "arrow.down.square")
+    static let arrowDownSquare = SFSymbol(systemName: "arrow.down.square")
 
     /// 􀄉
-    static let arrowDownSquareFill = SFSymbol(rawValue: "arrow.down.square.fill")
+    static let arrowDownSquareFill = SFSymbol(systemName: "arrow.down.square.fill")
 
     /// 􀅀
-    static let arrowDownToLine = SFSymbol(rawValue: "arrow.down.to.line")
+    static let arrowDownToLine = SFSymbol(systemName: "arrow.down.to.line")
 
     /// 􀅄
-    static let arrowDownToLineAlt = SFSymbol(rawValue: "arrow.down.to.line.alt")
+    static let arrowDownToLineAlt = SFSymbol(systemName: "arrow.down.to.line.alt")
 
     /// 􀄪
-    static let arrowLeft = SFSymbol(rawValue: "arrow.left")
+    static let arrowLeft = SFSymbol(systemName: "arrow.left")
 
     /// 􀄾
-    static let arrowLeftAndRight = SFSymbol(rawValue: "arrow.left.and.right")
+    static let arrowLeftAndRight = SFSymbol(systemName: "arrow.left.and.right")
 
     /// 􀑾
-    static let arrowLeftAndRightCircle = SFSymbol(rawValue: "arrow.left.and.right.circle")
+    static let arrowLeftAndRightCircle = SFSymbol(systemName: "arrow.left.and.right.circle")
 
     /// 􀑿
-    static let arrowLeftAndRightCircleFill = SFSymbol(rawValue: "arrow.left.and.right.circle.fill")
+    static let arrowLeftAndRightCircleFill = SFSymbol(systemName: "arrow.left.and.right.circle.fill")
 
     /// 􀒀
-    static let arrowLeftAndRightSquare = SFSymbol(rawValue: "arrow.left.and.right.square")
+    static let arrowLeftAndRightSquare = SFSymbol(systemName: "arrow.left.and.right.square")
 
     /// 􀒁
-    static let arrowLeftAndRightSquareFill = SFSymbol(rawValue: "arrow.left.and.right.square.fill")
+    static let arrowLeftAndRightSquareFill = SFSymbol(systemName: "arrow.left.and.right.square.fill")
 
     /// 􀁺
-    static let arrowLeftCircle = SFSymbol(rawValue: "arrow.left.circle")
+    static let arrowLeftCircle = SFSymbol(systemName: "arrow.left.circle")
 
     /// 􀁻
-    static let arrowLeftCircleFill = SFSymbol(rawValue: "arrow.left.circle.fill")
+    static let arrowLeftCircleFill = SFSymbol(systemName: "arrow.left.circle.fill")
 
     /// 􀄊
-    static let arrowLeftSquare = SFSymbol(rawValue: "arrow.left.square")
+    static let arrowLeftSquare = SFSymbol(systemName: "arrow.left.square")
 
     /// 􀄋
-    static let arrowLeftSquareFill = SFSymbol(rawValue: "arrow.left.square.fill")
+    static let arrowLeftSquareFill = SFSymbol(systemName: "arrow.left.square.fill")
 
     /// 􀅁
-    static let arrowLeftToLine = SFSymbol(rawValue: "arrow.left.to.line")
+    static let arrowLeftToLine = SFSymbol(systemName: "arrow.left.to.line")
 
     /// 􀅅
-    static let arrowLeftToLineAlt = SFSymbol(rawValue: "arrow.left.to.line.alt")
+    static let arrowLeftToLineAlt = SFSymbol(systemName: "arrow.left.to.line.alt")
 
     /// 􀖄
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleMerge")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleMerge")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleMerge")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleMerge")
-    static let arrowMerge = SFSymbol(rawValue: "arrow.merge")
+    static let arrowMerge = SFSymbol(systemName: "arrow.merge")
 
     /// 􀄫
-    static let arrowRight = SFSymbol(rawValue: "arrow.right")
+    static let arrowRight = SFSymbol(systemName: "arrow.right")
 
     /// 􀄭
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRight")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRight")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRight")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRight")
-    static let arrowRightArrowLeft = SFSymbol(rawValue: "arrow.right.arrow.left")
+    static let arrowRightArrowLeft = SFSymbol(systemName: "arrow.right.arrow.left")
 
     /// 􀂀
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircle")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightCircle")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircle")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightCircle")
-    static let arrowRightArrowLeftCircle = SFSymbol(rawValue: "arrow.right.arrow.left.circle")
+    static let arrowRightArrowLeftCircle = SFSymbol(systemName: "arrow.right.arrow.left.circle")
 
     /// 􀂁
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircleFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightCircleFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircleFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightCircleFill")
-    static let arrowRightArrowLeftCircleFill = SFSymbol(rawValue: "arrow.right.arrow.left.circle.fill")
+    static let arrowRightArrowLeftCircleFill = SFSymbol(systemName: "arrow.right.arrow.left.circle.fill")
 
     /// 􀄐
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquare")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightSquare")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquare")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightSquare")
-    static let arrowRightArrowLeftSquare = SFSymbol(rawValue: "arrow.right.arrow.left.square")
+    static let arrowRightArrowLeftSquare = SFSymbol(systemName: "arrow.right.arrow.left.square")
 
     /// 􀄑
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquareFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightSquareFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquareFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightSquareFill")
-    static let arrowRightArrowLeftSquareFill = SFSymbol(rawValue: "arrow.right.arrow.left.square.fill")
+    static let arrowRightArrowLeftSquareFill = SFSymbol(systemName: "arrow.right.arrow.left.square.fill")
 
     /// 􀁼
-    static let arrowRightCircle = SFSymbol(rawValue: "arrow.right.circle")
+    static let arrowRightCircle = SFSymbol(systemName: "arrow.right.circle")
 
     /// 􀁽
-    static let arrowRightCircleFill = SFSymbol(rawValue: "arrow.right.circle.fill")
+    static let arrowRightCircleFill = SFSymbol(systemName: "arrow.right.circle.fill")
 
     /// 􀄌
-    static let arrowRightSquare = SFSymbol(rawValue: "arrow.right.square")
+    static let arrowRightSquare = SFSymbol(systemName: "arrow.right.square")
 
     /// 􀄍
-    static let arrowRightSquareFill = SFSymbol(rawValue: "arrow.right.square.fill")
+    static let arrowRightSquareFill = SFSymbol(systemName: "arrow.right.square.fill")
 
     /// 􀅂
-    static let arrowRightToLine = SFSymbol(rawValue: "arrow.right.to.line")
+    static let arrowRightToLine = SFSymbol(systemName: "arrow.right.to.line")
 
     /// 􀅆
-    static let arrowRightToLineAlt = SFSymbol(rawValue: "arrow.right.to.line.alt")
+    static let arrowRightToLineAlt = SFSymbol(systemName: "arrow.right.to.line.alt")
 
     /// 􀖅
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleSwap")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleSwap")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleSwap")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleSwap")
-    static let arrowSwap = SFSymbol(rawValue: "arrow.swap")
+    static let arrowSwap = SFSymbol(systemName: "arrow.swap")
 
     /// 􀄴
-    static let arrowTurnDownLeft = SFSymbol(rawValue: "arrow.turn.down.left")
+    static let arrowTurnDownLeft = SFSymbol(systemName: "arrow.turn.down.left")
 
     /// 􀄵
-    static let arrowTurnDownRight = SFSymbol(rawValue: "arrow.turn.down.right")
+    static let arrowTurnDownRight = SFSymbol(systemName: "arrow.turn.down.right")
 
     /// 􀄷
-    static let arrowTurnLeftDown = SFSymbol(rawValue: "arrow.turn.left.down")
+    static let arrowTurnLeftDown = SFSymbol(systemName: "arrow.turn.left.down")
 
     /// 􀄶
-    static let arrowTurnLeftUp = SFSymbol(rawValue: "arrow.turn.left.up")
+    static let arrowTurnLeftUp = SFSymbol(systemName: "arrow.turn.left.up")
 
     /// 􀄳
-    static let arrowTurnRightDown = SFSymbol(rawValue: "arrow.turn.right.down")
+    static let arrowTurnRightDown = SFSymbol(systemName: "arrow.turn.right.down")
 
     /// 􀄲
-    static let arrowTurnRightUp = SFSymbol(rawValue: "arrow.turn.right.up")
+    static let arrowTurnRightUp = SFSymbol(systemName: "arrow.turn.right.up")
 
     /// 􀄸
-    static let arrowTurnUpLeft = SFSymbol(rawValue: "arrow.turn.up.left")
+    static let arrowTurnUpLeft = SFSymbol(systemName: "arrow.turn.up.left")
 
     /// 􀄹
-    static let arrowTurnUpRight = SFSymbol(rawValue: "arrow.turn.up.right")
+    static let arrowTurnUpRight = SFSymbol(systemName: "arrow.turn.up.right")
 
     /// 􀄨
-    static let arrowUp = SFSymbol(rawValue: "arrow.up")
+    static let arrowUp = SFSymbol(systemName: "arrow.up")
 
     /// 􀑹
-    static let arrowUpAndDown = SFSymbol(rawValue: "arrow.up.and.down")
+    static let arrowUpAndDown = SFSymbol(systemName: "arrow.up.and.down")
 
     /// 􀑺
-    static let arrowUpAndDownCircle = SFSymbol(rawValue: "arrow.up.and.down.circle")
+    static let arrowUpAndDownCircle = SFSymbol(systemName: "arrow.up.and.down.circle")
 
     /// 􀑻
-    static let arrowUpAndDownCircleFill = SFSymbol(rawValue: "arrow.up.and.down.circle.fill")
+    static let arrowUpAndDownCircleFill = SFSymbol(systemName: "arrow.up.and.down.circle.fill")
 
     /// 􀑼
-    static let arrowUpAndDownSquare = SFSymbol(rawValue: "arrow.up.and.down.square")
+    static let arrowUpAndDownSquare = SFSymbol(systemName: "arrow.up.and.down.square")
 
     /// 􀑽
-    static let arrowUpAndDownSquareFill = SFSymbol(rawValue: "arrow.up.and.down.square.fill")
+    static let arrowUpAndDownSquareFill = SFSymbol(systemName: "arrow.up.and.down.square.fill")
 
     /// 􀄬
-    static let arrowUpArrowDown = SFSymbol(rawValue: "arrow.up.arrow.down")
+    static let arrowUpArrowDown = SFSymbol(systemName: "arrow.up.arrow.down")
 
     /// 􀁾
-    static let arrowUpArrowDownCircle = SFSymbol(rawValue: "arrow.up.arrow.down.circle")
+    static let arrowUpArrowDownCircle = SFSymbol(systemName: "arrow.up.arrow.down.circle")
 
     /// 􀁿
-    static let arrowUpArrowDownCircleFill = SFSymbol(rawValue: "arrow.up.arrow.down.circle.fill")
+    static let arrowUpArrowDownCircleFill = SFSymbol(systemName: "arrow.up.arrow.down.circle.fill")
 
     /// 􀄎
-    static let arrowUpArrowDownSquare = SFSymbol(rawValue: "arrow.up.arrow.down.square")
+    static let arrowUpArrowDownSquare = SFSymbol(systemName: "arrow.up.arrow.down.square")
 
     /// 􀄏
-    static let arrowUpArrowDownSquareFill = SFSymbol(rawValue: "arrow.up.arrow.down.square.fill")
+    static let arrowUpArrowDownSquareFill = SFSymbol(systemName: "arrow.up.arrow.down.square.fill")
 
     /// 􀈵
-    static let arrowUpBin = SFSymbol(rawValue: "arrow.up.bin")
+    static let arrowUpBin = SFSymbol(systemName: "arrow.up.bin")
 
     /// 􀈶
-    static let arrowUpBinFill = SFSymbol(rawValue: "arrow.up.bin.fill")
+    static let arrowUpBinFill = SFSymbol(systemName: "arrow.up.bin.fill")
 
     /// 􀁶
-    static let arrowUpCircle = SFSymbol(rawValue: "arrow.up.circle")
+    static let arrowUpCircle = SFSymbol(systemName: "arrow.up.circle")
 
     /// 􀁷
-    static let arrowUpCircleFill = SFSymbol(rawValue: "arrow.up.circle.fill")
+    static let arrowUpCircleFill = SFSymbol(systemName: "arrow.up.circle.fill")
 
     /// 􀈻
-    static let arrowUpDoc = SFSymbol(rawValue: "arrow.up.doc")
+    static let arrowUpDoc = SFSymbol(systemName: "arrow.up.doc")
 
     /// 􀈼
-    static let arrowUpDocFill = SFSymbol(rawValue: "arrow.up.doc.fill")
+    static let arrowUpDocFill = SFSymbol(systemName: "arrow.up.doc.fill")
 
     /// 􀄮
-    static let arrowUpLeft = SFSymbol(rawValue: "arrow.up.left")
+    static let arrowUpLeft = SFSymbol(systemName: "arrow.up.left")
 
     /// 􀅊
-    static let arrowUpLeftAndArrowDownRight = SFSymbol(rawValue: "arrow.up.left.and.arrow.down.right")
+    static let arrowUpLeftAndArrowDownRight = SFSymbol(systemName: "arrow.up.left.and.arrow.down.right")
 
     /// 􀂂
-    static let arrowUpLeftCircle = SFSymbol(rawValue: "arrow.up.left.circle")
+    static let arrowUpLeftCircle = SFSymbol(systemName: "arrow.up.left.circle")
 
     /// 􀂃
-    static let arrowUpLeftCircleFill = SFSymbol(rawValue: "arrow.up.left.circle.fill")
+    static let arrowUpLeftCircleFill = SFSymbol(systemName: "arrow.up.left.circle.fill")
 
     /// 􀄒
-    static let arrowUpLeftSquare = SFSymbol(rawValue: "arrow.up.left.square")
+    static let arrowUpLeftSquare = SFSymbol(systemName: "arrow.up.left.square")
 
     /// 􀄓
-    static let arrowUpLeftSquareFill = SFSymbol(rawValue: "arrow.up.left.square.fill")
+    static let arrowUpLeftSquareFill = SFSymbol(systemName: "arrow.up.left.square.fill")
 
     /// 􀄯
-    static let arrowUpRight = SFSymbol(rawValue: "arrow.up.right")
+    static let arrowUpRight = SFSymbol(systemName: "arrow.up.right")
 
     /// 􀂄
-    static let arrowUpRightCircle = SFSymbol(rawValue: "arrow.up.right.circle")
+    static let arrowUpRightCircle = SFSymbol(systemName: "arrow.up.right.circle")
 
     /// 􀂅
-    static let arrowUpRightCircleFill = SFSymbol(rawValue: "arrow.up.right.circle.fill")
+    static let arrowUpRightCircleFill = SFSymbol(systemName: "arrow.up.right.circle.fill")
 
     /// 􀙞
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamond")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleTurnUpRightDiamond")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamond")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleTurnUpRightDiamond")
-    static let arrowUpRightDiamond = SFSymbol(rawValue: "arrow.up.right.diamond")
+    static let arrowUpRightDiamond = SFSymbol(systemName: "arrow.up.right.diamond")
 
     /// 􀙟
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
-    static let arrowUpRightDiamondFill = SFSymbol(rawValue: "arrow.up.right.diamond.fill")
+    static let arrowUpRightDiamondFill = SFSymbol(systemName: "arrow.up.right.diamond.fill")
 
     /// 􀄔
-    static let arrowUpRightSquare = SFSymbol(rawValue: "arrow.up.right.square")
+    static let arrowUpRightSquare = SFSymbol(systemName: "arrow.up.right.square")
 
     /// 􀄕
-    static let arrowUpRightSquareFill = SFSymbol(rawValue: "arrow.up.right.square.fill")
+    static let arrowUpRightSquareFill = SFSymbol(systemName: "arrow.up.right.square.fill")
 
     /// 􀍏
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
-    static let arrowUpRightVideo = SFSymbol(rawValue: "arrow.up.right.video")
+    static let arrowUpRightVideo = SFSymbol(systemName: "arrow.up.right.video")
 
     /// 􀍐
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
-    static let arrowUpRightVideoFill = SFSymbol(rawValue: "arrow.up.right.video.fill")
+    static let arrowUpRightVideoFill = SFSymbol(systemName: "arrow.up.right.video.fill")
 
     /// 􀄆
-    static let arrowUpSquare = SFSymbol(rawValue: "arrow.up.square")
+    static let arrowUpSquare = SFSymbol(systemName: "arrow.up.square")
 
     /// 􀄇
-    static let arrowUpSquareFill = SFSymbol(rawValue: "arrow.up.square.fill")
+    static let arrowUpSquareFill = SFSymbol(systemName: "arrow.up.square.fill")
 
     /// 􀄿
-    static let arrowUpToLine = SFSymbol(rawValue: "arrow.up.to.line")
+    static let arrowUpToLine = SFSymbol(systemName: "arrow.up.to.line")
 
     /// 􀅃
-    static let arrowUpToLineAlt = SFSymbol(rawValue: "arrow.up.to.line.alt")
+    static let arrowUpToLineAlt = SFSymbol(systemName: "arrow.up.to.line.alt")
 
     /// 􀄻
-    static let arrowUturnDown = SFSymbol(rawValue: "arrow.uturn.down")
+    static let arrowUturnDown = SFSymbol(systemName: "arrow.uturn.down")
 
     /// 􀂌
-    static let arrowUturnDownCircle = SFSymbol(rawValue: "arrow.uturn.down.circle")
+    static let arrowUturnDownCircle = SFSymbol(systemName: "arrow.uturn.down.circle")
 
     /// 􀂍
-    static let arrowUturnDownCircleFill = SFSymbol(rawValue: "arrow.uturn.down.circle.fill")
+    static let arrowUturnDownCircleFill = SFSymbol(systemName: "arrow.uturn.down.circle.fill")
 
     /// 􀄜
-    static let arrowUturnDownSquare = SFSymbol(rawValue: "arrow.uturn.down.square")
+    static let arrowUturnDownSquare = SFSymbol(systemName: "arrow.uturn.down.square")
 
     /// 􀄝
-    static let arrowUturnDownSquareFill = SFSymbol(rawValue: "arrow.uturn.down.square.fill")
+    static let arrowUturnDownSquareFill = SFSymbol(systemName: "arrow.uturn.down.square.fill")
 
     /// 􀄼
-    static let arrowUturnLeft = SFSymbol(rawValue: "arrow.uturn.left")
+    static let arrowUturnLeft = SFSymbol(systemName: "arrow.uturn.left")
 
     /// 􀂎
-    static let arrowUturnLeftCircle = SFSymbol(rawValue: "arrow.uturn.left.circle")
+    static let arrowUturnLeftCircle = SFSymbol(systemName: "arrow.uturn.left.circle")
 
     /// 􀞸
-    static let arrowUturnLeftCircleBadgeEllipsis = SFSymbol(rawValue: "arrow.uturn.left.circle.badge.ellipsis")
+    static let arrowUturnLeftCircleBadgeEllipsis = SFSymbol(systemName: "arrow.uturn.left.circle.badge.ellipsis")
 
     /// 􀂏
-    static let arrowUturnLeftCircleFill = SFSymbol(rawValue: "arrow.uturn.left.circle.fill")
+    static let arrowUturnLeftCircleFill = SFSymbol(systemName: "arrow.uturn.left.circle.fill")
 
     /// 􀄞
-    static let arrowUturnLeftSquare = SFSymbol(rawValue: "arrow.uturn.left.square")
+    static let arrowUturnLeftSquare = SFSymbol(systemName: "arrow.uturn.left.square")
 
     /// 􀄟
-    static let arrowUturnLeftSquareFill = SFSymbol(rawValue: "arrow.uturn.left.square.fill")
+    static let arrowUturnLeftSquareFill = SFSymbol(systemName: "arrow.uturn.left.square.fill")
 
     /// 􀄽
-    static let arrowUturnRight = SFSymbol(rawValue: "arrow.uturn.right")
+    static let arrowUturnRight = SFSymbol(systemName: "arrow.uturn.right")
 
     /// 􀂐
-    static let arrowUturnRightCircle = SFSymbol(rawValue: "arrow.uturn.right.circle")
+    static let arrowUturnRightCircle = SFSymbol(systemName: "arrow.uturn.right.circle")
 
     /// 􀂑
-    static let arrowUturnRightCircleFill = SFSymbol(rawValue: "arrow.uturn.right.circle.fill")
+    static let arrowUturnRightCircleFill = SFSymbol(systemName: "arrow.uturn.right.circle.fill")
 
     /// 􀄠
-    static let arrowUturnRightSquare = SFSymbol(rawValue: "arrow.uturn.right.square")
+    static let arrowUturnRightSquare = SFSymbol(systemName: "arrow.uturn.right.square")
 
     /// 􀄡
-    static let arrowUturnRightSquareFill = SFSymbol(rawValue: "arrow.uturn.right.square.fill")
+    static let arrowUturnRightSquareFill = SFSymbol(systemName: "arrow.uturn.right.square.fill")
 
     /// 􀄺
-    static let arrowUturnUp = SFSymbol(rawValue: "arrow.uturn.up")
+    static let arrowUturnUp = SFSymbol(systemName: "arrow.uturn.up")
 
     /// 􀂊
-    static let arrowUturnUpCircle = SFSymbol(rawValue: "arrow.uturn.up.circle")
+    static let arrowUturnUpCircle = SFSymbol(systemName: "arrow.uturn.up.circle")
 
     /// 􀂋
-    static let arrowUturnUpCircleFill = SFSymbol(rawValue: "arrow.uturn.up.circle.fill")
+    static let arrowUturnUpCircleFill = SFSymbol(systemName: "arrow.uturn.up.circle.fill")
 
     /// 􀄚
-    static let arrowUturnUpSquare = SFSymbol(rawValue: "arrow.uturn.up.square")
+    static let arrowUturnUpSquare = SFSymbol(systemName: "arrow.uturn.up.square")
 
     /// 􀄛
-    static let arrowUturnUpSquareFill = SFSymbol(rawValue: "arrow.uturn.up.square.fill")
+    static let arrowUturnUpSquareFill = SFSymbol(systemName: "arrow.uturn.up.square.fill")
 
     /// 􀉌
-    static let arrowshapeTurnUpLeft = SFSymbol(rawValue: "arrowshape.turn.up.left")
+    static let arrowshapeTurnUpLeft = SFSymbol(systemName: "arrowshape.turn.up.left")
 
     /// 􀉔
-    static let arrowshapeTurnUpLeft2 = SFSymbol(rawValue: "arrowshape.turn.up.left.2")
+    static let arrowshapeTurnUpLeft2 = SFSymbol(systemName: "arrowshape.turn.up.left.2")
 
     /// 􀉕
-    static let arrowshapeTurnUpLeft2Fill = SFSymbol(rawValue: "arrowshape.turn.up.left.2.fill")
+    static let arrowshapeTurnUpLeft2Fill = SFSymbol(systemName: "arrowshape.turn.up.left.2.fill")
 
     /// 􀉎
-    static let arrowshapeTurnUpLeftCircle = SFSymbol(rawValue: "arrowshape.turn.up.left.circle")
+    static let arrowshapeTurnUpLeftCircle = SFSymbol(systemName: "arrowshape.turn.up.left.circle")
 
     /// 􀉏
-    static let arrowshapeTurnUpLeftCircleFill = SFSymbol(rawValue: "arrowshape.turn.up.left.circle.fill")
+    static let arrowshapeTurnUpLeftCircleFill = SFSymbol(systemName: "arrowshape.turn.up.left.circle.fill")
 
     /// 􀉍
-    static let arrowshapeTurnUpLeftFill = SFSymbol(rawValue: "arrowshape.turn.up.left.fill")
+    static let arrowshapeTurnUpLeftFill = SFSymbol(systemName: "arrowshape.turn.up.left.fill")
 
     /// 􀉐
-    static let arrowshapeTurnUpRight = SFSymbol(rawValue: "arrowshape.turn.up.right")
+    static let arrowshapeTurnUpRight = SFSymbol(systemName: "arrowshape.turn.up.right")
 
     /// 􀉒
-    static let arrowshapeTurnUpRightCircle = SFSymbol(rawValue: "arrowshape.turn.up.right.circle")
+    static let arrowshapeTurnUpRightCircle = SFSymbol(systemName: "arrowshape.turn.up.right.circle")
 
     /// 􀉓
-    static let arrowshapeTurnUpRightCircleFill = SFSymbol(rawValue: "arrowshape.turn.up.right.circle.fill")
+    static let arrowshapeTurnUpRightCircleFill = SFSymbol(systemName: "arrowshape.turn.up.right.circle.fill")
 
     /// 􀉑
-    static let arrowshapeTurnUpRightFill = SFSymbol(rawValue: "arrowshape.turn.up.right.fill")
+    static let arrowshapeTurnUpRightFill = SFSymbol(systemName: "arrowshape.turn.up.right.fill")
 
     /// 􀓃
-    static let arrowtriangleDown = SFSymbol(rawValue: "arrowtriangle.down")
+    static let arrowtriangleDown = SFSymbol(systemName: "arrowtriangle.down")
 
     /// 􀁨
-    static let arrowtriangleDownCircle = SFSymbol(rawValue: "arrowtriangle.down.circle")
+    static let arrowtriangleDownCircle = SFSymbol(systemName: "arrowtriangle.down.circle")
 
     /// 􀁩
-    static let arrowtriangleDownCircleFill = SFSymbol(rawValue: "arrowtriangle.down.circle.fill")
+    static let arrowtriangleDownCircleFill = SFSymbol(systemName: "arrowtriangle.down.circle.fill")
 
     /// 􀄥
-    static let arrowtriangleDownFill = SFSymbol(rawValue: "arrowtriangle.down.fill")
+    static let arrowtriangleDownFill = SFSymbol(systemName: "arrowtriangle.down.fill")
 
     /// 􀃸
-    static let arrowtriangleDownSquare = SFSymbol(rawValue: "arrowtriangle.down.square")
+    static let arrowtriangleDownSquare = SFSymbol(systemName: "arrowtriangle.down.square")
 
     /// 􀃹
-    static let arrowtriangleDownSquareFill = SFSymbol(rawValue: "arrowtriangle.down.square.fill")
+    static let arrowtriangleDownSquareFill = SFSymbol(systemName: "arrowtriangle.down.square.fill")
 
     /// 􀓄
-    static let arrowtriangleLeft = SFSymbol(rawValue: "arrowtriangle.left")
+    static let arrowtriangleLeft = SFSymbol(systemName: "arrowtriangle.left")
 
     /// 􀁪
-    static let arrowtriangleLeftCircle = SFSymbol(rawValue: "arrowtriangle.left.circle")
+    static let arrowtriangleLeftCircle = SFSymbol(systemName: "arrowtriangle.left.circle")
 
     /// 􀁫
-    static let arrowtriangleLeftCircleFill = SFSymbol(rawValue: "arrowtriangle.left.circle.fill")
+    static let arrowtriangleLeftCircleFill = SFSymbol(systemName: "arrowtriangle.left.circle.fill")
 
     /// 􀄦
-    static let arrowtriangleLeftFill = SFSymbol(rawValue: "arrowtriangle.left.fill")
+    static let arrowtriangleLeftFill = SFSymbol(systemName: "arrowtriangle.left.fill")
 
     /// 􀃺
-    static let arrowtriangleLeftSquare = SFSymbol(rawValue: "arrowtriangle.left.square")
+    static let arrowtriangleLeftSquare = SFSymbol(systemName: "arrowtriangle.left.square")
 
     /// 􀃻
-    static let arrowtriangleLeftSquareFill = SFSymbol(rawValue: "arrowtriangle.left.square.fill")
+    static let arrowtriangleLeftSquareFill = SFSymbol(systemName: "arrowtriangle.left.square.fill")
 
     /// 􀓅
-    static let arrowtriangleRight = SFSymbol(rawValue: "arrowtriangle.right")
+    static let arrowtriangleRight = SFSymbol(systemName: "arrowtriangle.right")
 
     /// 􀁬
-    static let arrowtriangleRightCircle = SFSymbol(rawValue: "arrowtriangle.right.circle")
+    static let arrowtriangleRightCircle = SFSymbol(systemName: "arrowtriangle.right.circle")
 
     /// 􀁭
-    static let arrowtriangleRightCircleFill = SFSymbol(rawValue: "arrowtriangle.right.circle.fill")
+    static let arrowtriangleRightCircleFill = SFSymbol(systemName: "arrowtriangle.right.circle.fill")
 
     /// 􀄧
-    static let arrowtriangleRightFill = SFSymbol(rawValue: "arrowtriangle.right.fill")
+    static let arrowtriangleRightFill = SFSymbol(systemName: "arrowtriangle.right.fill")
 
     /// 􀃼
-    static let arrowtriangleRightSquare = SFSymbol(rawValue: "arrowtriangle.right.square")
+    static let arrowtriangleRightSquare = SFSymbol(systemName: "arrowtriangle.right.square")
 
     /// 􀃽
-    static let arrowtriangleRightSquareFill = SFSymbol(rawValue: "arrowtriangle.right.square.fill")
+    static let arrowtriangleRightSquareFill = SFSymbol(systemName: "arrowtriangle.right.square.fill")
 
     /// 􀓂
-    static let arrowtriangleUp = SFSymbol(rawValue: "arrowtriangle.up")
+    static let arrowtriangleUp = SFSymbol(systemName: "arrowtriangle.up")
 
     /// 􀁦
-    static let arrowtriangleUpCircle = SFSymbol(rawValue: "arrowtriangle.up.circle")
+    static let arrowtriangleUpCircle = SFSymbol(systemName: "arrowtriangle.up.circle")
 
     /// 􀁧
-    static let arrowtriangleUpCircleFill = SFSymbol(rawValue: "arrowtriangle.up.circle.fill")
+    static let arrowtriangleUpCircleFill = SFSymbol(systemName: "arrowtriangle.up.circle.fill")
 
     /// 􀄤
-    static let arrowtriangleUpFill = SFSymbol(rawValue: "arrowtriangle.up.fill")
+    static let arrowtriangleUpFill = SFSymbol(systemName: "arrowtriangle.up.fill")
 
     /// 􀃶
-    static let arrowtriangleUpSquare = SFSymbol(rawValue: "arrowtriangle.up.square")
+    static let arrowtriangleUpSquare = SFSymbol(systemName: "arrowtriangle.up.square")
 
     /// 􀃷
-    static let arrowtriangleUpSquareFill = SFSymbol(rawValue: "arrowtriangle.up.square.fill")
+    static let arrowtriangleUpSquareFill = SFSymbol(systemName: "arrowtriangle.up.square.fill")
 
     /// 􀞖
-    static let aspectratio = SFSymbol(rawValue: "aspectratio")
+    static let aspectratio = SFSymbol(systemName: "aspectratio")
 
     /// 􀞏
-    static let aspectratioFill = SFSymbol(rawValue: "aspectratio.fill")
+    static let aspectratioFill = SFSymbol(systemName: "aspectratio.fill")
 
     /// 􀕬
-    static let asteriskCircle = SFSymbol(rawValue: "asterisk.circle")
+    static let asteriskCircle = SFSymbol(systemName: "asterisk.circle")
 
     /// 􀕭
-    static let asteriskCircleFill = SFSymbol(rawValue: "asterisk.circle.fill")
+    static let asteriskCircleFill = SFSymbol(systemName: "asterisk.circle.fill")
 
     /// 􀅷
-    static let at = SFSymbol(rawValue: "at")
+    static let at = SFSymbol(systemName: "at")
 
     /// 􀅹
-    static let atBadgeMinus = SFSymbol(rawValue: "at.badge.minus")
+    static let atBadgeMinus = SFSymbol(systemName: "at.badge.minus")
 
     /// 􀅸
-    static let atBadgePlus = SFSymbol(rawValue: "at.badge.plus")
+    static let atBadgePlus = SFSymbol(systemName: "at.badge.plus")
 
     /// 􀖹
-    static let australsignCircle = SFSymbol(rawValue: "australsign.circle")
+    static let australsignCircle = SFSymbol(systemName: "australsign.circle")
 
     /// 􀖺
-    static let australsignCircleFill = SFSymbol(rawValue: "australsign.circle.fill")
+    static let australsignCircleFill = SFSymbol(systemName: "australsign.circle.fill")
 
     /// 􀗹
-    static let australsignSquare = SFSymbol(rawValue: "australsign.square")
+    static let australsignSquare = SFSymbol(systemName: "australsign.square")
 
     /// 􀗺
-    static let australsignSquareFill = SFSymbol(rawValue: "australsign.square.fill")
+    static let australsignSquareFill = SFSymbol(systemName: "australsign.square.fill")
 
     /// 􀀆
-    static let bCircle = SFSymbol(rawValue: "b.circle")
+    static let bCircle = SFSymbol(systemName: "b.circle")
 
     /// 􀀇
-    static let bCircleFill = SFSymbol(rawValue: "b.circle.fill")
+    static let bCircleFill = SFSymbol(systemName: "b.circle.fill")
 
     /// 􀂖
-    static let bSquare = SFSymbol(rawValue: "b.square")
+    static let bSquare = SFSymbol(systemName: "b.square")
 
     /// 􀂗
-    static let bSquareFill = SFSymbol(rawValue: "b.square.fill")
+    static let bSquareFill = SFSymbol(systemName: "b.square.fill")
 
     /// 􀊉
-    static let backward = SFSymbol(rawValue: "backward")
+    static let backward = SFSymbol(systemName: "backward")
 
     /// 􀊍
-    static let backwardEnd = SFSymbol(rawValue: "backward.end")
+    static let backwardEnd = SFSymbol(systemName: "backward.end")
 
     /// 􀊑
-    static let backwardEndAlt = SFSymbol(rawValue: "backward.end.alt")
+    static let backwardEndAlt = SFSymbol(systemName: "backward.end.alt")
 
     /// 􀊒
-    static let backwardEndAltFill = SFSymbol(rawValue: "backward.end.alt.fill")
+    static let backwardEndAltFill = SFSymbol(systemName: "backward.end.alt.fill")
 
     /// 􀊎
-    static let backwardEndFill = SFSymbol(rawValue: "backward.end.fill")
+    static let backwardEndFill = SFSymbol(systemName: "backward.end.fill")
 
     /// 􀊊
-    static let backwardFill = SFSymbol(rawValue: "backward.fill")
+    static let backwardFill = SFSymbol(systemName: "backward.fill")
 
     /// 􀊪
-    static let badgePlusRadiowavesRight = SFSymbol(rawValue: "badge.plus.radiowaves.right")
+    static let badgePlusRadiowavesRight = SFSymbol(systemName: "badge.plus.radiowaves.right")
 
     /// 􀍣
-    static let bag = SFSymbol(rawValue: "bag")
+    static let bag = SFSymbol(systemName: "bag")
 
     /// 􀍧
-    static let bagBadgeMinus = SFSymbol(rawValue: "bag.badge.minus")
+    static let bagBadgeMinus = SFSymbol(systemName: "bag.badge.minus")
 
     /// 􀍥
-    static let bagBadgePlus = SFSymbol(rawValue: "bag.badge.plus")
+    static let bagBadgePlus = SFSymbol(systemName: "bag.badge.plus")
 
     /// 􀍤
-    static let bagFill = SFSymbol(rawValue: "bag.fill")
+    static let bagFill = SFSymbol(systemName: "bag.fill")
 
     /// 􀍨
-    static let bagFillBadgeMinus = SFSymbol(rawValue: "bag.fill.badge.minus")
+    static let bagFillBadgeMinus = SFSymbol(systemName: "bag.fill.badge.minus")
 
     /// 􀍦
-    static let bagFillBadgePlus = SFSymbol(rawValue: "bag.fill.badge.plus")
+    static let bagFillBadgePlus = SFSymbol(systemName: "bag.fill.badge.plus")
 
     /// 􀗑
-    static let bahtsignCircle = SFSymbol(rawValue: "bahtsign.circle")
+    static let bahtsignCircle = SFSymbol(systemName: "bahtsign.circle")
 
     /// 􀗒
-    static let bahtsignCircleFill = SFSymbol(rawValue: "bahtsign.circle.fill")
+    static let bahtsignCircleFill = SFSymbol(systemName: "bahtsign.circle.fill")
 
     /// 􀘑
-    static let bahtsignSquare = SFSymbol(rawValue: "bahtsign.square")
+    static let bahtsignSquare = SFSymbol(systemName: "bahtsign.square")
 
     /// 􀘒
-    static let bahtsignSquareFill = SFSymbol(rawValue: "bahtsign.square.fill")
+    static let bahtsignSquareFill = SFSymbol(systemName: "bahtsign.square.fill")
 
     /// 􀎓
-    static let bandage = SFSymbol(rawValue: "bandage")
+    static let bandage = SFSymbol(systemName: "bandage")
 
     /// 􀎔
-    static let bandageFill = SFSymbol(rawValue: "bandage.fill")
+    static let bandageFill = SFSymbol(systemName: "bandage.fill")
 
     /// 􀘱
-    static let barcode = SFSymbol(rawValue: "barcode")
+    static let barcode = SFSymbol(systemName: "barcode")
 
     /// 􀎺
-    static let barcodeViewfinder = SFSymbol(rawValue: "barcode.viewfinder")
+    static let barcodeViewfinder = SFSymbol(systemName: "barcode.viewfinder")
 
     /// 􀛪
-    static let battery0 = SFSymbol(rawValue: "battery.0")
+    static let battery0 = SFSymbol(systemName: "battery.0")
 
     /// 􀛨
-    static let battery100 = SFSymbol(rawValue: "battery.100")
+    static let battery100 = SFSymbol(systemName: "battery.100")
 
     /// 􀛩
-    static let battery25 = SFSymbol(rawValue: "battery.25")
+    static let battery25 = SFSymbol(systemName: "battery.25")
 
     /// 􀙩
-    static let bedDouble = SFSymbol(rawValue: "bed.double")
+    static let bedDouble = SFSymbol(systemName: "bed.double")
 
     /// 􀙪
-    static let bedDoubleFill = SFSymbol(rawValue: "bed.double.fill")
+    static let bedDoubleFill = SFSymbol(systemName: "bed.double.fill")
 
     /// 􀋙
-    static let bell = SFSymbol(rawValue: "bell")
+    static let bell = SFSymbol(systemName: "bell")
 
     /// 􀋛
-    static let bellCircle = SFSymbol(rawValue: "bell.circle")
+    static let bellCircle = SFSymbol(systemName: "bell.circle")
 
     /// 􀋜
-    static let bellCircleFill = SFSymbol(rawValue: "bell.circle.fill")
+    static let bellCircleFill = SFSymbol(systemName: "bell.circle.fill")
 
     /// 􀋚
-    static let bellFill = SFSymbol(rawValue: "bell.fill")
+    static let bellFill = SFSymbol(systemName: "bell.fill")
 
     /// 􀋝
-    static let bellSlash = SFSymbol(rawValue: "bell.slash")
+    static let bellSlash = SFSymbol(systemName: "bell.slash")
 
     /// 􀋞
-    static let bellSlashFill = SFSymbol(rawValue: "bell.slash.fill")
+    static let bellSlashFill = SFSymbol(systemName: "bell.slash.fill")
 
     /// 􀈱
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBin")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "xmarkBin")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBin")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "xmarkBin")
-    static let binXmark = SFSymbol(rawValue: "bin.xmark")
+    static let binXmark = SFSymbol(systemName: "bin.xmark")
 
     /// 􀈲
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBinFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "xmarkBinFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBinFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "xmarkBinFill")
-    static let binXmarkFill = SFSymbol(rawValue: "bin.xmark.fill")
+    static let binXmarkFill = SFSymbol(systemName: "bin.xmark.fill")
 
     /// 􀗕
-    static let bitcoinsignCircle = SFSymbol(rawValue: "bitcoinsign.circle")
+    static let bitcoinsignCircle = SFSymbol(systemName: "bitcoinsign.circle")
 
     /// 􀗖
-    static let bitcoinsignCircleFill = SFSymbol(rawValue: "bitcoinsign.circle.fill")
+    static let bitcoinsignCircleFill = SFSymbol(systemName: "bitcoinsign.circle.fill")
 
     /// 􀘕
-    static let bitcoinsignSquare = SFSymbol(rawValue: "bitcoinsign.square")
+    static let bitcoinsignSquare = SFSymbol(systemName: "bitcoinsign.square")
 
     /// 􀘖
-    static let bitcoinsignSquareFill = SFSymbol(rawValue: "bitcoinsign.square.fill")
+    static let bitcoinsignSquareFill = SFSymbol(systemName: "bitcoinsign.square.fill")
 
     /// 􀅓
-    static let bold = SFSymbol(rawValue: "bold")
+    static let bold = SFSymbol(systemName: "bold")
 
     /// 􀅗
-    static let boldItalicUnderline = SFSymbol(rawValue: "bold.italic.underline")
+    static let boldItalicUnderline = SFSymbol(systemName: "bold.italic.underline")
 
     /// 􀅘
-    static let boldUnderline = SFSymbol(rawValue: "bold.underline")
+    static let boldUnderline = SFSymbol(systemName: "bold.underline")
 
     /// 􀋥
-    static let bolt = SFSymbol(rawValue: "bolt")
+    static let bolt = SFSymbol(systemName: "bolt")
 
     /// 􀘳
-    static let boltBadgeA = SFSymbol(rawValue: "bolt.badge.a")
+    static let boltBadgeA = SFSymbol(systemName: "bolt.badge.a")
 
     /// 􀘴
-    static let boltBadgeAFill = SFSymbol(rawValue: "bolt.badge.a.fill")
+    static let boltBadgeAFill = SFSymbol(systemName: "bolt.badge.a.fill")
 
     /// 􀋧
-    static let boltCircle = SFSymbol(rawValue: "bolt.circle")
+    static let boltCircle = SFSymbol(systemName: "bolt.circle")
 
     /// 􀋨
-    static let boltCircleFill = SFSymbol(rawValue: "bolt.circle.fill")
+    static let boltCircleFill = SFSymbol(systemName: "bolt.circle.fill")
 
     /// 􀋦
-    static let boltFill = SFSymbol(rawValue: "bolt.fill")
+    static let boltFill = SFSymbol(systemName: "bolt.fill")
 
     /// 􀒗
-    static let boltHorizontal = SFSymbol(rawValue: "bolt.horizontal")
+    static let boltHorizontal = SFSymbol(systemName: "bolt.horizontal")
 
     /// 􀒙
-    static let boltHorizontalCircle = SFSymbol(rawValue: "bolt.horizontal.circle")
+    static let boltHorizontalCircle = SFSymbol(systemName: "bolt.horizontal.circle")
 
     /// 􀒚
-    static let boltHorizontalCircleFill = SFSymbol(rawValue: "bolt.horizontal.circle.fill")
+    static let boltHorizontalCircleFill = SFSymbol(systemName: "bolt.horizontal.circle.fill")
 
     /// 􀒘
-    static let boltHorizontalFill = SFSymbol(rawValue: "bolt.horizontal.fill")
+    static let boltHorizontalFill = SFSymbol(systemName: "bolt.horizontal.fill")
 
     /// 􀘿
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let boltHorizontalIcloud = SFSymbol(rawValue: "bolt.horizontal.icloud")
+    static let boltHorizontalIcloud = SFSymbol(systemName: "bolt.horizontal.icloud")
 
     /// 􀙀
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let boltHorizontalIcloudFill = SFSymbol(rawValue: "bolt.horizontal.icloud.fill")
+    static let boltHorizontalIcloudFill = SFSymbol(systemName: "bolt.horizontal.icloud.fill")
 
     /// 􀋩
-    static let boltSlash = SFSymbol(rawValue: "bolt.slash")
+    static let boltSlash = SFSymbol(systemName: "bolt.slash")
 
     /// 􀋪
-    static let boltSlashFill = SFSymbol(rawValue: "bolt.slash.fill")
+    static let boltSlashFill = SFSymbol(systemName: "bolt.slash.fill")
 
     /// 􀉚
-    static let book = SFSymbol(rawValue: "book")
+    static let book = SFSymbol(systemName: "book")
 
     /// 􀉜
-    static let bookCircle = SFSymbol(rawValue: "book.circle")
+    static let bookCircle = SFSymbol(systemName: "book.circle")
 
     /// 􀉝
-    static let bookCircleFill = SFSymbol(rawValue: "book.circle.fill")
+    static let bookCircleFill = SFSymbol(systemName: "book.circle.fill")
 
     /// 􀉛
-    static let bookFill = SFSymbol(rawValue: "book.fill")
+    static let bookFill = SFSymbol(systemName: "book.fill")
 
     /// 􀉞
-    static let bookmark = SFSymbol(rawValue: "bookmark")
+    static let bookmark = SFSymbol(systemName: "bookmark")
 
     /// 􀉟
-    static let bookmarkFill = SFSymbol(rawValue: "bookmark.fill")
+    static let bookmarkFill = SFSymbol(systemName: "bookmark.fill")
 
     /// 􀎜
-    static let briefcase = SFSymbol(rawValue: "briefcase")
+    static let briefcase = SFSymbol(systemName: "briefcase")
 
     /// 􀎝
-    static let briefcaseFill = SFSymbol(rawValue: "briefcase.fill")
+    static let briefcaseFill = SFSymbol(systemName: "briefcase.fill")
 
     /// 􀌪
-    static let bubbleLeft = SFSymbol(rawValue: "bubble.left")
+    static let bubbleLeft = SFSymbol(systemName: "bubble.left")
 
     /// 􀒤
-    static let bubbleLeftAndBubbleRight = SFSymbol(rawValue: "bubble.left.and.bubble.right")
+    static let bubbleLeftAndBubbleRight = SFSymbol(systemName: "bubble.left.and.bubble.right")
 
     /// 􀘲
-    static let bubbleLeftAndBubbleRightFill = SFSymbol(rawValue: "bubble.left.and.bubble.right.fill")
+    static let bubbleLeftAndBubbleRightFill = SFSymbol(systemName: "bubble.left.and.bubble.right.fill")
 
     /// 􀌫
-    static let bubbleLeftFill = SFSymbol(rawValue: "bubble.left.fill")
+    static let bubbleLeftFill = SFSymbol(systemName: "bubble.left.fill")
 
     /// 􀌸
-    static let bubbleMiddleBottom = SFSymbol(rawValue: "bubble.middle.bottom")
+    static let bubbleMiddleBottom = SFSymbol(systemName: "bubble.middle.bottom")
 
     /// 􀌹
-    static let bubbleMiddleBottomFill = SFSymbol(rawValue: "bubble.middle.bottom.fill")
+    static let bubbleMiddleBottomFill = SFSymbol(systemName: "bubble.middle.bottom.fill")
 
     /// 􀌼
-    static let bubbleMiddleTop = SFSymbol(rawValue: "bubble.middle.top")
+    static let bubbleMiddleTop = SFSymbol(systemName: "bubble.middle.top")
 
     /// 􀌽
-    static let bubbleMiddleTopFill = SFSymbol(rawValue: "bubble.middle.top.fill")
+    static let bubbleMiddleTopFill = SFSymbol(systemName: "bubble.middle.top.fill")
 
     /// 􀌨
-    static let bubbleRight = SFSymbol(rawValue: "bubble.right")
+    static let bubbleRight = SFSymbol(systemName: "bubble.right")
 
     /// 􀌩
-    static let bubbleRightFill = SFSymbol(rawValue: "bubble.right.fill")
+    static let bubbleRightFill = SFSymbol(systemName: "bubble.right.fill")
 
     /// 􀓜
-    static let burn = SFSymbol(rawValue: "burn")
+    static let burn = SFSymbol(systemName: "burn")
 
     /// 􀑂
-    static let burst = SFSymbol(rawValue: "burst")
+    static let burst = SFSymbol(systemName: "burst")
 
     /// 􀘞
-    static let burstFill = SFSymbol(rawValue: "burst.fill")
+    static let burstFill = SFSymbol(systemName: "burst.fill")
 
     /// 􀀈
-    static let cCircle = SFSymbol(rawValue: "c.circle")
+    static let cCircle = SFSymbol(systemName: "c.circle")
 
     /// 􀀉
-    static let cCircleFill = SFSymbol(rawValue: "c.circle.fill")
+    static let cCircleFill = SFSymbol(systemName: "c.circle.fill")
 
     /// 􀂘
-    static let cSquare = SFSymbol(rawValue: "c.square")
+    static let cSquare = SFSymbol(systemName: "c.square")
 
     /// 􀂙
-    static let cSquareFill = SFSymbol(rawValue: "c.square.fill")
+    static let cSquareFill = SFSymbol(systemName: "c.square.fill")
 
     /// 􀉉
-    static let calendar = SFSymbol(rawValue: "calendar")
+    static let calendar = SFSymbol(systemName: "calendar")
 
     /// 􀉋
-    static let calendarBadgeMinus = SFSymbol(rawValue: "calendar.badge.minus")
+    static let calendarBadgeMinus = SFSymbol(systemName: "calendar.badge.minus")
 
     /// 􀉊
-    static let calendarBadgePlus = SFSymbol(rawValue: "calendar.badge.plus")
+    static let calendarBadgePlus = SFSymbol(systemName: "calendar.badge.plus")
 
     /// 􀒎
-    static let calendarCircle = SFSymbol(rawValue: "calendar.circle")
+    static let calendarCircle = SFSymbol(systemName: "calendar.circle")
 
     /// 􀒏
-    static let calendarCircleFill = SFSymbol(rawValue: "calendar.circle.fill")
+    static let calendarCircleFill = SFSymbol(systemName: "calendar.circle.fill")
 
     /// 􀌞
-    static let camera = SFSymbol(rawValue: "camera")
+    static let camera = SFSymbol(systemName: "camera")
 
     /// 􀌠
-    static let cameraCircle = SFSymbol(rawValue: "camera.circle")
+    static let cameraCircle = SFSymbol(systemName: "camera.circle")
 
     /// 􀌡
-    static let cameraCircleFill = SFSymbol(rawValue: "camera.circle.fill")
+    static let cameraCircleFill = SFSymbol(systemName: "camera.circle.fill")
 
     /// 􀌟
-    static let cameraFill = SFSymbol(rawValue: "camera.fill")
+    static let cameraFill = SFSymbol(systemName: "camera.fill")
 
     /// 􀝁
-    static let cameraOnRectangle = SFSymbol(rawValue: "camera.on.rectangle")
+    static let cameraOnRectangle = SFSymbol(systemName: "camera.on.rectangle")
 
     /// 􀝂
-    static let cameraOnRectangleFill = SFSymbol(rawValue: "camera.on.rectangle.fill")
+    static let cameraOnRectangleFill = SFSymbol(systemName: "camera.on.rectangle.fill")
 
     /// 􀌢
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCamera")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCamera")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCamera")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCamera")
-    static let cameraRotate = SFSymbol(rawValue: "camera.rotate")
+    static let cameraRotate = SFSymbol(systemName: "camera.rotate")
 
     /// 􀌣
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCameraFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCameraFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCameraFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCameraFill")
-    static let cameraRotateFill = SFSymbol(rawValue: "camera.rotate.fill")
+    static let cameraRotateFill = SFSymbol(systemName: "camera.rotate.fill")
 
     /// 􀎼
-    static let cameraViewfinder = SFSymbol(rawValue: "camera.viewfinder")
+    static let cameraViewfinder = SFSymbol(systemName: "camera.viewfinder")
 
     /// 􀆡
-    static let capslock = SFSymbol(rawValue: "capslock")
+    static let capslock = SFSymbol(systemName: "capslock")
 
     /// 􀆢
-    static let capslockFill = SFSymbol(rawValue: "capslock.fill")
+    static let capslockFill = SFSymbol(systemName: "capslock.fill")
 
     /// 􀝶
-    static let capsule = SFSymbol(rawValue: "capsule")
+    static let capsule = SFSymbol(systemName: "capsule")
 
     /// 􀝷
-    static let capsuleFill = SFSymbol(rawValue: "capsule.fill")
+    static let capsuleFill = SFSymbol(systemName: "capsule.fill")
 
     /// 􀌴
-    static let captionsBubble = SFSymbol(rawValue: "captions.bubble")
+    static let captionsBubble = SFSymbol(systemName: "captions.bubble")
 
     /// 􀌵
-    static let captionsBubbleFill = SFSymbol(rawValue: "captions.bubble.fill")
+    static let captionsBubbleFill = SFSymbol(systemName: "captions.bubble.fill")
 
     /// 􀙘
-    static let car = SFSymbol(rawValue: "car")
+    static let car = SFSymbol(systemName: "car")
 
     /// 􀙙
-    static let carFill = SFSymbol(rawValue: "car.fill")
+    static let carFill = SFSymbol(systemName: "car.fill")
 
     /// 􀍩
-    static let cart = SFSymbol(rawValue: "cart")
+    static let cart = SFSymbol(systemName: "cart")
 
     /// 􀍭
-    static let cartBadgeMinus = SFSymbol(rawValue: "cart.badge.minus")
+    static let cartBadgeMinus = SFSymbol(systemName: "cart.badge.minus")
 
     /// 􀍫
-    static let cartBadgePlus = SFSymbol(rawValue: "cart.badge.plus")
+    static let cartBadgePlus = SFSymbol(systemName: "cart.badge.plus")
 
     /// 􀍪
-    static let cartFill = SFSymbol(rawValue: "cart.fill")
+    static let cartFill = SFSymbol(systemName: "cart.fill")
 
     /// 􀍮
-    static let cartFillBadgeMinus = SFSymbol(rawValue: "cart.fill.badge.minus")
+    static let cartFillBadgeMinus = SFSymbol(systemName: "cart.fill.badge.minus")
 
     /// 􀍬
-    static let cartFillBadgePlus = SFSymbol(rawValue: "cart.fill.badge.plus")
+    static let cartFillBadgePlus = SFSymbol(systemName: "cart.fill.badge.plus")
 
     /// 􀗃
-    static let cedisignCircle = SFSymbol(rawValue: "cedisign.circle")
+    static let cedisignCircle = SFSymbol(systemName: "cedisign.circle")
 
     /// 􀗄
-    static let cedisignCircleFill = SFSymbol(rawValue: "cedisign.circle.fill")
+    static let cedisignCircleFill = SFSymbol(systemName: "cedisign.circle.fill")
 
     /// 􀘃
-    static let cedisignSquare = SFSymbol(rawValue: "cedisign.square")
+    static let cedisignSquare = SFSymbol(systemName: "cedisign.square")
 
     /// 􀘄
-    static let cedisignSquareFill = SFSymbol(rawValue: "cedisign.square.fill")
+    static let cedisignSquareFill = SFSymbol(systemName: "cedisign.square.fill")
 
     /// 􀖙
-    static let centsignCircle = SFSymbol(rawValue: "centsign.circle")
+    static let centsignCircle = SFSymbol(systemName: "centsign.circle")
 
     /// 􀖚
-    static let centsignCircleFill = SFSymbol(rawValue: "centsign.circle.fill")
+    static let centsignCircleFill = SFSymbol(systemName: "centsign.circle.fill")
 
     /// 􀗙
-    static let centsignSquare = SFSymbol(rawValue: "centsign.square")
+    static let centsignSquare = SFSymbol(systemName: "centsign.square")
 
     /// 􀗚
-    static let centsignSquareFill = SFSymbol(rawValue: "centsign.square.fill")
+    static let centsignSquareFill = SFSymbol(systemName: "centsign.square.fill")
 
     /// 􀐾
-    static let chartBar = SFSymbol(rawValue: "chart.bar")
+    static let chartBar = SFSymbol(systemName: "chart.bar")
 
     /// 􀐿
-    static let chartBarFill = SFSymbol(rawValue: "chart.bar.fill")
+    static let chartBarFill = SFSymbol(systemName: "chart.bar.fill")
 
     /// 􀑀
-    static let chartPie = SFSymbol(rawValue: "chart.pie")
+    static let chartPie = SFSymbol(systemName: "chart.pie")
 
     /// 􀜋
-    static let chartPieFill = SFSymbol(rawValue: "chart.pie.fill")
+    static let chartPieFill = SFSymbol(systemName: "chart.pie.fill")
 
     /// 􀆅
-    static let checkmark = SFSymbol(rawValue: "checkmark")
+    static let checkmark = SFSymbol(systemName: "checkmark")
 
     /// 􀁢
-    static let checkmarkCircle = SFSymbol(rawValue: "checkmark.circle")
+    static let checkmarkCircle = SFSymbol(systemName: "checkmark.circle")
 
     /// 􀁣
-    static let checkmarkCircleFill = SFSymbol(rawValue: "checkmark.circle.fill")
+    static let checkmarkCircleFill = SFSymbol(systemName: "checkmark.circle.fill")
 
     /// 􀏋
-    static let checkmarkRectangle = SFSymbol(rawValue: "checkmark.rectangle")
+    static let checkmarkRectangle = SFSymbol(systemName: "checkmark.rectangle")
 
     /// 􀏌
-    static let checkmarkRectangleFill = SFSymbol(rawValue: "checkmark.rectangle.fill")
+    static let checkmarkRectangleFill = SFSymbol(systemName: "checkmark.rectangle.fill")
 
     /// 􀇺
-    static let checkmarkSeal = SFSymbol(rawValue: "checkmark.seal")
+    static let checkmarkSeal = SFSymbol(systemName: "checkmark.seal")
 
     /// 􀇻
-    static let checkmarkSealFill = SFSymbol(rawValue: "checkmark.seal.fill")
+    static let checkmarkSealFill = SFSymbol(systemName: "checkmark.seal.fill")
 
     /// 􀞛
-    static let checkmarkShield = SFSymbol(rawValue: "checkmark.shield")
+    static let checkmarkShield = SFSymbol(systemName: "checkmark.shield")
 
     /// 􀞜
-    static let checkmarkShieldFill = SFSymbol(rawValue: "checkmark.shield.fill")
+    static let checkmarkShieldFill = SFSymbol(systemName: "checkmark.shield.fill")
 
     /// 􀃲
-    static let checkmarkSquare = SFSymbol(rawValue: "checkmark.square")
+    static let checkmarkSquare = SFSymbol(systemName: "checkmark.square")
 
     /// 􀃳
-    static let checkmarkSquareFill = SFSymbol(rawValue: "checkmark.square.fill")
+    static let checkmarkSquareFill = SFSymbol(systemName: "checkmark.square.fill")
 
     /// 􀆑
-    static let chevronCompactDown = SFSymbol(rawValue: "chevron.compact.down")
+    static let chevronCompactDown = SFSymbol(systemName: "chevron.compact.down")
 
     /// 􀆒
-    static let chevronCompactLeft = SFSymbol(rawValue: "chevron.compact.left")
+    static let chevronCompactLeft = SFSymbol(systemName: "chevron.compact.left")
 
     /// 􀆓
-    static let chevronCompactRight = SFSymbol(rawValue: "chevron.compact.right")
+    static let chevronCompactRight = SFSymbol(systemName: "chevron.compact.right")
 
     /// 􀆐
-    static let chevronCompactUp = SFSymbol(rawValue: "chevron.compact.up")
+    static let chevronCompactUp = SFSymbol(systemName: "chevron.compact.up")
 
     /// 􀆈
-    static let chevronDown = SFSymbol(rawValue: "chevron.down")
+    static let chevronDown = SFSymbol(systemName: "chevron.down")
 
     /// 􀁰
-    static let chevronDownCircle = SFSymbol(rawValue: "chevron.down.circle")
+    static let chevronDownCircle = SFSymbol(systemName: "chevron.down.circle")
 
     /// 􀁱
-    static let chevronDownCircleFill = SFSymbol(rawValue: "chevron.down.circle.fill")
+    static let chevronDownCircleFill = SFSymbol(systemName: "chevron.down.circle.fill")
 
     /// 􀄀
-    static let chevronDownSquare = SFSymbol(rawValue: "chevron.down.square")
+    static let chevronDownSquare = SFSymbol(systemName: "chevron.down.square")
 
     /// 􀄁
-    static let chevronDownSquareFill = SFSymbol(rawValue: "chevron.down.square.fill")
+    static let chevronDownSquareFill = SFSymbol(systemName: "chevron.down.square.fill")
 
     /// 􀆉
-    static let chevronLeft = SFSymbol(rawValue: "chevron.left")
+    static let chevronLeft = SFSymbol(systemName: "chevron.left")
 
     /// 􀆋
-    static let chevronLeft2 = SFSymbol(rawValue: "chevron.left.2")
+    static let chevronLeft2 = SFSymbol(systemName: "chevron.left.2")
 
     /// 􀁲
-    static let chevronLeftCircle = SFSymbol(rawValue: "chevron.left.circle")
+    static let chevronLeftCircle = SFSymbol(systemName: "chevron.left.circle")
 
     /// 􀁳
-    static let chevronLeftCircleFill = SFSymbol(rawValue: "chevron.left.circle.fill")
+    static let chevronLeftCircleFill = SFSymbol(systemName: "chevron.left.circle.fill")
 
     /// 􀙚
-    static let chevronLeftSlashChevronRight = SFSymbol(rawValue: "chevron.left.slash.chevron.right")
+    static let chevronLeftSlashChevronRight = SFSymbol(systemName: "chevron.left.slash.chevron.right")
 
     /// 􀄂
-    static let chevronLeftSquare = SFSymbol(rawValue: "chevron.left.square")
+    static let chevronLeftSquare = SFSymbol(systemName: "chevron.left.square")
 
     /// 􀄃
-    static let chevronLeftSquareFill = SFSymbol(rawValue: "chevron.left.square.fill")
+    static let chevronLeftSquareFill = SFSymbol(systemName: "chevron.left.square.fill")
 
     /// 􀆊
-    static let chevronRight = SFSymbol(rawValue: "chevron.right")
+    static let chevronRight = SFSymbol(systemName: "chevron.right")
 
     /// 􀆌
-    static let chevronRight2 = SFSymbol(rawValue: "chevron.right.2")
+    static let chevronRight2 = SFSymbol(systemName: "chevron.right.2")
 
     /// 􀁴
-    static let chevronRightCircle = SFSymbol(rawValue: "chevron.right.circle")
+    static let chevronRightCircle = SFSymbol(systemName: "chevron.right.circle")
 
     /// 􀁵
-    static let chevronRightCircleFill = SFSymbol(rawValue: "chevron.right.circle.fill")
+    static let chevronRightCircleFill = SFSymbol(systemName: "chevron.right.circle.fill")
 
     /// 􀄄
-    static let chevronRightSquare = SFSymbol(rawValue: "chevron.right.square")
+    static let chevronRightSquare = SFSymbol(systemName: "chevron.right.square")
 
     /// 􀄅
-    static let chevronRightSquareFill = SFSymbol(rawValue: "chevron.right.square.fill")
+    static let chevronRightSquareFill = SFSymbol(systemName: "chevron.right.square.fill")
 
     /// 􀆇
-    static let chevronUp = SFSymbol(rawValue: "chevron.up")
+    static let chevronUp = SFSymbol(systemName: "chevron.up")
 
     /// 􀆏
-    static let chevronUpChevronDown = SFSymbol(rawValue: "chevron.up.chevron.down")
+    static let chevronUpChevronDown = SFSymbol(systemName: "chevron.up.chevron.down")
 
     /// 􀁮
-    static let chevronUpCircle = SFSymbol(rawValue: "chevron.up.circle")
+    static let chevronUpCircle = SFSymbol(systemName: "chevron.up.circle")
 
     /// 􀁯
-    static let chevronUpCircleFill = SFSymbol(rawValue: "chevron.up.circle.fill")
+    static let chevronUpCircleFill = SFSymbol(systemName: "chevron.up.circle.fill")
 
     /// 􀃾
-    static let chevronUpSquare = SFSymbol(rawValue: "chevron.up.square")
+    static let chevronUpSquare = SFSymbol(systemName: "chevron.up.square")
 
     /// 􀃿
-    static let chevronUpSquareFill = SFSymbol(rawValue: "chevron.up.square.fill")
+    static let chevronUpSquareFill = SFSymbol(systemName: "chevron.up.square.fill")
 
     /// 􀀀
-    static let circle = SFSymbol(rawValue: "circle")
+    static let circle = SFSymbol(systemName: "circle")
 
     /// 􀜚
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "sleep")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "sleep")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "sleep")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "sleep")
-    static let circleBottomthirdSplit = SFSymbol(rawValue: "circle.bottomthird.split")
+    static let circleBottomthirdSplit = SFSymbol(systemName: "circle.bottomthird.split")
 
     /// 􀀁
-    static let circleFill = SFSymbol(rawValue: "circle.fill")
+    static let circleFill = SFSymbol(systemName: "circle.fill")
 
     /// 􀞾
-    static let circleGrid2x2 = SFSymbol(rawValue: "circle.grid.2x2")
+    static let circleGrid2x2 = SFSymbol(systemName: "circle.grid.2x2")
 
     /// 􀞿
-    static let circleGrid2x2Fill = SFSymbol(rawValue: "circle.grid.2x2.fill")
+    static let circleGrid2x2Fill = SFSymbol(systemName: "circle.grid.2x2.fill")
 
     /// 􀇸
-    static let circleGrid3x3 = SFSymbol(rawValue: "circle.grid.3x3")
+    static let circleGrid3x3 = SFSymbol(systemName: "circle.grid.3x3")
 
     /// 􀇹
-    static let circleGrid3x3Fill = SFSymbol(rawValue: "circle.grid.3x3.fill")
+    static let circleGrid3x3Fill = SFSymbol(systemName: "circle.grid.3x3.fill")
 
     /// 􀙢
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongrid")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "circlesHexagongrid")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongrid")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "circlesHexagongrid")
-    static let circleGridHex = SFSymbol(rawValue: "circle.grid.hex")
+    static let circleGridHex = SFSymbol(systemName: "circle.grid.hex")
 
     /// 􀙣
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongridFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "circlesHexagongridFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongridFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "circlesHexagongridFill")
-    static let circleGridHexFill = SFSymbol(rawValue: "circle.grid.hex.fill")
+    static let circleGridHexFill = SFSymbol(systemName: "circle.grid.hex.fill")
 
     /// 􀀂
-    static let circleLefthalfFill = SFSymbol(rawValue: "circle.lefthalf.fill")
+    static let circleLefthalfFill = SFSymbol(systemName: "circle.lefthalf.fill")
 
     /// 􀀃
-    static let circleRighthalfFill = SFSymbol(rawValue: "circle.righthalf.fill")
+    static let circleRighthalfFill = SFSymbol(systemName: "circle.righthalf.fill")
 
     /// 􀆙
-    static let clear = SFSymbol(rawValue: "clear")
+    static let clear = SFSymbol(systemName: "clear")
 
     /// 􀆚
-    static let clearFill = SFSymbol(rawValue: "clear.fill")
+    static let clearFill = SFSymbol(systemName: "clear.fill")
 
     /// 􀐫
-    static let clock = SFSymbol(rawValue: "clock")
+    static let clock = SFSymbol(systemName: "clock")
 
     /// 􀐬
-    static let clockFill = SFSymbol(rawValue: "clock.fill")
+    static let clockFill = SFSymbol(systemName: "clock.fill")
 
     /// 􀇂
-    static let cloud = SFSymbol(rawValue: "cloud")
+    static let cloud = SFSymbol(systemName: "cloud")
 
     /// 􀇒
-    static let cloudBolt = SFSymbol(rawValue: "cloud.bolt")
+    static let cloudBolt = SFSymbol(systemName: "cloud.bolt")
 
     /// 􀇓
-    static let cloudBoltFill = SFSymbol(rawValue: "cloud.bolt.fill")
+    static let cloudBoltFill = SFSymbol(systemName: "cloud.bolt.fill")
 
     /// 􀇞
-    static let cloudBoltRain = SFSymbol(rawValue: "cloud.bolt.rain")
+    static let cloudBoltRain = SFSymbol(systemName: "cloud.bolt.rain")
 
     /// 􀇟
-    static let cloudBoltRainFill = SFSymbol(rawValue: "cloud.bolt.rain.fill")
+    static let cloudBoltRainFill = SFSymbol(systemName: "cloud.bolt.rain.fill")
 
     /// 􀇄
-    static let cloudDrizzle = SFSymbol(rawValue: "cloud.drizzle")
+    static let cloudDrizzle = SFSymbol(systemName: "cloud.drizzle")
 
     /// 􀇅
-    static let cloudDrizzleFill = SFSymbol(rawValue: "cloud.drizzle.fill")
+    static let cloudDrizzleFill = SFSymbol(systemName: "cloud.drizzle.fill")
 
     /// 􀇃
-    static let cloudFill = SFSymbol(rawValue: "cloud.fill")
+    static let cloudFill = SFSymbol(systemName: "cloud.fill")
 
     /// 􀇊
-    static let cloudFog = SFSymbol(rawValue: "cloud.fog")
+    static let cloudFog = SFSymbol(systemName: "cloud.fog")
 
     /// 􀇋
-    static let cloudFogFill = SFSymbol(rawValue: "cloud.fog.fill")
+    static let cloudFogFill = SFSymbol(systemName: "cloud.fog.fill")
 
     /// 􀇌
-    static let cloudHail = SFSymbol(rawValue: "cloud.hail")
+    static let cloudHail = SFSymbol(systemName: "cloud.hail")
 
     /// 􀇍
-    static let cloudHailFill = SFSymbol(rawValue: "cloud.hail.fill")
+    static let cloudHailFill = SFSymbol(systemName: "cloud.hail.fill")
 
     /// 􀇈
-    static let cloudHeavyrain = SFSymbol(rawValue: "cloud.heavyrain")
+    static let cloudHeavyrain = SFSymbol(systemName: "cloud.heavyrain")
 
     /// 􀇉
-    static let cloudHeavyrainFill = SFSymbol(rawValue: "cloud.heavyrain.fill")
+    static let cloudHeavyrainFill = SFSymbol(systemName: "cloud.heavyrain.fill")
 
     /// 􀇚
-    static let cloudMoon = SFSymbol(rawValue: "cloud.moon")
+    static let cloudMoon = SFSymbol(systemName: "cloud.moon")
 
     /// 􀇠
-    static let cloudMoonBolt = SFSymbol(rawValue: "cloud.moon.bolt")
+    static let cloudMoonBolt = SFSymbol(systemName: "cloud.moon.bolt")
 
     /// 􀇡
-    static let cloudMoonBoltFill = SFSymbol(rawValue: "cloud.moon.bolt.fill")
+    static let cloudMoonBoltFill = SFSymbol(systemName: "cloud.moon.bolt.fill")
 
     /// 􀇛
-    static let cloudMoonFill = SFSymbol(rawValue: "cloud.moon.fill")
+    static let cloudMoonFill = SFSymbol(systemName: "cloud.moon.fill")
 
     /// 􀇜
-    static let cloudMoonRain = SFSymbol(rawValue: "cloud.moon.rain")
+    static let cloudMoonRain = SFSymbol(systemName: "cloud.moon.rain")
 
     /// 􀇝
-    static let cloudMoonRainFill = SFSymbol(rawValue: "cloud.moon.rain.fill")
+    static let cloudMoonRainFill = SFSymbol(systemName: "cloud.moon.rain.fill")
 
     /// 􀇆
-    static let cloudRain = SFSymbol(rawValue: "cloud.rain")
+    static let cloudRain = SFSymbol(systemName: "cloud.rain")
 
     /// 􀇇
-    static let cloudRainFill = SFSymbol(rawValue: "cloud.rain.fill")
+    static let cloudRainFill = SFSymbol(systemName: "cloud.rain.fill")
 
     /// 􀇐
-    static let cloudSleet = SFSymbol(rawValue: "cloud.sleet")
+    static let cloudSleet = SFSymbol(systemName: "cloud.sleet")
 
     /// 􀇑
-    static let cloudSleetFill = SFSymbol(rawValue: "cloud.sleet.fill")
+    static let cloudSleetFill = SFSymbol(systemName: "cloud.sleet.fill")
 
     /// 􀇎
-    static let cloudSnow = SFSymbol(rawValue: "cloud.snow")
+    static let cloudSnow = SFSymbol(systemName: "cloud.snow")
 
     /// 􀇏
-    static let cloudSnowFill = SFSymbol(rawValue: "cloud.snow.fill")
+    static let cloudSnowFill = SFSymbol(systemName: "cloud.snow.fill")
 
     /// 􀇔
-    static let cloudSun = SFSymbol(rawValue: "cloud.sun")
+    static let cloudSun = SFSymbol(systemName: "cloud.sun")
 
     /// 􀇘
-    static let cloudSunBolt = SFSymbol(rawValue: "cloud.sun.bolt")
+    static let cloudSunBolt = SFSymbol(systemName: "cloud.sun.bolt")
 
     /// 􀇙
-    static let cloudSunBoltFill = SFSymbol(rawValue: "cloud.sun.bolt.fill")
+    static let cloudSunBoltFill = SFSymbol(systemName: "cloud.sun.bolt.fill")
 
     /// 􀇕
-    static let cloudSunFill = SFSymbol(rawValue: "cloud.sun.fill")
+    static let cloudSunFill = SFSymbol(systemName: "cloud.sun.fill")
 
     /// 􀇖
-    static let cloudSunRain = SFSymbol(rawValue: "cloud.sun.rain")
+    static let cloudSunRain = SFSymbol(systemName: "cloud.sun.rain")
 
     /// 􀇗
-    static let cloudSunRainFill = SFSymbol(rawValue: "cloud.sun.rain.fill")
+    static let cloudSunRainFill = SFSymbol(systemName: "cloud.sun.rain.fill")
 
     /// 􀗁
-    static let coloncurrencysignCircle = SFSymbol(rawValue: "coloncurrencysign.circle")
+    static let coloncurrencysignCircle = SFSymbol(systemName: "coloncurrencysign.circle")
 
     /// 􀗂
-    static let coloncurrencysignCircleFill = SFSymbol(rawValue: "coloncurrencysign.circle.fill")
+    static let coloncurrencysignCircleFill = SFSymbol(systemName: "coloncurrencysign.circle.fill")
 
     /// 􀘁
-    static let coloncurrencysignSquare = SFSymbol(rawValue: "coloncurrencysign.square")
+    static let coloncurrencysignSquare = SFSymbol(systemName: "coloncurrencysign.square")
 
     /// 􀘂
-    static let coloncurrencysignSquareFill = SFSymbol(rawValue: "coloncurrencysign.square.fill")
+    static let coloncurrencysignSquareFill = SFSymbol(systemName: "coloncurrencysign.square.fill")
 
     /// 􀆔
-    static let command = SFSymbol(rawValue: "command")
+    static let command = SFSymbol(systemName: "command")
 
     /// 􀆍
-    static let control = SFSymbol(rawValue: "control")
+    static let control = SFSymbol(systemName: "control")
 
     /// 􀍯
-    static let creditcard = SFSymbol(rawValue: "creditcard")
+    static let creditcard = SFSymbol(systemName: "creditcard")
 
     /// 􀍰
-    static let creditcardFill = SFSymbol(rawValue: "creditcard.fill")
+    static let creditcardFill = SFSymbol(systemName: "creditcard.fill")
 
     /// 􀍳
-    static let crop = SFSymbol(rawValue: "crop")
+    static let crop = SFSymbol(systemName: "crop")
 
     /// 􀍴
-    static let cropRotate = SFSymbol(rawValue: "crop.rotate")
+    static let cropRotate = SFSymbol(systemName: "crop.rotate")
 
     /// 􀗅
-    static let cruzeirosignCircle = SFSymbol(rawValue: "cruzeirosign.circle")
+    static let cruzeirosignCircle = SFSymbol(systemName: "cruzeirosign.circle")
 
     /// 􀗆
-    static let cruzeirosignCircleFill = SFSymbol(rawValue: "cruzeirosign.circle.fill")
+    static let cruzeirosignCircleFill = SFSymbol(systemName: "cruzeirosign.circle.fill")
 
     /// 􀘅
-    static let cruzeirosignSquare = SFSymbol(rawValue: "cruzeirosign.square")
+    static let cruzeirosignSquare = SFSymbol(systemName: "cruzeirosign.square")
 
     /// 􀘆
-    static let cruzeirosignSquareFill = SFSymbol(rawValue: "cruzeirosign.square.fill")
+    static let cruzeirosignSquareFill = SFSymbol(systemName: "cruzeirosign.square.fill")
 
     /// 􀐘
-    static let cube = SFSymbol(rawValue: "cube")
+    static let cube = SFSymbol(systemName: "cube")
 
     /// 􀐚
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingbox")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shippingbox")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingbox")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shippingbox")
-    static let cubeBox = SFSymbol(rawValue: "cube.box")
+    static let cubeBox = SFSymbol(systemName: "cube.box")
 
     /// 􀐛
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingboxFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shippingboxFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingboxFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shippingboxFill")
-    static let cubeBoxFill = SFSymbol(rawValue: "cube.box.fill")
+    static let cubeBoxFill = SFSymbol(systemName: "cube.box.fill")
 
     /// 􀐙
-    static let cubeFill = SFSymbol(rawValue: "cube.fill")
+    static let cubeFill = SFSymbol(systemName: "cube.fill")
 
     /// 􀇰
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "cursorarrowRays")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "cursorarrowRays")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "cursorarrowRays")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "cursorarrowRays")
-    static let cursorRays = SFSymbol(rawValue: "cursor.rays")
+    static let cursorRays = SFSymbol(systemName: "cursor.rays")
 
     /// 􀀊
-    static let dCircle = SFSymbol(rawValue: "d.circle")
+    static let dCircle = SFSymbol(systemName: "d.circle")
 
     /// 􀀋
-    static let dCircleFill = SFSymbol(rawValue: "d.circle.fill")
+    static let dCircleFill = SFSymbol(systemName: "d.circle.fill")
 
     /// 􀂚
-    static let dSquare = SFSymbol(rawValue: "d.square")
+    static let dSquare = SFSymbol(systemName: "d.square")
 
     /// 􀂛
-    static let dSquareFill = SFSymbol(rawValue: "d.square.fill")
+    static let dSquareFill = SFSymbol(systemName: "d.square.fill")
 
     /// 􀋶
-    static let decreaseIndent = SFSymbol(rawValue: "decrease.indent")
+    static let decreaseIndent = SFSymbol(systemName: "decrease.indent")
 
     /// 􀝿
-    static let decreaseQuotelevel = SFSymbol(rawValue: "decrease.quotelevel")
+    static let decreaseQuotelevel = SFSymbol(systemName: "decrease.quotelevel")
 
     /// 􀆛
-    static let deleteLeft = SFSymbol(rawValue: "delete.left")
+    static let deleteLeft = SFSymbol(systemName: "delete.left")
 
     /// 􀆜
-    static let deleteLeftFill = SFSymbol(rawValue: "delete.left.fill")
+    static let deleteLeftFill = SFSymbol(systemName: "delete.left.fill")
 
     /// 􀆗
-    static let deleteRight = SFSymbol(rawValue: "delete.right")
+    static let deleteRight = SFSymbol(systemName: "delete.right")
 
     /// 􀆘
-    static let deleteRightFill = SFSymbol(rawValue: "delete.right.fill")
+    static let deleteRightFill = SFSymbol(systemName: "delete.right.fill")
 
     /// 􀙗
-    static let desktopcomputer = SFSymbol(rawValue: "desktopcomputer")
+    static let desktopcomputer = SFSymbol(systemName: "desktopcomputer")
 
     /// 􀍺
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMin")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "dialMin")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMin")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "dialMin")
-    static let dial = SFSymbol(rawValue: "dial")
+    static let dial = SFSymbol(systemName: "dial")
 
     /// 􀍻
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMinFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "dialMinFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMinFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "dialMinFill")
-    static let dialFill = SFSymbol(rawValue: "dial.fill")
+    static let dialFill = SFSymbol(systemName: "dial.fill")
 
     /// 􀅿
-    static let divide = SFSymbol(rawValue: "divide")
+    static let divide = SFSymbol(systemName: "divide")
 
     /// 􀁒
-    static let divideCircle = SFSymbol(rawValue: "divide.circle")
+    static let divideCircle = SFSymbol(systemName: "divide.circle")
 
     /// 􀁓
-    static let divideCircleFill = SFSymbol(rawValue: "divide.circle.fill")
+    static let divideCircleFill = SFSymbol(systemName: "divide.circle.fill")
 
     /// 􀃢
-    static let divideSquare = SFSymbol(rawValue: "divide.square")
+    static let divideSquare = SFSymbol(systemName: "divide.square")
 
     /// 􀃣
-    static let divideSquareFill = SFSymbol(rawValue: "divide.square.fill")
+    static let divideSquareFill = SFSymbol(systemName: "divide.square.fill")
 
     /// 􀈷
-    static let doc = SFSymbol(rawValue: "doc")
+    static let doc = SFSymbol(systemName: "doc")
 
     /// 􀉇
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
-    static let docAppend = SFSymbol(rawValue: "doc.append")
+    static let docAppend = SFSymbol(systemName: "doc.append")
 
     /// 􀈹
-    static let docCircle = SFSymbol(rawValue: "doc.circle")
+    static let docCircle = SFSymbol(systemName: "doc.circle")
 
     /// 􀈺
-    static let docCircleFill = SFSymbol(rawValue: "doc.circle.fill")
+    static let docCircleFill = SFSymbol(systemName: "doc.circle.fill")
 
     /// 􀈸
-    static let docFill = SFSymbol(rawValue: "doc.fill")
+    static let docFill = SFSymbol(systemName: "doc.fill")
 
     /// 􀉃
-    static let docOnClipboard = SFSymbol(rawValue: "doc.on.clipboard")
+    static let docOnClipboard = SFSymbol(systemName: "doc.on.clipboard")
 
     /// 􀉄
-    static let docOnClipboardFill = SFSymbol(rawValue: "doc.on.clipboard.fill")
+    static let docOnClipboardFill = SFSymbol(systemName: "doc.on.clipboard.fill")
 
     /// 􀉁
-    static let docOnDoc = SFSymbol(rawValue: "doc.on.doc")
+    static let docOnDoc = SFSymbol(systemName: "doc.on.doc")
 
     /// 􀉂
-    static let docOnDocFill = SFSymbol(rawValue: "doc.on.doc.fill")
+    static let docOnDocFill = SFSymbol(systemName: "doc.on.doc.fill")
 
     /// 􀉆
-    static let docPlaintext = SFSymbol(rawValue: "doc.plaintext")
+    static let docPlaintext = SFSymbol(systemName: "doc.plaintext")
 
     /// 􀉅
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Hebrew
-    static let docRichtext = SFSymbol(rawValue: "doc.richtext")
+    static let docRichtext = SFSymbol(systemName: "doc.richtext")
 
     /// 􀈿
-    static let docText = SFSymbol(rawValue: "doc.text")
+    static let docText = SFSymbol(systemName: "doc.text")
 
     /// 􀉀
-    static let docTextFill = SFSymbol(rawValue: "doc.text.fill")
+    static let docTextFill = SFSymbol(systemName: "doc.text.fill")
 
     /// 􀕹
-    static let docTextMagnifyingglass = SFSymbol(rawValue: "doc.text.magnifyingglass")
+    static let docTextMagnifyingglass = SFSymbol(systemName: "doc.text.magnifyingglass")
 
     /// 􀎾
-    static let docTextViewfinder = SFSymbol(rawValue: "doc.text.viewfinder")
+    static let docTextViewfinder = SFSymbol(systemName: "doc.text.viewfinder")
 
     /// 􀖗
-    static let dollarsignCircle = SFSymbol(rawValue: "dollarsign.circle")
+    static let dollarsignCircle = SFSymbol(systemName: "dollarsign.circle")
 
     /// 􀖘
-    static let dollarsignCircleFill = SFSymbol(rawValue: "dollarsign.circle.fill")
+    static let dollarsignCircleFill = SFSymbol(systemName: "dollarsign.circle.fill")
 
     /// 􀗗
-    static let dollarsignSquare = SFSymbol(rawValue: "dollarsign.square")
+    static let dollarsignSquare = SFSymbol(systemName: "dollarsign.square")
 
     /// 􀗘
-    static let dollarsignSquareFill = SFSymbol(rawValue: "dollarsign.square.fill")
+    static let dollarsignSquareFill = SFSymbol(systemName: "dollarsign.square.fill")
 
     /// 􀖩
-    static let dongsignCircle = SFSymbol(rawValue: "dongsign.circle")
+    static let dongsignCircle = SFSymbol(systemName: "dongsign.circle")
 
     /// 􀖪
-    static let dongsignCircleFill = SFSymbol(rawValue: "dongsign.circle.fill")
+    static let dongsignCircleFill = SFSymbol(systemName: "dongsign.circle.fill")
 
     /// 􀗩
-    static let dongsignSquare = SFSymbol(rawValue: "dongsign.square")
+    static let dongsignSquare = SFSymbol(systemName: "dongsign.square")
 
     /// 􀗪
-    static let dongsignSquareFill = SFSymbol(rawValue: "dongsign.square.fill")
+    static let dongsignSquareFill = SFSymbol(systemName: "dongsign.square.fill")
 
     /// 􀌙
-    static let dotRadiowavesLeftAndRight = SFSymbol(rawValue: "dot.radiowaves.left.and.right")
+    static let dotRadiowavesLeftAndRight = SFSymbol(systemName: "dot.radiowaves.left.and.right")
 
     /// 􀖒
-    static let dotRadiowavesRight = SFSymbol(rawValue: "dot.radiowaves.right")
+    static let dotRadiowavesRight = SFSymbol(systemName: "dot.radiowaves.right")
 
     /// 􀕴
-    static let dotSquare = SFSymbol(rawValue: "dot.square")
+    static let dotSquare = SFSymbol(systemName: "dot.square")
 
     /// 􀕵
-    static let dotSquareFill = SFSymbol(rawValue: "dot.square.fill")
+    static let dotSquareFill = SFSymbol(systemName: "dot.square.fill")
 
     /// 􀈀
-    static let dropTriangle = SFSymbol(rawValue: "drop.triangle")
+    static let dropTriangle = SFSymbol(systemName: "drop.triangle")
 
     /// 􀈁
-    static let dropTriangleFill = SFSymbol(rawValue: "drop.triangle.fill")
+    static let dropTriangleFill = SFSymbol(systemName: "drop.triangle.fill")
 
     /// 􀀌
-    static let eCircle = SFSymbol(rawValue: "e.circle")
+    static let eCircle = SFSymbol(systemName: "e.circle")
 
     /// 􀀍
-    static let eCircleFill = SFSymbol(rawValue: "e.circle.fill")
+    static let eCircleFill = SFSymbol(systemName: "e.circle.fill")
 
     /// 􀂜
-    static let eSquare = SFSymbol(rawValue: "e.square")
+    static let eSquare = SFSymbol(systemName: "e.square")
 
     /// 􀂝
-    static let eSquareFill = SFSymbol(rawValue: "e.square.fill")
+    static let eSquareFill = SFSymbol(systemName: "e.square.fill")
 
     /// 􀜣
-    static let ear = SFSymbol(rawValue: "ear")
+    static let ear = SFSymbol(systemName: "ear")
 
     /// 􀆥
-    static let eject = SFSymbol(rawValue: "eject")
+    static let eject = SFSymbol(systemName: "eject")
 
     /// 􀆦
-    static let ejectFill = SFSymbol(rawValue: "eject.fill")
+    static let ejectFill = SFSymbol(systemName: "eject.fill")
 
     /// 􀕺
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "ellipsisBubble")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "ellipsisBubble")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "ellipsisBubble")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "ellipsisBubble")
-    static let ellipsesBubble = SFSymbol(rawValue: "ellipses.bubble")
+    static let ellipsesBubble = SFSymbol(systemName: "ellipses.bubble")
 
     /// 􀕻
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "ellipsisBubbleFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "ellipsisBubbleFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "ellipsisBubbleFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "ellipsisBubbleFill")
-    static let ellipsesBubbleFill = SFSymbol(rawValue: "ellipses.bubble.fill")
+    static let ellipsesBubbleFill = SFSymbol(systemName: "ellipses.bubble.fill")
 
     /// 􀍠
-    static let ellipsis = SFSymbol(rawValue: "ellipsis")
+    static let ellipsis = SFSymbol(systemName: "ellipsis")
 
     /// 􀍡
-    static let ellipsisCircle = SFSymbol(rawValue: "ellipsis.circle")
+    static let ellipsisCircle = SFSymbol(systemName: "ellipsis.circle")
 
     /// 􀍢
-    static let ellipsisCircleFill = SFSymbol(rawValue: "ellipsis.circle.fill")
+    static let ellipsisCircleFill = SFSymbol(systemName: "ellipsis.circle.fill")
 
     /// 􀍕
-    static let envelope = SFSymbol(rawValue: "envelope")
+    static let envelope = SFSymbol(systemName: "envelope")
 
     /// 􀍛
-    static let envelopeBadge = SFSymbol(rawValue: "envelope.badge")
+    static let envelopeBadge = SFSymbol(systemName: "envelope.badge")
 
     /// 􀍜
-    static let envelopeBadgeFill = SFSymbol(rawValue: "envelope.badge.fill")
+    static let envelopeBadgeFill = SFSymbol(systemName: "envelope.badge.fill")
 
     /// 􀍗
-    static let envelopeCircle = SFSymbol(rawValue: "envelope.circle")
+    static let envelopeCircle = SFSymbol(systemName: "envelope.circle")
 
     /// 􀍘
-    static let envelopeCircleFill = SFSymbol(rawValue: "envelope.circle.fill")
+    static let envelopeCircleFill = SFSymbol(systemName: "envelope.circle.fill")
 
     /// 􀍖
-    static let envelopeFill = SFSymbol(rawValue: "envelope.fill")
+    static let envelopeFill = SFSymbol(systemName: "envelope.fill")
 
     /// 􀍙
-    static let envelopeOpen = SFSymbol(rawValue: "envelope.open")
+    static let envelopeOpen = SFSymbol(systemName: "envelope.open")
 
     /// 􀍚
-    static let envelopeOpenFill = SFSymbol(rawValue: "envelope.open.fill")
+    static let envelopeOpenFill = SFSymbol(systemName: "envelope.open.fill")
 
     /// 􀆀
-    static let equal = SFSymbol(rawValue: "equal")
+    static let equal = SFSymbol(systemName: "equal")
 
     /// 􀁔
-    static let equalCircle = SFSymbol(rawValue: "equal.circle")
+    static let equalCircle = SFSymbol(systemName: "equal.circle")
 
     /// 􀁕
-    static let equalCircleFill = SFSymbol(rawValue: "equal.circle.fill")
+    static let equalCircleFill = SFSymbol(systemName: "equal.circle.fill")
 
     /// 􀃤
-    static let equalSquare = SFSymbol(rawValue: "equal.square")
+    static let equalSquare = SFSymbol(systemName: "equal.square")
 
     /// 􀃥
-    static let equalSquareFill = SFSymbol(rawValue: "equal.square.fill")
+    static let equalSquareFill = SFSymbol(systemName: "equal.square.fill")
 
     /// 􀆧
-    static let escape = SFSymbol(rawValue: "escape")
+    static let escape = SFSymbol(systemName: "escape")
 
     /// 􀖧
-    static let eurosignCircle = SFSymbol(rawValue: "eurosign.circle")
+    static let eurosignCircle = SFSymbol(systemName: "eurosign.circle")
 
     /// 􀖨
-    static let eurosignCircleFill = SFSymbol(rawValue: "eurosign.circle.fill")
+    static let eurosignCircleFill = SFSymbol(systemName: "eurosign.circle.fill")
 
     /// 􀗧
-    static let eurosignSquare = SFSymbol(rawValue: "eurosign.square")
+    static let eurosignSquare = SFSymbol(systemName: "eurosign.square")
 
     /// 􀗨
-    static let eurosignSquareFill = SFSymbol(rawValue: "eurosign.square.fill")
+    static let eurosignSquareFill = SFSymbol(systemName: "eurosign.square.fill")
 
     /// 􀅎
-    static let exclamationmark = SFSymbol(rawValue: "exclamationmark")
+    static let exclamationmark = SFSymbol(systemName: "exclamationmark")
 
     /// 􀌬
-    static let exclamationmarkBubble = SFSymbol(rawValue: "exclamationmark.bubble")
+    static let exclamationmarkBubble = SFSymbol(systemName: "exclamationmark.bubble")
 
     /// 􀌭
-    static let exclamationmarkBubbleFill = SFSymbol(rawValue: "exclamationmark.bubble.fill")
+    static let exclamationmarkBubbleFill = SFSymbol(systemName: "exclamationmark.bubble.fill")
 
     /// 􀁞
-    static let exclamationmarkCircle = SFSymbol(rawValue: "exclamationmark.circle")
+    static let exclamationmarkCircle = SFSymbol(systemName: "exclamationmark.circle")
 
     /// 􀁟
-    static let exclamationmarkCircleFill = SFSymbol(rawValue: "exclamationmark.circle.fill")
+    static let exclamationmarkCircleFill = SFSymbol(systemName: "exclamationmark.circle.fill")
 
     /// 􀌑
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let exclamationmarkIcloud = SFSymbol(rawValue: "exclamationmark.icloud")
+    static let exclamationmarkIcloud = SFSymbol(systemName: "exclamationmark.icloud")
 
     /// 􀌒
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let exclamationmarkIcloudFill = SFSymbol(rawValue: "exclamationmark.icloud.fill")
+    static let exclamationmarkIcloudFill = SFSymbol(systemName: "exclamationmark.icloud.fill")
 
     /// 􀘯
-    static let exclamationmarkOctagon = SFSymbol(rawValue: "exclamationmark.octagon")
+    static let exclamationmarkOctagon = SFSymbol(systemName: "exclamationmark.octagon")
 
     /// 􀘰
-    static let exclamationmarkOctagonFill = SFSymbol(rawValue: "exclamationmark.octagon.fill")
+    static let exclamationmarkOctagonFill = SFSymbol(systemName: "exclamationmark.octagon.fill")
 
     /// 􀞟
-    static let exclamationmarkShield = SFSymbol(rawValue: "exclamationmark.shield")
+    static let exclamationmarkShield = SFSymbol(systemName: "exclamationmark.shield")
 
     /// 􀞠
-    static let exclamationmarkShieldFill = SFSymbol(rawValue: "exclamationmark.shield.fill")
+    static let exclamationmarkShieldFill = SFSymbol(systemName: "exclamationmark.shield.fill")
 
     /// 􀃮
-    static let exclamationmarkSquare = SFSymbol(rawValue: "exclamationmark.square")
+    static let exclamationmarkSquare = SFSymbol(systemName: "exclamationmark.square")
 
     /// 􀃯
-    static let exclamationmarkSquareFill = SFSymbol(rawValue: "exclamationmark.square.fill")
+    static let exclamationmarkSquareFill = SFSymbol(systemName: "exclamationmark.square.fill")
 
     /// 􀇾
-    static let exclamationmarkTriangle = SFSymbol(rawValue: "exclamationmark.triangle")
+    static let exclamationmarkTriangle = SFSymbol(systemName: "exclamationmark.triangle")
 
     /// 􀇿
-    static let exclamationmarkTriangleFill = SFSymbol(rawValue: "exclamationmark.triangle.fill")
+    static let exclamationmarkTriangleFill = SFSymbol(systemName: "exclamationmark.triangle.fill")
 
     /// 􀋭
-    static let eye = SFSymbol(rawValue: "eye")
+    static let eye = SFSymbol(systemName: "eye")
 
     /// 􀋮
-    static let eyeFill = SFSymbol(rawValue: "eye.fill")
+    static let eyeFill = SFSymbol(systemName: "eye.fill")
 
     /// 􀋯
-    static let eyeSlash = SFSymbol(rawValue: "eye.slash")
+    static let eyeSlash = SFSymbol(systemName: "eye.slash")
 
     /// 􀋰
-    static let eyeSlashFill = SFSymbol(rawValue: "eye.slash.fill")
+    static let eyeSlashFill = SFSymbol(systemName: "eye.slash.fill")
 
     /// 􀎗
-    static let eyedropper = SFSymbol(rawValue: "eyedropper")
+    static let eyedropper = SFSymbol(systemName: "eyedropper")
 
     /// 􀎙
-    static let eyedropperFull = SFSymbol(rawValue: "eyedropper.full")
+    static let eyedropperFull = SFSymbol(systemName: "eyedropper.full")
 
     /// 􀎘
-    static let eyedropperHalffull = SFSymbol(rawValue: "eyedropper.halffull")
+    static let eyedropperHalffull = SFSymbol(systemName: "eyedropper.halffull")
 
     /// 􀖆
-    static let eyeglasses = SFSymbol(rawValue: "eyeglasses")
+    static let eyeglasses = SFSymbol(systemName: "eyeglasses")
 
     /// 􀀎
-    static let fCircle = SFSymbol(rawValue: "f.circle")
+    static let fCircle = SFSymbol(systemName: "f.circle")
 
     /// 􀀏
-    static let fCircleFill = SFSymbol(rawValue: "f.circle.fill")
+    static let fCircleFill = SFSymbol(systemName: "f.circle.fill")
 
     /// 􀅭
-    static let fCursive = SFSymbol(rawValue: "f.cursive")
+    static let fCursive = SFSymbol(systemName: "f.cursive")
 
     /// 􀝧
-    static let fCursiveCircle = SFSymbol(rawValue: "f.cursive.circle")
+    static let fCursiveCircle = SFSymbol(systemName: "f.cursive.circle")
 
     /// 􀝨
-    static let fCursiveCircleFill = SFSymbol(rawValue: "f.cursive.circle.fill")
+    static let fCursiveCircleFill = SFSymbol(systemName: "f.cursive.circle.fill")
 
     /// 􀂞
-    static let fSquare = SFSymbol(rawValue: "f.square")
+    static let fSquare = SFSymbol(systemName: "f.square")
 
     /// 􀂟
-    static let fSquareFill = SFSymbol(rawValue: "f.square.fill")
+    static let fSquareFill = SFSymbol(systemName: "f.square.fill")
 
     /// 􀎽
     /// ⚠️ This symbol can refer only to Apple's Face ID.
-    static let faceid = SFSymbol(rawValue: "faceid")
+    static let faceid = SFSymbol(systemName: "faceid")
 
     /// 􀎶
-    static let film = SFSymbol(rawValue: "film")
+    static let film = SFSymbol(systemName: "film")
 
     /// 􀎷
-    static let filmFill = SFSymbol(rawValue: "film.fill")
+    static let filmFill = SFSymbol(systemName: "film.fill")
 
     /// 􀋉
-    static let flag = SFSymbol(rawValue: "flag")
+    static let flag = SFSymbol(systemName: "flag")
 
     /// 􀋋
-    static let flagCircle = SFSymbol(rawValue: "flag.circle")
+    static let flagCircle = SFSymbol(systemName: "flag.circle")
 
     /// 􀋌
-    static let flagCircleFill = SFSymbol(rawValue: "flag.circle.fill")
+    static let flagCircleFill = SFSymbol(systemName: "flag.circle.fill")
 
     /// 􀋊
-    static let flagFill = SFSymbol(rawValue: "flag.fill")
+    static let flagFill = SFSymbol(systemName: "flag.fill")
 
     /// 􀋍
-    static let flagSlash = SFSymbol(rawValue: "flag.slash")
+    static let flagSlash = SFSymbol(systemName: "flag.slash")
 
     /// 􀋎
-    static let flagSlashFill = SFSymbol(rawValue: "flag.slash.fill")
+    static let flagSlashFill = SFSymbol(systemName: "flag.slash.fill")
 
     /// 􀙬
-    static let flame = SFSymbol(rawValue: "flame")
+    static let flame = SFSymbol(systemName: "flame")
 
     /// 􀙭
-    static let flameFill = SFSymbol(rawValue: "flame.fill")
+    static let flameFill = SFSymbol(systemName: "flame.fill")
 
     /// 􀝌
-    static let flashlightOffFill = SFSymbol(rawValue: "flashlight.off.fill")
+    static let flashlightOffFill = SFSymbol(systemName: "flashlight.off.fill")
 
     /// 􀞋
-    static let flashlightOnFill = SFSymbol(rawValue: "flashlight.on.fill")
+    static let flashlightOnFill = SFSymbol(systemName: "flashlight.on.fill")
 
     /// 􀞒
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
-    static let flipHorizontal = SFSymbol(rawValue: "flip.horizontal")
+    static let flipHorizontal = SFSymbol(systemName: "flip.horizontal")
 
     /// 􀞓
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
-    static let flipHorizontalFill = SFSymbol(rawValue: "flip.horizontal.fill")
+    static let flipHorizontalFill = SFSymbol(systemName: "flip.horizontal.fill")
 
     /// 􀖡
-    static let florinsignCircle = SFSymbol(rawValue: "florinsign.circle")
+    static let florinsignCircle = SFSymbol(systemName: "florinsign.circle")
 
     /// 􀖢
-    static let florinsignCircleFill = SFSymbol(rawValue: "florinsign.circle.fill")
+    static let florinsignCircleFill = SFSymbol(systemName: "florinsign.circle.fill")
 
     /// 􀗡
-    static let florinsignSquare = SFSymbol(rawValue: "florinsign.square")
+    static let florinsignSquare = SFSymbol(systemName: "florinsign.square")
 
     /// 􀗢
-    static let florinsignSquareFill = SFSymbol(rawValue: "florinsign.square.fill")
+    static let florinsignSquareFill = SFSymbol(systemName: "florinsign.square.fill")
 
     /// 􀐕
-    static let flowchart = SFSymbol(rawValue: "flowchart")
+    static let flowchart = SFSymbol(systemName: "flowchart")
 
     /// 􀐖
-    static let flowchartFill = SFSymbol(rawValue: "flowchart.fill")
+    static let flowchartFill = SFSymbol(systemName: "flowchart.fill")
 
     /// 􀈕
-    static let folder = SFSymbol(rawValue: "folder")
+    static let folder = SFSymbol(systemName: "folder")
 
     /// 􀈛
-    static let folderBadgeMinus = SFSymbol(rawValue: "folder.badge.minus")
+    static let folderBadgeMinus = SFSymbol(systemName: "folder.badge.minus")
 
     /// 􀈝
-    static let folderBadgePersonCrop = SFSymbol(rawValue: "folder.badge.person.crop")
+    static let folderBadgePersonCrop = SFSymbol(systemName: "folder.badge.person.crop")
 
     /// 􀈙
-    static let folderBadgePlus = SFSymbol(rawValue: "folder.badge.plus")
+    static let folderBadgePlus = SFSymbol(systemName: "folder.badge.plus")
 
     /// 􀈗
-    static let folderCircle = SFSymbol(rawValue: "folder.circle")
+    static let folderCircle = SFSymbol(systemName: "folder.circle")
 
     /// 􀈘
-    static let folderCircleFill = SFSymbol(rawValue: "folder.circle.fill")
+    static let folderCircleFill = SFSymbol(systemName: "folder.circle.fill")
 
     /// 􀈖
-    static let folderFill = SFSymbol(rawValue: "folder.fill")
+    static let folderFill = SFSymbol(systemName: "folder.fill")
 
     /// 􀈜
-    static let folderFillBadgeMinus = SFSymbol(rawValue: "folder.fill.badge.minus")
+    static let folderFillBadgeMinus = SFSymbol(systemName: "folder.fill.badge.minus")
 
     /// 􀈞
-    static let folderFillBadgePersonCrop = SFSymbol(rawValue: "folder.fill.badge.person.crop")
+    static let folderFillBadgePersonCrop = SFSymbol(systemName: "folder.fill.badge.person.crop")
 
     /// 􀈚
-    static let folderFillBadgePlus = SFSymbol(rawValue: "folder.fill.badge.plus")
+    static let folderFillBadgePlus = SFSymbol(systemName: "folder.fill.badge.plus")
 
     /// 􀊋
-    static let forward = SFSymbol(rawValue: "forward")
+    static let forward = SFSymbol(systemName: "forward")
 
     /// 􀊏
-    static let forwardEnd = SFSymbol(rawValue: "forward.end")
+    static let forwardEnd = SFSymbol(systemName: "forward.end")
 
     /// 􀊓
-    static let forwardEndAlt = SFSymbol(rawValue: "forward.end.alt")
+    static let forwardEndAlt = SFSymbol(systemName: "forward.end.alt")
 
     /// 􀊔
-    static let forwardEndAltFill = SFSymbol(rawValue: "forward.end.alt.fill")
+    static let forwardEndAltFill = SFSymbol(systemName: "forward.end.alt.fill")
 
     /// 􀊐
-    static let forwardEndFill = SFSymbol(rawValue: "forward.end.fill")
+    static let forwardEndFill = SFSymbol(systemName: "forward.end.fill")
 
     /// 􀊌
-    static let forwardFill = SFSymbol(rawValue: "forward.fill")
+    static let forwardFill = SFSymbol(systemName: "forward.fill")
 
     /// 􀖟
-    static let francsignCircle = SFSymbol(rawValue: "francsign.circle")
+    static let francsignCircle = SFSymbol(systemName: "francsign.circle")
 
     /// 􀖠
-    static let francsignCircleFill = SFSymbol(rawValue: "francsign.circle.fill")
+    static let francsignCircleFill = SFSymbol(systemName: "francsign.circle.fill")
 
     /// 􀗟
-    static let francsignSquare = SFSymbol(rawValue: "francsign.square")
+    static let francsignSquare = SFSymbol(systemName: "francsign.square")
 
     /// 􀗠
-    static let francsignSquareFill = SFSymbol(rawValue: "francsign.square.fill")
+    static let francsignSquareFill = SFSymbol(systemName: "francsign.square.fill")
 
     /// 􀅮
-    static let function = SFSymbol(rawValue: "function")
+    static let function = SFSymbol(systemName: "function")
 
     /// 􀅬
-    static let fx = SFSymbol(rawValue: "fx")
+    static let fx = SFSymbol(systemName: "fx")
 
     /// 􀀐
-    static let gCircle = SFSymbol(rawValue: "g.circle")
+    static let gCircle = SFSymbol(systemName: "g.circle")
 
     /// 􀀑
-    static let gCircleFill = SFSymbol(rawValue: "g.circle.fill")
+    static let gCircleFill = SFSymbol(systemName: "g.circle.fill")
 
     /// 􀂠
-    static let gSquare = SFSymbol(rawValue: "g.square")
+    static let gSquare = SFSymbol(systemName: "g.square")
 
     /// 􀂡
-    static let gSquareFill = SFSymbol(rawValue: "g.square.fill")
+    static let gSquareFill = SFSymbol(systemName: "g.square.fill")
 
     /// 􀛸
-    static let gamecontroller = SFSymbol(rawValue: "gamecontroller")
+    static let gamecontroller = SFSymbol(systemName: "gamecontroller")
 
     /// 􀛹
-    static let gamecontrollerFill = SFSymbol(rawValue: "gamecontroller.fill")
+    static let gamecontrollerFill = SFSymbol(systemName: "gamecontroller.fill")
 
     /// 􀍽
-    static let gauge = SFSymbol(rawValue: "gauge")
+    static let gauge = SFSymbol(systemName: "gauge")
 
     /// 􀓧
-    static let gaugeBadgeMinus = SFSymbol(rawValue: "gauge.badge.minus")
+    static let gaugeBadgeMinus = SFSymbol(systemName: "gauge.badge.minus")
 
     /// 􀓓
-    static let gaugeBadgePlus = SFSymbol(rawValue: "gauge.badge.plus")
+    static let gaugeBadgePlus = SFSymbol(systemName: "gauge.badge.plus")
 
     /// 􀍟
-    static let gear = SFSymbol(rawValue: "gear")
+    static let gear = SFSymbol(systemName: "gear")
 
     /// 􀑉
-    static let gift = SFSymbol(rawValue: "gift")
+    static let gift = SFSymbol(systemName: "gift")
 
     /// 􀑊
-    static let giftFill = SFSymbol(rawValue: "gift.fill")
+    static let giftFill = SFSymbol(systemName: "gift.fill")
 
     /// 􀆪
-    static let globe = SFSymbol(rawValue: "globe")
+    static let globe = SFSymbol(systemName: "globe")
 
     /// 􀎀
-    static let gobackward = SFSymbol(rawValue: "gobackward")
+    static let gobackward = SFSymbol(systemName: "gobackward")
 
     /// 􀎂
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
-    static let gobackward10 = SFSymbol(rawValue: "gobackward.10")
+    static let gobackward10 = SFSymbol(systemName: "gobackward.10")
 
     /// 􀎄
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
-    static let gobackward15 = SFSymbol(rawValue: "gobackward.15")
+    static let gobackward15 = SFSymbol(systemName: "gobackward.15")
 
     /// 􀎆
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
-    static let gobackward30 = SFSymbol(rawValue: "gobackward.30")
+    static let gobackward30 = SFSymbol(systemName: "gobackward.30")
 
     /// 􀎈
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
-    static let gobackward45 = SFSymbol(rawValue: "gobackward.45")
+    static let gobackward45 = SFSymbol(systemName: "gobackward.45")
 
     /// 􀎊
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
-    static let gobackward60 = SFSymbol(rawValue: "gobackward.60")
+    static let gobackward60 = SFSymbol(systemName: "gobackward.60")
 
     /// 􀘥
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
-    static let gobackward75 = SFSymbol(rawValue: "gobackward.75")
+    static let gobackward75 = SFSymbol(systemName: "gobackward.75")
 
     /// 􀘧
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
-    static let gobackward90 = SFSymbol(rawValue: "gobackward.90")
+    static let gobackward90 = SFSymbol(systemName: "gobackward.90")
 
     /// 􀘩
-    static let gobackwardMinus = SFSymbol(rawValue: "gobackward.minus")
+    static let gobackwardMinus = SFSymbol(systemName: "gobackward.minus")
 
     /// 􀍿
-    static let goforward = SFSymbol(rawValue: "goforward")
+    static let goforward = SFSymbol(systemName: "goforward")
 
     /// 􀎁
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
-    static let goforward10 = SFSymbol(rawValue: "goforward.10")
+    static let goforward10 = SFSymbol(systemName: "goforward.10")
 
     /// 􀎃
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
-    static let goforward15 = SFSymbol(rawValue: "goforward.15")
+    static let goforward15 = SFSymbol(systemName: "goforward.15")
 
     /// 􀎅
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
-    static let goforward30 = SFSymbol(rawValue: "goforward.30")
+    static let goforward30 = SFSymbol(systemName: "goforward.30")
 
     /// 􀎇
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
-    static let goforward45 = SFSymbol(rawValue: "goforward.45")
+    static let goforward45 = SFSymbol(systemName: "goforward.45")
 
     /// 􀎉
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
-    static let goforward60 = SFSymbol(rawValue: "goforward.60")
+    static let goforward60 = SFSymbol(systemName: "goforward.60")
 
     /// 􀘤
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
-    static let goforward75 = SFSymbol(rawValue: "goforward.75")
+    static let goforward75 = SFSymbol(systemName: "goforward.75")
 
     /// 􀘦
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
-    static let goforward90 = SFSymbol(rawValue: "goforward.90")
+    static let goforward90 = SFSymbol(systemName: "goforward.90")
 
     /// 􀘨
-    static let goforwardPlus = SFSymbol(rawValue: "goforward.plus")
+    static let goforwardPlus = SFSymbol(systemName: "goforward.plus")
 
     /// 􀆂
-    static let greaterthan = SFSymbol(rawValue: "greaterthan")
+    static let greaterthan = SFSymbol(systemName: "greaterthan")
 
     /// 􀁖
-    static let greaterthanCircle = SFSymbol(rawValue: "greaterthan.circle")
+    static let greaterthanCircle = SFSymbol(systemName: "greaterthan.circle")
 
     /// 􀁗
-    static let greaterthanCircleFill = SFSymbol(rawValue: "greaterthan.circle.fill")
+    static let greaterthanCircleFill = SFSymbol(systemName: "greaterthan.circle.fill")
 
     /// 􀃨
-    static let greaterthanSquare = SFSymbol(rawValue: "greaterthan.square")
+    static let greaterthanSquare = SFSymbol(systemName: "greaterthan.square")
 
     /// 􀃩
-    static let greaterthanSquareFill = SFSymbol(rawValue: "greaterthan.square.fill")
+    static let greaterthanSquareFill = SFSymbol(systemName: "greaterthan.square.fill")
 
     /// 􀓗
-    static let grid = SFSymbol(rawValue: "grid")
+    static let grid = SFSymbol(systemName: "grid")
 
     /// 􀓘
-    static let gridCircle = SFSymbol(rawValue: "grid.circle")
+    static let gridCircle = SFSymbol(systemName: "grid.circle")
 
     /// 􀘟
-    static let gridCircleFill = SFSymbol(rawValue: "grid.circle.fill")
+    static let gridCircleFill = SFSymbol(systemName: "grid.circle.fill")
 
     /// 􀖿
-    static let guaranisignCircle = SFSymbol(rawValue: "guaranisign.circle")
+    static let guaranisignCircle = SFSymbol(systemName: "guaranisign.circle")
 
     /// 􀗀
-    static let guaranisignCircleFill = SFSymbol(rawValue: "guaranisign.circle.fill")
+    static let guaranisignCircleFill = SFSymbol(systemName: "guaranisign.circle.fill")
 
     /// 􀗿
-    static let guaranisignSquare = SFSymbol(rawValue: "guaranisign.square")
+    static let guaranisignSquare = SFSymbol(systemName: "guaranisign.square")
 
     /// 􀘀
-    static let guaranisignSquareFill = SFSymbol(rawValue: "guaranisign.square.fill")
+    static let guaranisignSquareFill = SFSymbol(systemName: "guaranisign.square.fill")
 
     /// 􀑭
-    static let guitars = SFSymbol(rawValue: "guitars")
+    static let guitars = SFSymbol(systemName: "guitars")
 
     /// 􀀒
-    static let hCircle = SFSymbol(rawValue: "h.circle")
+    static let hCircle = SFSymbol(systemName: "h.circle")
 
     /// 􀀓
-    static let hCircleFill = SFSymbol(rawValue: "h.circle.fill")
+    static let hCircleFill = SFSymbol(systemName: "h.circle.fill")
 
     /// 􀂢
-    static let hSquare = SFSymbol(rawValue: "h.square")
+    static let hSquare = SFSymbol(systemName: "h.square")
 
     /// 􀂣
-    static let hSquareFill = SFSymbol(rawValue: "h.square.fill")
+    static let hSquareFill = SFSymbol(systemName: "h.square.fill")
 
     /// 􀙄
-    static let hammer = SFSymbol(rawValue: "hammer")
+    static let hammer = SFSymbol(systemName: "hammer")
 
     /// 􀙅
-    static let hammerFill = SFSymbol(rawValue: "hammer.fill")
+    static let hammerFill = SFSymbol(systemName: "hammer.fill")
 
     /// 􀖓
-    static let handDraw = SFSymbol(rawValue: "hand.draw")
+    static let handDraw = SFSymbol(systemName: "hand.draw")
 
     /// 􀖔
-    static let handDrawFill = SFSymbol(rawValue: "hand.draw.fill")
+    static let handDrawFill = SFSymbol(systemName: "hand.draw.fill")
 
     /// 􀙽
-    static let handPointLeft = SFSymbol(rawValue: "hand.point.left")
+    static let handPointLeft = SFSymbol(systemName: "hand.point.left")
 
     /// 􀙾
-    static let handPointLeftFill = SFSymbol(rawValue: "hand.point.left.fill")
+    static let handPointLeftFill = SFSymbol(systemName: "hand.point.left.fill")
 
     /// 􀙿
-    static let handPointRight = SFSymbol(rawValue: "hand.point.right")
+    static let handPointRight = SFSymbol(systemName: "hand.point.right")
 
     /// 􀚀
-    static let handPointRightFill = SFSymbol(rawValue: "hand.point.right.fill")
+    static let handPointRightFill = SFSymbol(systemName: "hand.point.right.fill")
 
     /// 􀉻
-    static let handRaised = SFSymbol(rawValue: "hand.raised")
+    static let handRaised = SFSymbol(systemName: "hand.raised")
 
     /// 􀉼
-    static let handRaisedFill = SFSymbol(rawValue: "hand.raised.fill")
+    static let handRaisedFill = SFSymbol(systemName: "hand.raised.fill")
 
     /// 􀉽
-    static let handRaisedSlash = SFSymbol(rawValue: "hand.raised.slash")
+    static let handRaisedSlash = SFSymbol(systemName: "hand.raised.slash")
 
     /// 􀉾
-    static let handRaisedSlashFill = SFSymbol(rawValue: "hand.raised.slash.fill")
+    static let handRaisedSlashFill = SFSymbol(systemName: "hand.raised.slash.fill")
 
     /// 􀊁
-    static let handThumbsdown = SFSymbol(rawValue: "hand.thumbsdown")
+    static let handThumbsdown = SFSymbol(systemName: "hand.thumbsdown")
 
     /// 􀊂
-    static let handThumbsdownFill = SFSymbol(rawValue: "hand.thumbsdown.fill")
+    static let handThumbsdownFill = SFSymbol(systemName: "hand.thumbsdown.fill")
 
     /// 􀉿
-    static let handThumbsup = SFSymbol(rawValue: "hand.thumbsup")
+    static let handThumbsup = SFSymbol(systemName: "hand.thumbsup")
 
     /// 􀊀
-    static let handThumbsupFill = SFSymbol(rawValue: "hand.thumbsup.fill")
+    static let handThumbsupFill = SFSymbol(systemName: "hand.thumbsup.fill")
 
     /// 􀓎
-    static let hare = SFSymbol(rawValue: "hare")
+    static let hare = SFSymbol(systemName: "hare")
 
     /// 􀓏
-    static let hareFill = SFSymbol(rawValue: "hare.fill")
+    static let hareFill = SFSymbol(systemName: "hare.fill")
 
     /// 􀑈
-    static let headphones = SFSymbol(rawValue: "headphones")
+    static let headphones = SFSymbol(systemName: "headphones")
 
     /// 􀊴
-    static let heart = SFSymbol(rawValue: "heart")
+    static let heart = SFSymbol(systemName: "heart")
 
     /// 􀊸
-    static let heartCircle = SFSymbol(rawValue: "heart.circle")
+    static let heartCircle = SFSymbol(systemName: "heart.circle")
 
     /// 􀊹
-    static let heartCircleFill = SFSymbol(rawValue: "heart.circle.fill")
+    static let heartCircleFill = SFSymbol(systemName: "heart.circle.fill")
 
     /// 􀊵
-    static let heartFill = SFSymbol(rawValue: "heart.fill")
+    static let heartFill = SFSymbol(systemName: "heart.fill")
 
     /// 􀊶
-    static let heartSlash = SFSymbol(rawValue: "heart.slash")
+    static let heartSlash = SFSymbol(systemName: "heart.slash")
 
     /// 􀊺
-    static let heartSlashCircle = SFSymbol(rawValue: "heart.slash.circle")
+    static let heartSlashCircle = SFSymbol(systemName: "heart.slash.circle")
 
     /// 􀊻
-    static let heartSlashCircleFill = SFSymbol(rawValue: "heart.slash.circle.fill")
+    static let heartSlashCircleFill = SFSymbol(systemName: "heart.slash.circle.fill")
 
     /// 􀊷
-    static let heartSlashFill = SFSymbol(rawValue: "heart.slash.fill")
+    static let heartSlashFill = SFSymbol(systemName: "heart.slash.fill")
 
     /// 􀐪
-    static let helm = SFSymbol(rawValue: "helm")
+    static let helm = SFSymbol(systemName: "helm")
 
     /// 􀝝
-    static let hexagon = SFSymbol(rawValue: "hexagon")
+    static let hexagon = SFSymbol(systemName: "hexagon")
 
     /// 􀝞
-    static let hexagonFill = SFSymbol(rawValue: "hexagon.fill")
+    static let hexagonFill = SFSymbol(systemName: "hexagon.fill")
 
     /// 􀝎
-    static let hifispeaker = SFSymbol(rawValue: "hifispeaker")
+    static let hifispeaker = SFSymbol(systemName: "hifispeaker")
 
     /// 􀝏
-    static let hifispeakerFill = SFSymbol(rawValue: "hifispeaker.fill")
+    static let hifispeakerFill = SFSymbol(systemName: "hifispeaker.fill")
 
     /// 􀖇
-    static let hourglass = SFSymbol(rawValue: "hourglass")
+    static let hourglass = SFSymbol(systemName: "hourglass")
 
     /// 􀖈
-    static let hourglassBottomhalfFill = SFSymbol(rawValue: "hourglass.bottomhalf.fill")
+    static let hourglassBottomhalfFill = SFSymbol(systemName: "hourglass.bottomhalf.fill")
 
     /// 􀖉
-    static let hourglassTophalfFill = SFSymbol(rawValue: "hourglass.tophalf.fill")
+    static let hourglassTophalfFill = SFSymbol(systemName: "hourglass.tophalf.fill")
 
     /// 􀎞
-    static let house = SFSymbol(rawValue: "house")
+    static let house = SFSymbol(systemName: "house")
 
     /// 􀎟
-    static let houseFill = SFSymbol(rawValue: "house.fill")
+    static let houseFill = SFSymbol(systemName: "house.fill")
 
     /// 􀖻
-    static let hryvniasignCircle = SFSymbol(rawValue: "hryvniasign.circle")
+    static let hryvniasignCircle = SFSymbol(systemName: "hryvniasign.circle")
 
     /// 􀖼
-    static let hryvniasignCircleFill = SFSymbol(rawValue: "hryvniasign.circle.fill")
+    static let hryvniasignCircleFill = SFSymbol(systemName: "hryvniasign.circle.fill")
 
     /// 􀗻
-    static let hryvniasignSquare = SFSymbol(rawValue: "hryvniasign.square")
+    static let hryvniasignSquare = SFSymbol(systemName: "hryvniasign.square")
 
     /// 􀗼
-    static let hryvniasignSquareFill = SFSymbol(rawValue: "hryvniasign.square.fill")
+    static let hryvniasignSquareFill = SFSymbol(systemName: "hryvniasign.square.fill")
 
     /// 􀇩
-    static let hurricane = SFSymbol(rawValue: "hurricane")
+    static let hurricane = SFSymbol(systemName: "hurricane")
 
     /// 􀀔
-    static let iCircle = SFSymbol(rawValue: "i.circle")
+    static let iCircle = SFSymbol(systemName: "i.circle")
 
     /// 􀀕
-    static let iCircleFill = SFSymbol(rawValue: "i.circle.fill")
+    static let iCircleFill = SFSymbol(systemName: "i.circle.fill")
 
     /// 􀂤
-    static let iSquare = SFSymbol(rawValue: "i.square")
+    static let iSquare = SFSymbol(systemName: "i.square")
 
     /// 􀂥
-    static let iSquareFill = SFSymbol(rawValue: "i.square.fill")
+    static let iSquareFill = SFSymbol(systemName: "i.square.fill")
 
     /// 􀌋
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let icloud = SFSymbol(rawValue: "icloud")
+    static let icloud = SFSymbol(systemName: "icloud")
 
     /// 􀌕
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let icloudAndArrowDown = SFSymbol(rawValue: "icloud.and.arrow.down")
+    static let icloudAndArrowDown = SFSymbol(systemName: "icloud.and.arrow.down")
 
     /// 􀌖
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let icloudAndArrowDownFill = SFSymbol(rawValue: "icloud.and.arrow.down.fill")
+    static let icloudAndArrowDownFill = SFSymbol(systemName: "icloud.and.arrow.down.fill")
 
     /// 􀌗
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let icloudAndArrowUp = SFSymbol(rawValue: "icloud.and.arrow.up")
+    static let icloudAndArrowUp = SFSymbol(systemName: "icloud.and.arrow.up")
 
     /// 􀌘
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let icloudAndArrowUpFill = SFSymbol(rawValue: "icloud.and.arrow.up.fill")
+    static let icloudAndArrowUpFill = SFSymbol(systemName: "icloud.and.arrow.up.fill")
 
     /// 􀌍
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let icloudCircle = SFSymbol(rawValue: "icloud.circle")
+    static let icloudCircle = SFSymbol(systemName: "icloud.circle")
 
     /// 􀌎
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let icloudCircleFill = SFSymbol(rawValue: "icloud.circle.fill")
+    static let icloudCircleFill = SFSymbol(systemName: "icloud.circle.fill")
 
     /// 􀌌
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let icloudFill = SFSymbol(rawValue: "icloud.fill")
+    static let icloudFill = SFSymbol(systemName: "icloud.fill")
 
     /// 􀌏
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let icloudSlash = SFSymbol(rawValue: "icloud.slash")
+    static let icloudSlash = SFSymbol(systemName: "icloud.slash")
 
     /// 􀌐
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let icloudSlashFill = SFSymbol(rawValue: "icloud.slash.fill")
+    static let icloudSlashFill = SFSymbol(systemName: "icloud.slash.fill")
 
     /// 􀋵
-    static let increaseIndent = SFSymbol(rawValue: "increase.indent")
+    static let increaseIndent = SFSymbol(systemName: "increase.indent")
 
     /// 􀞀
-    static let increaseQuotelevel = SFSymbol(rawValue: "increase.quotelevel")
+    static let increaseQuotelevel = SFSymbol(systemName: "increase.quotelevel")
 
     /// 􀖫
-    static let indianrupeesignCircle = SFSymbol(rawValue: "indianrupeesign.circle")
+    static let indianrupeesignCircle = SFSymbol(systemName: "indianrupeesign.circle")
 
     /// 􀖬
-    static let indianrupeesignCircleFill = SFSymbol(rawValue: "indianrupeesign.circle.fill")
+    static let indianrupeesignCircleFill = SFSymbol(systemName: "indianrupeesign.circle.fill")
 
     /// 􀗫
-    static let indianrupeesignSquare = SFSymbol(rawValue: "indianrupeesign.square")
+    static let indianrupeesignSquare = SFSymbol(systemName: "indianrupeesign.square")
 
     /// 􀗬
-    static let indianrupeesignSquareFill = SFSymbol(rawValue: "indianrupeesign.square.fill")
+    static let indianrupeesignSquareFill = SFSymbol(systemName: "indianrupeesign.square.fill")
 
     /// 􀅳
-    static let info = SFSymbol(rawValue: "info")
+    static let info = SFSymbol(systemName: "info")
 
     /// 􀅴
-    static let infoCircle = SFSymbol(rawValue: "info.circle")
+    static let infoCircle = SFSymbol(systemName: "info.circle")
 
     /// 􀅵
-    static let infoCircleFill = SFSymbol(rawValue: "info.circle.fill")
+    static let infoCircleFill = SFSymbol(systemName: "info.circle.fill")
 
     /// 􀅔
-    static let italic = SFSymbol(rawValue: "italic")
+    static let italic = SFSymbol(systemName: "italic")
 
     /// 􀀖
-    static let jCircle = SFSymbol(rawValue: "j.circle")
+    static let jCircle = SFSymbol(systemName: "j.circle")
 
     /// 􀀗
-    static let jCircleFill = SFSymbol(rawValue: "j.circle.fill")
+    static let jCircleFill = SFSymbol(systemName: "j.circle.fill")
 
     /// 􀂦
-    static let jSquare = SFSymbol(rawValue: "j.square")
+    static let jSquare = SFSymbol(systemName: "j.square")
 
     /// 􀂧
-    static let jSquareFill = SFSymbol(rawValue: "j.square.fill")
+    static let jSquareFill = SFSymbol(systemName: "j.square.fill")
 
     /// 􀀘
-    static let kCircle = SFSymbol(rawValue: "k.circle")
+    static let kCircle = SFSymbol(systemName: "k.circle")
 
     /// 􀀙
-    static let kCircleFill = SFSymbol(rawValue: "k.circle.fill")
+    static let kCircleFill = SFSymbol(systemName: "k.circle.fill")
 
     /// 􀂨
-    static let kSquare = SFSymbol(rawValue: "k.square")
+    static let kSquare = SFSymbol(systemName: "k.square")
 
     /// 􀂩
-    static let kSquareFill = SFSymbol(rawValue: "k.square.fill")
+    static let kSquareFill = SFSymbol(systemName: "k.square.fill")
 
     /// 􀇳
-    static let keyboard = SFSymbol(rawValue: "keyboard")
+    static let keyboard = SFSymbol(systemName: "keyboard")
 
     /// 􀓖
-    static let keyboardChevronCompactDown = SFSymbol(rawValue: "keyboard.chevron.compact.down")
+    static let keyboardChevronCompactDown = SFSymbol(systemName: "keyboard.chevron.compact.down")
 
     /// 􀖳
-    static let kipsignCircle = SFSymbol(rawValue: "kipsign.circle")
+    static let kipsignCircle = SFSymbol(systemName: "kipsign.circle")
 
     /// 􀖴
-    static let kipsignCircleFill = SFSymbol(rawValue: "kipsign.circle.fill")
+    static let kipsignCircleFill = SFSymbol(systemName: "kipsign.circle.fill")
 
     /// 􀗳
-    static let kipsignSquare = SFSymbol(rawValue: "kipsign.square")
+    static let kipsignSquare = SFSymbol(systemName: "kipsign.square")
 
     /// 􀗴
-    static let kipsignSquareFill = SFSymbol(rawValue: "kipsign.square.fill")
+    static let kipsignSquareFill = SFSymbol(systemName: "kipsign.square.fill")
 
     /// 􀀚
-    static let lCircle = SFSymbol(rawValue: "l.circle")
+    static let lCircle = SFSymbol(systemName: "l.circle")
 
     /// 􀀛
-    static let lCircleFill = SFSymbol(rawValue: "l.circle.fill")
+    static let lCircleFill = SFSymbol(systemName: "l.circle.fill")
 
     /// 􀂪
-    static let lSquare = SFSymbol(rawValue: "l.square")
+    static let lSquare = SFSymbol(systemName: "l.square")
 
     /// 􀂫
-    static let lSquareFill = SFSymbol(rawValue: "l.square.fill")
+    static let lSquareFill = SFSymbol(systemName: "l.square.fill")
 
     /// 􀝜
-    static let largecircleFillCircle = SFSymbol(rawValue: "largecircle.fill.circle")
+    static let largecircleFillCircle = SFSymbol(systemName: "largecircle.fill.circle")
 
     /// 􀗓
-    static let larisignCircle = SFSymbol(rawValue: "larisign.circle")
+    static let larisignCircle = SFSymbol(systemName: "larisign.circle")
 
     /// 􀗔
-    static let larisignCircleFill = SFSymbol(rawValue: "larisign.circle.fill")
+    static let larisignCircleFill = SFSymbol(systemName: "larisign.circle.fill")
 
     /// 􀘓
-    static let larisignSquare = SFSymbol(rawValue: "larisign.square")
+    static let larisignSquare = SFSymbol(systemName: "larisign.square")
 
     /// 􀘔
-    static let larisignSquareFill = SFSymbol(rawValue: "larisign.square.fill")
+    static let larisignSquareFill = SFSymbol(systemName: "larisign.square.fill")
 
     /// 􀓩
-    static let lasso = SFSymbol(rawValue: "lasso")
+    static let lasso = SFSymbol(systemName: "lasso")
 
     /// 􀙜
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "leafArrowTriangleCirclepath")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "leafArrowTriangleCirclepath")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "leafArrowTriangleCirclepath")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "leafArrowTriangleCirclepath")
-    static let leafArrowCirclepath = SFSymbol(rawValue: "leaf.arrow.circlepath")
+    static let leafArrowCirclepath = SFSymbol(systemName: "leaf.arrow.circlepath")
 
     /// 􀆁
-    static let lessthan = SFSymbol(rawValue: "lessthan")
+    static let lessthan = SFSymbol(systemName: "lessthan")
 
     /// 􀁘
-    static let lessthanCircle = SFSymbol(rawValue: "lessthan.circle")
+    static let lessthanCircle = SFSymbol(systemName: "lessthan.circle")
 
     /// 􀁙
-    static let lessthanCircleFill = SFSymbol(rawValue: "lessthan.circle.fill")
+    static let lessthanCircleFill = SFSymbol(systemName: "lessthan.circle.fill")
 
     /// 􀃦
-    static let lessthanSquare = SFSymbol(rawValue: "lessthan.square")
+    static let lessthanSquare = SFSymbol(systemName: "lessthan.square")
 
     /// 􀃧
-    static let lessthanSquareFill = SFSymbol(rawValue: "lessthan.square.fill")
+    static let lessthanSquareFill = SFSymbol(systemName: "lessthan.square.fill")
 
     /// 􀇮
-    static let lightMax = SFSymbol(rawValue: "light.max")
+    static let lightMax = SFSymbol(systemName: "light.max")
 
     /// 􀇭
-    static let lightMin = SFSymbol(rawValue: "light.min")
+    static let lightMin = SFSymbol(systemName: "light.min")
 
     /// 􀛭
-    static let lightbulb = SFSymbol(rawValue: "lightbulb")
+    static let lightbulb = SFSymbol(systemName: "lightbulb")
 
     /// 􀛮
-    static let lightbulbFill = SFSymbol(rawValue: "lightbulb.fill")
+    static let lightbulbFill = SFSymbol(systemName: "lightbulb.fill")
 
     /// 􀞃
-    static let lightbulbSlash = SFSymbol(rawValue: "lightbulb.slash")
+    static let lightbulbSlash = SFSymbol(systemName: "lightbulb.slash")
 
     /// 􀞄
-    static let lightbulbSlashFill = SFSymbol(rawValue: "lightbulb.slash.fill")
+    static let lightbulbSlashFill = SFSymbol(systemName: "lightbulb.slash.fill")
 
     /// 􀌇
-    static let lineHorizontal3 = SFSymbol(rawValue: "line.horizontal.3")
+    static let lineHorizontal3 = SFSymbol(systemName: "line.horizontal.3")
 
     /// 􀜓
-    static let lineHorizontal3Decrease = SFSymbol(rawValue: "line.horizontal.3.decrease")
+    static let lineHorizontal3Decrease = SFSymbol(systemName: "line.horizontal.3.decrease")
 
     /// 􀌈
-    static let lineHorizontal3DecreaseCircle = SFSymbol(rawValue: "line.horizontal.3.decrease.circle")
+    static let lineHorizontal3DecreaseCircle = SFSymbol(systemName: "line.horizontal.3.decrease.circle")
 
     /// 􀌉
-    static let lineHorizontal3DecreaseCircleFill = SFSymbol(rawValue: "line.horizontal.3.decrease.circle.fill")
+    static let lineHorizontal3DecreaseCircleFill = SFSymbol(systemName: "line.horizontal.3.decrease.circle.fill")
 
     /// 􀉣
-    static let link = SFSymbol(rawValue: "link")
+    static let link = SFSymbol(systemName: "link")
 
     /// 􀒠
-    static let linkCircle = SFSymbol(rawValue: "link.circle")
+    static let linkCircle = SFSymbol(systemName: "link.circle")
 
     /// 􀒡
-    static let linkCircleFill = SFSymbol(rawValue: "link.circle.fill")
+    static let linkCircleFill = SFSymbol(systemName: "link.circle.fill")
 
     /// 􀒞
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let linkIcloud = SFSymbol(rawValue: "link.icloud")
+    static let linkIcloud = SFSymbol(systemName: "link.icloud")
 
     /// 􀒟
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let linkIcloudFill = SFSymbol(rawValue: "link.icloud.fill")
+    static let linkIcloudFill = SFSymbol(systemName: "link.icloud.fill")
 
     /// 􀖷
-    static let lirasignCircle = SFSymbol(rawValue: "lirasign.circle")
+    static let lirasignCircle = SFSymbol(systemName: "lirasign.circle")
 
     /// 􀖸
-    static let lirasignCircleFill = SFSymbol(rawValue: "lirasign.circle.fill")
+    static let lirasignCircleFill = SFSymbol(systemName: "lirasign.circle.fill")
 
     /// 􀗷
-    static let lirasignSquare = SFSymbol(rawValue: "lirasign.square")
+    static let lirasignSquare = SFSymbol(systemName: "lirasign.square")
 
     /// 􀗸
-    static let lirasignSquareFill = SFSymbol(rawValue: "lirasign.square.fill")
+    static let lirasignSquareFill = SFSymbol(systemName: "lirasign.square.fill")
 
     /// 􀋲
-    static let listBullet = SFSymbol(rawValue: "list.bullet")
+    static let listBullet = SFSymbol(systemName: "list.bullet")
 
     /// 􀋷
-    static let listBulletBelowRectangle = SFSymbol(rawValue: "list.bullet.below.rectangle")
+    static let listBulletBelowRectangle = SFSymbol(systemName: "list.bullet.below.rectangle")
 
     /// 􀋳
-    static let listBulletIndent = SFSymbol(rawValue: "list.bullet.indent")
+    static let listBulletIndent = SFSymbol(systemName: "list.bullet.indent")
 
     /// 􀋱
-    static let listDash = SFSymbol(rawValue: "list.dash")
+    static let listDash = SFSymbol(systemName: "list.dash")
 
     /// 􀋴
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
-    static let listNumber = SFSymbol(rawValue: "list.number")
+    static let listNumber = SFSymbol(systemName: "list.number")
 
     /// 􀐡
     /// ⚠️ This symbol can refer only to Apple's Live Photos feature.
-    static let livephoto = SFSymbol(rawValue: "livephoto")
+    static let livephoto = SFSymbol(systemName: "livephoto")
 
     /// 􀐣
     /// ⚠️ This symbol can refer only to Apple's Live Photos feature.
-    static let livephotoPlay = SFSymbol(rawValue: "livephoto.play")
+    static let livephotoPlay = SFSymbol(systemName: "livephoto.play")
 
     /// 􀐢
     /// ⚠️ This symbol can refer only to Apple's Live Photos feature.
-    static let livephotoSlash = SFSymbol(rawValue: "livephoto.slash")
+    static let livephotoSlash = SFSymbol(systemName: "livephoto.slash")
 
     /// 􀋑
-    static let location = SFSymbol(rawValue: "location")
+    static let location = SFSymbol(systemName: "location")
 
     /// 􀋕
-    static let locationCircle = SFSymbol(rawValue: "location.circle")
+    static let locationCircle = SFSymbol(systemName: "location.circle")
 
     /// 􀋖
-    static let locationCircleFill = SFSymbol(rawValue: "location.circle.fill")
+    static let locationCircleFill = SFSymbol(systemName: "location.circle.fill")
 
     /// 􀋒
-    static let locationFill = SFSymbol(rawValue: "location.fill")
+    static let locationFill = SFSymbol(systemName: "location.fill")
 
     /// 􀋓
-    static let locationNorth = SFSymbol(rawValue: "location.north")
+    static let locationNorth = SFSymbol(systemName: "location.north")
 
     /// 􀋔
-    static let locationNorthFill = SFSymbol(rawValue: "location.north.fill")
+    static let locationNorthFill = SFSymbol(systemName: "location.north.fill")
 
     /// 􀋗
-    static let locationNorthLine = SFSymbol(rawValue: "location.north.line")
+    static let locationNorthLine = SFSymbol(systemName: "location.north.line")
 
     /// 􀋘
-    static let locationNorthLineFill = SFSymbol(rawValue: "location.north.line.fill")
+    static let locationNorthLineFill = SFSymbol(systemName: "location.north.line.fill")
 
     /// 􀘬
-    static let locationSlash = SFSymbol(rawValue: "location.slash")
+    static let locationSlash = SFSymbol(systemName: "location.slash")
 
     /// 􀘭
-    static let locationSlashFill = SFSymbol(rawValue: "location.slash.fill")
+    static let locationSlashFill = SFSymbol(systemName: "location.slash.fill")
 
     /// 􀎠
-    static let lock = SFSymbol(rawValue: "lock")
+    static let lock = SFSymbol(systemName: "lock")
 
     /// 􀒲
-    static let lockCircle = SFSymbol(rawValue: "lock.circle")
+    static let lockCircle = SFSymbol(systemName: "lock.circle")
 
     /// 􀒳
-    static let lockCircleFill = SFSymbol(rawValue: "lock.circle.fill")
+    static let lockCircleFill = SFSymbol(systemName: "lock.circle.fill")
 
     /// 􀎡
-    static let lockFill = SFSymbol(rawValue: "lock.fill")
+    static let lockFill = SFSymbol(systemName: "lock.fill")
 
     /// 􀙵
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let lockIcloud = SFSymbol(rawValue: "lock.icloud")
+    static let lockIcloud = SFSymbol(systemName: "lock.icloud")
 
     /// 􀙶
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let lockIcloudFill = SFSymbol(rawValue: "lock.icloud.fill")
+    static let lockIcloudFill = SFSymbol(systemName: "lock.icloud.fill")
 
     /// 􀎤
-    static let lockOpen = SFSymbol(rawValue: "lock.open")
+    static let lockOpen = SFSymbol(systemName: "lock.open")
 
     /// 􀎥
-    static let lockOpenFill = SFSymbol(rawValue: "lock.open.fill")
+    static let lockOpenFill = SFSymbol(systemName: "lock.open.fill")
 
     /// 􀑙
-    static let lockRotation = SFSymbol(rawValue: "lock.rotation")
+    static let lockRotation = SFSymbol(systemName: "lock.rotation")
 
     /// 􀑚
-    static let lockRotationOpen = SFSymbol(rawValue: "lock.rotation.open")
+    static let lockRotationOpen = SFSymbol(systemName: "lock.rotation.open")
 
     /// 􀞙
-    static let lockShield = SFSymbol(rawValue: "lock.shield")
+    static let lockShield = SFSymbol(systemName: "lock.shield")
 
     /// 􀞚
-    static let lockShieldFill = SFSymbol(rawValue: "lock.shield.fill")
+    static let lockShieldFill = SFSymbol(systemName: "lock.shield.fill")
 
     /// 􀎢
-    static let lockSlash = SFSymbol(rawValue: "lock.slash")
+    static let lockSlash = SFSymbol(systemName: "lock.slash")
 
     /// 􀎣
-    static let lockSlashFill = SFSymbol(rawValue: "lock.slash.fill")
+    static let lockSlashFill = SFSymbol(systemName: "lock.slash.fill")
 
     /// 􀀜
-    static let mCircle = SFSymbol(rawValue: "m.circle")
+    static let mCircle = SFSymbol(systemName: "m.circle")
 
     /// 􀀝
-    static let mCircleFill = SFSymbol(rawValue: "m.circle.fill")
+    static let mCircleFill = SFSymbol(systemName: "m.circle.fill")
 
     /// 􀂬
-    static let mSquare = SFSymbol(rawValue: "m.square")
+    static let mSquare = SFSymbol(systemName: "m.square")
 
     /// 􀂭
-    static let mSquareFill = SFSymbol(rawValue: "m.square.fill")
+    static let mSquareFill = SFSymbol(systemName: "m.square.fill")
 
     /// 􀏜
-    static let macwindow = SFSymbol(rawValue: "macwindow")
+    static let macwindow = SFSymbol(systemName: "macwindow")
 
     /// 􀊫
-    static let magnifyingglass = SFSymbol(rawValue: "magnifyingglass")
+    static let magnifyingglass = SFSymbol(systemName: "magnifyingglass")
 
     /// 􀒒
-    static let magnifyingglassCircle = SFSymbol(rawValue: "magnifyingglass.circle")
+    static let magnifyingglassCircle = SFSymbol(systemName: "magnifyingglass.circle")
 
     /// 􀒓
-    static let magnifyingglassCircleFill = SFSymbol(rawValue: "magnifyingglass.circle.fill")
+    static let magnifyingglassCircleFill = SFSymbol(systemName: "magnifyingglass.circle.fill")
 
     /// 􀗍
-    static let manatsignCircle = SFSymbol(rawValue: "manatsign.circle")
+    static let manatsignCircle = SFSymbol(systemName: "manatsign.circle")
 
     /// 􀗎
-    static let manatsignCircleFill = SFSymbol(rawValue: "manatsign.circle.fill")
+    static let manatsignCircleFill = SFSymbol(systemName: "manatsign.circle.fill")
 
     /// 􀘍
-    static let manatsignSquare = SFSymbol(rawValue: "manatsign.square")
+    static let manatsignSquare = SFSymbol(systemName: "manatsign.square")
 
     /// 􀘎
-    static let manatsignSquareFill = SFSymbol(rawValue: "manatsign.square.fill")
+    static let manatsignSquareFill = SFSymbol(systemName: "manatsign.square.fill")
 
     /// 􀙊
-    static let map = SFSymbol(rawValue: "map")
+    static let map = SFSymbol(systemName: "map")
 
     /// 􀙋
-    static let mapFill = SFSymbol(rawValue: "map.fill")
+    static let mapFill = SFSymbol(systemName: "map.fill")
 
     /// 􀎪
-    static let mappin = SFSymbol(rawValue: "mappin")
+    static let mappin = SFSymbol(systemName: "mappin")
 
     /// 􀎫
-    static let mappinAndEllipse = SFSymbol(rawValue: "mappin.and.ellipse")
+    static let mappinAndEllipse = SFSymbol(systemName: "mappin.and.ellipse")
 
     /// 􀜇
-    static let mappinCircle = SFSymbol(rawValue: "mappin.circle")
+    static let mappinCircle = SFSymbol(systemName: "mappin.circle")
 
     /// 􀜈
-    static let mappinCircleFill = SFSymbol(rawValue: "mappin.circle.fill")
+    static let mappinCircleFill = SFSymbol(systemName: "mappin.circle.fill")
 
     /// 􀙉
-    static let mappinSlash = SFSymbol(rawValue: "mappin.slash")
+    static let mappinSlash = SFSymbol(systemName: "mappin.slash")
 
     /// 􀑖
-    static let memories = SFSymbol(rawValue: "memories")
+    static let memories = SFSymbol(systemName: "memories")
 
     /// 􀑘
-    static let memoriesBadgeMinus = SFSymbol(rawValue: "memories.badge.minus")
+    static let memoriesBadgeMinus = SFSymbol(systemName: "memories.badge.minus")
 
     /// 􀑗
-    static let memoriesBadgePlus = SFSymbol(rawValue: "memories.badge.plus")
+    static let memoriesBadgePlus = SFSymbol(systemName: "memories.badge.plus")
 
     /// 􀌤
     /// ⚠️ This symbol can refer only to Apple's Messages app.
-    static let message = SFSymbol(rawValue: "message")
+    static let message = SFSymbol(systemName: "message")
 
     /// 􀌦
     /// ⚠️ This symbol can refer only to Apple's Messages app.
-    static let messageCircle = SFSymbol(rawValue: "message.circle")
+    static let messageCircle = SFSymbol(systemName: "message.circle")
 
     /// 􀌧
     /// ⚠️ This symbol can refer only to Apple's Messages app.
-    static let messageCircleFill = SFSymbol(rawValue: "message.circle.fill")
+    static let messageCircleFill = SFSymbol(systemName: "message.circle.fill")
 
     /// 􀌥
     /// ⚠️ This symbol can refer only to Apple's Messages app.
-    static let messageFill = SFSymbol(rawValue: "message.fill")
+    static let messageFill = SFSymbol(systemName: "message.fill")
 
     /// 􀎌
-    static let metronome = SFSymbol(rawValue: "metronome")
+    static let metronome = SFSymbol(systemName: "metronome")
 
     /// 􀊰
-    static let mic = SFSymbol(rawValue: "mic")
+    static let mic = SFSymbol(systemName: "mic")
 
     /// 􀒩
-    static let micCircle = SFSymbol(rawValue: "mic.circle")
+    static let micCircle = SFSymbol(systemName: "mic.circle")
 
     /// 􀒪
-    static let micCircleFill = SFSymbol(rawValue: "mic.circle.fill")
+    static let micCircleFill = SFSymbol(systemName: "mic.circle.fill")
 
     /// 􀊱
-    static let micFill = SFSymbol(rawValue: "mic.fill")
+    static let micFill = SFSymbol(systemName: "mic.fill")
 
     /// 􀊲
-    static let micSlash = SFSymbol(rawValue: "mic.slash")
+    static let micSlash = SFSymbol(systemName: "mic.slash")
 
     /// 􀊳
-    static let micSlashFill = SFSymbol(rawValue: "mic.slash.fill")
+    static let micSlashFill = SFSymbol(systemName: "mic.slash.fill")
 
     /// 􀗉
-    static let millsignCircle = SFSymbol(rawValue: "millsign.circle")
+    static let millsignCircle = SFSymbol(systemName: "millsign.circle")
 
     /// 􀗊
-    static let millsignCircleFill = SFSymbol(rawValue: "millsign.circle.fill")
+    static let millsignCircleFill = SFSymbol(systemName: "millsign.circle.fill")
 
     /// 􀘉
-    static let millsignSquare = SFSymbol(rawValue: "millsign.square")
+    static let millsignSquare = SFSymbol(systemName: "millsign.square")
 
     /// 􀘊
-    static let millsignSquareFill = SFSymbol(rawValue: "millsign.square.fill")
+    static let millsignSquareFill = SFSymbol(systemName: "millsign.square.fill")
 
     /// 􀅽
-    static let minus = SFSymbol(rawValue: "minus")
+    static let minus = SFSymbol(systemName: "minus")
 
     /// 􀁎
-    static let minusCircle = SFSymbol(rawValue: "minus.circle")
+    static let minusCircle = SFSymbol(systemName: "minus.circle")
 
     /// 􀁏
-    static let minusCircleFill = SFSymbol(rawValue: "minus.circle.fill")
+    static let minusCircleFill = SFSymbol(systemName: "minus.circle.fill")
 
     /// 􀊭
-    static let minusMagnifyingglass = SFSymbol(rawValue: "minus.magnifyingglass")
+    static let minusMagnifyingglass = SFSymbol(systemName: "minus.magnifyingglass")
 
     /// 􀏉
-    static let minusRectangle = SFSymbol(rawValue: "minus.rectangle")
+    static let minusRectangle = SFSymbol(systemName: "minus.rectangle")
 
     /// 􀏊
-    static let minusRectangleFill = SFSymbol(rawValue: "minus.rectangle.fill")
+    static let minusRectangleFill = SFSymbol(systemName: "minus.rectangle.fill")
 
     /// 􀅻
-    static let minusSlashPlus = SFSymbol(rawValue: "minus.slash.plus")
+    static let minusSlashPlus = SFSymbol(systemName: "minus.slash.plus")
 
     /// 􀃞
-    static let minusSquare = SFSymbol(rawValue: "minus.square")
+    static let minusSquare = SFSymbol(systemName: "minus.square")
 
     /// 􀃟
-    static let minusSquareFill = SFSymbol(rawValue: "minus.square.fill")
+    static let minusSquareFill = SFSymbol(systemName: "minus.square.fill")
 
     /// 􀆹
-    static let moon = SFSymbol(rawValue: "moon")
+    static let moon = SFSymbol(systemName: "moon")
 
     /// 􀆻
-    static let moonCircle = SFSymbol(rawValue: "moon.circle")
+    static let moonCircle = SFSymbol(systemName: "moon.circle")
 
     /// 􀆼
-    static let moonCircleFill = SFSymbol(rawValue: "moon.circle.fill")
+    static let moonCircleFill = SFSymbol(systemName: "moon.circle.fill")
 
     /// 􀆺
-    static let moonFill = SFSymbol(rawValue: "moon.fill")
+    static let moonFill = SFSymbol(systemName: "moon.fill")
 
     /// 􀇀
-    static let moonStars = SFSymbol(rawValue: "moon.stars")
+    static let moonStars = SFSymbol(systemName: "moon.stars")
 
     /// 􀇁
-    static let moonStarsFill = SFSymbol(rawValue: "moon.stars.fill")
+    static let moonStarsFill = SFSymbol(systemName: "moon.stars.fill")
 
     /// 􀆽
-    static let moonZzz = SFSymbol(rawValue: "moon.zzz")
+    static let moonZzz = SFSymbol(systemName: "moon.zzz")
 
     /// 􀆾
-    static let moonZzzFill = SFSymbol(rawValue: "moon.zzz.fill")
+    static let moonZzzFill = SFSymbol(systemName: "moon.zzz.fill")
 
     /// 􀅾
-    static let multiply = SFSymbol(rawValue: "multiply")
+    static let multiply = SFSymbol(systemName: "multiply")
 
     /// 􀁐
-    static let multiplyCircle = SFSymbol(rawValue: "multiply.circle")
+    static let multiplyCircle = SFSymbol(systemName: "multiply.circle")
 
     /// 􀁑
-    static let multiplyCircleFill = SFSymbol(rawValue: "multiply.circle.fill")
+    static let multiplyCircleFill = SFSymbol(systemName: "multiply.circle.fill")
 
     /// 􀃠
-    static let multiplySquare = SFSymbol(rawValue: "multiply.square")
+    static let multiplySquare = SFSymbol(systemName: "multiply.square")
 
     /// 􀃡
-    static let multiplySquareFill = SFSymbol(rawValue: "multiply.square.fill")
+    static let multiplySquareFill = SFSymbol(systemName: "multiply.square.fill")
 
     /// 􀒼
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouse")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "musicNoteHouse")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouse")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "musicNoteHouse")
-    static let musicHouse = SFSymbol(rawValue: "music.house")
+    static let musicHouse = SFSymbol(systemName: "music.house")
 
     /// 􀒽
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouseFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "musicNoteHouseFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouseFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "musicNoteHouseFill")
-    static let musicHouseFill = SFSymbol(rawValue: "music.house.fill")
+    static let musicHouseFill = SFSymbol(systemName: "music.house.fill")
 
     /// 􀑫
-    static let musicMic = SFSymbol(rawValue: "music.mic")
+    static let musicMic = SFSymbol(systemName: "music.mic")
 
     /// 􀑪
-    static let musicNote = SFSymbol(rawValue: "music.note")
+    static let musicNote = SFSymbol(systemName: "music.note")
 
     /// 􀑬
-    static let musicNoteList = SFSymbol(rawValue: "music.note.list")
+    static let musicNoteList = SFSymbol(systemName: "music.note.list")
 
     /// 􀀞
-    static let nCircle = SFSymbol(rawValue: "n.circle")
+    static let nCircle = SFSymbol(systemName: "n.circle")
 
     /// 􀀟
-    static let nCircleFill = SFSymbol(rawValue: "n.circle.fill")
+    static let nCircleFill = SFSymbol(systemName: "n.circle.fill")
 
     /// 􀂮
-    static let nSquare = SFSymbol(rawValue: "n.square")
+    static let nSquare = SFSymbol(systemName: "n.square")
 
     /// 􀂯
-    static let nSquareFill = SFSymbol(rawValue: "n.square.fill")
+    static let nSquareFill = SFSymbol(systemName: "n.square.fill")
 
     /// 􀖽
-    static let nairasignCircle = SFSymbol(rawValue: "nairasign.circle")
+    static let nairasignCircle = SFSymbol(systemName: "nairasign.circle")
 
     /// 􀖾
-    static let nairasignCircleFill = SFSymbol(rawValue: "nairasign.circle.fill")
+    static let nairasignCircleFill = SFSymbol(systemName: "nairasign.circle.fill")
 
     /// 􀗽
-    static let nairasignSquare = SFSymbol(rawValue: "nairasign.square")
+    static let nairasignSquare = SFSymbol(systemName: "nairasign.square")
 
     /// 􀗾
-    static let nairasignSquareFill = SFSymbol(rawValue: "nairasign.square.fill")
+    static let nairasignSquareFill = SFSymbol(systemName: "nairasign.square.fill")
 
     /// 􀍼
-    static let nosign = SFSymbol(rawValue: "nosign")
+    static let nosign = SFSymbol(systemName: "nosign")
 
     /// 􀆃
-    static let number = SFSymbol(rawValue: "number")
+    static let number = SFSymbol(systemName: "number")
 
     /// 􀁚
-    static let numberCircle = SFSymbol(rawValue: "number.circle")
+    static let numberCircle = SFSymbol(systemName: "number.circle")
 
     /// 􀁛
-    static let numberCircleFill = SFSymbol(rawValue: "number.circle.fill")
+    static let numberCircleFill = SFSymbol(systemName: "number.circle.fill")
 
     /// 􀃪
-    static let numberSquare = SFSymbol(rawValue: "number.square")
+    static let numberSquare = SFSymbol(systemName: "number.square")
 
     /// 􀃫
-    static let numberSquareFill = SFSymbol(rawValue: "number.square.fill")
+    static let numberSquareFill = SFSymbol(systemName: "number.square.fill")
 
     /// 􀀠
-    static let oCircle = SFSymbol(rawValue: "o.circle")
+    static let oCircle = SFSymbol(systemName: "o.circle")
 
     /// 􀀡
-    static let oCircleFill = SFSymbol(rawValue: "o.circle.fill")
+    static let oCircleFill = SFSymbol(systemName: "o.circle.fill")
 
     /// 􀂰
-    static let oSquare = SFSymbol(rawValue: "o.square")
+    static let oSquare = SFSymbol(systemName: "o.square")
 
     /// 􀂱
-    static let oSquareFill = SFSymbol(rawValue: "o.square.fill")
+    static let oSquareFill = SFSymbol(systemName: "o.square.fill")
 
     /// 􀆕
-    static let option = SFSymbol(rawValue: "option")
+    static let option = SFSymbol(systemName: "option")
 
     /// 􀀢
-    static let pCircle = SFSymbol(rawValue: "p.circle")
+    static let pCircle = SFSymbol(systemName: "p.circle")
 
     /// 􀀣
-    static let pCircleFill = SFSymbol(rawValue: "p.circle.fill")
+    static let pCircleFill = SFSymbol(systemName: "p.circle.fill")
 
     /// 􀂲
-    static let pSquare = SFSymbol(rawValue: "p.square")
+    static let pSquare = SFSymbol(systemName: "p.square")
 
     /// 􀂳
-    static let pSquareFill = SFSymbol(rawValue: "p.square.fill")
+    static let pSquareFill = SFSymbol(systemName: "p.square.fill")
 
     /// 􀎑
-    static let paintbrush = SFSymbol(rawValue: "paintbrush")
+    static let paintbrush = SFSymbol(systemName: "paintbrush")
 
     /// 􀎒
-    static let paintbrushFill = SFSymbol(rawValue: "paintbrush.fill")
+    static let paintbrushFill = SFSymbol(systemName: "paintbrush.fill")
 
     /// 􀐏
-    static let pano = SFSymbol(rawValue: "pano")
+    static let pano = SFSymbol(systemName: "pano")
 
     /// 􀐐
-    static let panoFill = SFSymbol(rawValue: "pano.fill")
+    static let panoFill = SFSymbol(systemName: "pano.fill")
 
     /// 􀉢
-    static let paperclip = SFSymbol(rawValue: "paperclip")
+    static let paperclip = SFSymbol(systemName: "paperclip")
 
     /// 􀒔
-    static let paperclipCircle = SFSymbol(rawValue: "paperclip.circle")
+    static let paperclipCircle = SFSymbol(systemName: "paperclip.circle")
 
     /// 􀒕
-    static let paperclipCircleFill = SFSymbol(rawValue: "paperclip.circle.fill")
+    static let paperclipCircleFill = SFSymbol(systemName: "paperclip.circle.fill")
 
     /// 􀈟
-    static let paperplane = SFSymbol(rawValue: "paperplane")
+    static let paperplane = SFSymbol(systemName: "paperplane")
 
     /// 􀈠
-    static let paperplaneFill = SFSymbol(rawValue: "paperplane.fill")
+    static let paperplaneFill = SFSymbol(systemName: "paperplane.fill")
 
     /// 􀒆
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "paragraphsign")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "paragraphsign")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "paragraphsign")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "paragraphsign")
-    static let paragraph = SFSymbol(rawValue: "paragraph")
+    static let paragraph = SFSymbol(systemName: "paragraph")
 
     /// 􀊅
-    static let pause = SFSymbol(rawValue: "pause")
+    static let pause = SFSymbol(systemName: "pause")
 
     /// 􀊗
-    static let pauseCircle = SFSymbol(rawValue: "pause.circle")
+    static let pauseCircle = SFSymbol(systemName: "pause.circle")
 
     /// 􀊘
-    static let pauseCircleFill = SFSymbol(rawValue: "pause.circle.fill")
+    static let pauseCircleFill = SFSymbol(systemName: "pause.circle.fill")
 
     /// 􀊆
-    static let pauseFill = SFSymbol(rawValue: "pause.fill")
+    static let pauseFill = SFSymbol(systemName: "pause.fill")
 
     /// 􀊛
-    static let pauseRectangle = SFSymbol(rawValue: "pause.rectangle")
+    static let pauseRectangle = SFSymbol(systemName: "pause.rectangle")
 
     /// 􀊜
-    static let pauseRectangleFill = SFSymbol(rawValue: "pause.rectangle.fill")
+    static let pauseRectangleFill = SFSymbol(systemName: "pause.rectangle.fill")
 
     /// 􀈊
-    static let pencil = SFSymbol(rawValue: "pencil")
+    static let pencil = SFSymbol(systemName: "pencil")
 
     /// 􀈏
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "rectangleAndPencilAndEllipsis")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "rectangleAndPencilAndEllipsis")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "rectangleAndPencilAndEllipsis")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "rectangleAndPencilAndEllipsis")
-    static let pencilAndEllipsisRectangle = SFSymbol(rawValue: "pencil.and.ellipsis.rectangle")
+    static let pencilAndEllipsisRectangle = SFSymbol(systemName: "pencil.and.ellipsis.rectangle")
 
     /// 􀈐
-    static let pencilAndOutline = SFSymbol(rawValue: "pencil.and.outline")
+    static let pencilAndOutline = SFSymbol(systemName: "pencil.and.outline")
 
     /// 􀈋
-    static let pencilCircle = SFSymbol(rawValue: "pencil.circle")
+    static let pencilCircle = SFSymbol(systemName: "pencil.circle")
 
     /// 􀈌
-    static let pencilCircleFill = SFSymbol(rawValue: "pencil.circle.fill")
+    static let pencilCircleFill = SFSymbol(systemName: "pencil.circle.fill")
 
     /// 􀈍
-    static let pencilSlash = SFSymbol(rawValue: "pencil.slash")
+    static let pencilSlash = SFSymbol(systemName: "pencil.slash")
 
     /// 􀒋
     /// ⚠️ This symbol can refer only to Apple's Markup feature.
-    static let pencilTip = SFSymbol(rawValue: "pencil.tip")
+    static let pencilTip = SFSymbol(systemName: "pencil.tip")
 
     /// 􀉥
     /// ⚠️ This symbol can refer only to Apple's Markup feature.
-    static let pencilTipCropCircle = SFSymbol(rawValue: "pencil.tip.crop.circle")
+    static let pencilTipCropCircle = SFSymbol(systemName: "pencil.tip.crop.circle")
 
     /// 􀉧
     /// ⚠️ This symbol can refer only to Apple's Markup feature.
-    static let pencilTipCropCircleBadgeMinus = SFSymbol(rawValue: "pencil.tip.crop.circle.badge.minus")
+    static let pencilTipCropCircleBadgeMinus = SFSymbol(systemName: "pencil.tip.crop.circle.badge.minus")
 
     /// 􀉦
     /// ⚠️ This symbol can refer only to Apple's Markup feature.
-    static let pencilTipCropCircleBadgePlus = SFSymbol(rawValue: "pencil.tip.crop.circle.badge.plus")
+    static let pencilTipCropCircleBadgePlus = SFSymbol(systemName: "pencil.tip.crop.circle.badge.plus")
 
     /// 􀘾
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
-    static let percent = SFSymbol(rawValue: "percent")
+    static let percent = SFSymbol(systemName: "percent")
 
     /// 􀉩
-    static let person = SFSymbol(rawValue: "person")
+    static let person = SFSymbol(systemName: "person")
 
     /// 􀉫
-    static let person2 = SFSymbol(rawValue: "person.2")
+    static let person2 = SFSymbol(systemName: "person.2")
 
     /// 􀉬
-    static let person2Fill = SFSymbol(rawValue: "person.2.fill")
+    static let person2Fill = SFSymbol(systemName: "person.2.fill")
 
     /// 􀓥
-    static let person2SquareStack = SFSymbol(rawValue: "person.2.square.stack")
+    static let person2SquareStack = SFSymbol(systemName: "person.2.square.stack")
 
     /// 􀓦
-    static let person2SquareStackFill = SFSymbol(rawValue: "person.2.square.stack.fill")
+    static let person2SquareStackFill = SFSymbol(systemName: "person.2.square.stack.fill")
 
     /// 􀝊
-    static let person3 = SFSymbol(rawValue: "person.3")
+    static let person3 = SFSymbol(systemName: "person.3")
 
     /// 􀝋
-    static let person3Fill = SFSymbol(rawValue: "person.3.fill")
+    static let person3Fill = SFSymbol(systemName: "person.3.fill")
 
     /// 􀜗
-    static let personBadgeMinus = SFSymbol(rawValue: "person.badge.minus")
+    static let personBadgeMinus = SFSymbol(systemName: "person.badge.minus")
 
     /// 􀜘
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "personFillBadgeMinus")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "personFillBadgeMinus")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "personFillBadgeMinus")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personFillBadgeMinus")
-    static let personBadgeMinusFill = SFSymbol(rawValue: "person.badge.minus.fill")
+    static let personBadgeMinusFill = SFSymbol(systemName: "person.badge.minus.fill")
 
     /// 􀜕
-    static let personBadgePlus = SFSymbol(rawValue: "person.badge.plus")
+    static let personBadgePlus = SFSymbol(systemName: "person.badge.plus")
 
     /// 􀜖
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "personFillBadgePlus")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "personFillBadgePlus")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "personFillBadgePlus")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personFillBadgePlus")
-    static let personBadgePlusFill = SFSymbol(rawValue: "person.badge.plus.fill")
+    static let personBadgePlusFill = SFSymbol(systemName: "person.badge.plus.fill")
 
     /// 􀓣
-    static let personCircle = SFSymbol(rawValue: "person.circle")
+    static let personCircle = SFSymbol(systemName: "person.circle")
 
     /// 􀓤
-    static let personCircleFill = SFSymbol(rawValue: "person.circle.fill")
+    static let personCircleFill = SFSymbol(systemName: "person.circle.fill")
 
     /// 􀉭
-    static let personCropCircle = SFSymbol(rawValue: "person.crop.circle")
+    static let personCropCircle = SFSymbol(systemName: "person.crop.circle")
 
     /// 􀉳
-    static let personCropCircleBadgeCheckmark = SFSymbol(rawValue: "person.crop.circle.badge.checkmark")
+    static let personCropCircleBadgeCheckmark = SFSymbol(systemName: "person.crop.circle.badge.checkmark")
 
     /// 􀉷
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "personCropCircleBadgeExclamationmark")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "personCropCircleBadgeExclamationmark")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "personCropCircleBadgeExclamationmark")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personCropCircleBadgeExclamationmark")
-    static let personCropCircleBadgeExclam = SFSymbol(rawValue: "person.crop.circle.badge.exclam")
+    static let personCropCircleBadgeExclam = SFSymbol(systemName: "person.crop.circle.badge.exclam")
 
     /// 􀉱
-    static let personCropCircleBadgeMinus = SFSymbol(rawValue: "person.crop.circle.badge.minus")
+    static let personCropCircleBadgeMinus = SFSymbol(systemName: "person.crop.circle.badge.minus")
 
     /// 􀉯
-    static let personCropCircleBadgePlus = SFSymbol(rawValue: "person.crop.circle.badge.plus")
+    static let personCropCircleBadgePlus = SFSymbol(systemName: "person.crop.circle.badge.plus")
 
     /// 􀉵
-    static let personCropCircleBadgeXmark = SFSymbol(rawValue: "person.crop.circle.badge.xmark")
+    static let personCropCircleBadgeXmark = SFSymbol(systemName: "person.crop.circle.badge.xmark")
 
     /// 􀉮
-    static let personCropCircleFill = SFSymbol(rawValue: "person.crop.circle.fill")
+    static let personCropCircleFill = SFSymbol(systemName: "person.crop.circle.fill")
 
     /// 􀉴
-    static let personCropCircleFillBadgeCheckmark = SFSymbol(rawValue: "person.crop.circle.fill.badge.checkmark")
+    static let personCropCircleFillBadgeCheckmark = SFSymbol(systemName: "person.crop.circle.fill.badge.checkmark")
 
     /// 􀉸
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "personCropCircleFillBadgeExclamationmark")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "personCropCircleFillBadgeExclamationmark")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "personCropCircleFillBadgeExclamationmark")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personCropCircleFillBadgeExclamationmark")
-    static let personCropCircleFillBadgeExclam = SFSymbol(rawValue: "person.crop.circle.fill.badge.exclam")
+    static let personCropCircleFillBadgeExclam = SFSymbol(systemName: "person.crop.circle.fill.badge.exclam")
 
     /// 􀉲
-    static let personCropCircleFillBadgeMinus = SFSymbol(rawValue: "person.crop.circle.fill.badge.minus")
+    static let personCropCircleFillBadgeMinus = SFSymbol(systemName: "person.crop.circle.fill.badge.minus")
 
     /// 􀉰
-    static let personCropCircleFillBadgePlus = SFSymbol(rawValue: "person.crop.circle.fill.badge.plus")
+    static let personCropCircleFillBadgePlus = SFSymbol(systemName: "person.crop.circle.fill.badge.plus")
 
     /// 􀉶
-    static let personCropCircleFillBadgeXmark = SFSymbol(rawValue: "person.crop.circle.fill.badge.xmark")
+    static let personCropCircleFillBadgeXmark = SFSymbol(systemName: "person.crop.circle.fill.badge.xmark")
 
     /// 􀏏
-    static let personCropRectangle = SFSymbol(rawValue: "person.crop.rectangle")
+    static let personCropRectangle = SFSymbol(systemName: "person.crop.rectangle")
 
     /// 􀏐
-    static let personCropRectangleFill = SFSymbol(rawValue: "person.crop.rectangle.fill")
+    static let personCropRectangleFill = SFSymbol(systemName: "person.crop.rectangle.fill")
 
     /// 􀉹
-    static let personCropSquare = SFSymbol(rawValue: "person.crop.square")
+    static let personCropSquare = SFSymbol(systemName: "person.crop.square")
 
     /// 􀉺
-    static let personCropSquareFill = SFSymbol(rawValue: "person.crop.square.fill")
+    static let personCropSquareFill = SFSymbol(systemName: "person.crop.square.fill")
 
     /// 􀉪
-    static let personFill = SFSymbol(rawValue: "person.fill")
+    static let personFill = SFSymbol(systemName: "person.fill")
 
     /// 􀙳
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let personIcloud = SFSymbol(rawValue: "person.icloud")
+    static let personIcloud = SFSymbol(systemName: "person.icloud")
 
     /// 􀙴
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let personIcloudFill = SFSymbol(rawValue: "person.icloud.fill")
+    static let personIcloudFill = SFSymbol(systemName: "person.icloud.fill")
 
     /// 􀉤
-    static let personalhotspot = SFSymbol(rawValue: "personalhotspot")
+    static let personalhotspot = SFSymbol(systemName: "personalhotspot")
 
     /// 􀒱
-    static let perspective = SFSymbol(rawValue: "perspective")
+    static let perspective = SFSymbol(systemName: "perspective")
 
     /// 􀖯
-    static let pesetasignCircle = SFSymbol(rawValue: "pesetasign.circle")
+    static let pesetasignCircle = SFSymbol(systemName: "pesetasign.circle")
 
     /// 􀖰
-    static let pesetasignCircleFill = SFSymbol(rawValue: "pesetasign.circle.fill")
+    static let pesetasignCircleFill = SFSymbol(systemName: "pesetasign.circle.fill")
 
     /// 􀗯
-    static let pesetasignSquare = SFSymbol(rawValue: "pesetasign.square")
+    static let pesetasignSquare = SFSymbol(systemName: "pesetasign.square")
 
     /// 􀗰
-    static let pesetasignSquareFill = SFSymbol(rawValue: "pesetasign.square.fill")
+    static let pesetasignSquareFill = SFSymbol(systemName: "pesetasign.square.fill")
 
     /// 􀖱
-    static let pesosignCircle = SFSymbol(rawValue: "pesosign.circle")
+    static let pesosignCircle = SFSymbol(systemName: "pesosign.circle")
 
     /// 􀖲
-    static let pesosignCircleFill = SFSymbol(rawValue: "pesosign.circle.fill")
+    static let pesosignCircleFill = SFSymbol(systemName: "pesosign.circle.fill")
 
     /// 􀗱
-    static let pesosignSquare = SFSymbol(rawValue: "pesosign.square")
+    static let pesosignSquare = SFSymbol(systemName: "pesosign.square")
 
     /// 􀗲
-    static let pesosignSquareFill = SFSymbol(rawValue: "pesosign.square.fill")
+    static let pesosignSquareFill = SFSymbol(systemName: "pesosign.square.fill")
 
     /// 􀌾
-    static let phone = SFSymbol(rawValue: "phone")
+    static let phone = SFSymbol(systemName: "phone")
 
     /// 􀍂
-    static let phoneArrowDownLeft = SFSymbol(rawValue: "phone.arrow.down.left")
+    static let phoneArrowDownLeft = SFSymbol(systemName: "phone.arrow.down.left")
 
     /// 􀍄
-    static let phoneArrowRight = SFSymbol(rawValue: "phone.arrow.right")
+    static let phoneArrowRight = SFSymbol(systemName: "phone.arrow.right")
 
     /// 􀍀
-    static let phoneArrowUpRight = SFSymbol(rawValue: "phone.arrow.up.right")
+    static let phoneArrowUpRight = SFSymbol(systemName: "phone.arrow.up.right")
 
     /// 􀖎
-    static let phoneBadgePlus = SFSymbol(rawValue: "phone.badge.plus")
+    static let phoneBadgePlus = SFSymbol(systemName: "phone.badge.plus")
 
     /// 􀒥
-    static let phoneCircle = SFSymbol(rawValue: "phone.circle")
+    static let phoneCircle = SFSymbol(systemName: "phone.circle")
 
     /// 􀒦
-    static let phoneCircleFill = SFSymbol(rawValue: "phone.circle.fill")
+    static let phoneCircleFill = SFSymbol(systemName: "phone.circle.fill")
 
     /// 􀍆
-    static let phoneDown = SFSymbol(rawValue: "phone.down")
+    static let phoneDown = SFSymbol(systemName: "phone.down")
 
     /// 􀒧
-    static let phoneDownCircle = SFSymbol(rawValue: "phone.down.circle")
+    static let phoneDownCircle = SFSymbol(systemName: "phone.down.circle")
 
     /// 􀒨
-    static let phoneDownCircleFill = SFSymbol(rawValue: "phone.down.circle.fill")
+    static let phoneDownCircleFill = SFSymbol(systemName: "phone.down.circle.fill")
 
     /// 􀍇
-    static let phoneDownFill = SFSymbol(rawValue: "phone.down.fill")
+    static let phoneDownFill = SFSymbol(systemName: "phone.down.fill")
 
     /// 􀌿
-    static let phoneFill = SFSymbol(rawValue: "phone.fill")
+    static let phoneFill = SFSymbol(systemName: "phone.fill")
 
     /// 􀍃
-    static let phoneFillArrowDownLeft = SFSymbol(rawValue: "phone.fill.arrow.down.left")
+    static let phoneFillArrowDownLeft = SFSymbol(systemName: "phone.fill.arrow.down.left")
 
     /// 􀍅
-    static let phoneFillArrowRight = SFSymbol(rawValue: "phone.fill.arrow.right")
+    static let phoneFillArrowRight = SFSymbol(systemName: "phone.fill.arrow.right")
 
     /// 􀍁
-    static let phoneFillArrowUpRight = SFSymbol(rawValue: "phone.fill.arrow.up.right")
+    static let phoneFillArrowUpRight = SFSymbol(systemName: "phone.fill.arrow.up.right")
 
     /// 􀖏
-    static let phoneFillBadgePlus = SFSymbol(rawValue: "phone.fill.badge.plus")
+    static let phoneFillBadgePlus = SFSymbol(systemName: "phone.fill.badge.plus")
 
     /// 􀏅
-    static let photo = SFSymbol(rawValue: "photo")
+    static let photo = SFSymbol(systemName: "photo")
 
     /// 􀏆
-    static let photoFill = SFSymbol(rawValue: "photo.fill")
+    static let photoFill = SFSymbol(systemName: "photo.fill")
 
     /// 􀏬
-    static let photoFillOnRectangleFill = SFSymbol(rawValue: "photo.fill.on.rectangle.fill")
+    static let photoFillOnRectangleFill = SFSymbol(systemName: "photo.fill.on.rectangle.fill")
 
     /// 􀏫
-    static let photoOnRectangle = SFSymbol(rawValue: "photo.on.rectangle")
+    static let photoOnRectangle = SFSymbol(systemName: "photo.on.rectangle")
 
     /// 􀎦
-    static let pin = SFSymbol(rawValue: "pin")
+    static let pin = SFSymbol(systemName: "pin")
 
     /// 􀒴
-    static let pinCircle = SFSymbol(rawValue: "pin.circle")
+    static let pinCircle = SFSymbol(systemName: "pin.circle")
 
     /// 􀒵
-    static let pinCircleFill = SFSymbol(rawValue: "pin.circle.fill")
+    static let pinCircleFill = SFSymbol(systemName: "pin.circle.fill")
 
     /// 􀎧
-    static let pinFill = SFSymbol(rawValue: "pin.fill")
+    static let pinFill = SFSymbol(systemName: "pin.fill")
 
     /// 􀎨
-    static let pinSlash = SFSymbol(rawValue: "pin.slash")
+    static let pinSlash = SFSymbol(systemName: "pin.slash")
 
     /// 􀎩
-    static let pinSlashFill = SFSymbol(rawValue: "pin.slash.fill")
+    static let pinSlashFill = SFSymbol(systemName: "pin.slash.fill")
 
     /// 􀊃
-    static let play = SFSymbol(rawValue: "play")
+    static let play = SFSymbol(systemName: "play")
 
     /// 􀊕
-    static let playCircle = SFSymbol(rawValue: "play.circle")
+    static let playCircle = SFSymbol(systemName: "play.circle")
 
     /// 􀊖
-    static let playCircleFill = SFSymbol(rawValue: "play.circle.fill")
+    static let playCircleFill = SFSymbol(systemName: "play.circle.fill")
 
     /// 􀊄
-    static let playFill = SFSymbol(rawValue: "play.fill")
+    static let playFill = SFSymbol(systemName: "play.fill")
 
     /// 􀊙
-    static let playRectangle = SFSymbol(rawValue: "play.rectangle")
+    static let playRectangle = SFSymbol(systemName: "play.rectangle")
 
     /// 􀊚
-    static let playRectangleFill = SFSymbol(rawValue: "play.rectangle.fill")
+    static let playRectangleFill = SFSymbol(systemName: "play.rectangle.fill")
 
     /// 􀊇
-    static let playpause = SFSymbol(rawValue: "playpause")
+    static let playpause = SFSymbol(systemName: "playpause")
 
     /// 􀊈
-    static let playpauseFill = SFSymbol(rawValue: "playpause.fill")
+    static let playpauseFill = SFSymbol(systemName: "playpause.fill")
 
     /// 􀅼
-    static let plus = SFSymbol(rawValue: "plus")
+    static let plus = SFSymbol(systemName: "plus")
 
     /// 􀑍
-    static let plusApp = SFSymbol(rawValue: "plus.app")
+    static let plusApp = SFSymbol(systemName: "plus.app")
 
     /// 􀑎
-    static let plusAppFill = SFSymbol(rawValue: "plus.app.fill")
+    static let plusAppFill = SFSymbol(systemName: "plus.app.fill")
 
     /// 􀌶
-    static let plusBubble = SFSymbol(rawValue: "plus.bubble")
+    static let plusBubble = SFSymbol(systemName: "plus.bubble")
 
     /// 􀌷
-    static let plusBubbleFill = SFSymbol(rawValue: "plus.bubble.fill")
+    static let plusBubbleFill = SFSymbol(systemName: "plus.bubble.fill")
 
     /// 􀁌
-    static let plusCircle = SFSymbol(rawValue: "plus.circle")
+    static let plusCircle = SFSymbol(systemName: "plus.circle")
 
     /// 􀁍
-    static let plusCircleFill = SFSymbol(rawValue: "plus.circle.fill")
+    static let plusCircleFill = SFSymbol(systemName: "plus.circle.fill")
 
     /// 􀊬
-    static let plusMagnifyingglass = SFSymbol(rawValue: "plus.magnifyingglass")
+    static let plusMagnifyingglass = SFSymbol(systemName: "plus.magnifyingglass")
 
     /// 􀏇
-    static let plusRectangle = SFSymbol(rawValue: "plus.rectangle")
+    static let plusRectangle = SFSymbol(systemName: "plus.rectangle")
 
     /// 􀏈
-    static let plusRectangleFill = SFSymbol(rawValue: "plus.rectangle.fill")
+    static let plusRectangleFill = SFSymbol(systemName: "plus.rectangle.fill")
 
     /// 􀏪
-    static let plusRectangleFillOnRectangleFill = SFSymbol(rawValue: "plus.rectangle.fill.on.rectangle.fill")
+    static let plusRectangleFillOnRectangleFill = SFSymbol(systemName: "plus.rectangle.fill.on.rectangle.fill")
 
     /// 􀏩
-    static let plusRectangleOnRectangle = SFSymbol(rawValue: "plus.rectangle.on.rectangle")
+    static let plusRectangleOnRectangle = SFSymbol(systemName: "plus.rectangle.on.rectangle")
 
     /// 􀅺
-    static let plusSlashMinus = SFSymbol(rawValue: "plus.slash.minus")
+    static let plusSlashMinus = SFSymbol(systemName: "plus.slash.minus")
 
     /// 􀃜
-    static let plusSquare = SFSymbol(rawValue: "plus.square")
+    static let plusSquare = SFSymbol(systemName: "plus.square")
 
     /// 􀃝
-    static let plusSquareFill = SFSymbol(rawValue: "plus.square.fill")
+    static let plusSquareFill = SFSymbol(systemName: "plus.square.fill")
 
     /// 􀐈
-    static let plusSquareFillOnSquareFill = SFSymbol(rawValue: "plus.square.fill.on.square.fill")
+    static let plusSquareFillOnSquareFill = SFSymbol(systemName: "plus.square.fill.on.square.fill")
 
     /// 􀐇
-    static let plusSquareOnSquare = SFSymbol(rawValue: "plus.square.on.square")
+    static let plusSquareOnSquare = SFSymbol(systemName: "plus.square.on.square")
 
     /// 􀛺
-    static let plusminus = SFSymbol(rawValue: "plusminus")
+    static let plusminus = SFSymbol(systemName: "plusminus")
 
     /// 􀍶
-    static let plusminusCircle = SFSymbol(rawValue: "plusminus.circle")
+    static let plusminusCircle = SFSymbol(systemName: "plusminus.circle")
 
     /// 􀘝
-    static let plusminusCircleFill = SFSymbol(rawValue: "plusminus.circle.fill")
+    static let plusminusCircleFill = SFSymbol(systemName: "plusminus.circle.fill")
 
     /// 􀆨
-    static let power = SFSymbol(rawValue: "power")
+    static let power = SFSymbol(systemName: "power")
 
     /// 􀎚
-    static let printer = SFSymbol(rawValue: "printer")
+    static let printer = SFSymbol(systemName: "printer")
 
     /// 􀎛
-    static let printerFill = SFSymbol(rawValue: "printer.fill")
+    static let printerFill = SFSymbol(systemName: "printer.fill")
 
     /// 􀆎
-    static let projective = SFSymbol(rawValue: "projective")
+    static let projective = SFSymbol(systemName: "projective")
 
     /// 􀚐
-    static let purchased = SFSymbol(rawValue: "purchased")
+    static let purchased = SFSymbol(systemName: "purchased")
 
     /// 􀚑
-    static let purchasedCircle = SFSymbol(rawValue: "purchased.circle")
+    static let purchasedCircle = SFSymbol(systemName: "purchased.circle")
 
     /// 􀚒
-    static let purchasedCircleFill = SFSymbol(rawValue: "purchased.circle.fill")
+    static let purchasedCircleFill = SFSymbol(systemName: "purchased.circle.fill")
 
     /// 􀀤
-    static let qCircle = SFSymbol(rawValue: "q.circle")
+    static let qCircle = SFSymbol(systemName: "q.circle")
 
     /// 􀀥
-    static let qCircleFill = SFSymbol(rawValue: "q.circle.fill")
+    static let qCircleFill = SFSymbol(systemName: "q.circle.fill")
 
     /// 􀂴
-    static let qSquare = SFSymbol(rawValue: "q.square")
+    static let qSquare = SFSymbol(systemName: "q.square")
 
     /// 􀂵
-    static let qSquareFill = SFSymbol(rawValue: "q.square.fill")
+    static let qSquareFill = SFSymbol(systemName: "q.square.fill")
 
     /// 􀖂
-    static let qrcode = SFSymbol(rawValue: "qrcode")
+    static let qrcode = SFSymbol(systemName: "qrcode")
 
     /// 􀎻
-    static let qrcodeViewfinder = SFSymbol(rawValue: "qrcode.viewfinder")
+    static let qrcodeViewfinder = SFSymbol(systemName: "qrcode.viewfinder")
 
     /// 􀅍
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
-    static let questionmark = SFSymbol(rawValue: "questionmark")
+    static let questionmark = SFSymbol(systemName: "questionmark")
 
     /// 􀁜
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
-    static let questionmarkCircle = SFSymbol(rawValue: "questionmark.circle")
+    static let questionmarkCircle = SFSymbol(systemName: "questionmark.circle")
 
     /// 􀁝
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
-    static let questionmarkCircleFill = SFSymbol(rawValue: "questionmark.circle.fill")
+    static let questionmarkCircleFill = SFSymbol(systemName: "questionmark.circle.fill")
 
     /// 􀄢
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
-    static let questionmarkDiamond = SFSymbol(rawValue: "questionmark.diamond")
+    static let questionmarkDiamond = SFSymbol(systemName: "questionmark.diamond")
 
     /// 􀄣
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
-    static let questionmarkDiamondFill = SFSymbol(rawValue: "questionmark.diamond.fill")
+    static let questionmarkDiamondFill = SFSymbol(systemName: "questionmark.diamond.fill")
 
     /// 􀃬
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
-    static let questionmarkSquare = SFSymbol(rawValue: "questionmark.square")
+    static let questionmarkSquare = SFSymbol(systemName: "questionmark.square")
 
     /// 􀃭
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
-    static let questionmarkSquareFill = SFSymbol(rawValue: "questionmark.square.fill")
+    static let questionmarkSquareFill = SFSymbol(systemName: "questionmark.square.fill")
 
     /// 􀍓
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
-    static let questionmarkVideo = SFSymbol(rawValue: "questionmark.video")
+    static let questionmarkVideo = SFSymbol(systemName: "questionmark.video")
 
     /// 􀍔
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
-    static let questionmarkVideoFill = SFSymbol(rawValue: "questionmark.video.fill")
+    static let questionmarkVideoFill = SFSymbol(systemName: "questionmark.video.fill")
 
     /// 􀌮
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
-    static let quoteBubble = SFSymbol(rawValue: "quote.bubble")
+    static let quoteBubble = SFSymbol(systemName: "quote.bubble")
 
     /// 􀌯
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
-    static let quoteBubbleFill = SFSymbol(rawValue: "quote.bubble.fill")
+    static let quoteBubbleFill = SFSymbol(systemName: "quote.bubble.fill")
 
     /// 􀀦
-    static let rCircle = SFSymbol(rawValue: "r.circle")
+    static let rCircle = SFSymbol(systemName: "r.circle")
 
     /// 􀀧
-    static let rCircleFill = SFSymbol(rawValue: "r.circle.fill")
+    static let rCircleFill = SFSymbol(systemName: "r.circle.fill")
 
     /// 􀂶
-    static let rSquare = SFSymbol(rawValue: "r.square")
+    static let rSquare = SFSymbol(systemName: "r.square")
 
     /// 􀂷
-    static let rSquareFill = SFSymbol(rawValue: "r.square.fill")
+    static let rSquareFill = SFSymbol(systemName: "r.square.fill")
 
     /// 􀙱
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Left")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "wave3Left")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Left")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "wave3Left")
-    static let radiowavesLeft = SFSymbol(rawValue: "radiowaves.left")
+    static let radiowavesLeft = SFSymbol(systemName: "radiowaves.left")
 
     /// 􀙲
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Right")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "wave3Right")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Right")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "wave3Right")
-    static let radiowavesRight = SFSymbol(rawValue: "radiowaves.right")
+    static let radiowavesRight = SFSymbol(systemName: "radiowaves.right")
 
     /// 􀇯
-    static let rays = SFSymbol(rawValue: "rays")
+    static let rays = SFSymbol(systemName: "rays")
 
     /// 􀕼
-    static let recordingtape = SFSymbol(rawValue: "recordingtape")
+    static let recordingtape = SFSymbol(systemName: "recordingtape")
 
     /// 􀏃
-    static let rectangle = SFSymbol(rawValue: "rectangle")
+    static let rectangle = SFSymbol(systemName: "rectangle")
 
     /// 􀇴
-    static let rectangle3Offgrid = SFSymbol(rawValue: "rectangle.3.offgrid")
+    static let rectangle3Offgrid = SFSymbol(systemName: "rectangle.3.offgrid")
 
     /// 􀚅
-    static let rectangle3OffgridFill = SFSymbol(rawValue: "rectangle.3.offgrid.fill")
+    static let rectangle3OffgridFill = SFSymbol(systemName: "rectangle.3.offgrid.fill")
 
     /// 􀙮
-    static let rectangleAndArrowUpRightAndArrowDownLeft = SFSymbol(rawValue: "rectangle.and.arrow.up.right.and.arrow.down.left")
+    static let rectangleAndArrowUpRightAndArrowDownLeft = SFSymbol(systemName: "rectangle.and.arrow.up.right.and.arrow.down.left")
 
     /// 􀙯
-    static let rectangleAndArrowUpRightAndArrowDownLeftSlash = SFSymbol(rawValue: "rectangle.and.arrow.up.right.and.arrow.down.left.slash")
+    static let rectangleAndArrowUpRightAndArrowDownLeftSlash = SFSymbol(systemName: "rectangle.and.arrow.up.right.and.arrow.down.left.slash")
 
     /// 􀒖
-    static let rectangleAndPaperclip = SFSymbol(rawValue: "rectangle.and.paperclip")
+    static let rectangleAndPaperclip = SFSymbol(systemName: "rectangle.and.paperclip")
 
     /// 􀏕
-    static let rectangleBadgeCheckmark = SFSymbol(rawValue: "rectangle.badge.checkmark")
+    static let rectangleBadgeCheckmark = SFSymbol(systemName: "rectangle.badge.checkmark")
 
     /// 􀏗
-    static let rectangleBadgeXmark = SFSymbol(rawValue: "rectangle.badge.xmark")
+    static let rectangleBadgeXmark = SFSymbol(systemName: "rectangle.badge.xmark")
 
     /// 􀐷
-    static let rectangleCompressVertical = SFSymbol(rawValue: "rectangle.compress.vertical")
+    static let rectangleCompressVertical = SFSymbol(systemName: "rectangle.compress.vertical")
 
     /// 􀏞
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "dockRectangle")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "dockRectangle")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "dockRectangle")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "dockRectangle")
-    static let rectangleDock = SFSymbol(rawValue: "rectangle.dock")
+    static let rectangleDock = SFSymbol(systemName: "rectangle.dock")
 
     /// 􀐸
-    static let rectangleExpandVertical = SFSymbol(rawValue: "rectangle.expand.vertical")
+    static let rectangleExpandVertical = SFSymbol(systemName: "rectangle.expand.vertical")
 
     /// 􀏄
-    static let rectangleFill = SFSymbol(rawValue: "rectangle.fill")
+    static let rectangleFill = SFSymbol(systemName: "rectangle.fill")
 
     /// 􀏖
-    static let rectangleFillBadgeCheckmark = SFSymbol(rawValue: "rectangle.fill.badge.checkmark")
+    static let rectangleFillBadgeCheckmark = SFSymbol(systemName: "rectangle.fill.badge.checkmark")
 
     /// 􀏘
-    static let rectangleFillBadgeXmark = SFSymbol(rawValue: "rectangle.fill.badge.xmark")
+    static let rectangleFillBadgeXmark = SFSymbol(systemName: "rectangle.fill.badge.xmark")
 
     /// 􀑰
-    static let rectangleFillOnRectangleAngledFill = SFSymbol(rawValue: "rectangle.fill.on.rectangle.angled.fill")
+    static let rectangleFillOnRectangleAngledFill = SFSymbol(systemName: "rectangle.fill.on.rectangle.angled.fill")
 
     /// 􀏨
-    static let rectangleFillOnRectangleFill = SFSymbol(rawValue: "rectangle.fill.on.rectangle.fill")
+    static let rectangleFillOnRectangleFill = SFSymbol(systemName: "rectangle.fill.on.rectangle.fill")
 
     /// 􀓛
-    static let rectangleGrid1x2 = SFSymbol(rawValue: "rectangle.grid.1x2")
+    static let rectangleGrid1x2 = SFSymbol(systemName: "rectangle.grid.1x2")
 
     /// 􀚉
-    static let rectangleGrid1x2Fill = SFSymbol(rawValue: "rectangle.grid.1x2.fill")
+    static let rectangleGrid1x2Fill = SFSymbol(systemName: "rectangle.grid.1x2.fill")
 
     /// 􀛦
-    static let rectangleGrid2x2 = SFSymbol(rawValue: "rectangle.grid.2x2")
+    static let rectangleGrid2x2 = SFSymbol(systemName: "rectangle.grid.2x2")
 
     /// 􀛧
-    static let rectangleGrid2x2Fill = SFSymbol(rawValue: "rectangle.grid.2x2.fill")
+    static let rectangleGrid2x2Fill = SFSymbol(systemName: "rectangle.grid.2x2.fill")
 
     /// 􀇶
-    static let rectangleGrid3x2 = SFSymbol(rawValue: "rectangle.grid.3x2")
+    static let rectangleGrid3x2 = SFSymbol(systemName: "rectangle.grid.3x2")
 
     /// 􀚆
-    static let rectangleGrid3x2Fill = SFSymbol(rawValue: "rectangle.grid.3x2.fill")
+    static let rectangleGrid3x2Fill = SFSymbol(systemName: "rectangle.grid.3x2.fill")
 
     /// 􀏧
-    static let rectangleOnRectangle = SFSymbol(rawValue: "rectangle.on.rectangle")
+    static let rectangleOnRectangle = SFSymbol(systemName: "rectangle.on.rectangle")
 
     /// 􀑯
-    static let rectangleOnRectangleAngled = SFSymbol(rawValue: "rectangle.on.rectangle.angled")
+    static let rectangleOnRectangleAngled = SFSymbol(systemName: "rectangle.on.rectangle.angled")
 
     /// 􀏟
-    static let rectangleSplit3x1 = SFSymbol(rawValue: "rectangle.split.3x1")
+    static let rectangleSplit3x1 = SFSymbol(systemName: "rectangle.split.3x1")
 
     /// 􀕸
-    static let rectangleSplit3x1Fill = SFSymbol(rawValue: "rectangle.split.3x1.fill")
+    static let rectangleSplit3x1Fill = SFSymbol(systemName: "rectangle.split.3x1.fill")
 
     /// 􀏢
-    static let rectangleSplit3x3 = SFSymbol(rawValue: "rectangle.split.3x3")
+    static let rectangleSplit3x3 = SFSymbol(systemName: "rectangle.split.3x3")
 
     /// 􀘮
-    static let rectangleSplit3x3Fill = SFSymbol(rawValue: "rectangle.split.3x3.fill")
+    static let rectangleSplit3x3Fill = SFSymbol(systemName: "rectangle.split.3x3.fill")
 
     /// 􀏭
-    static let rectangleStack = SFSymbol(rawValue: "rectangle.stack")
+    static let rectangleStack = SFSymbol(systemName: "rectangle.stack")
 
     /// 􀏳
-    static let rectangleStackBadgeMinus = SFSymbol(rawValue: "rectangle.stack.badge.minus")
+    static let rectangleStackBadgeMinus = SFSymbol(systemName: "rectangle.stack.badge.minus")
 
     /// 􀏹
-    static let rectangleStackBadgePersonCrop = SFSymbol(rawValue: "rectangle.stack.badge.person.crop")
+    static let rectangleStackBadgePersonCrop = SFSymbol(systemName: "rectangle.stack.badge.person.crop")
 
     /// 􀏱
-    static let rectangleStackBadgePlus = SFSymbol(rawValue: "rectangle.stack.badge.plus")
+    static let rectangleStackBadgePlus = SFSymbol(systemName: "rectangle.stack.badge.plus")
 
     /// 􀏮
-    static let rectangleStackFill = SFSymbol(rawValue: "rectangle.stack.fill")
+    static let rectangleStackFill = SFSymbol(systemName: "rectangle.stack.fill")
 
     /// 􀏴
-    static let rectangleStackFillBadgeMinus = SFSymbol(rawValue: "rectangle.stack.fill.badge.minus")
+    static let rectangleStackFillBadgeMinus = SFSymbol(systemName: "rectangle.stack.fill.badge.minus")
 
     /// 􀏺
-    static let rectangleStackFillBadgePersonCrop = SFSymbol(rawValue: "rectangle.stack.fill.badge.person.crop")
+    static let rectangleStackFillBadgePersonCrop = SFSymbol(systemName: "rectangle.stack.fill.badge.person.crop")
 
     /// 􀏲
-    static let rectangleStackFillBadgePlus = SFSymbol(rawValue: "rectangle.stack.fill.badge.plus")
+    static let rectangleStackFillBadgePlus = SFSymbol(systemName: "rectangle.stack.fill.badge.plus")
 
     /// 􀏻
-    static let rectangleStackPersonCrop = SFSymbol(rawValue: "rectangle.stack.person.crop")
+    static let rectangleStackPersonCrop = SFSymbol(systemName: "rectangle.stack.person.crop")
 
     /// 􀏼
-    static let rectangleStackPersonCropFill = SFSymbol(rawValue: "rectangle.stack.person.crop.fill")
+    static let rectangleStackPersonCropFill = SFSymbol(systemName: "rectangle.stack.person.crop.fill")
 
     /// 􀊞
-    static let `repeat` = SFSymbol(rawValue: "repeat")
+    static let `repeat` = SFSymbol(systemName: "repeat")
 
     /// 􀊟
-    static let repeat1 = SFSymbol(rawValue: "repeat.1")
+    static let repeat1 = SFSymbol(systemName: "repeat.1")
 
     /// 􀅇
-    static let `return` = SFSymbol(rawValue: "return")
+    static let `return` = SFSymbol(systemName: "return")
 
     /// 􀋀
-    static let rhombus = SFSymbol(rawValue: "rhombus")
+    static let rhombus = SFSymbol(systemName: "rhombus")
 
     /// 􀋁
-    static let rhombusFill = SFSymbol(rawValue: "rhombus.fill")
+    static let rhombusFill = SFSymbol(systemName: "rhombus.fill")
 
     /// 􀛯
-    static let rosette = SFSymbol(rawValue: "rosette")
+    static let rosette = SFSymbol(systemName: "rosette")
 
     /// 􀎮
-    static let rotateLeft = SFSymbol(rawValue: "rotate.left")
+    static let rotateLeft = SFSymbol(systemName: "rotate.left")
 
     /// 􀎯
-    static let rotateLeftFill = SFSymbol(rawValue: "rotate.left.fill")
+    static let rotateLeftFill = SFSymbol(systemName: "rotate.left.fill")
 
     /// 􀎰
-    static let rotateRight = SFSymbol(rawValue: "rotate.right")
+    static let rotateRight = SFSymbol(systemName: "rotate.right")
 
     /// 􀎱
-    static let rotateRightFill = SFSymbol(rawValue: "rotate.right.fill")
+    static let rotateRightFill = SFSymbol(systemName: "rotate.right.fill")
 
     /// 􀖥
-    static let rublesignCircle = SFSymbol(rawValue: "rublesign.circle")
+    static let rublesignCircle = SFSymbol(systemName: "rublesign.circle")
 
     /// 􀖦
-    static let rublesignCircleFill = SFSymbol(rawValue: "rublesign.circle.fill")
+    static let rublesignCircleFill = SFSymbol(systemName: "rublesign.circle.fill")
 
     /// 􀗥
-    static let rublesignSquare = SFSymbol(rawValue: "rublesign.square")
+    static let rublesignSquare = SFSymbol(systemName: "rublesign.square")
 
     /// 􀗦
-    static let rublesignSquareFill = SFSymbol(rawValue: "rublesign.square.fill")
+    static let rublesignSquareFill = SFSymbol(systemName: "rublesign.square.fill")
 
     /// 􀗏
-    static let rupeesignCircle = SFSymbol(rawValue: "rupeesign.circle")
+    static let rupeesignCircle = SFSymbol(systemName: "rupeesign.circle")
 
     /// 􀗐
-    static let rupeesignCircleFill = SFSymbol(rawValue: "rupeesign.circle.fill")
+    static let rupeesignCircleFill = SFSymbol(systemName: "rupeesign.circle.fill")
 
     /// 􀘏
-    static let rupeesignSquare = SFSymbol(rawValue: "rupeesign.square")
+    static let rupeesignSquare = SFSymbol(systemName: "rupeesign.square")
 
     /// 􀘐
-    static let rupeesignSquareFill = SFSymbol(rawValue: "rupeesign.square.fill")
+    static let rupeesignSquareFill = SFSymbol(systemName: "rupeesign.square.fill")
 
     /// 􀀨
-    static let sCircle = SFSymbol(rawValue: "s.circle")
+    static let sCircle = SFSymbol(systemName: "s.circle")
 
     /// 􀀩
-    static let sCircleFill = SFSymbol(rawValue: "s.circle.fill")
+    static let sCircleFill = SFSymbol(systemName: "s.circle.fill")
 
     /// 􀂸
-    static let sSquare = SFSymbol(rawValue: "s.square")
+    static let sSquare = SFSymbol(systemName: "s.square")
 
     /// 􀂹
-    static let sSquareFill = SFSymbol(rawValue: "s.square.fill")
+    static let sSquareFill = SFSymbol(systemName: "s.square.fill")
 
     /// 􀎬
     /// ⚠️ This symbol can refer only to Apple's Safari browser.
-    static let safari = SFSymbol(rawValue: "safari")
+    static let safari = SFSymbol(systemName: "safari")
 
     /// 􀎭
     /// ⚠️ This symbol can refer only to Apple's Safari browser.
-    static let safariFill = SFSymbol(rawValue: "safari.fill")
+    static let safariFill = SFSymbol(systemName: "safari.fill")
 
     /// 􀉈
-    static let scissors = SFSymbol(rawValue: "scissors")
+    static let scissors = SFSymbol(systemName: "scissors")
 
     /// 􀞷
-    static let scissorsBadgeEllipsis = SFSymbol(rawValue: "scissors.badge.ellipsis")
+    static let scissorsBadgeEllipsis = SFSymbol(systemName: "scissors.badge.ellipsis")
 
     /// 􀐩
-    static let scope = SFSymbol(rawValue: "scope")
+    static let scope = SFSymbol(systemName: "scope")
 
     /// 􀓨
-    static let scribble = SFSymbol(rawValue: "scribble")
+    static let scribble = SFSymbol(systemName: "scribble")
 
     /// 􀑠
-    static let selectionPinInOut = SFSymbol(rawValue: "selection.pin.in.out")
+    static let selectionPinInOut = SFSymbol(systemName: "selection.pin.in.out")
 
     /// 􀗋
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignCircle")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shekelsignCircle")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignCircle")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shekelsignCircle")
-    static let sheqelsignCircle = SFSymbol(rawValue: "sheqelsign.circle")
+    static let sheqelsignCircle = SFSymbol(systemName: "sheqelsign.circle")
 
     /// 􀗌
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignCircleFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shekelsignCircleFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignCircleFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shekelsignCircleFill")
-    static let sheqelsignCircleFill = SFSymbol(rawValue: "sheqelsign.circle.fill")
+    static let sheqelsignCircleFill = SFSymbol(systemName: "sheqelsign.circle.fill")
 
     /// 􀘋
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignSquare")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shekelsignSquare")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignSquare")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shekelsignSquare")
-    static let sheqelsignSquare = SFSymbol(rawValue: "sheqelsign.square")
+    static let sheqelsignSquare = SFSymbol(systemName: "sheqelsign.square")
 
     /// 􀘌
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignSquareFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shekelsignSquareFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignSquareFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shekelsignSquareFill")
-    static let sheqelsignSquareFill = SFSymbol(rawValue: "sheqelsign.square.fill")
+    static let sheqelsignSquareFill = SFSymbol(systemName: "sheqelsign.square.fill")
 
     /// 􀙦
-    static let shield = SFSymbol(rawValue: "shield")
+    static let shield = SFSymbol(systemName: "shield")
 
     /// 􀙧
-    static let shieldFill = SFSymbol(rawValue: "shield.fill")
+    static let shieldFill = SFSymbol(systemName: "shield.fill")
 
     /// 􀙨
-    static let shieldLefthalfFill = SFSymbol(rawValue: "shield.lefthalf.fill")
+    static let shieldLefthalfFill = SFSymbol(systemName: "shield.lefthalf.fill")
 
     /// 􀞡
-    static let shieldSlash = SFSymbol(rawValue: "shield.slash")
+    static let shieldSlash = SFSymbol(systemName: "shield.slash")
 
     /// 􀞢
-    static let shieldSlashFill = SFSymbol(rawValue: "shield.slash.fill")
+    static let shieldSlashFill = SFSymbol(systemName: "shield.slash.fill")
 
     /// 􀆝
-    static let shift = SFSymbol(rawValue: "shift")
+    static let shift = SFSymbol(systemName: "shift")
 
     /// 􀆞
-    static let shiftFill = SFSymbol(rawValue: "shift.fill")
+    static let shiftFill = SFSymbol(systemName: "shift.fill")
 
     /// 􀊝
-    static let shuffle = SFSymbol(rawValue: "shuffle")
+    static let shuffle = SFSymbol(systemName: "shuffle")
 
     /// 􀏚
-    static let sidebarLeft = SFSymbol(rawValue: "sidebar.left")
+    static let sidebarLeft = SFSymbol(systemName: "sidebar.left")
 
     /// 􀏛
-    static let sidebarRight = SFSymbol(rawValue: "sidebar.right")
+    static let sidebarRight = SFSymbol(systemName: "sidebar.right")
 
     /// 􀙤
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Hebrew
-    static let signature = SFSymbol(rawValue: "signature")
+    static let signature = SFSymbol(systemName: "signature")
 
     /// 􀍵
-    static let skew = SFSymbol(rawValue: "skew")
+    static let skew = SFSymbol(systemName: "skew")
 
     /// 􀕧
-    static let slashCircle = SFSymbol(rawValue: "slash.circle")
+    static let slashCircle = SFSymbol(systemName: "slash.circle")
 
     /// 􀕨
-    static let slashCircleFill = SFSymbol(rawValue: "slash.circle.fill")
+    static let slashCircleFill = SFSymbol(systemName: "slash.circle.fill")
 
     /// 􀌆
-    static let sliderHorizontal3 = SFSymbol(rawValue: "slider.horizontal.3")
+    static let sliderHorizontal3 = SFSymbol(systemName: "slider.horizontal.3")
 
     /// 􀐗
-    static let sliderHorizontalBelowRectangle = SFSymbol(rawValue: "slider.horizontal.below.rectangle")
+    static let sliderHorizontalBelowRectangle = SFSymbol(systemName: "slider.horizontal.below.rectangle")
 
     /// 􀇱
-    static let slowmo = SFSymbol(rawValue: "slowmo")
+    static let slowmo = SFSymbol(systemName: "slowmo")
 
     /// 􀕪
-    static let smallcircleCircle = SFSymbol(rawValue: "smallcircle.circle")
+    static let smallcircleCircle = SFSymbol(systemName: "smallcircle.circle")
 
     /// 􀕫
-    static let smallcircleCircleFill = SFSymbol(rawValue: "smallcircle.circle.fill")
+    static let smallcircleCircleFill = SFSymbol(systemName: "smallcircle.circle.fill")
 
     /// 􀍷
-    static let smallcircleFillCircle = SFSymbol(rawValue: "smallcircle.fill.circle")
+    static let smallcircleFillCircle = SFSymbol(systemName: "smallcircle.fill.circle")
 
     /// 􀕩
-    static let smallcircleFillCircleFill = SFSymbol(rawValue: "smallcircle.fill.circle.fill")
+    static let smallcircleFillCircleFill = SFSymbol(systemName: "smallcircle.fill.circle.fill")
 
     /// 􀎸
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmiling")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "faceSmiling")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmiling")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "faceSmiling")
-    static let smiley = SFSymbol(rawValue: "smiley")
+    static let smiley = SFSymbol(systemName: "smiley")
 
     /// 􀙌
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmilingFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "faceSmilingFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmilingFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "faceSmilingFill")
-    static let smileyFill = SFSymbol(rawValue: "smiley.fill")
+    static let smileyFill = SFSymbol(systemName: "smiley.fill")
 
     /// 􀇢
-    static let smoke = SFSymbol(rawValue: "smoke")
+    static let smoke = SFSymbol(systemName: "smoke")
 
     /// 􀇣
-    static let smokeFill = SFSymbol(rawValue: "smoke.fill")
+    static let smokeFill = SFSymbol(systemName: "smoke.fill")
 
     /// 􀇥
-    static let snow = SFSymbol(rawValue: "snow")
+    static let snow = SFSymbol(systemName: "snow")
 
     /// 􀆿
-    static let sparkles = SFSymbol(rawValue: "sparkles")
+    static let sparkles = SFSymbol(systemName: "sparkles")
 
     /// 􀊠
-    static let speaker = SFSymbol(rawValue: "speaker")
+    static let speaker = SFSymbol(systemName: "speaker")
 
     /// 􀊤
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave1")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave1")
-    static let speaker1 = SFSymbol(rawValue: "speaker.1")
+    static let speaker1 = SFSymbol(systemName: "speaker.1")
 
     /// 􀊥
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1Fill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave1Fill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1Fill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave1Fill")
-    static let speaker1Fill = SFSymbol(rawValue: "speaker.1.fill")
+    static let speaker1Fill = SFSymbol(systemName: "speaker.1.fill")
 
     /// 􀊦
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave2")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave2")
-    static let speaker2 = SFSymbol(rawValue: "speaker.2")
+    static let speaker2 = SFSymbol(systemName: "speaker.2")
 
     /// 􀊧
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2Fill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave2Fill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2Fill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave2Fill")
-    static let speaker2Fill = SFSymbol(rawValue: "speaker.2.fill")
+    static let speaker2Fill = SFSymbol(systemName: "speaker.2.fill")
 
     /// 􀊨
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave3")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave3")
-    static let speaker3 = SFSymbol(rawValue: "speaker.3")
+    static let speaker3 = SFSymbol(systemName: "speaker.3")
 
     /// 􀊩
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3Fill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave3Fill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3Fill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave3Fill")
-    static let speaker3Fill = SFSymbol(rawValue: "speaker.3.fill")
+    static let speaker3Fill = SFSymbol(systemName: "speaker.3.fill")
 
     /// 􀊡
-    static let speakerFill = SFSymbol(rawValue: "speaker.fill")
+    static let speakerFill = SFSymbol(systemName: "speaker.fill")
 
     /// 􀊢
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
-    static let speakerSlash = SFSymbol(rawValue: "speaker.slash")
+    static let speakerSlash = SFSymbol(systemName: "speaker.slash")
 
     /// 􀊣
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
-    static let speakerSlashFill = SFSymbol(rawValue: "speaker.slash.fill")
+    static let speakerSlashFill = SFSymbol(systemName: "speaker.slash.fill")
 
     /// 􀌊
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
-    static let speakerZzz = SFSymbol(rawValue: "speaker.zzz")
+    static let speakerZzz = SFSymbol(systemName: "speaker.zzz")
 
     /// 􀑞
     /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
-    static let speakerZzzFill = SFSymbol(rawValue: "speaker.zzz.fill")
+    static let speakerZzzFill = SFSymbol(systemName: "speaker.zzz.fill")
 
     /// 􀍾
-    static let speedometer = SFSymbol(rawValue: "speedometer")
+    static let speedometer = SFSymbol(systemName: "speedometer")
 
     /// 􀝐
-    static let sportscourt = SFSymbol(rawValue: "sportscourt")
+    static let sportscourt = SFSymbol(systemName: "sportscourt")
 
     /// 􀝑
-    static let sportscourtFill = SFSymbol(rawValue: "sportscourt.fill")
+    static let sportscourtFill = SFSymbol(systemName: "sportscourt.fill")
 
     /// 􀂒
-    static let square = SFSymbol(rawValue: "square")
+    static let square = SFSymbol(systemName: "square")
 
     /// 􀈄
-    static let squareAndArrowDown = SFSymbol(rawValue: "square.and.arrow.down")
+    static let squareAndArrowDown = SFSymbol(systemName: "square.and.arrow.down")
 
     /// 􀈅
-    static let squareAndArrowDownFill = SFSymbol(rawValue: "square.and.arrow.down.fill")
+    static let squareAndArrowDownFill = SFSymbol(systemName: "square.and.arrow.down.fill")
 
     /// 􀈈
-    static let squareAndArrowDownOnSquare = SFSymbol(rawValue: "square.and.arrow.down.on.square")
+    static let squareAndArrowDownOnSquare = SFSymbol(systemName: "square.and.arrow.down.on.square")
 
     /// 􀈉
-    static let squareAndArrowDownOnSquareFill = SFSymbol(rawValue: "square.and.arrow.down.on.square.fill")
+    static let squareAndArrowDownOnSquareFill = SFSymbol(systemName: "square.and.arrow.down.on.square.fill")
 
     /// 􀈂
-    static let squareAndArrowUp = SFSymbol(rawValue: "square.and.arrow.up")
+    static let squareAndArrowUp = SFSymbol(systemName: "square.and.arrow.up")
 
     /// 􀈃
-    static let squareAndArrowUpFill = SFSymbol(rawValue: "square.and.arrow.up.fill")
+    static let squareAndArrowUpFill = SFSymbol(systemName: "square.and.arrow.up.fill")
 
     /// 􀈆
-    static let squareAndArrowUpOnSquare = SFSymbol(rawValue: "square.and.arrow.up.on.square")
+    static let squareAndArrowUpOnSquare = SFSymbol(systemName: "square.and.arrow.up.on.square")
 
     /// 􀈇
-    static let squareAndArrowUpOnSquareFill = SFSymbol(rawValue: "square.and.arrow.up.on.square.fill")
+    static let squareAndArrowUpOnSquareFill = SFSymbol(systemName: "square.and.arrow.up.on.square.fill")
 
     /// 􀐑
-    static let squareAndLineVerticalAndSquare = SFSymbol(rawValue: "square.and.line.vertical.and.square")
+    static let squareAndLineVerticalAndSquare = SFSymbol(systemName: "square.and.line.vertical.and.square")
 
     /// 􀐔
-    static let squareAndLineVerticalAndSquareFill = SFSymbol(rawValue: "square.and.line.vertical.and.square.fill")
+    static let squareAndLineVerticalAndSquareFill = SFSymbol(systemName: "square.and.line.vertical.and.square.fill")
 
     /// 􀈎
-    static let squareAndPencil = SFSymbol(rawValue: "square.and.pencil")
+    static let squareAndPencil = SFSymbol(systemName: "square.and.pencil")
 
     /// 􀂓
-    static let squareFill = SFSymbol(rawValue: "square.fill")
+    static let squareFill = SFSymbol(systemName: "square.fill")
 
     /// 􀐓
-    static let squareFillAndLineVerticalAndSquare = SFSymbol(rawValue: "square.fill.and.line.vertical.and.square")
+    static let squareFillAndLineVerticalAndSquare = SFSymbol(systemName: "square.fill.and.line.vertical.and.square")
 
     /// 􀐒
-    static let squareFillAndLineVerticalSquareFill = SFSymbol(rawValue: "square.fill.and.line.vertical.square.fill")
+    static let squareFillAndLineVerticalSquareFill = SFSymbol(systemName: "square.fill.and.line.vertical.square.fill")
 
     /// 􀐊
-    static let squareFillOnCircleFill = SFSymbol(rawValue: "square.fill.on.circle.fill")
+    static let squareFillOnCircleFill = SFSymbol(systemName: "square.fill.on.circle.fill")
 
     /// 􀐆
-    static let squareFillOnSquareFill = SFSymbol(rawValue: "square.fill.on.square.fill")
+    static let squareFillOnSquareFill = SFSymbol(systemName: "square.fill.on.square.fill")
 
     /// 􀇷
-    static let squareGrid2x2 = SFSymbol(rawValue: "square.grid.2x2")
+    static let squareGrid2x2 = SFSymbol(systemName: "square.grid.2x2")
 
     /// 􀚈
-    static let squareGrid2x2Fill = SFSymbol(rawValue: "square.grid.2x2.fill")
+    static let squareGrid2x2Fill = SFSymbol(systemName: "square.grid.2x2.fill")
 
     /// 􀇵
-    static let squareGrid3x2 = SFSymbol(rawValue: "square.grid.3x2")
+    static let squareGrid3x2 = SFSymbol(systemName: "square.grid.3x2")
 
     /// 􀚇
-    static let squareGrid3x2Fill = SFSymbol(rawValue: "square.grid.3x2.fill")
+    static let squareGrid3x2Fill = SFSymbol(systemName: "square.grid.3x2.fill")
 
     /// 􀓚
-    static let squareGrid4x3Fill = SFSymbol(rawValue: "square.grid.4x3.fill")
+    static let squareGrid4x3Fill = SFSymbol(systemName: "square.grid.4x3.fill")
 
     /// 􀚓
-    static let squareLefthalfFill = SFSymbol(rawValue: "square.lefthalf.fill")
+    static let squareLefthalfFill = SFSymbol(systemName: "square.lefthalf.fill")
 
     /// 􀐉
-    static let squareOnCircle = SFSymbol(rawValue: "square.on.circle")
+    static let squareOnCircle = SFSymbol(systemName: "square.on.circle")
 
     /// 􀐅
-    static let squareOnSquare = SFSymbol(rawValue: "square.on.square")
+    static let squareOnSquare = SFSymbol(systemName: "square.on.square")
 
     /// 􀚔
-    static let squareRighthalfFill = SFSymbol(rawValue: "square.righthalf.fill")
+    static let squareRighthalfFill = SFSymbol(systemName: "square.righthalf.fill")
 
     /// 􀕰
-    static let squareSplit1x2 = SFSymbol(rawValue: "square.split.1x2")
+    static let squareSplit1x2 = SFSymbol(systemName: "square.split.1x2")
 
     /// 􀕱
-    static let squareSplit1x2Fill = SFSymbol(rawValue: "square.split.1x2.fill")
+    static let squareSplit1x2Fill = SFSymbol(systemName: "square.split.1x2.fill")
 
     /// 􀏠
-    static let squareSplit2x1 = SFSymbol(rawValue: "square.split.2x1")
+    static let squareSplit2x1 = SFSymbol(systemName: "square.split.2x1")
 
     /// 􀘜
-    static let squareSplit2x1Fill = SFSymbol(rawValue: "square.split.2x1.fill")
+    static let squareSplit2x1Fill = SFSymbol(systemName: "square.split.2x1.fill")
 
     /// 􀕮
-    static let squareSplit2x2 = SFSymbol(rawValue: "square.split.2x2")
+    static let squareSplit2x2 = SFSymbol(systemName: "square.split.2x2")
 
     /// 􀕯
-    static let squareSplit2x2Fill = SFSymbol(rawValue: "square.split.2x2.fill")
+    static let squareSplit2x2Fill = SFSymbol(systemName: "square.split.2x2.fill")
 
     /// 􀐋
-    static let squareStack = SFSymbol(rawValue: "square.stack")
+    static let squareStack = SFSymbol(systemName: "square.stack")
 
     /// 􀐠
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "squareStack3dForwardDottedline")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "squareStack3dForwardDottedline")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "squareStack3dForwardDottedline")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "squareStack3dForwardDottedline")
-    static let squareStack3dDownDottedline = SFSymbol(rawValue: "square.stack.3d.down.dottedline")
+    static let squareStack3dDownDottedline = SFSymbol(systemName: "square.stack.3d.down.dottedline")
 
     /// 􀐜
-    static let squareStack3dDownRight = SFSymbol(rawValue: "square.stack.3d.down.right")
+    static let squareStack3dDownRight = SFSymbol(systemName: "square.stack.3d.down.right")
 
     /// 􀐝
-    static let squareStack3dDownRightFill = SFSymbol(rawValue: "square.stack.3d.down.right.fill")
+    static let squareStack3dDownRightFill = SFSymbol(systemName: "square.stack.3d.down.right.fill")
 
     /// 􀐞
-    static let squareStack3dUp = SFSymbol(rawValue: "square.stack.3d.up")
+    static let squareStack3dUp = SFSymbol(systemName: "square.stack.3d.up")
 
     /// 􀐟
-    static let squareStack3dUpFill = SFSymbol(rawValue: "square.stack.3d.up.fill")
+    static let squareStack3dUpFill = SFSymbol(systemName: "square.stack.3d.up.fill")
 
     /// 􀙒
-    static let squareStack3dUpSlash = SFSymbol(rawValue: "square.stack.3d.up.slash")
+    static let squareStack3dUpSlash = SFSymbol(systemName: "square.stack.3d.up.slash")
 
     /// 􀙓
-    static let squareStack3dUpSlashFill = SFSymbol(rawValue: "square.stack.3d.up.slash.fill")
+    static let squareStack3dUpSlashFill = SFSymbol(systemName: "square.stack.3d.up.slash.fill")
 
     /// 􀐌
-    static let squareStackFill = SFSymbol(rawValue: "square.stack.fill")
+    static let squareStackFill = SFSymbol(systemName: "square.stack.fill")
 
     /// 􀏡
-    static let squaresBelowRectangle = SFSymbol(rawValue: "squares.below.rectangle")
+    static let squaresBelowRectangle = SFSymbol(systemName: "squares.below.rectangle")
 
     /// 􀋂
-    static let star = SFSymbol(rawValue: "star")
+    static let star = SFSymbol(systemName: "star")
 
     /// 􀋅
-    static let starCircle = SFSymbol(rawValue: "star.circle")
+    static let starCircle = SFSymbol(systemName: "star.circle")
 
     /// 􀋆
-    static let starCircleFill = SFSymbol(rawValue: "star.circle.fill")
+    static let starCircleFill = SFSymbol(systemName: "star.circle.fill")
 
     /// 􀋃
-    static let starFill = SFSymbol(rawValue: "star.fill")
+    static let starFill = SFSymbol(systemName: "star.fill")
 
     /// 􀋄
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "starLeadinghalfFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "starLeadinghalfFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "starLeadinghalfFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "starLeadinghalfFill")
-    static let starLefthalfFill = SFSymbol(rawValue: "star.lefthalf.fill")
+    static let starLefthalfFill = SFSymbol(systemName: "star.lefthalf.fill")
 
     /// 􀋇
-    static let starSlash = SFSymbol(rawValue: "star.slash")
+    static let starSlash = SFSymbol(systemName: "star.slash")
 
     /// 􀋈
-    static let starSlashFill = SFSymbol(rawValue: "star.slash.fill")
+    static let starSlashFill = SFSymbol(systemName: "star.slash.fill")
 
     /// 􀑆
-    static let staroflife = SFSymbol(rawValue: "staroflife")
+    static let staroflife = SFSymbol(systemName: "staroflife")
 
     /// 􀑇
-    static let staroflifeFill = SFSymbol(rawValue: "staroflife.fill")
+    static let staroflifeFill = SFSymbol(systemName: "staroflife.fill")
 
     /// 􀖝
-    static let sterlingsignCircle = SFSymbol(rawValue: "sterlingsign.circle")
+    static let sterlingsignCircle = SFSymbol(systemName: "sterlingsign.circle")
 
     /// 􀖞
-    static let sterlingsignCircleFill = SFSymbol(rawValue: "sterlingsign.circle.fill")
+    static let sterlingsignCircleFill = SFSymbol(systemName: "sterlingsign.circle.fill")
 
     /// 􀗝
-    static let sterlingsignSquare = SFSymbol(rawValue: "sterlingsign.square")
+    static let sterlingsignSquare = SFSymbol(systemName: "sterlingsign.square")
 
     /// 􀗞
-    static let sterlingsignSquareFill = SFSymbol(rawValue: "sterlingsign.square.fill")
+    static let sterlingsignSquareFill = SFSymbol(systemName: "sterlingsign.square.fill")
 
     /// 􀛶
-    static let stop = SFSymbol(rawValue: "stop")
+    static let stop = SFSymbol(systemName: "stop")
 
     /// 􀜪
-    static let stopCircle = SFSymbol(rawValue: "stop.circle")
+    static let stopCircle = SFSymbol(systemName: "stop.circle")
 
     /// 􀜫
-    static let stopCircleFill = SFSymbol(rawValue: "stop.circle.fill")
+    static let stopCircleFill = SFSymbol(systemName: "stop.circle.fill")
 
     /// 􀛷
-    static let stopFill = SFSymbol(rawValue: "stop.fill")
+    static let stopFill = SFSymbol(systemName: "stop.fill")
 
     /// 􀐯
-    static let stopwatch = SFSymbol(rawValue: "stopwatch")
+    static let stopwatch = SFSymbol(systemName: "stopwatch")
 
     /// 􀐰
-    static let stopwatchFill = SFSymbol(rawValue: "stopwatch.fill")
+    static let stopwatchFill = SFSymbol(systemName: "stopwatch.fill")
 
     /// 􀅖
-    static let strikethrough = SFSymbol(rawValue: "strikethrough")
+    static let strikethrough = SFSymbol(systemName: "strikethrough")
 
     /// 􀑔
-    static let studentdesk = SFSymbol(rawValue: "studentdesk")
+    static let studentdesk = SFSymbol(systemName: "studentdesk")
 
     /// 􀒃
-    static let suitClub = SFSymbol(rawValue: "suit.club")
+    static let suitClub = SFSymbol(systemName: "suit.club")
 
     /// 􀊽
-    static let suitClubFill = SFSymbol(rawValue: "suit.club.fill")
+    static let suitClubFill = SFSymbol(systemName: "suit.club.fill")
 
     /// 􀒄
-    static let suitDiamond = SFSymbol(rawValue: "suit.diamond")
+    static let suitDiamond = SFSymbol(systemName: "suit.diamond")
 
     /// 􀊿
-    static let suitDiamondFill = SFSymbol(rawValue: "suit.diamond.fill")
+    static let suitDiamondFill = SFSymbol(systemName: "suit.diamond.fill")
 
     /// 􀒂
-    static let suitHeart = SFSymbol(rawValue: "suit.heart")
+    static let suitHeart = SFSymbol(systemName: "suit.heart")
 
     /// 􀊼
-    static let suitHeartFill = SFSymbol(rawValue: "suit.heart.fill")
+    static let suitHeartFill = SFSymbol(systemName: "suit.heart.fill")
 
     /// 􀒅
-    static let suitSpade = SFSymbol(rawValue: "suit.spade")
+    static let suitSpade = SFSymbol(systemName: "suit.spade")
 
     /// 􀊾
-    static let suitSpadeFill = SFSymbol(rawValue: "suit.spade.fill")
+    static let suitSpadeFill = SFSymbol(systemName: "suit.spade.fill")
 
     /// 􀘽
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
-    static let sum = SFSymbol(rawValue: "sum")
+    static let sum = SFSymbol(systemName: "sum")
 
     /// 􀆵
-    static let sunDust = SFSymbol(rawValue: "sun.dust")
+    static let sunDust = SFSymbol(systemName: "sun.dust")
 
     /// 􀆶
-    static let sunDustFill = SFSymbol(rawValue: "sun.dust.fill")
+    static let sunDustFill = SFSymbol(systemName: "sun.dust.fill")
 
     /// 􀆷
-    static let sunHaze = SFSymbol(rawValue: "sun.haze")
+    static let sunHaze = SFSymbol(systemName: "sun.haze")
 
     /// 􀆸
-    static let sunHazeFill = SFSymbol(rawValue: "sun.haze.fill")
+    static let sunHazeFill = SFSymbol(systemName: "sun.haze.fill")
 
     /// 􀆭
-    static let sunMax = SFSymbol(rawValue: "sun.max")
+    static let sunMax = SFSymbol(systemName: "sun.max")
 
     /// 􀆮
-    static let sunMaxFill = SFSymbol(rawValue: "sun.max.fill")
+    static let sunMaxFill = SFSymbol(systemName: "sun.max.fill")
 
     /// 􀆫
-    static let sunMin = SFSymbol(rawValue: "sun.min")
+    static let sunMin = SFSymbol(systemName: "sun.min")
 
     /// 􀆬
-    static let sunMinFill = SFSymbol(rawValue: "sun.min.fill")
+    static let sunMinFill = SFSymbol(systemName: "sun.min.fill")
 
     /// 􀆱
-    static let sunrise = SFSymbol(rawValue: "sunrise")
+    static let sunrise = SFSymbol(systemName: "sunrise")
 
     /// 􀆲
-    static let sunriseFill = SFSymbol(rawValue: "sunrise.fill")
+    static let sunriseFill = SFSymbol(systemName: "sunrise.fill")
 
     /// 􀆳
-    static let sunset = SFSymbol(rawValue: "sunset")
+    static let sunset = SFSymbol(systemName: "sunset")
 
     /// 􀆴
-    static let sunsetFill = SFSymbol(rawValue: "sunset.fill")
+    static let sunsetFill = SFSymbol(systemName: "sunset.fill")
 
     /// 􀌰
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Hebrew
-    static let tBubble = SFSymbol(rawValue: "t.bubble")
+    static let tBubble = SFSymbol(systemName: "t.bubble")
 
     /// 􀌱
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Hebrew
-    static let tBubbleFill = SFSymbol(rawValue: "t.bubble.fill")
+    static let tBubbleFill = SFSymbol(systemName: "t.bubble.fill")
 
     /// 􀀪
-    static let tCircle = SFSymbol(rawValue: "t.circle")
+    static let tCircle = SFSymbol(systemName: "t.circle")
 
     /// 􀀫
-    static let tCircleFill = SFSymbol(rawValue: "t.circle.fill")
+    static let tCircleFill = SFSymbol(systemName: "t.circle.fill")
 
     /// 􀂺
-    static let tSquare = SFSymbol(rawValue: "t.square")
+    static let tSquare = SFSymbol(systemName: "t.square")
 
     /// 􀂻
-    static let tSquareFill = SFSymbol(rawValue: "t.square.fill")
+    static let tSquareFill = SFSymbol(systemName: "t.square.fill")
 
     /// 􀏣
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecells")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "tablecells")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecells")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "tablecells")
-    static let table = SFSymbol(rawValue: "table")
+    static let table = SFSymbol(systemName: "table")
 
     /// 􀏥
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsBadgeEllipsis")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "tablecellsBadgeEllipsis")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsBadgeEllipsis")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "tablecellsBadgeEllipsis")
-    static let tableBadgeMore = SFSymbol(rawValue: "table.badge.more")
+    static let tableBadgeMore = SFSymbol(systemName: "table.badge.more")
 
     /// 􀏦
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsBadgeEllipsisFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "tablecellsBadgeEllipsisFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsBadgeEllipsisFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "tablecellsBadgeEllipsisFill")
-    static let tableBadgeMoreFill = SFSymbol(rawValue: "table.badge.more.fill")
+    static let tableBadgeMoreFill = SFSymbol(systemName: "table.badge.more.fill")
 
     /// 􀏤
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "tablecellsFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "tablecellsFill")
-    static let tableFill = SFSymbol(rawValue: "table.fill")
+    static let tableFill = SFSymbol(systemName: "table.fill")
 
     /// 􀋡
-    static let tag = SFSymbol(rawValue: "tag")
+    static let tag = SFSymbol(systemName: "tag")
 
     /// 􀋣
-    static let tagCircle = SFSymbol(rawValue: "tag.circle")
+    static let tagCircle = SFSymbol(systemName: "tag.circle")
 
     /// 􀋤
-    static let tagCircleFill = SFSymbol(rawValue: "tag.circle.fill")
+    static let tagCircleFill = SFSymbol(systemName: "tag.circle.fill")
 
     /// 􀋢
-    static let tagFill = SFSymbol(rawValue: "tag.fill")
+    static let tagFill = SFSymbol(systemName: "tag.fill")
 
     /// 􀍈
     /// ⚠️ This symbol can refer only to Apple's Teletype feature.
-    static let teletype = SFSymbol(rawValue: "teletype")
+    static let teletype = SFSymbol(systemName: "teletype")
 
     /// 􀙰
     /// ⚠️ This symbol can refer only to Apple's Teletype feature.
-    static let teletypeAnswer = SFSymbol(rawValue: "teletype.answer")
+    static let teletypeAnswer = SFSymbol(systemName: "teletype.answer")
 
     /// 􀖭
-    static let tengesignCircle = SFSymbol(rawValue: "tengesign.circle")
+    static let tengesignCircle = SFSymbol(systemName: "tengesign.circle")
 
     /// 􀖮
-    static let tengesignCircleFill = SFSymbol(rawValue: "tengesign.circle.fill")
+    static let tengesignCircleFill = SFSymbol(systemName: "tengesign.circle.fill")
 
     /// 􀗭
-    static let tengesignSquare = SFSymbol(rawValue: "tengesign.square")
+    static let tengesignSquare = SFSymbol(systemName: "tengesign.square")
 
     /// 􀗮
-    static let tengesignSquareFill = SFSymbol(rawValue: "tengesign.square.fill")
+    static let tengesignSquareFill = SFSymbol(systemName: "tengesign.square.fill")
 
     /// 􀌁
-    static let textAligncenter = SFSymbol(rawValue: "text.aligncenter")
+    static let textAligncenter = SFSymbol(systemName: "text.aligncenter")
 
     /// 􀌀
-    static let textAlignleft = SFSymbol(rawValue: "text.alignleft")
+    static let textAlignleft = SFSymbol(systemName: "text.alignleft")
 
     /// 􀌂
-    static let textAlignright = SFSymbol(rawValue: "text.alignright")
+    static let textAlignright = SFSymbol(systemName: "text.alignright")
 
     /// 􀋾
-    static let textAppend = SFSymbol(rawValue: "text.append")
+    static let textAppend = SFSymbol(systemName: "text.append")
 
     /// 􀋺
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
-    static let textBadgeCheckmark = SFSymbol(rawValue: "text.badge.checkmark")
+    static let textBadgeCheckmark = SFSymbol(systemName: "text.badge.checkmark")
 
     /// 􀋹
-    static let textBadgeMinus = SFSymbol(rawValue: "text.badge.minus")
+    static let textBadgeMinus = SFSymbol(systemName: "text.badge.minus")
 
     /// 􀋸
-    static let textBadgePlus = SFSymbol(rawValue: "text.badge.plus")
+    static let textBadgePlus = SFSymbol(systemName: "text.badge.plus")
 
     /// 􀋼
-    static let textBadgeStar = SFSymbol(rawValue: "text.badge.star")
+    static let textBadgeStar = SFSymbol(systemName: "text.badge.star")
 
     /// 􀋻
-    static let textBadgeXmark = SFSymbol(rawValue: "text.badge.xmark")
+    static let textBadgeXmark = SFSymbol(systemName: "text.badge.xmark")
 
     /// 􀌲
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
-    static let textBubble = SFSymbol(rawValue: "text.bubble")
+    static let textBubble = SFSymbol(systemName: "text.bubble")
 
     /// 􀌳
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
-    static let textBubbleFill = SFSymbol(rawValue: "text.bubble.fill")
+    static let textBubbleFill = SFSymbol(systemName: "text.bubble.fill")
 
     /// 􀅫
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Traditional Chinese
-    static let textCursor = SFSymbol(rawValue: "text.cursor")
+    static let textCursor = SFSymbol(systemName: "text.cursor")
 
     /// 􀋽
-    static let textInsert = SFSymbol(rawValue: "text.insert")
+    static let textInsert = SFSymbol(systemName: "text.insert")
 
     /// 􀌃
-    static let textJustify = SFSymbol(rawValue: "text.justify")
+    static let textJustify = SFSymbol(systemName: "text.justify")
 
     /// 􀌄
-    static let textJustifyleft = SFSymbol(rawValue: "text.justifyleft")
+    static let textJustifyleft = SFSymbol(systemName: "text.justifyleft")
 
     /// 􀌅
-    static let textJustifyright = SFSymbol(rawValue: "text.justifyright")
+    static let textJustifyright = SFSymbol(systemName: "text.justifyright")
 
     /// 􀋿
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
-    static let textQuote = SFSymbol(rawValue: "text.quote")
+    static let textQuote = SFSymbol(systemName: "text.quote")
 
     /// 􀅶
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Traditional Chinese
-    static let textbox = SFSymbol(rawValue: "textbox")
+    static let textbox = SFSymbol(systemName: "textbox")
 
     /// 􀅒
-    static let textformat = SFSymbol(rawValue: "textformat")
+    static let textformat = SFSymbol(systemName: "textformat")
 
     /// 􀅱
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
-    static let textformat123 = SFSymbol(rawValue: "textformat.123")
+    static let textformat123 = SFSymbol(systemName: "textformat.123")
 
     /// 􀅯
-    static let textformatAbc = SFSymbol(rawValue: "textformat.abc")
+    static let textformatAbc = SFSymbol(systemName: "textformat.abc")
 
     /// 􀅰
-    static let textformatAbcDottedunderline = SFSymbol(rawValue: "textformat.abc.dottedunderline")
+    static let textformatAbcDottedunderline = SFSymbol(systemName: "textformat.abc.dottedunderline")
 
     /// 􀅑
-    static let textformatAlt = SFSymbol(rawValue: "textformat.alt")
+    static let textformatAlt = SFSymbol(systemName: "textformat.alt")
 
     /// 􀅐
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
-    static let textformatSize = SFSymbol(rawValue: "textformat.size")
+    static let textformatSize = SFSymbol(systemName: "textformat.size")
 
     /// 􀓡
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
-    static let textformatSubscript = SFSymbol(rawValue: "textformat.subscript")
+    static let textformatSubscript = SFSymbol(systemName: "textformat.subscript")
 
     /// 􀓢
     /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
-    static let textformatSuperscript = SFSymbol(rawValue: "textformat.superscript")
+    static let textformatSuperscript = SFSymbol(systemName: "textformat.superscript")
 
     /// 􀇬
-    static let thermometer = SFSymbol(rawValue: "thermometer")
+    static let thermometer = SFSymbol(systemName: "thermometer")
 
     /// 􀇫
-    static let thermometerSnowflake = SFSymbol(rawValue: "thermometer.snowflake")
+    static let thermometerSnowflake = SFSymbol(systemName: "thermometer.snowflake")
 
     /// 􀇪
-    static let thermometerSun = SFSymbol(rawValue: "thermometer.sun")
+    static let thermometerSun = SFSymbol(systemName: "thermometer.sun")
 
     /// 􀇲
-    static let timelapse = SFSymbol(rawValue: "timelapse")
+    static let timelapse = SFSymbol(systemName: "timelapse")
 
     /// 􀐱
-    static let timer = SFSymbol(rawValue: "timer")
+    static let timer = SFSymbol(systemName: "timer")
 
     /// 􀇧
-    static let tornado = SFSymbol(rawValue: "tornado")
+    static let tornado = SFSymbol(systemName: "tornado")
 
     /// 􀓐
-    static let tortoise = SFSymbol(rawValue: "tortoise")
+    static let tortoise = SFSymbol(systemName: "tortoise")
 
     /// 􀓑
-    static let tortoiseFill = SFSymbol(rawValue: "tortoise.fill")
+    static let tortoiseFill = SFSymbol(systemName: "tortoise.fill")
 
     /// 􀝇
-    static let tramFill = SFSymbol(rawValue: "tram.fill")
+    static let tramFill = SFSymbol(systemName: "tram.fill")
 
     /// 􀈑
-    static let trash = SFSymbol(rawValue: "trash")
+    static let trash = SFSymbol(systemName: "trash")
 
     /// 􀈓
-    static let trashCircle = SFSymbol(rawValue: "trash.circle")
+    static let trashCircle = SFSymbol(systemName: "trash.circle")
 
     /// 􀈔
-    static let trashCircleFill = SFSymbol(rawValue: "trash.circle.fill")
+    static let trashCircleFill = SFSymbol(systemName: "trash.circle.fill")
 
     /// 􀈒
-    static let trashFill = SFSymbol(rawValue: "trash.fill")
+    static let trashFill = SFSymbol(systemName: "trash.fill")
 
     /// 􀜧
-    static let trashSlash = SFSymbol(rawValue: "trash.slash")
+    static let trashSlash = SFSymbol(systemName: "trash.slash")
 
     /// 􀜨
-    static let trashSlashFill = SFSymbol(rawValue: "trash.slash.fill")
+    static let trashSlashFill = SFSymbol(systemName: "trash.slash.fill")
 
     /// 􀈣
-    static let tray = SFSymbol(rawValue: "tray")
+    static let tray = SFSymbol(systemName: "tray")
 
     /// 􀈩
-    static let tray2 = SFSymbol(rawValue: "tray.2")
+    static let tray2 = SFSymbol(systemName: "tray.2")
 
     /// 􀈪
-    static let tray2Fill = SFSymbol(rawValue: "tray.2.fill")
+    static let tray2Fill = SFSymbol(systemName: "tray.2.fill")
 
     /// 􀈧
-    static let trayAndArrowDown = SFSymbol(rawValue: "tray.and.arrow.down")
+    static let trayAndArrowDown = SFSymbol(systemName: "tray.and.arrow.down")
 
     /// 􀈨
-    static let trayAndArrowDownFill = SFSymbol(rawValue: "tray.and.arrow.down.fill")
+    static let trayAndArrowDownFill = SFSymbol(systemName: "tray.and.arrow.down.fill")
 
     /// 􀈥
-    static let trayAndArrowUp = SFSymbol(rawValue: "tray.and.arrow.up")
+    static let trayAndArrowUp = SFSymbol(systemName: "tray.and.arrow.up")
 
     /// 􀈦
-    static let trayAndArrowUpFill = SFSymbol(rawValue: "tray.and.arrow.up.fill")
+    static let trayAndArrowUpFill = SFSymbol(systemName: "tray.and.arrow.up.fill")
 
     /// 􀈤
-    static let trayFill = SFSymbol(rawValue: "tray.fill")
+    static let trayFill = SFSymbol(systemName: "tray.fill")
 
     /// 􀈫
-    static let trayFull = SFSymbol(rawValue: "tray.full")
+    static let trayFull = SFSymbol(systemName: "tray.full")
 
     /// 􀈬
-    static let trayFullFill = SFSymbol(rawValue: "tray.full.fill")
+    static let trayFullFill = SFSymbol(systemName: "tray.full.fill")
 
     /// 􀛣
-    static let triangle = SFSymbol(rawValue: "triangle")
+    static let triangle = SFSymbol(systemName: "triangle")
 
     /// 􀛤
-    static let triangleFill = SFSymbol(rawValue: "triangle.fill")
+    static let triangleFill = SFSymbol(systemName: "triangle.fill")
 
     /// 􀚕
-    static let triangleLefthalfFill = SFSymbol(rawValue: "triangle.lefthalf.fill")
+    static let triangleLefthalfFill = SFSymbol(systemName: "triangle.lefthalf.fill")
 
     /// 􀚖
-    static let triangleRighthalfFill = SFSymbol(rawValue: "triangle.righthalf.fill")
+    static let triangleRighthalfFill = SFSymbol(systemName: "triangle.righthalf.fill")
 
     /// 􀇨
-    static let tropicalstorm = SFSymbol(rawValue: "tropicalstorm")
+    static let tropicalstorm = SFSymbol(systemName: "tropicalstorm")
 
     /// 􀗇
-    static let tugriksignCircle = SFSymbol(rawValue: "tugriksign.circle")
+    static let tugriksignCircle = SFSymbol(systemName: "tugriksign.circle")
 
     /// 􀗈
-    static let tugriksignCircleFill = SFSymbol(rawValue: "tugriksign.circle.fill")
+    static let tugriksignCircleFill = SFSymbol(systemName: "tugriksign.circle.fill")
 
     /// 􀘇
-    static let tugriksignSquare = SFSymbol(rawValue: "tugriksign.square")
+    static let tugriksignSquare = SFSymbol(systemName: "tugriksign.square")
 
     /// 􀘈
-    static let tugriksignSquareFill = SFSymbol(rawValue: "tugriksign.square.fill")
+    static let tugriksignSquareFill = SFSymbol(systemName: "tugriksign.square.fill")
 
     /// 􀎐
-    static let tuningfork = SFSymbol(rawValue: "tuningfork")
+    static let tuningfork = SFSymbol(systemName: "tuningfork")
 
     /// 􀖣
-    static let turkishlirasignCircle = SFSymbol(rawValue: "turkishlirasign.circle")
+    static let turkishlirasignCircle = SFSymbol(systemName: "turkishlirasign.circle")
 
     /// 􀖤
-    static let turkishlirasignCircleFill = SFSymbol(rawValue: "turkishlirasign.circle.fill")
+    static let turkishlirasignCircleFill = SFSymbol(systemName: "turkishlirasign.circle.fill")
 
     /// 􀗣
-    static let turkishlirasignSquare = SFSymbol(rawValue: "turkishlirasign.square")
+    static let turkishlirasignSquare = SFSymbol(systemName: "turkishlirasign.square")
 
     /// 􀗤
-    static let turkishlirasignSquareFill = SFSymbol(rawValue: "turkishlirasign.square.fill")
+    static let turkishlirasignSquareFill = SFSymbol(systemName: "turkishlirasign.square.fill")
 
     /// 􀎲
-    static let tv = SFSymbol(rawValue: "tv")
+    static let tv = SFSymbol(systemName: "tv")
 
     /// 􀎳
-    static let tvCircle = SFSymbol(rawValue: "tv.circle")
+    static let tvCircle = SFSymbol(systemName: "tv.circle")
 
     /// 􀎴
-    static let tvCircleFill = SFSymbol(rawValue: "tv.circle.fill")
+    static let tvCircleFill = SFSymbol(systemName: "tv.circle.fill")
 
     /// 􀒶
-    static let tvFill = SFSymbol(rawValue: "tv.fill")
+    static let tvFill = SFSymbol(systemName: "tv.fill")
 
     /// 􀎵
-    static let tvMusicNote = SFSymbol(rawValue: "tv.music.note")
+    static let tvMusicNote = SFSymbol(systemName: "tv.music.note")
 
     /// 􀒷
-    static let tvMusicNoteFill = SFSymbol(rawValue: "tv.music.note.fill")
+    static let tvMusicNoteFill = SFSymbol(systemName: "tv.music.note.fill")
 
     /// 􀀬
-    static let uCircle = SFSymbol(rawValue: "u.circle")
+    static let uCircle = SFSymbol(systemName: "u.circle")
 
     /// 􀀭
-    static let uCircleFill = SFSymbol(rawValue: "u.circle.fill")
+    static let uCircleFill = SFSymbol(systemName: "u.circle.fill")
 
     /// 􀂼
-    static let uSquare = SFSymbol(rawValue: "u.square")
+    static let uSquare = SFSymbol(systemName: "u.square")
 
     /// 􀂽
-    static let uSquareFill = SFSymbol(rawValue: "u.square.fill")
+    static let uSquareFill = SFSymbol(systemName: "u.square.fill")
 
     /// 􀏝
-    static let uiwindowSplit2x1 = SFSymbol(rawValue: "uiwindow.split.2x1")
+    static let uiwindowSplit2x1 = SFSymbol(systemName: "uiwindow.split.2x1")
 
     /// 􀙕
-    static let umbrella = SFSymbol(rawValue: "umbrella")
+    static let umbrella = SFSymbol(systemName: "umbrella")
 
     /// 􀙖
-    static let umbrellaFill = SFSymbol(rawValue: "umbrella.fill")
+    static let umbrellaFill = SFSymbol(systemName: "umbrella.fill")
 
     /// 􀅕
-    static let underline = SFSymbol(rawValue: "underline")
+    static let underline = SFSymbol(systemName: "underline")
 
     /// 􀀮
-    static let vCircle = SFSymbol(rawValue: "v.circle")
+    static let vCircle = SFSymbol(systemName: "v.circle")
 
     /// 􀀯
-    static let vCircleFill = SFSymbol(rawValue: "v.circle.fill")
+    static let vCircleFill = SFSymbol(systemName: "v.circle.fill")
 
     /// 􀂾
-    static let vSquare = SFSymbol(rawValue: "v.square")
+    static let vSquare = SFSymbol(systemName: "v.square")
 
     /// 􀂿
-    static let vSquareFill = SFSymbol(rawValue: "v.square.fill")
+    static let vSquareFill = SFSymbol(systemName: "v.square.fill")
 
     /// 􀍉
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
-    static let video = SFSymbol(rawValue: "video")
+    static let video = SFSymbol(systemName: "video")
 
     /// 􀜮
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
-    static let videoBadgePlus = SFSymbol(rawValue: "video.badge.plus")
+    static let videoBadgePlus = SFSymbol(systemName: "video.badge.plus")
 
     /// 􀜯
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
@@ -5075,219 +5075,219 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "videoFillBadgePlus")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "videoFillBadgePlus")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "videoFillBadgePlus")
-    static let videoBadgePlusFill = SFSymbol(rawValue: "video.badge.plus.fill")
+    static let videoBadgePlusFill = SFSymbol(systemName: "video.badge.plus.fill")
 
     /// 􀍋
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
-    static let videoCircle = SFSymbol(rawValue: "video.circle")
+    static let videoCircle = SFSymbol(systemName: "video.circle")
 
     /// 􀍌
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
-    static let videoCircleFill = SFSymbol(rawValue: "video.circle.fill")
+    static let videoCircleFill = SFSymbol(systemName: "video.circle.fill")
 
     /// 􀍊
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
-    static let videoFill = SFSymbol(rawValue: "video.fill")
+    static let videoFill = SFSymbol(systemName: "video.fill")
 
     /// 􀍍
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
-    static let videoSlash = SFSymbol(rawValue: "video.slash")
+    static let videoSlash = SFSymbol(systemName: "video.slash")
 
     /// 􀍎
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
-    static let videoSlashFill = SFSymbol(rawValue: "video.slash.fill")
+    static let videoSlashFill = SFSymbol(systemName: "video.slash.fill")
 
     /// 􀅙
-    static let view2d = SFSymbol(rawValue: "view.2d")
+    static let view2d = SFSymbol(systemName: "view.2d")
 
     /// 􀅪
-    static let view3d = SFSymbol(rawValue: "view.3d")
+    static let view3d = SFSymbol(systemName: "view.3d")
 
     /// 􀎹
-    static let viewfinder = SFSymbol(rawValue: "viewfinder")
+    static let viewfinder = SFSymbol(systemName: "viewfinder")
 
     /// 􀎿
-    static let viewfinderCircle = SFSymbol(rawValue: "viewfinder.circle")
+    static let viewfinderCircle = SFSymbol(systemName: "viewfinder.circle")
 
     /// 􀏀
-    static let viewfinderCircleFill = SFSymbol(rawValue: "viewfinder.circle.fill")
+    static let viewfinderCircleFill = SFSymbol(systemName: "viewfinder.circle.fill")
 
     /// 􀀰
-    static let wCircle = SFSymbol(rawValue: "w.circle")
+    static let wCircle = SFSymbol(systemName: "w.circle")
 
     /// 􀀱
-    static let wCircleFill = SFSymbol(rawValue: "w.circle.fill")
+    static let wCircleFill = SFSymbol(systemName: "w.circle.fill")
 
     /// 􀃀
-    static let wSquare = SFSymbol(rawValue: "w.square")
+    static let wSquare = SFSymbol(systemName: "w.square")
 
     /// 􀃁
-    static let wSquareFill = SFSymbol(rawValue: "w.square.fill")
+    static let wSquareFill = SFSymbol(systemName: "w.square.fill")
 
     /// 􀍱
-    static let wandAndRays = SFSymbol(rawValue: "wand.and.rays")
+    static let wandAndRays = SFSymbol(systemName: "wand.and.rays")
 
     /// 􀍲
-    static let wandAndRaysInverse = SFSymbol(rawValue: "wand.and.rays.inverse")
+    static let wandAndRaysInverse = SFSymbol(systemName: "wand.and.rays.inverse")
 
     /// 􀜍
-    static let wandAndStars = SFSymbol(rawValue: "wand.and.stars")
+    static let wandAndStars = SFSymbol(systemName: "wand.and.stars")
 
     /// 􀜎
-    static let wandAndStarsInverse = SFSymbol(rawValue: "wand.and.stars.inverse")
+    static let wandAndStarsInverse = SFSymbol(systemName: "wand.and.stars.inverse")
 
     /// 􀙫
-    static let waveform = SFSymbol(rawValue: "waveform")
+    static let waveform = SFSymbol(systemName: "waveform")
 
     /// 􀞈
-    static let waveformCircle = SFSymbol(rawValue: "waveform.circle")
+    static let waveformCircle = SFSymbol(systemName: "waveform.circle")
 
     /// 􀞉
-    static let waveformCircleFill = SFSymbol(rawValue: "waveform.circle.fill")
+    static let waveformCircleFill = SFSymbol(systemName: "waveform.circle.fill")
 
     /// 􀑃
-    static let waveformPath = SFSymbol(rawValue: "waveform.path")
+    static let waveformPath = SFSymbol(systemName: "waveform.path")
 
     /// 􀑅
-    static let waveformPathBadgeMinus = SFSymbol(rawValue: "waveform.path.badge.minus")
+    static let waveformPathBadgeMinus = SFSymbol(systemName: "waveform.path.badge.minus")
 
     /// 􀑄
-    static let waveformPathBadgePlus = SFSymbol(rawValue: "waveform.path.badge.plus")
+    static let waveformPathBadgePlus = SFSymbol(systemName: "waveform.path.badge.plus")
 
     /// 􀜟
-    static let waveformPathEcg = SFSymbol(rawValue: "waveform.path.ecg")
+    static let waveformPathEcg = SFSymbol(systemName: "waveform.path.ecg")
 
     /// 􀙇
-    static let wifi = SFSymbol(rawValue: "wifi")
+    static let wifi = SFSymbol(systemName: "wifi")
 
     /// 􀙥
-    static let wifiExclamationmark = SFSymbol(rawValue: "wifi.exclamationmark")
+    static let wifiExclamationmark = SFSymbol(systemName: "wifi.exclamationmark")
 
     /// 􀙈
-    static let wifiSlash = SFSymbol(rawValue: "wifi.slash")
+    static let wifiSlash = SFSymbol(systemName: "wifi.slash")
 
     /// 􀇤
-    static let wind = SFSymbol(rawValue: "wind")
+    static let wind = SFSymbol(systemName: "wind")
 
     /// 􀇦
-    static let windSnow = SFSymbol(rawValue: "wind.snow")
+    static let windSnow = SFSymbol(systemName: "wind.snow")
 
     /// 􀖵
-    static let wonsignCircle = SFSymbol(rawValue: "wonsign.circle")
+    static let wonsignCircle = SFSymbol(systemName: "wonsign.circle")
 
     /// 􀖶
-    static let wonsignCircleFill = SFSymbol(rawValue: "wonsign.circle.fill")
+    static let wonsignCircleFill = SFSymbol(systemName: "wonsign.circle.fill")
 
     /// 􀗵
-    static let wonsignSquare = SFSymbol(rawValue: "wonsign.square")
+    static let wonsignSquare = SFSymbol(systemName: "wonsign.square")
 
     /// 􀗶
-    static let wonsignSquareFill = SFSymbol(rawValue: "wonsign.square.fill")
+    static let wonsignSquareFill = SFSymbol(systemName: "wonsign.square.fill")
 
     /// 􀎕
-    static let wrench = SFSymbol(rawValue: "wrench")
+    static let wrench = SFSymbol(systemName: "wrench")
 
     /// 􀎖
-    static let wrenchFill = SFSymbol(rawValue: "wrench.fill")
+    static let wrenchFill = SFSymbol(systemName: "wrench.fill")
 
     /// 􀀲
-    static let xCircle = SFSymbol(rawValue: "x.circle")
+    static let xCircle = SFSymbol(systemName: "x.circle")
 
     /// 􀀳
-    static let xCircleFill = SFSymbol(rawValue: "x.circle.fill")
+    static let xCircleFill = SFSymbol(systemName: "x.circle.fill")
 
     /// 􀃂
-    static let xSquare = SFSymbol(rawValue: "x.square")
+    static let xSquare = SFSymbol(systemName: "x.square")
 
     /// 􀃃
-    static let xSquareFill = SFSymbol(rawValue: "x.square.fill")
+    static let xSquareFill = SFSymbol(systemName: "x.square.fill")
 
     /// 􀓪
-    static let xSquareroot = SFSymbol(rawValue: "x.squareroot")
+    static let xSquareroot = SFSymbol(systemName: "x.squareroot")
 
     /// 􀆄
-    static let xmark = SFSymbol(rawValue: "xmark")
+    static let xmark = SFSymbol(systemName: "xmark")
 
     /// 􀁠
-    static let xmarkCircle = SFSymbol(rawValue: "xmark.circle")
+    static let xmarkCircle = SFSymbol(systemName: "xmark.circle")
 
     /// 􀁡
-    static let xmarkCircleFill = SFSymbol(rawValue: "xmark.circle.fill")
+    static let xmarkCircleFill = SFSymbol(systemName: "xmark.circle.fill")
 
     /// 􀌓
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let xmarkIcloud = SFSymbol(rawValue: "xmark.icloud")
+    static let xmarkIcloud = SFSymbol(systemName: "xmark.icloud")
 
     /// 􀌔
     /// ⚠️ This symbol can refer only to Apple's iCloud service.
-    static let xmarkIcloudFill = SFSymbol(rawValue: "xmark.icloud.fill")
+    static let xmarkIcloudFill = SFSymbol(systemName: "xmark.icloud.fill")
 
     /// 􀒉
-    static let xmarkOctagon = SFSymbol(rawValue: "xmark.octagon")
+    static let xmarkOctagon = SFSymbol(systemName: "xmark.octagon")
 
     /// 􀒊
-    static let xmarkOctagonFill = SFSymbol(rawValue: "xmark.octagon.fill")
+    static let xmarkOctagonFill = SFSymbol(systemName: "xmark.octagon.fill")
 
     /// 􀏍
-    static let xmarkRectangle = SFSymbol(rawValue: "xmark.rectangle")
+    static let xmarkRectangle = SFSymbol(systemName: "xmark.rectangle")
 
     /// 􀏎
-    static let xmarkRectangleFill = SFSymbol(rawValue: "xmark.rectangle.fill")
+    static let xmarkRectangleFill = SFSymbol(systemName: "xmark.rectangle.fill")
 
     /// 􀇼
-    static let xmarkSeal = SFSymbol(rawValue: "xmark.seal")
+    static let xmarkSeal = SFSymbol(systemName: "xmark.seal")
 
     /// 􀇽
-    static let xmarkSealFill = SFSymbol(rawValue: "xmark.seal.fill")
+    static let xmarkSealFill = SFSymbol(systemName: "xmark.seal.fill")
 
     /// 􀞝
-    static let xmarkShield = SFSymbol(rawValue: "xmark.shield")
+    static let xmarkShield = SFSymbol(systemName: "xmark.shield")
 
     /// 􀞞
-    static let xmarkShieldFill = SFSymbol(rawValue: "xmark.shield.fill")
+    static let xmarkShieldFill = SFSymbol(systemName: "xmark.shield.fill")
 
     /// 􀃰
-    static let xmarkSquare = SFSymbol(rawValue: "xmark.square")
+    static let xmarkSquare = SFSymbol(systemName: "xmark.square")
 
     /// 􀃱
-    static let xmarkSquareFill = SFSymbol(rawValue: "xmark.square.fill")
+    static let xmarkSquareFill = SFSymbol(systemName: "xmark.square.fill")
 
     /// 􀀴
-    static let yCircle = SFSymbol(rawValue: "y.circle")
+    static let yCircle = SFSymbol(systemName: "y.circle")
 
     /// 􀀵
-    static let yCircleFill = SFSymbol(rawValue: "y.circle.fill")
+    static let yCircleFill = SFSymbol(systemName: "y.circle.fill")
 
     /// 􀃄
-    static let ySquare = SFSymbol(rawValue: "y.square")
+    static let ySquare = SFSymbol(systemName: "y.square")
 
     /// 􀃅
-    static let ySquareFill = SFSymbol(rawValue: "y.square.fill")
+    static let ySquareFill = SFSymbol(systemName: "y.square.fill")
 
     /// 􀖛
-    static let yensignCircle = SFSymbol(rawValue: "yensign.circle")
+    static let yensignCircle = SFSymbol(systemName: "yensign.circle")
 
     /// 􀖜
-    static let yensignCircleFill = SFSymbol(rawValue: "yensign.circle.fill")
+    static let yensignCircleFill = SFSymbol(systemName: "yensign.circle.fill")
 
     /// 􀗛
-    static let yensignSquare = SFSymbol(rawValue: "yensign.square")
+    static let yensignSquare = SFSymbol(systemName: "yensign.square")
 
     /// 􀗜
-    static let yensignSquareFill = SFSymbol(rawValue: "yensign.square.fill")
+    static let yensignSquareFill = SFSymbol(systemName: "yensign.square.fill")
 
     /// 􀀶
-    static let zCircle = SFSymbol(rawValue: "z.circle")
+    static let zCircle = SFSymbol(systemName: "z.circle")
 
     /// 􀀷
-    static let zCircleFill = SFSymbol(rawValue: "z.circle.fill")
+    static let zCircleFill = SFSymbol(systemName: "z.circle.fill")
 
     /// 􀃆
-    static let zSquare = SFSymbol(rawValue: "z.square")
+    static let zSquare = SFSymbol(systemName: "z.square")
 
     /// 􀃇
-    static let zSquareFill = SFSymbol(rawValue: "z.square.fill")
+    static let zSquareFill = SFSymbol(systemName: "z.square.fill")
 
     /// 􀖃
-    static let zzz = SFSymbol(rawValue: "zzz")
+    static let zzz = SFSymbol(systemName: "zzz")
 }
