@@ -106,6 +106,18 @@ for scannedSymbol in symbolManifest {
     }
 }
 
+func localizationsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>] {
+    let toMerge: [Availability: Set<String>]
+    switch symbol.type {
+        case .replaced(let newerSymbol):
+            toMerge = symbols.first { $0.name == newerSymbol.name }!.availableLocalizations
+        case .replacement(let originalSymbol):
+            toMerge = symbols.first { $0.name == originalSymbol.name }!.availableLocalizations
+        default: toMerge = [:]
+    }
+    return symbol.availableLocalizations.merging(toMerge) { $0.union($1) }
+}
+
 // MARK: - Step 3: CODE GENERATION
 
 let symbolToCode: (Symbol) -> String = { symbol in
@@ -114,7 +126,7 @@ let symbolToCode: (Symbol) -> String = { symbol in
 
     // Generate localization docs based on the assumption that localizations don't get removed
     var handledLocalizations: Set<String> = .init()
-    for (availability, localizations) in symbol.availableLocalizations.sorted(by: { $0.0 > $1.0 }) {
+    for (availability, localizations) in localizationsOfAllVersions(of: symbol).sorted(by: { $0.0 > $1.0 }) {
         let newLocalizations = localizations.subtracting(handledLocalizations)
         if !newLocalizations.isEmpty {
             handledLocalizations.formUnion(newLocalizations)

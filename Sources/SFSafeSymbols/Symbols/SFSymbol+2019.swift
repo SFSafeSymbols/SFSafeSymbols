@@ -776,6 +776,7 @@ public extension SFSymbol {
     static let _9SquareFill = SFSymbol(systemName: "9.square.fill")
 
     /// 􀅏
+    /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
     @available(iOS, introduced: 13.0, deprecated: 14.2, renamed: "character")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "character")
     @available(tvOS, introduced: 13.0, deprecated: 14.2, renamed: "character")
@@ -3802,6 +3803,7 @@ public extension SFSymbol {
     static let pencil = SFSymbol(systemName: "pencil")
 
     /// 􀈏
+    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "rectangleAndPencilAndEllipsis")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "rectangleAndPencilAndEllipsis")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "rectangleAndPencilAndEllipsis")
