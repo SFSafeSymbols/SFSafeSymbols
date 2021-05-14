@@ -780,7 +780,13 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "character")
     @available(tvOS, introduced: 13.0, deprecated: 14.2, renamed: "character")
     @available(watchOS, introduced: 6.0, deprecated: 7.1, renamed: "character")
-    static let a = SFSymbol(systemName: "a")
+    static let a: SFSymbol = {
+        if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *) {
+            return SFSymbol(systemName: "character")
+        } else {
+            return SFSymbol(systemName: "a")
+        }
+    }()
 
     /// 􀀄
     static let aCircle = SFSymbol(systemName: "a.circle")
@@ -862,21 +868,39 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2Circlepath")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2Circlepath")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2Circlepath")
-    static let arrow2Circlepath = SFSymbol(systemName: "arrow.2.circlepath")
+    static let arrow2Circlepath: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "arrow.triangle.2.circlepath")
+        } else {
+            return SFSymbol(systemName: "arrow.2.circlepath")
+        }
+    }()
 
     /// 􀖊
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircle")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCircle")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircle")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCircle")
-    static let arrow2CirclepathCircle = SFSymbol(systemName: "arrow.2.circlepath.circle")
+    static let arrow2CirclepathCircle: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "arrow.triangle.2.circlepath.circle")
+        } else {
+            return SFSymbol(systemName: "arrow.2.circlepath.circle")
+        }
+    }()
 
     /// 􀖋
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircleFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCircleFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCircleFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCircleFill")
-    static let arrow2CirclepathCircleFill = SFSymbol(systemName: "arrow.2.circlepath.circle.fill")
+    static let arrow2CirclepathCircleFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "arrow.triangle.2.circlepath.circle.fill")
+        } else {
+            return SFSymbol(systemName: "arrow.2.circlepath.circle.fill")
+        }
+    }()
 
     /// 􀅌
     static let arrow2Squarepath = SFSymbol(systemName: "arrow.2.squarepath")
@@ -889,7 +913,13 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleBranch")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleBranch")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleBranch")
-    static let arrowBranch = SFSymbol(systemName: "arrow.branch")
+    static let arrowBranch: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "arrow.triangle.branch")
+        } else {
+            return SFSymbol(systemName: "arrow.branch")
+        }
+    }()
 
     /// 􀅈
     static let arrowClockwise = SFSymbol(systemName: "arrow.clockwise")
@@ -1034,7 +1064,13 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleMerge")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleMerge")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleMerge")
-    static let arrowMerge = SFSymbol(systemName: "arrow.merge")
+    static let arrowMerge: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "arrow.triangle.merge")
+        } else {
+            return SFSymbol(systemName: "arrow.merge")
+        }
+    }()
 
     /// 􀄫
     static let arrowRight = SFSymbol(systemName: "arrow.right")
@@ -1044,35 +1080,65 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRight")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRight")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRight")
-    static let arrowRightArrowLeft = SFSymbol(systemName: "arrow.right.arrow.left")
+    static let arrowRightArrowLeft: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "arrow.left.arrow.right")
+        } else {
+            return SFSymbol(systemName: "arrow.right.arrow.left")
+        }
+    }()
 
     /// 􀂀
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircle")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightCircle")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircle")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightCircle")
-    static let arrowRightArrowLeftCircle = SFSymbol(systemName: "arrow.right.arrow.left.circle")
+    static let arrowRightArrowLeftCircle: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "arrow.left.arrow.right.circle")
+        } else {
+            return SFSymbol(systemName: "arrow.right.arrow.left.circle")
+        }
+    }()
 
     /// 􀂁
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircleFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightCircleFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightCircleFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightCircleFill")
-    static let arrowRightArrowLeftCircleFill = SFSymbol(systemName: "arrow.right.arrow.left.circle.fill")
+    static let arrowRightArrowLeftCircleFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "arrow.left.arrow.right.circle.fill")
+        } else {
+            return SFSymbol(systemName: "arrow.right.arrow.left.circle.fill")
+        }
+    }()
 
     /// 􀄐
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquare")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightSquare")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquare")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightSquare")
-    static let arrowRightArrowLeftSquare = SFSymbol(systemName: "arrow.right.arrow.left.square")
+    static let arrowRightArrowLeftSquare: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "arrow.left.arrow.right.square")
+        } else {
+            return SFSymbol(systemName: "arrow.right.arrow.left.square")
+        }
+    }()
 
     /// 􀄑
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquareFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftArrowRightSquareFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftArrowRightSquareFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftArrowRightSquareFill")
-    static let arrowRightArrowLeftSquareFill = SFSymbol(systemName: "arrow.right.arrow.left.square.fill")
+    static let arrowRightArrowLeftSquareFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "arrow.left.arrow.right.square.fill")
+        } else {
+            return SFSymbol(systemName: "arrow.right.arrow.left.square.fill")
+        }
+    }()
 
     /// 􀁼
     static let arrowRightCircle = SFSymbol(systemName: "arrow.right.circle")
@@ -1097,7 +1163,13 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleSwap")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleSwap")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleSwap")
-    static let arrowSwap = SFSymbol(systemName: "arrow.swap")
+    static let arrowSwap: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "arrow.triangle.swap")
+        } else {
+            return SFSymbol(systemName: "arrow.swap")
+        }
+    }()
 
     /// 􀄴
     static let arrowTurnDownLeft = SFSymbol(systemName: "arrow.turn.down.left")
@@ -1206,14 +1278,26 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleTurnUpRightDiamond")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamond")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleTurnUpRightDiamond")
-    static let arrowUpRightDiamond = SFSymbol(systemName: "arrow.up.right.diamond")
+    static let arrowUpRightDiamond: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "arrow.triangle.turn.up.right.diamond")
+        } else {
+            return SFSymbol(systemName: "arrow.up.right.diamond")
+        }
+    }()
 
     /// 􀙟
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangleTurnUpRightDiamondFill")
-    static let arrowUpRightDiamondFill = SFSymbol(systemName: "arrow.up.right.diamond.fill")
+    static let arrowUpRightDiamondFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "arrow.triangle.turn.up.right.diamond.fill")
+        } else {
+            return SFSymbol(systemName: "arrow.up.right.diamond.fill")
+        }
+    }()
 
     /// 􀄔
     static let arrowUpRightSquare = SFSymbol(systemName: "arrow.up.right.square")
@@ -1552,14 +1636,26 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "xmarkBin")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBin")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "xmarkBin")
-    static let binXmark = SFSymbol(systemName: "bin.xmark")
+    static let binXmark: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "xmark.bin")
+        } else {
+            return SFSymbol(systemName: "bin.xmark")
+        }
+    }()
 
     /// 􀈲
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBinFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "xmarkBinFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "xmarkBinFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "xmarkBinFill")
-    static let binXmarkFill = SFSymbol(systemName: "bin.xmark.fill")
+    static let binXmarkFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "xmark.bin.fill")
+        } else {
+            return SFSymbol(systemName: "bin.xmark.fill")
+        }
+    }()
 
     /// 􀗕
     static let bitcoinsignCircle = SFSymbol(systemName: "bitcoinsign.circle")
@@ -1739,14 +1835,26 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCamera")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCamera")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCamera")
-    static let cameraRotate = SFSymbol(systemName: "camera.rotate")
+    static let cameraRotate: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "arrow.triangle.2.circlepath.camera")
+        } else {
+            return SFSymbol(systemName: "camera.rotate")
+        }
+    }()
 
     /// 􀌣
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCameraFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowTriangle2CirclepathCameraFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowTriangle2CirclepathCameraFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowTriangle2CirclepathCameraFill")
-    static let cameraRotateFill = SFSymbol(systemName: "camera.rotate.fill")
+    static let cameraRotateFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "arrow.triangle.2.circlepath.camera.fill")
+        } else {
+            return SFSymbol(systemName: "camera.rotate.fill")
+        }
+    }()
 
     /// 􀎼
     static let cameraViewfinder = SFSymbol(systemName: "camera.viewfinder")
@@ -1954,7 +2062,13 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "sleep")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "sleep")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "sleep")
-    static let circleBottomthirdSplit = SFSymbol(systemName: "circle.bottomthird.split")
+    static let circleBottomthirdSplit: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "sleep")
+        } else {
+            return SFSymbol(systemName: "circle.bottomthird.split")
+        }
+    }()
 
     /// 􀀁
     static let circleFill = SFSymbol(systemName: "circle.fill")
@@ -1976,14 +2090,26 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "circlesHexagongrid")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongrid")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "circlesHexagongrid")
-    static let circleGridHex = SFSymbol(systemName: "circle.grid.hex")
+    static let circleGridHex: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "circles.hexagongrid")
+        } else {
+            return SFSymbol(systemName: "circle.grid.hex")
+        }
+    }()
 
     /// 􀙣
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongridFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "circlesHexagongridFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "circlesHexagongridFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "circlesHexagongridFill")
-    static let circleGridHexFill = SFSymbol(systemName: "circle.grid.hex.fill")
+    static let circleGridHexFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "circles.hexagongrid.fill")
+        } else {
+            return SFSymbol(systemName: "circle.grid.hex.fill")
+        }
+    }()
 
     /// 􀀂
     static let circleLefthalfFill = SFSymbol(systemName: "circle.lefthalf.fill")
@@ -2149,14 +2275,26 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shippingbox")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingbox")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shippingbox")
-    static let cubeBox = SFSymbol(systemName: "cube.box")
+    static let cubeBox: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "shippingbox")
+        } else {
+            return SFSymbol(systemName: "cube.box")
+        }
+    }()
 
     /// 􀐛
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingboxFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shippingboxFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shippingboxFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shippingboxFill")
-    static let cubeBoxFill = SFSymbol(systemName: "cube.box.fill")
+    static let cubeBoxFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "shippingbox.fill")
+        } else {
+            return SFSymbol(systemName: "cube.box.fill")
+        }
+    }()
 
     /// 􀐙
     static let cubeFill = SFSymbol(systemName: "cube.fill")
@@ -2166,7 +2304,13 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "cursorarrowRays")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "cursorarrowRays")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "cursorarrowRays")
-    static let cursorRays = SFSymbol(systemName: "cursor.rays")
+    static let cursorRays: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "cursorarrow.rays")
+        } else {
+            return SFSymbol(systemName: "cursor.rays")
+        }
+    }()
 
     /// 􀀊
     static let dCircle = SFSymbol(systemName: "d.circle")
@@ -2206,14 +2350,26 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "dialMin")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMin")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "dialMin")
-    static let dial = SFSymbol(systemName: "dial")
+    static let dial: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "dial.min")
+        } else {
+            return SFSymbol(systemName: "dial")
+        }
+    }()
 
     /// 􀍻
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMinFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "dialMinFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "dialMinFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "dialMinFill")
-    static let dialFill = SFSymbol(systemName: "dial.fill")
+    static let dialFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "dial.min.fill")
+        } else {
+            return SFSymbol(systemName: "dial.fill")
+        }
+    }()
 
     /// 􀅿
     static let divide = SFSymbol(systemName: "divide")
@@ -2345,14 +2501,26 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "ellipsisBubble")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "ellipsisBubble")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "ellipsisBubble")
-    static let ellipsesBubble = SFSymbol(systemName: "ellipses.bubble")
+    static let ellipsesBubble: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "ellipsis.bubble")
+        } else {
+            return SFSymbol(systemName: "ellipses.bubble")
+        }
+    }()
 
     /// 􀕻
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "ellipsisBubbleFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "ellipsisBubbleFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "ellipsisBubbleFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "ellipsisBubbleFill")
-    static let ellipsesBubbleFill = SFSymbol(systemName: "ellipses.bubble.fill")
+    static let ellipsesBubbleFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "ellipsis.bubble.fill")
+        } else {
+            return SFSymbol(systemName: "ellipses.bubble.fill")
+        }
+    }()
 
     /// 􀍠
     static let ellipsis = SFSymbol(systemName: "ellipsis")
@@ -2554,14 +2722,26 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
-    static let flipHorizontal = SFSymbol(systemName: "flip.horizontal")
+    static let flipHorizontal: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "arrow.left.and.right.righttriangle.left.righttriangle.right")
+        } else {
+            return SFSymbol(systemName: "flip.horizontal")
+        }
+    }()
 
     /// 􀞓
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
-    static let flipHorizontalFill = SFSymbol(systemName: "flip.horizontal.fill")
+    static let flipHorizontalFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "arrow.left.and.right.righttriangle.left.righttriangle.right.fill")
+        } else {
+            return SFSymbol(systemName: "flip.horizontal.fill")
+        }
+    }()
 
     /// 􀖡
     static let florinsignCircle = SFSymbol(systemName: "florinsign.circle")
@@ -3090,7 +3270,13 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "leafArrowTriangleCirclepath")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "leafArrowTriangleCirclepath")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "leafArrowTriangleCirclepath")
-    static let leafArrowCirclepath = SFSymbol(systemName: "leaf.arrow.circlepath")
+    static let leafArrowCirclepath: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "leaf.arrow.triangle.circlepath")
+        } else {
+            return SFSymbol(systemName: "leaf.arrow.circlepath")
+        }
+    }()
 
     /// 􀆁
     static let lessthan = SFSymbol(systemName: "lessthan")
@@ -3455,14 +3641,26 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "musicNoteHouse")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouse")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "musicNoteHouse")
-    static let musicHouse = SFSymbol(systemName: "music.house")
+    static let musicHouse: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "music.note.house")
+        } else {
+            return SFSymbol(systemName: "music.house")
+        }
+    }()
 
     /// 􀒽
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouseFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "musicNoteHouseFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "musicNoteHouseFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "musicNoteHouseFill")
-    static let musicHouseFill = SFSymbol(systemName: "music.house.fill")
+    static let musicHouseFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "music.note.house.fill")
+        } else {
+            return SFSymbol(systemName: "music.house.fill")
+        }
+    }()
 
     /// 􀑫
     static let musicMic = SFSymbol(systemName: "music.mic")
@@ -3574,7 +3772,13 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "paragraphsign")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "paragraphsign")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "paragraphsign")
-    static let paragraph = SFSymbol(systemName: "paragraph")
+    static let paragraph: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "paragraphsign")
+        } else {
+            return SFSymbol(systemName: "paragraph")
+        }
+    }()
 
     /// 􀊅
     static let pause = SFSymbol(systemName: "pause")
@@ -3602,7 +3806,13 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "rectangleAndPencilAndEllipsis")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "rectangleAndPencilAndEllipsis")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "rectangleAndPencilAndEllipsis")
-    static let pencilAndEllipsisRectangle = SFSymbol(systemName: "pencil.and.ellipsis.rectangle")
+    static let pencilAndEllipsisRectangle: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "rectangle.and.pencil.and.ellipsis")
+        } else {
+            return SFSymbol(systemName: "pencil.and.ellipsis.rectangle")
+        }
+    }()
 
     /// 􀈐
     static let pencilAndOutline = SFSymbol(systemName: "pencil.and.outline")
@@ -3665,7 +3875,13 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "personFillBadgeMinus")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "personFillBadgeMinus")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personFillBadgeMinus")
-    static let personBadgeMinusFill = SFSymbol(systemName: "person.badge.minus.fill")
+    static let personBadgeMinusFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "person.fill.badge.minus")
+        } else {
+            return SFSymbol(systemName: "person.badge.minus.fill")
+        }
+    }()
 
     /// 􀜕
     static let personBadgePlus = SFSymbol(systemName: "person.badge.plus")
@@ -3675,7 +3891,13 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "personFillBadgePlus")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "personFillBadgePlus")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personFillBadgePlus")
-    static let personBadgePlusFill = SFSymbol(systemName: "person.badge.plus.fill")
+    static let personBadgePlusFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "person.fill.badge.plus")
+        } else {
+            return SFSymbol(systemName: "person.badge.plus.fill")
+        }
+    }()
 
     /// 􀓣
     static let personCircle = SFSymbol(systemName: "person.circle")
@@ -3694,7 +3916,13 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "personCropCircleBadgeExclamationmark")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "personCropCircleBadgeExclamationmark")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personCropCircleBadgeExclamationmark")
-    static let personCropCircleBadgeExclam = SFSymbol(systemName: "person.crop.circle.badge.exclam")
+    static let personCropCircleBadgeExclam: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "person.crop.circle.badge.exclamationmark")
+        } else {
+            return SFSymbol(systemName: "person.crop.circle.badge.exclam")
+        }
+    }()
 
     /// 􀉱
     static let personCropCircleBadgeMinus = SFSymbol(systemName: "person.crop.circle.badge.minus")
@@ -3716,7 +3944,13 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "personCropCircleFillBadgeExclamationmark")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "personCropCircleFillBadgeExclamationmark")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "personCropCircleFillBadgeExclamationmark")
-    static let personCropCircleFillBadgeExclam = SFSymbol(systemName: "person.crop.circle.fill.badge.exclam")
+    static let personCropCircleFillBadgeExclam: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "person.crop.circle.fill.badge.exclamationmark")
+        } else {
+            return SFSymbol(systemName: "person.crop.circle.fill.badge.exclam")
+        }
+    }()
 
     /// 􀉲
     static let personCropCircleFillBadgeMinus = SFSymbol(systemName: "person.crop.circle.fill.badge.minus")
@@ -4046,14 +4280,26 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "wave3Left")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Left")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "wave3Left")
-    static let radiowavesLeft = SFSymbol(systemName: "radiowaves.left")
+    static let radiowavesLeft: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "wave.3.left")
+        } else {
+            return SFSymbol(systemName: "radiowaves.left")
+        }
+    }()
 
     /// 􀙲
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Right")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "wave3Right")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "wave3Right")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "wave3Right")
-    static let radiowavesRight = SFSymbol(systemName: "radiowaves.right")
+    static let radiowavesRight: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "wave.3.right")
+        } else {
+            return SFSymbol(systemName: "radiowaves.right")
+        }
+    }()
 
     /// 􀇯
     static let rays = SFSymbol(systemName: "rays")
@@ -4093,7 +4339,13 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "dockRectangle")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "dockRectangle")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "dockRectangle")
-    static let rectangleDock = SFSymbol(systemName: "rectangle.dock")
+    static let rectangleDock: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "dock.rectangle")
+        } else {
+            return SFSymbol(systemName: "rectangle.dock")
+        }
+    }()
 
     /// 􀐸
     static let rectangleExpandVertical = SFSymbol(systemName: "rectangle.expand.vertical")
@@ -4273,28 +4525,52 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shekelsignCircle")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignCircle")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shekelsignCircle")
-    static let sheqelsignCircle = SFSymbol(systemName: "sheqelsign.circle")
+    static let sheqelsignCircle: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "shekelsign.circle")
+        } else {
+            return SFSymbol(systemName: "sheqelsign.circle")
+        }
+    }()
 
     /// 􀗌
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignCircleFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shekelsignCircleFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignCircleFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shekelsignCircleFill")
-    static let sheqelsignCircleFill = SFSymbol(systemName: "sheqelsign.circle.fill")
+    static let sheqelsignCircleFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "shekelsign.circle.fill")
+        } else {
+            return SFSymbol(systemName: "sheqelsign.circle.fill")
+        }
+    }()
 
     /// 􀘋
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignSquare")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shekelsignSquare")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignSquare")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shekelsignSquare")
-    static let sheqelsignSquare = SFSymbol(systemName: "sheqelsign.square")
+    static let sheqelsignSquare: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "shekelsign.square")
+        } else {
+            return SFSymbol(systemName: "sheqelsign.square")
+        }
+    }()
 
     /// 􀘌
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignSquareFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "shekelsignSquareFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "shekelsignSquareFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "shekelsignSquareFill")
-    static let sheqelsignSquareFill = SFSymbol(systemName: "sheqelsign.square.fill")
+    static let sheqelsignSquareFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "shekelsign.square.fill")
+        } else {
+            return SFSymbol(systemName: "sheqelsign.square.fill")
+        }
+    }()
 
     /// 􀙦
     static let shield = SFSymbol(systemName: "shield")
@@ -4365,14 +4641,26 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "faceSmiling")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmiling")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "faceSmiling")
-    static let smiley = SFSymbol(systemName: "smiley")
+    static let smiley: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "face.smiling")
+        } else {
+            return SFSymbol(systemName: "smiley")
+        }
+    }()
 
     /// 􀙌
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmilingFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "faceSmilingFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmilingFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "faceSmilingFill")
-    static let smileyFill = SFSymbol(systemName: "smiley.fill")
+    static let smileyFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "face.smiling.fill")
+        } else {
+            return SFSymbol(systemName: "smiley.fill")
+        }
+    }()
 
     /// 􀇢
     static let smoke = SFSymbol(systemName: "smoke")
@@ -4394,42 +4682,78 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave1")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave1")
-    static let speaker1 = SFSymbol(systemName: "speaker.1")
+    static let speaker1: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "speaker.wave.1")
+        } else {
+            return SFSymbol(systemName: "speaker.1")
+        }
+    }()
 
     /// 􀊥
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1Fill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave1Fill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave1Fill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave1Fill")
-    static let speaker1Fill = SFSymbol(systemName: "speaker.1.fill")
+    static let speaker1Fill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "speaker.wave.1.fill")
+        } else {
+            return SFSymbol(systemName: "speaker.1.fill")
+        }
+    }()
 
     /// 􀊦
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave2")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave2")
-    static let speaker2 = SFSymbol(systemName: "speaker.2")
+    static let speaker2: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "speaker.wave.2")
+        } else {
+            return SFSymbol(systemName: "speaker.2")
+        }
+    }()
 
     /// 􀊧
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2Fill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave2Fill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave2Fill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave2Fill")
-    static let speaker2Fill = SFSymbol(systemName: "speaker.2.fill")
+    static let speaker2Fill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "speaker.wave.2.fill")
+        } else {
+            return SFSymbol(systemName: "speaker.2.fill")
+        }
+    }()
 
     /// 􀊨
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave3")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave3")
-    static let speaker3 = SFSymbol(systemName: "speaker.3")
+    static let speaker3: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "speaker.wave.3")
+        } else {
+            return SFSymbol(systemName: "speaker.3")
+        }
+    }()
 
     /// 􀊩
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3Fill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "speakerWave3Fill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "speakerWave3Fill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "speakerWave3Fill")
-    static let speaker3Fill = SFSymbol(systemName: "speaker.3.fill")
+    static let speaker3Fill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "speaker.wave.3.fill")
+        } else {
+            return SFSymbol(systemName: "speaker.3.fill")
+        }
+    }()
 
     /// 􀊡
     static let speakerFill = SFSymbol(systemName: "speaker.fill")
@@ -4563,7 +4887,13 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "squareStack3dForwardDottedline")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "squareStack3dForwardDottedline")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "squareStack3dForwardDottedline")
-    static let squareStack3dDownDottedline = SFSymbol(systemName: "square.stack.3d.down.dottedline")
+    static let squareStack3dDownDottedline: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "square.stack.3d.forward.dottedline")
+        } else {
+            return SFSymbol(systemName: "square.stack.3d.down.dottedline")
+        }
+    }()
 
     /// 􀐜
     static let squareStack3dDownRight = SFSymbol(systemName: "square.stack.3d.down.right")
@@ -4606,7 +4936,13 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "starLeadinghalfFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "starLeadinghalfFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "starLeadinghalfFill")
-    static let starLefthalfFill = SFSymbol(systemName: "star.lefthalf.fill")
+    static let starLefthalfFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "star.leadinghalf.fill")
+        } else {
+            return SFSymbol(systemName: "star.lefthalf.fill")
+        }
+    }()
 
     /// 􀋇
     static let starSlash = SFSymbol(systemName: "star.slash")
@@ -4745,28 +5081,52 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "tablecells")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecells")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "tablecells")
-    static let table = SFSymbol(systemName: "table")
+    static let table: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "tablecells")
+        } else {
+            return SFSymbol(systemName: "table")
+        }
+    }()
 
     /// 􀏥
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsBadgeEllipsis")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "tablecellsBadgeEllipsis")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsBadgeEllipsis")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "tablecellsBadgeEllipsis")
-    static let tableBadgeMore = SFSymbol(systemName: "table.badge.more")
+    static let tableBadgeMore: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "tablecells.badge.ellipsis")
+        } else {
+            return SFSymbol(systemName: "table.badge.more")
+        }
+    }()
 
     /// 􀏦
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsBadgeEllipsisFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "tablecellsBadgeEllipsisFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsBadgeEllipsisFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "tablecellsBadgeEllipsisFill")
-    static let tableBadgeMoreFill = SFSymbol(systemName: "table.badge.more.fill")
+    static let tableBadgeMoreFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "tablecells.badge.ellipsis.fill")
+        } else {
+            return SFSymbol(systemName: "table.badge.more.fill")
+        }
+    }()
 
     /// 􀏤
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsFill")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "tablecellsFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "tablecellsFill")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "tablecellsFill")
-    static let tableFill = SFSymbol(systemName: "table.fill")
+    static let tableFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "tablecells.fill")
+        } else {
+            return SFSymbol(systemName: "table.fill")
+        }
+    }()
 
     /// 􀋡
     static let tag = SFSymbol(systemName: "tag")
@@ -5075,7 +5435,13 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "videoFillBadgePlus")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "videoFillBadgePlus")
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "videoFillBadgePlus")
-    static let videoBadgePlusFill = SFSymbol(systemName: "video.badge.plus.fill")
+    static let videoBadgePlusFill: SFSymbol = {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            return SFSymbol(systemName: "video.fill.badge.plus")
+        } else {
+            return SFSymbol(systemName: "video.badge.plus.fill")
+        }
+    }()
 
     /// 􀍋
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
@@ -5290,4 +5656,193 @@ public extension SFSymbol {
 
     /// 􀖃
     static let zzz = SFSymbol(systemName: "zzz")
+}
+
+@available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
+public extension SFSymbol {
+    /// 􀞒
+    static var arrowLeftAndRightRighttriangleLeftRighttriangleRight: SFSymbol { .flipHorizontal }
+
+    /// 􀞓
+    static var arrowLeftAndRightRighttriangleLeftRighttriangleRightFill: SFSymbol { .flipHorizontalFill }
+
+    /// 􀄭
+    static var arrowLeftArrowRight: SFSymbol { .arrowRightArrowLeft }
+
+    /// 􀂀
+    static var arrowLeftArrowRightCircle: SFSymbol { .arrowRightArrowLeftCircle }
+
+    /// 􀂁
+    static var arrowLeftArrowRightCircleFill: SFSymbol { .arrowRightArrowLeftCircleFill }
+
+    /// 􀄐
+    static var arrowLeftArrowRightSquare: SFSymbol { .arrowRightArrowLeftSquare }
+
+    /// 􀄑
+    static var arrowLeftArrowRightSquareFill: SFSymbol { .arrowRightArrowLeftSquareFill }
+
+    /// 􀊯
+    static var arrowTriangle2Circlepath: SFSymbol { .arrow2Circlepath }
+
+    /// 􀌢
+    static var arrowTriangle2CirclepathCamera: SFSymbol { .cameraRotate }
+
+    /// 􀌣
+    static var arrowTriangle2CirclepathCameraFill: SFSymbol { .cameraRotateFill }
+
+    /// 􀖊
+    static var arrowTriangle2CirclepathCircle: SFSymbol { .arrow2CirclepathCircle }
+
+    /// 􀖋
+    static var arrowTriangle2CirclepathCircleFill: SFSymbol { .arrow2CirclepathCircleFill }
+
+    /// 􀙠
+    static var arrowTriangleBranch: SFSymbol { .arrowBranch }
+
+    /// 􀖄
+    static var arrowTriangleMerge: SFSymbol { .arrowMerge }
+
+    /// 􀖅
+    static var arrowTriangleSwap: SFSymbol { .arrowSwap }
+
+    /// 􀙞
+    static var arrowTriangleTurnUpRightDiamond: SFSymbol { .arrowUpRightDiamond }
+
+    /// 􀙟
+    static var arrowTriangleTurnUpRightDiamondFill: SFSymbol { .arrowUpRightDiamondFill }
+
+    /// 􀅏
+    /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
+    static var character: SFSymbol { .a }
+
+    /// 􀙢
+    static var circlesHexagongrid: SFSymbol { .circleGridHex }
+
+    /// 􀙣
+    static var circlesHexagongridFill: SFSymbol { .circleGridHexFill }
+
+    /// 􀇰
+    static var cursorarrowRays: SFSymbol { .cursorRays }
+
+    /// 􀍺
+    static var dialMin: SFSymbol { .dial }
+
+    /// 􀍻
+    static var dialMinFill: SFSymbol { .dialFill }
+
+    /// 􀏞
+    static var dockRectangle: SFSymbol { .rectangleDock }
+
+    /// 􀕺
+    static var ellipsisBubble: SFSymbol { .ellipsesBubble }
+
+    /// 􀕻
+    static var ellipsisBubbleFill: SFSymbol { .ellipsesBubbleFill }
+
+    /// 􀎸
+    static var faceSmiling: SFSymbol { .smiley }
+
+    /// 􀙌
+    static var faceSmilingFill: SFSymbol { .smileyFill }
+
+    /// 􀙜
+    static var leafArrowTriangleCirclepath: SFSymbol { .leafArrowCirclepath }
+
+    /// 􀒼
+    static var musicNoteHouse: SFSymbol { .musicHouse }
+
+    /// 􀒽
+    static var musicNoteHouseFill: SFSymbol { .musicHouseFill }
+
+    /// 􀒆
+    static var paragraphsign: SFSymbol { .paragraph }
+
+    /// 􀉷
+    static var personCropCircleBadgeExclamationmark: SFSymbol { .personCropCircleBadgeExclam }
+
+    /// 􀉸
+    static var personCropCircleFillBadgeExclamationmark: SFSymbol { .personCropCircleFillBadgeExclam }
+
+    /// 􀜘
+    static var personFillBadgeMinus: SFSymbol { .personBadgeMinusFill }
+
+    /// 􀜖
+    static var personFillBadgePlus: SFSymbol { .personBadgePlusFill }
+
+    /// 􀈏
+    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
+    static var rectangleAndPencilAndEllipsis: SFSymbol { .pencilAndEllipsisRectangle }
+
+    /// 􀗋
+    static var shekelsignCircle: SFSymbol { .sheqelsignCircle }
+
+    /// 􀗌
+    static var shekelsignCircleFill: SFSymbol { .sheqelsignCircleFill }
+
+    /// 􀘋
+    static var shekelsignSquare: SFSymbol { .sheqelsignSquare }
+
+    /// 􀘌
+    static var shekelsignSquareFill: SFSymbol { .sheqelsignSquareFill }
+
+    /// 􀐚
+    static var shippingbox: SFSymbol { .cubeBox }
+
+    /// 􀐛
+    static var shippingboxFill: SFSymbol { .cubeBoxFill }
+
+    /// 􀜚
+    static var sleep: SFSymbol { .circleBottomthirdSplit }
+
+    /// 􀊤
+    static var speakerWave1: SFSymbol { .speaker1 }
+
+    /// 􀊥
+    static var speakerWave1Fill: SFSymbol { .speaker1Fill }
+
+    /// 􀊦
+    static var speakerWave2: SFSymbol { .speaker2 }
+
+    /// 􀊧
+    static var speakerWave2Fill: SFSymbol { .speaker2Fill }
+
+    /// 􀊨
+    static var speakerWave3: SFSymbol { .speaker3 }
+
+    /// 􀊩
+    static var speakerWave3Fill: SFSymbol { .speaker3Fill }
+
+    /// 􀐠
+    static var squareStack3dForwardDottedline: SFSymbol { .squareStack3dDownDottedline }
+
+    /// 􀋄
+    static var starLeadinghalfFill: SFSymbol { .starLefthalfFill }
+
+    /// 􀏣
+    static var tablecells: SFSymbol { .table }
+
+    /// 􀏥
+    static var tablecellsBadgeEllipsis: SFSymbol { .tableBadgeMore }
+
+    /// 􀏦
+    static var tablecellsBadgeEllipsisFill: SFSymbol { .tableBadgeMoreFill }
+
+    /// 􀏤
+    static var tablecellsFill: SFSymbol { .tableFill }
+
+    /// 􀜯
+    /// ⚠️ This symbol can refer only to Apple's FaceTime app.
+    static var videoFillBadgePlus: SFSymbol { .videoBadgePlusFill }
+
+    /// 􀙱
+    static var wave3Left: SFSymbol { .radiowavesLeft }
+
+    /// 􀙲
+    static var wave3Right: SFSymbol { .radiowavesRight }
+
+    /// 􀈱
+    static var xmarkBin: SFSymbol { .binXmark }
+
+    /// 􀈲
+    static var xmarkBinFill: SFSymbol { .binXmarkFill }
 }

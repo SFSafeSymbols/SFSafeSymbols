@@ -41,7 +41,7 @@ let symbolPreviewForName: [String: String] = Dictionary(uniqueKeysWithValues: zi
 var symbolsWherePreviewIsntAvailable: [String] = []
 
 // Remove legacy symbols
-nameAliases = nameAliases.filter { lhs, rhs in !legacyAliases.contains { $0.lhs == lhs && $0.rhs == rhs } }
+nameAliases = nameAliases.filter { lhs, _ in !legacyAliases.contains { $0.lhs == lhs } }
 
 // Merge all versions of the same symbol into one type.
 // This process takes care of merging multiple localized variants + renamed variants from previous versions
@@ -59,9 +59,14 @@ for scannedSymbol in symbolManifest {
         symbolsWherePreviewIsntAvailable.append(nameWithoutSuffix)
     }
 
-    let deprecation: ScannedSymbol? = {
-        guard let aliasName = nameAliases.first(where: { $0.lhs == nameWithoutSuffix })?.rhs else { return nil }
-        return symbolManifest.first { $0.name == aliasName }!
+    let symbolType: SymbolType = {
+        if let aliasName = nameAliases.first(where: { $0.lhs == nameWithoutSuffix })?.rhs {
+            return .replaced(by: symbolManifest.first { $0.name == aliasName }!)
+        } else if let aliasName = nameAliases.first(where: { $0.rhs == nameWithoutSuffix })?.lhs {
+            return .replacement(for: symbolManifest.first { $0.name == aliasName }!)
+        } else {
+            return .normal
+        }
     }()
 
     if let (index, existingSymbol) = (symbols.enumerated().first { $1.name == nameWithoutSuffix }) {
@@ -84,7 +89,7 @@ for scannedSymbol in symbolManifest {
             preview: existingSymbol.preview ?? preview,
             availability: [existingSymbol.availability, scannedSymbol.availability].max()!,
             availableLocalizations: availableLocalizations,
-            deprecation: existingSymbol.deprecation
+            type: existingSymbol.type
         )
     } else {
         // The symbol doesn't exist yet
@@ -95,7 +100,7 @@ for scannedSymbol in symbolManifest {
                 preview: preview,
                 availability: scannedSymbol.availability,
                 availableLocalizations: localization.flatMap { [scannedSymbol.availability: [$0]] } ?? [:],
-                deprecation: deprecation
+                type: symbolType
             )
         )
     }
@@ -105,7 +110,7 @@ for scannedSymbol in symbolManifest {
 
 let symbolToCode: (Symbol) -> String = { symbol in
     // Generate preview docs
-    var outputString = "\t/// " + (symbol.preview ?? "No preview available.")
+    var outputString = "\t/// " + (symbol.preview ?? "No preview available.") + "\n"
 
     // Generate localization docs based on the assumption that localizations don't get removed
     var handledLocalizations: Set<String> = .init()
@@ -113,38 +118,69 @@ let symbolToCode: (Symbol) -> String = { symbol in
         let newLocalizations = localizations.subtracting(handledLocalizations)
         if !newLocalizations.isEmpty {
             handledLocalizations.formUnion(newLocalizations)
-            outputString += "\n\t/// From iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS) and watchOS \(availability.watchOS) on, the following localizations are available: \(Array(newLocalizations).sorted().joined(separator: ", "))"
+            outputString += "\t/// From iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS) and watchOS \(availability.watchOS) on, the following localizations are available: \(Array(newLocalizations).sorted().joined(separator: ", "))\n"
         }
     }
 
     // Generate canOnlyReferTo docs
     if let canOnlyReferTo = symbol.canOnlyReferTo {
-        outputString += "\n\t/// ⚠️ This symbol can refer only to Apple's \(canOnlyReferTo)."
+        outputString += "\t/// ⚠️ This symbol can refer only to Apple's \(canOnlyReferTo).\n"
     }
 
     // Generate availability / deprecation specifications
-    if let (deprecation, renamedTo) = symbol.deprecation.flatMap({ ($0.availability, $0.name.toPropertyName) }) {
-        outputString += "\n\t@available(iOS, introduced: \(symbol.availability.iOS), deprecated: \(deprecation.iOS), renamed: \"\(renamedTo)\")"
-        outputString += "\n\t@available(macOS, introduced: \(symbol.availability.macOS), deprecated: \(deprecation.macOS), renamed: \"\(renamedTo)\")"
-        outputString += "\n\t@available(tvOS, introduced: \(symbol.availability.tvOS), deprecated: \(deprecation.tvOS), renamed: \"\(renamedTo)\")"
-        outputString += "\n\t@available(watchOS, introduced: \(symbol.availability.watchOS), deprecated: \(deprecation.watchOS), renamed: \"\(renamedTo)\")"
+    if case let .replaced(newerSymbol) = symbol.type {
+        let newerName = newerSymbol.name.toPropertyName
+        outputString += "\t@available(iOS, introduced: \(symbol.availability.iOS), deprecated: \(newerSymbol.availability.iOS), renamed: \"\(newerName)\")\n"
+        outputString += "\t@available(macOS, introduced: \(symbol.availability.macOS), deprecated: \(newerSymbol.availability.macOS), renamed: \"\(newerName)\")\n"
+        outputString += "\t@available(tvOS, introduced: \(symbol.availability.tvOS), deprecated: \(newerSymbol.availability.tvOS), renamed: \"\(newerName)\")\n"
+        outputString += "\t@available(watchOS, introduced: \(symbol.availability.watchOS), deprecated: \(newerSymbol.availability.watchOS), renamed: \"\(newerName)\")\n"
     }
 
     // Generate case
-    outputString += "\n\tstatic let \(symbol.propertyName) = SFSymbol(systemName: \"\(symbol.name)\")"
+    if case let .replaced(newerSymbol) = symbol.type {
+        outputString += "\tstatic let \(symbol.propertyName): SFSymbol = {\n"
+        outputString += "\t\tif #available(iOS \(newerSymbol.availability.iOS), macOS \(newerSymbol.availability.macOS), tvOS \(newerSymbol.availability.tvOS), watchOS \(newerSymbol.availability.watchOS), *) {\n"
+        outputString += "\t\t\treturn SFSymbol(systemName: \"\(newerSymbol.name)\")\n"
+        outputString += "\t\t} else {\n"
+        outputString += "\t\t\treturn SFSymbol(systemName: \"\(symbol.name)\")\n"
+        outputString += "\t\t}\n"
+        outputString += "\t}()"
+    } else if case let .replacement(originalSymbol) = symbol.type {
+        outputString += "\tstatic var \(symbol.propertyName): SFSymbol { .\(originalSymbol.name.toPropertyName) }"
+    } else {
+        outputString += "\tstatic let \(symbol.propertyName) = SFSymbol(systemName: \"\(symbol.name)\")"
+    }
 
     return outputString
 }
 
 let groupedSymbols = Dictionary(grouping: symbols, by: \.availability)
 
-let availabilityExtensions: [String] = groupedSymbols.map { availability, symbols in
+let replacements: [Symbol] = groupedSymbols.reduce(into: []){ result, dictElement in
+    result += dictElement.value.filter {
+        if case .replacement = $0.type { return true } else { return false }
+    }
+}.sorted { $0.name < $1.name }
+
+let availabilityExtensions: [String] = groupedSymbols.compactMap { availability, symbols in
     var outputString = "// Don't touch this manually, this code is generated by the SymbolsGenerator helper tool\n\n"
     outputString += "// \(availability.year) Symbols\n"
     outputString += "@available(iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS), *)\n"
     outputString += "public extension SFSymbol {\n"
-    outputString += symbols.map(symbolToCode).joined(separator: "\n\n")
+    outputString += symbols.filter {
+        if case .replacement = $0.type { return false } else { return true } // Remove replacements
+    }.map(symbolToCode).joined(separator: "\n\n")
     outputString += "\n}\n"
+    let thisYearReplacements = replacements.filter {
+        if case let .replacement(originalSymbol) = $0.type { return originalSymbol.availability == availability } else { fatalError() }
+    }
+    if !thisYearReplacements.isEmpty {
+        outputString += "\n"
+        outputString += "@available(iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS), *)\n"
+        outputString += "public extension SFSymbol {\n"
+        outputString += thisYearReplacements.map(symbolToCode).joined(separator: "\n\n")
+        outputString += "\n}\n"
+    }
     return outputString
 }
 
@@ -152,25 +188,28 @@ var caseIterableExtension: String = {
     var outputString = "// Don't touch this manually, this code is generated by the SymbolsGenerator helper tool\n\n"
     outputString += "@available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)\n"
     outputString += "extension SFSymbol: CaseIterable {\n"
-    outputString += "\tpublic static var allCases: [SFSymbol] {\n\t\t"
+    outputString += "\tpublic static var allCases: [SFSymbol] = {\n\t\t"
 
     let temp: [(Availability, [Symbol])] = groupedSymbols.keys.sorted().map { availability in
-        return (availability, symbols.filter { $0.availability >= availability })
+        let symbolsForThisAvailability = symbols.filter {
+            if case .replaced = $0.type { return false }
+            else if case let .replacement(originalSymbol) = $0.type { return originalSymbol.availability >= availability }
+            else { return $0.availability >= availability }
+        }
+        return (availability, symbolsForThisAvailability)
     }
 
     let body: String = temp.map { availability, symbols in
         var bodyString = availability.isBase ? "" : "if #available(iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS), *) "
         bodyString += "{\n"
+        bodyString += "\t\t\t// MARK: - \(availability.year)\n"
         bodyString += "\t\t\treturn [\n" + symbols.map { "\t\t\t\t.\($0.propertyName)" }.joined(separator: ",\n") + "\n\t\t\t]\n"
-
         bodyString += "\t\t}"
-
         return bodyString
     }.joined(separator: " else ")
 
     outputString += body
-    outputString += "\n\t}\n}\n"
-
+    outputString += "\n\t}()\n}\n"
     return outputString
 }()
 

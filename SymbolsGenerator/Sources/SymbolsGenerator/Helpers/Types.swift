@@ -13,10 +13,16 @@ struct Symbol {
     var preview: String?
     var availability: Availability
     var availableLocalizations: [Availability: Set<String>]
-    var deprecation: ScannedSymbol?
+    var type: SymbolType
     var propertyName: String { name.toPropertyName }
 }
 
+enum SymbolType {
+  case normal
+  case replacement(for: ScannedSymbol)
+  // TODO: `replaced(by: [ScannedSymbol])` to support multiple renamings
+  case replaced(by: ScannedSymbol)
+}
 
 struct Availability: Comparable, Equatable, Hashable {
     var iOS: String
