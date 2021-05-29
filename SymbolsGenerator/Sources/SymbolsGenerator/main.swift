@@ -152,15 +152,15 @@ let symbolToCode: (Symbol) -> String = { symbol in
     if case let .replaced(newerSymbol) = symbol.type {
         outputString += "\tstatic let \(symbol.propertyName): SFSymbol = {\n"
         outputString += "\t\tif #available(iOS \(newerSymbol.availability.iOS), macOS \(newerSymbol.availability.macOS), tvOS \(newerSymbol.availability.tvOS), watchOS \(newerSymbol.availability.watchOS), *) {\n"
-        outputString += "\t\t\treturn SFSymbol(systemName: \"\(newerSymbol.name)\")\n"
+        outputString += "\t\t\treturn SFSymbol(rawValue: \"\(newerSymbol.name)\")\n"
         outputString += "\t\t} else {\n"
-        outputString += "\t\t\treturn SFSymbol(systemName: \"\(symbol.name)\")\n"
+        outputString += "\t\t\treturn SFSymbol(rawValue: \"\(symbol.name)\")\n"
         outputString += "\t\t}\n"
         outputString += "\t}()"
     } else if case let .replacement(originalSymbol) = symbol.type {
         outputString += "\tstatic var \(symbol.propertyName): SFSymbol { .\(originalSymbol.name.toPropertyName) }"
     } else {
-        outputString += "\tstatic let \(symbol.propertyName) = SFSymbol(systemName: \"\(symbol.name)\")"
+        outputString += "\tstatic let \(symbol.propertyName) = SFSymbol(rawValue: \"\(symbol.name)\")"
     }
 
     return outputString
