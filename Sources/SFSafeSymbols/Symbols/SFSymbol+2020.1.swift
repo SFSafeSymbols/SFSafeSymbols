@@ -30,6 +30,20 @@ public extension SFSymbol {
     /// 􀒮
     static let cartCircleFill = SFSymbol(rawValue: "cart.circle.fill")
 
+    /// 􀅏
+    /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
+    static let character = SFSymbol(rawValue: "character")
+
+    /// 􀫕
+    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
+    /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Traditional Chinese
+    static let characterBookClosed = SFSymbol(rawValue: "character.book.closed")
+
+    /// 􀫖
+    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
+    /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Traditional Chinese
+    static let characterBookClosedFill = SFSymbol(rawValue: "character.book.closed.fill")
+
     /// 􀯛
     static let clockArrow2Circlepath = SFSymbol(rawValue: "clock.arrow.2.circlepath")
 

@@ -16,13 +16,7 @@ public extension SFSymbol {
     @available(macOS, introduced: 11.0, deprecated: 11.0, renamed: "characterBookClosed")
     @available(tvOS, introduced: 14.0, deprecated: 14.2, renamed: "characterBookClosed")
     @available(watchOS, introduced: 7.0, deprecated: 7.1, renamed: "characterBookClosed")
-    static let aBookClosed: SFSymbol = {
-        if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *) {
-            return SFSymbol(rawValue: "character.book.closed")
-        } else {
-            return SFSymbol(rawValue: "a.book.closed")
-        }
-    }()
+    static let aBookClosed = SFSymbol(rawValue: "a.book.closed")
 
     /// 􀫖
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
@@ -31,13 +25,7 @@ public extension SFSymbol {
     @available(macOS, introduced: 11.0, deprecated: 11.0, renamed: "characterBookClosedFill")
     @available(tvOS, introduced: 14.0, deprecated: 14.2, renamed: "characterBookClosedFill")
     @available(watchOS, introduced: 7.0, deprecated: 7.1, renamed: "characterBookClosedFill")
-    static let aBookClosedFill: SFSymbol = {
-        if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *) {
-            return SFSymbol(rawValue: "character.book.closed.fill")
-        } else {
-            return SFSymbol(rawValue: "a.book.closed.fill")
-        }
-    }()
+    static let aBookClosedFill = SFSymbol(rawValue: "a.book.closed.fill")
 
     /// 􀤍
     static let aMagnify = SFSymbol(rawValue: "a.magnify")
@@ -244,26 +232,77 @@ public extension SFSymbol {
     /// 􀰕
     static let arrowForwardSquareFill = SFSymbol(rawValue: "arrow.forward.square.fill")
 
+    /// 􀞒
+    static let arrowLeftAndRightRighttriangleLeftRighttriangleRight = SFSymbol(rawValue: "arrow.left.and.right.righttriangle.left.righttriangle.right")
+
+    /// 􀞓
+    static let arrowLeftAndRightRighttriangleLeftRighttriangleRightFill = SFSymbol(rawValue: "arrow.left.and.right.righttriangle.left.righttriangle.right.fill")
+
+    /// 􀄭
+    static let arrowLeftArrowRight = SFSymbol(rawValue: "arrow.left.arrow.right")
+
+    /// 􀂀
+    static let arrowLeftArrowRightCircle = SFSymbol(rawValue: "arrow.left.arrow.right.circle")
+
+    /// 􀂁
+    static let arrowLeftArrowRightCircleFill = SFSymbol(rawValue: "arrow.left.arrow.right.circle.fill")
+
+    /// 􀄐
+    static let arrowLeftArrowRightSquare = SFSymbol(rawValue: "arrow.left.arrow.right.square")
+
+    /// 􀄑
+    static let arrowLeftArrowRightSquareFill = SFSymbol(rawValue: "arrow.left.arrow.right.square.fill")
+
     /// 􀣁
     static let arrowRectanglepath = SFSymbol(rawValue: "arrow.rectanglepath")
 
     /// 􀫵
     static let arrowRightDocOnClipboard = SFSymbol(rawValue: "arrow.right.doc.on.clipboard")
 
+    /// 􀊯
+    static let arrowTriangle2Circlepath = SFSymbol(rawValue: "arrow.triangle.2.circlepath")
+
+    /// 􀌢
+    static let arrowTriangle2CirclepathCamera = SFSymbol(rawValue: "arrow.triangle.2.circlepath.camera")
+
+    /// 􀌣
+    static let arrowTriangle2CirclepathCameraFill = SFSymbol(rawValue: "arrow.triangle.2.circlepath.camera.fill")
+
+    /// 􀖊
+    static let arrowTriangle2CirclepathCircle = SFSymbol(rawValue: "arrow.triangle.2.circlepath.circle")
+
+    /// 􀖋
+    static let arrowTriangle2CirclepathCircleFill = SFSymbol(rawValue: "arrow.triangle.2.circlepath.circle.fill")
+
     /// 􀫷
     static let arrowTriangle2CirclepathDocOnClipboard = SFSymbol(rawValue: "arrow.triangle.2.circlepath.doc.on.clipboard")
+
+    /// 􀙠
+    static let arrowTriangleBranch = SFSymbol(rawValue: "arrow.triangle.branch")
 
     /// 􀤖
     static let arrowTriangleCapsulepath = SFSymbol(rawValue: "arrow.triangle.capsulepath")
 
+    /// 􀖄
+    static let arrowTriangleMerge = SFSymbol(rawValue: "arrow.triangle.merge")
+
     /// 􀙡
     static let arrowTrianglePull = SFSymbol(rawValue: "arrow.triangle.pull")
+
+    /// 􀖅
+    static let arrowTriangleSwap = SFSymbol(rawValue: "arrow.triangle.swap")
 
     /// 􀟷
     static let arrowTriangleTurnUpRightCircle = SFSymbol(rawValue: "arrow.triangle.turn.up.right.circle")
 
     /// 􀟸
     static let arrowTriangleTurnUpRightCircleFill = SFSymbol(rawValue: "arrow.triangle.turn.up.right.circle.fill")
+
+    /// 􀙞
+    static let arrowTriangleTurnUpRightDiamond = SFSymbol(rawValue: "arrow.triangle.turn.up.right.diamond")
+
+    /// 􀙟
+    static let arrowTriangleTurnUpRightDiamondFill = SFSymbol(rawValue: "arrow.triangle.turn.up.right.diamond.fill")
 
     /// 􀬫
     static let arrowTurnUpForwardIphone = SFSymbol(rawValue: "arrow.turn.up.forward.iphone")
@@ -855,6 +894,12 @@ public extension SFSymbol {
     /// 􀜞
     static let circlebadgeFill = SFSymbol(rawValue: "circlebadge.fill")
 
+    /// 􀙢
+    static let circlesHexagongrid = SFSymbol(rawValue: "circles.hexagongrid")
+
+    /// 􀙣
+    static let circlesHexagongridFill = SFSymbol(rawValue: "circles.hexagongrid.fill")
+
     /// 􀬎
     static let circlesHexagonpath = SFSymbol(rawValue: "circles.hexagonpath")
 
@@ -960,6 +1005,9 @@ public extension SFSymbol {
     /// 􀣡
     static let cursorarrowMotionlinesClick = SFSymbol(rawValue: "cursorarrow.motionlines.click")
 
+    /// 􀇰
+    static let cursorarrowRays = SFSymbol(rawValue: "cursorarrow.rays")
+
     /// 􀭅
     static let cursorarrowSquare = SFSymbol(rawValue: "cursorarrow.square")
 
@@ -986,6 +1034,12 @@ public extension SFSymbol {
 
     /// 􀪑
     static let dialMaxFill = SFSymbol(rawValue: "dial.max.fill")
+
+    /// 􀍺
+    static let dialMin = SFSymbol(rawValue: "dial.min")
+
+    /// 􀍻
+    static let dialMinFill = SFSymbol(rawValue: "dial.min.fill")
 
     /// 􀟈
     static let diamond = SFSymbol(rawValue: "diamond")
@@ -1087,6 +1141,9 @@ public extension SFSymbol {
     /// 􀣾
     static let dockArrowUpRectangle = SFSymbol(rawValue: "dock.arrow.up.rectangle")
 
+    /// 􀏞
+    static let dockRectangle = SFSymbol(rawValue: "dock.rectangle")
+
     /// 􀝯
     static let dotArrowtrianglesUpRightDownLeftCircle = SFSymbol(rawValue: "dot.arrowtriangles.up.right.down.left.circle")
 
@@ -1147,6 +1204,12 @@ public extension SFSymbol {
 
     /// 􀢢
     static let ejectCircleFill = SFSymbol(rawValue: "eject.circle.fill")
+
+    /// 􀕺
+    static let ellipsisBubble = SFSymbol(rawValue: "ellipsis.bubble")
+
+    /// 􀕻
+    static let ellipsisBubbleFill = SFSymbol(rawValue: "ellipsis.bubble.fill")
 
     /// 􀠩
     static let ellipsisRectangle = SFSymbol(rawValue: "ellipsis.rectangle")
@@ -1264,6 +1327,12 @@ public extension SFSymbol {
 
     /// 􀨸
     static let faceDashedFill = SFSymbol(rawValue: "face.dashed.fill")
+
+    /// 􀎸
+    static let faceSmiling = SFSymbol(rawValue: "face.smiling")
+
+    /// 􀙌
+    static let faceSmilingFill = SFSymbol(rawValue: "face.smiling.fill")
 
     /// 􀪌
     static let faxmachine = SFSymbol(rawValue: "faxmachine")
@@ -1671,6 +1740,9 @@ public extension SFSymbol {
     /// 􀥲
     static let leaf = SFSymbol(rawValue: "leaf")
 
+    /// 􀙜
+    static let leafArrowTriangleCirclepath = SFSymbol(rawValue: "leaf.arrow.triangle.circlepath")
+
     /// 􀥳
     static let leafFill = SFSymbol(rawValue: "leaf.fill")
 
@@ -1909,6 +1981,12 @@ public extension SFSymbol {
     /// 􀢅
     static let move3d = SFSymbol(rawValue: "move.3d")
 
+    /// 􀒼
+    static let musicNoteHouse = SFSymbol(rawValue: "music.note.house")
+
+    /// 􀒽
+    static let musicNoteHouseFill = SFSymbol(rawValue: "music.note.house.fill")
+
     /// 􀫀
     static let musicQuarternote3 = SFSymbol(rawValue: "music.quarternote.3")
 
@@ -1990,6 +2068,9 @@ public extension SFSymbol {
     /// 􀈢
     static let paperplaneCircleFill = SFSymbol(rawValue: "paperplane.circle.fill")
 
+    /// 􀒆
+    static let paragraphsign = SFSymbol(rawValue: "paragraphsign")
+
     /// 􀥺
     static let pc = SFSymbol(rawValue: "pc")
 
@@ -2005,9 +2086,15 @@ public extension SFSymbol {
     /// 􀪼
     static let personAndArrowLeftAndArrowRight = SFSymbol(rawValue: "person.and.arrow.left.and.arrow.right")
 
+    /// 􀉷
+    static let personCropCircleBadgeExclamationmark = SFSymbol(rawValue: "person.crop.circle.badge.exclamationmark")
+
     /// 􀭽
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     static let personCropCircleBadgeQuestionmark = SFSymbol(rawValue: "person.crop.circle.badge.questionmark")
+
+    /// 􀉸
+    static let personCropCircleFillBadgeExclamationmark = SFSymbol(rawValue: "person.crop.circle.fill.badge.exclamationmark")
 
     /// 􀭾
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
@@ -2018,6 +2105,12 @@ public extension SFSymbol {
 
     /// 􀪽
     static let personFillAndArrowLeftAndArrowRight = SFSymbol(rawValue: "person.fill.and.arrow.left.and.arrow.right")
+
+    /// 􀜘
+    static let personFillBadgeMinus = SFSymbol(rawValue: "person.fill.badge.minus")
+
+    /// 􀜖
+    static let personFillBadgePlus = SFSymbol(rawValue: "person.fill.badge.plus")
 
     /// 􀯧
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
@@ -2237,6 +2330,10 @@ public extension SFSymbol {
     /// 􀬅
     static let rectangle3OffgridBubbleLeftFill = SFSymbol(rawValue: "rectangle.3.offgrid.bubble.left.fill")
 
+    /// 􀈏
+    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
+    static let rectangleAndPencilAndEllipsis = SFSymbol(rawValue: "rectangle.and.pencil.and.ellipsis")
+
     /// 􀬸
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     static let rectangleAndTextMagnifyingglass = SFSymbol(rawValue: "rectangle.and.text.magnifyingglass")
@@ -2439,8 +2536,26 @@ public extension SFSymbol {
     /// 􀨡
     static let shadow = SFSymbol(rawValue: "shadow")
 
+    /// 􀗋
+    static let shekelsignCircle = SFSymbol(rawValue: "shekelsign.circle")
+
+    /// 􀗌
+    static let shekelsignCircleFill = SFSymbol(rawValue: "shekelsign.circle.fill")
+
+    /// 􀘋
+    static let shekelsignSquare = SFSymbol(rawValue: "shekelsign.square")
+
+    /// 􀘌
+    static let shekelsignSquareFill = SFSymbol(rawValue: "shekelsign.square.fill")
+
     /// 􀲊
     static let shieldLefthalfFillSlash = SFSymbol(rawValue: "shield.lefthalf.fill.slash")
+
+    /// 􀐚
+    static let shippingbox = SFSymbol(rawValue: "shippingbox")
+
+    /// 􀐛
+    static let shippingboxFill = SFSymbol(rawValue: "shippingbox.fill")
 
     /// 􀰱
     static let sidebarLeading = SFSymbol(rawValue: "sidebar.leading")
@@ -2484,6 +2599,9 @@ public extension SFSymbol {
     /// 􀠆
     static let simcardFill = SFSymbol(rawValue: "simcard.fill")
 
+    /// 􀜚
+    static let sleep = SFSymbol(rawValue: "sleep")
+
     /// 􀰗
     static let sliderHorizontalBelowSquareFillAndSquare = SFSymbol(rawValue: "slider.horizontal.below.square.fill.and.square")
 
@@ -2510,11 +2628,29 @@ public extension SFSymbol {
     /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
     static let speakerSlashCircleFill = SFSymbol(rawValue: "speaker.slash.circle.fill")
 
+    /// 􀊤
+    static let speakerWave1 = SFSymbol(rawValue: "speaker.wave.1")
+
+    /// 􀊥
+    static let speakerWave1Fill = SFSymbol(rawValue: "speaker.wave.1.fill")
+
+    /// 􀊦
+    static let speakerWave2 = SFSymbol(rawValue: "speaker.wave.2")
+
     /// 􀥑
     static let speakerWave2Circle = SFSymbol(rawValue: "speaker.wave.2.circle")
 
     /// 􀥒
     static let speakerWave2CircleFill = SFSymbol(rawValue: "speaker.wave.2.circle.fill")
+
+    /// 􀊧
+    static let speakerWave2Fill = SFSymbol(rawValue: "speaker.wave.2.fill")
+
+    /// 􀊨
+    static let speakerWave3 = SFSymbol(rawValue: "speaker.wave.3")
+
+    /// 􀊩
+    static let speakerWave3Fill = SFSymbol(rawValue: "speaker.wave.3.fill")
 
     /// 􀯭
     static let square2Stack3d = SFSymbol(rawValue: "square.2.stack.3d")
@@ -2645,6 +2781,9 @@ public extension SFSymbol {
     /// 􀰴
     static let squareStack3dDownForwardFill = SFSymbol(rawValue: "square.stack.3d.down.forward.fill")
 
+    /// 􀐠
+    static let squareStack3dForwardDottedline = SFSymbol(rawValue: "square.stack.3d.forward.dottedline")
+
     /// 􀧏
     static let squareStack3dForwardDottedlineFill = SFSymbol(rawValue: "square.stack.3d.forward.dottedline.fill")
 
@@ -2681,6 +2820,9 @@ public extension SFSymbol {
     /// 􀫴
     static let squareshapeSquareshapeDashed = SFSymbol(rawValue: "squareshape.squareshape.dashed")
 
+    /// 􀋄
+    static let starLeadinghalfFill = SFSymbol(rawValue: "star.leadinghalf.fill")
+
     /// 􀠧
     static let starSquare = SFSymbol(rawValue: "star.square")
 
@@ -2702,6 +2844,18 @@ public extension SFSymbol {
 
     /// 􀜊
     static let switch2 = SFSymbol(rawValue: "switch.2")
+
+    /// 􀏣
+    static let tablecells = SFSymbol(rawValue: "tablecells")
+
+    /// 􀏥
+    static let tablecellsBadgeEllipsis = SFSymbol(rawValue: "tablecells.badge.ellipsis")
+
+    /// 􀏦
+    static let tablecellsBadgeEllipsisFill = SFSymbol(rawValue: "tablecells.badge.ellipsis.fill")
+
+    /// 􀏤
+    static let tablecellsFill = SFSymbol(rawValue: "tablecells.fill")
 
     /// 􀦫
     static let tagSlash = SFSymbol(rawValue: "tag.slash")
@@ -2815,6 +2969,10 @@ public extension SFSymbol {
     /// ⚠️ This symbol can refer only to Apple's FaceTime app.
     static let videoFillBadgeCheckmark = SFSymbol(rawValue: "video.fill.badge.checkmark")
 
+    /// 􀜯
+    /// ⚠️ This symbol can refer only to Apple's FaceTime app.
+    static let videoFillBadgePlus = SFSymbol(rawValue: "video.fill.badge.plus")
+
     /// 􀪒
     static let wake = SFSymbol(rawValue: "wake")
 
@@ -2842,11 +3000,17 @@ public extension SFSymbol {
     /// 􀱝
     static let wave3ForwardCircleFill = SFSymbol(rawValue: "wave.3.forward.circle.fill")
 
+    /// 􀙱
+    static let wave3Left = SFSymbol(rawValue: "wave.3.left")
+
     /// 􀭷
     static let wave3LeftCircle = SFSymbol(rawValue: "wave.3.left.circle")
 
     /// 􀭸
     static let wave3LeftCircleFill = SFSymbol(rawValue: "wave.3.left.circle.fill")
+
+    /// 􀙲
+    static let wave3Right = SFSymbol(rawValue: "wave.3.right")
 
     /// 􀭹
     static let wave3RightCircle = SFSymbol(rawValue: "wave.3.right.circle")
@@ -2866,11 +3030,17 @@ public extension SFSymbol {
     /// 􀤋
     static let wrenchAndScrewdriverFill = SFSymbol(rawValue: "wrench.and.screwdriver.fill")
 
+    /// 􀈱
+    static let xmarkBin = SFSymbol(rawValue: "xmark.bin")
+
     /// 􀈳
     static let xmarkBinCircle = SFSymbol(rawValue: "xmark.bin.circle")
 
     /// 􀈴
     static let xmarkBinCircleFill = SFSymbol(rawValue: "xmark.bin.circle.fill")
+
+    /// 􀈲
+    static let xmarkBinFill = SFSymbol(rawValue: "xmark.bin.fill")
 
     /// 􀢃
     static let xmarkDiamond = SFSymbol(rawValue: "xmark.diamond")
@@ -2899,17 +3069,4 @@ public extension SFSymbol {
 
     /// 􀨞
     static let zrRectangleRoundedtopFill = SFSymbol(rawValue: "zr.rectangle.roundedtop.fill")
-}
-
-@available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-public extension SFSymbol {
-    /// 􀫕
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
-    /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Traditional Chinese
-    static var characterBookClosed: SFSymbol { .aBookClosed }
-
-    /// 􀫖
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
-    /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Traditional Chinese
-    static var characterBookClosedFill: SFSymbol { .aBookClosedFill }
 }
