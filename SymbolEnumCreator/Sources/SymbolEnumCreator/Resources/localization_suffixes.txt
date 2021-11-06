@@ -1,0 +1,14 @@
+//
+// Created via manual analysis
+// Updated on October 8 2020
+//
+
+"ar" = "Arabic";
+"he" = "Hebrew";
+"hi" = "Hindi";
+"rtl" = "Right-To-Left";
+"ja" = "Japanese";
+"ko" = "Korean";
+"th" = "Thai";
+"zh" = "Chinese";
+"zh.traditional" = "Traditional Chinese";
