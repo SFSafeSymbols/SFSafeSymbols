@@ -1,7 +1,7 @@
 import Foundation
 
 extension String {
-    var toEnumCaseName: String {
+    var toPropertyName: String {
         // Handle special swift keywords
         guard self != "return" else { return "`return`" }
         guard self != "repeat" else { return "`repeat`" }
