@@ -9,7 +9,7 @@ struct ScannedSymbol {
 /// The symbol data type containing all versions for one specific symbol
 struct Symbol {
     var name: String
-    var canOnlyReferTo: String?
+    var restriction: String?
     var preview: String?
     var availability: Availability
     var availableLocalizations: [Availability: Set<String>]
@@ -30,7 +30,11 @@ struct Availability: Comparable, Equatable, Hashable {
     var watchOS: String
     var macOS: String
     var year: String // E. g. "2020" or "2020.1"
-    var isBase: Bool { year == "2019" }
+    var isBase: Bool { version == "1.0" }
+    var version: String {
+        let ver = Decimal(string: "1.0")! + (Decimal(string: year)! - Decimal(string: "2019")!)
+        return String(format: "%.1f", NSDecimalNumber(decimal: ver).doubleValue)
+    }
 
     static func < (lhs: Availability, rhs: Availability) -> Bool {
         // The `orderedDescending` is intentional, because the availability is smaller when the year is higher
