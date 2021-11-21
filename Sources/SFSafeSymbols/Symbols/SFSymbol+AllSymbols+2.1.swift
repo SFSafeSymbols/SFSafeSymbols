@@ -2,7 +2,7 @@
 
 @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
 extension SFSymbol {
-    internal static var allCases2_1: Set<SFSymbol> { 
+    internal static var allSymbols2_1: Set<SFSymbol> { 
         [
             _0Circle,
             _0CircleFill,
