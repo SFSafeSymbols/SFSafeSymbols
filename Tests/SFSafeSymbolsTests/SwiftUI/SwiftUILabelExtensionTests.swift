@@ -11,7 +11,7 @@ import SwiftUI
 class LabelExtensionTests: XCTestCase {
     func testInit() {
         if #available(iOS 14.0, OSX 10.16, tvOS 14.0, watchOS 7.0, *) {
-            SFSymbol.allCases.forEach { symbol in
+            SFSymbol.allSymbols.forEach { symbol in
                 // If this doesn't crash, everything works fine
                 print("Testing existence of \(symbol.rawValue) via Image init")
                 _ = Label("Title", systemSymbol: symbol)

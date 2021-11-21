@@ -8,7 +8,7 @@ class UIButtonExtensionTests: XCTestCase {
 
     func testButtonInit() {
         if #available(iOS 13.0, tvOS 13.0, *) {
-            SFSymbol.allCases.forEach { symbol in
+            SFSymbol.allSymbols.forEach { symbol in
                 print("Testing UIButton init with \(symbol.rawValue)")
                 let button = UIButton.systemButton(with: symbol, target: nil, action: nil)
                 XCTAssertEqual(button.currentImage, UIImage(systemSymbol: symbol))
@@ -20,7 +20,7 @@ class UIButtonExtensionTests: XCTestCase {
     
     func testSetImage() {
         if #available(iOS 13.0, tvOS 13.0, *) {
-            SFSymbol.allCases.forEach { symbol in
+            SFSymbol.allSymbols.forEach { symbol in
                 print("Testing UIButton setImage with \(symbol.rawValue)")
                 let button = UIButton()
                 let symbolImage = UIImage(systemSymbol: symbol)
