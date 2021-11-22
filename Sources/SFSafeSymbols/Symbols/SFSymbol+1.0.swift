@@ -4,780 +4,1036 @@
 @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
 public extension SFSymbol {
     /// 􀀸
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _0Circle = SFSymbol(rawValue: "0.circle")
 
     /// 􀀹
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _0CircleFill = SFSymbol(rawValue: "0.circle.fill")
 
     /// 􀃈
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _0Square = SFSymbol(rawValue: "0.square")
 
     /// 􀃉
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _0SquareFill = SFSymbol(rawValue: "0.square.fill")
 
     /// 􀓫
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _00Circle = SFSymbol(rawValue: "00.circle")
 
     /// 􀔊
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _00CircleFill = SFSymbol(rawValue: "00.circle.fill")
 
     /// 􀔩
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _00Square = SFSymbol(rawValue: "00.square")
 
     /// 􀕈
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _00SquareFill = SFSymbol(rawValue: "00.square.fill")
 
     /// 􀓬
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _01Circle = SFSymbol(rawValue: "01.circle")
 
     /// 􀔋
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _01CircleFill = SFSymbol(rawValue: "01.circle.fill")
 
     /// 􀔪
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _01Square = SFSymbol(rawValue: "01.square")
 
     /// 􀕉
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _01SquareFill = SFSymbol(rawValue: "01.square.fill")
 
     /// 􀓭
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _02Circle = SFSymbol(rawValue: "02.circle")
 
     /// 􀔌
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _02CircleFill = SFSymbol(rawValue: "02.circle.fill")
 
     /// 􀔫
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _02Square = SFSymbol(rawValue: "02.square")
 
     /// 􀕊
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _02SquareFill = SFSymbol(rawValue: "02.square.fill")
 
     /// 􀓮
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _03Circle = SFSymbol(rawValue: "03.circle")
 
     /// 􀔍
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _03CircleFill = SFSymbol(rawValue: "03.circle.fill")
 
     /// 􀔬
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _03Square = SFSymbol(rawValue: "03.square")
 
     /// 􀕋
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _03SquareFill = SFSymbol(rawValue: "03.square.fill")
 
     /// 􀓯
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _04Circle = SFSymbol(rawValue: "04.circle")
 
     /// 􀔎
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _04CircleFill = SFSymbol(rawValue: "04.circle.fill")
 
     /// 􀔭
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _04Square = SFSymbol(rawValue: "04.square")
 
     /// 􀕌
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _04SquareFill = SFSymbol(rawValue: "04.square.fill")
 
     /// 􀓰
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _05Circle = SFSymbol(rawValue: "05.circle")
 
     /// 􀔏
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _05CircleFill = SFSymbol(rawValue: "05.circle.fill")
 
     /// 􀔮
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _05Square = SFSymbol(rawValue: "05.square")
 
     /// 􀕍
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _05SquareFill = SFSymbol(rawValue: "05.square.fill")
 
     /// 􀓱
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _06Circle = SFSymbol(rawValue: "06.circle")
 
     /// 􀔐
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _06CircleFill = SFSymbol(rawValue: "06.circle.fill")
 
     /// 􀔯
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _06Square = SFSymbol(rawValue: "06.square")
 
     /// 􀕎
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _06SquareFill = SFSymbol(rawValue: "06.square.fill")
 
     /// 􀓲
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _07Circle = SFSymbol(rawValue: "07.circle")
 
     /// 􀔑
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _07CircleFill = SFSymbol(rawValue: "07.circle.fill")
 
     /// 􀔰
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _07Square = SFSymbol(rawValue: "07.square")
 
     /// 􀕏
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _07SquareFill = SFSymbol(rawValue: "07.square.fill")
 
     /// 􀓳
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _08Circle = SFSymbol(rawValue: "08.circle")
 
     /// 􀔒
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _08CircleFill = SFSymbol(rawValue: "08.circle.fill")
 
     /// 􀔱
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _08Square = SFSymbol(rawValue: "08.square")
 
     /// 􀕐
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _08SquareFill = SFSymbol(rawValue: "08.square.fill")
 
     /// 􀓴
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _09Circle = SFSymbol(rawValue: "09.circle")
 
     /// 􀔓
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _09CircleFill = SFSymbol(rawValue: "09.circle.fill")
 
     /// 􀔲
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _09Square = SFSymbol(rawValue: "09.square")
 
     /// 􀕑
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _09SquareFill = SFSymbol(rawValue: "09.square.fill")
 
     /// 􀀺
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _1Circle = SFSymbol(rawValue: "1.circle")
 
     /// 􀀻
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _1CircleFill = SFSymbol(rawValue: "1.circle.fill")
 
     /// 􀊮
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
-    /// From iOS 15.0, macOS 12.0, tvOS 15.0 and watchOS 8.0 on, the following localizations are available: Hindi
+    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Localizations (available from iOS 15.0 on): Hindi
     static let _1Magnifyingglass = SFSymbol(rawValue: "1.magnifyingglass")
 
     /// 􀃊
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _1Square = SFSymbol(rawValue: "1.square")
 
     /// 􀃋
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _1SquareFill = SFSymbol(rawValue: "1.square.fill")
 
     /// 􀓵
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _10Circle = SFSymbol(rawValue: "10.circle")
 
     /// 􀔔
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _10CircleFill = SFSymbol(rawValue: "10.circle.fill")
 
     /// 􀔳
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _10Square = SFSymbol(rawValue: "10.square")
 
     /// 􀕒
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _10SquareFill = SFSymbol(rawValue: "10.square.fill")
 
     /// 􀓶
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _11Circle = SFSymbol(rawValue: "11.circle")
 
     /// 􀔕
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _11CircleFill = SFSymbol(rawValue: "11.circle.fill")
 
     /// 􀔴
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _11Square = SFSymbol(rawValue: "11.square")
 
     /// 􀕓
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _11SquareFill = SFSymbol(rawValue: "11.square.fill")
 
     /// 􀓷
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _12Circle = SFSymbol(rawValue: "12.circle")
 
     /// 􀔖
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _12CircleFill = SFSymbol(rawValue: "12.circle.fill")
 
     /// 􀔵
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _12Square = SFSymbol(rawValue: "12.square")
 
     /// 􀕔
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _12SquareFill = SFSymbol(rawValue: "12.square.fill")
 
     /// 􀓸
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _13Circle = SFSymbol(rawValue: "13.circle")
 
     /// 􀔗
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _13CircleFill = SFSymbol(rawValue: "13.circle.fill")
 
     /// 􀔶
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _13Square = SFSymbol(rawValue: "13.square")
 
     /// 􀕕
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _13SquareFill = SFSymbol(rawValue: "13.square.fill")
 
     /// 􀓹
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _14Circle = SFSymbol(rawValue: "14.circle")
 
     /// 􀔘
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _14CircleFill = SFSymbol(rawValue: "14.circle.fill")
 
     /// 􀔷
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _14Square = SFSymbol(rawValue: "14.square")
 
     /// 􀕖
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _14SquareFill = SFSymbol(rawValue: "14.square.fill")
 
     /// 􀓺
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _15Circle = SFSymbol(rawValue: "15.circle")
 
     /// 􀔙
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _15CircleFill = SFSymbol(rawValue: "15.circle.fill")
 
     /// 􀔸
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _15Square = SFSymbol(rawValue: "15.square")
 
     /// 􀕗
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _15SquareFill = SFSymbol(rawValue: "15.square.fill")
 
     /// 􀓻
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _16Circle = SFSymbol(rawValue: "16.circle")
 
     /// 􀔚
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _16CircleFill = SFSymbol(rawValue: "16.circle.fill")
 
     /// 􀔹
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _16Square = SFSymbol(rawValue: "16.square")
 
     /// 􀕘
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _16SquareFill = SFSymbol(rawValue: "16.square.fill")
 
     /// 􀓼
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _17Circle = SFSymbol(rawValue: "17.circle")
 
     /// 􀔛
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _17CircleFill = SFSymbol(rawValue: "17.circle.fill")
 
     /// 􀔺
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _17Square = SFSymbol(rawValue: "17.square")
 
     /// 􀕙
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _17SquareFill = SFSymbol(rawValue: "17.square.fill")
 
     /// 􀓽
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _18Circle = SFSymbol(rawValue: "18.circle")
 
     /// 􀔜
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _18CircleFill = SFSymbol(rawValue: "18.circle.fill")
 
     /// 􀔻
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _18Square = SFSymbol(rawValue: "18.square")
 
     /// 􀕚
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _18SquareFill = SFSymbol(rawValue: "18.square.fill")
 
     /// 􀓾
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _19Circle = SFSymbol(rawValue: "19.circle")
 
     /// 􀔝
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _19CircleFill = SFSymbol(rawValue: "19.circle.fill")
 
     /// 􀔼
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _19Square = SFSymbol(rawValue: "19.square")
 
     /// 􀕛
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _19SquareFill = SFSymbol(rawValue: "19.square.fill")
 
     /// 􀀼
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _2Circle = SFSymbol(rawValue: "2.circle")
 
     /// 􀀽
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _2CircleFill = SFSymbol(rawValue: "2.circle.fill")
 
     /// 􀃌
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _2Square = SFSymbol(rawValue: "2.square")
 
     /// 􀃍
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _2SquareFill = SFSymbol(rawValue: "2.square.fill")
 
     /// 􀓿
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _20Circle = SFSymbol(rawValue: "20.circle")
 
     /// 􀔞
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _20CircleFill = SFSymbol(rawValue: "20.circle.fill")
 
     /// 􀔽
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _20Square = SFSymbol(rawValue: "20.square")
 
     /// 􀕜
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _20SquareFill = SFSymbol(rawValue: "20.square.fill")
 
     /// 􀔀
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _21Circle = SFSymbol(rawValue: "21.circle")
 
     /// 􀔟
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _21CircleFill = SFSymbol(rawValue: "21.circle.fill")
 
     /// 􀔾
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _21Square = SFSymbol(rawValue: "21.square")
 
     /// 􀕝
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _21SquareFill = SFSymbol(rawValue: "21.square.fill")
 
     /// 􀔁
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _22Circle = SFSymbol(rawValue: "22.circle")
 
     /// 􀔠
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _22CircleFill = SFSymbol(rawValue: "22.circle.fill")
 
     /// 􀔿
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _22Square = SFSymbol(rawValue: "22.square")
 
     /// 􀕞
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _22SquareFill = SFSymbol(rawValue: "22.square.fill")
 
     /// 􀔂
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _23Circle = SFSymbol(rawValue: "23.circle")
 
     /// 􀔡
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _23CircleFill = SFSymbol(rawValue: "23.circle.fill")
 
     /// 􀕀
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _23Square = SFSymbol(rawValue: "23.square")
 
     /// 􀕟
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _23SquareFill = SFSymbol(rawValue: "23.square.fill")
 
     /// 􀔃
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _24Circle = SFSymbol(rawValue: "24.circle")
 
     /// 􀔢
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _24CircleFill = SFSymbol(rawValue: "24.circle.fill")
 
     /// 􀕁
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _24Square = SFSymbol(rawValue: "24.square")
 
     /// 􀕠
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _24SquareFill = SFSymbol(rawValue: "24.square.fill")
 
     /// 􀔄
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _25Circle = SFSymbol(rawValue: "25.circle")
 
     /// 􀔣
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _25CircleFill = SFSymbol(rawValue: "25.circle.fill")
 
     /// 􀕂
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _25Square = SFSymbol(rawValue: "25.square")
 
     /// 􀕡
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _25SquareFill = SFSymbol(rawValue: "25.square.fill")
 
     /// 􀔅
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _26Circle = SFSymbol(rawValue: "26.circle")
 
     /// 􀔤
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _26CircleFill = SFSymbol(rawValue: "26.circle.fill")
 
     /// 􀕃
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _26Square = SFSymbol(rawValue: "26.square")
 
     /// 􀕢
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _26SquareFill = SFSymbol(rawValue: "26.square.fill")
 
     /// 􀔆
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _27Circle = SFSymbol(rawValue: "27.circle")
 
     /// 􀔥
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _27CircleFill = SFSymbol(rawValue: "27.circle.fill")
 
     /// 􀕄
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _27Square = SFSymbol(rawValue: "27.square")
 
     /// 􀕣
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _27SquareFill = SFSymbol(rawValue: "27.square.fill")
 
     /// 􀔇
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _28Circle = SFSymbol(rawValue: "28.circle")
 
     /// 􀔦
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _28CircleFill = SFSymbol(rawValue: "28.circle.fill")
 
     /// 􀕅
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _28Square = SFSymbol(rawValue: "28.square")
 
     /// 􀕤
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _28SquareFill = SFSymbol(rawValue: "28.square.fill")
 
     /// 􀔈
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _29Circle = SFSymbol(rawValue: "29.circle")
 
     /// 􀔧
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _29CircleFill = SFSymbol(rawValue: "29.circle.fill")
 
     /// 􀕆
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _29Square = SFSymbol(rawValue: "29.square")
 
     /// 􀕥
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _29SquareFill = SFSymbol(rawValue: "29.square.fill")
 
     /// 􀀾
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _3Circle = SFSymbol(rawValue: "3.circle")
 
     /// 􀀿
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _3CircleFill = SFSymbol(rawValue: "3.circle.fill")
 
     /// 􀃎
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _3Square = SFSymbol(rawValue: "3.square")
 
     /// 􀃏
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _3SquareFill = SFSymbol(rawValue: "3.square.fill")
 
     /// 􀔉
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _30Circle = SFSymbol(rawValue: "30.circle")
 
     /// 􀔨
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _30CircleFill = SFSymbol(rawValue: "30.circle.fill")
 
     /// 􀕇
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _30Square = SFSymbol(rawValue: "30.square")
 
     /// 􀕦
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _30SquareFill = SFSymbol(rawValue: "30.square.fill")
 
     /// 􀘠
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _31Circle = SFSymbol(rawValue: "31.circle")
 
     /// 􀘡
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _31CircleFill = SFSymbol(rawValue: "31.circle.fill")
 
     /// 􀘢
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _31Square = SFSymbol(rawValue: "31.square")
 
     /// 􀘣
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _31SquareFill = SFSymbol(rawValue: "31.square.fill")
 
     /// 􀚗
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _32Circle = SFSymbol(rawValue: "32.circle")
 
     /// 􀚘
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _32CircleFill = SFSymbol(rawValue: "32.circle.fill")
 
     /// 􀚽
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _32Square = SFSymbol(rawValue: "32.square")
 
     /// 􀚾
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _32SquareFill = SFSymbol(rawValue: "32.square.fill")
 
     /// 􀚙
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _33Circle = SFSymbol(rawValue: "33.circle")
 
     /// 􀚚
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _33CircleFill = SFSymbol(rawValue: "33.circle.fill")
 
     /// 􀚿
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _33Square = SFSymbol(rawValue: "33.square")
 
     /// 􀛀
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _33SquareFill = SFSymbol(rawValue: "33.square.fill")
 
     /// 􀚛
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _34Circle = SFSymbol(rawValue: "34.circle")
 
     /// 􀚜
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _34CircleFill = SFSymbol(rawValue: "34.circle.fill")
 
     /// 􀛁
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _34Square = SFSymbol(rawValue: "34.square")
 
     /// 􀛂
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _34SquareFill = SFSymbol(rawValue: "34.square.fill")
 
     /// 􀚝
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _35Circle = SFSymbol(rawValue: "35.circle")
 
     /// 􀚞
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _35CircleFill = SFSymbol(rawValue: "35.circle.fill")
 
     /// 􀛃
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _35Square = SFSymbol(rawValue: "35.square")
 
     /// 􀛄
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _35SquareFill = SFSymbol(rawValue: "35.square.fill")
 
     /// 􀚟
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _36Circle = SFSymbol(rawValue: "36.circle")
 
     /// 􀚠
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _36CircleFill = SFSymbol(rawValue: "36.circle.fill")
 
     /// 􀛅
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _36Square = SFSymbol(rawValue: "36.square")
 
     /// 􀛆
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _36SquareFill = SFSymbol(rawValue: "36.square.fill")
 
     /// 􀚡
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _37Circle = SFSymbol(rawValue: "37.circle")
 
     /// 􀚢
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _37CircleFill = SFSymbol(rawValue: "37.circle.fill")
 
     /// 􀛇
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _37Square = SFSymbol(rawValue: "37.square")
 
     /// 􀛈
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _37SquareFill = SFSymbol(rawValue: "37.square.fill")
 
     /// 􀚣
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _38Circle = SFSymbol(rawValue: "38.circle")
 
     /// 􀚤
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _38CircleFill = SFSymbol(rawValue: "38.circle.fill")
 
     /// 􀛉
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _38Square = SFSymbol(rawValue: "38.square")
 
     /// 􀛊
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _38SquareFill = SFSymbol(rawValue: "38.square.fill")
 
     /// 􀚥
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _39Circle = SFSymbol(rawValue: "39.circle")
 
     /// 􀚦
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _39CircleFill = SFSymbol(rawValue: "39.circle.fill")
 
     /// 􀛋
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _39Square = SFSymbol(rawValue: "39.square")
 
     /// 􀛌
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _39SquareFill = SFSymbol(rawValue: "39.square.fill")
 
     /// 􀘗
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _4AltCircle = SFSymbol(rawValue: "4.alt.circle")
 
     /// 􀘘
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _4AltCircleFill = SFSymbol(rawValue: "4.alt.circle.fill")
 
     /// 􀘙
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _4AltSquare = SFSymbol(rawValue: "4.alt.square")
 
     /// 􀘚
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _4AltSquareFill = SFSymbol(rawValue: "4.alt.square.fill")
 
     /// 􀁀
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _4Circle = SFSymbol(rawValue: "4.circle")
 
     /// 􀁁
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _4CircleFill = SFSymbol(rawValue: "4.circle.fill")
 
     /// 􀃐
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _4Square = SFSymbol(rawValue: "4.square")
 
     /// 􀃑
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _4SquareFill = SFSymbol(rawValue: "4.square.fill")
 
     /// 􀚧
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _40Circle = SFSymbol(rawValue: "40.circle")
 
     /// 􀚨
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _40CircleFill = SFSymbol(rawValue: "40.circle.fill")
 
     /// 􀛍
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _40Square = SFSymbol(rawValue: "40.square")
 
     /// 􀛎
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _40SquareFill = SFSymbol(rawValue: "40.square.fill")
 
     /// 􀚩
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _41Circle = SFSymbol(rawValue: "41.circle")
 
     /// 􀚪
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _41CircleFill = SFSymbol(rawValue: "41.circle.fill")
 
     /// 􀛏
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _41Square = SFSymbol(rawValue: "41.square")
 
     /// 􀛐
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _41SquareFill = SFSymbol(rawValue: "41.square.fill")
 
     /// 􀚫
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _42Circle = SFSymbol(rawValue: "42.circle")
 
     /// 􀚬
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _42CircleFill = SFSymbol(rawValue: "42.circle.fill")
 
     /// 􀛑
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _42Square = SFSymbol(rawValue: "42.square")
 
     /// 􀛒
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _42SquareFill = SFSymbol(rawValue: "42.square.fill")
 
     /// 􀚭
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _43Circle = SFSymbol(rawValue: "43.circle")
 
     /// 􀚮
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _43CircleFill = SFSymbol(rawValue: "43.circle.fill")
 
     /// 􀛓
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _43Square = SFSymbol(rawValue: "43.square")
 
     /// 􀛔
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _43SquareFill = SFSymbol(rawValue: "43.square.fill")
 
     /// 􀚯
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _44Circle = SFSymbol(rawValue: "44.circle")
 
     /// 􀚰
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _44CircleFill = SFSymbol(rawValue: "44.circle.fill")
 
     /// 􀛕
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _44Square = SFSymbol(rawValue: "44.square")
 
     /// 􀛖
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _44SquareFill = SFSymbol(rawValue: "44.square.fill")
 
     /// 􀚱
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _45Circle = SFSymbol(rawValue: "45.circle")
 
     /// 􀚲
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _45CircleFill = SFSymbol(rawValue: "45.circle.fill")
 
     /// 􀛗
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _45Square = SFSymbol(rawValue: "45.square")
 
     /// 􀛘
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _45SquareFill = SFSymbol(rawValue: "45.square.fill")
 
     /// 􀚳
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _46Circle = SFSymbol(rawValue: "46.circle")
 
     /// 􀚴
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _46CircleFill = SFSymbol(rawValue: "46.circle.fill")
 
     /// 􀛙
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _46Square = SFSymbol(rawValue: "46.square")
 
     /// 􀛚
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _46SquareFill = SFSymbol(rawValue: "46.square.fill")
 
     /// 􀚵
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _47Circle = SFSymbol(rawValue: "47.circle")
 
     /// 􀚶
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _47CircleFill = SFSymbol(rawValue: "47.circle.fill")
 
     /// 􀛛
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _47Square = SFSymbol(rawValue: "47.square")
 
     /// 􀛜
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _47SquareFill = SFSymbol(rawValue: "47.square.fill")
 
     /// 􀚷
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _48Circle = SFSymbol(rawValue: "48.circle")
 
     /// 􀚸
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _48CircleFill = SFSymbol(rawValue: "48.circle.fill")
 
     /// 􀛝
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _48Square = SFSymbol(rawValue: "48.square")
 
     /// 􀛞
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _48SquareFill = SFSymbol(rawValue: "48.square.fill")
 
     /// 􀚹
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _49Circle = SFSymbol(rawValue: "49.circle")
 
     /// 􀚺
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _49CircleFill = SFSymbol(rawValue: "49.circle.fill")
 
     /// 􀛟
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _49Square = SFSymbol(rawValue: "49.square")
 
     /// 􀛠
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _49SquareFill = SFSymbol(rawValue: "49.square.fill")
 
     /// 􀁂
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _5Circle = SFSymbol(rawValue: "5.circle")
 
     /// 􀁃
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _5CircleFill = SFSymbol(rawValue: "5.circle.fill")
 
     /// 􀃒
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _5Square = SFSymbol(rawValue: "5.square")
 
     /// 􀃓
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _5SquareFill = SFSymbol(rawValue: "5.square.fill")
 
     /// 􀚻
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _50Circle = SFSymbol(rawValue: "50.circle")
 
     /// 􀚼
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _50CircleFill = SFSymbol(rawValue: "50.circle.fill")
 
     /// 􀛡
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _50Square = SFSymbol(rawValue: "50.square")
 
     /// 􀛢
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _50SquareFill = SFSymbol(rawValue: "50.square.fill")
 
     /// 􀑱
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _6AltCircle = SFSymbol(rawValue: "6.alt.circle")
 
     /// 􀑲
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _6AltCircleFill = SFSymbol(rawValue: "6.alt.circle.fill")
 
     /// 􀑵
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _6AltSquare = SFSymbol(rawValue: "6.alt.square")
 
     /// 􀑶
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _6AltSquareFill = SFSymbol(rawValue: "6.alt.square.fill")
 
     /// 􀁄
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _6Circle = SFSymbol(rawValue: "6.circle")
 
     /// 􀁅
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _6CircleFill = SFSymbol(rawValue: "6.circle.fill")
 
     /// 􀃔
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _6Square = SFSymbol(rawValue: "6.square")
 
     /// 􀃕
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _6SquareFill = SFSymbol(rawValue: "6.square.fill")
 
     /// 􀁆
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _7Circle = SFSymbol(rawValue: "7.circle")
 
     /// 􀁇
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _7CircleFill = SFSymbol(rawValue: "7.circle.fill")
 
     /// 􀃖
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _7Square = SFSymbol(rawValue: "7.square")
 
     /// 􀃗
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _7SquareFill = SFSymbol(rawValue: "7.square.fill")
 
     /// 􀁈
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _8Circle = SFSymbol(rawValue: "8.circle")
 
     /// 􀁉
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _8CircleFill = SFSymbol(rawValue: "8.circle.fill")
 
     /// 􀃘
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _8Square = SFSymbol(rawValue: "8.square")
 
     /// 􀃙
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _8SquareFill = SFSymbol(rawValue: "8.square.fill")
 
     /// 􀑳
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _9AltCircle = SFSymbol(rawValue: "9.alt.circle")
 
     /// 􀑴
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _9AltCircleFill = SFSymbol(rawValue: "9.alt.circle.fill")
 
     /// 􀑷
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _9AltSquare = SFSymbol(rawValue: "9.alt.square")
 
     /// 􀑸
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _9AltSquareFill = SFSymbol(rawValue: "9.alt.square.fill")
 
     /// 􀁊
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _9Circle = SFSymbol(rawValue: "9.circle")
 
     /// 􀁋
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _9CircleFill = SFSymbol(rawValue: "9.circle.fill")
 
     /// 􀃚
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let _9Square = SFSymbol(rawValue: "9.square")
 
     /// 􀃛
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let _9SquareFill = SFSymbol(rawValue: "9.square.fill")
 
     /// 􀅏
-    /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
+    /// Localizations (available from iOS 14.2 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
     @available(iOS, introduced: 13.0, deprecated: 14.2, renamed: "character")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "character")
     @available(tvOS, introduced: 13.0, deprecated: 14.2, renamed: "character")
@@ -785,15 +1041,19 @@ public extension SFSymbol {
     static let a = SFSymbol(rawValue: "a")
 
     /// 􀀄
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let aCircle = SFSymbol(rawValue: "a.circle")
 
     /// 􀀅
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let aCircleFill = SFSymbol(rawValue: "a.circle.fill")
 
     /// 􀂔
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let aSquare = SFSymbol(rawValue: "a.square")
 
     /// 􀂕
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let aSquareFill = SFSymbol(rawValue: "a.square.fill")
 
     /// 􀑓
@@ -808,6 +1068,8 @@ public extension SFSymbol {
     static let airplayvideo = SFSymbol(rawValue: "airplayvideo")
 
     /// 􀐭
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let alarm = SFSymbol(rawValue: "alarm")
 
     /// 􀐮
@@ -820,24 +1082,29 @@ public extension SFSymbol {
     static let ant = SFSymbol(rawValue: "ant")
 
     /// 􀌜
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let antCircle = SFSymbol(rawValue: "ant.circle")
 
     /// 􀌝
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let antCircleFill = SFSymbol(rawValue: "ant.circle.fill")
 
     /// 􀌛
     static let antFill = SFSymbol(rawValue: "ant.fill")
 
     /// 􀖀
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let antennaRadiowavesLeftAndRight = SFSymbol(rawValue: "antenna.radiowaves.left.and.right")
 
     /// 􀑋
     static let app = SFSymbol(rawValue: "app")
 
     /// 􀑏
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let appBadge = SFSymbol(rawValue: "app.badge")
 
     /// 􀑐
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let appBadgeFill = SFSymbol(rawValue: "app.badge.fill")
 
     /// 􀑌
@@ -897,72 +1164,90 @@ public extension SFSymbol {
     static let arrowClockwise = SFSymbol(rawValue: "arrow.clockwise")
 
     /// 􀚁
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowClockwiseCircle = SFSymbol(rawValue: "arrow.clockwise.circle")
 
     /// 􀚂
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowClockwiseCircleFill = SFSymbol(rawValue: "arrow.clockwise.circle.fill")
 
     /// 􀙷
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowClockwiseIcloud = SFSymbol(rawValue: "arrow.clockwise.icloud")
 
     /// 􀙸
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowClockwiseIcloudFill = SFSymbol(rawValue: "arrow.clockwise.icloud.fill")
 
     /// 􀅉
     static let arrowCounterclockwise = SFSymbol(rawValue: "arrow.counterclockwise")
 
     /// 􀚃
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowCounterclockwiseCircle = SFSymbol(rawValue: "arrow.counterclockwise.circle")
 
     /// 􀚄
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowCounterclockwiseCircleFill = SFSymbol(rawValue: "arrow.counterclockwise.circle.fill")
 
     /// 􀙹
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowCounterclockwiseIcloud = SFSymbol(rawValue: "arrow.counterclockwise.icloud")
 
     /// 􀙺
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowCounterclockwiseIcloudFill = SFSymbol(rawValue: "arrow.counterclockwise.icloud.fill")
 
     /// 􀄩
     static let arrowDown = SFSymbol(rawValue: "arrow.down")
 
     /// 􀁸
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowDownCircle = SFSymbol(rawValue: "arrow.down.circle")
 
     /// 􀁹
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowDownCircleFill = SFSymbol(rawValue: "arrow.down.circle.fill")
 
     /// 􀈽
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowDownDoc = SFSymbol(rawValue: "arrow.down.doc")
 
     /// 􀈾
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowDownDocFill = SFSymbol(rawValue: "arrow.down.doc.fill")
 
     /// 􀄰
     static let arrowDownLeft = SFSymbol(rawValue: "arrow.down.left")
 
     /// 􀂆
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowDownLeftCircle = SFSymbol(rawValue: "arrow.down.left.circle")
 
     /// 􀂇
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowDownLeftCircleFill = SFSymbol(rawValue: "arrow.down.left.circle.fill")
 
     /// 􀄖
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowDownLeftSquare = SFSymbol(rawValue: "arrow.down.left.square")
 
     /// 􀄗
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowDownLeftSquareFill = SFSymbol(rawValue: "arrow.down.left.square.fill")
 
     /// 􀍑
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowDownLeftVideo = SFSymbol(rawValue: "arrow.down.left.video")
 
     /// 􀍒
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowDownLeftVideoFill = SFSymbol(rawValue: "arrow.down.left.video.fill")
 
     /// 􀄱
@@ -972,21 +1257,27 @@ public extension SFSymbol {
     static let arrowDownRightAndArrowUpLeft = SFSymbol(rawValue: "arrow.down.right.and.arrow.up.left")
 
     /// 􀂈
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowDownRightCircle = SFSymbol(rawValue: "arrow.down.right.circle")
 
     /// 􀂉
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowDownRightCircleFill = SFSymbol(rawValue: "arrow.down.right.circle.fill")
 
     /// 􀄘
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowDownRightSquare = SFSymbol(rawValue: "arrow.down.right.square")
 
     /// 􀄙
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowDownRightSquareFill = SFSymbol(rawValue: "arrow.down.right.square.fill")
 
     /// 􀄈
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowDownSquare = SFSymbol(rawValue: "arrow.down.square")
 
     /// 􀄉
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowDownSquareFill = SFSymbol(rawValue: "arrow.down.square.fill")
 
     /// 􀅀
@@ -1006,27 +1297,35 @@ public extension SFSymbol {
     static let arrowLeftAndRight = SFSymbol(rawValue: "arrow.left.and.right")
 
     /// 􀑾
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowLeftAndRightCircle = SFSymbol(rawValue: "arrow.left.and.right.circle")
 
     /// 􀑿
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowLeftAndRightCircleFill = SFSymbol(rawValue: "arrow.left.and.right.circle.fill")
 
     /// 􀒀
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowLeftAndRightSquare = SFSymbol(rawValue: "arrow.left.and.right.square")
 
     /// 􀒁
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowLeftAndRightSquareFill = SFSymbol(rawValue: "arrow.left.and.right.square.fill")
 
     /// 􀁺
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowLeftCircle = SFSymbol(rawValue: "arrow.left.circle")
 
     /// 􀁻
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowLeftCircleFill = SFSymbol(rawValue: "arrow.left.circle.fill")
 
     /// 􀄊
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowLeftSquare = SFSymbol(rawValue: "arrow.left.square")
 
     /// 􀄋
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowLeftSquareFill = SFSymbol(rawValue: "arrow.left.square.fill")
 
     /// 􀅁
@@ -1085,15 +1384,19 @@ public extension SFSymbol {
     static let arrowRightArrowLeftSquareFill = SFSymbol(rawValue: "arrow.right.arrow.left.square.fill")
 
     /// 􀁼
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowRightCircle = SFSymbol(rawValue: "arrow.right.circle")
 
     /// 􀁽
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowRightCircleFill = SFSymbol(rawValue: "arrow.right.circle.fill")
 
     /// 􀄌
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowRightSquare = SFSymbol(rawValue: "arrow.right.square")
 
     /// 􀄍
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowRightSquareFill = SFSymbol(rawValue: "arrow.right.square.fill")
 
     /// 􀅂
@@ -1144,48 +1447,62 @@ public extension SFSymbol {
     static let arrowUpAndDown = SFSymbol(rawValue: "arrow.up.and.down")
 
     /// 􀑺
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpAndDownCircle = SFSymbol(rawValue: "arrow.up.and.down.circle")
 
     /// 􀑻
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowUpAndDownCircleFill = SFSymbol(rawValue: "arrow.up.and.down.circle.fill")
 
     /// 􀑼
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpAndDownSquare = SFSymbol(rawValue: "arrow.up.and.down.square")
 
     /// 􀑽
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpAndDownSquareFill = SFSymbol(rawValue: "arrow.up.and.down.square.fill")
 
     /// 􀄬
     static let arrowUpArrowDown = SFSymbol(rawValue: "arrow.up.arrow.down")
 
     /// 􀁾
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpArrowDownCircle = SFSymbol(rawValue: "arrow.up.arrow.down.circle")
 
     /// 􀁿
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowUpArrowDownCircleFill = SFSymbol(rawValue: "arrow.up.arrow.down.circle.fill")
 
     /// 􀄎
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpArrowDownSquare = SFSymbol(rawValue: "arrow.up.arrow.down.square")
 
     /// 􀄏
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpArrowDownSquareFill = SFSymbol(rawValue: "arrow.up.arrow.down.square.fill")
 
     /// 􀈵
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpBin = SFSymbol(rawValue: "arrow.up.bin")
 
     /// 􀈶
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpBinFill = SFSymbol(rawValue: "arrow.up.bin.fill")
 
     /// 􀁶
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpCircle = SFSymbol(rawValue: "arrow.up.circle")
 
     /// 􀁷
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowUpCircleFill = SFSymbol(rawValue: "arrow.up.circle.fill")
 
     /// 􀈻
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpDoc = SFSymbol(rawValue: "arrow.up.doc")
 
     /// 􀈼
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpDocFill = SFSymbol(rawValue: "arrow.up.doc.fill")
 
     /// 􀄮
@@ -1195,24 +1512,30 @@ public extension SFSymbol {
     static let arrowUpLeftAndArrowDownRight = SFSymbol(rawValue: "arrow.up.left.and.arrow.down.right")
 
     /// 􀂂
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpLeftCircle = SFSymbol(rawValue: "arrow.up.left.circle")
 
     /// 􀂃
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowUpLeftCircleFill = SFSymbol(rawValue: "arrow.up.left.circle.fill")
 
     /// 􀄒
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpLeftSquare = SFSymbol(rawValue: "arrow.up.left.square")
 
     /// 􀄓
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpLeftSquareFill = SFSymbol(rawValue: "arrow.up.left.square.fill")
 
     /// 􀄯
     static let arrowUpRight = SFSymbol(rawValue: "arrow.up.right")
 
     /// 􀂄
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpRightCircle = SFSymbol(rawValue: "arrow.up.right.circle")
 
     /// 􀂅
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowUpRightCircleFill = SFSymbol(rawValue: "arrow.up.right.circle.fill")
 
     /// 􀙞
@@ -1230,23 +1553,29 @@ public extension SFSymbol {
     static let arrowUpRightDiamondFill = SFSymbol(rawValue: "arrow.up.right.diamond.fill")
 
     /// 􀄔
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpRightSquare = SFSymbol(rawValue: "arrow.up.right.square")
 
     /// 􀄕
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpRightSquareFill = SFSymbol(rawValue: "arrow.up.right.square.fill")
 
     /// 􀍏
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpRightVideo = SFSymbol(rawValue: "arrow.up.right.video")
 
     /// 􀍐
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpRightVideoFill = SFSymbol(rawValue: "arrow.up.right.video.fill")
 
     /// 􀄆
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpSquare = SFSymbol(rawValue: "arrow.up.square")
 
     /// 􀄇
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUpSquareFill = SFSymbol(rawValue: "arrow.up.square.fill")
 
     /// 􀄿
@@ -1263,63 +1592,80 @@ public extension SFSymbol {
     static let arrowUturnDown = SFSymbol(rawValue: "arrow.uturn.down")
 
     /// 􀂌
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUturnDownCircle = SFSymbol(rawValue: "arrow.uturn.down.circle")
 
     /// 􀂍
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowUturnDownCircleFill = SFSymbol(rawValue: "arrow.uturn.down.circle.fill")
 
     /// 􀄜
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUturnDownSquare = SFSymbol(rawValue: "arrow.uturn.down.square")
 
     /// 􀄝
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUturnDownSquareFill = SFSymbol(rawValue: "arrow.uturn.down.square.fill")
 
     /// 􀄼
     static let arrowUturnLeft = SFSymbol(rawValue: "arrow.uturn.left")
 
     /// 􀂎
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUturnLeftCircle = SFSymbol(rawValue: "arrow.uturn.left.circle")
 
     /// 􀞸
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUturnLeftCircleBadgeEllipsis = SFSymbol(rawValue: "arrow.uturn.left.circle.badge.ellipsis")
 
     /// 􀂏
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowUturnLeftCircleFill = SFSymbol(rawValue: "arrow.uturn.left.circle.fill")
 
     /// 􀄞
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUturnLeftSquare = SFSymbol(rawValue: "arrow.uturn.left.square")
 
     /// 􀄟
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUturnLeftSquareFill = SFSymbol(rawValue: "arrow.uturn.left.square.fill")
 
     /// 􀄽
     static let arrowUturnRight = SFSymbol(rawValue: "arrow.uturn.right")
 
     /// 􀂐
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUturnRightCircle = SFSymbol(rawValue: "arrow.uturn.right.circle")
 
     /// 􀂑
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowUturnRightCircleFill = SFSymbol(rawValue: "arrow.uturn.right.circle.fill")
 
     /// 􀄠
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUturnRightSquare = SFSymbol(rawValue: "arrow.uturn.right.square")
 
     /// 􀄡
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUturnRightSquareFill = SFSymbol(rawValue: "arrow.uturn.right.square.fill")
 
     /// 􀄺
     static let arrowUturnUp = SFSymbol(rawValue: "arrow.uturn.up")
 
     /// 􀂊
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUturnUpCircle = SFSymbol(rawValue: "arrow.uturn.up.circle")
 
     /// 􀂋
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowUturnUpCircleFill = SFSymbol(rawValue: "arrow.uturn.up.circle.fill")
 
     /// 􀄚
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUturnUpSquare = SFSymbol(rawValue: "arrow.uturn.up.square")
 
     /// 􀄛
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowUturnUpSquareFill = SFSymbol(rawValue: "arrow.uturn.up.square.fill")
 
     /// 􀉌
@@ -1332,9 +1678,12 @@ public extension SFSymbol {
     static let arrowshapeTurnUpLeft2Fill = SFSymbol(rawValue: "arrowshape.turn.up.left.2.fill")
 
     /// 􀉎
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowshapeTurnUpLeftCircle = SFSymbol(rawValue: "arrowshape.turn.up.left.circle")
 
     /// 􀉏
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowshapeTurnUpLeftCircleFill = SFSymbol(rawValue: "arrowshape.turn.up.left.circle.fill")
 
     /// 􀉍
@@ -1344,9 +1693,12 @@ public extension SFSymbol {
     static let arrowshapeTurnUpRight = SFSymbol(rawValue: "arrowshape.turn.up.right")
 
     /// 􀉒
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowshapeTurnUpRightCircle = SFSymbol(rawValue: "arrowshape.turn.up.right.circle")
 
     /// 􀉓
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowshapeTurnUpRightCircleFill = SFSymbol(rawValue: "arrowshape.turn.up.right.circle.fill")
 
     /// 􀉑
@@ -1356,72 +1708,88 @@ public extension SFSymbol {
     static let arrowtriangleDown = SFSymbol(rawValue: "arrowtriangle.down")
 
     /// 􀁨
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowtriangleDownCircle = SFSymbol(rawValue: "arrowtriangle.down.circle")
 
     /// 􀁩
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowtriangleDownCircleFill = SFSymbol(rawValue: "arrowtriangle.down.circle.fill")
 
     /// 􀄥
     static let arrowtriangleDownFill = SFSymbol(rawValue: "arrowtriangle.down.fill")
 
     /// 􀃸
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowtriangleDownSquare = SFSymbol(rawValue: "arrowtriangle.down.square")
 
     /// 􀃹
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowtriangleDownSquareFill = SFSymbol(rawValue: "arrowtriangle.down.square.fill")
 
     /// 􀓄
     static let arrowtriangleLeft = SFSymbol(rawValue: "arrowtriangle.left")
 
     /// 􀁪
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowtriangleLeftCircle = SFSymbol(rawValue: "arrowtriangle.left.circle")
 
     /// 􀁫
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowtriangleLeftCircleFill = SFSymbol(rawValue: "arrowtriangle.left.circle.fill")
 
     /// 􀄦
     static let arrowtriangleLeftFill = SFSymbol(rawValue: "arrowtriangle.left.fill")
 
     /// 􀃺
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowtriangleLeftSquare = SFSymbol(rawValue: "arrowtriangle.left.square")
 
     /// 􀃻
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowtriangleLeftSquareFill = SFSymbol(rawValue: "arrowtriangle.left.square.fill")
 
     /// 􀓅
     static let arrowtriangleRight = SFSymbol(rawValue: "arrowtriangle.right")
 
     /// 􀁬
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowtriangleRightCircle = SFSymbol(rawValue: "arrowtriangle.right.circle")
 
     /// 􀁭
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowtriangleRightCircleFill = SFSymbol(rawValue: "arrowtriangle.right.circle.fill")
 
     /// 􀄧
     static let arrowtriangleRightFill = SFSymbol(rawValue: "arrowtriangle.right.fill")
 
     /// 􀃼
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowtriangleRightSquare = SFSymbol(rawValue: "arrowtriangle.right.square")
 
     /// 􀃽
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowtriangleRightSquareFill = SFSymbol(rawValue: "arrowtriangle.right.square.fill")
 
     /// 􀓂
     static let arrowtriangleUp = SFSymbol(rawValue: "arrowtriangle.up")
 
     /// 􀁦
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowtriangleUpCircle = SFSymbol(rawValue: "arrowtriangle.up.circle")
 
     /// 􀁧
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let arrowtriangleUpCircleFill = SFSymbol(rawValue: "arrowtriangle.up.circle.fill")
 
     /// 􀄤
     static let arrowtriangleUpFill = SFSymbol(rawValue: "arrowtriangle.up.fill")
 
     /// 􀃶
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowtriangleUpSquare = SFSymbol(rawValue: "arrowtriangle.up.square")
 
     /// 􀃷
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowtriangleUpSquareFill = SFSymbol(rawValue: "arrowtriangle.up.square.fill")
 
     /// 􀞖
@@ -1431,42 +1799,57 @@ public extension SFSymbol {
     static let aspectratioFill = SFSymbol(rawValue: "aspectratio.fill")
 
     /// 􀕬
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let asteriskCircle = SFSymbol(rawValue: "asterisk.circle")
 
     /// 􀕭
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let asteriskCircleFill = SFSymbol(rawValue: "asterisk.circle.fill")
 
     /// 􀅷
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let at = SFSymbol(rawValue: "at")
 
     /// 􀅹
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let atBadgeMinus = SFSymbol(rawValue: "at.badge.minus")
 
     /// 􀅸
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let atBadgePlus = SFSymbol(rawValue: "at.badge.plus")
 
     /// 􀖹
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let australsignCircle = SFSymbol(rawValue: "australsign.circle")
 
     /// 􀖺
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let australsignCircleFill = SFSymbol(rawValue: "australsign.circle.fill")
 
     /// 􀗹
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let australsignSquare = SFSymbol(rawValue: "australsign.square")
 
     /// 􀗺
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let australsignSquareFill = SFSymbol(rawValue: "australsign.square.fill")
 
     /// 􀀆
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let bCircle = SFSymbol(rawValue: "b.circle")
 
     /// 􀀇
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let bCircleFill = SFSymbol(rawValue: "b.circle.fill")
 
     /// 􀂖
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let bSquare = SFSymbol(rawValue: "b.square")
 
     /// 􀂗
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let bSquareFill = SFSymbol(rawValue: "b.square.fill")
 
     /// 􀊉
@@ -1488,39 +1871,54 @@ public extension SFSymbol {
     static let backwardFill = SFSymbol(rawValue: "backward.fill")
 
     /// 􀊪
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let badgePlusRadiowavesRight = SFSymbol(rawValue: "badge.plus.radiowaves.right")
 
     /// 􀍣
     static let bag = SFSymbol(rawValue: "bag")
 
     /// 􀍧
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let bagBadgeMinus = SFSymbol(rawValue: "bag.badge.minus")
 
     /// 􀍥
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let bagBadgePlus = SFSymbol(rawValue: "bag.badge.plus")
 
     /// 􀍤
     static let bagFill = SFSymbol(rawValue: "bag.fill")
 
     /// 􀍨
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let bagFillBadgeMinus = SFSymbol(rawValue: "bag.fill.badge.minus")
 
     /// 􀍦
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let bagFillBadgePlus = SFSymbol(rawValue: "bag.fill.badge.plus")
 
     /// 􀗑
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let bahtsignCircle = SFSymbol(rawValue: "bahtsign.circle")
 
     /// 􀗒
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let bahtsignCircleFill = SFSymbol(rawValue: "bahtsign.circle.fill")
 
     /// 􀘑
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let bahtsignSquare = SFSymbol(rawValue: "bahtsign.square")
 
     /// 􀘒
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let bahtsignSquareFill = SFSymbol(rawValue: "bahtsign.square.fill")
 
     /// 􀎓
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let bandage = SFSymbol(rawValue: "bandage")
 
     /// 􀎔
@@ -1530,39 +1928,51 @@ public extension SFSymbol {
     static let barcode = SFSymbol(rawValue: "barcode")
 
     /// 􀎺
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let barcodeViewfinder = SFSymbol(rawValue: "barcode.viewfinder")
 
     /// 􀛪
     static let battery0 = SFSymbol(rawValue: "battery.0")
 
     /// 􀛨
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let battery100 = SFSymbol(rawValue: "battery.100")
 
     /// 􀛩
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let battery25 = SFSymbol(rawValue: "battery.25")
 
     /// 􀙩
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let bedDouble = SFSymbol(rawValue: "bed.double")
 
     /// 􀙪
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let bedDoubleFill = SFSymbol(rawValue: "bed.double.fill")
 
     /// 􀋙
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let bell = SFSymbol(rawValue: "bell")
 
     /// 􀋛
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let bellCircle = SFSymbol(rawValue: "bell.circle")
 
     /// 􀋜
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let bellCircleFill = SFSymbol(rawValue: "bell.circle.fill")
 
     /// 􀋚
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let bellFill = SFSymbol(rawValue: "bell.fill")
 
     /// 􀋝
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let bellSlash = SFSymbol(rawValue: "bell.slash")
 
     /// 􀋞
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let bellSlashFill = SFSymbol(rawValue: "bell.slash.fill")
 
     /// 􀈱
@@ -1580,51 +1990,65 @@ public extension SFSymbol {
     static let binXmarkFill = SFSymbol(rawValue: "bin.xmark.fill")
 
     /// 􀗕
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let bitcoinsignCircle = SFSymbol(rawValue: "bitcoinsign.circle")
 
     /// 􀗖
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let bitcoinsignCircleFill = SFSymbol(rawValue: "bitcoinsign.circle.fill")
 
     /// 􀘕
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let bitcoinsignSquare = SFSymbol(rawValue: "bitcoinsign.square")
 
     /// 􀘖
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let bitcoinsignSquareFill = SFSymbol(rawValue: "bitcoinsign.square.fill")
 
     /// 􀅓
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let bold = SFSymbol(rawValue: "bold")
 
     /// 􀅗
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let boldItalicUnderline = SFSymbol(rawValue: "bold.italic.underline")
 
     /// 􀅘
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let boldUnderline = SFSymbol(rawValue: "bold.underline")
 
     /// 􀋥
     static let bolt = SFSymbol(rawValue: "bolt")
 
     /// 􀘳
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let boltBadgeA = SFSymbol(rawValue: "bolt.badge.a")
 
     /// 􀘴
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let boltBadgeAFill = SFSymbol(rawValue: "bolt.badge.a.fill")
 
     /// 􀋧
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let boltCircle = SFSymbol(rawValue: "bolt.circle")
 
     /// 􀋨
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let boltCircleFill = SFSymbol(rawValue: "bolt.circle.fill")
 
     /// 􀋦
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let boltFill = SFSymbol(rawValue: "bolt.fill")
 
     /// 􀒗
     static let boltHorizontal = SFSymbol(rawValue: "bolt.horizontal")
 
     /// 􀒙
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let boltHorizontalCircle = SFSymbol(rawValue: "bolt.horizontal.circle")
 
     /// 􀒚
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let boltHorizontalCircleFill = SFSymbol(rawValue: "bolt.horizontal.circle.fill")
 
     /// 􀒘
@@ -1632,49 +2056,61 @@ public extension SFSymbol {
 
     /// 􀘿
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let boltHorizontalIcloud = SFSymbol(rawValue: "bolt.horizontal.icloud")
 
     /// 􀙀
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let boltHorizontalIcloudFill = SFSymbol(rawValue: "bolt.horizontal.icloud.fill")
 
     /// 􀋩
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let boltSlash = SFSymbol(rawValue: "bolt.slash")
 
     /// 􀋪
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let boltSlashFill = SFSymbol(rawValue: "bolt.slash.fill")
 
     /// 􀉚
     static let book = SFSymbol(rawValue: "book")
 
     /// 􀉜
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let bookCircle = SFSymbol(rawValue: "book.circle")
 
     /// 􀉝
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let bookCircleFill = SFSymbol(rawValue: "book.circle.fill")
 
     /// 􀉛
     static let bookFill = SFSymbol(rawValue: "book.fill")
 
     /// 􀉞
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let bookmark = SFSymbol(rawValue: "bookmark")
 
     /// 􀉟
+    /// Layersets (available from iOS 14.0 on): Multicolor
     static let bookmarkFill = SFSymbol(rawValue: "bookmark.fill")
 
     /// 􀎜
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let briefcase = SFSymbol(rawValue: "briefcase")
 
     /// 􀎝
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let briefcaseFill = SFSymbol(rawValue: "briefcase.fill")
 
     /// 􀌪
     static let bubbleLeft = SFSymbol(rawValue: "bubble.left")
 
     /// 􀒤
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let bubbleLeftAndBubbleRight = SFSymbol(rawValue: "bubble.left.and.bubble.right")
 
     /// 􀘲
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let bubbleLeftAndBubbleRightFill = SFSymbol(rawValue: "bubble.left.and.bubble.right.fill")
 
     /// 􀌫
@@ -1708,48 +2144,64 @@ public extension SFSymbol {
     static let burstFill = SFSymbol(rawValue: "burst.fill")
 
     /// 􀀈
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cCircle = SFSymbol(rawValue: "c.circle")
 
     /// 􀀉
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let cCircleFill = SFSymbol(rawValue: "c.circle.fill")
 
     /// 􀂘
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cSquare = SFSymbol(rawValue: "c.square")
 
     /// 􀂙
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let cSquareFill = SFSymbol(rawValue: "c.square.fill")
 
     /// 􀉉
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let calendar = SFSymbol(rawValue: "calendar")
 
     /// 􀉋
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let calendarBadgeMinus = SFSymbol(rawValue: "calendar.badge.minus")
 
     /// 􀉊
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let calendarBadgePlus = SFSymbol(rawValue: "calendar.badge.plus")
 
     /// 􀒎
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let calendarCircle = SFSymbol(rawValue: "calendar.circle")
 
     /// 􀒏
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let calendarCircleFill = SFSymbol(rawValue: "calendar.circle.fill")
 
     /// 􀌞
     static let camera = SFSymbol(rawValue: "camera")
 
     /// 􀌠
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cameraCircle = SFSymbol(rawValue: "camera.circle")
 
     /// 􀌡
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let cameraCircleFill = SFSymbol(rawValue: "camera.circle.fill")
 
     /// 􀌟
     static let cameraFill = SFSymbol(rawValue: "camera.fill")
 
     /// 􀝁
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cameraOnRectangle = SFSymbol(rawValue: "camera.on.rectangle")
 
     /// 􀝂
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cameraOnRectangleFill = SFSymbol(rawValue: "camera.on.rectangle.fill")
 
     /// 􀌢
@@ -1767,6 +2219,7 @@ public extension SFSymbol {
     static let cameraRotateFill = SFSymbol(rawValue: "camera.rotate.fill")
 
     /// 􀎼
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cameraViewfinder = SFSymbol(rawValue: "camera.viewfinder")
 
     /// 􀆡
@@ -1782,57 +2235,76 @@ public extension SFSymbol {
     static let capsuleFill = SFSymbol(rawValue: "capsule.fill")
 
     /// 􀌴
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let captionsBubble = SFSymbol(rawValue: "captions.bubble")
 
     /// 􀌵
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let captionsBubbleFill = SFSymbol(rawValue: "captions.bubble.fill")
 
     /// 􀙘
     static let car = SFSymbol(rawValue: "car")
 
     /// 􀙙
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let carFill = SFSymbol(rawValue: "car.fill")
 
     /// 􀍩
     static let cart = SFSymbol(rawValue: "cart")
 
     /// 􀍭
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cartBadgeMinus = SFSymbol(rawValue: "cart.badge.minus")
 
     /// 􀍫
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cartBadgePlus = SFSymbol(rawValue: "cart.badge.plus")
 
     /// 􀍪
     static let cartFill = SFSymbol(rawValue: "cart.fill")
 
     /// 􀍮
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cartFillBadgeMinus = SFSymbol(rawValue: "cart.fill.badge.minus")
 
     /// 􀍬
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cartFillBadgePlus = SFSymbol(rawValue: "cart.fill.badge.plus")
 
     /// 􀗃
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cedisignCircle = SFSymbol(rawValue: "cedisign.circle")
 
     /// 􀗄
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let cedisignCircleFill = SFSymbol(rawValue: "cedisign.circle.fill")
 
     /// 􀘃
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cedisignSquare = SFSymbol(rawValue: "cedisign.square")
 
     /// 􀘄
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let cedisignSquareFill = SFSymbol(rawValue: "cedisign.square.fill")
 
     /// 􀖙
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let centsignCircle = SFSymbol(rawValue: "centsign.circle")
 
     /// 􀖚
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let centsignCircleFill = SFSymbol(rawValue: "centsign.circle.fill")
 
     /// 􀗙
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let centsignSquare = SFSymbol(rawValue: "centsign.square")
 
     /// 􀗚
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let centsignSquareFill = SFSymbol(rawValue: "centsign.square.fill")
 
     /// 􀐾
@@ -1848,36 +2320,48 @@ public extension SFSymbol {
     static let chartPieFill = SFSymbol(rawValue: "chart.pie.fill")
 
     /// 􀆅
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let checkmark = SFSymbol(rawValue: "checkmark")
 
     /// 􀁢
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let checkmarkCircle = SFSymbol(rawValue: "checkmark.circle")
 
     /// 􀁣
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let checkmarkCircleFill = SFSymbol(rawValue: "checkmark.circle.fill")
 
     /// 􀏋
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let checkmarkRectangle = SFSymbol(rawValue: "checkmark.rectangle")
 
     /// 􀏌
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let checkmarkRectangleFill = SFSymbol(rawValue: "checkmark.rectangle.fill")
 
     /// 􀇺
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let checkmarkSeal = SFSymbol(rawValue: "checkmark.seal")
 
     /// 􀇻
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let checkmarkSealFill = SFSymbol(rawValue: "checkmark.seal.fill")
 
     /// 􀞛
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let checkmarkShield = SFSymbol(rawValue: "checkmark.shield")
 
     /// 􀞜
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let checkmarkShieldFill = SFSymbol(rawValue: "checkmark.shield.fill")
 
     /// 􀃲
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let checkmarkSquare = SFSymbol(rawValue: "checkmark.square")
 
     /// 􀃳
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let checkmarkSquareFill = SFSymbol(rawValue: "checkmark.square.fill")
 
     /// 􀆑
@@ -1896,15 +2380,19 @@ public extension SFSymbol {
     static let chevronDown = SFSymbol(rawValue: "chevron.down")
 
     /// 􀁰
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let chevronDownCircle = SFSymbol(rawValue: "chevron.down.circle")
 
     /// 􀁱
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let chevronDownCircleFill = SFSymbol(rawValue: "chevron.down.circle.fill")
 
     /// 􀄀
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let chevronDownSquare = SFSymbol(rawValue: "chevron.down.square")
 
     /// 􀄁
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let chevronDownSquareFill = SFSymbol(rawValue: "chevron.down.square.fill")
 
     /// 􀆉
@@ -1914,9 +2402,11 @@ public extension SFSymbol {
     static let chevronLeft2 = SFSymbol(rawValue: "chevron.left.2")
 
     /// 􀁲
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let chevronLeftCircle = SFSymbol(rawValue: "chevron.left.circle")
 
     /// 􀁳
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let chevronLeftCircleFill = SFSymbol(rawValue: "chevron.left.circle.fill")
 
     /// 􀙚
@@ -1927,9 +2417,11 @@ public extension SFSymbol {
     static let chevronLeftSlashChevronRight = SFSymbol(rawValue: "chevron.left.slash.chevron.right")
 
     /// 􀄂
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let chevronLeftSquare = SFSymbol(rawValue: "chevron.left.square")
 
     /// 􀄃
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let chevronLeftSquareFill = SFSymbol(rawValue: "chevron.left.square.fill")
 
     /// 􀆊
@@ -1939,15 +2431,19 @@ public extension SFSymbol {
     static let chevronRight2 = SFSymbol(rawValue: "chevron.right.2")
 
     /// 􀁴
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let chevronRightCircle = SFSymbol(rawValue: "chevron.right.circle")
 
     /// 􀁵
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let chevronRightCircleFill = SFSymbol(rawValue: "chevron.right.circle.fill")
 
     /// 􀄄
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let chevronRightSquare = SFSymbol(rawValue: "chevron.right.square")
 
     /// 􀄅
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let chevronRightSquareFill = SFSymbol(rawValue: "chevron.right.square.fill")
 
     /// 􀆇
@@ -1957,15 +2453,19 @@ public extension SFSymbol {
     static let chevronUpChevronDown = SFSymbol(rawValue: "chevron.up.chevron.down")
 
     /// 􀁮
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let chevronUpCircle = SFSymbol(rawValue: "chevron.up.circle")
 
     /// 􀁯
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let chevronUpCircleFill = SFSymbol(rawValue: "chevron.up.circle.fill")
 
     /// 􀃾
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let chevronUpSquare = SFSymbol(rawValue: "chevron.up.square")
 
     /// 􀃿
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let chevronUpSquareFill = SFSymbol(rawValue: "chevron.up.square.fill")
 
     /// 􀀀
@@ -2022,12 +2522,15 @@ public extension SFSymbol {
     static let circleRighthalfFill = SFSymbol(rawValue: "circle.righthalf.fill")
 
     /// 􀆙
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let clear = SFSymbol(rawValue: "clear")
 
     /// 􀆚
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let clearFill = SFSymbol(rawValue: "clear.fill")
 
     /// 􀐫
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let clock = SFSymbol(rawValue: "clock")
 
     /// 􀐬
@@ -2037,108 +2540,158 @@ public extension SFSymbol {
     static let cloud = SFSymbol(rawValue: "cloud")
 
     /// 􀇒
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudBolt = SFSymbol(rawValue: "cloud.bolt")
 
     /// 􀇓
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudBoltFill = SFSymbol(rawValue: "cloud.bolt.fill")
 
     /// 􀇞
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudBoltRain = SFSymbol(rawValue: "cloud.bolt.rain")
 
     /// 􀇟
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudBoltRainFill = SFSymbol(rawValue: "cloud.bolt.rain.fill")
 
     /// 􀇄
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudDrizzle = SFSymbol(rawValue: "cloud.drizzle")
 
     /// 􀇅
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudDrizzleFill = SFSymbol(rawValue: "cloud.drizzle.fill")
 
     /// 􀇃
+    /// Layersets (available from iOS 14.0 on): Multicolor
     static let cloudFill = SFSymbol(rawValue: "cloud.fill")
 
     /// 􀇊
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudFog = SFSymbol(rawValue: "cloud.fog")
 
     /// 􀇋
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudFogFill = SFSymbol(rawValue: "cloud.fog.fill")
 
     /// 􀇌
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudHail = SFSymbol(rawValue: "cloud.hail")
 
     /// 􀇍
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudHailFill = SFSymbol(rawValue: "cloud.hail.fill")
 
     /// 􀇈
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudHeavyrain = SFSymbol(rawValue: "cloud.heavyrain")
 
     /// 􀇉
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudHeavyrainFill = SFSymbol(rawValue: "cloud.heavyrain.fill")
 
     /// 􀇚
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudMoon = SFSymbol(rawValue: "cloud.moon")
 
     /// 􀇠
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudMoonBolt = SFSymbol(rawValue: "cloud.moon.bolt")
 
     /// 􀇡
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudMoonBoltFill = SFSymbol(rawValue: "cloud.moon.bolt.fill")
 
     /// 􀇛
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudMoonFill = SFSymbol(rawValue: "cloud.moon.fill")
 
     /// 􀇜
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudMoonRain = SFSymbol(rawValue: "cloud.moon.rain")
 
     /// 􀇝
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudMoonRainFill = SFSymbol(rawValue: "cloud.moon.rain.fill")
 
     /// 􀇆
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudRain = SFSymbol(rawValue: "cloud.rain")
 
     /// 􀇇
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudRainFill = SFSymbol(rawValue: "cloud.rain.fill")
 
     /// 􀇐
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudSleet = SFSymbol(rawValue: "cloud.sleet")
 
     /// 􀇑
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudSleetFill = SFSymbol(rawValue: "cloud.sleet.fill")
 
     /// 􀇎
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudSnow = SFSymbol(rawValue: "cloud.snow")
 
     /// 􀇏
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudSnowFill = SFSymbol(rawValue: "cloud.snow.fill")
 
     /// 􀇔
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudSun = SFSymbol(rawValue: "cloud.sun")
 
     /// 􀇘
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudSunBolt = SFSymbol(rawValue: "cloud.sun.bolt")
 
     /// 􀇙
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudSunBoltFill = SFSymbol(rawValue: "cloud.sun.bolt.fill")
 
     /// 􀇕
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudSunFill = SFSymbol(rawValue: "cloud.sun.fill")
 
     /// 􀇖
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudSunRain = SFSymbol(rawValue: "cloud.sun.rain")
 
     /// 􀇗
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cloudSunRainFill = SFSymbol(rawValue: "cloud.sun.rain.fill")
 
     /// 􀗁
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let coloncurrencysignCircle = SFSymbol(rawValue: "coloncurrencysign.circle")
 
     /// 􀗂
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let coloncurrencysignCircleFill = SFSymbol(rawValue: "coloncurrencysign.circle.fill")
 
     /// 􀘁
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let coloncurrencysignSquare = SFSymbol(rawValue: "coloncurrencysign.square")
 
     /// 􀘂
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let coloncurrencysignSquareFill = SFSymbol(rawValue: "coloncurrencysign.square.fill")
 
     /// 􀆔
@@ -2157,18 +2710,23 @@ public extension SFSymbol {
     static let crop = SFSymbol(rawValue: "crop")
 
     /// 􀍴
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cropRotate = SFSymbol(rawValue: "crop.rotate")
 
     /// 􀗅
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cruzeirosignCircle = SFSymbol(rawValue: "cruzeirosign.circle")
 
     /// 􀗆
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let cruzeirosignCircleFill = SFSymbol(rawValue: "cruzeirosign.circle.fill")
 
     /// 􀘅
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cruzeirosignSquare = SFSymbol(rawValue: "cruzeirosign.square")
 
     /// 􀘆
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let cruzeirosignSquareFill = SFSymbol(rawValue: "cruzeirosign.square.fill")
 
     /// 􀐘
@@ -2199,36 +2757,47 @@ public extension SFSymbol {
     static let cursorRays = SFSymbol(rawValue: "cursor.rays")
 
     /// 􀀊
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let dCircle = SFSymbol(rawValue: "d.circle")
 
     /// 􀀋
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let dCircleFill = SFSymbol(rawValue: "d.circle.fill")
 
     /// 􀂚
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let dSquare = SFSymbol(rawValue: "d.square")
 
     /// 􀂛
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let dSquareFill = SFSymbol(rawValue: "d.square.fill")
 
     /// 􀋶
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let decreaseIndent = SFSymbol(rawValue: "decrease.indent")
 
     /// 􀝿
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let decreaseQuotelevel = SFSymbol(rawValue: "decrease.quotelevel")
 
     /// 􀆛
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let deleteLeft = SFSymbol(rawValue: "delete.left")
 
     /// 􀆜
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let deleteLeftFill = SFSymbol(rawValue: "delete.left.fill")
 
     /// 􀆗
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let deleteRight = SFSymbol(rawValue: "delete.right")
 
     /// 􀆘
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let deleteRightFill = SFSymbol(rawValue: "delete.right.fill")
 
     /// 􀙗
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let desktopcomputer = SFSymbol(rawValue: "desktopcomputer")
 
     /// 􀍺
@@ -2249,51 +2818,61 @@ public extension SFSymbol {
     static let divide = SFSymbol(rawValue: "divide")
 
     /// 􀁒
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let divideCircle = SFSymbol(rawValue: "divide.circle")
 
     /// 􀁓
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let divideCircleFill = SFSymbol(rawValue: "divide.circle.fill")
 
     /// 􀃢
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let divideSquare = SFSymbol(rawValue: "divide.square")
 
     /// 􀃣
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let divideSquareFill = SFSymbol(rawValue: "divide.square.fill")
 
     /// 􀈷
     static let doc = SFSymbol(rawValue: "doc")
 
     /// 􀉇
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
+    /// Localizations (available from iOS 14.0 on): Right-To-Left
     static let docAppend = SFSymbol(rawValue: "doc.append")
 
     /// 􀈹
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let docCircle = SFSymbol(rawValue: "doc.circle")
 
     /// 􀈺
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let docCircleFill = SFSymbol(rawValue: "doc.circle.fill")
 
     /// 􀈸
     static let docFill = SFSymbol(rawValue: "doc.fill")
 
     /// 􀉃
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let docOnClipboard = SFSymbol(rawValue: "doc.on.clipboard")
 
     /// 􀉄
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let docOnClipboardFill = SFSymbol(rawValue: "doc.on.clipboard.fill")
 
     /// 􀉁
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let docOnDoc = SFSymbol(rawValue: "doc.on.doc")
 
     /// 􀉂
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let docOnDocFill = SFSymbol(rawValue: "doc.on.doc.fill")
 
     /// 􀉆
     static let docPlaintext = SFSymbol(rawValue: "doc.plaintext")
 
     /// 􀉅
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Hebrew
-    /// From iOS 15.0, macOS 12.0, tvOS 15.0 and watchOS 8.0 on, the following localizations are available: Chinese, Hindi, Japanese, Korean, Thai, Traditional Chinese
+    /// Localizations (available from iOS 14.0 on): Arabic, Hebrew
+    /// Localizations (available from iOS 15.0 on): Chinese, Hindi, Japanese, Korean, Thai, Traditional Chinese
     static let docRichtext = SFSymbol(rawValue: "doc.richtext")
 
     /// 􀈿
@@ -2303,6 +2882,7 @@ public extension SFSymbol {
     static let docTextFill = SFSymbol(rawValue: "doc.text.fill")
 
     /// 􀕹
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let docTextMagnifyingglass = SFSymbol(rawValue: "doc.text.magnifyingglass")
 
     /// 􀎾
@@ -2313,60 +2893,79 @@ public extension SFSymbol {
     static let docTextViewfinder = SFSymbol(rawValue: "doc.text.viewfinder")
 
     /// 􀖗
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let dollarsignCircle = SFSymbol(rawValue: "dollarsign.circle")
 
     /// 􀖘
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let dollarsignCircleFill = SFSymbol(rawValue: "dollarsign.circle.fill")
 
     /// 􀗗
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let dollarsignSquare = SFSymbol(rawValue: "dollarsign.square")
 
     /// 􀗘
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let dollarsignSquareFill = SFSymbol(rawValue: "dollarsign.square.fill")
 
     /// 􀖩
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let dongsignCircle = SFSymbol(rawValue: "dongsign.circle")
 
     /// 􀖪
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let dongsignCircleFill = SFSymbol(rawValue: "dongsign.circle.fill")
 
     /// 􀗩
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let dongsignSquare = SFSymbol(rawValue: "dongsign.square")
 
     /// 􀗪
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let dongsignSquareFill = SFSymbol(rawValue: "dongsign.square.fill")
 
     /// 􀌙
     static let dotRadiowavesLeftAndRight = SFSymbol(rawValue: "dot.radiowaves.left.and.right")
 
     /// 􀖒
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let dotRadiowavesRight = SFSymbol(rawValue: "dot.radiowaves.right")
 
     /// 􀕴
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let dotSquare = SFSymbol(rawValue: "dot.square")
 
     /// 􀕵
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let dotSquareFill = SFSymbol(rawValue: "dot.square.fill")
 
     /// 􀈀
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let dropTriangle = SFSymbol(rawValue: "drop.triangle")
 
     /// 􀈁
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let dropTriangleFill = SFSymbol(rawValue: "drop.triangle.fill")
 
     /// 􀀌
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let eCircle = SFSymbol(rawValue: "e.circle")
 
     /// 􀀍
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let eCircleFill = SFSymbol(rawValue: "e.circle.fill")
 
     /// 􀂜
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let eSquare = SFSymbol(rawValue: "e.square")
 
     /// 􀂝
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let eSquareFill = SFSymbol(rawValue: "e.square.fill")
 
     /// 􀜣
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let ear = SFSymbol(rawValue: "ear")
 
     /// 􀆥
@@ -2393,24 +2992,31 @@ public extension SFSymbol {
     static let ellipsis = SFSymbol(rawValue: "ellipsis")
 
     /// 􀍡
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let ellipsisCircle = SFSymbol(rawValue: "ellipsis.circle")
 
     /// 􀍢
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let ellipsisCircleFill = SFSymbol(rawValue: "ellipsis.circle.fill")
 
     /// 􀍕
     static let envelope = SFSymbol(rawValue: "envelope")
 
     /// 􀍛
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let envelopeBadge = SFSymbol(rawValue: "envelope.badge")
 
     /// 􀍜
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let envelopeBadgeFill = SFSymbol(rawValue: "envelope.badge.fill")
 
     /// 􀍗
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let envelopeCircle = SFSymbol(rawValue: "envelope.circle")
 
     /// 􀍘
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let envelopeCircleFill = SFSymbol(rawValue: "envelope.circle.fill")
 
     /// 􀍖
@@ -2426,77 +3032,102 @@ public extension SFSymbol {
     static let equal = SFSymbol(rawValue: "equal")
 
     /// 􀁔
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let equalCircle = SFSymbol(rawValue: "equal.circle")
 
     /// 􀁕
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let equalCircleFill = SFSymbol(rawValue: "equal.circle.fill")
 
     /// 􀃤
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let equalSquare = SFSymbol(rawValue: "equal.square")
 
     /// 􀃥
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let equalSquareFill = SFSymbol(rawValue: "equal.square.fill")
 
     /// 􀆧
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let escape = SFSymbol(rawValue: "escape")
 
     /// 􀖧
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let eurosignCircle = SFSymbol(rawValue: "eurosign.circle")
 
     /// 􀖨
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let eurosignCircleFill = SFSymbol(rawValue: "eurosign.circle.fill")
 
     /// 􀗧
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let eurosignSquare = SFSymbol(rawValue: "eurosign.square")
 
     /// 􀗨
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let eurosignSquareFill = SFSymbol(rawValue: "eurosign.square.fill")
 
     /// 􀅎
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let exclamationmark = SFSymbol(rawValue: "exclamationmark")
 
     /// 􀌬
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let exclamationmarkBubble = SFSymbol(rawValue: "exclamationmark.bubble")
 
     /// 􀌭
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let exclamationmarkBubbleFill = SFSymbol(rawValue: "exclamationmark.bubble.fill")
 
     /// 􀁞
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let exclamationmarkCircle = SFSymbol(rawValue: "exclamationmark.circle")
 
     /// 􀁟
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let exclamationmarkCircleFill = SFSymbol(rawValue: "exclamationmark.circle.fill")
 
     /// 􀌑
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let exclamationmarkIcloud = SFSymbol(rawValue: "exclamationmark.icloud")
 
     /// 􀌒
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let exclamationmarkIcloudFill = SFSymbol(rawValue: "exclamationmark.icloud.fill")
 
     /// 􀘯
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let exclamationmarkOctagon = SFSymbol(rawValue: "exclamationmark.octagon")
 
     /// 􀘰
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let exclamationmarkOctagonFill = SFSymbol(rawValue: "exclamationmark.octagon.fill")
 
     /// 􀞟
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let exclamationmarkShield = SFSymbol(rawValue: "exclamationmark.shield")
 
     /// 􀞠
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let exclamationmarkShieldFill = SFSymbol(rawValue: "exclamationmark.shield.fill")
 
     /// 􀃮
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let exclamationmarkSquare = SFSymbol(rawValue: "exclamationmark.square")
 
     /// 􀃯
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let exclamationmarkSquareFill = SFSymbol(rawValue: "exclamationmark.square.fill")
 
     /// 􀇾
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let exclamationmarkTriangle = SFSymbol(rawValue: "exclamationmark.triangle")
 
     /// 􀇿
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let exclamationmarkTriangleFill = SFSymbol(rawValue: "exclamationmark.triangle.fill")
 
     /// 􀋭
@@ -2506,9 +3137,11 @@ public extension SFSymbol {
     static let eyeFill = SFSymbol(rawValue: "eye.fill")
 
     /// 􀋯
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let eyeSlash = SFSymbol(rawValue: "eye.slash")
 
     /// 􀋰
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let eyeSlashFill = SFSymbol(rawValue: "eye.slash.fill")
 
     /// 􀎗
@@ -2524,28 +3157,35 @@ public extension SFSymbol {
     static let eyeglasses = SFSymbol(rawValue: "eyeglasses")
 
     /// 􀀎
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let fCircle = SFSymbol(rawValue: "f.circle")
 
     /// 􀀏
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let fCircleFill = SFSymbol(rawValue: "f.circle.fill")
 
     /// 􀅭
     static let fCursive = SFSymbol(rawValue: "f.cursive")
 
     /// 􀝧
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let fCursiveCircle = SFSymbol(rawValue: "f.cursive.circle")
 
     /// 􀝨
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let fCursiveCircleFill = SFSymbol(rawValue: "f.cursive.circle.fill")
 
     /// 􀂞
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let fSquare = SFSymbol(rawValue: "f.square")
 
     /// 􀂟
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let fSquareFill = SFSymbol(rawValue: "f.square.fill")
 
     /// 􀎽
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Face ID feature.
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let faceid = SFSymbol(rawValue: "faceid")
 
     /// 􀎶
@@ -2555,21 +3195,28 @@ public extension SFSymbol {
     static let filmFill = SFSymbol(rawValue: "film.fill")
 
     /// 􀋉
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let flag = SFSymbol(rawValue: "flag")
 
     /// 􀋋
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let flagCircle = SFSymbol(rawValue: "flag.circle")
 
     /// 􀋌
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let flagCircleFill = SFSymbol(rawValue: "flag.circle.fill")
 
     /// 􀋊
+    /// Layersets (available from iOS 14.0 on): Multicolor
     static let flagFill = SFSymbol(rawValue: "flag.fill")
 
     /// 􀋍
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let flagSlash = SFSymbol(rawValue: "flag.slash")
 
     /// 􀋎
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let flagSlashFill = SFSymbol(rawValue: "flag.slash.fill")
 
     /// 􀙬
@@ -2599,15 +3246,19 @@ public extension SFSymbol {
     static let flipHorizontalFill = SFSymbol(rawValue: "flip.horizontal.fill")
 
     /// 􀖡
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let florinsignCircle = SFSymbol(rawValue: "florinsign.circle")
 
     /// 􀖢
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let florinsignCircleFill = SFSymbol(rawValue: "florinsign.circle.fill")
 
     /// 􀗡
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let florinsignSquare = SFSymbol(rawValue: "florinsign.square")
 
     /// 􀗢
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let florinsignSquareFill = SFSymbol(rawValue: "florinsign.square.fill")
 
     /// 􀐕
@@ -2617,33 +3268,48 @@ public extension SFSymbol {
     static let flowchartFill = SFSymbol(rawValue: "flowchart.fill")
 
     /// 􀈕
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let folder = SFSymbol(rawValue: "folder")
 
     /// 􀈛
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let folderBadgeMinus = SFSymbol(rawValue: "folder.badge.minus")
 
     /// 􀈝
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let folderBadgePersonCrop = SFSymbol(rawValue: "folder.badge.person.crop")
 
     /// 􀈙
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let folderBadgePlus = SFSymbol(rawValue: "folder.badge.plus")
 
     /// 􀈗
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let folderCircle = SFSymbol(rawValue: "folder.circle")
 
     /// 􀈘
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let folderCircleFill = SFSymbol(rawValue: "folder.circle.fill")
 
     /// 􀈖
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let folderFill = SFSymbol(rawValue: "folder.fill")
 
     /// 􀈜
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let folderFillBadgeMinus = SFSymbol(rawValue: "folder.fill.badge.minus")
 
     /// 􀈞
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let folderFillBadgePersonCrop = SFSymbol(rawValue: "folder.fill.badge.person.crop")
 
     /// 􀈚
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let folderFillBadgePlus = SFSymbol(rawValue: "folder.fill.badge.plus")
 
     /// 􀊋
@@ -2665,15 +3331,19 @@ public extension SFSymbol {
     static let forwardFill = SFSymbol(rawValue: "forward.fill")
 
     /// 􀖟
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let francsignCircle = SFSymbol(rawValue: "francsign.circle")
 
     /// 􀖠
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let francsignCircleFill = SFSymbol(rawValue: "francsign.circle.fill")
 
     /// 􀗟
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let francsignSquare = SFSymbol(rawValue: "francsign.square")
 
     /// 􀗠
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let francsignSquareFill = SFSymbol(rawValue: "francsign.square.fill")
 
     /// 􀅮
@@ -2683,39 +3353,52 @@ public extension SFSymbol {
     static let fx = SFSymbol(rawValue: "fx")
 
     /// 􀀐
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gCircle = SFSymbol(rawValue: "g.circle")
 
     /// 􀀑
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let gCircleFill = SFSymbol(rawValue: "g.circle.fill")
 
     /// 􀂠
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gSquare = SFSymbol(rawValue: "g.square")
 
     /// 􀂡
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let gSquareFill = SFSymbol(rawValue: "g.square.fill")
 
     /// 􀛸
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gamecontroller = SFSymbol(rawValue: "gamecontroller")
 
     /// 􀛹
     static let gamecontrollerFill = SFSymbol(rawValue: "gamecontroller.fill")
 
     /// 􀍽
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gauge = SFSymbol(rawValue: "gauge")
 
     /// 􀓧
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gaugeBadgeMinus = SFSymbol(rawValue: "gauge.badge.minus")
 
     /// 􀓓
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gaugeBadgePlus = SFSymbol(rawValue: "gauge.badge.plus")
 
     /// 􀍟
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let gear = SFSymbol(rawValue: "gear")
 
     /// 􀑉
+    /// Layersets (available from iOS 14.0 on): Multicolor
     static let gift = SFSymbol(rawValue: "gift")
 
     /// 􀑊
+    /// Layersets (available from iOS 14.0 on): Multicolor
     static let giftFill = SFSymbol(rawValue: "gift.fill")
 
     /// 􀆪
@@ -2725,119 +3408,149 @@ public extension SFSymbol {
     static let gobackward = SFSymbol(rawValue: "gobackward")
 
     /// 􀎂
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
+    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gobackward10 = SFSymbol(rawValue: "gobackward.10")
 
     /// 􀎄
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
+    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gobackward15 = SFSymbol(rawValue: "gobackward.15")
 
     /// 􀎆
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
+    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gobackward30 = SFSymbol(rawValue: "gobackward.30")
 
     /// 􀎈
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
+    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gobackward45 = SFSymbol(rawValue: "gobackward.45")
 
     /// 􀎊
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
+    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gobackward60 = SFSymbol(rawValue: "gobackward.60")
 
     /// 􀘥
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
+    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gobackward75 = SFSymbol(rawValue: "gobackward.75")
 
     /// 􀘧
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
+    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gobackward90 = SFSymbol(rawValue: "gobackward.90")
 
     /// 􀘩
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gobackwardMinus = SFSymbol(rawValue: "gobackward.minus")
 
     /// 􀍿
     static let goforward = SFSymbol(rawValue: "goforward")
 
     /// 􀎁
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
+    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let goforward10 = SFSymbol(rawValue: "goforward.10")
 
     /// 􀎃
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
+    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let goforward15 = SFSymbol(rawValue: "goforward.15")
 
     /// 􀎅
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
+    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let goforward30 = SFSymbol(rawValue: "goforward.30")
 
     /// 􀎇
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
+    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let goforward45 = SFSymbol(rawValue: "goforward.45")
 
     /// 􀎉
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
+    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let goforward60 = SFSymbol(rawValue: "goforward.60")
 
     /// 􀘤
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
+    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let goforward75 = SFSymbol(rawValue: "goforward.75")
 
     /// 􀘦
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Arabic, Hindi
+    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let goforward90 = SFSymbol(rawValue: "goforward.90")
 
     /// 􀘨
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let goforwardPlus = SFSymbol(rawValue: "goforward.plus")
 
     /// 􀆂
     static let greaterthan = SFSymbol(rawValue: "greaterthan")
 
     /// 􀁖
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let greaterthanCircle = SFSymbol(rawValue: "greaterthan.circle")
 
     /// 􀁗
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let greaterthanCircleFill = SFSymbol(rawValue: "greaterthan.circle.fill")
 
     /// 􀃨
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let greaterthanSquare = SFSymbol(rawValue: "greaterthan.square")
 
     /// 􀃩
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let greaterthanSquareFill = SFSymbol(rawValue: "greaterthan.square.fill")
 
     /// 􀓗
     static let grid = SFSymbol(rawValue: "grid")
 
     /// 􀓘
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gridCircle = SFSymbol(rawValue: "grid.circle")
 
     /// 􀘟
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let gridCircleFill = SFSymbol(rawValue: "grid.circle.fill")
 
     /// 􀖿
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let guaranisignCircle = SFSymbol(rawValue: "guaranisign.circle")
 
     /// 􀗀
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let guaranisignCircleFill = SFSymbol(rawValue: "guaranisign.circle.fill")
 
     /// 􀗿
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let guaranisignSquare = SFSymbol(rawValue: "guaranisign.square")
 
     /// 􀘀
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let guaranisignSquareFill = SFSymbol(rawValue: "guaranisign.square.fill")
 
     /// 􀑭
     static let guitars = SFSymbol(rawValue: "guitars")
 
     /// 􀀒
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let hCircle = SFSymbol(rawValue: "h.circle")
 
     /// 􀀓
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let hCircleFill = SFSymbol(rawValue: "h.circle.fill")
 
     /// 􀂢
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let hSquare = SFSymbol(rawValue: "h.square")
 
     /// 􀂣
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let hSquareFill = SFSymbol(rawValue: "h.square.fill")
 
     /// 􀙄
@@ -2847,9 +3560,11 @@ public extension SFSymbol {
     static let hammerFill = SFSymbol(rawValue: "hammer.fill")
 
     /// 􀖓
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let handDraw = SFSymbol(rawValue: "hand.draw")
 
     /// 􀖔
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let handDrawFill = SFSymbol(rawValue: "hand.draw.fill")
 
     /// 􀙽
@@ -2865,15 +3580,19 @@ public extension SFSymbol {
     static let handPointRightFill = SFSymbol(rawValue: "hand.point.right.fill")
 
     /// 􀉻
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let handRaised = SFSymbol(rawValue: "hand.raised")
 
     /// 􀉼
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let handRaisedFill = SFSymbol(rawValue: "hand.raised.fill")
 
     /// 􀉽
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let handRaisedSlash = SFSymbol(rawValue: "hand.raised.slash")
 
     /// 􀉾
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let handRaisedSlashFill = SFSymbol(rawValue: "hand.raised.slash.fill")
 
     /// 􀊁
@@ -2898,27 +3617,35 @@ public extension SFSymbol {
     static let headphones = SFSymbol(rawValue: "headphones")
 
     /// 􀊴
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let heart = SFSymbol(rawValue: "heart")
 
     /// 􀊸
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let heartCircle = SFSymbol(rawValue: "heart.circle")
 
     /// 􀊹
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let heartCircleFill = SFSymbol(rawValue: "heart.circle.fill")
 
     /// 􀊵
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let heartFill = SFSymbol(rawValue: "heart.fill")
 
     /// 􀊶
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let heartSlash = SFSymbol(rawValue: "heart.slash")
 
     /// 􀊺
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let heartSlashCircle = SFSymbol(rawValue: "heart.slash.circle")
 
     /// 􀊻
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let heartSlashCircleFill = SFSymbol(rawValue: "heart.slash.circle.fill")
 
     /// 􀊷
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let heartSlashFill = SFSymbol(rawValue: "heart.slash.fill")
 
     /// 􀐪
@@ -2934,9 +3661,11 @@ public extension SFSymbol {
     static let hifispeaker = SFSymbol(rawValue: "hifispeaker")
 
     /// 􀝏
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let hifispeakerFill = SFSymbol(rawValue: "hifispeaker.fill")
 
     /// 􀖇
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let hourglass = SFSymbol(rawValue: "hourglass")
 
     /// 􀖈
@@ -2957,33 +3686,43 @@ public extension SFSymbol {
     static let house = SFSymbol(rawValue: "house")
 
     /// 􀎟
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let houseFill = SFSymbol(rawValue: "house.fill")
 
     /// 􀖻
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let hryvniasignCircle = SFSymbol(rawValue: "hryvniasign.circle")
 
     /// 􀖼
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let hryvniasignCircleFill = SFSymbol(rawValue: "hryvniasign.circle.fill")
 
     /// 􀗻
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let hryvniasignSquare = SFSymbol(rawValue: "hryvniasign.square")
 
     /// 􀗼
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let hryvniasignSquareFill = SFSymbol(rawValue: "hryvniasign.square.fill")
 
     /// 􀇩
+    /// Layersets (available from iOS 14.0 on): Multicolor
     static let hurricane = SFSymbol(rawValue: "hurricane")
 
     /// 􀀔
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let iCircle = SFSymbol(rawValue: "i.circle")
 
     /// 􀀕
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let iCircleFill = SFSymbol(rawValue: "i.circle.fill")
 
     /// 􀂤
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let iSquare = SFSymbol(rawValue: "i.square")
 
     /// 􀂥
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let iSquareFill = SFSymbol(rawValue: "i.square.fill")
 
     /// 􀌋
@@ -2992,6 +3731,7 @@ public extension SFSymbol {
 
     /// 􀌕
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let icloudAndArrowDown = SFSymbol(rawValue: "icloud.and.arrow.down")
 
     /// 􀌖
@@ -3000,6 +3740,7 @@ public extension SFSymbol {
 
     /// 􀌗
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let icloudAndArrowUp = SFSymbol(rawValue: "icloud.and.arrow.up")
 
     /// 􀌘
@@ -3008,76 +3749,100 @@ public extension SFSymbol {
 
     /// 􀌍
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let icloudCircle = SFSymbol(rawValue: "icloud.circle")
 
     /// 􀌎
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let icloudCircleFill = SFSymbol(rawValue: "icloud.circle.fill")
 
     /// 􀌌
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let icloudFill = SFSymbol(rawValue: "icloud.fill")
 
     /// 􀌏
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let icloudSlash = SFSymbol(rawValue: "icloud.slash")
 
     /// 􀌐
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let icloudSlashFill = SFSymbol(rawValue: "icloud.slash.fill")
 
     /// 􀋵
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let increaseIndent = SFSymbol(rawValue: "increase.indent")
 
     /// 􀞀
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let increaseQuotelevel = SFSymbol(rawValue: "increase.quotelevel")
 
     /// 􀖫
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let indianrupeesignCircle = SFSymbol(rawValue: "indianrupeesign.circle")
 
     /// 􀖬
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let indianrupeesignCircleFill = SFSymbol(rawValue: "indianrupeesign.circle.fill")
 
     /// 􀗫
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let indianrupeesignSquare = SFSymbol(rawValue: "indianrupeesign.square")
 
     /// 􀗬
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let indianrupeesignSquareFill = SFSymbol(rawValue: "indianrupeesign.square.fill")
 
     /// 􀅳
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let info = SFSymbol(rawValue: "info")
 
     /// 􀅴
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let infoCircle = SFSymbol(rawValue: "info.circle")
 
     /// 􀅵
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let infoCircleFill = SFSymbol(rawValue: "info.circle.fill")
 
     /// 􀅔
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let italic = SFSymbol(rawValue: "italic")
 
     /// 􀀖
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let jCircle = SFSymbol(rawValue: "j.circle")
 
     /// 􀀗
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let jCircleFill = SFSymbol(rawValue: "j.circle.fill")
 
     /// 􀂦
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let jSquare = SFSymbol(rawValue: "j.square")
 
     /// 􀂧
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let jSquareFill = SFSymbol(rawValue: "j.square.fill")
 
     /// 􀀘
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let kCircle = SFSymbol(rawValue: "k.circle")
 
     /// 􀀙
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let kCircleFill = SFSymbol(rawValue: "k.circle.fill")
 
     /// 􀂨
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let kSquare = SFSymbol(rawValue: "k.square")
 
     /// 􀂩
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let kSquareFill = SFSymbol(rawValue: "k.square.fill")
 
     /// 􀇳
@@ -3087,27 +3852,35 @@ public extension SFSymbol {
     static let keyboardChevronCompactDown = SFSymbol(rawValue: "keyboard.chevron.compact.down")
 
     /// 􀖳
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let kipsignCircle = SFSymbol(rawValue: "kipsign.circle")
 
     /// 􀖴
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let kipsignCircleFill = SFSymbol(rawValue: "kipsign.circle.fill")
 
     /// 􀗳
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let kipsignSquare = SFSymbol(rawValue: "kipsign.square")
 
     /// 􀗴
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let kipsignSquareFill = SFSymbol(rawValue: "kipsign.square.fill")
 
     /// 􀀚
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lCircle = SFSymbol(rawValue: "l.circle")
 
     /// 􀀛
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let lCircleFill = SFSymbol(rawValue: "l.circle.fill")
 
     /// 􀂪
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lSquare = SFSymbol(rawValue: "l.square")
 
     /// 􀂫
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let lSquareFill = SFSymbol(rawValue: "l.square.fill")
 
     /// 􀝜
@@ -3118,15 +3891,19 @@ public extension SFSymbol {
     static let largecircleFillCircle = SFSymbol(rawValue: "largecircle.fill.circle")
 
     /// 􀗓
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let larisignCircle = SFSymbol(rawValue: "larisign.circle")
 
     /// 􀗔
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let larisignCircleFill = SFSymbol(rawValue: "larisign.circle.fill")
 
     /// 􀘓
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let larisignSquare = SFSymbol(rawValue: "larisign.square")
 
     /// 􀘔
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let larisignSquareFill = SFSymbol(rawValue: "larisign.square.fill")
 
     /// 􀓩
@@ -3143,21 +3920,27 @@ public extension SFSymbol {
     static let lessthan = SFSymbol(rawValue: "lessthan")
 
     /// 􀁘
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lessthanCircle = SFSymbol(rawValue: "lessthan.circle")
 
     /// 􀁙
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let lessthanCircleFill = SFSymbol(rawValue: "lessthan.circle.fill")
 
     /// 􀃦
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lessthanSquare = SFSymbol(rawValue: "lessthan.square")
 
     /// 􀃧
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lessthanSquareFill = SFSymbol(rawValue: "lessthan.square.fill")
 
     /// 􀇮
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lightMax = SFSymbol(rawValue: "light.max")
 
     /// 􀇭
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lightMin = SFSymbol(rawValue: "light.min")
 
     /// 􀛭
@@ -3167,9 +3950,11 @@ public extension SFSymbol {
     static let lightbulbFill = SFSymbol(rawValue: "lightbulb.fill")
 
     /// 􀞃
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lightbulbSlash = SFSymbol(rawValue: "lightbulb.slash")
 
     /// 􀞄
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lightbulbSlashFill = SFSymbol(rawValue: "lightbulb.slash.fill")
 
     /// 􀌇
@@ -3201,50 +3986,64 @@ public extension SFSymbol {
     static let lineHorizontal3DecreaseCircleFill = SFSymbol(rawValue: "line.horizontal.3.decrease.circle.fill")
 
     /// 􀉣
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let link = SFSymbol(rawValue: "link")
 
     /// 􀒠
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let linkCircle = SFSymbol(rawValue: "link.circle")
 
     /// 􀒡
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let linkCircleFill = SFSymbol(rawValue: "link.circle.fill")
 
     /// 􀒞
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let linkIcloud = SFSymbol(rawValue: "link.icloud")
 
     /// 􀒟
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let linkIcloudFill = SFSymbol(rawValue: "link.icloud.fill")
 
     /// 􀖷
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lirasignCircle = SFSymbol(rawValue: "lirasign.circle")
 
     /// 􀖸
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let lirasignCircleFill = SFSymbol(rawValue: "lirasign.circle.fill")
 
     /// 􀗷
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lirasignSquare = SFSymbol(rawValue: "lirasign.square")
 
     /// 􀗸
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let lirasignSquareFill = SFSymbol(rawValue: "lirasign.square.fill")
 
     /// 􀋲
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let listBullet = SFSymbol(rawValue: "list.bullet")
 
     /// 􀋷
     static let listBulletBelowRectangle = SFSymbol(rawValue: "list.bullet.below.rectangle")
 
     /// 􀋳
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let listBulletIndent = SFSymbol(rawValue: "list.bullet.indent")
 
     /// 􀋱
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let listDash = SFSymbol(rawValue: "list.dash")
 
     /// 􀋴
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
-    /// From iOS 15.0, macOS 12.0, tvOS 15.0 and watchOS 8.0 on, the following localizations are available: Hindi
+    /// Localizations (available from iOS 13.0 on): Right-To-Left
+    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Localizations (available from iOS 15.0 on): Hindi
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let listNumber = SFSymbol(rawValue: "list.number")
 
     /// 􀐡
@@ -3256,56 +4055,74 @@ public extension SFSymbol {
 
     /// 􀐢
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Live Photos feature.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let livephotoSlash = SFSymbol(rawValue: "livephoto.slash")
 
     /// 􀋑
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let location = SFSymbol(rawValue: "location")
 
     /// 􀋕
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let locationCircle = SFSymbol(rawValue: "location.circle")
 
     /// 􀋖
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let locationCircleFill = SFSymbol(rawValue: "location.circle.fill")
 
     /// 􀋒
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let locationFill = SFSymbol(rawValue: "location.fill")
 
     /// 􀋓
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let locationNorth = SFSymbol(rawValue: "location.north")
 
     /// 􀋔
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let locationNorthFill = SFSymbol(rawValue: "location.north.fill")
 
     /// 􀋗
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let locationNorthLine = SFSymbol(rawValue: "location.north.line")
 
     /// 􀋘
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let locationNorthLineFill = SFSymbol(rawValue: "location.north.line.fill")
 
     /// 􀘬
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let locationSlash = SFSymbol(rawValue: "location.slash")
 
     /// 􀘭
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let locationSlashFill = SFSymbol(rawValue: "location.slash.fill")
 
     /// 􀎠
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let lock = SFSymbol(rawValue: "lock")
 
     /// 􀒲
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let lockCircle = SFSymbol(rawValue: "lock.circle")
 
     /// 􀒳
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let lockCircleFill = SFSymbol(rawValue: "lock.circle.fill")
 
     /// 􀎡
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let lockFill = SFSymbol(rawValue: "lock.fill")
 
     /// 􀙵
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lockIcloud = SFSymbol(rawValue: "lock.icloud")
 
     /// 􀙶
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lockIcloudFill = SFSymbol(rawValue: "lock.icloud.fill")
 
     /// 􀎤
@@ -3315,57 +4132,74 @@ public extension SFSymbol {
     static let lockOpenFill = SFSymbol(rawValue: "lock.open.fill")
 
     /// 􀑙
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lockRotation = SFSymbol(rawValue: "lock.rotation")
 
     /// 􀑚
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lockRotationOpen = SFSymbol(rawValue: "lock.rotation.open")
 
     /// 􀞙
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lockShield = SFSymbol(rawValue: "lock.shield")
 
     /// 􀞚
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lockShieldFill = SFSymbol(rawValue: "lock.shield.fill")
 
     /// 􀎢
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lockSlash = SFSymbol(rawValue: "lock.slash")
 
     /// 􀎣
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lockSlashFill = SFSymbol(rawValue: "lock.slash.fill")
 
     /// 􀀜
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let mCircle = SFSymbol(rawValue: "m.circle")
 
     /// 􀀝
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let mCircleFill = SFSymbol(rawValue: "m.circle.fill")
 
     /// 􀂬
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let mSquare = SFSymbol(rawValue: "m.square")
 
     /// 􀂭
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let mSquareFill = SFSymbol(rawValue: "m.square.fill")
 
     /// 􀏜
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let macwindow = SFSymbol(rawValue: "macwindow")
 
     /// 􀊫
     static let magnifyingglass = SFSymbol(rawValue: "magnifyingglass")
 
     /// 􀒒
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let magnifyingglassCircle = SFSymbol(rawValue: "magnifyingglass.circle")
 
     /// 􀒓
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let magnifyingglassCircleFill = SFSymbol(rawValue: "magnifyingglass.circle.fill")
 
     /// 􀗍
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let manatsignCircle = SFSymbol(rawValue: "manatsign.circle")
 
     /// 􀗎
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let manatsignCircleFill = SFSymbol(rawValue: "manatsign.circle.fill")
 
     /// 􀘍
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let manatsignSquare = SFSymbol(rawValue: "manatsign.square")
 
     /// 􀘎
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let manatsignSquareFill = SFSymbol(rawValue: "manatsign.square.fill")
 
     /// 􀙊
@@ -3375,94 +4209,125 @@ public extension SFSymbol {
     static let mapFill = SFSymbol(rawValue: "map.fill")
 
     /// 􀎪
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let mappin = SFSymbol(rawValue: "mappin")
 
     /// 􀎫
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let mappinAndEllipse = SFSymbol(rawValue: "mappin.and.ellipse")
 
     /// 􀜇
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let mappinCircle = SFSymbol(rawValue: "mappin.circle")
 
     /// 􀜈
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let mappinCircleFill = SFSymbol(rawValue: "mappin.circle.fill")
 
     /// 􀙉
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let mappinSlash = SFSymbol(rawValue: "mappin.slash")
 
     /// 􀑖
     static let memories = SFSymbol(rawValue: "memories")
 
     /// 􀑘
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let memoriesBadgeMinus = SFSymbol(rawValue: "memories.badge.minus")
 
     /// 􀑗
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let memoriesBadgePlus = SFSymbol(rawValue: "memories.badge.plus")
 
     /// 􀌤
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let message = SFSymbol(rawValue: "message")
 
     /// 􀌦
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let messageCircle = SFSymbol(rawValue: "message.circle")
 
     /// 􀌧
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let messageCircleFill = SFSymbol(rawValue: "message.circle.fill")
 
     /// 􀌥
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let messageFill = SFSymbol(rawValue: "message.fill")
 
     /// 􀎌
     static let metronome = SFSymbol(rawValue: "metronome")
 
     /// 􀊰
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let mic = SFSymbol(rawValue: "mic")
 
     /// 􀒩
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let micCircle = SFSymbol(rawValue: "mic.circle")
 
     /// 􀒪
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let micCircleFill = SFSymbol(rawValue: "mic.circle.fill")
 
     /// 􀊱
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let micFill = SFSymbol(rawValue: "mic.fill")
 
     /// 􀊲
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let micSlash = SFSymbol(rawValue: "mic.slash")
 
     /// 􀊳
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let micSlashFill = SFSymbol(rawValue: "mic.slash.fill")
 
     /// 􀗉
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let millsignCircle = SFSymbol(rawValue: "millsign.circle")
 
     /// 􀗊
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let millsignCircleFill = SFSymbol(rawValue: "millsign.circle.fill")
 
     /// 􀘉
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let millsignSquare = SFSymbol(rawValue: "millsign.square")
 
     /// 􀘊
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let millsignSquareFill = SFSymbol(rawValue: "millsign.square.fill")
 
     /// 􀅽
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let minus = SFSymbol(rawValue: "minus")
 
     /// 􀁎
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let minusCircle = SFSymbol(rawValue: "minus.circle")
 
     /// 􀁏
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let minusCircleFill = SFSymbol(rawValue: "minus.circle.fill")
 
     /// 􀊭
     static let minusMagnifyingglass = SFSymbol(rawValue: "minus.magnifyingglass")
 
     /// 􀏉
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let minusRectangle = SFSymbol(rawValue: "minus.rectangle")
 
     /// 􀏊
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let minusRectangleFill = SFSymbol(rawValue: "minus.rectangle.fill")
 
     /// 􀅻
@@ -3473,48 +4338,63 @@ public extension SFSymbol {
     static let minusSlashPlus = SFSymbol(rawValue: "minus.slash.plus")
 
     /// 􀃞
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let minusSquare = SFSymbol(rawValue: "minus.square")
 
     /// 􀃟
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let minusSquareFill = SFSymbol(rawValue: "minus.square.fill")
 
     /// 􀆹
     static let moon = SFSymbol(rawValue: "moon")
 
     /// 􀆻
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let moonCircle = SFSymbol(rawValue: "moon.circle")
 
     /// 􀆼
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let moonCircleFill = SFSymbol(rawValue: "moon.circle.fill")
 
     /// 􀆺
+    /// Layersets (available from iOS 14.0 on): Multicolor
     static let moonFill = SFSymbol(rawValue: "moon.fill")
 
     /// 􀇀
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let moonStars = SFSymbol(rawValue: "moon.stars")
 
     /// 􀇁
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let moonStarsFill = SFSymbol(rawValue: "moon.stars.fill")
 
     /// 􀆽
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let moonZzz = SFSymbol(rawValue: "moon.zzz")
 
     /// 􀆾
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let moonZzzFill = SFSymbol(rawValue: "moon.zzz.fill")
 
     /// 􀅾
     static let multiply = SFSymbol(rawValue: "multiply")
 
     /// 􀁐
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let multiplyCircle = SFSymbol(rawValue: "multiply.circle")
 
     /// 􀁑
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let multiplyCircleFill = SFSymbol(rawValue: "multiply.circle.fill")
 
     /// 􀃠
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let multiplySquare = SFSymbol(rawValue: "multiply.square")
 
     /// 􀃡
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let multiplySquareFill = SFSymbol(rawValue: "multiply.square.fill")
 
     /// 􀒼
@@ -3538,30 +4418,39 @@ public extension SFSymbol {
     static let musicNote = SFSymbol(rawValue: "music.note")
 
     /// 􀑬
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let musicNoteList = SFSymbol(rawValue: "music.note.list")
 
     /// 􀀞
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let nCircle = SFSymbol(rawValue: "n.circle")
 
     /// 􀀟
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let nCircleFill = SFSymbol(rawValue: "n.circle.fill")
 
     /// 􀂮
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let nSquare = SFSymbol(rawValue: "n.square")
 
     /// 􀂯
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let nSquareFill = SFSymbol(rawValue: "n.square.fill")
 
     /// 􀖽
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let nairasignCircle = SFSymbol(rawValue: "nairasign.circle")
 
     /// 􀖾
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let nairasignCircleFill = SFSymbol(rawValue: "nairasign.circle.fill")
 
     /// 􀗽
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let nairasignSquare = SFSymbol(rawValue: "nairasign.square")
 
     /// 􀗾
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let nairasignSquareFill = SFSymbol(rawValue: "nairasign.square.fill")
 
     /// 􀍼
@@ -3571,42 +4460,54 @@ public extension SFSymbol {
     static let number = SFSymbol(rawValue: "number")
 
     /// 􀁚
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let numberCircle = SFSymbol(rawValue: "number.circle")
 
     /// 􀁛
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let numberCircleFill = SFSymbol(rawValue: "number.circle.fill")
 
     /// 􀃪
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let numberSquare = SFSymbol(rawValue: "number.square")
 
     /// 􀃫
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let numberSquareFill = SFSymbol(rawValue: "number.square.fill")
 
     /// 􀀠
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let oCircle = SFSymbol(rawValue: "o.circle")
 
     /// 􀀡
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let oCircleFill = SFSymbol(rawValue: "o.circle.fill")
 
     /// 􀂰
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let oSquare = SFSymbol(rawValue: "o.square")
 
     /// 􀂱
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let oSquareFill = SFSymbol(rawValue: "o.square.fill")
 
     /// 􀆕
     static let option = SFSymbol(rawValue: "option")
 
     /// 􀀢
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let pCircle = SFSymbol(rawValue: "p.circle")
 
     /// 􀀣
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let pCircleFill = SFSymbol(rawValue: "p.circle.fill")
 
     /// 􀂲
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let pSquare = SFSymbol(rawValue: "p.square")
 
     /// 􀂳
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let pSquareFill = SFSymbol(rawValue: "p.square.fill")
 
     /// 􀎑
@@ -3622,12 +4523,15 @@ public extension SFSymbol {
     static let panoFill = SFSymbol(rawValue: "pano.fill")
 
     /// 􀉢
+    /// Layersets (available from iOS 14.0 on): Multicolor
     static let paperclip = SFSymbol(rawValue: "paperclip")
 
     /// 􀒔
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let paperclipCircle = SFSymbol(rawValue: "paperclip.circle")
 
     /// 􀒕
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let paperclipCircleFill = SFSymbol(rawValue: "paperclip.circle.fill")
 
     /// 􀈟
@@ -3647,25 +4551,29 @@ public extension SFSymbol {
     static let pause = SFSymbol(rawValue: "pause")
 
     /// 􀊗
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let pauseCircle = SFSymbol(rawValue: "pause.circle")
 
     /// 􀊘
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let pauseCircleFill = SFSymbol(rawValue: "pause.circle.fill")
 
     /// 􀊆
     static let pauseFill = SFSymbol(rawValue: "pause.fill")
 
     /// 􀊛
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let pauseRectangle = SFSymbol(rawValue: "pause.rectangle")
 
     /// 􀊜
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let pauseRectangleFill = SFSymbol(rawValue: "pause.rectangle.fill")
 
     /// 􀈊
     static let pencil = SFSymbol(rawValue: "pencil")
 
     /// 􀈏
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
+    /// Localizations (available from iOS 14.0 on): Right-To-Left
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "rectangleAndPencilAndEllipsis")
     @available(macOS, introduced: 10.15, deprecated: 11.0, renamed: "rectangleAndPencilAndEllipsis")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "rectangleAndPencilAndEllipsis")
@@ -3673,15 +4581,19 @@ public extension SFSymbol {
     static let pencilAndEllipsisRectangle = SFSymbol(rawValue: "pencil.and.ellipsis.rectangle")
 
     /// 􀈐
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let pencilAndOutline = SFSymbol(rawValue: "pencil.and.outline")
 
     /// 􀈋
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let pencilCircle = SFSymbol(rawValue: "pencil.circle")
 
     /// 􀈌
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let pencilCircleFill = SFSymbol(rawValue: "pencil.circle.fill")
 
     /// 􀈍
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let pencilSlash = SFSymbol(rawValue: "pencil.slash")
 
     /// 􀒋
@@ -3694,23 +4606,29 @@ public extension SFSymbol {
 
     /// 􀉧
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Markup feature.
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let pencilTipCropCircleBadgeMinus = SFSymbol(rawValue: "pencil.tip.crop.circle.badge.minus")
 
     /// 􀉦
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Markup feature.
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let pencilTipCropCircleBadgePlus = SFSymbol(rawValue: "pencil.tip.crop.circle.badge.plus")
 
     /// 􀘾
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
+    /// Localizations (available from iOS 14.0 on): Arabic
     static let percent = SFSymbol(rawValue: "percent")
 
     /// 􀉩
     static let person = SFSymbol(rawValue: "person")
 
     /// 􀉫
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let person2 = SFSymbol(rawValue: "person.2")
 
     /// 􀉬
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let person2Fill = SFSymbol(rawValue: "person.2.fill")
 
     /// 􀓥
@@ -3728,12 +4646,16 @@ public extension SFSymbol {
     static let person2SquareStackFill = SFSymbol(rawValue: "person.2.square.stack.fill")
 
     /// 􀝊
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let person3 = SFSymbol(rawValue: "person.3")
 
     /// 􀝋
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let person3Fill = SFSymbol(rawValue: "person.3.fill")
 
     /// 􀜗
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personBadgeMinus = SFSymbol(rawValue: "person.badge.minus")
 
     /// 􀜘
@@ -3744,6 +4666,8 @@ public extension SFSymbol {
     static let personBadgeMinusFill = SFSymbol(rawValue: "person.badge.minus.fill")
 
     /// 􀜕
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personBadgePlus = SFSymbol(rawValue: "person.badge.plus")
 
     /// 􀜖
@@ -3754,15 +4678,19 @@ public extension SFSymbol {
     static let personBadgePlusFill = SFSymbol(rawValue: "person.badge.plus.fill")
 
     /// 􀓣
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personCircle = SFSymbol(rawValue: "person.circle")
 
     /// 􀓤
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let personCircleFill = SFSymbol(rawValue: "person.circle.fill")
 
     /// 􀉭
     static let personCropCircle = SFSymbol(rawValue: "person.crop.circle")
 
     /// 􀉳
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personCropCircleBadgeCheckmark = SFSymbol(rawValue: "person.crop.circle.badge.checkmark")
 
     /// 􀉷
@@ -3773,18 +4701,27 @@ public extension SFSymbol {
     static let personCropCircleBadgeExclam = SFSymbol(rawValue: "person.crop.circle.badge.exclam")
 
     /// 􀉱
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personCropCircleBadgeMinus = SFSymbol(rawValue: "person.crop.circle.badge.minus")
 
     /// 􀉯
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personCropCircleBadgePlus = SFSymbol(rawValue: "person.crop.circle.badge.plus")
 
     /// 􀉵
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personCropCircleBadgeXmark = SFSymbol(rawValue: "person.crop.circle.badge.xmark")
 
     /// 􀉮
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let personCropCircleFill = SFSymbol(rawValue: "person.crop.circle.fill")
 
     /// 􀉴
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personCropCircleFillBadgeCheckmark = SFSymbol(rawValue: "person.crop.circle.fill.badge.checkmark")
 
     /// 􀉸
@@ -3795,12 +4732,18 @@ public extension SFSymbol {
     static let personCropCircleFillBadgeExclam = SFSymbol(rawValue: "person.crop.circle.fill.badge.exclam")
 
     /// 􀉲
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personCropCircleFillBadgeMinus = SFSymbol(rawValue: "person.crop.circle.fill.badge.minus")
 
     /// 􀉰
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personCropCircleFillBadgePlus = SFSymbol(rawValue: "person.crop.circle.fill.badge.plus")
 
     /// 􀉶
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personCropCircleFillBadgeXmark = SFSymbol(rawValue: "person.crop.circle.fill.badge.xmark")
 
     /// 􀏏
@@ -3813,6 +4756,7 @@ public extension SFSymbol {
     static let personCropSquare = SFSymbol(rawValue: "person.crop.square")
 
     /// 􀉺
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personCropSquareFill = SFSymbol(rawValue: "person.crop.square.fill")
 
     /// 􀉪
@@ -3824,84 +4768,114 @@ public extension SFSymbol {
 
     /// 􀙴
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personIcloudFill = SFSymbol(rawValue: "person.icloud.fill")
 
     /// 􀉤
     static let personalhotspot = SFSymbol(rawValue: "personalhotspot")
 
     /// 􀒱
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let perspective = SFSymbol(rawValue: "perspective")
 
     /// 􀖯
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let pesetasignCircle = SFSymbol(rawValue: "pesetasign.circle")
 
     /// 􀖰
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let pesetasignCircleFill = SFSymbol(rawValue: "pesetasign.circle.fill")
 
     /// 􀗯
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let pesetasignSquare = SFSymbol(rawValue: "pesetasign.square")
 
     /// 􀗰
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let pesetasignSquareFill = SFSymbol(rawValue: "pesetasign.square.fill")
 
     /// 􀖱
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let pesosignCircle = SFSymbol(rawValue: "pesosign.circle")
 
     /// 􀖲
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let pesosignCircleFill = SFSymbol(rawValue: "pesosign.circle.fill")
 
     /// 􀗱
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let pesosignSquare = SFSymbol(rawValue: "pesosign.square")
 
     /// 􀗲
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let pesosignSquareFill = SFSymbol(rawValue: "pesosign.square.fill")
 
     /// 􀌾
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let phone = SFSymbol(rawValue: "phone")
 
     /// 􀍂
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let phoneArrowDownLeft = SFSymbol(rawValue: "phone.arrow.down.left")
 
     /// 􀍄
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let phoneArrowRight = SFSymbol(rawValue: "phone.arrow.right")
 
     /// 􀍀
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let phoneArrowUpRight = SFSymbol(rawValue: "phone.arrow.up.right")
 
     /// 􀖎
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let phoneBadgePlus = SFSymbol(rawValue: "phone.badge.plus")
 
     /// 􀒥
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let phoneCircle = SFSymbol(rawValue: "phone.circle")
 
     /// 􀒦
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let phoneCircleFill = SFSymbol(rawValue: "phone.circle.fill")
 
     /// 􀍆
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let phoneDown = SFSymbol(rawValue: "phone.down")
 
     /// 􀒧
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let phoneDownCircle = SFSymbol(rawValue: "phone.down.circle")
 
     /// 􀒨
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let phoneDownCircleFill = SFSymbol(rawValue: "phone.down.circle.fill")
 
     /// 􀍇
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let phoneDownFill = SFSymbol(rawValue: "phone.down.fill")
 
     /// 􀌿
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let phoneFill = SFSymbol(rawValue: "phone.fill")
 
     /// 􀍃
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let phoneFillArrowDownLeft = SFSymbol(rawValue: "phone.fill.arrow.down.left")
 
     /// 􀍅
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let phoneFillArrowRight = SFSymbol(rawValue: "phone.fill.arrow.right")
 
     /// 􀍁
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let phoneFillArrowUpRight = SFSymbol(rawValue: "phone.fill.arrow.up.right")
 
     /// 􀖏
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let phoneFillBadgePlus = SFSymbol(rawValue: "phone.fill.badge.plus")
 
     /// 􀏅
@@ -3911,45 +4885,58 @@ public extension SFSymbol {
     static let photoFill = SFSymbol(rawValue: "photo.fill")
 
     /// 􀏬
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let photoFillOnRectangleFill = SFSymbol(rawValue: "photo.fill.on.rectangle.fill")
 
     /// 􀏫
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let photoOnRectangle = SFSymbol(rawValue: "photo.on.rectangle")
 
     /// 􀎦
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let pin = SFSymbol(rawValue: "pin")
 
     /// 􀒴
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let pinCircle = SFSymbol(rawValue: "pin.circle")
 
     /// 􀒵
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let pinCircleFill = SFSymbol(rawValue: "pin.circle.fill")
 
     /// 􀎧
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let pinFill = SFSymbol(rawValue: "pin.fill")
 
     /// 􀎨
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let pinSlash = SFSymbol(rawValue: "pin.slash")
 
     /// 􀎩
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let pinSlashFill = SFSymbol(rawValue: "pin.slash.fill")
 
     /// 􀊃
     static let play = SFSymbol(rawValue: "play")
 
     /// 􀊕
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let playCircle = SFSymbol(rawValue: "play.circle")
 
     /// 􀊖
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let playCircleFill = SFSymbol(rawValue: "play.circle.fill")
 
     /// 􀊄
     static let playFill = SFSymbol(rawValue: "play.fill")
 
     /// 􀊙
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let playRectangle = SFSymbol(rawValue: "play.rectangle")
 
     /// 􀊚
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let playRectangleFill = SFSymbol(rawValue: "play.rectangle.fill")
 
     /// 􀊇
@@ -3959,39 +4946,51 @@ public extension SFSymbol {
     static let playpauseFill = SFSymbol(rawValue: "playpause.fill")
 
     /// 􀅼
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let plus = SFSymbol(rawValue: "plus")
 
     /// 􀑍
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let plusApp = SFSymbol(rawValue: "plus.app")
 
     /// 􀑎
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let plusAppFill = SFSymbol(rawValue: "plus.app.fill")
 
     /// 􀌶
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let plusBubble = SFSymbol(rawValue: "plus.bubble")
 
     /// 􀌷
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let plusBubbleFill = SFSymbol(rawValue: "plus.bubble.fill")
 
     /// 􀁌
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let plusCircle = SFSymbol(rawValue: "plus.circle")
 
     /// 􀁍
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let plusCircleFill = SFSymbol(rawValue: "plus.circle.fill")
 
     /// 􀊬
     static let plusMagnifyingglass = SFSymbol(rawValue: "plus.magnifyingglass")
 
     /// 􀏇
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let plusRectangle = SFSymbol(rawValue: "plus.rectangle")
 
     /// 􀏈
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let plusRectangleFill = SFSymbol(rawValue: "plus.rectangle.fill")
 
     /// 􀏪
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let plusRectangleFillOnRectangleFill = SFSymbol(rawValue: "plus.rectangle.fill.on.rectangle.fill")
 
     /// 􀏩
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let plusRectangleOnRectangle = SFSymbol(rawValue: "plus.rectangle.on.rectangle")
 
     /// 􀅺
@@ -4002,24 +5001,30 @@ public extension SFSymbol {
     static let plusSlashMinus = SFSymbol(rawValue: "plus.slash.minus")
 
     /// 􀃜
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let plusSquare = SFSymbol(rawValue: "plus.square")
 
     /// 􀃝
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let plusSquareFill = SFSymbol(rawValue: "plus.square.fill")
 
     /// 􀐈
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let plusSquareFillOnSquareFill = SFSymbol(rawValue: "plus.square.fill.on.square.fill")
 
     /// 􀐇
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let plusSquareOnSquare = SFSymbol(rawValue: "plus.square.on.square")
 
     /// 􀛺
     static let plusminus = SFSymbol(rawValue: "plusminus")
 
     /// 􀍶
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let plusminusCircle = SFSymbol(rawValue: "plusminus.circle")
 
     /// 􀘝
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let plusminusCircleFill = SFSymbol(rawValue: "plusminus.circle.fill")
 
     /// 􀆨
@@ -4038,87 +5043,109 @@ public extension SFSymbol {
     static let purchased = SFSymbol(rawValue: "purchased")
 
     /// 􀚑
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let purchasedCircle = SFSymbol(rawValue: "purchased.circle")
 
     /// 􀚒
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let purchasedCircleFill = SFSymbol(rawValue: "purchased.circle.fill")
 
     /// 􀀤
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let qCircle = SFSymbol(rawValue: "q.circle")
 
     /// 􀀥
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let qCircleFill = SFSymbol(rawValue: "q.circle.fill")
 
     /// 􀂴
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let qSquare = SFSymbol(rawValue: "q.square")
 
     /// 􀂵
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let qSquareFill = SFSymbol(rawValue: "q.square.fill")
 
     /// 􀖂
     static let qrcode = SFSymbol(rawValue: "qrcode")
 
     /// 􀎻
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let qrcodeViewfinder = SFSymbol(rawValue: "qrcode.viewfinder")
 
     /// 􀅍
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
+    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let questionmark = SFSymbol(rawValue: "questionmark")
 
     /// 􀁜
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
+    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let questionmarkCircle = SFSymbol(rawValue: "questionmark.circle")
 
     /// 􀁝
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
+    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let questionmarkCircleFill = SFSymbol(rawValue: "questionmark.circle.fill")
 
     /// 􀄢
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
+    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let questionmarkDiamond = SFSymbol(rawValue: "questionmark.diamond")
 
     /// 􀄣
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
+    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let questionmarkDiamondFill = SFSymbol(rawValue: "questionmark.diamond.fill")
 
     /// 􀃬
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
+    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let questionmarkSquare = SFSymbol(rawValue: "questionmark.square")
 
     /// 􀃭
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
+    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let questionmarkSquareFill = SFSymbol(rawValue: "questionmark.square.fill")
 
     /// 􀍓
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
+    /// Localizations (available from iOS 13.0 on): Right-To-Left
+    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let questionmarkVideo = SFSymbol(rawValue: "questionmark.video")
 
     /// 􀍔
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
+    /// Localizations (available from iOS 13.0 on): Right-To-Left
+    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let questionmarkVideoFill = SFSymbol(rawValue: "questionmark.video.fill")
 
     /// 􀌮
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
+    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let quoteBubble = SFSymbol(rawValue: "quote.bubble")
 
     /// 􀌯
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
+    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let quoteBubbleFill = SFSymbol(rawValue: "quote.bubble.fill")
 
     /// 􀀦
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rCircle = SFSymbol(rawValue: "r.circle")
 
     /// 􀀧
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let rCircleFill = SFSymbol(rawValue: "r.circle.fill")
 
     /// 􀂶
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rSquare = SFSymbol(rawValue: "r.square")
 
     /// 􀂷
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let rSquareFill = SFSymbol(rawValue: "r.square.fill")
 
     /// 􀙱
@@ -4159,21 +5186,29 @@ public extension SFSymbol {
     static let rectangle3OffgridFill = SFSymbol(rawValue: "rectangle.3.offgrid.fill")
 
     /// 􀙮
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleAndArrowUpRightAndArrowDownLeft = SFSymbol(rawValue: "rectangle.and.arrow.up.right.and.arrow.down.left")
 
     /// 􀙯
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleAndArrowUpRightAndArrowDownLeftSlash = SFSymbol(rawValue: "rectangle.and.arrow.up.right.and.arrow.down.left.slash")
 
     /// 􀒖
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleAndPaperclip = SFSymbol(rawValue: "rectangle.and.paperclip")
 
     /// 􀏕
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleBadgeCheckmark = SFSymbol(rawValue: "rectangle.badge.checkmark")
 
     /// 􀏗
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleBadgeXmark = SFSymbol(rawValue: "rectangle.badge.xmark")
 
     /// 􀐷
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleCompressVertical = SFSymbol(rawValue: "rectangle.compress.vertical")
 
     /// 􀏞
@@ -4184,21 +5219,28 @@ public extension SFSymbol {
     static let rectangleDock = SFSymbol(rawValue: "rectangle.dock")
 
     /// 􀐸
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleExpandVertical = SFSymbol(rawValue: "rectangle.expand.vertical")
 
     /// 􀏄
     static let rectangleFill = SFSymbol(rawValue: "rectangle.fill")
 
     /// 􀏖
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleFillBadgeCheckmark = SFSymbol(rawValue: "rectangle.fill.badge.checkmark")
 
     /// 􀏘
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleFillBadgeXmark = SFSymbol(rawValue: "rectangle.fill.badge.xmark")
 
     /// 􀑰
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleFillOnRectangleAngledFill = SFSymbol(rawValue: "rectangle.fill.on.rectangle.angled.fill")
 
     /// 􀏨
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleFillOnRectangleFill = SFSymbol(rawValue: "rectangle.fill.on.rectangle.fill")
 
     /// 􀓛
@@ -4220,9 +5262,11 @@ public extension SFSymbol {
     static let rectangleGrid3x2Fill = SFSymbol(rawValue: "rectangle.grid.3x2.fill")
 
     /// 􀏧
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleOnRectangle = SFSymbol(rawValue: "rectangle.on.rectangle")
 
     /// 􀑯
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleOnRectangleAngled = SFSymbol(rawValue: "rectangle.on.rectangle.angled")
 
     /// 􀏟
@@ -4241,18 +5285,25 @@ public extension SFSymbol {
     static let rectangleStack = SFSymbol(rawValue: "rectangle.stack")
 
     /// 􀏳
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleStackBadgeMinus = SFSymbol(rawValue: "rectangle.stack.badge.minus")
 
     /// 􀏹
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleStackBadgePersonCrop = SFSymbol(rawValue: "rectangle.stack.badge.person.crop")
 
     /// 􀏱
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleStackBadgePlus = SFSymbol(rawValue: "rectangle.stack.badge.plus")
 
     /// 􀏮
     static let rectangleStackFill = SFSymbol(rawValue: "rectangle.stack.fill")
 
     /// 􀏴
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleStackFillBadgeMinus = SFSymbol(rawValue: "rectangle.stack.fill.badge.minus")
 
     /// 􀏺
@@ -4263,6 +5314,8 @@ public extension SFSymbol {
     static let rectangleStackFillBadgePersonCrop = SFSymbol(rawValue: "rectangle.stack.fill.badge.person.crop")
 
     /// 􀏲
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleStackFillBadgePlus = SFSymbol(rawValue: "rectangle.stack.fill.badge.plus")
 
     /// 􀏻
@@ -4283,7 +5336,8 @@ public extension SFSymbol {
     static let `repeat` = SFSymbol(rawValue: "repeat")
 
     /// 􀊟
-    /// From iOS 15.0, macOS 12.0, tvOS 15.0 and watchOS 8.0 on, the following localizations are available: Arabic, Hindi
+    /// Localizations (available from iOS 15.0 on): Arabic, Hindi
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let repeat1 = SFSymbol(rawValue: "repeat.1")
 
     /// 􀅇
@@ -4299,65 +5353,84 @@ public extension SFSymbol {
     static let rosette = SFSymbol(rawValue: "rosette")
 
     /// 􀎮
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rotateLeft = SFSymbol(rawValue: "rotate.left")
 
     /// 􀎯
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rotateLeftFill = SFSymbol(rawValue: "rotate.left.fill")
 
     /// 􀎰
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rotateRight = SFSymbol(rawValue: "rotate.right")
 
     /// 􀎱
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rotateRightFill = SFSymbol(rawValue: "rotate.right.fill")
 
     /// 􀖥
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rublesignCircle = SFSymbol(rawValue: "rublesign.circle")
 
     /// 􀖦
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let rublesignCircleFill = SFSymbol(rawValue: "rublesign.circle.fill")
 
     /// 􀗥
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rublesignSquare = SFSymbol(rawValue: "rublesign.square")
 
     /// 􀗦
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let rublesignSquareFill = SFSymbol(rawValue: "rublesign.square.fill")
 
     /// 􀗏
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rupeesignCircle = SFSymbol(rawValue: "rupeesign.circle")
 
     /// 􀗐
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let rupeesignCircleFill = SFSymbol(rawValue: "rupeesign.circle.fill")
 
     /// 􀘏
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rupeesignSquare = SFSymbol(rawValue: "rupeesign.square")
 
     /// 􀘐
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let rupeesignSquareFill = SFSymbol(rawValue: "rupeesign.square.fill")
 
     /// 􀀨
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let sCircle = SFSymbol(rawValue: "s.circle")
 
     /// 􀀩
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let sCircleFill = SFSymbol(rawValue: "s.circle.fill")
 
     /// 􀂸
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let sSquare = SFSymbol(rawValue: "s.square")
 
     /// 􀂹
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let sSquareFill = SFSymbol(rawValue: "s.square.fill")
 
     /// 􀎬
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Safari browser.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let safari = SFSymbol(rawValue: "safari")
 
     /// 􀎭
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Safari browser.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let safariFill = SFSymbol(rawValue: "safari.fill")
 
     /// 􀉈
     static let scissors = SFSymbol(rawValue: "scissors")
 
     /// 􀞷
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let scissorsBadgeEllipsis = SFSymbol(rawValue: "scissors.badge.ellipsis")
 
     /// 􀐩
@@ -4411,9 +5484,11 @@ public extension SFSymbol {
     static let shieldLefthalfFill = SFSymbol(rawValue: "shield.lefthalf.fill")
 
     /// 􀞡
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let shieldSlash = SFSymbol(rawValue: "shield.slash")
 
     /// 􀞢
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let shieldSlashFill = SFSymbol(rawValue: "shield.slash.fill")
 
     /// 􀆝
@@ -4432,32 +5507,38 @@ public extension SFSymbol {
     static let sidebarRight = SFSymbol(rawValue: "sidebar.right")
 
     /// 􀙤
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Hebrew
-    /// From iOS 15.0, macOS 12.0, tvOS 15.0 and watchOS 8.0 on, the following localizations are available: Chinese, Japanese, Thai, Traditional Chinese
+    /// Localizations (available from iOS 14.0 on): Arabic, Hebrew
+    /// Localizations (available from iOS 15.0 on): Chinese, Japanese, Thai, Traditional Chinese
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let signature = SFSymbol(rawValue: "signature")
 
     /// 􀍵
     static let skew = SFSymbol(rawValue: "skew")
 
     /// 􀕧
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let slashCircle = SFSymbol(rawValue: "slash.circle")
 
     /// 􀕨
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let slashCircleFill = SFSymbol(rawValue: "slash.circle.fill")
 
     /// 􀌆
     static let sliderHorizontal3 = SFSymbol(rawValue: "slider.horizontal.3")
 
     /// 􀐗
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let sliderHorizontalBelowRectangle = SFSymbol(rawValue: "slider.horizontal.below.rectangle")
 
     /// 􀇱
     static let slowmo = SFSymbol(rawValue: "slowmo")
 
     /// 􀕪
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let smallcircleCircle = SFSymbol(rawValue: "smallcircle.circle")
 
     /// 􀕫
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let smallcircleCircleFill = SFSymbol(rawValue: "smallcircle.circle.fill")
 
     /// 􀍷
@@ -4492,6 +5573,7 @@ public extension SFSymbol {
     static let smoke = SFSymbol(rawValue: "smoke")
 
     /// 􀇣
+    /// Layersets (available from iOS 14.0 on): Multicolor
     static let smokeFill = SFSymbol(rawValue: "smoke.fill")
 
     /// 􀇥
@@ -4502,6 +5584,7 @@ public extension SFSymbol {
     static let snow = SFSymbol(rawValue: "snow")
 
     /// 􀆿
+    /// Layersets (available from iOS 14.0 on): Multicolor
     static let sparkles = SFSymbol(rawValue: "sparkles")
 
     /// 􀊠
@@ -4553,22 +5636,27 @@ public extension SFSymbol {
     static let speakerFill = SFSymbol(rawValue: "speaker.fill")
 
     /// 􀊢
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
+    /// Localizations (available from iOS 13.0 on): Right-To-Left
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let speakerSlash = SFSymbol(rawValue: "speaker.slash")
 
     /// 􀊣
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
+    /// Localizations (available from iOS 13.0 on): Right-To-Left
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let speakerSlashFill = SFSymbol(rawValue: "speaker.slash.fill")
 
     /// 􀌊
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
+    /// Localizations (available from iOS 13.0 on): Right-To-Left
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let speakerZzz = SFSymbol(rawValue: "speaker.zzz")
 
     /// 􀑞
-    /// From iOS 13.0, macOS 10.15, tvOS 13.0 and watchOS 6.0 on, the following localizations are available: Right-To-Left
+    /// Localizations (available from iOS 13.0 on): Right-To-Left
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let speakerZzzFill = SFSymbol(rawValue: "speaker.zzz.fill")
 
     /// 􀍾
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let speedometer = SFSymbol(rawValue: "speedometer")
 
     /// 􀝐
@@ -4581,24 +5669,28 @@ public extension SFSymbol {
     static let square = SFSymbol(rawValue: "square")
 
     /// 􀈄
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let squareAndArrowDown = SFSymbol(rawValue: "square.and.arrow.down")
 
     /// 􀈅
     static let squareAndArrowDownFill = SFSymbol(rawValue: "square.and.arrow.down.fill")
 
     /// 􀈈
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let squareAndArrowDownOnSquare = SFSymbol(rawValue: "square.and.arrow.down.on.square")
 
     /// 􀈉
     static let squareAndArrowDownOnSquareFill = SFSymbol(rawValue: "square.and.arrow.down.on.square.fill")
 
     /// 􀈂
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let squareAndArrowUp = SFSymbol(rawValue: "square.and.arrow.up")
 
     /// 􀈃
     static let squareAndArrowUpFill = SFSymbol(rawValue: "square.and.arrow.up.fill")
 
     /// 􀈆
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let squareAndArrowUpOnSquare = SFSymbol(rawValue: "square.and.arrow.up.on.square")
 
     /// 􀈇
@@ -4615,6 +5707,7 @@ public extension SFSymbol {
     static let squareAndLineVerticalAndSquareFill = SFSymbol(rawValue: "square.and.line.vertical.and.square.fill")
 
     /// 􀈎
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let squareAndPencil = SFSymbol(rawValue: "square.and.pencil")
 
     /// 􀂓
@@ -4635,9 +5728,11 @@ public extension SFSymbol {
     static let squareFillAndLineVerticalSquareFill = SFSymbol(rawValue: "square.fill.and.line.vertical.square.fill")
 
     /// 􀐊
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let squareFillOnCircleFill = SFSymbol(rawValue: "square.fill.on.circle.fill")
 
     /// 􀐆
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let squareFillOnSquareFill = SFSymbol(rawValue: "square.fill.on.square.fill")
 
     /// 􀇷
@@ -4663,9 +5758,11 @@ public extension SFSymbol {
     static let squareLefthalfFill = SFSymbol(rawValue: "square.lefthalf.fill")
 
     /// 􀐉
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let squareOnCircle = SFSymbol(rawValue: "square.on.circle")
 
     /// 􀐅
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let squareOnSquare = SFSymbol(rawValue: "square.on.square")
 
     /// 􀚔
@@ -4704,39 +5801,51 @@ public extension SFSymbol {
     static let squareStack3dDownDottedline = SFSymbol(rawValue: "square.stack.3d.down.dottedline")
 
     /// 􀐜
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let squareStack3dDownRight = SFSymbol(rawValue: "square.stack.3d.down.right")
 
     /// 􀐝
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let squareStack3dDownRightFill = SFSymbol(rawValue: "square.stack.3d.down.right.fill")
 
     /// 􀐞
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let squareStack3dUp = SFSymbol(rawValue: "square.stack.3d.up")
 
     /// 􀐟
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let squareStack3dUpFill = SFSymbol(rawValue: "square.stack.3d.up.fill")
 
     /// 􀙒
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let squareStack3dUpSlash = SFSymbol(rawValue: "square.stack.3d.up.slash")
 
     /// 􀙓
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let squareStack3dUpSlashFill = SFSymbol(rawValue: "square.stack.3d.up.slash.fill")
 
     /// 􀐌
     static let squareStackFill = SFSymbol(rawValue: "square.stack.fill")
 
     /// 􀏡
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let squaresBelowRectangle = SFSymbol(rawValue: "squares.below.rectangle")
 
     /// 􀋂
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let star = SFSymbol(rawValue: "star")
 
     /// 􀋅
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let starCircle = SFSymbol(rawValue: "star.circle")
 
     /// 􀋆
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let starCircleFill = SFSymbol(rawValue: "star.circle.fill")
 
     /// 􀋃
+    /// Layersets (available from iOS 14.0 on): Multicolor
     static let starFill = SFSymbol(rawValue: "star.fill")
 
     /// 􀋄
@@ -4747,9 +5856,11 @@ public extension SFSymbol {
     static let starLefthalfFill = SFSymbol(rawValue: "star.lefthalf.fill")
 
     /// 􀋇
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let starSlash = SFSymbol(rawValue: "star.slash")
 
     /// 􀋈
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let starSlashFill = SFSymbol(rawValue: "star.slash.fill")
 
     /// 􀑆
@@ -4759,85 +5870,108 @@ public extension SFSymbol {
     static let staroflifeFill = SFSymbol(rawValue: "staroflife.fill")
 
     /// 􀖝
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let sterlingsignCircle = SFSymbol(rawValue: "sterlingsign.circle")
 
     /// 􀖞
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let sterlingsignCircleFill = SFSymbol(rawValue: "sterlingsign.circle.fill")
 
     /// 􀗝
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let sterlingsignSquare = SFSymbol(rawValue: "sterlingsign.square")
 
     /// 􀗞
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let sterlingsignSquareFill = SFSymbol(rawValue: "sterlingsign.square.fill")
 
     /// 􀛶
     static let stop = SFSymbol(rawValue: "stop")
 
     /// 􀜪
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let stopCircle = SFSymbol(rawValue: "stop.circle")
 
     /// 􀜫
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let stopCircleFill = SFSymbol(rawValue: "stop.circle.fill")
 
     /// 􀛷
     static let stopFill = SFSymbol(rawValue: "stop.fill")
 
     /// 􀐯
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let stopwatch = SFSymbol(rawValue: "stopwatch")
 
     /// 􀐰
     static let stopwatchFill = SFSymbol(rawValue: "stopwatch.fill")
 
     /// 􀅖
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let strikethrough = SFSymbol(rawValue: "strikethrough")
 
     /// 􀑔
     static let studentdesk = SFSymbol(rawValue: "studentdesk")
 
     /// 􀒃
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let suitClub = SFSymbol(rawValue: "suit.club")
 
     /// 􀊽
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let suitClubFill = SFSymbol(rawValue: "suit.club.fill")
 
     /// 􀒄
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let suitDiamond = SFSymbol(rawValue: "suit.diamond")
 
     /// 􀊿
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let suitDiamondFill = SFSymbol(rawValue: "suit.diamond.fill")
 
     /// 􀒂
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let suitHeart = SFSymbol(rawValue: "suit.heart")
 
     /// 􀊼
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let suitHeartFill = SFSymbol(rawValue: "suit.heart.fill")
 
     /// 􀒅
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let suitSpade = SFSymbol(rawValue: "suit.spade")
 
     /// 􀊾
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let suitSpadeFill = SFSymbol(rawValue: "suit.spade.fill")
 
     /// 􀘽
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
+    /// Localizations (available from iOS 14.0 on): Arabic
     static let sum = SFSymbol(rawValue: "sum")
 
     /// 􀆵
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let sunDust = SFSymbol(rawValue: "sun.dust")
 
     /// 􀆶
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let sunDustFill = SFSymbol(rawValue: "sun.dust.fill")
 
     /// 􀆷
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let sunHaze = SFSymbol(rawValue: "sun.haze")
 
     /// 􀆸
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let sunHazeFill = SFSymbol(rawValue: "sun.haze.fill")
 
     /// 􀆭
     static let sunMax = SFSymbol(rawValue: "sun.max")
 
     /// 􀆮
+    /// Layersets (available from iOS 14.0 on): Multicolor
     static let sunMaxFill = SFSymbol(rawValue: "sun.max.fill")
 
     /// 􀆫
@@ -4847,20 +5981,26 @@ public extension SFSymbol {
     static let sunMinFill = SFSymbol(rawValue: "sun.min.fill")
 
     /// 􀆱
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let sunrise = SFSymbol(rawValue: "sunrise")
 
     /// 􀆲
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let sunriseFill = SFSymbol(rawValue: "sunrise.fill")
 
     /// 􀆳
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let sunset = SFSymbol(rawValue: "sunset")
 
     /// 􀆴
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let sunsetFill = SFSymbol(rawValue: "sunset.fill")
 
     /// 􀌰
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Hebrew
-    /// From iOS 15.0, macOS 12.0, tvOS 15.0 and watchOS 8.0 on, the following localizations are available: Chinese, Hindi, Japanese, Korean, Thai, Traditional Chinese
+    /// Localizations (available from iOS 14.0 on): Arabic, Hebrew
+    /// Localizations (available from iOS 15.0 on): Chinese, Hindi, Japanese, Korean, Thai, Traditional Chinese
     @available(iOS, introduced: 13.0, deprecated: 14.5, renamed: "characterBubble")
     @available(macOS, introduced: 10.15, deprecated: 11.3, renamed: "characterBubble")
     @available(tvOS, introduced: 13.0, deprecated: 14.5, renamed: "characterBubble")
@@ -4868,8 +6008,8 @@ public extension SFSymbol {
     static let tBubble = SFSymbol(rawValue: "t.bubble")
 
     /// 􀌱
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Hebrew
-    /// From iOS 15.0, macOS 12.0, tvOS 15.0 and watchOS 8.0 on, the following localizations are available: Chinese, Hindi, Japanese, Korean, Thai, Traditional Chinese
+    /// Localizations (available from iOS 14.0 on): Arabic, Hebrew
+    /// Localizations (available from iOS 15.0 on): Chinese, Hindi, Japanese, Korean, Thai, Traditional Chinese
     @available(iOS, introduced: 13.0, deprecated: 14.5, renamed: "characterBubbleFill")
     @available(macOS, introduced: 10.15, deprecated: 11.3, renamed: "characterBubbleFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.5, renamed: "characterBubbleFill")
@@ -4877,15 +6017,19 @@ public extension SFSymbol {
     static let tBubbleFill = SFSymbol(rawValue: "t.bubble.fill")
 
     /// 􀀪
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let tCircle = SFSymbol(rawValue: "t.circle")
 
     /// 􀀫
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let tCircleFill = SFSymbol(rawValue: "t.circle.fill")
 
     /// 􀂺
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let tSquare = SFSymbol(rawValue: "t.square")
 
     /// 􀂻
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let tSquareFill = SFSymbol(rawValue: "t.square.fill")
 
     /// 􀏣
@@ -4920,9 +6064,11 @@ public extension SFSymbol {
     static let tag = SFSymbol(rawValue: "tag")
 
     /// 􀋣
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let tagCircle = SFSymbol(rawValue: "tag.circle")
 
     /// 􀋤
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let tagCircleFill = SFSymbol(rawValue: "tag.circle.fill")
 
     /// 􀋢
@@ -4930,22 +6076,28 @@ public extension SFSymbol {
 
     /// 􀍈
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Teletype feature.
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let teletype = SFSymbol(rawValue: "teletype")
 
     /// 􀙰
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Teletype feature.
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let teletypeAnswer = SFSymbol(rawValue: "teletype.answer")
 
     /// 􀖭
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let tengesignCircle = SFSymbol(rawValue: "tengesign.circle")
 
     /// 􀖮
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let tengesignCircleFill = SFSymbol(rawValue: "tengesign.circle.fill")
 
     /// 􀗭
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let tengesignSquare = SFSymbol(rawValue: "tengesign.square")
 
     /// 􀗮
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let tengesignSquareFill = SFSymbol(rawValue: "tengesign.square.fill")
 
     /// 􀌁
@@ -4958,35 +6110,47 @@ public extension SFSymbol {
     static let textAlignright = SFSymbol(rawValue: "text.alignright")
 
     /// 􀋾
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let textAppend = SFSymbol(rawValue: "text.append")
 
     /// 􀋺
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
+    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let textBadgeCheckmark = SFSymbol(rawValue: "text.badge.checkmark")
 
     /// 􀋹
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let textBadgeMinus = SFSymbol(rawValue: "text.badge.minus")
 
     /// 􀋸
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let textBadgePlus = SFSymbol(rawValue: "text.badge.plus")
 
     /// 􀋼
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let textBadgeStar = SFSymbol(rawValue: "text.badge.star")
 
     /// 􀋻
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let textBadgeXmark = SFSymbol(rawValue: "text.badge.xmark")
 
     /// 􀌲
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
+    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let textBubble = SFSymbol(rawValue: "text.bubble")
 
     /// 􀌳
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
+    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let textBubbleFill = SFSymbol(rawValue: "text.bubble.fill")
 
     /// 􀅫
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
-    /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Traditional Chinese
+    /// Localizations (available from iOS 14.0 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
+    /// Localizations (available from iOS 14.2 on): Traditional Chinese
     @available(iOS, introduced: 13.0, deprecated: 14.5, renamed: "characterCursorIbeam")
     @available(macOS, introduced: 10.15, deprecated: 11.3, renamed: "characterCursorIbeam")
     @available(tvOS, introduced: 13.0, deprecated: 14.5, renamed: "characterCursorIbeam")
@@ -4994,6 +6158,7 @@ public extension SFSymbol {
     static let textCursor = SFSymbol(rawValue: "text.cursor")
 
     /// 􀋽
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let textInsert = SFSymbol(rawValue: "text.insert")
 
     /// 􀌃
@@ -5014,12 +6179,13 @@ public extension SFSymbol {
     static let textJustifyright = SFSymbol(rawValue: "text.justifyright")
 
     /// 􀋿
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Right-To-Left
+    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let textQuote = SFSymbol(rawValue: "text.quote")
 
     /// 􀅶
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
-    /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Traditional Chinese
+    /// Localizations (available from iOS 14.0 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
+    /// Localizations (available from iOS 14.2 on): Traditional Chinese
     @available(iOS, introduced: 13.0, deprecated: 14.5, renamed: "characterTextbox")
     @available(macOS, introduced: 10.15, deprecated: 11.3, renamed: "characterTextbox")
     @available(tvOS, introduced: 13.0, deprecated: 14.5, renamed: "characterTextbox")
@@ -5030,74 +6196,93 @@ public extension SFSymbol {
     static let textformat = SFSymbol(rawValue: "textformat")
 
     /// 􀅱
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic
-    /// From iOS 15.0, macOS 12.0, tvOS 15.0 and watchOS 8.0 on, the following localizations are available: Hindi
+    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Localizations (available from iOS 15.0 on): Hindi
     static let textformat123 = SFSymbol(rawValue: "textformat.123")
 
     /// 􀅯
     static let textformatAbc = SFSymbol(rawValue: "textformat.abc")
 
     /// 􀅰
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let textformatAbcDottedunderline = SFSymbol(rawValue: "textformat.abc.dottedunderline")
 
     /// 􀅑
     static let textformatAlt = SFSymbol(rawValue: "textformat.alt")
 
     /// 􀅐
-    /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
+    /// Localizations (available from iOS 14.2 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
     static let textformatSize = SFSymbol(rawValue: "textformat.size")
 
     /// 􀓡
-    /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
+    /// Localizations (available from iOS 14.2 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let textformatSubscript = SFSymbol(rawValue: "textformat.subscript")
 
     /// 􀓢
-    /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
+    /// Localizations (available from iOS 14.2 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let textformatSuperscript = SFSymbol(rawValue: "textformat.superscript")
 
     /// 􀇬
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let thermometer = SFSymbol(rawValue: "thermometer")
 
     /// 􀇫
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let thermometerSnowflake = SFSymbol(rawValue: "thermometer.snowflake")
 
     /// 􀇪
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let thermometerSun = SFSymbol(rawValue: "thermometer.sun")
 
     /// 􀇲
     static let timelapse = SFSymbol(rawValue: "timelapse")
 
     /// 􀐱
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let timer = SFSymbol(rawValue: "timer")
 
     /// 􀇧
+    /// Layersets (available from iOS 14.0 on): Multicolor
     static let tornado = SFSymbol(rawValue: "tornado")
 
     /// 􀓐
     static let tortoise = SFSymbol(rawValue: "tortoise")
 
     /// 􀓑
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let tortoiseFill = SFSymbol(rawValue: "tortoise.fill")
 
     /// 􀝇
     static let tramFill = SFSymbol(rawValue: "tram.fill")
 
     /// 􀈑
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let trash = SFSymbol(rawValue: "trash")
 
     /// 􀈓
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let trashCircle = SFSymbol(rawValue: "trash.circle")
 
     /// 􀈔
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let trashCircleFill = SFSymbol(rawValue: "trash.circle.fill")
 
     /// 􀈒
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let trashFill = SFSymbol(rawValue: "trash.fill")
 
     /// 􀜧
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let trashSlash = SFSymbol(rawValue: "trash.slash")
 
     /// 􀜨
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let trashSlashFill = SFSymbol(rawValue: "trash.slash.fill")
 
     /// 􀈣
@@ -5110,15 +6295,19 @@ public extension SFSymbol {
     static let tray2Fill = SFSymbol(rawValue: "tray.2.fill")
 
     /// 􀈧
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let trayAndArrowDown = SFSymbol(rawValue: "tray.and.arrow.down")
 
     /// 􀈨
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let trayAndArrowDownFill = SFSymbol(rawValue: "tray.and.arrow.down.fill")
 
     /// 􀈥
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let trayAndArrowUp = SFSymbol(rawValue: "tray.and.arrow.up")
 
     /// 􀈦
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let trayAndArrowUpFill = SFSymbol(rawValue: "tray.and.arrow.up.fill")
 
     /// 􀈤
@@ -5151,42 +6340,54 @@ public extension SFSymbol {
     static let triangleRighthalfFill = SFSymbol(rawValue: "triangle.righthalf.fill")
 
     /// 􀇨
+    /// Layersets (available from iOS 14.0 on): Multicolor
     static let tropicalstorm = SFSymbol(rawValue: "tropicalstorm")
 
     /// 􀗇
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let tugriksignCircle = SFSymbol(rawValue: "tugriksign.circle")
 
     /// 􀗈
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let tugriksignCircleFill = SFSymbol(rawValue: "tugriksign.circle.fill")
 
     /// 􀘇
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let tugriksignSquare = SFSymbol(rawValue: "tugriksign.square")
 
     /// 􀘈
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let tugriksignSquareFill = SFSymbol(rawValue: "tugriksign.square.fill")
 
     /// 􀎐
     static let tuningfork = SFSymbol(rawValue: "tuningfork")
 
     /// 􀖣
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let turkishlirasignCircle = SFSymbol(rawValue: "turkishlirasign.circle")
 
     /// 􀖤
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let turkishlirasignCircleFill = SFSymbol(rawValue: "turkishlirasign.circle.fill")
 
     /// 􀗣
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let turkishlirasignSquare = SFSymbol(rawValue: "turkishlirasign.square")
 
     /// 􀗤
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let turkishlirasignSquareFill = SFSymbol(rawValue: "turkishlirasign.square.fill")
 
     /// 􀎲
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let tv = SFSymbol(rawValue: "tv")
 
     /// 􀎳
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let tvCircle = SFSymbol(rawValue: "tv.circle")
 
     /// 􀎴
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let tvCircleFill = SFSymbol(rawValue: "tv.circle.fill")
 
     /// 􀒶
@@ -5207,15 +6408,19 @@ public extension SFSymbol {
     static let tvMusicNoteFill = SFSymbol(rawValue: "tv.music.note.fill")
 
     /// 􀀬
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let uCircle = SFSymbol(rawValue: "u.circle")
 
     /// 􀀭
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let uCircleFill = SFSymbol(rawValue: "u.circle.fill")
 
     /// 􀂼
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let uSquare = SFSymbol(rawValue: "u.square")
 
     /// 􀂽
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let uSquareFill = SFSymbol(rawValue: "u.square.fill")
 
     /// 􀏝
@@ -5228,26 +6433,34 @@ public extension SFSymbol {
     static let umbrellaFill = SFSymbol(rawValue: "umbrella.fill")
 
     /// 􀅕
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let underline = SFSymbol(rawValue: "underline")
 
     /// 􀀮
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let vCircle = SFSymbol(rawValue: "v.circle")
 
     /// 􀀯
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let vCircleFill = SFSymbol(rawValue: "v.circle.fill")
 
     /// 􀂾
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let vSquare = SFSymbol(rawValue: "v.square")
 
     /// 􀂿
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let vSquareFill = SFSymbol(rawValue: "v.square.fill")
 
     /// 􀍉
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let video = SFSymbol(rawValue: "video")
 
     /// 􀜮
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let videoBadgePlus = SFSymbol(rawValue: "video.badge.plus")
 
     /// 􀜯
@@ -5260,22 +6473,28 @@ public extension SFSymbol {
 
     /// 􀍋
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let videoCircle = SFSymbol(rawValue: "video.circle")
 
     /// 􀍌
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let videoCircleFill = SFSymbol(rawValue: "video.circle.fill")
 
     /// 􀍊
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let videoFill = SFSymbol(rawValue: "video.fill")
 
     /// 􀍍
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let videoSlash = SFSymbol(rawValue: "video.slash")
 
     /// 􀍎
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let videoSlashFill = SFSymbol(rawValue: "video.slash.fill")
 
     /// 􀅙
@@ -5288,81 +6507,107 @@ public extension SFSymbol {
     static let viewfinder = SFSymbol(rawValue: "viewfinder")
 
     /// 􀎿
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let viewfinderCircle = SFSymbol(rawValue: "viewfinder.circle")
 
     /// 􀏀
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let viewfinderCircleFill = SFSymbol(rawValue: "viewfinder.circle.fill")
 
     /// 􀀰
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let wCircle = SFSymbol(rawValue: "w.circle")
 
     /// 􀀱
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let wCircleFill = SFSymbol(rawValue: "w.circle.fill")
 
     /// 􀃀
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let wSquare = SFSymbol(rawValue: "w.square")
 
     /// 􀃁
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let wSquareFill = SFSymbol(rawValue: "w.square.fill")
 
     /// 􀍱
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let wandAndRays = SFSymbol(rawValue: "wand.and.rays")
 
     /// 􀍲
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let wandAndRaysInverse = SFSymbol(rawValue: "wand.and.rays.inverse")
 
     /// 􀜍
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let wandAndStars = SFSymbol(rawValue: "wand.and.stars")
 
     /// 􀜎
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let wandAndStarsInverse = SFSymbol(rawValue: "wand.and.stars.inverse")
 
     /// 􀙫
     static let waveform = SFSymbol(rawValue: "waveform")
 
     /// 􀞈
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let waveformCircle = SFSymbol(rawValue: "waveform.circle")
 
     /// 􀞉
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let waveformCircleFill = SFSymbol(rawValue: "waveform.circle.fill")
 
     /// 􀑃
     static let waveformPath = SFSymbol(rawValue: "waveform.path")
 
     /// 􀑅
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let waveformPathBadgeMinus = SFSymbol(rawValue: "waveform.path.badge.minus")
 
     /// 􀑄
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let waveformPathBadgePlus = SFSymbol(rawValue: "waveform.path.badge.plus")
 
     /// 􀜟
     static let waveformPathEcg = SFSymbol(rawValue: "waveform.path.ecg")
 
     /// 􀙇
+    /// Layersets (available from iOS 14.2 on): Multicolor
     static let wifi = SFSymbol(rawValue: "wifi")
 
     /// 􀙥
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let wifiExclamationmark = SFSymbol(rawValue: "wifi.exclamationmark")
 
     /// 􀙈
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let wifiSlash = SFSymbol(rawValue: "wifi.slash")
 
     /// 􀇤
+    /// Layersets (available from iOS 14.0 on): Multicolor
     static let wind = SFSymbol(rawValue: "wind")
 
     /// 􀇦
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let windSnow = SFSymbol(rawValue: "wind.snow")
 
     /// 􀖵
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let wonsignCircle = SFSymbol(rawValue: "wonsign.circle")
 
     /// 􀖶
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let wonsignCircleFill = SFSymbol(rawValue: "wonsign.circle.fill")
 
     /// 􀗵
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let wonsignSquare = SFSymbol(rawValue: "wonsign.square")
 
     /// 􀗶
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let wonsignSquareFill = SFSymbol(rawValue: "wonsign.square.fill")
 
     /// 􀎕
@@ -5372,101 +6617,134 @@ public extension SFSymbol {
     static let wrenchFill = SFSymbol(rawValue: "wrench.fill")
 
     /// 􀀲
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let xCircle = SFSymbol(rawValue: "x.circle")
 
     /// 􀀳
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let xCircleFill = SFSymbol(rawValue: "x.circle.fill")
 
     /// 􀃂
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let xSquare = SFSymbol(rawValue: "x.square")
 
     /// 􀃃
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let xSquareFill = SFSymbol(rawValue: "x.square.fill")
 
     /// 􀓪
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let xSquareroot = SFSymbol(rawValue: "x.squareroot")
 
     /// 􀆄
+    /// Layersets (available from iOS 15.0 on): Multicolor
     static let xmark = SFSymbol(rawValue: "xmark")
 
     /// 􀁠
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let xmarkCircle = SFSymbol(rawValue: "xmark.circle")
 
     /// 􀁡
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let xmarkCircleFill = SFSymbol(rawValue: "xmark.circle.fill")
 
     /// 􀌓
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let xmarkIcloud = SFSymbol(rawValue: "xmark.icloud")
 
     /// 􀌔
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let xmarkIcloudFill = SFSymbol(rawValue: "xmark.icloud.fill")
 
     /// 􀒉
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let xmarkOctagon = SFSymbol(rawValue: "xmark.octagon")
 
     /// 􀒊
+    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let xmarkOctagonFill = SFSymbol(rawValue: "xmark.octagon.fill")
 
     /// 􀏍
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let xmarkRectangle = SFSymbol(rawValue: "xmark.rectangle")
 
     /// 􀏎
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let xmarkRectangleFill = SFSymbol(rawValue: "xmark.rectangle.fill")
 
     /// 􀇼
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let xmarkSeal = SFSymbol(rawValue: "xmark.seal")
 
     /// 􀇽
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let xmarkSealFill = SFSymbol(rawValue: "xmark.seal.fill")
 
     /// 􀞝
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let xmarkShield = SFSymbol(rawValue: "xmark.shield")
 
     /// 􀞞
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let xmarkShieldFill = SFSymbol(rawValue: "xmark.shield.fill")
 
     /// 􀃰
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let xmarkSquare = SFSymbol(rawValue: "xmark.square")
 
     /// 􀃱
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let xmarkSquareFill = SFSymbol(rawValue: "xmark.square.fill")
 
     /// 􀀴
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let yCircle = SFSymbol(rawValue: "y.circle")
 
     /// 􀀵
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let yCircleFill = SFSymbol(rawValue: "y.circle.fill")
 
     /// 􀃄
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let ySquare = SFSymbol(rawValue: "y.square")
 
     /// 􀃅
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let ySquareFill = SFSymbol(rawValue: "y.square.fill")
 
     /// 􀖛
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let yensignCircle = SFSymbol(rawValue: "yensign.circle")
 
     /// 􀖜
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let yensignCircleFill = SFSymbol(rawValue: "yensign.circle.fill")
 
     /// 􀗛
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let yensignSquare = SFSymbol(rawValue: "yensign.square")
 
     /// 􀗜
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let yensignSquareFill = SFSymbol(rawValue: "yensign.square.fill")
 
     /// 􀀶
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let zCircle = SFSymbol(rawValue: "z.circle")
 
     /// 􀀷
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let zCircleFill = SFSymbol(rawValue: "z.circle.fill")
 
     /// 􀃆
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let zSquare = SFSymbol(rawValue: "z.square")
 
     /// 􀃇
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let zSquareFill = SFSymbol(rawValue: "z.square.fill")
 
     /// 􀖃

@@ -4,6 +4,7 @@
 @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
 public extension SFSymbol {
     /// 􀵀
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let aqiHigh = SFSymbol(rawValue: "aqi.high")
 
     /// 􀴾
@@ -13,38 +14,45 @@ public extension SFSymbol {
     static let aqiMedium = SFSymbol(rawValue: "aqi.medium")
 
     /// 􀮰
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let brazilianrealsignCircle = SFSymbol(rawValue: "brazilianrealsign.circle")
 
     /// 􀮱
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let brazilianrealsignCircleFill = SFSymbol(rawValue: "brazilianrealsign.circle.fill")
 
     /// 􀮲
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let brazilianrealsignSquare = SFSymbol(rawValue: "brazilianrealsign.square")
 
     /// 􀮳
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let brazilianrealsignSquareFill = SFSymbol(rawValue: "brazilianrealsign.square.fill")
 
     /// 􀒭
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cartCircle = SFSymbol(rawValue: "cart.circle")
 
     /// 􀒮
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let cartCircleFill = SFSymbol(rawValue: "cart.circle.fill")
 
     /// 􀅏
-    /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
+    /// Localizations (available from iOS 14.2 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
     static let character = SFSymbol(rawValue: "character")
 
     /// 􀫕
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
-    /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Traditional Chinese
+    /// Localizations (available from iOS 14.0 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
+    /// Localizations (available from iOS 14.2 on): Traditional Chinese
     static let characterBookClosed = SFSymbol(rawValue: "character.book.closed")
 
     /// 􀫖
-    /// From iOS 14.0, macOS 11.0, tvOS 14.0 and watchOS 7.0 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
-    /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Traditional Chinese
+    /// Localizations (available from iOS 14.0 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
+    /// Localizations (available from iOS 14.2 on): Traditional Chinese
     static let characterBookClosedFill = SFSymbol(rawValue: "character.book.closed.fill")
 
     /// 􀯛
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let clockArrow2Circlepath = SFSymbol(rawValue: "clock.arrow.2.circlepath")
 
     /// 􀯝
@@ -52,67 +60,84 @@ public extension SFSymbol {
 
     /// 􀵄
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let exclamationmarkApplewatch = SFSymbol(rawValue: "exclamationmark.applewatch")
 
     /// 􀵏
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let infinityCircle = SFSymbol(rawValue: "infinity.circle")
 
     /// 􀵐
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let infinityCircleFill = SFSymbol(rawValue: "infinity.circle.fill")
 
     /// 􀴓
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let ipadBadgePlay = SFSymbol(rawValue: "ipad.badge.play")
 
     /// 􀴒
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let ipadHomebuttonBadgePlay = SFSymbol(rawValue: "ipad.homebutton.badge.play")
 
     /// 􀵑
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let ipadHomebuttonLandscapeBadgePlay = SFSymbol(rawValue: "ipad.homebutton.landscape.badge.play")
 
     /// 􀵒
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let ipadLandscapeBadgePlay = SFSymbol(rawValue: "ipad.landscape.badge.play")
 
     /// 􀴑
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let iphoneBadgePlay = SFSymbol(rawValue: "iphone.badge.play")
 
     /// 􀐶
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let iphoneHomebuttonBadgePlay = SFSymbol(rawValue: "iphone.homebutton.badge.play")
 
     /// 􀴎
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let iphoneHomebuttonLandscape = SFSymbol(rawValue: "iphone.homebutton.landscape")
 
     /// 􀴏
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let iphoneLandscape = SFSymbol(rawValue: "iphone.landscape")
 
     /// 􀴐
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPod touch.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let ipodtouchLandscape = SFSymbol(rawValue: "ipodtouch.landscape")
 
     /// 􀵅
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let lockApplewatch = SFSymbol(rawValue: "lock.applewatch")
 
     /// 􀵪
     static let photoTv = SFSymbol(rawValue: "photo.tv")
 
     /// 􀵨
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let playTv = SFSymbol(rawValue: "play.tv")
 
     /// 􀵩
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let playTvFill = SFSymbol(rawValue: "play.tv.fill")
 
     /// 􀵚
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleBadgePersonCrop = SFSymbol(rawValue: "rectangle.badge.person.crop")
 
     /// 􀵛
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleFillBadgePersonCrop = SFSymbol(rawValue: "rectangle.fill.badge.person.crop")
 
     /// 􀴊
@@ -123,17 +148,21 @@ public extension SFSymbol {
     static let rectangleTopthirdInset = SFSymbol(rawValue: "rectangle.topthird.inset")
 
     /// 􀵍
-    /// From iOS 15.0, macOS 12.0, tvOS 15.0 and watchOS 8.0 on, the following localizations are available: Arabic, Hindi
+    /// Localizations (available from iOS 15.0 on): Arabic, Hindi
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let repeat1Circle = SFSymbol(rawValue: "repeat.1.circle")
 
     /// 􀵎
-    /// From iOS 15.0, macOS 12.0, tvOS 15.0 and watchOS 8.0 on, the following localizations are available: Arabic, Hindi
+    /// Localizations (available from iOS 15.0 on): Arabic, Hindi
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let repeat1CircleFill = SFSymbol(rawValue: "repeat.1.circle.fill")
 
     /// 􀵋
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let repeatCircle = SFSymbol(rawValue: "repeat.circle")
 
     /// 􀵌
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let repeatCircleFill = SFSymbol(rawValue: "repeat.circle.fill")
 
     /// 􀵔
@@ -144,22 +173,25 @@ public extension SFSymbol {
     static let shieldCheckerboard = SFSymbol(rawValue: "shield.checkerboard")
 
     /// 􀵉
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let shuffleCircle = SFSymbol(rawValue: "shuffle.circle")
 
     /// 􀵊
+    /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let shuffleCircleFill = SFSymbol(rawValue: "shuffle.circle.fill")
 
     /// 􀵿
-    /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
+    /// Localizations (available from iOS 14.2 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
     static let textformatSizeLarger = SFSymbol(rawValue: "textformat.size.larger")
 
     /// 􀵷
-    /// From iOS 14.2, macOS 11.0, tvOS 14.2 and watchOS 7.1 on, the following localizations are available: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
+    /// Localizations (available from iOS 14.2 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
     static let textformatSizeSmaller = SFSymbol(rawValue: "textformat.size.smaller")
 
     /// 􀴌
     static let torus = SFSymbol(rawValue: "torus")
 
     /// 􀲰
+    /// Layersets (available from iOS 15.0 on): Hierarchical
     static let tvAndMediabox = SFSymbol(rawValue: "tv.and.mediabox")
 }
