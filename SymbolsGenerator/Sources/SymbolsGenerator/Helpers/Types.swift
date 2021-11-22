@@ -21,7 +21,6 @@ struct Symbol {
 enum SymbolType {
   case normal
   case replacement(for: ScannedSymbol)
-  // TODO: `replaced(by: [ScannedSymbol])` to support multiple renamings
   case replaced(by: ScannedSymbol)
 }
 

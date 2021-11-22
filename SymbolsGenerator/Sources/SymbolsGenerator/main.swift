@@ -240,7 +240,8 @@ let allSymbolsExtension: String = {
     outputString += "@available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)\n"
     outputString += "extension SFSymbol {\n"
 
-    // TODO: To Be Removed in the next version
+    // `allCases` has been deprecated with the v3 release (fall of 2021)
+    // It shall be removed entirely ~2 years after the v3 release
     outputString += "\t@available(*, deprecated, renamed: \"allSymbols\")\n"
     outputString += "\tpublic static var allCases: [SFSymbol] { Array(allSymbols) }\n\n"
     //
