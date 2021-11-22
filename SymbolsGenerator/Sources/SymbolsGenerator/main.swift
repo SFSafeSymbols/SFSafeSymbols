@@ -7,6 +7,9 @@ guard
     let symbolManifest = SFFileManager
         .read(file: "name_availability", withExtension: "plist")
         .flatMap(SymbolManifestParser.parse),
+    let layerSetAvailabilitiesList = SFFileManager
+        .read(file: "layerset_availability", withExtension: "plist")
+        .flatMap(LayersetAvailabilityParser.parse),
     var nameAliases = SFFileManager
         .read(file: "name_aliases_strings", withExtension: "txt")
         .flatMap(StringEqualityFileParser.parse),
@@ -49,8 +52,20 @@ var symbols: [Symbol] = []
 for scannedSymbol in symbolManifest {
     let localizationSuffixAndName: (lhs: String, rhs: String)? = localizationSuffixes.first { scannedSymbol.name.hasSuffix(".\($0.lhs)") }
     let localization: String? = localizationSuffixAndName?.rhs
-    let nameWithoutSuffix = scannedSymbol.name.replacingOccurrences(of: (localizationSuffixAndName?.lhs).flatMap { ".\($0)" } ?? "",
-                                                                    with: "")
+    let nameWithoutSuffix = scannedSymbol.name.replacingOccurrences(
+        of: (localizationSuffixAndName?.lhs).flatMap { ".\($0)" } ?? "",
+        with: ""
+    )
+
+    var availableLayersets: [Availability: Set<String>] = [:]
+
+    // Only lookup layerset availability for main name (without loclization suffix)
+    // Assuming it is equal across all localizations...
+    for layersetAvailability in layerSetAvailabilitiesList[nameWithoutSuffix] ?? [] {
+        availableLayersets[layersetAvailability.availability] =
+            (availableLayersets[layersetAvailability.availability] ?? Set())
+            .union([layersetAvailability.name])
+    }
 
     let primaryName = nameAliases.first { $0.lhs == nameWithoutSuffix }?.rhs ?? nameWithoutSuffix
 
@@ -98,6 +113,7 @@ for scannedSymbol in symbolManifest {
             preview: existingSymbol.preview ?? preview,
             availability: [existingSymbol.availability, scannedSymbol.availability].max()!,
             availableLocalizations: availableLocalizations,
+            availableLayersets: availableLayersets,
             type: existingSymbol.type
         )
     } else {
@@ -109,6 +125,7 @@ for scannedSymbol in symbolManifest {
                 preview: preview,
                 availability: scannedSymbol.availability,
                 availableLocalizations: localization.flatMap { [scannedSymbol.availability: [$0]] } ?? [:],
+                availableLayersets: availableLayersets,
                 type: symbolType
             )
         )
@@ -133,19 +150,29 @@ let symbolToCode: (Symbol) -> String = { symbol in
     // Generate preview docs
     var outputString = "\t/// " + (symbol.preview ?? "No preview available.") + "\n"
 
+    // Generate canOnlyReferTo docs
+    if let restrictionMessage = symbol.restriction {
+        outputString += "\t/// ⚠️ \(restrictionMessage)\n"
+    }
+
     // Generate localization docs based on the assumption that localizations don't get removed
     var handledLocalizations: Set<String> = .init()
     for (availability, localizations) in localizationsOfAllVersions(of: symbol).sorted(by: { $0.0 > $1.0 }) {
         let newLocalizations = localizations.subtracting(handledLocalizations)
         if !newLocalizations.isEmpty {
             handledLocalizations.formUnion(newLocalizations)
-            outputString += "\t/// From iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS) and watchOS \(availability.watchOS) on, the following localizations are available: \(Array(newLocalizations).sorted().joined(separator: ", "))\n"
+            outputString += "\t/// Localizations (available from iOS \(availability.iOS) on): \(Array(newLocalizations).sorted().joined(separator: ", "))\n"
         }
     }
 
-    // Generate canOnlyReferTo docs
-    if let restrictionMessage = symbol.restriction {
-        outputString += "\t/// ⚠️ \(restrictionMessage)\n"
+    // Generate layerset availability docs based on the assumption that localizations don't get removed
+    var handledLayersets: Set<String> = .init()
+    for (availability, layersets) in symbol.availableLayersets.sorted(by: { $0.0 > $1.0 }) {
+        let newLayersets = layersets.subtracting(handledLayersets)
+        if !newLayersets.isEmpty {
+            handledLayersets.formUnion(newLayersets)
+            outputString += "\t/// Layersets (available from iOS \(availability.iOS) on): \(Array(newLayersets).map { $0.capitalized }.sorted().joined(separator: ", "))\n"
+        }
     }
 
     // Generate availability / deprecation specifications
