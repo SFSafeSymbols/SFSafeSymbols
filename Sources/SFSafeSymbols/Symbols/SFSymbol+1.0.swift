@@ -11388,7 +11388,7 @@ public extension SFSymbol {
     static let sunsetFill = SFSymbol(rawValue: "sunset.fill")
 
     /// 􀌰
-    /// 11 Localizations, 2 Layersets
+    /// 9 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -11411,7 +11411,7 @@ public extension SFSymbol {
     static let tBubble = SFSymbol(rawValue: "t.bubble")
 
     /// 􀌱
-    /// 11 Localizations, 2 Layersets
+    /// 9 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -11676,7 +11676,7 @@ public extension SFSymbol {
     static let textBubbleFill = SFSymbol(rawValue: "text.bubble.fill")
 
     /// 􀅫
-    /// 17 Localizations, 2 Layersets
+    /// 9 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -11739,7 +11739,7 @@ public extension SFSymbol {
     static let textQuote = SFSymbol(rawValue: "text.quote")
 
     /// 􀅶
-    /// 17 Localizations, 2 Layersets
+    /// 9 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Latin

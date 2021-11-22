@@ -3760,7 +3760,7 @@ public extension SFSymbol {
     static let personCropCircleBadgeMoonFill = SFSymbol(rawValue: "person.crop.circle.badge.moon.fill")
 
     /// 􀭾
-    /// 3 Localizations, 3 Layersets
+    /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
     /// - Latin

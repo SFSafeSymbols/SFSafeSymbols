@@ -20,7 +20,7 @@ public extension SFSymbol {
     static let _4kTvFill = SFSymbol(rawValue: "4k.tv.fill")
 
     /// 􀫕
-    /// 16 Localizations, Single Layerset
+    /// 9 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Latin
@@ -39,7 +39,7 @@ public extension SFSymbol {
     static let aBookClosed = SFSymbol(rawValue: "a.book.closed")
 
     /// 􀫖
-    /// 16 Localizations, Single Layerset
+    /// 9 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Latin
@@ -4879,7 +4879,7 @@ public extension SFSymbol {
     static let personCropCircleFillBadgeExclamationmark = SFSymbol(rawValue: "person.crop.circle.fill.badge.exclamationmark")
 
     /// 􀭾
-    /// 3 Localizations, 3 Layersets
+    /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
     /// - Latin

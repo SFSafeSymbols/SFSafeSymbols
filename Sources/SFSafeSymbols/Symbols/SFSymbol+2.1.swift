@@ -87,7 +87,7 @@ public extension SFSymbol {
     static let character = SFSymbol(rawValue: "character")
 
     /// 􀫕
-    /// 16 Localizations, Single Layerset
+    /// 9 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Latin
@@ -102,7 +102,7 @@ public extension SFSymbol {
     static let characterBookClosed = SFSymbol(rawValue: "character.book.closed")
 
     /// 􀫖
-    /// 16 Localizations, Single Layerset
+    /// 9 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Latin

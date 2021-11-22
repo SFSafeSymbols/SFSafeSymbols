@@ -24,7 +24,7 @@ public extension SFSymbol {
     static let applewatchSideRight = SFSymbol(rawValue: "applewatch.side.right")
 
     /// 􀌰
-    /// 11 Localizations, 2 Layersets
+    /// 9 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -43,7 +43,7 @@ public extension SFSymbol {
     static let characterBubble = SFSymbol(rawValue: "character.bubble")
 
     /// 􀌱
-    /// 11 Localizations, 2 Layersets
+    /// 9 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -62,7 +62,7 @@ public extension SFSymbol {
     static let characterBubbleFill = SFSymbol(rawValue: "character.bubble.fill")
 
     /// 􀅫
-    /// 17 Localizations, 2 Layersets
+    /// 9 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -81,7 +81,7 @@ public extension SFSymbol {
     static let characterCursorIbeam = SFSymbol(rawValue: "character.cursor.ibeam")
 
     /// 􀅶
-    /// 17 Localizations, 2 Layersets
+    /// 9 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Latin

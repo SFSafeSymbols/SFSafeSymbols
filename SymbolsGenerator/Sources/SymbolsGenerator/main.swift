@@ -161,8 +161,8 @@ func layersetsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>] {
 let symbolToCode: (Symbol) -> String = { symbol in
     let completeLayersets = layersetsOfAllVersions(of: symbol)
     let completeLocalizations = localizationsOfAllVersions(of: symbol)
-    let layersetCount = completeLayersets.values.reduce(0) { $0 + $1.count } + 1
-    let localizationCount = completeLocalizations.values.reduce(0) { $0 + $1.count } + 1
+    let layersetCount = completeLayersets.values.reduce(Set<String>()) { $0.union($1) }.count + 1
+    let localizationCount = completeLocalizations.values.reduce(Set<String>()) { $0.union($1) }.count + 1
 
     // Generate summary for docs (preview + number of localizations, layersets + potential use restriction)
     var outputString = "\t/// " + (symbol.preview ?? "No preview available") + "\n"
