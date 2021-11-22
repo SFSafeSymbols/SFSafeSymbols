@@ -144,36 +144,65 @@ func localizationsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>
     return symbol.availableLocalizations.merging(toMerge) { $0.union($1) }
 }
 
+func layersetsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>] {
+    let toMerge: [Availability: Set<String>]
+    switch symbol.type {
+        case .replaced(let newerSymbol):
+            toMerge = symbols.first { $0.name == newerSymbol.name }!.availableLayersets
+        case .replacement(let originalSymbol):
+            toMerge = symbols.first { $0.name == originalSymbol.name }!.availableLayersets
+        default: toMerge = [:]
+    }
+    return symbol.availableLayersets.merging(toMerge) { $0.union($1) }
+}
+
 // MARK: - Step 3: CODE GENERATION
 
 let symbolToCode: (Symbol) -> String = { symbol in
-    // Generate preview docs
-    var outputString = "\t/// " + (symbol.preview ?? "No preview available") + "\n"
+    let completeLayersets = layersetsOfAllVersions(of: symbol)
+    let completeLocalizations = localizationsOfAllVersions(of: symbol)
+    let layersetCount = completeLayersets.values.reduce(0) { $0 + $1.count } + 1
+    let localizationCount = completeLocalizations.values.reduce(0) { $0 + $1.count } + 1
 
-    // Generate layerset availability docs based on the assumption that layersets don't get removed
-    var handledLayersets: Set<String> = .init()
-    outputString += "\t///\n\t/// Layersets:\n\t/// - Monochrome\n"
-    for (availability, layersets) in symbol.availableLayersets.sorted(by: { $0.0 > $1.0 }) {
-        let newLayersets = layersets.subtracting(handledLayersets)
-        if !newLayersets.isEmpty {
-            handledLayersets.formUnion(newLayersets)
-            let availabilityNotice: String = availability < symbol.availability ? " (iOS \(availability.iOS))" : ""
-            for layerset in Array(newLayersets).sorted() {
-                outputString += "\t/// - \(layerset.capitalized)\(availabilityNotice)\n"
+    // Generate summary for docs (preview + number of localizations, layersets + potential use restriction)
+    var outputString = "\t/// " + (symbol.preview ?? "No preview available") + "\n"
+    let supplementString = [
+        localizationCount > 1 ? "\(localizationCount) Localizations" : "Single Localization",
+        layersetCount > 1 ? "\(layersetCount) Layersets" : "Single Layerset",
+        symbol.restriction != nil ? "⚠️ Restricted" : nil
+    ].compactMap { $0 }.joined(separator: ", ")
+    if !supplementString.isEmpty {
+        outputString += "\t/// \(supplementString)\n"
+    }
+
+    // Generate localization docs based on the assumption that localizations don't get removed
+    if !completeLocalizations.isEmpty {
+        outputString += "\t///\n\t/// Localizations:\n\t/// - Latin\n"
+        var handledLocalizations: Set<String> = .init()
+        for (availability, localizations) in completeLocalizations.sorted(by: { $0.0 > $1.0 }) {
+            let newLocalizations = localizations.subtracting(handledLocalizations)
+            if !newLocalizations.isEmpty {
+                handledLocalizations.formUnion(newLocalizations)
+                let availabilityNotice: String = availability < symbol.availability ? " (iOS \(availability.iOS))" : ""
+                for localization in Array(newLocalizations).sorted() {
+                    outputString += "\t/// - \(localization)\(availabilityNotice)\n"
+                }
             }
         }
     }
 
-    // Generate localization docs based on the assumption that localizations don't get removed
-    outputString += "\t///\n\t/// Localizations:\n\t/// - Standard\n"
-    var handledLocalizations: Set<String> = .init()
-    for (availability, localizations) in localizationsOfAllVersions(of: symbol).sorted(by: { $0.0 > $1.0 }) {
-        let newLocalizations = localizations.subtracting(handledLocalizations)
-        if !newLocalizations.isEmpty {
-            handledLocalizations.formUnion(newLocalizations)
-            let availabilityNotice: String = availability < symbol.availability ? " (iOS \(availability.iOS))" : ""
-            for localization in Array(newLocalizations).sorted() {
-                outputString += "\t/// - \(localization)\(availabilityNotice)\n"
+    // Generate layerset availability docs based on the assumption that layersets don't get removed
+    if !completeLayersets.isEmpty {
+        var handledLayersets: Set<String> = .init()
+        outputString += "\t///\n\t/// Layersets:\n\t/// - Monochrome\n"
+        for (availability, layersets) in completeLayersets.sorted(by: { $0.0 > $1.0 }) {
+            let newLayersets = layersets.subtracting(handledLayersets)
+            if !newLayersets.isEmpty {
+                handledLayersets.formUnion(newLayersets)
+                let availabilityNotice: String = availability < symbol.availability ? " (iOS \(availability.iOS))" : ""
+                for layerset in Array(newLayersets).sorted() {
+                    outputString += "\t/// - \(layerset.capitalized)\(availabilityNotice)\n"
+                }
             }
         }
     }
