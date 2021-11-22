@@ -47,13 +47,17 @@
 
 `SFSafeSymbols` supports multiple SF Symbols versions at the same time by utilizing the `@availability` flag. The following versions are currently supported:
 
-- SF Symbols 2.1 (`@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)`)
-- SF Symbols 2.0 (`@available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)`)
 - SF Symbols 1.0 (`@available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)`)
+- SF Symbols 2.0 (`@available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)`)
+- SF Symbols 2.1 (`@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)`)
+- SF Symbols 2.2 (`@available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *)`)
+- SF Symbols 3.0 (`@available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *)`)
+- SF Symbols 3.1 (`@available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *)`)
+
 
 ## Motivation
 
-At WWDC 2019, Apple announced a new library of icons that came included with that year's new operating system versions. To browse them, there's even a [dedicated Mac app](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/) called SF Symbols. However, developers still have to copy the name of an icon and reference it unsafely, resulting in code like this:
+At WWDC 2019, Apple announced a new library of icons that came included with that year's new operating system versions. To browse them, there's a [dedicated Mac app](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/) called SF Symbols. However, developers still have to copy the name of an icon and reference it unsafely, resulting in code like this:
 
 ```swift
 UIImage(systemName: "circle.fill")
@@ -103,7 +107,7 @@ Then run `pod install`.
 
 ## Usage
 
-All the system icons are accessible via the `SFSymbol` enum. They are named similar to Apple's names, but use a lower camel case style and prefix names with leading numbers with a `_` character:
+All the system icons are accessible via the `SFSymbol` type. They are named similar to Apple's names, but use a lower camel case style and prefix names with leading numbers with a `_` character:
 
 ```
 c.circle        ~> SFSymbol.cCircle
@@ -111,7 +115,7 @@ e.circle.fill   ~> SFSymbol.eCircleFill
 11.circle.fill  ~> SFSymbol._11CircleFill
 ```
 
-A SF Symbol `UIImage` can now be initialized using the `SFSymbol` enum. This image is already unwrapped, so you get a `UIImage` instead of a `UIImage?`:
+A SF Symbol `UIImage` can now be initialized using the `SFSymbol` type. This image is already unwrapped, so you get a `UIImage` instead of a `UIImage?`:
 
 ```swift
 UIImage(systemSymbol: .cCircle)
@@ -119,7 +123,7 @@ UIImage(systemSymbol: SFSymbol.eCircleFill)
 UIImage(systemSymbol: ._11CircleFill, withConfiguration: /* Some UIImage.Configuration */)
 ```
 
-A SF Symbol `SwiftUI.Image` can also be initialized using the `SFSymbol` enum:
+A SF Symbol `SwiftUI.Image` can also be initialized using the `SFSymbol` type:
 
 ```swift
 Image(systemSymbol: .cCircle)
@@ -163,4 +167,5 @@ NSImage(systemSymbol: SFSymbol.eCircleFill, accessibilityDescription: "some.desc
 Contributions are very much welcome! See [CONTRIBUTING.md](https://github.com/piknotech/SFSafeSymbols/blob/stable/CONTRIBUTING.md) for more information.
 
 ## License
+
 This library is released under the [MIT License](http://opensource.org/licenses/MIT). See [LICENSE](https://github.com/piknotech/SFSafeSymbols/blob/stable/LICENSE) for details.
