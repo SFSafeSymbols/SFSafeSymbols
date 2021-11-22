@@ -148,33 +148,39 @@ func localizationsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>
 
 let symbolToCode: (Symbol) -> String = { symbol in
     // Generate preview docs
-    var outputString = "\t/// " + (symbol.preview ?? "No preview available.") + "\n"
+    var outputString = "\t/// " + (symbol.preview ?? "No preview available") + "\n"
 
-    // Generate canOnlyReferTo docs
-    if let restrictionMessage = symbol.restriction {
-        outputString += "\t/// ⚠️ \(restrictionMessage)\n"
+    // Generate layerset availability docs based on the assumption that layersets don't get removed
+    var handledLayersets: Set<String> = .init()
+    outputString += "\t///\n\t/// Layersets:\n\t/// - Monochrome\n"
+    for (availability, layersets) in symbol.availableLayersets.sorted(by: { $0.0 > $1.0 }) {
+        let newLayersets = layersets.subtracting(handledLayersets)
+        if !newLayersets.isEmpty {
+            handledLayersets.formUnion(newLayersets)
+            let availabilityNotice: String = availability < symbol.availability ? " (iOS \(availability.iOS))" : ""
+            for layerset in Array(newLayersets).sorted() {
+                outputString += "\t/// - \(layerset.capitalized)\(availabilityNotice)\n"
+            }
+        }
     }
 
     // Generate localization docs based on the assumption that localizations don't get removed
+    outputString += "\t///\n\t/// Localizations:\n\t/// - Standard\n"
     var handledLocalizations: Set<String> = .init()
     for (availability, localizations) in localizationsOfAllVersions(of: symbol).sorted(by: { $0.0 > $1.0 }) {
         let newLocalizations = localizations.subtracting(handledLocalizations)
         if !newLocalizations.isEmpty {
             handledLocalizations.formUnion(newLocalizations)
-            let availabilityNotice: String = availability < symbol.availability ? " (available from iOS \(availability.iOS) on)" : ""
-            outputString += "\t/// Localizations\(availabilityNotice): \(Array(newLocalizations).sorted().joined(separator: ", "))\n"
+            let availabilityNotice: String = availability < symbol.availability ? " (iOS \(availability.iOS))" : ""
+            for localization in Array(newLocalizations).sorted() {
+                outputString += "\t/// - \(localization)\(availabilityNotice)\n"
+            }
         }
     }
 
-    // Generate layerset availability docs based on the assumption that localizations don't get removed
-    var handledLayersets: Set<String> = .init()
-    for (availability, layersets) in symbol.availableLayersets.sorted(by: { $0.0 > $1.0 }) {
-        let newLayersets = layersets.subtracting(handledLayersets)
-        if !newLayersets.isEmpty {
-            handledLayersets.formUnion(newLayersets)
-            let availabilityNotice: String = availability < symbol.availability ? " (available from iOS \(availability.iOS) on)" : ""
-            outputString += "\t/// Layersets\(availabilityNotice): \(Array(newLayersets).map { $0.capitalized }.sorted().joined(separator: ", "))\n"
-        }
+    // Generate canOnlyReferTo docs
+    if let restrictionMessage = symbol.restriction {
+        outputString += "\t///\n\t/// - Warning: ⚠️ \(restrictionMessage)\n"
     }
 
     // Generate availability / deprecation specifications
