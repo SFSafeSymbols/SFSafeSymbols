@@ -12,7 +12,7 @@ public extension SFSymbol {
     static let _4kTvFill = SFSymbol(rawValue: "4k.tv.fill")
 
     /// 􀫕
-    /// Localizations (available from iOS 14.0 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
+    /// Localizations: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
     /// Localizations (available from iOS 14.2 on): Traditional Chinese
     @available(iOS, introduced: 14.0, deprecated: 14.2, renamed: "characterBookClosed")
     @available(macOS, introduced: 11.0, deprecated: 11.0, renamed: "characterBookClosed")
@@ -21,7 +21,7 @@ public extension SFSymbol {
     static let aBookClosed = SFSymbol(rawValue: "a.book.closed")
 
     /// 􀫖
-    /// Localizations (available from iOS 14.0 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
+    /// Localizations: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
     /// Localizations (available from iOS 14.2 on): Traditional Chinese
     @available(iOS, introduced: 14.0, deprecated: 14.2, renamed: "characterBookClosedFill")
     @available(macOS, introduced: 11.0, deprecated: 11.0, renamed: "characterBookClosedFill")
@@ -41,7 +41,7 @@ public extension SFSymbol {
     static let airplaneCircle = SFSymbol(rawValue: "airplane.circle")
 
     /// 􀒹
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let airplaneCircleFill = SFSymbol(rawValue: "airplane.circle.fill")
 
@@ -154,7 +154,7 @@ public extension SFSymbol {
 
     /// 􀮔
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
-    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let appsIphoneLandscape = SFSymbol(rawValue: "apps.iphone.landscape")
 
@@ -362,7 +362,7 @@ public extension SFSymbol {
     static let arrowTriangleTurnUpRightCircle = SFSymbol(rawValue: "arrow.triangle.turn.up.right.circle")
 
     /// 􀟸
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowTriangleTurnUpRightCircleFill = SFSymbol(rawValue: "arrow.triangle.turn.up.right.circle.fill")
 
@@ -573,7 +573,7 @@ public extension SFSymbol {
     static let arrowshapeTurnUpBackward2Circle = SFSymbol(rawValue: "arrowshape.turn.up.backward.2.circle")
 
     /// 􀰥
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowshapeTurnUpBackward2CircleFill = SFSymbol(rawValue: "arrowshape.turn.up.backward.2.circle.fill")
 
@@ -585,7 +585,7 @@ public extension SFSymbol {
     static let arrowshapeTurnUpBackwardCircle = SFSymbol(rawValue: "arrowshape.turn.up.backward.circle")
 
     /// 􀰝
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowshapeTurnUpBackwardCircleFill = SFSymbol(rawValue: "arrowshape.turn.up.backward.circle.fill")
 
@@ -600,7 +600,7 @@ public extension SFSymbol {
     static let arrowshapeTurnUpForwardCircle = SFSymbol(rawValue: "arrowshape.turn.up.forward.circle")
 
     /// 􀰡
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowshapeTurnUpForwardCircleFill = SFSymbol(rawValue: "arrowshape.turn.up.forward.circle.fill")
 
@@ -612,7 +612,7 @@ public extension SFSymbol {
     static let arrowshapeTurnUpLeft2Circle = SFSymbol(rawValue: "arrowshape.turn.up.left.2.circle")
 
     /// 􀉗
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let arrowshapeTurnUpLeft2CircleFill = SFSymbol(rawValue: "arrowshape.turn.up.left.2.circle.fill")
 
@@ -697,7 +697,7 @@ public extension SFSymbol {
     static let atCircle = SFSymbol(rawValue: "at.circle")
 
     /// 􀢑
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let atCircleFill = SFSymbol(rawValue: "at.circle.fill")
 
@@ -712,7 +712,7 @@ public extension SFSymbol {
     static let backwardFrameFill = SFSymbol(rawValue: "backward.frame.fill")
 
     /// 􀰮
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let badgePlusRadiowavesForward = SFSymbol(rawValue: "badge.plus.radiowaves.forward")
 
@@ -737,7 +737,7 @@ public extension SFSymbol {
     static let barometer = SFSymbol(rawValue: "barometer")
 
     /// 􀢋
-    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let battery100Bolt = SFSymbol(rawValue: "battery.100.bolt")
 
@@ -828,7 +828,7 @@ public extension SFSymbol {
     static let bookmarkCircle = SFSymbol(rawValue: "bookmark.circle")
 
     /// 􀉡
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let bookmarkCircleFill = SFSymbol(rawValue: "bookmark.circle.fill")
 
@@ -886,7 +886,7 @@ public extension SFSymbol {
     static let busFill = SFSymbol(rawValue: "bus.fill")
 
     /// 􀧞
-    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let calendarBadgeClock = SFSymbol(rawValue: "calendar.badge.clock")
 
@@ -937,7 +937,7 @@ public extension SFSymbol {
     static let cameraMeteringSpot = SFSymbol(rawValue: "camera.metering.spot")
 
     /// 􀢰
-    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Localizations: Arabic
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let cameraMeteringUnknown = SFSymbol(rawValue: "camera.metering.unknown")
 
@@ -963,7 +963,7 @@ public extension SFSymbol {
     static let carCircle = SFSymbol(rawValue: "car.circle")
 
     /// 􀭰
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let carCircleFill = SFSymbol(rawValue: "car.circle.fill")
 
@@ -1135,7 +1135,7 @@ public extension SFSymbol {
     static let circlebadge2Fill = SFSymbol(rawValue: "circlebadge.2.fill")
 
     /// 􀜞
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     static let circlebadgeFill = SFSymbol(rawValue: "circlebadge.fill")
 
     /// 􀙢
@@ -1229,7 +1229,7 @@ public extension SFSymbol {
     static let crossCircle = SFSymbol(rawValue: "cross.circle")
 
     /// 􀣟
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let crossCircleFill = SFSymbol(rawValue: "cross.circle.fill")
 
@@ -1394,7 +1394,7 @@ public extension SFSymbol {
     static let displayTrianglebadgeExclamationmark = SFSymbol(rawValue: "display.trianglebadge.exclamationmark")
 
     /// 􀦋
-    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     static let docAppendFill = SFSymbol(rawValue: "doc.append.fill")
 
     /// 􀩴
@@ -1410,7 +1410,7 @@ public extension SFSymbol {
     static let docBadgeGearshapeFill = SFSymbol(rawValue: "doc.badge.gearshape.fill")
 
     /// 􀣗
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let docBadgePlus = SFSymbol(rawValue: "doc.badge.plus")
 
@@ -1419,7 +1419,7 @@ public extension SFSymbol {
     static let docFillBadgeEllipsis = SFSymbol(rawValue: "doc.fill.badge.ellipsis")
 
     /// 􀣘
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let docFillBadgePlus = SFSymbol(rawValue: "doc.fill.badge.plus")
 
@@ -1427,7 +1427,7 @@ public extension SFSymbol {
     static let docPlaintextFill = SFSymbol(rawValue: "doc.plaintext.fill")
 
     /// 􀦊
-    /// Localizations (available from iOS 14.0 on): Arabic, Hebrew
+    /// Localizations: Arabic, Hebrew
     /// Localizations (available from iOS 15.0 on): Chinese, Hindi, Japanese, Korean, Thai, Traditional Chinese
     static let docRichtextFill = SFSymbol(rawValue: "doc.richtext.fill")
 
@@ -1525,7 +1525,7 @@ public extension SFSymbol {
     static let dropFill = SFSymbol(rawValue: "drop.fill")
 
     /// 􀦿
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let earBadgeCheckmark = SFSymbol(rawValue: "ear.badge.checkmark")
 
@@ -1613,7 +1613,7 @@ public extension SFSymbol {
     static let externaldrive = SFSymbol(rawValue: "externaldrive")
 
     /// 􀩐
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let externaldriveBadgeCheckmark = SFSymbol(rawValue: "externaldrive.badge.checkmark")
 
@@ -1622,7 +1622,7 @@ public extension SFSymbol {
     static let externaldriveBadgeIcloud = SFSymbol(rawValue: "externaldrive.badge.icloud")
 
     /// 􀩏
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let externaldriveBadgeMinus = SFSymbol(rawValue: "externaldrive.badge.minus")
 
@@ -1631,7 +1631,7 @@ public extension SFSymbol {
     static let externaldriveBadgePersonCrop = SFSymbol(rawValue: "externaldrive.badge.person.crop")
 
     /// 􀩎
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let externaldriveBadgePlus = SFSymbol(rawValue: "externaldrive.badge.plus")
 
@@ -1644,7 +1644,7 @@ public extension SFSymbol {
     static let externaldriveBadgeWifi = SFSymbol(rawValue: "externaldrive.badge.wifi")
 
     /// 􀩑
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let externaldriveBadgeXmark = SFSymbol(rawValue: "externaldrive.badge.xmark")
 
@@ -1774,12 +1774,12 @@ public extension SFSymbol {
     static let figureWaveCircleFill = SFSymbol(rawValue: "figure.wave.circle.fill")
 
     /// 􀯪
-    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let filemenuAndCursorarrow = SFSymbol(rawValue: "filemenu.and.cursorarrow")
 
     /// 􀱢
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let filemenuAndSelection = SFSymbol(rawValue: "filemenu.and.selection")
 
@@ -1813,7 +1813,7 @@ public extension SFSymbol {
     static let folderBadgeGear = SFSymbol(rawValue: "folder.badge.gear")
 
     /// 􀧆
-    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Localizations: Arabic
     /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let folderBadgeQuestionmark = SFSymbol(rawValue: "folder.badge.questionmark")
 
@@ -1825,7 +1825,7 @@ public extension SFSymbol {
     static let folderFillBadgeGear = SFSymbol(rawValue: "folder.fill.badge.gear")
 
     /// 􀧇
-    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Localizations: Arabic
     /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let folderFillBadgeQuestionmark = SFSymbol(rawValue: "folder.fill.badge.questionmark")
 
@@ -1852,7 +1852,7 @@ public extension SFSymbol {
     static let giftCircle = SFSymbol(rawValue: "gift.circle")
 
     /// 􀓁
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let giftCircleFill = SFSymbol(rawValue: "gift.circle.fill")
 
@@ -2016,7 +2016,7 @@ public extension SFSymbol {
     static let homepodFill = SFSymbol(rawValue: "homepod.fill")
 
     /// 􀣬
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let hourglassBadgePlus = SFSymbol(rawValue: "hourglass.badge.plus")
 
@@ -2253,7 +2253,7 @@ public extension SFSymbol {
     static let leafArrowTriangleCirclepath = SFSymbol(rawValue: "leaf.arrow.triangle.circlepath")
 
     /// 􀥳
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     static let leafFill = SFSymbol(rawValue: "leaf.fill")
 
     /// 􀟂
@@ -2317,7 +2317,7 @@ public extension SFSymbol {
     static let lineweight = SFSymbol(rawValue: "lineweight")
 
     /// 􀥕
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let linkBadgePlus = SFSymbol(rawValue: "link.badge.plus")
 
@@ -2446,12 +2446,12 @@ public extension SFSymbol {
     static let macproGen3Server = SFSymbol(rawValue: "macpro.gen3.server")
 
     /// 􀥃
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let macwindowBadgePlus = SFSymbol(rawValue: "macwindow.badge.plus")
 
     /// 􀢌
-    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let macwindowOnRectangle = SFSymbol(rawValue: "macwindow.on.rectangle")
 
@@ -2459,7 +2459,7 @@ public extension SFSymbol {
     static let mail = SFSymbol(rawValue: "mail")
 
     /// 􀢾
-    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let mailAndTextMagnifyingglass = SFSymbol(rawValue: "mail.and.text.magnifyingglass")
 
@@ -2589,7 +2589,7 @@ public extension SFSymbol {
     static let noteText = SFSymbol(rawValue: "note.text")
 
     /// 􀣙
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let noteTextBadgePlus = SFSymbol(rawValue: "note.text.badge.plus")
 
@@ -2643,7 +2643,7 @@ public extension SFSymbol {
     static let paperplaneCircle = SFSymbol(rawValue: "paperplane.circle")
 
     /// 􀈢
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let paperplaneCircleFill = SFSymbol(rawValue: "paperplane.circle.fill")
 
@@ -2672,12 +2672,12 @@ public extension SFSymbol {
     static let personAndArrowLeftAndArrowRight = SFSymbol(rawValue: "person.and.arrow.left.and.arrow.right")
 
     /// 􀉷
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personCropCircleBadgeExclamationmark = SFSymbol(rawValue: "person.crop.circle.badge.exclamationmark")
 
     /// 􀭽
-    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Localizations: Arabic
     /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let personCropCircleBadgeQuestionmark = SFSymbol(rawValue: "person.crop.circle.badge.questionmark")
 
@@ -2689,7 +2689,7 @@ public extension SFSymbol {
     static let personCropCircleFillBadgeExclamationmark = SFSymbol(rawValue: "person.crop.circle.fill.badge.exclamationmark")
 
     /// 􀭾
-    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Localizations: Arabic
     @available(iOS, introduced: 14.0, deprecated: 15.0, renamed: "personCropCircleBadgeQuestionmarkFill")
     @available(macOS, introduced: 11.0, deprecated: 12.0, renamed: "personCropCircleBadgeQuestionmarkFill")
     @available(tvOS, introduced: 14.0, deprecated: 15.0, renamed: "personCropCircleBadgeQuestionmarkFill")
@@ -2708,22 +2708,22 @@ public extension SFSymbol {
     static let personFillAndArrowLeftAndArrowRight = SFSymbol(rawValue: "person.fill.and.arrow.left.and.arrow.right")
 
     /// 􀜘
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personFillBadgeMinus = SFSymbol(rawValue: "person.fill.badge.minus")
 
     /// 􀜖
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personFillBadgePlus = SFSymbol(rawValue: "person.fill.badge.plus")
 
     /// 􀯧
-    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personFillCheckmark = SFSymbol(rawValue: "person.fill.checkmark")
 
     /// 􀯩
-    /// Localizations (available from iOS 14.0 on): Arabic, Right-To-Left
+    /// Localizations: Arabic, Right-To-Left
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personFillQuestionmark = SFSymbol(rawValue: "person.fill.questionmark")
 
@@ -2741,7 +2741,7 @@ public extension SFSymbol {
     static let personFillViewfinder = SFSymbol(rawValue: "person.fill.viewfinder")
 
     /// 􀯨
-    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let personFillXmark = SFSymbol(rawValue: "person.fill.xmark")
 
@@ -2907,17 +2907,17 @@ public extension SFSymbol {
     static let pyramidFill = SFSymbol(rawValue: "pyramid.fill")
 
     /// 􀬔
-    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Localizations: Arabic
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let questionmarkFolder = SFSymbol(rawValue: "questionmark.folder")
 
     /// 􀬕
-    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Localizations: Arabic
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let questionmarkFolderFill = SFSymbol(rawValue: "questionmark.folder.fill")
 
     /// 􀭉
-    /// Localizations (available from iOS 14.0 on): Arabic
+    /// Localizations: Arabic
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let questionmarkSquareDashed = SFSymbol(rawValue: "questionmark.square.dashed")
 
@@ -3015,12 +3015,12 @@ public extension SFSymbol {
     static let rectangle3OffgridBubbleLeftFill = SFSymbol(rawValue: "rectangle.3.offgrid.bubble.left.fill")
 
     /// 􀈏
-    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleAndPencilAndEllipsis = SFSymbol(rawValue: "rectangle.and.pencil.and.ellipsis")
 
     /// 􀬸
-    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleAndTextMagnifyingglass = SFSymbol(rawValue: "rectangle.and.text.magnifyingglass")
 
@@ -3033,12 +3033,12 @@ public extension SFSymbol {
     static let rectangleArrowtriangle2Outward = SFSymbol(rawValue: "rectangle.arrowtriangle.2.outward")
 
     /// 􀏓
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleBadgeMinus = SFSymbol(rawValue: "rectangle.badge.minus")
 
     /// 􀏑
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleBadgePlus = SFSymbol(rawValue: "rectangle.badge.plus")
 
@@ -3071,12 +3071,12 @@ public extension SFSymbol {
     static let rectangleDashedBadgeRecord = SFSymbol(rawValue: "rectangle.dashed.badge.record")
 
     /// 􀏔
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleFillBadgeMinus = SFSymbol(rawValue: "rectangle.fill.badge.minus")
 
     /// 􀏒
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let rectangleFillBadgePlus = SFSymbol(rawValue: "rectangle.fill.badge.plus")
 
@@ -3423,12 +3423,12 @@ public extension SFSymbol {
     static let sparklesSquareFillOnSquare = SFSymbol(rawValue: "sparkles.square.fill.on.square")
 
     /// 􀫠
-    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let speakerSlashCircle = SFSymbol(rawValue: "speaker.slash.circle")
 
     /// 􀫡
-    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
     static let speakerSlashCircleFill = SFSymbol(rawValue: "speaker.slash.circle.fill")
 
@@ -3558,12 +3558,12 @@ public extension SFSymbol {
     static let squareGrid3x1FillBelowLineGrid1x2 = SFSymbol(rawValue: "square.grid.3x1.fill.below.line.grid.1x2")
 
     /// 􀣕
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let squareGrid3x1FolderBadgePlus = SFSymbol(rawValue: "square.grid.3x1.folder.badge.plus")
 
     /// 􀣖
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let squareGrid3x1FolderFillBadgePlus = SFSymbol(rawValue: "square.grid.3x1.folder.fill.badge.plus")
 
@@ -3803,7 +3803,7 @@ public extension SFSymbol {
 
     /// 􀜆
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Teletype feature.
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let teletypeCircleFill = SFSymbol(rawValue: "teletype.circle.fill")
 
@@ -3831,7 +3831,7 @@ public extension SFSymbol {
     static let textBookClosedFill = SFSymbol(rawValue: "text.book.closed.fill")
 
     /// 􀭥
-    /// Localizations (available from iOS 14.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     static let textMagnifyingglass = SFSymbol(rawValue: "text.magnifyingglass")
 
     /// 􀧎
@@ -3839,7 +3839,7 @@ public extension SFSymbol {
     static let textRedaction = SFSymbol(rawValue: "text.redaction")
 
     /// 􀦜
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let thermometerSunFill = SFSymbol(rawValue: "thermometer.sun.fill")
 
@@ -3906,7 +3906,7 @@ public extension SFSymbol {
 
     /// 􀮺
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let videoBadgeCheckmark = SFSymbol(rawValue: "video.badge.checkmark")
 
@@ -3922,7 +3922,7 @@ public extension SFSymbol {
 
     /// 􀮻
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
-    /// Layersets (available from iOS 14.0 on): Multicolor
+    /// Layersets: Multicolor
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let videoFillBadgeCheckmark = SFSymbol(rawValue: "video.fill.badge.checkmark")
 

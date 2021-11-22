@@ -14,26 +14,26 @@ public extension SFSymbol {
     static let applewatchSideRight = SFSymbol(rawValue: "applewatch.side.right")
 
     /// 􀌰
-    /// Localizations (available from iOS 14.0 on): Arabic, Hebrew
+    /// Localizations: Arabic, Hebrew
     /// Localizations (available from iOS 15.0 on): Chinese, Hindi, Japanese, Korean, Thai, Traditional Chinese
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let characterBubble = SFSymbol(rawValue: "character.bubble")
 
     /// 􀌱
-    /// Localizations (available from iOS 14.0 on): Arabic, Hebrew
+    /// Localizations: Arabic, Hebrew
     /// Localizations (available from iOS 15.0 on): Chinese, Hindi, Japanese, Korean, Thai, Traditional Chinese
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let characterBubbleFill = SFSymbol(rawValue: "character.bubble.fill")
 
     /// 􀅫
-    /// Localizations (available from iOS 14.0 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
-    /// Localizations (available from iOS 14.2 on): Traditional Chinese
+    /// Localizations: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
+    /// Localizations: Traditional Chinese
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let characterCursorIbeam = SFSymbol(rawValue: "character.cursor.ibeam")
 
     /// 􀅶
-    /// Localizations (available from iOS 14.0 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
-    /// Localizations (available from iOS 14.2 on): Traditional Chinese
+    /// Localizations: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
+    /// Localizations: Traditional Chinese
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let characterTextbox = SFSymbol(rawValue: "character.textbox")
 

@@ -3408,37 +3408,37 @@ public extension SFSymbol {
     static let gobackward = SFSymbol(rawValue: "gobackward")
 
     /// 􀎂
-    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Localizations: Arabic, Hindi
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gobackward10 = SFSymbol(rawValue: "gobackward.10")
 
     /// 􀎄
-    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Localizations: Arabic, Hindi
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gobackward15 = SFSymbol(rawValue: "gobackward.15")
 
     /// 􀎆
-    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Localizations: Arabic, Hindi
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gobackward30 = SFSymbol(rawValue: "gobackward.30")
 
     /// 􀎈
-    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Localizations: Arabic, Hindi
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gobackward45 = SFSymbol(rawValue: "gobackward.45")
 
     /// 􀎊
-    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Localizations: Arabic, Hindi
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gobackward60 = SFSymbol(rawValue: "gobackward.60")
 
     /// 􀘥
-    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Localizations: Arabic, Hindi
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gobackward75 = SFSymbol(rawValue: "gobackward.75")
 
     /// 􀘧
-    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Localizations: Arabic, Hindi
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let gobackward90 = SFSymbol(rawValue: "gobackward.90")
 
@@ -3450,37 +3450,37 @@ public extension SFSymbol {
     static let goforward = SFSymbol(rawValue: "goforward")
 
     /// 􀎁
-    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Localizations: Arabic, Hindi
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let goforward10 = SFSymbol(rawValue: "goforward.10")
 
     /// 􀎃
-    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Localizations: Arabic, Hindi
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let goforward15 = SFSymbol(rawValue: "goforward.15")
 
     /// 􀎅
-    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Localizations: Arabic, Hindi
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let goforward30 = SFSymbol(rawValue: "goforward.30")
 
     /// 􀎇
-    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Localizations: Arabic, Hindi
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let goforward45 = SFSymbol(rawValue: "goforward.45")
 
     /// 􀎉
-    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Localizations: Arabic, Hindi
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let goforward60 = SFSymbol(rawValue: "goforward.60")
 
     /// 􀘤
-    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Localizations: Arabic, Hindi
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let goforward75 = SFSymbol(rawValue: "goforward.75")
 
     /// 􀘦
-    /// Localizations (available from iOS 13.0 on): Arabic, Hindi
+    /// Localizations: Arabic, Hindi
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let goforward90 = SFSymbol(rawValue: "goforward.90")
 
@@ -4040,7 +4040,7 @@ public extension SFSymbol {
     static let listDash = SFSymbol(rawValue: "list.dash")
 
     /// 􀋴
-    /// Localizations (available from iOS 13.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Localizations (available from iOS 14.0 on): Arabic
     /// Localizations (available from iOS 15.0 on): Hindi
     /// Layersets (available from iOS 15.0 on): Hierarchical, Multicolor
@@ -5110,14 +5110,14 @@ public extension SFSymbol {
 
     /// 􀍓
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
-    /// Localizations (available from iOS 13.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Localizations (available from iOS 14.0 on): Arabic
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let questionmarkVideo = SFSymbol(rawValue: "questionmark.video")
 
     /// 􀍔
     /// ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
-    /// Localizations (available from iOS 13.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Localizations (available from iOS 14.0 on): Arabic
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let questionmarkVideoFill = SFSymbol(rawValue: "questionmark.video.fill")
@@ -5636,22 +5636,22 @@ public extension SFSymbol {
     static let speakerFill = SFSymbol(rawValue: "speaker.fill")
 
     /// 􀊢
-    /// Localizations (available from iOS 13.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let speakerSlash = SFSymbol(rawValue: "speaker.slash")
 
     /// 􀊣
-    /// Localizations (available from iOS 13.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let speakerSlashFill = SFSymbol(rawValue: "speaker.slash.fill")
 
     /// 􀌊
-    /// Localizations (available from iOS 13.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let speakerZzz = SFSymbol(rawValue: "speaker.zzz")
 
     /// 􀑞
-    /// Localizations (available from iOS 13.0 on): Right-To-Left
+    /// Localizations: Right-To-Left
     /// Layersets (available from iOS 15.0 on): Hierarchical
     static let speakerZzzFill = SFSymbol(rawValue: "speaker.zzz.fill")
 

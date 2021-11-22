@@ -38,17 +38,17 @@ public extension SFSymbol {
     static let cartCircleFill = SFSymbol(rawValue: "cart.circle.fill")
 
     /// 􀅏
-    /// Localizations (available from iOS 14.2 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
+    /// Localizations: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
     static let character = SFSymbol(rawValue: "character")
 
     /// 􀫕
-    /// Localizations (available from iOS 14.0 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
-    /// Localizations (available from iOS 14.2 on): Traditional Chinese
+    /// Localizations: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
+    /// Localizations: Traditional Chinese
     static let characterBookClosed = SFSymbol(rawValue: "character.book.closed")
 
     /// 􀫖
-    /// Localizations (available from iOS 14.0 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
-    /// Localizations (available from iOS 14.2 on): Traditional Chinese
+    /// Localizations: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai
+    /// Localizations: Traditional Chinese
     static let characterBookClosedFill = SFSymbol(rawValue: "character.book.closed.fill")
 
     /// 􀯛
@@ -181,11 +181,11 @@ public extension SFSymbol {
     static let shuffleCircleFill = SFSymbol(rawValue: "shuffle.circle.fill")
 
     /// 􀵿
-    /// Localizations (available from iOS 14.2 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
+    /// Localizations: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
     static let textformatSizeLarger = SFSymbol(rawValue: "textformat.size.larger")
 
     /// 􀵷
-    /// Localizations (available from iOS 14.2 on): Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
+    /// Localizations: Arabic, Chinese, Hebrew, Hindi, Japanese, Korean, Thai, Traditional Chinese
     static let textformatSizeSmaller = SFSymbol(rawValue: "textformat.size.smaller")
 
     /// 􀴌

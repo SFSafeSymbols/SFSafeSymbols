@@ -161,7 +161,8 @@ let symbolToCode: (Symbol) -> String = { symbol in
         let newLocalizations = localizations.subtracting(handledLocalizations)
         if !newLocalizations.isEmpty {
             handledLocalizations.formUnion(newLocalizations)
-            outputString += "\t/// Localizations (available from iOS \(availability.iOS) on): \(Array(newLocalizations).sorted().joined(separator: ", "))\n"
+            let availabilityNotice: String = availability < symbol.availability ? " (available from iOS \(availability.iOS) on)" : ""
+            outputString += "\t/// Localizations\(availabilityNotice): \(Array(newLocalizations).sorted().joined(separator: ", "))\n"
         }
     }
 
@@ -171,7 +172,8 @@ let symbolToCode: (Symbol) -> String = { symbol in
         let newLayersets = layersets.subtracting(handledLayersets)
         if !newLayersets.isEmpty {
             handledLayersets.formUnion(newLayersets)
-            outputString += "\t/// Layersets (available from iOS \(availability.iOS) on): \(Array(newLayersets).map { $0.capitalized }.sorted().joined(separator: ", "))\n"
+            let availabilityNotice: String = availability < symbol.availability ? " (available from iOS \(availability.iOS) on)" : ""
+            outputString += "\t/// Layersets\(availabilityNotice): \(Array(newLayersets).map { $0.capitalized }.sorted().joined(separator: ", "))\n"
         }
     }
 
