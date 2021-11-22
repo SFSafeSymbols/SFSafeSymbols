@@ -100,6 +100,8 @@
 		<string>2019</string>
 		<key>1.magnifyingglass.ar</key>
 		<string>2020</string>
+		<key>1.magnifyingglass.hi</key>
+		<string>2021</string>
 		<key>1.square</key>
 		<string>2019</string>
 		<key>1.square.fill</key>
@@ -128,6 +130,18 @@
 		<string>2019</string>
 		<key>12.square.fill</key>
 		<string>2019</string>
+		<key>123.rectangle</key>
+		<string>2021</string>
+		<key>123.rectangle.ar</key>
+		<string>2021</string>
+		<key>123.rectangle.fill</key>
+		<string>2021</string>
+		<key>123.rectangle.fill.ar</key>
+		<string>2021</string>
+		<key>123.rectangle.fill.hi</key>
+		<string>2021</string>
+		<key>123.rectangle.hi</key>
+		<string>2021</string>
 		<key>13.circle</key>
 		<string>2019</string>
 		<key>13.circle.fill</key>
@@ -572,14 +586,30 @@
 		<string>2020</string>
 		<key>airplane</key>
 		<string>2019</string>
+		<key>airplane.arrival</key>
+		<string>2021</string>
 		<key>airplane.circle</key>
 		<string>2020</string>
 		<key>airplane.circle.fill</key>
 		<string>2020</string>
+		<key>airplane.departure</key>
+		<string>2021</string>
 		<key>airplayaudio</key>
 		<string>2019</string>
+		<key>airplayaudio.badge.exclamationmark</key>
+		<string>2021</string>
+		<key>airplayaudio.circle</key>
+		<string>2021</string>
+		<key>airplayaudio.circle.fill</key>
+		<string>2021</string>
 		<key>airplayvideo</key>
 		<string>2019</string>
+		<key>airplayvideo.badge.exclamationmark</key>
+		<string>2021</string>
+		<key>airplayvideo.circle</key>
+		<string>2021</string>
+		<key>airplayvideo.circle.fill</key>
+		<string>2021</string>
 		<key>airpod.left</key>
 		<string>2020</string>
 		<key>airpod.right</key>
@@ -590,20 +620,74 @@
 		<string>2020</string>
 		<key>airpods</key>
 		<string>2020</string>
+		<key>airpods.chargingcase</key>
+		<string>2021</string>
+		<key>airpods.chargingcase.fill</key>
+		<string>2021</string>
+		<key>airpods.chargingcase.wireless</key>
+		<string>2021</string>
+		<key>airpods.chargingcase.wireless.fill</key>
+		<string>2021</string>
+		<key>airpodsmax</key>
+		<string>2020.2</string>
 		<key>airpodspro</key>
 		<string>2020</string>
+		<key>airpodspro.chargingcase.wireless</key>
+		<string>2021</string>
+		<key>airpodspro.chargingcase.wireless.fill</key>
+		<string>2021</string>
 		<key>airport.express</key>
 		<string>2020</string>
 		<key>airport.extreme</key>
 		<string>2020</string>
 		<key>airport.extreme.tower</key>
 		<string>2020</string>
+		<key>airtag</key>
+		<string>2021</string>
+		<key>airtag.fill</key>
+		<string>2021</string>
+		<key>airtag.radiowaves.forward</key>
+		<string>2021</string>
+		<key>airtag.radiowaves.forward.fill</key>
+		<string>2021</string>
+		<key>airtag.radiowaves.forward.fill.rtl</key>
+		<string>2021</string>
+		<key>airtag.radiowaves.forward.rtl</key>
+		<string>2021</string>
 		<key>alarm</key>
 		<string>2019</string>
 		<key>alarm.fill</key>
 		<string>2019</string>
+		<key>align.horizontal.center</key>
+		<string>2021</string>
+		<key>align.horizontal.center.fill</key>
+		<string>2021</string>
+		<key>align.horizontal.left</key>
+		<string>2021</string>
+		<key>align.horizontal.left.fill</key>
+		<string>2021</string>
+		<key>align.horizontal.right</key>
+		<string>2021</string>
+		<key>align.horizontal.right.fill</key>
+		<string>2021</string>
+		<key>align.vertical.bottom</key>
+		<string>2021</string>
+		<key>align.vertical.bottom.fill</key>
+		<string>2021</string>
+		<key>align.vertical.center</key>
+		<string>2021</string>
+		<key>align.vertical.center.fill</key>
+		<string>2021</string>
+		<key>align.vertical.top</key>
+		<string>2021</string>
+		<key>align.vertical.top.fill</key>
+		<string>2021</string>
+		<key>allergens</key>
+		<string>2021</string>
 		<key>alt</key>
 		<string>2019</string>
+		<key>alternatingcurrent</key>
+		<string>2021</string>
 		<key>amplifier</key>
 		<string>2020</string>
 		<key>ant</key>
@@ -616,12 +700,26 @@
 		<string>2019</string>
 		<key>antenna.radiowaves.left.and.right</key>
 		<string>2019</string>
+		<key>antenna.radiowaves.left.and.right.circle</key>
+		<string>2021</string>
+		<key>antenna.radiowaves.left.and.right.circle.fill</key>
+		<string>2021</string>
+		<key>antenna.radiowaves.left.and.right.slash</key>
+		<string>2021</string>
 		<key>app</key>
 		<string>2019</string>
 		<key>app.badge</key>
 		<string>2019</string>
+		<key>app.badge.checkmark</key>
+		<string>2021</string>
+		<key>app.badge.checkmark.fill</key>
+		<string>2021</string>
 		<key>app.badge.fill</key>
 		<string>2019</string>
+		<key>app.connected.to.app.below.fill</key>
+		<string>2021</string>
+		<key>app.dashed</key>
+		<string>2021</string>
 		<key>app.fill</key>
 		<string>2019</string>
 		<key>app.gift</key>
@@ -632,6 +730,8 @@
 		<string>2020</string>
 		<key>applelogo</key>
 		<string>2020</string>
+		<key>applepencil</key>
+		<string>2021</string>
 		<key>applescript</key>
 		<string>2020</string>
 		<key>applescript.fill</key>
@@ -640,10 +740,30 @@
 		<string>2020</string>
 		<key>appletv.fill</key>
 		<string>2020</string>
+		<key>appletvremote.gen1</key>
+		<string>2021</string>
+		<key>appletvremote.gen1.fill</key>
+		<string>2021</string>
+		<key>appletvremote.gen2</key>
+		<string>2021</string>
+		<key>appletvremote.gen2.fill</key>
+		<string>2021</string>
+		<key>appletvremote.gen3</key>
+		<string>2021</string>
+		<key>appletvremote.gen3.fill</key>
+		<string>2021</string>
+		<key>appletvremote.gen4</key>
+		<string>2021</string>
+		<key>appletvremote.gen4.fill</key>
+		<string>2021</string>
 		<key>applewatch</key>
 		<string>2020</string>
+		<key>applewatch.case.inset.filled</key>
+		<string>2021</string>
 		<key>applewatch.radiowaves.left.and.right</key>
 		<string>2020</string>
+		<key>applewatch.side.right</key>
+		<string>2020.2</string>
 		<key>applewatch.slash</key>
 		<string>2020</string>
 		<key>applewatch.watchface</key>
@@ -676,6 +796,8 @@
 		<string>2019</string>
 		<key>arkit</key>
 		<string>2019</string>
+		<key>arkit.badge.xmark</key>
+		<string>2021</string>
 		<key>arrow.2.circlepath</key>
 		<string>2019</string>
 		<key>arrow.2.circlepath.circle</key>
@@ -696,6 +818,12 @@
 		<string>2020</string>
 		<key>arrow.backward.square.fill</key>
 		<string>2020</string>
+		<key>arrow.backward.to.line</key>
+		<string>2021</string>
+		<key>arrow.backward.to.line.circle</key>
+		<string>2021</string>
+		<key>arrow.backward.to.line.circle.fill</key>
+		<string>2021</string>
 		<key>arrow.branch</key>
 		<string>2019</string>
 		<key>arrow.clockwise</key>
@@ -804,6 +932,12 @@
 		<string>2019</string>
 		<key>arrow.down.to.line.alt</key>
 		<string>2019</string>
+		<key>arrow.down.to.line.circle</key>
+		<string>2021</string>
+		<key>arrow.down.to.line.circle.fill</key>
+		<string>2021</string>
+		<key>arrow.down.to.line.compact</key>
+		<string>2021</string>
 		<key>arrow.forward</key>
 		<string>2020</string>
 		<key>arrow.forward.circle</key>
@@ -814,6 +948,12 @@
 		<string>2020</string>
 		<key>arrow.forward.square.fill</key>
 		<string>2020</string>
+		<key>arrow.forward.to.line</key>
+		<string>2021</string>
+		<key>arrow.forward.to.line.circle</key>
+		<string>2021</string>
+		<key>arrow.forward.to.line.circle.fill</key>
+		<string>2021</string>
 		<key>arrow.left</key>
 		<string>2019</string>
 		<key>arrow.left.and.right</key>
@@ -852,6 +992,12 @@
 		<string>2019</string>
 		<key>arrow.left.to.line.alt</key>
 		<string>2019</string>
+		<key>arrow.left.to.line.circle</key>
+		<string>2021</string>
+		<key>arrow.left.to.line.circle.fill</key>
+		<string>2021</string>
+		<key>arrow.left.to.line.compact</key>
+		<string>2021</string>
 		<key>arrow.merge</key>
 		<string>2019</string>
 		<key>arrow.rectanglepath</key>
@@ -882,6 +1028,12 @@
 		<string>2019</string>
 		<key>arrow.right.to.line.alt</key>
 		<string>2019</string>
+		<key>arrow.right.to.line.circle</key>
+		<string>2021</string>
+		<key>arrow.right.to.line.circle.fill</key>
+		<string>2021</string>
+		<key>arrow.right.to.line.compact</key>
+		<string>2021</string>
 		<key>arrow.swap</key>
 		<string>2019</string>
 		<key>arrow.triangle.2.circlepath</key>
@@ -948,6 +1100,8 @@
 		<string>2020</string>
 		<key>arrow.up.and.down.righttriangle.up.righttriangle.down</key>
 		<string>2020</string>
+		<key>arrow.up.and.down.righttriangle.up.righttriangle.down.fill</key>
+		<string>2021</string>
 		<key>arrow.up.and.down.square</key>
 		<string>2019</string>
 		<key>arrow.up.and.down.square.fill</key>
@@ -1070,6 +1224,12 @@
 		<string>2019</string>
 		<key>arrow.up.to.line.alt</key>
 		<string>2019</string>
+		<key>arrow.up.to.line.circle</key>
+		<string>2021</string>
+		<key>arrow.up.to.line.circle.fill</key>
+		<string>2021</string>
+		<key>arrow.up.to.line.compact</key>
+		<string>2021</string>
 		<key>arrow.uturn.backward</key>
 		<string>2020</string>
 		<key>arrow.uturn.backward.circle</key>
@@ -1238,6 +1398,8 @@
 		<string>2019</string>
 		<key>arrowtriangle.left.and.line.vertical.and.arrowtriangle.right</key>
 		<string>2020</string>
+		<key>arrowtriangle.left.and.line.vertical.and.arrowtriangle.right.fill</key>
+		<string>2021</string>
 		<key>arrowtriangle.left.circle</key>
 		<string>2019</string>
 		<key>arrowtriangle.left.circle.fill</key>
@@ -1254,6 +1416,8 @@
 		<string>2019</string>
 		<key>arrowtriangle.right.and.line.vertical.and.arrowtriangle.left</key>
 		<string>2020</string>
+		<key>arrowtriangle.right.and.line.vertical.and.arrowtriangle.left.fill</key>
+		<string>2021</string>
 		<key>arrowtriangle.right.circle</key>
 		<string>2019</string>
 		<key>arrowtriangle.right.circle.fill</key>
@@ -1282,6 +1446,8 @@
 		<string>2019</string>
 		<key>aspectratio.fill</key>
 		<string>2019</string>
+		<key>asterisk</key>
+		<string>2021</string>
 		<key>asterisk.circle</key>
 		<string>2019</string>
 		<key>asterisk.circle.fill</key>
@@ -1316,6 +1482,10 @@
 		<string>2019</string>
 		<key>backward</key>
 		<string>2019</string>
+		<key>backward.circle</key>
+		<string>2021</string>
+		<key>backward.circle.fill</key>
+		<string>2021</string>
 		<key>backward.end</key>
 		<string>2019</string>
 		<key>backward.end.alt</key>
@@ -1382,14 +1552,58 @@
 		<string>2020</string>
 		<key>battery.25</key>
 		<string>2019</string>
+		<key>battery.50</key>
+		<string>2021</string>
+		<key>battery.75</key>
+		<string>2021</string>
+		<key>beats.earphones</key>
+		<string>2021</string>
+		<key>beats.headphones</key>
+		<string>2021</string>
+		<key>beats.powerbeats</key>
+		<string>2021</string>
+		<key>beats.powerbeats3</key>
+		<string>2021</string>
+		<key>beats.powerbeatspro</key>
+		<string>2021</string>
+		<key>beats.powerbeatspro.chargingcase</key>
+		<string>2021</string>
+		<key>beats.powerbeatspro.chargingcase.fill</key>
+		<string>2021</string>
+		<key>beats.powerbeatspro.left</key>
+		<string>2021</string>
+		<key>beats.powerbeatspro.right</key>
+		<string>2021</string>
+		<key>beats.studiobud.left</key>
+		<string>2021</string>
+		<key>beats.studiobud.right</key>
+		<string>2021</string>
+		<key>beats.studiobuds</key>
+		<string>2021</string>
+		<key>beats.studiobuds.chargingcase</key>
+		<string>2021</string>
+		<key>beats.studiobuds.chargingcase.fill</key>
+		<string>2021</string>
 		<key>bed.double</key>
 		<string>2019</string>
+		<key>bed.double.circle</key>
+		<string>2021</string>
+		<key>bed.double.circle.fill</key>
+		<string>2021</string>
 		<key>bed.double.fill</key>
 		<string>2019</string>
 		<key>bell</key>
 		<string>2019</string>
+		<key>bell.and.waveform</key>
+		<string>2021</string>
+		<key>bell.and.waveform.fill</key>
+		<string>2021</string>
 		<key>bell.badge</key>
 		<string>2020</string>
+		<key>bell.badge.circle</key>
+		<string>2021</string>
+		<key>bell.badge.circle.fill</key>
+		<string>2021</string>
 		<key>bell.badge.fill</key>
 		<string>2020</string>
 		<key>bell.circle</key>
@@ -1406,6 +1620,10 @@
 		<string>2020</string>
 		<key>bell.slash.fill</key>
 		<string>2019</string>
+		<key>bell.square</key>
+		<string>2021</string>
+		<key>bell.square.fill</key>
+		<string>2021</string>
 		<key>bicycle</key>
 		<string>2020</string>
 		<key>bicycle.circle</key>
@@ -1440,8 +1658,16 @@
 		<string>2019</string>
 		<key>bolt.badge.a.fill</key>
 		<string>2019</string>
+		<key>bolt.batteryblock</key>
+		<string>2021</string>
+		<key>bolt.batteryblock.fill</key>
+		<string>2021</string>
 		<key>bolt.car</key>
 		<string>2020</string>
+		<key>bolt.car.circle</key>
+		<string>2021</string>
+		<key>bolt.car.circle.fill</key>
+		<string>2021</string>
 		<key>bolt.car.fill</key>
 		<string>2020</string>
 		<key>bolt.circle</key>
@@ -1470,6 +1696,12 @@
 		<string>2019</string>
 		<key>bolt.horizontal.icloud.fill</key>
 		<string>2019</string>
+		<key>bolt.ring.closed</key>
+		<string>2021.1</string>
+		<key>bolt.shield</key>
+		<string>2021</string>
+		<key>bolt.shield.fill</key>
+		<string>2021</string>
 		<key>bolt.slash</key>
 		<string>2019</string>
 		<key>bolt.slash.circle</key>
@@ -1478,6 +1710,10 @@
 		<string>2020</string>
 		<key>bolt.slash.fill</key>
 		<string>2019</string>
+		<key>bolt.square</key>
+		<string>2021</string>
+		<key>bolt.square.fill</key>
+		<string>2021</string>
 		<key>bonjour</key>
 		<string>2020</string>
 		<key>book</key>
@@ -1488,6 +1724,10 @@
 		<string>2019</string>
 		<key>book.closed</key>
 		<string>2020</string>
+		<key>book.closed.circle</key>
+		<string>2021</string>
+		<key>book.closed.circle.fill</key>
+		<string>2021</string>
 		<key>book.closed.fill</key>
 		<string>2020</string>
 		<key>book.fill</key>
@@ -1504,10 +1744,22 @@
 		<string>2020</string>
 		<key>bookmark.slash.fill</key>
 		<string>2020</string>
+		<key>bookmark.square</key>
+		<string>2021</string>
+		<key>bookmark.square.fill</key>
+		<string>2021</string>
 		<key>books.vertical</key>
 		<string>2020</string>
+		<key>books.vertical.circle</key>
+		<string>2021</string>
+		<key>books.vertical.circle.fill</key>
+		<string>2021</string>
 		<key>books.vertical.fill</key>
 		<string>2020</string>
+		<key>brain</key>
+		<string>2021</string>
+		<key>brain.head.profile</key>
+		<string>2021</string>
 		<key>brazilianrealsign.circle</key>
 		<string>2020.1</string>
 		<key>brazilianrealsign.circle.fill</key>
@@ -1518,6 +1770,10 @@
 		<string>2020.1</string>
 		<key>briefcase</key>
 		<string>2019</string>
+		<key>briefcase.circle</key>
+		<string>2021</string>
+		<key>briefcase.circle.fill</key>
+		<string>2021</string>
 		<key>briefcase.fill</key>
 		<string>2019</string>
 		<key>bubble.left</key>
@@ -1526,6 +1782,14 @@
 		<string>2019</string>
 		<key>bubble.left.and.bubble.right.fill</key>
 		<string>2019</string>
+		<key>bubble.left.and.exclamationmark.bubble.right</key>
+		<string>2021</string>
+		<key>bubble.left.and.exclamationmark.bubble.right.fill</key>
+		<string>2021</string>
+		<key>bubble.left.circle</key>
+		<string>2021</string>
+		<key>bubble.left.circle.fill</key>
+		<string>2021</string>
 		<key>bubble.left.fill</key>
 		<string>2019</string>
 		<key>bubble.middle.bottom</key>
@@ -1538,6 +1802,10 @@
 		<string>2019</string>
 		<key>bubble.right</key>
 		<string>2019</string>
+		<key>bubble.right.circle</key>
+		<string>2021</string>
+		<key>bubble.right.circle.fill</key>
+		<string>2021</string>
 		<key>bubble.right.fill</key>
 		<string>2019</string>
 		<key>building</key>
@@ -1552,6 +1820,10 @@
 		<string>2020</string>
 		<key>building.columns</key>
 		<string>2020</string>
+		<key>building.columns.circle</key>
+		<string>2021</string>
+		<key>building.columns.circle.fill</key>
+		<string>2021</string>
 		<key>building.columns.fill</key>
 		<string>2020</string>
 		<key>building.fill</key>
@@ -1578,6 +1850,14 @@
 		<string>2019</string>
 		<key>c.square.fill</key>
 		<string>2019</string>
+		<key>cable.connector</key>
+		<string>2021</string>
+		<key>cable.connector.horizontal</key>
+		<string>2021</string>
+		<key>cablecar</key>
+		<string>2021</string>
+		<key>cablecar.fill</key>
+		<string>2021</string>
 		<key>calendar</key>
 		<string>2019</string>
 		<key>calendar.badge.clock</key>
@@ -1594,6 +1874,14 @@
 		<string>2019</string>
 		<key>calendar.circle.fill</key>
 		<string>2019</string>
+		<key>calendar.day.timeline.leading</key>
+		<string>2021</string>
+		<key>calendar.day.timeline.left</key>
+		<string>2021</string>
+		<key>calendar.day.timeline.right</key>
+		<string>2021</string>
+		<key>calendar.day.timeline.trailing</key>
+		<string>2021</string>
 		<key>camera</key>
 		<string>2019</string>
 		<key>camera.aperture</key>
@@ -1636,6 +1924,10 @@
 		<string>2019</string>
 		<key>camera.rotate.fill</key>
 		<string>2019</string>
+		<key>camera.shutter.button</key>
+		<string>2021</string>
+		<key>camera.shutter.button.fill</key>
+		<string>2021</string>
 		<key>camera.viewfinder</key>
 		<string>2019</string>
 		<key>candybarphone</key>
@@ -1646,12 +1938,32 @@
 		<string>2019</string>
 		<key>capsule</key>
 		<string>2019</string>
+		<key>capsule.bottomhalf.filled</key>
+		<string>2021</string>
 		<key>capsule.fill</key>
 		<string>2019</string>
+		<key>capsule.inset.filled</key>
+		<string>2021</string>
+		<key>capsule.lefthalf.filled</key>
+		<string>2021</string>
 		<key>capsule.portrait</key>
 		<string>2020</string>
+		<key>capsule.portrait.bottomhalf.filled</key>
+		<string>2021</string>
 		<key>capsule.portrait.fill</key>
 		<string>2020</string>
+		<key>capsule.portrait.inset.filled</key>
+		<string>2021</string>
+		<key>capsule.portrait.lefthalf.filled</key>
+		<string>2021</string>
+		<key>capsule.portrait.righthalf.filled</key>
+		<string>2021</string>
+		<key>capsule.portrait.tophalf.filled</key>
+		<string>2021</string>
+		<key>capsule.righthalf.filled</key>
+		<string>2021</string>
+		<key>capsule.tophalf.filled</key>
+		<string>2021</string>
 		<key>captions.bubble</key>
 		<string>2019</string>
 		<key>captions.bubble.fill</key>
@@ -1666,6 +1978,10 @@
 		<string>2020</string>
 		<key>car.circle.fill</key>
 		<string>2020</string>
+		<key>car.ferry</key>
+		<string>2021</string>
+		<key>car.ferry.fill</key>
+		<string>2021</string>
 		<key>car.fill</key>
 		<string>2019</string>
 		<key>cart</key>
@@ -1744,6 +2060,60 @@
 		<string>2020.1</string>
 		<key>character.book.closed.zh.traditional</key>
 		<string>2020.1</string>
+		<key>character.bubble</key>
+		<string>2020.2</string>
+		<key>character.bubble.ar</key>
+		<string>2020.2</string>
+		<key>character.bubble.fill</key>
+		<string>2020.2</string>
+		<key>character.bubble.fill.ar</key>
+		<string>2020.2</string>
+		<key>character.bubble.fill.he</key>
+		<string>2020.2</string>
+		<key>character.bubble.fill.hi</key>
+		<string>2021</string>
+		<key>character.bubble.fill.ja</key>
+		<string>2021</string>
+		<key>character.bubble.fill.ko</key>
+		<string>2021</string>
+		<key>character.bubble.fill.th</key>
+		<string>2021</string>
+		<key>character.bubble.fill.zh</key>
+		<string>2021</string>
+		<key>character.bubble.fill.zh.traditional</key>
+		<string>2021</string>
+		<key>character.bubble.he</key>
+		<string>2020.2</string>
+		<key>character.bubble.hi</key>
+		<string>2021</string>
+		<key>character.bubble.ja</key>
+		<string>2021</string>
+		<key>character.bubble.ko</key>
+		<string>2021</string>
+		<key>character.bubble.th</key>
+		<string>2021</string>
+		<key>character.bubble.zh</key>
+		<string>2021</string>
+		<key>character.bubble.zh.traditional</key>
+		<string>2021</string>
+		<key>character.cursor.ibeam</key>
+		<string>2020.2</string>
+		<key>character.cursor.ibeam.ar</key>
+		<string>2020.2</string>
+		<key>character.cursor.ibeam.he</key>
+		<string>2020.2</string>
+		<key>character.cursor.ibeam.hi</key>
+		<string>2020.2</string>
+		<key>character.cursor.ibeam.ja</key>
+		<string>2020.2</string>
+		<key>character.cursor.ibeam.ko</key>
+		<string>2020.2</string>
+		<key>character.cursor.ibeam.th</key>
+		<string>2020.2</string>
+		<key>character.cursor.ibeam.zh</key>
+		<string>2020.2</string>
+		<key>character.cursor.ibeam.zh.traditional</key>
+		<string>2020.2</string>
 		<key>character.he</key>
 		<string>2020.1</string>
 		<key>character.hi</key>
@@ -1752,6 +2122,24 @@
 		<string>2020.1</string>
 		<key>character.ko</key>
 		<string>2020.1</string>
+		<key>character.textbox</key>
+		<string>2020.2</string>
+		<key>character.textbox.ar</key>
+		<string>2020.2</string>
+		<key>character.textbox.he</key>
+		<string>2020.2</string>
+		<key>character.textbox.hi</key>
+		<string>2020.2</string>
+		<key>character.textbox.ja</key>
+		<string>2020.2</string>
+		<key>character.textbox.ko</key>
+		<string>2020.2</string>
+		<key>character.textbox.th</key>
+		<string>2020.2</string>
+		<key>character.textbox.zh</key>
+		<string>2020.2</string>
+		<key>character.textbox.zh.traditional</key>
+		<string>2020.2</string>
 		<key>character.th</key>
 		<string>2020.1</string>
 		<key>character.zh</key>
@@ -1768,18 +2156,42 @@
 		<string>2019</string>
 		<key>chart.bar.xaxis</key>
 		<string>2020</string>
+		<key>chart.line.uptrend.xyaxis</key>
+		<string>2021</string>
+		<key>chart.line.uptrend.xyaxis.circle</key>
+		<string>2021</string>
+		<key>chart.line.uptrend.xyaxis.circle.fill</key>
+		<string>2021</string>
 		<key>chart.pie</key>
 		<string>2019</string>
 		<key>chart.pie.fill</key>
 		<string>2019</string>
+		<key>chart.xyaxis.line</key>
+		<string>2021</string>
 		<key>checkerboard.rectangle</key>
 		<string>2020</string>
+		<key>checkerboard.shield</key>
+		<string>2021</string>
+		<key>checklist</key>
+		<string>2021</string>
+		<key>checklist.rtl</key>
+		<string>2021</string>
 		<key>checkmark</key>
 		<string>2019</string>
+		<key>checkmark.bubble</key>
+		<string>2021</string>
+		<key>checkmark.bubble.fill</key>
+		<string>2021</string>
 		<key>checkmark.circle</key>
 		<string>2019</string>
 		<key>checkmark.circle.fill</key>
 		<string>2019</string>
+		<key>checkmark.circle.trianglebadge.exclamationmark</key>
+		<string>2021</string>
+		<key>checkmark.diamond</key>
+		<string>2021</string>
+		<key>checkmark.diamond.fill</key>
+		<string>2021</string>
 		<key>checkmark.icloud</key>
 		<string>2020</string>
 		<key>checkmark.icloud.fill</key>
@@ -1854,6 +2266,8 @@
 		<string>2019</string>
 		<key>chevron.left.circle.fill</key>
 		<string>2019</string>
+		<key>chevron.left.forwardslash.chevron.right</key>
+		<string>2021</string>
 		<key>chevron.left.slash.chevron.right</key>
 		<string>2019</string>
 		<key>chevron.left.square</key>
@@ -1886,8 +2300,14 @@
 		<string>2019</string>
 		<key>circle</key>
 		<string>2019</string>
+		<key>circle.and.line.horizontal</key>
+		<string>2021</string>
+		<key>circle.and.line.horizontal.fill</key>
+		<string>2021</string>
 		<key>circle.bottomhalf.fill</key>
 		<string>2020</string>
+		<key>circle.bottomhalf.filled</key>
+		<string>2021</string>
 		<key>circle.bottomthird.split</key>
 		<string>2019</string>
 		<key>circle.circle</key>
@@ -1898,42 +2318,92 @@
 		<string>2020</string>
 		<key>circle.dashed.inset.fill</key>
 		<string>2020</string>
+		<key>circle.dashed.inset.filled</key>
+		<string>2021</string>
+		<key>circle.dotted</key>
+		<string>2021</string>
 		<key>circle.fill</key>
 		<string>2019</string>
 		<key>circle.fill.square.fill</key>
 		<string>2020</string>
+		<key>circle.grid.2x1</key>
+		<string>2021</string>
+		<key>circle.grid.2x1.fill</key>
+		<string>2021</string>
+		<key>circle.grid.2x1.left.filled</key>
+		<string>2021</string>
+		<key>circle.grid.2x1.right.filled</key>
+		<string>2021</string>
 		<key>circle.grid.2x2</key>
 		<string>2019</string>
 		<key>circle.grid.2x2.fill</key>
 		<string>2019</string>
 		<key>circle.grid.3x3</key>
 		<string>2019</string>
+		<key>circle.grid.3x3.circle</key>
+		<string>2021</string>
+		<key>circle.grid.3x3.circle.fill</key>
+		<string>2021</string>
 		<key>circle.grid.3x3.fill</key>
 		<string>2019</string>
 		<key>circle.grid.cross</key>
 		<string>2020</string>
 		<key>circle.grid.cross.down.fill</key>
 		<string>2020</string>
+		<key>circle.grid.cross.down.filled</key>
+		<string>2021</string>
 		<key>circle.grid.cross.fill</key>
 		<string>2020</string>
 		<key>circle.grid.cross.left.fill</key>
 		<string>2020</string>
+		<key>circle.grid.cross.left.filled</key>
+		<string>2021</string>
 		<key>circle.grid.cross.right.fill</key>
 		<string>2020</string>
+		<key>circle.grid.cross.right.filled</key>
+		<string>2021</string>
 		<key>circle.grid.cross.up.fill</key>
 		<string>2020</string>
+		<key>circle.grid.cross.up.filled</key>
+		<string>2021</string>
 		<key>circle.grid.hex</key>
 		<string>2019</string>
 		<key>circle.grid.hex.fill</key>
 		<string>2019</string>
+		<key>circle.hexagongrid</key>
+		<string>2021</string>
+		<key>circle.hexagongrid.circle</key>
+		<string>2021</string>
+		<key>circle.hexagongrid.circle.fill</key>
+		<string>2021</string>
+		<key>circle.hexagongrid.fill</key>
+		<string>2021</string>
+		<key>circle.hexagonpath</key>
+		<string>2021</string>
+		<key>circle.hexagonpath.fill</key>
+		<string>2021</string>
+		<key>circle.inset.filled</key>
+		<string>2021</string>
 		<key>circle.lefthalf.fill</key>
 		<string>2019</string>
+		<key>circle.lefthalf.filled</key>
+		<string>2021</string>
 		<key>circle.righthalf.fill</key>
 		<string>2019</string>
+		<key>circle.righthalf.filled</key>
+		<string>2021</string>
+		<key>circle.slash</key>
+		<string>2021</string>
+		<key>circle.slash.fill</key>
+		<string>2021</string>
 		<key>circle.square</key>
 		<string>2020</string>
+		<key>circle.square.fill</key>
+		<string>2021</string>
 		<key>circle.tophalf.fill</key>
 		<string>2020</string>
+		<key>circle.tophalf.filled</key>
+		<string>2021</string>
 		<key>circlebadge</key>
 		<string>2020</string>
 		<key>circlebadge.2</key>
@@ -1960,6 +2430,18 @@
 		<string>2020.1</string>
 		<key>clock.arrow.circlepath</key>
 		<string>2020</string>
+		<key>clock.badge.checkmark</key>
+		<string>2021</string>
+		<key>clock.badge.checkmark.fill</key>
+		<string>2021</string>
+		<key>clock.badge.exclamationmark</key>
+		<string>2021</string>
+		<key>clock.badge.exclamationmark.fill</key>
+		<string>2021</string>
+		<key>clock.circle</key>
+		<string>2021</string>
+		<key>clock.circle.fill</key>
+		<string>2021</string>
 		<key>clock.fill</key>
 		<string>2019</string>
 		<key>cloud</key>
@@ -2048,6 +2530,10 @@
 		<string>2020</string>
 		<key>command.square.fill</key>
 		<string>2020</string>
+		<key>computermouse</key>
+		<string>2021</string>
+		<key>computermouse.fill</key>
+		<string>2021</string>
 		<key>cone</key>
 		<string>2020</string>
 		<key>cone.fill</key>
@@ -2058,14 +2544,20 @@
 		<string>2019</string>
 		<key>cpu</key>
 		<string>2020</string>
+		<key>cpu.fill</key>
+		<string>2021</string>
 		<key>creditcard</key>
 		<string>2019</string>
+		<key>creditcard.and.123</key>
+		<string>2021</string>
 		<key>creditcard.circle</key>
 		<string>2020</string>
 		<key>creditcard.circle.fill</key>
 		<string>2020</string>
 		<key>creditcard.fill</key>
 		<string>2019</string>
+		<key>creditcard.trianglebadge.exclamationmark</key>
+		<string>2021</string>
 		<key>crop</key>
 		<string>2019</string>
 		<key>crop.rotate</key>
@@ -2082,6 +2574,10 @@
 		<string>2020</string>
 		<key>cross.fill</key>
 		<string>2020</string>
+		<key>cross.vial</key>
+		<string>2021</string>
+		<key>cross.vial.fill</key>
+		<string>2021</string>
 		<key>crown</key>
 		<string>2020</string>
 		<key>crown.fill</key>
@@ -2106,6 +2602,10 @@
 		<string>2020</string>
 		<key>cube.transparent.fill</key>
 		<string>2020</string>
+		<key>cup.and.saucer</key>
+		<string>2021</string>
+		<key>cup.and.saucer.fill</key>
+		<string>2021</string>
 		<key>curlybraces</key>
 		<string>2020</string>
 		<key>curlybraces.square</key>
@@ -2152,6 +2652,14 @@
 		<string>2019</string>
 		<key>decrease.quotelevel</key>
 		<string>2019</string>
+		<key>delete.backward</key>
+		<string>2021</string>
+		<key>delete.backward.fill</key>
+		<string>2021</string>
+		<key>delete.forward</key>
+		<string>2021</string>
+		<key>delete.forward.fill</key>
+		<string>2021</string>
 		<key>delete.left</key>
 		<string>2019</string>
 		<key>delete.left.fill</key>
@@ -2166,6 +2674,10 @@
 		<string>2020</string>
 		<key>desktopcomputer</key>
 		<string>2019</string>
+		<key>desktopcomputer.and.arrow.down</key>
+		<string>2021</string>
+		<key>desktopcomputer.trianglebadge.exclamationmark</key>
+		<string>2021</string>
 		<key>dial</key>
 		<string>2019</string>
 		<key>dial.fill</key>
@@ -2180,8 +2692,26 @@
 		<string>2020</string>
 		<key>diamond</key>
 		<string>2020</string>
+		<key>diamond.bottomhalf.filled</key>
+		<string>2021</string>
+		<key>diamond.circle</key>
+		<string>2021</string>
+		<key>diamond.circle.fill</key>
+		<string>2021</string>
 		<key>diamond.fill</key>
 		<string>2020</string>
+		<key>diamond.inset.filled</key>
+		<string>2021</string>
+		<key>diamond.lefthalf.filled</key>
+		<string>2021</string>
+		<key>diamond.righthalf.filled</key>
+		<string>2021</string>
+		<key>diamond.tophalf.filled</key>
+		<string>2021</string>
+		<key>dice</key>
+		<string>2021</string>
+		<key>dice.fill</key>
+		<string>2021</string>
 		<key>die.face.1</key>
 		<string>2020</string>
 		<key>die.face.1.fill</key>
@@ -2206,12 +2736,38 @@
 		<string>2020</string>
 		<key>die.face.6.fill</key>
 		<string>2020</string>
+		<key>digitalcrown.arrow.clockwise</key>
+		<string>2021</string>
+		<key>digitalcrown.arrow.clockwise.fill</key>
+		<string>2021</string>
+		<key>digitalcrown.arrow.counterclockwise</key>
+		<string>2021</string>
+		<key>digitalcrown.arrow.counterclockwise.fill</key>
+		<string>2021</string>
+		<key>digitalcrown.horizontal.arrow.clockwise</key>
+		<string>2021</string>
+		<key>digitalcrown.horizontal.arrow.clockwise.fill</key>
+		<string>2021</string>
+		<key>digitalcrown.horizontal.arrow.counterclockwise</key>
+		<string>2021</string>
+		<key>digitalcrown.horizontal.arrow.counterclockwise.fill</key>
+		<string>2021</string>
+		<key>digitalcrown.horizontal.press</key>
+		<string>2021</string>
+		<key>digitalcrown.horizontal.press.fill</key>
+		<string>2021</string>
+		<key>digitalcrown.press</key>
+		<string>2021</string>
+		<key>digitalcrown.press.fill</key>
+		<string>2021</string>
 		<key>directcurrent</key>
 		<string>2020.1</string>
 		<key>display</key>
 		<string>2020</string>
 		<key>display.2</key>
 		<string>2020</string>
+		<key>display.and.arrow.down</key>
+		<string>2021</string>
 		<key>display.trianglebadge.exclamationmark</key>
 		<string>2020</string>
 		<key>divide</key>
@@ -2274,8 +2830,32 @@
 		<string>2020</string>
 		<key>doc.richtext.fill.he</key>
 		<string>2020</string>
+		<key>doc.richtext.fill.hi</key>
+		<string>2021</string>
+		<key>doc.richtext.fill.ja</key>
+		<string>2021</string>
+		<key>doc.richtext.fill.ko</key>
+		<string>2021</string>
+		<key>doc.richtext.fill.th</key>
+		<string>2021</string>
+		<key>doc.richtext.fill.zh</key>
+		<string>2021</string>
+		<key>doc.richtext.fill.zh.traditional</key>
+		<string>2021</string>
 		<key>doc.richtext.he</key>
 		<string>2020</string>
+		<key>doc.richtext.hi</key>
+		<string>2021</string>
+		<key>doc.richtext.ja</key>
+		<string>2021</string>
+		<key>doc.richtext.ko</key>
+		<string>2021</string>
+		<key>doc.richtext.th</key>
+		<string>2021</string>
+		<key>doc.richtext.zh</key>
+		<string>2021</string>
+		<key>doc.richtext.zh.traditional</key>
+		<string>2021</string>
 		<key>doc.text</key>
 		<string>2019</string>
 		<key>doc.text.below.ecg</key>
@@ -2290,10 +2870,18 @@
 		<string>2019</string>
 		<key>doc.text.fill.viewfinder</key>
 		<string>2020</string>
+		<key>doc.text.image</key>
+		<string>2021</string>
+		<key>doc.text.image.fill</key>
+		<string>2021</string>
 		<key>doc.text.magnifyingglass</key>
 		<string>2019</string>
 		<key>doc.text.viewfinder</key>
 		<string>2019</string>
+		<key>doc.viewfinder</key>
+		<string>2021</string>
+		<key>doc.viewfinder.fill</key>
+		<string>2021</string>
 		<key>doc.zipper</key>
 		<string>2020</string>
 		<key>dock.arrow.down.rectangle</key>
@@ -2322,12 +2910,18 @@
 		<string>2020</string>
 		<key>dot.circle.and.cursorarrow</key>
 		<string>2020</string>
+		<key>dot.circle.and.hand.point.up.left.fill</key>
+		<string>2021</string>
+		<key>dot.circle.viewfinder</key>
+		<string>2021</string>
 		<key>dot.radiowaves.forward</key>
 		<string>2020</string>
 		<key>dot.radiowaves.left.and.right</key>
 		<string>2019</string>
 		<key>dot.radiowaves.right</key>
 		<string>2019</string>
+		<key>dot.radiowaves.up.forward</key>
+		<string>2021</string>
 		<key>dot.square</key>
 		<string>2019</string>
 		<key>dot.square.fill</key>
@@ -2338,20 +2932,34 @@
 		<string>2020</string>
 		<key>dot.squareshape.split.2x2</key>
 		<string>2020</string>
+		<key>dot.viewfinder</key>
+		<string>2021</string>
 		<key>dpad</key>
 		<string>2020</string>
 		<key>dpad.down.fill</key>
 		<string>2020</string>
+		<key>dpad.down.filled</key>
+		<string>2021</string>
 		<key>dpad.fill</key>
 		<string>2020</string>
 		<key>dpad.left.fill</key>
 		<string>2020</string>
+		<key>dpad.left.filled</key>
+		<string>2021</string>
 		<key>dpad.right.fill</key>
 		<string>2020</string>
+		<key>dpad.right.filled</key>
+		<string>2021</string>
 		<key>dpad.up.fill</key>
 		<string>2020</string>
+		<key>dpad.up.filled</key>
+		<string>2021</string>
 		<key>drop</key>
 		<string>2020</string>
+		<key>drop.circle</key>
+		<string>2021</string>
+		<key>drop.circle.fill</key>
+		<string>2021</string>
 		<key>drop.fill</key>
 		<string>2020</string>
 		<key>drop.triangle</key>
@@ -2368,12 +2976,20 @@
 		<string>2019</string>
 		<key>ear</key>
 		<string>2019</string>
+		<key>ear.and.waveform</key>
+		<string>2021</string>
 		<key>ear.badge.checkmark</key>
 		<string>2020</string>
 		<key>ear.fill</key>
 		<string>2020</string>
 		<key>ear.trianglebadge.exclamationmark</key>
 		<string>2020</string>
+		<key>earbuds</key>
+		<string>2021</string>
+		<key>earbuds.case</key>
+		<string>2021</string>
+		<key>earbuds.case.fill</key>
+		<string>2021</string>
 		<key>earpods</key>
 		<string>2020</string>
 		<key>eject</key>
@@ -2398,10 +3014,16 @@
 		<string>2019</string>
 		<key>ellipsis.circle.fill</key>
 		<string>2019</string>
+		<key>ellipsis.curlybraces</key>
+		<string>2021</string>
 		<key>ellipsis.rectangle</key>
 		<string>2020</string>
 		<key>ellipsis.rectangle.fill</key>
 		<string>2020</string>
+		<key>ellipsis.vertical.bubble</key>
+		<string>2021</string>
+		<key>ellipsis.vertical.bubble.fill</key>
+		<string>2021</string>
 		<key>envelope</key>
 		<string>2019</string>
 		<key>envelope.arrow.triangle.branch</key>
@@ -2412,6 +3034,10 @@
 		<string>2019</string>
 		<key>envelope.badge.fill</key>
 		<string>2019</string>
+		<key>envelope.badge.shield.half.filled</key>
+		<string>2021</string>
+		<key>envelope.badge.shield.half.filled.fill</key>
+		<string>2021</string>
 		<key>envelope.badge.shield.leadinghalf.fill</key>
 		<string>2020</string>
 		<key>envelope.circle</key>
@@ -2464,6 +3090,10 @@
 		<string>2020</string>
 		<key>exclamationmark.bubble</key>
 		<string>2019</string>
+		<key>exclamationmark.bubble.circle</key>
+		<string>2021</string>
+		<key>exclamationmark.bubble.circle.fill</key>
+		<string>2021</string>
 		<key>exclamationmark.bubble.fill</key>
 		<string>2019</string>
 		<key>exclamationmark.circle</key>
@@ -2540,8 +3170,20 @@
 		<string>2019</string>
 		<key>eye.slash</key>
 		<string>2019</string>
+		<key>eye.slash.circle</key>
+		<string>2021</string>
+		<key>eye.slash.circle.fill</key>
+		<string>2021</string>
 		<key>eye.slash.fill</key>
 		<string>2019</string>
+		<key>eye.square</key>
+		<string>2021</string>
+		<key>eye.square.fill</key>
+		<string>2021</string>
+		<key>eye.trianglebadge.exclamationmark</key>
+		<string>2021</string>
+		<key>eye.trianglebadge.exclamationmark.fill</key>
+		<string>2021</string>
 		<key>eyebrow</key>
 		<string>2020</string>
 		<key>eyedropper</key>
@@ -2580,10 +3222,26 @@
 		<string>2020</string>
 		<key>faceid</key>
 		<string>2019</string>
+		<key>facemask</key>
+		<string>2021</string>
+		<key>facemask.fill</key>
+		<string>2021</string>
+		<key>fanblades</key>
+		<string>2021</string>
+		<key>fanblades.fill</key>
+		<string>2021</string>
 		<key>faxmachine</key>
 		<string>2020</string>
+		<key>ferry</key>
+		<string>2021</string>
+		<key>ferry.fill</key>
+		<string>2021</string>
 		<key>fiberchannel</key>
 		<string>2020</string>
+		<key>fibrechannel</key>
+		<string>2021</string>
+		<key>figure.roll</key>
+		<string>2021</string>
 		<key>figure.stand</key>
 		<string>2020</string>
 		<key>figure.stand.line.dotted.figure.stand</key>
@@ -2612,10 +3270,20 @@
 		<string>2020</string>
 		<key>film</key>
 		<string>2019</string>
+		<key>film.circle</key>
+		<string>2021</string>
+		<key>film.circle.fill</key>
+		<string>2021</string>
 		<key>film.fill</key>
 		<string>2019</string>
 		<key>flag</key>
 		<string>2019</string>
+		<key>flag.2.crossed</key>
+		<string>2021</string>
+		<key>flag.2.crossed.fill</key>
+		<string>2021</string>
+		<key>flag.and.flag.filled.crossed</key>
+		<string>2021</string>
 		<key>flag.badge.ellipsis</key>
 		<string>2020</string>
 		<key>flag.badge.ellipsis.fill</key>
@@ -2626,6 +3294,8 @@
 		<string>2019</string>
 		<key>flag.fill</key>
 		<string>2019</string>
+		<key>flag.filled.and.flag.crossed</key>
+		<string>2021</string>
 		<key>flag.slash</key>
 		<string>2019</string>
 		<key>flag.slash.circle</key>
@@ -2634,8 +3304,16 @@
 		<string>2020</string>
 		<key>flag.slash.fill</key>
 		<string>2019</string>
+		<key>flag.square</key>
+		<string>2021</string>
+		<key>flag.square.fill</key>
+		<string>2021</string>
 		<key>flame</key>
 		<string>2019</string>
+		<key>flame.circle</key>
+		<string>2021</string>
+		<key>flame.circle.fill</key>
+		<string>2021</string>
 		<key>flame.fill</key>
 		<string>2019</string>
 		<key>flashlight.off.fill</key>
@@ -2666,6 +3344,8 @@
 		<string>2019</string>
 		<key>folder.badge.gear</key>
 		<string>2020</string>
+		<key>folder.badge.gearshape</key>
+		<string>2021</string>
 		<key>folder.badge.minus</key>
 		<string>2019</string>
 		<key>folder.badge.person.crop</key>
@@ -2684,6 +3364,8 @@
 		<string>2019</string>
 		<key>folder.fill.badge.gear</key>
 		<string>2020</string>
+		<key>folder.fill.badge.gearshape</key>
+		<string>2021</string>
 		<key>folder.fill.badge.minus</key>
 		<string>2019</string>
 		<key>folder.fill.badge.person.crop</key>
@@ -2694,8 +3376,18 @@
 		<string>2020</string>
 		<key>folder.fill.badge.questionmark.ar</key>
 		<string>2020</string>
+		<key>fork.knife</key>
+		<string>2021</string>
+		<key>fork.knife.circle</key>
+		<string>2021</string>
+		<key>fork.knife.circle.fill</key>
+		<string>2021</string>
 		<key>forward</key>
 		<string>2019</string>
+		<key>forward.circle</key>
+		<string>2021</string>
+		<key>forward.circle.fill</key>
+		<string>2021</string>
 		<key>forward.end</key>
 		<string>2019</string>
 		<key>forward.end.alt</key>
@@ -2718,6 +3410,14 @@
 		<string>2019</string>
 		<key>francsign.square.fill</key>
 		<string>2019</string>
+		<key>fuelpump</key>
+		<string>2021</string>
+		<key>fuelpump.circle</key>
+		<string>2021</string>
+		<key>fuelpump.circle.fill</key>
+		<string>2021</string>
+		<key>fuelpump.fill</key>
+		<string>2021</string>
 		<key>function</key>
 		<string>2019</string>
 		<key>fx</key>
@@ -2742,12 +3442,26 @@
 		<string>2019</string>
 		<key>gear</key>
 		<string>2019</string>
+		<key>gear.badge.checkmark</key>
+		<string>2021</string>
+		<key>gear.badge.questionmark</key>
+		<string>2021</string>
+		<key>gear.badge.xmark</key>
+		<string>2021</string>
+		<key>gear.circle</key>
+		<string>2021</string>
+		<key>gear.circle.fill</key>
+		<string>2021</string>
 		<key>gearshape</key>
 		<string>2020</string>
 		<key>gearshape.2</key>
 		<string>2020</string>
 		<key>gearshape.2.fill</key>
 		<string>2020</string>
+		<key>gearshape.circle</key>
+		<string>2021</string>
+		<key>gearshape.circle.fill</key>
+		<string>2021</string>
 		<key>gearshape.fill</key>
 		<string>2020</string>
 		<key>gift</key>
@@ -2764,6 +3478,20 @@
 		<string>2020</string>
 		<key>globe</key>
 		<string>2019</string>
+		<key>globe.americas</key>
+		<string>2021</string>
+		<key>globe.americas.fill</key>
+		<string>2021</string>
+		<key>globe.asia.australia</key>
+		<string>2021</string>
+		<key>globe.asia.australia.fill</key>
+		<string>2021</string>
+		<key>globe.badge.chevron.backward</key>
+		<string>2021</string>
+		<key>globe.europe.africa</key>
+		<string>2021</string>
+		<key>globe.europe.africa.fill</key>
+		<string>2021</string>
 		<key>gobackward</key>
 		<string>2019</string>
 		<key>gobackward.10</key>
@@ -2790,6 +3518,12 @@
 		<string>2019</string>
 		<key>gobackward.45.hi</key>
 		<string>2019</string>
+		<key>gobackward.5</key>
+		<string>2021</string>
+		<key>gobackward.5.ar</key>
+		<string>2021</string>
+		<key>gobackward.5.hi</key>
+		<string>2021</string>
 		<key>gobackward.60</key>
 		<string>2019</string>
 		<key>gobackward.60.ar</key>
@@ -2836,6 +3570,12 @@
 		<string>2019</string>
 		<key>goforward.45.hi</key>
 		<string>2019</string>
+		<key>goforward.5</key>
+		<string>2021</string>
+		<key>goforward.5.ar</key>
+		<string>2021</string>
+		<key>goforward.5.hi</key>
+		<string>2021</string>
 		<key>goforward.60</key>
 		<string>2019</string>
 		<key>goforward.60.ar</key>
@@ -2858,6 +3598,10 @@
 		<string>2019</string>
 		<key>graduationcap</key>
 		<string>2020</string>
+		<key>graduationcap.circle</key>
+		<string>2021</string>
+		<key>graduationcap.circle.fill</key>
+		<string>2021</string>
 		<key>graduationcap.fill</key>
 		<string>2020</string>
 		<key>greaterthan</key>
@@ -2906,8 +3650,14 @@
 		<string>2020</string>
 		<key>h.square.on.square</key>
 		<string>2020</string>
+		<key>h.square.on.square.fill</key>
+		<string>2021</string>
 		<key>hammer</key>
 		<string>2019</string>
+		<key>hammer.circle</key>
+		<string>2021</string>
+		<key>hammer.circle.fill</key>
+		<string>2021</string>
 		<key>hammer.fill</key>
 		<string>2019</string>
 		<key>hand.draw</key>
@@ -2940,22 +3690,42 @@
 		<string>2020</string>
 		<key>hand.raised</key>
 		<string>2019</string>
+		<key>hand.raised.circle</key>
+		<string>2021</string>
+		<key>hand.raised.circle.fill</key>
+		<string>2021</string>
 		<key>hand.raised.fill</key>
 		<string>2019</string>
 		<key>hand.raised.slash</key>
 		<string>2019</string>
 		<key>hand.raised.slash.fill</key>
 		<string>2019</string>
+		<key>hand.raised.square</key>
+		<string>2021</string>
+		<key>hand.raised.square.fill</key>
+		<string>2021</string>
+		<key>hand.raised.square.on.square</key>
+		<string>2021</string>
+		<key>hand.raised.square.on.square.fill</key>
+		<string>2021</string>
 		<key>hand.tap</key>
 		<string>2020</string>
 		<key>hand.tap.fill</key>
 		<string>2020</string>
 		<key>hand.thumbsdown</key>
 		<string>2019</string>
+		<key>hand.thumbsdown.circle</key>
+		<string>2021</string>
+		<key>hand.thumbsdown.circle.fill</key>
+		<string>2021</string>
 		<key>hand.thumbsdown.fill</key>
 		<string>2019</string>
 		<key>hand.thumbsup</key>
 		<string>2019</string>
+		<key>hand.thumbsup.circle</key>
+		<string>2021</string>
+		<key>hand.thumbsup.circle.fill</key>
+		<string>2021</string>
 		<key>hand.thumbsup.fill</key>
 		<string>2019</string>
 		<key>hand.wave</key>
@@ -2982,6 +3752,8 @@
 		<string>2020</string>
 		<key>hearingaid.ear</key>
 		<string>2020</string>
+		<key>hearingdevice.ear</key>
+		<string>2021</string>
 		<key>heart</key>
 		<string>2019</string>
 		<key>heart.circle</key>
@@ -2990,6 +3762,10 @@
 		<string>2019</string>
 		<key>heart.fill</key>
 		<string>2019</string>
+		<key>heart.rectangle</key>
+		<string>2021</string>
+		<key>heart.rectangle.fill</key>
+		<string>2021</string>
 		<key>heart.slash</key>
 		<string>2019</string>
 		<key>heart.slash.circle</key>
@@ -2998,6 +3774,10 @@
 		<string>2019</string>
 		<key>heart.slash.fill</key>
 		<string>2019</string>
+		<key>heart.square</key>
+		<string>2021</string>
+		<key>heart.square.fill</key>
+		<string>2021</string>
 		<key>heart.text.square</key>
 		<string>2020</string>
 		<key>heart.text.square.fill</key>
@@ -3006,18 +3786,34 @@
 		<string>2019</string>
 		<key>hexagon</key>
 		<string>2019</string>
+		<key>hexagon.bottomhalf.filled</key>
+		<string>2021</string>
 		<key>hexagon.fill</key>
 		<string>2019</string>
+		<key>hexagon.lefthalf.filled</key>
+		<string>2021</string>
+		<key>hexagon.righthalf.filled</key>
+		<string>2021</string>
+		<key>hexagon.tophalf.filled</key>
+		<string>2021</string>
 		<key>hifispeaker</key>
 		<string>2019</string>
 		<key>hifispeaker.2</key>
 		<string>2020</string>
 		<key>hifispeaker.2.fill</key>
 		<string>2020</string>
+		<key>hifispeaker.and.appletv</key>
+		<string>2021</string>
+		<key>hifispeaker.and.appletv.fill</key>
+		<string>2021</string>
 		<key>hifispeaker.and.homepod</key>
 		<string>2020</string>
 		<key>hifispeaker.and.homepod.fill</key>
 		<string>2020</string>
+		<key>hifispeaker.and.homepodmini</key>
+		<string>2020.2</string>
+		<key>hifispeaker.and.homepodmini.fill</key>
+		<string>2020.2</string>
 		<key>hifispeaker.fill</key>
 		<string>2019</string>
 		<key>highlighter</key>
@@ -3030,16 +3826,44 @@
 		<string>2020</string>
 		<key>homepod.2.fill</key>
 		<string>2020</string>
+		<key>homepod.and.appletv</key>
+		<string>2021</string>
+		<key>homepod.and.appletv.fill</key>
+		<string>2021</string>
+		<key>homepod.and.homepodmini</key>
+		<string>2020.2</string>
+		<key>homepod.and.homepodmini.fill</key>
+		<string>2020.2</string>
 		<key>homepod.fill</key>
 		<string>2020</string>
+		<key>homepodmini</key>
+		<string>2020.2</string>
+		<key>homepodmini.2</key>
+		<string>2020.2</string>
+		<key>homepodmini.2.fill</key>
+		<string>2020.2</string>
+		<key>homepodmini.and.appletv</key>
+		<string>2021</string>
+		<key>homepodmini.and.appletv.fill</key>
+		<string>2021</string>
+		<key>homepodmini.fill</key>
+		<string>2020.2</string>
 		<key>hourglass</key>
 		<string>2019</string>
 		<key>hourglass.badge.plus</key>
 		<string>2020</string>
 		<key>hourglass.bottomhalf.fill</key>
 		<string>2019</string>
+		<key>hourglass.bottomhalf.filled</key>
+		<string>2021</string>
+		<key>hourglass.circle</key>
+		<string>2021</string>
+		<key>hourglass.circle.fill</key>
+		<string>2021</string>
 		<key>hourglass.tophalf.fill</key>
 		<string>2019</string>
+		<key>hourglass.tophalf.filled</key>
+		<string>2021</string>
 		<key>house</key>
 		<string>2019</string>
 		<key>house.circle</key>
@@ -3056,6 +3880,10 @@
 		<string>2019</string>
 		<key>hryvniasign.square.fill</key>
 		<string>2019</string>
+		<key>humidity</key>
+		<string>2021</string>
+		<key>humidity.fill</key>
+		<string>2021</string>
 		<key>hurricane</key>
 		<string>2019</string>
 		<key>i.circle</key>
@@ -3086,6 +3914,10 @@
 		<string>2019</string>
 		<key>icloud.slash.fill</key>
 		<string>2019</string>
+		<key>icloud.square</key>
+		<string>2021</string>
+		<key>icloud.square.fill</key>
+		<string>2021</string>
 		<key>increase.indent</key>
 		<string>2019</string>
 		<key>increase.quotelevel</key>
@@ -3116,6 +3948,10 @@
 		<string>2020</string>
 		<key>ipad</key>
 		<string>2020</string>
+		<key>ipad.and.arrow.forward</key>
+		<string>2021</string>
+		<key>ipad.and.iphone</key>
+		<string>2021</string>
 		<key>ipad.badge.play</key>
 		<string>2020.1</string>
 		<key>ipad.homebutton</key>
@@ -3130,26 +3966,60 @@
 		<string>2020</string>
 		<key>ipad.landscape.badge.play</key>
 		<string>2020.1</string>
+		<key>ipad.rear.camera</key>
+		<string>2021</string>
 		<key>iphone</key>
 		<string>2020</string>
+		<key>iphone.and.arrow.forward</key>
+		<string>2021</string>
 		<key>iphone.badge.play</key>
 		<string>2020.1</string>
+		<key>iphone.circle</key>
+		<string>2021</string>
+		<key>iphone.circle.fill</key>
+		<string>2021</string>
 		<key>iphone.homebutton</key>
 		<string>2020</string>
 		<key>iphone.homebutton.badge.play</key>
 		<string>2020.1</string>
+		<key>iphone.homebutton.circle</key>
+		<string>2021</string>
+		<key>iphone.homebutton.circle.fill</key>
+		<string>2021</string>
 		<key>iphone.homebutton.landscape</key>
 		<string>2020.1</string>
 		<key>iphone.homebutton.radiowaves.left.and.right</key>
 		<string>2020</string>
+		<key>iphone.homebutton.radiowaves.left.and.right.circle</key>
+		<string>2021</string>
+		<key>iphone.homebutton.radiowaves.left.and.right.circle.fill</key>
+		<string>2021</string>
 		<key>iphone.homebutton.slash</key>
 		<string>2020</string>
+		<key>iphone.homebutton.slash.circle</key>
+		<string>2021</string>
+		<key>iphone.homebutton.slash.circle.fill</key>
+		<string>2021</string>
 		<key>iphone.landscape</key>
 		<string>2020.1</string>
 		<key>iphone.radiowaves.left.and.right</key>
 		<string>2020</string>
+		<key>iphone.radiowaves.left.and.right.circle</key>
+		<string>2021</string>
+		<key>iphone.radiowaves.left.and.right.circle.fill</key>
+		<string>2021</string>
+		<key>iphone.rear.camera</key>
+		<string>2021</string>
 		<key>iphone.slash</key>
 		<string>2020</string>
+		<key>iphone.slash.circle</key>
+		<string>2021</string>
+		<key>iphone.slash.circle.fill</key>
+		<string>2021</string>
+		<key>iphone.smartbatterycase.gen1</key>
+		<string>2021</string>
+		<key>iphone.smartbatterycase.gen2</key>
+		<string>2021</string>
 		<key>ipod</key>
 		<string>2020</string>
 		<key>ipodshuffle.gen1</key>
@@ -3164,8 +4034,14 @@
 		<string>2020</string>
 		<key>ipodtouch.landscape</key>
 		<string>2020.1</string>
+		<key>ipodtouch.slash</key>
+		<string>2021</string>
 		<key>italic</key>
 		<string>2019</string>
+		<key>ivfluid.bag</key>
+		<string>2021</string>
+		<key>ivfluid.bag.fill</key>
+		<string>2021</string>
 		<key>j.circle</key>
 		<string>2019</string>
 		<key>j.circle.fill</key>
@@ -3178,6 +4054,8 @@
 		<string>2020</string>
 		<key>j.square.on.square</key>
 		<string>2020</string>
+		<key>j.square.on.square.fill</key>
+		<string>2021</string>
 		<key>k</key>
 		<string>2020</string>
 		<key>k.circle</key>
@@ -3204,6 +4082,8 @@
 		<string>2019</string>
 		<key>keyboard.chevron.compact.left</key>
 		<string>2020</string>
+		<key>keyboard.fill</key>
+		<string>2021</string>
 		<key>keyboard.macwindow</key>
 		<string>2020</string>
 		<key>keyboard.onehanded.left</key>
@@ -3230,6 +4110,26 @@
 		<string>2020</string>
 		<key>l.joystick.fill</key>
 		<string>2020</string>
+		<key>l.joystick.press.down</key>
+		<string>2021</string>
+		<key>l.joystick.press.down.fill</key>
+		<string>2021</string>
+		<key>l.joystick.tilt.down</key>
+		<string>2021</string>
+		<key>l.joystick.tilt.down.fill</key>
+		<string>2021</string>
+		<key>l.joystick.tilt.left</key>
+		<string>2021</string>
+		<key>l.joystick.tilt.left.fill</key>
+		<string>2021</string>
+		<key>l.joystick.tilt.right</key>
+		<string>2021</string>
+		<key>l.joystick.tilt.right.fill</key>
+		<string>2021</string>
+		<key>l.joystick.tilt.up</key>
+		<string>2021</string>
+		<key>l.joystick.tilt.up.fill</key>
+		<string>2021</string>
 		<key>l.rectangle.roundedbottom</key>
 		<string>2020</string>
 		<key>l.rectangle.roundedbottom.fill</key>
@@ -3250,10 +4150,18 @@
 		<string>2020</string>
 		<key>ladybug.fill</key>
 		<string>2020</string>
+		<key>lanyardcard</key>
+		<string>2021</string>
+		<key>lanyardcard.fill</key>
+		<string>2021</string>
 		<key>laptopcomputer</key>
 		<string>2020</string>
+		<key>laptopcomputer.and.arrow.down</key>
+		<string>2021</string>
 		<key>laptopcomputer.and.iphone</key>
 		<string>2020</string>
+		<key>laptopcomputer.trianglebadge.exclamationmark</key>
+		<string>2021</string>
 		<key>largecircle.fill.circle</key>
 		<string>2019</string>
 		<key>larisign.circle</key>
@@ -3266,6 +4174,8 @@
 		<string>2019</string>
 		<key>lasso</key>
 		<string>2019</string>
+		<key>lasso.and.sparkles</key>
+		<string>2021</string>
 		<key>lasso.sparkles</key>
 		<string>2020</string>
 		<key>latch.2.case</key>
@@ -3282,6 +4192,10 @@
 		<string>2019</string>
 		<key>leaf.arrow.triangle.circlepath</key>
 		<string>2020</string>
+		<key>leaf.circle</key>
+		<string>2021</string>
+		<key>leaf.circle.fill</key>
+		<string>2021</string>
 		<key>leaf.fill</key>
 		<string>2020</string>
 		<key>lessthan</key>
@@ -3308,16 +4222,36 @@
 		<string>2019</string>
 		<key>lightbulb</key>
 		<string>2019</string>
+		<key>lightbulb.circle</key>
+		<string>2021</string>
+		<key>lightbulb.circle.fill</key>
+		<string>2021</string>
 		<key>lightbulb.fill</key>
 		<string>2019</string>
 		<key>lightbulb.slash</key>
 		<string>2019</string>
 		<key>lightbulb.slash.fill</key>
 		<string>2019</string>
+		<key>line.2.horizontal.decrease.circle</key>
+		<string>2021</string>
+		<key>line.2.horizontal.decrease.circle.fill</key>
+		<string>2021</string>
 		<key>line.3.crossed.swirl.circle</key>
 		<string>2020</string>
 		<key>line.3.crossed.swirl.circle.fill</key>
 		<string>2020</string>
+		<key>line.3.horizontal</key>
+		<string>2021</string>
+		<key>line.3.horizontal.circle</key>
+		<string>2021</string>
+		<key>line.3.horizontal.circle.fill</key>
+		<string>2021</string>
+		<key>line.3.horizontal.decrease</key>
+		<string>2021</string>
+		<key>line.3.horizontal.decrease.circle</key>
+		<string>2021</string>
+		<key>line.3.horizontal.decrease.circle.fill</key>
+		<string>2021</string>
 		<key>line.diagonal</key>
 		<string>2020</string>
 		<key>line.diagonal.arrow</key>
@@ -3340,6 +4274,8 @@
 		<string>2019</string>
 		<key>line.horizontal.star.fill.line.horizontal</key>
 		<string>2020</string>
+		<key>lines.measurement.horizontal</key>
+		<string>2021</string>
 		<key>lineweight</key>
 		<string>2020</string>
 		<key>link</key>
@@ -3368,16 +4304,30 @@
 		<string>2019</string>
 		<key>list.bullet.below.rectangle</key>
 		<string>2019</string>
+		<key>list.bullet.circle</key>
+		<string>2021</string>
+		<key>list.bullet.circle.fill</key>
+		<string>2021</string>
 		<key>list.bullet.indent</key>
 		<string>2019</string>
 		<key>list.bullet.rectangle</key>
 		<string>2020</string>
+		<key>list.bullet.rectangle.fill</key>
+		<string>2021</string>
+		<key>list.bullet.rectangle.portrait</key>
+		<string>2021</string>
+		<key>list.bullet.rectangle.portrait.fill</key>
+		<string>2021</string>
 		<key>list.dash</key>
 		<string>2019</string>
+		<key>list.dash.header.rectangle</key>
+		<string>2021</string>
 		<key>list.number</key>
 		<string>2019</string>
 		<key>list.number.ar</key>
 		<string>2020</string>
+		<key>list.number.hi</key>
+		<string>2021</string>
 		<key>list.number.rtl</key>
 		<string>2019</string>
 		<key>list.star</key>
@@ -3402,8 +4352,14 @@
 		<string>2019</string>
 		<key>location.fill.viewfinder</key>
 		<string>2020</string>
+		<key>location.magnifyingglass</key>
+		<string>2021</string>
 		<key>location.north</key>
 		<string>2019</string>
+		<key>location.north.circle</key>
+		<string>2021</string>
+		<key>location.north.circle.fill</key>
+		<string>2021</string>
 		<key>location.north.fill</key>
 		<string>2019</string>
 		<key>location.north.line</key>
@@ -3414,6 +4370,10 @@
 		<string>2019</string>
 		<key>location.slash.fill</key>
 		<string>2019</string>
+		<key>location.square</key>
+		<string>2021</string>
+		<key>location.square.fill</key>
+		<string>2021</string>
 		<key>location.viewfinder</key>
 		<string>2020</string>
 		<key>lock</key>
@@ -3424,6 +4384,10 @@
 		<string>2019</string>
 		<key>lock.circle.fill</key>
 		<string>2019</string>
+		<key>lock.desktopcomputer</key>
+		<string>2021</string>
+		<key>lock.display</key>
+		<string>2021</string>
 		<key>lock.doc</key>
 		<string>2020</string>
 		<key>lock.doc.fill</key>
@@ -3434,10 +4398,28 @@
 		<string>2019</string>
 		<key>lock.icloud.fill</key>
 		<string>2019</string>
+		<key>lock.ipad</key>
+		<string>2021</string>
+		<key>lock.iphone</key>
+		<string>2021</string>
+		<key>lock.laptopcomputer</key>
+		<string>2021</string>
 		<key>lock.open</key>
 		<string>2019</string>
+		<key>lock.open.applewatch</key>
+		<string>2021</string>
+		<key>lock.open.desktopcomputer</key>
+		<string>2021</string>
+		<key>lock.open.display</key>
+		<string>2021</string>
 		<key>lock.open.fill</key>
 		<string>2019</string>
+		<key>lock.open.ipad</key>
+		<string>2021</string>
+		<key>lock.open.iphone</key>
+		<string>2021</string>
+		<key>lock.open.laptopcomputer</key>
+		<string>2021</string>
 		<key>lock.rectangle</key>
 		<string>2020</string>
 		<key>lock.rectangle.fill</key>
@@ -3470,6 +4452,10 @@
 		<string>2020</string>
 		<key>lock.square.stack.fill</key>
 		<string>2020</string>
+		<key>logo.playstation</key>
+		<string>2021</string>
+		<key>logo.xbox</key>
+		<string>2021</string>
 		<key>loupe</key>
 		<string>2020</string>
 		<key>lt.rectangle.roundedtop</key>
@@ -3494,12 +4480,16 @@
 		<string>2020</string>
 		<key>macpro.gen1</key>
 		<string>2020</string>
+		<key>macpro.gen1.fill</key>
+		<string>2021</string>
 		<key>macpro.gen2</key>
 		<string>2020</string>
 		<key>macpro.gen2.fill</key>
 		<string>2020</string>
 		<key>macpro.gen3</key>
 		<string>2020</string>
+		<key>macpro.gen3.fill</key>
+		<string>2021</string>
 		<key>macpro.gen3.server</key>
 		<string>2020</string>
 		<key>macwindow</key>
@@ -3510,12 +4500,24 @@
 		<string>2020</string>
 		<key>macwindow.on.rectangle.rtl</key>
 		<string>2020</string>
+		<key>magazine</key>
+		<string>2021</string>
+		<key>magazine.fill</key>
+		<string>2021</string>
+		<key>magicmouse</key>
+		<string>2021</string>
+		<key>magicmouse.fill</key>
+		<string>2021</string>
 		<key>magnifyingglass</key>
 		<string>2019</string>
 		<key>magnifyingglass.circle</key>
 		<string>2019</string>
 		<key>magnifyingglass.circle.fill</key>
 		<string>2019</string>
+		<key>magsafe.batterypack</key>
+		<string>2021</string>
+		<key>magsafe.batterypack.fill</key>
+		<string>2021</string>
 		<key>mail</key>
 		<string>2020</string>
 		<key>mail.and.text.magnifyingglass</key>
@@ -3538,6 +4540,10 @@
 		<string>2019</string>
 		<key>map</key>
 		<string>2019</string>
+		<key>map.circle</key>
+		<string>2021</string>
+		<key>map.circle.fill</key>
+		<string>2021</string>
 		<key>map.fill</key>
 		<string>2019</string>
 		<key>mappin</key>
@@ -3550,6 +4556,16 @@
 		<string>2019</string>
 		<key>mappin.slash</key>
 		<string>2019</string>
+		<key>mappin.slash.circle</key>
+		<string>2021</string>
+		<key>mappin.slash.circle.fill</key>
+		<string>2021</string>
+		<key>mappin.square</key>
+		<string>2021</string>
+		<key>mappin.square.fill</key>
+		<string>2021</string>
+		<key>mediastick</key>
+		<string>2021</string>
 		<key>megaphone</key>
 		<string>2020</string>
 		<key>megaphone.fill</key>
@@ -3562,6 +4578,8 @@
 		<string>2019</string>
 		<key>memorychip</key>
 		<string>2020</string>
+		<key>memorychip.fill</key>
+		<string>2021</string>
 		<key>menubar.arrow.down.rectangle</key>
 		<string>2020</string>
 		<key>menubar.arrow.up.rectangle</key>
@@ -3572,8 +4590,16 @@
 		<string>2020</string>
 		<key>menubar.rectangle</key>
 		<string>2020</string>
+		<key>menucard</key>
+		<string>2021</string>
+		<key>menucard.fill</key>
+		<string>2021</string>
 		<key>message</key>
 		<string>2019</string>
+		<key>message.and.waveform</key>
+		<string>2021</string>
+		<key>message.and.waveform.fill</key>
+		<string>2021</string>
 		<key>message.circle</key>
 		<string>2019</string>
 		<key>message.circle.fill</key>
@@ -3586,16 +4612,28 @@
 		<string>2020</string>
 		<key>mic</key>
 		<string>2019</string>
+		<key>mic.badge.plus</key>
+		<string>2021</string>
 		<key>mic.circle</key>
 		<string>2019</string>
 		<key>mic.circle.fill</key>
 		<string>2019</string>
 		<key>mic.fill</key>
 		<string>2019</string>
+		<key>mic.fill.badge.plus</key>
+		<string>2021</string>
 		<key>mic.slash</key>
 		<string>2019</string>
+		<key>mic.slash.circle</key>
+		<string>2021</string>
+		<key>mic.slash.circle.fill</key>
+		<string>2021</string>
 		<key>mic.slash.fill</key>
 		<string>2019</string>
+		<key>mic.square</key>
+		<string>2021</string>
+		<key>mic.square.fill</key>
+		<string>2021</string>
 		<key>millsign.circle</key>
 		<string>2019</string>
 		<key>millsign.circle.fill</key>
@@ -3614,6 +4652,8 @@
 		<string>2020</string>
 		<key>minus.diamond.fill</key>
 		<string>2020</string>
+		<key>minus.forwardslash.plus</key>
+		<string>2021</string>
 		<key>minus.magnifyingglass</key>
 		<string>2019</string>
 		<key>minus.plus.batteryblock</key>
@@ -3680,6 +4720,10 @@
 		<string>2019</string>
 		<key>music.mic</key>
 		<string>2019</string>
+		<key>music.mic.circle</key>
+		<string>2021</string>
+		<key>music.mic.circle.fill</key>
+		<string>2021</string>
 		<key>music.note</key>
 		<string>2019</string>
 		<key>music.note.house</key>
@@ -3688,6 +4732,10 @@
 		<string>2020</string>
 		<key>music.note.list</key>
 		<string>2019</string>
+		<key>music.note.tv</key>
+		<string>2021</string>
+		<key>music.note.tv.fill</key>
+		<string>2021</string>
 		<key>music.quarternote.3</key>
 		<string>2020</string>
 		<key>mustache</key>
@@ -3712,8 +4760,14 @@
 		<string>2019</string>
 		<key>network</key>
 		<string>2020</string>
+		<key>network.badge.shield.half.filled</key>
+		<string>2021</string>
 		<key>newspaper</key>
 		<string>2020</string>
+		<key>newspaper.circle</key>
+		<string>2021</string>
+		<key>newspaper.circle.fill</key>
+		<string>2021</string>
 		<key>newspaper.fill</key>
 		<string>2020</string>
 		<key>nose</key>
@@ -3748,8 +4802,16 @@
 		<string>2019</string>
 		<key>octagon</key>
 		<string>2020</string>
+		<key>octagon.bottomhalf.filled</key>
+		<string>2021</string>
 		<key>octagon.fill</key>
 		<string>2020</string>
+		<key>octagon.lefthalf.filled</key>
+		<string>2021</string>
+		<key>octagon.righthalf.filled</key>
+		<string>2021</string>
+		<key>octagon.tophalf.filled</key>
+		<string>2021</string>
 		<key>opticaldisc</key>
 		<string>2020</string>
 		<key>opticaldiscdrive</key>
@@ -3760,12 +4822,32 @@
 		<string>2019</string>
 		<key>oval</key>
 		<string>2020</string>
+		<key>oval.bottomhalf.filled</key>
+		<string>2021</string>
 		<key>oval.fill</key>
 		<string>2020</string>
+		<key>oval.inset.filled</key>
+		<string>2021</string>
+		<key>oval.lefthalf.filled</key>
+		<string>2021</string>
 		<key>oval.portrait</key>
 		<string>2020</string>
+		<key>oval.portrait.bottomhalf.filled</key>
+		<string>2021</string>
 		<key>oval.portrait.fill</key>
 		<string>2020</string>
+		<key>oval.portrait.inset.filled</key>
+		<string>2021</string>
+		<key>oval.portrait.lefthalf.filled</key>
+		<string>2021</string>
+		<key>oval.portrait.righthalf.filled</key>
+		<string>2021</string>
+		<key>oval.portrait.tophalf.filled</key>
+		<string>2021</string>
+		<key>oval.righthalf.filled</key>
+		<string>2021</string>
+		<key>oval.tophalf.filled</key>
+		<string>2021</string>
 		<key>p.circle</key>
 		<string>2019</string>
 		<key>p.circle.fill</key>
@@ -3810,6 +4892,14 @@
 		<string>2019</string>
 		<key>paragraphsign</key>
 		<string>2020</string>
+		<key>parentheses</key>
+		<string>2021</string>
+		<key>parkingsign</key>
+		<string>2021</string>
+		<key>parkingsign.circle</key>
+		<string>2021</string>
+		<key>parkingsign.circle.fill</key>
+		<string>2021</string>
 		<key>pause</key>
 		<string>2019</string>
 		<key>pause.circle</key>
@@ -3822,8 +4912,18 @@
 		<string>2019</string>
 		<key>pause.rectangle.fill</key>
 		<string>2019</string>
+		<key>pawprint</key>
+		<string>2021</string>
+		<key>pawprint.circle</key>
+		<string>2021</string>
+		<key>pawprint.circle.fill</key>
+		<string>2021</string>
+		<key>pawprint.fill</key>
+		<string>2021</string>
 		<key>pc</key>
 		<string>2020</string>
+		<key>peacesign</key>
+		<string>2021</string>
 		<key>pencil</key>
 		<string>2019</string>
 		<key>pencil.and.ellipsis.rectangle</key>
@@ -3846,6 +4946,18 @@
 		<string>2019</string>
 		<key>pencil.tip.crop.circle.badge.plus</key>
 		<string>2019</string>
+		<key>pentagon</key>
+		<string>2021</string>
+		<key>pentagon.bottomhalf.filled</key>
+		<string>2021</string>
+		<key>pentagon.fill</key>
+		<string>2021</string>
+		<key>pentagon.lefthalf.filled</key>
+		<string>2021</string>
+		<key>pentagon.righthalf.filled</key>
+		<string>2021</string>
+		<key>pentagon.tophalf.filled</key>
+		<string>2021</string>
 		<key>percent</key>
 		<string>2019</string>
 		<key>percent.ar</key>
@@ -3858,18 +4970,34 @@
 		<string>2020</string>
 		<key>person.2.circle.fill</key>
 		<string>2020</string>
+		<key>person.2.crop.square.stack</key>
+		<string>2021</string>
+		<key>person.2.crop.square.stack.fill</key>
+		<string>2021</string>
 		<key>person.2.fill</key>
 		<string>2019</string>
 		<key>person.2.square.stack</key>
 		<string>2019</string>
 		<key>person.2.square.stack.fill</key>
 		<string>2019</string>
+		<key>person.2.wave.2</key>
+		<string>2021</string>
+		<key>person.2.wave.2.fill</key>
+		<string>2021</string>
 		<key>person.3</key>
 		<string>2019</string>
 		<key>person.3.fill</key>
 		<string>2019</string>
+		<key>person.3.sequence</key>
+		<string>2021</string>
+		<key>person.3.sequence.fill</key>
+		<string>2021</string>
 		<key>person.and.arrow.left.and.arrow.right</key>
 		<string>2020</string>
+		<key>person.badge.clock</key>
+		<string>2021</string>
+		<key>person.badge.clock.fill</key>
+		<string>2021</string>
 		<key>person.badge.minus</key>
 		<string>2019</string>
 		<key>person.badge.minus.fill</key>
@@ -3882,22 +5010,42 @@
 		<string>2019</string>
 		<key>person.circle.fill</key>
 		<string>2019</string>
+		<key>person.crop.artframe</key>
+		<string>2021</string>
 		<key>person.crop.circle</key>
 		<string>2019</string>
+		<key>person.crop.circle.badge</key>
+		<string>2021</string>
 		<key>person.crop.circle.badge.checkmark</key>
 		<string>2019</string>
+		<key>person.crop.circle.badge.clock</key>
+		<string>2021</string>
+		<key>person.crop.circle.badge.clock.fill</key>
+		<string>2021</string>
 		<key>person.crop.circle.badge.exclam</key>
 		<string>2019</string>
 		<key>person.crop.circle.badge.exclamationmark</key>
 		<string>2020</string>
+		<key>person.crop.circle.badge.exclamationmark.fill</key>
+		<string>2021</string>
+		<key>person.crop.circle.badge.fill</key>
+		<string>2021</string>
 		<key>person.crop.circle.badge.minus</key>
 		<string>2019</string>
+		<key>person.crop.circle.badge.moon</key>
+		<string>2021</string>
+		<key>person.crop.circle.badge.moon.fill</key>
+		<string>2021</string>
 		<key>person.crop.circle.badge.plus</key>
 		<string>2019</string>
 		<key>person.crop.circle.badge.questionmark</key>
 		<string>2020</string>
 		<key>person.crop.circle.badge.questionmark.ar</key>
 		<string>2020</string>
+		<key>person.crop.circle.badge.questionmark.fill</key>
+		<string>2021</string>
+		<key>person.crop.circle.badge.questionmark.fill.ar</key>
+		<string>2021</string>
 		<key>person.crop.circle.badge.xmark</key>
 		<string>2019</string>
 		<key>person.crop.circle.fill</key>
@@ -3922,12 +5070,20 @@
 		<string>2019</string>
 		<key>person.crop.rectangle.fill</key>
 		<string>2019</string>
+		<key>person.crop.rectangle.stack</key>
+		<string>2021</string>
+		<key>person.crop.rectangle.stack.fill</key>
+		<string>2021</string>
 		<key>person.crop.square</key>
 		<string>2019</string>
 		<key>person.crop.square.fill</key>
 		<string>2019</string>
 		<key>person.crop.square.fill.and.at.rectangle</key>
 		<string>2020</string>
+		<key>person.crop.square.filled.and.at.rectangle</key>
+		<string>2021</string>
+		<key>person.crop.square.filled.and.at.rectangle.fill</key>
+		<string>2021</string>
 		<key>person.fill</key>
 		<string>2019</string>
 		<key>person.fill.and.arrow.left.and.arrow.right</key>
@@ -3962,8 +5118,20 @@
 		<string>2019</string>
 		<key>person.icloud.fill</key>
 		<string>2019</string>
+		<key>person.text.rectangle</key>
+		<string>2021</string>
+		<key>person.text.rectangle.fill</key>
+		<string>2021</string>
+		<key>person.wave.2</key>
+		<string>2021</string>
+		<key>person.wave.2.fill</key>
+		<string>2021</string>
 		<key>personalhotspot</key>
 		<string>2019</string>
+		<key>personalhotspot.circle</key>
+		<string>2021</string>
+		<key>personalhotspot.circle.fill</key>
+		<string>2021</string>
 		<key>perspective</key>
 		<string>2019</string>
 		<key>pesetasign.circle</key>
@@ -3984,6 +5152,10 @@
 		<string>2019</string>
 		<key>phone</key>
 		<string>2019</string>
+		<key>phone.and.waveform</key>
+		<string>2021</string>
+		<key>phone.and.waveform.fill</key>
+		<string>2021</string>
 		<key>phone.arrow.down.left</key>
 		<string>2019</string>
 		<key>phone.arrow.right</key>
@@ -4024,6 +5196,12 @@
 		<string>2020</string>
 		<key>photo</key>
 		<string>2019</string>
+		<key>photo.artframe</key>
+		<string>2021</string>
+		<key>photo.circle</key>
+		<string>2021</string>
+		<key>photo.circle.fill</key>
+		<string>2021</string>
 		<key>photo.fill</key>
 		<string>2019</string>
 		<key>photo.fill.on.rectangle.fill</key>
@@ -4040,6 +5218,10 @@
 		<string>2020</string>
 		<key>pills</key>
 		<string>2020</string>
+		<key>pills.circle</key>
+		<string>2021</string>
+		<key>pills.circle.fill</key>
+		<string>2021</string>
 		<key>pills.fill</key>
 		<string>2020</string>
 		<key>pin</key>
@@ -4054,6 +5236,10 @@
 		<string>2019</string>
 		<key>pin.slash.fill</key>
 		<string>2019</string>
+		<key>pin.square</key>
+		<string>2021</string>
+		<key>pin.square.fill</key>
+		<string>2021</string>
 		<key>pip</key>
 		<string>2020</string>
 		<key>pip.enter</key>
@@ -4068,6 +5254,30 @@
 		<string>2020</string>
 		<key>placeholdertext.fill</key>
 		<string>2020</string>
+		<key>platter.2.filled.ipad</key>
+		<string>2021</string>
+		<key>platter.2.filled.ipad.landscape</key>
+		<string>2021</string>
+		<key>platter.2.filled.iphone</key>
+		<string>2021</string>
+		<key>platter.2.filled.iphone.landscape</key>
+		<string>2021</string>
+		<key>platter.bottom.applewatch.case</key>
+		<string>2021</string>
+		<key>platter.filled.bottom.and.arrow.down.iphone</key>
+		<string>2021.1</string>
+		<key>platter.filled.bottom.applewatch.case</key>
+		<string>2021</string>
+		<key>platter.filled.bottom.iphone</key>
+		<string>2021.1</string>
+		<key>platter.filled.top.and.arrow.up.iphone</key>
+		<string>2021.1</string>
+		<key>platter.filled.top.applewatch.case</key>
+		<string>2021</string>
+		<key>platter.filled.top.iphone</key>
+		<string>2021.1</string>
+		<key>platter.top.applewatch.case</key>
+		<string>2021</string>
 		<key>play</key>
 		<string>2019</string>
 		<key>play.circle</key>
@@ -4080,10 +5290,22 @@
 		<string>2019</string>
 		<key>play.rectangle.fill</key>
 		<string>2019</string>
+		<key>play.rectangle.on.rectangle</key>
+		<string>2021</string>
+		<key>play.rectangle.on.rectangle.circle</key>
+		<string>2021</string>
+		<key>play.rectangle.on.rectangle.circle.fill</key>
+		<string>2021</string>
+		<key>play.rectangle.on.rectangle.fill</key>
+		<string>2021</string>
 		<key>play.slash</key>
 		<string>2020</string>
 		<key>play.slash.fill</key>
 		<string>2020</string>
+		<key>play.square</key>
+		<string>2021</string>
+		<key>play.square.fill</key>
+		<string>2021</string>
 		<key>play.tv</key>
 		<string>2020.1</string>
 		<key>play.tv.fill</key>
@@ -4110,6 +5332,8 @@
 		<string>2020</string>
 		<key>plus.diamond.fill</key>
 		<string>2020</string>
+		<key>plus.forwardslash.minus</key>
+		<string>2021</string>
 		<key>plus.magnifyingglass</key>
 		<string>2019</string>
 		<key>plus.message</key>
@@ -4126,6 +5350,8 @@
 		<string>2019</string>
 		<key>plus.rectangle.on.folder</key>
 		<string>2020</string>
+		<key>plus.rectangle.on.folder.fill</key>
+		<string>2021</string>
 		<key>plus.rectangle.on.rectangle</key>
 		<string>2019</string>
 		<key>plus.rectangle.portrait</key>
@@ -4136,6 +5362,8 @@
 		<string>2019</string>
 		<key>plus.square</key>
 		<string>2019</string>
+		<key>plus.square.dashed</key>
+		<string>2021</string>
 		<key>plus.square.fill</key>
 		<string>2019</string>
 		<key>plus.square.fill.on.square.fill</key>
@@ -4150,16 +5378,36 @@
 		<string>2019</string>
 		<key>plusminus.circle.fill</key>
 		<string>2019</string>
+		<key>point.3.connected.trianglepath.dotted</key>
+		<string>2021</string>
+		<key>point.3.filled.connected.trianglepath.dotted</key>
+		<string>2021</string>
 		<key>point.fill.topleft.down.curvedto.point.fill.bottomright.up</key>
 		<string>2020</string>
+		<key>point.filled.topleft.down.curvedto.point.bottomright.up</key>
+		<string>2021</string>
 		<key>point.topleft.down.curvedto.point.bottomright.up</key>
 		<string>2020</string>
+		<key>point.topleft.down.curvedto.point.bottomright.up.fill</key>
+		<string>2021</string>
+		<key>point.topleft.down.curvedto.point.filled.bottomright.up</key>
+		<string>2021</string>
 		<key>power</key>
 		<string>2019</string>
+		<key>power.circle</key>
+		<string>2021</string>
+		<key>power.circle.fill</key>
+		<string>2021</string>
+		<key>power.dotted</key>
+		<string>2021</string>
 		<key>poweroff</key>
 		<string>2020</string>
 		<key>poweron</key>
 		<string>2020</string>
+		<key>powerplug</key>
+		<string>2021</string>
+		<key>powerplug.fill</key>
+		<string>2021</string>
 		<key>powersleep</key>
 		<string>2020</string>
 		<key>printer</key>
@@ -4170,10 +5418,14 @@
 		<string>2020</string>
 		<key>printer.dotmatrix.fill.and.paper.fill</key>
 		<string>2020</string>
+		<key>printer.dotmatrix.filled.and.paper</key>
+		<string>2021</string>
 		<key>printer.fill</key>
 		<string>2019</string>
 		<key>printer.fill.and.paper.fill</key>
 		<string>2020</string>
+		<key>printer.filled.and.paper</key>
+		<string>2021</string>
 		<key>projective</key>
 		<string>2019</string>
 		<key>purchased</key>
@@ -4184,6 +5436,10 @@
 		<string>2019</string>
 		<key>puzzlepiece</key>
 		<string>2020</string>
+		<key>puzzlepiece.extension</key>
+		<string>2021</string>
+		<key>puzzlepiece.extension.fill</key>
+		<string>2021</string>
 		<key>puzzlepiece.fill</key>
 		<string>2020</string>
 		<key>pyramid</key>
@@ -4204,6 +5460,18 @@
 		<string>2019</string>
 		<key>questionmark</key>
 		<string>2019</string>
+		<key>questionmark.app</key>
+		<string>2021</string>
+		<key>questionmark.app.ar</key>
+		<string>2021</string>
+		<key>questionmark.app.dashed</key>
+		<string>2021</string>
+		<key>questionmark.app.dashed.ar</key>
+		<string>2021</string>
+		<key>questionmark.app.fill</key>
+		<string>2021</string>
+		<key>questionmark.app.fill.ar</key>
+		<string>2021</string>
 		<key>questionmark.ar</key>
 		<string>2020</string>
 		<key>questionmark.circle</key>
@@ -4262,6 +5530,10 @@
 		<string>2020</string>
 		<key>quote.bubble.rtl</key>
 		<string>2020</string>
+		<key>quote.closing</key>
+		<string>2021</string>
+		<key>quote.opening</key>
+		<string>2021</string>
 		<key>r.circle</key>
 		<string>2019</string>
 		<key>r.circle.fill</key>
@@ -4274,6 +5546,26 @@
 		<string>2020</string>
 		<key>r.joystick.fill</key>
 		<string>2020</string>
+		<key>r.joystick.press.down</key>
+		<string>2021</string>
+		<key>r.joystick.press.down.fill</key>
+		<string>2021</string>
+		<key>r.joystick.tilt.down</key>
+		<string>2021</string>
+		<key>r.joystick.tilt.down.fill</key>
+		<string>2021</string>
+		<key>r.joystick.tilt.left</key>
+		<string>2021</string>
+		<key>r.joystick.tilt.left.fill</key>
+		<string>2021</string>
+		<key>r.joystick.tilt.right</key>
+		<string>2021</string>
+		<key>r.joystick.tilt.right.fill</key>
+		<string>2021</string>
+		<key>r.joystick.tilt.up</key>
+		<string>2021</string>
+		<key>r.joystick.tilt.up.fill</key>
+		<string>2021</string>
 		<key>r.rectangle.roundedbottom</key>
 		<string>2020</string>
 		<key>r.rectangle.roundedbottom.fill</key>
@@ -4286,6 +5578,8 @@
 		<string>2020</string>
 		<key>r.square.on.square</key>
 		<string>2020</string>
+		<key>r.square.on.square.fill</key>
+		<string>2021</string>
 		<key>r1.rectangle.roundedbottom</key>
 		<string>2020</string>
 		<key>r1.rectangle.roundedbottom.fill</key>
@@ -4316,6 +5610,16 @@
 		<string>2019</string>
 		<key>rectangle</key>
 		<string>2019</string>
+		<key>rectangle.2.swap</key>
+		<string>2021</string>
+		<key>rectangle.3.group</key>
+		<string>2021</string>
+		<key>rectangle.3.group.bubble.left</key>
+		<string>2021</string>
+		<key>rectangle.3.group.bubble.left.fill</key>
+		<string>2021</string>
+		<key>rectangle.3.group.fill</key>
+		<string>2021</string>
 		<key>rectangle.3.offgrid</key>
 		<string>2019</string>
 		<key>rectangle.3.offgrid.bubble.left</key>
@@ -4328,6 +5632,12 @@
 		<string>2019</string>
 		<key>rectangle.and.arrow.up.right.and.arrow.down.left.slash</key>
 		<string>2019</string>
+		<key>rectangle.and.hand.point.up.left</key>
+		<string>2021</string>
+		<key>rectangle.and.hand.point.up.left.fill</key>
+		<string>2021</string>
+		<key>rectangle.and.hand.point.up.left.filled</key>
+		<string>2021</string>
 		<key>rectangle.and.paperclip</key>
 		<string>2019</string>
 		<key>rectangle.and.pencil.and.ellipsis</key>
@@ -4352,10 +5662,20 @@
 		<string>2020</string>
 		<key>rectangle.badge.xmark</key>
 		<string>2019</string>
+		<key>rectangle.bottomhalf.filled</key>
+		<string>2021</string>
+		<key>rectangle.bottomhalf.inset.filled</key>
+		<string>2021</string>
 		<key>rectangle.bottomthird.inset.fill</key>
 		<string>2020</string>
+		<key>rectangle.bottomthird.inset.filled</key>
+		<string>2021</string>
 		<key>rectangle.center.inset.fill</key>
 		<string>2020</string>
+		<key>rectangle.center.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.center.inset.filled.badge.plus</key>
+		<string>2021</string>
 		<key>rectangle.compress.vertical</key>
 		<string>2019</string>
 		<key>rectangle.connected.to.line.below</key>
@@ -4392,6 +5712,8 @@
 		<string>2020</string>
 		<key>rectangle.fill.on.rectangle.fill.slash.fill</key>
 		<string>2020</string>
+		<key>rectangle.filled.and.hand.point.up.left</key>
+		<string>2021</string>
 		<key>rectangle.grid.1x2</key>
 		<string>2019</string>
 		<key>rectangle.grid.1x2.fill</key>
@@ -4404,46 +5726,180 @@
 		<string>2019</string>
 		<key>rectangle.grid.3x2.fill</key>
 		<string>2019</string>
+		<key>rectangle.inset.bottomleading.filled</key>
+		<string>2021</string>
 		<key>rectangle.inset.bottomleft.fill</key>
 		<string>2020</string>
+		<key>rectangle.inset.bottomleft.filled</key>
+		<string>2021</string>
 		<key>rectangle.inset.bottomright.fill</key>
 		<string>2020</string>
+		<key>rectangle.inset.bottomright.filled</key>
+		<string>2021</string>
+		<key>rectangle.inset.bottomtrailing.filled</key>
+		<string>2021</string>
 		<key>rectangle.inset.fill</key>
 		<string>2020</string>
+		<key>rectangle.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.inset.filled.and.person.filled</key>
+		<string>2021</string>
+		<key>rectangle.inset.filled.on.rectangle</key>
+		<string>2021</string>
+		<key>rectangle.inset.topleading.filled</key>
+		<string>2021</string>
 		<key>rectangle.inset.topleft.fill</key>
 		<string>2020</string>
+		<key>rectangle.inset.topleft.filled</key>
+		<string>2021</string>
 		<key>rectangle.inset.topright.fill</key>
 		<string>2020</string>
+		<key>rectangle.inset.topright.filled</key>
+		<string>2021</string>
+		<key>rectangle.inset.toptrailing.filled</key>
+		<string>2021</string>
+		<key>rectangle.leadinghalf.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.leadinghalf.inset.filled.arrow.leading</key>
+		<string>2021</string>
+		<key>rectangle.leadingthird.inset.filled</key>
+		<string>2021</string>
 		<key>rectangle.lefthalf.fill</key>
 		<string>2020</string>
+		<key>rectangle.lefthalf.filled</key>
+		<string>2021</string>
 		<key>rectangle.lefthalf.inset.fill</key>
 		<string>2020</string>
 		<key>rectangle.lefthalf.inset.fill.arrow.left</key>
 		<string>2020</string>
+		<key>rectangle.lefthalf.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.lefthalf.inset.filled.arrow.left</key>
+		<string>2021</string>
 		<key>rectangle.leftthird.inset.fill</key>
 		<string>2020</string>
+		<key>rectangle.leftthird.inset.filled</key>
+		<string>2021</string>
 		<key>rectangle.on.rectangle</key>
 		<string>2019</string>
 		<key>rectangle.on.rectangle.angled</key>
 		<string>2019</string>
+		<key>rectangle.on.rectangle.circle</key>
+		<string>2021</string>
+		<key>rectangle.on.rectangle.circle.fill</key>
+		<string>2021</string>
 		<key>rectangle.on.rectangle.slash</key>
 		<string>2020</string>
+		<key>rectangle.on.rectangle.slash.circle</key>
+		<string>2021</string>
+		<key>rectangle.on.rectangle.slash.circle.fill</key>
+		<string>2021</string>
+		<key>rectangle.on.rectangle.slash.fill</key>
+		<string>2021</string>
+		<key>rectangle.on.rectangle.square</key>
+		<string>2021</string>
+		<key>rectangle.on.rectangle.square.fill</key>
+		<string>2021</string>
 		<key>rectangle.portrait</key>
 		<string>2020</string>
+		<key>rectangle.portrait.and.arrow.right</key>
+		<string>2021</string>
+		<key>rectangle.portrait.and.arrow.right.fill</key>
+		<string>2021</string>
 		<key>rectangle.portrait.arrowtriangle.2.inward</key>
 		<string>2020</string>
 		<key>rectangle.portrait.arrowtriangle.2.outward</key>
 		<string>2020</string>
+		<key>rectangle.portrait.bottomhalf.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.bottomhalf.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.bottomleading.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.bottomleft.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.bottomright.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.bottomthird.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.bottomtrailing.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.center.inset.filled</key>
+		<string>2021</string>
 		<key>rectangle.portrait.fill</key>
 		<string>2020</string>
+		<key>rectangle.portrait.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.leadinghalf.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.leadingthird.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.lefthalf.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.lefthalf.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.leftthird.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.on.rectangle.portrait</key>
+		<string>2021</string>
+		<key>rectangle.portrait.on.rectangle.portrait.fill</key>
+		<string>2021</string>
+		<key>rectangle.portrait.on.rectangle.portrait.slash</key>
+		<string>2021</string>
+		<key>rectangle.portrait.on.rectangle.portrait.slash.fill</key>
+		<string>2021</string>
+		<key>rectangle.portrait.righthalf.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.righthalf.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.rightthird.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.slash</key>
+		<string>2021</string>
+		<key>rectangle.portrait.slash.fill</key>
+		<string>2021</string>
+		<key>rectangle.portrait.split.2x1</key>
+		<string>2021</string>
+		<key>rectangle.portrait.split.2x1.fill</key>
+		<string>2021</string>
+		<key>rectangle.portrait.split.2x1.slash</key>
+		<string>2021</string>
+		<key>rectangle.portrait.split.2x1.slash.fill</key>
+		<string>2021</string>
+		<key>rectangle.portrait.tophalf.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.tophalf.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.topleading.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.topleft.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.topright.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.topthird.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.toptrailing.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.trailinghalf.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.portrait.trailingthird.inset.filled</key>
+		<string>2021</string>
 		<key>rectangle.righthalf.fill</key>
 		<string>2020</string>
+		<key>rectangle.righthalf.filled</key>
+		<string>2021</string>
 		<key>rectangle.righthalf.inset.fill</key>
 		<string>2020</string>
 		<key>rectangle.righthalf.inset.fill.arrow.right</key>
 		<string>2020</string>
+		<key>rectangle.righthalf.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.righthalf.inset.filled.arrow.right</key>
+		<string>2021</string>
 		<key>rectangle.rightthird.inset.fill</key>
 		<string>2020</string>
+		<key>rectangle.rightthird.inset.filled</key>
+		<string>2021</string>
 		<key>rectangle.roundedbottom</key>
 		<string>2020</string>
 		<key>rectangle.roundedbottom.fill</key>
@@ -4464,6 +5920,10 @@
 		<string>2020</string>
 		<key>rectangle.split.2x1.fill</key>
 		<string>2020</string>
+		<key>rectangle.split.2x1.slash</key>
+		<string>2021</string>
+		<key>rectangle.split.2x1.slash.fill</key>
+		<string>2021</string>
 		<key>rectangle.split.2x2</key>
 		<string>2020</string>
 		<key>rectangle.split.2x2.fill</key>
@@ -4482,6 +5942,12 @@
 		<string>2019</string>
 		<key>rectangle.stack.badge.person.crop</key>
 		<string>2019</string>
+		<key>rectangle.stack.badge.person.crop.fill</key>
+		<string>2021</string>
+		<key>rectangle.stack.badge.play</key>
+		<string>2021</string>
+		<key>rectangle.stack.badge.play.fill</key>
+		<string>2021</string>
 		<key>rectangle.stack.badge.plus</key>
 		<string>2019</string>
 		<key>rectangle.stack.fill</key>
@@ -4496,16 +5962,42 @@
 		<string>2019</string>
 		<key>rectangle.stack.person.crop.fill</key>
 		<string>2019</string>
+		<key>rectangle.tophalf.filled</key>
+		<string>2021</string>
+		<key>rectangle.tophalf.inset.filled</key>
+		<string>2021</string>
 		<key>rectangle.topthird.inset</key>
 		<string>2020.1</string>
+		<key>rectangle.topthird.inset.fill</key>
+		<string>2020.2</string>
+		<key>rectangle.topthird.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.trailinghalf.inset.filled</key>
+		<string>2021</string>
+		<key>rectangle.trailinghalf.inset.filled.arrow.trailing</key>
+		<string>2021</string>
+		<key>rectangle.trailingthird.inset.filled</key>
+		<string>2021</string>
 		<key>repeat</key>
 		<string>2019</string>
 		<key>repeat.1</key>
 		<string>2019</string>
+		<key>repeat.1.ar</key>
+		<string>2021</string>
 		<key>repeat.1.circle</key>
 		<string>2020.1</string>
+		<key>repeat.1.circle.ar</key>
+		<string>2021</string>
 		<key>repeat.1.circle.fill</key>
 		<string>2020.1</string>
+		<key>repeat.1.circle.fill.ar</key>
+		<string>2021</string>
+		<key>repeat.1.circle.fill.hi</key>
+		<string>2021</string>
+		<key>repeat.1.circle.hi</key>
+		<string>2021</string>
+		<key>repeat.1.hi</key>
+		<string>2021</string>
 		<key>repeat.circle</key>
 		<string>2020.1</string>
 		<key>repeat.circle.fill</key>
@@ -4514,8 +6006,14 @@
 		<string>2020</string>
 		<key>restart.circle</key>
 		<string>2020</string>
+		<key>restart.circle.fill</key>
+		<string>2021</string>
 		<key>return</key>
 		<string>2019</string>
+		<key>return.left</key>
+		<string>2021</string>
+		<key>return.right</key>
+		<string>2021</string>
 		<key>rhombus</key>
 		<string>2019</string>
 		<key>rhombus.fill</key>
@@ -4582,8 +6080,18 @@
 		<string>2019</string>
 		<key>scissors.badge.ellipsis</key>
 		<string>2019</string>
+		<key>scissors.circle</key>
+		<string>2021</string>
+		<key>scissors.circle.fill</key>
+		<string>2021</string>
+		<key>scooter</key>
+		<string>2021</string>
 		<key>scope</key>
 		<string>2019</string>
+		<key>screwdriver</key>
+		<string>2021</string>
+		<key>screwdriver.fill</key>
+		<string>2021</string>
 		<key>scribble</key>
 		<string>2019</string>
 		<key>scribble.variable</key>
@@ -4602,10 +6110,18 @@
 		<string>2020</string>
 		<key>selection.pin.in.out</key>
 		<string>2019</string>
+		<key>sensor.tag.radiowaves.forward</key>
+		<string>2021</string>
+		<key>sensor.tag.radiowaves.forward.fill</key>
+		<string>2021</string>
 		<key>server.rack</key>
 		<string>2020</string>
 		<key>shadow</key>
 		<string>2020</string>
+		<key>shareplay</key>
+		<string>2021</string>
+		<key>shareplay.slash</key>
+		<string>2021</string>
 		<key>shekelsign.circle</key>
 		<string>2020</string>
 		<key>shekelsign.circle.fill</key>
@@ -4632,6 +6148,12 @@
 		<string>2019</string>
 		<key>shield.lefthalf.fill.slash</key>
 		<string>2020</string>
+		<key>shield.lefthalf.filled</key>
+		<string>2021</string>
+		<key>shield.lefthalf.filled.slash</key>
+		<string>2021</string>
+		<key>shield.righthalf.filled</key>
+		<string>2021</string>
 		<key>shield.slash</key>
 		<string>2019</string>
 		<key>shield.slash.fill</key>
@@ -4642,6 +6164,10 @@
 		<string>2019</string>
 		<key>shippingbox</key>
 		<string>2020</string>
+		<key>shippingbox.circle</key>
+		<string>2021</string>
+		<key>shippingbox.circle.fill</key>
+		<string>2021</string>
 		<key>shippingbox.fill</key>
 		<string>2020</string>
 		<key>shuffle</key>
@@ -4672,6 +6198,14 @@
 		<string>2020</string>
 		<key>signature.he</key>
 		<string>2020</string>
+		<key>signature.ja</key>
+		<string>2021</string>
+		<key>signature.th</key>
+		<string>2021</string>
+		<key>signature.zh</key>
+		<string>2021</string>
+		<key>signature.zh.traditional</key>
+		<string>2021</string>
 		<key>signpost.left</key>
 		<string>2020</string>
 		<key>signpost.left.fill</key>
@@ -4696,12 +6230,20 @@
 		<string>2019</string>
 		<key>sleep</key>
 		<string>2020</string>
+		<key>sleep.circle</key>
+		<string>2021</string>
+		<key>sleep.circle.fill</key>
+		<string>2021</string>
+		<key>slider.horizontal.2.rectangle.and.arrow.triangle.2.circlepath</key>
+		<string>2021</string>
 		<key>slider.horizontal.3</key>
 		<string>2019</string>
 		<key>slider.horizontal.below.rectangle</key>
 		<string>2019</string>
 		<key>slider.horizontal.below.square.fill.and.square</key>
 		<string>2020</string>
+		<key>slider.horizontal.below.square.filled.and.square</key>
+		<string>2021</string>
 		<key>slider.vertical.3</key>
 		<string>2020</string>
 		<key>slowmo</key>
@@ -4714,6 +6256,10 @@
 		<string>2019</string>
 		<key>smallcircle.fill.circle.fill</key>
 		<string>2019</string>
+		<key>smallcircle.filled.circle</key>
+		<string>2021</string>
+		<key>smallcircle.filled.circle.fill</key>
+		<string>2021</string>
 		<key>smiley</key>
 		<string>2019</string>
 		<key>smiley.fill</key>
@@ -4724,8 +6270,16 @@
 		<string>2019</string>
 		<key>snow</key>
 		<string>2019</string>
+		<key>snowflake</key>
+		<string>2021</string>
+		<key>snowflake.circle</key>
+		<string>2021</string>
+		<key>snowflake.circle.fill</key>
+		<string>2021</string>
 		<key>sparkle</key>
 		<string>2020</string>
+		<key>sparkle.magnifyingglass</key>
+		<string>2021</string>
 		<key>sparkles</key>
 		<string>2019</string>
 		<key>sparkles.rectangle.stack</key>
@@ -4734,6 +6288,12 @@
 		<string>2020</string>
 		<key>sparkles.square.fill.on.square</key>
 		<string>2020</string>
+		<key>sparkles.square.filled.on.square</key>
+		<string>2021</string>
+		<key>sparkles.tv</key>
+		<string>2021</string>
+		<key>sparkles.tv.fill</key>
+		<string>2021</string>
 		<key>speaker</key>
 		<string>2019</string>
 		<key>speaker.1</key>
@@ -4748,6 +6308,14 @@
 		<string>2019</string>
 		<key>speaker.3.fill</key>
 		<string>2019</string>
+		<key>speaker.badge.exclamationmark</key>
+		<string>2021</string>
+		<key>speaker.badge.exclamationmark.fill</key>
+		<string>2021</string>
+		<key>speaker.circle</key>
+		<string>2021</string>
+		<key>speaker.circle.fill</key>
+		<string>2021</string>
 		<key>speaker.fill</key>
 		<string>2019</string>
 		<key>speaker.slash</key>
@@ -4802,16 +6370,34 @@
 		<string>2020</string>
 		<key>square.2.stack.3d.bottom.fill</key>
 		<string>2020</string>
+		<key>square.2.stack.3d.bottom.filled</key>
+		<string>2021</string>
 		<key>square.2.stack.3d.top.fill</key>
 		<string>2020</string>
+		<key>square.2.stack.3d.top.filled</key>
+		<string>2021</string>
+		<key>square.3.layers.3d.down.backward</key>
+		<string>2021.1</string>
+		<key>square.3.layers.3d.down.forward</key>
+		<string>2021.1</string>
+		<key>square.3.layers.3d.down.left</key>
+		<string>2021.1</string>
+		<key>square.3.layers.3d.down.right</key>
+		<string>2021.1</string>
 		<key>square.3.stack.3d</key>
 		<string>2020</string>
 		<key>square.3.stack.3d.bottom.fill</key>
 		<string>2020</string>
+		<key>square.3.stack.3d.bottom.filled</key>
+		<string>2021</string>
 		<key>square.3.stack.3d.middle.fill</key>
 		<string>2020</string>
+		<key>square.3.stack.3d.middle.filled</key>
+		<string>2021</string>
 		<key>square.3.stack.3d.top.fill</key>
 		<string>2020</string>
+		<key>square.3.stack.3d.top.filled</key>
+		<string>2021</string>
 		<key>square.and.arrow.down</key>
 		<string>2019</string>
 		<key>square.and.arrow.down.fill</key>
@@ -4822,22 +6408,34 @@
 		<string>2019</string>
 		<key>square.and.arrow.up</key>
 		<string>2019</string>
+		<key>square.and.arrow.up.circle</key>
+		<string>2021</string>
+		<key>square.and.arrow.up.circle.fill</key>
+		<string>2021</string>
 		<key>square.and.arrow.up.fill</key>
 		<string>2019</string>
 		<key>square.and.arrow.up.on.square</key>
 		<string>2019</string>
 		<key>square.and.arrow.up.on.square.fill</key>
 		<string>2019</string>
+		<key>square.and.arrow.up.trianglebadge.exclamationmark</key>
+		<string>2021</string>
 		<key>square.and.at.rectangle</key>
 		<string>2020</string>
+		<key>square.and.at.rectangle.fill</key>
+		<string>2021</string>
 		<key>square.and.line.vertical.and.square</key>
 		<string>2019</string>
 		<key>square.and.line.vertical.and.square.fill</key>
 		<string>2019</string>
+		<key>square.and.line.vertical.and.square.filled</key>
+		<string>2021</string>
 		<key>square.and.pencil</key>
 		<string>2019</string>
 		<key>square.bottomhalf.fill</key>
 		<string>2020</string>
+		<key>square.bottomhalf.filled</key>
+		<string>2021</string>
 		<key>square.circle</key>
 		<string>2020</string>
 		<key>square.circle.fill</key>
@@ -4846,10 +6444,14 @@
 		<string>2020</string>
 		<key>square.dashed.inset.fill</key>
 		<string>2020</string>
+		<key>square.dashed.inset.filled</key>
+		<string>2021</string>
 		<key>square.fill</key>
 		<string>2019</string>
 		<key>square.fill.and.line.vertical.and.square</key>
 		<string>2019</string>
+		<key>square.fill.and.line.vertical.and.square.fill</key>
+		<string>2021</string>
 		<key>square.fill.and.line.vertical.square.fill</key>
 		<string>2019</string>
 		<key>square.fill.on.circle.fill</key>
@@ -4860,12 +6462,18 @@
 		<string>2019</string>
 		<key>square.fill.text.grid.1x2</key>
 		<string>2020</string>
+		<key>square.filled.and.line.vertical.and.square</key>
+		<string>2021</string>
+		<key>square.filled.on.square</key>
+		<string>2021</string>
 		<key>square.grid.2x2</key>
 		<string>2019</string>
 		<key>square.grid.2x2.fill</key>
 		<string>2019</string>
 		<key>square.grid.3x1.below.line.grid.1x2</key>
 		<string>2020</string>
+		<key>square.grid.3x1.below.line.grid.1x2.fill</key>
+		<string>2021</string>
 		<key>square.grid.3x1.fill.below.line.grid.1x2</key>
 		<string>2020</string>
 		<key>square.grid.3x1.folder.badge.plus</key>
@@ -4880,30 +6488,54 @@
 		<string>2020</string>
 		<key>square.grid.3x3.bottomleft.fill</key>
 		<string>2020</string>
+		<key>square.grid.3x3.bottomleft.filled</key>
+		<string>2021</string>
 		<key>square.grid.3x3.bottommiddle.fill</key>
 		<string>2020</string>
+		<key>square.grid.3x3.bottommiddle.filled</key>
+		<string>2021</string>
 		<key>square.grid.3x3.bottomright.fill</key>
 		<string>2020</string>
+		<key>square.grid.3x3.bottomright.filled</key>
+		<string>2021</string>
 		<key>square.grid.3x3.fill</key>
 		<string>2020</string>
 		<key>square.grid.3x3.fill.square</key>
 		<string>2020</string>
 		<key>square.grid.3x3.middle.fill</key>
 		<string>2020</string>
+		<key>square.grid.3x3.middle.filled</key>
+		<string>2021</string>
 		<key>square.grid.3x3.middleleft.fill</key>
 		<string>2020</string>
+		<key>square.grid.3x3.middleleft.filled</key>
+		<string>2021</string>
 		<key>square.grid.3x3.middleright.fill</key>
 		<string>2020</string>
+		<key>square.grid.3x3.middleright.filled</key>
+		<string>2021</string>
+		<key>square.grid.3x3.square</key>
+		<string>2021</string>
 		<key>square.grid.3x3.topleft.fill</key>
 		<string>2020</string>
+		<key>square.grid.3x3.topleft.filled</key>
+		<string>2021</string>
 		<key>square.grid.3x3.topmiddle.fill</key>
 		<string>2020</string>
+		<key>square.grid.3x3.topmiddle.filled</key>
+		<string>2021</string>
 		<key>square.grid.3x3.topright.fill</key>
 		<string>2020</string>
+		<key>square.grid.3x3.topright.filled</key>
+		<string>2021</string>
 		<key>square.grid.4x3.fill</key>
 		<string>2019</string>
+		<key>square.inset.filled</key>
+		<string>2021</string>
 		<key>square.lefthalf.fill</key>
 		<string>2019</string>
+		<key>square.lefthalf.filled</key>
+		<string>2021</string>
 		<key>square.on.circle</key>
 		<string>2019</string>
 		<key>square.on.square</key>
@@ -4914,6 +6546,8 @@
 		<string>2020</string>
 		<key>square.righthalf.fill</key>
 		<string>2019</string>
+		<key>square.righthalf.filled</key>
+		<string>2021</string>
 		<key>square.slash</key>
 		<string>2020</string>
 		<key>square.slash.fill</key>
@@ -4972,8 +6606,14 @@
 		<string>2019</string>
 		<key>square.stack.fill</key>
 		<string>2019</string>
+		<key>square.text.square</key>
+		<string>2021</string>
+		<key>square.text.square.fill</key>
+		<string>2021</string>
 		<key>square.tophalf.fill</key>
 		<string>2020</string>
+		<key>square.tophalf.filled</key>
+		<string>2021</string>
 		<key>squares.below.rectangle</key>
 		<string>2019</string>
 		<key>squareshape</key>
@@ -4994,6 +6634,10 @@
 		<string>2020</string>
 		<key>star</key>
 		<string>2019</string>
+		<key>star.bubble</key>
+		<string>2021</string>
+		<key>star.bubble.fill</key>
+		<string>2021</string>
 		<key>star.circle</key>
 		<string>2019</string>
 		<key>star.circle.fill</key>
@@ -5002,6 +6646,8 @@
 		<string>2019</string>
 		<key>star.leadinghalf.fill</key>
 		<string>2020</string>
+		<key>star.leadinghalf.filled</key>
+		<string>2021</string>
 		<key>star.lefthalf.fill</key>
 		<string>2019</string>
 		<key>star.slash</key>
@@ -5030,6 +6676,10 @@
 		<string>2019</string>
 		<key>stethoscope</key>
 		<string>2020</string>
+		<key>stethoscope.circle</key>
+		<string>2021</string>
+		<key>stethoscope.circle.fill</key>
+		<string>2021</string>
 		<key>stop</key>
 		<string>2019</string>
 		<key>stop.circle</key>
@@ -5062,10 +6712,22 @@
 		<string>2019</string>
 		<key>suit.spade.fill</key>
 		<string>2019</string>
+		<key>suitcase</key>
+		<string>2021</string>
+		<key>suitcase.cart</key>
+		<string>2021</string>
+		<key>suitcase.cart.fill</key>
+		<string>2021</string>
+		<key>suitcase.fill</key>
+		<string>2021</string>
 		<key>sum</key>
 		<string>2019</string>
 		<key>sum.ar</key>
 		<string>2020</string>
+		<key>sun.and.horizon</key>
+		<string>2021</string>
+		<key>sun.and.horizon.fill</key>
+		<string>2021</string>
 		<key>sun.dust</key>
 		<string>2019</string>
 		<key>sun.dust.fill</key>
@@ -5076,6 +6738,10 @@
 		<string>2019</string>
 		<key>sun.max</key>
 		<string>2019</string>
+		<key>sun.max.circle</key>
+		<string>2021</string>
+		<key>sun.max.circle.fill</key>
+		<string>2021</string>
 		<key>sun.max.fill</key>
 		<string>2019</string>
 		<key>sun.min</key>
@@ -5130,6 +6796,8 @@
 		<string>2020</string>
 		<key>tablecells.fill</key>
 		<string>2020</string>
+		<key>tablecells.fill.badge.ellipsis</key>
+		<string>2021</string>
 		<key>tag</key>
 		<string>2019</string>
 		<key>tag.circle</key>
@@ -5142,12 +6810,24 @@
 		<string>2020</string>
 		<key>tag.slash.fill</key>
 		<string>2020</string>
+		<key>tag.square</key>
+		<string>2021</string>
+		<key>tag.square.fill</key>
+		<string>2021</string>
+		<key>takeoutbag.and.cup.and.straw</key>
+		<string>2021</string>
+		<key>takeoutbag.and.cup.and.straw.fill</key>
+		<string>2021</string>
 		<key>target</key>
 		<string>2020</string>
 		<key>teletype</key>
 		<string>2019</string>
 		<key>teletype.answer</key>
 		<string>2019</string>
+		<key>teletype.answer.circle</key>
+		<string>2021</string>
+		<key>teletype.answer.circle.fill</key>
+		<string>2021</string>
 		<key>teletype.circle</key>
 		<string>2020</string>
 		<key>teletype.circle.fill</key>
@@ -5164,6 +6844,8 @@
 		<string>2020</string>
 		<key>terminal.fill</key>
 		<string>2020</string>
+		<key>testtube.2</key>
+		<string>2021</string>
 		<key>text.aligncenter</key>
 		<string>2019</string>
 		<key>text.alignleft</key>
@@ -5228,6 +6910,14 @@
 		<string>2019</string>
 		<key>text.justify</key>
 		<string>2019</string>
+		<key>text.justify.leading</key>
+		<string>2021.1</string>
+		<key>text.justify.left</key>
+		<string>2021.1</string>
+		<key>text.justify.right</key>
+		<string>2021.1</string>
+		<key>text.justify.trailing</key>
+		<string>2021.1</string>
 		<key>text.justifyleft</key>
 		<string>2019</string>
 		<key>text.justifyright</key>
@@ -5242,6 +6932,8 @@
 		<string>2020</string>
 		<key>text.redaction</key>
 		<string>2020</string>
+		<key>text.viewfinder</key>
+		<string>2021</string>
 		<key>textbox</key>
 		<string>2019</string>
 		<key>textbox.ar</key>
@@ -5266,6 +6958,8 @@
 		<string>2019</string>
 		<key>textformat.123.ar</key>
 		<string>2020</string>
+		<key>textformat.123.hi</key>
+		<string>2021</string>
 		<key>textformat.abc</key>
 		<string>2019</string>
 		<key>textformat.abc.dottedunderline</key>
@@ -5362,6 +7056,14 @@
 		<string>2020.1</string>
 		<key>textformat.superscript.zh.traditional</key>
 		<string>2020.1</string>
+		<key>theatermasks</key>
+		<string>2021</string>
+		<key>theatermasks.circle</key>
+		<string>2021</string>
+		<key>theatermasks.circle.fill</key>
+		<string>2021</string>
+		<key>theatermasks.fill</key>
+		<string>2021</string>
 		<key>thermometer</key>
 		<string>2019</string>
 		<key>thermometer.snowflake</key>
@@ -5394,6 +7096,12 @@
 		<string>2020.1</string>
 		<key>touchid</key>
 		<string>2020</string>
+		<key>train.side.front.car</key>
+		<string>2021</string>
+		<key>train.side.middle.car</key>
+		<string>2021</string>
+		<key>train.side.rear.car</key>
+		<string>2021</string>
 		<key>tram</key>
 		<string>2020</string>
 		<key>tram.circle</key>
@@ -5402,8 +7110,18 @@
 		<string>2020</string>
 		<key>tram.fill</key>
 		<string>2019</string>
+		<key>tram.fill.tunnel</key>
+		<string>2021</string>
 		<key>tram.tunnel.fill</key>
 		<string>2020</string>
+		<key>trapezoid.and.line.horizontal</key>
+		<string>2021</string>
+		<key>trapezoid.and.line.horizontal.fill</key>
+		<string>2021</string>
+		<key>trapezoid.and.line.vertical</key>
+		<string>2021</string>
+		<key>trapezoid.and.line.vertical.fill</key>
+		<string>2021</string>
 		<key>trash</key>
 		<string>2019</string>
 		<key>trash.circle</key>
@@ -5414,8 +7132,20 @@
 		<string>2019</string>
 		<key>trash.slash</key>
 		<string>2019</string>
+		<key>trash.slash.circle</key>
+		<string>2021</string>
+		<key>trash.slash.circle.fill</key>
+		<string>2021</string>
 		<key>trash.slash.fill</key>
 		<string>2019</string>
+		<key>trash.slash.square</key>
+		<string>2021</string>
+		<key>trash.slash.square.fill</key>
+		<string>2021</string>
+		<key>trash.square</key>
+		<string>2021</string>
+		<key>trash.square.fill</key>
+		<string>2021</string>
 		<key>tray</key>
 		<string>2019</string>
 		<key>tray.2</key>
@@ -5442,18 +7172,32 @@
 		<string>2019</string>
 		<key>triangle</key>
 		<string>2019</string>
+		<key>triangle.bottomhalf.filled</key>
+		<string>2021</string>
 		<key>triangle.circle</key>
 		<string>2020</string>
 		<key>triangle.circle.fill</key>
 		<string>2020</string>
 		<key>triangle.fill</key>
 		<string>2019</string>
+		<key>triangle.inset.filled</key>
+		<string>2021</string>
 		<key>triangle.lefthalf.fill</key>
 		<string>2019</string>
+		<key>triangle.lefthalf.filled</key>
+		<string>2021</string>
 		<key>triangle.righthalf.fill</key>
 		<string>2019</string>
+		<key>triangle.righthalf.filled</key>
+		<string>2021</string>
+		<key>triangle.tophalf.filled</key>
+		<string>2021</string>
 		<key>tropicalstorm</key>
 		<string>2019</string>
+		<key>tshirt</key>
+		<string>2021</string>
+		<key>tshirt.fill</key>
+		<string>2021</string>
 		<key>tugriksign.circle</key>
 		<string>2019</string>
 		<key>tugriksign.circle.fill</key>
@@ -5484,6 +7228,8 @@
 		<string>2019</string>
 		<key>tv.fill</key>
 		<string>2019</string>
+		<key>tv.inset.filled</key>
+		<string>2021</string>
 		<key>tv.music.note</key>
 		<string>2019</string>
 		<key>tv.music.note.fill</key>
@@ -5514,8 +7260,14 @@
 		<string>2019</string>
 		<key>video</key>
 		<string>2019</string>
+		<key>video.and.waveform</key>
+		<string>2021</string>
+		<key>video.and.waveform.fill</key>
+		<string>2021</string>
 		<key>video.badge.checkmark</key>
 		<string>2020</string>
+		<key>video.badge.ellipsis</key>
+		<string>2021</string>
 		<key>video.badge.plus</key>
 		<string>2019</string>
 		<key>video.badge.plus.fill</key>
@@ -5532,12 +7284,18 @@
 		<string>2019</string>
 		<key>video.fill.badge.checkmark</key>
 		<string>2020</string>
+		<key>video.fill.badge.ellipsis</key>
+		<string>2021</string>
 		<key>video.fill.badge.plus</key>
 		<string>2020</string>
 		<key>video.slash</key>
 		<string>2019</string>
 		<key>video.slash.fill</key>
 		<string>2019</string>
+		<key>video.square</key>
+		<string>2021</string>
+		<key>video.square.fill</key>
+		<string>2021</string>
 		<key>view.2d</key>
 		<string>2019</string>
 		<key>view.3d</key>
@@ -5558,6 +7316,10 @@
 		<string>2019</string>
 		<key>wake</key>
 		<string>2020</string>
+		<key>wake.circle</key>
+		<string>2021</string>
+		<key>wake.circle.fill</key>
+		<string>2021</string>
 		<key>wallet.pass</key>
 		<string>2020</string>
 		<key>wallet.pass.fill</key>
@@ -5570,6 +7332,8 @@
 		<string>2019</string>
 		<key>wand.and.stars.inverse</key>
 		<string>2019</string>
+		<key>watchface.applewatch.case</key>
+		<string>2021</string>
 		<key>wave.3.backward</key>
 		<string>2020</string>
 		<key>wave.3.backward.circle</key>
@@ -5596,6 +7360,16 @@
 		<string>2020</string>
 		<key>waveform</key>
 		<string>2019</string>
+		<key>waveform.and.magnifyingglass</key>
+		<string>2021</string>
+		<key>waveform.and.mic</key>
+		<string>2021</string>
+		<key>waveform.badge.exclamationmark</key>
+		<string>2021</string>
+		<key>waveform.badge.minus</key>
+		<string>2021</string>
+		<key>waveform.badge.plus</key>
+		<string>2021</string>
 		<key>waveform.circle</key>
 		<string>2019</string>
 		<key>waveform.circle.fill</key>
@@ -5614,10 +7388,18 @@
 		<string>2020</string>
 		<key>wifi</key>
 		<string>2019</string>
+		<key>wifi.circle</key>
+		<string>2021</string>
+		<key>wifi.circle.fill</key>
+		<string>2021</string>
 		<key>wifi.exclamationmark</key>
 		<string>2019</string>
 		<key>wifi.slash</key>
 		<string>2019</string>
+		<key>wifi.square</key>
+		<string>2021</string>
+		<key>wifi.square.fill</key>
+		<string>2021</string>
 		<key>wind</key>
 		<string>2019</string>
 		<key>wind.snow</key>
@@ -5650,6 +7432,10 @@
 		<string>2019</string>
 		<key>xmark</key>
 		<string>2019</string>
+		<key>xmark.app</key>
+		<string>2021</string>
+		<key>xmark.app.fill</key>
+		<string>2021</string>
 		<key>xmark.bin</key>
 		<string>2020</string>
 		<key>xmark.bin.circle</key>
@@ -5765,6 +7551,39 @@
 			<string>14.2</string>
 			<key>watchOS</key>
 			<string>7.1</string>
+		</dict>
+		<key>2020.2</key>
+		<dict>
+			<key>iOS</key>
+			<string>14.5</string>
+			<key>macOS</key>
+			<string>11.3</string>
+			<key>tvOS</key>
+			<string>14.5</string>
+			<key>watchOS</key>
+			<string>7.4</string>
+		</dict>
+		<key>2021</key>
+		<dict>
+			<key>iOS</key>
+			<string>15.0</string>
+			<key>macOS</key>
+			<string>12.0</string>
+			<key>tvOS</key>
+			<string>15.0</string>
+			<key>watchOS</key>
+			<string>8.0</string>
+		</dict>
+		<key>2021.1</key>
+		<dict>
+			<key>iOS</key>
+			<string>15.1</string>
+			<key>macOS</key>
+			<string>12.0</string>
+			<key>tvOS</key>
+			<string>15.1</string>
+			<key>watchOS</key>
+			<string>8.1</string>
 		</dict>
 	</dict>
 </dict>

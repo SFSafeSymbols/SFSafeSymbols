@@ -7,7 +7,7 @@ import XCTest
 final class UIApplicationShortcutIconExtensionTests: XCTestCase {
     func testSimpleInit() {
         if #available(iOS 13.0, *) {
-            SFSymbol.allCases.forEach { symbol in
+            SFSymbol.allSymbols.forEach { symbol in
                 // If this doesn't crash, everything works fine
                 print("Testing existence of \(symbol.rawValue) via UIApplicationShortcutIcon init")
                 _ = UIApplicationShortcutIcon(systemSymbol: symbol)

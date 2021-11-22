@@ -7,7 +7,7 @@ import XCTest
 class NSImageExtensionTests: XCTestCase {
     func testSimpleInit() {
         if #available(macOS 11.0, *) {
-            SFSymbol.allCases.forEach { symbol in
+            SFSymbol.allSymbols.forEach { symbol in
                 // If this doesn't crash, everything works fine
                 print("Testing existence of \(symbol.rawValue) via NSImage init")
                 _ = NSImage(systemSymbol: symbol)
