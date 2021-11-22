@@ -4366,7 +4366,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    /// - Multicolor (iOS 15.1)
+    /// - Multicolor (3.1 – iOS 15.1)
     static let rectangleCenterInsetFilledBadgePlus = SFSymbol(rawValue: "rectangle.center.inset.filled.badge.plus")
 
     /// 􀪦

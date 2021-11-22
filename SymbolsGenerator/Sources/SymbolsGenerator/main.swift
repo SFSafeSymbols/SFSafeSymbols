@@ -183,7 +183,7 @@ let symbolToCode: (Symbol) -> String = { symbol in
             let newLocalizations = localizations.subtracting(handledLocalizations)
             if !newLocalizations.isEmpty {
                 handledLocalizations.formUnion(newLocalizations)
-                let availabilityNotice: String = availability < symbol.availability ? " (iOS \(availability.iOS))" : ""
+                let availabilityNotice: String = availability < symbol.availability ? " (\(availability.version) – iOS \(availability.iOS))" : ""
                 for localization in Array(newLocalizations).sorted() {
                     outputString += "\t/// - \(localization)\(availabilityNotice)\n"
                 }
@@ -199,7 +199,7 @@ let symbolToCode: (Symbol) -> String = { symbol in
             let newLayersets = layersets.subtracting(handledLayersets)
             if !newLayersets.isEmpty {
                 handledLayersets.formUnion(newLayersets)
-                let availabilityNotice: String = availability < symbol.availability ? " (iOS \(availability.iOS))" : ""
+                let availabilityNotice: String = availability < symbol.availability ? " (\(availability.version) – iOS \(availability.iOS))" : ""
                 for layerset in Array(newLayersets).sorted() {
                     outputString += "\t/// - \(layerset.capitalized)\(availabilityNotice)\n"
                 }
