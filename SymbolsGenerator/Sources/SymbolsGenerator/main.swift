@@ -176,14 +176,14 @@ let symbolToCode: (Symbol) -> String = { symbol in
     }
 
     // Generate localization docs based on the assumption that localizations don't get removed
-    if !completeLocalizations.isEmpty {
+    if !completeLocalizations.isEmpty { // Omit localization block if only the Latin localization is available
         outputString += "\t///\n\t/// Localizations:\n\t/// - Latin\n"
         var handledLocalizations: Set<String> = .init()
         for (availability, localizations) in completeLocalizations.sorted(by: { $0.0 > $1.0 }) {
             let newLocalizations = localizations.subtracting(handledLocalizations)
             if !newLocalizations.isEmpty {
                 handledLocalizations.formUnion(newLocalizations)
-                let availabilityNotice: String = availability < symbol.availability ? " (\(availability.version) – iOS \(availability.iOS))" : ""
+                let availabilityNotice: String = availability < symbol.availability ? " (iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS))" : ""
                 for localization in Array(newLocalizations).sorted() {
                     outputString += "\t/// - \(localization)\(availabilityNotice)\n"
                 }
@@ -192,22 +192,20 @@ let symbolToCode: (Symbol) -> String = { symbol in
     }
 
     // Generate layerset availability docs based on the assumption that layersets don't get removed
-    if !completeLayersets.isEmpty {
-        var handledLayersets: Set<String> = .init()
-        outputString += "\t///\n\t/// Layersets:\n\t/// - Monochrome\n"
-        for (availability, layersets) in completeLayersets.sorted(by: { $0.0 > $1.0 }) {
-            let newLayersets = layersets.subtracting(handledLayersets)
-            if !newLayersets.isEmpty {
-                handledLayersets.formUnion(newLayersets)
-                let availabilityNotice: String = availability < symbol.availability ? " (\(availability.version) – iOS \(availability.iOS))" : ""
-                for layerset in Array(newLayersets).sorted() {
-                    outputString += "\t/// - \(layerset.capitalized)\(availabilityNotice)\n"
-                }
+    var handledLayersets: Set<String> = .init()
+    outputString += "\t///\n\t/// Layersets:\n\t/// - Monochrome\n"
+    for (availability, layersets) in completeLayersets.sorted(by: { $0.0 > $1.0 }) {
+        let newLayersets = layersets.subtracting(handledLayersets)
+        if !newLayersets.isEmpty {
+            handledLayersets.formUnion(newLayersets)
+            let availabilityNotice: String = availability < symbol.availability ? " (iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS))" : ""
+            for layerset in Array(newLayersets).sorted() {
+                outputString += "\t/// - \(layerset.capitalized)\(availabilityNotice)\n"
             }
         }
     }
 
-    // Generate canOnlyReferTo docs
+    // Generate use restriction docs
     if let restrictionMessage = symbol.restriction {
         outputString += "\t///\n\t/// - Warning: ⚠️ \(restrictionMessage)\n"
     }

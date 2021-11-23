@@ -112,11 +112,17 @@ public extension SFSymbol {
     /// 􀹧
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
+    /// Layersets:
+    /// - Monochrome
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static let airpodsChargingcase = SFSymbol(rawValue: "airpods.chargingcase")
 
     /// 􀹨
     /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static let airpodsChargingcaseFill = SFSymbol(rawValue: "airpods.chargingcase.fill")
@@ -124,11 +130,17 @@ public extension SFSymbol {
     /// 􀹩
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
+    /// Layersets:
+    /// - Monochrome
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static let airpodsChargingcaseWireless = SFSymbol(rawValue: "airpods.chargingcase.wireless")
 
     /// 􀹪
     /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static let airpodsChargingcaseWirelessFill = SFSymbol(rawValue: "airpods.chargingcase.wireless.fill")
@@ -136,11 +148,17 @@ public extension SFSymbol {
     /// 􀹫
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
+    /// Layersets:
+    /// - Monochrome
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods Pro.
     static let airpodsproChargingcaseWireless = SFSymbol(rawValue: "airpodspro.chargingcase.wireless")
 
     /// 􀹬
     /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods Pro.
     static let airpodsproChargingcaseWirelessFill = SFSymbol(rawValue: "airpodspro.chargingcase.wireless.fill")
@@ -148,11 +166,17 @@ public extension SFSymbol {
     /// 􁄾
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
+    /// Layersets:
+    /// - Monochrome
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirTag.
     static let airtag = SFSymbol(rawValue: "airtag")
 
     /// 􁄿
     /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirTag.
     static let airtagFill = SFSymbol(rawValue: "airtag.fill")
@@ -291,6 +315,9 @@ public extension SFSymbol {
 
     /// 􁆭
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let alternatingcurrent = SFSymbol(rawValue: "alternatingcurrent")
 
     /// 􀷈
@@ -347,10 +374,16 @@ public extension SFSymbol {
 
     /// 􀿫
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let appDashed = SFSymbol(rawValue: "app.dashed")
 
     /// 􀺮
     /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Pencil.
     static let applepencil = SFSymbol(rawValue: "applepencil")
@@ -358,11 +391,17 @@ public extension SFSymbol {
     /// 􀼩
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
+    /// Layersets:
+    /// - Monochrome
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static let appletvremoteGen1 = SFSymbol(rawValue: "appletvremote.gen1")
 
     /// 􀼪
     /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static let appletvremoteGen1Fill = SFSymbol(rawValue: "appletvremote.gen1.fill")
@@ -370,11 +409,17 @@ public extension SFSymbol {
     /// 􀼫
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
+    /// Layersets:
+    /// - Monochrome
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static let appletvremoteGen2 = SFSymbol(rawValue: "appletvremote.gen2")
 
     /// 􀼬
     /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static let appletvremoteGen2Fill = SFSymbol(rawValue: "appletvremote.gen2.fill")
@@ -382,11 +427,17 @@ public extension SFSymbol {
     /// 􀝩
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
+    /// Layersets:
+    /// - Monochrome
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static let appletvremoteGen3 = SFSymbol(rawValue: "appletvremote.gen3")
 
     /// 􀝪
     /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static let appletvremoteGen3Fill = SFSymbol(rawValue: "appletvremote.gen3.fill")
@@ -394,11 +445,17 @@ public extension SFSymbol {
     /// 􀼧
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
+    /// Layersets:
+    /// - Monochrome
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static let appletvremoteGen4 = SFSymbol(rawValue: "appletvremote.gen4")
 
     /// 􀼨
     /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static let appletvremoteGen4Fill = SFSymbol(rawValue: "appletvremote.gen4.fill")
@@ -426,6 +483,9 @@ public extension SFSymbol {
 
     /// 􁂊
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let arrowBackwardToLine = SFSymbol(rawValue: "arrow.backward.to.line")
 
     /// 􁂌
@@ -464,10 +524,16 @@ public extension SFSymbol {
 
     /// 􀅄
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let arrowDownToLineCompact = SFSymbol(rawValue: "arrow.down.to.line.compact")
 
     /// 􁂎
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let arrowForwardToLine = SFSymbol(rawValue: "arrow.forward.to.line")
 
     /// 􁂐
@@ -506,6 +572,9 @@ public extension SFSymbol {
 
     /// 􀅅
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let arrowLeftToLineCompact = SFSymbol(rawValue: "arrow.left.to.line.compact")
 
     /// 􀓌
@@ -527,6 +596,9 @@ public extension SFSymbol {
 
     /// 􀅆
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let arrowRightToLineCompact = SFSymbol(rawValue: "arrow.right.to.line.compact")
 
     /// 􀟩
@@ -556,18 +628,30 @@ public extension SFSymbol {
 
     /// 􀅃
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let arrowUpToLineCompact = SFSymbol(rawValue: "arrow.up.to.line.compact")
 
     /// 􀟦
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let arrowtriangleLeftAndLineVerticalAndArrowtriangleRightFill = SFSymbol(rawValue: "arrowtriangle.left.and.line.vertical.and.arrowtriangle.right.fill")
 
     /// 􀟧
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let arrowtriangleRightAndLineVerticalAndArrowtriangleLeftFill = SFSymbol(rawValue: "arrowtriangle.right.and.line.vertical.and.arrowtriangle.left.fill")
 
     /// 􀸓
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let asterisk = SFSymbol(rawValue: "asterisk")
 
     /// 􀺃
@@ -658,11 +742,17 @@ public extension SFSymbol {
     /// 􀹰
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
+    /// Layersets:
+    /// - Monochrome
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro case.
     static let beatsPowerbeatsproChargingcase = SFSymbol(rawValue: "beats.powerbeatspro.chargingcase")
 
     /// 􀹱
     /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro case.
     static let beatsPowerbeatsproChargingcaseFill = SFSymbol(rawValue: "beats.powerbeatspro.chargingcase.fill")
@@ -720,11 +810,17 @@ public extension SFSymbol {
     /// 􀾥
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
+    /// Layersets:
+    /// - Monochrome
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Studio Buds case.
     static let beatsStudiobudsChargingcase = SFSymbol(rawValue: "beats.studiobuds.chargingcase")
 
     /// 􀾦
     /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Studio Buds case.
     static let beatsStudiobudsChargingcaseFill = SFSymbol(rawValue: "beats.studiobuds.chargingcase.fill")
@@ -919,6 +1015,9 @@ public extension SFSymbol {
 
     /// 􀯐
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let brain = SFSymbol(rawValue: "brain")
 
     /// 􀯏
@@ -1021,14 +1120,23 @@ public extension SFSymbol {
 
     /// 􀴞
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let cableConnectorHorizontal = SFSymbol(rawValue: "cable.connector.horizontal")
 
     /// 􀷶
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let cablecar = SFSymbol(rawValue: "cablecar")
 
     /// 􀷷
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let cablecarFill = SFSymbol(rawValue: "cablecar.fill")
 
     /// 􁁃
@@ -1085,6 +1193,9 @@ public extension SFSymbol {
 
     /// 􀿶
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let capsuleBottomhalfFilled = SFSymbol(rawValue: "capsule.bottomhalf.filled")
 
     /// 􀾚
@@ -1097,10 +1208,16 @@ public extension SFSymbol {
 
     /// 􀿳
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let capsuleLefthalfFilled = SFSymbol(rawValue: "capsule.lefthalf.filled")
 
     /// 􀿺
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let capsulePortraitBottomhalfFilled = SFSymbol(rawValue: "capsule.portrait.bottomhalf.filled")
 
     /// 􀾛
@@ -1113,30 +1230,51 @@ public extension SFSymbol {
 
     /// 􀿷
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let capsulePortraitLefthalfFilled = SFSymbol(rawValue: "capsule.portrait.lefthalf.filled")
 
     /// 􀿸
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let capsulePortraitRighthalfFilled = SFSymbol(rawValue: "capsule.portrait.righthalf.filled")
 
     /// 􀿹
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let capsulePortraitTophalfFilled = SFSymbol(rawValue: "capsule.portrait.tophalf.filled")
 
     /// 􀿴
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let capsuleRighthalfFilled = SFSymbol(rawValue: "capsule.righthalf.filled")
 
     /// 􀿵
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let capsuleTophalfFilled = SFSymbol(rawValue: "capsule.tophalf.filled")
 
     /// 􀸌
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let carFerry = SFSymbol(rawValue: "car.ferry")
 
     /// 􀸍
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let carFerryFill = SFSymbol(rawValue: "car.ferry.fill")
 
     /// 􀑁
@@ -1173,6 +1311,9 @@ public extension SFSymbol {
 
     /// 􀵔
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let checkerboardShield = SFSymbol(rawValue: "checkerboard.shield")
 
     /// 􀷾
@@ -1230,18 +1371,30 @@ public extension SFSymbol {
 
     /// 􀙚
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let chevronLeftForwardslashChevronRight = SFSymbol(rawValue: "chevron.left.forwardslash.chevron.right")
 
     /// 􀠌
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let circleAndLineHorizontal = SFSymbol(rawValue: "circle.and.line.horizontal")
 
     /// 􀞍
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let circleAndLineHorizontalFill = SFSymbol(rawValue: "circle.and.line.horizontal.fill")
 
     /// 􀪖
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let circleBottomhalfFilled = SFSymbol(rawValue: "circle.bottomhalf.filled")
 
     /// 􀧒
@@ -1254,14 +1407,23 @@ public extension SFSymbol {
 
     /// 􁅃
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let circleDotted = SFSymbol(rawValue: "circle.dotted")
 
     /// 􀺇
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let circleGrid2x1 = SFSymbol(rawValue: "circle.grid.2x1")
 
     /// 􀺈
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let circleGrid2x1Fill = SFSymbol(rawValue: "circle.grid.2x1.fill")
 
     /// 􀺉
@@ -1331,6 +1493,9 @@ public extension SFSymbol {
 
     /// 􀙢
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let circleHexagongrid = SFSymbol(rawValue: "circle.hexagongrid")
 
     /// 􀷙
@@ -1360,10 +1525,16 @@ public extension SFSymbol {
 
     /// 􀬎
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let circleHexagonpath = SFSymbol(rawValue: "circle.hexagonpath")
 
     /// 􀬏
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let circleHexagonpathFill = SFSymbol(rawValue: "circle.hexagonpath.fill")
 
     /// 􀝜
@@ -1376,10 +1547,16 @@ public extension SFSymbol {
 
     /// 􀀂
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let circleLefthalfFilled = SFSymbol(rawValue: "circle.lefthalf.filled")
 
     /// 􀀃
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let circleRighthalfFilled = SFSymbol(rawValue: "circle.righthalf.filled")
 
     /// 􀻃
@@ -1408,6 +1585,9 @@ public extension SFSymbol {
 
     /// 􀪗
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let circleTophalfFilled = SFSymbol(rawValue: "circle.tophalf.filled")
 
     /// 􀹴
@@ -1464,14 +1644,23 @@ public extension SFSymbol {
 
     /// 􀺣
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let computermouse = SFSymbol(rawValue: "computermouse")
 
     /// 􀺤
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let computermouseFill = SFSymbol(rawValue: "computermouse.fill")
 
     /// 􀧓
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let cpuFill = SFSymbol(rawValue: "cpu.fill")
 
     /// 􁂨
@@ -1510,10 +1699,16 @@ public extension SFSymbol {
 
     /// 􀸘
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let cupAndSaucer = SFSymbol(rawValue: "cup.and.saucer")
 
     /// 􀸙
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let cupAndSaucerFill = SFSymbol(rawValue: "cup.and.saucer.fill")
 
     /// 􁂈
@@ -1571,6 +1766,9 @@ public extension SFSymbol {
 
     /// 􁀆
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let diamondBottomhalfFilled = SFSymbol(rawValue: "diamond.bottomhalf.filled")
 
     /// 􁇡
@@ -1599,14 +1797,23 @@ public extension SFSymbol {
 
     /// 􁀃
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let diamondLefthalfFilled = SFSymbol(rawValue: "diamond.lefthalf.filled")
 
     /// 􁀄
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let diamondRighthalfFilled = SFSymbol(rawValue: "diamond.righthalf.filled")
 
     /// 􁀅
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let diamondTophalfFilled = SFSymbol(rawValue: "diamond.tophalf.filled")
 
     /// 􀺴
@@ -1619,6 +1826,9 @@ public extension SFSymbol {
 
     /// 􀺵
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let diceFill = SFSymbol(rawValue: "dice.fill")
 
     /// 􀻖
@@ -1751,10 +1961,16 @@ public extension SFSymbol {
 
     /// 􀩽
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let docTextImage = SFSymbol(rawValue: "doc.text.image")
 
     /// 􀩾
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let docTextImageFill = SFSymbol(rawValue: "doc.text.image.fill")
 
     /// 􀎾
@@ -1791,6 +2007,9 @@ public extension SFSymbol {
 
     /// 􀼗
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let dotRadiowavesUpForward = SFSymbol(rawValue: "dot.radiowaves.up.forward")
 
     /// 􁇝
@@ -1867,10 +2086,16 @@ public extension SFSymbol {
 
     /// 􀹥
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let earbudsCase = SFSymbol(rawValue: "earbuds.case")
 
     /// 􀹦
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let earbudsCaseFill = SFSymbol(rawValue: "earbuds.case.fill")
 
     /// 􁇵
@@ -1998,26 +2223,44 @@ public extension SFSymbol {
 
     /// 􁁋
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let fanblades = SFSymbol(rawValue: "fanblades")
 
     /// 􁁌
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let fanbladesFill = SFSymbol(rawValue: "fanblades.fill")
 
     /// 􀸅
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let ferry = SFSymbol(rawValue: "ferry")
 
     /// 􀸆
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let ferryFill = SFSymbol(rawValue: "ferry.fill")
 
     /// 􀥢
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let fibrechannel = SFSymbol(rawValue: "fibrechannel")
 
     /// 􁈑
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let figureRoll = SFSymbol(rawValue: "figure.roll")
 
     /// 􀸊
@@ -2164,6 +2407,9 @@ public extension SFSymbol {
 
     /// 􀵞
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let fuelpump = SFSymbol(rawValue: "fuelpump")
 
     /// 􀵠
@@ -2185,6 +2431,9 @@ public extension SFSymbol {
 
     /// 􀵟
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let fuelpumpFill = SFSymbol(rawValue: "fuelpump.fill")
 
     /// 􁅦
@@ -2250,18 +2499,30 @@ public extension SFSymbol {
 
     /// 􀵱
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let globeAmericas = SFSymbol(rawValue: "globe.americas")
 
     /// 􀵲
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let globeAmericasFill = SFSymbol(rawValue: "globe.americas.fill")
 
     /// 􀵵
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let globeAsiaAustralia = SFSymbol(rawValue: "globe.asia.australia")
 
     /// 􀵶
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let globeAsiaAustraliaFill = SFSymbol(rawValue: "globe.asia.australia.fill")
 
     /// 􁅍
@@ -2274,10 +2535,16 @@ public extension SFSymbol {
 
     /// 􀵳
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let globeEuropeAfrica = SFSymbol(rawValue: "globe.europe.africa")
 
     /// 􀵴
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let globeEuropeAfricaFill = SFSymbol(rawValue: "globe.europe.africa.fill")
 
     /// 􀶱
@@ -2479,28 +2746,46 @@ public extension SFSymbol {
 
     /// 􁀿
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let hexagonBottomhalfFilled = SFSymbol(rawValue: "hexagon.bottomhalf.filled")
 
     /// 􁀉
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let hexagonLefthalfFilled = SFSymbol(rawValue: "hexagon.lefthalf.filled")
 
     /// 􁀊
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let hexagonRighthalfFilled = SFSymbol(rawValue: "hexagon.righthalf.filled")
 
     /// 􁀾
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let hexagonTophalfFilled = SFSymbol(rawValue: "hexagon.tophalf.filled")
 
     /// 􀻻
     /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static let hifispeakerAndAppletv = SFSymbol(rawValue: "hifispeaker.and.appletv")
 
     /// 􀻼
     /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static let hifispeakerAndAppletvFill = SFSymbol(rawValue: "hifispeaker.and.appletv.fill")
@@ -2837,6 +3122,9 @@ public extension SFSymbol {
 
     /// 􀺑
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let keyboardFill = SFSymbol(rawValue: "keyboard.fill")
 
     /// 􀦔
@@ -2921,10 +3209,16 @@ public extension SFSymbol {
 
     /// 􀰵
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let lanyardcard = SFSymbol(rawValue: "lanyardcard")
 
     /// 􀰶
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let lanyardcardFill = SFSymbol(rawValue: "lanyardcard.fill")
 
     /// 􀶿
@@ -3005,6 +3299,9 @@ public extension SFSymbol {
 
     /// 􀌇
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let line3Horizontal = SFSymbol(rawValue: "line.3.horizontal")
 
     /// 􀧱
@@ -3026,6 +3323,9 @@ public extension SFSymbol {
 
     /// 􀜓
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let line3HorizontalDecrease = SFSymbol(rawValue: "line.3.horizontal.decrease")
 
     /// 􀌈
@@ -3047,6 +3347,9 @@ public extension SFSymbol {
 
     /// 􀰬
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let linesMeasurementHorizontal = SFSymbol(rawValue: "lines.measurement.horizontal")
 
     /// 􀻧
@@ -3100,6 +3403,9 @@ public extension SFSymbol {
 
     /// 􁈟
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let locationMagnifyingglass = SFSymbol(rawValue: "location.magnifyingglass")
 
     /// 􀷌
@@ -3231,11 +3537,17 @@ public extension SFSymbol {
     /// 􀾈
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
+    /// Layersets:
+    /// - Monochrome
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Sony’s Playstation.
     static let logoPlaystation = SFSymbol(rawValue: "logo.playstation")
 
     /// 􀾉
     /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Microsoft’s Xbox.
     static let logoXbox = SFSymbol(rawValue: "logo.xbox")
@@ -3243,31 +3555,49 @@ public extension SFSymbol {
     /// 􀼢
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
+    /// Layersets:
+    /// - Monochrome
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Mac Pro.
     static let macproGen1Fill = SFSymbol(rawValue: "macpro.gen1.fill")
 
     /// 􀼣
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
+    /// Layersets:
+    /// - Monochrome
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Mac Pro.
     static let macproGen3Fill = SFSymbol(rawValue: "macpro.gen3.fill")
 
     /// 􁂾
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let magazine = SFSymbol(rawValue: "magazine")
 
     /// 􁂿
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let magazineFill = SFSymbol(rawValue: "magazine.fill")
 
     /// 􀺰
     /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Magic Mouse.
     static let magicmouse = SFSymbol(rawValue: "magicmouse")
 
     /// 􀺱
     /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Magic Mouse.
     static let magicmouseFill = SFSymbol(rawValue: "magicmouse.fill")
@@ -3353,14 +3683,23 @@ public extension SFSymbol {
 
     /// 􀧖
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let memorychipFill = SFSymbol(rawValue: "memorychip.fill")
 
     /// 􀻒
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let menucard = SFSymbol(rawValue: "menucard")
 
     /// 􀻓
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let menucardFill = SFSymbol(rawValue: "menucard.fill")
 
     /// 􀼁
@@ -3438,6 +3777,9 @@ public extension SFSymbol {
 
     /// 􀅻
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let minusForwardslashPlus = SFSymbol(rawValue: "minus.forwardslash.plus")
 
     /// 􁁑
@@ -3499,22 +3841,37 @@ public extension SFSymbol {
 
     /// 􁀽
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let octagonBottomhalfFilled = SFSymbol(rawValue: "octagon.bottomhalf.filled")
 
     /// 􁀇
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let octagonLefthalfFilled = SFSymbol(rawValue: "octagon.lefthalf.filled")
 
     /// 􁀈
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let octagonRighthalfFilled = SFSymbol(rawValue: "octagon.righthalf.filled")
 
     /// 􁀼
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let octagonTophalfFilled = SFSymbol(rawValue: "octagon.tophalf.filled")
 
     /// 􀿾
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let ovalBottomhalfFilled = SFSymbol(rawValue: "oval.bottomhalf.filled")
 
     /// 􀾜
@@ -3527,10 +3884,16 @@ public extension SFSymbol {
 
     /// 􀿻
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let ovalLefthalfFilled = SFSymbol(rawValue: "oval.lefthalf.filled")
 
     /// 􁀂
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let ovalPortraitBottomhalfFilled = SFSymbol(rawValue: "oval.portrait.bottomhalf.filled")
 
     /// 􀾝
@@ -3543,30 +3906,51 @@ public extension SFSymbol {
 
     /// 􀿿
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let ovalPortraitLefthalfFilled = SFSymbol(rawValue: "oval.portrait.lefthalf.filled")
 
     /// 􁀀
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let ovalPortraitRighthalfFilled = SFSymbol(rawValue: "oval.portrait.righthalf.filled")
 
     /// 􁀁
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let ovalPortraitTophalfFilled = SFSymbol(rawValue: "oval.portrait.tophalf.filled")
 
     /// 􀿼
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let ovalRighthalfFilled = SFSymbol(rawValue: "oval.righthalf.filled")
 
     /// 􀿽
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let ovalTophalfFilled = SFSymbol(rawValue: "oval.tophalf.filled")
 
     /// 􀸏
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let parentheses = SFSymbol(rawValue: "parentheses")
 
     /// 􀵢
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let parkingsign = SFSymbol(rawValue: "parkingsign")
 
     /// 􀷁
@@ -3588,6 +3972,9 @@ public extension SFSymbol {
 
     /// 􀾞
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let pawprint = SFSymbol(rawValue: "pawprint")
 
     /// 􁂰
@@ -3608,42 +3995,72 @@ public extension SFSymbol {
 
     /// 􀾟
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let pawprintFill = SFSymbol(rawValue: "pawprint.fill")
 
     /// 􀺎
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let peacesign = SFSymbol(rawValue: "peacesign")
 
     /// 􀶺
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let pentagon = SFSymbol(rawValue: "pentagon")
 
     /// 􁀻
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let pentagonBottomhalfFilled = SFSymbol(rawValue: "pentagon.bottomhalf.filled")
 
     /// 􀶻
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let pentagonFill = SFSymbol(rawValue: "pentagon.fill")
 
     /// 􁀋
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let pentagonLefthalfFilled = SFSymbol(rawValue: "pentagon.lefthalf.filled")
 
     /// 􁀌
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let pentagonRighthalfFilled = SFSymbol(rawValue: "pentagon.righthalf.filled")
 
     /// 􁀺
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let pentagonTophalfFilled = SFSymbol(rawValue: "pentagon.tophalf.filled")
 
     /// 􀓥
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let person2CropSquareStack = SFSymbol(rawValue: "person.2.crop.square.stack")
 
     /// 􀓦
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let person2CropSquareStackFill = SFSymbol(rawValue: "person.2.crop.square.stack.fill")
 
     /// 􀾌
@@ -3774,10 +4191,16 @@ public extension SFSymbol {
 
     /// 􀏻
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let personCropRectangleStack = SFSymbol(rawValue: "person.crop.rectangle.stack")
 
     /// 􀏼
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let personCropRectangleStackFill = SFSymbol(rawValue: "person.crop.rectangle.stack.fill")
 
     /// 􀦎
@@ -4040,6 +4463,9 @@ public extension SFSymbol {
 
     /// 􀅺
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let plusForwardslashMinus = SFSymbol(rawValue: "plus.forwardslash.minus")
 
     /// 􀤱
@@ -4118,30 +4544,51 @@ public extension SFSymbol {
 
     /// 􀆩
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let powerDotted = SFSymbol(rawValue: "power.dotted")
 
     /// 􀡷
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let powerplug = SFSymbol(rawValue: "powerplug")
 
     /// 􀡸
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let powerplugFill = SFSymbol(rawValue: "powerplug.fill")
 
     /// 􀪿
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let printerDotmatrixFilledAndPaper = SFSymbol(rawValue: "printer.dotmatrix.filled.and.paper")
 
     /// 􀪾
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let printerFilledAndPaper = SFSymbol(rawValue: "printer.filled.and.paper")
 
     /// 􀥭
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let puzzlepieceExtension = SFSymbol(rawValue: "puzzlepiece.extension")
 
     /// 􀥮
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let puzzlepieceExtensionFill = SFSymbol(rawValue: "puzzlepiece.extension.fill")
 
     /// 􀿨
@@ -4182,10 +4629,16 @@ public extension SFSymbol {
 
     /// 􁈐
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let quoteClosing = SFSymbol(rawValue: "quote.closing")
 
     /// 􁈏
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let quoteOpening = SFSymbol(rawValue: "quote.opening")
 
     /// 􀦕
@@ -4286,6 +4739,9 @@ public extension SFSymbol {
 
     /// 􀇴
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let rectangle3Group = SFSymbol(rawValue: "rectangle.3.group")
 
     /// 􀬄
@@ -4306,6 +4762,9 @@ public extension SFSymbol {
 
     /// 􀚅
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let rectangle3GroupFill = SFSymbol(rawValue: "rectangle.3.group.fill")
 
     /// 􀪤
@@ -4334,6 +4793,9 @@ public extension SFSymbol {
 
     /// 􀿰
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let rectangleBottomhalfFilled = SFSymbol(rawValue: "rectangle.bottomhalf.filled")
 
     /// 􀾯
@@ -4366,7 +4828,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    /// - Multicolor (3.1 – iOS 15.1)
+    /// - Multicolor (iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1)
     static let rectangleCenterInsetFilledBadgePlus = SFSymbol(rawValue: "rectangle.center.inset.filled.badge.plus")
 
     /// 􀪦
@@ -4491,6 +4953,9 @@ public extension SFSymbol {
 
     /// 􀤶
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let rectangleLefthalfFilled = SFSymbol(rawValue: "rectangle.lefthalf.filled")
 
     /// 􀤴
@@ -4585,10 +5050,16 @@ public extension SFSymbol {
 
     /// 􀻶
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let rectanglePortraitAndArrowRightFill = SFSymbol(rawValue: "rectangle.portrait.and.arrow.right.fill")
 
     /// 􀿲
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let rectanglePortraitBottomhalfFilled = SFSymbol(rawValue: "rectangle.portrait.bottomhalf.filled")
 
     /// 􀽺
@@ -4673,6 +5144,9 @@ public extension SFSymbol {
 
     /// 􀿬
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let rectanglePortraitLefthalfFilled = SFSymbol(rawValue: "rectangle.portrait.lefthalf.filled")
 
     /// 􀾄
@@ -4725,6 +5199,9 @@ public extension SFSymbol {
 
     /// 􀿭
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let rectanglePortraitRighthalfFilled = SFSymbol(rawValue: "rectangle.portrait.righthalf.filled")
 
     /// 􀾅
@@ -4761,10 +5238,16 @@ public extension SFSymbol {
 
     /// 􀽴
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let rectanglePortraitSplit2x1 = SFSymbol(rawValue: "rectangle.portrait.split.2x1")
 
     /// 􀽵
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let rectanglePortraitSplit2x1Fill = SFSymbol(rawValue: "rectangle.portrait.split.2x1.fill")
 
     /// 􀽶
@@ -4785,6 +5268,9 @@ public extension SFSymbol {
 
     /// 􀿱
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let rectanglePortraitTophalfFilled = SFSymbol(rawValue: "rectangle.portrait.tophalf.filled")
 
     /// 􀽹
@@ -4853,6 +5339,9 @@ public extension SFSymbol {
 
     /// 􀤷
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let rectangleRighthalfFilled = SFSymbol(rawValue: "rectangle.righthalf.filled")
 
     /// 􀤵
@@ -4921,6 +5410,9 @@ public extension SFSymbol {
 
     /// 􀿯
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let rectangleTophalfFilled = SFSymbol(rawValue: "rectangle.tophalf.filled")
 
     /// 􀾮
@@ -4974,10 +5466,16 @@ public extension SFSymbol {
 
     /// 􁂆
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let returnLeft = SFSymbol(rawValue: "return.left")
 
     /// 􁂇
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let returnRight = SFSymbol(rawValue: "return.right")
 
     /// 􁇔
@@ -4998,14 +5496,23 @@ public extension SFSymbol {
 
     /// 􁈌
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let scooter = SFSymbol(rawValue: "scooter")
 
     /// 􀤈
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let screwdriver = SFSymbol(rawValue: "screwdriver")
 
     /// 􀤉
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let screwdriverFill = SFSymbol(rawValue: "screwdriver.fill")
 
     /// 􁁝
@@ -5046,6 +5553,9 @@ public extension SFSymbol {
 
     /// 􀙨
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let shieldLefthalfFilled = SFSymbol(rawValue: "shield.lefthalf.filled")
 
     /// 􀲊
@@ -5058,6 +5568,9 @@ public extension SFSymbol {
 
     /// 􀿮
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let shieldRighthalfFilled = SFSymbol(rawValue: "shield.righthalf.filled")
 
     /// 􁇈
@@ -5152,6 +5665,9 @@ public extension SFSymbol {
 
     /// 􁇥
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let sparkleMagnifyingglass = SFSymbol(rawValue: "sparkle.magnifyingglass")
 
     /// 􀰙
@@ -5296,6 +5812,9 @@ public extension SFSymbol {
 
     /// 􀪚
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let squareBottomhalfFilled = SFSymbol(rawValue: "square.bottomhalf.filled")
 
     /// 􀧑
@@ -5308,6 +5827,9 @@ public extension SFSymbol {
 
     /// 􀐒
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let squareFillAndLineVerticalAndSquareFill = SFSymbol(rawValue: "square.fill.and.line.vertical.and.square.fill")
 
     /// 􀐓
@@ -5328,6 +5850,9 @@ public extension SFSymbol {
 
     /// 􀤲
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let squareGrid3x1BelowLineGrid1x2Fill = SFSymbol(rawValue: "square.grid.3x1.below.line.grid.1x2.fill")
 
     /// 􀦺
@@ -5420,10 +5945,16 @@ public extension SFSymbol {
 
     /// 􀚓
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let squareLefthalfFilled = SFSymbol(rawValue: "square.lefthalf.filled")
 
     /// 􀚔
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let squareRighthalfFilled = SFSymbol(rawValue: "square.righthalf.filled")
 
     /// 􀻡
@@ -5444,6 +5975,9 @@ public extension SFSymbol {
 
     /// 􀪛
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let squareTophalfFilled = SFSymbol(rawValue: "square.tophalf.filled")
 
     /// 􁂪
@@ -5464,6 +5998,9 @@ public extension SFSymbol {
 
     /// 􀋄
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let starLeadinghalfFilled = SFSymbol(rawValue: "star.leadinghalf.filled")
 
     /// 􁇄
@@ -5484,6 +6021,9 @@ public extension SFSymbol {
 
     /// 􀶉
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let suitcase = SFSymbol(rawValue: "suitcase")
 
     /// 􀶋
@@ -5504,6 +6044,9 @@ public extension SFSymbol {
 
     /// 􀶊
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let suitcaseFill = SFSymbol(rawValue: "suitcase.fill")
 
     /// 􀻞
@@ -5653,34 +6196,58 @@ public extension SFSymbol {
 
     /// 􀼮
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let trainSideFrontCar = SFSymbol(rawValue: "train.side.front.car")
 
     /// 􀼯
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let trainSideMiddleCar = SFSymbol(rawValue: "train.side.middle.car")
 
     /// 􀼰
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let trainSideRearCar = SFSymbol(rawValue: "train.side.rear.car")
 
     /// 􀜝
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let tramFillTunnel = SFSymbol(rawValue: "tram.fill.tunnel")
 
     /// 􀡛
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let trapezoidAndLineHorizontal = SFSymbol(rawValue: "trapezoid.and.line.horizontal")
 
     /// 􀞑
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let trapezoidAndLineHorizontalFill = SFSymbol(rawValue: "trapezoid.and.line.horizontal.fill")
 
     /// 􀡠
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let trapezoidAndLineVertical = SFSymbol(rawValue: "trapezoid.and.line.vertical")
 
     /// 􀞐
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let trapezoidAndLineVerticalFill = SFSymbol(rawValue: "trapezoid.and.line.vertical.fill")
 
     /// 􀿍
@@ -5739,6 +6306,9 @@ public extension SFSymbol {
 
     /// 􁀹
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let triangleBottomhalfFilled = SFSymbol(rawValue: "triangle.bottomhalf.filled")
 
     /// 􀾙
@@ -5751,22 +6321,37 @@ public extension SFSymbol {
 
     /// 􀚕
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let triangleLefthalfFilled = SFSymbol(rawValue: "triangle.lefthalf.filled")
 
     /// 􀚖
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let triangleRighthalfFilled = SFSymbol(rawValue: "triangle.righthalf.filled")
 
     /// 􁀸
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let triangleTophalfFilled = SFSymbol(rawValue: "triangle.tophalf.filled")
 
     /// 􀾠
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let tshirt = SFSymbol(rawValue: "tshirt")
 
     /// 􀾡
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let tshirtFill = SFSymbol(rawValue: "tshirt.fill")
 
     /// 􀷘

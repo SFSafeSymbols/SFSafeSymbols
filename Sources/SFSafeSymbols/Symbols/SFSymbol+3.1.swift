@@ -77,17 +77,29 @@ public extension SFSymbol {
 
     /// 􁉀
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let textJustifyLeading = SFSymbol(rawValue: "text.justify.leading")
 
     /// 􀌄
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let textJustifyLeft = SFSymbol(rawValue: "text.justify.left")
 
     /// 􀌅
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let textJustifyRight = SFSymbol(rawValue: "text.justify.right")
 
     /// 􁉁
     /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
     static let textJustifyTrailing = SFSymbol(rawValue: "text.justify.trailing")
 }
