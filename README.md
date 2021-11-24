@@ -47,13 +47,12 @@
 
 `SFSafeSymbols` supports multiple SF Symbols versions at the same time by utilizing the `@availability` flag. The following versions are currently supported:
 
-- SF Symbols 1.0 (`@available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)`)
-- SF Symbols 2.0 (`@available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)`)
-- SF Symbols 2.1 (`@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)`)
-- SF Symbols 2.2 (`@available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *)`)
-- SF Symbols 3.0 (`@available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *)`)
-- SF Symbols 3.1 (`@available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *)`)
-
+- SF Symbols 1.0 (iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0)
+- SF Symbols 2.0 (iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0)
+- SF Symbols 2.1 (iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1)
+- SF Symbols 2.2 (iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4)
+- SF Symbols 3.0 (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+- SF Symbols 3.1 (iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1)
 
 ## Motivation
 
@@ -64,6 +63,8 @@ UIImage(systemName: "circle.fill")
 ```
 
 It didn't take long until [first ideas came up](https://twitter.com/simjp/status/1135642837322588161?s=12) to make these icons accessible in a safe way using a framework. And this is just what `SFSafeSymbols` does!
+
+Additionally, every symbol is documented in code so that lookups in the SF Symbols app (e. g. about available layersets, available localizations & the look of the symbol) are no longer needed.
 
 ## Installation
 
