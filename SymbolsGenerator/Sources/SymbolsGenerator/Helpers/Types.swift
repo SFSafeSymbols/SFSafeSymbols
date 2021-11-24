@@ -13,6 +13,7 @@ struct Symbol {
     var preview: String?
     var availability: Availability
     var availableLocalizations: [Availability: Set<String>]
+    var availableLayersets: [Availability: Set<String>]
     var type: SymbolType
     var propertyName: String { name.toPropertyName }
 }
@@ -20,7 +21,6 @@ struct Symbol {
 enum SymbolType {
   case normal
   case replacement(for: ScannedSymbol)
-  // TODO: `replaced(by: [ScannedSymbol])` to support multiple renamings
   case replaced(by: ScannedSymbol)
 }
 
@@ -48,4 +48,10 @@ struct Availability: Comparable, Equatable, Hashable {
     static func == (lhs: Availability, rhs: Availability) -> Bool {
         return lhs.year == rhs.year
     }
+}
+
+/// A single layerset availability specification when scanned from the layerset plist
+struct LayersetAvailability {
+    var name: String
+    var availability: Availability
 }
