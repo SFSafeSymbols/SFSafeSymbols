@@ -185,7 +185,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -199,7 +199,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -1320,7 +1320,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:

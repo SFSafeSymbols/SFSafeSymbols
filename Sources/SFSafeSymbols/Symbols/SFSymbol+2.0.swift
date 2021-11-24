@@ -325,7 +325,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -1542,7 +1542,7 @@ public extension SFSymbol {
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -1866,7 +1866,7 @@ public extension SFSymbol {
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -2906,7 +2906,7 @@ public extension SFSymbol {
     /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -2992,7 +2992,7 @@ public extension SFSymbol {
     /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left (iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1)
     ///
     /// Layersets:
@@ -3003,7 +3003,7 @@ public extension SFSymbol {
     /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left (iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1)
     ///
     /// Layersets:
@@ -3683,7 +3683,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -5087,7 +5087,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -5106,7 +5106,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -5663,7 +5663,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -5717,7 +5717,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -6274,7 +6274,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -6286,7 +6286,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -7094,7 +7094,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -7106,7 +7106,7 @@ public extension SFSymbol {
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -7867,7 +7867,7 @@ public extension SFSymbol {
     /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left (iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1)
     ///
     /// Layersets:
@@ -7878,7 +7878,7 @@ public extension SFSymbol {
     /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left (iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1)
     ///
     /// Layersets:
@@ -7903,7 +7903,7 @@ public extension SFSymbol {
     /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:

@@ -5904,7 +5904,7 @@ public extension SFSymbol {
     /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left (iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0)
     ///
     /// Layersets:
@@ -9571,7 +9571,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left (iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0)
     ///
     /// Layersets:
@@ -10707,7 +10707,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left (iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0)
     ///
     /// Layersets:
@@ -10719,7 +10719,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left (iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0)
     ///
     /// Layersets:
@@ -11733,7 +11733,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -11745,7 +11745,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -11757,7 +11757,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -11769,7 +11769,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left
     ///
     /// Layersets:
@@ -12722,7 +12722,7 @@ public extension SFSymbol {
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left (iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0)
     ///
     /// Layersets:
@@ -12771,7 +12771,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left (iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0)
     ///
     /// Layersets:
@@ -12783,7 +12783,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left (iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0)
     ///
     /// Layersets:
@@ -12855,7 +12855,7 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-To-Right
     /// - Right-To-Left (iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0)
     ///
     /// Layersets:

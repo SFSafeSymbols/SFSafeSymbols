@@ -177,7 +177,10 @@ let symbolToCode: (Symbol) -> String = { symbol in
 
     // Generate localization docs based on the assumption that localizations don't get removed
     if !completeLocalizations.isEmpty { // Omit localization block if only the Latin localization is available
-        outputString += "\t///\n\t/// Localizations:\n\t/// - Latin\n"
+        // Use "Left-to-Right" name for the standard localization if "Right-To-Left" is the only other localization
+        let standardLocalizationName = completeLocalizations.values.reduce(Set()) { $0.union($1) } == ["Right-To-Left"] ? "Left-To-Right" : "Latin"
+
+        outputString += "\t///\n\t/// Localizations:\n\t/// - \(standardLocalizationName)\n"
         var handledLocalizations: Set<String> = .init()
         for (availability, localizations) in completeLocalizations.sorted(by: { $0.0 > $1.0 }) {
             let newLocalizations = localizations.subtracting(handledLocalizations)
