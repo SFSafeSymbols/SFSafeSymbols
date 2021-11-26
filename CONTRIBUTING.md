@@ -14,7 +14,7 @@ When issuing a pull request, please add a summary of your changes to the `CHANGE
 
 ## Git
 
-Please use the `work/*` branch naming scheme for any changes and write meaningful **commit messages** (see rationale [here](http://chris.beams.io/posts/git-commit/)).
+Please write **meaningful commit messages** (see rationale [here](http://chris.beams.io/posts/git-commit/)).
 
 ## Updating to a new SF Symbols version
 
