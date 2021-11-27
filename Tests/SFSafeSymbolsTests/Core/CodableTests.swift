@@ -1,9 +1,3 @@
-//
-//  CodableTests.swift
-//  SFSafeSymbols
-//
-//  Created by Steven on 4/27/21.
-//
 
 @testable import SFSafeSymbols
 import XCTest
@@ -33,4 +27,4 @@ class CodableTests: XCTestCase {
 }
 
 @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-extension SFSymbol: Codable {}
+extension SFSymbol: Codable { }

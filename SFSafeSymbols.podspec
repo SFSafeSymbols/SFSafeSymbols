@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version = '2.1.3'
   spec.summary = "Safely access Apple's SF Symbols using static typing"
 
-  spec.homepage = 'https://github.com/piknotech/SFSafeSymbols'
+  spec.homepage = 'https://github.com/SFSafeSymbols/SFSafeSymbols'
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
 
   spec.author = { 'Frederick Pietschmann' => 'cocoapods@fredpi.de' }
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 
   spec.swift_version = '5.3'
 
-  spec.source = { :git => "https://github.com/piknotech/SFSafeSymbols.git", :tag => "#{spec.version}" }
+  spec.source = { :git => "https://github.com/SFSafeSymbols/SFSafeSymbols.git", :tag => "#{spec.version}" }
   spec.source_files = 'Sources/**/*'
 
   spec.weak_framework = 'SwiftUI'
