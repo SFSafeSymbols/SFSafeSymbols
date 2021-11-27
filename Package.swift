@@ -1,13 +1,12 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.3
 
 import PackageDescription
 
 let package = Package(
     name: "SFSafeSymbols",
-    platforms: [.iOS(.v11), .tvOS(.v11), .watchOS(.v6), .macOS(.v10_13)],
+    platforms: [.iOS(.v10), .tvOS(.v10), .watchOS(.v3), .macOS(.v10_12)],
     products: [
-        .library(name: "SFSafeSymbols", type: .static, targets: ["SFSafeSymbols"]),
-        .library(name: "SFSafeSymbols-Dynamic", type: .dynamic, targets: ["SFSafeSymbols"])
+        .library(name: "SFSafeSymbols", targets: ["SFSafeSymbols"]),
     ],
     dependencies: [],
     targets: [
