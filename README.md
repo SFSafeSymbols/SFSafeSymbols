@@ -33,7 +33,7 @@
 </p>
 
 <p align="center">
-    <a href="#idea-&-features">Idea & Features</a>
+    <a href="#idea--features">Idea & Features</a>
   • <a href="#supported-versions">Supported Versions</a>
   • <a href="#installation">Installation</a>
   • <a href="#usage">Usage</a>
