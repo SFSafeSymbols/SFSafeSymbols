@@ -2,7 +2,7 @@
 
 This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-Bug reports and suggestions for improvements are welcome! For this, please [raise an issue on GitHub](https://github.com/piknotech/SFSafeSymbols/issues). [Pull requests](https://github.com/piknotech/SFSafeSymbols/pulls) are also very much welcome. However, for non-trivial changes, please make sure to raise an issue before opening up a PR that addresses the issue.
+Bug reports and suggestions for improvements are welcome! For this, please [raise an issue on GitHub](https://github.com/SFSafeSymbols/SFSafeSymbols/issues). [Pull requests](https://github.com/SFSafeSymbols/SFSafeSymbols/pulls) are also very much welcome. However, for non-trivial changes, please make sure to raise an issue before opening up a PR that addresses the issue.
 
 ## Core Contributors
 
