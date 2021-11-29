@@ -77,7 +77,7 @@ The following SF Symbols versions are currently supported:
 
 `SFSafeSymbols` can be installed via the **Swift Package Manager (recommended)**, Carthage or CocoaPods.
 
-Supported platforms are `iOS (10.0+)`, `macOS (10.12+)`, `tvOS (10.0+)` and `watchOS (3.0+)`, although the actual functionality is of course only accessible starting with `iOS 13.0`, `macOS 11.0`, `tvOS 13.0` and `watchOS 6.0`.
+Supported platforms are `iOS (11.0+)`, `macOS (10.13+)`, `tvOS (11.0+)` and `watchOS (4.0+)`, although the actual functionality is of course only accessible starting with `iOS 13.0`, `macOS 11.0`, `tvOS 13.0` and `watchOS 6.0`.
 
 ### Swift Package Manager (Xcode-integrated)
 

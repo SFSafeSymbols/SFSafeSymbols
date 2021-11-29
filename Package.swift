@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "SFSafeSymbols",
-    platforms: [.iOS(.v10), .tvOS(.v10), .watchOS(.v3), .macOS(.v10_12)],
+    platforms: [.iOS(.v11), .tvOS(.v11), .watchOS(.v4), .macOS(.v10_13)],
     products: [
         .library(name: "SFSafeSymbols", targets: ["SFSafeSymbols"]),
     ],
