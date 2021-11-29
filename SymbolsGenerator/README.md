@@ -1,4 +1,4 @@
-# SymbolEnumCreator
+# SymbolsGenerator
 
 This command line tool creates most of the `SFSafeSymbols` code by converting the input files to Swift code.
 
