@@ -32,10 +32,10 @@ else {
     fatalError("Error reading input files")
 }
 
-/*guard CommandLine.argc > 1 else {
+guard CommandLine.argc > 1 else {
     fatalError("Invalid output Directory")
-}*/
-let outputDir = URL(fileURLWithPath: "/Users/David/Desktop/A", isDirectory: true)
+}
+let outputDir = URL(fileURLWithPath: CommandLine.arguments[1], isDirectory: true)
 
 // MARK: - Step 2: MERGE INTO SINGLE DATABASE
 
