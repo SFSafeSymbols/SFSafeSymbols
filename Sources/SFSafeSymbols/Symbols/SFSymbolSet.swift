@@ -1,12 +1,12 @@
-/// A collection encompassing all SFSymbols.
+/// A collection encompassing all SFSymbols and providing access to localizations.
 @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-public struct SymbolSet {
-    internal var elements: [SFSymbol]
+public struct SFSymbolSet {
+    internal var elements: Set<SFSymbol>
 }
 
 // MARK: Sequence
 @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-extension SymbolSet: Sequence {
+extension SFSymbolSet: Sequence {
     public typealias Iterator = AnyIterator<SFSymbol>
 
     public func makeIterator() -> Iterator {
@@ -17,8 +17,8 @@ extension SymbolSet: Sequence {
 
 // MARK: Collection
 @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-extension SymbolSet: Collection {
-    public typealias Index = Array<SFSymbol>.Index
+extension SFSymbolSet: Collection {
+    public typealias Index = Set<SFSymbol>.Index
 
     public var startIndex: Index { elements.startIndex }
     public var endIndex: Index { elements.endIndex }

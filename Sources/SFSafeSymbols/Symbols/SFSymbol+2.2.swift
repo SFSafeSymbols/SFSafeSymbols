@@ -40,7 +40,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterBubble: SFSymbol & he_v22 & ar_v22 & ja_v30 & ko_v30 & zhTraditional_v30 & th_v30 & hi_v30 & zh_v30 = LocalizableSymbol(rawValue: "character.bubble")
+    static let characterBubble: SFSymbol & ko_v30 & ja_v30 & th_v30 & hi_v30 & zh_v30 & zhTraditional_v30 & ar_v22 & he_v22 = LocalizableSymbol(rawValue: "character.bubble")
 
     /// 􀌱
     /// 9 Localizations, 2 Layersets
@@ -59,7 +59,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterBubbleFill: SFSymbol & ar_v22 & he_v22 & zh_v30 & ja_v30 & zhTraditional_v30 & hi_v30 & ko_v30 & th_v30 = LocalizableSymbol(rawValue: "character.bubble.fill")
+    static let characterBubbleFill: SFSymbol & zh_v30 & ko_v30 & hi_v30 & th_v30 & zhTraditional_v30 & ja_v30 & ar_v22 & he_v22 = LocalizableSymbol(rawValue: "character.bubble.fill")
 
     /// 􀅫
     /// 9 Localizations, 2 Layersets
@@ -78,7 +78,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterCursorIbeam: SFSymbol & zhTraditional_v22 & th_v22 & zh_v22 & ko_v22 & ar_v22 & he_v22 & ja_v22 & hi_v22 = LocalizableSymbol(rawValue: "character.cursor.ibeam")
+    static let characterCursorIbeam: SFSymbol & th_v22 & ar_v22 & he_v22 & ko_v22 & zh_v22 & hi_v22 & zhTraditional_v22 & ja_v22 = LocalizableSymbol(rawValue: "character.cursor.ibeam")
 
     /// 􀅶
     /// 9 Localizations, 2 Layersets
@@ -97,7 +97,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterTextbox: SFSymbol & ja_v22 & ko_v22 & zhTraditional_v22 & zh_v22 & he_v22 & ar_v22 & hi_v22 & th_v22 = LocalizableSymbol(rawValue: "character.textbox")
+    static let characterTextbox: SFSymbol & zhTraditional_v22 & ja_v22 & he_v22 & th_v22 & ko_v22 & hi_v22 & ar_v22 & zh_v22 = LocalizableSymbol(rawValue: "character.textbox")
 
     /// 􀷭
     /// Single Localization, 2 Layersets, ⚠️ Restricted

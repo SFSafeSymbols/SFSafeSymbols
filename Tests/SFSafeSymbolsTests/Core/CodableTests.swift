@@ -9,7 +9,7 @@ class CodableTests: XCTestCase {
     }
 
     func testEncoding() throws {
-        let randomSymbol = SFSymbol.allSymbols.randomElement()!
+        let randomSymbol = SFSymbol.allSymbols.allLocalizedVariants.randomElement()!
         print("Testing encoding of \(randomSymbol.rawValue)")
         let jsonData = #"{"foo":"\#(randomSymbol.rawValue)"}"#.data(using: .utf8)
         let wrapper = SymbolWrapper(foo: randomSymbol)
@@ -18,7 +18,7 @@ class CodableTests: XCTestCase {
     }
 
     func testDecoding() throws {
-        let randomSymbol = SFSymbol.allSymbols.randomElement()!
+        let randomSymbol = SFSymbol.allSymbols.allLocalizedVariants.randomElement()!
         print("Testing decoding of \(randomSymbol.rawValue)")
         let jsonData = #"{"foo":"\#(randomSymbol.rawValue)"}"#.data(using: .utf8)
         let symbol = try jsonData.flatMap { try JSONDecoder().decode(SymbolWrapper.self, from: $0) }

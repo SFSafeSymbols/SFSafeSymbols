@@ -404,7 +404,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let _1Magnifyingglass: SFSymbol & ar_v20 & hi_v30 = LocalizableSymbol(rawValue: "1.magnifyingglass")
+    static let _1Magnifyingglass: SFSymbol & hi_v30 & ar_v20 = LocalizableSymbol(rawValue: "1.magnifyingglass")
 
     /// 􀃊
     /// Single Localization, 2 Layersets
@@ -5979,7 +5979,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let docRichtext: SFSymbol & ar_v20 & he_v20 & zh_v30 & zhTraditional_v30 & hi_v30 & th_v30 & ko_v30 & ja_v30 = LocalizableSymbol(rawValue: "doc.richtext")
+    static let docRichtext: SFSymbol & ar_v20 & he_v20 & hi_v30 & zh_v30 & ja_v30 & ko_v30 & th_v30 & zhTraditional_v30 = LocalizableSymbol(rawValue: "doc.richtext")
 
     /// 􀈿
     /// Single Localization, Single Layerset
@@ -7100,7 +7100,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let gobackward10: SFSymbol & hi & ar = LocalizableSymbol(rawValue: "gobackward.10")
+    static let gobackward10: SFSymbol & ar & hi = LocalizableSymbol(rawValue: "gobackward.10")
 
     /// 􀎄
     /// 3 Localizations, 2 Layersets
@@ -7126,7 +7126,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let gobackward30: SFSymbol & ar & hi = LocalizableSymbol(rawValue: "gobackward.30")
+    static let gobackward30: SFSymbol & hi & ar = LocalizableSymbol(rawValue: "gobackward.30")
 
     /// 􀎈
     /// 3 Localizations, 2 Layersets
@@ -7139,7 +7139,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let gobackward45: SFSymbol & ar & hi = LocalizableSymbol(rawValue: "gobackward.45")
+    static let gobackward45: SFSymbol & hi & ar = LocalizableSymbol(rawValue: "gobackward.45")
 
     /// 􀎊
     /// 3 Localizations, 2 Layersets
@@ -7165,7 +7165,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let gobackward75: SFSymbol & ar & hi = LocalizableSymbol(rawValue: "gobackward.75")
+    static let gobackward75: SFSymbol & hi & ar = LocalizableSymbol(rawValue: "gobackward.75")
 
     /// 􀘧
     /// 3 Localizations, 2 Layersets
@@ -7206,7 +7206,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let goforward10: SFSymbol & ar & hi = LocalizableSymbol(rawValue: "goforward.10")
+    static let goforward10: SFSymbol & hi & ar = LocalizableSymbol(rawValue: "goforward.10")
 
     /// 􀎃
     /// 3 Localizations, 2 Layersets
@@ -7245,7 +7245,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let goforward45: SFSymbol & ar & hi = LocalizableSymbol(rawValue: "goforward.45")
+    static let goforward45: SFSymbol & hi & ar = LocalizableSymbol(rawValue: "goforward.45")
 
     /// 􀎉
     /// 3 Localizations, 2 Layersets
@@ -7258,7 +7258,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let goforward60: SFSymbol & ar & hi = LocalizableSymbol(rawValue: "goforward.60")
+    static let goforward60: SFSymbol & hi & ar = LocalizableSymbol(rawValue: "goforward.60")
 
     /// 􀘤
     /// 3 Localizations, 2 Layersets
@@ -7271,7 +7271,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let goforward75: SFSymbol & hi & ar = LocalizableSymbol(rawValue: "goforward.75")
+    static let goforward75: SFSymbol & ar & hi = LocalizableSymbol(rawValue: "goforward.75")
 
     /// 􀘦
     /// 3 Localizations, 2 Layersets
@@ -7284,7 +7284,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let goforward90: SFSymbol & ar & hi = LocalizableSymbol(rawValue: "goforward.90")
+    static let goforward90: SFSymbol & hi & ar = LocalizableSymbol(rawValue: "goforward.90")
 
     /// 􀘨
     /// Single Localization, 2 Layersets
@@ -8461,7 +8461,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let listNumber: SFSymbol & rtl & ar_v20 & hi_v30 = LocalizableSymbol(rawValue: "list.number")
+    static let listNumber: SFSymbol & hi_v30 & rtl & ar_v20 = LocalizableSymbol(rawValue: "list.number")
 
     /// 􀐡
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -10671,7 +10671,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
-    static let questionmarkVideo: SFSymbol & rtl & ar_v20 = LocalizableSymbol(rawValue: "questionmark.video")
+    static let questionmarkVideo: SFSymbol & ar_v20 & rtl = LocalizableSymbol(rawValue: "questionmark.video")
 
     /// 􀍔
     /// 3 Localizations, 2 Layersets, ⚠️ Restricted
@@ -11479,7 +11479,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let signature: SFSymbol & ar_v20 & he_v20 & zhTraditional_v30 & zh_v30 & th_v30 & ja_v30 = LocalizableSymbol(rawValue: "signature")
+    static let signature: SFSymbol & th_v30 & ja_v30 & zh_v30 & zhTraditional_v30 & he_v20 & ar_v20 = LocalizableSymbol(rawValue: "signature")
 
     /// 􀍵
     /// Single Localization, Single Layerset
@@ -12785,7 +12785,7 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.3, renamed: "characterCursorIbeam")
     @available(tvOS, introduced: 13.0, deprecated: 14.5, renamed: "characterCursorIbeam")
     @available(watchOS, introduced: 6.0, deprecated: 7.4, renamed: "characterCursorIbeam")
-    static let textCursor: SFSymbol & ja_v20 & ar_v20 & ko_v20 & hi_v20 & th_v20 & he_v20 & zh_v20 & zhTraditional_v21 = LocalizableSymbol(rawValue: "text.cursor")
+    static let textCursor: SFSymbol & he_v20 & zh_v20 & ko_v20 & ar_v20 & hi_v20 & th_v20 & ja_v20 & zhTraditional_v21 = LocalizableSymbol(rawValue: "text.cursor")
 
     /// 􀋽
     /// Single Localization, 2 Layersets
@@ -12857,7 +12857,7 @@ public extension SFSymbol {
     @available(macOS, introduced: 10.15, deprecated: 11.3, renamed: "characterTextbox")
     @available(tvOS, introduced: 13.0, deprecated: 14.5, renamed: "characterTextbox")
     @available(watchOS, introduced: 6.0, deprecated: 7.4, renamed: "characterTextbox")
-    static let textbox: SFSymbol & zhTraditional_v21 & zh_v20 & ja_v20 & th_v20 & he_v20 & ar_v20 & ko_v20 & hi_v20 = LocalizableSymbol(rawValue: "textbox")
+    static let textbox: SFSymbol & zhTraditional_v21 & ar_v20 & ja_v20 & hi_v20 & he_v20 & th_v20 & ko_v20 & zh_v20 = LocalizableSymbol(rawValue: "textbox")
 
     /// 􀅒
     /// Single Localization, Single Layerset
@@ -12917,7 +12917,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let textformatSize: SFSymbol & zh_v21 & zhTraditional_v21 & th_v21 & hi_v21 & ar_v21 & he_v21 & ko_v21 & ja_v21 = LocalizableSymbol(rawValue: "textformat.size")
+    static let textformatSize: SFSymbol & ja_v21 & ar_v21 & th_v21 & zh_v21 & he_v21 & ko_v21 & hi_v21 & zhTraditional_v21 = LocalizableSymbol(rawValue: "textformat.size")
 
     /// 􀓡
     /// 9 Localizations, 2 Layersets
@@ -12936,7 +12936,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let textformatSubscript: SFSymbol & ar_v21 & he_v21 & ko_v21 & hi_v21 & th_v21 & zh_v21 & zhTraditional_v21 & ja_v21 = LocalizableSymbol(rawValue: "textformat.subscript")
+    static let textformatSubscript: SFSymbol & he_v21 & zh_v21 & hi_v21 & ko_v21 & zhTraditional_v21 & ja_v21 & th_v21 & ar_v21 = LocalizableSymbol(rawValue: "textformat.subscript")
 
     /// 􀓢
     /// 9 Localizations, 2 Layersets
@@ -12955,7 +12955,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let textformatSuperscript: SFSymbol & th_v21 & ko_v21 & hi_v21 & ja_v21 & ar_v21 & zhTraditional_v21 & he_v21 & zh_v21 = LocalizableSymbol(rawValue: "textformat.superscript")
+    static let textformatSuperscript: SFSymbol & he_v21 & ar_v21 & ko_v21 & zh_v21 & ja_v21 & hi_v21 & zhTraditional_v21 & th_v21 = LocalizableSymbol(rawValue: "textformat.superscript")
 
     /// 􀇬
     /// Single Localization, 3 Layersets

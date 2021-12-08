@@ -11,7 +11,7 @@ import SwiftUI
 class ImageExtensionTests: XCTestCase {
     func testInit() {
         if #available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *) {
-            SFSymbol.allSymbols.forEach { symbol in
+            SFSymbol.allSymbols.allLocalizedVariants.forEach { symbol in
                 // If this doesn't crash, everything works fine
                 print("Testing existence of \(symbol.rawValue) via Image init")
                 _ = Image(systemSymbol: symbol)
