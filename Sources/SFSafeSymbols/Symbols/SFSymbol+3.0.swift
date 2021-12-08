@@ -14,7 +14,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let _123Rectangle = SFSymbol(rawValue: "123.rectangle")
+    static let _123Rectangle: SFSymbol & ar_v30 & hi_v30 = LocalizableSymbol(rawValue: "123.rectangle")
 
     /// 􁂸
     /// 3 Localizations, 2 Layersets
@@ -27,7 +27,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let _123RectangleFill = SFSymbol(rawValue: "123.rectangle.fill")
+    static let _123RectangleFill: SFSymbol & hi_v30 & ar_v30 = LocalizableSymbol(rawValue: "123.rectangle.fill")
 
     /// 􀷯
     /// Single Localization, 2 Layersets
@@ -193,7 +193,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirTag.
-    static let airtagRadiowavesForward = SFSymbol(rawValue: "airtag.radiowaves.forward")
+    static let airtagRadiowavesForward: SFSymbol & rtl_v30 = LocalizableSymbol(rawValue: "airtag.radiowaves.forward")
 
     /// 􁄽
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
@@ -207,7 +207,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirTag.
-    static let airtagRadiowavesForwardFill = SFSymbol(rawValue: "airtag.radiowaves.forward.fill")
+    static let airtagRadiowavesForwardFill: SFSymbol & rtl_v30 = LocalizableSymbol(rawValue: "airtag.radiowaves.forward.fill")
 
     /// 􀩉
     /// Single Localization, 2 Layersets
@@ -1326,7 +1326,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let checklist = SFSymbol(rawValue: "checklist")
+    static let checklist: SFSymbol & rtl_v30 = LocalizableSymbol(rawValue: "checklist")
 
     /// 􀿋
     /// Single Localization, 2 Layersets
@@ -2558,7 +2558,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let gobackward5 = SFSymbol(rawValue: "gobackward.5")
+    static let gobackward5: SFSymbol & ar_v30 & hi_v30 = LocalizableSymbol(rawValue: "gobackward.5")
 
     /// 􀶰
     /// 3 Localizations, 2 Layersets
@@ -2571,7 +2571,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let goforward5 = SFSymbol(rawValue: "goforward.5")
+    static let goforward5: SFSymbol & ar_v30 & hi_v30 = LocalizableSymbol(rawValue: "goforward.5")
 
     /// 􁆾
     /// Single Localization, 2 Layersets
@@ -4187,7 +4187,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let personCropCircleBadgeQuestionmarkFill = SFSymbol(rawValue: "person.crop.circle.badge.questionmark.fill")
+    static let personCropCircleBadgeQuestionmarkFill: SFSymbol & ar_v30 = LocalizableSymbol(rawValue: "person.crop.circle.badge.questionmark.fill")
 
     /// 􀏻
     /// Single Localization, Single Layerset
@@ -4601,7 +4601,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let questionmarkApp = SFSymbol(rawValue: "questionmark.app")
+    static let questionmarkApp: SFSymbol & ar_v30 = LocalizableSymbol(rawValue: "questionmark.app")
 
     /// 􀿪
     /// 2 Localizations, 2 Layersets
@@ -4613,7 +4613,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let questionmarkAppDashed = SFSymbol(rawValue: "questionmark.app.dashed")
+    static let questionmarkAppDashed: SFSymbol & ar_v30 = LocalizableSymbol(rawValue: "questionmark.app.dashed")
 
     /// 􀿩
     /// 2 Localizations, 2 Layersets
@@ -4625,7 +4625,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let questionmarkAppFill = SFSymbol(rawValue: "questionmark.app.fill")
+    static let questionmarkAppFill: SFSymbol & ar_v30 = LocalizableSymbol(rawValue: "questionmark.app.fill")
 
     /// 􁈐
     /// Single Localization, Single Layerset

@@ -59,7 +59,7 @@ for scannedSymbol in symbolManifest {
 
     var availableLayersets: [Availability: Set<String>] = [:]
 
-    // Only lookup layerset availability for main name (without loclization suffix)
+    // Only lookup layerset availability for main name (without localization suffix)
     // Assuming it is equal across all localizations...
     for layersetAvailability in layerSetAvailabilitiesList[nameWithoutSuffix] ?? [] {
         availableLayersets[layersetAvailability.availability] =
@@ -132,18 +132,6 @@ for scannedSymbol in symbolManifest {
     }
 }
 
-func localizationsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>] {
-    let toMerge: [Availability: Set<String>]
-    switch symbol.type {
-        case .replaced(let newerSymbol):
-            toMerge = symbols.first { $0.name == newerSymbol.name }!.availableLocalizations
-        case .replacement(let originalSymbol):
-            toMerge = symbols.first { $0.name == originalSymbol.name }!.availableLocalizations
-        default: toMerge = [:]
-    }
-    return symbol.availableLocalizations.merging(toMerge) { $0.union($1) }
-}
-
 func layersetsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>] {
     let toMerge: [Availability: Set<String>]
     switch symbol.type {
@@ -158,11 +146,18 @@ func layersetsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>] {
 
 // MARK: - Step 3: CODE GENERATION
 
+let noDots: (String) -> String = { $0.replacingOccurrences(of: ".", with: "") }
+let decapFirst: (String) -> String = { String($0.prefix(1)).lowercased() + String($0.dropFirst()) }
+
+let protocolNameFor: (Availability, String) -> String = { availability, localizationSuffix -> String in
+    let avaSuffix = availability.isBase ? "" : "_v" + noDots(availability.version)
+    return decapFirst(noDots(localizationSuffix.capitalized)) + avaSuffix
+}
+
 let symbolToCode: (Symbol) -> String = { symbol in
     let completeLayersets = layersetsOfAllVersions(of: symbol)
-    let completeLocalizations = localizationsOfAllVersions(of: symbol)
     let layersetCount = completeLayersets.values.reduce(Set<String>()) { $0.union($1) }.count + 1
-    let localizationCount = completeLocalizations.values.reduce(Set<String>()) { $0.union($1) }.count + 1
+    let localizationCount = symbol.availableLocalizations.values.reduce(Set<String>()) { $0.union($1) }.count + 1
 
     // Generate summary for docs (preview + number of localizations, layersets + potential use restriction)
     var outputString = "\t/// " + (symbol.preview ?? "No preview available") + "\n"
@@ -176,13 +171,13 @@ let symbolToCode: (Symbol) -> String = { symbol in
     }
 
     // Generate localization docs based on the assumption that localizations don't get removed
-    if !completeLocalizations.isEmpty { // Omit localization block if only the Latin localization is available
+    if !symbol.availableLocalizations.isEmpty { // Omit localization block if only the Latin localization is available
         // Use "Left-to-Right" name for the standard localization if "Right-To-Left" is the only other localization
-        let standardLocalizationName = completeLocalizations.values.reduce(Set()) { $0.union($1) } == ["Right-To-Left"] ? "Left-To-Right" : "Latin"
+        let standardLocalizationName = symbol.availableLocalizations.values.reduce(Set()) { $0.union($1) } == ["Right-To-Left"] ? "Left-To-Right" : "Latin"
 
         outputString += "\t///\n\t/// Localizations:\n\t/// - \(standardLocalizationName)\n"
         var handledLocalizations: Set<String> = .init()
-        for (availability, localizations) in completeLocalizations.sorted(by: { $0.0 > $1.0 }) {
+        for (availability, localizations) in symbol.availableLocalizations.sorted(by: { $0.0 > $1.0 }) {
             let newLocalizations = localizations.subtracting(handledLocalizations)
             if !newLocalizations.isEmpty {
                 handledLocalizations.formUnion(newLocalizations)
@@ -222,8 +217,18 @@ let symbolToCode: (Symbol) -> String = { symbol in
         outputString += "\t@available(watchOS, introduced: \(symbol.availability.watchOS), deprecated: \(newerSymbol.availability.watchOS), renamed: \"\(newerName)\")\n"
     }
 
-    // Generate case
-    outputString += "\tstatic let \(symbol.propertyName) = SFSymbol(rawValue: \"\(symbol.name)\")"
+    // Generate symbol
+    if symbol.availableLocalizations.isEmpty {
+        outputString += "\tstatic let \(symbol.propertyName) = SFSymbol(rawValue: \"\(symbol.name)\")"
+    } else {
+        // Specify exact localization availability combination using protocols
+        let localizations = symbol.availableLocalizations.flatMap { ava, locs in
+            return locs.map { loc in (ava, localizationSuffixes.first { $0.1 == loc }!.0) }
+        }
+
+        let protocols = (["SFSymbol"] + localizations.map(protocolNameFor)).joined(separator: " & ")
+        outputString += "\tstatic let \(symbol.propertyName): \(protocols) = LocalizableSymbol(rawValue: \"\(symbol.name)\")"
+    }
 
     return outputString
 }
@@ -291,6 +296,44 @@ let allSymbolsExtension: String = {
     return outputString
 }()
 
+let localizable: String = {
+    let allAvailabilities = Array(Set(symbols.map { $0.availability }))
+    let allLocalizations = localizationSuffixes.map { $0.0 }
+
+    let protocolFor: (Availability, String) -> String = { availability, localizationSuffix -> String in
+        "@available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)\n" +
+        "public protocol \(protocolNameFor(availability, localizationSuffix)) {\n" +
+            (availability.isBase ? "" : "\t@available(iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS), *)\n") +
+        "\tvar \(decapFirst(noDots(localizationSuffix.capitalized))): SFSymbol { get }\n" +
+        "}"
+    }
+
+    let property: (String) -> String = { localizationSuffix -> String in
+        "\tvar \(decapFirst(noDots(localizationSuffix.capitalized))): SFSymbol { .init(rawValue: \"\\(rawValue).\(localizationSuffix)\") }"
+    }
+
+    var outputString = "// Don't touch this manually, this code is generated by the SymbolsGenerator helper tool\n\n"
+    outputString += "@available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)\n"
+    let protocols = (allAvailabilities × allLocalizations).map(protocolNameFor).joined(separator: ", ")
+    outputString += "internal class LocalizableSymbol: SFSymbol, \(protocols) {\n"
+    outputString += allLocalizations.map(property).joined(separator: "\n")
+    outputString += "\n}\n"
+    outputString += "\n\n"
+    outputString += (allAvailabilities × allLocalizations).map(protocolFor).joined(separator: "\n\n")
+    return outputString
+}()
+
+infix operator ×
+private func ×<A, B>(lhs: [A], rhs: [B]) -> [(A, B)] {
+    var result = [(A, B)]()
+    for a in lhs {
+        for b in rhs {
+            result.append((a, b))
+        }
+    }
+    return result
+}
+
 // MARK: - Step 4: OUTPUT
 
 // Write availability extensions
@@ -307,6 +350,9 @@ groupedAllLatestSymbolsFileContents.forEach { availability, fileContents in
 
 SFFileManager.write(allSymbolsExtension,
                     to: outputDir.appendingPathComponent("SFSymbol+AllSymbols.swift"))
+
+SFFileManager.write(localizable,
+                    to: outputDir.appendingPathComponent("Localizable.swift"))
 
 // MARK: - Step 5: FINISHING
 
