@@ -216,7 +216,9 @@ let symbolToCode: (Symbol) -> String = { symbol in
     } else {
         // Reduce [A: Set<B>] -> [(A, B)] -> [String]
         let protocolNames = symbol.availableLocalizations.flatMap { availability, localizations in
-            localizations.map { $0.protocolName(for: availability) }
+            localizations.map {
+                symbol.availability == availability ? $0.baseProtocolName : $0.protocolName(for: availability)
+            }
         }
 
         let protocols = (["SFSymbol"] + protocolNames).joined(separator: " & ")

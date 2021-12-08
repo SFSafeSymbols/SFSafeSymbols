@@ -69,11 +69,15 @@ struct Localization: Equatable, Hashable {
         decapFirst(noDots(suffix.capitalized))
     }
 
+    var baseProtocolName: String {
+        decapFirst(noDots(suffix.capitalized))
+    }
+
     /// The name for the protocol exposing this localization given a specific (or base) availability.
     /// E.g. "ar" or "ar_v20".
     func protocolName(for availability: Availability) -> String {
         let availabilitySuffix = availability.isBase ? "" : "_v" + noDots(availability.version)
-        return decapFirst(noDots(suffix.capitalized)) + availabilitySuffix
+        return baseProtocolName + availabilitySuffix
     }
 }
 
