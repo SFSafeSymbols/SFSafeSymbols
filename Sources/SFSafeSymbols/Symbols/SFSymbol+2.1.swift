@@ -334,7 +334,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let repeat1Circle: SFSymbol & ar_v30 & hi_v30 = LocalizableSymbol(rawValue: "repeat.1.circle")
+    static let repeat1Circle: SFSymbol & ar_v3 & hi_v3 = LocalizableSymbol(rawValue: "repeat.1.circle")
 
     /// 􀵎
     /// 3 Localizations, 3 Layersets
@@ -348,7 +348,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let repeat1CircleFill: SFSymbol & ar_v30 & hi_v30 = LocalizableSymbol(rawValue: "repeat.1.circle.fill")
+    static let repeat1CircleFill: SFSymbol & ar_v3 & hi_v3 = LocalizableSymbol(rawValue: "repeat.1.circle.fill")
 
     /// 􀵋
     /// Single Localization, 2 Layersets

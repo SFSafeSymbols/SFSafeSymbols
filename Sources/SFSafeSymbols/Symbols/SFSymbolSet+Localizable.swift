@@ -12,16 +12,16 @@ public extension SFSymbolSet {
         Set(map { symbol in
             if symbol is ar {
                 return (symbol as! ar).ar
-            } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *), symbol is ar_v20 {
-                return (symbol as! ar_v20).ar
-            } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *), symbol is ar_v21 {
-                return (symbol as! ar_v21).ar
-            } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *), symbol is ar_v22 {
-                return (symbol as! ar_v22).ar
-            } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *), symbol is ar_v30 {
-                return (symbol as! ar_v30).ar
-            } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *), symbol is ar_v31 {
-                return (symbol as! ar_v31).ar
+            } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *), symbol is ar_v2 {
+                return (symbol as! ar_v2).ar
+            } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *), symbol is ar_v2_1 {
+                return (symbol as! ar_v2_1).ar
+            } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *), symbol is ar_v2_2 {
+                return (symbol as! ar_v2_2).ar
+            } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *), symbol is ar_v3 {
+                return (symbol as! ar_v3).ar
+            } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *), symbol is ar_v3_1 {
+                return (symbol as! ar_v3_1).ar
             } else {
                 return symbol
             }
@@ -34,16 +34,16 @@ public extension SFSymbolSet {
         Set(map { symbol in
             if symbol is he {
                 return (symbol as! he).he
-            } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *), symbol is he_v20 {
-                return (symbol as! he_v20).he
-            } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *), symbol is he_v21 {
-                return (symbol as! he_v21).he
-            } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *), symbol is he_v22 {
-                return (symbol as! he_v22).he
-            } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *), symbol is he_v30 {
-                return (symbol as! he_v30).he
-            } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *), symbol is he_v31 {
-                return (symbol as! he_v31).he
+            } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *), symbol is he_v2 {
+                return (symbol as! he_v2).he
+            } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *), symbol is he_v2_1 {
+                return (symbol as! he_v2_1).he
+            } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *), symbol is he_v2_2 {
+                return (symbol as! he_v2_2).he
+            } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *), symbol is he_v3 {
+                return (symbol as! he_v3).he
+            } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *), symbol is he_v3_1 {
+                return (symbol as! he_v3_1).he
             } else {
                 return symbol
             }
@@ -56,16 +56,16 @@ public extension SFSymbolSet {
         Set(map { symbol in
             if symbol is hi {
                 return (symbol as! hi).hi
-            } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *), symbol is hi_v20 {
-                return (symbol as! hi_v20).hi
-            } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *), symbol is hi_v21 {
-                return (symbol as! hi_v21).hi
-            } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *), symbol is hi_v22 {
-                return (symbol as! hi_v22).hi
-            } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *), symbol is hi_v30 {
-                return (symbol as! hi_v30).hi
-            } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *), symbol is hi_v31 {
-                return (symbol as! hi_v31).hi
+            } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *), symbol is hi_v2 {
+                return (symbol as! hi_v2).hi
+            } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *), symbol is hi_v2_1 {
+                return (symbol as! hi_v2_1).hi
+            } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *), symbol is hi_v2_2 {
+                return (symbol as! hi_v2_2).hi
+            } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *), symbol is hi_v3 {
+                return (symbol as! hi_v3).hi
+            } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *), symbol is hi_v3_1 {
+                return (symbol as! hi_v3_1).hi
             } else {
                 return symbol
             }
@@ -78,16 +78,16 @@ public extension SFSymbolSet {
         Set(map { symbol in
             if symbol is rtl {
                 return (symbol as! rtl).rtl
-            } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *), symbol is rtl_v20 {
-                return (symbol as! rtl_v20).rtl
-            } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *), symbol is rtl_v21 {
-                return (symbol as! rtl_v21).rtl
-            } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *), symbol is rtl_v22 {
-                return (symbol as! rtl_v22).rtl
-            } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *), symbol is rtl_v30 {
-                return (symbol as! rtl_v30).rtl
-            } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *), symbol is rtl_v31 {
-                return (symbol as! rtl_v31).rtl
+            } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *), symbol is rtl_v2 {
+                return (symbol as! rtl_v2).rtl
+            } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *), symbol is rtl_v2_1 {
+                return (symbol as! rtl_v2_1).rtl
+            } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *), symbol is rtl_v2_2 {
+                return (symbol as! rtl_v2_2).rtl
+            } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *), symbol is rtl_v3 {
+                return (symbol as! rtl_v3).rtl
+            } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *), symbol is rtl_v3_1 {
+                return (symbol as! rtl_v3_1).rtl
             } else {
                 return symbol
             }
@@ -100,16 +100,16 @@ public extension SFSymbolSet {
         Set(map { symbol in
             if symbol is ja {
                 return (symbol as! ja).ja
-            } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *), symbol is ja_v20 {
-                return (symbol as! ja_v20).ja
-            } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *), symbol is ja_v21 {
-                return (symbol as! ja_v21).ja
-            } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *), symbol is ja_v22 {
-                return (symbol as! ja_v22).ja
-            } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *), symbol is ja_v30 {
-                return (symbol as! ja_v30).ja
-            } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *), symbol is ja_v31 {
-                return (symbol as! ja_v31).ja
+            } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *), symbol is ja_v2 {
+                return (symbol as! ja_v2).ja
+            } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *), symbol is ja_v2_1 {
+                return (symbol as! ja_v2_1).ja
+            } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *), symbol is ja_v2_2 {
+                return (symbol as! ja_v2_2).ja
+            } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *), symbol is ja_v3 {
+                return (symbol as! ja_v3).ja
+            } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *), symbol is ja_v3_1 {
+                return (symbol as! ja_v3_1).ja
             } else {
                 return symbol
             }
@@ -122,16 +122,16 @@ public extension SFSymbolSet {
         Set(map { symbol in
             if symbol is ko {
                 return (symbol as! ko).ko
-            } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *), symbol is ko_v20 {
-                return (symbol as! ko_v20).ko
-            } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *), symbol is ko_v21 {
-                return (symbol as! ko_v21).ko
-            } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *), symbol is ko_v22 {
-                return (symbol as! ko_v22).ko
-            } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *), symbol is ko_v30 {
-                return (symbol as! ko_v30).ko
-            } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *), symbol is ko_v31 {
-                return (symbol as! ko_v31).ko
+            } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *), symbol is ko_v2 {
+                return (symbol as! ko_v2).ko
+            } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *), symbol is ko_v2_1 {
+                return (symbol as! ko_v2_1).ko
+            } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *), symbol is ko_v2_2 {
+                return (symbol as! ko_v2_2).ko
+            } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *), symbol is ko_v3 {
+                return (symbol as! ko_v3).ko
+            } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *), symbol is ko_v3_1 {
+                return (symbol as! ko_v3_1).ko
             } else {
                 return symbol
             }
@@ -144,16 +144,16 @@ public extension SFSymbolSet {
         Set(map { symbol in
             if symbol is th {
                 return (symbol as! th).th
-            } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *), symbol is th_v20 {
-                return (symbol as! th_v20).th
-            } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *), symbol is th_v21 {
-                return (symbol as! th_v21).th
-            } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *), symbol is th_v22 {
-                return (symbol as! th_v22).th
-            } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *), symbol is th_v30 {
-                return (symbol as! th_v30).th
-            } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *), symbol is th_v31 {
-                return (symbol as! th_v31).th
+            } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *), symbol is th_v2 {
+                return (symbol as! th_v2).th
+            } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *), symbol is th_v2_1 {
+                return (symbol as! th_v2_1).th
+            } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *), symbol is th_v2_2 {
+                return (symbol as! th_v2_2).th
+            } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *), symbol is th_v3 {
+                return (symbol as! th_v3).th
+            } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *), symbol is th_v3_1 {
+                return (symbol as! th_v3_1).th
             } else {
                 return symbol
             }
@@ -166,16 +166,16 @@ public extension SFSymbolSet {
         Set(map { symbol in
             if symbol is zh {
                 return (symbol as! zh).zh
-            } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *), symbol is zh_v20 {
-                return (symbol as! zh_v20).zh
-            } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *), symbol is zh_v21 {
-                return (symbol as! zh_v21).zh
-            } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *), symbol is zh_v22 {
-                return (symbol as! zh_v22).zh
-            } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *), symbol is zh_v30 {
-                return (symbol as! zh_v30).zh
-            } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *), symbol is zh_v31 {
-                return (symbol as! zh_v31).zh
+            } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *), symbol is zh_v2 {
+                return (symbol as! zh_v2).zh
+            } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *), symbol is zh_v2_1 {
+                return (symbol as! zh_v2_1).zh
+            } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *), symbol is zh_v2_2 {
+                return (symbol as! zh_v2_2).zh
+            } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *), symbol is zh_v3 {
+                return (symbol as! zh_v3).zh
+            } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *), symbol is zh_v3_1 {
+                return (symbol as! zh_v3_1).zh
             } else {
                 return symbol
             }
@@ -188,16 +188,16 @@ public extension SFSymbolSet {
         Set(map { symbol in
             if symbol is zhTraditional {
                 return (symbol as! zhTraditional).zhTraditional
-            } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *), symbol is zhTraditional_v20 {
-                return (symbol as! zhTraditional_v20).zhTraditional
-            } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *), symbol is zhTraditional_v21 {
-                return (symbol as! zhTraditional_v21).zhTraditional
-            } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *), symbol is zhTraditional_v22 {
-                return (symbol as! zhTraditional_v22).zhTraditional
-            } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *), symbol is zhTraditional_v30 {
-                return (symbol as! zhTraditional_v30).zhTraditional
-            } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *), symbol is zhTraditional_v31 {
-                return (symbol as! zhTraditional_v31).zhTraditional
+            } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *), symbol is zhTraditional_v2 {
+                return (symbol as! zhTraditional_v2).zhTraditional
+            } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *), symbol is zhTraditional_v2_1 {
+                return (symbol as! zhTraditional_v2_1).zhTraditional
+            } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *), symbol is zhTraditional_v2_2 {
+                return (symbol as! zhTraditional_v2_2).zhTraditional
+            } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *), symbol is zhTraditional_v3 {
+                return (symbol as! zhTraditional_v3).zhTraditional
+            } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *), symbol is zhTraditional_v3_1 {
+                return (symbol as! zhTraditional_v3_1).zhTraditional
             } else {
                 return symbol
             }

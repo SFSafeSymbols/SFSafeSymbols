@@ -76,7 +76,10 @@ struct Localization: Equatable, Hashable {
     /// The name for the protocol exposing this localization given a specific (or base) availability.
     /// E.g. "ar" or "ar_v20".
     func protocolName(for availability: Availability) -> String {
-        let availabilitySuffix = availability.isBase ? "" : "_v" + noDots(availability.version)
+        // Remove (possibly multiple) ".0"s from the ending
+        var version = String(availability.version.reversed().drop(while: [".", "0"].contains).reversed())
+        version = version.replacingOccurrences(of: ".", with: "_")
+        let availabilitySuffix = availability.isBase ? "" : "_v" + version
         return baseProtocolName + availabilitySuffix
     }
 }

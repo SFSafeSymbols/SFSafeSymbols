@@ -40,7 +40,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterBubble: SFSymbol & ar & he & hi_v30 & ja_v30 & ko_v30 & th_v30 & zhTraditional_v30 & zh_v30 = LocalizableSymbol(rawValue: "character.bubble")
+    static let characterBubble: SFSymbol & ar & he & hi_v3 & ja_v3 & ko_v3 & th_v3 & zhTraditional_v3 & zh_v3 = LocalizableSymbol(rawValue: "character.bubble")
 
     /// 􀌱
     /// 9 Localizations, 2 Layersets
@@ -59,7 +59,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterBubbleFill: SFSymbol & ar & he & hi_v30 & ja_v30 & ko_v30 & th_v30 & zhTraditional_v30 & zh_v30 = LocalizableSymbol(rawValue: "character.bubble.fill")
+    static let characterBubbleFill: SFSymbol & ar & he & hi_v3 & ja_v3 & ko_v3 & th_v3 & zhTraditional_v3 & zh_v3 = LocalizableSymbol(rawValue: "character.bubble.fill")
 
     /// 􀅫
     /// 9 Localizations, 2 Layersets

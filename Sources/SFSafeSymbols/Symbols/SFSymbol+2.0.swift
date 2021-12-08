@@ -2984,7 +2984,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let docRichtextFill: SFSymbol & ar & he & hi_v30 & ja_v30 & ko_v30 & th_v30 & zhTraditional_v30 & zh_v30 = LocalizableSymbol(rawValue: "doc.richtext.fill")
+    static let docRichtextFill: SFSymbol & ar & he & hi_v3 & ja_v3 & ko_v3 & th_v3 & zhTraditional_v3 & zh_v3 = LocalizableSymbol(rawValue: "doc.richtext.fill")
 
     /// 􀳼
     /// 2 Localizations, Single Layerset
@@ -2995,7 +2995,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let docTextBelowEcg: SFSymbol & rtl_v21 = LocalizableSymbol(rawValue: "doc.text.below.ecg")
+    static let docTextBelowEcg: SFSymbol & rtl_v2_1 = LocalizableSymbol(rawValue: "doc.text.below.ecg")
 
     /// 􀳽
     /// 2 Localizations, Single Layerset
@@ -3006,7 +3006,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let docTextBelowEcgFill: SFSymbol & rtl_v21 = LocalizableSymbol(rawValue: "doc.text.below.ecg.fill")
+    static let docTextBelowEcgFill: SFSymbol & rtl_v2_1 = LocalizableSymbol(rawValue: "doc.text.below.ecg.fill")
 
     /// 􀡢
     /// Single Localization, 2 Layersets
@@ -7870,7 +7870,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let textBelowPhoto: SFSymbol & rtl_v21 = LocalizableSymbol(rawValue: "text.below.photo")
+    static let textBelowPhoto: SFSymbol & rtl_v2_1 = LocalizableSymbol(rawValue: "text.below.photo")
 
     /// 􀲲
     /// 2 Localizations, Single Layerset
@@ -7881,7 +7881,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let textBelowPhotoFill: SFSymbol & rtl_v21 = LocalizableSymbol(rawValue: "text.below.photo.fill")
+    static let textBelowPhotoFill: SFSymbol & rtl_v2_1 = LocalizableSymbol(rawValue: "text.below.photo.fill")
 
     /// 􀫗
     /// Single Localization, Single Layerset
