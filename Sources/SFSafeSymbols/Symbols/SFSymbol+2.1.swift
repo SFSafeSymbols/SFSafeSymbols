@@ -93,7 +93,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let character: SFSymbol & zhTraditional & he & th & ko & zh & ar & hi & ja = LocalizableSymbol(rawValue: "character")
+    static let character: SFSymbol & ar & he & hi & ja & ko & th & zh & zhTraditional = LocalizableSymbol(rawValue: "character")
 
     /// 􀫕
     /// 9 Localizations, Single Layerset
@@ -111,7 +111,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let characterBookClosed: SFSymbol & ko & hi & zhTraditional & ja & zh & he & th & ar = LocalizableSymbol(rawValue: "character.book.closed")
+    static let characterBookClosed: SFSymbol & ar & he & hi & ja & ko & th & zh & zhTraditional = LocalizableSymbol(rawValue: "character.book.closed")
 
     /// 􀫖
     /// 9 Localizations, Single Layerset
@@ -129,7 +129,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let characterBookClosedFill: SFSymbol & ja & zh & hi & th & he & ko & ar & zhTraditional = LocalizableSymbol(rawValue: "character.book.closed.fill")
+    static let characterBookClosedFill: SFSymbol & ar & he & hi & ja & ko & th & zh & zhTraditional = LocalizableSymbol(rawValue: "character.book.closed.fill")
 
     /// 􀯛
     /// Single Localization, 2 Layersets
@@ -334,7 +334,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let repeat1Circle: SFSymbol & hi_v30 & ar_v30 = LocalizableSymbol(rawValue: "repeat.1.circle")
+    static let repeat1Circle: SFSymbol & ar_v30 & hi_v30 = LocalizableSymbol(rawValue: "repeat.1.circle")
 
     /// 􀵎
     /// 3 Localizations, 3 Layersets
@@ -411,7 +411,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let textformatSizeLarger: SFSymbol & ko & th & ar & ja & he & hi & zh & zhTraditional = LocalizableSymbol(rawValue: "textformat.size.larger")
+    static let textformatSizeLarger: SFSymbol & ar & he & hi & ja & ko & th & zh & zhTraditional = LocalizableSymbol(rawValue: "textformat.size.larger")
 
     /// 􀵷
     /// 9 Localizations, Single Layerset
@@ -429,7 +429,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let textformatSizeSmaller: SFSymbol & ar & ko & th & he & zhTraditional & hi & ja & zh = LocalizableSymbol(rawValue: "textformat.size.smaller")
+    static let textformatSizeSmaller: SFSymbol & ar & he & hi & ja & ko & th & zh & zhTraditional = LocalizableSymbol(rawValue: "textformat.size.smaller")
 
     /// 􀴌
     /// Single Localization, Single Layerset

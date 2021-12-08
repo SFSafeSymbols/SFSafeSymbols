@@ -40,7 +40,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterBubble: SFSymbol & ja_v30 & zhTraditional_v30 & hi_v30 & ko_v30 & th_v30 & zh_v30 & ar & he = LocalizableSymbol(rawValue: "character.bubble")
+    static let characterBubble: SFSymbol & ar & he & hi_v30 & ja_v30 & ko_v30 & th_v30 & zhTraditional_v30 & zh_v30 = LocalizableSymbol(rawValue: "character.bubble")
 
     /// 􀌱
     /// 9 Localizations, 2 Layersets
@@ -59,7 +59,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterBubbleFill: SFSymbol & he & ar & th_v30 & zhTraditional_v30 & hi_v30 & ja_v30 & zh_v30 & ko_v30 = LocalizableSymbol(rawValue: "character.bubble.fill")
+    static let characterBubbleFill: SFSymbol & ar & he & hi_v30 & ja_v30 & ko_v30 & th_v30 & zhTraditional_v30 & zh_v30 = LocalizableSymbol(rawValue: "character.bubble.fill")
 
     /// 􀅫
     /// 9 Localizations, 2 Layersets
@@ -78,7 +78,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterCursorIbeam: SFSymbol & he & th & ja & hi & zh & ar & zhTraditional & ko = LocalizableSymbol(rawValue: "character.cursor.ibeam")
+    static let characterCursorIbeam: SFSymbol & ar & he & hi & ja & ko & th & zh & zhTraditional = LocalizableSymbol(rawValue: "character.cursor.ibeam")
 
     /// 􀅶
     /// 9 Localizations, 2 Layersets
@@ -97,7 +97,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterTextbox: SFSymbol & zhTraditional & ar & ja & th & ko & he & hi & zh = LocalizableSymbol(rawValue: "character.textbox")
+    static let characterTextbox: SFSymbol & ar & he & hi & ja & ko & th & zh & zhTraditional = LocalizableSymbol(rawValue: "character.textbox")
 
     /// 􀷭
     /// Single Localization, 2 Layersets, ⚠️ Restricted

@@ -14,7 +14,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let _123Rectangle: SFSymbol & hi & ar = LocalizableSymbol(rawValue: "123.rectangle")
+    static let _123Rectangle: SFSymbol & ar & hi = LocalizableSymbol(rawValue: "123.rectangle")
 
     /// 􁂸
     /// 3 Localizations, 2 Layersets

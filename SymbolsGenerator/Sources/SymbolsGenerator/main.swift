@@ -219,7 +219,7 @@ let symbolToCode: (Symbol) -> String = { symbol in
             localizations.map {
                 symbol.availability == availability ? $0.baseProtocolName : $0.protocolName(for: availability)
             }
-        }
+        }.sorted()
 
         let protocols = (["SFSymbol"] + protocolNames).joined(separator: " & ")
         outputString += "\tstatic let \(symbol.propertyName): \(protocols) = LocalizableSymbol(rawValue: \"\(symbol.name)\")"
