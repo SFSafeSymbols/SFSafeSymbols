@@ -93,7 +93,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let character: SFSymbol & hi_v21 & zh_v21 & he_v21 & ja_v21 & zhTraditional_v21 & ar_v21 & th_v21 & ko_v21 = LocalizableSymbol(rawValue: "character")
+    static let character: SFSymbol & zh_v21 & he_v21 & ko_v21 & ar_v21 & ja_v21 & zhTraditional_v21 & th_v21 & hi_v21 = LocalizableSymbol(rawValue: "character")
 
     /// 􀫕
     /// 9 Localizations, Single Layerset
@@ -111,7 +111,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let characterBookClosed: SFSymbol & ar_v21 & he_v21 & hi_v21 & zh_v21 & zhTraditional_v21 & ko_v21 & th_v21 & ja_v21 = LocalizableSymbol(rawValue: "character.book.closed")
+    static let characterBookClosed: SFSymbol & he_v21 & ja_v21 & zh_v21 & zhTraditional_v21 & ko_v21 & hi_v21 & th_v21 & ar_v21 = LocalizableSymbol(rawValue: "character.book.closed")
 
     /// 􀫖
     /// 9 Localizations, Single Layerset
@@ -129,7 +129,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let characterBookClosedFill: SFSymbol & ar_v21 & he_v21 & hi_v21 & zh_v21 & zhTraditional_v21 & ko_v21 & th_v21 & ja_v21 = LocalizableSymbol(rawValue: "character.book.closed.fill")
+    static let characterBookClosedFill: SFSymbol & he_v21 & ja_v21 & zh_v21 & hi_v21 & ko_v21 & th_v21 & zhTraditional_v21 & ar_v21 = LocalizableSymbol(rawValue: "character.book.closed.fill")
 
     /// 􀯛
     /// Single Localization, 2 Layersets
@@ -348,7 +348,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let repeat1CircleFill: SFSymbol & ar_v30 & hi_v30 = LocalizableSymbol(rawValue: "repeat.1.circle.fill")
+    static let repeat1CircleFill: SFSymbol & hi_v30 & ar_v30 = LocalizableSymbol(rawValue: "repeat.1.circle.fill")
 
     /// 􀵋
     /// Single Localization, 2 Layersets
@@ -411,7 +411,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let textformatSizeLarger: SFSymbol & ja_v21 & he_v21 & zhTraditional_v21 & hi_v21 & ar_v21 & ko_v21 & zh_v21 & th_v21 = LocalizableSymbol(rawValue: "textformat.size.larger")
+    static let textformatSizeLarger: SFSymbol & th_v21 & he_v21 & zhTraditional_v21 & ko_v21 & hi_v21 & ja_v21 & ar_v21 & zh_v21 = LocalizableSymbol(rawValue: "textformat.size.larger")
 
     /// 􀵷
     /// 9 Localizations, Single Layerset
@@ -429,7 +429,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let textformatSizeSmaller: SFSymbol & he_v21 & zhTraditional_v21 & ko_v21 & th_v21 & hi_v21 & zh_v21 & ja_v21 & ar_v21 = LocalizableSymbol(rawValue: "textformat.size.smaller")
+    static let textformatSizeSmaller: SFSymbol & ja_v21 & zh_v21 & th_v21 & he_v21 & zhTraditional_v21 & ko_v21 & ar_v21 & hi_v21 = LocalizableSymbol(rawValue: "textformat.size.smaller")
 
     /// 􀴌
     /// Single Localization, Single Layerset

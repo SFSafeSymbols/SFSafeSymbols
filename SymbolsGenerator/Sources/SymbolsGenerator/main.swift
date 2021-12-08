@@ -19,9 +19,9 @@ guard
     let asIsSymbols = SFFileManager
         .read(file: "as_is_symbols", withExtension: "txt")
         .flatMap(StringEqualityFileParser.parse),
-    let localizationSuffixes = SFFileManager
+    let localizations = SFFileManager
         .read(file: "localization_suffixes", withExtension: "txt")
-        .flatMap(StringEqualityFileParser.parse),
+        .flatMap(StringEqualityFileParser.parse)?.map(Localization.init(suffix:longName:)),
     let symbolNames = SFFileManager
         .read(file: "symbol_names", withExtension: "txt")
         .flatMap(SymbolNamesFileParser.parse),
@@ -32,10 +32,10 @@ else {
     fatalError("Error reading input files")
 }
 
-guard CommandLine.argc > 1 else {
+/*guard CommandLine.argc > 1 else {
     fatalError("Invalid output Directory")
-}
-let outputDir = URL(fileURLWithPath: CommandLine.arguments[1], isDirectory: true)
+}*/
+let outputDir = URL(fileURLWithPath: "/Users/David/Desktop/A", isDirectory: true)
 
 // MARK: - Step 2: MERGE INTO SINGLE DATABASE
 
@@ -50,10 +50,9 @@ nameAliases = nameAliases.filter { lhs, _ in !legacyAliases.contains { $0.lhs ==
 // This process takes care of merging multiple localized variants + renamed variants from previous versions
 var symbols: [Symbol] = []
 for scannedSymbol in symbolManifest {
-    let localizationSuffixAndName: (lhs: String, rhs: String)? = localizationSuffixes.first { scannedSymbol.name.hasSuffix(".\($0.lhs)") }
-    let localization: String? = localizationSuffixAndName?.rhs
+    let localization = localizations.first { scannedSymbol.name.hasSuffix(".\($0.suffix)") }
     let nameWithoutSuffix = scannedSymbol.name.replacingOccurrences(
-        of: (localizationSuffixAndName?.lhs).flatMap { ".\($0)" } ?? "",
+        of: (localization?.suffix).flatMap { ".\($0)" } ?? "",
         with: ""
     )
 
@@ -149,15 +148,15 @@ func layersetsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>] {
 let noDots: (String) -> String = { $0.replacingOccurrences(of: ".", with: "") }
 let decapFirst: (String) -> String = { String($0.prefix(1)).lowercased() + String($0.dropFirst()) }
 
-let protocolNameFor: (Availability, String) -> String = { availability, localizationSuffix -> String in
+let protocolNameFor: (Availability, Localization) -> String = { availability, localization -> String in
     let avaSuffix = availability.isBase ? "" : "_v" + noDots(availability.version)
-    return decapFirst(noDots(localizationSuffix.capitalized)) + avaSuffix
+    return decapFirst(noDots(localization.suffix.capitalized)) + avaSuffix
 }
 
 let symbolToCode: (Symbol) -> String = { symbol in
     let completeLayersets = layersetsOfAllVersions(of: symbol)
     let layersetCount = completeLayersets.values.reduce(Set<String>()) { $0.union($1) }.count + 1
-    let localizationCount = symbol.availableLocalizations.values.reduce(Set<String>()) { $0.union($1) }.count + 1
+    let localizationCount = symbol.availableLocalizations.values.reduce(Set()) { $0.union($1) }.count + 1
 
     // Generate summary for docs (preview + number of localizations, layersets + potential use restriction)
     var outputString = "\t/// " + (symbol.preview ?? "No preview available") + "\n"
@@ -170,20 +169,22 @@ let symbolToCode: (Symbol) -> String = { symbol in
         outputString += "\t/// \(supplementString)\n"
     }
 
-    // Generate localization docs based on the assumption that localizations don't get removed
+    // Generate localization docs
     if !symbol.availableLocalizations.isEmpty { // Omit localization block if only the Latin localization is available
         // Use "Left-to-Right" name for the standard localization if "Right-To-Left" is the only other localization
-        let standardLocalizationName = symbol.availableLocalizations.values.reduce(Set()) { $0.union($1) } == ["Right-To-Left"] ? "Left-To-Right" : "Latin"
+        let standardLocalizationName = symbol.availableLocalizations.values.reduce(Set()) {
+            $0.union(Set($1.map { $0.longName }))
+        } == ["Right-To-Left"] ? "Left-To-Right" : "Latin"
 
         outputString += "\t///\n\t/// Localizations:\n\t/// - \(standardLocalizationName)\n"
-        var handledLocalizations: Set<String> = .init()
+        var handledLocalizations: Set<Localization> = .init()
         for (availability, localizations) in symbol.availableLocalizations.sorted(by: { $0.0 > $1.0 }) {
             let newLocalizations = localizations.subtracting(handledLocalizations)
             if !newLocalizations.isEmpty {
                 handledLocalizations.formUnion(newLocalizations)
                 let availabilityNotice: String = availability < symbol.availability ? " (iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS))" : ""
-                for localization in Array(newLocalizations).sorted() {
-                    outputString += "\t/// - \(localization)\(availabilityNotice)\n"
+                for localization in (Array(newLocalizations).sorted { $0.longName < $1.longName }) {
+                    outputString += "\t/// - \(localization.longName)\(availabilityNotice)\n"
                 }
             }
         }
@@ -221,10 +222,8 @@ let symbolToCode: (Symbol) -> String = { symbol in
     if symbol.availableLocalizations.isEmpty {
         outputString += "\tstatic let \(symbol.propertyName) = SFSymbol(rawValue: \"\(symbol.name)\")"
     } else {
-        // Specify exact localization availability combination using protocols
-        let localizations = symbol.availableLocalizations.flatMap { ava, locs in
-            return locs.map { loc in (ava, localizationSuffixes.first { $0.1 == loc }!.0) }
-        }
+        // Flatten [A: Set<B>] into [(A, B)]
+        let localizations = symbol.availableLocalizations.flatMap { ava, locs in locs.map { (ava, $0) } }
 
         let protocols = (["SFSymbol"] + localizations.map(protocolNameFor)).joined(separator: " & ")
         outputString += "\tstatic let \(symbol.propertyName): \(protocols) = LocalizableSymbol(rawValue: \"\(symbol.name)\")"
@@ -298,28 +297,28 @@ let allSymbolsExtension: String = {
 
 let localizable: String = {
     let allAvailabilities = Array(Set(symbols.map { $0.availability }))
-    let allLocalizations = localizationSuffixes.map { $0.0 }
+    //let allLocalizations = localizations.map { $0.suffix }
 
-    let protocolFor: (Availability, String) -> String = { availability, localizationSuffix -> String in
+    let protocolFor: (Availability, Localization) -> String = { availability, localization -> String in
         "@available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)\n" +
-        "public protocol \(protocolNameFor(availability, localizationSuffix)) {\n" +
+            "public protocol \(protocolNameFor(availability, localization)) {\n" +
             (availability.isBase ? "" : "\t@available(iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS), *)\n") +
-        "\tvar \(decapFirst(noDots(localizationSuffix.capitalized))): SFSymbol { get }\n" +
+            "\tvar \(decapFirst(noDots(localization.suffix.capitalized))): SFSymbol { get }\n" +
         "}"
     }
 
-    let property: (String) -> String = { localizationSuffix -> String in
-        "\tvar \(decapFirst(noDots(localizationSuffix.capitalized))): SFSymbol { .init(rawValue: \"\\(rawValue).\(localizationSuffix)\") }"
+    let property: (Localization) -> String = { localization -> String in
+        "\tvar \(decapFirst(noDots(localization.suffix.capitalized))): SFSymbol { .init(rawValue: \"\\(rawValue).\(localization.suffix)\") }"
     }
 
     var outputString = "// Don't touch this manually, this code is generated by the SymbolsGenerator helper tool\n\n"
     outputString += "@available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)\n"
-    let protocols = (allAvailabilities × allLocalizations).map(protocolNameFor).joined(separator: ", ")
+    let protocols = (allAvailabilities × localizations).map(protocolNameFor).joined(separator: ", ")
     outputString += "internal class LocalizableSymbol: SFSymbol, \(protocols) {\n"
-    outputString += allLocalizations.map(property).joined(separator: "\n")
+    outputString += localizations.map(property).joined(separator: "\n")
     outputString += "\n}\n"
     outputString += "\n\n"
-    outputString += (allAvailabilities × allLocalizations).map(protocolFor).joined(separator: "\n\n")
+    outputString += (allAvailabilities × localizations).map(protocolFor).joined(separator: "\n\n")
     return outputString
 }()
 

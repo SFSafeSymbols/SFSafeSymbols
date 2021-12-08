@@ -14,7 +14,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let _123Rectangle: SFSymbol & ar_v30 & hi_v30 = LocalizableSymbol(rawValue: "123.rectangle")
+    static let _123Rectangle: SFSymbol & hi_v30 & ar_v30 = LocalizableSymbol(rawValue: "123.rectangle")
 
     /// 􁂸
     /// 3 Localizations, 2 Layersets
@@ -2571,7 +2571,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let goforward5: SFSymbol & ar_v30 & hi_v30 = LocalizableSymbol(rawValue: "goforward.5")
+    static let goforward5: SFSymbol & hi_v30 & ar_v30 = LocalizableSymbol(rawValue: "goforward.5")
 
     /// 􁆾
     /// Single Localization, 2 Layersets

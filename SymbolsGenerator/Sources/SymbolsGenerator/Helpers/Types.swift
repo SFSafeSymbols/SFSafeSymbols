@@ -12,7 +12,7 @@ struct Symbol {
     var restriction: String?
     var preview: String?
     var availability: Availability
-    var availableLocalizations: [Availability: Set<String>]
+    var availableLocalizations: [Availability: Set<Localization>]
     var availableLayersets: [Availability: Set<String>]
     var type: SymbolType
     var propertyName: String { name.toPropertyName }
@@ -54,4 +54,9 @@ struct Availability: Comparable, Equatable, Hashable {
 struct LayersetAvailability {
     var name: String
     var availability: Availability
+}
+
+struct Localization: Equatable, Hashable {
+    let suffix: String
+    let longName: String
 }
