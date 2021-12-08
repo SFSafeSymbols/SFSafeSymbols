@@ -36,6 +36,10 @@ struct Availability: Comparable, Equatable, Hashable {
         return String(format: "%.1f", NSDecimalNumber(decimal: ver).doubleValue)
     }
 
+    var availableExpression: String {
+        "available(iOS \(iOS), macOS \(macOS), tvOS \(tvOS), watchOS \(watchOS), *)"
+    }
+
     static func < (lhs: Availability, rhs: Availability) -> Bool {
         // The `orderedDescending` is intentional, because the availability is smaller when the year is higher
         return lhs.year.compare(rhs.year, options: .numeric) == .orderedDescending
@@ -59,4 +63,19 @@ struct LayersetAvailability {
 struct Localization: Equatable, Hashable {
     let suffix: String
     let longName: String
+
+    /// The name for a variable exposing this localization, e.g. "zhTraditional".
+    var variableName: String {
+        decapFirst(noDots(suffix.capitalized))
+    }
+
+    /// The name for the protocol exposing this localization given a specific (or base) availability.
+    /// E.g. "ar" or "ar_v20".
+    func protocolName(for availability: Availability) -> String {
+        let availabilitySuffix = availability.isBase ? "" : "_v" + noDots(availability.version)
+        return decapFirst(noDots(suffix.capitalized)) + availabilitySuffix
+    }
 }
+
+private let noDots: (String) -> String = { $0.replacingOccurrences(of: ".", with: "") }
+private let decapFirst: (String) -> String = { String($0.prefix(1)).lowercased() + String($0.dropFirst()) }

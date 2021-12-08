@@ -38,7 +38,7 @@ public extension SFSymbol {
     @available(macOS, introduced: 11.0, deprecated: 11.0, renamed: "characterBookClosed")
     @available(tvOS, introduced: 14.0, deprecated: 14.2, renamed: "characterBookClosed")
     @available(watchOS, introduced: 7.0, deprecated: 7.1, renamed: "characterBookClosed")
-    static let aBookClosed: SFSymbol & ja_v20 & th_v20 & ko_v20 & he_v20 & zh_v20 & ar_v20 & hi_v20 = LocalizableSymbol(rawValue: "a.book.closed")
+    static let aBookClosed: SFSymbol & ja_v20 & th_v20 & zh_v20 & ar_v20 & hi_v20 & ko_v20 & he_v20 = LocalizableSymbol(rawValue: "a.book.closed")
 
     /// 􀫖
     /// 8 Localizations, Single Layerset
@@ -59,7 +59,7 @@ public extension SFSymbol {
     @available(macOS, introduced: 11.0, deprecated: 11.0, renamed: "characterBookClosedFill")
     @available(tvOS, introduced: 14.0, deprecated: 14.2, renamed: "characterBookClosedFill")
     @available(watchOS, introduced: 7.0, deprecated: 7.1, renamed: "characterBookClosedFill")
-    static let aBookClosedFill: SFSymbol & he_v20 & th_v20 & hi_v20 & zh_v20 & ar_v20 & ko_v20 & ja_v20 = LocalizableSymbol(rawValue: "a.book.closed.fill")
+    static let aBookClosedFill: SFSymbol & ja_v20 & th_v20 & ko_v20 & he_v20 & ar_v20 & zh_v20 & hi_v20 = LocalizableSymbol(rawValue: "a.book.closed.fill")
 
     /// 􀤍
     /// Single Localization, 2 Layersets
@@ -2984,7 +2984,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let docRichtextFill: SFSymbol & ar_v20 & he_v20 & zh_v30 & hi_v30 & ko_v30 & ja_v30 & th_v30 & zhTraditional_v30 = LocalizableSymbol(rawValue: "doc.richtext.fill")
+    static let docRichtextFill: SFSymbol & ar_v20 & he_v20 & ko_v30 & th_v30 & hi_v30 & zh_v30 & ja_v30 & zhTraditional_v30 = LocalizableSymbol(rawValue: "doc.richtext.fill")
 
     /// 􀳼
     /// 2 Localizations, Single Layerset
