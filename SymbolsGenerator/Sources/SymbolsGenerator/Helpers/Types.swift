@@ -28,12 +28,23 @@ struct Availability: Comparable, Equatable, Hashable {
     var iOS: String
     var tvOS: String
     var watchOS: String
-    var macOS: String
+    private var _macOS: String
     var year: String // E. g. "2020" or "2020.1"
+
     var isBase: Bool { version == "1.0" }
+    var macOS: String { _macOS == "10.15" ? "11.0" : _macOS }
+
     var version: String {
         let ver = Decimal(string: "1.0")! + (Decimal(string: year)! - Decimal(string: "2019")!)
         return String(format: "%.1f", NSDecimalNumber(decimal: ver).doubleValue)
+    }
+
+    init(iOS: String, tvOS: String, watchOS: String, macOS: String, year: String) {
+        self.iOS = iOS
+        self.tvOS = tvOS
+        self.watchOS = watchOS
+        self._macOS = macOS
+        self.year = year
     }
 
     static func < (lhs: Availability, rhs: Availability) -> Bool {
