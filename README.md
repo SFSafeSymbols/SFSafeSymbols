@@ -66,7 +66,7 @@ The following SF Symbols versions are currently supported:
 
 | SF Symbols Version | iOS Version | macOS Version | tvOS Version | watchOS Version |
 | ------------------ | ----------- | ------------- | ------------ | --------------- |
-| 1.0 | 13.0 | 10.15 | 13.0 | 6.0 |
+| 1.0 | 13.0 | 11.0 | 13.0 | 6.0 |
 | 2.0 | 14.0 | 11.0 | 14.0 | 7.0 |
 | 2.1 | 14.2 | 11.0 | 14.2 | 7.1 |
 | 2.2 | 14.5 | 11.3 | 14.5 | 7.4 |
