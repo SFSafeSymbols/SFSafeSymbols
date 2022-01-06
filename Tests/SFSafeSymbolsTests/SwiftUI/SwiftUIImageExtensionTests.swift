@@ -33,18 +33,6 @@ class ImageExtensionTests: XCTestCase {
         }
     }
     
-    func testInitAllSymbols3_0() {
-        if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) {
-            for symbol in SFSymbol.allSymbols3_0.sorted(by: {$0.rawValue < $1.rawValue}) {
-                let expected = Image(systemName: symbol.rawValue)
-                let actual = Image(systemSymbol: symbol)
-                XCTAssertEqual(expected, actual)
-            }
-        } else {
-            XCTFail("iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0 is required for this test")
-        }
-    }
-    
     func testArrowClockwiseCircleFill() {
         if #available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *) {
             let expected = Image(systemSymbol: .arrowClockwiseCircleFill)
