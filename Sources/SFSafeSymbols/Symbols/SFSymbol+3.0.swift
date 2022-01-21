@@ -2437,11 +2437,12 @@ public extension SFSymbol {
     static let fuelpumpFill = SFSymbol(rawValue: "fuelpump.fill")
 
     /// 􁅦
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor (iOS 15.2, macOS 12.1, tvOS 15.2, watchOS 8.3)
     static let gearBadgeCheckmark = SFSymbol(rawValue: "gear.badge.checkmark")
 
     /// 􁅨
@@ -3540,7 +3541,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
-    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Sony’s Playstation.
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Sony’s PlayStation.
     static let logoPlaystation = SFSymbol(rawValue: "logo.playstation")
 
     /// 􀾉

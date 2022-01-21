@@ -3333,6 +3333,21 @@
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
+		<key>beats.fit.pro</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2021.2</string>
+		</dict>
+		<key>beats.fit.pro.left</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2021.2</string>
+		</dict>
+		<key>beats.fit.pro.right</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2021.2</string>
+		</dict>
 		<key>beats.headphones</key>
 		<dict>
 			<key>hierarchical</key>
@@ -6775,6 +6790,8 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+			<key>multicolor</key>
+			<string>2021.2</string>
 		</dict>
 		<key>gear.badge.questionmark</key>
 		<dict>
@@ -12316,10 +12333,20 @@
 			<key>hierarchical</key>
 			<string>2021.1</string>
 		</dict>
+		<key>square.3.layers.3d.down.left.slash</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2021.2</string>
+		</dict>
 		<key>square.3.layers.3d.down.right</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021.1</string>
+		</dict>
+		<key>square.3.layers.3d.down.right.slash</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2021.2</string>
 		</dict>
 		<key>square.3.stack.3d</key>
 		<dict>
@@ -12335,6 +12362,11 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>square.3.stack.3d.slash</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2021.2</string>
 		</dict>
 		<key>square.3.stack.3d.top.filled</key>
 		<dict>
@@ -14282,6 +14314,17 @@
 			<string>15.1</string>
 			<key>watchOS</key>
 			<string>8.1</string>
+		</dict>
+		<key>2021.2</key>
+		<dict>
+			<key>iOS</key>
+			<string>15.2</string>
+			<key>macOS</key>
+			<string>12.1</string>
+			<key>tvOS</key>
+			<string>15.2</string>
+			<key>watchOS</key>
+			<string>8.3</string>
 		</dict>
 	</dict>
 </dict>

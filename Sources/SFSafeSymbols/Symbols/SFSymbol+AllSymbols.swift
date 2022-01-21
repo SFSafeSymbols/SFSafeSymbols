@@ -6,7 +6,9 @@ extension SFSymbol {
     public static var allCases: [SFSymbol] { Array(allSymbols) }
 
     public static var allSymbols: Set<SFSymbol> = {
-        if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *) {
+        if #available(iOS 15.2, macOS 12.1, tvOS 15.2, watchOS 8.3, *) {
+            return allSymbols3_2
+        } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *) {
             return allSymbols3_1
         } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) {
             return allSymbols3_0

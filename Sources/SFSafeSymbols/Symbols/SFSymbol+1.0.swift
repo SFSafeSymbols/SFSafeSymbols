@@ -8484,10 +8484,12 @@ public extension SFSymbol {
     static let livephoto = SFSymbol(rawValue: "livephoto")
 
     /// 􀐣
-    /// Single Localization, Single Layerset
+    /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Live Photos feature.
     static let livephotoPlay = SFSymbol(rawValue: "livephoto.play")
 
     /// 􀐢
