@@ -1,0 +1,9 @@
+/* 
+Missing restricted symbols that were not found in the official symbol_restrictions.strings file.
+*/
+
+"apps.ipad" = "This symbol may not be modified and may only be used to refer to Apple’s iPad.";
+"apps.ipad.landscape" = "This symbol may not be modified and may only be used to refer to Apple’s iPad.";
+"apps.iphone" = "This symbol may not be modified and may only be used to refer to Apple’s iPhone.";
+"apps.iphone.badge.plus" = "This symbol may not be modified and may only be used to refer to Apple’s iPhone.";
+"apps.iphone.landscape" = "This symbol may not be modified and may only be used to refer to Apple’s iPhone.";

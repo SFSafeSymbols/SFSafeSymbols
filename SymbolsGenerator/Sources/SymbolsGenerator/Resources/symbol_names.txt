@@ -283,6 +283,8 @@ airplayvideo
 airplayvideo.badge.exclamationmark
 airplayvideo.circle
 airplayvideo.circle.fill
+airpod.gen3.left
+airpod.gen3.right
 airpod.left
 airpod.right
 airpodpro.left
@@ -292,6 +294,9 @@ airpods.chargingcase
 airpods.chargingcase.fill
 airpods.chargingcase.wireless
 airpods.chargingcase.wireless.fill
+airpods.gen3
+airpods.gen3.chargingcase.wireless
+airpods.gen3.chargingcase.wireless.fill
 airpodsmax
 airpodspro
 airpodspro.chargingcase.wireless
@@ -733,6 +738,11 @@ battery.75
 battery.100
 battery.100.bolt
 beats.earphones
+beats.fit.pro
+beats.fit.pro.chargingcase
+beats.fit.pro.chargingcase.fill
+beats.fit.pro.left
+beats.fit.pro.right
 beats.headphones
 beats.powerbeats
 beats.powerbeats3
@@ -2584,6 +2594,7 @@ rectangle.inset.topleading.filled
 rectangle.inset.topleft.filled
 rectangle.inset.topright.filled
 rectangle.inset.toptrailing.filled
+rectangle.leadinghalf.filled
 rectangle.leadinghalf.inset.filled
 rectangle.leadinghalf.inset.filled.arrow.leading
 rectangle.leadingthird.inset.filled
@@ -2678,6 +2689,7 @@ rectangle.stack.fill.badge.plus
 rectangle.tophalf.filled
 rectangle.tophalf.inset.filled
 rectangle.topthird.inset.filled
+rectangle.trailinghalf.filled
 rectangle.trailinghalf.inset.filled
 rectangle.trailinghalf.inset.filled.arrow.trailing
 rectangle.trailingthird.inset.filled
@@ -2843,10 +2855,13 @@ square.2.stack.3d.top.filled
 square.3.layers.3d.down.backward
 square.3.layers.3d.down.forward
 square.3.layers.3d.down.left
+square.3.layers.3d.down.left.slash
 square.3.layers.3d.down.right
+square.3.layers.3d.down.right.slash
 square.3.stack.3d
 square.3.stack.3d.bottom.filled
 square.3.stack.3d.middle.filled
+square.3.stack.3d.slash
 square.3.stack.3d.top.filled
 square.and.arrow.down
 square.and.arrow.down.fill
