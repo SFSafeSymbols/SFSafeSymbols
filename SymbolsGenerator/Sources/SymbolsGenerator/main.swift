@@ -16,9 +16,9 @@ guard
     let legacyAliases = SFFileManager
         .read(file: "legacy_aliases_strings", withExtension: "txt")
         .flatMap(StringEqualityFileParser.parse),
-    let asIsSymbols = SFFileManager
-        .read(file: "as_is_symbols", withExtension: "txt")
-        .flatMap(StringEqualityFileParser.parse),
+    let symbolRestrictions = SFFileManager
+        .read(file: "symbol_restrictions", withExtension: "strings")
+        .flatMap(SymbolRestrictionsParser.parse),
     let localizationSuffixes = SFFileManager
         .read(file: "localization_suffixes", withExtension: "txt")
         .flatMap(StringEqualityFileParser.parse),
@@ -121,7 +121,7 @@ for scannedSymbol in symbolManifest {
         symbols.append(
             .init(
                 name: nameWithoutSuffix,
-                restriction: asIsSymbols.first { $0.lhs == primaryName }?.rhs,
+                restriction: symbolRestrictions[primaryName],
                 preview: preview,
                 availability: scannedSymbol.availability,
                 availableLocalizations: localization.flatMap { [scannedSymbol.availability: [$0]] } ?? [:],
