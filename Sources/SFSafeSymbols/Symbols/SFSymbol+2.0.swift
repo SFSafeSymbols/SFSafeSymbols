@@ -281,40 +281,48 @@ public extension SFSymbol {
     static let applewatchWatchface = SFSymbol(rawValue: "applewatch.watchface")
 
     /// 􀮕
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
     static let appsIpad = SFSymbol(rawValue: "apps.ipad")
 
     /// 􀮖
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
     static let appsIpadLandscape = SFSymbol(rawValue: "apps.ipad.landscape")
 
     /// 􀟞
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     static let appsIphone = SFSymbol(rawValue: "apps.iphone")
 
     /// 􀯖
-    /// Single Localization, 3 Layersets
+    /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     static let appsIphoneBadgePlus = SFSymbol(rawValue: "apps.iphone.badge.plus")
 
     /// 􀮔
-    /// 2 Localizations, 2 Layersets
+    /// 2 Localizations, 2 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
     /// - Left-To-Right
@@ -323,6 +331,8 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     static let appsIphoneLandscape = SFSymbol(rawValue: "apps.iphone.landscape")
 
     /// 􀈯

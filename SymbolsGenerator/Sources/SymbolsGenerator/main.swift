@@ -16,8 +16,11 @@ guard
     let legacyAliases = SFFileManager
         .read(file: "legacy_aliases_strings", withExtension: "txt")
         .flatMap(StringEqualityFileParser.parse),
-    let symbolRestrictions = SFFileManager
+    var symbolRestrictions = SFFileManager
         .read(file: "symbol_restrictions", withExtension: "strings")
+        .flatMap(SymbolRestrictionsParser.parse),
+    let missingSymbolRestrictions = SFFileManager
+        .read(file: "symbol_restrictions_missing", withExtension: "strings")
         .flatMap(SymbolRestrictionsParser.parse),
     let localizationSuffixes = SFFileManager
         .read(file: "localization_suffixes", withExtension: "txt")
@@ -45,6 +48,12 @@ var symbolsWherePreviewIsntAvailable: [String] = []
 
 // Remove legacy symbols
 nameAliases = nameAliases.filter { lhs, _ in !legacyAliases.contains { $0.lhs == lhs } }
+
+// Add missing restricted symbols
+symbolRestrictions = symbolRestrictions.merging(missingSymbolRestrictions) { original, _ in
+    print("Duplicate restricted symbol was found")
+    return original
+}
 
 // Merge all versions of the same symbol into one type.
 // This process takes care of merging multiple localized variants + renamed variants from previous versions
