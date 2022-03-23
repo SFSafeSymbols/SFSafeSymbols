@@ -22,9 +22,10 @@ guard
     let missingSymbolRestrictions = SFFileManager
         .read(file: "symbol_restrictions_missing", withExtension: "strings")
         .flatMap(SymbolRestrictionsParser.parse),
-    let localizationSuffixes = SFFileManager
+    let localizations = SFFileManager
         .read(file: "localization_suffixes", withExtension: "txt")
-        .flatMap(StringEqualityFileParser.parse),
+        .flatMap(StringEqualityFileParser.parse)?
+        .map(Localization.init(suffix:longName:)),
     let symbolNames = SFFileManager
         .read(file: "symbol_names", withExtension: "txt")
         .flatMap(SymbolNamesFileParser.parse),
@@ -59,10 +60,9 @@ symbolRestrictions = symbolRestrictions.merging(missingSymbolRestrictions) { ori
 // This process takes care of merging multiple localized variants + renamed variants from previous versions
 var symbols: [Symbol] = []
 for scannedSymbol in symbolManifest {
-    let localizationSuffixAndName: (lhs: String, rhs: String)? = localizationSuffixes.first { scannedSymbol.name.hasSuffix(".\($0.lhs)") }
-    let localization: String? = localizationSuffixAndName?.rhs
+    let localization = localizations.first { scannedSymbol.name.hasSuffix(".\($0.suffix)") }
     let nameWithoutSuffix = scannedSymbol.name.replacingOccurrences(
-        of: (localizationSuffixAndName?.lhs).flatMap { ".\($0)" } ?? "",
+        of: (localization?.suffix).flatMap { ".\($0)" } ?? "",
         with: ""
     )
 
@@ -158,7 +158,7 @@ func layersetsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>] {
 let symbolToCode: (Symbol) -> String = { symbol in
     let completeLayersets = layersetsOfAllVersions(of: symbol)
     let layersetCount = completeLayersets.values.reduce(Set<String>()) { $0.union($1) }.count + 1
-    let localizationCount = symbol.availableLocalizations.values.reduce(Set<String>()) { $0.union($1) }.count + 1
+    let localizationCount = symbol.availableLocalizations.values.reduce(Set()) { $0.union($1) }.count + 1
 
     // Generate summary for docs (preview + number of localizations, layersets + potential use restriction)
     var outputString = "\t/// " + (symbol.preview ?? "No preview available") + "\n"
@@ -171,20 +171,22 @@ let symbolToCode: (Symbol) -> String = { symbol in
         outputString += "\t/// \(supplementString)\n"
     }
 
-    // Generate localization docs based on the assumption that localizations don't get removed
+    // Generate localization docs
     if !symbol.availableLocalizations.isEmpty { // Omit localization block if only the Latin localization is available
         // Use "Left-to-Right" name for the standard localization if "Right-To-Left" is the only other localization
-        let standardLocalizationName = symbol.availableLocalizations.values.reduce(Set()) { $0.union($1) } == ["Right-To-Left"] ? "Left-To-Right" : "Latin"
+        let standardLocalizationName = symbol.availableLocalizations.values.reduce(Set()) {
+            $0.union(Set($1.map { $0.longName }))
+        } == ["Right-To-Left"] ? "Left-To-Right" : "Latin"
 
         outputString += "\t///\n\t/// Localizations:\n\t/// - \(standardLocalizationName)\n"
-        var handledLocalizations: Set<String> = .init()
+        var handledLocalizations: Set<Localization> = .init()
         for (availability, localizations) in symbol.availableLocalizations.sorted(by: { $0.0 > $1.0 }) {
             let newLocalizations = localizations.subtracting(handledLocalizations)
             if !newLocalizations.isEmpty {
                 handledLocalizations.formUnion(newLocalizations)
                 let availabilityNotice: String = availability < symbol.availability ? " (iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS))" : ""
-                for localization in Array(newLocalizations).sorted() {
-                    outputString += "\t/// - \(localization)\(availabilityNotice)\n"
+                for localization in (Array(newLocalizations).sorted { $0.longName < $1.longName }) {
+                    outputString += "\t/// - \(localization.longName)\(availabilityNotice)\n"
                 }
             }
         }
