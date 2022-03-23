@@ -141,18 +141,6 @@ for scannedSymbol in symbolManifest {
     }
 }
 
-func localizationsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>] {
-    let toMerge: [Availability: Set<String>]
-    switch symbol.type {
-        case .replaced(let newerSymbol):
-            toMerge = symbols.first { $0.name == newerSymbol.name }!.availableLocalizations
-        case .replacement(let originalSymbol):
-            toMerge = symbols.first { $0.name == originalSymbol.name }!.availableLocalizations
-        default: toMerge = [:]
-    }
-    return symbol.availableLocalizations.merging(toMerge) { $0.union($1) }
-}
-
 func layersetsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>] {
     let toMerge: [Availability: Set<String>]
     switch symbol.type {
@@ -169,9 +157,8 @@ func layersetsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>] {
 
 let symbolToCode: (Symbol) -> String = { symbol in
     let completeLayersets = layersetsOfAllVersions(of: symbol)
-    let completeLocalizations = localizationsOfAllVersions(of: symbol)
     let layersetCount = completeLayersets.values.reduce(Set<String>()) { $0.union($1) }.count + 1
-    let localizationCount = completeLocalizations.values.reduce(Set<String>()) { $0.union($1) }.count + 1
+    let localizationCount = symbol.availableLocalizations.values.reduce(Set<String>()) { $0.union($1) }.count + 1
 
     // Generate summary for docs (preview + number of localizations, layersets + potential use restriction)
     var outputString = "\t/// " + (symbol.preview ?? "No preview available") + "\n"
@@ -185,13 +172,13 @@ let symbolToCode: (Symbol) -> String = { symbol in
     }
 
     // Generate localization docs based on the assumption that localizations don't get removed
-    if !completeLocalizations.isEmpty { // Omit localization block if only the Latin localization is available
+    if !symbol.availableLocalizations.isEmpty { // Omit localization block if only the Latin localization is available
         // Use "Left-to-Right" name for the standard localization if "Right-To-Left" is the only other localization
-        let standardLocalizationName = completeLocalizations.values.reduce(Set()) { $0.union($1) } == ["Right-To-Left"] ? "Left-To-Right" : "Latin"
+        let standardLocalizationName = symbol.availableLocalizations.values.reduce(Set()) { $0.union($1) } == ["Right-To-Left"] ? "Left-To-Right" : "Latin"
 
         outputString += "\t///\n\t/// Localizations:\n\t/// - \(standardLocalizationName)\n"
         var handledLocalizations: Set<String> = .init()
-        for (availability, localizations) in completeLocalizations.sorted(by: { $0.0 > $1.0 }) {
+        for (availability, localizations) in symbol.availableLocalizations.sorted(by: { $0.0 > $1.0 }) {
             let newLocalizations = localizations.subtracting(handledLocalizations)
             if !newLocalizations.isEmpty {
                 handledLocalizations.formUnion(newLocalizations)
