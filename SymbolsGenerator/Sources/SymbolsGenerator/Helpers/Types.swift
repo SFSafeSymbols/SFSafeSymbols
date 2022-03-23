@@ -38,6 +38,10 @@ struct Availability: Comparable, Equatable, Hashable {
         let ver = Decimal(string: "1.0")! + (Decimal(string: year)! - Decimal(string: "2019")!)
         return String(format: "%.1f", NSDecimalNumber(decimal: ver).doubleValue)
     }
+    
+    var availableExpression: String {
+        "available(iOS \(iOS), macOS \(macOS), tvOS \(tvOS), watchOS \(watchOS), *)"
+    }
 
     init(iOS: String, tvOS: String, watchOS: String, macOS: String, year: String) {
         self.iOS = iOS
@@ -70,4 +74,19 @@ struct LayersetAvailability {
 struct Localization: Equatable, Hashable {
     let suffix: String
     let longName: String
+    
+    /// The name for a variable exposing this localization, e.g. "zhTraditional".
+    var variableName: String {
+        decapFirst(noDots(suffix.capitalized))
+    }
+
+    /// The name for the SymbolLocalization struct exposing this localization given a specific (or base) availability.
+    /// E.g. "Ar" or "Ar_v20".
+    func structName(for availability: Availability) -> String {
+        let availabilitySuffix = availability.isBase ? "" : "_v" + noDots(availability.version)
+        return noDots(suffix.capitalized) + availabilitySuffix
+    }
 }
+
+private let noDots: (String) -> String = { $0.replacingOccurrences(of: ".", with: "") }
+private let decapFirst: (String) -> String = { String($0.prefix(1)).lowercased() + String($0.dropFirst()) }
