@@ -10,7 +10,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static let airpodGen3Left = SFSymbol(rawValue: "airpod.gen3.left")
+    static let airpodGen3Left = Localizable0Symbol(rawValue: "airpod.gen3.left")
 
     /// 􁄢
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -19,7 +19,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static let airpodGen3Right = SFSymbol(rawValue: "airpod.gen3.right")
+    static let airpodGen3Right = Localizable0Symbol(rawValue: "airpod.gen3.right")
 
     /// 􁄡
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -28,7 +28,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static let airpodsGen3 = SFSymbol(rawValue: "airpods.gen3")
+    static let airpodsGen3 = Localizable0Symbol(rawValue: "airpods.gen3")
 
     /// 􁅐
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -37,7 +37,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static let airpodsGen3ChargingcaseWireless = SFSymbol(rawValue: "airpods.gen3.chargingcase.wireless")
+    static let airpodsGen3ChargingcaseWireless = Localizable0Symbol(rawValue: "airpods.gen3.chargingcase.wireless")
 
     /// 􁅑
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -46,7 +46,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static let airpodsGen3ChargingcaseWirelessFill = SFSymbol(rawValue: "airpods.gen3.chargingcase.wireless.fill")
+    static let airpodsGen3ChargingcaseWirelessFill = Localizable0Symbol(rawValue: "airpods.gen3.chargingcase.wireless.fill")
 
     /// 􁅞
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -56,7 +56,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Fit Pro.
-    static let beatsFitPro = SFSymbol(rawValue: "beats.fit.pro")
+    static let beatsFitPro = Localizable0Symbol(rawValue: "beats.fit.pro")
 
     /// 􁅡
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -65,7 +65,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Fit Pro case.
-    static let beatsFitProChargingcase = SFSymbol(rawValue: "beats.fit.pro.chargingcase")
+    static let beatsFitProChargingcase = Localizable0Symbol(rawValue: "beats.fit.pro.chargingcase")
 
     /// 􁅢
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -74,7 +74,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Fit Pro case.
-    static let beatsFitProChargingcaseFill = SFSymbol(rawValue: "beats.fit.pro.chargingcase.fill")
+    static let beatsFitProChargingcaseFill = Localizable0Symbol(rawValue: "beats.fit.pro.chargingcase.fill")
 
     /// 􁅟
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -84,7 +84,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Fit Pro.
-    static let beatsFitProLeft = SFSymbol(rawValue: "beats.fit.pro.left")
+    static let beatsFitProLeft = Localizable0Symbol(rawValue: "beats.fit.pro.left")
 
     /// 􁅠
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -94,21 +94,21 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Fit Pro.
-    static let beatsFitProRight = SFSymbol(rawValue: "beats.fit.pro.right")
+    static let beatsFitProRight = Localizable0Symbol(rawValue: "beats.fit.pro.right")
 
     /// 􁋶
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let rectangleLeadinghalfFilled = SFSymbol(rawValue: "rectangle.leadinghalf.filled")
+    static let rectangleLeadinghalfFilled = Localizable0Symbol(rawValue: "rectangle.leadinghalf.filled")
 
     /// 􁋷
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let rectangleTrailinghalfFilled = SFSymbol(rawValue: "rectangle.trailinghalf.filled")
+    static let rectangleTrailinghalfFilled = Localizable0Symbol(rawValue: "rectangle.trailinghalf.filled")
 
     /// 􁋽
     /// Single Localization, 2 Layersets
@@ -116,7 +116,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let square3Layers3dDownLeftSlash = SFSymbol(rawValue: "square.3.layers.3d.down.left.slash")
+    static let square3Layers3dDownLeftSlash = Localizable0Symbol(rawValue: "square.3.layers.3d.down.left.slash")
 
     /// 􁋼
     /// Single Localization, 2 Layersets
@@ -124,7 +124,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let square3Layers3dDownRightSlash = SFSymbol(rawValue: "square.3.layers.3d.down.right.slash")
+    static let square3Layers3dDownRightSlash = Localizable0Symbol(rawValue: "square.3.layers.3d.down.right.slash")
 
     /// 􁌅
     /// Single Localization, 2 Layersets
@@ -132,5 +132,5 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let square3Stack3dSlash = SFSymbol(rawValue: "square.3.stack.3d.slash")
+    static let square3Stack3dSlash = Localizable0Symbol(rawValue: "square.3.stack.3d.slash")
 }

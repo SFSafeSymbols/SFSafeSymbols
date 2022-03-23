@@ -5,7 +5,7 @@ extension SFSymbol {
     @available(*, deprecated, renamed: "allSymbols")
     public static var allCases: [SFSymbol] { Array(allSymbols) }
 
-    public static var allSymbols: Set<SFSymbol> = {
+    public static var allSymbols: Set<LocalizableSFSymbol> = {
         if #available(iOS 15.2, macOS 12.1, tvOS 15.2, watchOS 8.3, *) {
             return allSymbols3_2
         } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *) {
