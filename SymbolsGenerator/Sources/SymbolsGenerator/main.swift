@@ -223,25 +223,44 @@ let symbolToCode: (Symbol) -> String = { symbol in
     // Generate symbol
     // Reduce [A: Set<B>] -> [(A, B)] -> [String]
     let structNames = symbol.availableLocalizations.flatMap { availability, localizations in
-        localizations.map { $0.structName(for: availability) }
+        localizations.map {
+            symbol.availability == availability ? $0.baseStructName : $0.structName(for: availability)
+        }
+    }.sorted()
+
+    let nonVariadicClassName: (Int) -> String = {
+        $0 == 0 ? "NonLocalizedSymbol" : ("SymbolWith\($0)Localization" + (($0 > 1) ? "s" : ""))
     }
-        
     let variadics = structNames.isEmpty ? "" : "<\(structNames.joined(separator: ", "))>"
-        
-    outputString += "\tstatic let \(symbol.propertyName) = Localizable\(localizationCount-1)Symbol\(variadics)(rawValue: \"\(symbol.name)\")"
+
+    outputString += "\tstatic let \(symbol.propertyName) = \(nonVariadicClassName(localizationCount-1))\(variadics)(rawValue: \"\(symbol.name)\")"
 
     return outputString
 }
 
-let baseAvailability = "@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)"
+let baseAvailability = "@\(Availability.base.availableExpression)"
 
 let symbolLocalizations: String = {
     let availabilities = Array(Set(symbols.map { $0.availability }))
     
-    let ifStatement: (Localization, Availability) -> String = { loc, ava in
-        let availabilityClause = ava.isBase ? "" : "#\(ava.availableExpression), "
-        let containmentClause = "(localizations.contains { $0 == \(loc.structName(for: ava)).self })"
-        return "\t\tif \(availabilityClause)\(containmentClause) { result.update(with: .\(loc.variableName)) }"
+    let usedCombinations: [(Localization, Availability)] = (localizations × availabilities).filter { loc, ava in
+        ava.isBase || symbols.contains {
+            $0.availability > ava && $0.availableLocalizations[ava]?.contains(loc) ?? false
+        }
+    }.sorted {
+        let ((loc1, ava1), (loc2, ava2)) = ($0, $1)
+        return loc1.structName(for: ava1) < loc2.structName(for: ava2)
+    }
+    
+    let groupedCombinations = Dictionary(grouping: usedCombinations) { $0.1 }
+    
+    let enclosingIfStatement: (Availability) -> String = { ava in
+        let enclosingIf = "\t\tif #\(ava.availableExpressionWithoutRedundancyToBase) {"
+        let locs = groupedCombinations[ava]!.map { $0.0 }
+        let deeperIfs = locs.map { loc in
+            "\t\t\tif (localizations.contains { $0 == \(loc.structName(for: ava)).self }) { result.update(with: .\(loc.variableName)) }"
+        }
+        return ([enclosingIf] + deeperIfs + ["\t\t}"]).joined(separator: "\n")
     }
     
     let structDecl: (Localization, Availability) -> String = { loc, ava in
@@ -262,16 +281,15 @@ let symbolLocalizations: String = {
     outputString += localizations.map { "\tcase \($0.variableName) = \"\($0.suffix)\""}.joined(separator: "\n")
     outputString += "\n}\n\n"
     outputString += "\(baseAvailability)\n"
-    outputString += "public extension LocalizableSFSymbol {\n"
-    outputString += "\t/// Determine all localizations `self` can be localized to on the current platform.\n"
-    outputString += "\tvar availableLocalizations: Set<Localization> {\n"
+    outputString += "internal extension LocalizableSFSymbol {\n"
+    outputString += "\tvar _availableLocalizations: Set<Localization> {\n"
     outputString += "\t\tvar result = Set<Localization>()\n"
-    outputString += (localizations × availabilities).map(ifStatement).joined(separator: "\n")
+    outputString += groupedCombinations.keys.sorted().map(enclosingIfStatement).joined(separator: "\n")
     outputString += "\n\t\treturn result\n"
     outputString += "\t}\n}\n\n"
     
     outputString += "// MARK: - Static Localization\n\n"
-    outputString += (localizations × availabilities).map(structDecl).joined(separator: "\n\n")
+    outputString += usedCombinations.map(structDecl).joined(separator: "\n\n")
     return outputString
 }()
 
@@ -317,7 +335,7 @@ let allSymbolsExtension: String = {
     outputString += "\(baseAvailability)\n"
     outputString += "extension SFSymbol {\n"
 
-    // `allCases` has been deprecated with the v3 release (fall of 2021)
+    // `allCases` has been deprecated with the v3 release (spring of 2022)
     // It shall be removed entirely ~2 years after the v3 release
     outputString += "\t@available(*, deprecated, renamed: \"allSymbols\")\n"
     outputString += "\tpublic static var allCases: [SFSymbol] { Array(allSymbols) }\n\n"
@@ -327,7 +345,7 @@ let allSymbolsExtension: String = {
     outputString += "\t\t"
     outputString += groupedAllLatestSymbolsFileContents.keys.sorted().map { availability in
         let versionUnderscored = availability.version.replacingOccurrences(of: ".", with: "_")
-        var bodyString = availability.isBase ? "" : "if #available(iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS), *) "
+        var bodyString = availability.isBase ? "" : "if #\(availability.availableExpressionWithoutRedundancyToBase) "
         bodyString += "{\n"
         bodyString += "\t\t\treturn allSymbols\(versionUnderscored)\n"
         return bodyString
