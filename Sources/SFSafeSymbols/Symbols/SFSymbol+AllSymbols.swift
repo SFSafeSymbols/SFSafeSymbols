@@ -14,9 +14,9 @@ extension SFSymbol {
             return allSymbols3_0
         } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *) {
             return allSymbols2_2
-        } else if #available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *) {
+        } else if #available(iOS 14.2, tvOS 14.2, watchOS 7.1, *) {
             return allSymbols2_1
-        } else if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+        } else if #available(iOS 14.0, tvOS 14.0, watchOS 7.0, *) {
             return allSymbols2_0
         } else {
             return allSymbols1_0
