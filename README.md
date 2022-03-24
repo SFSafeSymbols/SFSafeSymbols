@@ -167,6 +167,38 @@ NSImage(systemSymbol: .cCircle)
 NSImage(systemSymbol: SFSymbol.eCircleFill, accessibilityDescription: "some.description")
 ```
 
+## Localization
+
+SFSymbols can come with multiple different localizations. `SFSafeSymbols` exposes localization the following way:
+
+- Implicit localization: When using an `SFSymbol`, it gets automatically localized to the user's current locale - nothing to do on your part.
+
+- Explicit localization: `SFSafeSymbols` lets you access a symbol's localized versions as follows:
+
+  ```swift
+  // 1. Static localization:
+  let a = SFSymbol.character.ar // corresponds to "character.ar"
+  let b = SFSymbol.character.zh // corresponds to "character.zh"
+  let c = SFSymbol.character.rtl // doesn't compile: "character.rtl" doesn't exist
+  // a, b have type SFSymbol
+  
+  // 2. Dynamic localization:
+  SFSymbol.character.availableLocalizations // [.ar, .he, .hi, .ja, .ko, .th, .zh, .zhTraditional]
+  let a = SFSymbol.character.localized(to: .ar)
+  let b = SFSymbol.character.localized(to: .rtl)
+  // a, b have type SFSymbol?
+  ```
+
+  Static localization only exposes the localizations which are actually available, so you cannot accidentally localize a non-localizable symbol.
+
+  Dynamic localization is useful however when dealing with an array of `LocalizableSFSymbols` which all have different localization information.
+
+Attention: Serializing and deserializing `SFSymbol`s makes them lose their explicit localization information. This is because `SFSymbol(rawValue:)` creates a standard, non-localizable `SFSymbol`, whereas `SFSymbol.character` and all other static symbols have type `LocalizableSFSymbol: SFSymbol` which doesn't support custom serialization yet.
+
+
+
+To use them ine the code, there are multiple options:
+
 ## Contributing
 
 Contributions are very much welcome! See [CONTRIBUTING.md](https://github.com/SFSafeSymbols/SFSafeSymbols/blob/stable/CONTRIBUTING.md) for more information.
