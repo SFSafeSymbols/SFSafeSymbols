@@ -5,90 +5,78 @@
 import XCTest
 
 class UIImageExtensionTests: XCTestCase {
+    /// Tests, whether a non-nil`UIImage` exists for all symbol raw values
+    /// Symbols for which such an `UIImage` doesn't exist, will be logged to facilitate debugging
     func testFailingSymbols() {
-        // This is a test designed to print all the failing symbols
         if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
-            let failingSymbols = SFSymbol.allSymbols.map { $0.rawValue }.map { ($0, UIImage(systemName: $0)) }.filter { $0.1 == nil }.map { $0.0 }
-            print("The following symbols are failing: \(failingSymbols)")
-            XCTAssert(failingSymbols.isEmpty, "There should be no failing symbols.")
-        } else {
-            XCTFail("iOS 13 or tvOS 13 is required to test SFSafeSymbols.")
-        }
-    }
+            let failingSymbols = TestHelper.allSymbols.map { $0.rawValue }.map { ($0, UIImage(systemName: $0)) }.filter { $0.1 == nil }.map { $0.0 }
 
-    func testSimpleInit() {
-        if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
-            SFSymbol.allSymbols.forEach { symbol in
-                // If this doesn't crash, everything works fine
-                print("Testing existence of \(symbol.rawValue) via UIImage init")
-                _ = UIImage(systemSymbol: symbol)
+            if !failingSymbols.isEmpty {
+                print("The following symbols are failing: \(failingSymbols)")
+                XCTFail("There should be no failing symbols.")
             }
         } else {
-            XCTFail("iOS 13 or tvOS 13 is required to test SFSafeSymbols.")
+            XCTFail("iOS 13, tvOS 13 or watchOS 6.0 is required to test SFSafeSymbols.")
         }
     }
 
+    /// Tests, whether the `UIImage` retrieved via SFSafeSymbols is equal to the one retrieved via the `String` initializer
+    func testInit() {
+        if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
+            for symbol in TestHelper.allSymbols {
+                print("Testing validity of \"\(symbol.rawValue)\" via UIImage init")
+
+                let expected = UIImage(systemName: symbol.rawValue)
+                let actual = UIImage(systemSymbol: symbol)
+
+                XCTAssertEqual(actual, expected)
+            }
+        } else {
+            XCTFail("iOS 13, tvOS 13 or watchOS 6.0 is required to test SFSafeSymbols.")
+        }
+    }
+
+    /// Tests, whether the `UIImage` retrieved via SFSafeSymbols is equal to the one retrieved via the `String` initializer,
+    /// even when passing a configuration
     func testInitWithConfiguration() {
         if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
-            // Get many configurations
-            var manyConfigurations: [UIImage.Configuration] = [
-                UIImage.SymbolConfiguration(pointSize: 8),
+            // Get some configurations
+            let configurations: [UIImage.Configuration] = [
                 UIImage.SymbolConfiguration(pointSize: 10),
-                UIImage.SymbolConfiguration(pointSize: 12),
-                UIImage.SymbolConfiguration(pointSize: 14),
-                UIImage.SymbolConfiguration(pointSize: 16),
-                UIImage.SymbolConfiguration(pointSize: 20),
-                UIImage.SymbolConfiguration(pointSize: 30),
-                UIImage.SymbolConfiguration(pointSize: 50),
-                UIImage.SymbolConfiguration(pointSize: 100),
-                UIImage.SymbolConfiguration(scale: .unspecified),
-                UIImage.SymbolConfiguration(scale: .default),
-                UIImage.SymbolConfiguration(scale: .small),
                 UIImage.SymbolConfiguration(scale: .medium),
-                UIImage.SymbolConfiguration(scale: .large),
-                UIImage.SymbolConfiguration(weight: .unspecified),
-                UIImage.SymbolConfiguration(weight: .ultraLight),
-                UIImage.SymbolConfiguration(weight: .thin),
-                UIImage.SymbolConfiguration(weight: .light),
-                UIImage.SymbolConfiguration(weight: .regular),
-                UIImage.SymbolConfiguration(weight: .medium),
-                UIImage.SymbolConfiguration(weight: .semibold),
-                UIImage.SymbolConfiguration(weight: .bold),
-                UIImage.SymbolConfiguration(weight: .heavy),
-                UIImage.SymbolConfiguration(weight: .black),
-                UIImage.SymbolConfiguration(pointSize: 10, weight: .medium),
-                UIImage.SymbolConfiguration(pointSize: 20, weight: .medium),
-                UIImage.SymbolConfiguration(pointSize: 10, weight: .black),
-                UIImage.SymbolConfiguration(pointSize: 20, weight: .black),
-                UIImage.SymbolConfiguration(pointSize: 10, weight: .medium, scale: .large),
-                UIImage.SymbolConfiguration(pointSize: 20, weight: .medium, scale: .large),
-                UIImage.SymbolConfiguration(pointSize: 10, weight: .black, scale: .small),
-                UIImage.SymbolConfiguration(pointSize: 20, weight: .black, scale: .small),
+                UIImage.SymbolConfiguration(pointSize: 10, weight: .bold, scale: .small),
+                UITraitCollection(verticalSizeClass: .regular).imageConfiguration,
+                UITraitCollection(legibilityWeight: .bold).imageConfiguration
             ]
 
-            manyConfigurations.append(
-                contentsOf: [
-                    UITraitCollection(forceTouchCapability: .available),
-                    UITraitCollection(horizontalSizeClass: .compact),
-                    UITraitCollection(horizontalSizeClass: .regular),
-                    UITraitCollection(verticalSizeClass: .compact),
-                    UITraitCollection(verticalSizeClass: .unspecified),
-                    UITraitCollection(legibilityWeight: .bold),
-                    UITraitCollection(legibilityWeight: .regular),
-                    UITraitCollection(legibilityWeight: .unspecified)
-                ].map { $0.imageConfiguration }
-            )
+            // Go over cross product: symbols x configs
+            for symbol in TestHelper.allSymbols {
+                for configuration in configurations {
+                    print("Testing validity of \"\(symbol.rawValue)\" with configuration \"\(configuration)\" via UIImage init")
 
-            // Go through cross product: symbols & configs
-            SFSymbol.allSymbols.forEach { symbol in
-                manyConfigurations.forEach { configuration in
-                    // If this doesn't crash, everything works fine
-                    print("Testing existence of \(symbol.rawValue) with configuration \(configuration)")
-                    _ = UIImage(systemSymbol: symbol, withConfiguration: configuration)
+                    let expected = UIImage(systemName: symbol.rawValue, withConfiguration: configuration)
+                    let actual = UIImage(systemSymbol: symbol, withConfiguration: configuration)
+
+                    XCTAssertEqual(actual, expected)
                 }
             }
         } else {
-            XCTFail("iOS 13 or tvOS 13 is required to test  SFSafeSymbols.")
+            XCTFail("iOS 13, tvOS 13 or watchOS 6.0 is required to test SFSafeSymbols.")
+        }
+    }
+
+    /// Tests whether the `UIImage` equality check used in the main test works properly
+    func testTestMechanism() {
+        if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
+            let expected = UIImage(systemName: TestHelper.sampleSymbolRawValue)
+            let actual = UIImage(systemSymbol: TestHelper.sampleSymbol)
+            let wrong = UIImage(systemSymbol: TestHelper.sampleSymbolWrongDerivate)
+
+            XCTAssertEqual(actual, expected)
+            XCTAssertNotEqual(wrong, expected)
+        }
+        else {
+            XCTFail("iOS 13, tvOS 13 or watchOS 6.0 is required to test SFSafeSymbols.")
         }
     }
 }

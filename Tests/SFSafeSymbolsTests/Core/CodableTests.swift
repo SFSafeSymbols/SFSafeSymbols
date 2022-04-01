@@ -1,4 +1,3 @@
-
 @testable import SFSafeSymbols
 import XCTest
 
@@ -9,20 +8,20 @@ class CodableTests: XCTestCase {
     }
 
     func testEncoding() throws {
-        let randomSymbol = SFSymbol.allSymbols.randomElement()!
-        print("Testing encoding of \(randomSymbol.rawValue)")
-        let jsonData = #"{"foo":"\#(randomSymbol.rawValue)"}"#.data(using: .utf8)
-        let wrapper = SymbolWrapper(foo: randomSymbol)
+        let sampleSymbol = TestHelper.sampleSymbol
+        print("Testing encoding of \(sampleSymbol.rawValue)")
+        let jsonData = #"{"foo":"\#(sampleSymbol.rawValue)"}"#.data(using: .utf8)
+        let wrapper = SymbolWrapper(foo: sampleSymbol)
         let encodedData = try JSONEncoder().encode(wrapper)
         XCTAssertEqual(encodedData, jsonData)
     }
 
     func testDecoding() throws {
-        let randomSymbol = SFSymbol.allSymbols.randomElement()!
-        print("Testing decoding of \(randomSymbol.rawValue)")
-        let jsonData = #"{"foo":"\#(randomSymbol.rawValue)"}"#.data(using: .utf8)
+        let sampleSymbol = TestHelper.sampleSymbol
+        print("Testing decoding of \(sampleSymbol.rawValue)")
+        let jsonData = #"{"foo":"\#(sampleSymbol.rawValue)"}"#.data(using: .utf8)
         let symbol = try jsonData.flatMap { try JSONDecoder().decode(SymbolWrapper.self, from: $0) }
-        XCTAssertEqual(symbol?.foo, randomSymbol)
+        XCTAssertEqual(symbol?.foo, sampleSymbol)
     }
 }
 
