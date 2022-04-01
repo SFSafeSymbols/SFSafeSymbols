@@ -169,9 +169,9 @@ NSImage(systemSymbol: SFSymbol.eCircleFill, accessibilityDescription: "some.desc
 
 ## Localization
 
-SFSymbols can come with multiple different localizations. `SFSafeSymbols` exposes localization the following way:
+SF Symbols can come with multiple different localizations. `SFSafeSymbols` exposes localization the following way:
 
-- Implicit localization: When using an `SFSymbol`, it gets automatically localized to the user's current locale - nothing to do on your part.
+- Implicit localization: When using an `SFSymbol`, it gets automatically localized to the user's current locale - nothing to do on your part. This behavior is managed by Apple's system implementation of SF Symbols.
 
 - Explicit localization: `SFSafeSymbols` lets you access a symbol's localized versions as follows:
 
@@ -191,13 +191,13 @@ SFSymbols can come with multiple different localizations. `SFSafeSymbols` expose
 
   Static localization only exposes the localizations which are actually available, so you cannot accidentally localize a non-localizable symbol.
 
-  Dynamic localization is useful however when dealing with an array of `LocalizableSFSymbols` which all have different localization information.
+  Dynamic localization, in contrast, is useful when dealing with an array of `LocalizableSFSymbols` which all have different localization information.
 
-Attention: Serializing and deserializing `SFSymbol`s makes them lose their explicit localization information. This is because `SFSymbol(rawValue:)` creates a standard, non-localizable `SFSymbol`, whereas `SFSymbol.character` and all other static symbols have type `LocalizableSFSymbol: SFSymbol` which doesn't support custom serialization yet.
+Attention: Serializing and deserializing `SFSymbol`s makes them lose their _explicit_ localizations. This is because `SFSymbol(rawValue:)` creates a standard, non-localizable `SFSymbol`, whereas `SFSymbol.character` and all other static symbols have type `LocalizableSFSymbol: SFSymbol` which doesn't support custom serialization yet.
 
 
 
-To use them ine the code, there are multiple options:
+To use them in the code, there are multiple options:
 
 ## Contributing
 
