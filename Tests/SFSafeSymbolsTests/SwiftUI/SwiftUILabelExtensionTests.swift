@@ -9,11 +9,13 @@ import XCTest
 import SwiftUI
 
 class LabelExtensionTests: XCTestCase {
+    /// Tests, whether the `Label` retrieved via SFSafeSymbols can be retrieved without a crash
     func testInit() {
-        if #available(iOS 14.0, OSX 10.16, tvOS 14.0, watchOS 7.0, *) {
-            SFSymbol.allSymbols.forEach { symbol in
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            for symbol in (SFSymbol.allSymbols.sorted { $0.rawValue < $1.rawValue }) {
+                print("Testing validity of \"\(symbol.rawValue)\" via Label init")
+
                 // If this doesn't crash, everything works fine
-                print("Testing existence of \(symbol.rawValue) via Image init")
                 _ = Label("Title", systemSymbol: symbol)
             }
         } else {
