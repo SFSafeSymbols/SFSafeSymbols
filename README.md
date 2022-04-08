@@ -191,13 +191,9 @@ SF Symbols can come with multiple different localizations. `SFSafeSymbols` expos
 
   Static localization only exposes the localizations which are actually available, so you cannot accidentally localize a non-localizable symbol.
 
-  Dynamic localization, in contrast, is useful when dealing with an array of `LocalizableSFSymbols` which all have different available localizations.
+  Dynamic localization, in contrast, is useful when dealing with an array of `SFSymbols` which all have different available localizations.
 
-Attention: Serializing and deserializing `SFSymbol`s makes them lose their _explicit_ localizations. This is because `SFSymbol(rawValue:)` creates a standard, non-localizable `SFSymbol`, whereas `SFSymbol.character` and all other static symbols have type `LocalizableSFSymbol: SFSymbol` which doesn't support custom serialization yet.
-
-
-
-To use them in the code, there are multiple options:
+Attention: Serializing and deserializing `SFSymbol`s currently makes them lose their _explicit_ localizations. This will be addressed in a future version.
 
 ## Contributing
 
