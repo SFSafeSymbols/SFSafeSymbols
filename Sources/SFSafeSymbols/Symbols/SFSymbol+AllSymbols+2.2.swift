@@ -2,7 +2,7 @@
 
 @available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *)
 extension SFSymbol {
-    internal static var allSymbols2_2: Set<LocalizableSFSymbol> { 
+    internal static var allSymbols2_2: Set<SFSymbol> { 
         [
             _0Circle,
             _0CircleFill,

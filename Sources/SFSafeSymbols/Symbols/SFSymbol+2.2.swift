@@ -11,7 +11,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods Max.
-    static let airpodsmax = NonLocalizedSymbol(rawValue: "airpodsmax")
+    static let airpodsmax = SFSymbol(rawValue: "airpodsmax")
 
     /// 􀸎
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -21,7 +21,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
-    static let applewatchSideRight = NonLocalizedSymbol(rawValue: "applewatch.side.right")
+    static let applewatchSideRight = SFSymbol(rawValue: "applewatch.side.right")
 
     /// 􀌰
     /// 9 Localizations, 2 Layersets
@@ -107,7 +107,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.
-    static let hifispeakerAndHomepodmini = NonLocalizedSymbol(rawValue: "hifispeaker.and.homepodmini")
+    static let hifispeakerAndHomepodmini = SFSymbol(rawValue: "hifispeaker.and.homepodmini")
 
     /// 􀷮
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -117,7 +117,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.
-    static let hifispeakerAndHomepodminiFill = NonLocalizedSymbol(rawValue: "hifispeaker.and.homepodmini.fill")
+    static let hifispeakerAndHomepodminiFill = SFSymbol(rawValue: "hifispeaker.and.homepodmini.fill")
 
     /// 􀷫
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -127,7 +127,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod and HomePod mini.
-    static let homepodAndHomepodmini = NonLocalizedSymbol(rawValue: "homepod.and.homepodmini")
+    static let homepodAndHomepodmini = SFSymbol(rawValue: "homepod.and.homepodmini")
 
     /// 􀷬
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -137,7 +137,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod and HomePod mini.
-    static let homepodAndHomepodminiFill = NonLocalizedSymbol(rawValue: "homepod.and.homepodmini.fill")
+    static let homepodAndHomepodminiFill = SFSymbol(rawValue: "homepod.and.homepodmini.fill")
 
     /// 􀷧
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -147,7 +147,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.
-    static let homepodmini = NonLocalizedSymbol(rawValue: "homepodmini")
+    static let homepodmini = SFSymbol(rawValue: "homepodmini")
 
     /// 􀷩
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -157,7 +157,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.
-    static let homepodmini2 = NonLocalizedSymbol(rawValue: "homepodmini.2")
+    static let homepodmini2 = SFSymbol(rawValue: "homepodmini.2")
 
     /// 􀷪
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -167,7 +167,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.
-    static let homepodmini2Fill = NonLocalizedSymbol(rawValue: "homepodmini.2.fill")
+    static let homepodmini2Fill = SFSymbol(rawValue: "homepodmini.2.fill")
 
     /// 􀷨
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -177,7 +177,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.
-    static let homepodminiFill = NonLocalizedSymbol(rawValue: "homepodmini.fill")
+    static let homepodminiFill = SFSymbol(rawValue: "homepodmini.fill")
 
     /// 􀴊
     /// Single Localization, 2 Layersets
@@ -189,5 +189,5 @@ public extension SFSymbol {
     @available(macOS, introduced: 11.3, deprecated: 12.0, renamed: "rectangleTopthirdInsetFilled")
     @available(tvOS, introduced: 14.5, deprecated: 15.0, renamed: "rectangleTopthirdInsetFilled")
     @available(watchOS, introduced: 7.4, deprecated: 8.0, renamed: "rectangleTopthirdInsetFilled")
-    static let rectangleTopthirdInsetFill = NonLocalizedSymbol(rawValue: "rectangle.topthird.inset.fill")
+    static let rectangleTopthirdInsetFill = SFSymbol(rawValue: "rectangle.topthird.inset.fill")
 }

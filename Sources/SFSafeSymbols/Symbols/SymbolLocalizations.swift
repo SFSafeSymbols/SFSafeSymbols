@@ -15,9 +15,10 @@ public enum Localization: String, Equatable {
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
-internal extension LocalizableSFSymbol {
+internal extension SFSymbol {
     var _availableLocalizations: Set<Localization> {
         var result = Set<Localization>()
+        let localizations = self.localizations
         if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) {
             if (localizations.contains { $0 == Ar_v3.self }) { result.update(with: .ar) }
             if (localizations.contains { $0 == Hi_v3.self }) { result.update(with: .hi) }

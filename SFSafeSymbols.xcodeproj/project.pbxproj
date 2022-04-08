@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		636EBFD427EB2ABC005CFF4C /* LocalizableSFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636EBFD327EB2ABC005CFF4C /* LocalizableSFSymbol.swift */; };
-		63C133AD27EC9F69005ABE7C /* SFSymbol+2.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C133A627EC9F68005ABE7C /* SFSymbol+2.2.swift */; };
-		63C133AE27EC9F69005ABE7C /* SFSymbol+3.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C133A727EC9F68005ABE7C /* SFSymbol+3.1.swift */; };
-		63C133AF27EC9F69005ABE7C /* SFSymbol+1.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C133A827EC9F68005ABE7C /* SFSymbol+1.0.swift */; };
-		63C133B027EC9F69005ABE7C /* SFSymbol+3.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C133A927EC9F68005ABE7C /* SFSymbol+3.2.swift */; };
-		63C133B127EC9F69005ABE7C /* SFSymbol+3.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C133AA27EC9F68005ABE7C /* SFSymbol+3.0.swift */; };
-		63C133B227EC9F69005ABE7C /* SFSymbol+2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C133AB27EC9F68005ABE7C /* SFSymbol+2.1.swift */; };
-		63C133B327EC9F69005ABE7C /* SFSymbol+2.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C133AC27EC9F69005ABE7C /* SFSymbol+2.0.swift */; };
-		63C133B527ECA014005ABE7C /* SymbolLocalizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C133B427ECA014005ABE7C /* SymbolLocalizations.swift */; };
-		63E39CE327EB67950018100B /* SFSymbol+AllSymbols+3.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E39CD327EB67910018100B /* SFSymbol+AllSymbols+3.0.swift */; };
-		63E39CE427EB67950018100B /* SFSymbol+AllSymbols+1.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E39CD427EB67910018100B /* SFSymbol+AllSymbols+1.0.swift */; };
-		63E39CE527EB67950018100B /* SFSymbol+AllSymbols+2.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E39CD527EB67910018100B /* SFSymbol+AllSymbols+2.2.swift */; };
-		63E39CE627EB67950018100B /* SFSymbol+AllSymbols+2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E39CD627EB67920018100B /* SFSymbol+AllSymbols+2.1.swift */; };
-		63E39CE827EB67950018100B /* SFSymbol+AllSymbols+3.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E39CD827EB67920018100B /* SFSymbol+AllSymbols+3.2.swift */; };
-		63E39CEC27EB67950018100B /* SFSymbol+AllSymbols+2.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E39CDC27EB67930018100B /* SFSymbol+AllSymbols+2.0.swift */; };
-		63E39CED27EB67950018100B /* SFSymbol+AllSymbols+3.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E39CDD27EB67940018100B /* SFSymbol+AllSymbols+3.1.swift */; };
-		63E39CEF27EB67950018100B /* SFSymbol+AllSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E39CDF27EB67940018100B /* SFSymbol+AllSymbols.swift */; };
+		636A46BB28002819007E6028 /* SFSymbol+AllSymbols+1.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46AB28002816007E6028 /* SFSymbol+AllSymbols+1.0.swift */; };
+		636A46BC28002819007E6028 /* SFSymbol+2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46AC28002817007E6028 /* SFSymbol+2.1.swift */; };
+		636A46BD28002819007E6028 /* SFSymbol+2.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46AD28002817007E6028 /* SFSymbol+2.0.swift */; };
+		636A46BE28002819007E6028 /* SFSymbol+AllSymbols+3.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46AE28002817007E6028 /* SFSymbol+AllSymbols+3.2.swift */; };
+		636A46BF28002819007E6028 /* SymbolLocalizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46AF28002817007E6028 /* SymbolLocalizations.swift */; };
+		636A46C028002819007E6028 /* SFSymbol+3.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46B028002817007E6028 /* SFSymbol+3.1.swift */; };
+		636A46C128002819007E6028 /* SFSymbol+AllSymbols+3.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46B128002817007E6028 /* SFSymbol+AllSymbols+3.1.swift */; };
+		636A46C228002819007E6028 /* SFSymbol+AllSymbols+2.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46B228002818007E6028 /* SFSymbol+AllSymbols+2.2.swift */; };
+		636A46C328002819007E6028 /* SFSymbol+AllSymbols+3.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46B328002818007E6028 /* SFSymbol+AllSymbols+3.0.swift */; };
+		636A46C428002819007E6028 /* SFSymbol+3.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46B428002818007E6028 /* SFSymbol+3.0.swift */; };
+		636A46C528002819007E6028 /* SFSymbol+AllSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46B528002818007E6028 /* SFSymbol+AllSymbols.swift */; };
+		636A46C628002819007E6028 /* SFSymbol+3.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46B628002818007E6028 /* SFSymbol+3.2.swift */; };
+		636A46C728002819007E6028 /* SFSymbol+1.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46B728002819007E6028 /* SFSymbol+1.0.swift */; };
+		636A46C828002819007E6028 /* SFSymbol+2.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46B828002819007E6028 /* SFSymbol+2.2.swift */; };
+		636A46C928002819007E6028 /* SFSymbol+AllSymbols+2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46B928002819007E6028 /* SFSymbol+AllSymbols+2.1.swift */; };
+		636A46CA28002819007E6028 /* SFSymbol+AllSymbols+2.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46BA28002819007E6028 /* SFSymbol+AllSymbols+2.0.swift */; };
+		636EBFD427EB2ABC005CFF4C /* SymbolWithLocalizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636EBFD327EB2ABC005CFF4C /* SymbolWithLocalizations.swift */; };
 		B0DDAE152637C11400081F1C /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DDAE112637BF3300081F1C /* CodableTests.swift */; };
 		CC1D812F27F758D200CACDC7 /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D812E27F758D200CACDC7 /* TestHelper.swift */; };
 		CCCCCFEC252F61E700C7CE9F /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE5252F61E700C7CE9F /* SFSymbol.swift */; };
@@ -53,23 +53,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		636EBFD327EB2ABC005CFF4C /* LocalizableSFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableSFSymbol.swift; sourceTree = "<group>"; };
-		63C133A627EC9F68005ABE7C /* SFSymbol+2.2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+2.2.swift"; sourceTree = "<group>"; };
-		63C133A727EC9F68005ABE7C /* SFSymbol+3.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+3.1.swift"; sourceTree = "<group>"; };
-		63C133A827EC9F68005ABE7C /* SFSymbol+1.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+1.0.swift"; sourceTree = "<group>"; };
-		63C133A927EC9F68005ABE7C /* SFSymbol+3.2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+3.2.swift"; sourceTree = "<group>"; };
-		63C133AA27EC9F68005ABE7C /* SFSymbol+3.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+3.0.swift"; sourceTree = "<group>"; };
-		63C133AB27EC9F68005ABE7C /* SFSymbol+2.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+2.1.swift"; sourceTree = "<group>"; };
-		63C133AC27EC9F69005ABE7C /* SFSymbol+2.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+2.0.swift"; sourceTree = "<group>"; };
-		63C133B427ECA014005ABE7C /* SymbolLocalizations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolLocalizations.swift; sourceTree = "<group>"; };
-		63E39CD327EB67910018100B /* SFSymbol+AllSymbols+3.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+3.0.swift"; sourceTree = "<group>"; };
-		63E39CD427EB67910018100B /* SFSymbol+AllSymbols+1.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+1.0.swift"; sourceTree = "<group>"; };
-		63E39CD527EB67910018100B /* SFSymbol+AllSymbols+2.2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+2.2.swift"; sourceTree = "<group>"; };
-		63E39CD627EB67920018100B /* SFSymbol+AllSymbols+2.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+2.1.swift"; sourceTree = "<group>"; };
-		63E39CD827EB67920018100B /* SFSymbol+AllSymbols+3.2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+3.2.swift"; sourceTree = "<group>"; };
-		63E39CDC27EB67930018100B /* SFSymbol+AllSymbols+2.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+2.0.swift"; sourceTree = "<group>"; };
-		63E39CDD27EB67940018100B /* SFSymbol+AllSymbols+3.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+3.1.swift"; sourceTree = "<group>"; };
-		63E39CDF27EB67940018100B /* SFSymbol+AllSymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols.swift"; sourceTree = "<group>"; };
+		636A46AB28002816007E6028 /* SFSymbol+AllSymbols+1.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+1.0.swift"; sourceTree = "<group>"; };
+		636A46AC28002817007E6028 /* SFSymbol+2.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+2.1.swift"; sourceTree = "<group>"; };
+		636A46AD28002817007E6028 /* SFSymbol+2.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+2.0.swift"; sourceTree = "<group>"; };
+		636A46AE28002817007E6028 /* SFSymbol+AllSymbols+3.2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+3.2.swift"; sourceTree = "<group>"; };
+		636A46AF28002817007E6028 /* SymbolLocalizations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolLocalizations.swift; sourceTree = "<group>"; };
+		636A46B028002817007E6028 /* SFSymbol+3.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+3.1.swift"; sourceTree = "<group>"; };
+		636A46B128002817007E6028 /* SFSymbol+AllSymbols+3.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+3.1.swift"; sourceTree = "<group>"; };
+		636A46B228002818007E6028 /* SFSymbol+AllSymbols+2.2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+2.2.swift"; sourceTree = "<group>"; };
+		636A46B328002818007E6028 /* SFSymbol+AllSymbols+3.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+3.0.swift"; sourceTree = "<group>"; };
+		636A46B428002818007E6028 /* SFSymbol+3.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+3.0.swift"; sourceTree = "<group>"; };
+		636A46B528002818007E6028 /* SFSymbol+AllSymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols.swift"; sourceTree = "<group>"; };
+		636A46B628002818007E6028 /* SFSymbol+3.2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+3.2.swift"; sourceTree = "<group>"; };
+		636A46B728002819007E6028 /* SFSymbol+1.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+1.0.swift"; sourceTree = "<group>"; };
+		636A46B828002819007E6028 /* SFSymbol+2.2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+2.2.swift"; sourceTree = "<group>"; };
+		636A46B928002819007E6028 /* SFSymbol+AllSymbols+2.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+2.1.swift"; sourceTree = "<group>"; };
+		636A46BA28002819007E6028 /* SFSymbol+AllSymbols+2.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+2.0.swift"; sourceTree = "<group>"; };
+		636EBFD327EB2ABC005CFF4C /* SymbolWithLocalizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolWithLocalizations.swift; sourceTree = "<group>"; };
 		B0DDAE112637BF3300081F1C /* CodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableTests.swift; sourceTree = "<group>"; };
 		CC1D812E27F758D200CACDC7 /* TestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelper.swift; sourceTree = "<group>"; };
 		CCCCCFE5252F61E700C7CE9F /* SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbol.swift; sourceTree = "<group>"; };
@@ -164,24 +164,24 @@
 		CCCCCFE4252F61E700C7CE9F /* Symbols */ = {
 			isa = PBXGroup;
 			children = (
-				636EBFD327EB2ABC005CFF4C /* LocalizableSFSymbol.swift */,
+				636EBFD327EB2ABC005CFF4C /* SymbolWithLocalizations.swift */,
 				CCCCCFE5252F61E700C7CE9F /* SFSymbol.swift */,
-				63C133A827EC9F68005ABE7C /* SFSymbol+1.0.swift */,
-				63C133AC27EC9F69005ABE7C /* SFSymbol+2.0.swift */,
-				63C133AB27EC9F68005ABE7C /* SFSymbol+2.1.swift */,
-				63C133A627EC9F68005ABE7C /* SFSymbol+2.2.swift */,
-				63C133AA27EC9F68005ABE7C /* SFSymbol+3.0.swift */,
-				63C133A727EC9F68005ABE7C /* SFSymbol+3.1.swift */,
-				63C133A927EC9F68005ABE7C /* SFSymbol+3.2.swift */,
-				63E39CDF27EB67940018100B /* SFSymbol+AllSymbols.swift */,
-				63E39CD427EB67910018100B /* SFSymbol+AllSymbols+1.0.swift */,
-				63E39CDC27EB67930018100B /* SFSymbol+AllSymbols+2.0.swift */,
-				63E39CD627EB67920018100B /* SFSymbol+AllSymbols+2.1.swift */,
-				63E39CD527EB67910018100B /* SFSymbol+AllSymbols+2.2.swift */,
-				63E39CD327EB67910018100B /* SFSymbol+AllSymbols+3.0.swift */,
-				63E39CDD27EB67940018100B /* SFSymbol+AllSymbols+3.1.swift */,
-				63E39CD827EB67920018100B /* SFSymbol+AllSymbols+3.2.swift */,
-				63C133B427ECA014005ABE7C /* SymbolLocalizations.swift */,
+				636A46B728002819007E6028 /* SFSymbol+1.0.swift */,
+				636A46AD28002817007E6028 /* SFSymbol+2.0.swift */,
+				636A46AC28002817007E6028 /* SFSymbol+2.1.swift */,
+				636A46B828002819007E6028 /* SFSymbol+2.2.swift */,
+				636A46B428002818007E6028 /* SFSymbol+3.0.swift */,
+				636A46B028002817007E6028 /* SFSymbol+3.1.swift */,
+				636A46B628002818007E6028 /* SFSymbol+3.2.swift */,
+				636A46B528002818007E6028 /* SFSymbol+AllSymbols.swift */,
+				636A46AB28002816007E6028 /* SFSymbol+AllSymbols+1.0.swift */,
+				636A46BA28002819007E6028 /* SFSymbol+AllSymbols+2.0.swift */,
+				636A46B928002819007E6028 /* SFSymbol+AllSymbols+2.1.swift */,
+				636A46B228002818007E6028 /* SFSymbol+AllSymbols+2.2.swift */,
+				636A46B328002818007E6028 /* SFSymbol+AllSymbols+3.0.swift */,
+				636A46B128002817007E6028 /* SFSymbol+AllSymbols+3.1.swift */,
+				636A46AE28002817007E6028 /* SFSymbol+AllSymbols+3.2.swift */,
+				636A46AF28002817007E6028 /* SymbolLocalizations.swift */,
 			);
 			path = Symbols;
 			sourceTree = "<group>";
@@ -362,30 +362,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				63E39CE327EB67950018100B /* SFSymbol+AllSymbols+3.0.swift in Sources */,
-				63E39CE827EB67950018100B /* SFSymbol+AllSymbols+3.2.swift in Sources */,
 				CCCCCFF0252F61E700C7CE9F /* SwiftUILabelExtension.swift in Sources */,
-				63E39CE427EB67950018100B /* SFSymbol+AllSymbols+1.0.swift in Sources */,
-				636EBFD427EB2ABC005CFF4C /* LocalizableSFSymbol.swift in Sources */,
-				63E39CEF27EB67950018100B /* SFSymbol+AllSymbols.swift in Sources */,
-				63C133AF27EC9F69005ABE7C /* SFSymbol+1.0.swift in Sources */,
-				63C133B327EC9F69005ABE7C /* SFSymbol+2.0.swift in Sources */,
-				63E39CE627EB67950018100B /* SFSymbol+AllSymbols+2.1.swift in Sources */,
+				636A46C728002819007E6028 /* SFSymbol+1.0.swift in Sources */,
+				636A46C228002819007E6028 /* SFSymbol+AllSymbols+2.2.swift in Sources */,
+				636A46C028002819007E6028 /* SFSymbol+3.1.swift in Sources */,
+				636EBFD427EB2ABC005CFF4C /* SymbolWithLocalizations.swift in Sources */,
+				636A46C928002819007E6028 /* SFSymbol+AllSymbols+2.1.swift in Sources */,
+				636A46C428002819007E6028 /* SFSymbol+3.0.swift in Sources */,
+				636A46C328002819007E6028 /* SFSymbol+AllSymbols+3.0.swift in Sources */,
+				636A46C628002819007E6028 /* SFSymbol+3.2.swift in Sources */,
 				CCCCCFEE252F61E700C7CE9F /* SwiftUIImageExtension.swift in Sources */,
 				CCCCCFEC252F61E700C7CE9F /* SFSymbol.swift in Sources */,
+				636A46C128002819007E6028 /* SFSymbol+AllSymbols+3.1.swift in Sources */,
+				636A46C828002819007E6028 /* SFSymbol+2.2.swift in Sources */,
 				CCCCD047252F632600C7CE9F /* NSImageExtension.swift in Sources */,
-				63E39CED27EB67950018100B /* SFSymbol+AllSymbols+3.1.swift in Sources */,
+				636A46BB28002819007E6028 /* SFSymbol+AllSymbols+1.0.swift in Sources */,
+				636A46CA28002819007E6028 /* SFSymbol+AllSymbols+2.0.swift in Sources */,
+				636A46BC28002819007E6028 /* SFSymbol+2.1.swift in Sources */,
+				636A46BD28002819007E6028 /* SFSymbol+2.0.swift in Sources */,
 				CCCCCFED252F61E700C7CE9F /* UIButtonExtension.swift in Sources */,
-				63C133B027EC9F69005ABE7C /* SFSymbol+3.2.swift in Sources */,
-				63C133B127EC9F69005ABE7C /* SFSymbol+3.0.swift in Sources */,
-				63E39CEC27EB67950018100B /* SFSymbol+AllSymbols+2.0.swift in Sources */,
-				63C133B227EC9F69005ABE7C /* SFSymbol+2.1.swift in Sources */,
-				63C133AD27EC9F69005ABE7C /* SFSymbol+2.2.swift in Sources */,
 				CCCCCFEF252F61E700C7CE9F /* UIApplicationShortcutIconExtension.swift in Sources */,
-				63E39CE527EB67950018100B /* SFSymbol+AllSymbols+2.2.swift in Sources */,
+				636A46BE28002819007E6028 /* SFSymbol+AllSymbols+3.2.swift in Sources */,
+				636A46BF28002819007E6028 /* SymbolLocalizations.swift in Sources */,
+				636A46C528002819007E6028 /* SFSymbol+AllSymbols.swift in Sources */,
 				CCCCCFF1252F61E700C7CE9F /* UIImageExtension.swift in Sources */,
-				63C133B527ECA014005ABE7C /* SymbolLocalizations.swift in Sources */,
-				63C133AE27EC9F69005ABE7C /* SFSymbol+3.1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

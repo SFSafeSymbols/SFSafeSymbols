@@ -10,21 +10,21 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let aqiHigh = NonLocalizedSymbol(rawValue: "aqi.high")
+    static let aqiHigh = SFSymbol(rawValue: "aqi.high")
 
     /// 􀴾
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let aqiLow = NonLocalizedSymbol(rawValue: "aqi.low")
+    static let aqiLow = SFSymbol(rawValue: "aqi.low")
 
     /// 􀴿
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let aqiMedium = NonLocalizedSymbol(rawValue: "aqi.medium")
+    static let aqiMedium = SFSymbol(rawValue: "aqi.medium")
 
     /// 􀮰
     /// Single Localization, 2 Layersets
@@ -32,7 +32,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let brazilianrealsignCircle = NonLocalizedSymbol(rawValue: "brazilianrealsign.circle")
+    static let brazilianrealsignCircle = SFSymbol(rawValue: "brazilianrealsign.circle")
 
     /// 􀮱
     /// Single Localization, 3 Layersets
@@ -41,7 +41,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let brazilianrealsignCircleFill = NonLocalizedSymbol(rawValue: "brazilianrealsign.circle.fill")
+    static let brazilianrealsignCircleFill = SFSymbol(rawValue: "brazilianrealsign.circle.fill")
 
     /// 􀮲
     /// Single Localization, 2 Layersets
@@ -49,7 +49,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let brazilianrealsignSquare = NonLocalizedSymbol(rawValue: "brazilianrealsign.square")
+    static let brazilianrealsignSquare = SFSymbol(rawValue: "brazilianrealsign.square")
 
     /// 􀮳
     /// Single Localization, 3 Layersets
@@ -58,7 +58,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let brazilianrealsignSquareFill = NonLocalizedSymbol(rawValue: "brazilianrealsign.square.fill")
+    static let brazilianrealsignSquareFill = SFSymbol(rawValue: "brazilianrealsign.square.fill")
 
     /// 􀒭
     /// Single Localization, 2 Layersets
@@ -66,7 +66,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let cartCircle = NonLocalizedSymbol(rawValue: "cart.circle")
+    static let cartCircle = SFSymbol(rawValue: "cart.circle")
 
     /// 􀒮
     /// Single Localization, 3 Layersets
@@ -75,7 +75,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let cartCircleFill = NonLocalizedSymbol(rawValue: "cart.circle.fill")
+    static let cartCircleFill = SFSymbol(rawValue: "cart.circle.fill")
 
     /// 􀅏
     /// 9 Localizations, Single Layerset
@@ -137,14 +137,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let clockArrow2Circlepath = NonLocalizedSymbol(rawValue: "clock.arrow.2.circlepath")
+    static let clockArrow2Circlepath = SFSymbol(rawValue: "clock.arrow.2.circlepath")
 
     /// 􀯝
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let directcurrent = NonLocalizedSymbol(rawValue: "directcurrent")
+    static let directcurrent = SFSymbol(rawValue: "directcurrent")
 
     /// 􀵄
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -154,7 +154,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
-    static let exclamationmarkApplewatch = NonLocalizedSymbol(rawValue: "exclamationmark.applewatch")
+    static let exclamationmarkApplewatch = SFSymbol(rawValue: "exclamationmark.applewatch")
 
     /// 􀵏
     /// Single Localization, 2 Layersets
@@ -162,7 +162,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let infinityCircle = NonLocalizedSymbol(rawValue: "infinity.circle")
+    static let infinityCircle = SFSymbol(rawValue: "infinity.circle")
 
     /// 􀵐
     /// Single Localization, 3 Layersets
@@ -171,7 +171,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let infinityCircleFill = NonLocalizedSymbol(rawValue: "infinity.circle.fill")
+    static let infinityCircleFill = SFSymbol(rawValue: "infinity.circle.fill")
 
     /// 􀴓
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -181,7 +181,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
-    static let ipadBadgePlay = NonLocalizedSymbol(rawValue: "ipad.badge.play")
+    static let ipadBadgePlay = SFSymbol(rawValue: "ipad.badge.play")
 
     /// 􀴒
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -191,7 +191,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
-    static let ipadHomebuttonBadgePlay = NonLocalizedSymbol(rawValue: "ipad.homebutton.badge.play")
+    static let ipadHomebuttonBadgePlay = SFSymbol(rawValue: "ipad.homebutton.badge.play")
 
     /// 􀵑
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -201,7 +201,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
-    static let ipadHomebuttonLandscapeBadgePlay = NonLocalizedSymbol(rawValue: "ipad.homebutton.landscape.badge.play")
+    static let ipadHomebuttonLandscapeBadgePlay = SFSymbol(rawValue: "ipad.homebutton.landscape.badge.play")
 
     /// 􀵒
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -211,7 +211,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
-    static let ipadLandscapeBadgePlay = NonLocalizedSymbol(rawValue: "ipad.landscape.badge.play")
+    static let ipadLandscapeBadgePlay = SFSymbol(rawValue: "ipad.landscape.badge.play")
 
     /// 􀴑
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -221,7 +221,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
-    static let iphoneBadgePlay = NonLocalizedSymbol(rawValue: "iphone.badge.play")
+    static let iphoneBadgePlay = SFSymbol(rawValue: "iphone.badge.play")
 
     /// 􀐶
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -231,7 +231,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
-    static let iphoneHomebuttonBadgePlay = NonLocalizedSymbol(rawValue: "iphone.homebutton.badge.play")
+    static let iphoneHomebuttonBadgePlay = SFSymbol(rawValue: "iphone.homebutton.badge.play")
 
     /// 􀴎
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -241,7 +241,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
-    static let iphoneHomebuttonLandscape = NonLocalizedSymbol(rawValue: "iphone.homebutton.landscape")
+    static let iphoneHomebuttonLandscape = SFSymbol(rawValue: "iphone.homebutton.landscape")
 
     /// 􀴏
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -251,7 +251,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
-    static let iphoneLandscape = NonLocalizedSymbol(rawValue: "iphone.landscape")
+    static let iphoneLandscape = SFSymbol(rawValue: "iphone.landscape")
 
     /// 􀴐
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -261,7 +261,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPod touch.
-    static let ipodtouchLandscape = NonLocalizedSymbol(rawValue: "ipodtouch.landscape")
+    static let ipodtouchLandscape = SFSymbol(rawValue: "ipodtouch.landscape")
 
     /// 􀵅
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -271,14 +271,14 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
-    static let lockApplewatch = NonLocalizedSymbol(rawValue: "lock.applewatch")
+    static let lockApplewatch = SFSymbol(rawValue: "lock.applewatch")
 
     /// 􀵪
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let photoTv = NonLocalizedSymbol(rawValue: "photo.tv")
+    static let photoTv = SFSymbol(rawValue: "photo.tv")
 
     /// 􀵨
     /// Single Localization, 2 Layersets
@@ -286,7 +286,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let playTv = NonLocalizedSymbol(rawValue: "play.tv")
+    static let playTv = SFSymbol(rawValue: "play.tv")
 
     /// 􀵩
     /// Single Localization, 2 Layersets
@@ -294,7 +294,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let playTvFill = NonLocalizedSymbol(rawValue: "play.tv.fill")
+    static let playTvFill = SFSymbol(rawValue: "play.tv.fill")
 
     /// 􀵚
     /// Single Localization, 2 Layersets
@@ -302,7 +302,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let rectangleBadgePersonCrop = NonLocalizedSymbol(rawValue: "rectangle.badge.person.crop")
+    static let rectangleBadgePersonCrop = SFSymbol(rawValue: "rectangle.badge.person.crop")
 
     /// 􀵛
     /// Single Localization, 2 Layersets
@@ -310,7 +310,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let rectangleFillBadgePersonCrop = NonLocalizedSymbol(rawValue: "rectangle.fill.badge.person.crop")
+    static let rectangleFillBadgePersonCrop = SFSymbol(rawValue: "rectangle.fill.badge.person.crop")
 
     /// 􀴊
     /// Single Localization, Single Layerset
@@ -321,7 +321,7 @@ public extension SFSymbol {
     @available(macOS, introduced: 11.0, deprecated: 11.3, renamed: "rectangleTopthirdInsetFill")
     @available(tvOS, introduced: 14.2, deprecated: 14.5, renamed: "rectangleTopthirdInsetFill")
     @available(watchOS, introduced: 7.1, deprecated: 7.4, renamed: "rectangleTopthirdInsetFill")
-    static let rectangleTopthirdInset = NonLocalizedSymbol(rawValue: "rectangle.topthird.inset")
+    static let rectangleTopthirdInset = SFSymbol(rawValue: "rectangle.topthird.inset")
 
     /// 􀵍
     /// 3 Localizations, 2 Layersets
@@ -356,7 +356,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let repeatCircle = NonLocalizedSymbol(rawValue: "repeat.circle")
+    static let repeatCircle = SFSymbol(rawValue: "repeat.circle")
 
     /// 􀵌
     /// Single Localization, 3 Layersets
@@ -365,7 +365,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let repeatCircleFill = NonLocalizedSymbol(rawValue: "repeat.circle.fill")
+    static let repeatCircleFill = SFSymbol(rawValue: "repeat.circle.fill")
 
     /// 􀵔
     /// Single Localization, Single Layerset
@@ -376,7 +376,7 @@ public extension SFSymbol {
     @available(macOS, introduced: 11.0, deprecated: 12.0, renamed: "checkerboardShield")
     @available(tvOS, introduced: 14.2, deprecated: 15.0, renamed: "checkerboardShield")
     @available(watchOS, introduced: 7.1, deprecated: 8.0, renamed: "checkerboardShield")
-    static let shieldCheckerboard = NonLocalizedSymbol(rawValue: "shield.checkerboard")
+    static let shieldCheckerboard = SFSymbol(rawValue: "shield.checkerboard")
 
     /// 􀵉
     /// Single Localization, 2 Layersets
@@ -384,7 +384,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let shuffleCircle = NonLocalizedSymbol(rawValue: "shuffle.circle")
+    static let shuffleCircle = SFSymbol(rawValue: "shuffle.circle")
 
     /// 􀵊
     /// Single Localization, 3 Layersets
@@ -393,7 +393,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let shuffleCircleFill = NonLocalizedSymbol(rawValue: "shuffle.circle.fill")
+    static let shuffleCircleFill = SFSymbol(rawValue: "shuffle.circle.fill")
 
     /// 􀵿
     /// 9 Localizations, Single Layerset
@@ -436,7 +436,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let torus = NonLocalizedSymbol(rawValue: "torus")
+    static let torus = SFSymbol(rawValue: "torus")
 
     /// 􀲰
     /// Single Localization, 2 Layersets
@@ -444,5 +444,5 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let tvAndMediabox = NonLocalizedSymbol(rawValue: "tv.and.mediabox")
+    static let tvAndMediabox = SFSymbol(rawValue: "tv.and.mediabox")
 }
