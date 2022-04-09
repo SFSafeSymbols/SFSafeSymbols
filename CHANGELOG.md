@@ -16,7 +16,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - Deprecate `allCases: [SFSymbol]` in favor of new `allSymbols: Set<SFSymbol>`. (By [Steven Magdy](https://github.com/StevenMagdy))
 - Transfer repository to new location: https://github.com/SFSafeSymbols/SFSafeSymbols & simplify contributions to this repository. (By [Frederick Pietschmann](https://github.com/fredpi))
-- Change the type of `SFSymbol` from `enum` to `struct`, using `static let ...` instead of `case` for individual symbols. This allows for specification of custom symbols as `static let`s in `extension`s to `SFSymbol` and fixes an issue that prevented `rawValue` initialization of symbols. (By [Steven Magdy](https://github.com/StevenMagdy))
+- Change the type of `SFSymbol` from `enum` to `class`, using `static let ...` instead of `case` for individual symbols. This allows for specification of custom symbols as `static let`s in `extension`s to `SFSymbol` and fixes an issue that prevented `rawValue` initialization of symbols. (By [Steven Magdy](https://github.com/StevenMagdy))
 - Improve internal code generation to allow for quick adjustments to new SF Symbols versions. (By [ddddxxx](https://github.com/ddddxxx))
 - Improve package specs. (By [Steven Magdy](https://github.com/StevenMagdy))
 - Refactor unit tests. (By [Martin Wright](https://github.com/MartinW) and [Frederick Pietschmann](https://github.com/fredpi))
