@@ -39,6 +39,8 @@ struct Availability: Comparable, Equatable, Hashable {
         return String(format: "%.1f", NSDecimalNumber(decimal: ver).doubleValue)
     }
 
+    var versionUnderscored: String { version.replacingOccurrences(of: ".", with: "_") }
+
     static private(set) var base: Availability!
 
     /// Convert into an expression than can be used in code when prefixed with either `#` or `@`.
