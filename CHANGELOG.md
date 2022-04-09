@@ -18,7 +18,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 - Transfer repository to new location: https://github.com/SFSafeSymbols/SFSafeSymbols & simplify contributions to this repository. (By [Frederick Pietschmann](https://github.com/fredpi))
 - Change the type of `SFSymbol` from `enum` to `class`, using `static let ...` instead of `case` for individual symbols. This allows for specification of custom symbols as `static let`s in `extension`s to `SFSymbol` and fixes an issue that prevented `rawValue` initialization of symbols. (By [Steven Magdy](https://github.com/StevenMagdy))
 - Improve internal code generation to allow for quick adjustments to new SF Symbols versions. (By [ddddxxx](https://github.com/ddddxxx))
-- Improve package specs. (By [Steven Magdy](https://github.com/StevenMagdy))
+- Drop dedicated `SFSafeSymbols-Dynamic` product in the `Package.swift` in favour of a new unified `SFSafeSymbols` product with automatic selection between static / dynamic linking. (By [Steven Magdy](https://github.com/StevenMagdy))
+- Raise minimum platform requirements to 2017 platforms. (By [Steven Magdy](https://github.com/StevenMagdy))
 - Refactor unit tests. (By [Martin Wright](https://github.com/MartinW) and [Frederick Pietschmann](https://github.com/fredpi))
 
 ### Fixed

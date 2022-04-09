@@ -82,7 +82,7 @@ Supported platforms are `iOS (11.0+)`, `macOS (10.13+)`, `tvOS (11.0+)` and `wat
 
 ### Swift Package Manager (Xcode-integrated)
 
-To integrate SFSafeSymbols using the Xcode-built-in SPM, choose `File` → `Swift Packages` → `Add Package Dependency`. Enter the following url: `https://github.com/SFSafeSymbols/SFSafeSymbols` and click `Next`. When asked about the version, leave the preselection and click `Next`. In the following step, select `SFSafeSymbols` as the package product and click `Finish` unless you really want to use `SFSafeSymbols-Dynamic` and know what you are doing.
+To integrate SFSafeSymbols using the Xcode-built-in SPM, choose `File` → `Swift Packages` → `Add Package Dependency`. Enter the following url: `https://github.com/SFSafeSymbols/SFSafeSymbols` and click `Next`. When asked about the version, leave the preselection and click `Next`. In the following step, select `SFSafeSymbols` as the package product and click `Finish`.
 
 ### Swift Package Manager (standalone)
 
