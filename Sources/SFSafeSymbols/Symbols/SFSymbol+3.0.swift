@@ -14,7 +14,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let _123Rectangle = SFSymbol(rawValue: "123.rectangle")
+    static let _123Rectangle = SymbolWith2Localizations<Ar, Hi>(rawValue: "123.rectangle")
 
     /// 􁂸
     /// 3 Localizations, 2 Layersets
@@ -27,7 +27,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let _123RectangleFill = SFSymbol(rawValue: "123.rectangle.fill")
+    static let _123RectangleFill = SymbolWith2Localizations<Ar, Hi>(rawValue: "123.rectangle.fill")
 
     /// 􀷯
     /// Single Localization, 2 Layersets
@@ -193,7 +193,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirTag.
-    static let airtagRadiowavesForward = SFSymbol(rawValue: "airtag.radiowaves.forward")
+    static let airtagRadiowavesForward = SymbolWith1Localization<Rtl>(rawValue: "airtag.radiowaves.forward")
 
     /// 􁄽
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
@@ -207,7 +207,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirTag.
-    static let airtagRadiowavesForwardFill = SFSymbol(rawValue: "airtag.radiowaves.forward.fill")
+    static let airtagRadiowavesForwardFill = SymbolWith1Localization<Rtl>(rawValue: "airtag.radiowaves.forward.fill")
 
     /// 􀩉
     /// Single Localization, 2 Layersets
@@ -1326,7 +1326,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let checklist = SFSymbol(rawValue: "checklist")
+    static let checklist = SymbolWith1Localization<Rtl>(rawValue: "checklist")
 
     /// 􀿋
     /// Single Localization, 2 Layersets
@@ -2559,7 +2559,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let gobackward5 = SFSymbol(rawValue: "gobackward.5")
+    static let gobackward5 = SymbolWith2Localizations<Ar, Hi>(rawValue: "gobackward.5")
 
     /// 􀶰
     /// 3 Localizations, 2 Layersets
@@ -2572,7 +2572,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let goforward5 = SFSymbol(rawValue: "goforward.5")
+    static let goforward5 = SymbolWith2Localizations<Ar, Hi>(rawValue: "goforward.5")
 
     /// 􁆾
     /// Single Localization, 2 Layersets
@@ -4188,7 +4188,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let personCropCircleBadgeQuestionmarkFill = SFSymbol(rawValue: "person.crop.circle.badge.questionmark.fill")
+    static let personCropCircleBadgeQuestionmarkFill = SymbolWith1Localization<Ar>(rawValue: "person.crop.circle.badge.questionmark.fill")
 
     /// 􀏻
     /// Single Localization, Single Layerset
@@ -4602,7 +4602,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let questionmarkApp = SFSymbol(rawValue: "questionmark.app")
+    static let questionmarkApp = SymbolWith1Localization<Ar>(rawValue: "questionmark.app")
 
     /// 􀿪
     /// 2 Localizations, 2 Layersets
@@ -4614,7 +4614,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let questionmarkAppDashed = SFSymbol(rawValue: "questionmark.app.dashed")
+    static let questionmarkAppDashed = SymbolWith1Localization<Ar>(rawValue: "questionmark.app.dashed")
 
     /// 􀿩
     /// 2 Localizations, 2 Layersets
@@ -4626,7 +4626,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let questionmarkAppFill = SFSymbol(rawValue: "questionmark.app.fill")
+    static let questionmarkAppFill = SymbolWith1Localization<Ar>(rawValue: "questionmark.app.fill")
 
     /// 􁈐
     /// Single Localization, Single Layerset

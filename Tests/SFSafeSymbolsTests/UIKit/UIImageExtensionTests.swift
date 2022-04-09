@@ -9,7 +9,7 @@ class UIImageExtensionTests: XCTestCase {
     /// Symbols for which such an `UIImage` doesn't exist, will be logged to facilitate debugging
     func testFailingSymbols() {
         if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
-            let failingSymbols = TestHelper.allSymbols.map { $0.rawValue }.map { ($0, UIImage(systemName: $0)) }.filter { $0.1 == nil }.map { $0.0 }
+            let failingSymbols = TestHelper.allSymbolsWithVariants.map { $0.rawValue }.map { ($0, UIImage(systemName: $0)) }.filter { $0.1 == nil }.map { $0.0 }
 
             if !failingSymbols.isEmpty {
                 print("The following symbols are failing: \(failingSymbols)")
@@ -23,7 +23,7 @@ class UIImageExtensionTests: XCTestCase {
     /// Tests, whether the `UIImage` retrieved via SFSafeSymbols is equal to the one retrieved via the `String` initializer
     func testInit() {
         if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
-            for symbol in TestHelper.allSymbols {
+            for symbol in TestHelper.allSymbolsWithVariants {
                 print("Testing validity of \"\(symbol.rawValue)\" via UIImage init")
 
                 let expected = UIImage(systemName: symbol.rawValue)
@@ -50,7 +50,7 @@ class UIImageExtensionTests: XCTestCase {
             ]
 
             // Go over cross product: symbols x configs
-            for symbol in TestHelper.allSymbols {
+            for symbol in TestHelper.allSymbolsWithVariants {
                 for configuration in configurations {
                     print("Testing validity of \"\(symbol.rawValue)\" with configuration \"\(configuration)\" via UIImage init")
 

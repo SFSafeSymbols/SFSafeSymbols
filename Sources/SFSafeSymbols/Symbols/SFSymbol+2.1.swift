@@ -93,7 +93,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let character = SFSymbol(rawValue: "character")
+    static let character = SymbolWith8Localizations<Ar, He, Hi, Ja, Ko, Th, Zh, ZhTraditional>(rawValue: "character")
 
     /// 􀫕
     /// 9 Localizations, Single Layerset
@@ -111,7 +111,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let characterBookClosed = SFSymbol(rawValue: "character.book.closed")
+    static let characterBookClosed = SymbolWith8Localizations<Ar, He, Hi, Ja, Ko, Th, Zh, ZhTraditional>(rawValue: "character.book.closed")
 
     /// 􀫖
     /// 9 Localizations, Single Layerset
@@ -129,7 +129,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let characterBookClosedFill = SFSymbol(rawValue: "character.book.closed.fill")
+    static let characterBookClosedFill = SymbolWith8Localizations<Ar, He, Hi, Ja, Ko, Th, Zh, ZhTraditional>(rawValue: "character.book.closed.fill")
 
     /// 􀯛
     /// Single Localization, 2 Layersets
@@ -334,7 +334,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let repeat1Circle = SFSymbol(rawValue: "repeat.1.circle")
+    static let repeat1Circle = SymbolWith2Localizations<Ar_v3, Hi_v3>(rawValue: "repeat.1.circle")
 
     /// 􀵎
     /// 3 Localizations, 3 Layersets
@@ -348,7 +348,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let repeat1CircleFill = SFSymbol(rawValue: "repeat.1.circle.fill")
+    static let repeat1CircleFill = SymbolWith2Localizations<Ar_v3, Hi_v3>(rawValue: "repeat.1.circle.fill")
 
     /// 􀵋
     /// Single Localization, 2 Layersets
@@ -411,7 +411,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let textformatSizeLarger = SFSymbol(rawValue: "textformat.size.larger")
+    static let textformatSizeLarger = SymbolWith8Localizations<Ar, He, Hi, Ja, Ko, Th, Zh, ZhTraditional>(rawValue: "textformat.size.larger")
 
     /// 􀵷
     /// 9 Localizations, Single Layerset
@@ -429,7 +429,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let textformatSizeSmaller = SFSymbol(rawValue: "textformat.size.smaller")
+    static let textformatSizeSmaller = SymbolWith8Localizations<Ar, He, Hi, Ja, Ko, Th, Zh, ZhTraditional>(rawValue: "textformat.size.smaller")
 
     /// 􀴌
     /// Single Localization, Single Layerset

@@ -167,6 +167,33 @@ NSImage(systemSymbol: .cCircle)
 NSImage(systemSymbol: SFSymbol.eCircleFill, accessibilityDescription: "some.description")
 ```
 
+## Localization
+
+SF Symbols can come with multiple different localizations. `SFSafeSymbols` exposes localization the following way:
+
+- Implicit localization: When using an `SFSymbol`, it gets automatically localized to the user's current locale - nothing to do on your part. This behavior is managed by Apple's system implementation of SF Symbols.
+
+- Explicit localization: `SFSafeSymbols` lets you access a symbol's localized versions as follows:
+
+  ```swift
+  // 1. Static localization:
+  let a = SFSymbol.character.ar // corresponds to "character.ar"
+  let b = SFSymbol.character.zh // corresponds to "character.zh"
+  let c = SFSymbol.character.rtl // doesn't compile: "character.rtl" doesn't exist
+  // a, b have type SFSymbol
+  
+  // 2. Dynamic localization:
+  SFSymbol.character.availableLocalizations // [.ar, .he, .hi, .ja, .ko, .th, .zh, .zhTraditional]
+  let a = SFSymbol.character.localized(to: .ar)
+  let b = SFSymbol.character.localized(to: .rtl)
+  // a, b have type SFSymbol?
+  ```
+
+  Static localization only exposes the localizations which are actually available, so you cannot accidentally localize a non-localizable symbol.
+
+  Dynamic localization, in contrast, is useful when dealing with an array of `SFSymbols` which all have different available localizations.
+
+Attention: Serializing and deserializing `SFSymbol`s currently makes them lose their _explicit_ both static and dynamic localization information. Regaining dynamic localization information may be addressed in a future version of `SFSafeSymbols`.
 ## Contributing
 
 Contributions are very much welcome! See [CONTRIBUTING.md](https://github.com/SFSafeSymbols/SFSafeSymbols/blob/stable/CONTRIBUTING.md) for more information.

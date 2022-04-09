@@ -22,9 +22,10 @@ guard
     let missingSymbolRestrictions = SFFileManager
         .read(file: "symbol_restrictions_missing", withExtension: "strings")
         .flatMap(SymbolRestrictionsParser.parse),
-    let localizationSuffixes = SFFileManager
+    let localizations = SFFileManager
         .read(file: "localization_suffixes", withExtension: "txt")
-        .flatMap(StringEqualityFileParser.parse),
+        .flatMap(StringEqualityFileParser.parse)?
+        .map(Localization.init(suffix:longName:)),
     let symbolNames = SFFileManager
         .read(file: "symbol_names", withExtension: "txt")
         .flatMap(SymbolNamesFileParser.parse),
@@ -59,10 +60,9 @@ symbolRestrictions = symbolRestrictions.merging(missingSymbolRestrictions) { ori
 // This process takes care of merging multiple localized variants + renamed variants from previous versions
 var symbols: [Symbol] = []
 for scannedSymbol in symbolManifest {
-    let localizationSuffixAndName: (lhs: String, rhs: String)? = localizationSuffixes.first { scannedSymbol.name.hasSuffix(".\($0.lhs)") }
-    let localization: String? = localizationSuffixAndName?.rhs
+    let localization = localizations.first { scannedSymbol.name.hasSuffix(".\($0.suffix)") }
     let nameWithoutSuffix = scannedSymbol.name.replacingOccurrences(
-        of: (localizationSuffixAndName?.lhs).flatMap { ".\($0)" } ?? "",
+        of: (localization?.suffix).flatMap { ".\($0)" } ?? "",
         with: ""
     )
 
@@ -141,18 +141,6 @@ for scannedSymbol in symbolManifest {
     }
 }
 
-func localizationsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>] {
-    let toMerge: [Availability: Set<String>]
-    switch symbol.type {
-        case .replaced(let newerSymbol):
-            toMerge = symbols.first { $0.name == newerSymbol.name }!.availableLocalizations
-        case .replacement(let originalSymbol):
-            toMerge = symbols.first { $0.name == originalSymbol.name }!.availableLocalizations
-        default: toMerge = [:]
-    }
-    return symbol.availableLocalizations.merging(toMerge) { $0.union($1) }
-}
-
 func layersetsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>] {
     let toMerge: [Availability: Set<String>]
     switch symbol.type {
@@ -169,9 +157,8 @@ func layersetsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>] {
 
 let symbolToCode: (Symbol) -> String = { symbol in
     let completeLayersets = layersetsOfAllVersions(of: symbol)
-    let completeLocalizations = localizationsOfAllVersions(of: symbol)
     let layersetCount = completeLayersets.values.reduce(Set<String>()) { $0.union($1) }.count + 1
-    let localizationCount = completeLocalizations.values.reduce(Set<String>()) { $0.union($1) }.count + 1
+    let localizationCount = symbol.availableLocalizations.values.reduce(Set()) { $0.union($1) }.count + 1
 
     // Generate summary for docs (preview + number of localizations, layersets + potential use restriction)
     var outputString = "\t/// " + (symbol.preview ?? "No preview available") + "\n"
@@ -184,20 +171,22 @@ let symbolToCode: (Symbol) -> String = { symbol in
         outputString += "\t/// \(supplementString)\n"
     }
 
-    // Generate localization docs based on the assumption that localizations don't get removed
-    if !completeLocalizations.isEmpty { // Omit localization block if only the Latin localization is available
+    // Generate localization docs
+    if !symbol.availableLocalizations.isEmpty { // Omit localization block if only the Latin localization is available
         // Use "Left-to-Right" name for the standard localization if "Right-To-Left" is the only other localization
-        let standardLocalizationName = completeLocalizations.values.reduce(Set()) { $0.union($1) } == ["Right-To-Left"] ? "Left-To-Right" : "Latin"
+        let standardLocalizationName = symbol.availableLocalizations.values.reduce(Set()) {
+            $0.union(Set($1.map { $0.longName }))
+        } == ["Right-To-Left"] ? "Left-To-Right" : "Latin"
 
         outputString += "\t///\n\t/// Localizations:\n\t/// - \(standardLocalizationName)\n"
-        var handledLocalizations: Set<String> = .init()
-        for (availability, localizations) in completeLocalizations.sorted(by: { $0.0 > $1.0 }) {
+        var handledLocalizations: Set<Localization> = .init()
+        for (availability, localizations) in symbol.availableLocalizations.sorted(by: { $0.0 > $1.0 }) {
             let newLocalizations = localizations.subtracting(handledLocalizations)
             if !newLocalizations.isEmpty {
                 handledLocalizations.formUnion(newLocalizations)
                 let availabilityNotice: String = availability < symbol.availability ? " (iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS))" : ""
-                for localization in Array(newLocalizations).sorted() {
-                    outputString += "\t/// - \(localization)\(availabilityNotice)\n"
+                for localization in (Array(newLocalizations).sorted { $0.longName < $1.longName }) {
+                    outputString += "\t/// - \(localization.longName)\(availabilityNotice)\n"
                 }
             }
         }
@@ -231,18 +220,87 @@ let symbolToCode: (Symbol) -> String = { symbol in
         outputString += "\t@available(watchOS, introduced: \(symbol.availability.watchOS), deprecated: \(newerSymbol.availability.watchOS), renamed: \"\(newerName)\")\n"
     }
 
-    // Generate case
-    outputString += "\tstatic let \(symbol.propertyName) = SFSymbol(rawValue: \"\(symbol.name)\")"
+    // Generate symbol
+    // Reduce [A: Set<B>] -> [(A, B)] -> [String]
+    let structNames = symbol.availableLocalizations.flatMap { availability, localizations in
+        localizations.map {
+            symbol.availability == availability ? $0.baseStructName : $0.structName(for: availability)
+        }
+    }.sorted()
+
+    let nonVariadicClassName: (Int) -> String = {
+        $0 == 0 ? "SFSymbol" : ("SymbolWith\($0)Localization" + (($0 > 1) ? "s" : ""))
+    }
+    let variadics = structNames.isEmpty ? "" : "<\(structNames.joined(separator: ", "))>"
+
+    outputString += "\tstatic let \(symbol.propertyName) = \(nonVariadicClassName(localizationCount-1))\(variadics)(rawValue: \"\(symbol.name)\")"
 
     return outputString
 }
+
+let baseAvailability = "@\(Availability.base.availableExpression)"
+
+let symbolLocalizations: String = {
+    let availabilities = Array(Set(symbols.map { $0.availability }))
+    
+    let usedCombinations: [(Localization, Availability)] = (localizations × availabilities).filter { loc, ava in
+        ava.isBase || symbols.contains {
+            $0.availability > ava && $0.availableLocalizations[ava]?.contains(loc) ?? false
+        }
+    }.sorted {
+        let ((loc1, ava1), (loc2, ava2)) = ($0, $1)
+        return loc1.structName(for: ava1) < loc2.structName(for: ava2)
+    }
+
+    let groupedCombinations = Dictionary(grouping: usedCombinations) { $0.1 }
+    
+    let enclosingIfStatement: (Availability) -> String = { ava in
+        let enclosingIf = "\t\tif #\(ava.availableExpressionWithoutRedundancyToBase) {"
+        let locs = groupedCombinations[ava]!.map { $0.0 }
+        let deeperIfs = locs.map { loc in
+            "\t\t\tif (localizations.contains { $0 == \(loc.structName(for: ava)).self }) { result.update(with: .\(loc.variableName)) }"
+        }
+        return ([enclosingIf] + deeperIfs + ["\t\t}"]).joined(separator: "\n")
+    }
+    
+    let structDecl: (Localization, Availability) -> String = { loc, ava in
+        var outputString = "\(baseAvailability)\n"
+        outputString += "public struct \(loc.structName(for: ava)): SymbolLocalization {\n"
+        outputString += "\tlet source: SFSymbol\n"
+        outputString += "\tpublic init(source: SFSymbol) { self.source = source }\n"
+        outputString += "\t@\(ava.availableExpression)\n"
+        outputString += "\tpublic var \(loc.variableName): SFSymbol { .init(rawValue: \"\\(source.rawValue).\\(Localization.\(loc.variableName).rawValue)\") }\n"
+        outputString += "}"
+        return outputString
+    }
+    
+    var outputString = "// Don't touch this manually, this code is generated by the SymbolsGenerator helper tool\n\n"
+    
+    outputString += "// MARK: - Dynamic Localization\n\n"
+    outputString += "public enum Localization: String, Equatable {\n"
+    outputString += localizations.map { "\tcase \($0.variableName) = \"\($0.suffix)\""}.joined(separator: "\n")
+    outputString += "\n}\n\n"
+    outputString += "\(baseAvailability)\n"
+    outputString += "internal extension SFSymbol {\n"
+    outputString += "\tvar _availableLocalizations: Set<Localization> {\n"
+    outputString += "\t\tvar result = Set<Localization>()\n"
+    outputString += "\t\tlet localizations = self.localizations\n"
+    outputString += groupedCombinations.keys.sorted().map(enclosingIfStatement).joined(separator: "\n")
+    outputString += "\n\t\treturn result\n"
+    outputString += "\t}\n}\n\n"
+    
+    outputString += "// MARK: - Static Localization\n\n"
+    outputString += usedCombinations.map(structDecl).joined(separator: "\n\n")
+    outputString += "\n"
+    return outputString
+}()
 
 let groupedSymbols = Dictionary(grouping: symbols, by: \.availability)
 
 let availabilityExtensions: [String] = groupedSymbols.map { availability, symbols in
     var outputString = "// Don't touch this manually, this code is generated by the SymbolsGenerator helper tool\n\n"
     outputString += "// \(availability.version) Symbols\n"
-    outputString += "@available(iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS), *)\n"
+    outputString += "@\(availability.availableExpression)\n"
     outputString += "public extension SFSymbol {\n"
     outputString += symbols.map(symbolToCode).joined(separator: "\n\n")
     outputString += "\n}\n"
@@ -263,7 +321,7 @@ let groupedAllLatestSymbolsFileContents: Dictionary<Availability, String> = grou
     let symbols = $1.value
     let versionUnderscored = availability.version.replacingOccurrences(of: ".", with: "_")
     var outputString = "// Don't touch this manually, this code is generated by the SymbolsGenerator helper tool\n\n"
-    outputString += "@available(iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS), *)\n"
+    outputString += "@\(availability.availableExpression)\n"
     outputString += "extension SFSymbol {\n"
     outputString += "\tinternal static var allSymbols\(versionUnderscored): Set<SFSymbol> { \n"
     outputString += "\t\t[\n"
@@ -276,10 +334,10 @@ let groupedAllLatestSymbolsFileContents: Dictionary<Availability, String> = grou
 
 let allSymbolsExtension: String = {
     var outputString = "// Don't touch this manually, this code is generated by the SymbolsGenerator helper tool\n\n"
-    outputString += "@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)\n"
+    outputString += "\(baseAvailability)\n"
     outputString += "extension SFSymbol {\n"
 
-    // `allCases` has been deprecated with the v3 release (fall of 2021)
+    // `allCases` has been deprecated with the v3 release (spring of 2022)
     // It shall be removed entirely ~2 years after the v3 release
     outputString += "\t@available(*, deprecated, renamed: \"allSymbols\")\n"
     outputString += "\tpublic static var allCases: [SFSymbol] { Array(allSymbols) }\n\n"
@@ -289,7 +347,7 @@ let allSymbolsExtension: String = {
     outputString += "\t\t"
     outputString += groupedAllLatestSymbolsFileContents.keys.sorted().map { availability in
         let versionUnderscored = availability.version.replacingOccurrences(of: ".", with: "_")
-        var bodyString = availability.isBase ? "" : "if #available(iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS), *) "
+        var bodyString = availability.isBase ? "" : "if #\(availability.availableExpressionWithoutRedundancyToBase) "
         bodyString += "{\n"
         bodyString += "\t\t\treturn allSymbols\(versionUnderscored)\n"
         return bodyString
@@ -313,6 +371,9 @@ groupedAllLatestSymbolsFileContents.forEach { availability, fileContents in
     let outputPath = outputDir.appendingPathComponent("SFSymbol+AllSymbols+\(availability.version).swift")
     SFFileManager.write(fileContents, to: outputPath)
 }
+
+SFFileManager.write(symbolLocalizations,
+                    to: outputDir.appendingPathComponent("SymbolLocalizations.swift"))
 
 SFFileManager.write(allSymbolsExtension,
                     to: outputDir.appendingPathComponent("SFSymbol+AllSymbols.swift"))

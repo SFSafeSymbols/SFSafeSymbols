@@ -40,7 +40,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterBubble = SFSymbol(rawValue: "character.bubble")
+    static let characterBubble = SymbolWith8Localizations<Ar, He, Hi_v3, Ja_v3, Ko_v3, Th_v3, ZhTraditional_v3, Zh_v3>(rawValue: "character.bubble")
 
     /// 􀌱
     /// 9 Localizations, 2 Layersets
@@ -59,7 +59,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterBubbleFill = SFSymbol(rawValue: "character.bubble.fill")
+    static let characterBubbleFill = SymbolWith8Localizations<Ar, He, Hi_v3, Ja_v3, Ko_v3, Th_v3, ZhTraditional_v3, Zh_v3>(rawValue: "character.bubble.fill")
 
     /// 􀅫
     /// 9 Localizations, 2 Layersets
@@ -78,7 +78,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterCursorIbeam = SFSymbol(rawValue: "character.cursor.ibeam")
+    static let characterCursorIbeam = SymbolWith8Localizations<Ar, He, Hi, Ja, Ko, Th, Zh, ZhTraditional>(rawValue: "character.cursor.ibeam")
 
     /// 􀅶
     /// 9 Localizations, 2 Layersets
@@ -97,7 +97,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterTextbox = SFSymbol(rawValue: "character.textbox")
+    static let characterTextbox = SymbolWith8Localizations<Ar, He, Hi, Ja, Ko, Th, Zh, ZhTraditional>(rawValue: "character.textbox")
 
     /// 􀷭
     /// Single Localization, 2 Layersets, ⚠️ Restricted
