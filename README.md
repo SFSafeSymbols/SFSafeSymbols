@@ -193,8 +193,7 @@ SF Symbols can come with multiple different localizations. `SFSafeSymbols` expos
 
   Dynamic localization, in contrast, is useful when dealing with an array of `SFSymbols` which all have different available localizations.
 
-Attention: Serializing and deserializing `SFSymbol`s currently makes them lose their _explicit_ localizations. This will be addressed in a future version.
-
+Attention: Serializing and deserializing `SFSymbol`s currently makes them lose their _explicit_ both static and dynamic localization information. Regaining dynamic localization information may be addressed in a future version of `SFSafeSymbols`.
 ## Contributing
 
 Contributions are very much welcome! See [CONTRIBUTING.md](https://github.com/SFSafeSymbols/SFSafeSymbols/blob/stable/CONTRIBUTING.md) for more information.
