@@ -2,7 +2,7 @@
 
 @available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *)
 extension SFSymbol {
-    internal static var allSymbols3_1: Set<SFSymbol> { 
+    internal static var allSymbols3_1: Set<SFSymbol> {
         [
             boltRingClosed,
             platterFilledBottomAndArrowDownIphone,
@@ -16,7 +16,14 @@ extension SFSymbol {
             textJustifyLeading,
             textJustifyLeft,
             textJustifyRight,
-            textJustifyTrailing
+            textJustifyTrailing,
+        ]
+    }
+
+    internal static var symbolsDeprecatedSince3_1: Set<SFSymbol> {
+        [
+            textJustifyleft,
+            textJustifyright,
         ]
     }
 }

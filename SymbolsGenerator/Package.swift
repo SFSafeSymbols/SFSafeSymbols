@@ -7,11 +7,15 @@ let package = Package(
     products: [
         .executable(name: "SymbolsGenerator", targets: ["SymbolsGenerator"]),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/apple/swift-collections.git", .upToNextMajor(from: "1.0.0"))
+    ],
     targets: [
         .target(
             name: "SymbolsGenerator",
-            dependencies: [],
+            dependencies: [
+                .product(name: "OrderedCollections", package: "swift-collections")
+            ],
             resources: [
                 .copy("Resources"),
             ]

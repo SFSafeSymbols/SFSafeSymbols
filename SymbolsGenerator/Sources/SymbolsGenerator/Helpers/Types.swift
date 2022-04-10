@@ -14,15 +14,17 @@ struct Symbol {
     var availability: Availability
     var availableLocalizations: [Availability: Set<Localization>]
     var availableLayersets: [Availability: Set<String>]
-    var type: SymbolType
+    var olderSymbol: ScannedSymbol?
+    var newerSymbol: ScannedSymbol?
+//    var type: SymbolType
     var propertyName: String { name.toPropertyName }
 }
 
-enum SymbolType {
-  case normal
-  case replacement(for: ScannedSymbol)
-  case replaced(by: ScannedSymbol)
-}
+//enum SymbolType {
+//  case normal
+//  case replacement(for: ScannedSymbol)
+//  case replaced(by: ScannedSymbol)
+//}
 
 struct Availability: Comparable, Equatable, Hashable {
     var iOS: String
