@@ -12,20 +12,22 @@ guard
         .flatMap(LayersetAvailabilityParser.parse),
     var nameAliases = SFFileManager
         .read(file: "name_aliases_strings", withExtension: "txt")
-        .flatMap(StringEqualityFileParser.parse),
+        .flatMap(StringDictionaryFileParser.parse)?
+        .map({ (oldName: $0.key, newName: $0.value) }),
     let legacyAliases = SFFileManager
         .read(file: "legacy_aliases_strings", withExtension: "txt")
-        .flatMap(StringEqualityFileParser.parse),
+        .flatMap(StringDictionaryFileParser.parse)?
+        .map({ (legacyName: $0.key, releasedName: $0.value) }),
     var symbolRestrictions = SFFileManager
         .read(file: "symbol_restrictions", withExtension: "strings")
-        .flatMap(SymbolRestrictionsParser.parse),
+        .flatMap(StringDictionaryFileParser.parse),
     let missingSymbolRestrictions = SFFileManager
         .read(file: "symbol_restrictions_missing", withExtension: "strings")
-        .flatMap(SymbolRestrictionsParser.parse),
+        .flatMap(StringDictionaryFileParser.parse),
     let localizations = SFFileManager
         .read(file: "localization_suffixes", withExtension: "txt")
-        .flatMap(StringEqualityFileParser.parse)?
-        .map(Localization.init(suffix:longName:)),
+        .flatMap(StringDictionaryFileParser.parse)?
+        .map(Localization.init),
     let symbolNames = SFFileManager
         .read(file: "symbol_names", withExtension: "txt")
         .flatMap(SymbolNamesFileParser.parse),
@@ -48,12 +50,27 @@ let symbolPreviewForName: [String: String] = Dictionary(uniqueKeysWithValues: zi
 var symbolsWherePreviewIsntAvailable: [String] = []
 
 // Remove legacy symbols
-nameAliases = nameAliases.filter { lhs, _ in !legacyAliases.contains { $0.lhs == lhs } }
+nameAliases = nameAliases.filter { alias in !legacyAliases.contains { legacyAlias in legacyAlias.legacyName == alias.oldName } }
 
 // Add missing restricted symbols
 symbolRestrictions = symbolRestrictions.merging(missingSymbolRestrictions) { original, _ in
     print("Duplicate restricted symbol was found")
     return original
+}
+
+func otherAliases(for symbolName: String) -> [ScannedSymbol] {
+    var result: [String] = []
+    let olderAliases = nameAliases.filter { $0.newName == symbolName }.map(\.oldName)
+    if olderAliases.isNotEmpty {
+        result = olderAliases
+    } else if let newestAlias = nameAliases.first(where: { $0.oldName == symbolName })?.newName {
+        result = nameAliases
+            .filter { $0.newName == newestAlias && $0.oldName != symbolName }
+            .map(\.oldName) + [newestAlias]
+    }
+    return result
+        .map { name in symbolManifest.first { $0.name == name }! }
+        .sorted(on: \.availability, by: >)
 }
 
 // Merge all versions of the same symbol into one type.
@@ -76,31 +93,16 @@ for scannedSymbol in symbolManifest {
             .union([layersetAvailability.name])
     }
 
-    let primaryName = nameAliases.first { $0.lhs == nameWithoutSuffix }?.rhs ?? nameWithoutSuffix
+    let primaryName = nameAliases.first { $0.oldName == nameWithoutSuffix }?.newName ?? nameWithoutSuffix
 
     let preview: String? = symbolPreviewForName[primaryName]
     if preview == nil {
         symbolsWherePreviewIsntAvailable.append(nameWithoutSuffix)
     }
 
-    let symbolType: SymbolType = {
-        if let aliasName = nameAliases.first(where: { $0.lhs == nameWithoutSuffix })?.rhs {
-            // Search for in-between aliases (if symbol was renamed as A -> B -> C, Apple only mentions the A -> C)
-            let lhsSymbols = nameAliases.filter { $0.rhs == aliasName }
-                .map { currentAlias in symbolManifest.first(where: { $0.name == currentAlias.lhs })! }
-                .filter { $0.availability < scannedSymbol.availability }
-                .sorted { $0.availability > $1.availability }
-            if let firstLhsSymbol = lhsSymbols.first {
-                return .replaced(by: firstLhsSymbol)
-            } else {
-                return .replaced(by: symbolManifest.first { $0.name == aliasName }!)
-            }
-        } else if let aliasName = nameAliases.first(where: { $0.rhs == nameWithoutSuffix })?.lhs {
-            return .replacement(for: symbolManifest.first { $0.name == aliasName }!)
-        } else {
-            return .normal
-        }
-    }()
+    let otherAliases = otherAliases(for: nameWithoutSuffix)
+    let newerSymbol = otherAliases.filter { $0.availability < scannedSymbol.availability }.first
+    let olderSymbol = otherAliases.filter { $0.availability > scannedSymbol.availability }.last
 
     if let (index, existingSymbol) = (symbols.enumerated().first { $1.name == nameWithoutSuffix }) {
         // The symbol already exists -> Manage localizations
@@ -111,7 +113,7 @@ for scannedSymbol in symbolManifest {
         if let localization = localization {
             existingLocalizations.insert(localization)
         }
-        if !existingLocalizations.isEmpty {
+        if existingLocalizations.isNotEmpty {
             availableLocalizations[scannedSymbol.availability] = existingLocalizations
         }
 
@@ -123,7 +125,8 @@ for scannedSymbol in symbolManifest {
             availability: [existingSymbol.availability, scannedSymbol.availability].max()!,
             availableLocalizations: availableLocalizations,
             availableLayersets: availableLayersets,
-            type: existingSymbol.type
+            olderSymbol: existingSymbol.olderSymbol,
+            newerSymbol: existingSymbol.newerSymbol
         )
     } else {
         // The symbol doesn't exist yet
@@ -135,20 +138,18 @@ for scannedSymbol in symbolManifest {
                 availability: scannedSymbol.availability,
                 availableLocalizations: localization.flatMap { [scannedSymbol.availability: [$0]] } ?? [:],
                 availableLayersets: availableLayersets,
-                type: symbolType
-            )
+                olderSymbol: olderSymbol,
+                newerSymbol: newerSymbol            )
         )
     }
 }
 
 func layersetsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>] {
-    let toMerge: [Availability: Set<String>]
-    switch symbol.type {
-        case .replaced(let newerSymbol):
-            toMerge = symbols.first { $0.name == newerSymbol.name }!.availableLayersets
-        case .replacement(let originalSymbol):
-            toMerge = symbols.first { $0.name == originalSymbol.name }!.availableLayersets
-        default: toMerge = [:]
+    var toMerge: [Availability: Set<String>] = [:]
+    if let newerSymbol = symbol.newerSymbol {
+        toMerge = symbols.first { $0.name == newerSymbol.name }!.availableLayersets
+    } else if let olderSymbol = symbol.olderSymbol {
+        toMerge = symbols.first { $0.name == olderSymbol.name }!.availableLayersets
     }
     return symbol.availableLayersets.merging(toMerge) { $0.union($1) }
 }
@@ -167,12 +168,12 @@ let symbolToCode: (Symbol) -> String = { symbol in
         layersetCount > 1 ? "\(layersetCount) Layersets" : "Single Layerset",
         symbol.restriction != nil ? "⚠️ Restricted" : nil
     ].compactMap { $0 }.joined(separator: ", ")
-    if !supplementString.isEmpty {
+    if supplementString.isNotEmpty {
         outputString += "\t/// \(supplementString)\n"
     }
 
     // Generate localization docs
-    if !symbol.availableLocalizations.isEmpty { // Omit localization block if only the Latin localization is available
+    if symbol.availableLocalizations.isNotEmpty { // Omit localization block if only the Latin localization is available
         // Use "Left-to-Right" name for the standard localization if "Right-To-Left" is the only other localization
         let standardLocalizationName = symbol.availableLocalizations.values.reduce(Set()) {
             $0.union(Set($1.map { $0.longName }))
@@ -180,12 +181,12 @@ let symbolToCode: (Symbol) -> String = { symbol in
 
         outputString += "\t///\n\t/// Localizations:\n\t/// - \(standardLocalizationName)\n"
         var handledLocalizations: Set<Localization> = .init()
-        for (availability, localizations) in symbol.availableLocalizations.sorted(by: { $0.0 > $1.0 }) {
+        for (availability, localizations) in symbol.availableLocalizations.sorted(on: \.key, by: >) {
             let newLocalizations = localizations.subtracting(handledLocalizations)
-            if !newLocalizations.isEmpty {
+            if newLocalizations.isNotEmpty {
                 handledLocalizations.formUnion(newLocalizations)
                 let availabilityNotice: String = availability < symbol.availability ? " (iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS))" : ""
-                for localization in (Array(newLocalizations).sorted { $0.longName < $1.longName }) {
+                for localization in Array(newLocalizations).sorted(on: \.longName, by: <) {
                     outputString += "\t/// - \(localization.longName)\(availabilityNotice)\n"
                 }
             }
@@ -195,9 +196,9 @@ let symbolToCode: (Symbol) -> String = { symbol in
     // Generate layerset availability docs based on the assumption that layersets don't get removed
     var handledLayersets: Set<String> = .init()
     outputString += "\t///\n\t/// Layersets:\n\t/// - Monochrome\n"
-    for (availability, layersets) in completeLayersets.sorted(by: { $0.0 > $1.0 }) {
+    for (availability, layersets) in completeLayersets.sorted(on: \.key, by: >) {
         let newLayersets = layersets.subtracting(handledLayersets)
-        if !newLayersets.isEmpty {
+        if newLayersets.isNotEmpty {
             handledLayersets.formUnion(newLayersets)
             let availabilityNotice: String = availability < symbol.availability ? " (iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS))" : ""
             for layerset in Array(newLayersets).sorted() {
@@ -212,7 +213,7 @@ let symbolToCode: (Symbol) -> String = { symbol in
     }
 
     // Generate availability / deprecation specifications
-    if case let .replaced(newerSymbol) = symbol.type {
+    if let newerSymbol = symbol.newerSymbol {
         let newerName = newerSymbol.name.toPropertyName
         outputString += "\t@available(iOS, introduced: \(symbol.availability.iOS), deprecated: \(newerSymbol.availability.iOS), renamed: \"\(newerName)\")\n"
         outputString += "\t@available(macOS, introduced: \(symbol.availability.macOS), deprecated: \(newerSymbol.availability.macOS), renamed: \"\(newerName)\")\n"
@@ -231,7 +232,7 @@ let symbolToCode: (Symbol) -> String = { symbol in
     let nonVariadicClassName: (Int) -> String = {
         $0 == 0 ? "SFSymbol" : ("SymbolWith\($0)Localization" + (($0 > 1) ? "s" : ""))
     }
-    let variadics = structNames.isEmpty ? "" : "<\(structNames.joined(separator: ", "))>"
+    let variadics = structNames.isNotEmpty ? "<\(structNames.joined(separator: ", "))>" : ""
 
     outputString += "\tstatic let \(symbol.propertyName) = \(nonVariadicClassName(localizationCount-1))\(variadics)(rawValue: \"\(symbol.name)\")"
 
@@ -307,27 +308,28 @@ let availabilityExtensions: [String] = groupedSymbols.map { availability, symbol
     return outputString
 }
 
-let groupedAllLatestSymbols: Dictionary<Availability, [Symbol]> = groupedSymbols.keys.reduce(into: [:]) { result, current in
-    result[current] = symbols.filter { $0.availability >= current }.filter {
-        switch $0.type {
-            case .replaced(let replacementSymbol): return replacementSymbol.availability < current
-            default: return true
-        }
-    }
-}
-
-let groupedAllLatestSymbolsFileContents: Dictionary<Availability, String> = groupedAllLatestSymbols.reduce(into: [:]) {
-    let availability = $1.key
-    let symbols = $1.value
-    let versionUnderscored = availability.version.replacingOccurrences(of: ".", with: "_")
+let groupedAllLatestSymbolsFileContents: Dictionary<Availability, String> = groupedSymbols.reduce(into: [:]) {
+    let (availability, symbols) = $1
     var outputString = "// Don't touch this manually, this code is generated by the SymbolsGenerator helper tool\n\n"
     outputString += "@\(availability.availableExpression)\n"
     outputString += "extension SFSymbol {\n"
-    outputString += "\tinternal static var allSymbols\(versionUnderscored): Set<SFSymbol> { \n"
-    outputString += "\t\t[\n"
-    outputString += symbols.map { "\t\t\t" + $0.propertyName }.joined(separator: ",\n") + "\n"
+    outputString += "\tinternal static var symbolsAvailableSince\(availability.versionUnderscored): Set<SFSymbol> {\n"
+    outputString += "\t\t["
+    outputString += symbols.map { "\n\t\t\t" + $0.propertyName }.joined(separator: ",") + "\n"
     outputString += "\t\t]\n"
     outputString += "\t}\n"
+
+    if !availability.isBase {
+        outputString += "\n"
+        let symbolsDeprecatedSinceThisAvailability = symbols.compactMap(\.olderSymbol?.name).sorted()
+        outputString += "\tinternal static var symbolsDeprecatedSince\(availability.versionUnderscored): Set<SFSymbol> {\n"
+        outputString += "\t\t["
+        outputString += symbolsDeprecatedSinceThisAvailability.map { "\n\t\t\t" + $0.toPropertyName }.joined(separator: ",")
+        outputString += symbolsDeprecatedSinceThisAvailability.isNotEmpty ? "\n\t\t" : ""
+        outputString += "]\n"
+        outputString += "\t}\n"
+    }
+
     outputString += "}\n"
     $0[availability] = outputString
 }
@@ -344,15 +346,20 @@ let allSymbolsExtension: String = {
     //
 
     outputString += "\tpublic static var allSymbols: Set<SFSymbol> = {\n"
+    var availabilities = groupedSymbols.keys.sorted(by: >)
+    outputString += "\t\tvar result = symbolsAvailableSince\(availabilities.removeFirst().versionUnderscored)\n"
+
     outputString += "\t\t"
-    outputString += groupedAllLatestSymbolsFileContents.keys.sorted().map { availability in
-        let versionUnderscored = availability.version.replacingOccurrences(of: ".", with: "_")
-        var bodyString = availability.isBase ? "" : "if #\(availability.availableExpressionWithoutRedundancyToBase) "
+
+    outputString += availabilities.map { availability in
+        var bodyString = "if #\(availability.availableExpressionWithoutRedundancyToBase) "
         bodyString += "{\n"
-        bodyString += "\t\t\treturn allSymbols\(versionUnderscored)\n"
+        bodyString += "\t\t\tresult.formUnion(symbolsAvailableSince\(availability.versionUnderscored))\n"
+        bodyString += "\t\t\tresult.subtract(symbolsDeprecatedSince\(availability.versionUnderscored))\n"
         return bodyString
-    }.joined(separator: "\t\t} else ")
+    }.joined(separator: "\t\t}\n\t\t")
     outputString += "\t\t}\n"
+    outputString += "\t\treturn result\n"
     outputString += "\t}()\n"
     outputString += "}\n"
     return outputString
@@ -380,6 +387,6 @@ SFFileManager.write(allSymbolsExtension,
 
 // MARK: - Step 5: FINISHING
 
-if !symbolsWherePreviewIsntAvailable.isEmpty {
+if symbolsWherePreviewIsntAvailable.isNotEmpty {
     print("⚠️ No symbol preview available for symbols \(symbolsWherePreviewIsntAvailable)", to: &stderr)
 }

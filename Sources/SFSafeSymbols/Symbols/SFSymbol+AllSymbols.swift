@@ -6,20 +6,31 @@ extension SFSymbol {
     public static var allCases: [SFSymbol] { Array(allSymbols) }
 
     public static var allSymbols: Set<SFSymbol> = {
-        if #available(iOS 15.2, macOS 12.1, tvOS 15.2, watchOS 8.3, *) {
-            return allSymbols3_2
-        } else if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *) {
-            return allSymbols3_1
-        } else if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) {
-            return allSymbols3_0
-        } else if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *) {
-            return allSymbols2_2
-        } else if #available(iOS 14.2, tvOS 14.2, watchOS 7.1, *) {
-            return allSymbols2_1
-        } else if #available(iOS 14.0, tvOS 14.0, watchOS 7.0, *) {
-            return allSymbols2_0
-        } else {
-            return allSymbols1_0
+        var result = symbolsAvailableSince1_0
+        if #available(iOS 14.0, tvOS 14.0, watchOS 7.0, *) {
+            result.formUnion(symbolsAvailableSince2_0)
+            result.subtract(symbolsDeprecatedSince2_0)
         }
+        if #available(iOS 14.2, tvOS 14.2, watchOS 7.1, *) {
+            result.formUnion(symbolsAvailableSince2_1)
+            result.subtract(symbolsDeprecatedSince2_1)
+        }
+        if #available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *) {
+            result.formUnion(symbolsAvailableSince2_2)
+            result.subtract(symbolsDeprecatedSince2_2)
+        }
+        if #available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *) {
+            result.formUnion(symbolsAvailableSince3_0)
+            result.subtract(symbolsDeprecatedSince3_0)
+        }
+        if #available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, *) {
+            result.formUnion(symbolsAvailableSince3_1)
+            result.subtract(symbolsDeprecatedSince3_1)
+        }
+        if #available(iOS 15.2, macOS 12.1, tvOS 15.2, watchOS 8.3, *) {
+            result.formUnion(symbolsAvailableSince3_2)
+            result.subtract(symbolsDeprecatedSince3_2)
+        }
+        return result
     }()
 }

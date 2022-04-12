@@ -14,14 +14,10 @@ struct Symbol {
     var availability: Availability
     var availableLocalizations: [Availability: Set<Localization>]
     var availableLayersets: [Availability: Set<String>]
-    var type: SymbolType
-    var propertyName: String { name.toPropertyName }
-}
+    var olderSymbol: ScannedSymbol?
+    var newerSymbol: ScannedSymbol?
 
-enum SymbolType {
-  case normal
-  case replacement(for: ScannedSymbol)
-  case replaced(by: ScannedSymbol)
+    var propertyName: String { name.toPropertyName }
 }
 
 struct Availability: Comparable, Equatable, Hashable {
@@ -38,6 +34,8 @@ struct Availability: Comparable, Equatable, Hashable {
         let ver = Decimal(string: "1.0")! + (Decimal(string: year)! - Decimal(string: "2019")!)
         return String(format: "%.1f", NSDecimalNumber(decimal: ver).doubleValue)
     }
+
+    var versionUnderscored: String { version.replacingOccurrences(of: ".", with: "_") }
 
     static private(set) var base: Availability!
 

@@ -26,7 +26,7 @@ struct LayersetAvailabilityParser {
             Availability(iOS: value["iOS"]!, tvOS: value["tvOS"]!, watchOS: value["watchOS"]!, macOS: value["macOS"]!, year: key)
         }
 
-        for (key, value) in plist.symbols.sorted(by: { $0.key < $1.key }) {
+        for (key, value) in plist.symbols.sorted(on: \.key, by: <) {
             var layerSetAvailabilities = [LayersetAvailability]()
 
             for (layerset, year) in value {
