@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- Add support for SF Symbols 2.2, 3.0, 3.1 & 3.2 (By [Steven Magdy](https://github.com/StevenMagdy))
+- Add support for SF Symbols 1.1, 2.2, 3.0, 3.1, 3.2, and 3.3 (By [Steven Magdy](https://github.com/StevenMagdy))
 - Add support for explicit symbol localization (By [David Knothe](https://github.com/knothed))
 - Add documentation for available layersets & improve documentation in general. (By [Frederick Pietschmann](https://github.com/fredpi))
 
@@ -25,6 +25,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ### Fixed
 
 - Fix macOS availability. (By [Steven Magdy](https://github.com/StevenMagdy))
+- Fix unavailable 1.0 symbols by introducing a new 1.1 version. (By [Steven Magdy](https://github.com/StevenMagdy))
 
 ## [2.1.3] - 2021-03-10
 
