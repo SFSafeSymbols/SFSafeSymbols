@@ -162,9 +162,9 @@ let symbolToCode: (Symbol) -> String = { symbol in
     let layersetCount = completeLayersets.values.reduce(Set<String>()) { $0.union($1) }.count + 1
     let localizationCount = symbol.availableLocalizations.values.reduce(Set()) { $0.union($1) }.count + 1
 
-    let layersetString: String = {
+    let layersetString: String? = {
         guard !versionsWithNoLayersetInfo.contains(symbol.availability.version) else {
-            return "? Layersets"
+            return nil
         }
         return layersetCount > 1 ? "\(layersetCount) Layersets" : "Single Layerset"
     }()
@@ -216,7 +216,7 @@ let symbolToCode: (Symbol) -> String = { symbol in
             }
         }
     } else {
-        outputString += "\t///\n\t/// Unavailable layerset information\n"
+        outputString += "\t///\n\t/// Layerset information unavailable\n"
     }
 
     // Generate use restriction docs
