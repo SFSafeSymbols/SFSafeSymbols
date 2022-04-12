@@ -2,7 +2,7 @@
 
 @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, *)
 extension SFSymbol {
-    internal static var allSymbols2_1: Set<SFSymbol> {
+    internal static var symbolsAvailableSince2_1: Set<SFSymbol> {
         [
             aqiHigh,
             aqiLow,
@@ -47,7 +47,7 @@ extension SFSymbol {
             textformatSizeLarger,
             textformatSizeSmaller,
             torus,
-            tvAndMediabox,
+            tvAndMediabox
         ]
     }
 
@@ -55,7 +55,7 @@ extension SFSymbol {
         [
             a,
             aBookClosed,
-            aBookClosedFill,
+            aBookClosedFill
         ]
     }
 }

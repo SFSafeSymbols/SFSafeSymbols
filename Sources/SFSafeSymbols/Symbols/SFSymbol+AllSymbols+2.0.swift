@@ -2,7 +2,7 @@
 
 @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
 extension SFSymbol {
-    internal static var allSymbols2_0: Set<SFSymbol> {
+    internal static var symbolsAvailableSince2_0: Set<SFSymbol> {
         [
             _4kTv,
             _4kTvFill,
@@ -990,7 +990,7 @@ extension SFSymbol {
             zlRectangleRoundedtop,
             zlRectangleRoundedtopFill,
             zrRectangleRoundedtop,
-            zrRectangleRoundedtopFill,
+            zrRectangleRoundedtopFill
         ]
     }
 
@@ -1055,7 +1055,7 @@ extension SFSymbol {
             tableBadgeMore,
             tableBadgeMoreFill,
             tableFill,
-            videoBadgePlusFill,
+            videoBadgePlusFill
         ]
     }
 }

@@ -2,7 +2,7 @@
 
 @available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, *)
 extension SFSymbol {
-    internal static var allSymbols2_2: Set<SFSymbol> {
+    internal static var symbolsAvailableSince2_2: Set<SFSymbol> {
         [
             airpodsmax,
             applewatchSideRight,
@@ -18,7 +18,7 @@ extension SFSymbol {
             homepodmini2,
             homepodmini2Fill,
             homepodminiFill,
-            rectangleTopthirdInsetFill,
+            rectangleTopthirdInsetFill
         ]
     }
 
@@ -28,7 +28,7 @@ extension SFSymbol {
             tBubble,
             tBubbleFill,
             textCursor,
-            textbox,
+            textbox
         ]
     }
 }

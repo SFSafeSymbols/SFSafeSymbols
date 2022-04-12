@@ -2,7 +2,7 @@
 
 @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *)
 extension SFSymbol {
-    internal static var allSymbols3_0: Set<SFSymbol> {
+    internal static var symbolsAvailableSince3_0: Set<SFSymbol> {
         [
             _123Rectangle,
             _123RectangleFill,
@@ -796,7 +796,7 @@ extension SFSymbol {
             wifiSquare,
             wifiSquareFill,
             xmarkApp,
-            xmarkAppFill,
+            xmarkAppFill
         ]
     }
 
@@ -933,7 +933,7 @@ extension SFSymbol {
             triangleLefthalfFill,
             triangleRighthalfFill,
             tvMusicNote,
-            tvMusicNoteFill,
+            tvMusicNoteFill
         ]
     }
 }
