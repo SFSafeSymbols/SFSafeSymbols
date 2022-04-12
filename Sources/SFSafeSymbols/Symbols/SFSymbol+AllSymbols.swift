@@ -7,6 +7,10 @@ extension SFSymbol {
 
     public static var allSymbols: Set<SFSymbol> = {
         var result = symbolsAvailableSince1_0
+        if #available(iOS 13.1, watchOS 6.1, *) {
+            result.formUnion(symbolsAvailableSince1_1)
+            result.subtract(symbolsDeprecatedSince1_1)
+        }
         if #available(iOS 14.0, tvOS 14.0, watchOS 7.0, *) {
             result.formUnion(symbolsAvailableSince2_0)
             result.subtract(symbolsDeprecatedSince2_0)
@@ -30,6 +34,10 @@ extension SFSymbol {
         if #available(iOS 15.2, macOS 12.1, tvOS 15.2, watchOS 8.3, *) {
             result.formUnion(symbolsAvailableSince3_2)
             result.subtract(symbolsDeprecatedSince3_2)
+        }
+        if #available(iOS 15.4, macOS 12.3, tvOS 15.4, watchOS 8.5, *) {
+            result.formUnion(symbolsAvailableSince3_3)
+            result.subtract(symbolsDeprecatedSince3_3)
         }
         return result
     }()

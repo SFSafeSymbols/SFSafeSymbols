@@ -58,6 +58,7 @@ symbolRestrictions = symbolRestrictions.merging(missingSymbolRestrictions) { ori
     return original
 }
 
+let versionsWithNoLayersetInfo = ["3.3"]
 func otherAliases(for symbolName: String) -> [ScannedSymbol] {
     var result: [String] = []
     let olderAliases = nameAliases.filter { $0.newName == symbolName }.map(\.oldName)
@@ -161,11 +162,18 @@ let symbolToCode: (Symbol) -> String = { symbol in
     let layersetCount = completeLayersets.values.reduce(Set<String>()) { $0.union($1) }.count + 1
     let localizationCount = symbol.availableLocalizations.values.reduce(Set()) { $0.union($1) }.count + 1
 
+    let layersetString: String? = {
+        guard !versionsWithNoLayersetInfo.contains(symbol.availability.version) else {
+            return nil
+        }
+        return layersetCount > 1 ? "\(layersetCount) Layersets" : "Single Layerset"
+    }()
+
     // Generate summary for docs (preview + number of localizations, layersets + potential use restriction)
     var outputString = "\t/// " + (symbol.preview ?? "No preview available") + "\n"
     let supplementString = [
         localizationCount > 1 ? "\(localizationCount) Localizations" : "Single Localization",
-        layersetCount > 1 ? "\(layersetCount) Layersets" : "Single Layerset",
+        layersetString,
         symbol.restriction != nil ? "⚠️ Restricted" : nil
     ].compactMap { $0 }.joined(separator: ", ")
     if supplementString.isNotEmpty {
@@ -193,18 +201,22 @@ let symbolToCode: (Symbol) -> String = { symbol in
         }
     }
 
-    // Generate layerset availability docs based on the assumption that layersets don't get removed
-    var handledLayersets: Set<String> = .init()
-    outputString += "\t///\n\t/// Layersets:\n\t/// - Monochrome\n"
-    for (availability, layersets) in completeLayersets.sorted(on: \.key, by: >) {
-        let newLayersets = layersets.subtracting(handledLayersets)
-        if newLayersets.isNotEmpty {
-            handledLayersets.formUnion(newLayersets)
-            let availabilityNotice: String = availability < symbol.availability ? " (iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS))" : ""
-            for layerset in Array(newLayersets).sorted() {
-                outputString += "\t/// - \(layerset.capitalized)\(availabilityNotice)\n"
+    if !versionsWithNoLayersetInfo.contains(symbol.availability.version){
+        // Generate layerset availability docs based on the assumption that layersets don't get removed
+        var handledLayersets: Set<String> = .init()
+        outputString += "\t///\n\t/// Layersets:\n\t/// - Monochrome\n"
+        for (availability, layersets) in completeLayersets.sorted(by: { $0.0 > $1.0 }) {
+            let newLayersets = layersets.subtracting(handledLayersets)
+            if !newLayersets.isEmpty {
+                handledLayersets.formUnion(newLayersets)
+                let availabilityNotice: String = availability < symbol.availability ? " (iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS))" : ""
+                for layerset in Array(newLayersets).sorted() {
+                    outputString += "\t/// - \(layerset.capitalized)\(availabilityNotice)\n"
+                }
             }
         }
+    } else {
+        outputString += "\t///\n\t/// Layerset information unavailable\n"
     }
 
     // Generate use restriction docs
