@@ -8,6 +8,20 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
+- None
+
+### Changed
+
+- None
+
+### Fixed
+
+- None
+
+## [3.3] - 2022-04-12
+
+### Added
+
 - Add support for SF Symbols 1.1, 2.2, 3.0, 3.1, 3.2, and 3.3 (By [Steven Magdy](https://github.com/StevenMagdy))
 - Add support for explicit symbol localization (By [David Knothe](https://github.com/knothed))
 - Add documentation for available layersets & improve documentation in general. (By [Frederick Pietschmann](https://github.com/fredpi))
