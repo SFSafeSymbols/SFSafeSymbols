@@ -18,6 +18,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - None
 
+## [3.3.1] - 2022-04-14
+
+### Fixed
+
+- Fix version numbering to adhere to the semantic versioning guide. (By [Frederick Pietschmann](https://github.com/fredpi))
+
 ## [3.3] - 2022-04-12
 
 ### Added
