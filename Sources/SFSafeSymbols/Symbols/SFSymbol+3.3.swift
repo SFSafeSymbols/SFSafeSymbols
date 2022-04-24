@@ -3,45 +3,58 @@
 // 3.3 Symbols
 @available(iOS 15.4, macOS 12.3, tvOS 15.4, watchOS 8.5, *)
 public extension SFSymbol {
-    /// No preview available
-    /// Single Localization
+    /// 􁂂
+    /// Single Localization, Single Layerset
     ///
-    /// Layerset information unavailable
+    /// Layersets:
+    /// - Monochrome
     static let cameraMacro = SFSymbol(rawValue: "camera.macro")
 
-    /// No preview available
-    /// Single Localization
+    /// 􁂃
+    /// Single Localization, 2 Layersets
     ///
-    /// Layerset information unavailable
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
     static let cameraMacroCircle = SFSymbol(rawValue: "camera.macro.circle")
 
-    /// No preview available
-    /// Single Localization
+    /// 􁂄
+    /// Single Localization, 2 Layersets
     ///
-    /// Layerset information unavailable
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
     static let cameraMacroCircleFill = SFSymbol(rawValue: "camera.macro.circle.fill")
 
-    /// No preview available
-    /// Single Localization
+    /// 􁑢
+    /// Single Localization, 2 Layersets
     ///
-    /// Layerset information unavailable
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
     static let dotsAndLineVerticalAndCursorarrowRectangle = SFSymbol(rawValue: "dots.and.line.vertical.and.cursorarrow.rectangle")
 
-    /// No preview available
-    /// Single Localization
+    /// 􁎕
+    /// Single Localization, 2 Layersets
     ///
-    /// Layerset information unavailable
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
     static let keyViewfinder = SFSymbol(rawValue: "key.viewfinder")
 
-    /// No preview available
-    /// Single Localization
+    /// 􁏺
+    /// Single Localization, 2 Layersets
     ///
-    /// Layerset information unavailable
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
     static let personBadgeKey = SFSymbol(rawValue: "person.badge.key")
 
-    /// No preview available
-    /// Single Localization
+    /// 􁎨
+    /// Single Localization, 2 Layersets
     ///
-    /// Layerset information unavailable
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
     static let personBadgeKeyFill = SFSymbol(rawValue: "person.badge.key.fill")
 }

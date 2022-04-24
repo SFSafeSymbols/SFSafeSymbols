@@ -58,7 +58,8 @@ symbolRestrictions = symbolRestrictions.merging(missingSymbolRestrictions) { ori
     return original
 }
 
-let versionsWithNoLayersetInfo = ["3.3"]
+let versionsWithNoLayersetInfo: [String] = []
+
 func otherAliases(for symbolName: String) -> [ScannedSymbol] {
     var result: [String] = []
     let olderAliases = nameAliases.filter { $0.newName == symbolName }.map(\.oldName)
