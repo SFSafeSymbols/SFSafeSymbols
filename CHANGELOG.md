@@ -16,7 +16,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Fixed
 
-- None
+- Added missing 3.3 layerset information.
 
 ## [3.3.1] - 2022-04-14
 

@@ -4071,6 +4071,16 @@
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
+		<key>camera.macro.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2021.3</string>
+		</dict>
+		<key>camera.macro.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2021.3</string>
+		</dict>
 		<key>camera.metering.center.weighted</key>
 		<dict>
 			<key>hierarchical</key>
@@ -5766,6 +5776,11 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>dots.and.line.vertical.and.cursorarrow.rectangle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2021.3</string>
 		</dict>
 		<key>dpad.down.filled</key>
 		<dict>
@@ -8100,6 +8115,11 @@
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
+		<key>key.viewfinder</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2021.3</string>
+		</dict>
 		<key>keyboard.badge.ellipsis</key>
 		<dict>
 			<key>hierarchical</key>
@@ -9810,6 +9830,16 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>person.badge.key</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2021.3</string>
+		</dict>
+		<key>person.badge.key.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2021.3</string>
 		</dict>
 		<key>person.badge.minus</key>
 		<dict>
@@ -14260,6 +14290,17 @@
 			<key>watchOS</key>
 			<string>6.0</string>
 		</dict>
+		<key>2019.1</key>
+		<dict>
+			<key>iOS</key>
+			<string>13.1</string>
+			<key>macOS</key>
+			<string>10.15</string>
+			<key>tvOS</key>
+			<string>13.0</string>
+			<key>watchOS</key>
+			<string>6.1</string>
+		</dict>
 		<key>2020</key>
 		<dict>
 			<key>iOS</key>
@@ -14325,6 +14366,17 @@
 			<string>15.2</string>
 			<key>watchOS</key>
 			<string>8.3</string>
+		</dict>
+		<key>2021.3</key>
+		<dict>
+			<key>iOS</key>
+			<string>15.4</string>
+			<key>macOS</key>
+			<string>12.3</string>
+			<key>tvOS</key>
+			<string>15.4</string>
+			<key>watchOS</key>
+			<string>8.5</string>
 		</dict>
 	</dict>
 </dict>
