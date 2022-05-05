@@ -12,17 +12,17 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Changed
 
-- None
+- Retains dynamic localization information when serializing/deserializing `SFSymbol`. (By [Steven Magdy](https://github.com/StevenMagdy))
 
 ### Fixed
 
 - None
 
-## [3.3.2] - 2022-04-14
+## [3.3.2] - 2022-05-1
 
 ### Fixed
 
-- Added missing 3.3 layerset information.
+- Added missing 3.3 layerset information. (By [Steven Magdy](https://github.com/StevenMagdy))
 
 ## [3.3.1] - 2022-04-14
 
