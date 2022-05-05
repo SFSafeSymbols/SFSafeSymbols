@@ -185,8 +185,8 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
@@ -199,8 +199,8 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
@@ -1320,8 +1320,8 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome

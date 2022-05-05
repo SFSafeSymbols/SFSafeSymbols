@@ -1,13 +1,13 @@
 import Foundation
 
 /// The base symbol when scanned from the manifest
-struct ScannedSymbol {
+struct ScannedSymbol: Hashable {
     var name: String
     var availability: Availability
 }
 
 /// The symbol data type containing all versions for one specific symbol
-struct Symbol {
+struct Symbol: Hashable {
     var name: String
     var restriction: String?
     var preview: String?
@@ -85,19 +85,39 @@ struct LayersetAvailability {
     var availability: Availability
 }
 
-struct Localization: Equatable, Hashable {
-    let suffix: String
-    let longName: String
-    
+enum Localization: String, Hashable, CaseIterable {
+    case ar = "ar"
+    case he = "he"
+    case hi = "hi"
+    case ja = "ja"
+    case ko = "ko"
+    case rtl = "rtl"
+    case th = "th"
+    case zh = "zh"
+    case zhTraditional = "zh.traditional"
+
+    var title: String {
+        switch self {
+            case .ar: return "Arabic"
+            case .he: return "Hebrew"
+            case .hi: return "Hindi"
+            case .ja: return "Japanese"
+            case .ko: return "Korean"
+            case .rtl: return "Right-to-Left"
+            case .th: return "Thai"
+            case .zh: return "Chinese"
+            case .zhTraditional: return "Traditional Chinese"
+        }
+    }
     /// The name for a variable exposing this localization, e.g. "zhTraditional".
     var variableName: String {
-        decapFirst(noDots(suffix.capitalized))
+        decapFirst(noDots(rawValue.capitalized))
     }
-    
+
     /// The name for the SymbolLocalization struct exposing this localization for the base availability.
     /// E.g. "Ar".
     var baseStructName: String {
-        noDots(suffix.capitalized)
+        noDots(rawValue.capitalized)
     }
 
     /// The name for the SymbolLocalization struct exposing this localization given a specific (or base) availability.

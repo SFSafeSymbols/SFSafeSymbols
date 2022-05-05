@@ -2,26 +2,26 @@
 
 @available(iOS 13.1, macOS 11.0, tvOS 13.0, watchOS 6.1, *)
 extension SFSymbol {
-    internal static var symbolsAvailableSince1_1: Set<SFSymbol> {
+    internal static var localizationsAvailableSince1_1: [SFSymbol : Set<Localization>] {
         [
-            arrowUturnLeftCircleBadgeEllipsis,
-            aspectratio,
-            aspectratioFill,
-            car,
-            circleGrid2x2,
-            circleGrid2x2Fill,
-            flashlightOffFill,
-            flashlightOnFill,
-            flipHorizontal,
-            flipHorizontalFill,
-            mappinCircle,
-            mappinCircleFill,
-            paperclipCircle,
-            paperclipCircleFill,
-            pinCircle,
-            pinCircleFill,
-            scissorsBadgeEllipsis,
-            studentdesk
+            arrowUturnLeftCircleBadgeEllipsis: [],
+            aspectratio: [],
+            aspectratioFill: [],
+            car: [],
+            circleGrid2x2: [],
+            circleGrid2x2Fill: [],
+            flashlightOffFill: [],
+            flashlightOnFill: [],
+            flipHorizontal: [],
+            flipHorizontalFill: [],
+            mappinCircle: [],
+            mappinCircleFill: [],
+            paperclipCircle: [],
+            paperclipCircleFill: [],
+            pinCircle: [],
+            pinCircleFill: [],
+            scissorsBadgeEllipsis: [],
+            studentdesk: []
         ]
     }
 

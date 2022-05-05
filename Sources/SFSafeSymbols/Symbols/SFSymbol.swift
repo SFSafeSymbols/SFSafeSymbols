@@ -8,14 +8,10 @@ public class SFSymbol: RawRepresentable, Equatable, Hashable {
     }
 
     // MARK: Dynamic Localization
-    internal var localizations: [SymbolLocalization.Type] { [] }
-
-    /// Determine all localizations `self` can be localized to on the current platform.
-    public lazy var availableLocalizations = { _availableLocalizations }()
 
     /// Determine whether `self` can be localized to `localization` on the current platform.
     public func has(localization: Localization) -> Bool {
-        availableLocalizations.contains(localization)
+        Self.allLocalizations[self]?.contains(localization) ?? false
     }
 
     /// If `self` is localizable to `localization`, localize it, otherwise return `nil`.
