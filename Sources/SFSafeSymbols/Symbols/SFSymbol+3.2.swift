@@ -132,5 +132,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @available(iOS, introduced: 15.2, deprecated: 16.0, renamed: "square3Layers3dSlash")
+    @available(macOS, introduced: 12.1, deprecated: 13.0, renamed: "square3Layers3dSlash")
+    @available(tvOS, introduced: 15.2, deprecated: 16.0, renamed: "square3Layers3dSlash")
+    @available(watchOS, introduced: 8.3, deprecated: 9.0, renamed: "square3Layers3dSlash")
     static let square3Stack3dSlash = SFSymbol(rawValue: "square.3.stack.3d.slash")
 }

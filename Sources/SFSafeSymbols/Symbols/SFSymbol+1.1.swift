@@ -4,11 +4,12 @@
 @available(iOS 13.1, macOS 11.0, tvOS 13.0, watchOS 6.1, *)
 public extension SFSymbol {
     /// 􀞸
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let arrowUturnLeftCircleBadgeEllipsis = SFSymbol(rawValue: "arrow.uturn.left.circle.badge.ellipsis")
 
     /// 􀞖
@@ -26,10 +27,11 @@ public extension SFSymbol {
     static let aspectratioFill = SFSymbol(rawValue: "aspectratio.fill")
 
     /// 􀙘
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let car = SFSymbol(rawValue: "car")
 
     /// 􀞾
@@ -139,11 +141,12 @@ public extension SFSymbol {
     static let pinCircleFill = SFSymbol(rawValue: "pin.circle.fill")
 
     /// 􀞷
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let scissorsBadgeEllipsis = SFSymbol(rawValue: "scissors.badge.ellipsis")
 
     /// 􀑔

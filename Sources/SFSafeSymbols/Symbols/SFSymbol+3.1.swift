@@ -44,35 +44,39 @@ public extension SFSymbol {
     static let platterFilledTopIphone = SFSymbol(rawValue: "platter.filled.top.iphone")
 
     /// 􁋜
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let square3Layers3dDownBackward = SFSymbol(rawValue: "square.3.layers.3d.down.backward")
 
     /// 􁋛
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let square3Layers3dDownForward = SFSymbol(rawValue: "square.3.layers.3d.down.forward")
 
     /// 􁉼
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let square3Layers3dDownLeft = SFSymbol(rawValue: "square.3.layers.3d.down.left")
 
     /// 􁉽
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let square3Layers3dDownRight = SFSymbol(rawValue: "square.3.layers.3d.down.right")
 
     /// 􁉀

@@ -43,7 +43,7 @@ public extension SFSymbol {
     static let characterBubble = SymbolWith8Localizations<Ar, He, Hi_v3, Ja_v3, Ko_v3, Th_v3, ZhTraditional_v3, Zh_v3>(rawValue: "character.bubble")
 
     /// 􀌱
-    /// 9 Localizations, 2 Layersets
+    /// 9 Localizations, 3 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -59,6 +59,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let characterBubbleFill = SymbolWith8Localizations<Ar, He, Hi_v3, Ja_v3, Ko_v3, Th_v3, ZhTraditional_v3, Zh_v3>(rawValue: "character.bubble.fill")
 
     /// 􀅫
