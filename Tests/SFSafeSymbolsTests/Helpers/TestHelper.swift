@@ -8,8 +8,8 @@ enum TestHelper {
         }.sorted { $0.rawValue < $1.rawValue }
     }()
 
-    static let sampleSymbol: SFSymbol = .arrowClockwiseCircleFill
-    static let sampleSymbolWrongDerivate: SFSymbol = .arrowClockwiseCircle
+    static let sampleSymbol: SFSymbol = .questionmarkVideoFill
+    static let sampleSymbolWrongDerivate: SFSymbol = .questionmarkVideo
 
-    static let sampleSymbolRawValue: String = "arrow.clockwise.circle.fill"
+    static let sampleSymbolRawValue: String = "questionmark.video.fill"
 }
