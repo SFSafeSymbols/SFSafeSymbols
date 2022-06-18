@@ -1,5 +1,4 @@
 //
-// Retrieved via the SFSymbols app (Version 3.3) (sort by name, select all, right-click and select 'Copy Names')
 // Updated on April 24 2022
 //
 

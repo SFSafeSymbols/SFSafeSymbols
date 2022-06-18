@@ -22,7 +22,12 @@ Please write **meaningful commit messages** (see rationale [here](http://chris.b
 
 With the current structure of the repository, where **most code is generated** by the `SymbolsGenerator` helper tool, it is quite easy to update `SFSafeSymbols` to a new SF Symbols version (as long as there are no breaking changes in the way Apple organizes the symbols):
 
-1. **Update the files** in the `/SymbolsGenerator/Sources/SymbolsGenerator` folder to the latest SF Symbols version. Some of the files are created manually (there's a comment at the top of these files, explaing how it is done), some other files are copied from the *Package Contents* of the SF Symbols app.
+1. **Update the files** in the `/SymbolsGenerator/Sources/SymbolsGenerator` folder to the latest SF Symbols version.
+    * `symbol_names.txt`: SFSymbols app -> sort by name -> select all -> right-click -> 'Copy Names'.
+    * `symbol_previews.txt`: SFSymbols app -> sort by name -> select all -> right-click -> 'Copy Symbols'.
+    * `name_availability.plist`, `layerset_availability.plist`, `legacy_aliases_strings.txt` and `name_aliases_strings.txt`: Copy from `SF Symbols.app/Contents/Resources/`.
+    * `symbol_restrictions.strings`: Copy from (depending on the version) `/System/Library/CoreServices/CoreGlyphs.bundle/Contents/Resources/` or `/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/CoreServices/CoreGlyphs.bundle/`.
+    * `symbol_restrictions_missing.strings`: Is created manually for restricted symbols that are misssing from `symbol_restrictions.strings`.
 2. Open a terminal and change to the root folder of the repository. **Then run `make generate-symbol`**.
 3. If new files are created by the generator tool (which is expected to happen when updating to a new SF Symbols version), make sure they are **added to the `SFSafeSymbols.xcodeproj`**.
 4. **Update the `README.md`**, so that support for the new SF Symbols version is mentioned there.
