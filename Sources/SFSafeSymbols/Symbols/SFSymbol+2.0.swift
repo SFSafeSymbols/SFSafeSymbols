@@ -323,8 +323,8 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
@@ -1540,8 +1540,8 @@ public extension SFSymbol {
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
@@ -1864,8 +1864,8 @@ public extension SFSymbol {
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
@@ -2904,8 +2904,8 @@ public extension SFSymbol {
     /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
@@ -2990,8 +2990,8 @@ public extension SFSymbol {
     /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left (iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1)
+    /// - Left-to-Right
+    /// - Right-to-Left (iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1)
     ///
     /// Layersets:
     /// - Monochrome
@@ -3001,8 +3001,8 @@ public extension SFSymbol {
     /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left (iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1)
+    /// - Left-to-Right
+    /// - Right-to-Left (iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1)
     ///
     /// Layersets:
     /// - Monochrome
@@ -3681,8 +3681,8 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
@@ -5085,8 +5085,8 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
@@ -5104,8 +5104,8 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
@@ -5661,8 +5661,8 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
@@ -5673,9 +5673,9 @@ public extension SFSymbol {
     /// 3 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Latin
+    /// - Left-to-Right
     /// - Arabic
-    /// - Right-To-Left
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
@@ -5715,8 +5715,8 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
@@ -6272,8 +6272,8 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
@@ -6284,8 +6284,8 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
@@ -7092,8 +7092,8 @@ public extension SFSymbol {
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
@@ -7104,8 +7104,8 @@ public extension SFSymbol {
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
@@ -7865,8 +7865,8 @@ public extension SFSymbol {
     /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left (iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1)
+    /// - Left-to-Right
+    /// - Right-to-Left (iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1)
     ///
     /// Layersets:
     /// - Monochrome
@@ -7876,8 +7876,8 @@ public extension SFSymbol {
     /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left (iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1)
+    /// - Left-to-Right
+    /// - Right-to-Left (iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1)
     ///
     /// Layersets:
     /// - Monochrome
@@ -7901,8 +7901,8 @@ public extension SFSymbol {
     /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
-    /// - Left-To-Right
-    /// - Right-To-Left
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome

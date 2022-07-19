@@ -2,15 +2,15 @@
 
 @available(iOS 15.4, macOS 12.3, tvOS 15.4, watchOS 8.5, *)
 extension SFSymbol {
-    internal static var symbolsAvailableSince3_3: Set<SFSymbol> {
+    internal static var localizationsAvailableSince3_3: [SFSymbol : Set<Localization>] {
         [
-            cameraMacro,
-            cameraMacroCircle,
-            cameraMacroCircleFill,
-            dotsAndLineVerticalAndCursorarrowRectangle,
-            keyViewfinder,
-            personBadgeKey,
-            personBadgeKeyFill
+            cameraMacro: [],
+            cameraMacroCircle: [],
+            cameraMacroCircleFill: [],
+            dotsAndLineVerticalAndCursorarrowRectangle: [],
+            keyViewfinder: [],
+            personBadgeKey: [],
+            personBadgeKeyFill: []
         ]
     }
 

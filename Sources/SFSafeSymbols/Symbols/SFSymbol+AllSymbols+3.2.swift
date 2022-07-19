@@ -2,23 +2,23 @@
 
 @available(iOS 15.2, macOS 12.1, tvOS 15.2, watchOS 8.3, *)
 extension SFSymbol {
-    internal static var symbolsAvailableSince3_2: Set<SFSymbol> {
+    internal static var localizationsAvailableSince3_2: [SFSymbol : Set<Localization>] {
         [
-            airpodGen3Left,
-            airpodGen3Right,
-            airpodsGen3,
-            airpodsGen3ChargingcaseWireless,
-            airpodsGen3ChargingcaseWirelessFill,
-            beatsFitPro,
-            beatsFitProChargingcase,
-            beatsFitProChargingcaseFill,
-            beatsFitProLeft,
-            beatsFitProRight,
-            rectangleLeadinghalfFilled,
-            rectangleTrailinghalfFilled,
-            square3Layers3dDownLeftSlash,
-            square3Layers3dDownRightSlash,
-            square3Stack3dSlash
+            airpodGen3Left: [],
+            airpodGen3Right: [],
+            airpodsGen3: [],
+            airpodsGen3ChargingcaseWireless: [],
+            airpodsGen3ChargingcaseWirelessFill: [],
+            beatsFitPro: [],
+            beatsFitProChargingcase: [],
+            beatsFitProChargingcaseFill: [],
+            beatsFitProLeft: [],
+            beatsFitProRight: [],
+            rectangleLeadinghalfFilled: [],
+            rectangleTrailinghalfFilled: [],
+            square3Layers3dDownLeftSlash: [],
+            square3Layers3dDownRightSlash: [],
+            square3Stack3dSlash: []
         ]
     }
 
