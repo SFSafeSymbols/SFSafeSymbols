@@ -17,7 +17,7 @@
     <img src="https://img.shields.io/badge/Platforms-iOS%20|%20tvOS%20|%20watchOS%20|%20macOS-FF69B4.svg"
         alt="Platforms: iOS – tvOS – watchOS – macOS">
     </a>
-    <a href="https://github.com/SFSafeSymbols/SFSafeSymbols/blob/stable/LICENSE.md">
+    <a href="https://github.com/SFSafeSymbols/SFSafeSymbols/blob/stable/LICENSE">
         <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg" alt="License: MIT">
     </a>
     <br />
@@ -193,7 +193,7 @@ SF Symbols can come with multiple different localizations. `SFSafeSymbols` expos
 
   Static localization only exposes the localizations which are actually available, so you cannot accidentally localize a non-localizable symbol.
 
-  Dynamic localization, in contrast, is useful when dealing with an array of `SFSymbols` which all have different available localizations.
+  Dynamic localization, in contrast, is useful when dealing with an array of `SFSymbol`s which all have different available localizations.
 
 Attention: Serializing and deserializing `SFSymbol`s currently makes them lose their _explicit_ both static and dynamic localization information. Regaining dynamic localization information may be addressed in a future version of `SFSafeSymbols`.
 
