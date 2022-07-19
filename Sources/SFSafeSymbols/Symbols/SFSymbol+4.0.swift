@@ -91,20 +91,24 @@ public extension SFSymbol {
     static let arrowDownAndLineHorizontalAndArrowUp = SFSymbol(rawValue: "arrow.down.and.line.horizontal.and.arrow.up")
 
     /// 􁒞
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static let arrowDownMessage = SFSymbol(rawValue: "arrow.down.message")
 
     /// 􁒟
-    /// Single Localization, 3 Layersets
+    /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static let arrowDownMessageFill = SFSymbol(rawValue: "arrow.down.message.fill")
 
     /// 􀚋
@@ -893,20 +897,24 @@ public extension SFSymbol {
     static let checklistUnchecked = SFSymbol(rawValue: "checklist.unchecked")
 
     /// 􁐕
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static let checkmarkMessage = SFSymbol(rawValue: "checkmark.message")
 
     /// 􁐖
-    /// Single Localization, 3 Layersets
+    /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static let checkmarkMessageFill = SFSymbol(rawValue: "checkmark.message.fill")
 
     /// 􁍄
@@ -1068,19 +1076,23 @@ public extension SFSymbol {
     static let dehumidifierFill = SFSymbol(rawValue: "dehumidifier.fill")
 
     /// 􁙣
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Desk View.
     static let deskview = SFSymbol(rawValue: "deskview")
 
     /// 􁙤
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Desk View.
     static let deskviewFill = SFSymbol(rawValue: "deskview.fill")
 
     /// 􀪐
@@ -1521,21 +1533,25 @@ public extension SFSymbol {
     static let dumbbellFill = SFSymbol(rawValue: "dumbbell.fill")
 
     /// 􁒘
-    /// Single Localization, 3 Layersets
+    /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static let ellipsisMessage = SFSymbol(rawValue: "ellipsis.message")
 
     /// 􁒙
-    /// Single Localization, 3 Layersets
+    /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static let ellipsisMessageFill = SFSymbol(rawValue: "ellipsis.message.fill")
 
     /// 􁒴
@@ -2896,11 +2912,13 @@ public extension SFSymbol {
     static let lampTableFill = SFSymbol(rawValue: "lamp.table.fill")
 
     /// 􁘞
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
     static let laptopcomputerAndIpad = SFSymbol(rawValue: "laptopcomputer.and.ipad")
 
     /// 􁑝
@@ -3251,17 +3269,21 @@ public extension SFSymbol {
     static let lockTrianglebadgeExclamationmarkFill = SFSymbol(rawValue: "lock.trianglebadge.exclamationmark.fill")
 
     /// 􁏍
-    /// Single Localization, Single Layerset
+    /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Mac Studio.
     static let macstudio = SFSymbol(rawValue: "macstudio")
 
     /// 􁏎
-    /// Single Localization, Single Layerset
+    /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Mac Studio.
     static let macstudioFill = SFSymbol(rawValue: "macstudio.fill")
 
     /// 􁑚
@@ -3300,44 +3322,54 @@ public extension SFSymbol {
     static let medicalThermometerFill = SFSymbol(rawValue: "medical.thermometer.fill")
 
     /// 􁋬
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static let messageBadge = SFSymbol(rawValue: "message.badge")
 
     /// 􁗗
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static let messageBadgeCircle = SFSymbol(rawValue: "message.badge.circle")
 
     /// 􁗘
-    /// Single Localization, 3 Layersets
+    /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static let messageBadgeCircleFill = SFSymbol(rawValue: "message.badge.circle.fill")
 
     /// 􁏊
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static let messageBadgeFill = SFSymbol(rawValue: "message.badge.fill")
 
     /// 􁋭
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static let messageBadgeFilledFill = SFSymbol(rawValue: "message.badge.filled.fill")
 
     /// 􁎔
@@ -3930,10 +3962,12 @@ public extension SFSymbol {
     static let playpauseCircleFill = SFSymbol(rawValue: "playpause.circle.fill")
 
     /// 􀾈
-    /// Single Localization, Single Layerset
+    /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Sony’s PlayStation.
     static let playstationlogo = SFSymbol(rawValue: "playstationlogo")
 
     /// 􁐇
@@ -4653,19 +4687,23 @@ public extension SFSymbol {
     static let sensorFill = SFSymbol(rawValue: "sensor.fill")
 
     /// 􁅁
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Shared With You feature.
     static let sharedWithYou = SFSymbol(rawValue: "shared.with.you")
 
     /// 􁇦
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Shared With You feature.
     static let sharedWithYouSlash = SFSymbol(rawValue: "shared.with.you.slash")
 
     /// 􁑙
@@ -5739,10 +5777,12 @@ public extension SFSymbol {
     static let wrenchAdjustableFill = SFSymbol(rawValue: "wrench.adjustable.fill")
 
     /// 􀾉
-    /// Single Localization, Single Layerset
+    /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Microsoft’s Xbox.
     static let xboxlogo = SFSymbol(rawValue: "xboxlogo")
 
     /// 􁑁

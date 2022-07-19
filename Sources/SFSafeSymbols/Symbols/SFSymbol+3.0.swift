@@ -3633,10 +3633,12 @@ public extension SFSymbol {
     static let lockOpenLaptopcomputer = SFSymbol(rawValue: "lock.open.laptopcomputer")
 
     /// 􀾈
-    /// Single Localization, Single Layerset
+    /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Sony’s PlayStation.
     @available(iOS, introduced: 15.0, deprecated: 16.0, renamed: "playstationlogo")
     @available(macOS, introduced: 12.0, deprecated: 13.0, renamed: "playstationlogo")
     @available(tvOS, introduced: 15.0, deprecated: 16.0, renamed: "playstationlogo")
@@ -3644,10 +3646,12 @@ public extension SFSymbol {
     static let logoPlaystation = SFSymbol(rawValue: "logo.playstation")
 
     /// 􀾉
-    /// Single Localization, Single Layerset
+    /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Microsoft’s Xbox.
     @available(iOS, introduced: 15.0, deprecated: 16.0, renamed: "xboxlogo")
     @available(macOS, introduced: 12.0, deprecated: 13.0, renamed: "xboxlogo")
     @available(tvOS, introduced: 15.0, deprecated: 16.0, renamed: "xboxlogo")
