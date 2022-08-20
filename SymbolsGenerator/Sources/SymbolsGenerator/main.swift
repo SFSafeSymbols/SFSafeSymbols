@@ -148,6 +148,7 @@ for scannedSymbol in symbolManifest {
 // This is to fix a rare bug that only localized variants of a symbol, but not the base variant is available
 // (see https://github.com/SFSafeSymbols/SFSafeSymbols/issues/107)
 symbols = symbols.filter { $0.isBaseLocalizationAvailable }
+symbolsWherePreviewIsntAvailable = symbolsWherePreviewIsntAvailable.filter { name in symbols.contains { $0.name == name } }
 
 func layersetsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>] {
     var toMerge: [Availability: Set<String>] = [:]
