@@ -3,6 +3,13 @@
 // 4.0 Symbols
 @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
 public extension SFSymbol {
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let absBrakesignal = SFSymbol(rawValue: "abs.brakesignal")
+
     /// 􁓭
     /// Single Localization, 2 Layersets
     ///
@@ -82,6 +89,15 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     static let angle = SFSymbol(rawValue: "angle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Sign in with Apple.
+    static let appleLogo = SFSymbol(rawValue: "apple.logo")
 
     /// 􀚍
     /// Single Localization, Single Layerset
@@ -369,6 +385,20 @@ public extension SFSymbol {
     /// - Monochrome
     static let baseball = SFSymbol(rawValue: "baseball")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let baseballCircle = SFSymbol(rawValue: "baseball.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let baseballCircleFill = SFSymbol(rawValue: "baseball.circle.fill")
+
     /// 􁑠
     /// Single Localization, 3 Layersets
     ///
@@ -405,6 +435,20 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     static let basketball = SFSymbol(rawValue: "basketball")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let basketballCircle = SFSymbol(rawValue: "basketball.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let basketballCircleFill = SFSymbol(rawValue: "basketball.circle.fill")
 
     /// 􁗊
     /// Single Localization, Single Layerset
@@ -562,6 +606,13 @@ public extension SFSymbol {
     /// - Multicolor
     static let boltBadgeClockFill = SFSymbol(rawValue: "bolt.badge.clock.fill")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let boltBrakesignal = SFSymbol(rawValue: "bolt.brakesignal")
+
     /// 􁁾
     /// Single Localization, Single Layerset
     ///
@@ -601,6 +652,20 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     static let boxTruckFill = SFSymbol(rawValue: "box.truck.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let brakesignal = SFSymbol(rawValue: "brakesignal")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let brakesignalDashed = SFSymbol(rawValue: "brakesignal.dashed")
 
     /// 􁑟
     /// Single Localization, Single Layerset
@@ -896,6 +961,42 @@ public extension SFSymbol {
     /// - Hierarchical
     static let checklistUnchecked = SFSymbol(rawValue: "checklist.unchecked")
 
+    /// No preview available
+    /// 2 Localizations, Single Layerset
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let checkmarkCircleBadgeQuestionmark = SymbolWith1Localization<Ar>(rawValue: "checkmark.circle.badge.questionmark")
+
+    /// No preview available
+    /// 2 Localizations, Single Layerset
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let checkmarkCircleBadgeQuestionmarkFill = SymbolWith1Localization<Ar>(rawValue: "checkmark.circle.badge.questionmark.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let checkmarkCircleBadgeXmark = SFSymbol(rawValue: "checkmark.circle.badge.xmark")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let checkmarkCircleBadgeXmarkFill = SFSymbol(rawValue: "checkmark.circle.badge.xmark.fill")
+
     /// 􁐕
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
@@ -945,6 +1046,34 @@ public extension SFSymbol {
     /// - Monochrome
     static let chevronRightToLine = SFSymbol(rawValue: "chevron.right.to.line")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let circleDashedRectangle = SFSymbol(rawValue: "circle.dashed.rectangle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let circleFilledPatternDiagonallineRectangle = SFSymbol(rawValue: "circle.filled.pattern.diagonalline.rectangle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let circleRectangleDashed = SFSymbol(rawValue: "circle.rectangle.dashed")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let circleRectangleFilledPatternDiagonalline = SFSymbol(rawValue: "circle.rectangle.filled.pattern.diagonalline")
+
     /// 􀟹
     /// Single Localization, Single Layerset
     ///
@@ -974,6 +1103,266 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     static let clockBadgeFill = SFSymbol(rawValue: "clock.badge.fill")
+
+    /// No preview available
+    /// 2 Localizations, Single Layerset
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let clockBadgeQuestionmark = SymbolWith1Localization<Ar>(rawValue: "clock.badge.questionmark")
+
+    /// No preview available
+    /// 2 Localizations, Single Layerset
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let clockBadgeQuestionmarkFill = SymbolWith1Localization<Ar>(rawValue: "clock.badge.questionmark.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let clockBadgeXmark = SFSymbol(rawValue: "clock.badge.xmark")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let clockBadgeXmarkFill = SFSymbol(rawValue: "clock.badge.xmark.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudBoltCircle = SFSymbol(rawValue: "cloud.bolt.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudBoltCircleFill = SFSymbol(rawValue: "cloud.bolt.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudBoltRainCircle = SFSymbol(rawValue: "cloud.bolt.rain.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudBoltRainCircleFill = SFSymbol(rawValue: "cloud.bolt.rain.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudCircle = SFSymbol(rawValue: "cloud.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudCircleFill = SFSymbol(rawValue: "cloud.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudDrizzleCircle = SFSymbol(rawValue: "cloud.drizzle.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudDrizzleCircleFill = SFSymbol(rawValue: "cloud.drizzle.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudFogCircle = SFSymbol(rawValue: "cloud.fog.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudFogCircleFill = SFSymbol(rawValue: "cloud.fog.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudHailCircle = SFSymbol(rawValue: "cloud.hail.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudHailCircleFill = SFSymbol(rawValue: "cloud.hail.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudHeavyrainCircle = SFSymbol(rawValue: "cloud.heavyrain.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudHeavyrainCircleFill = SFSymbol(rawValue: "cloud.heavyrain.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudMoonBoltCircle = SFSymbol(rawValue: "cloud.moon.bolt.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudMoonBoltCircleFill = SFSymbol(rawValue: "cloud.moon.bolt.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudMoonCircle = SFSymbol(rawValue: "cloud.moon.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudMoonCircleFill = SFSymbol(rawValue: "cloud.moon.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudMoonRainCircle = SFSymbol(rawValue: "cloud.moon.rain.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudMoonRainCircleFill = SFSymbol(rawValue: "cloud.moon.rain.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudRainCircle = SFSymbol(rawValue: "cloud.rain.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudRainCircleFill = SFSymbol(rawValue: "cloud.rain.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudSleetCircle = SFSymbol(rawValue: "cloud.sleet.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudSleetCircleFill = SFSymbol(rawValue: "cloud.sleet.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudSnowCircle = SFSymbol(rawValue: "cloud.snow.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudSnowCircleFill = SFSymbol(rawValue: "cloud.snow.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudSunBoltCircle = SFSymbol(rawValue: "cloud.sun.bolt.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudSunBoltCircleFill = SFSymbol(rawValue: "cloud.sun.bolt.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudSunCircle = SFSymbol(rawValue: "cloud.sun.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudSunCircleFill = SFSymbol(rawValue: "cloud.sun.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudSunRainCircle = SFSymbol(rawValue: "cloud.sun.rain.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cloudSunRainCircleFill = SFSymbol(rawValue: "cloud.sun.rain.circle.fill")
 
     /// 􁑔
     /// Single Localization, Single Layerset
@@ -1024,6 +1413,34 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     static let creditcardViewfinder = SFSymbol(rawValue: "creditcard.viewfinder")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cricketBall = SFSymbol(rawValue: "cricket.ball")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cricketBallCircle = SFSymbol(rawValue: "cricket.ball.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cricketBallCircleFill = SFSymbol(rawValue: "cricket.ball.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let cricketBallFill = SFSymbol(rawValue: "cricket.ball.fill")
 
     /// 􁑖
     /// Single Localization, Single Layerset
@@ -1597,12 +2014,47 @@ public extension SFSymbol {
     /// - Multicolor
     static let envelopeOpenBadgeClock = SFSymbol(rawValue: "envelope.open.badge.clock")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let eraser = SFSymbol(rawValue: "eraser")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let eraserFill = SFSymbol(rawValue: "eraser.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let eraserLineDashed = SFSymbol(rawValue: "eraser.line.dashed")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let eraserLineDashedFill = SFSymbol(rawValue: "eraser.line.dashed.fill")
+
     /// 􁑇
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let eurosign = SFSymbol(rawValue: "eurosign")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let exclamationmarkBrakesignal = SFSymbol(rawValue: "exclamationmark.brakesignal")
 
     /// 􁙥
     /// Single Localization, 2 Layersets
@@ -1694,6 +2146,13 @@ public extension SFSymbol {
     /// - Multicolor
     static let externaldriveTrianglebadgeExclamationmark = SFSymbol(rawValue: "externaldrive.trianglebadge.exclamationmark")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let faceSmilingInverse = SFSymbol(rawValue: "face.smiling.inverse")
+
     /// 􁌜
     /// Single Localization, Single Layerset
     ///
@@ -1771,6 +2230,20 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     static let fanOscillationFill = SFSymbol(rawValue: "fan.oscillation.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let fanbladesSlash = SFSymbol(rawValue: "fanblades.slash")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let fanbladesSlashFill = SFSymbol(rawValue: "fanblades.slash.fill")
 
     /// 􀪍
     /// Single Localization, Single Layerset
@@ -2450,12 +2923,33 @@ public extension SFSymbol {
     /// - Monochrome
     static let fishFill = SFSymbol(rawValue: "fish.fill")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let flag2CrossedCircle = SFSymbol(rawValue: "flag.2.crossed.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let flag2CrossedCircleFill = SFSymbol(rawValue: "flag.2.crossed.circle.fill")
+
     /// 􁙌
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let flagCheckered = SFSymbol(rawValue: "flag.checkered")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let flagCheckered2Crossed = SFSymbol(rawValue: "flag.checkered.2.crossed")
 
     /// 􁓯
     /// Single Localization, Single Layerset
@@ -2478,12 +2972,33 @@ public extension SFSymbol {
     /// - Monochrome
     static let florinsign = SFSymbol(rawValue: "florinsign")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let fluidBrakesignal = SFSymbol(rawValue: "fluid.brakesignal")
+
     /// 􁗋
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let football = SFSymbol(rawValue: "football")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let footballCircle = SFSymbol(rawValue: "football.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let footballCircleFill = SFSymbol(rawValue: "football.circle.fill")
 
     /// 􁗌
     /// Single Localization, Single Layerset
@@ -2587,12 +3102,16 @@ public extension SFSymbol {
     static let gaugeMediumBadgePlus = SFSymbol(rawValue: "gauge.medium.badge.plus")
 
     /// 􁓹
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let gearBadge = SFSymbol(rawValue: "gear.badge")
+    static let gearBadge = SymbolWith1Localization<Rtl>(rawValue: "gear.badge")
 
     /// 􁐂
     /// Single Localization, 2 Layersets
@@ -2637,6 +3156,20 @@ public extension SFSymbol {
     /// - Monochrome
     static let guaranisign = SFSymbol(rawValue: "guaranisign")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let handApp = SFSymbol(rawValue: "hand.app")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let handAppFill = SFSymbol(rawValue: "hand.app.fill")
+
     /// 􁗩
     /// Single Localization, Single Layerset
     ///
@@ -2650,6 +3183,34 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     static let handRaisedFingersSpreadFill = SFSymbol(rawValue: "hand.raised.fingers.spread.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let headlightHighBeam = SFSymbol(rawValue: "headlight.high.beam")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let headlightHighBeamFill = SFSymbol(rawValue: "headlight.high.beam.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let headlightLowBeam = SFSymbol(rawValue: "headlight.low.beam")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let headlightLowBeamFill = SFSymbol(rawValue: "headlight.low.beam.fill")
 
     /// 􁎏
     /// Single Localization, 3 Layersets
@@ -2707,6 +3268,41 @@ public extension SFSymbol {
     /// - Monochrome
     static let hifireceiverFill = SFSymbol(rawValue: "hifireceiver.fill")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let hockeyPuck = SFSymbol(rawValue: "hockey.puck")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let hockeyPuckCircle = SFSymbol(rawValue: "hockey.puck.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let hockeyPuckCircleFill = SFSymbol(rawValue: "hockey.puck.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let hockeyPuckFill = SFSymbol(rawValue: "hockey.puck.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let holdBrakesignal = SFSymbol(rawValue: "hold.brakesignal")
+
     /// 􁑑
     /// Single Localization, Single Layerset
     ///
@@ -2743,6 +3339,20 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     static let humidifierFill = SFSymbol(rawValue: "humidifier.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let hurricaneCircle = SFSymbol(rawValue: "hurricane.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let hurricaneCircleFill = SFSymbol(rawValue: "hurricane.circle.fill")
 
     /// 􁑉
     /// Single Localization, Single Layerset
@@ -2942,21 +3552,33 @@ public extension SFSymbol {
     /// - Monochrome
     static let laurelTrailing = SFSymbol(rawValue: "laurel.trailing")
 
-    /// 􁒰
-    /// Single Localization, 2 Layersets
+    /// No preview available
+    /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static let lightBeacon = SFSymbol(rawValue: "light.beacon")
+    static let lightBeaconMax = SFSymbol(rawValue: "light.beacon.max")
 
-    /// 􁒱
-    /// Single Localization, 2 Layersets
+    /// No preview available
+    /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static let lightBeaconFill = SFSymbol(rawValue: "light.beacon.fill")
+    static let lightBeaconMaxFill = SFSymbol(rawValue: "light.beacon.max.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let lightBeaconMin = SFSymbol(rawValue: "light.beacon.min")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let lightBeaconMinFill = SFSymbol(rawValue: "light.beacon.min.fill")
 
     /// 􁎼
     /// Single Localization, Single Layerset
@@ -3250,6 +3872,20 @@ public extension SFSymbol {
     /// - Multicolor
     static let locationSlashCircleFill = SFSymbol(rawValue: "location.slash.circle.fill")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let lockOpenTrianglebadgeExclamationmark = SFSymbol(rawValue: "lock.open.trianglebadge.exclamationmark")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let lockOpenTrianglebadgeExclamationmarkFill = SFSymbol(rawValue: "lock.open.trianglebadge.exclamationmark.fill")
+
     /// 􁙍
     /// Single Localization, 3 Layersets
     ///
@@ -3322,27 +3958,39 @@ public extension SFSymbol {
     static let medicalThermometerFill = SFSymbol(rawValue: "medical.thermometer.fill")
 
     /// 􁋬
-    /// Single Localization, 2 Layersets, ⚠️ Restricted
+    /// 2 Localizations, 2 Layersets, ⚠️ Restricted
+    ///
+    /// Localizations:
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
-    static let messageBadge = SFSymbol(rawValue: "message.badge")
+    static let messageBadge = SymbolWith1Localization<Rtl>(rawValue: "message.badge")
 
     /// 􁗗
-    /// Single Localization, 2 Layersets, ⚠️ Restricted
+    /// 2 Localizations, 2 Layersets, ⚠️ Restricted
+    ///
+    /// Localizations:
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
-    static let messageBadgeCircle = SFSymbol(rawValue: "message.badge.circle")
+    static let messageBadgeCircle = SymbolWith1Localization<Rtl>(rawValue: "message.badge.circle")
 
     /// 􁗘
-    /// Single Localization, 3 Layersets, ⚠️ Restricted
+    /// 2 Localizations, 3 Layersets, ⚠️ Restricted
+    ///
+    /// Localizations:
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
@@ -3350,27 +3998,35 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
-    static let messageBadgeCircleFill = SFSymbol(rawValue: "message.badge.circle.fill")
+    static let messageBadgeCircleFill = SymbolWith1Localization<Rtl>(rawValue: "message.badge.circle.fill")
 
     /// 􁏊
-    /// Single Localization, 2 Layersets, ⚠️ Restricted
+    /// 2 Localizations, 2 Layersets, ⚠️ Restricted
+    ///
+    /// Localizations:
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
-    static let messageBadgeFill = SFSymbol(rawValue: "message.badge.fill")
+    static let messageBadgeFill = SymbolWith1Localization<Rtl>(rawValue: "message.badge.fill")
 
     /// 􁋭
-    /// Single Localization, 2 Layersets, ⚠️ Restricted
+    /// 2 Localizations, 2 Layersets, ⚠️ Restricted
+    ///
+    /// Localizations:
+    /// - Left-to-Right
+    /// - Right-to-Left
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
-    static let messageBadgeFilledFill = SFSymbol(rawValue: "message.badge.filled.fill")
+    static let messageBadgeFilledFill = SymbolWith1Localization<Rtl>(rawValue: "message.badge.filled.fill")
 
     /// 􁎔
     /// Single Localization, 3 Layersets
@@ -3415,6 +4071,20 @@ public extension SFSymbol {
     /// - Monochrome
     static let microbe = SFSymbol(rawValue: "microbe")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let microbeCircle = SFSymbol(rawValue: "microbe.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let microbeCircleFill = SFSymbol(rawValue: "microbe.circle.fill")
+
     /// 􁒅
     /// Single Localization, Single Layerset
     ///
@@ -3443,6 +4113,20 @@ public extension SFSymbol {
     /// - Monochrome
     static let millsign = SFSymbol(rawValue: "millsign")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let mirrorSideLeft = SFSymbol(rawValue: "mirror.side.left")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let mirrorSideRight = SFSymbol(rawValue: "mirror.side.right")
+
     /// 􁑯
     /// Single Localization, 3 Layersets
     ///
@@ -3452,6 +4136,20 @@ public extension SFSymbol {
     /// - Multicolor
     static let moonHaze = SFSymbol(rawValue: "moon.haze")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let moonHazeCircle = SFSymbol(rawValue: "moon.haze.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let moonHazeCircleFill = SFSymbol(rawValue: "moon.haze.circle.fill")
+
     /// 􁑰
     /// Single Localization, 2 Layersets
     ///
@@ -3459,6 +4157,20 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     static let moonHazeFill = SFSymbol(rawValue: "moon.haze.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let moonStarsCircle = SFSymbol(rawValue: "moon.stars.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let moonStarsCircleFill = SFSymbol(rawValue: "moon.stars.circle.fill")
 
     /// 􀡊
     /// Single Localization, 2 Layersets
@@ -3593,6 +4305,20 @@ public extension SFSymbol {
     /// - Monochrome
     static let nairasign = SFSymbol(rawValue: "nairasign")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let nosignApp = SFSymbol(rawValue: "nosign.app")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let nosignAppFill = SFSymbol(rawValue: "nosign.app.fill")
+
     /// 􁓘
     /// Single Localization, Single Layerset
     ///
@@ -3627,6 +4353,34 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     static let ovenFill = SFSymbol(rawValue: "oven.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let parkinglight = SFSymbol(rawValue: "parkinglight")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let parkinglightFill = SFSymbol(rawValue: "parkinglight.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let parkingsignBrakesignal = SFSymbol(rawValue: "parkingsign.brakesignal")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let parkingsignBrakesignalSlash = SFSymbol(rawValue: "parkingsign.brakesignal.slash")
 
     /// 􁓵
     /// Single Localization, 3 Layersets
@@ -3678,6 +4432,13 @@ public extension SFSymbol {
     /// - Monochrome
     static let pencilAndRulerFill = SFSymbol(rawValue: "pencil.and.ruler.fill")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let pencilLine = SFSymbol(rawValue: "pencil.line")
+
     /// 􁙚
     /// Single Localization, 2 Layersets
     ///
@@ -3701,6 +4462,27 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     static let person2Gobackward = SFSymbol(rawValue: "person.2.gobackward")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let person2Slash = SFSymbol(rawValue: "person.2.slash")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let person2SlashFill = SFSymbol(rawValue: "person.2.slash.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let personAndBackgroundDotted = SFSymbol(rawValue: "person.and.background.dotted")
 
     /// 􁙓
     /// Single Localization, 3 Layersets
@@ -3961,14 +4743,14 @@ public extension SFSymbol {
     /// - Multicolor
     static let playpauseCircleFill = SFSymbol(rawValue: "playpause.circle.fill")
 
-    /// 􀾈
+    /// No preview available
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Sony’s PlayStation.
-    static let playstationlogo = SFSymbol(rawValue: "playstationlogo")
+    static let playstationLogo = SFSymbol(rawValue: "playstation.logo")
 
     /// 􁐇
     /// Single Localization, Single Layerset
@@ -3976,6 +4758,20 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     static let popcorn = SFSymbol(rawValue: "popcorn")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let popcornCircle = SFSymbol(rawValue: "popcorn.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let popcornCircleFill = SFSymbol(rawValue: "popcorn.circle.fill")
 
     /// 􁐈
     /// Single Localization, Single Layerset
@@ -4608,6 +5404,27 @@ public extension SFSymbol {
     /// - Monochrome
     static let refrigeratorFill = SFSymbol(rawValue: "refrigerator.fill")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let roadLanes = SFSymbol(rawValue: "road.lanes")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let roadLanesCurvedLeft = SFSymbol(rawValue: "road.lanes.curved.left")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let roadLanesCurvedRight = SFSymbol(rawValue: "road.lanes.curved.right")
+
     /// 􁑺
     /// Single Localization, 2 Layersets
     ///
@@ -4705,6 +5522,24 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Shared With You feature.
     static let sharedWithYouSlash = SFSymbol(rawValue: "shared.with.you.slash")
+
+    /// No preview available
+    /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Shazam.
+    static let shazamLogo = SFSymbol(rawValue: "shazam.logo")
+
+    /// No preview available
+    /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Shazam.
+    static let shazamLogoFill = SFSymbol(rawValue: "shazam.logo.fill")
 
     /// 􁑙
     /// Single Localization, Single Layerset
@@ -4838,12 +5673,54 @@ public extension SFSymbol {
     /// - Hierarchical
     static let sliderHorizontalBelowSquareAndSquareFilled = SFSymbol(rawValue: "slider.horizontal.below.square.and.square.filled")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let smokeCircle = SFSymbol(rawValue: "smoke.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let smokeCircleFill = SFSymbol(rawValue: "smoke.circle.fill")
+
     /// 􀦥
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let soccerball = SFSymbol(rawValue: "soccerball")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let soccerballCircle = SFSymbol(rawValue: "soccerball.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let soccerballCircleFill = SFSymbol(rawValue: "soccerball.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let soccerballCircleFillInverse = SFSymbol(rawValue: "soccerball.circle.fill.inverse")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let soccerballCircleInverse = SFSymbol(rawValue: "soccerball.circle.inverse")
 
     /// 􁗈
     /// Single Localization, Single Layerset
@@ -4865,6 +5742,41 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     static let sofaFill = SFSymbol(rawValue: "sofa.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let space = SFSymbol(rawValue: "space")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let speakerMinus = SFSymbol(rawValue: "speaker.minus")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let speakerMinusFill = SFSymbol(rawValue: "speaker.minus.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let speakerPlus = SFSymbol(rawValue: "speaker.plus")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let speakerPlusFill = SFSymbol(rawValue: "speaker.plus.fill")
 
     /// 􀽅
     /// Single Localization, 2 Layersets
@@ -4922,6 +5834,20 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     static let spigotFill = SFSymbol(rawValue: "spigot.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let sportscourtCircle = SFSymbol(rawValue: "sportscourt.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let sportscourtCircleFill = SFSymbol(rawValue: "sportscourt.circle.fill")
 
     /// 􁔌
     /// Single Localization, Single Layerset
@@ -5186,6 +6112,90 @@ public extension SFSymbol {
     /// - Monochrome
     static let stoveFill = SFSymbol(rawValue: "stove.fill")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let sunAndHorizonCircle = SFSymbol(rawValue: "sun.and.horizon.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let sunAndHorizonCircleFill = SFSymbol(rawValue: "sun.and.horizon.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let sunDustCircle = SFSymbol(rawValue: "sun.dust.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let sunDustCircleFill = SFSymbol(rawValue: "sun.dust.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let sunHazeCircle = SFSymbol(rawValue: "sun.haze.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let sunHazeCircleFill = SFSymbol(rawValue: "sun.haze.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let sunMaxTrianglebadgeExclamationmark = SFSymbol(rawValue: "sun.max.trianglebadge.exclamationmark")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let sunMaxTrianglebadgeExclamationmarkFill = SFSymbol(rawValue: "sun.max.trianglebadge.exclamationmark.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let sunriseCircle = SFSymbol(rawValue: "sunrise.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let sunriseCircleFill = SFSymbol(rawValue: "sunrise.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let sunsetCircle = SFSymbol(rawValue: "sunset.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let sunsetCircleFill = SFSymbol(rawValue: "sunset.circle.fill")
+
     /// 􁙧
     /// Single Localization, Single Layerset
     ///
@@ -5290,6 +6300,48 @@ public extension SFSymbol {
     /// - Monochrome
     static let tennisRacket = SFSymbol(rawValue: "tennis.racket")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let tennisRacketCircle = SFSymbol(rawValue: "tennis.racket.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let tennisRacketCircleFill = SFSymbol(rawValue: "tennis.racket.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let tennisball = SFSymbol(rawValue: "tennisball")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let tennisballCircle = SFSymbol(rawValue: "tennisball.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let tennisballCircleFill = SFSymbol(rawValue: "tennisball.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let tennisballFill = SFSymbol(rawValue: "tennisball.fill")
+
     /// 􁋨
     /// Single Localization, Single Layerset
     ///
@@ -5355,6 +6407,13 @@ public extension SFSymbol {
     /// - Hierarchical
     static let theatermaskAndPaintbrushFill = SFSymbol(rawValue: "theatermask.and.paintbrush.fill")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let thermometerBrakesignal = SFSymbol(rawValue: "thermometer.brakesignal")
+
     /// 􁏄
     /// Single Localization, 3 Layersets
     ///
@@ -5390,6 +6449,34 @@ public extension SFSymbol {
     /// - Hierarchical
     static let thermometerMediumSlash = SFSymbol(rawValue: "thermometer.medium.slash")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let thermometerSnowflakeCircle = SFSymbol(rawValue: "thermometer.snowflake.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let thermometerSnowflakeCircleFill = SFSymbol(rawValue: "thermometer.snowflake.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let thermometerSunCircle = SFSymbol(rawValue: "thermometer.sun.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let thermometerSunCircleFill = SFSymbol(rawValue: "thermometer.sun.circle.fill")
+
     /// 􁙅
     /// Single Localization, 2 Layersets
     ///
@@ -5420,6 +6507,20 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     static let toiletFill = SFSymbol(rawValue: "toilet.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let tornadoCircle = SFSymbol(rawValue: "tornado.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let tornadoCircleFill = SFSymbol(rawValue: "tornado.circle.fill")
 
     /// 􀠏
     /// Single Localization, Single Layerset
@@ -5452,6 +6553,20 @@ public extension SFSymbol {
     /// - Monochrome
     static let trophyFill = SFSymbol(rawValue: "trophy.fill")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let tropicalstormCircle = SFSymbol(rawValue: "tropicalstorm.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let tropicalstormCircleFill = SFSymbol(rawValue: "tropicalstorm.circle.fill")
+
     /// 􁑗
     /// Single Localization, Single Layerset
     ///
@@ -5465,6 +6580,13 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     static let turkishlirasign = SFSymbol(rawValue: "turkishlirasign")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let tvAndMediaboxFill = SFSymbol(rawValue: "tv.and.mediabox.fill")
 
     /// 􀸰
     /// 2 Localizations, 2 Layersets
@@ -5529,6 +6651,34 @@ public extension SFSymbol {
     /// - Monochrome
     static let videoprojectorFill = SFSymbol(rawValue: "videoprojector.fill")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let volleyball = SFSymbol(rawValue: "volleyball")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let volleyballCircle = SFSymbol(rawValue: "volleyball.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let volleyballCircleFill = SFSymbol(rawValue: "volleyball.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let volleyballFill = SFSymbol(rawValue: "volleyball.fill")
+
     /// 􁐠
     /// Single Localization, 2 Layersets
     ///
@@ -5562,6 +6712,13 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     static let waterWavesAndArrowDown = SFSymbol(rawValue: "water.waves.and.arrow.down")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let waterWavesAndArrowDownTrianglebadgeExclamationmark = SFSymbol(rawValue: "water.waves.and.arrow.down.trianglebadge.exclamationmark")
 
     /// 􁎅
     /// Single Localization, 3 Layersets
@@ -5622,6 +6779,34 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     static let wifiRouterFill = SFSymbol(rawValue: "wifi.router.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let windCircle = SFSymbol(rawValue: "wind.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let windCircleFill = SFSymbol(rawValue: "wind.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let windSnowCircle = SFSymbol(rawValue: "wind.snow.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let windSnowCircleFill = SFSymbol(rawValue: "wind.snow.circle.fill")
 
     /// 􁑽
     /// Single Localization, 2 Layersets
@@ -5719,6 +6904,41 @@ public extension SFSymbol {
     /// - Hierarchical
     static let windowVerticalOpen = SFSymbol(rawValue: "window.vertical.open")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let windshieldFrontAndFluid = SFSymbol(rawValue: "windshield.front.and.fluid")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let windshieldFrontAndWiper = SFSymbol(rawValue: "windshield.front.and.wiper")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let windshieldFrontAndWiperAndDrop = SFSymbol(rawValue: "windshield.front.and.wiper.and.drop")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let windshieldRearAndFluid = SFSymbol(rawValue: "windshield.rear.and.fluid")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let windshieldRearAndWiper = SFSymbol(rawValue: "windshield.rear.and.wiper")
+
     /// 􁎤
     /// Single Localization, Single Layerset
     ///
@@ -5754,14 +6974,14 @@ public extension SFSymbol {
     /// - Monochrome
     static let wrenchAdjustableFill = SFSymbol(rawValue: "wrench.adjustable.fill")
 
-    /// 􀾉
+    /// No preview available
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Microsoft’s Xbox.
-    static let xboxlogo = SFSymbol(rawValue: "xboxlogo")
+    static let xboxLogo = SFSymbol(rawValue: "xbox.logo")
 
     /// 􁑁
     /// Single Localization, Single Layerset

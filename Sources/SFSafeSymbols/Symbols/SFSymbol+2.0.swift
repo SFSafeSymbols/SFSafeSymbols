@@ -195,12 +195,10 @@ public extension SFSymbol {
     static let appclip = SFSymbol(rawValue: "appclip")
 
     /// 􀣺
-    /// Single Localization, Single Layerset, ⚠️ Restricted
+    /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    ///
-    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Sign in with Apple.
     static let applelogo = SFSymbol(rawValue: "applelogo")
 
     /// 􀤭
