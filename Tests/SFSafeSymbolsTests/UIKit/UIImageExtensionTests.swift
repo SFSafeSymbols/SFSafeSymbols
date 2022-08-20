@@ -12,8 +12,7 @@ class UIImageExtensionTests: XCTestCase {
             let failingSymbols = TestHelper.allSymbolsWithVariants.map { $0.rawValue }.map { ($0, UIImage(systemName: $0)) }.filter { $0.1 == nil }.map { $0.0 }
 
             if !failingSymbols.isEmpty {
-                print("The following symbols are failing: \(failingSymbols)")
-                XCTFail("There should be no failing symbols.")
+                XCTFail("⛔️ The following symbols are failing: \(failingSymbols).")
             }
         } else {
             XCTFail("iOS 13, tvOS 13 or watchOS 6.0 is required to test SFSafeSymbols.")
