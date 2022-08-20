@@ -11583,7 +11583,7 @@ public extension SFSymbol {
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "faceSmiling")
     static let smiley = SFSymbol(rawValue: "smiley")
 
-    /// 􀙌
+    /// No preview available
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:

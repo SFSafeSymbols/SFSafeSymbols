@@ -194,11 +194,17 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     static let appclip = SFSymbol(rawValue: "appclip")
 
-    /// 􀣺
-    /// Single Localization, Single Layerset
+    /// No preview available
+    /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Sign in with Apple.
+    @available(iOS, introduced: 14.0, deprecated: 16.0, renamed: "appleLogo")
+    @available(macOS, introduced: 11.0, deprecated: 13.0, renamed: "appleLogo")
+    @available(tvOS, introduced: 14.0, deprecated: 16.0, renamed: "appleLogo")
+    @available(watchOS, introduced: 7.0, deprecated: 9.0, renamed: "appleLogo")
     static let applelogo = SFSymbol(rawValue: "applelogo")
 
     /// 􀤭
@@ -3659,13 +3665,17 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     static let faceSmiling = SFSymbol(rawValue: "face.smiling")
 
-    /// 􀙌
+    /// No preview available
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 16.0, renamed: "faceSmilingInverse")
+    @available(macOS, introduced: 11.0, deprecated: 13.0, renamed: "faceSmilingInverse")
+    @available(tvOS, introduced: 14.0, deprecated: 16.0, renamed: "faceSmilingInverse")
+    @available(watchOS, introduced: 7.0, deprecated: 9.0, renamed: "faceSmilingInverse")
     static let faceSmilingFill = SFSymbol(rawValue: "face.smiling.fill")
 
     /// 􀪌

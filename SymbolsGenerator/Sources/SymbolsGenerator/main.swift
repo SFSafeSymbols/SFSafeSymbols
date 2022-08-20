@@ -11,7 +11,7 @@ guard
         .read(file: "layerset_availability", withExtension: "plist")
         .flatMap(LayersetAvailabilityParser.parse),
     var nameAliases = SFFileManager
-        .read(file: "name_aliases_strings", withExtension: "txt")
+        .read(file: "name_aliases", withExtension: "strings")
         .flatMap(StringDictionaryFileParser.parse)?
         .map({ (oldName: $0.key, newName: $0.value) }),
     let legacyAliases = SFFileManager

@@ -905,10 +905,12 @@ extension SFSymbol {
 
     internal static var symbolsDeprecatedSince4_0: Set<SFSymbol> {
         [
+            applelogo,
             dialMax,
             dialMaxFill,
             dialMin,
             dialMinFill,
+            faceSmilingFill,
             gauge,
             gaugeBadgeMinus,
             gaugeBadgePlus,

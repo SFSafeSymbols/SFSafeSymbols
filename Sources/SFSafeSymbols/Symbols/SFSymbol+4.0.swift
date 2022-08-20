@@ -2147,10 +2147,12 @@ public extension SFSymbol {
     static let externaldriveTrianglebadgeExclamationmark = SFSymbol(rawValue: "externaldrive.trianglebadge.exclamationmark")
 
     /// No preview available
-    /// Single Localization, Single Layerset
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let faceSmilingInverse = SFSymbol(rawValue: "face.smiling.inverse")
 
     /// 􁌜
