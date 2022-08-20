@@ -5000,28 +5000,6 @@ public extension SFSymbol {
     /// - Multicolor
     static let square3Layers3dBottomFilled = SFSymbol(rawValue: "square.3.layers.3d.bottom.filled")
 
-    /// No preview available
-    /// 2 Localizations, Single Layerset
-    ///
-    /// Localizations:
-    /// - Left-to-Right
-    /// - Right-to-Left
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let square3Layers3dDownBackwardSlash = SymbolWith1Localization<Rtl>(rawValue: "square.3.layers.3d.down.backward.slash")
-
-    /// No preview available
-    /// 2 Localizations, Single Layerset
-    ///
-    /// Localizations:
-    /// - Left-to-Right
-    /// - Right-to-Left
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let square3Layers3dDownForwardSlash = SymbolWith1Localization<Rtl>(rawValue: "square.3.layers.3d.down.forward.slash")
-
     /// 􀯲
     /// Single Localization, 3 Layersets
     ///

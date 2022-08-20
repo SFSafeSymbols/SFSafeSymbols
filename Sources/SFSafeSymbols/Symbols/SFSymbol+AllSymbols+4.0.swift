@@ -636,8 +636,6 @@ extension SFSymbol {
             square2Layers3dTopFilled: [],
             square3Layers3d: [],
             square3Layers3dBottomFilled: [],
-            square3Layers3dDownBackwardSlash: [.rtl],
-            square3Layers3dDownForwardSlash: [.rtl],
             square3Layers3dMiddleFilled: [],
             square3Layers3dSlash: [],
             square3Layers3dTopFilled: [],
