@@ -12,6 +12,7 @@ struct Symbol: Hashable {
     var restriction: String?
     var preview: String?
     var availability: Availability
+    var isBaseLocalizationAvailable: Bool
     var availableLocalizations: [Availability: Set<Localization>]
     var availableLayersets: [Availability: Set<String>]
     var olderSymbol: ScannedSymbol?
