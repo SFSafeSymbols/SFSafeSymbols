@@ -116,8 +116,8 @@
 "line.horizontal.3.decrease" = "line.3.horizontal.decrease";
 "line.horizontal.3.decrease.circle" = "line.3.horizontal.decrease.circle";
 "line.horizontal.3.decrease.circle.fill" = "line.3.horizontal.decrease.circle.fill";
-"logo.playstation" = "playstationlogo";
-"logo.xbox" = "xboxlogo";
+"logo.playstation" = "playstation.logo";
+"logo.xbox" = "xbox.logo";
 "minus.slash.plus" = "minus.forwardslash.plus";
 "music.house" = "music.note.house";
 "music.house.fill" = "music.note.house.fill";
