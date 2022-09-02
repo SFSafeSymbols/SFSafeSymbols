@@ -12,6 +12,7 @@ public extension UIImage {
         self.init(systemName: systemSymbol.rawValue)!
     }
 
+#if !os(watchOS)
     /// Creates an image object that contains a system symbol image appropriate for the specified traits.
     ///
     /// - Parameter systemSymbol: The `SFSymbol` describing this image.
@@ -19,6 +20,7 @@ public extension UIImage {
     convenience init(systemSymbol: SFSymbol, compatibleWith traitCollection: UITraitCollection?) {
         self.init(systemName: systemSymbol.rawValue, compatibleWith: traitCollection)!
     }
+#endif
 
     /// Creates an image object that contains a system symbol image with the specified configuration.
     ///
