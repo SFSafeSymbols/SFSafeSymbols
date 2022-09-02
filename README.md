@@ -148,13 +148,6 @@ Label("MyText", systemSymbol: .cCircle)
 Label(LocalizedStringKey("my.text"), systemSymbol: SFSymbol.eCircleFill)
 ```
 
-... and interfaces for `UIButton`:
-
-```swift
-let button = UIButton.systemButton(with: .cCircle, target: self, selector: #selector(testMethod))
-button.setImage(.eCircleFill, for: .normal)
-```
-
 ... and an initializer for `UIApplicationShortcutItem`:
 
 ```swift
