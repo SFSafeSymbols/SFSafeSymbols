@@ -25,7 +25,7 @@ With the current structure of the repository, where **most code is generated** b
 1. **Update the files** in the `/SymbolsGenerator/Sources/SymbolsGenerator` folder to the latest SF Symbols version.
     * `symbol_names.txt`: SFSymbols app -> sort by name -> select all -> right-click -> 'Copy Names'.
     * `symbol_previews.txt`: SFSymbols app -> sort by name -> select all -> right-click -> 'Copy Symbols'.
-    * `layerset_availability.plist` and `legacy_aliases_strings.txt`: Copy from `SF Symbols.app/Contents/Resources/` (though it seems like the latter isn't updated by Apple anymore).
+    * `layerset_availability.plist` and `legacy_aliases_strings.txt`: Copy from `SF Symbols.app/Contents/Resources/Metadata-Public` (though it seems like the latter isn't updated by Apple anymore).
     * `name_availability.plist`, `name_aliases.strings` and `symbol_restrictions.strings`: Copy from `/System/Library/CoreServices/CoreGlyphs.bundle/Contents/Resources/` or `/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/CoreServices/CoreGlyphs.bundle/`. The latter variant may be the easier one because it only requires the installation of a new Xcode instead of an OS update.
     * `symbol_restrictions_missing.strings`: Is created manually for restricted symbols that are missing from `symbol_restrictions.strings`.
 2. Open a terminal and change to the root folder of the repository. **Then run `make generate-symbol`**.
