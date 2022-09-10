@@ -3632,7 +3632,7 @@ public extension SFSymbol {
     /// - Hierarchical
     static let lockOpenLaptopcomputer = SFSymbol(rawValue: "lock.open.laptopcomputer")
 
-    /// No preview available
+    /// 􀾈
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -3645,7 +3645,7 @@ public extension SFSymbol {
     @available(watchOS, introduced: 8.0, deprecated: 9.0, renamed: "playstationLogo")
     static let logoPlaystation = SFSymbol(rawValue: "logo.playstation")
 
-    /// No preview available
+    /// 􀾉
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -4335,11 +4335,12 @@ public extension SFSymbol {
     static let personCropSquareFilledAndAtRectangle = SFSymbol(rawValue: "person.crop.square.filled.and.at.rectangle")
 
     /// 􀿐
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let personCropSquareFilledAndAtRectangleFill = SFSymbol(rawValue: "person.crop.square.filled.and.at.rectangle.fill")
 
     /// 􀿒
@@ -4438,11 +4439,12 @@ public extension SFSymbol {
     static let photoCircleFill = SFSymbol(rawValue: "photo.circle.fill")
 
     /// 􁇂
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let pillsCircle = SFSymbol(rawValue: "pills.circle")
 
     /// 􁇃

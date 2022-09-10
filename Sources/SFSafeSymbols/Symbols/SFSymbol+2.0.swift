@@ -194,7 +194,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     static let appclip = SFSymbol(rawValue: "appclip")
 
-    /// No preview available
+    /// 􀣺
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -3665,7 +3665,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     static let faceSmiling = SFSymbol(rawValue: "face.smiling")
 
-    /// No preview available
+    /// 􀙌
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5010,11 +5010,12 @@ public extension SFSymbol {
     static let lockDocFill = SFSymbol(rawValue: "lock.doc.fill")
 
     /// 􀢈
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let lockRectangle = SFSymbol(rawValue: "lock.rectangle")
 
     /// 􀢉
@@ -5920,10 +5921,11 @@ public extension SFSymbol {
     static let pianokeysInverse = SFSymbol(rawValue: "pianokeys.inverse")
 
     /// 􀠱
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let pills = SFSymbol(rawValue: "pills")
 
     /// 􀠲
@@ -6217,7 +6219,7 @@ public extension SFSymbol {
     static let questionmarkFolder = SymbolWith1Localization<Ar>(rawValue: "questionmark.folder")
 
     /// 􀬕
-    /// 2 Localizations, 2 Layersets
+    /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -6226,6 +6228,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let questionmarkFolderFill = SymbolWith1Localization<Ar>(rawValue: "questionmark.folder.fill")
 
     /// 􀭉

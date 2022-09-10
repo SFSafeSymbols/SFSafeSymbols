@@ -6267,11 +6267,12 @@ public extension SFSymbol {
     static let envelope = SFSymbol(rawValue: "envelope")
 
     /// 􀍛
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let envelopeBadge = SFSymbol(rawValue: "envelope.badge")
 
     /// 􀍜
@@ -11583,13 +11584,11 @@ public extension SFSymbol {
     @available(watchOS, introduced: 6.0, deprecated: 7.0, renamed: "faceSmiling")
     static let smiley = SFSymbol(rawValue: "smiley")
 
-    /// No preview available
-    /// Single Localization, 3 Layersets
+    /// 􀙌
+    /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @available(iOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmilingFill")
     @available(macOS, introduced: 11.0, deprecated: 11.0, renamed: "faceSmilingFill")
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "faceSmilingFill")
