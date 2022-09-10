@@ -75,6 +75,7 @@ The following SF Symbols versions are currently supported:
 | 3.1 | 15.1 | 12.0 | 15.1 | 8.1 |
 | 3.2 | 15.2 | 12.1 | 15.2 | 8.3 |
 | 3.3 | 15.4 | 12.3 | 15.4 | 8.5 |
+| 4.0 | 16.0 | 13.0 | 16.0 | 9.0 |
 
 ## Installation
 
