@@ -13,6 +13,7 @@ public extension NSImage {
         self.init(systemSymbolName: systemSymbol.rawValue, accessibilityDescription: description)!
     }
 
+#if canImport(AppIntents)
     /// Creates a symbol image with the system symbol and variable value you specify.
     ///
     /// - Parameter systemSymbol: The `SFSymbol` describing this image.
@@ -22,6 +23,7 @@ public extension NSImage {
     convenience init(systemSymbol: SFSymbol, variableValue value: Double, accessibilityDescription description: String?) {
         self.init(systemSymbolName: systemSymbol.rawValue, variableValue: value, accessibilityDescription: description)!
     }
+#endif
 }
 
 #endif

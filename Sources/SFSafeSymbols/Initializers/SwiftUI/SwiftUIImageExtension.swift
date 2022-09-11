@@ -12,6 +12,7 @@ public extension SwiftUI.Image {
         self.init(systemName: systemSymbol.rawValue)
     }
 
+#if canImport(AppIntents)
     /// Creates a system symbol image with a variable value.
     ///
     /// - Parameter systemSymbol: The `SFSymbol` describing this image.
@@ -20,6 +21,7 @@ public extension SwiftUI.Image {
     init(systemSymbol: SFSymbol, variableValue: Double?) {
         self.init(systemName: systemSymbol.rawValue, variableValue: variableValue)
     }
+#endif
 }
 
 #endif
