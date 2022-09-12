@@ -30,6 +30,8 @@ public extension UIImage {
         self.init(systemName: systemSymbol.rawValue, withConfiguration: configuration)!
     }
 
+// AppIntents serves as a placeholder SDK to check if the iOS 16.0, tvOS 16.0, ... SDKs are available
+#if canImport(AppIntents)
     /// Creates an image object that contains a system symbol image with the configuration and variable value you specify.
     ///
     /// - Parameter systemSymbol: The `SFSymbol` describing this image.
@@ -39,6 +41,7 @@ public extension UIImage {
     convenience init(systemSymbol: SFSymbol, variableValue: Double, configuration: UIImage.Configuration?) {
         self.init(systemName: systemSymbol.rawValue, variableValue: variableValue, configuration: configuration)!
     }
+#endif
 }
 
 #endif

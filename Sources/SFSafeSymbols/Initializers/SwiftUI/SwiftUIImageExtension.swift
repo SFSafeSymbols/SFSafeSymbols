@@ -12,6 +12,7 @@ public extension SwiftUI.Image {
         self.init(systemName: systemSymbol.rawValue)
     }
 
+// AppIntents serves as a placeholder SDK to check if the iOS 16.0, macOS 13.0, ... SDKs are available
 #if canImport(AppIntents)
     /// Creates a system symbol image with a variable value.
     ///
