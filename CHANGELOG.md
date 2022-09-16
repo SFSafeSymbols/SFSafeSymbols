@@ -8,6 +8,20 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
+- None
+
+### Changed
+
+- None
+
+### Fixed
+
+- None
+
+## [4.0.0] - 2022-09-16
+
+### Added
+
 - Add support for SF Symbols 4.0 (By [Frederick Pietschmann](https://github.com/fredpi))
 - Add new `UIImage.init(systemSymbol:variableValue:configuration:)`, `NSImage.init(systemSymbol:variableValue:accessibilityDescription:)` and `SwiftUI.Image.init(systemSymbol:variableValue:)` interfaces. (By [Steven Magdy](https://github.com/StevenMagdy))
 - Add new `UIImage.init(systemSymbol:compatibleWith:)` interface. (By [Steven Magdy](https://github.com/StevenMagdy))
@@ -21,7 +35,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - Remove misleading optionality of `NSImage.init(systemSymbol:accessibilityDescription:)` interface. (By [Steven Magdy](https://github.com/StevenMagdy))
 
-## [3.3.2] - 2022-05-1
+## [3.3.2] - 2022-05-01
 
 ### Fixed
 
