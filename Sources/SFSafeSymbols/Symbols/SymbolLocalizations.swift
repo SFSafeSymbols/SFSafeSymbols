@@ -191,6 +191,14 @@ public struct Rtl_v2_1: SymbolLocalization {
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
+public struct Rtl_v4: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
+    public var rtl: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.rtl.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
 public struct Th: SymbolLocalization {
     let source: SFSymbol
     public init(source: SFSymbol) { self.source = source }

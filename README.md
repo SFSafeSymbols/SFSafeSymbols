@@ -75,6 +75,7 @@ The following SF Symbols versions are currently supported:
 | 3.1 | 15.1 | 12.0 | 15.1 | 8.1 |
 | 3.2 | 15.2 | 12.1 | 15.2 | 8.3 |
 | 3.3 | 15.4 | 12.3 | 15.4 | 8.5 |
+| 4.0 | 16.0 | 13.0 | 16.0 | 9.0 |
 
 ## Installation
 
@@ -146,13 +147,6 @@ There are also `SwiftUI.Label` initializers:
 ```swift
 Label("MyText", systemSymbol: .cCircle)
 Label(LocalizedStringKey("my.text"), systemSymbol: SFSymbol.eCircleFill)
-```
-
-... and interfaces for `UIButton`:
-
-```swift
-let button = UIButton.systemButton(with: .cCircle, target: self, selector: #selector(testMethod))
-button.setImage(.eCircleFill, for: .normal)
 ```
 
 ... and an initializer for `UIApplicationShortcutItem`:

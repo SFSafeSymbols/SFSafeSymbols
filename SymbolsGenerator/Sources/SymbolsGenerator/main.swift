@@ -11,7 +11,7 @@ guard
         .read(file: "layerset_availability", withExtension: "plist")
         .flatMap(LayersetAvailabilityParser.parse),
     var nameAliases = SFFileManager
-        .read(file: "name_aliases_strings", withExtension: "txt")
+        .read(file: "name_aliases", withExtension: "strings")
         .flatMap(StringDictionaryFileParser.parse)?
         .map({ (oldName: $0.key, newName: $0.value) }),
     let legacyAliases = SFFileManager
@@ -83,7 +83,7 @@ for scannedSymbol in symbolManifest {
 
     var availableLayersets: [Availability: Set<String>] = [:]
 
-    // Only lookup layerset availability for main name (without loclization suffix)
+    // Only lookup layerset availability for main name (without localization suffix)
     // Assuming it is equal across all localizations...
     for layersetAvailability in layerSetAvailabilitiesList[nameWithoutSuffix] ?? [] {
         availableLayersets[layersetAvailability.availability] =
@@ -121,6 +121,7 @@ for scannedSymbol in symbolManifest {
             restriction: existingSymbol.restriction,
             preview: existingSymbol.preview ?? preview,
             availability: [existingSymbol.availability, scannedSymbol.availability].max()!,
+            isBaseLocalizationAvailable: existingSymbol.isBaseLocalizationAvailable || localization == nil,
             availableLocalizations: availableLocalizations,
             availableLayersets: availableLayersets,
             olderSymbol: existingSymbol.olderSymbol,
@@ -134,13 +135,20 @@ for scannedSymbol in symbolManifest {
                 restriction: symbolRestrictions[primaryName],
                 preview: preview,
                 availability: scannedSymbol.availability,
+                isBaseLocalizationAvailable: localization == nil,
                 availableLocalizations: localization.flatMap { [scannedSymbol.availability: [$0]] } ?? [:],
                 availableLayersets: availableLayersets,
                 olderSymbol: olderSymbol,
-                newerSymbol: newerSymbol            )
+                newerSymbol: newerSymbol
+            )
         )
     }
 }
+
+// This is to fix a rare bug that only localized variants of a symbol, but not the base variant is available
+// (see https://github.com/SFSafeSymbols/SFSafeSymbols/issues/107)
+symbols = symbols.filter { $0.isBaseLocalizationAvailable }
+symbolsWherePreviewIsntAvailable = symbolsWherePreviewIsntAvailable.filter { name in symbols.contains { $0.name == name } }
 
 func layersetsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>] {
     var toMerge: [Availability: Set<String>] = [:]

@@ -8,15 +8,18 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- None
+- Add support for SF Symbols 4.0 (By [Frederick Pietschmann](https://github.com/fredpi))
+- Add new `UIImage.init(systemSymbol:variableValue:configuration:)`, `NSImage.init(systemSymbol:variableValue:accessibilityDescription:)` and `SwiftUI.Image.init(systemSymbol:variableValue:)` interfaces. (By [Steven Magdy](https://github.com/StevenMagdy))
+- Add new `UIImage.init(systemSymbol:compatibleWith:)` interface. (By [Steven Magdy](https://github.com/StevenMagdy))
 
 ### Changed
 
-- Retains dynamic localization information when serializing/deserializing `SFSymbol`. (By [Steven Magdy](https://github.com/StevenMagdy))
+- Retain dynamic localization information when serializing / deserializing an `SFSymbol`. (By [Steven Magdy](https://github.com/StevenMagdy))
+- Deprecate `UIButton.systemButton(with:target:selector:` and `button.setImage(:for:)` interfaces. (By [Steven Magdy](https://github.com/StevenMagdy))
 
 ### Fixed
 
-- None
+- Remove misleading optionality of `NSImage.init(systemSymbol:accessibilityDescription:)` interface. (By [Steven Magdy](https://github.com/StevenMagdy))
 
 ## [3.3.2] - 2022-05-1
 

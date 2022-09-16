@@ -31,6 +31,8 @@
 		B0AEA82F2801A8FE00A02015 /* SFSymbol+AllSymbols+1.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AEA82E2801A8FE00A02015 /* SFSymbol+AllSymbols+1.1.swift */; };
 		B0DDAE152637C11400081F1C /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DDAE112637BF3300081F1C /* CodableTests.swift */; };
 		CC1D812F27F758D200CACDC7 /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D812E27F758D200CACDC7 /* TestHelper.swift */; };
+		CCA29C3D285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA29C3B285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift */; };
+		CCA29C3E285B4E9400133245 /* SFSymbol+4.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA29C3C285B4E9400133245 /* SFSymbol+4.0.swift */; };
 		CCCCCFEC252F61E700C7CE9F /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE5252F61E700C7CE9F /* SFSymbol.swift */; };
 		CCCCCFED252F61E700C7CE9F /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE7252F61E700C7CE9F /* UIButtonExtension.swift */; };
 		CCCCCFEE252F61E700C7CE9F /* SwiftUIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE8252F61E700C7CE9F /* SwiftUIImageExtension.swift */; };
@@ -39,7 +41,6 @@
 		CCCCCFF1252F61E700C7CE9F /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFEB252F61E700C7CE9F /* UIImageExtension.swift */; };
 		CCCCD016252F622B00C7CE9F /* SwiftUIImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCD011252F622B00C7CE9F /* SwiftUIImageExtensionTests.swift */; };
 		CCCCD017252F622B00C7CE9F /* UIApplicationShortcutIconExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCD012252F622B00C7CE9F /* UIApplicationShortcutIconExtensionTests.swift */; };
-		CCCCD018252F622B00C7CE9F /* UIButtonExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCD013252F622B00C7CE9F /* UIButtonExtensionTests.swift */; };
 		CCCCD019252F622B00C7CE9F /* SwiftUILabelExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCD014252F622B00C7CE9F /* SwiftUILabelExtensionTests.swift */; };
 		CCCCD01A252F622B00C7CE9F /* UIImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCD015252F622B00C7CE9F /* UIImageExtensionTests.swift */; };
 		CCCCD047252F632600C7CE9F /* NSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCD046252F632600C7CE9F /* NSImageExtension.swift */; };
@@ -82,6 +83,8 @@
 		B0AEA82E2801A8FE00A02015 /* SFSymbol+AllSymbols+1.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+1.1.swift"; sourceTree = "<group>"; };
 		B0DDAE112637BF3300081F1C /* CodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableTests.swift; sourceTree = "<group>"; };
 		CC1D812E27F758D200CACDC7 /* TestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelper.swift; sourceTree = "<group>"; };
+		CCA29C3B285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+4.0.swift"; sourceTree = "<group>"; };
+		CCA29C3C285B4E9400133245 /* SFSymbol+4.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+4.0.swift"; sourceTree = "<group>"; };
 		CCCCCFE5252F61E700C7CE9F /* SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbol.swift; sourceTree = "<group>"; };
 		CCCCCFE7252F61E700C7CE9F /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		CCCCCFE8252F61E700C7CE9F /* SwiftUIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIImageExtension.swift; sourceTree = "<group>"; };
@@ -90,7 +93,6 @@
 		CCCCCFEB252F61E700C7CE9F /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		CCCCD011252F622B00C7CE9F /* SwiftUIImageExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIImageExtensionTests.swift; sourceTree = "<group>"; };
 		CCCCD012252F622B00C7CE9F /* UIApplicationShortcutIconExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationShortcutIconExtensionTests.swift; sourceTree = "<group>"; };
-		CCCCD013252F622B00C7CE9F /* UIButtonExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtensionTests.swift; sourceTree = "<group>"; };
 		CCCCD014252F622B00C7CE9F /* SwiftUILabelExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUILabelExtensionTests.swift; sourceTree = "<group>"; };
 		CCCCD015252F622B00C7CE9F /* UIImageExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensionTests.swift; sourceTree = "<group>"; };
 		CCCCD046252F632600C7CE9F /* NSImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImageExtension.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				636A46B028002817007E6028 /* SFSymbol+3.1.swift */,
 				636A46B628002818007E6028 /* SFSymbol+3.2.swift */,
 				B0AEA8292801A8E000A02015 /* SFSymbol+3.3.swift */,
+				CCA29C3C285B4E9400133245 /* SFSymbol+4.0.swift */,
 				636A46B528002818007E6028 /* SFSymbol+AllSymbols.swift */,
 				636A46AB28002816007E6028 /* SFSymbol+AllSymbols+1.0.swift */,
 				B0AEA82E2801A8FE00A02015 /* SFSymbol+AllSymbols+1.1.swift */,
@@ -196,6 +199,7 @@
 				636A46B128002817007E6028 /* SFSymbol+AllSymbols+3.1.swift */,
 				636A46AE28002817007E6028 /* SFSymbol+AllSymbols+3.2.swift */,
 				B0AEA82A2801A8E000A02015 /* SFSymbol+AllSymbols+3.3.swift */,
+				CCA29C3B285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift */,
 				636A46AF28002817007E6028 /* SymbolLocalizations.swift */,
 			);
 			path = Symbols;
@@ -265,7 +269,6 @@
 			isa = PBXGroup;
 			children = (
 				CCCCD012252F622B00C7CE9F /* UIApplicationShortcutIconExtensionTests.swift */,
-				CCCCD013252F622B00C7CE9F /* UIButtonExtensionTests.swift */,
 				CCCCD015252F622B00C7CE9F /* UIImageExtensionTests.swift */,
 			);
 			path = UIKit;
@@ -378,6 +381,7 @@
 			buildActionMask = 0;
 			files = (
 				CCCCCFF0252F61E700C7CE9F /* SwiftUILabelExtension.swift in Sources */,
+				CCA29C3E285B4E9400133245 /* SFSymbol+4.0.swift in Sources */,
 				B0AEA82B2801A8E000A02015 /* SFSymbol+1.1.swift in Sources */,
 				636A46C728002819007E6028 /* SFSymbol+1.0.swift in Sources */,
 				636A46C228002819007E6028 /* SFSymbol+AllSymbols+2.2.swift in Sources */,
@@ -402,6 +406,7 @@
 				CCCCCFED252F61E700C7CE9F /* UIButtonExtension.swift in Sources */,
 				CCCCCFEF252F61E700C7CE9F /* UIApplicationShortcutIconExtension.swift in Sources */,
 				636A46BE28002819007E6028 /* SFSymbol+AllSymbols+3.2.swift in Sources */,
+				CCA29C3D285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift in Sources */,
 				636A46BF28002819007E6028 /* SymbolLocalizations.swift in Sources */,
 				636A46C528002819007E6028 /* SFSymbol+AllSymbols.swift in Sources */,
 				CCCCCFF1252F61E700C7CE9F /* UIImageExtension.swift in Sources */,
@@ -418,7 +423,6 @@
 				CC1D812F27F758D200CACDC7 /* TestHelper.swift in Sources */,
 				CCCCD064252F804400C7CE9F /* NSImageExtensionTests.swift in Sources */,
 				CCCCD017252F622B00C7CE9F /* UIApplicationShortcutIconExtensionTests.swift in Sources */,
-				CCCCD018252F622B00C7CE9F /* UIButtonExtensionTests.swift in Sources */,
 				CCCCD01A252F622B00C7CE9F /* UIImageExtensionTests.swift in Sources */,
 				B00FBD8E285E146400A7878B /* LocalizationTests.swift in Sources */,
 			);

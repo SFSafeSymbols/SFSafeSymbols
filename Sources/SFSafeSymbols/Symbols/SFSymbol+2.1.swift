@@ -13,17 +13,21 @@ public extension SFSymbol {
     static let aqiHigh = SFSymbol(rawValue: "aqi.high")
 
     /// 􀴾
-    /// Single Localization, Single Layerset
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let aqiLow = SFSymbol(rawValue: "aqi.low")
 
     /// 􀴿
-    /// Single Localization, Single Layerset
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let aqiMedium = SFSymbol(rawValue: "aqi.medium")
 
     /// 􀮰
@@ -174,61 +178,67 @@ public extension SFSymbol {
     static let infinityCircleFill = SFSymbol(rawValue: "infinity.circle.fill")
 
     /// 􀴓
-    /// Single Localization, 2 Layersets, ⚠️ Restricted
+    /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
     static let ipadBadgePlay = SFSymbol(rawValue: "ipad.badge.play")
 
     /// 􀴒
-    /// Single Localization, 2 Layersets, ⚠️ Restricted
+    /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
     static let ipadHomebuttonBadgePlay = SFSymbol(rawValue: "ipad.homebutton.badge.play")
 
     /// 􀵑
-    /// Single Localization, 2 Layersets, ⚠️ Restricted
+    /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
     static let ipadHomebuttonLandscapeBadgePlay = SFSymbol(rawValue: "ipad.homebutton.landscape.badge.play")
 
     /// 􀵒
-    /// Single Localization, 2 Layersets, ⚠️ Restricted
+    /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
     static let ipadLandscapeBadgePlay = SFSymbol(rawValue: "ipad.landscape.badge.play")
 
     /// 􀴑
-    /// Single Localization, 2 Layersets, ⚠️ Restricted
+    /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     static let iphoneBadgePlay = SFSymbol(rawValue: "iphone.badge.play")
 
     /// 􀐶
-    /// Single Localization, 2 Layersets, ⚠️ Restricted
+    /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     static let iphoneHomebuttonBadgePlay = SFSymbol(rawValue: "iphone.homebutton.badge.play")
@@ -289,27 +299,30 @@ public extension SFSymbol {
     static let playTv = SFSymbol(rawValue: "play.tv")
 
     /// 􀵩
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let playTvFill = SFSymbol(rawValue: "play.tv.fill")
 
     /// 􀵚
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let rectangleBadgePersonCrop = SFSymbol(rawValue: "rectangle.badge.person.crop")
 
     /// 􀵛
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     static let rectangleFillBadgePersonCrop = SFSymbol(rawValue: "rectangle.fill.badge.person.crop")
 
     /// 􀴊
