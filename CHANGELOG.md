@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- None
+- Add Swiftlint suggestion to `README.md` (By [David Furman](https://github.com/dafurman))
 
 ### Changed
 
