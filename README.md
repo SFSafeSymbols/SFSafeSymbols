@@ -191,6 +191,18 @@ SF Symbols can come with multiple different localizations. `SFSafeSymbols` expos
 
 Attention: Serializing and deserializing `SFSymbol`s currently makes them lose their _explicit_ static localization information. Dynamic localization information will still be retained.
 
+### Swiftlint
+
+You may want to leverage [SwiftLint](https://github.com/realm/SwiftLint) to ensure that `SFSafeSymbols` is used when appropriate. In your `.swiftlint.yml` file, you can add a custom rule like this:
+```yml
+custom_rules:
+  sf_safe_symbol:
+    name: "Safe SFSymbol"
+    message: "Use `SFSafeSymbols` via `systemSymbol` parameters for type safety."
+    regex: "(Image\\(systemName:)|(NSImage\\(symbolName:)|(Label.*?systemImage:)|(UIApplicationShortcutIcon\\(systemImageName:)"
+    severity: warning
+```
+
 ## Contributing
 
 Contributions are very much welcome! See [CONTRIBUTING.md](https://github.com/SFSafeSymbols/SFSafeSymbols/blob/stable/CONTRIBUTING.md) for more information.
