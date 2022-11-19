@@ -3046,6 +3046,10 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    @available(iOS, introduced: 15.0, deprecated: 16.1, renamed: "iphoneGen1Circle")
+    @available(macOS, introduced: 12.0, deprecated: 13.0, renamed: "iphoneGen1Circle")
+    @available(tvOS, introduced: 15.0, deprecated: 16.1, renamed: "iphoneGen1Circle")
+    @available(watchOS, introduced: 8.0, deprecated: 9.1, renamed: "iphoneGen1Circle")
     static let iphoneHomebuttonCircle = SFSymbol(rawValue: "iphone.homebutton.circle")
 
     /// 􁄦
@@ -3057,6 +3061,10 @@ public extension SFSymbol {
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    @available(iOS, introduced: 15.0, deprecated: 16.1, renamed: "iphoneGen1CircleFill")
+    @available(macOS, introduced: 12.0, deprecated: 13.0, renamed: "iphoneGen1CircleFill")
+    @available(tvOS, introduced: 15.0, deprecated: 16.1, renamed: "iphoneGen1CircleFill")
+    @available(watchOS, introduced: 8.0, deprecated: 9.1, renamed: "iphoneGen1CircleFill")
     static let iphoneHomebuttonCircleFill = SFSymbol(rawValue: "iphone.homebutton.circle.fill")
 
     /// 􁅚
@@ -3068,6 +3076,10 @@ public extension SFSymbol {
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    @available(iOS, introduced: 15.0, deprecated: 16.1, renamed: "iphoneGen1RadiowavesLeftAndRightCircle")
+    @available(macOS, introduced: 12.0, deprecated: 13.0, renamed: "iphoneGen1RadiowavesLeftAndRightCircle")
+    @available(tvOS, introduced: 15.0, deprecated: 16.1, renamed: "iphoneGen1RadiowavesLeftAndRightCircle")
+    @available(watchOS, introduced: 8.0, deprecated: 9.1, renamed: "iphoneGen1RadiowavesLeftAndRightCircle")
     static let iphoneHomebuttonRadiowavesLeftAndRightCircle = SFSymbol(rawValue: "iphone.homebutton.radiowaves.left.and.right.circle")
 
     /// 􁅛
@@ -3079,6 +3091,10 @@ public extension SFSymbol {
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    @available(iOS, introduced: 15.0, deprecated: 16.1, renamed: "iphoneGen1RadiowavesLeftAndRightCircleFill")
+    @available(macOS, introduced: 12.0, deprecated: 13.0, renamed: "iphoneGen1RadiowavesLeftAndRightCircleFill")
+    @available(tvOS, introduced: 15.0, deprecated: 16.1, renamed: "iphoneGen1RadiowavesLeftAndRightCircleFill")
+    @available(watchOS, introduced: 8.0, deprecated: 9.1, renamed: "iphoneGen1RadiowavesLeftAndRightCircleFill")
     static let iphoneHomebuttonRadiowavesLeftAndRightCircleFill = SFSymbol(rawValue: "iphone.homebutton.radiowaves.left.and.right.circle.fill")
 
     /// 􁄧
@@ -3089,6 +3105,10 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    @available(iOS, introduced: 15.0, deprecated: 16.1, renamed: "iphoneGen1SlashCircle")
+    @available(macOS, introduced: 12.0, deprecated: 13.0, renamed: "iphoneGen1SlashCircle")
+    @available(tvOS, introduced: 15.0, deprecated: 16.1, renamed: "iphoneGen1SlashCircle")
+    @available(watchOS, introduced: 8.0, deprecated: 9.1, renamed: "iphoneGen1SlashCircle")
     static let iphoneHomebuttonSlashCircle = SFSymbol(rawValue: "iphone.homebutton.slash.circle")
 
     /// 􁄨
@@ -3100,6 +3120,10 @@ public extension SFSymbol {
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    @available(iOS, introduced: 15.0, deprecated: 16.1, renamed: "iphoneGen1SlashCircleFill")
+    @available(macOS, introduced: 12.0, deprecated: 13.0, renamed: "iphoneGen1SlashCircleFill")
+    @available(tvOS, introduced: 15.0, deprecated: 16.1, renamed: "iphoneGen1SlashCircleFill")
+    @available(watchOS, introduced: 8.0, deprecated: 9.1, renamed: "iphoneGen1SlashCircleFill")
     static let iphoneHomebuttonSlashCircleFill = SFSymbol(rawValue: "iphone.homebutton.slash.circle.fill")
 
     /// 􁅜

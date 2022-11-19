@@ -197,6 +197,10 @@ public extension SFSymbol {
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
+    @available(iOS, introduced: 14.2, deprecated: 16.1, renamed: "ipadGen1BadgePlay")
+    @available(macOS, introduced: 11.0, deprecated: 13.0, renamed: "ipadGen1BadgePlay")
+    @available(tvOS, introduced: 14.2, deprecated: 16.1, renamed: "ipadGen1BadgePlay")
+    @available(watchOS, introduced: 7.1, deprecated: 9.1, renamed: "ipadGen1BadgePlay")
     static let ipadHomebuttonBadgePlay = SFSymbol(rawValue: "ipad.homebutton.badge.play")
 
     /// 􀵑
@@ -208,6 +212,10 @@ public extension SFSymbol {
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
+    @available(iOS, introduced: 14.2, deprecated: 16.1, renamed: "ipadGen1LandscapeBadgePlay")
+    @available(macOS, introduced: 11.0, deprecated: 13.0, renamed: "ipadGen1LandscapeBadgePlay")
+    @available(tvOS, introduced: 14.2, deprecated: 16.1, renamed: "ipadGen1LandscapeBadgePlay")
+    @available(watchOS, introduced: 7.1, deprecated: 9.1, renamed: "ipadGen1LandscapeBadgePlay")
     static let ipadHomebuttonLandscapeBadgePlay = SFSymbol(rawValue: "ipad.homebutton.landscape.badge.play")
 
     /// 􀵒
@@ -241,6 +249,10 @@ public extension SFSymbol {
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    @available(iOS, introduced: 14.2, deprecated: 16.1, renamed: "iphoneGen1BadgePlay")
+    @available(macOS, introduced: 11.0, deprecated: 13.0, renamed: "iphoneGen1BadgePlay")
+    @available(tvOS, introduced: 14.2, deprecated: 16.1, renamed: "iphoneGen1BadgePlay")
+    @available(watchOS, introduced: 7.1, deprecated: 9.1, renamed: "iphoneGen1BadgePlay")
     static let iphoneHomebuttonBadgePlay = SFSymbol(rawValue: "iphone.homebutton.badge.play")
 
     /// 􀴎
@@ -251,6 +263,10 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    @available(iOS, introduced: 14.2, deprecated: 16.1, renamed: "iphoneGen1Landscape")
+    @available(macOS, introduced: 11.0, deprecated: 13.0, renamed: "iphoneGen1Landscape")
+    @available(tvOS, introduced: 14.2, deprecated: 16.1, renamed: "iphoneGen1Landscape")
+    @available(watchOS, introduced: 7.1, deprecated: 9.1, renamed: "iphoneGen1Landscape")
     static let iphoneHomebuttonLandscape = SFSymbol(rawValue: "iphone.homebutton.landscape")
 
     /// 􀴏

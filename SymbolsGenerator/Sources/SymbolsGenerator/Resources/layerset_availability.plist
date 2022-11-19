@@ -9,6 +9,11 @@
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
+		<key>0.circle.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>0.circle.fill</key>
 		<dict>
 			<key>hierarchical</key>
@@ -16,10 +21,22 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>0.circle.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
 		<key>0.square</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>0.square.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>0.square.fill</key>
 		<dict>
@@ -27,6 +44,13 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>0.square.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>00.circle</key>
 		<dict>
@@ -268,10 +292,20 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>1.brakesignal</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>1.circle</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>1.circle.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>1.circle.fill</key>
 		<dict>
@@ -280,10 +314,27 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>1.circle.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>1.lane</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>1.square</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>1.square.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>1.square.fill</key>
 		<dict>
@@ -291,6 +342,13 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>1.square.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>10.circle</key>
 		<dict>
@@ -303,6 +361,11 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>10.lane</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>10.square</key>
 		<dict>
@@ -328,6 +391,11 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>11.lane</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>11.square</key>
 		<dict>
 			<key>hierarchical</key>
@@ -351,6 +419,11 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>12.lane</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>12.square</key>
 		<dict>
@@ -568,10 +641,20 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>2.brakesignal</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>2.circle</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>2.circle.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>2.circle.fill</key>
 		<dict>
@@ -580,10 +663,27 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>2.circle.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>2.lane</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>2.square</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>2.square.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>2.square.fill</key>
 		<dict>
@@ -591,6 +691,13 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>2.square.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>20.circle</key>
 		<dict>
@@ -837,6 +944,11 @@
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
+		<key>3.circle.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>3.circle.fill</key>
 		<dict>
 			<key>hierarchical</key>
@@ -844,10 +956,27 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>3.circle.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>3.lane</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>3.square</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>3.square.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>3.square.fill</key>
 		<dict>
@@ -855,6 +984,13 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>3.square.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>30.circle</key>
 		<dict>
@@ -1125,6 +1261,11 @@
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
+		<key>4.circle.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>4.circle.fill</key>
 		<dict>
 			<key>hierarchical</key>
@@ -1132,10 +1273,27 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>4.circle.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>4.lane</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>4.square</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>4.square.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>4.square.fill</key>
 		<dict>
@@ -1143,6 +1301,13 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>4.square.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>40.circle</key>
 		<dict>
@@ -1401,6 +1566,11 @@
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
+		<key>5.circle.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>5.circle.fill</key>
 		<dict>
 			<key>hierarchical</key>
@@ -1408,10 +1578,27 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>5.circle.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>5.lane</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>5.square</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>5.square.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>5.square.fill</key>
 		<dict>
@@ -1419,6 +1606,13 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>5.square.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>50.circle</key>
 		<dict>
@@ -1473,6 +1667,11 @@
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
+		<key>6.circle.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>6.circle.fill</key>
 		<dict>
 			<key>hierarchical</key>
@@ -1480,10 +1679,27 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>6.circle.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>6.lane</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>6.square</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>6.square.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>6.square.fill</key>
 		<dict>
@@ -1492,10 +1708,22 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>6.square.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
 		<key>7.circle</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>7.circle.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>7.circle.fill</key>
 		<dict>
@@ -1504,10 +1732,27 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>7.circle.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>7.lane</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>7.square</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>7.square.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>7.square.fill</key>
 		<dict>
@@ -1516,10 +1761,22 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>7.square.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
 		<key>8.circle</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>8.circle.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>8.circle.fill</key>
 		<dict>
@@ -1528,10 +1785,27 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>8.circle.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>8.lane</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>8.square</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>8.square.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>8.square.fill</key>
 		<dict>
@@ -1539,6 +1813,13 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>8.square.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>9.alt.circle</key>
 		<dict>
@@ -1569,6 +1850,11 @@
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
+		<key>9.circle.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>9.circle.fill</key>
 		<dict>
 			<key>hierarchical</key>
@@ -1576,10 +1862,27 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>9.circle.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>9.lane</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>9.square</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>9.square.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>9.square.fill</key>
 		<dict>
@@ -1587,6 +1890,13 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>9.square.fill.ar</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>a.circle</key>
 		<dict>
@@ -1623,6 +1933,23 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2022</string>
+		</dict>
+		<key>abs.brakesignal.slash</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>abs.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>abs.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>air.conditioner.horizontal</key>
 		<dict>
@@ -3424,6 +3751,50 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>auto.brakesignal</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>auto.headlight.high.beam</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>auto.headlight.high.beam.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>auto.headlight.low.beam</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>auto.headlight.low.beam.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>autostartstop</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>autostartstop.slash</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>autostartstop.trianglebadge.exclamationmark</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
 		<key>b.circle</key>
 		<dict>
 			<key>hierarchical</key>
@@ -3447,6 +3818,18 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>backpack.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>backpack.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>backward.circle</key>
 		<dict>
@@ -3699,6 +4082,16 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>batteryblock.slash</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>batteryblock.slash.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>beats.earphones</key>
 		<dict>
@@ -4162,6 +4555,20 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>bolt.trianglebadge.exclamationmark</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>bolt.trianglebadge.exclamationmark.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>bonjour</key>
 		<dict>
@@ -4749,6 +5156,233 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>car.front.waves.up</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.front.waves.up.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.rear.and.tire.marks.slash</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.rear.road.lane</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.rear.road.lane.dashed</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.rear.waves.up</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.rear.waves.up.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.side.air.circulate</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.side.air.circulate.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.side.air.fresh</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.side.air.fresh.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.side.and.exclamationmark</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.side.and.exclamationmark.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.side.arrowtriangle.down</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.side.arrowtriangle.down.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.side.arrowtriangle.up</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.side.arrowtriangle.up.arrowtriangle.down</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.side.arrowtriangle.up.arrowtriangle.down.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.side.arrowtriangle.up.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.top.lane.dashed.arrowtriangle.inward</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.top.lane.dashed.arrowtriangle.inward.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.top.lane.dashed.badge.steeringwheel</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.top.lane.dashed.badge.steeringwheel.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.top.lane.dashed.departure.left</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.top.lane.dashed.departure.left.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.top.lane.dashed.departure.right</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.top.lane.dashed.departure.right.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.top.radiowaves.front</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.top.radiowaves.front.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.top.radiowaves.rear</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.top.radiowaves.rear.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.top.radiowaves.rear.left</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.top.radiowaves.rear.left.and.rear.right</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.top.radiowaves.rear.left.and.rear.right.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.top.radiowaves.rear.left.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.top.radiowaves.rear.right</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>car.top.radiowaves.rear.right.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
 		<key>carbon.dioxide.cloud</key>
 		<dict>
 			<key>hierarchical</key>
@@ -5093,6 +5727,20 @@
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
+		<key>chart.bar.doc.horizontal</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>chart.bar.doc.horizontal.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
 		<key>chart.bar.fill</key>
 		<dict>
 			<key>hierarchical</key>
@@ -5106,6 +5754,13 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2022</string>
+		</dict>
+		<key>chart.dots.scatter</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>chart.line.downtrend.xyaxis</key>
 		<dict>
@@ -6266,6 +6921,18 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>cross.case.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>cross.case.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>cross.case.fill</key>
 		<dict>
@@ -7451,6 +8118,13 @@
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
+		<key>ellipsis.viewfinder</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
 		<key>entry.lever.keypad</key>
 		<dict>
 			<key>hierarchical</key>
@@ -7725,6 +8399,11 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>exclamationmark.transmission</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>exclamationmark.triangle</key>
 		<dict>
@@ -8110,6 +8789,73 @@
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
+		<key>figure.run.square.stack</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>figure.run.square.stack.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>figure.seated.seatbelt.and.airbag.off</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>figure.seated.seatbelt.and.airbag.on</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>figure.seated.side.air.lower</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>figure.seated.side.air.upper</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>figure.seated.side.air.upper.and.lower</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>figure.seated.side.air.windshield</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>figure.seated.side.airbag.off</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>figure.seated.side.airbag.off.2</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>figure.seated.side.airbag.on</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>figure.seated.side.airbag.on.2</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>figure.seated.side.windshield.front.and.heat.waves</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>figure.stand.line.dotted.figure.stand</key>
 		<dict>
 			<key>hierarchical</key>
@@ -8207,6 +8953,18 @@
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
+		<key>fish.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>fish.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
 		<key>flag</key>
 		<dict>
 			<key>multicolor</key>
@@ -8252,6 +9010,23 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2022</string>
+		</dict>
+		<key>flag.checkered.2.crossed</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>flag.checkered.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>flag.checkered.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>flag.circle</key>
 		<dict>
@@ -9086,18 +9861,6 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
-		<key>hand.app</key>
-		<dict>
-			<key>hierarchical</key>
-			<string>2022</string>
-		</dict>
-		<key>hand.app.fill</key>
-		<dict>
-			<key>hierarchical</key>
-			<string>2022</string>
-			<key>multicolor</key>
-			<string>2022</string>
-		</dict>
 		<key>hand.draw</key>
 		<dict>
 			<key>hierarchical</key>
@@ -9122,6 +9885,30 @@
 		<dict>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>hand.raised.app</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>hand.raised.app.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022</string>
+			<key>multicolor</key>
+			<string>2022</string>
+		</dict>
+		<key>hand.raised.brakesignal</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>hand.raised.brakesignal.slash</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>hand.raised.circle</key>
 		<dict>
@@ -9233,6 +10020,20 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>hazardsign</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>hazardsign.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>headphones.circle</key>
 		<dict>
@@ -9357,6 +10158,13 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2022</string>
+		</dict>
+		<key>heat.element.windshield</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>heater.vertical</key>
 		<dict>
@@ -9554,6 +10362,18 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>house.and.flag.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>house.and.flag.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
 		<key>house.circle</key>
 		<dict>
 			<key>hierarchical</key>
@@ -9572,6 +10392,18 @@
 		<dict>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>house.lodge.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>house.lodge.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>hryvniasign.circle</key>
 		<dict>
@@ -9659,6 +10491,11 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>icloud</key>
+		<dict>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>icloud.and.arrow.down</key>
 		<dict>
@@ -9808,6 +10645,11 @@
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
+		<key>info.windshield</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>ipad</key>
 		<dict>
 			<key>hierarchical</key>
@@ -9825,6 +10667,11 @@
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
+		<key>ipad.and.iphone.slash</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>ipad.badge.play</key>
 		<dict>
 			<key>hierarchical</key>
@@ -9832,29 +10679,53 @@
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
-		<key>ipad.homebutton</key>
+		<key>ipad.gen1</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
-		<key>ipad.homebutton.badge.play</key>
+		<key>ipad.gen1.badge.play</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
-		<key>ipad.homebutton.landscape</key>
+		<key>ipad.gen1.landscape</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
-		<key>ipad.homebutton.landscape.badge.play</key>
+		<key>ipad.gen1.landscape.badge.play</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2022</string>
+		</dict>
+		<key>ipad.gen2</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>ipad.gen2.badge.play</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>ipad.gen2.landscape</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>ipad.gen2.landscape.badge.play</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>ipad.landscape</key>
 		<dict>
@@ -9902,72 +10773,206 @@
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
-		<key>iphone.homebutton</key>
+		<key>iphone.gen1</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
-		<key>iphone.homebutton.badge.play</key>
+		<key>iphone.gen1.badge.play</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
-		<key>iphone.homebutton.circle</key>
+		<key>iphone.gen1.circle</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
-		<key>iphone.homebutton.circle.fill</key>
+		<key>iphone.gen1.circle.fill</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
-		<key>iphone.homebutton.landscape</key>
+		<key>iphone.gen1.landscape</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
-		<key>iphone.homebutton.radiowaves.left.and.right</key>
+		<key>iphone.gen1.radiowaves.left.and.right</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
-		<key>iphone.homebutton.radiowaves.left.and.right.circle</key>
+		<key>iphone.gen1.radiowaves.left.and.right.circle</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
-		<key>iphone.homebutton.radiowaves.left.and.right.circle.fill</key>
+		<key>iphone.gen1.radiowaves.left.and.right.circle.fill</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
-		<key>iphone.homebutton.slash</key>
+		<key>iphone.gen1.slash</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
-		<key>iphone.homebutton.slash.circle</key>
+		<key>iphone.gen1.slash.circle</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
-		<key>iphone.homebutton.slash.circle.fill</key>
+		<key>iphone.gen1.slash.circle.fill</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2022</string>
+		</dict>
+		<key>iphone.gen2</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen2.badge.play</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen2.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen2.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen2.landscape</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen2.radiowaves.left.and.right</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen2.radiowaves.left.and.right.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen2.radiowaves.left.and.right.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen2.slash</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen2.slash.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen2.slash.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen3</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen3.badge.play</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen3.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen3.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen3.landscape</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen3.radiowaves.left.and.right</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen3.radiowaves.left.and.right.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen3.radiowaves.left.and.right.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen3.slash</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen3.slash.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>iphone.gen3.slash.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>iphone.landscape</key>
 		<dict>
@@ -10144,6 +11149,20 @@
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
+		<key>key.radiowaves.forward</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>key.radiowaves.forward.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
 		<key>key.viewfinder</key>
 		<dict>
 			<key>hierarchical</key>
@@ -10220,6 +11239,18 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>kph.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>kph.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>l.circle</key>
 		<dict>
@@ -10362,17 +11393,10 @@
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
-		<key>laptopcomputer.and.ipad</key>
+		<key>laptopcomputer.slash</key>
 		<dict>
 			<key>hierarchical</key>
-			<string>2022</string>
-		</dict>
-		<key>laptopcomputer.and.iphone</key>
-		<dict>
-			<key>hierarchical</key>
-			<string>2021</string>
-			<key>multicolor</key>
-			<string>2022</string>
+			<string>2022.1</string>
 		</dict>
 		<key>laptopcomputer.trianglebadge.exclamationmark</key>
 		<dict>
@@ -11102,6 +12126,11 @@
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
+		<key>lock.open.rotation</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2021</string>
+		</dict>
 		<key>lock.open.trianglebadge.exclamationmark</key>
 		<dict>
 			<key>hierarchical</key>
@@ -11157,11 +12186,6 @@
 			<string>2022</string>
 		</dict>
 		<key>lock.rotation</key>
-		<dict>
-			<key>hierarchical</key>
-			<string>2021</string>
-		</dict>
-		<key>lock.rotation.open</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
@@ -11277,6 +12301,18 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>macbook.and.ipad</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022</string>
+		</dict>
+		<key>macbook.and.iphone</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2021</string>
+			<key>multicolor</key>
+			<string>2022</string>
 		</dict>
 		<key>macwindow</key>
 		<dict>
@@ -11758,12 +12794,42 @@
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
+		<key>minus.plus.batteryblock.exclamationmark</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>minus.plus.batteryblock.exclamationmark.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>minus.plus.batteryblock.fill</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2022</string>
+		</dict>
+		<key>minus.plus.batteryblock.slash</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>minus.plus.batteryblock.slash.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>minus.plus.batteryblock.stack.exclamationmark</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>minus.plus.batteryblock.stack.exclamationmark.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
 		</dict>
 		<key>minus.rectangle</key>
 		<dict>
@@ -11814,12 +12880,36 @@
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
+		<key>mirror.side.left.and.arrow.turn.down.right</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>mirror.side.left.and.heat.waves</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
 		<key>mirror.side.right</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2022</string>
 			<key>multicolor</key>
 			<string>2022</string>
+		</dict>
+		<key>mirror.side.right.and.arrow.turn.down.left</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>mirror.side.right.and.heat.waves</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>moon.circle</key>
 		<dict>
@@ -11967,6 +13057,42 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2022</string>
+		</dict>
+		<key>mountain.2</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>mountain.2.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>mountain.2.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>mountain.2.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>mph.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>mph.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>multiply.circle</key>
 		<dict>
@@ -13400,6 +14526,18 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2022</string>
+		</dict>
+		<key>play.square.stack</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>play.square.stack.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>play.tv</key>
 		<dict>
@@ -15233,6 +16371,16 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>retarder.brakesignal</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>road.lane.arrowtriangle.2.inward</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>roller.shade.closed</key>
 		<dict>
 			<key>hierarchical</key>
@@ -15368,6 +16516,18 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2022</string>
+		</dict>
+		<key>sailboat.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>sailboat.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>scissors.badge.ellipsis</key>
 		<dict>
@@ -15612,6 +16772,66 @@
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
+		<key>signpost.and.arrowtriangle.up</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>signpost.and.arrowtriangle.up.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>signpost.and.arrowtriangle.up.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>signpost.and.arrowtriangle.up.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>signpost.left.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>signpost.left.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>signpost.right.and.left.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>signpost.right.and.left.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>signpost.right.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>signpost.right.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
 		<key>simcard</key>
 		<dict>
 			<key>hierarchical</key>
@@ -15764,6 +16984,21 @@
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
+		<key>snowflake.road.lane</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>snowflake.road.lane.dashed</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>snowflake.slash</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>soccerball.circle</key>
 		<dict>
 			<key>hierarchical</key>
@@ -15787,6 +17022,18 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2022</string>
+		</dict>
+		<key>sos.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>sos.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>sparkle</key>
 		<dict>
@@ -16648,6 +17895,41 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>steeringwheel.and.heat.waves</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>steeringwheel.and.key</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>steeringwheel.and.lock</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>steeringwheel.exclamationmark</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>steeringwheel.road.lane</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>steeringwheel.road.lane.dashed</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>steeringwheel.slash</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>sterlingsign.circle</key>
 		<dict>
 			<key>hierarchical</key>
@@ -16928,6 +18210,72 @@
 			<key>multicolor</key>
 			<string>2020</string>
 		</dict>
+		<key>suv.side.air.circulate</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>suv.side.air.circulate.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>suv.side.air.fresh</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>suv.side.air.fresh.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>suv.side.and.exclamationmark</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>suv.side.and.exclamationmark.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>suv.side.arrowtriangle.down</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>suv.side.arrowtriangle.down.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>suv.side.arrowtriangle.up</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>suv.side.arrowtriangle.up.arrowtriangle.down</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>suv.side.arrowtriangle.up.arrowtriangle.down.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>suv.side.arrowtriangle.up.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
 		<key>switch.2</key>
 		<dict>
 			<key>hierarchical</key>
@@ -17131,6 +18479,44 @@
 			<string>2022</string>
 			<key>multicolor</key>
 			<string>2022</string>
+		</dict>
+		<key>tent.2</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>tent.2.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>tent.2.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>tent.2.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>tent.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>tent.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>testtube.2</key>
 		<dict>
@@ -17366,6 +18752,11 @@
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
+		<key>thermometer.and.liquid.waves</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>thermometer.brakesignal</key>
 		<dict>
 			<key>hierarchical</key>
@@ -17442,6 +18833,11 @@
 			<key>multicolor</key>
 			<string>2020</string>
 		</dict>
+		<key>thermometer.transmission</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
 		<key>timelapse</key>
 		<dict>
 			<key>hierarchical</key>
@@ -17482,6 +18878,18 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>toilet.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>toilet.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>tornado</key>
 		<dict>
@@ -17635,6 +19043,18 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2021</string>
+		</dict>
+		<key>tree.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>tree.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>triangle.circle</key>
 		<dict>
@@ -18442,7 +19862,21 @@
 			<key>hierarchical</key>
 			<string>2022</string>
 		</dict>
-		<key>windshield.front.and.fluid</key>
+		<key>windshield.front.and.fluid.and.spray</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>windshield.front.and.heat.waves</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>windshield.front.and.spray</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2022</string>
@@ -18461,7 +19895,42 @@
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
-		<key>windshield.rear.and.fluid</key>
+		<key>windshield.front.and.wiper.and.spray</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>windshield.front.and.wiper.exclamationmark</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>windshield.front.and.wiper.intermittent</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>windshield.rear.and.fluid.and.spray</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>windshield.rear.and.heat.waves</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>windshield.rear.and.spray</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2022</string>
@@ -18472,6 +19941,32 @@
 			<string>2022</string>
 			<key>multicolor</key>
 			<string>2022</string>
+		</dict>
+		<key>windshield.rear.and.wiper.and.drop</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+		</dict>
+		<key>windshield.rear.and.wiper.and.spray</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>windshield.rear.and.wiper.exclamationmark</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>windshield.rear.and.wiper.intermittent</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>wonsign.circle</key>
 		<dict>
@@ -18510,6 +20005,20 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2022</string>
+		</dict>
+		<key>wrongwaysign</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
+		</dict>
+		<key>wrongwaysign.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2022.1</string>
+			<key>multicolor</key>
+			<string>2022.1</string>
 		</dict>
 		<key>x.circle</key>
 		<dict>
@@ -18909,6 +20418,17 @@
 			<string>16.0</string>
 			<key>watchOS</key>
 			<string>9.0</string>
+		</dict>
+		<key>2022.1</key>
+		<dict>
+			<key>iOS</key>
+			<string>16.1</string>
+			<key>macOS</key>
+			<string>13.0</string>
+			<key>tvOS</key>
+			<string>16.1</string>
+			<key>watchOS</key>
+			<string>9.1</string>
 		</dict>
 	</dict>
 </dict>

@@ -34,6 +34,9 @@ extension SFSymbol {
         if #available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *) {
             result.merge(localizationsAvailableSince4_0) { $0.union($1) }
         }
+        if #available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, *) {
+            result.merge(localizationsAvailableSince4_1) { $0.union($1) }
+        }
         return result
     }()
 
@@ -65,6 +68,9 @@ extension SFSymbol {
         }
         if #available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *) {
             result.subtract(symbolsDeprecatedSince4_0)
+        }
+        if #available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, *) {
+            result.subtract(symbolsDeprecatedSince4_1)
         }
         return result
     }()
