@@ -3037,10 +3037,11 @@ public extension SFSymbol {
     static let flagCheckered = SFSymbol(rawValue: "flag.checkered")
 
     /// 􁜔
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     static let flagCheckered2Crossed = SFSymbol(rawValue: "flag.checkered.2.crossed")
 
     /// 􁓯
@@ -3254,11 +3255,16 @@ public extension SFSymbol {
     static let guaranisign = SFSymbol(rawValue: "guaranisign")
 
     /// 􁝌
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
+    @available(iOS, introduced: 16.0, deprecated: 16.1, renamed: "handRaisedApp")
+    @available(macOS, introduced: 13.0, deprecated: 13.0, renamed: "handRaisedApp")
+    @available(tvOS, introduced: 16.0, deprecated: 16.1, renamed: "handRaisedApp")
+    @available(watchOS, introduced: 9.0, deprecated: 9.1, renamed: "handRaisedApp")
     static let handApp = SFSymbol(rawValue: "hand.app")
 
     /// 􁝍
@@ -3268,6 +3274,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @available(iOS, introduced: 16.0, deprecated: 16.1, renamed: "handRaisedAppFill")
+    @available(macOS, introduced: 13.0, deprecated: 13.0, renamed: "handRaisedAppFill")
+    @available(tvOS, introduced: 16.0, deprecated: 16.1, renamed: "handRaisedAppFill")
+    @available(watchOS, introduced: 9.0, deprecated: 9.1, renamed: "handRaisedAppFill")
     static let handAppFill = SFSymbol(rawValue: "hand.app.fill")
 
     /// 􁗩
@@ -3639,6 +3649,10 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
+    @available(iOS, introduced: 16.0, deprecated: 16.1, renamed: "macbookAndIpad")
+    @available(macOS, introduced: 13.0, deprecated: 13.0, renamed: "macbookAndIpad")
+    @available(tvOS, introduced: 16.0, deprecated: 16.1, renamed: "macbookAndIpad")
+    @available(watchOS, introduced: 9.0, deprecated: 9.1, renamed: "macbookAndIpad")
     static let laptopcomputerAndIpad = SFSymbol(rawValue: "laptopcomputer.and.ipad")
 
     /// 􁑝
@@ -7133,6 +7147,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @available(iOS, introduced: 16.0, deprecated: 16.1, renamed: "windshieldFrontAndSpray")
+    @available(macOS, introduced: 13.0, deprecated: 13.0, renamed: "windshieldFrontAndSpray")
+    @available(tvOS, introduced: 16.0, deprecated: 16.1, renamed: "windshieldFrontAndSpray")
+    @available(watchOS, introduced: 9.0, deprecated: 9.1, renamed: "windshieldFrontAndSpray")
     static let windshieldFrontAndFluid = SFSymbol(rawValue: "windshield.front.and.fluid")
 
     /// 􁀔
@@ -7159,6 +7177,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @available(iOS, introduced: 16.0, deprecated: 16.1, renamed: "windshieldRearAndSpray")
+    @available(macOS, introduced: 13.0, deprecated: 13.0, renamed: "windshieldRearAndSpray")
+    @available(tvOS, introduced: 16.0, deprecated: 16.1, renamed: "windshieldRearAndSpray")
+    @available(watchOS, introduced: 9.0, deprecated: 9.1, renamed: "windshieldRearAndSpray")
     static let windshieldRearAndFluid = SFSymbol(rawValue: "windshield.rear.and.fluid")
 
     /// 􁀠

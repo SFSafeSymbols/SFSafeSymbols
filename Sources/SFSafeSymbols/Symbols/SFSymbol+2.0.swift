@@ -187,11 +187,13 @@ public extension SFSymbol {
     static let amplifier = SFSymbol(rawValue: "amplifier")
 
     /// 􀭨
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s App Clips.
     static let appclip = SFSymbol(rawValue: "appclip")
 
     /// 􀣺
@@ -2095,17 +2097,21 @@ public extension SFSymbol {
     static let caseFill = SFSymbol(rawValue: "case.fill")
 
     /// 􀥜
-    /// Single Localization, Single Layerset
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
+    /// - Multicolor (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     static let chartBarDocHorizontal = SFSymbol(rawValue: "chart.bar.doc.horizontal")
 
     /// 􀦌
-    /// Single Localization, Single Layerset
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
+    /// - Multicolor (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     static let chartBarDocHorizontalFill = SFSymbol(rawValue: "chart.bar.doc.horizontal.fill")
 
     /// 􀣉
@@ -4360,6 +4366,10 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
+    @available(iOS, introduced: 14.0, deprecated: 16.1, renamed: "ipadGen1")
+    @available(macOS, introduced: 11.0, deprecated: 13.0, renamed: "ipadGen1")
+    @available(tvOS, introduced: 14.0, deprecated: 16.1, renamed: "ipadGen1")
+    @available(watchOS, introduced: 7.0, deprecated: 9.1, renamed: "ipadGen1")
     static let ipadHomebutton = SFSymbol(rawValue: "ipad.homebutton")
 
     /// 􀥓
@@ -4370,6 +4380,10 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
+    @available(iOS, introduced: 14.0, deprecated: 16.1, renamed: "ipadGen1Landscape")
+    @available(macOS, introduced: 11.0, deprecated: 13.0, renamed: "ipadGen1Landscape")
+    @available(tvOS, introduced: 14.0, deprecated: 16.1, renamed: "ipadGen1Landscape")
+    @available(watchOS, introduced: 7.0, deprecated: 9.1, renamed: "ipadGen1Landscape")
     static let ipadHomebuttonLandscape = SFSymbol(rawValue: "ipad.homebutton.landscape")
 
     /// 􀥔
@@ -4400,6 +4414,10 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    @available(iOS, introduced: 14.0, deprecated: 16.1, renamed: "iphoneGen1")
+    @available(macOS, introduced: 11.0, deprecated: 13.0, renamed: "iphoneGen1")
+    @available(tvOS, introduced: 14.0, deprecated: 16.1, renamed: "iphoneGen1")
+    @available(watchOS, introduced: 7.0, deprecated: 9.1, renamed: "iphoneGen1")
     static let iphoneHomebutton = SFSymbol(rawValue: "iphone.homebutton")
 
     /// 􀡆
@@ -4411,6 +4429,10 @@ public extension SFSymbol {
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    @available(iOS, introduced: 14.0, deprecated: 16.1, renamed: "iphoneGen1RadiowavesLeftAndRight")
+    @available(macOS, introduced: 11.0, deprecated: 13.0, renamed: "iphoneGen1RadiowavesLeftAndRight")
+    @available(tvOS, introduced: 14.0, deprecated: 16.1, renamed: "iphoneGen1RadiowavesLeftAndRight")
+    @available(watchOS, introduced: 7.0, deprecated: 9.1, renamed: "iphoneGen1RadiowavesLeftAndRight")
     static let iphoneHomebuttonRadiowavesLeftAndRight = SFSymbol(rawValue: "iphone.homebutton.radiowaves.left.and.right")
 
     /// 􀨴
@@ -4421,6 +4443,10 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    @available(iOS, introduced: 14.0, deprecated: 16.1, renamed: "iphoneGen1Slash")
+    @available(macOS, introduced: 11.0, deprecated: 13.0, renamed: "iphoneGen1Slash")
+    @available(tvOS, introduced: 14.0, deprecated: 16.1, renamed: "iphoneGen1Slash")
+    @available(watchOS, introduced: 7.0, deprecated: 9.1, renamed: "iphoneGen1Slash")
     static let iphoneHomebuttonSlash = SFSymbol(rawValue: "iphone.homebutton.slash")
 
     /// 􀡇
@@ -4729,6 +4755,10 @@ public extension SFSymbol {
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    @available(iOS, introduced: 14.0, deprecated: 16.1, renamed: "macbookAndIphone")
+    @available(macOS, introduced: 11.0, deprecated: 13.0, renamed: "macbookAndIphone")
+    @available(tvOS, introduced: 14.0, deprecated: 16.1, renamed: "macbookAndIphone")
+    @available(watchOS, introduced: 7.0, deprecated: 9.1, renamed: "macbookAndIphone")
     static let laptopcomputerAndIphone = SFSymbol(rawValue: "laptopcomputer.and.iphone")
 
     /// 􀣳

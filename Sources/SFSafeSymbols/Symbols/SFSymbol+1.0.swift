@@ -4,38 +4,54 @@
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
 public extension SFSymbol {
     /// 􀀸
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _0Circle = SFSymbol(rawValue: "0.circle")
+    static let _0Circle = SymbolWith1Localization<Ar_v4_1>(rawValue: "0.circle")
 
     /// 􀀹
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _0CircleFill = SFSymbol(rawValue: "0.circle.fill")
+    static let _0CircleFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "0.circle.fill")
 
     /// 􀃈
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _0Square = SFSymbol(rawValue: "0.square")
+    static let _0Square = SymbolWith1Localization<Ar_v4_1>(rawValue: "0.square")
 
     /// 􀃉
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _0SquareFill = SFSymbol(rawValue: "0.square.fill")
+    static let _0SquareFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "0.square.fill")
 
     /// 􀓫
     /// Single Localization, 2 Layersets
@@ -378,21 +394,29 @@ public extension SFSymbol {
     static let _09SquareFill = SFSymbol(rawValue: "09.square.fill")
 
     /// 􀀺
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _1Circle = SFSymbol(rawValue: "1.circle")
+    static let _1Circle = SymbolWith1Localization<Ar_v4_1>(rawValue: "1.circle")
 
     /// 􀀻
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _1CircleFill = SFSymbol(rawValue: "1.circle.fill")
+    static let _1CircleFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "1.circle.fill")
 
     /// 􀊮
     /// 3 Localizations, Single Layerset
@@ -407,21 +431,29 @@ public extension SFSymbol {
     static let _1Magnifyingglass = SymbolWith2Localizations<Ar_v2, Hi_v3>(rawValue: "1.magnifyingglass")
 
     /// 􀃊
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _1Square = SFSymbol(rawValue: "1.square")
+    static let _1Square = SymbolWith1Localization<Ar_v4_1>(rawValue: "1.square")
 
     /// 􀃋
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _1SquareFill = SFSymbol(rawValue: "1.square.fill")
+    static let _1SquareFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "1.square.fill")
 
     /// 􀓵
     /// Single Localization, 2 Layersets
@@ -764,38 +796,54 @@ public extension SFSymbol {
     static let _19SquareFill = SFSymbol(rawValue: "19.square.fill")
 
     /// 􀀼
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _2Circle = SFSymbol(rawValue: "2.circle")
+    static let _2Circle = SymbolWith1Localization<Ar_v4_1>(rawValue: "2.circle")
 
     /// 􀀽
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _2CircleFill = SFSymbol(rawValue: "2.circle.fill")
+    static let _2CircleFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "2.circle.fill")
 
     /// 􀃌
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _2Square = SFSymbol(rawValue: "2.square")
+    static let _2Square = SymbolWith1Localization<Ar_v4_1>(rawValue: "2.square")
 
     /// 􀃍
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _2SquareFill = SFSymbol(rawValue: "2.square.fill")
+    static let _2SquareFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "2.square.fill")
 
     /// 􀓿
     /// Single Localization, 2 Layersets
@@ -1138,38 +1186,54 @@ public extension SFSymbol {
     static let _29SquareFill = SFSymbol(rawValue: "29.square.fill")
 
     /// 􀀾
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _3Circle = SFSymbol(rawValue: "3.circle")
+    static let _3Circle = SymbolWith1Localization<Ar_v4_1>(rawValue: "3.circle")
 
     /// 􀀿
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _3CircleFill = SFSymbol(rawValue: "3.circle.fill")
+    static let _3CircleFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "3.circle.fill")
 
     /// 􀃎
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _3Square = SFSymbol(rawValue: "3.square")
+    static let _3Square = SymbolWith1Localization<Ar_v4_1>(rawValue: "3.square")
 
     /// 􀃏
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _3SquareFill = SFSymbol(rawValue: "3.square.fill")
+    static let _3SquareFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "3.square.fill")
 
     /// 􀔉
     /// Single Localization, 2 Layersets
@@ -1546,38 +1610,54 @@ public extension SFSymbol {
     static let _4AltSquareFill = SFSymbol(rawValue: "4.alt.square.fill")
 
     /// 􀁀
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _4Circle = SFSymbol(rawValue: "4.circle")
+    static let _4Circle = SymbolWith1Localization<Ar_v4_1>(rawValue: "4.circle")
 
     /// 􀁁
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _4CircleFill = SFSymbol(rawValue: "4.circle.fill")
+    static let _4CircleFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "4.circle.fill")
 
     /// 􀃐
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _4Square = SFSymbol(rawValue: "4.square")
+    static let _4Square = SymbolWith1Localization<Ar_v4_1>(rawValue: "4.square")
 
     /// 􀃑
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _4SquareFill = SFSymbol(rawValue: "4.square.fill")
+    static let _4SquareFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "4.square.fill")
 
     /// 􀚧
     /// Single Localization, 2 Layersets
@@ -1920,38 +2000,54 @@ public extension SFSymbol {
     static let _49SquareFill = SFSymbol(rawValue: "49.square.fill")
 
     /// 􀁂
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _5Circle = SFSymbol(rawValue: "5.circle")
+    static let _5Circle = SymbolWith1Localization<Ar_v4_1>(rawValue: "5.circle")
 
     /// 􀁃
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _5CircleFill = SFSymbol(rawValue: "5.circle.fill")
+    static let _5CircleFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "5.circle.fill")
 
     /// 􀃒
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _5Square = SFSymbol(rawValue: "5.square")
+    static let _5Square = SymbolWith1Localization<Ar_v4_1>(rawValue: "5.square")
 
     /// 􀃓
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _5SquareFill = SFSymbol(rawValue: "5.square.fill")
+    static let _5SquareFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "5.square.fill")
 
     /// 􀚻
     /// Single Localization, 2 Layersets
@@ -2022,106 +2118,154 @@ public extension SFSymbol {
     static let _6AltSquareFill = SFSymbol(rawValue: "6.alt.square.fill")
 
     /// 􀁄
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _6Circle = SFSymbol(rawValue: "6.circle")
+    static let _6Circle = SymbolWith1Localization<Ar_v4_1>(rawValue: "6.circle")
 
     /// 􀁅
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _6CircleFill = SFSymbol(rawValue: "6.circle.fill")
+    static let _6CircleFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "6.circle.fill")
 
     /// 􀃔
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _6Square = SFSymbol(rawValue: "6.square")
+    static let _6Square = SymbolWith1Localization<Ar_v4_1>(rawValue: "6.square")
 
     /// 􀃕
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _6SquareFill = SFSymbol(rawValue: "6.square.fill")
+    static let _6SquareFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "6.square.fill")
 
     /// 􀁆
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _7Circle = SFSymbol(rawValue: "7.circle")
+    static let _7Circle = SymbolWith1Localization<Ar_v4_1>(rawValue: "7.circle")
 
     /// 􀁇
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _7CircleFill = SFSymbol(rawValue: "7.circle.fill")
+    static let _7CircleFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "7.circle.fill")
 
     /// 􀃖
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _7Square = SFSymbol(rawValue: "7.square")
+    static let _7Square = SymbolWith1Localization<Ar_v4_1>(rawValue: "7.square")
 
     /// 􀃗
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _7SquareFill = SFSymbol(rawValue: "7.square.fill")
+    static let _7SquareFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "7.square.fill")
 
     /// 􀁈
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _8Circle = SFSymbol(rawValue: "8.circle")
+    static let _8Circle = SymbolWith1Localization<Ar_v4_1>(rawValue: "8.circle")
 
     /// 􀁉
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _8CircleFill = SFSymbol(rawValue: "8.circle.fill")
+    static let _8CircleFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "8.circle.fill")
 
     /// 􀃘
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _8Square = SFSymbol(rawValue: "8.square")
+    static let _8Square = SymbolWith1Localization<Ar_v4_1>(rawValue: "8.square")
 
     /// 􀃙
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _8SquareFill = SFSymbol(rawValue: "8.square.fill")
+    static let _8SquareFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "8.square.fill")
 
     /// 􀑳
     /// Single Localization, 2 Layersets
@@ -2158,38 +2302,54 @@ public extension SFSymbol {
     static let _9AltSquareFill = SFSymbol(rawValue: "9.alt.square.fill")
 
     /// 􀁊
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _9Circle = SFSymbol(rawValue: "9.circle")
+    static let _9Circle = SymbolWith1Localization<Ar_v4_1>(rawValue: "9.circle")
 
     /// 􀁋
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _9CircleFill = SFSymbol(rawValue: "9.circle.fill")
+    static let _9CircleFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "9.circle.fill")
 
     /// 􀃚
-    /// Single Localization, 2 Layersets
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _9Square = SFSymbol(rawValue: "9.square")
+    static let _9Square = SymbolWith1Localization<Ar_v4_1>(rawValue: "9.square")
 
     /// 􀃛
-    /// Single Localization, 3 Layersets
+    /// 2 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let _9SquareFill = SFSymbol(rawValue: "9.square.fill")
+    static let _9SquareFill = SymbolWith1Localization<Ar_v4_1>(rawValue: "9.square.fill")
 
     /// 􀅏
     /// Single Localization, Single Layerset
@@ -7808,10 +7968,11 @@ public extension SFSymbol {
     static let iSquareFill = SFSymbol(rawValue: "i.square.fill")
 
     /// 􀌋
-    /// Single Localization, Single Layerset, ⚠️ Restricted
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Multicolor (iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
     static let icloud = SFSymbol(rawValue: "icloud")
@@ -8669,6 +8830,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 13.0, deprecated: 16.1, renamed: "lockOpenRotation")
+    @available(macOS, introduced: 11.0, deprecated: 13.0, renamed: "lockOpenRotation")
+    @available(tvOS, introduced: 13.0, deprecated: 16.1, renamed: "lockOpenRotation")
+    @available(watchOS, introduced: 6.0, deprecated: 9.1, renamed: "lockOpenRotation")
     static let lockRotationOpen = SFSymbol(rawValue: "lock.rotation.open")
 
     /// 􀞙
