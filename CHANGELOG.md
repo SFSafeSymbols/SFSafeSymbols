@@ -8,7 +8,22 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- Add Swiftlint suggestion to `README.md` (By [David Furman](https://github.com/dafurman))
+- None
+
+### Changed
+
+- None
+
+### Fixed
+
+- None
+
+## [4.1.0] - 2023-01-01
+
+### Added
+
+- Add support for SF Symbols 4.1 (By [Steven Sorial](https://github.com/StevenSorial))
+- Add SwiftLint suggestion to `README.md` (By [David Furman](https://github.com/dafurman))
 
 ### Changed
 
