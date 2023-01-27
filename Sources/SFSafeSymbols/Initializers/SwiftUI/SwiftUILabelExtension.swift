@@ -9,8 +9,8 @@ public extension Label where Title == Text, Icon == Image {
     /// localized string.
     ///
     /// - Parameter systemSymbol: The `SFSymbol` describing this image.
-    init(_ titleKey: LocalizedStringKey, systemSymbol: SFSymbol) {
-        self.init(titleKey, systemImage: systemSymbol.rawValue)
+    init(_ titleKey: LocalizedStringKey, systemSymbol: SFSymbol?) {
+        self.init(titleKey, systemImage: systemSymbol?.rawValue ?? "")
     }
     
     /// Creates a label with a system symbol image and a title generated from a
@@ -18,8 +18,8 @@ public extension Label where Title == Text, Icon == Image {
     ///
     /// - Parameter systemSymbol: The `SFSymbol` describing this image.
     @_disfavoredOverload
-    init<S>(_ title: S, systemSymbol: SFSymbol) where S : StringProtocol {
-        self.init(title, systemImage: systemSymbol.rawValue)
+    init<S>(_ title: S, systemSymbol: SFSymbol?) where S : StringProtocol {
+        self.init(title, systemImage: systemSymbol?.rawValue ?? "")
     }
 }
 
