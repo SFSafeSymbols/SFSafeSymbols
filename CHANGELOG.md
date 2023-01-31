@@ -12,6 +12,20 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Changed
 
+- None
+
+### Fixed
+
+- None
+
+## [4.1.1] - 2023-01-31
+
+### Added
+
+- None
+
+### Changed
+
 - Changed SwiftUI's `Label` initializer to take an optional `SFSymbol` (By [Steven Sorial](https://github.com/StevenSorial))
 
 ### Fixed
