@@ -200,7 +200,7 @@ custom_rules:
   sf_safe_symbol:
     name: "Safe SFSymbol"
     message: "Use `SFSafeSymbols` via `systemSymbol` parameters for type safety."
-    regex: "(Image\\(systemName:)|(NSImage\\(symbolName:)|(Label.*?systemImage:)|(UIApplicationShortcutIcon\\(systemImageName:)"
+    regex: "(Image\\(systemName:)|(NSImage\\(symbolName:)|(Label[^,]+?,\\s*systemImage:)|(UIApplicationShortcutIcon\\(systemImageName:)"
     severity: warning
 ```
 
