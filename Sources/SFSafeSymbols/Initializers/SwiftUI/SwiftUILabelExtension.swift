@@ -10,10 +10,10 @@ public extension Label where Title == Text, Icon == Image {
     ///
     /// - Parameter systemSymbol: The `SFSymbol` describing this image. No image is shown if nil is passed.
     init(_ titleKey: LocalizedStringKey, systemSymbol: SFSymbol?) {
-        if systemSymbol.rawValue.hasPrefix(FALLBACK_PREFIX) {
+        if let systemSymbol = systemSymbol, systemSymbol.rawValue.hasPrefix(FALLBACK_PREFIX) {
             self.init(titleKey, image: String(systemSymbol.rawValue.dropFirst(FALLBACK_PREFIX.count)))
         } else {
-            self.init(titleKey, systemImage: systemSymbol.rawValue)
+            self.init(titleKey, systemImage: systemSymbol?.rawValue ?? "")
         }
     }
     
@@ -23,7 +23,7 @@ public extension Label where Title == Text, Icon == Image {
     /// - Parameter systemSymbol: The `SFSymbol` describing this image. No image is shown if nil is passed.
     @_disfavoredOverload
     init<S>(_ title: S, systemSymbol: SFSymbol?) where S : StringProtocol {
-        if systemSymbol.rawValue.hasPrefix(FALLBACK_PREFIX) {
+        if let systemSymbol = systemSymbol, systemSymbol.rawValue.hasPrefix(FALLBACK_PREFIX) {
             self.init {
                 Text(title)
             } icon: {
