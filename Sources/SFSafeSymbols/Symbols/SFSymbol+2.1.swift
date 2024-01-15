@@ -82,7 +82,7 @@ public extension SFSymbol {
     static let cartCircleFill = SFSymbol(rawValue: "cart.circle.fill")
 
     /// 􀅏
-    /// 9 Localizations, Single Layerset
+    /// 8 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Latin
@@ -93,14 +93,13 @@ public extension SFSymbol {
     /// - Japanese
     /// - Korean
     /// - Thai
-    /// - Traditional Chinese
     ///
     /// Layersets:
     /// - Monochrome
-    static let character = SymbolWith8Localizations<Ar, He, Hi, Ja, Ko, Th, Zh, ZhTraditional>(rawValue: "character")
+    static let character = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "character")
 
     /// 􀫕
-    /// 9 Localizations, Single Layerset
+    /// 8 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Latin
@@ -111,14 +110,13 @@ public extension SFSymbol {
     /// - Japanese
     /// - Korean
     /// - Thai
-    /// - Traditional Chinese
     ///
     /// Layersets:
     /// - Monochrome
-    static let characterBookClosed = SymbolWith8Localizations<Ar, He, Hi, Ja, Ko, Th, Zh, ZhTraditional>(rawValue: "character.book.closed")
+    static let characterBookClosed = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "character.book.closed")
 
     /// 􀫖
-    /// 9 Localizations, Single Layerset
+    /// 8 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Latin
@@ -129,11 +127,10 @@ public extension SFSymbol {
     /// - Japanese
     /// - Korean
     /// - Thai
-    /// - Traditional Chinese
     ///
     /// Layersets:
     /// - Monochrome
-    static let characterBookClosedFill = SymbolWith8Localizations<Ar, He, Hi, Ja, Ko, Th, Zh, ZhTraditional>(rawValue: "character.book.closed.fill")
+    static let characterBookClosedFill = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "character.book.closed.fill")
 
     /// 􀯛
     /// Single Localization, 2 Layersets
@@ -425,7 +422,7 @@ public extension SFSymbol {
     static let shuffleCircleFill = SFSymbol(rawValue: "shuffle.circle.fill")
 
     /// 􀵿
-    /// 9 Localizations, Single Layerset
+    /// 8 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Latin
@@ -436,14 +433,13 @@ public extension SFSymbol {
     /// - Japanese
     /// - Korean
     /// - Thai
-    /// - Traditional Chinese
     ///
     /// Layersets:
     /// - Monochrome
-    static let textformatSizeLarger = SymbolWith8Localizations<Ar, He, Hi, Ja, Ko, Th, Zh, ZhTraditional>(rawValue: "textformat.size.larger")
+    static let textformatSizeLarger = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "textformat.size.larger")
 
     /// 􀵷
-    /// 9 Localizations, Single Layerset
+    /// 8 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Latin
@@ -454,11 +450,10 @@ public extension SFSymbol {
     /// - Japanese
     /// - Korean
     /// - Thai
-    /// - Traditional Chinese
     ///
     /// Layersets:
     /// - Monochrome
-    static let textformatSizeSmaller = SymbolWith8Localizations<Ar, He, Hi, Ja, Ko, Th, Zh, ZhTraditional>(rawValue: "textformat.size.smaller")
+    static let textformatSizeSmaller = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "textformat.size.smaller")
 
     /// 􀴌
     /// Single Localization, Single Layerset

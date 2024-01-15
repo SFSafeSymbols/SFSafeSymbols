@@ -56,6 +56,10 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Fit Pro.
+    @available(iOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitpro")
+    @available(macOS, introduced: 12.1, deprecated: 14.0, renamed: "beatsFitpro")
+    @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitpro")
+    @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitpro")
     static let beatsFitPro = SFSymbol(rawValue: "beats.fit.pro")
 
     /// 􁅡
@@ -65,6 +69,10 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Fit Pro case.
+    @available(iOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproChargingcase")
+    @available(macOS, introduced: 12.1, deprecated: 14.0, renamed: "beatsFitproChargingcase")
+    @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproChargingcase")
+    @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitproChargingcase")
     static let beatsFitProChargingcase = SFSymbol(rawValue: "beats.fit.pro.chargingcase")
 
     /// 􁅢
@@ -74,6 +82,10 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Fit Pro case.
+    @available(iOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproChargingcaseFill")
+    @available(macOS, introduced: 12.1, deprecated: 14.0, renamed: "beatsFitproChargingcaseFill")
+    @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproChargingcaseFill")
+    @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitproChargingcaseFill")
     static let beatsFitProChargingcaseFill = SFSymbol(rawValue: "beats.fit.pro.chargingcase.fill")
 
     /// 􁅟
@@ -84,6 +96,10 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Fit Pro.
+    @available(iOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproLeft")
+    @available(macOS, introduced: 12.1, deprecated: 14.0, renamed: "beatsFitproLeft")
+    @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproLeft")
+    @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitproLeft")
     static let beatsFitProLeft = SFSymbol(rawValue: "beats.fit.pro.left")
 
     /// 􁅠
@@ -94,6 +110,10 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Fit Pro.
+    @available(iOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproRight")
+    @available(macOS, introduced: 12.1, deprecated: 14.0, renamed: "beatsFitproRight")
+    @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproRight")
+    @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitproRight")
     static let beatsFitProRight = SFSymbol(rawValue: "beats.fit.pro.right")
 
     /// 􁋶

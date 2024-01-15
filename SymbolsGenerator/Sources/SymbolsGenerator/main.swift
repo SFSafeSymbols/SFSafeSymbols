@@ -15,7 +15,7 @@ guard
         .flatMap(StringDictionaryFileParser.parse)?
         .map({ (oldName: $0.key, newName: $0.value) }),
     let legacyAliases = SFFileManager
-        .read(file: "legacy_aliases_strings", withExtension: "txt")
+        .read(file: "legacy_aliases", withExtension: "strings")
         .flatMap(StringDictionaryFileParser.parse)?
         .map({ (legacyName: $0.key, releasedName: $0.value) }),
     var symbolRestrictions = SFFileManager
@@ -67,7 +67,7 @@ func otherAliases(for symbolName: String) -> [ScannedSymbol] {
             .map(\.oldName) + [newestAlias]
     }
     return result
-        .map { name in symbolManifest.first { $0.name == name }! }
+        .compactMap { name in symbolManifest.first { $0.name == name } }
         .sorted(on: \.availability, by: >)
 }
 

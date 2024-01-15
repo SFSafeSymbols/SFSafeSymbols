@@ -69,6 +69,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "characterMagnify")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "characterMagnify")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "characterMagnify")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "characterMagnify")
     static let aMagnify = SFSymbol(rawValue: "a.magnify")
 
     /// 􀥊
@@ -79,11 +83,12 @@ public extension SFSymbol {
     static let abc = SFSymbol(rawValue: "abc")
 
     /// 􀒸
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     static let airplaneCircle = SFSymbol(rawValue: "airplane.circle")
 
     /// 􀒹
@@ -634,10 +639,11 @@ public extension SFSymbol {
     static let arrowLeftAndRightRighttriangleLeftRighttriangleRightFill = SFSymbol(rawValue: "arrow.left.and.right.righttriangle.left.righttriangle.right.fill")
 
     /// 􀄭
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     static let arrowLeftArrowRight = SFSymbol(rawValue: "arrow.left.arrow.right")
 
     /// 􀂀
@@ -1584,6 +1590,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "battery100percentBolt")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "battery100percentBolt")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "battery100percentBolt")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "battery100percentBolt")
     static let battery100Bolt = SymbolWith1Localization<Rtl>(rawValue: "battery.100.bolt")
 
     /// 􀝖
@@ -1605,11 +1615,12 @@ public extension SFSymbol {
     static let bellBadgeFill = SFSymbol(rawValue: "bell.badge.fill")
 
     /// 􀋟
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     static let bellSlashCircle = SFSymbol(rawValue: "bell.slash.circle")
 
     /// 􀋠
@@ -1720,11 +1731,12 @@ public extension SFSymbol {
     static let boltHeartFill = SFSymbol(rawValue: "bolt.heart.fill")
 
     /// 􀋫
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     static let boltSlashCircle = SFSymbol(rawValue: "bolt.slash.circle")
 
     /// 􀋬
@@ -1945,6 +1957,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "cameraBadgeEllipsisFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "cameraBadgeEllipsisFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "cameraBadgeEllipsisFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "cameraBadgeEllipsisFill")
     static let cameraFillBadgeEllipsis = SFSymbol(rawValue: "camera.fill.badge.ellipsis")
 
     /// 􀟗
@@ -2128,6 +2144,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "rectangleCheckered")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "rectangleCheckered")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "rectangleCheckered")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "rectangleCheckered")
     static let checkerboardRectangle = SFSymbol(rawValue: "checkerboard.rectangle")
 
     /// 􀢓
@@ -2583,10 +2603,11 @@ public extension SFSymbol {
     static let creditcardCircleFill = SFSymbol(rawValue: "creditcard.circle.fill")
 
     /// 􀣜
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     static let cross = SFSymbol(rawValue: "cross")
 
     /// 􀯙
@@ -2625,10 +2646,11 @@ public extension SFSymbol {
     static let crossCircleFill = SFSymbol(rawValue: "cross.circle.fill")
 
     /// 􀣝
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     static let crossFill = SFSymbol(rawValue: "cross.fill")
 
     /// 􀦅
@@ -3060,7 +3082,7 @@ public extension SFSymbol {
     static let docPlaintextFill = SFSymbol(rawValue: "doc.plaintext.fill")
 
     /// 􀦊
-    /// 9 Localizations, Single Layerset
+    /// 8 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Latin
@@ -3071,14 +3093,13 @@ public extension SFSymbol {
     /// - Japanese (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Korean (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Thai (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    /// - Traditional Chinese (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// Layersets:
     /// - Monochrome
-    static let docRichtextFill = SymbolWith8Localizations<Ar, He, Hi_v3, Ja_v3, Ko_v3, Th_v3, ZhTraditional_v3, Zh_v3>(rawValue: "doc.richtext.fill")
+    static let docRichtextFill = SymbolWith7Localizations<Ar, He, Hi_v3, Ja_v3, Ko_v3, Th_v3, Zh_v3>(rawValue: "doc.richtext.fill")
 
     /// 􀳼
-    /// 2 Localizations, Single Layerset
+    /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Left-to-Right
@@ -3086,6 +3107,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     static let docTextBelowEcg = SymbolWith1Localization<Rtl_v2_1>(rawValue: "doc.text.below.ecg")
 
     /// 􀳽
@@ -3185,10 +3207,11 @@ public extension SFSymbol {
     static let dotSquareshapeFill = SFSymbol(rawValue: "dot.squareshape.fill")
 
     /// 􀮋
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     static let dotSquareshapeSplit2x2 = SFSymbol(rawValue: "dot.squareshape.split.2x2")
 
     /// 􀨲
@@ -3458,11 +3481,12 @@ public extension SFSymbol {
     static let externaldriveBadgeCheckmark = SFSymbol(rawValue: "externaldrive.badge.checkmark")
 
     /// 􀪹
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     static let externaldriveBadgeIcloud = SFSymbol(rawValue: "externaldrive.badge.icloud")
 
     /// 􀩏
@@ -3549,11 +3573,12 @@ public extension SFSymbol {
     static let externaldriveFillBadgeCheckmark = SFSymbol(rawValue: "externaldrive.fill.badge.checkmark")
 
     /// 􀪺
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     static let externaldriveFillBadgeIcloud = SFSymbol(rawValue: "externaldrive.fill.badge.icloud")
 
     /// 􀩓
@@ -3649,10 +3674,11 @@ public extension SFSymbol {
     static let eyesInverse = SFSymbol(rawValue: "eyes.inverse")
 
     /// 􀥧
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     static let faceDashed = SFSymbol(rawValue: "face.dashed")
 
     /// 􀨸
@@ -3822,11 +3848,12 @@ public extension SFSymbol {
     static let flagBadgeEllipsisFill = SFSymbol(rawValue: "flag.badge.ellipsis.fill")
 
     /// 􀋏
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     static let flagSlashCircle = SFSymbol(rawValue: "flag.slash.circle")
 
     /// 􀋐
@@ -4151,6 +4178,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "handsAndSparkles")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "handsAndSparkles")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "handsAndSparkles")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "handsAndSparkles")
     static let handsSparkles = SFSymbol(rawValue: "hands.sparkles")
 
     /// 􀲯
@@ -4159,6 +4190,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "handsAndSparklesFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "handsAndSparklesFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "handsAndSparklesFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "handsAndSparklesFill")
     static let handsSparklesFill = SFSymbol(rawValue: "hands.sparkles.fill")
 
     /// 􀒾
@@ -4243,10 +4278,11 @@ public extension SFSymbol {
     static let hifispeakerAndHomepodFill = SFSymbol(rawValue: "hifispeaker.and.homepod.fill")
 
     /// 􀦇
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     static let highlighter = SFSymbol(rawValue: "highlighter")
 
     /// 􀠀
@@ -4677,6 +4713,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "lButtonRoundedbottomHorizontal")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "lButtonRoundedbottomHorizontal")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "lButtonRoundedbottomHorizontal")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "lButtonRoundedbottomHorizontal")
     static let lRectangleRoundedbottom = SFSymbol(rawValue: "l.rectangle.roundedbottom")
 
     /// 􀨈
@@ -4686,6 +4726,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "lButtonRoundedbottomHorizontalFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "lButtonRoundedbottomHorizontalFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "lButtonRoundedbottomHorizontalFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "lButtonRoundedbottomHorizontalFill")
     static let lRectangleRoundedbottomFill = SFSymbol(rawValue: "l.rectangle.roundedbottom.fill")
 
     /// 􀨉
@@ -4694,6 +4738,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "l1ButtonRoundedbottomHorizontal")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "l1ButtonRoundedbottomHorizontal")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "l1ButtonRoundedbottomHorizontal")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "l1ButtonRoundedbottomHorizontal")
     static let l1RectangleRoundedbottom = SFSymbol(rawValue: "l1.rectangle.roundedbottom")
 
     /// 􀨊
@@ -4703,6 +4751,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "l1ButtonRoundedbottomHorizontalFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "l1ButtonRoundedbottomHorizontalFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "l1ButtonRoundedbottomHorizontalFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "l1ButtonRoundedbottomHorizontalFill")
     static let l1RectangleRoundedbottomFill = SFSymbol(rawValue: "l1.rectangle.roundedbottom.fill")
 
     /// 􀨋
@@ -4711,6 +4763,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "l2ButtonRoundedtopHorizontal")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "l2ButtonRoundedtopHorizontal")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "l2ButtonRoundedtopHorizontal")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "l2ButtonRoundedtopHorizontal")
     static let l2RectangleRoundedtop = SFSymbol(rawValue: "l2.rectangle.roundedtop")
 
     /// 􀨌
@@ -4720,6 +4776,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "l2ButtonRoundedtopHorizontalFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "l2ButtonRoundedtopHorizontalFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "l2ButtonRoundedtopHorizontalFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "l2ButtonRoundedtopHorizontalFill")
     static let l2RectangleRoundedtopFill = SFSymbol(rawValue: "l2.rectangle.roundedtop.fill")
 
     /// 􀯔
@@ -4762,11 +4822,10 @@ public extension SFSymbol {
     static let laptopcomputerAndIphone = SFSymbol(rawValue: "laptopcomputer.and.iphone")
 
     /// 􀣳
-    /// Single Localization, 2 Layersets
+    /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     @available(iOS, introduced: 14.0, deprecated: 15.0, renamed: "lassoAndSparkles")
     @available(macOS, introduced: 11.0, deprecated: 12.0, renamed: "lassoAndSparkles")
     @available(tvOS, introduced: 14.0, deprecated: 15.0, renamed: "lassoAndSparkles")
@@ -4793,6 +4852,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "lbButtonRoundedbottomHorizontal")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "lbButtonRoundedbottomHorizontal")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "lbButtonRoundedbottomHorizontal")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "lbButtonRoundedbottomHorizontal")
     static let lbRectangleRoundedbottom = SFSymbol(rawValue: "lb.rectangle.roundedbottom")
 
     /// 􀨔
@@ -4802,6 +4865,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "lbButtonRoundedbottomHorizontalFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "lbButtonRoundedbottomHorizontalFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "lbButtonRoundedbottomHorizontalFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "lbButtonRoundedbottomHorizontalFill")
     static let lbRectangleRoundedbottomFill = SFSymbol(rawValue: "lb.rectangle.roundedbottom.fill")
 
     /// 􀥲
@@ -5004,6 +5071,10 @@ public extension SFSymbol {
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Live Photos feature.
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "livephotoBadgeAutomatic")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "livephotoBadgeAutomatic")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "livephotoBadgeAutomatic")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "livephotoBadgeAutomatic")
     static let livephotoBadgeA = SFSymbol(rawValue: "livephoto.badge.a")
 
     /// 􀮄
@@ -5140,6 +5211,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "ltButtonRoundedtopHorizontal")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "ltButtonRoundedtopHorizontal")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "ltButtonRoundedtopHorizontal")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "ltButtonRoundedtopHorizontal")
     static let ltRectangleRoundedtop = SFSymbol(rawValue: "lt.rectangle.roundedtop")
 
     /// 􀨘
@@ -5149,6 +5224,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "ltButtonRoundedtopHorizontalFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "ltButtonRoundedtopHorizontalFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "ltButtonRoundedtopHorizontalFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "ltButtonRoundedtopHorizontalFill")
     static let ltRectangleRoundedtopFill = SFSymbol(rawValue: "lt.rectangle.roundedtop.fill")
 
     /// 􀦚
@@ -5381,11 +5460,12 @@ public extension SFSymbol {
     static let minusDiamondFill = SFSymbol(rawValue: "minus.diamond.fill")
 
     /// 􀫬
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     static let minusPlusBatteryblock = SFSymbol(rawValue: "minus.plus.batteryblock")
 
     /// 􀫭
@@ -5896,6 +5976,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "phoneBubble")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "phoneBubble")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "phoneBubble")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "phoneBubble")
     static let phoneBubbleLeft = SFSymbol(rawValue: "phone.bubble.left")
 
     /// 􀱯
@@ -5905,6 +5989,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "phoneBubbleFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "phoneBubbleFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "phoneBubbleFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "phoneBubbleFill")
     static let phoneBubbleLeftFill = SFSymbol(rawValue: "phone.bubble.left.fill")
 
     /// 􀬛
@@ -6130,12 +6218,10 @@ public extension SFSymbol {
     static let plusViewfinder = SFSymbol(rawValue: "plus.viewfinder")
 
     /// 􀬱
-    /// Single Localization, 3 Layersets
+    /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @available(iOS, introduced: 14.0, deprecated: 15.0, renamed: "pointTopleftDownCurvedtoPointBottomrightUpFill")
     @available(macOS, introduced: 11.0, deprecated: 12.0, renamed: "pointTopleftDownCurvedtoPointBottomrightUpFill")
     @available(tvOS, introduced: 14.0, deprecated: 15.0, renamed: "pointTopleftDownCurvedtoPointBottomrightUpFill")
@@ -6149,6 +6235,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "pointTopleftDownToPointBottomrightCurvepath")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "pointTopleftDownToPointBottomrightCurvepath")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "pointTopleftDownToPointBottomrightCurvepath")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "pointTopleftDownToPointBottomrightCurvepath")
     static let pointTopleftDownCurvedtoPointBottomrightUp = SFSymbol(rawValue: "point.topleft.down.curvedto.point.bottomright.up")
 
     /// 􀥥
@@ -6321,6 +6411,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "rButtonRoundedbottomHorizontal")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "rButtonRoundedbottomHorizontal")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "rButtonRoundedbottomHorizontal")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "rButtonRoundedbottomHorizontal")
     static let rRectangleRoundedbottom = SFSymbol(rawValue: "r.rectangle.roundedbottom")
 
     /// 􀨎
@@ -6330,6 +6424,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "rButtonRoundedbottomHorizontalFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "rButtonRoundedbottomHorizontalFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "rButtonRoundedbottomHorizontalFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "rButtonRoundedbottomHorizontalFill")
     static let rRectangleRoundedbottomFill = SFSymbol(rawValue: "r.rectangle.roundedbottom.fill")
 
     /// 􀭙
@@ -6360,6 +6458,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "r1ButtonRoundedbottomHorizontal")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "r1ButtonRoundedbottomHorizontal")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "r1ButtonRoundedbottomHorizontal")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "r1ButtonRoundedbottomHorizontal")
     static let r1RectangleRoundedbottom = SFSymbol(rawValue: "r1.rectangle.roundedbottom")
 
     /// 􀨐
@@ -6369,6 +6471,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "r1ButtonRoundedbottomHorizontalFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "r1ButtonRoundedbottomHorizontalFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "r1ButtonRoundedbottomHorizontalFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "r1ButtonRoundedbottomHorizontalFill")
     static let r1RectangleRoundedbottomFill = SFSymbol(rawValue: "r1.rectangle.roundedbottom.fill")
 
     /// 􀨑
@@ -6377,6 +6483,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "r2ButtonRoundedtopHorizontal")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "r2ButtonRoundedtopHorizontal")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "r2ButtonRoundedtopHorizontal")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "r2ButtonRoundedtopHorizontal")
     static let r2RectangleRoundedtop = SFSymbol(rawValue: "r2.rectangle.roundedtop")
 
     /// 􀨒
@@ -6386,6 +6496,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "r2ButtonRoundedtopHorizontalFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "r2ButtonRoundedtopHorizontalFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "r2ButtonRoundedtopHorizontalFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "r2ButtonRoundedtopHorizontalFill")
     static let r2RectangleRoundedtopFill = SFSymbol(rawValue: "r2.rectangle.roundedtop.fill")
 
     /// 􀪔
@@ -6408,6 +6522,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "rbButtonRoundedbottomHorizontal")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "rbButtonRoundedbottomHorizontal")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "rbButtonRoundedbottomHorizontal")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "rbButtonRoundedbottomHorizontal")
     static let rbRectangleRoundedbottom = SFSymbol(rawValue: "rb.rectangle.roundedbottom")
 
     /// 􀨖
@@ -6417,6 +6535,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "rbButtonRoundedbottomHorizontalFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "rbButtonRoundedbottomHorizontalFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "rbButtonRoundedbottomHorizontalFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "rbButtonRoundedbottomHorizontalFill")
     static let rbRectangleRoundedbottomFill = SFSymbol(rawValue: "rb.rectangle.roundedbottom.fill")
 
     /// 􀢙
@@ -6437,11 +6559,10 @@ public extension SFSymbol {
     static let recordCircleFill = SFSymbol(rawValue: "record.circle.fill")
 
     /// 􀬄
-    /// Single Localization, 2 Layersets
+    /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     @available(iOS, introduced: 14.0, deprecated: 15.0, renamed: "rectangle3GroupBubbleLeft")
     @available(macOS, introduced: 11.0, deprecated: 12.0, renamed: "rectangle3GroupBubbleLeft")
     @available(tvOS, introduced: 14.0, deprecated: 15.0, renamed: "rectangle3GroupBubbleLeft")
@@ -6449,12 +6570,10 @@ public extension SFSymbol {
     static let rectangle3OffgridBubbleLeft = SFSymbol(rawValue: "rectangle.3.offgrid.bubble.left")
 
     /// 􀬅
-    /// Single Localization, 3 Layersets
+    /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @available(iOS, introduced: 14.0, deprecated: 15.0, renamed: "rectangle3GroupBubbleLeftFill")
     @available(macOS, introduced: 11.0, deprecated: 12.0, renamed: "rectangle3GroupBubbleLeftFill")
     @available(tvOS, introduced: 14.0, deprecated: 15.0, renamed: "rectangle3GroupBubbleLeftFill")
@@ -6827,6 +6946,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "buttonRoundedbottomHorizontal")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "buttonRoundedbottomHorizontal")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "buttonRoundedbottomHorizontal")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "buttonRoundedbottomHorizontal")
     static let rectangleRoundedbottom = SFSymbol(rawValue: "rectangle.roundedbottom")
 
     /// 􀩻
@@ -6834,6 +6957,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "buttonRoundedbottomHorizontalFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "buttonRoundedbottomHorizontalFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "buttonRoundedbottomHorizontalFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "buttonRoundedbottomHorizontalFill")
     static let rectangleRoundedbottomFill = SFSymbol(rawValue: "rectangle.roundedbottom.fill")
 
     /// 􀩸
@@ -6841,6 +6968,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "buttonRoundedtopHorizontal")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "buttonRoundedtopHorizontal")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "buttonRoundedtopHorizontal")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "buttonRoundedtopHorizontal")
     static let rectangleRoundedtop = SFSymbol(rawValue: "rectangle.roundedtop")
 
     /// 􀩹
@@ -6848,6 +6979,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "buttonRoundedtopHorizontalFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "buttonRoundedtopHorizontalFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "buttonRoundedtopHorizontalFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "buttonRoundedtopHorizontalFill")
     static let rectangleRoundedtopFill = SFSymbol(rawValue: "rectangle.roundedtop.fill")
 
     /// 􀣤
@@ -6936,6 +7071,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "rtButtonRoundedtopHorizontal")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "rtButtonRoundedtopHorizontal")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "rtButtonRoundedtopHorizontal")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "rtButtonRoundedtopHorizontal")
     static let rtRectangleRoundedtop = SFSymbol(rawValue: "rt.rectangle.roundedtop")
 
     /// 􀨚
@@ -6945,6 +7084,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "rtButtonRoundedtopHorizontalFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "rtButtonRoundedtopHorizontalFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "rtButtonRoundedtopHorizontalFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "rtButtonRoundedtopHorizontalFill")
     static let rtRectangleRoundedtopFill = SFSymbol(rawValue: "rt.rectangle.roundedtop.fill")
 
     /// 􀟀
@@ -7831,6 +7974,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "squareStack3dUpBadgeAutomatic")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "squareStack3dUpBadgeAutomatic")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "squareStack3dUpBadgeAutomatic")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "squareStack3dUpBadgeAutomatic")
     static let squareStack3dUpBadgeA = SFSymbol(rawValue: "square.stack.3d.up.badge.a")
 
     /// 􀙑
@@ -7840,6 +7987,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "squareStack3dUpBadgeAutomaticFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "squareStack3dUpBadgeAutomaticFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "squareStack3dUpBadgeAutomaticFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "squareStack3dUpBadgeAutomaticFill")
     static let squareStack3dUpBadgeAFill = SFSymbol(rawValue: "square.stack.3d.up.badge.a.fill")
 
     /// 􀪛
@@ -7875,6 +8026,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "squareshapeDottedSquareshape")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "squareshapeDottedSquareshape")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "squareshapeDottedSquareshape")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "squareshapeDottedSquareshape")
     static let squareshapeDashedSquareshape = SFSymbol(rawValue: "squareshape.dashed.squareshape")
 
     /// 􀣯
@@ -7911,6 +8066,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "squareshapeSquareshapeDotted")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "squareshapeSquareshapeDotted")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "squareshapeSquareshapeDotted")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "squareshapeSquareshapeDotted")
     static let squareshapeSquareshapeDashed = SFSymbol(rawValue: "squareshape.squareshape.dashed")
 
     /// 􀋄
@@ -8069,17 +8228,27 @@ public extension SFSymbol {
     static let teletypeCircleFill = SFSymbol(rawValue: "teletype.circle.fill")
 
     /// 􀩼
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "appleTerminal")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "appleTerminal")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "appleTerminal")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "appleTerminal")
     static let terminal = SFSymbol(rawValue: "terminal")
 
     /// 􀪏
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "appleTerminalFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "appleTerminalFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "appleTerminalFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "appleTerminalFill")
     static let terminalFill = SFSymbol(rawValue: "terminal.fill")
 
     /// 􀣚
@@ -8298,6 +8467,10 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "videoBubble")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "videoBubble")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "videoBubble")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "videoBubble")
     static let videoBubbleLeft = SFSymbol(rawValue: "video.bubble.left")
 
     /// 􀱱
@@ -8309,6 +8482,10 @@ public extension SFSymbol {
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "videoBubbleFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "videoBubbleFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "videoBubbleFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "videoBubbleFill")
     static let videoBubbleLeftFill = SFSymbol(rawValue: "video.bubble.left.fill")
 
     /// 􀮻
@@ -8580,6 +8757,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "zlButtonRoundedtopHorizontal")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "zlButtonRoundedtopHorizontal")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "zlButtonRoundedtopHorizontal")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "zlButtonRoundedtopHorizontal")
     static let zlRectangleRoundedtop = SFSymbol(rawValue: "zl.rectangle.roundedtop")
 
     /// 􀨜
@@ -8589,6 +8770,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "zlButtonRoundedtopHorizontalFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "zlButtonRoundedtopHorizontalFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "zlButtonRoundedtopHorizontalFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "zlButtonRoundedtopHorizontalFill")
     static let zlRectangleRoundedtopFill = SFSymbol(rawValue: "zl.rectangle.roundedtop.fill")
 
     /// 􀨝
@@ -8597,6 +8782,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "zrButtonRoundedtopHorizontal")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "zrButtonRoundedtopHorizontal")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "zrButtonRoundedtopHorizontal")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "zrButtonRoundedtopHorizontal")
     static let zrRectangleRoundedtop = SFSymbol(rawValue: "zr.rectangle.roundedtop")
 
     /// 􀨞
@@ -8606,5 +8795,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 17.0, renamed: "zrButtonRoundedtopHorizontalFill")
+    @available(macOS, introduced: 11.0, deprecated: 14.0, renamed: "zrButtonRoundedtopHorizontalFill")
+    @available(tvOS, introduced: 14.0, deprecated: 17.0, renamed: "zrButtonRoundedtopHorizontalFill")
+    @available(watchOS, introduced: 7.0, deprecated: 10.0, renamed: "zrButtonRoundedtopHorizontalFill")
     static let zrRectangleRoundedtopFill = SFSymbol(rawValue: "zr.rectangle.roundedtop.fill")
 }

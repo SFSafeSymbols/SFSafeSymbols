@@ -24,7 +24,7 @@ public extension SFSymbol {
     static let applewatchSideRight = SFSymbol(rawValue: "applewatch.side.right")
 
     /// 􀌰
-    /// 9 Localizations, 2 Layersets
+    /// 8 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -35,15 +35,14 @@ public extension SFSymbol {
     /// - Japanese (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Korean (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Thai (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    /// - Traditional Chinese (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterBubble = SymbolWith8Localizations<Ar, He, Hi_v3, Ja_v3, Ko_v3, Th_v3, ZhTraditional_v3, Zh_v3>(rawValue: "character.bubble")
+    static let characterBubble = SymbolWith7Localizations<Ar, He, Hi_v3, Ja_v3, Ko_v3, Th_v3, Zh_v3>(rawValue: "character.bubble")
 
     /// 􀌱
-    /// 9 Localizations, 3 Layersets
+    /// 8 Localizations, 3 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -54,16 +53,15 @@ public extension SFSymbol {
     /// - Japanese (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Korean (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Thai (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    /// - Traditional Chinese (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    static let characterBubbleFill = SymbolWith8Localizations<Ar, He, Hi_v3, Ja_v3, Ko_v3, Th_v3, ZhTraditional_v3, Zh_v3>(rawValue: "character.bubble.fill")
+    static let characterBubbleFill = SymbolWith7Localizations<Ar, He, Hi_v3, Ja_v3, Ko_v3, Th_v3, Zh_v3>(rawValue: "character.bubble.fill")
 
     /// 􀅫
-    /// 9 Localizations, 2 Layersets
+    /// 8 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -74,15 +72,14 @@ public extension SFSymbol {
     /// - Japanese
     /// - Korean
     /// - Thai
-    /// - Traditional Chinese
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterCursorIbeam = SymbolWith8Localizations<Ar, He, Hi, Ja, Ko, Th, Zh, ZhTraditional>(rawValue: "character.cursor.ibeam")
+    static let characterCursorIbeam = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "character.cursor.ibeam")
 
     /// 􀅶
-    /// 9 Localizations, 2 Layersets
+    /// 8 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -93,12 +90,11 @@ public extension SFSymbol {
     /// - Japanese
     /// - Korean
     /// - Thai
-    /// - Traditional Chinese
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterTextbox = SymbolWith8Localizations<Ar, He, Hi, Ja, Ko, Th, Zh, ZhTraditional>(rawValue: "character.textbox")
+    static let characterTextbox = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "character.textbox")
 
     /// 􀷭
     /// Single Localization, 2 Layersets, ⚠️ Restricted
