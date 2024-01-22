@@ -24,6 +24,9 @@
 		636A46C928002819007E6028 /* SFSymbol+AllSymbols+2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46B928002819007E6028 /* SFSymbol+AllSymbols+2.1.swift */; };
 		636A46CA28002819007E6028 /* SFSymbol+AllSymbols+2.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46BA28002819007E6028 /* SFSymbol+AllSymbols+2.0.swift */; };
 		636EBFD427EB2ABC005CFF4C /* SymbolWithLocalizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636EBFD327EB2ABC005CFF4C /* SymbolWithLocalizations.swift */; };
+		8AD97FE02B5E9AC20058C050 /* DisplayRepresentation.Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD97FDF2B5E9AC20058C050 /* DisplayRepresentation.Image.swift */; };
+		8AD97FE22B5E9B790058C050 /* DisplayRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD97FE12B5E9B790058C050 /* DisplayRepresentation.swift */; };
+		8AD97FE62B5EA17D0058C050 /* DisplayRepresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD97FE42B5EA0B70058C050 /* DisplayRepresentationTests.swift */; };
 		B00FBD8E285E146400A7878B /* LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00FBD8D285E146400A7878B /* LocalizationTests.swift */; };
 		B01C186D2B55D9B300AC4288 /* SFSymbol+5.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01C18652B55D9B300AC4288 /* SFSymbol+5.0.swift */; };
 		B01C186E2B55D9B300AC4288 /* SFSymbol+5.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01C18662B55D9B300AC4288 /* SFSymbol+5.2.swift */; };
@@ -85,6 +88,9 @@
 		636A46B928002819007E6028 /* SFSymbol+AllSymbols+2.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+2.1.swift"; sourceTree = "<group>"; };
 		636A46BA28002819007E6028 /* SFSymbol+AllSymbols+2.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+2.0.swift"; sourceTree = "<group>"; };
 		636EBFD327EB2ABC005CFF4C /* SymbolWithLocalizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolWithLocalizations.swift; sourceTree = "<group>"; };
+		8AD97FDF2B5E9AC20058C050 /* DisplayRepresentation.Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayRepresentation.Image.swift; sourceTree = "<group>"; };
+		8AD97FE12B5E9B790058C050 /* DisplayRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayRepresentation.swift; sourceTree = "<group>"; };
+		8AD97FE42B5EA0B70058C050 /* DisplayRepresentationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayRepresentationTests.swift; sourceTree = "<group>"; };
 		B00FBD8D285E146400A7878B /* LocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationTests.swift; sourceTree = "<group>"; };
 		B01C18652B55D9B300AC4288 /* SFSymbol+5.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+5.0.swift"; sourceTree = "<group>"; };
 		B01C18662B55D9B300AC4288 /* SFSymbol+5.2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+5.2.swift"; sourceTree = "<group>"; };
@@ -146,6 +152,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8AD97FDE2B5E9A830058C050 /* AppIntents */ = {
+			isa = PBXGroup;
+			children = (
+				8AD97FDF2B5E9AC20058C050 /* DisplayRepresentation.Image.swift */,
+				8AD97FE12B5E9B790058C050 /* DisplayRepresentation.swift */,
+			);
+			path = AppIntents;
+			sourceTree = "<group>";
+		};
+		8AD97FE32B5EA07C0058C050 /* AppIntents */ = {
+			isa = PBXGroup;
+			children = (
+				8AD97FE42B5EA0B70058C050 /* DisplayRepresentationTests.swift */,
+			);
+			path = AppIntents;
+			sourceTree = "<group>";
+		};
 		96244F11253F15B700253B88 /* SFSafeSymbols */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +200,7 @@
 			children = (
 				CC1D813027F758D900CACDC7 /* Helpers */,
 				B0DDAE102637BF0700081F1C /* Core */,
+				8AD97FE32B5EA07C0058C050 /* AppIntents */,
 				CCCCD05B252F7F8300C7CE9F /* AppKit */,
 				CCCCD034252F62D400C7CE9F /* SwiftUI */,
 				CCCCD039252F62DB00C7CE9F /* UIKit */,
@@ -236,6 +260,7 @@
 		CCCCCFE6252F61E700C7CE9F /* Initializers */ = {
 			isa = PBXGroup;
 			children = (
+				8AD97FDE2B5E9A830058C050 /* AppIntents */,
 				CCCCD04C252F632900C7CE9F /* AppKit */,
 				CCCCCFFE252F620400C7CE9F /* SwiftUI */,
 				CCCCD003252F620B00C7CE9F /* UIKit */,
@@ -438,6 +463,7 @@
 				B01C186E2B55D9B300AC4288 /* SFSymbol+5.2.swift in Sources */,
 				636A46BD28002819007E6028 /* SFSymbol+2.0.swift in Sources */,
 				CCCCCFEF252F61E700C7CE9F /* UIApplicationShortcutIconExtension.swift in Sources */,
+				8AD97FE02B5E9AC20058C050 /* DisplayRepresentation.Image.swift in Sources */,
 				636A46BE28002819007E6028 /* SFSymbol+AllSymbols+3.2.swift in Sources */,
 				B01C186D2B55D9B300AC4288 /* SFSymbol+5.0.swift in Sources */,
 				CCA29C3D285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift in Sources */,
@@ -446,6 +472,7 @@
 				636A46C528002819007E6028 /* SFSymbol+AllSymbols.swift in Sources */,
 				CCCCCFF1252F61E700C7CE9F /* UIImageExtension.swift in Sources */,
 				B01C18712B55D9B300AC4288 /* SFSymbol+5.1.swift in Sources */,
+				8AD97FE22B5E9B790058C050 /* DisplayRepresentation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +480,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				8AD97FE62B5EA17D0058C050 /* DisplayRepresentationTests.swift in Sources */,
 				CCCCD019252F622B00C7CE9F /* SwiftUILabelExtensionTests.swift in Sources */,
 				B0DDAE152637C11400081F1C /* CodableTests.swift in Sources */,
 				CCCCD016252F622B00C7CE9F /* SwiftUIImageExtensionTests.swift in Sources */,
