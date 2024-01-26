@@ -7281,20 +7281,6 @@ public extension SFSymbol {
     /// - Hierarchical
     static let tengesignArrowCirclepath = SFSymbol(rawValue: "tengesign.arrow.circlepath")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformat12Km = SFSymbol(rawValue: "textformat.12.km")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformat12My = SFSymbol(rawValue: "textformat.12.my")
-
     /// 􁷉
     /// Single Localization, 3 Layersets
     ///

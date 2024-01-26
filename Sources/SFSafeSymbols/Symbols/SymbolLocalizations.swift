@@ -5,11 +5,12 @@ public enum Localization: String, Equatable {
     case he = "he"
     case hi = "hi"
     case ja = "ja"
+    case km = "km"
     case ko = "ko"
+    case my = "my"
     case rtl = "rtl"
     case th = "th"
     case zh = "zh"
-    case zhTraditional = "zh.traditional"
 }
 
 // MARK: - Static Localization
@@ -175,6 +176,22 @@ public struct Ja_v3: SymbolLocalization {
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
+public struct Km: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
+    public var km: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.km.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
+public struct Km_v5: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
+    public var km: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.km.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
 public struct Ko: SymbolLocalization {
     let source: SFSymbol
     public init(source: SFSymbol) { self.source = source }
@@ -204,6 +221,22 @@ public struct Ko_v3: SymbolLocalization {
     public init(source: SFSymbol) { self.source = source }
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *)
     public var ko: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ko.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
+public struct My: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
+    public var my: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.my.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
+public struct My_v5: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
+    public var my: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.my.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
@@ -284,14 +317,6 @@ public struct Zh: SymbolLocalization {
     public init(source: SFSymbol) { self.source = source }
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
     public var zh: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.zh.rawValue)") }
-}
-
-@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
-public struct ZhTraditional: SymbolLocalization {
-    let source: SFSymbol
-    public init(source: SFSymbol) { self.source = source }
-    @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
-    public var zhTraditional: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.zhTraditional.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)

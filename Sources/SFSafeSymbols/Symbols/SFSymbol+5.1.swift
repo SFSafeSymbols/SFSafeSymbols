@@ -3,42 +3,42 @@
 // 5.1 Symbols
 @available(iOS 17.1, macOS 14.1, tvOS 17.1, watchOS 10.1, *)
 public extension SFSymbol {
-    /// No preview available
+    /// 􂉏
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let chevronCompactBackward = SFSymbol(rawValue: "chevron.compact.backward")
 
-    /// No preview available
+    /// 􂉐
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let chevronCompactForward = SFSymbol(rawValue: "chevron.compact.forward")
 
-    /// No preview available
+    /// 􂉚
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let personCropSquareBadgeCamera = SFSymbol(rawValue: "person.crop.square.badge.camera")
 
-    /// No preview available
+    /// 􂉛
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let personCropSquareBadgeCameraFill = SFSymbol(rawValue: "person.crop.square.badge.camera.fill")
 
-    /// No preview available
+    /// 􂉜
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let personCropSquareBadgeVideo = SFSymbol(rawValue: "person.crop.square.badge.video")
 
-    /// No preview available
+    /// 􂉝
     /// Single Localization, Single Layerset
     ///
     /// Layersets:

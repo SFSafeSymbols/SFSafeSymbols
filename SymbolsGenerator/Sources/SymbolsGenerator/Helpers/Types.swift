@@ -91,11 +91,12 @@ enum Localization: String, Hashable, CaseIterable {
     case he = "he"
     case hi = "hi"
     case ja = "ja"
+    case km = "km"
     case ko = "ko"
+    case my = "my"
     case rtl = "rtl"
     case th = "th"
     case zh = "zh"
-    case zhTraditional = "zh.traditional"
 
     var title: String {
         switch self {
@@ -103,11 +104,12 @@ enum Localization: String, Hashable, CaseIterable {
             case .he: return "Hebrew"
             case .hi: return "Hindi"
             case .ja: return "Japanese"
+            case .km: return "Central Khmer"
             case .ko: return "Korean"
+            case .my: return "Burmese"
             case .rtl: return "Right-to-Left"
             case .th: return "Thai"
             case .zh: return "Chinese"
-            case .zhTraditional: return "Traditional Chinese"
         }
     }
     /// The name for a variable exposing this localization, e.g. "zhTraditional".

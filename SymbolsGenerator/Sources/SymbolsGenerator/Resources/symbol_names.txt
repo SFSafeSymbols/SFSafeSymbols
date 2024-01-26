@@ -1,5 +1,5 @@
 //
-// Updated on January 14 2024
+// Updated on January 26 2024
 //
 
 0.circle
@@ -1555,7 +1555,9 @@ chevron.backward.circle.fill
 chevron.backward.square
 chevron.backward.square.fill
 chevron.backward.to.line
+chevron.compact.backward
 chevron.compact.down
+chevron.compact.forward
 chevron.compact.left
 chevron.compact.right
 chevron.compact.up
@@ -3739,6 +3741,10 @@ person.crop.rectangle.fill
 person.crop.rectangle.stack
 person.crop.rectangle.stack.fill
 person.crop.square
+person.crop.square.badge.camera
+person.crop.square.badge.camera.fill
+person.crop.square.badge.video
+person.crop.square.badge.video.fill
 person.crop.square.fill
 person.crop.square.filled.and.at.rectangle
 person.crop.square.filled.and.at.rectangle.fill
@@ -4586,6 +4592,8 @@ square.and.arrow.down.fill
 square.and.arrow.down.on.square
 square.and.arrow.down.on.square.fill
 square.and.arrow.up
+square.and.arrow.up.badge.clock
+square.and.arrow.up.badge.clock.fill
 square.and.arrow.up.circle
 square.and.arrow.up.circle.fill
 square.and.arrow.up.fill

@@ -6692,16 +6692,18 @@ public extension SFSymbol {
     static let textWordSpacing = SFSymbol(rawValue: "text.word.spacing")
 
     /// 􁖻
-    /// 3 Localizations, Single Layerset
+    /// 5 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Latin
     /// - Arabic
     /// - Hindi
+    /// - Burmese (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
+    /// - Central Khmer (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     ///
     /// Layersets:
     /// - Monochrome
-    static let textformat12 = SymbolWith2Localizations<Ar, Hi>(rawValue: "textformat.12")
+    static let textformat12 = SymbolWith4Localizations<Ar, Hi, Km_v5, My_v5>(rawValue: "textformat.12")
 
     /// 􁔘
     /// Single Localization, 2 Layersets

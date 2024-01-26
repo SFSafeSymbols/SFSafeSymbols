@@ -3,14 +3,14 @@
 // 5.2 Symbols
 @available(iOS 17.2, macOS 14.2, tvOS 17.2, watchOS 10.2, *)
 public extension SFSymbol {
-    /// No preview available
+    /// 􂋍
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let squareAndArrowUpBadgeClock = SFSymbol(rawValue: "square.and.arrow.up.badge.clock")
 
-    /// No preview available
+    /// 􂋏
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
