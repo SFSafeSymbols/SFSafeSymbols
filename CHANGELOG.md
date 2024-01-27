@@ -67,23 +67,23 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ### Added
 
 - Add support for SF Symbols 4.0 (By [Frederick Pietschmann](https://github.com/fredpi))
-- Add new `UIImage.init(systemSymbol:variableValue:configuration:)`, `NSImage.init(systemSymbol:variableValue:accessibilityDescription:)` and `SwiftUI.Image.init(systemSymbol:variableValue:)` interfaces. (By [Steven Magdy](https://github.com/StevenMagdy))
-- Add new `UIImage.init(systemSymbol:compatibleWith:)` interface. (By [Steven Magdy](https://github.com/StevenMagdy))
+- Add new `UIImage.init(systemSymbol:variableValue:configuration:)`, `NSImage.init(systemSymbol:variableValue:accessibilityDescription:)` and `SwiftUI.Image.init(systemSymbol:variableValue:)` interfaces. (By [Steven Sorial](https://github.com/StevenSorial))
+- Add new `UIImage.init(systemSymbol:compatibleWith:)` interface. (By [Steven Sorial](https://github.com/StevenSorial))
 
 ### Changed
 
-- Retain dynamic localization information when serializing / deserializing an `SFSymbol`. (By [Steven Magdy](https://github.com/StevenMagdy))
-- Deprecate `UIButton.systemButton(with:target:selector:` and `button.setImage(:for:)` interfaces. (By [Steven Magdy](https://github.com/StevenMagdy))
+- Retain dynamic localization information when serializing / deserializing an `SFSymbol`. (By [Steven Sorial](https://github.com/StevenSorial))
+- Deprecate `UIButton.systemButton(with:target:selector:` and `button.setImage(:for:)` interfaces. (By [Steven Sorial](https://github.com/StevenSorial))
 
 ### Fixed
 
-- Remove misleading optionality of `NSImage.init(systemSymbol:accessibilityDescription:)` interface. (By [Steven Magdy](https://github.com/StevenMagdy))
+- Remove misleading optionality of `NSImage.init(systemSymbol:accessibilityDescription:)` interface. (By [Steven Sorial](https://github.com/StevenSorial))
 
 ## [3.3.2] - 2022-05-01
 
 ### Fixed
 
-- Added missing 3.3 layerset information. (By [Steven Magdy](https://github.com/StevenMagdy))
+- Added missing 3.3 layerset information. (By [Steven Sorial](https://github.com/StevenSorial))
 
 ## [3.3.1] - 2022-04-14
 
@@ -95,24 +95,24 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- Add support for SF Symbols 1.1, 2.2, 3.0, 3.1, 3.2, and 3.3 (By [Steven Magdy](https://github.com/StevenMagdy))
+- Add support for SF Symbols 1.1, 2.2, 3.0, 3.1, 3.2, and 3.3 (By [Steven Sorial](https://github.com/StevenSorial))
 - Add support for explicit symbol localization (By [David Knothe](https://github.com/knothed))
 - Add documentation for available layersets & improve documentation in general. (By [Frederick Pietschmann](https://github.com/fredpi))
 
 ### Changed
 
-- Deprecate `allCases: [SFSymbol]` in favor of new `allSymbols: Set<SFSymbol>`. (By [Steven Magdy](https://github.com/StevenMagdy))
+- Deprecate `allCases: [SFSymbol]` in favor of new `allSymbols: Set<SFSymbol>`. (By [Steven Sorial](https://github.com/StevenSorial))
 - Transfer repository to new location: https://github.com/SFSafeSymbols/SFSafeSymbols & simplify contributions to this repository. (By [Frederick Pietschmann](https://github.com/fredpi))
-- Change the type of `SFSymbol` from `enum` to `class`, using `static let ...` instead of `case` for individual symbols. This allows for specification of custom symbols as `static let`s in `extension`s to `SFSymbol` and fixes an issue that prevented `rawValue` initialization of symbols. (By [Steven Magdy](https://github.com/StevenMagdy))
+- Change the type of `SFSymbol` from `enum` to `class`, using `static let ...` instead of `case` for individual symbols. This allows for specification of custom symbols as `static let`s in `extension`s to `SFSymbol` and fixes an issue that prevented `rawValue` initialization of symbols. (By [Steven Sorial](https://github.com/StevenSorial))
 - Improve internal code generation to allow for quick adjustments to new SF Symbols versions. (By [ddddxxx](https://github.com/ddddxxx))
-- Drop dedicated `SFSafeSymbols-Dynamic` product in the `Package.swift` in favour of a new unified `SFSafeSymbols` product with automatic selection between static / dynamic linking. (By [Steven Magdy](https://github.com/StevenMagdy))
-- Lower watchOS deployment target to watchOS 4.0. (By [Steven Magdy](https://github.com/StevenMagdy))
+- Drop dedicated `SFSafeSymbols-Dynamic` product in the `Package.swift` in favour of a new unified `SFSafeSymbols` product with automatic selection between static / dynamic linking. (By [Steven Sorial](https://github.com/StevenSorial))
+- Lower watchOS deployment target to watchOS 4.0. (By [Steven Sorial](https://github.com/StevenSorial))
 - Refactor unit tests. (By [Martin Wright](https://github.com/MartinW) and [Frederick Pietschmann](https://github.com/fredpi))
 
 ### Fixed
 
-- Fix macOS availability. (By [Steven Magdy](https://github.com/StevenMagdy))
-- Fix unavailable 1.0 symbols by introducing a new 1.1 version. (By [Steven Magdy](https://github.com/StevenMagdy))
+- Fix macOS availability. (By [Steven Sorial](https://github.com/StevenSorial))
+- Fix unavailable 1.0 symbols by introducing a new 1.1 version. (By [Steven Sorial](https://github.com/StevenSorial))
 
 ## [2.1.3] - 2021-03-10
 
