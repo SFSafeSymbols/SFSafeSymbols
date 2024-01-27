@@ -18,6 +18,21 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - None
 
+## [5.2] - 2024-01-27
+
+### Added
+
+- Add support for SF Symbols 4.2, 5.0, 5.1, and 5.2 (By [Steven Sorial](https://github.com/StevenSorial))
+- Add new localizations languages (Central Khmer and Burmese) (By [Steven Sorial](https://github.com/StevenSorial))
+
+### Changed
+
+- Remove Traditional Chinese localization option which was removed by Apple (By [Steven Sorial](https://github.com/StevenSorial))
+
+### Fixed
+
+- None
+
 ## [4.1.1] - 2023-01-31
 
 ### Added
