@@ -40,13 +40,13 @@ extension SFSymbol {
         if #available(iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4, *) {
             result.merge(localizationsAvailableSince4_2) { $0.union($1) }
         }
-        if #available(iOS 17.0, macOS 14.0, tvOS 17.0, *) {
+        if #available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *) {
             result.merge(localizationsAvailableSince5_0) { $0.union($1) }
         }
-        if #available(iOS 17.1, macOS 14.1, tvOS 17.1, *) {
+        if #available(iOS 17.1, macOS 14.1, tvOS 17.1, watchOS 10.1, *) {
             result.merge(localizationsAvailableSince5_1) { $0.union($1) }
         }
-        if #available(iOS 17.2, macOS 14.2, tvOS 17.2, *) {
+        if #available(iOS 17.2, macOS 14.2, tvOS 17.2, watchOS 10.2, *) {
             result.merge(localizationsAvailableSince5_2) { $0.union($1) }
         }
         return result
@@ -87,13 +87,13 @@ extension SFSymbol {
         if #available(iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4, *) {
             result.subtract(symbolsDeprecatedSince4_2)
         }
-        if #available(iOS 17.0, macOS 14.0, tvOS 17.0, *) {
+        if #available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *) {
             result.subtract(symbolsDeprecatedSince5_0)
         }
-        if #available(iOS 17.1, macOS 14.1, tvOS 17.1, *) {
+        if #available(iOS 17.1, macOS 14.1, tvOS 17.1, watchOS 10.1, *) {
             result.subtract(symbolsDeprecatedSince5_1)
         }
-        if #available(iOS 17.2, macOS 14.2, tvOS 17.2, *) {
+        if #available(iOS 17.2, macOS 14.2, tvOS 17.2, watchOS 10.2, *) {
             result.subtract(symbolsDeprecatedSince5_2)
         }
         return result

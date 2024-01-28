@@ -22,14 +22,14 @@ struct Symbol: Hashable {
 }
 
 struct Availability: Comparable, Equatable, Hashable {
-    var iOS: String
-    var tvOS: String
-    var watchOS: String
-    private var _macOS: String
+    var iOS: VersionString
+    var tvOS: VersionString
+    var watchOS: VersionString
+    private var _macOS: VersionString
     var year: String // E. g. "2020" or "2020.1"
 
     var isBase: Bool { version == "1.0" }
-    var macOS: String { _macOS == "10.15" ? "11.0" : _macOS }
+    var macOS: VersionString { _macOS.rawValue == "10.15" ? .init(rawValue: "11.0") : _macOS }
 
     var version: String {
         let ver = Decimal(string: "1.0")! + (Decimal(string: year)! - Decimal(string: "2019")!)
@@ -57,10 +57,10 @@ struct Availability: Comparable, Equatable, Hashable {
     }
 
     init(iOS: String, tvOS: String, watchOS: String, macOS: String, year: String) {
-        self.iOS = iOS
-        self.tvOS = tvOS
-        self.watchOS = watchOS
-        self._macOS = macOS
+        self.iOS = .init(rawValue: iOS)
+        self.tvOS = .init(rawValue: tvOS)
+        self.watchOS = .init(rawValue: watchOS)
+        self._macOS = .init(rawValue: macOS)
         self.year = year
 
         if isBase { Availability.base = self }
@@ -84,6 +84,27 @@ struct Availability: Comparable, Equatable, Hashable {
 struct LayersetAvailability {
     var name: String
     var availability: Availability
+}
+
+struct VersionString: RawRepresentable, Comparable, Hashable, CustomStringConvertible {
+
+    let rawValue: String
+
+    init(rawValue: String) {
+        self.rawValue = rawValue
+    }
+
+    var description: String {
+        return rawValue
+    }
+
+    static func == (lhs: Self, rhs: Self) -> Bool {
+        return lhs.rawValue.compare(rhs.rawValue, options: .numeric) == .orderedSame
+    }
+
+    static func < (lhs: Self, rhs: Self) -> Bool {
+        return lhs.rawValue.compare(rhs.rawValue, options: .numeric) == .orderedAscending
+    }
 }
 
 enum Localization: String, Hashable, CaseIterable {
