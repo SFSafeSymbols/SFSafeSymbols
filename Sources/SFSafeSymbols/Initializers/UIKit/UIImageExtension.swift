@@ -2,7 +2,7 @@
 
 import UIKit
 
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, *)
+@available(iOS 13.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public extension UIImage {
 
     /// Creates an image object that contains a system symbol image.
@@ -37,7 +37,7 @@ public extension UIImage {
     /// - Parameter systemSymbol: The `SFSymbol` describing this image.
     /// - Parameter variableValue: The value the system uses to customize the image content, between 0 and 1.
     /// - Parameter configuration: The image configuration the system applies to the image.
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     convenience init(systemSymbol: SFSymbol, variableValue: Double, configuration: UIImage.Configuration?) {
         self.init(systemName: systemSymbol.rawValue, variableValue: variableValue, configuration: configuration)!
     }

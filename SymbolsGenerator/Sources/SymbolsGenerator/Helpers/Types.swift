@@ -25,6 +25,7 @@ struct Availability: Comparable, Equatable, Hashable {
     var iOS: VersionString
     var tvOS: VersionString
     var watchOS: VersionString
+    var visionOS: VersionString
     private var _macOS: VersionString
     var year: String // E. g. "2020" or "2020.1"
 
@@ -42,7 +43,7 @@ struct Availability: Comparable, Equatable, Hashable {
 
     /// Convert into an expression than can be used in code when prefixed with either `#` or `@`.
     var availableExpression: String {
-        "available(iOS \(iOS), macOS \(macOS), tvOS \(tvOS), watchOS \(watchOS), *)"
+        "available(iOS \(iOS), macOS \(macOS), tvOS \(tvOS), watchOS \(watchOS), visionOS \(visionOS), *)"
     }
 
     /// Convert into an expression than can be used in code when prefixed with either `#` or `@`.
@@ -53,14 +54,16 @@ struct Availability: Comparable, Equatable, Hashable {
         (macOS > Availability.base.macOS ? "macOS \(macOS), " : "") +
         (tvOS > Availability.base.tvOS ? "tvOS \(tvOS), " : "") +
         (watchOS > Availability.base.watchOS ? "watchOS \(watchOS), " : "") +
+        (visionOS > Availability.base.visionOS ? "visionOS \(visionOS), " : "") +
         "*)"
     }
 
-    init(iOS: String, tvOS: String, watchOS: String, macOS: String, year: String) {
+    init(iOS: String, macOS: String, tvOS: String, watchOS: String, visionOS: String, year: String) {
         self.iOS = .init(rawValue: iOS)
+        self._macOS = .init(rawValue: macOS)
         self.tvOS = .init(rawValue: tvOS)
         self.watchOS = .init(rawValue: watchOS)
-        self._macOS = .init(rawValue: macOS)
+        self.visionOS = .init(rawValue: visionOS)
         self.year = year
 
         if isBase { Availability.base = self }

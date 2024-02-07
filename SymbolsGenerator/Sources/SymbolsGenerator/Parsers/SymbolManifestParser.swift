@@ -23,7 +23,14 @@ struct SymbolManifestParser {
 
         var availabilityFile: SymbolManifest = []
         let availabilities = plist.yearToReleaseMapping.compactMap { key, value in
-            Availability(iOS: value["iOS"]!, tvOS: value["tvOS"]!, watchOS: value["watchOS"]!, macOS: value["macOS"]!, year: key)
+            Availability(
+                iOS: value["iOS"]!,
+                macOS: value["macOS"]!,
+                tvOS: value["tvOS"]!,
+                watchOS: value["watchOS"]!,
+                visionOS: value["visionOS"]!,
+                year: key
+            )
         }
 
         for (key, value) in plist.symbols.sorted(on: \.key, by: <) {

@@ -8,7 +8,7 @@ class UIImageExtensionTests: XCTestCase {
     /// Tests, whether a non-nil`UIImage` exists for all symbol raw values
     /// Symbols for which such an `UIImage` doesn't exist, will be logged to facilitate debugging
     func testFailingSymbols() {
-        if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
+        if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *) {
             let failingSymbols = TestHelper.allSymbolsWithVariants.map { $0.rawValue }.map { ($0, UIImage(systemName: $0)) }.filter { $0.1 == nil }.map { $0.0 }
 
             if !failingSymbols.isEmpty {
@@ -21,7 +21,7 @@ class UIImageExtensionTests: XCTestCase {
 
     /// Tests, whether the `UIImage` retrieved via SFSafeSymbols is equal to the one retrieved via the `String` initializer
     func testInit() {
-        if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
+        if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *) {
             for symbol in TestHelper.allSymbolsWithVariants {
                 print("Testing validity of \"\(symbol.rawValue)\" via UIImage init")
 
@@ -38,7 +38,7 @@ class UIImageExtensionTests: XCTestCase {
     /// Tests, whether the `UIImage` retrieved via SFSafeSymbols is equal to the one retrieved via the `String` initializer,
     /// even when passing a configuration
     func testInitWithConfiguration() {
-        if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
+        if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *) {
             // Get some configurations
             let configurations: [UIImage.Configuration] = [
                 UIImage.SymbolConfiguration(pointSize: 10),
@@ -66,7 +66,7 @@ class UIImageExtensionTests: XCTestCase {
 
     /// Tests whether the `UIImage` equality check used in the main test works properly
     func testTestMechanism() {
-        if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, *) {
+        if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *) {
             let expected = UIImage(systemName: TestHelper.sampleSymbolRawValue)
             let actual = UIImage(systemSymbol: TestHelper.sampleSymbol)
             let wrong = UIImage(systemSymbol: TestHelper.sampleSymbolWrongDerivate)

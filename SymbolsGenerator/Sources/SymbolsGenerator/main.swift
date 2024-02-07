@@ -234,6 +234,7 @@ let symbolToCode: (Symbol) -> String = { symbol in
         outputString += "\t@available(macOS, introduced: \(symbol.availability.macOS), deprecated: \(newerSymbol.availability.macOS), renamed: \"\(newerName)\")\n"
         outputString += "\t@available(tvOS, introduced: \(symbol.availability.tvOS), deprecated: \(newerSymbol.availability.tvOS), renamed: \"\(newerName)\")\n"
         outputString += "\t@available(watchOS, introduced: \(symbol.availability.watchOS), deprecated: \(newerSymbol.availability.watchOS), renamed: \"\(newerName)\")\n"
+        outputString += "\t@available(visionOS, introduced: \(symbol.availability.visionOS), deprecated: \(newerSymbol.availability.visionOS), renamed: \"\(newerName)\")\n"
     }
 
     // Generate symbol

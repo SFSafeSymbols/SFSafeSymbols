@@ -1,8 +1,8 @@
-#if canImport(UIKit) && (os(iOS) || os(tvOS) || targetEnvironment(macCatalyst))
+#if canImport(UIKit) && (os(iOS) || os(tvOS) || targetEnvironment(macCatalyst) || os(visionOS))
 
 import UIKit
 
-@available(iOS 13.0, tvOS 13.0, *)
+@available(iOS 13.0, tvOS 13.0, visionOS 1.0, *)
 public extension UIButton {
 
     /// Creates and returns a system type button with specified symbol, target, and action.
