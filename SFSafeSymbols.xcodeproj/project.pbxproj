@@ -24,6 +24,8 @@
 		636A46C928002819007E6028 /* SFSymbol+AllSymbols+2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46B928002819007E6028 /* SFSymbol+AllSymbols+2.1.swift */; };
 		636A46CA28002819007E6028 /* SFSymbol+AllSymbols+2.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46BA28002819007E6028 /* SFSymbol+AllSymbols+2.0.swift */; };
 		636EBFD427EB2ABC005CFF4C /* SymbolWithLocalizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636EBFD327EB2ABC005CFF4C /* SymbolWithLocalizations.swift */; };
+		949BD15D2B74155100A10AB7 /* SwiftUIButtonExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949BD15C2B74155100A10AB7 /* SwiftUIButtonExtensionTests.swift */; };
+		949BD15F2B74156800A10AB7 /* SwiftUIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949BD15E2B74156800A10AB7 /* SwiftUIButtonExtension.swift */; };
 		B00FBD8E285E146400A7878B /* LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00FBD8D285E146400A7878B /* LocalizationTests.swift */; };
 		B01C186D2B55D9B300AC4288 /* SFSymbol+5.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01C18652B55D9B300AC4288 /* SFSymbol+5.0.swift */; };
 		B01C186E2B55D9B300AC4288 /* SFSymbol+5.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01C18662B55D9B300AC4288 /* SFSymbol+5.2.swift */; };
@@ -85,6 +87,8 @@
 		636A46B928002819007E6028 /* SFSymbol+AllSymbols+2.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+2.1.swift"; sourceTree = "<group>"; };
 		636A46BA28002819007E6028 /* SFSymbol+AllSymbols+2.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+2.0.swift"; sourceTree = "<group>"; };
 		636EBFD327EB2ABC005CFF4C /* SymbolWithLocalizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolWithLocalizations.swift; sourceTree = "<group>"; };
+		949BD15C2B74155100A10AB7 /* SwiftUIButtonExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIButtonExtensionTests.swift; sourceTree = "<group>"; };
+		949BD15E2B74156800A10AB7 /* SwiftUIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIButtonExtension.swift; sourceTree = "<group>"; };
 		B00FBD8D285E146400A7878B /* LocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationTests.swift; sourceTree = "<group>"; };
 		B01C18652B55D9B300AC4288 /* SFSymbol+5.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+5.0.swift"; sourceTree = "<group>"; };
 		B01C18662B55D9B300AC4288 /* SFSymbol+5.2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+5.2.swift"; sourceTree = "<group>"; };
@@ -248,6 +252,7 @@
 			children = (
 				CCCCCFE8252F61E700C7CE9F /* SwiftUIImageExtension.swift */,
 				CCCCCFEA252F61E700C7CE9F /* SwiftUILabelExtension.swift */,
+				949BD15E2B74156800A10AB7 /* SwiftUIButtonExtension.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 			children = (
 				CCCCD011252F622B00C7CE9F /* SwiftUIImageExtensionTests.swift */,
 				CCCCD014252F622B00C7CE9F /* SwiftUILabelExtensionTests.swift */,
+				949BD15C2B74155100A10AB7 /* SwiftUIButtonExtensionTests.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -432,6 +438,7 @@
 				636A46CA28002819007E6028 /* SFSymbol+AllSymbols+2.0.swift in Sources */,
 				B0AEA82C2801A8E000A02015 /* SFSymbol+3.3.swift in Sources */,
 				636A46BC28002819007E6028 /* SFSymbol+2.1.swift in Sources */,
+				949BD15F2B74156800A10AB7 /* SwiftUIButtonExtension.swift in Sources */,
 				B0AEA82D2801A8E000A02015 /* SFSymbol+AllSymbols+3.3.swift in Sources */,
 				B01C18742B55D9B300AC4288 /* SFSymbol+AllSymbols+5.0.swift in Sources */,
 				B01C18732B55D9B300AC4288 /* SFSymbol+AllSymbols+4.2.swift in Sources */,
@@ -457,6 +464,7 @@
 				B0DDAE152637C11400081F1C /* CodableTests.swift in Sources */,
 				CCCCD016252F622B00C7CE9F /* SwiftUIImageExtensionTests.swift in Sources */,
 				CC1D812F27F758D200CACDC7 /* TestHelper.swift in Sources */,
+				949BD15D2B74155100A10AB7 /* SwiftUIButtonExtensionTests.swift in Sources */,
 				CCCCD064252F804400C7CE9F /* NSImageExtensionTests.swift in Sources */,
 				CCCCD017252F622B00C7CE9F /* UIApplicationShortcutIconExtensionTests.swift in Sources */,
 				CCCCD01A252F622B00C7CE9F /* UIImageExtensionTests.swift in Sources */,

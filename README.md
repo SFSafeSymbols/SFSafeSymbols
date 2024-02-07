@@ -154,6 +154,17 @@ Label("MyText", systemSymbol: .cCircle)
 Label(LocalizedStringKey("my.text"), systemSymbol: SFSymbol.eCircleFill)
 ```
 
+... and an initializer for `SwiftUI.Button`:
+
+```swift
+Button("MyText", systemSymbol: .cCircle){}
+Button(LocalizedStringKey("my.text"), systemSymbol: SFSymbol.eCircleFill){}
+Button("MyText", systemSymbol: .cCircle, role: .cancel){}
+Button(LocalizedStringKey("my.text"), systemSymbol: SFSymbol.eCircleFill, role: .cancel){}
+Button("MyText", systemSymbol: .cCircle, role: .cancel, intent: intent)
+Button(LocalizedStringKey("my.text"), systemSymbol: SFSymbol.eCircleFill, intent: intent)
+```
+
 ... and an initializer for `UIApplicationShortcutItem`:
 
 ```swift
