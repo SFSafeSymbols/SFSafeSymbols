@@ -1,12 +1,8 @@
-@testable import SFSafeSymbols
-
-#if !os(watchOS)
-
-import XCTest
-
 #if canImport(SwiftUI)
 
 import SwiftUI
+import XCTest
+@testable import SFSafeSymbols
 
 class ImageExtensionTests: XCTestCase {
     /// Tests, whether the `Image` retrieved via SFSafeSymbols is equal to the one retrieved via the `String` initializer
@@ -44,11 +40,9 @@ class ImageExtensionTests: XCTestCase {
 #else
 
 class JustFail: XCTestCase {
-    func justFail() {
+    func test_justFail() {
         XCTFail("SwiftUI should be available when testing.")
     }
 }
-
-#endif
 
 #endif
