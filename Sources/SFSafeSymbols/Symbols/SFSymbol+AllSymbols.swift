@@ -2,8 +2,6 @@
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 extension SFSymbol {
-    @available(*, deprecated, renamed: "allSymbols")
-    public static var allCases: [SFSymbol] { Array(allSymbols) }
 
     internal static let allLocalizations: [SFSymbol : Set<Localization>] = {
         var result = localizationsAvailableSince1_0

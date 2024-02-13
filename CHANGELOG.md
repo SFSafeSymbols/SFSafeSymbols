@@ -30,6 +30,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - Remove Traditional Chinese localization option which was removed by Apple (By [Steven Sorial](https://github.com/StevenSorial))
 - Raise minimum platforms to iOS 12.0 / tvOS 12.0 / macOS 10.14 / watchOS 5.0  (By [Steven Sorial](https://github.com/StevenSorial))
+- Remove deprecated methods and properties  (By [Steven Sorial](https://github.com/StevenSorial))
 
 ### Fixed
 

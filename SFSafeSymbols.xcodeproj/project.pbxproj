@@ -44,7 +44,6 @@
 		CCA29C3D285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA29C3B285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift */; };
 		CCA29C3E285B4E9400133245 /* SFSymbol+4.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA29C3C285B4E9400133245 /* SFSymbol+4.0.swift */; };
 		CCCCCFEC252F61E700C7CE9F /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE5252F61E700C7CE9F /* SFSymbol.swift */; };
-		CCCCCFED252F61E700C7CE9F /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE7252F61E700C7CE9F /* UIButtonExtension.swift */; };
 		CCCCCFEE252F61E700C7CE9F /* SwiftUIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE8252F61E700C7CE9F /* SwiftUIImageExtension.swift */; };
 		CCCCCFEF252F61E700C7CE9F /* UIApplicationShortcutIconExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE9252F61E700C7CE9F /* UIApplicationShortcutIconExtension.swift */; };
 		CCCCCFF0252F61E700C7CE9F /* SwiftUILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFEA252F61E700C7CE9F /* SwiftUILabelExtension.swift */; };
@@ -106,7 +105,6 @@
 		CCA29C3B285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+4.0.swift"; sourceTree = "<group>"; };
 		CCA29C3C285B4E9400133245 /* SFSymbol+4.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+4.0.swift"; sourceTree = "<group>"; };
 		CCCCCFE5252F61E700C7CE9F /* SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbol.swift; sourceTree = "<group>"; };
-		CCCCCFE7252F61E700C7CE9F /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		CCCCCFE8252F61E700C7CE9F /* SwiftUIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIImageExtension.swift; sourceTree = "<group>"; };
 		CCCCCFE9252F61E700C7CE9F /* UIApplicationShortcutIconExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationShortcutIconExtension.swift; sourceTree = "<group>"; };
 		CCCCCFEA252F61E700C7CE9F /* SwiftUILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUILabelExtension.swift; sourceTree = "<group>"; };
@@ -258,7 +256,6 @@
 			isa = PBXGroup;
 			children = (
 				CCCCCFE9252F61E700C7CE9F /* UIApplicationShortcutIconExtension.swift */,
-				CCCCCFE7252F61E700C7CE9F /* UIButtonExtension.swift */,
 				CCCCCFEB252F61E700C7CE9F /* UIImageExtension.swift */,
 			);
 			path = UIKit;
@@ -440,7 +437,6 @@
 				B01C18732B55D9B300AC4288 /* SFSymbol+AllSymbols+4.2.swift in Sources */,
 				B01C186E2B55D9B300AC4288 /* SFSymbol+5.2.swift in Sources */,
 				636A46BD28002819007E6028 /* SFSymbol+2.0.swift in Sources */,
-				CCCCCFED252F61E700C7CE9F /* UIButtonExtension.swift in Sources */,
 				CCCCCFEF252F61E700C7CE9F /* UIApplicationShortcutIconExtension.swift in Sources */,
 				636A46BE28002819007E6028 /* SFSymbol+AllSymbols+3.2.swift in Sources */,
 				B01C186D2B55D9B300AC4288 /* SFSymbol+5.0.swift in Sources */,
@@ -517,7 +513,7 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SFSafeSymbols.xcodeproj/SFSafeSymbols_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				OTHER_CFLAGS = "$(inherited)";
@@ -528,6 +524,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = SFSafeSymbols;
@@ -546,7 +543,7 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SFSafeSymbols.xcodeproj/SFSafeSymbols_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				OTHER_CFLAGS = "$(inherited)";
@@ -557,6 +554,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = SFSafeSymbols;
@@ -595,6 +593,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -602,13 +601,14 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SFSafeSymbols.xcodeproj/SFSafeSymbolsTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = SFSafeSymbolsTests;
@@ -622,6 +622,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -629,13 +630,14 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SFSafeSymbols.xcodeproj/SFSafeSymbolsTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = SFSafeSymbolsTests;
