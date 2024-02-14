@@ -10,6 +10,7 @@ public extension SFSymbol {
     static let beachUmbrellaFallback = SFSymbol(rawValue: FALLBACK_PREFIX + "beach.umbrella")
     static let birthdayCakeFallback = SFSymbol(rawValue: FALLBACK_PREFIX + "birthday.cake")
     static let boxTruckFallback = SFSymbol(rawValue: FALLBACK_PREFIX + "box.truck")
+    static let checklistCheckedFallback = SFSymbol(rawValue: FALLBACK_PREFIX + "checklist.checked")
     static let checklistUncheckedFallback = SFSymbol(rawValue: FALLBACK_PREFIX + "checklist.unchecked")
     static let cooktopFallback = SFSymbol(rawValue: FALLBACK_PREFIX + "cooktop")
     static let dollarsignFallback = SFSymbol(rawValue: FALLBACK_PREFIX + "dollarsign")
