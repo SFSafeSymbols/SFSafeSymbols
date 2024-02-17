@@ -18,7 +18,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - None
 
-## [5.2] - 2024-01-27
+## [5.2.0] - 2024-01-27
 
 ### Added
 
