@@ -15,7 +15,7 @@ guard
         .flatMap(StringDictionaryFileParser.parse)?
         .map({ (oldName: $0.key, newName: $0.value) }),
     let legacyAliases = SFFileManager
-        .read(file: "legacy_aliases_strings", withExtension: "txt")
+        .read(file: "legacy_aliases", withExtension: "strings")
         .flatMap(StringDictionaryFileParser.parse)?
         .map({ (legacyName: $0.key, releasedName: $0.value) }),
     var symbolRestrictions = SFFileManager
@@ -67,7 +67,7 @@ func otherAliases(for symbolName: String) -> [ScannedSymbol] {
             .map(\.oldName) + [newestAlias]
     }
     return result
-        .map { name in symbolManifest.first { $0.name == name }! }
+        .compactMap { name in symbolManifest.first { $0.name == name } }
         .sorted(on: \.availability, by: >)
 }
 
@@ -234,6 +234,7 @@ let symbolToCode: (Symbol) -> String = { symbol in
         outputString += "\t@available(macOS, introduced: \(symbol.availability.macOS), deprecated: \(newerSymbol.availability.macOS), renamed: \"\(newerName)\")\n"
         outputString += "\t@available(tvOS, introduced: \(symbol.availability.tvOS), deprecated: \(newerSymbol.availability.tvOS), renamed: \"\(newerName)\")\n"
         outputString += "\t@available(watchOS, introduced: \(symbol.availability.watchOS), deprecated: \(newerSymbol.availability.watchOS), renamed: \"\(newerName)\")\n"
+        outputString += "\t@available(visionOS, introduced: \(symbol.availability.visionOS), deprecated: \(newerSymbol.availability.visionOS), renamed: \"\(newerName)\")\n"
     }
 
     // Generate symbol

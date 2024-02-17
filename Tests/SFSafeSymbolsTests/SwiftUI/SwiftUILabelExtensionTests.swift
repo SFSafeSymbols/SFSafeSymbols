@@ -1,17 +1,13 @@
-@testable import SFSafeSymbols
-
-#if !os(watchOS)
-
-import XCTest
-
 #if canImport(SwiftUI)
 
 import SwiftUI
+import XCTest
+@testable import SFSafeSymbols
 
 class LabelExtensionTests: XCTestCase {
     /// Tests, whether the `Label` retrieved via SFSafeSymbols can be retrieved without a crash
     func testInit() {
-        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+        if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *) {
             for symbol in TestHelper.allSymbolsWithVariants {
                 print("Testing validity of \"\(symbol.rawValue)\" via Label init")
 
@@ -27,11 +23,9 @@ class LabelExtensionTests: XCTestCase {
 #else
 
 class JustFail: XCTestCase {
-    func justFail() {
+    func test_justFail() {
         XCTFail("SwiftUI should be available when testing.")
     }
 }
-
-#endif
 
 #endif

@@ -1,17 +1,13 @@
-@testable import SFSafeSymbols
-
-#if !os(watchOS)
-
-import XCTest
-
 #if canImport(SwiftUI)
 
 import SwiftUI
+import XCTest
+@testable import SFSafeSymbols
 
 class ImageExtensionTests: XCTestCase {
     /// Tests, whether the `Image` retrieved via SFSafeSymbols is equal to the one retrieved via the `String` initializer
     func testInit() {
-        if #available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *) {
+        if #available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *) {
             for symbol in TestHelper.allSymbolsWithVariants {
                 print("Testing validity of \"\(symbol.rawValue)\" via Image init")
 
@@ -27,7 +23,7 @@ class ImageExtensionTests: XCTestCase {
 
     /// Tests whether the `Image` equality check used in the main test works properly
     func testTestMechanism() {
-        if #available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *) {
+        if #available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *) {
             let expected = Image(systemName: TestHelper.sampleSymbolRawValue)
             let actual = Image(systemSymbol: TestHelper.sampleSymbol)
             let wrong = Image(systemSymbol: TestHelper.sampleSymbolWrongDerivate)
@@ -44,11 +40,9 @@ class ImageExtensionTests: XCTestCase {
 #else
 
 class JustFail: XCTestCase {
-    func justFail() {
+    func test_justFail() {
         XCTFail("SwiftUI should be available when testing.")
     }
 }
-
-#endif
 
 #endif

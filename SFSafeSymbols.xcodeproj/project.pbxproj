@@ -25,6 +25,14 @@
 		636A46CA28002819007E6028 /* SFSymbol+AllSymbols+2.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A46BA28002819007E6028 /* SFSymbol+AllSymbols+2.0.swift */; };
 		636EBFD427EB2ABC005CFF4C /* SymbolWithLocalizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636EBFD327EB2ABC005CFF4C /* SymbolWithLocalizations.swift */; };
 		B00FBD8E285E146400A7878B /* LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00FBD8D285E146400A7878B /* LocalizationTests.swift */; };
+		B01C186D2B55D9B300AC4288 /* SFSymbol+5.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01C18652B55D9B300AC4288 /* SFSymbol+5.0.swift */; };
+		B01C186E2B55D9B300AC4288 /* SFSymbol+5.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01C18662B55D9B300AC4288 /* SFSymbol+5.2.swift */; };
+		B01C186F2B55D9B300AC4288 /* SFSymbol+AllSymbols+5.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01C18672B55D9B300AC4288 /* SFSymbol+AllSymbols+5.1.swift */; };
+		B01C18702B55D9B300AC4288 /* SFSymbol+AllSymbols+5.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01C18682B55D9B300AC4288 /* SFSymbol+AllSymbols+5.2.swift */; };
+		B01C18712B55D9B300AC4288 /* SFSymbol+5.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01C18692B55D9B300AC4288 /* SFSymbol+5.1.swift */; };
+		B01C18722B55D9B300AC4288 /* SFSymbol+4.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01C186A2B55D9B300AC4288 /* SFSymbol+4.2.swift */; };
+		B01C18732B55D9B300AC4288 /* SFSymbol+AllSymbols+4.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01C186B2B55D9B300AC4288 /* SFSymbol+AllSymbols+4.2.swift */; };
+		B01C18742B55D9B300AC4288 /* SFSymbol+AllSymbols+5.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01C186C2B55D9B300AC4288 /* SFSymbol+AllSymbols+5.0.swift */; };
 		B01CF32629258987000FBB12 /* SFSymbol+4.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01CF32429258987000FBB12 /* SFSymbol+4.1.swift */; };
 		B01CF32729258987000FBB12 /* SFSymbol+AllSymbols+4.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01CF32529258987000FBB12 /* SFSymbol+AllSymbols+4.1.swift */; };
 		B0AEA82B2801A8E000A02015 /* SFSymbol+1.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AEA8282801A8E000A02015 /* SFSymbol+1.1.swift */; };
@@ -36,7 +44,6 @@
 		CCA29C3D285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA29C3B285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift */; };
 		CCA29C3E285B4E9400133245 /* SFSymbol+4.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA29C3C285B4E9400133245 /* SFSymbol+4.0.swift */; };
 		CCCCCFEC252F61E700C7CE9F /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE5252F61E700C7CE9F /* SFSymbol.swift */; };
-		CCCCCFED252F61E700C7CE9F /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE7252F61E700C7CE9F /* UIButtonExtension.swift */; };
 		CCCCCFEE252F61E700C7CE9F /* SwiftUIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE8252F61E700C7CE9F /* SwiftUIImageExtension.swift */; };
 		CCCCCFEF252F61E700C7CE9F /* UIApplicationShortcutIconExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE9252F61E700C7CE9F /* UIApplicationShortcutIconExtension.swift */; };
 		CCCCCFF0252F61E700C7CE9F /* SwiftUILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFEA252F61E700C7CE9F /* SwiftUILabelExtension.swift */; };
@@ -79,6 +86,14 @@
 		636A46BA28002819007E6028 /* SFSymbol+AllSymbols+2.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+2.0.swift"; sourceTree = "<group>"; };
 		636EBFD327EB2ABC005CFF4C /* SymbolWithLocalizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolWithLocalizations.swift; sourceTree = "<group>"; };
 		B00FBD8D285E146400A7878B /* LocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationTests.swift; sourceTree = "<group>"; };
+		B01C18652B55D9B300AC4288 /* SFSymbol+5.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+5.0.swift"; sourceTree = "<group>"; };
+		B01C18662B55D9B300AC4288 /* SFSymbol+5.2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+5.2.swift"; sourceTree = "<group>"; };
+		B01C18672B55D9B300AC4288 /* SFSymbol+AllSymbols+5.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+5.1.swift"; sourceTree = "<group>"; };
+		B01C18682B55D9B300AC4288 /* SFSymbol+AllSymbols+5.2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+5.2.swift"; sourceTree = "<group>"; };
+		B01C18692B55D9B300AC4288 /* SFSymbol+5.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+5.1.swift"; sourceTree = "<group>"; };
+		B01C186A2B55D9B300AC4288 /* SFSymbol+4.2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+4.2.swift"; sourceTree = "<group>"; };
+		B01C186B2B55D9B300AC4288 /* SFSymbol+AllSymbols+4.2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+4.2.swift"; sourceTree = "<group>"; };
+		B01C186C2B55D9B300AC4288 /* SFSymbol+AllSymbols+5.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+5.0.swift"; sourceTree = "<group>"; };
 		B01CF32429258987000FBB12 /* SFSymbol+4.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+4.1.swift"; sourceTree = "<group>"; };
 		B01CF32529258987000FBB12 /* SFSymbol+AllSymbols+4.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+4.1.swift"; sourceTree = "<group>"; };
 		B0AEA8282801A8E000A02015 /* SFSymbol+1.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+1.1.swift"; sourceTree = "<group>"; };
@@ -90,7 +105,6 @@
 		CCA29C3B285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+4.0.swift"; sourceTree = "<group>"; };
 		CCA29C3C285B4E9400133245 /* SFSymbol+4.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+4.0.swift"; sourceTree = "<group>"; };
 		CCCCCFE5252F61E700C7CE9F /* SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbol.swift; sourceTree = "<group>"; };
-		CCCCCFE7252F61E700C7CE9F /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		CCCCCFE8252F61E700C7CE9F /* SwiftUIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIImageExtension.swift; sourceTree = "<group>"; };
 		CCCCCFE9252F61E700C7CE9F /* UIApplicationShortcutIconExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationShortcutIconExtension.swift; sourceTree = "<group>"; };
 		CCCCCFEA252F61E700C7CE9F /* SwiftUILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUILabelExtension.swift; sourceTree = "<group>"; };
@@ -194,6 +208,10 @@
 				B0AEA8292801A8E000A02015 /* SFSymbol+3.3.swift */,
 				CCA29C3C285B4E9400133245 /* SFSymbol+4.0.swift */,
 				B01CF32429258987000FBB12 /* SFSymbol+4.1.swift */,
+				B01C186A2B55D9B300AC4288 /* SFSymbol+4.2.swift */,
+				B01C18652B55D9B300AC4288 /* SFSymbol+5.0.swift */,
+				B01C18692B55D9B300AC4288 /* SFSymbol+5.1.swift */,
+				B01C18662B55D9B300AC4288 /* SFSymbol+5.2.swift */,
 				636A46B528002818007E6028 /* SFSymbol+AllSymbols.swift */,
 				636A46AB28002816007E6028 /* SFSymbol+AllSymbols+1.0.swift */,
 				B0AEA82E2801A8FE00A02015 /* SFSymbol+AllSymbols+1.1.swift */,
@@ -206,6 +224,10 @@
 				B0AEA82A2801A8E000A02015 /* SFSymbol+AllSymbols+3.3.swift */,
 				CCA29C3B285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift */,
 				B01CF32529258987000FBB12 /* SFSymbol+AllSymbols+4.1.swift */,
+				B01C186B2B55D9B300AC4288 /* SFSymbol+AllSymbols+4.2.swift */,
+				B01C186C2B55D9B300AC4288 /* SFSymbol+AllSymbols+5.0.swift */,
+				B01C18672B55D9B300AC4288 /* SFSymbol+AllSymbols+5.1.swift */,
+				B01C18682B55D9B300AC4288 /* SFSymbol+AllSymbols+5.2.swift */,
 				636A46AF28002817007E6028 /* SymbolLocalizations.swift */,
 			);
 			path = Symbols;
@@ -234,7 +256,6 @@
 			isa = PBXGroup;
 			children = (
 				CCCCCFE9252F61E700C7CE9F /* UIApplicationShortcutIconExtension.swift */,
-				CCCCCFE7252F61E700C7CE9F /* UIButtonExtension.swift */,
 				CCCCCFEB252F61E700C7CE9F /* UIImageExtension.swift */,
 			);
 			path = UIKit;
@@ -387,6 +408,7 @@
 			buildActionMask = 0;
 			files = (
 				CCCCCFF0252F61E700C7CE9F /* SwiftUILabelExtension.swift in Sources */,
+				B01C186F2B55D9B300AC4288 /* SFSymbol+AllSymbols+5.1.swift in Sources */,
 				CCA29C3E285B4E9400133245 /* SFSymbol+4.0.swift in Sources */,
 				B0AEA82B2801A8E000A02015 /* SFSymbol+1.1.swift in Sources */,
 				636A46C728002819007E6028 /* SFSymbol+1.0.swift in Sources */,
@@ -394,6 +416,7 @@
 				636A46C028002819007E6028 /* SFSymbol+3.1.swift in Sources */,
 				636EBFD427EB2ABC005CFF4C /* SymbolWithLocalizations.swift in Sources */,
 				636A46C928002819007E6028 /* SFSymbol+AllSymbols+2.1.swift in Sources */,
+				B01C18722B55D9B300AC4288 /* SFSymbol+4.2.swift in Sources */,
 				636A46C428002819007E6028 /* SFSymbol+3.0.swift in Sources */,
 				636A46C328002819007E6028 /* SFSymbol+AllSymbols+3.0.swift in Sources */,
 				636A46C628002819007E6028 /* SFSymbol+3.2.swift in Sources */,
@@ -410,14 +433,19 @@
 				B0AEA82C2801A8E000A02015 /* SFSymbol+3.3.swift in Sources */,
 				636A46BC28002819007E6028 /* SFSymbol+2.1.swift in Sources */,
 				B0AEA82D2801A8E000A02015 /* SFSymbol+AllSymbols+3.3.swift in Sources */,
+				B01C18742B55D9B300AC4288 /* SFSymbol+AllSymbols+5.0.swift in Sources */,
+				B01C18732B55D9B300AC4288 /* SFSymbol+AllSymbols+4.2.swift in Sources */,
+				B01C186E2B55D9B300AC4288 /* SFSymbol+5.2.swift in Sources */,
 				636A46BD28002819007E6028 /* SFSymbol+2.0.swift in Sources */,
-				CCCCCFED252F61E700C7CE9F /* UIButtonExtension.swift in Sources */,
 				CCCCCFEF252F61E700C7CE9F /* UIApplicationShortcutIconExtension.swift in Sources */,
 				636A46BE28002819007E6028 /* SFSymbol+AllSymbols+3.2.swift in Sources */,
+				B01C186D2B55D9B300AC4288 /* SFSymbol+5.0.swift in Sources */,
 				CCA29C3D285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift in Sources */,
+				B01C18702B55D9B300AC4288 /* SFSymbol+AllSymbols+5.2.swift in Sources */,
 				636A46BF28002819007E6028 /* SymbolLocalizations.swift in Sources */,
 				636A46C528002819007E6028 /* SFSymbol+AllSymbols.swift in Sources */,
 				CCCCCFF1252F61E700C7CE9F /* UIImageExtension.swift in Sources */,
+				B01C18712B55D9B300AC4288 /* SFSymbol+5.1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,9 +513,9 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SFSafeSymbols.xcodeproj/SFSafeSymbols_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -495,11 +523,13 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = SFSafeSymbols;
-				TVOS_DEPLOYMENT_TARGET = 11.0;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Debug;
 		};
@@ -513,9 +543,9 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SFSafeSymbols.xcodeproj/SFSafeSymbols_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -523,11 +553,13 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = SFSafeSymbols;
-				TVOS_DEPLOYMENT_TARGET = 11.0;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Release;
 		};
@@ -561,6 +593,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -568,17 +601,19 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SFSafeSymbols.xcodeproj/SFSafeSymbolsTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = SFSafeSymbolsTests;
-				TVOS_DEPLOYMENT_TARGET = 11.0;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Debug;
 		};
@@ -587,6 +622,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -594,17 +630,19 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SFSafeSymbols.xcodeproj/SFSafeSymbolsTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = SFSafeSymbolsTests;
-				TVOS_DEPLOYMENT_TARGET = 11.0;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Release;
 		};

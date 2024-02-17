@@ -22,14 +22,15 @@ struct Symbol: Hashable {
 }
 
 struct Availability: Comparable, Equatable, Hashable {
-    var iOS: String
-    var tvOS: String
-    var watchOS: String
-    private var _macOS: String
+    var iOS: VersionString
+    var tvOS: VersionString
+    var watchOS: VersionString
+    var visionOS: VersionString
+    private var _macOS: VersionString
     var year: String // E. g. "2020" or "2020.1"
 
     var isBase: Bool { version == "1.0" }
-    var macOS: String { _macOS == "10.15" ? "11.0" : _macOS }
+    var macOS: VersionString { _macOS.rawValue == "10.15" ? .init(rawValue: "11.0") : _macOS }
 
     var version: String {
         let ver = Decimal(string: "1.0")! + (Decimal(string: year)! - Decimal(string: "2019")!)
@@ -42,7 +43,7 @@ struct Availability: Comparable, Equatable, Hashable {
 
     /// Convert into an expression than can be used in code when prefixed with either `#` or `@`.
     var availableExpression: String {
-        "available(iOS \(iOS), macOS \(macOS), tvOS \(tvOS), watchOS \(watchOS), *)"
+        "available(iOS \(iOS), macOS \(macOS), tvOS \(tvOS), watchOS \(watchOS), visionOS \(visionOS), *)"
     }
 
     /// Convert into an expression than can be used in code when prefixed with either `#` or `@`.
@@ -53,14 +54,16 @@ struct Availability: Comparable, Equatable, Hashable {
         (macOS > Availability.base.macOS ? "macOS \(macOS), " : "") +
         (tvOS > Availability.base.tvOS ? "tvOS \(tvOS), " : "") +
         (watchOS > Availability.base.watchOS ? "watchOS \(watchOS), " : "") +
+        (visionOS > Availability.base.visionOS ? "visionOS \(visionOS), " : "") +
         "*)"
     }
 
-    init(iOS: String, tvOS: String, watchOS: String, macOS: String, year: String) {
-        self.iOS = iOS
-        self.tvOS = tvOS
-        self.watchOS = watchOS
-        self._macOS = macOS
+    init(iOS: String, macOS: String, tvOS: String, watchOS: String, visionOS: String, year: String) {
+        self.iOS = .init(rawValue: iOS)
+        self._macOS = .init(rawValue: macOS)
+        self.tvOS = .init(rawValue: tvOS)
+        self.watchOS = .init(rawValue: watchOS)
+        self.visionOS = .init(rawValue: visionOS)
         self.year = year
 
         if isBase { Availability.base = self }
@@ -86,16 +89,38 @@ struct LayersetAvailability {
     var availability: Availability
 }
 
+struct VersionString: RawRepresentable, Comparable, Hashable, CustomStringConvertible {
+
+    let rawValue: String
+
+    init(rawValue: String) {
+        self.rawValue = rawValue
+    }
+
+    var description: String {
+        return rawValue
+    }
+
+    static func == (lhs: Self, rhs: Self) -> Bool {
+        return lhs.rawValue.compare(rhs.rawValue, options: .numeric) == .orderedSame
+    }
+
+    static func < (lhs: Self, rhs: Self) -> Bool {
+        return lhs.rawValue.compare(rhs.rawValue, options: .numeric) == .orderedAscending
+    }
+}
+
 enum Localization: String, Hashable, CaseIterable {
     case ar = "ar"
     case he = "he"
     case hi = "hi"
     case ja = "ja"
+    case km = "km"
     case ko = "ko"
+    case my = "my"
     case rtl = "rtl"
     case th = "th"
     case zh = "zh"
-    case zhTraditional = "zh.traditional"
 
     var title: String {
         switch self {
@@ -103,11 +128,12 @@ enum Localization: String, Hashable, CaseIterable {
             case .he: return "Hebrew"
             case .hi: return "Hindi"
             case .ja: return "Japanese"
+            case .km: return "Central Khmer"
             case .ko: return "Korean"
+            case .my: return "Burmese"
             case .rtl: return "Right-to-Left"
             case .th: return "Thai"
             case .zh: return "Chinese"
-            case .zhTraditional: return "Traditional Chinese"
         }
     }
     /// The name for a variable exposing this localization, e.g. "zhTraditional".
