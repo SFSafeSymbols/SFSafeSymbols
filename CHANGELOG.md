@@ -12,7 +12,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Changed
 
-- Class `SFSymbol`, Subclasses `SymbolWithNLocalization`, and protocol `SymbolLocalization` are now conforming to the Sendable protocol in preparation for Swift 6.
+- Class `SFSymbol`, Subclasses `SymbolWithNLocalization`, and protocol `SymbolLocalization` are now conforming to the Sendable protocol in preparation for Swift 6. (By [Thomas Durand](https://github.com/Dean151))
 
 ### Fixed
 
