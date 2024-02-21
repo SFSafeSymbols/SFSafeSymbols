@@ -12,7 +12,10 @@ let package = Package(
     targets: [
         .target(
             name: "SFSafeSymbols",
-            dependencies: []
+            dependencies: [],
+            resources: [
+                .process("Resources/Symbols.xcassets")
+            ]
         ),
         .testTarget(
             name: "SFSafeSymbolsTests",

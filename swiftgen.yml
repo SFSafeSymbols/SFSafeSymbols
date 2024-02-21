@@ -1,0 +1,9 @@
+xcassets:
+  inputs:
+    - Sources/SFSafeSymbols/Resources/Symbols.xcassets
+  outputs:
+    - templatePath: ./templates/symbols.stencil
+      params:
+        forceProvidesNamespaces: true
+        accessModifier: public
+      output: Sources/SFSafeSymbols/Symbols/SFSymbol+Fallback.swift
