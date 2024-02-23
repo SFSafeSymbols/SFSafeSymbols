@@ -8,7 +8,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- None
+- Add new `MenuBarExtra.init(titleKey:systemSymbol:content:)`, `MenuBarExtra.init(titleKey:systemSymbol:isInserted:content:)`, `MenuBarExtra.init(title:systemSymbol:content:)` and `MenuBarExtra.init(title:systemSymbol:isInserted:content:)` interfaces. (By [david-swift](https://github.com/david-swift))
+- Add new `ContentUnavailableView.init(titleKey:systemSymbol:description:)` and `ContentUnavailableView.init(title:systemSymbol:description:)` interfaces. (By [david-swift](https://github.com/david-swift))
 
 ### Changed
 
