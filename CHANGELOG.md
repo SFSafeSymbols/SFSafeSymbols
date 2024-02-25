@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- None
+- Added initializers for AppIntents (`DisplayRepresentation` and `DisplayRepresentation.Image`) (By [andschdk](https://github.com/andschdk))
 
 ### Changed
 
