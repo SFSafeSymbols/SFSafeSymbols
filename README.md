@@ -7,11 +7,11 @@
 		<img src="https://app.bitrise.io/app/f9e56287b4a18852/status.svg?token=PwV0AjHnLm32ht_GGzff3w&branch=stable" alt="Build Status">
 	</a>
     <a href="#">
-        <img src="https://img.shields.io/badge/swift-5-FFAC45.svg" alt="Swift: 5">
+        <img src="https://img.shields.io/badge/swift-6-FFAC45.svg" alt="Swift: 6">
     </a>
     <a href="https://github.com/SFSafeSymbols/SFSafeSymbols/releases">
-    <img src="https://img.shields.io/badge/version-6-blue.svg"
-    alt="Version: 6">
+    <img src="https://img.shields.io/badge/version-6.2-blue.svg"
+    alt="Version: 6.2">
     </a>
     <a href="#">
     <img src="https://img.shields.io/badge/Platforms-iOS%20|%20tvOS%20|%20watchOS%20|%20macOS-FF69B4.svg"
@@ -102,7 +102,7 @@ To integrate SFSafeSymbols using the Xcode-built-in SPM, choose `File` → `Swif
 To integrate using the standalone version of Apple's Swift Package Manager, add the following as a dependency to your `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/SFSafeSymbols/SFSafeSymbols.git", .upToNextMajor(from: "5.3"))
+.package(url: "https://github.com/SFSafeSymbols/SFSafeSymbols.git", .upToNextMajor(from: "6.2"))
 ```
 
 After specifying `"SFSafeSymbols"` as a dependency of the target in which you want to use it, run `swift package update`.
@@ -112,7 +112,7 @@ After specifying `"SFSafeSymbols"` as a dependency of the target in which you wa
 Add the following entry to your Cartfile:
 
 ```
-github "SFSafeSymbols/SFSafeSymbols" ~> 5.3
+github "SFSafeSymbols/SFSafeSymbols" ~> 6.2
 ```
 
 Then run `carthage update`.
@@ -122,7 +122,7 @@ Then run `carthage update`.
 Add the following entry to your Podfile:
 
 ```rb
-pod 'SFSafeSymbols', '~> 5.3'
+pod 'SFSafeSymbols', '~> 6.2'
 ```
 
 Then run `pod install`.

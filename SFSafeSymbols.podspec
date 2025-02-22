@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'SFSafeSymbols'
-  spec.version = '5.3.0'
+  spec.version = '6.2.0'
   spec.summary = "Safely access Apple's SF Symbols using static typing"
 
   spec.homepage = 'https://github.com/SFSafeSymbols/SFSafeSymbols'
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.macos.deployment_target = '10.14'
   spec.visionos.deployment_target = '1.0'
 
-  spec.swift_versions = ['5.7', '5.8', '5.9']
+  spec.swift_versions = ['5.9', '5.10', '6.0']
 
   spec.source = { :git => "https://github.com/SFSafeSymbols/SFSafeSymbols.git", :tag => "#{spec.version}" }
   spec.source_files = 'Sources/**/*'
