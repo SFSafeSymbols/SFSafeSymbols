@@ -10,7 +10,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - Add support for SF Symbols 6.2 (By [Steven Sorial](https://github.com/StevenSorial))
 - Add support for SF Symbols 6 (By [Rod Brown](https://github.com/RodBrown1988))
-- Added initializers for SwiftUI Button.
+- Added more convenience initializers.
 
 ### Changed
 

@@ -9,7 +9,7 @@ public extension Label where Title == Text, Icon == Image {
     /// localized string.
     ///
     /// - Parameter systemSymbol: The `SFSymbol` describing this image. No image is shown if nil is passed.
-    init(_ titleKey: LocalizedStringKey, systemSymbol: SFSymbol?) {
+    nonisolated init(_ titleKey: LocalizedStringKey, systemSymbol: SFSymbol?) {
         self.init(titleKey, systemImage: systemSymbol?.rawValue ?? "")
     }
     
@@ -18,7 +18,7 @@ public extension Label where Title == Text, Icon == Image {
     ///
     /// - Parameter systemSymbol: The `SFSymbol` describing this image. No image is shown if nil is passed.
     @_disfavoredOverload
-    init<S>(_ title: S, systemSymbol: SFSymbol?) where S : StringProtocol {
+    nonisolated init(_ title: some StringProtocol, systemSymbol: SFSymbol?) {
         self.init(title, systemImage: systemSymbol?.rawValue ?? "")
     }
 }
