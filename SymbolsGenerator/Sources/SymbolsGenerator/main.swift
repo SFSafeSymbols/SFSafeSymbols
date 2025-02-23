@@ -56,13 +56,13 @@ symbolRestrictions = symbolRestrictions.merging(missingSymbolRestrictions) { ori
 
 let versionsWithNoLayersetInfo: [String] = []
 
-func otherAliases(for symbolName: String) -> [ScannedSymbol] {
-    var result: [String] = []
+func allAliases(for symbolName: String, includeSelf: Bool = true) -> [ScannedSymbol] {
+    var result: [String] = includeSelf ? [symbolName] : []
     let olderAliases = nameAliases.filter { $0.newName == symbolName }.map(\.oldName)
     if olderAliases.isNotEmpty {
-        result = olderAliases
+        result += olderAliases
     } else if let newestAlias = nameAliases.first(where: { $0.oldName == symbolName })?.newName {
-        result = nameAliases
+        result += nameAliases
             .filter { $0.newName == newestAlias && $0.oldName != symbolName }
             .map(\.oldName) + [newestAlias]
     }
@@ -93,14 +93,15 @@ for scannedSymbol in symbolManifest {
 
     let primaryName = nameAliases.first { $0.oldName == nameWithoutSuffix }?.newName ?? nameWithoutSuffix
 
-    let preview: String? = symbolPreviewForName[primaryName]
+    let otherAliases = allAliases(for: nameWithoutSuffix)
+    let newerSymbol = otherAliases.filter { $0.availability < scannedSymbol.availability }.first
+    let olderSymbol = otherAliases.filter { $0.availability > scannedSymbol.availability }.last
+
+    let preview: String? = otherAliases.compactMap { symbolPreviewForName[$0.name] }.first
+
     if preview == nil {
         symbolsWherePreviewIsntAvailable.append(nameWithoutSuffix)
     }
-
-    let otherAliases = otherAliases(for: nameWithoutSuffix)
-    let newerSymbol = otherAliases.filter { $0.availability < scannedSymbol.availability }.first
-    let olderSymbol = otherAliases.filter { $0.availability > scannedSymbol.availability }.last
 
     if let (index, existingSymbol) = (symbols.enumerated().first { $1.name == nameWithoutSuffix }) {
         // The symbol already exists -> Manage localizations

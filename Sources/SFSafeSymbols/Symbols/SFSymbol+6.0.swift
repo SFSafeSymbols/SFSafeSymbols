@@ -2406,7 +2406,7 @@ public extension SFSymbol {
     static let centsignRingDashed = SFSymbol(rawValue: "centsign.ring.dashed")
 
     /// 􂏽
-    /// 8 Localizations, 2 Layersets
+    /// 20 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -2417,14 +2417,26 @@ public extension SFSymbol {
     /// - Japanese
     /// - Korean
     /// - Thai
+    /// - Bengali (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Gujarati (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Kannada (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Malayalam (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Manipuri (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Maranthi (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Oriya (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Punjabi (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Santali (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Sinhala (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Tamil (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Telugu (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let characterCircle = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "character.circle")
+    static let characterCircle = SymbolWith19Localizations<Ar, Bn_v6_1, Gu_v6_1, He, Hi, Ja, Kn_v6_1, Ko, Ml_v6_1, Mni_v6_1, Mr_v6_1, Or_v6_1, Pa_v6_1, Sat_v6_1, Si_v6_1, Ta_v6_1, Te_v6_1, Th, Zh>(rawValue: "character.circle")
 
     /// 􂏾
-    /// 8 Localizations, 3 Layersets
+    /// 20 Localizations, 3 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -2435,15 +2447,27 @@ public extension SFSymbol {
     /// - Japanese
     /// - Korean
     /// - Thai
+    /// - Bengali (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Gujarati (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Kannada (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Malayalam (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Manipuri (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Maranthi (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Oriya (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Punjabi (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Santali (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Sinhala (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Tamil (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Telugu (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let characterCircleFill = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "character.circle.fill")
+    static let characterCircleFill = SymbolWith19Localizations<Ar, Bn_v6_1, Gu_v6_1, He, Hi, Ja, Kn_v6_1, Ko, Ml_v6_1, Mni_v6_1, Mr_v6_1, Or_v6_1, Pa_v6_1, Sat_v6_1, Si_v6_1, Ta_v6_1, Te_v6_1, Th, Zh>(rawValue: "character.circle.fill")
 
     /// 􂏿
-    /// 8 Localizations, 2 Layersets
+    /// 20 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -2454,14 +2478,26 @@ public extension SFSymbol {
     /// - Japanese
     /// - Korean
     /// - Thai
+    /// - Bengali (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Gujarati (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Kannada (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Malayalam (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Manipuri (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Maranthi (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Oriya (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Punjabi (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Santali (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Sinhala (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Tamil (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Telugu (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let characterSquare = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "character.square")
+    static let characterSquare = SymbolWith19Localizations<Ar, Bn_v6_1, Gu_v6_1, He, Hi, Ja, Kn_v6_1, Ko, Ml_v6_1, Mni_v6_1, Mr_v6_1, Or_v6_1, Pa_v6_1, Sat_v6_1, Si_v6_1, Ta_v6_1, Te_v6_1, Th, Zh>(rawValue: "character.square")
 
     /// 􂐀
-    /// 8 Localizations, 3 Layersets
+    /// 20 Localizations, 3 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -2472,12 +2508,24 @@ public extension SFSymbol {
     /// - Japanese
     /// - Korean
     /// - Thai
+    /// - Bengali (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Gujarati (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Kannada (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Malayalam (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Manipuri (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Maranthi (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Oriya (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Punjabi (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Santali (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Sinhala (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Tamil (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Telugu (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let characterSquareFill = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "character.square.fill")
+    static let characterSquareFill = SymbolWith19Localizations<Ar, Bn_v6_1, Gu_v6_1, He, Hi, Ja, Kn_v6_1, Ko, Ml_v6_1, Mni_v6_1, Mr_v6_1, Or_v6_1, Pa_v6_1, Sat_v6_1, Si_v6_1, Ta_v6_1, Te_v6_1, Th, Zh>(rawValue: "character.square.fill")
 
     /// 􂐦
     /// 3 Localizations, Single Layerset
@@ -3682,6 +3730,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
+    @available(iOS, introduced: 18.0, deprecated: 18.1, renamed: "waveformPathEcgTextPage")
+    @available(macOS, introduced: 15.0, deprecated: 15.1, renamed: "waveformPathEcgTextPage")
+    @available(tvOS, introduced: 18.0, deprecated: 18.1, renamed: "waveformPathEcgTextPage")
+    @available(watchOS, introduced: 11.0, deprecated: 11.1, renamed: "waveformPathEcgTextPage")
+    @available(visionOS, introduced: 2.0, deprecated: 2.1, renamed: "waveformPathEcgTextPage")
     static let ecgTextPage = SymbolWith1Localization<Rtl>(rawValue: "ecg.text.page")
 
     /// 􀳽
@@ -3693,6 +3746,11 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @available(iOS, introduced: 18.0, deprecated: 18.1, renamed: "waveformPathEcgTextPageFill")
+    @available(macOS, introduced: 15.0, deprecated: 15.1, renamed: "waveformPathEcgTextPageFill")
+    @available(tvOS, introduced: 18.0, deprecated: 18.1, renamed: "waveformPathEcgTextPageFill")
+    @available(watchOS, introduced: 11.0, deprecated: 11.1, renamed: "waveformPathEcgTextPageFill")
+    @available(visionOS, introduced: 2.0, deprecated: 2.1, renamed: "waveformPathEcgTextPageFill")
     static let ecgTextPageFill = SymbolWith1Localization<Rtl>(rawValue: "ecg.text.page.fill")
 
     /// 􂥟
