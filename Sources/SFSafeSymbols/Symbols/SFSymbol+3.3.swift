@@ -33,6 +33,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @available(iOS, introduced: 15.4, deprecated: 26.0, renamed: "dotsAndLineVerticalAndPointerArrowRectangle")
+    @available(macOS, introduced: 12.3, deprecated: 26.0, renamed: "dotsAndLineVerticalAndPointerArrowRectangle")
+    @available(tvOS, introduced: 15.4, deprecated: 26.0, renamed: "dotsAndLineVerticalAndPointerArrowRectangle")
+    @available(watchOS, introduced: 8.5, deprecated: 26.0, renamed: "dotsAndLineVerticalAndPointerArrowRectangle")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "dotsAndLineVerticalAndPointerArrowRectangle")
     static let dotsAndLineVerticalAndCursorarrowRectangle = SFSymbol(rawValue: "dots.and.line.vertical.and.cursorarrow.rectangle")
 
     /// 􁎕

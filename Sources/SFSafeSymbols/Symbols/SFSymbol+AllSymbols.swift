@@ -64,6 +64,15 @@ extension SFSymbol {
         if #available(iOS 18.2, macOS 15.2, tvOS 18.2, watchOS 11.2, visionOS 2.2, *) {
             result.merge(localizationsAvailableSince6_2) { $0.union($1) }
         }
+        if #available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *) {
+            result.merge(localizationsAvailableSince6_3) { $0.union($1) }
+        }
+        if #available(iOS 18.5, macOS 15.5, tvOS 18.5, watchOS 11.5, visionOS 2.5, *) {
+            result.merge(localizationsAvailableSince6_4) { $0.union($1) }
+        }
+        if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+            result.merge(localizationsAvailableSince7_0) { $0.union($1) }
+        }
         return result
     }()
 
@@ -125,6 +134,15 @@ extension SFSymbol {
         }
         if #available(iOS 18.2, macOS 15.2, tvOS 18.2, watchOS 11.2, visionOS 2.2, *) {
             result.subtract(symbolsDeprecatedSince6_2)
+        }
+        if #available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *) {
+            result.subtract(symbolsDeprecatedSince6_3)
+        }
+        if #available(iOS 18.5, macOS 15.5, tvOS 18.5, watchOS 11.5, visionOS 2.5, *) {
+            result.subtract(symbolsDeprecatedSince6_4)
+        }
+        if #available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *) {
+            result.subtract(symbolsDeprecatedSince7_0)
         }
         return result
     }()

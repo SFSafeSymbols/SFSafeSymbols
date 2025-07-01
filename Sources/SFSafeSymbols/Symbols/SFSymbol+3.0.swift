@@ -1544,10 +1544,11 @@ public extension SFSymbol {
     static let chevronLeftForwardslashChevronRight = SFSymbol(rawValue: "chevron.left.forwardslash.chevron.right")
 
     /// 􀠌
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let circleAndLineHorizontal = SFSymbol(rawValue: "circle.and.line.horizontal")
 
     /// 􀞍
@@ -1848,6 +1849,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @available(iOS, introduced: 15.0, deprecated: 26.0, renamed: "creditcardAndNumbers")
+    @available(macOS, introduced: 12.0, deprecated: 26.0, renamed: "creditcardAndNumbers")
+    @available(tvOS, introduced: 15.0, deprecated: 26.0, renamed: "creditcardAndNumbers")
+    @available(watchOS, introduced: 8.0, deprecated: 26.0, renamed: "creditcardAndNumbers")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "creditcardAndNumbers")
     static let creditcardAnd123 = SFSymbol(rawValue: "creditcard.and.123")
 
     /// 􁄭
@@ -2161,10 +2167,11 @@ public extension SFSymbol {
     static let docTextImage = SFSymbol(rawValue: "doc.text.image")
 
     /// 􀩾
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "textRectanglePageFill")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "textRectanglePageFill")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "textRectanglePageFill")
@@ -3091,6 +3098,11 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod mini and Apple TV.
+    @available(iOS, introduced: 15.0, deprecated: 26.0, renamed: "homepodMiniAndAppletv")
+    @available(macOS, introduced: 12.0, deprecated: 26.0, renamed: "homepodMiniAndAppletv")
+    @available(tvOS, introduced: 15.0, deprecated: 26.0, renamed: "homepodMiniAndAppletv")
+    @available(watchOS, introduced: 8.0, deprecated: 26.0, renamed: "homepodMiniAndAppletv")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "homepodMiniAndAppletv")
     static let homepodminiAndAppletv = SymbolWith1Localization<Rtl_v4>(rawValue: "homepodmini.and.appletv")
 
     /// 􀻺
@@ -3105,6 +3117,11 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod mini and Apple TV.
+    @available(iOS, introduced: 15.0, deprecated: 26.0, renamed: "homepodMiniAndAppletvFill")
+    @available(macOS, introduced: 12.0, deprecated: 26.0, renamed: "homepodMiniAndAppletvFill")
+    @available(tvOS, introduced: 15.0, deprecated: 26.0, renamed: "homepodMiniAndAppletvFill")
+    @available(watchOS, introduced: 8.0, deprecated: 26.0, renamed: "homepodMiniAndAppletvFill")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "homepodMiniAndAppletvFill")
     static let homepodminiAndAppletvFill = SymbolWith1Localization<Rtl_v4>(rawValue: "homepodmini.and.appletv.fill")
 
     /// 􀖈
@@ -3750,10 +3767,11 @@ public extension SFSymbol {
     static let listDashHeaderRectangle = SFSymbol(rawValue: "list.dash.header.rectangle")
 
     /// 􁈟
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
     static let locationMagnifyingglass = SFSymbol(rawValue: "location.magnifyingglass")
 
     /// 􀷌
@@ -4056,10 +4074,11 @@ public extension SFSymbol {
     static let menucard = SFSymbol(rawValue: "menucard")
 
     /// 􀻓
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let menucardFill = SFSymbol(rawValue: "menucard.fill")
 
     /// 􀼁
@@ -6437,10 +6456,11 @@ public extension SFSymbol {
     static let snowflakeCircleFill = SFSymbol(rawValue: "snowflake.circle.fill")
 
     /// 􁇥
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
     static let sparkleMagnifyingglass = SFSymbol(rawValue: "sparkle.magnifyingglass")
 
     /// 􀰙
@@ -6817,10 +6837,11 @@ public extension SFSymbol {
     static let starBubbleFill = SFSymbol(rawValue: "star.bubble.fill")
 
     /// 􀋄
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let starLeadinghalfFilled = SFSymbol(rawValue: "star.leadinghalf.filled")
 
     /// 􁇄
@@ -7059,10 +7080,11 @@ public extension SFSymbol {
     static let tramFillTunnel = SFSymbol(rawValue: "tram.fill.tunnel")
 
     /// 􀡛
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let trapezoidAndLineHorizontal = SFSymbol(rawValue: "trapezoid.and.line.horizontal")
 
     /// 􀞑
@@ -7073,10 +7095,11 @@ public extension SFSymbol {
     static let trapezoidAndLineHorizontalFill = SFSymbol(rawValue: "trapezoid.and.line.horizontal.fill")
 
     /// 􀡠
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let trapezoidAndLineVertical = SFSymbol(rawValue: "trapezoid.and.line.vertical")
 
     /// 􀞐
@@ -7401,11 +7424,12 @@ public extension SFSymbol {
     static let wifiSquareFill = SFSymbol(rawValue: "wifi.square.fill")
 
     /// 􀺾
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let xmarkApp = SFSymbol(rawValue: "xmark.app")
 
     /// 􀻀

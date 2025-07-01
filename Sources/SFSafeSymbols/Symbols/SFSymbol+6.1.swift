@@ -3,166 +3,189 @@
 // 6.1 Symbols
 @available(iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1, visionOS 2.1, *)
 public extension SFSymbol {
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂶠
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let boltHouse = SFSymbol(rawValue: "bolt.house")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂶡
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let boltHouseFill = SFSymbol(rawValue: "bolt.house.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂷔
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let cableConnectorVideo = SFSymbol(rawValue: "cable.connector.video")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂴾
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let carTopRadiowaves2FrontLeftFrontFrontRight = SFSymbol(rawValue: "car.top.radiowaves.2.front.left.front.front.right")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂴿
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let carTopRadiowaves2FrontLeftFrontFrontRightFill = SFSymbol(rawValue: "car.top.radiowaves.2.front.left.front.front.right.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂵂
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let carTopRadiowaves2RearLeftRearRearRight = SFSymbol(rawValue: "car.top.radiowaves.2.rear.left.rear.rear.right")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂵃
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let carTopRadiowaves2RearLeftRearRearRightFill = SFSymbol(rawValue: "car.top.radiowaves.2.rear.left.rear.rear.right.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂵆
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let dotCarTopRadiowaves2RearLeftRearRearRight = SFSymbol(rawValue: "dot.car.top.radiowaves.2.rear.left.rear.rear.right")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂵇
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let dotCarTopRadiowaves2RearLeftRearRearRightFill = SFSymbol(rawValue: "dot.car.top.radiowaves.2.rear.left.rear.rear.right.fill")
 
-    /// No preview available
+    /// 􀛫
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let envelopeStack = SFSymbol(rawValue: "envelope.stack")
 
-    /// No preview available
+    /// 􀛬
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let envelopeStackFill = SFSymbol(rawValue: "envelope.stack.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset, ⚠️ Restricted
+    /// 􂷩
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static let exclamationmarkMessage = SFSymbol(rawValue: "exclamationmark.message")
 
-    /// No preview available
-    /// Single Localization, Single Layerset, ⚠️ Restricted
+    /// 􂷪
+    /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static let exclamationmarkMessageFill = SFSymbol(rawValue: "exclamationmark.message.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂶩
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let handThumbsdownSlash = SFSymbol(rawValue: "hand.thumbsdown.slash")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂶪
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let handThumbsdownSlashFill = SFSymbol(rawValue: "hand.thumbsdown.slash.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂶥
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let handThumbsupSlash = SFSymbol(rawValue: "hand.thumbsup.slash")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂶦
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let handThumbsupSlashFill = SFSymbol(rawValue: "hand.thumbsup.slash.fill")
 
-    /// No preview available
+    /// 􂶟
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let laurelLeadingLaurelTrailing = SFSymbol(rawValue: "laurel.leading.laurel.trailing")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂷃
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let memoriesBadgeCheckmark = SFSymbol(rawValue: "memories.badge.checkmark")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂷁
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let memoriesBadgeXmark = SFSymbol(rawValue: "memories.badge.xmark")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂷐
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let photoBadgeMagnifyingglass = SFSymbol(rawValue: "photo.badge.magnifyingglass")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂷑
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let photoBadgeMagnifyingglassFill = SFSymbol(rawValue: "photo.badge.magnifyingglass.fill")
 
-    /// No preview available
-    /// 2 Localizations, Single Layerset, ⚠️ Restricted
+    /// 􂷫
+    /// 2 Localizations, 2 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
     /// - Latin
@@ -170,12 +193,13 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static let questionmarkMessage = SymbolWith1Localization<Ar_v6_2>(rawValue: "questionmark.message")
 
-    /// No preview available
-    /// 2 Localizations, Single Layerset, ⚠️ Restricted
+    /// 􂷬
+    /// 2 Localizations, 3 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
     /// - Latin
@@ -183,74 +207,89 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static let questionmarkMessageFill = SymbolWith1Localization<Ar_v6_2>(rawValue: "questionmark.message.fill")
 
-    /// No preview available
+    /// 􂶯
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let rectangleGrid3x1 = SFSymbol(rawValue: "rectangle.grid.3x1")
 
-    /// No preview available
+    /// 􂶰
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let rectangleGrid3x1Fill = SFSymbol(rawValue: "rectangle.grid.3x1.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂷡
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let squareAndArrowDownBadgeCheckmark = SFSymbol(rawValue: "square.and.arrow.down.badge.checkmark")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂷢
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let squareAndArrowDownBadgeCheckmarkFill = SFSymbol(rawValue: "square.and.arrow.down.badge.checkmark.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂷥
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let squareAndArrowDownBadgeXmark = SFSymbol(rawValue: "square.and.arrow.down.badge.xmark")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂷦
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let squareAndArrowDownBadgeXmarkFill = SFSymbol(rawValue: "square.and.arrow.down.badge.xmark.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂷝
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let waveformBadgeCheckmark = SFSymbol(rawValue: "waveform.badge.checkmark")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂷞
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let waveformBadgeXmark = SFSymbol(rawValue: "waveform.badge.xmark")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂵊
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let waveformPathEcgMagnifyingglass = SFSymbol(rawValue: "waveform.path.ecg.magnifyingglass")
 
-    /// No preview available
+    /// 􂷚
     /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
@@ -261,8 +300,8 @@ public extension SFSymbol {
     /// - Monochrome
     static let waveformPathEcgText = SymbolWith1Localization<Rtl>(rawValue: "waveform.path.ecg.text")
 
-    /// No preview available
-    /// 2 Localizations, Single Layerset
+    /// 􂵋
+    /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Left-to-Right
@@ -270,10 +309,11 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let waveformPathEcgTextClipboard = SymbolWith1Localization<Rtl>(rawValue: "waveform.path.ecg.text.clipboard")
 
-    /// No preview available
-    /// 2 Localizations, Single Layerset
+    /// 􂵌
+    /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Left-to-Right
@@ -281,6 +321,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let waveformPathEcgTextClipboardFill = SymbolWith1Localization<Rtl>(rawValue: "waveform.path.ecg.text.clipboard.fill")
 
     /// 􀳼

@@ -8,7 +8,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- None
+- Add SF Symbols 7.0 ([F1248](https://github.com/F1248))
+- Add SF Symbols 6.4 ([F1248](https://github.com/F1248))
+- Add SF Symbols 6.3 ([F1248](https://github.com/F1248))
 
 ### Changed
 
