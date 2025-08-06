@@ -674,17 +674,19 @@ public extension SFSymbol {
     static let roboticVacuumAndArrowtriangleUpFill = SFSymbol(rawValue: "robotic.vacuum.and.arrowtriangle.up.fill")
 
     /// 􂼱
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let roboticVacuumAndEllipsis = SFSymbol(rawValue: "robotic.vacuum.and.ellipsis")
 
     /// 􂼲
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let roboticVacuumAndEllipsisFill = SFSymbol(rawValue: "robotic.vacuum.and.ellipsis.fill")
 
     /// 􂻝

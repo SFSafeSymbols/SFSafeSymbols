@@ -1,5 +1,5 @@
 //
-// Updated on July 1 2025
+// Updated on August 6 2025
 //
 
 0.circle
@@ -768,6 +768,7 @@ arrow.trianglehead.pull
 arrow.trianglehead.rectanglepath
 arrow.trianglehead.swap
 arrow.trianglehead.topright.capsulepath.clockwise
+arrow.trianglehead.turn.up.right
 arrow.trianglehead.turn.up.right.circle
 arrow.trianglehead.turn.up.right.circle.fill
 arrow.trianglehead.turn.up.right.diamond
@@ -1289,6 +1290,10 @@ blinds.horizontal.closed
 blinds.horizontal.open
 blinds.vertical.closed
 blinds.vertical.open
+blood.pressure.cuff
+blood.pressure.cuff.badge.gauge.with.needle
+blood.pressure.cuff.badge.gauge.with.needle.fill
+blood.pressure.cuff.fill
 bold
 bold.italic.underline
 bold.underline
@@ -1847,6 +1852,7 @@ chart.bar.horizontal.page.fill
 chart.bar.xaxis
 chart.bar.xaxis.ascending
 chart.bar.xaxis.ascending.badge.clock
+chart.bar.xaxis.descending
 chart.bar.yaxis
 chart.dots.scatter
 chart.line.downtrend.xyaxis
@@ -1883,6 +1889,7 @@ checkmark.circle.badge.questionmark
 checkmark.circle.badge.questionmark.fill
 checkmark.circle.badge.xmark
 checkmark.circle.badge.xmark.fill
+checkmark.circle.dotted
 checkmark.circle.fill
 checkmark.circle.trianglebadge.exclamationmark
 checkmark.circle.trianglebadge.exclamationmark.fill
@@ -2377,6 +2384,7 @@ dishwasher.fill
 display
 display.2
 display.and.arrow.down
+display.and.screwdriver
 display.trianglebadge.exclamationmark
 distribute.horizontal
 distribute.horizontal.center
@@ -2607,6 +2615,7 @@ envelope.front
 envelope.front.fill
 envelope.open
 envelope.open.badge.clock
+envelope.open.badge.clock.fill
 envelope.open.fill
 envelope.stack
 envelope.stack.fill
@@ -2774,6 +2783,7 @@ f.circle.fill
 f.cursive
 f.cursive.circle
 f.cursive.circle.fill
+f.cursive.slash
 f.square
 f.square.fill
 face.dashed
@@ -3388,6 +3398,8 @@ globe.americas.fill
 globe.asia.australia
 globe.asia.australia.fill
 globe.badge.chevron.backward
+globe.badge.clock
+globe.badge.clock.fill
 globe.central.south.asia
 globe.central.south.asia.fill
 globe.desk
@@ -3495,6 +3507,10 @@ hand.thumbsdown
 hand.thumbsdown.circle
 hand.thumbsdown.circle.fill
 hand.thumbsdown.fill
+hand.thumbsdown.filled.hand.thumbsup
+hand.thumbsdown.hand.thumbsup
+hand.thumbsdown.hand.thumbsup.fill
+hand.thumbsdown.hand.thumbsup.filled
 hand.thumbsdown.slash
 hand.thumbsdown.slash.fill
 hand.thumbsup
@@ -3551,6 +3567,10 @@ hearingdevice.and.signal.meter.fill
 hearingdevice.ear
 hearingdevice.ear.fill
 heart
+heart.badge.bolt
+heart.badge.bolt.fill
+heart.badge.bolt.slash
+heart.badge.bolt.slash.fill
 heart.circle
 heart.circle.fill
 heart.fill
@@ -3615,6 +3635,7 @@ hifispeaker.badge.plus
 hifispeaker.badge.plus.fill
 hifispeaker.fill
 highlighter
+highlighter.badge.ellipsis
 hockey.puck
 hockey.puck.circle
 hockey.puck.circle.fill
@@ -3708,6 +3729,8 @@ hryvniasign.square.fill
 humidifier
 humidifier.and.droplets
 humidifier.and.droplets.fill
+humidifier.and.ellipsis
+humidifier.and.ellipsis.fill
 humidifier.fill
 humidity
 humidity.fill
@@ -3791,6 +3814,7 @@ inset.filled.center.rectangle.badge.plus
 inset.filled.center.rectangle.portrait
 inset.filled.circle
 inset.filled.circle.dashed
+inset.filled.circle.slash
 inset.filled.diamond
 inset.filled.leadinghalf.arrow.leading.rectangle
 inset.filled.leadinghalf.rectangle
@@ -3892,8 +3916,10 @@ ipad.gen2.landscape.slash
 ipad.gen2.sizes
 ipad.gen2.slash
 ipad.landscape
+ipad.landscape.and.applewatch
 ipad.landscape.and.iphone
 ipad.landscape.and.iphone.slash
+ipad.landscape.and.ipod
 ipad.landscape.badge.exclamationmark
 ipad.landscape.badge.location
 ipad.landscape.badge.play
@@ -3905,6 +3931,8 @@ iphone.and.arrow.forward.outward
 iphone.and.arrow.left.and.arrow.right.inward
 iphone.and.arrow.right.inward
 iphone.and.arrow.right.outward
+iphone.and.ipod
+iphone.and.vision.pro
 iphone.app.switcher
 iphone.badge.checkmark
 iphone.badge.exclamationmark
@@ -3985,6 +4013,8 @@ iphone.slash.circle.fill
 iphone.smartbatterycase.gen1
 iphone.smartbatterycase.gen2
 ipod
+ipod.and.applewatch
+ipod.and.vision.pro
 ipod.shuffle.gen1
 ipod.shuffle.gen2
 ipod.shuffle.gen3
@@ -4275,6 +4305,7 @@ lirasign.square
 lirasign.square.fill
 list.and.film
 list.bullet
+list.bullet.badge.ellipsis
 list.bullet.below.rectangle
 list.bullet.circle
 list.bullet.circle.fill
@@ -4288,9 +4319,11 @@ list.bullet.rectangle.portrait.fill
 list.clipboard
 list.clipboard.fill
 list.dash
+list.dash.badge.ellipsis
 list.dash.header.rectangle
 list.dash.header.rectangle.fill
 list.number
+list.number.badge.ellipsis
 list.star
 list.triangle
 livephoto
@@ -4405,6 +4438,7 @@ macbook
 macbook.and.applewatch
 macbook.and.ipad
 macbook.and.iphone
+macbook.and.ipod
 macbook.and.vision.pro
 macbook.badge.checkmark
 macbook.badge.shield.checkmark
@@ -4440,6 +4474,7 @@ macwindow
 macwindow.and.pointer.arrow
 macwindow.badge.plus
 macwindow.on.rectangle
+macwindow.stack
 magazine
 magazine.fill
 magicmouse
@@ -4906,6 +4941,8 @@ person.2.circle.fill
 person.2.crop.square.stack
 person.2.crop.square.stack.fill
 person.2.fill
+person.2.shield
+person.2.shield.fill
 person.2.slash
 person.2.slash.fill
 person.2.wave.2
@@ -5004,6 +5041,8 @@ person.spatialaudio.stereo.3d.fill
 person.spatialaudio.stereo.fill
 person.text.rectangle
 person.text.rectangle.fill
+person.text.rectangle.trianglebadge.exclamationmark
+person.text.rectangle.trianglebadge.exclamationmark.fill
 person.wave.2
 person.wave.2.fill
 personalhotspot
@@ -5493,6 +5532,8 @@ rectangle.fill.on.rectangle.fill
 rectangle.filled.and.hand.point.up.left
 rectangle.grid.1x2
 rectangle.grid.1x2.fill
+rectangle.grid.1x3
+rectangle.grid.1x3.fill
 rectangle.grid.2x2
 rectangle.grid.2x2.fill
 rectangle.grid.3x1
@@ -5873,6 +5914,8 @@ sos.circle.fill
 space
 sparkle
 sparkle.magnifyingglass
+sparkle.text.clipboard
+sparkle.text.clipboard.fill
 sparkles
 sparkles.2
 sparkles.rectangle.stack
@@ -6136,6 +6179,8 @@ stove
 stove.fill
 strikethrough
 strikethrough.double
+stroke.line.diagonal
+stroke.line.diagonal.slash
 stroller
 stroller.fill
 studentdesk
@@ -6400,6 +6445,7 @@ theatermasks
 theatermasks.circle
 theatermasks.circle.fill
 theatermasks.fill
+thermometer.and.ellipsis
 thermometer.and.liquid.waves
 thermometer.and.liquid.waves.snowflake
 thermometer.and.liquid.waves.trianglebadge.exclamationmark

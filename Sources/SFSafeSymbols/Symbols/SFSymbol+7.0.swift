@@ -437,6 +437,20 @@ public extension SFSymbol {
     /// - Multicolor
     static let _9Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "9.calendar")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let ac = SFSymbol(rawValue: "ac")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let acSlash = SFSymbol(rawValue: "ac.slash")
+
     /// 􃈜
     /// Single Localization, 2 Layersets
     ///
@@ -601,6 +615,17 @@ public extension SFSymbol {
     /// - Multicolor
     static let appleClassicalPagesFill = SFSymbol(rawValue: "apple.classical.pages.fill")
 
+    /// 􀠀
+    /// Single Localization, 3 Layersets, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomeKit.
+    static let appleHomekit = SFSymbol(rawValue: "apple.homekit")
+
     /// 􃁰
     /// Single Localization, 2 Layersets
     ///
@@ -672,6 +697,15 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
     static let applewatchBadgeCheckmark = SFSymbol(rawValue: "applewatch.badge.checkmark")
+
+    /// No preview available
+    /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
+    static let applewatchBadgeExclamationmark = SFSymbol(rawValue: "applewatch.badge.exclamationmark")
 
     /// 􃍤
     /// 2 Localizations, 3 Layersets, ⚠️ Restricted
@@ -797,7 +831,7 @@ public extension SFSymbol {
     /// - Multicolor
     static let arrowForwardFolderFill = SymbolWith1Localization<Rtl>(rawValue: "arrow.forward.folder.fill")
 
-    /// No preview available
+    /// 􀙝
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -889,28 +923,32 @@ public extension SFSymbol {
     /// - Multicolor
     static let bicycleSensorTagRadiowavesLeftAndRightFill = SFSymbol(rawValue: "bicycle.sensor.tag.radiowaves.left.and.right.fill")
 
-    /// No preview available
+    /// 􃔛
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let bloodPressureCuff = SFSymbol(rawValue: "blood.pressure.cuff")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃓻
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let bloodPressureCuffBadgeGaugeWithNeedle = SFSymbol(rawValue: "blood.pressure.cuff.badge.gauge.with.needle")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃓼
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let bloodPressureCuffBadgeGaugeWithNeedleFill = SFSymbol(rawValue: "blood.pressure.cuff.badge.gauge.with.needle.fill")
 
-    /// No preview available
+    /// 􃔜
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1055,6 +1093,27 @@ public extension SFSymbol {
     /// - Multicolor
     static let cameraSensorTagRadiowavesLeftAndRightFill = SFSymbol(rawValue: "camera.sensor.tag.radiowaves.left.and.right.fill")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let carRearRoadLaneDashedArrowtriangle2Outward = SFSymbol(rawValue: "car.rear.road.lane.dashed.arrowtriangle.2.outward")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let carWindowLeftBadgeLock = SFSymbol(rawValue: "car.window.left.badge.lock")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let carWindowRightBadgeLock = SFSymbol(rawValue: "car.window.right.badge.lock")
+
     /// 􃋺
     /// Single Localization, 2 Layersets
     ///
@@ -1101,11 +1160,12 @@ public extension SFSymbol {
     /// - Hierarchical
     static let characterTextJustify = SymbolWith18Localizations<Ar, Bn, Gu, He, Hi, Ja, Kn, Ko, Ml, Mni, Mr, Or, Pa, Sat, Si, Ta, Th, Zh>(rawValue: "character.text.justify")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃒊
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let chartBarXaxisDescending = SFSymbol(rawValue: "chart.bar.xaxis.descending")
 
     /// 􂿲
@@ -1167,11 +1227,12 @@ public extension SFSymbol {
     /// - Multicolor
     static let checkmarkCircleBadgePlusFill = SFSymbol(rawValue: "checkmark.circle.badge.plus.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃑹
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let checkmarkCircleDotted = SFSymbol(rawValue: "checkmark.circle.dotted")
 
     /// 􃋂
@@ -1272,6 +1333,13 @@ public extension SFSymbol {
     /// - Hierarchical
     static let creditcardAndNumbers = SFSymbol(rawValue: "creditcard.and.numbers")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let creditcardArrowTrianglehead2ClockwiseRotate90 = SFSymbol(rawValue: "creditcard.arrow.trianglehead.2.clockwise.rotate.90")
+
     /// 􃈕
     /// Single Localization, Single Layerset
     ///
@@ -1321,11 +1389,12 @@ public extension SFSymbol {
     /// - Multicolor
     static let desktopcomputerBadgeShieldCheckmark = SFSymbol(rawValue: "desktopcomputer.badge.shield.checkmark")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃒘
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let displayAndScrewdriver = SFSymbol(rawValue: "display.and.screwdriver")
 
     /// 􁣊
@@ -1531,11 +1600,13 @@ public extension SFSymbol {
     /// - Multicolor
     static let envelopeBadgePlusFill = SFSymbol(rawValue: "envelope.badge.plus.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃑭
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let envelopeOpenBadgeClockFill = SFSymbol(rawValue: "envelope.open.badge.clock.fill")
 
     /// 􂀚
@@ -1686,11 +1757,12 @@ public extension SFSymbol {
     /// - Monochrome
     static let eyeHalfClosedFill = SFSymbol(rawValue: "eye.half.closed.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃒌
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let fCursiveSlash = SFSymbol(rawValue: "f.cursive.slash")
 
     /// 􃄻
@@ -1885,18 +1957,22 @@ public extension SFSymbol {
     /// - Hierarchical
     static let gaugeOpenRighthalfDottedWithNeedleAndArrowTriangleheadBackward = SFSymbol(rawValue: "gauge.open.righthalf.dotted.with.needle.and.arrow.trianglehead.backward")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃑺
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let globeBadgeClock = SFSymbol(rawValue: "globe.badge.clock")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃔇
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let globeBadgeClockFill = SFSymbol(rawValue: "globe.badge.clock.fill")
 
     /// 􃁔
@@ -1929,6 +2005,13 @@ public extension SFSymbol {
     /// - Monochrome
     static let guidepointHorizontal = SFSymbol(rawValue: "guidepoint.horizontal")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let guidepointVertical = SFSymbol(rawValue: "guidepoint.vertical")
+
     /// 􃂲
     /// Single Localization, 2 Layersets
     ///
@@ -1945,28 +2028,28 @@ public extension SFSymbol {
     /// - Hierarchical
     static let guidepointVerticalNumbers = SFSymbol(rawValue: "guidepoint.vertical.numbers")
 
-    /// No preview available
+    /// 􃒆
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let handThumbsdownFilledHandThumbsup = SFSymbol(rawValue: "hand.thumbsdown.filled.hand.thumbsup")
 
-    /// No preview available
+    /// 􃒄
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let handThumbsdownHandThumbsup = SFSymbol(rawValue: "hand.thumbsdown.hand.thumbsup")
 
-    /// No preview available
+    /// 􃒅
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let handThumbsdownHandThumbsupFill = SFSymbol(rawValue: "hand.thumbsdown.hand.thumbsup.fill")
 
-    /// No preview available
+    /// 􃒇
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2014,32 +2097,36 @@ public extension SFSymbol {
     /// - Multicolor
     static let headphonesSensorTagRadiowavesLeftAndRightFill = SFSymbol(rawValue: "headphones.sensor.tag.radiowaves.left.and.right.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃓫
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let heartBadgeBolt = SFSymbol(rawValue: "heart.badge.bolt")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃓬
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let heartBadgeBoltFill = SFSymbol(rawValue: "heart.badge.bolt.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃓯
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let heartBadgeBoltSlash = SFSymbol(rawValue: "heart.badge.bolt.slash")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃓰
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let heartBadgeBoltSlashFill = SFSymbol(rawValue: "heart.badge.bolt.slash.fill")
 
     /// 􃂡
@@ -2075,11 +2162,13 @@ public extension SFSymbol {
     /// - Hierarchical
     static let heatWavesGaugeOpen = SFSymbol(rawValue: "heat.waves.gauge.open")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃒚
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let highlighterBadgeEllipsis = SFSymbol(rawValue: "highlighter.badge.ellipsis")
 
     /// 􃉰
@@ -2179,18 +2268,20 @@ public extension SFSymbol {
     /// - Multicolor
     static let hourglassBadgeLock = SFSymbol(rawValue: "hourglass.badge.lock")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃒦
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let humidifierAndEllipsis = SFSymbol(rawValue: "humidifier.and.ellipsis")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃒧
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let humidifierAndEllipsisFill = SFSymbol(rawValue: "humidifier.and.ellipsis.fill")
 
     /// 􀚏
@@ -2218,11 +2309,12 @@ public extension SFSymbol {
     /// - Hierarchical
     static let insetFilledBottomleftBottomrightRectangle = SFSymbol(rawValue: "inset.filled.bottomleft.bottomright.rectangle")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃐥
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let insetFilledCircleSlash = SFSymbol(rawValue: "inset.filled.circle.slash")
 
     /// 􃇐
@@ -2297,38 +2389,42 @@ public extension SFSymbol {
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
     static let ipadGen2Sizes = SFSymbol(rawValue: "ipad.gen2.sizes")
 
-    /// No preview available
-    /// Single Localization, Single Layerset, ⚠️ Restricted
+    /// 􃔋
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad and Apple Watch.
     static let ipadLandscapeAndApplewatch = SFSymbol(rawValue: "ipad.landscape.and.applewatch")
 
-    /// No preview available
-    /// Single Localization, Single Layerset, ⚠️ Restricted
+    /// 􃔍
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad and iPod. 
     static let ipadLandscapeAndIpod = SFSymbol(rawValue: "ipad.landscape.and.ipod")
 
-    /// No preview available
-    /// Single Localization, Single Layerset, ⚠️ Restricted
+    /// 􃔏
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone and iPod.
     static let iphoneAndIpod = SFSymbol(rawValue: "iphone.and.ipod")
 
-    /// No preview available
-    /// Single Localization, Single Layerset, ⚠️ Restricted
+    /// 􃔕
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone and Vision Pro.
     static let iphoneAndVisionPro = SFSymbol(rawValue: "iphone.and.vision.pro")
@@ -2399,20 +2495,22 @@ public extension SFSymbol {
     /// - Hierarchical
     static let iphonePatternDiagonallineOnRectanglePortraitDashed = SFSymbol(rawValue: "iphone.pattern.diagonalline.on.rectangle.portrait.dashed")
 
-    /// No preview available
-    /// Single Localization, Single Layerset, ⚠️ Restricted
+    /// 􃔓
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPod and Apple Watch.
     static let ipodAndApplewatch = SFSymbol(rawValue: "ipod.and.applewatch")
 
-    /// No preview available
-    /// Single Localization, Single Layerset, ⚠️ Restricted
+    /// 􃔗
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPod and Vision Pro.
     static let ipodAndVisionPro = SFSymbol(rawValue: "ipod.and.vision.pro")
@@ -2532,18 +2630,22 @@ public extension SFSymbol {
     /// - Monochrome
     static let linesMeasurementHorizontalAlignedBottom = SFSymbol(rawValue: "lines.measurement.horizontal.aligned.bottom")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃒜
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let listBulletBadgeEllipsis = SFSymbol(rawValue: "list.bullet.badge.ellipsis")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃒞
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let listDashBadgeEllipsis = SFSymbol(rawValue: "list.dash.badge.ellipsis")
 
     /// 􃈩
@@ -2555,8 +2657,8 @@ public extension SFSymbol {
     /// - Multicolor
     static let listDashHeaderRectangleFill = SFSymbol(rawValue: "list.dash.header.rectangle.fill")
 
-    /// No preview available
-    /// 3 Localizations, Single Layerset
+    /// 􃒠
+    /// 3 Localizations, 3 Layersets
     ///
     /// Localizations:
     /// - Left-to-Right
@@ -2565,6 +2667,8 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let listNumberBadgeEllipsis = SymbolWith2Localizations<Hi, Rtl>(rawValue: "list.number.badge.ellipsis")
 
     /// 􃍰
@@ -2629,10 +2733,18 @@ public extension SFSymbol {
     static let lockRectangleDashed = SFSymbol(rawValue: "lock.rectangle.dashed")
 
     /// No preview available
-    /// Single Localization, Single Layerset, ⚠️ Restricted
+    /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
+    static let lockSquareDashed = SFSymbol(rawValue: "lock.square.dashed")
+
+    /// 􃔑
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s MacBook and iPod.
     static let macbookAndIpod = SFSymbol(rawValue: "macbook.and.ipod")
@@ -2647,6 +2759,15 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s MacBook.
     static let macbookBadgeCheckmark = SFSymbol(rawValue: "macbook.badge.checkmark")
+
+    /// No preview available
+    /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s MacBook.
+    static let macbookBadgeExclamationmark = SFSymbol(rawValue: "macbook.badge.exclamationmark")
 
     /// 􃊈
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -2778,7 +2899,7 @@ public extension SFSymbol {
     /// - Hierarchical
     static let macwindowAndPointerArrow = SymbolWith1Localization<Rtl>(rawValue: "macwindow.and.pointer.arrow")
 
-    /// No preview available
+    /// 􃑷
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2865,6 +2986,20 @@ public extension SFSymbol {
     /// - Monochrome
     static let paintBucketClassic = SFSymbol(rawValue: "paint.bucket.classic")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let pedestrianGateClosedTrianglebadgeExclamationmark = SFSymbol(rawValue: "pedestrian.gate.closed.trianglebadge.exclamationmark")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let pedestrianGateOpenTrianglebadgeExclamationmark = SFSymbol(rawValue: "pedestrian.gate.open.trianglebadge.exclamationmark")
+
     /// 􂣑
     /// Single Localization, 3 Layersets
     ///
@@ -2883,18 +3018,21 @@ public extension SFSymbol {
     /// - Multicolor
     static let person2BadgeFill = SFSymbol(rawValue: "person.2.badge.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃒈
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let person2Shield = SFSymbol(rawValue: "person.2.shield")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃒉
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let person2ShieldFill = SFSymbol(rawValue: "person.2.shield.fill")
 
     /// 􃂇
@@ -2955,18 +3093,22 @@ public extension SFSymbol {
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Spatial Audio.
     static let personSpatialaudioStereoFill = SFSymbol(rawValue: "person.spatialaudio.stereo.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃒀
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let personTextRectangleTrianglebadgeExclamationmark = SFSymbol(rawValue: "person.text.rectangle.trianglebadge.exclamationmark")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃒁
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let personTextRectangleTrianglebadgeExclamationmarkFill = SFSymbol(rawValue: "person.text.rectangle.trianglebadge.exclamationmark.fill")
 
     /// 􃌑
@@ -3119,6 +3261,62 @@ public extension SFSymbol {
     /// - Multicolor
     static let pointerArrowClickBadgeClock = SFSymbol(rawValue: "pointer.arrow.click.badge.clock")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let pointerArrowIpad = SFSymbol(rawValue: "pointer.arrow.ipad")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let pointerArrowIpadAndSquareOnSquareDashed = SFSymbol(rawValue: "pointer.arrow.ipad.and.square.on.square.dashed")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let pointerArrowIpadRays = SFSymbol(rawValue: "pointer.arrow.ipad.rays")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let pointerArrowIpadSlash = SFSymbol(rawValue: "pointer.arrow.ipad.slash")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let pointerArrowIpadSlashSquare = SFSymbol(rawValue: "pointer.arrow.ipad.slash.square")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let pointerArrowIpadSlashSquareFill = SFSymbol(rawValue: "pointer.arrow.ipad.slash.square.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let pointerArrowIpadSquare = SFSymbol(rawValue: "pointer.arrow.ipad.square")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let pointerArrowIpadSquareFill = SFSymbol(rawValue: "pointer.arrow.ipad.square.fill")
+
     /// 􀣠
     /// Single Localization, Single Layerset
     ///
@@ -3191,19 +3389,33 @@ public extension SFSymbol {
     /// - Monochrome
     static let rectangle3GroupDashed = SFSymbol(rawValue: "rectangle.3.group.dashed")
 
-    /// No preview available
+    /// 􃑼
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let rectangleGrid1x3 = SFSymbol(rawValue: "rectangle.grid.1x3")
 
-    /// No preview available
+    /// 􃑽
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let rectangleGrid1x3Fill = SFSymbol(rawValue: "rectangle.grid.1x3.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let rectangleLandscapeRotateSlash = SFSymbol(rawValue: "rectangle.landscape.rotate.slash")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let rectanglePortraitRotateSlash = SFSymbol(rawValue: "rectangle.portrait.rotate.slash")
 
     /// 􃈑
     /// Single Localization, 2 Layersets
@@ -3274,6 +3486,48 @@ public extension SFSymbol {
     /// - Monochrome
     static let serviceDogFill = SFSymbol(rawValue: "service.dog.fill")
 
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let shoeArrowTriangleheadUpAndDown = SFSymbol(rawValue: "shoe.arrow.trianglehead.up.and.down")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let shoeArrowTriangleheadUpAndDownFill = SFSymbol(rawValue: "shoe.arrow.trianglehead.up.and.down.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let shoeArrowTriangleheadUpRight = SFSymbol(rawValue: "shoe.arrow.trianglehead.up.right")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let shoeArrowTriangleheadUpRightCircle = SFSymbol(rawValue: "shoe.arrow.trianglehead.up.right.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let shoeArrowTriangleheadUpRightCircleFill = SFSymbol(rawValue: "shoe.arrow.trianglehead.up.right.circle.fill")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let shoeArrowTriangleheadUpRightFill = SFSymbol(rawValue: "shoe.arrow.trianglehead.up.right.fill")
+
     /// 􀫛
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
@@ -3316,18 +3570,21 @@ public extension SFSymbol {
     /// - Hierarchical
     static let sliderHorizontalBelowCircleRighthalfFilledInverse = SFSymbol(rawValue: "slider.horizontal.below.circle.righthalf.filled.inverse")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃓿
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let sparkleTextClipboard = SFSymbol(rawValue: "sparkle.text.clipboard")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃔀
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let sparkleTextClipboardFill = SFSymbol(rawValue: "sparkle.text.clipboard.fill")
 
     /// 􃈰
@@ -3429,18 +3686,19 @@ public extension SFSymbol {
     /// - Hierarchical
     static let strikethroughDouble = SFSymbol(rawValue: "strikethrough.double")
 
-    /// No preview available
+    /// 􃑪
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let strokeLineDiagonal = SFSymbol(rawValue: "stroke.line.diagonal")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃑫
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let strokeLineDiagonalSlash = SFSymbol(rawValue: "stroke.line.diagonal.slash")
 
     /// 􃁅
@@ -3557,6 +3815,33 @@ public extension SFSymbol {
     /// - Monochrome
     static let textBelowFolderFill = SFSymbol(rawValue: "text.below.folder.fill")
 
+    /// No preview available
+    /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to the Apple Intelligence summary feature.
+    static let textLine2Summary = SFSymbol(rawValue: "text.line.2.summary")
+
+    /// No preview available
+    /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to the Apple Intelligence summary feature.
+    static let textLine2SummaryBadgeXmark = SFSymbol(rawValue: "text.line.2.summary.badge.xmark")
+
+    /// No preview available
+    /// Single Localization, Single Layerset, ⚠️ Restricted
+    ///
+    /// Layersets:
+    /// - Monochrome
+    ///
+    /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to the Apple Intelligence summary feature.
+    static let textLine3Summary = SFSymbol(rawValue: "text.line.3.summary")
+
     /// 􀓕
     /// Single Localization, 2 Layersets
     ///
@@ -3612,11 +3897,12 @@ public extension SFSymbol {
     /// - Hierarchical
     static let textSquareFilled = SFSymbol(rawValue: "text.square.filled")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􃒨
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let thermometerAndEllipsis = SFSymbol(rawValue: "thermometer.and.ellipsis")
 
     /// 􃂠
@@ -3652,6 +3938,20 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     static let thermometerVariableBadgePlay = SFSymbol(rawValue: "thermometer.variable.badge.play")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let ticketCircle = SFSymbol(rawValue: "ticket.circle")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let ticketCircleFill = SFSymbol(rawValue: "ticket.circle.fill")
 
     /// 􃀜
     /// Single Localization, 2 Layersets
@@ -3798,6 +4098,13 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     static let waveformMid = SFSymbol(rawValue: "waveform.mid")
+
+    /// No preview available
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let wifiBadgeLock = SFSymbol(rawValue: "wifi.badge.lock")
 
     /// 􃋈
     /// Single Localization, 2 Layersets

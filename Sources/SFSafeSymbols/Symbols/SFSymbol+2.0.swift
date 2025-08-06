@@ -4627,6 +4627,11 @@ public extension SFSymbol {
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomeKit.
+    @available(iOS, introduced: 14.0, deprecated: 26.0, renamed: "appleHomekit")
+    @available(macOS, introduced: 11.0, deprecated: 26.0, renamed: "appleHomekit")
+    @available(tvOS, introduced: 14.0, deprecated: 26.0, renamed: "appleHomekit")
+    @available(watchOS, introduced: 7.0, deprecated: 26.0, renamed: "appleHomekit")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "appleHomekit")
     static let homekit = SFSymbol(rawValue: "homekit")
 
     /// 􀟢
