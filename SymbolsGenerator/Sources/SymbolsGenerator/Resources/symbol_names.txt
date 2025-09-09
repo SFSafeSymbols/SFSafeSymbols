@@ -1,5 +1,5 @@
 //
-// Updated on August 6 2025
+// Updated on September 9 2025
 //
 
 0.circle
@@ -343,6 +343,8 @@ abs.brakesignal
 abs.brakesignal.slash
 abs.circle
 abs.circle.fill
+ac
+ac.slash
 accessibility
 accessibility.badge.arrow.up.right
 accessibility.fill
@@ -484,6 +486,7 @@ apple.classical.pages.fill
 apple.haptics.and.exclamationmark.triangle
 apple.haptics.and.music.note
 apple.haptics.and.music.note.slash
+apple.homekit
 apple.image.playground
 apple.image.playground.fill
 apple.intelligence
@@ -532,6 +535,7 @@ appletvremote.gen4.fill
 applewatch
 applewatch.and.arrow.forward
 applewatch.badge.checkmark
+applewatch.badge.exclamationmark
 applewatch.case.sizes
 applewatch.radiowaves.left.and.right
 applewatch.side.right
@@ -1569,6 +1573,7 @@ car.rear.hazardsign
 car.rear.hazardsign.fill
 car.rear.road.lane
 car.rear.road.lane.dashed
+car.rear.road.lane.dashed.arrowtriangle.2.outward
 car.rear.road.lane.distance.1
 car.rear.road.lane.distance.1.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle
 car.rear.road.lane.distance.2
@@ -1721,11 +1726,13 @@ car.top.video.rear.right
 car.top.video.rear.right.fill
 car.window.left
 car.window.left.badge.exclamationmark
+car.window.left.badge.lock
 car.window.left.badge.xmark
 car.window.left.exclamationmark
 car.window.left.xmark
 car.window.right
 car.window.right.badge.exclamationmark
+car.window.right.badge.lock
 car.window.right.badge.xmark
 car.window.right.exclamationmark
 car.window.right.xmark
@@ -2239,6 +2246,7 @@ cpu
 cpu.fill
 creditcard
 creditcard.and.numbers
+creditcard.arrow.trianglehead.2.clockwise.rotate.90
 creditcard.circle
 creditcard.circle.fill
 creditcard.fill
@@ -3442,6 +3450,7 @@ guaranisign.ring.dashed
 guaranisign.square
 guaranisign.square.fill
 guidepoint.horizontal
+guidepoint.vertical
 guidepoint.vertical.arrowtriangle.forward
 guidepoint.vertical.numbers
 guitars
@@ -3641,7 +3650,6 @@ hockey.puck.circle
 hockey.puck.circle.fill
 hockey.puck.fill
 hold.brakesignal
-homekit
 homepod
 homepod.2
 homepod.2.badge.minus
@@ -4406,6 +4414,7 @@ lock.shield.fill
 lock.slash
 lock.slash.fill
 lock.square
+lock.square.dashed
 lock.square.fill
 lock.square.stack
 lock.square.stack.fill
@@ -4441,6 +4450,7 @@ macbook.and.iphone
 macbook.and.ipod
 macbook.and.vision.pro
 macbook.badge.checkmark
+macbook.badge.exclamationmark
 macbook.badge.shield.checkmark
 macbook.gen1
 macbook.gen1.sizes
@@ -4896,7 +4906,9 @@ pedal.brake.fill
 pedal.clutch
 pedal.clutch.fill
 pedestrian.gate.closed
+pedestrian.gate.closed.trianglebadge.exclamationmark
 pedestrian.gate.open
+pedestrian.gate.open.trianglebadge.exclamationmark
 pencil
 pencil.and.list.clipboard
 pencil.and.outline
@@ -5287,6 +5299,14 @@ pointer.arrow.and.square.on.square.dashed
 pointer.arrow.click
 pointer.arrow.click.2
 pointer.arrow.click.badge.clock
+pointer.arrow.ipad
+pointer.arrow.ipad.and.square.on.square.dashed
+pointer.arrow.ipad.rays
+pointer.arrow.ipad.slash
+pointer.arrow.ipad.slash.square
+pointer.arrow.ipad.slash.square.fill
+pointer.arrow.ipad.square
+pointer.arrow.ipad.square.fill
 pointer.arrow.motionlines
 pointer.arrow.motionlines.click
 pointer.arrow.rays
@@ -5543,6 +5563,7 @@ rectangle.grid.3x2.fill
 rectangle.grid.3x3
 rectangle.grid.3x3.fill
 rectangle.landscape.rotate
+rectangle.landscape.rotate.slash
 rectangle.leadinghalf.filled
 rectangle.lefthalf.filled
 rectangle.on.rectangle
@@ -5580,6 +5601,7 @@ rectangle.portrait.on.rectangle.portrait.slash
 rectangle.portrait.on.rectangle.portrait.slash.fill
 rectangle.portrait.righthalf.filled
 rectangle.portrait.rotate
+rectangle.portrait.rotate.slash
 rectangle.portrait.slash
 rectangle.portrait.slash.fill
 rectangle.portrait.split.2x1
@@ -5800,6 +5822,12 @@ shippingbox.fill
 shoe
 shoe.2
 shoe.2.fill
+shoe.arrow.trianglehead.up.and.down
+shoe.arrow.trianglehead.up.and.down.fill
+shoe.arrow.trianglehead.up.right
+shoe.arrow.trianglehead.up.right.circle
+shoe.arrow.trianglehead.up.right.circle.fill
+shoe.arrow.trianglehead.up.right.fill
 shoe.circle
 shoe.circle.fill
 shoe.fill
@@ -6407,6 +6435,9 @@ text.justify.leading
 text.justify.left
 text.justify.right
 text.justify.trailing
+text.line.2.summary
+text.line.2.summary.badge.xmark
+text.line.3.summary
 text.line.first.and.arrowtriangle.forward
 text.line.last.and.arrowtriangle.forward
 text.line.magnify
@@ -6471,6 +6502,8 @@ thermometer.variable.and.figure.circle.fill
 thermometer.variable.badge.clock
 thermometer.variable.badge.play
 ticket
+ticket.circle
+ticket.circle.fill
 ticket.fill
 timelapse
 timeline.selection
@@ -6823,6 +6856,7 @@ widget.medium.badge.plus
 widget.small
 widget.small.badge.plus
 wifi
+wifi.badge.lock
 wifi.circle
 wifi.circle.fill
 wifi.exclamationmark

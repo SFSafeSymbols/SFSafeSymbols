@@ -2846,10 +2846,11 @@ public extension SFSymbol {
     static let toiletCircleFill = SFSymbol(rawValue: "toilet.circle.fill")
 
     /// 􁟌
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let transmission = SFSymbol(rawValue: "transmission")
 
     /// 􁝯

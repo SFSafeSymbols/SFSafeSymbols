@@ -812,10 +812,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>1.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>1.circle</key>
@@ -961,10 +965,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>10.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>10.circle</key>
@@ -1065,10 +1073,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>11.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>11.circle</key>
@@ -1169,10 +1181,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>12.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>12.circle</key>
@@ -1273,10 +1289,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>13.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>13.circle</key>
@@ -1362,10 +1382,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>14.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>14.circle</key>
@@ -1481,10 +1505,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>15.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>15.circle</key>
@@ -1570,10 +1598,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>16.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>16.circle</key>
@@ -1659,10 +1691,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>17.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>17.circle</key>
@@ -1748,10 +1784,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>18.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>18.circle</key>
@@ -1837,10 +1877,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>19.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>19.circle</key>
@@ -1931,10 +1975,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>2.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>2.circle</key>
@@ -2035,10 +2083,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>20.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>20.circle</key>
@@ -2124,10 +2176,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>21.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>21.circle</key>
@@ -2213,10 +2269,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>22.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>22.circle</key>
@@ -2302,10 +2362,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>23.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>23.circle</key>
@@ -2391,10 +2455,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>24.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>24.circle</key>
@@ -2480,10 +2548,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>25.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>25.circle</key>
@@ -2569,10 +2641,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>26.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>26.circle</key>
@@ -2658,10 +2734,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>27.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>27.circle</key>
@@ -2747,10 +2827,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>28.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>28.circle</key>
@@ -2836,10 +2920,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>29.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>29.circle</key>
@@ -2937,10 +3025,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>3.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>3.circle</key>
@@ -3071,10 +3163,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>30.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>30.circle</key>
@@ -3160,10 +3256,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>31.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>31.circle</key>
@@ -3849,10 +3949,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>4.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>4.circle</key>
@@ -4781,10 +4885,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>5.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>5.circle</key>
@@ -4981,10 +5089,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>6.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>6.circle</key>
@@ -5115,10 +5227,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>7.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>7.circle</key>
@@ -5249,10 +5365,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>8.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>8.circle</key>
@@ -5377,10 +5497,14 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>9.calendar.hi</key>
 		<dict>
 			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
 		<key>9.circle</key>
@@ -5556,6 +5680,11 @@
 			<string>2022.1</string>
 			<key>multicolor</key>
 			<string>2022.1</string>
+		</dict>
+		<key>ac.slash</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
 		</dict>
 		<key>accessibility</key>
 		<dict>
@@ -6111,6 +6240,13 @@
 			<key>hierarchical</key>
 			<string>2024</string>
 		</dict>
+		<key>apple.homekit</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2021</string>
+			<key>multicolor</key>
+			<string>2021</string>
+		</dict>
 		<key>apple.image.playground</key>
 		<dict>
 			<key>hierarchical</key>
@@ -6298,6 +6434,13 @@
 			<string>2023</string>
 		</dict>
 		<key>applewatch.badge.checkmark</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
+		</dict>
+		<key>applewatch.badge.exclamationmark</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
@@ -10935,6 +11078,11 @@
 			<key>hierarchical</key>
 			<string>2022.1</string>
 		</dict>
+		<key>car.rear.road.lane.dashed.arrowtriangle.2.outward</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+		</dict>
 		<key>car.rear.road.lane.distance.1</key>
 		<dict>
 			<key>hierarchical</key>
@@ -11702,6 +11850,11 @@
 			<key>multicolor</key>
 			<string>2023</string>
 		</dict>
+		<key>car.window.left.badge.lock</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+		</dict>
 		<key>car.window.left.badge.xmark</key>
 		<dict>
 			<key>hierarchical</key>
@@ -11725,6 +11878,11 @@
 			<string>2023</string>
 			<key>multicolor</key>
 			<string>2023</string>
+		</dict>
+		<key>car.window.right.badge.lock</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
 		</dict>
 		<key>car.window.right.badge.xmark</key>
 		<dict>
@@ -15194,6 +15352,11 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2021</string>
+		</dict>
+		<key>creditcard.arrow.trianglehead.2.clockwise.rotate.90</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
 		</dict>
 		<key>creditcard.circle</key>
 		<dict>
@@ -21262,13 +21425,6 @@
 			<key>hierarchical</key>
 			<string>2022</string>
 		</dict>
-		<key>homekit</key>
-		<dict>
-			<key>hierarchical</key>
-			<string>2021</string>
-			<key>multicolor</key>
-			<string>2021</string>
-		</dict>
 		<key>homepod</key>
 		<dict>
 			<key>hierarchical</key>
@@ -25176,6 +25332,11 @@
 			<key>multicolor</key>
 			<string>2021</string>
 		</dict>
+		<key>lock.square.dashed</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+		</dict>
 		<key>lock.square.fill</key>
 		<dict>
 			<key>hierarchical</key>
@@ -25374,6 +25535,13 @@
 			<string>2023</string>
 		</dict>
 		<key>macbook.badge.checkmark</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
+		</dict>
+		<key>macbook.badge.exclamationmark</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2025</string>
@@ -27386,12 +27554,26 @@
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
+		<key>pedestrian.gate.closed.trianglebadge.exclamationmark</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
+		</dict>
 		<key>pedestrian.gate.open</key>
 		<dict>
 			<key>hierarchical</key>
 			<string>2022</string>
 			<key>multicolor</key>
 			<string>2022</string>
+		</dict>
+		<key>pedestrian.gate.open.trianglebadge.exclamationmark</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
 		</dict>
 		<key>pencil.and.list.clipboard</key>
 		<dict>
@@ -29517,6 +29699,45 @@
 			<key>multicolor</key>
 			<string>2022</string>
 		</dict>
+		<key>pointer.arrow.ipad.and.square.on.square.dashed</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+		</dict>
+		<key>pointer.arrow.ipad.rays</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+		</dict>
+		<key>pointer.arrow.ipad.slash</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+		</dict>
+		<key>pointer.arrow.ipad.slash.square</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+		</dict>
+		<key>pointer.arrow.ipad.slash.square.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
+		</dict>
+		<key>pointer.arrow.ipad.square</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+		</dict>
+		<key>pointer.arrow.ipad.square.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
+		</dict>
 		<key>pointer.arrow.motionlines.click</key>
 		<dict>
 			<key>hierarchical</key>
@@ -30811,6 +31032,11 @@
 			<key>hierarchical</key>
 			<string>2023</string>
 		</dict>
+		<key>rectangle.landscape.rotate.slash</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+		</dict>
 		<key>rectangle.on.rectangle</key>
 		<dict>
 			<key>hierarchical</key>
@@ -30975,6 +31201,11 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2023</string>
+		</dict>
+		<key>rectangle.portrait.rotate.slash</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
 		</dict>
 		<key>rectangle.portrait.slash</key>
 		<dict>
@@ -31722,6 +31953,38 @@
 			<string>2021</string>
 			<key>multicolor</key>
 			<string>2022</string>
+		</dict>
+		<key>shoe.arrow.trianglehead.up.and.down</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+		</dict>
+		<key>shoe.arrow.trianglehead.up.and.down.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+		</dict>
+		<key>shoe.arrow.trianglehead.up.right</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+		</dict>
+		<key>shoe.arrow.trianglehead.up.right.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+		</dict>
+		<key>shoe.arrow.trianglehead.up.right.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
+		</dict>
+		<key>shoe.arrow.trianglehead.up.right.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
 		</dict>
 		<key>shoe.circle</key>
 		<dict>
@@ -34488,6 +34751,23 @@
 			<key>hierarchical</key>
 			<string>2021</string>
 		</dict>
+		<key>text.line.2.summary</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+		</dict>
+		<key>text.line.2.summary.badge.xmark</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
+		</dict>
+		<key>text.line.3.summary</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+		</dict>
 		<key>text.line.first.and.arrowtriangle.forward</key>
 		<dict>
 			<key>hierarchical</key>
@@ -35266,6 +35546,18 @@
 			<key>multicolor</key>
 			<string>2025</string>
 		</dict>
+		<key>ticket.circle</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+		</dict>
+		<key>ticket.circle.fill</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
+			<key>multicolor</key>
+			<string>2025</string>
+		</dict>
 		<key>timelapse</key>
 		<dict>
 			<key>hierarchical</key>
@@ -35418,6 +35710,11 @@
 		<dict>
 			<key>hierarchical</key>
 			<string>2023.3</string>
+		</dict>
+		<key>transmission</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
 		</dict>
 		<key>trapezoid.and.line.horizontal</key>
 		<dict>
@@ -36955,6 +37252,11 @@
 			<string>2022</string>
 			<key>multicolor</key>
 			<string>2020.1</string>
+		</dict>
+		<key>wifi.badge.lock</key>
+		<dict>
+			<key>hierarchical</key>
+			<string>2025</string>
 		</dict>
 		<key>wifi.circle</key>
 		<dict>
