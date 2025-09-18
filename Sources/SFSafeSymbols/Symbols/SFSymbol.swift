@@ -4,7 +4,7 @@
 // See https://developer.apple.com/documentation/swift/sendable#Sendable-Classes
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
-public class SFSymbol: RawRepresentable, Equatable, Hashable, @unchecked Sendable {
+public class SFSymbol: RawRepresentable, Codable, Equatable, Hashable, @unchecked Sendable {
     public let rawValue: String
 
     required public init(rawValue: String) {
