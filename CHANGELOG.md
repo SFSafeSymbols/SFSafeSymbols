@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- None
+- Add support for the SwiftUI element Tab (By [Tim Müller-Seydlitz](https://github.com/timbms))
 
 ### Changed
 

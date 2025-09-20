@@ -69,6 +69,7 @@
 		CCCCD047252F632600C7CE9F /* NSImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCD046252F632600C7CE9F /* NSImage+SFSymbol.swift */; };
 		CCCCD064252F804400C7CE9F /* NSImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCD055252F7F7F00C7CE9F /* NSImageExtensionTests.swift */; };
 		DA8F8C532E7F33E2001DD4B4 /* Tab+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8F8C522E7F33E2001DD4B4 /* Tab+SFSymbol.swift */; };
+		DA8F8C552E7F4518001DD4B4 /* SwiftUITabExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8F8C542E7F4518001DD4B4 /* SwiftUITabExtensionTests.swift */; };
 		F4917B9A2CB40F590028171F /* SFSymbol+6.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4917B992CB40F590028171F /* SFSymbol+6.0.swift */; };
 		F4917B9B2CB40F590028171F /* SFSymbol+5.4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4917B982CB40F590028171F /* SFSymbol+5.4.swift */; };
 		F4917B9E2CB40F7F0028171F /* SFSymbol+AllSymbols+5.4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4917B9C2CB40F7F0028171F /* SFSymbol+AllSymbols+5.4.swift */; };
@@ -149,6 +150,7 @@
 		CCCCD046252F632600C7CE9F /* NSImage+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+SFSymbol.swift"; sourceTree = "<group>"; };
 		CCCCD055252F7F7F00C7CE9F /* NSImageExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImageExtensionTests.swift; sourceTree = "<group>"; };
 		DA8F8C522E7F33E2001DD4B4 /* Tab+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tab+SFSymbol.swift"; sourceTree = "<group>"; };
+		DA8F8C542E7F4518001DD4B4 /* SwiftUITabExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITabExtensionTests.swift; sourceTree = "<group>"; };
 		F4917B982CB40F590028171F /* SFSymbol+5.4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+5.4.swift"; sourceTree = "<group>"; };
 		F4917B992CB40F590028171F /* SFSymbol+6.0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+6.0.swift"; sourceTree = "<group>"; };
 		F4917B9C2CB40F7F0028171F /* SFSymbol+AllSymbols+5.4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+5.4.swift"; sourceTree = "<group>"; };
@@ -361,6 +363,7 @@
 				CCCCD011252F622B00C7CE9F /* SwiftUIImageExtensionTests.swift */,
 				CCCCD014252F622B00C7CE9F /* SwiftUILabelExtensionTests.swift */,
 				949BD15C2B74155100A10AB7 /* SwiftUIButtonExtensionTests.swift */,
+				DA8F8C542E7F4518001DD4B4 /* SwiftUITabExtensionTests.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -552,6 +555,7 @@
 				B0031A532D69E6C60040002B /* SwiftUIMenuBarExtraExtensionTests.swift in Sources */,
 				CCCCD01A252F622B00C7CE9F /* UIImageExtensionTests.swift in Sources */,
 				B00FBD8E285E146400A7878B /* LocalizationTests.swift in Sources */,
+				DA8F8C552E7F4518001DD4B4 /* SwiftUITabExtensionTests.swift in Sources */,
 				B0031A512D69E5890040002B /* SwiftUIContentUnavailableViewExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
