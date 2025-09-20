@@ -68,6 +68,7 @@
 		CCCCD01A252F622B00C7CE9F /* UIImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCD015252F622B00C7CE9F /* UIImageExtensionTests.swift */; };
 		CCCCD047252F632600C7CE9F /* NSImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCD046252F632600C7CE9F /* NSImage+SFSymbol.swift */; };
 		CCCCD064252F804400C7CE9F /* NSImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCD055252F7F7F00C7CE9F /* NSImageExtensionTests.swift */; };
+		DA8F8C532E7F33E2001DD4B4 /* Tab+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8F8C522E7F33E2001DD4B4 /* Tab+SFSymbol.swift */; };
 		F4917B9A2CB40F590028171F /* SFSymbol+6.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4917B992CB40F590028171F /* SFSymbol+6.0.swift */; };
 		F4917B9B2CB40F590028171F /* SFSymbol+5.4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4917B982CB40F590028171F /* SFSymbol+5.4.swift */; };
 		F4917B9E2CB40F7F0028171F /* SFSymbol+AllSymbols+5.4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4917B9C2CB40F7F0028171F /* SFSymbol+AllSymbols+5.4.swift */; };
@@ -147,6 +148,7 @@
 		CCCCD015252F622B00C7CE9F /* UIImageExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensionTests.swift; sourceTree = "<group>"; };
 		CCCCD046252F632600C7CE9F /* NSImage+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+SFSymbol.swift"; sourceTree = "<group>"; };
 		CCCCD055252F7F7F00C7CE9F /* NSImageExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImageExtensionTests.swift; sourceTree = "<group>"; };
+		DA8F8C522E7F33E2001DD4B4 /* Tab+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tab+SFSymbol.swift"; sourceTree = "<group>"; };
 		F4917B982CB40F590028171F /* SFSymbol+5.4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+5.4.swift"; sourceTree = "<group>"; };
 		F4917B992CB40F590028171F /* SFSymbol+6.0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+6.0.swift"; sourceTree = "<group>"; };
 		F4917B9C2CB40F7F0028171F /* SFSymbol+AllSymbols+5.4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+5.4.swift"; sourceTree = "<group>"; };
@@ -315,6 +317,7 @@
 				CCCCCFE8252F61E700C7CE9F /* Image+SFSymbol.swift */,
 				CCCCCFEA252F61E700C7CE9F /* Label+SFSymbol.swift */,
 				949BD15E2B74156800A10AB7 /* Button+SFSymbol.swift */,
+				DA8F8C522E7F33E2001DD4B4 /* Tab+SFSymbol.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -525,6 +528,7 @@
 				CCA29C3D285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift in Sources */,
 				B0B852012C1DC9B000E87F17 /* SFSymbol+5.3.swift in Sources */,
 				B0031A4D2D69DB620040002B /* ContentUnavailableView+SFSymbol.swift in Sources */,
+				DA8F8C532E7F33E2001DD4B4 /* Tab+SFSymbol.swift in Sources */,
 				B01C18702B55D9B300AC4288 /* SFSymbol+AllSymbols+5.2.swift in Sources */,
 				636A46BF28002819007E6028 /* SymbolLocalizations.swift in Sources */,
 				636A46C528002819007E6028 /* SFSymbol+AllSymbols.swift in Sources */,
