@@ -4,6 +4,8 @@
 extension SFSymbol {
     internal static var localizationsAvailableSince6_0: [SFSymbol : Set<Localization>] {
         [
+            _5ArrowTriangleheadClockwise: [.hi],
+            _5ArrowTriangleheadCounterclockwise: [.hi],
             _10ArrowTriangleheadClockwise: [.hi],
             _10ArrowTriangleheadCounterclockwise: [.hi],
             _15ArrowTriangleheadClockwise: [.hi],
@@ -12,8 +14,6 @@ extension SFSymbol {
             _30ArrowTriangleheadCounterclockwise: [.hi],
             _45ArrowTriangleheadClockwise: [.hi],
             _45ArrowTriangleheadCounterclockwise: [.hi],
-            _5ArrowTriangleheadClockwise: [.hi],
-            _5ArrowTriangleheadCounterclockwise: [.hi],
             _60ArrowTriangleheadClockwise: [.hi],
             _60ArrowTriangleheadCounterclockwise: [.hi],
             _75ArrowTriangleheadClockwise: [.hi],

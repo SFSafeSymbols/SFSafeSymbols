@@ -3,6 +3,30 @@
 // 6.0 Symbols
 @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
 public extension SFSymbol {
+    /// 􀶰
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Hindi
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    static let _5ArrowTriangleheadClockwise = SymbolWith1Localization<Hi>(rawValue: "5.arrow.trianglehead.clockwise")
+
+    /// 􀶱
+    /// 2 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Hindi
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    static let _5ArrowTriangleheadCounterclockwise = SymbolWith1Localization<Hi>(rawValue: "5.arrow.trianglehead.counterclockwise")
+
     /// 􀎁
     /// 2 Localizations, 2 Layersets
     ///
@@ -98,30 +122,6 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     static let _45ArrowTriangleheadCounterclockwise = SymbolWith1Localization<Hi>(rawValue: "45.arrow.trianglehead.counterclockwise")
-
-    /// 􀶰
-    /// 2 Localizations, 2 Layersets
-    ///
-    /// Localizations:
-    /// - Latin
-    /// - Hindi
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    static let _5ArrowTriangleheadClockwise = SymbolWith1Localization<Hi>(rawValue: "5.arrow.trianglehead.clockwise")
-
-    /// 􀶱
-    /// 2 Localizations, 2 Layersets
-    ///
-    /// Localizations:
-    /// - Latin
-    /// - Hindi
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    static let _5ArrowTriangleheadCounterclockwise = SymbolWith1Localization<Hi>(rawValue: "5.arrow.trianglehead.counterclockwise")
 
     /// 􀎉
     /// 2 Localizations, 2 Layersets

@@ -5,9 +5,6 @@ extension SFSymbol {
     internal static var localizationsAvailableSince4_2: [SFSymbol : Set<Localization>] {
         [
             _1Lane: [.ar, .hi],
-            _10Lane: [.ar, .hi],
-            _11Lane: [.ar, .hi],
-            _12Lane: [.ar, .hi],
             _2Lane: [.ar, .hi],
             _3Lane: [.ar, .hi],
             _4Lane: [.ar, .hi],
@@ -16,6 +13,9 @@ extension SFSymbol {
             _7Lane: [.ar, .hi],
             _8Lane: [.ar, .hi],
             _9Lane: [.ar, .hi],
+            _10Lane: [.ar, .hi],
+            _11Lane: [.ar, .hi],
+            _12Lane: [.ar, .hi],
             axle2: [],
             axle2FrontAndRearEngaged: [],
             axle2FrontEngaged: [],

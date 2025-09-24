@@ -1388,6 +1388,33 @@ public extension SFSymbol {
     /// - Multicolor
     static let battery0percent = SFSymbol(rawValue: "battery.0percent")
 
+    /// 􀛩
+    /// Single Localization, 3 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
+    static let battery25percent = SFSymbol(rawValue: "battery.25percent")
+
+    /// 􀺶
+    /// Single Localization, 3 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
+    static let battery50percent = SFSymbol(rawValue: "battery.50percent")
+
+    /// 􀺸
+    /// Single Localization, 3 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
+    static let battery75percent = SFSymbol(rawValue: "battery.75percent")
+
     /// 􀛨
     /// Single Localization, 3 Layersets
     ///
@@ -1427,33 +1454,6 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     static let battery100percentCircleFill = SFSymbol(rawValue: "battery.100percent.circle.fill")
-
-    /// 􀛩
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
-    static let battery25percent = SFSymbol(rawValue: "battery.25percent")
-
-    /// 􀺶
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
-    static let battery50percent = SFSymbol(rawValue: "battery.50percent")
-
-    /// 􀺸
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
-    static let battery75percent = SFSymbol(rawValue: "battery.75percent")
 
     /// 􁅞
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -4533,14 +4533,6 @@ public extension SFSymbol {
     /// - Hierarchical
     static let gaugeWithDotsNeedle0percent = SFSymbol(rawValue: "gauge.with.dots.needle.0percent")
 
-    /// 􁐛
-    /// Single Localization, 2 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    static let gaugeWithDotsNeedle100percent = SFSymbol(rawValue: "gauge.with.dots.needle.100percent")
-
     /// 􁰉
     /// Single Localization, 2 Layersets
     ///
@@ -4565,6 +4557,14 @@ public extension SFSymbol {
     /// - Hierarchical
     static let gaugeWithDotsNeedle67percent = SFSymbol(rawValue: "gauge.with.dots.needle.67percent")
 
+    /// 􁐛
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    static let gaugeWithDotsNeedle100percent = SFSymbol(rawValue: "gauge.with.dots.needle.100percent")
+
     /// 􁐗
     /// Single Localization, 2 Layersets
     ///
@@ -4572,14 +4572,6 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     static let gaugeWithDotsNeedleBottom0percent = SFSymbol(rawValue: "gauge.with.dots.needle.bottom.0percent")
-
-    /// 􁐘
-    /// Single Localization, 2 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    static let gaugeWithDotsNeedleBottom100percent = SFSymbol(rawValue: "gauge.with.dots.needle.bottom.100percent")
 
     /// 􀍽
     /// Single Localization, 2 Layersets
@@ -4606,6 +4598,14 @@ public extension SFSymbol {
     /// - Multicolor
     /// - Hierarchical
     static let gaugeWithDotsNeedleBottom50percentBadgePlus = SFSymbol(rawValue: "gauge.with.dots.needle.bottom.50percent.badge.plus")
+
+    /// 􁐘
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    static let gaugeWithDotsNeedleBottom100percent = SFSymbol(rawValue: "gauge.with.dots.needle.bottom.100percent")
 
     /// 􁖫
     /// Single Localization, 2 Layersets
@@ -6824,20 +6824,6 @@ public extension SFSymbol {
     /// - Hierarchical
     static let rectanglePortraitRotate = SFSymbol(rawValue: "rectangle.portrait.rotate")
 
-    /// 􁽾
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let rectangleRatio16To9 = SFSymbol(rawValue: "rectangle.ratio.16.to.9")
-
-    /// 􁽿
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let rectangleRatio16To9Fill = SFSymbol(rawValue: "rectangle.ratio.16.to.9.fill")
-
     /// 􁽸
     /// Single Localization, Single Layerset
     ///
@@ -6879,6 +6865,20 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     static let rectangleRatio9To16Fill = SFSymbol(rawValue: "rectangle.ratio.9.to.16.fill")
+
+    /// 􁽾
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let rectangleRatio16To9 = SFSymbol(rawValue: "rectangle.ratio.16.to.9")
+
+    /// 􁽿
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let rectangleRatio16To9Fill = SFSymbol(rawValue: "rectangle.ratio.16.to.9.fill")
 
     /// 􁟈
     /// Single Localization, 2 Layersets

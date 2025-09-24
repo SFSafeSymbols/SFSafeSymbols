@@ -1,35 +1,43 @@
 import AppKit
 import Foundation
 
+try stringifyResources()
+
 // MARK: - Step 1: READ INPUT FILES
 
+var nameAliases = try SFFileManager
+    .read(file: "name_aliases", withExtension: "strings")
+    .parse(using: StringDictionaryFileParser.parse)
+    .map({ (oldName: $0.key, newName: $0.value) })
+
+let legacyAliases = try SFFileManager
+    .read(file: "legacy_aliases", withExtension: "strings")
+    .parse(using: StringDictionaryFileParser.parse)
+    .map({ (legacyName: $0.key, releasedName: $0.value) })
+
+var symbolRestrictions = try SFFileManager
+    .read(file: "symbol_restrictions", withExtension: "strings")
+    .parse(using: StringDictionaryFileParser.parse)
+
+let missingSymbolRestrictions = try SFFileManager
+    .read(file: "symbol_restrictions_missing", withExtension: "strings")
+    .parse(using: StringDictionaryFileParser.parse)
+
+let symbolNames = try SFFileManager
+    .read(file: "symbol_names", withExtension: "txt")
+    .parse(using: SymbolNamesFileParser.parse)
+
+let symbolPreviews = try SFFileManager
+    .read(file: "symbol_previews", withExtension: "txt")
+    .parse(using: SymbolPreviewsFileParser.parse)
+
 guard
-    let symbolManifest = SFFileManager
+    let symbolManifest = try SFFileManager
         .read(file: "name_availability", withExtension: "plist")
-        .flatMap(SymbolManifestParser.parse),
-    let layerSetAvailabilitiesList = SFFileManager
+        .parse(using: SymbolManifestParser.parse),
+    let layerSetAvailabilitiesList = try SFFileManager
         .read(file: "layerset_availability", withExtension: "plist")
-        .flatMap(LayersetAvailabilityParser.parse),
-    var nameAliases = SFFileManager
-        .read(file: "name_aliases", withExtension: "strings")
-        .flatMap(StringDictionaryFileParser.parse)?
-        .map({ (oldName: $0.key, newName: $0.value) }),
-    let legacyAliases = SFFileManager
-        .read(file: "legacy_aliases", withExtension: "strings")
-        .flatMap(StringDictionaryFileParser.parse)?
-        .map({ (legacyName: $0.key, releasedName: $0.value) }),
-    var symbolRestrictions = SFFileManager
-        .read(file: "symbol_restrictions", withExtension: "strings")
-        .flatMap(StringDictionaryFileParser.parse),
-    let missingSymbolRestrictions = SFFileManager
-        .read(file: "symbol_restrictions_missing", withExtension: "strings")
-        .flatMap(StringDictionaryFileParser.parse),
-    let symbolNames = SFFileManager
-        .read(file: "symbol_names", withExtension: "txt")
-        .flatMap(SymbolNamesFileParser.parse),
-    let symbolPreviews = SFFileManager
-        .read(file: "symbol_previews", withExtension: "txt")
-        .flatMap(SymbolPreviewsFileParser.parse)
+        .parse(using: LayersetAvailabilityParser.parse)
 else {
     fatalError("Error reading input files")
 }
@@ -68,7 +76,7 @@ func allAliases(for symbolName: String, includeSelf: Bool = true) -> [ScannedSym
     }
     return result
         .compactMap { name in symbolManifest.first { $0.name == name } }
-        .sorted(on: \.availability, by: >)
+        .sorted(using: KeyPathComparator(\.availability, order: .reverse))
 }
 
 // Merge all versions of the same symbol into one type.
@@ -193,12 +201,12 @@ let symbolToCode: (Symbol) -> String = { symbol in
 
         outputString += "\t///\n\t/// Localizations:\n\t/// - \(standardLocalizationName)\n"
         var handledLocalizations: Set<Localization> = .init()
-        for (availability, localizations) in symbol.availableLocalizations.sorted(on: \.key, by: >) {
+        for (availability, localizations) in symbol.availableLocalizations.sorted(using: KeyPathComparator(\.key, order: .reverse)) {
             let newLocalizations = localizations.subtracting(handledLocalizations)
             if newLocalizations.isNotEmpty {
                 handledLocalizations.formUnion(newLocalizations)
                 let availabilityNotice: String = availability < symbol.availability ? " (iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS))" : ""
-                for localization in Array(newLocalizations).sorted(on: \.title, by: <) {
+                for localization in Array(newLocalizations).sorted(using: KeyPathComparator(\.title)) {
                     outputString += "\t/// - \(localization.title)\(availabilityNotice)\n"
                 }
             }
@@ -209,7 +217,7 @@ let symbolToCode: (Symbol) -> String = { symbol in
         // Generate layerset availability docs based on the assumption that layersets don't get removed
         var handledLayersets: Set<String> = .init()
         outputString += "\t///\n\t/// Layersets:\n\t/// - Monochrome\n"
-        for (availability, layersets) in completeLayersets.sorted(by: { $0.0 > $1.0 }) {
+        for (availability, layersets) in completeLayersets.sorted(using: KeyPathComparator(\.key, order: .reverse)) {
             let newLayersets = layersets.subtracting(handledLayersets)
             if !newLayersets.isEmpty {
                 handledLayersets.formUnion(newLayersets)
@@ -273,7 +281,7 @@ let baseAvailability = "@\(Availability.base.availableExpression)"
 
 let symbolLocalizations: String = {
     let availabilities = Array(Set(symbols.map { $0.availability }))
-    
+
     let usedCombinations: [(Localization, Availability)] = (Localization.allCases × availabilities).filter { loc, ava in
         ava.isBase || symbols.contains {
             $0.availability > ava && $0.availableLocalizations[ava]?.contains(loc) ?? false
@@ -282,7 +290,7 @@ let symbolLocalizations: String = {
         let ((loc1, ava1), (loc2, ava2)) = ($0, $1)
         return loc1.structName(for: ava1) < loc2.structName(for: ava2)
     }
-    
+
     let structDecl: (Localization, Availability) -> String = { loc, ava in
         var outputString = "\(baseAvailability)\n"
         outputString += "public struct \(loc.structName(for: ava)): SymbolLocalization {\n"
@@ -293,13 +301,13 @@ let symbolLocalizations: String = {
         outputString += "}"
         return outputString
     }
-    
+
     var outputString = "// Don't touch this manually, this code is generated by the SymbolsGenerator helper tool\n\n"
-    
-    outputString += "public enum Localization: String, Equatable {\n"
+
+    outputString += "public enum Localization: String, Equatable, Sendable {\n"
     outputString += Localization.allCases.map { "\tcase \($0.variableName) = \"\($0.rawValue)\""}.joined(separator: "\n")
     outputString += "\n}\n\n"
-    
+
     outputString += "// MARK: - Static Localization\n\n"
     outputString += usedCombinations.map(structDecl).joined(separator: "\n\n")
     outputString += "\n"
@@ -326,7 +334,7 @@ let groupedAllLatestSymbolsFileContents: Dictionary<Availability, String> = loca
     outputString += "\tinternal static var localizationsAvailableSince\(availability.versionUnderscored): [SFSymbol : Set<Localization>] {\n"
     outputString += "\t\t["
     outputString += symbolLocalizations
-        .sorted(on: \.key.name, by: <)
+        .sorted(using: KeyPathComparator(\.key.name))
         .map { sym, loc -> String in
             let locSet = "[" + loc.map { "." + $0.variableName }.sorted().joined(separator: ", ") + "]"
             return "\n\t\t\t" + sym.propertyName + ": " + locSet
@@ -361,7 +369,7 @@ let allSymbolsExtension: String = {
     //
 
     outputString += "\tinternal static let allLocalizations: [SFSymbol : Set<Localization>] = {\n"
-    let availabilities = groupedSymbols.keys.sorted(by: >).dropFirst()
+    let availabilities = groupedSymbols.keys.sorted(using: ComparableComparator(order: .reverse)).dropFirst()
     outputString += "\t\tvar result = localizationsAvailableSince\(Availability.base.versionUnderscored)\n"
     outputString += "\t\t"
     outputString += availabilities.map { availability in
@@ -395,22 +403,20 @@ let allSymbolsExtension: String = {
 // MARK: - Step 4: OUTPUT
 
 // Write availability extensions
-zip(groupedSymbols.keys, availabilityExtensions).forEach { availability, fileContents in
-    let outputPath = outputDir.appendingPathComponent("SFSymbol+\(availability.version).swift")
-    SFFileManager.write(fileContents, to: outputPath)
+try zip(groupedSymbols.keys, availabilityExtensions).forEach { availability, fileContents in
+    let outputPath = outputDir.appending(path: "SFSymbol+\(availability.version).swift")
+    try SFFileManager.write(fileContents, to: outputPath)
 }
 
 // Write AllSymbols extensions
-groupedAllLatestSymbolsFileContents.forEach { availability, fileContents in
-    let outputPath = outputDir.appendingPathComponent("SFSymbol+AllSymbols+\(availability.version).swift")
-    SFFileManager.write(fileContents, to: outputPath)
+try groupedAllLatestSymbolsFileContents.forEach { availability, fileContents in
+    let outputPath = outputDir.appending(path: "SFSymbol+AllSymbols+\(availability.version).swift")
+    try SFFileManager.write(fileContents, to: outputPath)
 }
 
-SFFileManager.write(symbolLocalizations,
-                    to: outputDir.appendingPathComponent("SymbolLocalizations.swift"))
+try SFFileManager.write(symbolLocalizations, to: outputDir.appending(path: "SymbolLocalizations.swift"))
 
-SFFileManager.write(allSymbolsExtension,
-                    to: outputDir.appendingPathComponent("SFSymbol+AllSymbols.swift"))
+try SFFileManager.write(allSymbolsExtension, to: outputDir.appending(path: "SFSymbol+AllSymbols.swift"))
 
 // MARK: - Step 5: FINISHING
 
