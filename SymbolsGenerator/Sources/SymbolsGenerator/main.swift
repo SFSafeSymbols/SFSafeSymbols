@@ -5,33 +5,39 @@ try stringifyResources()
 
 // MARK: - Step 1: READ INPUT FILES
 
+var nameAliases = try SFFileManager
+    .read(file: "name_aliases", withExtension: "strings")
+    .parse(using: StringDictionaryFileParser.parse)
+    .map({ (oldName: $0.key, newName: $0.value) })
+
+let legacyAliases = try SFFileManager
+    .read(file: "legacy_aliases", withExtension: "strings")
+    .parse(using: StringDictionaryFileParser.parse)
+    .map({ (legacyName: $0.key, releasedName: $0.value) })
+
+var symbolRestrictions = try SFFileManager
+    .read(file: "symbol_restrictions", withExtension: "strings")
+    .parse(using: StringDictionaryFileParser.parse)
+
+let missingSymbolRestrictions = try SFFileManager
+    .read(file: "symbol_restrictions_missing", withExtension: "strings")
+    .parse(using: StringDictionaryFileParser.parse)
+
+let symbolNames = try SFFileManager
+    .read(file: "symbol_names", withExtension: "txt")
+    .parse(using: SymbolNamesFileParser.parse)
+
+let symbolPreviews = try SFFileManager
+    .read(file: "symbol_previews", withExtension: "txt")
+    .parse(using: SymbolPreviewsFileParser.parse)
+
 guard
-    let symbolManifest = SFFileManager
+    let symbolManifest = try SFFileManager
         .read(file: "name_availability", withExtension: "plist")
-        .flatMap(SymbolManifestParser.parse),
-    let layerSetAvailabilitiesList = SFFileManager
+        .parse(using: SymbolManifestParser.parse),
+    let layerSetAvailabilitiesList = try SFFileManager
         .read(file: "layerset_availability", withExtension: "plist")
-        .flatMap(LayersetAvailabilityParser.parse),
-    var nameAliases = SFFileManager
-        .read(file: "name_aliases", withExtension: "strings")
-        .flatMap(StringDictionaryFileParser.parse)?
-        .map({ (oldName: $0.key, newName: $0.value) }),
-    let legacyAliases = SFFileManager
-        .read(file: "legacy_aliases", withExtension: "strings")
-        .flatMap(StringDictionaryFileParser.parse)?
-        .map({ (legacyName: $0.key, releasedName: $0.value) }),
-    var symbolRestrictions = SFFileManager
-        .read(file: "symbol_restrictions", withExtension: "strings")
-        .flatMap(StringDictionaryFileParser.parse),
-    let missingSymbolRestrictions = SFFileManager
-        .read(file: "symbol_restrictions_missing", withExtension: "strings")
-        .flatMap(StringDictionaryFileParser.parse),
-    let symbolNames = SFFileManager
-        .read(file: "symbol_names", withExtension: "txt")
-        .flatMap(SymbolNamesFileParser.parse),
-    let symbolPreviews = SFFileManager
-        .read(file: "symbol_previews", withExtension: "txt")
-        .flatMap(SymbolPreviewsFileParser.parse)
+        .parse(using: LayersetAvailabilityParser.parse)
 else {
     fatalError("Error reading input files")
 }
@@ -397,22 +403,20 @@ let allSymbolsExtension: String = {
 // MARK: - Step 4: OUTPUT
 
 // Write availability extensions
-zip(groupedSymbols.keys, availabilityExtensions).forEach { availability, fileContents in
-    let outputPath = outputDir.appendingPathComponent("SFSymbol+\(availability.version).swift")
-    SFFileManager.write(fileContents, to: outputPath)
+try zip(groupedSymbols.keys, availabilityExtensions).forEach { availability, fileContents in
+    let outputPath = outputDir.appending(path: "SFSymbol+\(availability.version).swift")
+    try SFFileManager.write(fileContents, to: outputPath)
 }
 
 // Write AllSymbols extensions
-groupedAllLatestSymbolsFileContents.forEach { availability, fileContents in
-    let outputPath = outputDir.appendingPathComponent("SFSymbol+AllSymbols+\(availability.version).swift")
-    SFFileManager.write(fileContents, to: outputPath)
+try groupedAllLatestSymbolsFileContents.forEach { availability, fileContents in
+    let outputPath = outputDir.appending(path: "SFSymbol+AllSymbols+\(availability.version).swift")
+    try SFFileManager.write(fileContents, to: outputPath)
 }
 
-SFFileManager.write(symbolLocalizations,
-                    to: outputDir.appendingPathComponent("SymbolLocalizations.swift"))
+try SFFileManager.write(symbolLocalizations, to: outputDir.appending(path: "SymbolLocalizations.swift"))
 
-SFFileManager.write(allSymbolsExtension,
-                    to: outputDir.appendingPathComponent("SFSymbol+AllSymbols.swift"))
+try SFFileManager.write(allSymbolsExtension, to: outputDir.appending(path: "SFSymbol+AllSymbols.swift"))
 
 // MARK: - Step 5: FINISHING
 

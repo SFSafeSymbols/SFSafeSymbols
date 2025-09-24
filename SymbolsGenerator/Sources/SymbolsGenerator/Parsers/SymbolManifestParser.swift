@@ -13,13 +13,10 @@ struct SymbolManifestParser {
         var yearToReleaseMapping: [String: [String: String]]
     }
 
-    static func parse(availabilityFileData: Data?) -> SymbolManifest? {
-        guard
-            let data = availabilityFileData,
-            let plist = try? PropertyListDecoder().decode(Plist.self, from: data)
-        else {
-            return nil
-        }
+    static func parse(availabilityFileData: Data) throws -> SymbolManifest? {
+        let data = availabilityFileData
+        let plist = try PropertyListDecoder().decode(Plist.self, from: data)
+
 
         var availabilityFile: SymbolManifest = []
         let availabilities = plist.yearToReleaseMapping.compactMap { key, value in
