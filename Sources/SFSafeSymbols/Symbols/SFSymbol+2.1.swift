@@ -111,7 +111,7 @@ public extension SFSymbol {
     static let character = SymbolWith19Localizations<Ar, Bn_v6, Gu_v6, He, Hi, Ja, Kn_v6, Ko, Ml_v6, Mni_v6, Mr_v6, Or_v6, Pa_v6, Sat_v6, Si_v6, Ta_v6, Te_v6, Th, Zh>(rawValue: "character")
 
     /// 􀫕
-    /// 8 Localizations, Single Layerset
+    /// 20 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Latin
@@ -122,13 +122,25 @@ public extension SFSymbol {
     /// - Japanese
     /// - Korean
     /// - Thai
+    /// - Bengali (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Gujarati (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Kannada (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Malayalam (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Manipuri (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Maranthi (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Oriya (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Punjabi (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Santali (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Sinhala (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Tamil (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Telugu (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     ///
     /// Layersets:
     /// - Monochrome
-    static let characterBookClosed = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "character.book.closed")
+    static let characterBookClosed = SymbolWith19Localizations<Ar, Bn_v7, Gu_v7, He, Hi, Ja, Kn_v7, Ko, Ml_v7, Mni_v7, Mr_v7, Or_v7, Pa_v7, Sat_v7, Si_v7, Ta_v7, Te_v7, Th, Zh>(rawValue: "character.book.closed")
 
     /// 􀫖
-    /// 8 Localizations, Single Layerset
+    /// 20 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Latin
@@ -139,10 +151,22 @@ public extension SFSymbol {
     /// - Japanese
     /// - Korean
     /// - Thai
+    /// - Bengali (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Gujarati (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Kannada (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Malayalam (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Manipuri (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Maranthi (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Oriya (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Punjabi (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Santali (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Sinhala (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Tamil (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Telugu (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     ///
     /// Layersets:
     /// - Monochrome
-    static let characterBookClosedFill = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "character.book.closed.fill")
+    static let characterBookClosedFill = SymbolWith19Localizations<Ar, Bn_v7, Gu_v7, He, Hi, Ja, Kn_v7, Ko, Ml_v7, Mni_v7, Mr_v7, Or_v7, Pa_v7, Sat_v7, Si_v7, Ta_v7, Te_v7, Th, Zh>(rawValue: "character.book.closed.fill")
 
     /// 􀯛
     /// Single Localization, 2 Layersets

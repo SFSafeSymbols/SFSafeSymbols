@@ -2527,6 +2527,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @available(iOS, introduced: 16.1, deprecated: 26.0, renamed: "steeringwheelBadgeLock")
+    @available(macOS, introduced: 13.0, deprecated: 26.0, renamed: "steeringwheelBadgeLock")
+    @available(tvOS, introduced: 16.1, deprecated: 26.0, renamed: "steeringwheelBadgeLock")
+    @available(watchOS, introduced: 9.1, deprecated: 26.0, renamed: "steeringwheelBadgeLock")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "steeringwheelBadgeLock")
     static let steeringwheelAndLock = SFSymbol(rawValue: "steeringwheel.and.lock")
 
     /// 􁉚
@@ -2738,19 +2743,21 @@ public extension SFSymbol {
     static let suvSideRearOpenFill = SFSymbol(rawValue: "suv.side.rear.open.fill")
 
     /// 􀾸
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
+    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let taillightFog = SFSymbol(rawValue: "taillight.fog")
 
     /// 􀾹
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
+    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let taillightFogFill = SFSymbol(rawValue: "taillight.fog.fill")
 
     /// 􁔐
@@ -2839,10 +2846,11 @@ public extension SFSymbol {
     static let toiletCircleFill = SFSymbol(rawValue: "toilet.circle.fill")
 
     /// 􁟌
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let transmission = SFSymbol(rawValue: "transmission")
 
     /// 􁝯

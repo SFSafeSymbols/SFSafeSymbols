@@ -3,7 +3,7 @@
 // 6.2 Symbols
 @available(iOS 18.2, macOS 15.2, tvOS 18.2, watchOS 11.2, visionOS 2.2, *)
 public extension SFSymbol {
-    /// No preview available
+    /// 􂭃
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -12,7 +12,7 @@ public extension SFSymbol {
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static let airpodsGen4 = SFSymbol(rawValue: "airpods.gen4")
 
-    /// No preview available
+    /// 􂭆
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -21,7 +21,7 @@ public extension SFSymbol {
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static let airpodsGen4ChargingcaseWireless = SFSymbol(rawValue: "airpods.gen4.chargingcase.wireless")
 
-    /// No preview available
+    /// 􂭇
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -30,7 +30,7 @@ public extension SFSymbol {
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static let airpodsGen4ChargingcaseWirelessFill = SFSymbol(rawValue: "airpods.gen4.chargingcase.wireless.fill")
 
-    /// No preview available
+    /// 􂭅
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -39,7 +39,7 @@ public extension SFSymbol {
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static let airpodsGen4Left = SFSymbol(rawValue: "airpods.gen4.left")
 
-    /// No preview available
+    /// 􂭄
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -48,16 +48,18 @@ public extension SFSymbol {
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static let airpodsGen4Right = SFSymbol(rawValue: "airpods.gen4.right")
 
-    /// No preview available
-    /// Single Localization, Single Layerset, ⚠️ Restricted
+    /// 􂷴
+    /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Writing Tools.
     static let appleWritingTools = SFSymbol(rawValue: "apple.writing.tools")
 
-    /// No preview available
+    /// 􂹞
     /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
@@ -68,7 +70,7 @@ public extension SFSymbol {
     /// - Monochrome
     static let exclamationmarkTriangleTextPage = SymbolWith1Localization<Rtl>(rawValue: "exclamationmark.triangle.text.page")
 
-    /// No preview available
+    /// 􂹟
     /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
@@ -79,80 +81,91 @@ public extension SFSymbol {
     /// - Monochrome
     static let exclamationmarkTriangleTextPageFill = SymbolWith1Localization<Rtl>(rawValue: "exclamationmark.triangle.text.page.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂸞
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let figureSeatedSideLeftAirDistributionUpperAndMiddleAndLower = SFSymbol(rawValue: "figure.seated.side.left.air.distribution.upper.and.middle.and.lower")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂸟
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let figureSeatedSideRightAirDistributionUpperAndMiddleAndLower = SFSymbol(rawValue: "figure.seated.side.right.air.distribution.upper.and.middle.and.lower")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂸔
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let headphonesDots = SFSymbol(rawValue: "headphones.dots")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂹩
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let infoTriangle = SFSymbol(rawValue: "info.triangle")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂹪
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let infoTriangleFill = SFSymbol(rawValue: "info.triangle.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂸆
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let insetFilledRectangleAndPersonFilledCircle = SFSymbol(rawValue: "inset.filled.rectangle.and.person.filled.circle")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂸇
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
     static let insetFilledRectangleAndPersonFilledCircleFill = SFSymbol(rawValue: "inset.filled.rectangle.and.person.filled.circle.fill")
 
-    /// No preview available
+    /// 􂷼
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let receipt = SFSymbol(rawValue: "receipt")
 
-    /// No preview available
+    /// 􂷽
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
     static let receiptFill = SFSymbol(rawValue: "receipt.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂸊
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let wandAndOutline = SFSymbol(rawValue: "wand.and.outline")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
+    /// 􂸋
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical
     static let wandAndOutlineInverse = SFSymbol(rawValue: "wand.and.outline.inverse")
 }

@@ -29,7 +29,7 @@ public extension SFSymbol {
     static let applewatchSideRight = SFSymbol(rawValue: "applewatch.side.right")
 
     /// 􀌰
-    /// 8 Localizations, 2 Layersets
+    /// 20 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -40,14 +40,26 @@ public extension SFSymbol {
     /// - Japanese (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Korean (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Thai (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Bengali (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Gujarati (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Kannada (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Malayalam (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Manipuri (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Maranthi (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Oriya (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Punjabi (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Santali (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Sinhala (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Tamil (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Telugu (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterBubble = SymbolWith7Localizations<Ar, He, Hi_v3, Ja_v3, Ko_v3, Th_v3, Zh_v3>(rawValue: "character.bubble")
+    static let characterBubble = SymbolWith19Localizations<Ar, Bn_v7, Gu_v7, He, Hi_v3, Ja_v3, Kn_v7, Ko_v3, Ml_v7, Mni_v7, Mr_v7, Or_v7, Pa_v7, Sat_v7, Si_v7, Ta_v7, Te_v7, Th_v3, Zh_v3>(rawValue: "character.bubble")
 
     /// 􀌱
-    /// 8 Localizations, 3 Layersets
+    /// 20 Localizations, 3 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -58,15 +70,27 @@ public extension SFSymbol {
     /// - Japanese (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Korean (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Thai (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Bengali (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Gujarati (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Kannada (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Malayalam (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Manipuri (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Maranthi (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Oriya (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Punjabi (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Santali (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Sinhala (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Tamil (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Telugu (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    static let characterBubbleFill = SymbolWith7Localizations<Ar, He, Hi_v3, Ja_v3, Ko_v3, Th_v3, Zh_v3>(rawValue: "character.bubble.fill")
+    static let characterBubbleFill = SymbolWith19Localizations<Ar, Bn_v7, Gu_v7, He, Hi_v3, Ja_v3, Kn_v7, Ko_v3, Ml_v7, Mni_v7, Mr_v7, Or_v7, Pa_v7, Sat_v7, Si_v7, Ta_v7, Te_v7, Th_v3, Zh_v3>(rawValue: "character.bubble.fill")
 
     /// 􀅫
-    /// 8 Localizations, 2 Layersets
+    /// 20 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -77,14 +101,26 @@ public extension SFSymbol {
     /// - Japanese
     /// - Korean
     /// - Thai
+    /// - Bengali (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Gujarati (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Kannada (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Malayalam (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Manipuri (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Maranthi (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Oriya (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Punjabi (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Santali (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Sinhala (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Tamil (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Telugu (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterCursorIbeam = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "character.cursor.ibeam")
+    static let characterCursorIbeam = SymbolWith19Localizations<Ar, Bn_v6_3, Gu_v6_3, He, Hi, Ja, Kn_v6_3, Ko, Ml_v6_3, Mni_v6_3, Mr_v6_3, Or_v6_3, Pa_v6_3, Sat_v6_3, Si_v6_3, Ta_v6_3, Te_v6_3, Th, Zh>(rawValue: "character.cursor.ibeam")
 
     /// 􀅶
-    /// 8 Localizations, 2 Layersets
+    /// 19 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -95,11 +131,22 @@ public extension SFSymbol {
     /// - Japanese
     /// - Korean
     /// - Thai
+    /// - Bengali (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Gujarati (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Kannada (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Malayalam (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Manipuri (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Maranthi (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Oriya (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Punjabi (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Santali (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Sinhala (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Tamil (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterTextbox = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "character.textbox")
+    static let characterTextbox = SymbolWith18Localizations<Ar, Bn_v6_3, Gu_v6_3, He, Hi, Ja, Kn_v6_3, Ko, Ml_v6_3, Mni_v6_3, Mr_v6_3, Or_v6_3, Pa_v6_3, Sat_v6_3, Si_v6_3, Ta_v6_3, Th, Zh>(rawValue: "character.textbox")
 
     /// 􀷭
     /// Single Localization, 2 Layersets, ⚠️ Restricted
