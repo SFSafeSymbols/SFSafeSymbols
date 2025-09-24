@@ -30,7 +30,7 @@ struct SymbolManifestParser {
             )
         }
 
-        for (key, value) in plist.symbols.sorted(on: \.key, by: <) {
+        for (key, value) in plist.symbols.sorted(using: KeyPathComparator(\.key)) {
             guard let availability = (availabilities.first { $0.year == value }) else {
                 // Cancel on single failure
                 return nil

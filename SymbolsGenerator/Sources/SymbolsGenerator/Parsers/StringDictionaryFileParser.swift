@@ -13,6 +13,6 @@ struct StringDictionaryFileParser {
     static func parse(from data: Data) throws -> StringDictionary {
         if (data.isEmpty) { return [:] }
         let unorderedDict = try PropertyListDecoder().decode([String: String].self, from: data)
-        return .init(uncheckedUniqueKeysWithValues: unorderedDict.sorted(on: \.key, by: <))
+        return .init(uncheckedUniqueKeysWithValues: unorderedDict.sorted(using: KeyPathComparator(\.key)))
     }
 }

@@ -24,45 +24,6 @@ public extension SFSymbol {
     /// - Hierarchical
     static let _1Lane = SymbolWith2Localizations<Ar_v4_2, Hi_v4_2>(rawValue: "1.lane")
 
-    /// 􁟙
-    /// 3 Localizations, 2 Layersets
-    ///
-    /// Localizations:
-    /// - Latin
-    /// - Arabic (iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4)
-    /// - Hindi (iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4)
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    static let _10Lane = SymbolWith2Localizations<Ar_v4_2, Hi_v4_2>(rawValue: "10.lane")
-
-    /// 􁟚
-    /// 3 Localizations, 2 Layersets
-    ///
-    /// Localizations:
-    /// - Latin
-    /// - Arabic (iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4)
-    /// - Hindi (iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4)
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    static let _11Lane = SymbolWith2Localizations<Ar_v4_2, Hi_v4_2>(rawValue: "11.lane")
-
-    /// 􁟛
-    /// 3 Localizations, 2 Layersets
-    ///
-    /// Localizations:
-    /// - Latin
-    /// - Arabic (iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4)
-    /// - Hindi (iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4)
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    static let _12Lane = SymbolWith2Localizations<Ar_v4_2, Hi_v4_2>(rawValue: "12.lane")
-
     /// 􁟅
     /// Single Localization, 2 Layersets
     ///
@@ -174,6 +135,45 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     static let _9Lane = SymbolWith2Localizations<Ar_v4_2, Hi_v4_2>(rawValue: "9.lane")
+
+    /// 􁟙
+    /// 3 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4)
+    /// - Hindi (iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4)
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    static let _10Lane = SymbolWith2Localizations<Ar_v4_2, Hi_v4_2>(rawValue: "10.lane")
+
+    /// 􁟚
+    /// 3 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4)
+    /// - Hindi (iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4)
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    static let _11Lane = SymbolWith2Localizations<Ar_v4_2, Hi_v4_2>(rawValue: "11.lane")
+
+    /// 􁟛
+    /// 3 Localizations, 2 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic (iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4)
+    /// - Hindi (iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4)
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    static let _12Lane = SymbolWith2Localizations<Ar_v4_2, Hi_v4_2>(rawValue: "12.lane")
 
     /// 􁢷
     /// Single Localization, 2 Layersets

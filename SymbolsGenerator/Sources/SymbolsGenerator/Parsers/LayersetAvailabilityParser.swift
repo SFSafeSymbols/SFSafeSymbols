@@ -29,7 +29,7 @@ struct LayersetAvailabilityParser {
             )
         }
 
-        for (key, value) in plist.symbols.sorted(on: \.key, by: <) {
+        for (key, value) in plist.symbols.sorted(using: KeyPathComparator(\.key)) {
             var layerSetAvailabilities = [LayersetAvailability]()
 
             for (layerset, year) in value {

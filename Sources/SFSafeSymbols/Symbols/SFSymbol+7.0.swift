@@ -17,6 +17,118 @@ public extension SFSymbol {
     /// - Multicolor
     static let _1Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "1.calendar")
 
+    /// 􃌧
+    /// 3 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic
+    /// - Hindi
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
+    static let _2Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "2.calendar")
+
+    /// 􃌨
+    /// 3 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic
+    /// - Hindi
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
+    static let _3Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "3.calendar")
+
+    /// 􃌩
+    /// 3 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic
+    /// - Hindi
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
+    static let _4Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "4.calendar")
+
+    /// 􃌪
+    /// 3 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic
+    /// - Hindi
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
+    static let _5Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "5.calendar")
+
+    /// 􃌫
+    /// 3 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic
+    /// - Hindi
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
+    static let _6Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "6.calendar")
+
+    /// 􃌬
+    /// 3 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic
+    /// - Hindi
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
+    static let _7Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "7.calendar")
+
+    /// 􃌭
+    /// 3 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic
+    /// - Hindi
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
+    static let _8Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "8.calendar")
+
+    /// 􃌮
+    /// 3 Localizations, 3 Layersets
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Arabic
+    /// - Hindi
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
+    static let _9Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "9.calendar")
+
     /// 􃌯
     /// 3 Localizations, 3 Layersets
     ///
@@ -156,20 +268,6 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     static let _19Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "19.calendar")
-
-    /// 􃌧
-    /// 3 Localizations, 3 Layersets
-    ///
-    /// Localizations:
-    /// - Latin
-    /// - Arabic
-    /// - Hindi
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
-    static let _2Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "2.calendar")
 
     /// 􃌹
     /// 3 Localizations, 3 Layersets
@@ -311,20 +409,6 @@ public extension SFSymbol {
     /// - Multicolor
     static let _29Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "29.calendar")
 
-    /// 􃌨
-    /// 3 Localizations, 3 Layersets
-    ///
-    /// Localizations:
-    /// - Latin
-    /// - Arabic
-    /// - Hindi
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
-    static let _3Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "3.calendar")
-
     /// 􃍃
     /// 3 Localizations, 3 Layersets
     ///
@@ -352,90 +436,6 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     static let _31Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "31.calendar")
-
-    /// 􃌩
-    /// 3 Localizations, 3 Layersets
-    ///
-    /// Localizations:
-    /// - Latin
-    /// - Arabic
-    /// - Hindi
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
-    static let _4Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "4.calendar")
-
-    /// 􃌪
-    /// 3 Localizations, 3 Layersets
-    ///
-    /// Localizations:
-    /// - Latin
-    /// - Arabic
-    /// - Hindi
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
-    static let _5Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "5.calendar")
-
-    /// 􃌫
-    /// 3 Localizations, 3 Layersets
-    ///
-    /// Localizations:
-    /// - Latin
-    /// - Arabic
-    /// - Hindi
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
-    static let _6Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "6.calendar")
-
-    /// 􃌬
-    /// 3 Localizations, 3 Layersets
-    ///
-    /// Localizations:
-    /// - Latin
-    /// - Arabic
-    /// - Hindi
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
-    static let _7Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "7.calendar")
-
-    /// 􃌭
-    /// 3 Localizations, 3 Layersets
-    ///
-    /// Localizations:
-    /// - Latin
-    /// - Arabic
-    /// - Hindi
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
-    static let _8Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "8.calendar")
-
-    /// 􃌮
-    /// 3 Localizations, 3 Layersets
-    ///
-    /// Localizations:
-    /// - Latin
-    /// - Arabic
-    /// - Hindi
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
-    static let _9Calendar = SymbolWith2Localizations<Ar, Hi>(rawValue: "9.calendar")
 
     /// 􃕆
     /// Single Localization, Single Layerset
