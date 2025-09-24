@@ -1,6 +1,8 @@
 import AppKit
 import Foundation
 
+try stringifyResources()
+
 // MARK: - Step 1: READ INPUT FILES
 
 guard
