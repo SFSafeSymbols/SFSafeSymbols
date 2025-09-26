@@ -1,11 +1,12 @@
 import Foundation
 
-var stderr = FileHandle.standardError
+var stderr: some TextOutputStream = FileHandleWrapper(base: FileHandle.standardError)
 
-extension FileHandle: TextOutputStream {
+private struct FileHandleWrapper: TextOutputStream {
+    let base: FileHandle
     
-    public func write(_ string: String) {
+    func write(_ string: String) {
         let data = string.data(using: .utf8, allowLossyConversion: true)!
-        self.write(data)
+        base.write(data)
     }
 }

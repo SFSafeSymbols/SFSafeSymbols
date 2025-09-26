@@ -740,11 +740,12 @@ public extension SFSymbol {
     static let arrowTriangle2CirclepathIcloud = SFSymbol(rawValue: "arrow.triangle.2.circlepath.icloud")
 
     /// 􂆎
-    /// Single Localization, 2 Layersets, ⚠️ Restricted
+    /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
     @available(iOS, introduced: 17.0, deprecated: 18.0, renamed: "arrowTrianglehead2ClockwiseRotate90IcloudFill")
@@ -1387,6 +1388,33 @@ public extension SFSymbol {
     /// - Multicolor
     static let battery0percent = SFSymbol(rawValue: "battery.0percent")
 
+    /// 􀛩
+    /// Single Localization, 3 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
+    static let battery25percent = SFSymbol(rawValue: "battery.25percent")
+
+    /// 􀺶
+    /// Single Localization, 3 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
+    static let battery50percent = SFSymbol(rawValue: "battery.50percent")
+
+    /// 􀺸
+    /// Single Localization, 3 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    /// - Multicolor
+    static let battery75percent = SFSymbol(rawValue: "battery.75percent")
+
     /// 􀛨
     /// Single Localization, 3 Layersets
     ///
@@ -1426,33 +1454,6 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     static let battery100percentCircleFill = SFSymbol(rawValue: "battery.100percent.circle.fill")
-
-    /// 􀛩
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
-    static let battery25percent = SFSymbol(rawValue: "battery.25percent")
-
-    /// 􀺶
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
-    static let battery50percent = SFSymbol(rawValue: "battery.50percent")
-
-    /// 􀺸
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
-    static let battery75percent = SFSymbol(rawValue: "battery.75percent")
 
     /// 􁅞
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -1743,11 +1744,12 @@ public extension SFSymbol {
     static let bookPages = SFSymbol(rawValue: "book.pages")
 
     /// 􁜿
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let bookPagesFill = SFSymbol(rawValue: "book.pages.fill")
 
     /// 􂂇
@@ -1988,10 +1990,11 @@ public extension SFSymbol {
     static let buttonVerticalRightPressFill = SFSymbol(rawValue: "button.vertical.right.press.fill")
 
     /// 􁊒
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let cableCoaxial = SFSymbol(rawValue: "cable.coaxial")
 
     /// 􂇥
@@ -2800,7 +2803,7 @@ public extension SFSymbol {
     static let centsignArrowCirclepath = SFSymbol(rawValue: "centsign.arrow.circlepath")
 
     /// 􀤍
-    /// 8 Localizations, 3 Layersets
+    /// 20 Localizations, 3 Layersets
     ///
     /// Localizations:
     /// - Latin
@@ -2811,12 +2814,24 @@ public extension SFSymbol {
     /// - Japanese
     /// - Korean
     /// - Thai
+    /// - Bengali (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Gujarati (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Kannada (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Malayalam (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Manipuri (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Maranthi (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Oriya (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Punjabi (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Santali (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Sinhala (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Tamil (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
+    /// - Telugu (iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4)
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let characterMagnify = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "character.magnify")
+    static let characterMagnify = SymbolWith19Localizations<Ar, Bn_v6_3, Gu_v6_3, He, Hi, Ja, Kn_v6_3, Ko, Ml_v6_3, Mni_v6_3, Mr_v6_3, Or_v6_3, Pa_v6_3, Sat_v6_3, Si_v6_3, Ta_v6_3, Te_v6_3, Th, Zh>(rawValue: "character.magnify")
 
     /// 􂆏
     /// Single Localization, 2 Layersets
@@ -3262,6 +3277,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @available(iOS, introduced: 17.0, deprecated: 26.0, renamed: "pointerArrowSlash")
+    @available(macOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowSlash")
+    @available(tvOS, introduced: 17.0, deprecated: 26.0, renamed: "pointerArrowSlash")
+    @available(watchOS, introduced: 10.0, deprecated: 26.0, renamed: "pointerArrowSlash")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "pointerArrowSlash")
     static let cursorarrowSlash = SFSymbol(rawValue: "cursorarrow.slash")
 
     /// 􁷂
@@ -3270,6 +3290,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @available(iOS, introduced: 17.0, deprecated: 26.0, renamed: "pointerArrowSlashSquare")
+    @available(macOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowSlashSquare")
+    @available(tvOS, introduced: 17.0, deprecated: 26.0, renamed: "pointerArrowSlashSquare")
+    @available(watchOS, introduced: 10.0, deprecated: 26.0, renamed: "pointerArrowSlashSquare")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "pointerArrowSlashSquare")
     static let cursorarrowSlashSquare = SFSymbol(rawValue: "cursorarrow.slash.square")
 
     /// 􁷃
@@ -3279,6 +3304,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @available(iOS, introduced: 17.0, deprecated: 26.0, renamed: "pointerArrowSlashSquareFill")
+    @available(macOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowSlashSquareFill")
+    @available(tvOS, introduced: 17.0, deprecated: 26.0, renamed: "pointerArrowSlashSquareFill")
+    @available(watchOS, introduced: 10.0, deprecated: 26.0, renamed: "pointerArrowSlashSquareFill")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "pointerArrowSlashSquareFill")
     static let cursorarrowSlashSquareFill = SFSymbol(rawValue: "cursorarrow.slash.square.fill")
 
     /// 􁤮
@@ -3833,10 +3863,11 @@ public extension SFSymbol {
     static let evPlugDcNacsFill = SFSymbol(rawValue: "ev.plug.dc.nacs.fill")
 
     /// 􂈂
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
     static let exclamationmarkMagnifyingglass = SFSymbol(rawValue: "exclamationmark.magnifyingglass")
 
     /// 􁀓
@@ -4502,14 +4533,6 @@ public extension SFSymbol {
     /// - Hierarchical
     static let gaugeWithDotsNeedle0percent = SFSymbol(rawValue: "gauge.with.dots.needle.0percent")
 
-    /// 􁐛
-    /// Single Localization, 2 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    static let gaugeWithDotsNeedle100percent = SFSymbol(rawValue: "gauge.with.dots.needle.100percent")
-
     /// 􁰉
     /// Single Localization, 2 Layersets
     ///
@@ -4534,6 +4557,14 @@ public extension SFSymbol {
     /// - Hierarchical
     static let gaugeWithDotsNeedle67percent = SFSymbol(rawValue: "gauge.with.dots.needle.67percent")
 
+    /// 􁐛
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    static let gaugeWithDotsNeedle100percent = SFSymbol(rawValue: "gauge.with.dots.needle.100percent")
+
     /// 􁐗
     /// Single Localization, 2 Layersets
     ///
@@ -4541,14 +4572,6 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     static let gaugeWithDotsNeedleBottom0percent = SFSymbol(rawValue: "gauge.with.dots.needle.bottom.0percent")
-
-    /// 􁐘
-    /// Single Localization, 2 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    static let gaugeWithDotsNeedleBottom100percent = SFSymbol(rawValue: "gauge.with.dots.needle.bottom.100percent")
 
     /// 􀍽
     /// Single Localization, 2 Layersets
@@ -4575,6 +4598,14 @@ public extension SFSymbol {
     /// - Multicolor
     /// - Hierarchical
     static let gaugeWithDotsNeedleBottom50percentBadgePlus = SFSymbol(rawValue: "gauge.with.dots.needle.bottom.50percent.badge.plus")
+
+    /// 􁐘
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical
+    static let gaugeWithDotsNeedleBottom100percent = SFSymbol(rawValue: "gauge.with.dots.needle.bottom.100percent")
 
     /// 􁖫
     /// Single Localization, 2 Layersets
@@ -4768,6 +4799,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @available(iOS, introduced: 17.0, deprecated: 26.0, renamed: "hourglassBadgeLock")
+    @available(macOS, introduced: 14.0, deprecated: 26.0, renamed: "hourglassBadgeLock")
+    @available(tvOS, introduced: 17.0, deprecated: 26.0, renamed: "hourglassBadgeLock")
+    @available(watchOS, introduced: 10.0, deprecated: 26.0, renamed: "hourglassBadgeLock")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "hourglassBadgeLock")
     static let hourglassAndLock = SFSymbol(rawValue: "hourglass.and.lock")
 
     /// 􂈤
@@ -5529,6 +5565,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @available(iOS, introduced: 17.0, deprecated: 26.0, renamed: "macwindowAndPointerArrow")
+    @available(macOS, introduced: 14.0, deprecated: 26.0, renamed: "macwindowAndPointerArrow")
+    @available(tvOS, introduced: 17.0, deprecated: 26.0, renamed: "macwindowAndPointerArrow")
+    @available(watchOS, introduced: 10.0, deprecated: 26.0, renamed: "macwindowAndPointerArrow")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "macwindowAndPointerArrow")
     static let macwindowAndCursorarrow = SymbolWith1Localization<Rtl>(rawValue: "macwindow.and.cursorarrow")
 
     /// 􂈭
@@ -6099,11 +6140,12 @@ public extension SFSymbol {
     static let personBubble = SFSymbol(rawValue: "person.bubble")
 
     /// 􂄾
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let personBubbleFill = SFSymbol(rawValue: "person.bubble.fill")
 
     /// 􁽓
@@ -6699,11 +6741,10 @@ public extension SFSymbol {
     static let rectangleCheckered = SFSymbol(rawValue: "rectangle.checkered")
 
     /// 􂇕
-    /// Single Localization, 2 Layersets
+    /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
     @available(iOS, introduced: 17.0, deprecated: 18.0, renamed: "insetFilledRectangleAndCursorarrow")
     @available(macOS, introduced: 14.0, deprecated: 15.0, renamed: "insetFilledRectangleAndCursorarrow")
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "insetFilledRectangleAndCursorarrow")
@@ -6783,20 +6824,6 @@ public extension SFSymbol {
     /// - Hierarchical
     static let rectanglePortraitRotate = SFSymbol(rawValue: "rectangle.portrait.rotate")
 
-    /// 􁽾
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let rectangleRatio16To9 = SFSymbol(rawValue: "rectangle.ratio.16.to.9")
-
-    /// 􁽿
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let rectangleRatio16To9Fill = SFSymbol(rawValue: "rectangle.ratio.16.to.9.fill")
-
     /// 􁽸
     /// Single Localization, Single Layerset
     ///
@@ -6838,6 +6865,20 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     static let rectangleRatio9To16Fill = SFSymbol(rawValue: "rectangle.ratio.9.to.16.fill")
+
+    /// 􁽾
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let rectangleRatio16To9 = SFSymbol(rawValue: "rectangle.ratio.16.to.9")
+
+    /// 􁽿
+    /// Single Localization, Single Layerset
+    ///
+    /// Layersets:
+    /// - Monochrome
+    static let rectangleRatio16To9Fill = SFSymbol(rawValue: "rectangle.ratio.16.to.9.fill")
 
     /// 􁟈
     /// Single Localization, 2 Layersets
@@ -8463,17 +8504,19 @@ public extension SFSymbol {
     static let voiceover = SFSymbol(rawValue: "voiceover")
 
     /// 􁀬
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let warninglight = SFSymbol(rawValue: "warninglight")
 
     /// 􁀭
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let warninglightFill = SFSymbol(rawValue: "warninglight.fill")
 
     /// 􁿎

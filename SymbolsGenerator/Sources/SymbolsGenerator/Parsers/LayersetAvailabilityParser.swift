@@ -13,13 +13,9 @@ struct LayersetAvailabilityParser {
         var yearToReleaseMapping: [String: [String: String]]
     }
 
-    static func parse(layersetAvailabilityFileData: Data?) -> LayersetAvailabilitiesList? {
-        guard
-            let data = layersetAvailabilityFileData,
-            let plist = try? PropertyListDecoder().decode(Plist.self, from: data)
-        else {
-            return nil
-        }
+    static func parse(layersetAvailabilityFileData: Data) throws -> LayersetAvailabilitiesList? {
+        let data = layersetAvailabilityFileData
+        let plist = try PropertyListDecoder().decode(Plist.self, from: data)
 
         var layersetAvailabilitiesList: LayersetAvailabilitiesList = [:]
         let availabilities = plist.yearToReleaseMapping.compactMap { key, value in
@@ -33,7 +29,7 @@ struct LayersetAvailabilityParser {
             )
         }
 
-        for (key, value) in plist.symbols.sorted(on: \.key, by: <) {
+        for (key, value) in plist.symbols.sorted(using: KeyPathComparator(\.key)) {
             var layerSetAvailabilities = [LayersetAvailability]()
 
             for (layerset, year) in value {

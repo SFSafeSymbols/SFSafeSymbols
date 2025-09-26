@@ -1575,6 +1575,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @available(iOS, introduced: 16.0, deprecated: 26.0, renamed: "pointerArrowSquareFill")
+    @available(macOS, introduced: 13.0, deprecated: 26.0, renamed: "pointerArrowSquareFill")
+    @available(tvOS, introduced: 16.0, deprecated: 26.0, renamed: "pointerArrowSquareFill")
+    @available(watchOS, introduced: 9.0, deprecated: 26.0, renamed: "pointerArrowSquareFill")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "pointerArrowSquareFill")
     static let cursorarrowSquareFill = SFSymbol(rawValue: "cursorarrow.square.fill")
 
     /// 􁑸
@@ -2426,10 +2431,12 @@ public extension SFSymbol {
     static let figureAmericanFootball = SFSymbol(rawValue: "figure.american.football")
 
     /// 􁘁
-    /// Single Localization, Single Layerset
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let figureAndChildHoldinghands = SFSymbol(rawValue: "figure.and.child.holdinghands")
 
     /// 􁒑
@@ -4116,11 +4123,12 @@ public extension SFSymbol {
     static let listBulletClipboard = SFSymbol(rawValue: "list.bullet.clipboard")
 
     /// 􀼐
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
+    /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let listBulletClipboardFill = SFSymbol(rawValue: "list.bullet.clipboard.fill")
 
     /// 􁕜
@@ -4308,7 +4316,7 @@ public extension SFSymbol {
     static let messageBadgeCircleFill = SymbolWith1Localization<Rtl>(rawValue: "message.badge.circle.fill")
 
     /// 􁏊
-    /// 2 Localizations, 2 Layersets, ⚠️ Restricted
+    /// 2 Localizations, 3 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
     /// - Left-to-Right
@@ -4317,6 +4325,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static let messageBadgeFill = SymbolWith1Localization<Rtl>(rawValue: "message.badge.fill")
@@ -4700,19 +4709,21 @@ public extension SFSymbol {
     static let ovenFill = SFSymbol(rawValue: "oven.fill")
 
     /// 􀾼
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
+    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let parkinglight = SFSymbol(rawValue: "parkinglight")
 
     /// 􀾽
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
+    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let parkinglightFill = SFSymbol(rawValue: "parkinglight.fill")
 
     /// 􀿀
@@ -6504,6 +6515,11 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @available(iOS, introduced: 16.0, deprecated: 18.4, renamed: "squareshapeSplit2x2DottedInsideAndOutside")
+    @available(macOS, introduced: 13.0, deprecated: 15.4, renamed: "squareshapeSplit2x2DottedInsideAndOutside")
+    @available(tvOS, introduced: 16.0, deprecated: 18.4, renamed: "squareshapeSplit2x2DottedInsideAndOutside")
+    @available(watchOS, introduced: 9.0, deprecated: 11.4, renamed: "squareshapeSplit2x2DottedInsideAndOutside")
+    @available(visionOS, introduced: 1.0, deprecated: 2.4, renamed: "squareshapeSplit2x2DottedInsideAndOutside")
     static let squareshapeDottedSplit2x2 = SFSymbol(rawValue: "squareshape.dotted.split.2x2")
 
     /// 􁕋

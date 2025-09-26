@@ -891,11 +891,12 @@ public extension SFSymbol {
     static let arrowTriangleSwap = SFSymbol(rawValue: "arrow.triangle.swap")
 
     /// 􀟷
-    /// Single Localization, 2 Layersets
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     @available(iOS, introduced: 14.0, deprecated: 18.0, renamed: "arrowTriangleheadTurnUpRightCircle")
     @available(macOS, introduced: 11.0, deprecated: 15.0, renamed: "arrowTriangleheadTurnUpRightCircle")
     @available(tvOS, introduced: 14.0, deprecated: 18.0, renamed: "arrowTriangleheadTurnUpRightCircle")
@@ -1195,10 +1196,11 @@ public extension SFSymbol {
     static let arrowUpLeftAndDownRightAndArrowUpRightAndDownLeft = SFSymbol(rawValue: "arrow.up.left.and.down.right.and.arrow.up.right.and.down.left")
 
     /// 􀥩
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
     static let arrowUpLeftAndDownRightMagnifyingglass = SFSymbol(rawValue: "arrow.up.left.and.down.right.magnifyingglass")
 
     /// 􀜃
@@ -2748,6 +2750,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 26.0, renamed: "contextualmenuAndPointerArrow")
+    @available(macOS, introduced: 11.0, deprecated: 26.0, renamed: "contextualmenuAndPointerArrow")
+    @available(tvOS, introduced: 14.0, deprecated: 26.0, renamed: "contextualmenuAndPointerArrow")
+    @available(watchOS, introduced: 7.0, deprecated: 26.0, renamed: "contextualmenuAndPointerArrow")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "contextualmenuAndPointerArrow")
     static let contextualmenuAndCursorarrow = SFSymbol(rawValue: "contextualmenu.and.cursorarrow")
 
     /// 􀫥
@@ -2882,6 +2889,11 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @available(iOS, introduced: 14.0, deprecated: 18.4, renamed: "cursorarrowResizeNorthEastSouthEast")
+    @available(macOS, introduced: 11.0, deprecated: 15.4, renamed: "cursorarrowResizeNorthEastSouthEast")
+    @available(tvOS, introduced: 14.0, deprecated: 18.4, renamed: "cursorarrowResizeNorthEastSouthEast")
+    @available(watchOS, introduced: 7.0, deprecated: 11.4, renamed: "cursorarrowResizeNorthEastSouthEast")
+    @available(visionOS, introduced: 1.0, deprecated: 2.4, renamed: "cursorarrowResizeNorthEastSouthEast")
     static let cursorarrow = SFSymbol(rawValue: "cursorarrow")
 
     /// 􀮐
@@ -2890,6 +2902,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowAndSquareOnSquareDashed")
+    @available(macOS, introduced: 11.0, deprecated: 26.0, renamed: "pointerArrowAndSquareOnSquareDashed")
+    @available(tvOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowAndSquareOnSquareDashed")
+    @available(watchOS, introduced: 7.0, deprecated: 26.0, renamed: "pointerArrowAndSquareOnSquareDashed")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "pointerArrowAndSquareOnSquareDashed")
     static let cursorarrowAndSquareOnSquareDashed = SFSymbol(rawValue: "cursorarrow.and.square.on.square.dashed")
 
     /// 􀭆
@@ -2898,6 +2915,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowClick")
+    @available(macOS, introduced: 11.0, deprecated: 26.0, renamed: "pointerArrowClick")
+    @available(tvOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowClick")
+    @available(watchOS, introduced: 7.0, deprecated: 26.0, renamed: "pointerArrowClick")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "pointerArrowClick")
     static let cursorarrowClick = SFSymbol(rawValue: "cursorarrow.click")
 
     /// 􀭇
@@ -2907,6 +2929,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowClick2")
+    @available(macOS, introduced: 11.0, deprecated: 26.0, renamed: "pointerArrowClick2")
+    @available(tvOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowClick2")
+    @available(watchOS, introduced: 7.0, deprecated: 26.0, renamed: "pointerArrowClick2")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "pointerArrowClick2")
     static let cursorarrowClick2 = SFSymbol(rawValue: "cursorarrow.click.2")
 
     /// 􀮴
@@ -2916,6 +2943,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @available(iOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowClickBadgeClock")
+    @available(macOS, introduced: 11.0, deprecated: 26.0, renamed: "pointerArrowClickBadgeClock")
+    @available(tvOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowClickBadgeClock")
+    @available(watchOS, introduced: 7.0, deprecated: 26.0, renamed: "pointerArrowClickBadgeClock")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "pointerArrowClickBadgeClock")
     static let cursorarrowClickBadgeClock = SFSymbol(rawValue: "cursorarrow.click.badge.clock")
 
     /// 􀣠
@@ -2923,6 +2955,11 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @available(iOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowMotionlines")
+    @available(macOS, introduced: 11.0, deprecated: 26.0, renamed: "pointerArrowMotionlines")
+    @available(tvOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowMotionlines")
+    @available(watchOS, introduced: 7.0, deprecated: 26.0, renamed: "pointerArrowMotionlines")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "pointerArrowMotionlines")
     static let cursorarrowMotionlines = SFSymbol(rawValue: "cursorarrow.motionlines")
 
     /// 􀣡
@@ -2931,6 +2968,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowMotionlinesClick")
+    @available(macOS, introduced: 11.0, deprecated: 26.0, renamed: "pointerArrowMotionlinesClick")
+    @available(tvOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowMotionlinesClick")
+    @available(watchOS, introduced: 7.0, deprecated: 26.0, renamed: "pointerArrowMotionlinesClick")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "pointerArrowMotionlinesClick")
     static let cursorarrowMotionlinesClick = SFSymbol(rawValue: "cursorarrow.motionlines.click")
 
     /// 􀇰
@@ -2939,6 +2981,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowRays")
+    @available(macOS, introduced: 11.0, deprecated: 26.0, renamed: "pointerArrowRays")
+    @available(tvOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowRays")
+    @available(watchOS, introduced: 7.0, deprecated: 26.0, renamed: "pointerArrowRays")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "pointerArrowRays")
     static let cursorarrowRays = SFSymbol(rawValue: "cursorarrow.rays")
 
     /// 􀭅
@@ -2947,6 +2994,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowSquare")
+    @available(macOS, introduced: 11.0, deprecated: 26.0, renamed: "pointerArrowSquare")
+    @available(tvOS, introduced: 14.0, deprecated: 26.0, renamed: "pointerArrowSquare")
+    @available(watchOS, introduced: 7.0, deprecated: 26.0, renamed: "pointerArrowSquare")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "pointerArrowSquare")
     static let cursorarrowSquare = SFSymbol(rawValue: "cursorarrow.square")
 
     /// 􀳃
@@ -3286,10 +3338,12 @@ public extension SFSymbol {
     static let docFillBadgePlus = SFSymbol(rawValue: "doc.fill.badge.plus")
 
     /// 􀥨
-    /// Single Localization, Single Layerset
+    /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     @available(iOS, introduced: 14.0, deprecated: 18.0, renamed: "textPageFill")
     @available(macOS, introduced: 11.0, deprecated: 15.0, renamed: "textPageFill")
     @available(tvOS, introduced: 14.0, deprecated: 18.0, renamed: "textPageFill")
@@ -3320,7 +3374,7 @@ public extension SFSymbol {
     static let docRichtextFill = SymbolWith7Localizations<Ar, He, Hi_v3, Ja_v3, Ko_v3, Th_v3, Zh_v3>(rawValue: "doc.richtext.fill")
 
     /// 􀳼
-    /// 2 Localizations, 2 Layersets
+    /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Left-to-Right
@@ -3328,7 +3382,6 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     @available(iOS, introduced: 14.0, deprecated: 18.0, renamed: "ecgTextPage")
     @available(macOS, introduced: 11.0, deprecated: 15.0, renamed: "ecgTextPage")
     @available(tvOS, introduced: 14.0, deprecated: 18.0, renamed: "ecgTextPage")
@@ -3414,6 +3467,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 26.0, renamed: "dotCircleAndPointerArrow")
+    @available(macOS, introduced: 11.0, deprecated: 26.0, renamed: "dotCircleAndPointerArrow")
+    @available(tvOS, introduced: 14.0, deprecated: 26.0, renamed: "dotCircleAndPointerArrow")
+    @available(watchOS, introduced: 7.0, deprecated: 26.0, renamed: "dotCircleAndPointerArrow")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "dotCircleAndPointerArrow")
     static let dotCircleAndCursorarrow = SFSymbol(rawValue: "dot.circle.and.cursorarrow")
 
     /// 􀰭
@@ -4082,6 +4140,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 26.0, renamed: "filemenuAndPointerArrow")
+    @available(macOS, introduced: 11.0, deprecated: 26.0, renamed: "filemenuAndPointerArrow")
+    @available(tvOS, introduced: 14.0, deprecated: 26.0, renamed: "filemenuAndPointerArrow")
+    @available(watchOS, introduced: 7.0, deprecated: 26.0, renamed: "filemenuAndPointerArrow")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "filemenuAndPointerArrow")
     static let filemenuAndCursorarrow = SymbolWith1Localization<Rtl>(rawValue: "filemenu.and.cursorarrow")
 
     /// 􀱢
@@ -4564,6 +4627,11 @@ public extension SFSymbol {
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomeKit.
+    @available(iOS, introduced: 14.0, deprecated: 26.0, renamed: "appleHomekit")
+    @available(macOS, introduced: 11.0, deprecated: 26.0, renamed: "appleHomekit")
+    @available(tvOS, introduced: 14.0, deprecated: 26.0, renamed: "appleHomekit")
+    @available(watchOS, introduced: 7.0, deprecated: 26.0, renamed: "appleHomekit")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "appleHomekit")
     static let homekit = SFSymbol(rawValue: "homekit")
 
     /// 􀟢
@@ -5270,6 +5338,11 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @available(iOS, introduced: 14.0, deprecated: 26.0, renamed: "lineDiagonalTriangleheadUpRight")
+    @available(macOS, introduced: 11.0, deprecated: 26.0, renamed: "lineDiagonalTriangleheadUpRight")
+    @available(tvOS, introduced: 14.0, deprecated: 26.0, renamed: "lineDiagonalTriangleheadUpRight")
+    @available(watchOS, introduced: 7.0, deprecated: 26.0, renamed: "lineDiagonalTriangleheadUpRight")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "lineDiagonalTriangleheadUpRight")
     static let lineDiagonalArrow = SFSymbol(rawValue: "line.diagonal.arrow")
 
     /// 􀘵
@@ -5689,10 +5762,11 @@ public extension SFSymbol {
     static let mailAndTextMagnifyingglass = SymbolWith1Localization<Rtl>(rawValue: "mail.and.text.magnifyingglass")
 
     /// 􀣫
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let mailFill = SFSymbol(rawValue: "mail.fill")
 
     /// 􀍝
@@ -5933,10 +6007,11 @@ public extension SFSymbol {
     static let newspaper = SFSymbol(rawValue: "newspaper")
 
     /// 􀥅
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let newspaperFill = SFSymbol(rawValue: "newspaper.fill")
 
     /// 􀨯
@@ -5958,6 +6033,11 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @available(iOS, introduced: 14.0, deprecated: 26.0, renamed: "padHeader")
+    @available(macOS, introduced: 11.0, deprecated: 26.0, renamed: "padHeader")
+    @available(tvOS, introduced: 14.0, deprecated: 26.0, renamed: "padHeader")
+    @available(watchOS, introduced: 7.0, deprecated: 26.0, renamed: "padHeader")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "padHeader")
     static let note = SFSymbol(rawValue: "note")
 
     /// 􀓕
@@ -5966,6 +6046,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 26.0, renamed: "textPadHeader")
+    @available(macOS, introduced: 11.0, deprecated: 26.0, renamed: "textPadHeader")
+    @available(tvOS, introduced: 14.0, deprecated: 26.0, renamed: "textPadHeader")
+    @available(watchOS, introduced: 7.0, deprecated: 26.0, renamed: "textPadHeader")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "textPadHeader")
     static let noteText = SFSymbol(rawValue: "note.text")
 
     /// 􀣙
@@ -5975,6 +6060,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Multicolor
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.0, deprecated: 26.0, renamed: "textPadHeaderBadgePlus")
+    @available(macOS, introduced: 11.0, deprecated: 26.0, renamed: "textPadHeaderBadgePlus")
+    @available(tvOS, introduced: 14.0, deprecated: 26.0, renamed: "textPadHeaderBadgePlus")
+    @available(watchOS, introduced: 7.0, deprecated: 26.0, renamed: "textPadHeaderBadgePlus")
+    @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "textPadHeaderBadgePlus")
     static let noteTextBadgePlus = SFSymbol(rawValue: "note.text.badge.plus")
 
     /// 􀟊
@@ -8459,6 +8549,11 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @available(iOS, introduced: 14.0, deprecated: 18.4, renamed: "squareshapeSplit2x2DottedInside")
+    @available(macOS, introduced: 11.0, deprecated: 15.4, renamed: "squareshapeSplit2x2DottedInside")
+    @available(tvOS, introduced: 14.0, deprecated: 18.4, renamed: "squareshapeSplit2x2DottedInside")
+    @available(watchOS, introduced: 7.0, deprecated: 11.4, renamed: "squareshapeSplit2x2DottedInside")
+    @available(visionOS, introduced: 1.0, deprecated: 2.4, renamed: "squareshapeSplit2x2DottedInside")
     static let squareshapeSplit2x2Dotted = SFSymbol(rawValue: "squareshape.split.2x2.dotted")
 
     /// 􀮟
@@ -8482,10 +8577,11 @@ public extension SFSymbol {
     static let squareshapeSquareshapeDashed = SFSymbol(rawValue: "squareshape.squareshape.dashed")
 
     /// 􀋄
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     @available(iOS, introduced: 14.0, deprecated: 15.0, renamed: "starLeadinghalfFilled")
     @available(macOS, introduced: 11.0, deprecated: 12.0, renamed: "starLeadinghalfFilled")
     @available(tvOS, introduced: 14.0, deprecated: 15.0, renamed: "starLeadinghalfFilled")
@@ -8701,14 +8797,15 @@ public extension SFSymbol {
     static let textBookClosed = SFSymbol(rawValue: "text.book.closed")
 
     /// 􀫘
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let textBookClosedFill = SFSymbol(rawValue: "text.book.closed.fill")
 
     /// 􀭥
-    /// 2 Localizations, Single Layerset
+    /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Left-to-Right
@@ -8716,6 +8813,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Hierarchical (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
     static let textMagnifyingglass = SymbolWith1Localization<Rtl>(rawValue: "text.magnifyingglass")
 
     /// 􀧎
@@ -8941,10 +9039,11 @@ public extension SFSymbol {
     static let walletPass = SFSymbol(rawValue: "wallet.pass")
 
     /// 􀟿
-    /// Single Localization, Single Layerset
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
+    /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     static let walletPassFill = SFSymbol(rawValue: "wallet.pass.fill")
 
     /// 􀱘
