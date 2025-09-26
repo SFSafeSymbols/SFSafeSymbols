@@ -82,6 +82,7 @@ public extension Tab where Value: Hashable, Content: View, Label : View {
     ///     - value: The `selection` value which selects this tab.
     ///     - content: The view content of the tab.
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, *)
+    @_disfavoredOverload
     nonisolated init(_ titleResource: LocalizedStringResource, systemSymbol: SFSymbol, value: Value, @ViewBuilder content: () -> Content) where Label == DefaultTabLabel {
         self.init(titleResource, systemImage: systemSymbol.rawValue, value: value,  content: content)
     }
@@ -111,6 +112,7 @@ public extension Tab where Value: Hashable, Content: View, Label : View {
     ///     - role: The role defining the semantic purpose of the tab.
     ///     - content: The view content of the tab.
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, *)
+    @_disfavoredOverload
     nonisolated init(_ titleResource: LocalizedStringResource, systemSymbol: SFSymbol, value: Value, role: TabRole?, @ViewBuilder content: () -> Content) where Label == DefaultTabLabel {
         self.init(titleResource, systemImage: systemSymbol.rawValue, value: value, role: role, content: content)
     }
@@ -123,7 +125,6 @@ public extension Tab where Value: Hashable, Content: View, Label : View {
     ///     - systemSymbol: The `SFSymbol` describing this image.
     ///     - value: The `selection` value which selects this tab.
     ///     - content: The view content of the tab.
-    @_disfavoredOverload
     nonisolated init<T>(_ titleKey: LocalizedStringKey, systemSymbol: SFSymbol, value: T, @ViewBuilder content: () -> Content) where Value == T?, Label == DefaultTabLabel, T : Hashable {
         self.init(titleKey, systemImage: systemSymbol.rawValue, value: value, content: content)
     }
@@ -169,6 +170,7 @@ public extension Tab where Value: Hashable, Content: View, Label : View {
     ///     - role: The role defining the semantic purpose of the tab.
     ///     - content: The view content of the tab.
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, *)
+    @_disfavoredOverload
     nonisolated init<T>(_ titleResource: LocalizedStringResource, systemSymbol: SFSymbol, value: T, role: TabRole?, @ViewBuilder content: () -> Content) where Value == T?, Label == DefaultTabLabel, T : Hashable {
         self.init(titleResource, systemImage: systemSymbol.rawValue, value: value, role: role, content: content)
     }
@@ -229,6 +231,7 @@ public extension Tab where Value == Never, Content: View, Label: View {
     ///     - systemSymbol: The `SFSymbol` describing this image.
     ///     - content: The view content of the tab.
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, *)
+    @_disfavoredOverload
     nonisolated init(_ titleResource: LocalizedStringResource, systemSymbol: SFSymbol, @ViewBuilder content: () -> Content) where Label == DefaultTabLabel {
         self.init(titleResource, systemImage: systemSymbol.rawValue, content: content)
     }
@@ -242,6 +245,7 @@ public extension Tab where Value == Never, Content: View, Label: View {
     ///     - role: The role defining the semantic purpose of the tab.
     ///     - content: The view content of the tab.
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, *)
+    @_disfavoredOverload
     nonisolated init(_ titleResource: LocalizedStringResource, systemSymbol: SFSymbol, role: TabRole?, @ViewBuilder content: () -> Content) where Label == DefaultTabLabel {
         self.init(titleResource, systemImage: systemSymbol.rawValue, role: role, content: content)
     }
