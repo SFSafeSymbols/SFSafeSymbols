@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
+- Add support for the SwiftUI element Tab (By [Tim Müller-Seydlitz](https://github.com/timbms))
 - Add support for SF Symbols 6.3, 6.4, and 7.0 ([F1248](https://github.com/F1248))
 
 ### Changed
