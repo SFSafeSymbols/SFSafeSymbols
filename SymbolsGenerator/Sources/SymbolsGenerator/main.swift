@@ -183,8 +183,14 @@ let symbolToCode: (Symbol) -> String = { symbol in
         return layersetCount > 1 ? "\(layersetCount) Layersets" : "Single Layerset"
     }()
 
-    // Generate summary for docs (preview + number of localizations, layersets + potential use restriction)
+    // Generate summary for docs (previewImage + number of localizations, layersets + potential use restriction)
+    
     var outputString = "\t/// " + (symbol.preview ?? "No preview available") + "\n"
+    
+    // Use online image from repo in Github
+    let ImageURL = "https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/\(symbol.name).png"
+    outputString += "\t/// ![\(symbol.name)](\(ImageURL))\n"
+    
     let supplementString = [
         localizationCount > 1 ? "\(localizationCount) Localizations" : "Single Localization",
         layersetString,
