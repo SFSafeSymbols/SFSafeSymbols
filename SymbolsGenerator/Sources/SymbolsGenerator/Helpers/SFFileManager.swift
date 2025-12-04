@@ -10,4 +10,8 @@ enum SFFileManager {
         let data = contents.replacingOccurrences(of: "\t", with: "    ").data(using: .utf8)!
         try data.write(to: file, options: .atomic)
     }
+    
+    static func write(_ contents: Data, to file: URL) throws {
+        try contents.write(to: file, options: .atomic)
+    }
 }
