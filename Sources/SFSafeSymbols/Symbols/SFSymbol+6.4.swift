@@ -4,7 +4,7 @@
 @available(iOS 18.5, macOS 15.5, tvOS 18.5, watchOS 11.5, visionOS 2.5, *)
 public extension SFSymbol {
     /// 􃀫
-    /// ![apple.intelligence.badge.xmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/apple.intelligence.badge.xmark.png)
+    /// ![apple.intelligence.badge.xmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/apple.intelligence.badge.xmark.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -16,7 +16,7 @@ public extension SFSymbol {
     static var appleIntelligenceBadgeXmark: SFSymbol { .init(rawValue: "apple.intelligence.badge.xmark") }
 
     /// 􂞞
-    /// ![beats.powerbeats.pro.2](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.powerbeats.pro.2.png)
+    /// ![beats.powerbeats.pro.2](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -27,7 +27,7 @@ public extension SFSymbol {
     static var beatsPowerbeatsPro2: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2") }
 
     /// 􂞡
-    /// ![beats.powerbeats.pro.2.chargingcase](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.powerbeats.pro.2.chargingcase.png)
+    /// ![beats.powerbeats.pro.2.chargingcase](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.chargingcase.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -37,7 +37,7 @@ public extension SFSymbol {
     static var beatsPowerbeatsPro2Chargingcase: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2.chargingcase") }
 
     /// 􂞢
-    /// ![beats.powerbeats.pro.2.chargingcase.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.powerbeats.pro.2.chargingcase.fill.png)
+    /// ![beats.powerbeats.pro.2.chargingcase.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.chargingcase.fill.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -47,7 +47,7 @@ public extension SFSymbol {
     static var beatsPowerbeatsPro2ChargingcaseFill: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2.chargingcase.fill") }
 
     /// 􂞠
-    /// ![beats.powerbeats.pro.2.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.powerbeats.pro.2.left.png)
+    /// ![beats.powerbeats.pro.2.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.left.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -58,7 +58,7 @@ public extension SFSymbol {
     static var beatsPowerbeatsPro2Left: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2.left") }
 
     /// 􂞟
-    /// ![beats.powerbeats.pro.2.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.powerbeats.pro.2.right.png)
+    /// ![beats.powerbeats.pro.2.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.right.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
