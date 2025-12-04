@@ -11,13 +11,34 @@ import AppKit
 
 extension NSImage{
     func exportSymbol(symbolName:String) -> Data? {
-        guard let tiffData = self.tiffRepresentation,
-              let bitmap = NSBitmapImageRep(data: tiffData),
-              let pngData = bitmap.representation(using: .png, properties: [:])
-        else {
-            print("Cannot export SFSymbol(\(symbolName)) data")
+        let size = self.size
+        let rect = CGRect(origin: .zero, size: size)
+        
+        guard let context = CGContext(
+            data: nil,
+            width: Int(size.width),
+            height: Int(size.height),
+            bitsPerComponent: 8,
+            bytesPerRow: 0,
+            space: CGColorSpaceCreateDeviceRGB(),
+            bitmapInfo: CGImageAlphaInfo.noneSkipLast.rawValue
+        ) else {
             return nil
         }
-        return pngData
+        
+        context.setFillColor(CGColor(red: 1, green: 1, blue: 1, alpha: 1))
+        context.fill(rect)
+        
+        var imageRect = rect
+        if let cgImage = self.cgImage(forProposedRect: &imageRect, context: nil, hints: nil) {
+            context.draw(cgImage, in: rect)
+        }
+        
+        guard let opaqueCGImage = context.makeImage() else {
+            return nil
+        }
+        
+        let opaqueBitmap = NSBitmapImageRep(cgImage: opaqueCGImage)
+        return opaqueBitmap.representation(using: .png, properties: [:])
     }
 }

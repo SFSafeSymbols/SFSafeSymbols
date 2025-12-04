@@ -424,10 +424,14 @@ try SFFileManager.write(symbolLocalizations, to: outputDir.appending(path: "Symb
 
 try SFFileManager.write(allSymbolsExtension, to: outputDir.appending(path: "SFSymbol+AllSymbols.swift"))
 
-print("Codes generated. Generating symbol images...")
+print("Codes generated.")
+print("Generating symbol images...")
+
+let configuration = NSImage.SymbolConfiguration(pointSize: 35, weight: NSFont.Weight(rawValue: 20))
 
 let symbolToPNG:(Symbol) throws -> Void={symbol in
-    guard let nsImage=NSImage(systemSymbolName: symbol.name, accessibilityDescription: ""),
+    guard let nsImage=NSImage(systemSymbolName: symbol.name, accessibilityDescription: nil)?
+                        .withSymbolConfiguration(configuration),
           let symbolData=nsImage.exportSymbol(symbolName: symbol.name) else {
         print("Cannot export SFSymbol(\(symbol.name)) to PNG file")
         return
@@ -453,3 +457,5 @@ for _ in groupedSymbols{
 if symbolsWherePreviewIsntAvailable.isNotEmpty {
     print("⚠️ No symbol preview available for symbols \(symbolsWherePreviewIsntAvailable)", to: &stderr)
 }
+
+print("Done")
