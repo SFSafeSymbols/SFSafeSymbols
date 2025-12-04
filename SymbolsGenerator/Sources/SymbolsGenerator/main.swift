@@ -424,6 +424,8 @@ try SFFileManager.write(symbolLocalizations, to: outputDir.appending(path: "Symb
 
 try SFFileManager.write(allSymbolsExtension, to: outputDir.appending(path: "SFSymbol+AllSymbols.swift"))
 
+print("Codes generated. Generating symbol images...")
+
 let symbolToPNG:(Symbol) throws -> Void={symbol in
     guard let nsImage=NSImage(systemSymbolName: symbol.name, accessibilityDescription: ""),
           let symbolData=nsImage.exportSymbol(symbolName: symbol.name) else {
