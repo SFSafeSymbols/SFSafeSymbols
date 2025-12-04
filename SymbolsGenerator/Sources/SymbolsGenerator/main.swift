@@ -188,7 +188,7 @@ let symbolToCode: (Symbol) -> String = { symbol in
     var outputString = "\t/// " + (symbol.preview ?? "No preview available") + "\n"
     
     // Use online image from repo in Github
-    let ImageURL = "https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/\(symbol.name).png"
+    let ImageURL = "https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/\(symbol.name).png"
     outputString += "\t/// ![\(symbol.name)](\(ImageURL))\n"
     
     let supplementString = [
