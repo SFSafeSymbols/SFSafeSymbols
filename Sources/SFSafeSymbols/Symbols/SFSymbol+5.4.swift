@@ -4,6 +4,7 @@
 @available(iOS 17.6, macOS 14.6, tvOS 17.6, watchOS 10.6, visionOS 1.3, *)
 public extension SFSymbol {
     /// 􂟊
+    /// ![beats.pill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.pill.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -13,6 +14,7 @@ public extension SFSymbol {
     static var beatsPill: SFSymbol { .init(rawValue: "beats.pill") }
 
     /// 􂟋
+    /// ![beats.pill.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.pill.fill.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -22,6 +24,7 @@ public extension SFSymbol {
     static var beatsPillFill: SFSymbol { .init(rawValue: "beats.pill.fill") }
 
     /// 􂟌
+    /// ![beats.solobuds](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.solobuds.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -32,6 +35,7 @@ public extension SFSymbol {
     static var beatsSolobuds: SFSymbol { .init(rawValue: "beats.solobuds") }
 
     /// 􂟏
+    /// ![beats.solobuds.chargingcase](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.solobuds.chargingcase.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -41,6 +45,7 @@ public extension SFSymbol {
     static var beatsSolobudsChargingcase: SFSymbol { .init(rawValue: "beats.solobuds.chargingcase") }
 
     /// 􂟐
+    /// ![beats.solobuds.chargingcase.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.solobuds.chargingcase.fill.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -50,6 +55,7 @@ public extension SFSymbol {
     static var beatsSolobudsChargingcaseFill: SFSymbol { .init(rawValue: "beats.solobuds.chargingcase.fill") }
 
     /// 􂟎
+    /// ![beats.solobuds.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.solobuds.left.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -60,6 +66,7 @@ public extension SFSymbol {
     static var beatsSolobudsLeft: SFSymbol { .init(rawValue: "beats.solobuds.left") }
 
     /// 􂟍
+    /// ![beats.solobuds.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.solobuds.right.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
