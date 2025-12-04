@@ -4,6 +4,7 @@
 @available(iOS 17.1, macOS 14.1, tvOS 17.1, watchOS 10.1, visionOS 1.0, *)
 public extension SFSymbol {
     /// 􂉏
+    /// ![chevron.compact.backward](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/chevron.compact.backward.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -11,6 +12,7 @@ public extension SFSymbol {
     static var chevronCompactBackward: SFSymbol { .init(rawValue: "chevron.compact.backward") }
 
     /// 􂉐
+    /// ![chevron.compact.forward](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/chevron.compact.forward.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -18,6 +20,7 @@ public extension SFSymbol {
     static var chevronCompactForward: SFSymbol { .init(rawValue: "chevron.compact.forward") }
 
     /// 􂉚
+    /// ![person.crop.square.badge.camera](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/person.crop.square.badge.camera.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -26,6 +29,7 @@ public extension SFSymbol {
     static var personCropSquareBadgeCamera: SFSymbol { .init(rawValue: "person.crop.square.badge.camera") }
 
     /// 􂉛
+    /// ![person.crop.square.badge.camera.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/person.crop.square.badge.camera.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -34,6 +38,7 @@ public extension SFSymbol {
     static var personCropSquareBadgeCameraFill: SFSymbol { .init(rawValue: "person.crop.square.badge.camera.fill") }
 
     /// 􂉜
+    /// ![person.crop.square.badge.video](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/person.crop.square.badge.video.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -42,6 +47,7 @@ public extension SFSymbol {
     static var personCropSquareBadgeVideo: SFSymbol { .init(rawValue: "person.crop.square.badge.video") }
 
     /// 􂉝
+    /// ![person.crop.square.badge.video.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/person.crop.square.badge.video.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:

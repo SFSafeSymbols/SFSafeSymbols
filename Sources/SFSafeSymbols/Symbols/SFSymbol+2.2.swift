@@ -4,6 +4,7 @@
 @available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, visionOS 1.0, *)
 public extension SFSymbol {
     /// 􀺹
+    /// ![airpodsmax](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/airpodsmax.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -19,6 +20,7 @@ public extension SFSymbol {
     static var airpodsmax: SFSymbol { .init(rawValue: "airpodsmax") }
 
     /// 􀸎
+    /// ![applewatch.side.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/applewatch.side.right.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -29,6 +31,7 @@ public extension SFSymbol {
     static var applewatchSideRight: SFSymbol { .init(rawValue: "applewatch.side.right") }
 
     /// 􀌰
+    /// ![character.bubble](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/character.bubble.png)
     /// 20 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -59,6 +62,7 @@ public extension SFSymbol {
     static var characterBubble: SymbolWith19Localizations<Ar, Bn_v7, Gu_v7, He, Hi_v3, Ja_v3, Kn_v7, Ko_v3, Ml_v7, Mni_v7, Mr_v7, Or_v7, Pa_v7, Sat_v7, Si_v7, Ta_v7, Te_v7, Th_v3, Zh_v3> { .init(rawValue: "character.bubble") }
 
     /// 􀌱
+    /// ![character.bubble.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/character.bubble.fill.png)
     /// 20 Localizations, 3 Layersets
     ///
     /// Localizations:
@@ -90,6 +94,7 @@ public extension SFSymbol {
     static var characterBubbleFill: SymbolWith19Localizations<Ar, Bn_v7, Gu_v7, He, Hi_v3, Ja_v3, Kn_v7, Ko_v3, Ml_v7, Mni_v7, Mr_v7, Or_v7, Pa_v7, Sat_v7, Si_v7, Ta_v7, Te_v7, Th_v3, Zh_v3> { .init(rawValue: "character.bubble.fill") }
 
     /// 􀅫
+    /// ![character.cursor.ibeam](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/character.cursor.ibeam.png)
     /// 20 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -120,6 +125,7 @@ public extension SFSymbol {
     static var characterCursorIbeam: SymbolWith19Localizations<Ar, Bn_v6_3, Gu_v6_3, He, Hi, Ja, Kn_v6_3, Ko, Ml_v6_3, Mni_v6_3, Mr_v6_3, Or_v6_3, Pa_v6_3, Sat_v6_3, Si_v6_3, Ta_v6_3, Te_v6_3, Th, Zh> { .init(rawValue: "character.cursor.ibeam") }
 
     /// 􀅶
+    /// ![character.textbox](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/character.textbox.png)
     /// 19 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -149,6 +155,7 @@ public extension SFSymbol {
     static var characterTextbox: SymbolWith18Localizations<Ar, Bn_v6_3, Gu_v6_3, He, Hi, Ja, Kn_v6_3, Ko, Ml_v6_3, Mni_v6_3, Mr_v6_3, Or_v6_3, Pa_v6_3, Sat_v6_3, Si_v6_3, Ta_v6_3, Th, Zh> { .init(rawValue: "character.textbox") }
 
     /// 􀷭
+    /// ![hifispeaker.and.homepodmini](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/hifispeaker.and.homepodmini.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -164,6 +171,7 @@ public extension SFSymbol {
     static var hifispeakerAndHomepodmini: SFSymbol { .init(rawValue: "hifispeaker.and.homepodmini") }
 
     /// 􀷮
+    /// ![hifispeaker.and.homepodmini.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/hifispeaker.and.homepodmini.fill.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -179,6 +187,7 @@ public extension SFSymbol {
     static var hifispeakerAndHomepodminiFill: SFSymbol { .init(rawValue: "hifispeaker.and.homepodmini.fill") }
 
     /// 􀷫
+    /// ![homepod.and.homepodmini](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/homepod.and.homepodmini.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -194,6 +203,7 @@ public extension SFSymbol {
     static var homepodAndHomepodmini: SFSymbol { .init(rawValue: "homepod.and.homepodmini") }
 
     /// 􀷬
+    /// ![homepod.and.homepodmini.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/homepod.and.homepodmini.fill.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -209,6 +219,7 @@ public extension SFSymbol {
     static var homepodAndHomepodminiFill: SFSymbol { .init(rawValue: "homepod.and.homepodmini.fill") }
 
     /// 􀷧
+    /// ![homepodmini](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/homepodmini.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -224,6 +235,7 @@ public extension SFSymbol {
     static var homepodmini: SFSymbol { .init(rawValue: "homepodmini") }
 
     /// 􀷩
+    /// ![homepodmini.2](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/homepodmini.2.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -239,6 +251,7 @@ public extension SFSymbol {
     static var homepodmini2: SFSymbol { .init(rawValue: "homepodmini.2") }
 
     /// 􀷪
+    /// ![homepodmini.2.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/homepodmini.2.fill.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -254,6 +267,7 @@ public extension SFSymbol {
     static var homepodmini2Fill: SFSymbol { .init(rawValue: "homepodmini.2.fill") }
 
     /// 􀷨
+    /// ![homepodmini.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/homepodmini.fill.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -269,6 +283,7 @@ public extension SFSymbol {
     static var homepodminiFill: SFSymbol { .init(rawValue: "homepodmini.fill") }
 
     /// 􀴊
+    /// ![rectangle.topthird.inset.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.topthird.inset.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
