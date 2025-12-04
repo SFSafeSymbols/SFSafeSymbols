@@ -4,7 +4,7 @@
 @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
 public extension SFSymbol {
     /// 􁥚
-    /// ![2h](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/2h.png)
+    /// ![2h](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/2h.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -12,7 +12,7 @@ public extension SFSymbol {
     static var _2h: SFSymbol { .init(rawValue: "2h") }
 
     /// 􁥞
-    /// ![2h.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/2h.circle.png)
+    /// ![2h.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/2h.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -21,7 +21,7 @@ public extension SFSymbol {
     static var _2hCircle: SFSymbol { .init(rawValue: "2h.circle") }
 
     /// 􁥟
-    /// ![2h.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/2h.circle.fill.png)
+    /// ![2h.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/2h.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -31,7 +31,7 @@ public extension SFSymbol {
     static var _2hCircleFill: SFSymbol { .init(rawValue: "2h.circle.fill") }
 
     /// 􁥝
-    /// ![4a](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/4a.png)
+    /// ![4a](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/4a.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -39,7 +39,7 @@ public extension SFSymbol {
     static var _4a: SFSymbol { .init(rawValue: "4a") }
 
     /// 􁥤
-    /// ![4a.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/4a.circle.png)
+    /// ![4a.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/4a.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -48,7 +48,7 @@ public extension SFSymbol {
     static var _4aCircle: SFSymbol { .init(rawValue: "4a.circle") }
 
     /// 􁥥
-    /// ![4a.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/4a.circle.fill.png)
+    /// ![4a.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/4a.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -58,7 +58,7 @@ public extension SFSymbol {
     static var _4aCircleFill: SFSymbol { .init(rawValue: "4a.circle.fill") }
 
     /// 􁥛
-    /// ![4h](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/4h.png)
+    /// ![4h](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/4h.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -66,7 +66,7 @@ public extension SFSymbol {
     static var _4h: SFSymbol { .init(rawValue: "4h") }
 
     /// 􁥠
-    /// ![4h.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/4h.circle.png)
+    /// ![4h.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/4h.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -75,7 +75,7 @@ public extension SFSymbol {
     static var _4hCircle: SFSymbol { .init(rawValue: "4h.circle") }
 
     /// 􁥡
-    /// ![4h.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/4h.circle.fill.png)
+    /// ![4h.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/4h.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -85,7 +85,7 @@ public extension SFSymbol {
     static var _4hCircleFill: SFSymbol { .init(rawValue: "4h.circle.fill") }
 
     /// 􁥜
-    /// ![4l](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/4l.png)
+    /// ![4l](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/4l.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -93,7 +93,7 @@ public extension SFSymbol {
     static var _4l: SFSymbol { .init(rawValue: "4l") }
 
     /// 􁥢
-    /// ![4l.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/4l.circle.png)
+    /// ![4l.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/4l.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -102,7 +102,7 @@ public extension SFSymbol {
     static var _4lCircle: SFSymbol { .init(rawValue: "4l.circle") }
 
     /// 􁥣
-    /// ![4l.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/4l.circle.fill.png)
+    /// ![4l.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/4l.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -112,7 +112,7 @@ public extension SFSymbol {
     static var _4lCircleFill: SFSymbol { .init(rawValue: "4l.circle.fill") }
 
     /// 􀕾
-    /// ![accessibility](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/accessibility.png)
+    /// ![accessibility](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/accessibility.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -124,7 +124,7 @@ public extension SFSymbol {
     static var accessibility: SFSymbol { .init(rawValue: "accessibility") }
 
     /// 􀮓
-    /// ![accessibility.badge.arrow.up.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/accessibility.badge.arrow.up.right.png)
+    /// ![accessibility.badge.arrow.up.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/accessibility.badge.arrow.up.right.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -136,7 +136,7 @@ public extension SFSymbol {
     static var accessibilityBadgeArrowUpRight: SFSymbol { .init(rawValue: "accessibility.badge.arrow.up.right") }
 
     /// 􀕿
-    /// ![accessibility.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/accessibility.fill.png)
+    /// ![accessibility.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/accessibility.fill.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -148,7 +148,7 @@ public extension SFSymbol {
     static var accessibilityFill: SFSymbol { .init(rawValue: "accessibility.fill") }
 
     /// 􁔂
-    /// ![airpodspro.chargingcase.wireless.radiowaves.left.and.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/airpodspro.chargingcase.wireless.radiowaves.left.and.right.png)
+    /// ![airpodspro.chargingcase.wireless.radiowaves.left.and.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/airpodspro.chargingcase.wireless.radiowaves.left.and.right.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -164,7 +164,7 @@ public extension SFSymbol {
     static var airpodsproChargingcaseWirelessRadiowavesLeftAndRight: SFSymbol { .init(rawValue: "airpodspro.chargingcase.wireless.radiowaves.left.and.right") }
 
     /// 􁔃
-    /// ![airpodspro.chargingcase.wireless.radiowaves.left.and.right.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/airpodspro.chargingcase.wireless.radiowaves.left.and.right.fill.png)
+    /// ![airpodspro.chargingcase.wireless.radiowaves.left.and.right.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/airpodspro.chargingcase.wireless.radiowaves.left.and.right.fill.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -180,7 +180,7 @@ public extension SFSymbol {
     static var airpodsproChargingcaseWirelessRadiowavesLeftAndRightFill: SFSymbol { .init(rawValue: "airpodspro.chargingcase.wireless.radiowaves.left.and.right.fill") }
 
     /// 􀩼
-    /// ![apple.terminal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/apple.terminal.png)
+    /// ![apple.terminal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/apple.terminal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -189,7 +189,7 @@ public extension SFSymbol {
     static var appleTerminal: SFSymbol { .init(rawValue: "apple.terminal") }
 
     /// 􀪏
-    /// ![apple.terminal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/apple.terminal.fill.png)
+    /// ![apple.terminal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/apple.terminal.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -198,7 +198,7 @@ public extension SFSymbol {
     static var appleTerminalFill: SFSymbol { .init(rawValue: "apple.terminal.fill") }
 
     /// 􁹛
-    /// ![apple.terminal.on.rectangle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/apple.terminal.on.rectangle.png)
+    /// ![apple.terminal.on.rectangle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/apple.terminal.on.rectangle.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -208,7 +208,7 @@ public extension SFSymbol {
     static var appleTerminalOnRectangle: SFSymbol { .init(rawValue: "apple.terminal.on.rectangle") }
 
     /// 􁹜
-    /// ![apple.terminal.on.rectangle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/apple.terminal.on.rectangle.fill.png)
+    /// ![apple.terminal.on.rectangle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/apple.terminal.on.rectangle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -218,7 +218,7 @@ public extension SFSymbol {
     static var appleTerminalOnRectangleFill: SFSymbol { .init(rawValue: "apple.terminal.on.rectangle.fill") }
 
     /// 􁰒
-    /// ![applepencil.adapter.usb.c](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/applepencil.adapter.usb.c.png)
+    /// ![applepencil.adapter.usb.c](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/applepencil.adapter.usb.c.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -228,7 +228,7 @@ public extension SFSymbol {
     static var applepencilAdapterUsbC: SFSymbol { .init(rawValue: "applepencil.adapter.usb.c") }
 
     /// 􁰓
-    /// ![applepencil.adapter.usb.c.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/applepencil.adapter.usb.c.fill.png)
+    /// ![applepencil.adapter.usb.c.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/applepencil.adapter.usb.c.fill.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -238,7 +238,7 @@ public extension SFSymbol {
     static var applepencilAdapterUsbCFill: SFSymbol { .init(rawValue: "applepencil.adapter.usb.c.fill") }
 
     /// 􁤑
-    /// ![applepencil.and.scribble](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/applepencil.and.scribble.png)
+    /// ![applepencil.and.scribble](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/applepencil.and.scribble.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -249,7 +249,7 @@ public extension SFSymbol {
     static var applepencilAndScribble: SFSymbol { .init(rawValue: "applepencil.and.scribble") }
 
     /// 􁰤
-    /// ![applepencil.gen1](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/applepencil.gen1.png)
+    /// ![applepencil.gen1](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/applepencil.gen1.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -259,7 +259,7 @@ public extension SFSymbol {
     static var applepencilGen1: SFSymbol { .init(rawValue: "applepencil.gen1") }
 
     /// 􁰥
-    /// ![applepencil.gen2](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/applepencil.gen2.png)
+    /// ![applepencil.gen2](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/applepencil.gen2.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -269,7 +269,7 @@ public extension SFSymbol {
     static var applepencilGen2: SFSymbol { .init(rawValue: "applepencil.gen2") }
 
     /// 􁤓
-    /// ![applepencil.tip](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/applepencil.tip.png)
+    /// ![applepencil.tip](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/applepencil.tip.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -280,7 +280,7 @@ public extension SFSymbol {
     static var applepencilTip: SFSymbol { .init(rawValue: "applepencil.tip") }
 
     /// 􂄅
-    /// ![applewatch.and.arrow.forward](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/applewatch.and.arrow.forward.png)
+    /// ![applewatch.and.arrow.forward](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/applewatch.and.arrow.forward.png)
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
@@ -295,7 +295,7 @@ public extension SFSymbol {
     static var applewatchAndArrowForward: SymbolWith1Localization<Rtl> { .init(rawValue: "applewatch.and.arrow.forward") }
 
     /// 􁻻
-    /// ![appwindow.swipe.rectangle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/appwindow.swipe.rectangle.png)
+    /// ![appwindow.swipe.rectangle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/appwindow.swipe.rectangle.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -303,7 +303,7 @@ public extension SFSymbol {
     static var appwindowSwipeRectangle: SFSymbol { .init(rawValue: "appwindow.swipe.rectangle") }
 
     /// 􂁢
-    /// ![arcade.stick](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arcade.stick.png)
+    /// ![arcade.stick](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arcade.stick.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -312,7 +312,7 @@ public extension SFSymbol {
     static var arcadeStick: SFSymbol { .init(rawValue: "arcade.stick") }
 
     /// 􂁨
-    /// ![arcade.stick.and.arrow.down](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arcade.stick.and.arrow.down.png)
+    /// ![arcade.stick.and.arrow.down](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arcade.stick.and.arrow.down.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -321,7 +321,7 @@ public extension SFSymbol {
     static var arcadeStickAndArrowDown: SFSymbol { .init(rawValue: "arcade.stick.and.arrow.down") }
 
     /// 􂁤
-    /// ![arcade.stick.and.arrow.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arcade.stick.and.arrow.left.png)
+    /// ![arcade.stick.and.arrow.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arcade.stick.and.arrow.left.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -330,7 +330,7 @@ public extension SFSymbol {
     static var arcadeStickAndArrowLeft: SFSymbol { .init(rawValue: "arcade.stick.and.arrow.left") }
 
     /// 􂁣
-    /// ![arcade.stick.and.arrow.left.and.arrow.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arcade.stick.and.arrow.left.and.arrow.right.png)
+    /// ![arcade.stick.and.arrow.left.and.arrow.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arcade.stick.and.arrow.left.and.arrow.right.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -344,7 +344,7 @@ public extension SFSymbol {
     static var arcadeStickAndArrowLeftAndArrowRight: SFSymbol { .init(rawValue: "arcade.stick.and.arrow.left.and.arrow.right") }
 
     /// 􂁥
-    /// ![arcade.stick.and.arrow.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arcade.stick.and.arrow.right.png)
+    /// ![arcade.stick.and.arrow.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arcade.stick.and.arrow.right.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -353,7 +353,7 @@ public extension SFSymbol {
     static var arcadeStickAndArrowRight: SFSymbol { .init(rawValue: "arcade.stick.and.arrow.right") }
 
     /// 􂁧
-    /// ![arcade.stick.and.arrow.up](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arcade.stick.and.arrow.up.png)
+    /// ![arcade.stick.and.arrow.up](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arcade.stick.and.arrow.up.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -362,7 +362,7 @@ public extension SFSymbol {
     static var arcadeStickAndArrowUp: SFSymbol { .init(rawValue: "arcade.stick.and.arrow.up") }
 
     /// 􂁦
-    /// ![arcade.stick.and.arrow.up.and.arrow.down](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arcade.stick.and.arrow.up.and.arrow.down.png)
+    /// ![arcade.stick.and.arrow.up.and.arrow.down](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arcade.stick.and.arrow.up.and.arrow.down.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -371,7 +371,7 @@ public extension SFSymbol {
     static var arcadeStickAndArrowUpAndArrowDown: SFSymbol { .init(rawValue: "arcade.stick.and.arrow.up.and.arrow.down") }
 
     /// 􂁠
-    /// ![arcade.stick.console](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arcade.stick.console.png)
+    /// ![arcade.stick.console](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arcade.stick.console.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -380,7 +380,7 @@ public extension SFSymbol {
     static var arcadeStickConsole: SFSymbol { .init(rawValue: "arcade.stick.console") }
 
     /// 􂁡
-    /// ![arcade.stick.console.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arcade.stick.console.fill.png)
+    /// ![arcade.stick.console.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arcade.stick.console.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -388,7 +388,7 @@ public extension SFSymbol {
     static var arcadeStickConsoleFill: SFSymbol { .init(rawValue: "arcade.stick.console.fill") }
 
     /// 􂅕
-    /// ![arrow.backward.to.line.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.backward.to.line.square.png)
+    /// ![arrow.backward.to.line.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.backward.to.line.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -397,7 +397,7 @@ public extension SFSymbol {
     static var arrowBackwardToLineSquare: SFSymbol { .init(rawValue: "arrow.backward.to.line.square") }
 
     /// 􂅖
-    /// ![arrow.backward.to.line.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.backward.to.line.square.fill.png)
+    /// ![arrow.backward.to.line.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.backward.to.line.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -407,7 +407,7 @@ public extension SFSymbol {
     static var arrowBackwardToLineSquareFill: SFSymbol { .init(rawValue: "arrow.backward.to.line.square.fill") }
 
     /// 􁹠
-    /// ![arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.circlepath.png)
+    /// ![arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.circlepath.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -420,7 +420,7 @@ public extension SFSymbol {
     static var arrowCirclepath: SFSymbol { .init(rawValue: "arrow.circlepath") }
 
     /// 􂅛
-    /// ![arrow.clockwise.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.clockwise.square.png)
+    /// ![arrow.clockwise.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.clockwise.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -429,7 +429,7 @@ public extension SFSymbol {
     static var arrowClockwiseSquare: SFSymbol { .init(rawValue: "arrow.clockwise.square") }
 
     /// 􂅜
-    /// ![arrow.clockwise.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.clockwise.square.fill.png)
+    /// ![arrow.clockwise.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.clockwise.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -439,7 +439,7 @@ public extension SFSymbol {
     static var arrowClockwiseSquareFill: SFSymbol { .init(rawValue: "arrow.clockwise.square.fill") }
 
     /// 􂅟
-    /// ![arrow.counterclockwise.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.counterclockwise.square.png)
+    /// ![arrow.counterclockwise.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.counterclockwise.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -448,7 +448,7 @@ public extension SFSymbol {
     static var arrowCounterclockwiseSquare: SFSymbol { .init(rawValue: "arrow.counterclockwise.square") }
 
     /// 􂅠
-    /// ![arrow.counterclockwise.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.counterclockwise.square.fill.png)
+    /// ![arrow.counterclockwise.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.counterclockwise.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -458,7 +458,7 @@ public extension SFSymbol {
     static var arrowCounterclockwiseSquareFill: SFSymbol { .init(rawValue: "arrow.counterclockwise.square.fill") }
 
     /// 􂄘
-    /// ![arrow.down.applewatch](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.applewatch.png)
+    /// ![arrow.down.applewatch](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.applewatch.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -469,7 +469,7 @@ public extension SFSymbol {
     static var arrowDownApplewatch: SFSymbol { .init(rawValue: "arrow.down.applewatch") }
 
     /// 􂄢
-    /// ![arrow.down.backward.and.arrow.up.forward](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.backward.and.arrow.up.forward.png)
+    /// ![arrow.down.backward.and.arrow.up.forward](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.backward.and.arrow.up.forward.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -477,7 +477,7 @@ public extension SFSymbol {
     static var arrowDownBackwardAndArrowUpForward: SFSymbol { .init(rawValue: "arrow.down.backward.and.arrow.up.forward") }
 
     /// 􂄣
-    /// ![arrow.down.backward.and.arrow.up.forward.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.backward.and.arrow.up.forward.circle.png)
+    /// ![arrow.down.backward.and.arrow.up.forward.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.backward.and.arrow.up.forward.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -486,7 +486,7 @@ public extension SFSymbol {
     static var arrowDownBackwardAndArrowUpForwardCircle: SFSymbol { .init(rawValue: "arrow.down.backward.and.arrow.up.forward.circle") }
 
     /// 􂄤
-    /// ![arrow.down.backward.and.arrow.up.forward.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.backward.and.arrow.up.forward.circle.fill.png)
+    /// ![arrow.down.backward.and.arrow.up.forward.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.backward.and.arrow.up.forward.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -496,7 +496,7 @@ public extension SFSymbol {
     static var arrowDownBackwardAndArrowUpForwardCircleFill: SFSymbol { .init(rawValue: "arrow.down.backward.and.arrow.up.forward.circle.fill") }
 
     /// 􂅅
-    /// ![arrow.down.backward.and.arrow.up.forward.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.backward.and.arrow.up.forward.square.png)
+    /// ![arrow.down.backward.and.arrow.up.forward.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.backward.and.arrow.up.forward.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -505,7 +505,7 @@ public extension SFSymbol {
     static var arrowDownBackwardAndArrowUpForwardSquare: SFSymbol { .init(rawValue: "arrow.down.backward.and.arrow.up.forward.square") }
 
     /// 􂅆
-    /// ![arrow.down.backward.and.arrow.up.forward.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.backward.and.arrow.up.forward.square.fill.png)
+    /// ![arrow.down.backward.and.arrow.up.forward.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.backward.and.arrow.up.forward.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -515,7 +515,7 @@ public extension SFSymbol {
     static var arrowDownBackwardAndArrowUpForwardSquareFill: SFSymbol { .init(rawValue: "arrow.down.backward.and.arrow.up.forward.square.fill") }
 
     /// 􁻿
-    /// ![arrow.down.backward.toptrailing.rectangle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.backward.toptrailing.rectangle.png)
+    /// ![arrow.down.backward.toptrailing.rectangle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.backward.toptrailing.rectangle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -524,7 +524,7 @@ public extension SFSymbol {
     static var arrowDownBackwardToptrailingRectangle: SFSymbol { .init(rawValue: "arrow.down.backward.toptrailing.rectangle") }
 
     /// 􁼀
-    /// ![arrow.down.backward.toptrailing.rectangle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.backward.toptrailing.rectangle.fill.png)
+    /// ![arrow.down.backward.toptrailing.rectangle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.backward.toptrailing.rectangle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -534,7 +534,7 @@ public extension SFSymbol {
     static var arrowDownBackwardToptrailingRectangleFill: SFSymbol { .init(rawValue: "arrow.down.backward.toptrailing.rectangle.fill") }
 
     /// 􁹟
-    /// ![arrow.down.circle.dotted](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.circle.dotted.png)
+    /// ![arrow.down.circle.dotted](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.circle.dotted.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -543,7 +543,7 @@ public extension SFSymbol {
     static var arrowDownCircleDotted: SFSymbol { .init(rawValue: "arrow.down.circle.dotted") }
 
     /// 􂅉
-    /// ![arrow.down.forward.and.arrow.up.backward.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.forward.and.arrow.up.backward.square.png)
+    /// ![arrow.down.forward.and.arrow.up.backward.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.forward.and.arrow.up.backward.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -552,7 +552,7 @@ public extension SFSymbol {
     static var arrowDownForwardAndArrowUpBackwardSquare: SFSymbol { .init(rawValue: "arrow.down.forward.and.arrow.up.backward.square") }
 
     /// 􂅊
-    /// ![arrow.down.forward.and.arrow.up.backward.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.forward.and.arrow.up.backward.square.fill.png)
+    /// ![arrow.down.forward.and.arrow.up.backward.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.forward.and.arrow.up.backward.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -562,7 +562,7 @@ public extension SFSymbol {
     static var arrowDownForwardAndArrowUpBackwardSquareFill: SFSymbol { .init(rawValue: "arrow.down.forward.and.arrow.up.backward.square.fill") }
 
     /// 􁼋
-    /// ![arrow.down.forward.topleading.rectangle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.forward.topleading.rectangle.png)
+    /// ![arrow.down.forward.topleading.rectangle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.forward.topleading.rectangle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -571,7 +571,7 @@ public extension SFSymbol {
     static var arrowDownForwardTopleadingRectangle: SFSymbol { .init(rawValue: "arrow.down.forward.topleading.rectangle") }
 
     /// 􁼌
-    /// ![arrow.down.forward.topleading.rectangle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.forward.topleading.rectangle.fill.png)
+    /// ![arrow.down.forward.topleading.rectangle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.forward.topleading.rectangle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -581,7 +581,7 @@ public extension SFSymbol {
     static var arrowDownForwardTopleadingRectangleFill: SFSymbol { .init(rawValue: "arrow.down.forward.topleading.rectangle.fill") }
 
     /// 􂄝
-    /// ![arrow.down.left.and.arrow.up.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.left.and.arrow.up.right.png)
+    /// ![arrow.down.left.and.arrow.up.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.left.and.arrow.up.right.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -589,7 +589,7 @@ public extension SFSymbol {
     static var arrowDownLeftAndArrowUpRight: SFSymbol { .init(rawValue: "arrow.down.left.and.arrow.up.right") }
 
     /// 􂄞
-    /// ![arrow.down.left.and.arrow.up.right.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.left.and.arrow.up.right.circle.png)
+    /// ![arrow.down.left.and.arrow.up.right.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.left.and.arrow.up.right.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -598,7 +598,7 @@ public extension SFSymbol {
     static var arrowDownLeftAndArrowUpRightCircle: SFSymbol { .init(rawValue: "arrow.down.left.and.arrow.up.right.circle") }
 
     /// 􂄟
-    /// ![arrow.down.left.and.arrow.up.right.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.left.and.arrow.up.right.circle.fill.png)
+    /// ![arrow.down.left.and.arrow.up.right.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.left.and.arrow.up.right.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -608,7 +608,7 @@ public extension SFSymbol {
     static var arrowDownLeftAndArrowUpRightCircleFill: SFSymbol { .init(rawValue: "arrow.down.left.and.arrow.up.right.circle.fill") }
 
     /// 􂅃
-    /// ![arrow.down.left.and.arrow.up.right.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.left.and.arrow.up.right.square.png)
+    /// ![arrow.down.left.and.arrow.up.right.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.left.and.arrow.up.right.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -617,7 +617,7 @@ public extension SFSymbol {
     static var arrowDownLeftAndArrowUpRightSquare: SFSymbol { .init(rawValue: "arrow.down.left.and.arrow.up.right.square") }
 
     /// 􂅄
-    /// ![arrow.down.left.and.arrow.up.right.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.left.and.arrow.up.right.square.fill.png)
+    /// ![arrow.down.left.and.arrow.up.right.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.left.and.arrow.up.right.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -627,7 +627,7 @@ public extension SFSymbol {
     static var arrowDownLeftAndArrowUpRightSquareFill: SFSymbol { .init(rawValue: "arrow.down.left.and.arrow.up.right.square.fill") }
 
     /// 􁽧
-    /// ![arrow.down.left.arrow.up.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.left.arrow.up.right.png)
+    /// ![arrow.down.left.arrow.up.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.left.arrow.up.right.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -636,7 +636,7 @@ public extension SFSymbol {
     static var arrowDownLeftArrowUpRight: SFSymbol { .init(rawValue: "arrow.down.left.arrow.up.right") }
 
     /// 􁽨
-    /// ![arrow.down.left.arrow.up.right.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.left.arrow.up.right.circle.png)
+    /// ![arrow.down.left.arrow.up.right.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.left.arrow.up.right.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -645,7 +645,7 @@ public extension SFSymbol {
     static var arrowDownLeftArrowUpRightCircle: SFSymbol { .init(rawValue: "arrow.down.left.arrow.up.right.circle") }
 
     /// 􁽩
-    /// ![arrow.down.left.arrow.up.right.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.left.arrow.up.right.circle.fill.png)
+    /// ![arrow.down.left.arrow.up.right.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.left.arrow.up.right.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -655,7 +655,7 @@ public extension SFSymbol {
     static var arrowDownLeftArrowUpRightCircleFill: SFSymbol { .init(rawValue: "arrow.down.left.arrow.up.right.circle.fill") }
 
     /// 􁽪
-    /// ![arrow.down.left.arrow.up.right.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.left.arrow.up.right.square.png)
+    /// ![arrow.down.left.arrow.up.right.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.left.arrow.up.right.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -664,7 +664,7 @@ public extension SFSymbol {
     static var arrowDownLeftArrowUpRightSquare: SFSymbol { .init(rawValue: "arrow.down.left.arrow.up.right.square") }
 
     /// 􁽫
-    /// ![arrow.down.left.arrow.up.right.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.left.arrow.up.right.square.fill.png)
+    /// ![arrow.down.left.arrow.up.right.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.left.arrow.up.right.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -674,7 +674,7 @@ public extension SFSymbol {
     static var arrowDownLeftArrowUpRightSquareFill: SFSymbol { .init(rawValue: "arrow.down.left.arrow.up.right.square.fill") }
 
     /// 􁻽
-    /// ![arrow.down.left.topright.rectangle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.left.topright.rectangle.png)
+    /// ![arrow.down.left.topright.rectangle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.left.topright.rectangle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -683,7 +683,7 @@ public extension SFSymbol {
     static var arrowDownLeftToprightRectangle: SFSymbol { .init(rawValue: "arrow.down.left.topright.rectangle") }
 
     /// 􁻾
-    /// ![arrow.down.left.topright.rectangle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.left.topright.rectangle.fill.png)
+    /// ![arrow.down.left.topright.rectangle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.left.topright.rectangle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -693,7 +693,7 @@ public extension SFSymbol {
     static var arrowDownLeftToprightRectangleFill: SFSymbol { .init(rawValue: "arrow.down.left.topright.rectangle.fill") }
 
     /// 􂅇
-    /// ![arrow.down.right.and.arrow.up.left.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.right.and.arrow.up.left.square.png)
+    /// ![arrow.down.right.and.arrow.up.left.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.right.and.arrow.up.left.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -702,7 +702,7 @@ public extension SFSymbol {
     static var arrowDownRightAndArrowUpLeftSquare: SFSymbol { .init(rawValue: "arrow.down.right.and.arrow.up.left.square") }
 
     /// 􂅈
-    /// ![arrow.down.right.and.arrow.up.left.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.right.and.arrow.up.left.square.fill.png)
+    /// ![arrow.down.right.and.arrow.up.left.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.right.and.arrow.up.left.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -712,7 +712,7 @@ public extension SFSymbol {
     static var arrowDownRightAndArrowUpLeftSquareFill: SFSymbol { .init(rawValue: "arrow.down.right.and.arrow.up.left.square.fill") }
 
     /// 􁼉
-    /// ![arrow.down.right.topleft.rectangle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.right.topleft.rectangle.png)
+    /// ![arrow.down.right.topleft.rectangle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.right.topleft.rectangle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -721,7 +721,7 @@ public extension SFSymbol {
     static var arrowDownRightTopleftRectangle: SFSymbol { .init(rawValue: "arrow.down.right.topleft.rectangle") }
 
     /// 􁼊
-    /// ![arrow.down.right.topleft.rectangle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.right.topleft.rectangle.fill.png)
+    /// ![arrow.down.right.topleft.rectangle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.right.topleft.rectangle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -731,7 +731,7 @@ public extension SFSymbol {
     static var arrowDownRightTopleftRectangleFill: SFSymbol { .init(rawValue: "arrow.down.right.topleft.rectangle.fill") }
 
     /// 􂅑
-    /// ![arrow.down.to.line.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.to.line.square.png)
+    /// ![arrow.down.to.line.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.to.line.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -740,7 +740,7 @@ public extension SFSymbol {
     static var arrowDownToLineSquare: SFSymbol { .init(rawValue: "arrow.down.to.line.square") }
 
     /// 􂅒
-    /// ![arrow.down.to.line.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.down.to.line.square.fill.png)
+    /// ![arrow.down.to.line.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.down.to.line.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -750,7 +750,7 @@ public extension SFSymbol {
     static var arrowDownToLineSquareFill: SFSymbol { .init(rawValue: "arrow.down.to.line.square.fill") }
 
     /// 􂅙
-    /// ![arrow.forward.to.line.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.forward.to.line.square.png)
+    /// ![arrow.forward.to.line.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.forward.to.line.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -759,7 +759,7 @@ public extension SFSymbol {
     static var arrowForwardToLineSquare: SFSymbol { .init(rawValue: "arrow.forward.to.line.square") }
 
     /// 􂅚
-    /// ![arrow.forward.to.line.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.forward.to.line.square.fill.png)
+    /// ![arrow.forward.to.line.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.forward.to.line.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -769,7 +769,7 @@ public extension SFSymbol {
     static var arrowForwardToLineSquareFill: SFSymbol { .init(rawValue: "arrow.forward.to.line.square.fill") }
 
     /// 􂅓
-    /// ![arrow.left.to.line.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.left.to.line.square.png)
+    /// ![arrow.left.to.line.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.left.to.line.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -778,7 +778,7 @@ public extension SFSymbol {
     static var arrowLeftToLineSquare: SFSymbol { .init(rawValue: "arrow.left.to.line.square") }
 
     /// 􂅔
-    /// ![arrow.left.to.line.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.left.to.line.square.fill.png)
+    /// ![arrow.left.to.line.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.left.to.line.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -788,7 +788,7 @@ public extension SFSymbol {
     static var arrowLeftToLineSquareFill: SFSymbol { .init(rawValue: "arrow.left.to.line.square.fill") }
 
     /// 􂅗
-    /// ![arrow.right.to.line.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.right.to.line.square.png)
+    /// ![arrow.right.to.line.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.right.to.line.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -797,7 +797,7 @@ public extension SFSymbol {
     static var arrowRightToLineSquare: SFSymbol { .init(rawValue: "arrow.right.to.line.square") }
 
     /// 􂅘
-    /// ![arrow.right.to.line.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.right.to.line.square.fill.png)
+    /// ![arrow.right.to.line.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.right.to.line.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -807,7 +807,7 @@ public extension SFSymbol {
     static var arrowRightToLineSquareFill: SFSymbol { .init(rawValue: "arrow.right.to.line.square.fill") }
 
     /// 􂆍
-    /// ![arrow.triangle.2.circlepath.icloud](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.triangle.2.circlepath.icloud.png)
+    /// ![arrow.triangle.2.circlepath.icloud](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.triangle.2.circlepath.icloud.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -823,7 +823,7 @@ public extension SFSymbol {
     static var arrowTriangle2CirclepathIcloud: SFSymbol { .init(rawValue: "arrow.triangle.2.circlepath.icloud") }
 
     /// 􂆎
-    /// ![arrow.triangle.2.circlepath.icloud.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.triangle.2.circlepath.icloud.fill.png)
+    /// ![arrow.triangle.2.circlepath.icloud.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.triangle.2.circlepath.icloud.fill.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -840,7 +840,7 @@ public extension SFSymbol {
     static var arrowTriangle2CirclepathIcloudFill: SFSymbol { .init(rawValue: "arrow.triangle.2.circlepath.icloud.fill") }
 
     /// 􂅁
-    /// ![arrow.up.backward.and.arrow.down.forward.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.backward.and.arrow.down.forward.square.png)
+    /// ![arrow.up.backward.and.arrow.down.forward.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.backward.and.arrow.down.forward.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -849,7 +849,7 @@ public extension SFSymbol {
     static var arrowUpBackwardAndArrowDownForwardSquare: SFSymbol { .init(rawValue: "arrow.up.backward.and.arrow.down.forward.square") }
 
     /// 􂅂
-    /// ![arrow.up.backward.and.arrow.down.forward.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.backward.and.arrow.down.forward.square.fill.png)
+    /// ![arrow.up.backward.and.arrow.down.forward.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.backward.and.arrow.down.forward.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -859,7 +859,7 @@ public extension SFSymbol {
     static var arrowUpBackwardAndArrowDownForwardSquareFill: SFSymbol { .init(rawValue: "arrow.up.backward.and.arrow.down.forward.square.fill") }
 
     /// 􁼃
-    /// ![arrow.up.backward.bottomtrailing.rectangle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.backward.bottomtrailing.rectangle.png)
+    /// ![arrow.up.backward.bottomtrailing.rectangle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.backward.bottomtrailing.rectangle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -868,7 +868,7 @@ public extension SFSymbol {
     static var arrowUpBackwardBottomtrailingRectangle: SFSymbol { .init(rawValue: "arrow.up.backward.bottomtrailing.rectangle") }
 
     /// 􁼄
-    /// ![arrow.up.backward.bottomtrailing.rectangle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.backward.bottomtrailing.rectangle.fill.png)
+    /// ![arrow.up.backward.bottomtrailing.rectangle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.backward.bottomtrailing.rectangle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -878,7 +878,7 @@ public extension SFSymbol {
     static var arrowUpBackwardBottomtrailingRectangleFill: SFSymbol { .init(rawValue: "arrow.up.backward.bottomtrailing.rectangle.fill") }
 
     /// 􂄬
-    /// ![arrow.up.forward.and.arrow.down.backward](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.forward.and.arrow.down.backward.png)
+    /// ![arrow.up.forward.and.arrow.down.backward](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.forward.and.arrow.down.backward.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -886,7 +886,7 @@ public extension SFSymbol {
     static var arrowUpForwardAndArrowDownBackward: SFSymbol { .init(rawValue: "arrow.up.forward.and.arrow.down.backward") }
 
     /// 􂄭
-    /// ![arrow.up.forward.and.arrow.down.backward.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.forward.and.arrow.down.backward.circle.png)
+    /// ![arrow.up.forward.and.arrow.down.backward.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.forward.and.arrow.down.backward.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -895,7 +895,7 @@ public extension SFSymbol {
     static var arrowUpForwardAndArrowDownBackwardCircle: SFSymbol { .init(rawValue: "arrow.up.forward.and.arrow.down.backward.circle") }
 
     /// 􂄮
-    /// ![arrow.up.forward.and.arrow.down.backward.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.forward.and.arrow.down.backward.circle.fill.png)
+    /// ![arrow.up.forward.and.arrow.down.backward.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.forward.and.arrow.down.backward.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -905,7 +905,7 @@ public extension SFSymbol {
     static var arrowUpForwardAndArrowDownBackwardCircleFill: SFSymbol { .init(rawValue: "arrow.up.forward.and.arrow.down.backward.circle.fill") }
 
     /// 􂅍
-    /// ![arrow.up.forward.and.arrow.down.backward.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.forward.and.arrow.down.backward.square.png)
+    /// ![arrow.up.forward.and.arrow.down.backward.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.forward.and.arrow.down.backward.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -914,7 +914,7 @@ public extension SFSymbol {
     static var arrowUpForwardAndArrowDownBackwardSquare: SFSymbol { .init(rawValue: "arrow.up.forward.and.arrow.down.backward.square") }
 
     /// 􂅎
-    /// ![arrow.up.forward.and.arrow.down.backward.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.forward.and.arrow.down.backward.square.fill.png)
+    /// ![arrow.up.forward.and.arrow.down.backward.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.forward.and.arrow.down.backward.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -924,7 +924,7 @@ public extension SFSymbol {
     static var arrowUpForwardAndArrowDownBackwardSquareFill: SFSymbol { .init(rawValue: "arrow.up.forward.and.arrow.down.backward.square.fill") }
 
     /// 􁼇
-    /// ![arrow.up.forward.bottomleading.rectangle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.forward.bottomleading.rectangle.png)
+    /// ![arrow.up.forward.bottomleading.rectangle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.forward.bottomleading.rectangle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -933,7 +933,7 @@ public extension SFSymbol {
     static var arrowUpForwardBottomleadingRectangle: SFSymbol { .init(rawValue: "arrow.up.forward.bottomleading.rectangle") }
 
     /// 􁼈
-    /// ![arrow.up.forward.bottomleading.rectangle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.forward.bottomleading.rectangle.fill.png)
+    /// ![arrow.up.forward.bottomleading.rectangle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.forward.bottomleading.rectangle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -943,7 +943,7 @@ public extension SFSymbol {
     static var arrowUpForwardBottomleadingRectangleFill: SFSymbol { .init(rawValue: "arrow.up.forward.bottomleading.rectangle.fill") }
 
     /// 􂄿
-    /// ![arrow.up.left.and.arrow.down.right.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.left.and.arrow.down.right.square.png)
+    /// ![arrow.up.left.and.arrow.down.right.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.left.and.arrow.down.right.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -952,7 +952,7 @@ public extension SFSymbol {
     static var arrowUpLeftAndArrowDownRightSquare: SFSymbol { .init(rawValue: "arrow.up.left.and.arrow.down.right.square") }
 
     /// 􂅀
-    /// ![arrow.up.left.and.arrow.down.right.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.left.and.arrow.down.right.square.fill.png)
+    /// ![arrow.up.left.and.arrow.down.right.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.left.and.arrow.down.right.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -962,7 +962,7 @@ public extension SFSymbol {
     static var arrowUpLeftAndArrowDownRightSquareFill: SFSymbol { .init(rawValue: "arrow.up.left.and.arrow.down.right.square.fill") }
 
     /// 􁾒
-    /// ![arrow.up.left.arrow.down.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.left.arrow.down.right.png)
+    /// ![arrow.up.left.arrow.down.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.left.arrow.down.right.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -971,7 +971,7 @@ public extension SFSymbol {
     static var arrowUpLeftArrowDownRight: SFSymbol { .init(rawValue: "arrow.up.left.arrow.down.right") }
 
     /// 􁾓
-    /// ![arrow.up.left.arrow.down.right.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.left.arrow.down.right.circle.png)
+    /// ![arrow.up.left.arrow.down.right.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.left.arrow.down.right.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -980,7 +980,7 @@ public extension SFSymbol {
     static var arrowUpLeftArrowDownRightCircle: SFSymbol { .init(rawValue: "arrow.up.left.arrow.down.right.circle") }
 
     /// 􁾔
-    /// ![arrow.up.left.arrow.down.right.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.left.arrow.down.right.circle.fill.png)
+    /// ![arrow.up.left.arrow.down.right.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.left.arrow.down.right.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -990,7 +990,7 @@ public extension SFSymbol {
     static var arrowUpLeftArrowDownRightCircleFill: SFSymbol { .init(rawValue: "arrow.up.left.arrow.down.right.circle.fill") }
 
     /// 􁾕
-    /// ![arrow.up.left.arrow.down.right.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.left.arrow.down.right.square.png)
+    /// ![arrow.up.left.arrow.down.right.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.left.arrow.down.right.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -999,7 +999,7 @@ public extension SFSymbol {
     static var arrowUpLeftArrowDownRightSquare: SFSymbol { .init(rawValue: "arrow.up.left.arrow.down.right.square") }
 
     /// 􁾖
-    /// ![arrow.up.left.arrow.down.right.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.left.arrow.down.right.square.fill.png)
+    /// ![arrow.up.left.arrow.down.right.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.left.arrow.down.right.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1009,7 +1009,7 @@ public extension SFSymbol {
     static var arrowUpLeftArrowDownRightSquareFill: SFSymbol { .init(rawValue: "arrow.up.left.arrow.down.right.square.fill") }
 
     /// 􁼁
-    /// ![arrow.up.left.bottomright.rectangle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.left.bottomright.rectangle.png)
+    /// ![arrow.up.left.bottomright.rectangle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.left.bottomright.rectangle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1018,7 +1018,7 @@ public extension SFSymbol {
     static var arrowUpLeftBottomrightRectangle: SFSymbol { .init(rawValue: "arrow.up.left.bottomright.rectangle") }
 
     /// 􁼂
-    /// ![arrow.up.left.bottomright.rectangle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.left.bottomright.rectangle.fill.png)
+    /// ![arrow.up.left.bottomright.rectangle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.left.bottomright.rectangle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1028,7 +1028,7 @@ public extension SFSymbol {
     static var arrowUpLeftBottomrightRectangleFill: SFSymbol { .init(rawValue: "arrow.up.left.bottomright.rectangle.fill") }
 
     /// 􂄧
-    /// ![arrow.up.right.and.arrow.down.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.right.and.arrow.down.left.png)
+    /// ![arrow.up.right.and.arrow.down.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.right.and.arrow.down.left.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1036,7 +1036,7 @@ public extension SFSymbol {
     static var arrowUpRightAndArrowDownLeft: SFSymbol { .init(rawValue: "arrow.up.right.and.arrow.down.left") }
 
     /// 􂄨
-    /// ![arrow.up.right.and.arrow.down.left.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.right.and.arrow.down.left.circle.png)
+    /// ![arrow.up.right.and.arrow.down.left.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.right.and.arrow.down.left.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1045,7 +1045,7 @@ public extension SFSymbol {
     static var arrowUpRightAndArrowDownLeftCircle: SFSymbol { .init(rawValue: "arrow.up.right.and.arrow.down.left.circle") }
 
     /// 􂄩
-    /// ![arrow.up.right.and.arrow.down.left.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.right.and.arrow.down.left.circle.fill.png)
+    /// ![arrow.up.right.and.arrow.down.left.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.right.and.arrow.down.left.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1055,7 +1055,7 @@ public extension SFSymbol {
     static var arrowUpRightAndArrowDownLeftCircleFill: SFSymbol { .init(rawValue: "arrow.up.right.and.arrow.down.left.circle.fill") }
 
     /// 􂅋
-    /// ![arrow.up.right.and.arrow.down.left.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.right.and.arrow.down.left.square.png)
+    /// ![arrow.up.right.and.arrow.down.left.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.right.and.arrow.down.left.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1064,7 +1064,7 @@ public extension SFSymbol {
     static var arrowUpRightAndArrowDownLeftSquare: SFSymbol { .init(rawValue: "arrow.up.right.and.arrow.down.left.square") }
 
     /// 􂅌
-    /// ![arrow.up.right.and.arrow.down.left.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.right.and.arrow.down.left.square.fill.png)
+    /// ![arrow.up.right.and.arrow.down.left.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.right.and.arrow.down.left.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1074,7 +1074,7 @@ public extension SFSymbol {
     static var arrowUpRightAndArrowDownLeftSquareFill: SFSymbol { .init(rawValue: "arrow.up.right.and.arrow.down.left.square.fill") }
 
     /// 􁼅
-    /// ![arrow.up.right.bottomleft.rectangle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.right.bottomleft.rectangle.png)
+    /// ![arrow.up.right.bottomleft.rectangle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.right.bottomleft.rectangle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1083,7 +1083,7 @@ public extension SFSymbol {
     static var arrowUpRightBottomleftRectangle: SFSymbol { .init(rawValue: "arrow.up.right.bottomleft.rectangle") }
 
     /// 􁼆
-    /// ![arrow.up.right.bottomleft.rectangle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.right.bottomleft.rectangle.fill.png)
+    /// ![arrow.up.right.bottomleft.rectangle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.right.bottomleft.rectangle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1093,7 +1093,7 @@ public extension SFSymbol {
     static var arrowUpRightBottomleftRectangleFill: SFSymbol { .init(rawValue: "arrow.up.right.bottomleft.rectangle.fill") }
 
     /// 􂅏
-    /// ![arrow.up.to.line.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.to.line.square.png)
+    /// ![arrow.up.to.line.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.to.line.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1102,7 +1102,7 @@ public extension SFSymbol {
     static var arrowUpToLineSquare: SFSymbol { .init(rawValue: "arrow.up.to.line.square") }
 
     /// 􂅐
-    /// ![arrow.up.to.line.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.to.line.square.fill.png)
+    /// ![arrow.up.to.line.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.to.line.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1112,7 +1112,7 @@ public extension SFSymbol {
     static var arrowUpToLineSquareFill: SFSymbol { .init(rawValue: "arrow.up.to.line.square.fill") }
 
     /// 􁣈
-    /// ![arrow.up.trash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.trash.png)
+    /// ![arrow.up.trash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.trash.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1122,7 +1122,7 @@ public extension SFSymbol {
     static var arrowUpTrash: SFSymbol { .init(rawValue: "arrow.up.trash") }
 
     /// 􁣉
-    /// ![arrow.up.trash.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrow.up.trash.fill.png)
+    /// ![arrow.up.trash.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrow.up.trash.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1132,7 +1132,7 @@ public extension SFSymbol {
     static var arrowUpTrashFill: SFSymbol { .init(rawValue: "arrow.up.trash.fill") }
 
     /// 􁾰
-    /// ![arrowkeys](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowkeys.png)
+    /// ![arrowkeys](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowkeys.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1141,7 +1141,7 @@ public extension SFSymbol {
     static var arrowkeys: SFSymbol { .init(rawValue: "arrowkeys") }
 
     /// 􁾳
-    /// ![arrowkeys.down.filled](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowkeys.down.filled.png)
+    /// ![arrowkeys.down.filled](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowkeys.down.filled.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1150,7 +1150,7 @@ public extension SFSymbol {
     static var arrowkeysDownFilled: SFSymbol { .init(rawValue: "arrowkeys.down.filled") }
 
     /// 􁾱
-    /// ![arrowkeys.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowkeys.fill.png)
+    /// ![arrowkeys.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowkeys.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1159,7 +1159,7 @@ public extension SFSymbol {
     static var arrowkeysFill: SFSymbol { .init(rawValue: "arrowkeys.fill") }
 
     /// 􁾴
-    /// ![arrowkeys.left.filled](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowkeys.left.filled.png)
+    /// ![arrowkeys.left.filled](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowkeys.left.filled.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1168,7 +1168,7 @@ public extension SFSymbol {
     static var arrowkeysLeftFilled: SFSymbol { .init(rawValue: "arrowkeys.left.filled") }
 
     /// 􁾵
-    /// ![arrowkeys.right.filled](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowkeys.right.filled.png)
+    /// ![arrowkeys.right.filled](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowkeys.right.filled.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1177,7 +1177,7 @@ public extension SFSymbol {
     static var arrowkeysRightFilled: SFSymbol { .init(rawValue: "arrowkeys.right.filled") }
 
     /// 􁾲
-    /// ![arrowkeys.up.filled](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowkeys.up.filled.png)
+    /// ![arrowkeys.up.filled](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowkeys.up.filled.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1186,7 +1186,7 @@ public extension SFSymbol {
     static var arrowkeysUpFilled: SFSymbol { .init(rawValue: "arrowkeys.up.filled") }
 
     /// 􁾢
-    /// ![arrowshape.backward.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowshape.backward.circle.png)
+    /// ![arrowshape.backward.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowshape.backward.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1195,7 +1195,7 @@ public extension SFSymbol {
     static var arrowshapeBackwardCircle: SFSymbol { .init(rawValue: "arrowshape.backward.circle") }
 
     /// 􁾣
-    /// ![arrowshape.backward.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowshape.backward.circle.fill.png)
+    /// ![arrowshape.backward.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowshape.backward.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1205,7 +1205,7 @@ public extension SFSymbol {
     static var arrowshapeBackwardCircleFill: SFSymbol { .init(rawValue: "arrowshape.backward.circle.fill") }
 
     /// 􁾬
-    /// ![arrowshape.down](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowshape.down.png)
+    /// ![arrowshape.down](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowshape.down.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1213,7 +1213,7 @@ public extension SFSymbol {
     static var arrowshapeDown: SFSymbol { .init(rawValue: "arrowshape.down") }
 
     /// 􁾮
-    /// ![arrowshape.down.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowshape.down.circle.png)
+    /// ![arrowshape.down.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowshape.down.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1222,7 +1222,7 @@ public extension SFSymbol {
     static var arrowshapeDownCircle: SFSymbol { .init(rawValue: "arrowshape.down.circle") }
 
     /// 􁾯
-    /// ![arrowshape.down.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowshape.down.circle.fill.png)
+    /// ![arrowshape.down.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowshape.down.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1232,7 +1232,7 @@ public extension SFSymbol {
     static var arrowshapeDownCircleFill: SFSymbol { .init(rawValue: "arrowshape.down.circle.fill") }
 
     /// 􁾭
-    /// ![arrowshape.down.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowshape.down.fill.png)
+    /// ![arrowshape.down.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowshape.down.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1240,7 +1240,7 @@ public extension SFSymbol {
     static var arrowshapeDownFill: SFSymbol { .init(rawValue: "arrowshape.down.fill") }
 
     /// 􁾦
-    /// ![arrowshape.forward.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowshape.forward.circle.png)
+    /// ![arrowshape.forward.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowshape.forward.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1249,7 +1249,7 @@ public extension SFSymbol {
     static var arrowshapeForwardCircle: SFSymbol { .init(rawValue: "arrowshape.forward.circle") }
 
     /// 􁾧
-    /// ![arrowshape.forward.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowshape.forward.circle.fill.png)
+    /// ![arrowshape.forward.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowshape.forward.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1259,7 +1259,7 @@ public extension SFSymbol {
     static var arrowshapeForwardCircleFill: SFSymbol { .init(rawValue: "arrowshape.forward.circle.fill") }
 
     /// 􁉾
-    /// ![arrowshape.left.arrowshape.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowshape.left.arrowshape.right.png)
+    /// ![arrowshape.left.arrowshape.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowshape.left.arrowshape.right.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1267,7 +1267,7 @@ public extension SFSymbol {
     static var arrowshapeLeftArrowshapeRight: SFSymbol { .init(rawValue: "arrowshape.left.arrowshape.right") }
 
     /// 􁉿
-    /// ![arrowshape.left.arrowshape.right.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowshape.left.arrowshape.right.fill.png)
+    /// ![arrowshape.left.arrowshape.right.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowshape.left.arrowshape.right.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1275,7 +1275,7 @@ public extension SFSymbol {
     static var arrowshapeLeftArrowshapeRightFill: SFSymbol { .init(rawValue: "arrowshape.left.arrowshape.right.fill") }
 
     /// 􁾠
-    /// ![arrowshape.left.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowshape.left.circle.png)
+    /// ![arrowshape.left.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowshape.left.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1284,7 +1284,7 @@ public extension SFSymbol {
     static var arrowshapeLeftCircle: SFSymbol { .init(rawValue: "arrowshape.left.circle") }
 
     /// 􁾡
-    /// ![arrowshape.left.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowshape.left.circle.fill.png)
+    /// ![arrowshape.left.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowshape.left.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1294,7 +1294,7 @@ public extension SFSymbol {
     static var arrowshapeLeftCircleFill: SFSymbol { .init(rawValue: "arrowshape.left.circle.fill") }
 
     /// 􁾤
-    /// ![arrowshape.right.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowshape.right.circle.png)
+    /// ![arrowshape.right.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowshape.right.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1303,7 +1303,7 @@ public extension SFSymbol {
     static var arrowshapeRightCircle: SFSymbol { .init(rawValue: "arrowshape.right.circle") }
 
     /// 􁾥
-    /// ![arrowshape.right.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowshape.right.circle.fill.png)
+    /// ![arrowshape.right.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowshape.right.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1313,7 +1313,7 @@ public extension SFSymbol {
     static var arrowshapeRightCircleFill: SFSymbol { .init(rawValue: "arrowshape.right.circle.fill") }
 
     /// 􁾨
-    /// ![arrowshape.up](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowshape.up.png)
+    /// ![arrowshape.up](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowshape.up.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1321,7 +1321,7 @@ public extension SFSymbol {
     static var arrowshapeUp: SFSymbol { .init(rawValue: "arrowshape.up") }
 
     /// 􁾪
-    /// ![arrowshape.up.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowshape.up.circle.png)
+    /// ![arrowshape.up.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowshape.up.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1330,7 +1330,7 @@ public extension SFSymbol {
     static var arrowshapeUpCircle: SFSymbol { .init(rawValue: "arrowshape.up.circle") }
 
     /// 􁾫
-    /// ![arrowshape.up.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowshape.up.circle.fill.png)
+    /// ![arrowshape.up.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowshape.up.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1340,7 +1340,7 @@ public extension SFSymbol {
     static var arrowshapeUpCircleFill: SFSymbol { .init(rawValue: "arrowshape.up.circle.fill") }
 
     /// 􁾩
-    /// ![arrowshape.up.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowshape.up.fill.png)
+    /// ![arrowshape.up.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowshape.up.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1348,7 +1348,7 @@ public extension SFSymbol {
     static var arrowshapeUpFill: SFSymbol { .init(rawValue: "arrowshape.up.fill") }
 
     /// 􁊝
-    /// ![arrowtriangle.up.arrowtriangle.down.window.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowtriangle.up.arrowtriangle.down.window.left.png)
+    /// ![arrowtriangle.up.arrowtriangle.down.window.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowtriangle.up.arrowtriangle.down.window.left.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1357,7 +1357,7 @@ public extension SFSymbol {
     static var arrowtriangleUpArrowtriangleDownWindowLeft: SFSymbol { .init(rawValue: "arrowtriangle.up.arrowtriangle.down.window.left") }
 
     /// 􁉝
-    /// ![arrowtriangle.up.arrowtriangle.down.window.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/arrowtriangle.up.arrowtriangle.down.window.right.png)
+    /// ![arrowtriangle.up.arrowtriangle.down.window.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/arrowtriangle.up.arrowtriangle.down.window.right.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1366,7 +1366,7 @@ public extension SFSymbol {
     static var arrowtriangleUpArrowtriangleDownWindowRight: SFSymbol { .init(rawValue: "arrowtriangle.up.arrowtriangle.down.window.right") }
 
     /// 􁾍
-    /// ![australiandollarsign](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/australiandollarsign.png)
+    /// ![australiandollarsign](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/australiandollarsign.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1374,7 +1374,7 @@ public extension SFSymbol {
     static var australiandollarsign: SFSymbol { .init(rawValue: "australiandollarsign") }
 
     /// 􂈹
-    /// ![australiandollarsign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/australiandollarsign.arrow.circlepath.png)
+    /// ![australiandollarsign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/australiandollarsign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1388,7 +1388,7 @@ public extension SFSymbol {
     static var australiandollarsignArrowCirclepath: SFSymbol { .init(rawValue: "australiandollarsign.arrow.circlepath") }
 
     /// 􀮠
-    /// ![australiandollarsign.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/australiandollarsign.circle.png)
+    /// ![australiandollarsign.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/australiandollarsign.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1397,7 +1397,7 @@ public extension SFSymbol {
     static var australiandollarsignCircle: SFSymbol { .init(rawValue: "australiandollarsign.circle") }
 
     /// 􀮡
-    /// ![australiandollarsign.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/australiandollarsign.circle.fill.png)
+    /// ![australiandollarsign.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/australiandollarsign.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1407,7 +1407,7 @@ public extension SFSymbol {
     static var australiandollarsignCircleFill: SFSymbol { .init(rawValue: "australiandollarsign.circle.fill") }
 
     /// 􀮢
-    /// ![australiandollarsign.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/australiandollarsign.square.png)
+    /// ![australiandollarsign.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/australiandollarsign.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1416,7 +1416,7 @@ public extension SFSymbol {
     static var australiandollarsignSquare: SFSymbol { .init(rawValue: "australiandollarsign.square") }
 
     /// 􀮣
-    /// ![australiandollarsign.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/australiandollarsign.square.fill.png)
+    /// ![australiandollarsign.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/australiandollarsign.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1426,7 +1426,7 @@ public extension SFSymbol {
     static var australiandollarsignSquareFill: SFSymbol { .init(rawValue: "australiandollarsign.square.fill") }
 
     /// 􂈣
-    /// ![australsign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/australsign.arrow.circlepath.png)
+    /// ![australsign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/australsign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1440,7 +1440,7 @@ public extension SFSymbol {
     static var australsignArrowCirclepath: SFSymbol { .init(rawValue: "australsign.arrow.circlepath") }
 
     /// 􁟁
-    /// ![automatic.brakesignal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/automatic.brakesignal.png)
+    /// ![automatic.brakesignal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/automatic.brakesignal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1449,7 +1449,7 @@ public extension SFSymbol {
     static var automaticBrakesignal: SFSymbol { .init(rawValue: "automatic.brakesignal") }
 
     /// 􁢧
-    /// ![automatic.headlight.high.beam](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/automatic.headlight.high.beam.png)
+    /// ![automatic.headlight.high.beam](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/automatic.headlight.high.beam.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1459,7 +1459,7 @@ public extension SFSymbol {
     static var automaticHeadlightHighBeam: SFSymbol { .init(rawValue: "automatic.headlight.high.beam") }
 
     /// 􁢨
-    /// ![automatic.headlight.high.beam.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/automatic.headlight.high.beam.fill.png)
+    /// ![automatic.headlight.high.beam.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/automatic.headlight.high.beam.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1469,7 +1469,7 @@ public extension SFSymbol {
     static var automaticHeadlightHighBeamFill: SFSymbol { .init(rawValue: "automatic.headlight.high.beam.fill") }
 
     /// 􁢩
-    /// ![automatic.headlight.low.beam](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/automatic.headlight.low.beam.png)
+    /// ![automatic.headlight.low.beam](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/automatic.headlight.low.beam.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1479,7 +1479,7 @@ public extension SFSymbol {
     static var automaticHeadlightLowBeam: SFSymbol { .init(rawValue: "automatic.headlight.low.beam") }
 
     /// 􁢪
-    /// ![automatic.headlight.low.beam.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/automatic.headlight.low.beam.fill.png)
+    /// ![automatic.headlight.low.beam.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/automatic.headlight.low.beam.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1489,7 +1489,7 @@ public extension SFSymbol {
     static var automaticHeadlightLowBeamFill: SFSymbol { .init(rawValue: "automatic.headlight.low.beam.fill") }
 
     /// 􁠤
-    /// ![axle.2.driveshaft.disengaged](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/axle.2.driveshaft.disengaged.png)
+    /// ![axle.2.driveshaft.disengaged](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/axle.2.driveshaft.disengaged.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1498,7 +1498,7 @@ public extension SFSymbol {
     static var axle2DriveshaftDisengaged: SFSymbol { .init(rawValue: "axle.2.driveshaft.disengaged") }
 
     /// 􁠢
-    /// ![axle.2.front.disengaged](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/axle.2.front.disengaged.png)
+    /// ![axle.2.front.disengaged](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/axle.2.front.disengaged.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1507,7 +1507,7 @@ public extension SFSymbol {
     static var axle2FrontDisengaged: SFSymbol { .init(rawValue: "axle.2.front.disengaged") }
 
     /// 􁠣
-    /// ![axle.2.rear.disengaged](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/axle.2.rear.disengaged.png)
+    /// ![axle.2.rear.disengaged](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/axle.2.rear.disengaged.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1516,7 +1516,7 @@ public extension SFSymbol {
     static var axle2RearDisengaged: SFSymbol { .init(rawValue: "axle.2.rear.disengaged") }
 
     /// 􁠨
-    /// ![axle.2.rear.lock](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/axle.2.rear.lock.png)
+    /// ![axle.2.rear.lock](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/axle.2.rear.lock.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1525,7 +1525,7 @@ public extension SFSymbol {
     static var axle2RearLock: SFSymbol { .init(rawValue: "axle.2.rear.lock") }
 
     /// 􂈯
-    /// ![bahtsign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bahtsign.arrow.circlepath.png)
+    /// ![bahtsign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bahtsign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1539,7 +1539,7 @@ public extension SFSymbol {
     static var bahtsignArrowCirclepath: SFSymbol { .init(rawValue: "bahtsign.arrow.circlepath") }
 
     /// 􀛪
-    /// ![battery.0percent](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/battery.0percent.png)
+    /// ![battery.0percent](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/battery.0percent.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1548,7 +1548,7 @@ public extension SFSymbol {
     static var battery0percent: SFSymbol { .init(rawValue: "battery.0percent") }
 
     /// 􀛩
-    /// ![battery.25percent](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/battery.25percent.png)
+    /// ![battery.25percent](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/battery.25percent.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1558,7 +1558,7 @@ public extension SFSymbol {
     static var battery25percent: SFSymbol { .init(rawValue: "battery.25percent") }
 
     /// 􀺶
-    /// ![battery.50percent](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/battery.50percent.png)
+    /// ![battery.50percent](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/battery.50percent.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1568,7 +1568,7 @@ public extension SFSymbol {
     static var battery50percent: SFSymbol { .init(rawValue: "battery.50percent") }
 
     /// 􀺸
-    /// ![battery.75percent](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/battery.75percent.png)
+    /// ![battery.75percent](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/battery.75percent.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1578,7 +1578,7 @@ public extension SFSymbol {
     static var battery75percent: SFSymbol { .init(rawValue: "battery.75percent") }
 
     /// 􀛨
-    /// ![battery.100percent](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/battery.100percent.png)
+    /// ![battery.100percent](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/battery.100percent.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1588,7 +1588,7 @@ public extension SFSymbol {
     static var battery100percent: SFSymbol { .init(rawValue: "battery.100percent") }
 
     /// 􀢋
-    /// ![battery.100percent.bolt](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/battery.100percent.bolt.png)
+    /// ![battery.100percent.bolt](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/battery.100percent.bolt.png)
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
@@ -1602,7 +1602,7 @@ public extension SFSymbol {
     static var battery100percentBolt: SymbolWith1Localization<Rtl> { .init(rawValue: "battery.100percent.bolt") }
 
     /// 􁁔
-    /// ![battery.100percent.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/battery.100percent.circle.png)
+    /// ![battery.100percent.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/battery.100percent.circle.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1612,7 +1612,7 @@ public extension SFSymbol {
     static var battery100percentCircle: SFSymbol { .init(rawValue: "battery.100percent.circle") }
 
     /// 􁁕
-    /// ![battery.100percent.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/battery.100percent.circle.fill.png)
+    /// ![battery.100percent.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/battery.100percent.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1622,7 +1622,7 @@ public extension SFSymbol {
     static var battery100percentCircleFill: SFSymbol { .init(rawValue: "battery.100percent.circle.fill") }
 
     /// 􁅞
-    /// ![beats.fitpro](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.fitpro.png)
+    /// ![beats.fitpro](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.fitpro.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -1633,7 +1633,7 @@ public extension SFSymbol {
     static var beatsFitpro: SFSymbol { .init(rawValue: "beats.fitpro") }
 
     /// 􁅡
-    /// ![beats.fitpro.chargingcase](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.fitpro.chargingcase.png)
+    /// ![beats.fitpro.chargingcase](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.fitpro.chargingcase.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -1643,7 +1643,7 @@ public extension SFSymbol {
     static var beatsFitproChargingcase: SFSymbol { .init(rawValue: "beats.fitpro.chargingcase") }
 
     /// 􁅢
-    /// ![beats.fitpro.chargingcase.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.fitpro.chargingcase.fill.png)
+    /// ![beats.fitpro.chargingcase.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.fitpro.chargingcase.fill.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -1653,7 +1653,7 @@ public extension SFSymbol {
     static var beatsFitproChargingcaseFill: SFSymbol { .init(rawValue: "beats.fitpro.chargingcase.fill") }
 
     /// 􁅟
-    /// ![beats.fitpro.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.fitpro.left.png)
+    /// ![beats.fitpro.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.fitpro.left.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -1664,7 +1664,7 @@ public extension SFSymbol {
     static var beatsFitproLeft: SFSymbol { .init(rawValue: "beats.fitpro.left") }
 
     /// 􁅠
-    /// ![beats.fitpro.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.fitpro.right.png)
+    /// ![beats.fitpro.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.fitpro.right.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -1675,7 +1675,7 @@ public extension SFSymbol {
     static var beatsFitproRight: SFSymbol { .init(rawValue: "beats.fitpro.right") }
 
     /// 􁹳
-    /// ![beats.studiobudsplus](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.studiobudsplus.png)
+    /// ![beats.studiobudsplus](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.studiobudsplus.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -1691,7 +1691,7 @@ public extension SFSymbol {
     static var beatsStudiobudsplus: SFSymbol { .init(rawValue: "beats.studiobudsplus") }
 
     /// 􁹶
-    /// ![beats.studiobudsplus.chargingcase](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.studiobudsplus.chargingcase.png)
+    /// ![beats.studiobudsplus.chargingcase](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.studiobudsplus.chargingcase.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -1706,7 +1706,7 @@ public extension SFSymbol {
     static var beatsStudiobudsplusChargingcase: SFSymbol { .init(rawValue: "beats.studiobudsplus.chargingcase") }
 
     /// 􁹷
-    /// ![beats.studiobudsplus.chargingcase.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.studiobudsplus.chargingcase.fill.png)
+    /// ![beats.studiobudsplus.chargingcase.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.studiobudsplus.chargingcase.fill.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -1721,7 +1721,7 @@ public extension SFSymbol {
     static var beatsStudiobudsplusChargingcaseFill: SFSymbol { .init(rawValue: "beats.studiobudsplus.chargingcase.fill") }
 
     /// 􁹴
-    /// ![beats.studiobudsplus.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.studiobudsplus.left.png)
+    /// ![beats.studiobudsplus.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.studiobudsplus.left.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -1737,7 +1737,7 @@ public extension SFSymbol {
     static var beatsStudiobudsplusLeft: SFSymbol { .init(rawValue: "beats.studiobudsplus.left") }
 
     /// 􁹵
-    /// ![beats.studiobudsplus.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.studiobudsplus.right.png)
+    /// ![beats.studiobudsplus.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.studiobudsplus.right.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -1753,7 +1753,7 @@ public extension SFSymbol {
     static var beatsStudiobudsplusRight: SFSymbol { .init(rawValue: "beats.studiobudsplus.right") }
 
     /// 􂄱
-    /// ![bell.badge.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bell.badge.slash.png)
+    /// ![bell.badge.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bell.badge.slash.png)
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -1766,7 +1766,7 @@ public extension SFSymbol {
     static var bellBadgeSlash: SymbolWith1Localization<Rtl> { .init(rawValue: "bell.badge.slash") }
 
     /// 􂄲
-    /// ![bell.badge.slash.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bell.badge.slash.fill.png)
+    /// ![bell.badge.slash.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bell.badge.slash.fill.png)
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -1779,7 +1779,7 @@ public extension SFSymbol {
     static var bellBadgeSlashFill: SymbolWith1Localization<Rtl> { .init(rawValue: "bell.badge.slash.fill") }
 
     /// 􀻿
-    /// ![bell.badge.waveform](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bell.badge.waveform.png)
+    /// ![bell.badge.waveform](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bell.badge.waveform.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1789,7 +1789,7 @@ public extension SFSymbol {
     static var bellBadgeWaveform: SFSymbol { .init(rawValue: "bell.badge.waveform") }
 
     /// 􀼀
-    /// ![bell.badge.waveform.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bell.badge.waveform.fill.png)
+    /// ![bell.badge.waveform.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bell.badge.waveform.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1799,7 +1799,7 @@ public extension SFSymbol {
     static var bellBadgeWaveformFill: SFSymbol { .init(rawValue: "bell.badge.waveform.fill") }
 
     /// 􁣙
-    /// ![binoculars.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/binoculars.circle.png)
+    /// ![binoculars.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/binoculars.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1808,7 +1808,7 @@ public extension SFSymbol {
     static var binocularsCircle: SFSymbol { .init(rawValue: "binoculars.circle") }
 
     /// 􁣚
-    /// ![binoculars.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/binoculars.circle.fill.png)
+    /// ![binoculars.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/binoculars.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1818,7 +1818,7 @@ public extension SFSymbol {
     static var binocularsCircleFill: SFSymbol { .init(rawValue: "binoculars.circle.fill") }
 
     /// 􁼙
-    /// ![bird.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bird.circle.png)
+    /// ![bird.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bird.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1827,7 +1827,7 @@ public extension SFSymbol {
     static var birdCircle: SFSymbol { .init(rawValue: "bird.circle") }
 
     /// 􁼚
-    /// ![bird.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bird.circle.fill.png)
+    /// ![bird.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bird.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1837,7 +1837,7 @@ public extension SFSymbol {
     static var birdCircleFill: SFSymbol { .init(rawValue: "bird.circle.fill") }
 
     /// 􂈱
-    /// ![bitcoinsign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bitcoinsign.arrow.circlepath.png)
+    /// ![bitcoinsign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bitcoinsign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1851,7 +1851,7 @@ public extension SFSymbol {
     static var bitcoinsignArrowCirclepath: SFSymbol { .init(rawValue: "bitcoinsign.arrow.circlepath") }
 
     /// 􀘳
-    /// ![bolt.badge.automatic](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bolt.badge.automatic.png)
+    /// ![bolt.badge.automatic](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bolt.badge.automatic.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1861,7 +1861,7 @@ public extension SFSymbol {
     static var boltBadgeAutomatic: SFSymbol { .init(rawValue: "bolt.badge.automatic") }
 
     /// 􀘴
-    /// ![bolt.badge.automatic.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bolt.badge.automatic.fill.png)
+    /// ![bolt.badge.automatic.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bolt.badge.automatic.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1871,7 +1871,7 @@ public extension SFSymbol {
     static var boltBadgeAutomaticFill: SFSymbol { .init(rawValue: "bolt.badge.automatic.fill") }
 
     /// 􁸏
-    /// ![bolt.badge.checkmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bolt.badge.checkmark.png)
+    /// ![bolt.badge.checkmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bolt.badge.checkmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1881,7 +1881,7 @@ public extension SFSymbol {
     static var boltBadgeCheckmark: SFSymbol { .init(rawValue: "bolt.badge.checkmark") }
 
     /// 􁸑
-    /// ![bolt.badge.checkmark.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bolt.badge.checkmark.fill.png)
+    /// ![bolt.badge.checkmark.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bolt.badge.checkmark.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1891,7 +1891,7 @@ public extension SFSymbol {
     static var boltBadgeCheckmarkFill: SFSymbol { .init(rawValue: "bolt.badge.checkmark.fill") }
 
     /// 􁸓
-    /// ![bolt.badge.xmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bolt.badge.xmark.png)
+    /// ![bolt.badge.xmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bolt.badge.xmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1901,7 +1901,7 @@ public extension SFSymbol {
     static var boltBadgeXmark: SFSymbol { .init(rawValue: "bolt.badge.xmark") }
 
     /// 􁸕
-    /// ![bolt.badge.xmark.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bolt.badge.xmark.fill.png)
+    /// ![bolt.badge.xmark.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bolt.badge.xmark.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1911,7 +1911,7 @@ public extension SFSymbol {
     static var boltBadgeXmarkFill: SFSymbol { .init(rawValue: "bolt.badge.xmark.fill") }
 
     /// 􁥽
-    /// ![book.and.wrench](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/book.and.wrench.png)
+    /// ![book.and.wrench](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/book.and.wrench.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1920,7 +1920,7 @@ public extension SFSymbol {
     static var bookAndWrench: SFSymbol { .init(rawValue: "book.and.wrench") }
 
     /// 􁰸
-    /// ![book.and.wrench.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/book.and.wrench.fill.png)
+    /// ![book.and.wrench.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/book.and.wrench.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1929,7 +1929,7 @@ public extension SFSymbol {
     static var bookAndWrenchFill: SFSymbol { .init(rawValue: "book.and.wrench.fill") }
 
     /// 􁜾
-    /// ![book.pages](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/book.pages.png)
+    /// ![book.pages](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/book.pages.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1938,7 +1938,7 @@ public extension SFSymbol {
     static var bookPages: SFSymbol { .init(rawValue: "book.pages") }
 
     /// 􁜿
-    /// ![book.pages.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/book.pages.fill.png)
+    /// ![book.pages.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/book.pages.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -1948,7 +1948,7 @@ public extension SFSymbol {
     static var bookPagesFill: SFSymbol { .init(rawValue: "book.pages.fill") }
 
     /// 􂂇
-    /// ![brain.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/brain.fill.png)
+    /// ![brain.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/brain.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1956,7 +1956,7 @@ public extension SFSymbol {
     static var brainFill: SFSymbol { .init(rawValue: "brain.fill") }
 
     /// 􂃈
-    /// ![brain.filled.head.profile](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/brain.filled.head.profile.png)
+    /// ![brain.filled.head.profile](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/brain.filled.head.profile.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1965,7 +1965,7 @@ public extension SFSymbol {
     static var brainFilledHeadProfile: SFSymbol { .init(rawValue: "brain.filled.head.profile") }
 
     /// 􂂆
-    /// ![brain.head.profile.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/brain.head.profile.fill.png)
+    /// ![brain.head.profile.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/brain.head.profile.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1974,7 +1974,7 @@ public extension SFSymbol {
     static var brainHeadProfileFill: SFSymbol { .init(rawValue: "brain.head.profile.fill") }
 
     /// 􂈲
-    /// ![brazilianrealsign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/brazilianrealsign.arrow.circlepath.png)
+    /// ![brazilianrealsign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/brazilianrealsign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1988,7 +1988,7 @@ public extension SFSymbol {
     static var brazilianrealsignArrowCirclepath: SFSymbol { .init(rawValue: "brazilianrealsign.arrow.circlepath") }
 
     /// 􂄹
-    /// ![bubble](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bubble.png)
+    /// ![bubble](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bubble.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1996,7 +1996,7 @@ public extension SFSymbol {
     static var bubble: SFSymbol { .init(rawValue: "bubble") }
 
     /// 􂄻
-    /// ![bubble.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bubble.circle.png)
+    /// ![bubble.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bubble.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2005,7 +2005,7 @@ public extension SFSymbol {
     static var bubbleCircle: SFSymbol { .init(rawValue: "bubble.circle") }
 
     /// 􂄼
-    /// ![bubble.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bubble.circle.fill.png)
+    /// ![bubble.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bubble.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -2015,7 +2015,7 @@ public extension SFSymbol {
     static var bubbleCircleFill: SFSymbol { .init(rawValue: "bubble.circle.fill") }
 
     /// 􂄺
-    /// ![bubble.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bubble.fill.png)
+    /// ![bubble.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bubble.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2023,7 +2023,7 @@ public extension SFSymbol {
     static var bubbleFill: SFSymbol { .init(rawValue: "bubble.fill") }
 
     /// 􂃧
-    /// ![bubble.left.and.text.bubble.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bubble.left.and.text.bubble.right.png)
+    /// ![bubble.left.and.text.bubble.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bubble.left.and.text.bubble.right.png)
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -2036,7 +2036,7 @@ public extension SFSymbol {
     static var bubbleLeftAndTextBubbleRight: SymbolWith1Localization<Rtl> { .init(rawValue: "bubble.left.and.text.bubble.right") }
 
     /// 􂃨
-    /// ![bubble.left.and.text.bubble.right.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/bubble.left.and.text.bubble.right.fill.png)
+    /// ![bubble.left.and.text.bubble.right.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/bubble.left.and.text.bubble.right.fill.png)
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -2049,7 +2049,7 @@ public extension SFSymbol {
     static var bubbleLeftAndTextBubbleRightFill: SymbolWith1Localization<Rtl> { .init(rawValue: "bubble.left.and.text.bubble.right.fill") }
 
     /// 􁸅
-    /// ![button.angledbottom.horizontal.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.angledbottom.horizontal.left.png)
+    /// ![button.angledbottom.horizontal.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.angledbottom.horizontal.left.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2057,7 +2057,7 @@ public extension SFSymbol {
     static var buttonAngledbottomHorizontalLeft: SFSymbol { .init(rawValue: "button.angledbottom.horizontal.left") }
 
     /// 􁸆
-    /// ![button.angledbottom.horizontal.left.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.angledbottom.horizontal.left.fill.png)
+    /// ![button.angledbottom.horizontal.left.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.angledbottom.horizontal.left.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2065,7 +2065,7 @@ public extension SFSymbol {
     static var buttonAngledbottomHorizontalLeftFill: SFSymbol { .init(rawValue: "button.angledbottom.horizontal.left.fill") }
 
     /// 􁸃
-    /// ![button.angledbottom.horizontal.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.angledbottom.horizontal.right.png)
+    /// ![button.angledbottom.horizontal.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.angledbottom.horizontal.right.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2073,7 +2073,7 @@ public extension SFSymbol {
     static var buttonAngledbottomHorizontalRight: SFSymbol { .init(rawValue: "button.angledbottom.horizontal.right") }
 
     /// 􁸄
-    /// ![button.angledbottom.horizontal.right.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.angledbottom.horizontal.right.fill.png)
+    /// ![button.angledbottom.horizontal.right.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.angledbottom.horizontal.right.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2081,7 +2081,7 @@ public extension SFSymbol {
     static var buttonAngledbottomHorizontalRightFill: SFSymbol { .init(rawValue: "button.angledbottom.horizontal.right.fill") }
 
     /// 􁷯
-    /// ![button.angledtop.vertical.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.angledtop.vertical.left.png)
+    /// ![button.angledtop.vertical.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.angledtop.vertical.left.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2089,7 +2089,7 @@ public extension SFSymbol {
     static var buttonAngledtopVerticalLeft: SFSymbol { .init(rawValue: "button.angledtop.vertical.left") }
 
     /// 􁷰
-    /// ![button.angledtop.vertical.left.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.angledtop.vertical.left.fill.png)
+    /// ![button.angledtop.vertical.left.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.angledtop.vertical.left.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2097,7 +2097,7 @@ public extension SFSymbol {
     static var buttonAngledtopVerticalLeftFill: SFSymbol { .init(rawValue: "button.angledtop.vertical.left.fill") }
 
     /// 􁷱
-    /// ![button.angledtop.vertical.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.angledtop.vertical.right.png)
+    /// ![button.angledtop.vertical.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.angledtop.vertical.right.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2105,7 +2105,7 @@ public extension SFSymbol {
     static var buttonAngledtopVerticalRight: SFSymbol { .init(rawValue: "button.angledtop.vertical.right") }
 
     /// 􁷲
-    /// ![button.angledtop.vertical.right.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.angledtop.vertical.right.fill.png)
+    /// ![button.angledtop.vertical.right.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.angledtop.vertical.right.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2113,7 +2113,7 @@ public extension SFSymbol {
     static var buttonAngledtopVerticalRightFill: SFSymbol { .init(rawValue: "button.angledtop.vertical.right.fill") }
 
     /// 􁸞
-    /// ![button.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.horizontal.png)
+    /// ![button.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.horizontal.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2121,7 +2121,7 @@ public extension SFSymbol {
     static var buttonHorizontal: SFSymbol { .init(rawValue: "button.horizontal") }
 
     /// 􁸟
-    /// ![button.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.horizontal.fill.png)
+    /// ![button.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.horizontal.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2129,7 +2129,7 @@ public extension SFSymbol {
     static var buttonHorizontalFill: SFSymbol { .init(rawValue: "button.horizontal.fill") }
 
     /// 􂁫
-    /// ![button.horizontal.top.press](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.horizontal.top.press.png)
+    /// ![button.horizontal.top.press](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.horizontal.top.press.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2138,7 +2138,7 @@ public extension SFSymbol {
     static var buttonHorizontalTopPress: SFSymbol { .init(rawValue: "button.horizontal.top.press") }
 
     /// 􂁬
-    /// ![button.horizontal.top.press.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.horizontal.top.press.fill.png)
+    /// ![button.horizontal.top.press.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.horizontal.top.press.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2147,7 +2147,7 @@ public extension SFSymbol {
     static var buttonHorizontalTopPressFill: SFSymbol { .init(rawValue: "button.horizontal.top.press.fill") }
 
     /// 􀩺
-    /// ![button.roundedbottom.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.roundedbottom.horizontal.png)
+    /// ![button.roundedbottom.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.roundedbottom.horizontal.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2155,7 +2155,7 @@ public extension SFSymbol {
     static var buttonRoundedbottomHorizontal: SFSymbol { .init(rawValue: "button.roundedbottom.horizontal") }
 
     /// 􀩻
-    /// ![button.roundedbottom.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.roundedbottom.horizontal.fill.png)
+    /// ![button.roundedbottom.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.roundedbottom.horizontal.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2163,7 +2163,7 @@ public extension SFSymbol {
     static var buttonRoundedbottomHorizontalFill: SFSymbol { .init(rawValue: "button.roundedbottom.horizontal.fill") }
 
     /// 􀩸
-    /// ![button.roundedtop.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.roundedtop.horizontal.png)
+    /// ![button.roundedtop.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.roundedtop.horizontal.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2171,7 +2171,7 @@ public extension SFSymbol {
     static var buttonRoundedtopHorizontal: SFSymbol { .init(rawValue: "button.roundedtop.horizontal") }
 
     /// 􀩹
-    /// ![button.roundedtop.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.roundedtop.horizontal.fill.png)
+    /// ![button.roundedtop.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.roundedtop.horizontal.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2179,7 +2179,7 @@ public extension SFSymbol {
     static var buttonRoundedtopHorizontalFill: SFSymbol { .init(rawValue: "button.roundedtop.horizontal.fill") }
 
     /// 􂂉
-    /// ![button.vertical.left.press](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.vertical.left.press.png)
+    /// ![button.vertical.left.press](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.vertical.left.press.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2188,7 +2188,7 @@ public extension SFSymbol {
     static var buttonVerticalLeftPress: SFSymbol { .init(rawValue: "button.vertical.left.press") }
 
     /// 􂂊
-    /// ![button.vertical.left.press.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.vertical.left.press.fill.png)
+    /// ![button.vertical.left.press.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.vertical.left.press.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2197,7 +2197,7 @@ public extension SFSymbol {
     static var buttonVerticalLeftPressFill: SFSymbol { .init(rawValue: "button.vertical.left.press.fill") }
 
     /// 􂁩
-    /// ![button.vertical.right.press](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.vertical.right.press.png)
+    /// ![button.vertical.right.press](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.vertical.right.press.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2206,7 +2206,7 @@ public extension SFSymbol {
     static var buttonVerticalRightPress: SFSymbol { .init(rawValue: "button.vertical.right.press") }
 
     /// 􂁪
-    /// ![button.vertical.right.press.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/button.vertical.right.press.fill.png)
+    /// ![button.vertical.right.press.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/button.vertical.right.press.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2215,7 +2215,7 @@ public extension SFSymbol {
     static var buttonVerticalRightPressFill: SFSymbol { .init(rawValue: "button.vertical.right.press.fill") }
 
     /// 􁊒
-    /// ![cable.coaxial](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/cable.coaxial.png)
+    /// ![cable.coaxial](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/cable.coaxial.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2224,7 +2224,7 @@ public extension SFSymbol {
     static var cableCoaxial: SFSymbol { .init(rawValue: "cable.coaxial") }
 
     /// 􂇥
-    /// ![cable.connector.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/cable.connector.slash.png)
+    /// ![cable.connector.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/cable.connector.slash.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2233,7 +2233,7 @@ public extension SFSymbol {
     static var cableConnectorSlash: SFSymbol { .init(rawValue: "cable.connector.slash") }
 
     /// 􁻧
-    /// ![calendar.badge.checkmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/calendar.badge.checkmark.png)
+    /// ![calendar.badge.checkmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/calendar.badge.checkmark.png)
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
@@ -2247,7 +2247,7 @@ public extension SFSymbol {
     static var calendarBadgeCheckmark: SymbolWith1Localization<Rtl> { .init(rawValue: "calendar.badge.checkmark") }
 
     /// 􁤥
-    /// ![camera.badge.clock](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/camera.badge.clock.png)
+    /// ![camera.badge.clock](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/camera.badge.clock.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -2257,7 +2257,7 @@ public extension SFSymbol {
     static var cameraBadgeClock: SFSymbol { .init(rawValue: "camera.badge.clock") }
 
     /// 􁤦
-    /// ![camera.badge.clock.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/camera.badge.clock.fill.png)
+    /// ![camera.badge.clock.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/camera.badge.clock.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -2267,7 +2267,7 @@ public extension SFSymbol {
     static var cameraBadgeClockFill: SFSymbol { .init(rawValue: "camera.badge.clock.fill") }
 
     /// 􀢘
-    /// ![camera.badge.ellipsis.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/camera.badge.ellipsis.fill.png)
+    /// ![camera.badge.ellipsis.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/camera.badge.ellipsis.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -2277,7 +2277,7 @@ public extension SFSymbol {
     static var cameraBadgeEllipsisFill: SFSymbol { .init(rawValue: "camera.badge.ellipsis.fill") }
 
     /// 􂄉
-    /// ![car.front.waves.down](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.front.waves.down.png)
+    /// ![car.front.waves.down](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.front.waves.down.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2286,7 +2286,7 @@ public extension SFSymbol {
     static var carFrontWavesDown: SFSymbol { .init(rawValue: "car.front.waves.down") }
 
     /// 􂄊
-    /// ![car.front.waves.down.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.front.waves.down.fill.png)
+    /// ![car.front.waves.down.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.front.waves.down.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2295,7 +2295,7 @@ public extension SFSymbol {
     static var carFrontWavesDownFill: SFSymbol { .init(rawValue: "car.front.waves.down.fill") }
 
     /// 􁣩
-    /// ![car.rear.and.collision.road.lane](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.rear.and.collision.road.lane.png)
+    /// ![car.rear.and.collision.road.lane](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.rear.and.collision.road.lane.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -2305,7 +2305,7 @@ public extension SFSymbol {
     static var carRearAndCollisionRoadLane: SFSymbol { .init(rawValue: "car.rear.and.collision.road.lane") }
 
     /// 􁣪
-    /// ![car.rear.and.collision.road.lane.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.rear.and.collision.road.lane.slash.png)
+    /// ![car.rear.and.collision.road.lane.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.rear.and.collision.road.lane.slash.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -2315,7 +2315,7 @@ public extension SFSymbol {
     static var carRearAndCollisionRoadLaneSlash: SFSymbol { .init(rawValue: "car.rear.and.collision.road.lane.slash") }
 
     /// 􁥎
-    /// ![car.side.hill.down](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.side.hill.down.png)
+    /// ![car.side.hill.down](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.side.hill.down.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2324,7 +2324,7 @@ public extension SFSymbol {
     static var carSideHillDown: SFSymbol { .init(rawValue: "car.side.hill.down") }
 
     /// 􁥏
-    /// ![car.side.hill.down.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.side.hill.down.fill.png)
+    /// ![car.side.hill.down.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.side.hill.down.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2333,7 +2333,7 @@ public extension SFSymbol {
     static var carSideHillDownFill: SFSymbol { .init(rawValue: "car.side.hill.down.fill") }
 
     /// 􁤍
-    /// ![car.side.hill.up](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.side.hill.up.png)
+    /// ![car.side.hill.up](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.side.hill.up.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2342,7 +2342,7 @@ public extension SFSymbol {
     static var carSideHillUp: SFSymbol { .init(rawValue: "car.side.hill.up") }
 
     /// 􁤎
-    /// ![car.side.hill.up.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.side.hill.up.fill.png)
+    /// ![car.side.hill.up.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.side.hill.up.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2351,7 +2351,7 @@ public extension SFSymbol {
     static var carSideHillUpFill: SFSymbol { .init(rawValue: "car.side.hill.up.fill") }
 
     /// 􁣹
-    /// ![car.side.lock](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.side.lock.png)
+    /// ![car.side.lock](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.side.lock.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2360,7 +2360,7 @@ public extension SFSymbol {
     static var carSideLock: SFSymbol { .init(rawValue: "car.side.lock") }
 
     /// 􁣺
-    /// ![car.side.lock.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.side.lock.fill.png)
+    /// ![car.side.lock.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.side.lock.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2369,7 +2369,7 @@ public extension SFSymbol {
     static var carSideLockFill: SFSymbol { .init(rawValue: "car.side.lock.fill") }
 
     /// 􁣻
-    /// ![car.side.lock.open](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.side.lock.open.png)
+    /// ![car.side.lock.open](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.side.lock.open.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2378,7 +2378,7 @@ public extension SFSymbol {
     static var carSideLockOpen: SFSymbol { .init(rawValue: "car.side.lock.open") }
 
     /// 􁣼
-    /// ![car.side.lock.open.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.side.lock.open.fill.png)
+    /// ![car.side.lock.open.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.side.lock.open.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2387,7 +2387,7 @@ public extension SFSymbol {
     static var carSideLockOpenFill: SFSymbol { .init(rawValue: "car.side.lock.open.fill") }
 
     /// 􁵴
-    /// ![car.side.rear.and.collision.and.car.side.front](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.side.rear.and.collision.and.car.side.front.png)
+    /// ![car.side.rear.and.collision.and.car.side.front](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.side.rear.and.collision.and.car.side.front.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2396,7 +2396,7 @@ public extension SFSymbol {
     static var carSideRearAndCollisionAndCarSideFront: SFSymbol { .init(rawValue: "car.side.rear.and.collision.and.car.side.front") }
 
     /// 􁵵
-    /// ![car.side.rear.and.collision.and.car.side.front.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.side.rear.and.collision.and.car.side.front.slash.png)
+    /// ![car.side.rear.and.collision.and.car.side.front.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.side.rear.and.collision.and.car.side.front.slash.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2405,7 +2405,7 @@ public extension SFSymbol {
     static var carSideRearAndCollisionAndCarSideFrontSlash: SFSymbol { .init(rawValue: "car.side.rear.and.collision.and.car.side.front.slash") }
 
     /// 􁵸
-    /// ![car.side.rear.and.exclamationmark.and.car.side.front](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.side.rear.and.exclamationmark.and.car.side.front.png)
+    /// ![car.side.rear.and.exclamationmark.and.car.side.front](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.side.rear.and.exclamationmark.and.car.side.front.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2414,7 +2414,7 @@ public extension SFSymbol {
     static var carSideRearAndExclamationmarkAndCarSideFront: SFSymbol { .init(rawValue: "car.side.rear.and.exclamationmark.and.car.side.front") }
 
     /// 􁵷
-    /// ![car.side.rear.and.wave.3.and.car.side.front](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.side.rear.and.wave.3.and.car.side.front.png)
+    /// ![car.side.rear.and.wave.3.and.car.side.front](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.side.rear.and.wave.3.and.car.side.front.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2423,7 +2423,7 @@ public extension SFSymbol {
     static var carSideRearAndWave3AndCarSideFront: SFSymbol { .init(rawValue: "car.side.rear.and.wave.3.and.car.side.front") }
 
     /// 􁵹
-    /// ![car.top.door.sliding.left.open](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.top.door.sliding.left.open.png)
+    /// ![car.top.door.sliding.left.open](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.top.door.sliding.left.open.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2432,7 +2432,7 @@ public extension SFSymbol {
     static var carTopDoorSlidingLeftOpen: SFSymbol { .init(rawValue: "car.top.door.sliding.left.open") }
 
     /// 􁵺
-    /// ![car.top.door.sliding.left.open.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.top.door.sliding.left.open.fill.png)
+    /// ![car.top.door.sliding.left.open.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.top.door.sliding.left.open.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2441,7 +2441,7 @@ public extension SFSymbol {
     static var carTopDoorSlidingLeftOpenFill: SFSymbol { .init(rawValue: "car.top.door.sliding.left.open.fill") }
 
     /// 􁵻
-    /// ![car.top.door.sliding.right.open](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.top.door.sliding.right.open.png)
+    /// ![car.top.door.sliding.right.open](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.top.door.sliding.right.open.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2450,7 +2450,7 @@ public extension SFSymbol {
     static var carTopDoorSlidingRightOpen: SFSymbol { .init(rawValue: "car.top.door.sliding.right.open") }
 
     /// 􁵼
-    /// ![car.top.door.sliding.right.open.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.top.door.sliding.right.open.fill.png)
+    /// ![car.top.door.sliding.right.open.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.top.door.sliding.right.open.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2459,7 +2459,7 @@ public extension SFSymbol {
     static var carTopDoorSlidingRightOpenFill: SFSymbol { .init(rawValue: "car.top.door.sliding.right.open.fill") }
 
     /// 􂂛
-    /// ![car.top.frontleft.arrowtriangle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.top.frontleft.arrowtriangle.png)
+    /// ![car.top.frontleft.arrowtriangle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.top.frontleft.arrowtriangle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2473,7 +2473,7 @@ public extension SFSymbol {
     static var carTopFrontleftArrowtriangle: SFSymbol { .init(rawValue: "car.top.frontleft.arrowtriangle") }
 
     /// 􂂜
-    /// ![car.top.frontleft.arrowtriangle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.top.frontleft.arrowtriangle.fill.png)
+    /// ![car.top.frontleft.arrowtriangle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.top.frontleft.arrowtriangle.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2487,7 +2487,7 @@ public extension SFSymbol {
     static var carTopFrontleftArrowtriangleFill: SFSymbol { .init(rawValue: "car.top.frontleft.arrowtriangle.fill") }
 
     /// 􂂝
-    /// ![car.top.frontright.arrowtriangle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.top.frontright.arrowtriangle.png)
+    /// ![car.top.frontright.arrowtriangle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.top.frontright.arrowtriangle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2501,7 +2501,7 @@ public extension SFSymbol {
     static var carTopFrontrightArrowtriangle: SFSymbol { .init(rawValue: "car.top.frontright.arrowtriangle") }
 
     /// 􂂞
-    /// ![car.top.frontright.arrowtriangle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.top.frontright.arrowtriangle.fill.png)
+    /// ![car.top.frontright.arrowtriangle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.top.frontright.arrowtriangle.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2515,7 +2515,7 @@ public extension SFSymbol {
     static var carTopFrontrightArrowtriangleFill: SFSymbol { .init(rawValue: "car.top.frontright.arrowtriangle.fill") }
 
     /// 􁢤
-    /// ![car.top.radiowaves.rear.right.badge.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.top.radiowaves.rear.right.badge.exclamationmark.png)
+    /// ![car.top.radiowaves.rear.right.badge.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.top.radiowaves.rear.right.badge.exclamationmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -2525,7 +2525,7 @@ public extension SFSymbol {
     static var carTopRadiowavesRearRightBadgeExclamationmark: SFSymbol { .init(rawValue: "car.top.radiowaves.rear.right.badge.exclamationmark") }
 
     /// 􁢥
-    /// ![car.top.radiowaves.rear.right.badge.exclamationmark.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.top.radiowaves.rear.right.badge.exclamationmark.fill.png)
+    /// ![car.top.radiowaves.rear.right.badge.exclamationmark.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.top.radiowaves.rear.right.badge.exclamationmark.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -2535,7 +2535,7 @@ public extension SFSymbol {
     static var carTopRadiowavesRearRightBadgeExclamationmarkFill: SFSymbol { .init(rawValue: "car.top.radiowaves.rear.right.badge.exclamationmark.fill") }
 
     /// 􁢢
-    /// ![car.top.radiowaves.rear.right.badge.xmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.top.radiowaves.rear.right.badge.xmark.png)
+    /// ![car.top.radiowaves.rear.right.badge.xmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.top.radiowaves.rear.right.badge.xmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -2545,7 +2545,7 @@ public extension SFSymbol {
     static var carTopRadiowavesRearRightBadgeXmark: SFSymbol { .init(rawValue: "car.top.radiowaves.rear.right.badge.xmark") }
 
     /// 􁢣
-    /// ![car.top.radiowaves.rear.right.badge.xmark.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.top.radiowaves.rear.right.badge.xmark.fill.png)
+    /// ![car.top.radiowaves.rear.right.badge.xmark.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.top.radiowaves.rear.right.badge.xmark.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -2555,7 +2555,7 @@ public extension SFSymbol {
     static var carTopRadiowavesRearRightBadgeXmarkFill: SFSymbol { .init(rawValue: "car.top.radiowaves.rear.right.badge.xmark.fill") }
 
     /// 􂂑
-    /// ![car.top.rearleft.arrowtriangle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.top.rearleft.arrowtriangle.png)
+    /// ![car.top.rearleft.arrowtriangle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.top.rearleft.arrowtriangle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2569,7 +2569,7 @@ public extension SFSymbol {
     static var carTopRearleftArrowtriangle: SFSymbol { .init(rawValue: "car.top.rearleft.arrowtriangle") }
 
     /// 􂂒
-    /// ![car.top.rearleft.arrowtriangle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.top.rearleft.arrowtriangle.fill.png)
+    /// ![car.top.rearleft.arrowtriangle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.top.rearleft.arrowtriangle.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2583,7 +2583,7 @@ public extension SFSymbol {
     static var carTopRearleftArrowtriangleFill: SFSymbol { .init(rawValue: "car.top.rearleft.arrowtriangle.fill") }
 
     /// 􂂓
-    /// ![car.top.rearright.arrowtriangle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.top.rearright.arrowtriangle.png)
+    /// ![car.top.rearright.arrowtriangle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.top.rearright.arrowtriangle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2597,7 +2597,7 @@ public extension SFSymbol {
     static var carTopRearrightArrowtriangle: SFSymbol { .init(rawValue: "car.top.rearright.arrowtriangle") }
 
     /// 􂂔
-    /// ![car.top.rearright.arrowtriangle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.top.rearright.arrowtriangle.fill.png)
+    /// ![car.top.rearright.arrowtriangle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.top.rearright.arrowtriangle.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2611,7 +2611,7 @@ public extension SFSymbol {
     static var carTopRearrightArrowtriangleFill: SFSymbol { .init(rawValue: "car.top.rearright.arrowtriangle.fill") }
 
     /// 􁊜
-    /// ![car.window.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.window.left.png)
+    /// ![car.window.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.window.left.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2619,7 +2619,7 @@ public extension SFSymbol {
     static var carWindowLeft: SFSymbol { .init(rawValue: "car.window.left") }
 
     /// 􁊠
-    /// ![car.window.left.badge.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.window.left.badge.exclamationmark.png)
+    /// ![car.window.left.badge.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.window.left.badge.exclamationmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -2629,7 +2629,7 @@ public extension SFSymbol {
     static var carWindowLeftBadgeExclamationmark: SFSymbol { .init(rawValue: "car.window.left.badge.exclamationmark") }
 
     /// 􁊣
-    /// ![car.window.left.badge.xmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.window.left.badge.xmark.png)
+    /// ![car.window.left.badge.xmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.window.left.badge.xmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -2639,7 +2639,7 @@ public extension SFSymbol {
     static var carWindowLeftBadgeXmark: SFSymbol { .init(rawValue: "car.window.left.badge.xmark") }
 
     /// 􁊞
-    /// ![car.window.left.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.window.left.exclamationmark.png)
+    /// ![car.window.left.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.window.left.exclamationmark.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2648,7 +2648,7 @@ public extension SFSymbol {
     static var carWindowLeftExclamationmark: SFSymbol { .init(rawValue: "car.window.left.exclamationmark") }
 
     /// 􁊡
-    /// ![car.window.left.xmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.window.left.xmark.png)
+    /// ![car.window.left.xmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.window.left.xmark.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2657,7 +2657,7 @@ public extension SFSymbol {
     static var carWindowLeftXmark: SFSymbol { .init(rawValue: "car.window.left.xmark") }
 
     /// 􁉜
-    /// ![car.window.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.window.right.png)
+    /// ![car.window.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.window.right.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2665,7 +2665,7 @@ public extension SFSymbol {
     static var carWindowRight: SFSymbol { .init(rawValue: "car.window.right") }
 
     /// 􁉟
-    /// ![car.window.right.badge.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.window.right.badge.exclamationmark.png)
+    /// ![car.window.right.badge.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.window.right.badge.exclamationmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -2675,7 +2675,7 @@ public extension SFSymbol {
     static var carWindowRightBadgeExclamationmark: SFSymbol { .init(rawValue: "car.window.right.badge.exclamationmark") }
 
     /// 􁉡
-    /// ![car.window.right.badge.xmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.window.right.badge.xmark.png)
+    /// ![car.window.right.badge.xmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.window.right.badge.xmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -2685,7 +2685,7 @@ public extension SFSymbol {
     static var carWindowRightBadgeXmark: SFSymbol { .init(rawValue: "car.window.right.badge.xmark") }
 
     /// 􁉞
-    /// ![car.window.right.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.window.right.exclamationmark.png)
+    /// ![car.window.right.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.window.right.exclamationmark.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2694,7 +2694,7 @@ public extension SFSymbol {
     static var carWindowRightExclamationmark: SFSymbol { .init(rawValue: "car.window.right.exclamationmark") }
 
     /// 􁊚
-    /// ![car.window.right.xmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/car.window.right.xmark.png)
+    /// ![car.window.right.xmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/car.window.right.xmark.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2703,7 +2703,7 @@ public extension SFSymbol {
     static var carWindowRightXmark: SFSymbol { .init(rawValue: "car.window.right.xmark") }
 
     /// 􁦔
-    /// ![carseat.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.png)
+    /// ![carseat.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2711,7 +2711,7 @@ public extension SFSymbol {
     static var carseatLeft: SFSymbol { .init(rawValue: "carseat.left") }
 
     /// 􁖟
-    /// ![carseat.left.1](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.1.png)
+    /// ![carseat.left.1](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.1.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2720,7 +2720,7 @@ public extension SFSymbol {
     static var carseatLeft1: SFSymbol { .init(rawValue: "carseat.left.1") }
 
     /// 􁖠
-    /// ![carseat.left.1.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.1.fill.png)
+    /// ![carseat.left.1.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.1.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2729,7 +2729,7 @@ public extension SFSymbol {
     static var carseatLeft1Fill: SFSymbol { .init(rawValue: "carseat.left.1.fill") }
 
     /// 􁖡
-    /// ![carseat.left.2](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.2.png)
+    /// ![carseat.left.2](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.2.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2738,7 +2738,7 @@ public extension SFSymbol {
     static var carseatLeft2: SFSymbol { .init(rawValue: "carseat.left.2") }
 
     /// 􁖢
-    /// ![carseat.left.2.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.2.fill.png)
+    /// ![carseat.left.2.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.2.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2747,7 +2747,7 @@ public extension SFSymbol {
     static var carseatLeft2Fill: SFSymbol { .init(rawValue: "carseat.left.2.fill") }
 
     /// 􁖣
-    /// ![carseat.left.3](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.3.png)
+    /// ![carseat.left.3](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.3.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2756,7 +2756,7 @@ public extension SFSymbol {
     static var carseatLeft3: SFSymbol { .init(rawValue: "carseat.left.3") }
 
     /// 􁖤
-    /// ![carseat.left.3.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.3.fill.png)
+    /// ![carseat.left.3.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.3.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2765,7 +2765,7 @@ public extension SFSymbol {
     static var carseatLeft3Fill: SFSymbol { .init(rawValue: "carseat.left.3.fill") }
 
     /// 􁋍
-    /// ![carseat.left.and.heat.waves](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.and.heat.waves.png)
+    /// ![carseat.left.and.heat.waves](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.and.heat.waves.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2774,7 +2774,7 @@ public extension SFSymbol {
     static var carseatLeftAndHeatWaves: SFSymbol { .init(rawValue: "carseat.left.and.heat.waves") }
 
     /// 􁋎
-    /// ![carseat.left.and.heat.waves.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.and.heat.waves.fill.png)
+    /// ![carseat.left.and.heat.waves.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.and.heat.waves.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2783,7 +2783,7 @@ public extension SFSymbol {
     static var carseatLeftAndHeatWavesFill: SFSymbol { .init(rawValue: "carseat.left.and.heat.waves.fill") }
 
     /// 􁦌
-    /// ![carseat.left.backrest.up.and.down](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.backrest.up.and.down.png)
+    /// ![carseat.left.backrest.up.and.down](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.backrest.up.and.down.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2792,7 +2792,7 @@ public extension SFSymbol {
     static var carseatLeftBackrestUpAndDown: SFSymbol { .init(rawValue: "carseat.left.backrest.up.and.down") }
 
     /// 􁦍
-    /// ![carseat.left.backrest.up.and.down.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.backrest.up.and.down.fill.png)
+    /// ![carseat.left.backrest.up.and.down.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.backrest.up.and.down.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2801,7 +2801,7 @@ public extension SFSymbol {
     static var carseatLeftBackrestUpAndDownFill: SFSymbol { .init(rawValue: "carseat.left.backrest.up.and.down.fill") }
 
     /// 􁋑
-    /// ![carseat.left.fan](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.fan.png)
+    /// ![carseat.left.fan](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.fan.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2810,7 +2810,7 @@ public extension SFSymbol {
     static var carseatLeftFan: SFSymbol { .init(rawValue: "carseat.left.fan") }
 
     /// 􁋒
-    /// ![carseat.left.fan.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.fan.fill.png)
+    /// ![carseat.left.fan.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.fan.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2819,7 +2819,7 @@ public extension SFSymbol {
     static var carseatLeftFanFill: SFSymbol { .init(rawValue: "carseat.left.fan.fill") }
 
     /// 􁦕
-    /// ![carseat.left.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.fill.png)
+    /// ![carseat.left.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2827,7 +2827,7 @@ public extension SFSymbol {
     static var carseatLeftFill: SFSymbol { .init(rawValue: "carseat.left.fill") }
 
     /// 􁦈
-    /// ![carseat.left.forward.and.backward](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.forward.and.backward.png)
+    /// ![carseat.left.forward.and.backward](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.forward.and.backward.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2836,7 +2836,7 @@ public extension SFSymbol {
     static var carseatLeftForwardAndBackward: SFSymbol { .init(rawValue: "carseat.left.forward.and.backward") }
 
     /// 􁦉
-    /// ![carseat.left.forward.and.backward.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.forward.and.backward.fill.png)
+    /// ![carseat.left.forward.and.backward.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.forward.and.backward.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2845,7 +2845,7 @@ public extension SFSymbol {
     static var carseatLeftForwardAndBackwardFill: SFSymbol { .init(rawValue: "carseat.left.forward.and.backward.fill") }
 
     /// 􁵽
-    /// ![carseat.left.massage](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.massage.png)
+    /// ![carseat.left.massage](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.massage.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2854,7 +2854,7 @@ public extension SFSymbol {
     static var carseatLeftMassage: SFSymbol { .init(rawValue: "carseat.left.massage") }
 
     /// 􁵾
-    /// ![carseat.left.massage.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.massage.fill.png)
+    /// ![carseat.left.massage.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.massage.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2863,7 +2863,7 @@ public extension SFSymbol {
     static var carseatLeftMassageFill: SFSymbol { .init(rawValue: "carseat.left.massage.fill") }
 
     /// 􁦐
-    /// ![carseat.left.up.and.down](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.up.and.down.png)
+    /// ![carseat.left.up.and.down](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.up.and.down.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2872,7 +2872,7 @@ public extension SFSymbol {
     static var carseatLeftUpAndDown: SFSymbol { .init(rawValue: "carseat.left.up.and.down") }
 
     /// 􁦑
-    /// ![carseat.left.up.and.down.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.left.up.and.down.fill.png)
+    /// ![carseat.left.up.and.down.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.left.up.and.down.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2881,7 +2881,7 @@ public extension SFSymbol {
     static var carseatLeftUpAndDownFill: SFSymbol { .init(rawValue: "carseat.left.up.and.down.fill") }
 
     /// 􁦖
-    /// ![carseat.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.png)
+    /// ![carseat.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2889,7 +2889,7 @@ public extension SFSymbol {
     static var carseatRight: SFSymbol { .init(rawValue: "carseat.right") }
 
     /// 􁋕
-    /// ![carseat.right.1](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.1.png)
+    /// ![carseat.right.1](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.1.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2898,7 +2898,7 @@ public extension SFSymbol {
     static var carseatRight1: SFSymbol { .init(rawValue: "carseat.right.1") }
 
     /// 􁋖
-    /// ![carseat.right.1.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.1.fill.png)
+    /// ![carseat.right.1.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.1.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2907,7 +2907,7 @@ public extension SFSymbol {
     static var carseatRight1Fill: SFSymbol { .init(rawValue: "carseat.right.1.fill") }
 
     /// 􁋗
-    /// ![carseat.right.2](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.2.png)
+    /// ![carseat.right.2](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.2.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2916,7 +2916,7 @@ public extension SFSymbol {
     static var carseatRight2: SFSymbol { .init(rawValue: "carseat.right.2") }
 
     /// 􁋘
-    /// ![carseat.right.2.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.2.fill.png)
+    /// ![carseat.right.2.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.2.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2925,7 +2925,7 @@ public extension SFSymbol {
     static var carseatRight2Fill: SFSymbol { .init(rawValue: "carseat.right.2.fill") }
 
     /// 􁋙
-    /// ![carseat.right.3](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.3.png)
+    /// ![carseat.right.3](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.3.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2934,7 +2934,7 @@ public extension SFSymbol {
     static var carseatRight3: SFSymbol { .init(rawValue: "carseat.right.3") }
 
     /// 􁋚
-    /// ![carseat.right.3.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.3.fill.png)
+    /// ![carseat.right.3.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.3.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2943,7 +2943,7 @@ public extension SFSymbol {
     static var carseatRight3Fill: SFSymbol { .init(rawValue: "carseat.right.3.fill") }
 
     /// 􁋏
-    /// ![carseat.right.and.heat.waves](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.and.heat.waves.png)
+    /// ![carseat.right.and.heat.waves](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.and.heat.waves.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2952,7 +2952,7 @@ public extension SFSymbol {
     static var carseatRightAndHeatWaves: SFSymbol { .init(rawValue: "carseat.right.and.heat.waves") }
 
     /// 􁋐
-    /// ![carseat.right.and.heat.waves.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.and.heat.waves.fill.png)
+    /// ![carseat.right.and.heat.waves.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.and.heat.waves.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2961,7 +2961,7 @@ public extension SFSymbol {
     static var carseatRightAndHeatWavesFill: SFSymbol { .init(rawValue: "carseat.right.and.heat.waves.fill") }
 
     /// 􁦎
-    /// ![carseat.right.backrest.up.and.down](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.backrest.up.and.down.png)
+    /// ![carseat.right.backrest.up.and.down](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.backrest.up.and.down.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2970,7 +2970,7 @@ public extension SFSymbol {
     static var carseatRightBackrestUpAndDown: SFSymbol { .init(rawValue: "carseat.right.backrest.up.and.down") }
 
     /// 􁦏
-    /// ![carseat.right.backrest.up.and.down.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.backrest.up.and.down.fill.png)
+    /// ![carseat.right.backrest.up.and.down.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.backrest.up.and.down.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2979,7 +2979,7 @@ public extension SFSymbol {
     static var carseatRightBackrestUpAndDownFill: SFSymbol { .init(rawValue: "carseat.right.backrest.up.and.down.fill") }
 
     /// 􁋓
-    /// ![carseat.right.fan](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.fan.png)
+    /// ![carseat.right.fan](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.fan.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2988,7 +2988,7 @@ public extension SFSymbol {
     static var carseatRightFan: SFSymbol { .init(rawValue: "carseat.right.fan") }
 
     /// 􁋔
-    /// ![carseat.right.fan.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.fan.fill.png)
+    /// ![carseat.right.fan.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.fan.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2997,7 +2997,7 @@ public extension SFSymbol {
     static var carseatRightFanFill: SFSymbol { .init(rawValue: "carseat.right.fan.fill") }
 
     /// 􁦗
-    /// ![carseat.right.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.fill.png)
+    /// ![carseat.right.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3005,7 +3005,7 @@ public extension SFSymbol {
     static var carseatRightFill: SFSymbol { .init(rawValue: "carseat.right.fill") }
 
     /// 􁦊
-    /// ![carseat.right.forward.and.backward](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.forward.and.backward.png)
+    /// ![carseat.right.forward.and.backward](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.forward.and.backward.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3014,7 +3014,7 @@ public extension SFSymbol {
     static var carseatRightForwardAndBackward: SFSymbol { .init(rawValue: "carseat.right.forward.and.backward") }
 
     /// 􁦋
-    /// ![carseat.right.forward.and.backward.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.forward.and.backward.fill.png)
+    /// ![carseat.right.forward.and.backward.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.forward.and.backward.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3023,7 +3023,7 @@ public extension SFSymbol {
     static var carseatRightForwardAndBackwardFill: SFSymbol { .init(rawValue: "carseat.right.forward.and.backward.fill") }
 
     /// 􁵿
-    /// ![carseat.right.massage](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.massage.png)
+    /// ![carseat.right.massage](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.massage.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3032,7 +3032,7 @@ public extension SFSymbol {
     static var carseatRightMassage: SFSymbol { .init(rawValue: "carseat.right.massage") }
 
     /// 􁶀
-    /// ![carseat.right.massage.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.massage.fill.png)
+    /// ![carseat.right.massage.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.massage.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3041,7 +3041,7 @@ public extension SFSymbol {
     static var carseatRightMassageFill: SFSymbol { .init(rawValue: "carseat.right.massage.fill") }
 
     /// 􁦒
-    /// ![carseat.right.up.and.down](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.up.and.down.png)
+    /// ![carseat.right.up.and.down](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.up.and.down.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3050,7 +3050,7 @@ public extension SFSymbol {
     static var carseatRightUpAndDown: SFSymbol { .init(rawValue: "carseat.right.up.and.down") }
 
     /// 􁦓
-    /// ![carseat.right.up.and.down.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/carseat.right.up.and.down.fill.png)
+    /// ![carseat.right.up.and.down.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/carseat.right.up.and.down.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3059,7 +3059,7 @@ public extension SFSymbol {
     static var carseatRightUpAndDownFill: SFSymbol { .init(rawValue: "carseat.right.up.and.down.fill") }
 
     /// 􂁾
-    /// ![cat](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/cat.png)
+    /// ![cat](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/cat.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3067,7 +3067,7 @@ public extension SFSymbol {
     static var cat: SFSymbol { .init(rawValue: "cat") }
 
     /// 􂂀
-    /// ![cat.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/cat.circle.png)
+    /// ![cat.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/cat.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3076,7 +3076,7 @@ public extension SFSymbol {
     static var catCircle: SFSymbol { .init(rawValue: "cat.circle") }
 
     /// 􂂁
-    /// ![cat.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/cat.circle.fill.png)
+    /// ![cat.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/cat.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3086,7 +3086,7 @@ public extension SFSymbol {
     static var catCircleFill: SFSymbol { .init(rawValue: "cat.circle.fill") }
 
     /// 􂁿
-    /// ![cat.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/cat.fill.png)
+    /// ![cat.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/cat.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3094,7 +3094,7 @@ public extension SFSymbol {
     static var catFill: SFSymbol { .init(rawValue: "cat.fill") }
 
     /// 􂈨
-    /// ![cedisign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/cedisign.arrow.circlepath.png)
+    /// ![cedisign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/cedisign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3108,7 +3108,7 @@ public extension SFSymbol {
     static var cedisignArrowCirclepath: SFSymbol { .init(rawValue: "cedisign.arrow.circlepath") }
 
     /// 􂈓
-    /// ![centsign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/centsign.arrow.circlepath.png)
+    /// ![centsign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/centsign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3122,7 +3122,7 @@ public extension SFSymbol {
     static var centsignArrowCirclepath: SFSymbol { .init(rawValue: "centsign.arrow.circlepath") }
 
     /// 􀤍
-    /// ![character.magnify](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/character.magnify.png)
+    /// ![character.magnify](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/character.magnify.png)
     /// 20 Localizations, 3 Layersets
     ///
     /// Localizations:
@@ -3154,7 +3154,7 @@ public extension SFSymbol {
     static var characterMagnify: SymbolWith19Localizations<Ar, Bn_v6_3, Gu_v6_3, He, Hi, Ja, Kn_v6_3, Ko, Ml_v6_3, Mni_v6_3, Mr_v6_3, Or_v6_3, Pa_v6_3, Sat_v6_3, Si_v6_3, Ta_v6_3, Te_v6_3, Th, Zh> { .init(rawValue: "character.magnify") }
 
     /// 􂆏
-    /// ![chart.bar.xaxis.ascending](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/chart.bar.xaxis.ascending.png)
+    /// ![chart.bar.xaxis.ascending](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/chart.bar.xaxis.ascending.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3163,7 +3163,7 @@ public extension SFSymbol {
     static var chartBarXaxisAscending: SFSymbol { .init(rawValue: "chart.bar.xaxis.ascending") }
 
     /// 􂆐
-    /// ![chart.bar.xaxis.ascending.badge.clock](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/chart.bar.xaxis.ascending.badge.clock.png)
+    /// ![chart.bar.xaxis.ascending.badge.clock](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/chart.bar.xaxis.ascending.badge.clock.png)
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
@@ -3177,7 +3177,7 @@ public extension SFSymbol {
     static var chartBarXaxisAscendingBadgeClock: SymbolWith1Localization<Rtl> { .init(rawValue: "chart.bar.xaxis.ascending.badge.clock") }
 
     /// 􂄗
-    /// ![checkmark.applewatch](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/checkmark.applewatch.png)
+    /// ![checkmark.applewatch](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/checkmark.applewatch.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -3188,7 +3188,7 @@ public extension SFSymbol {
     static var checkmarkApplewatch: SFSymbol { .init(rawValue: "checkmark.applewatch") }
 
     /// 􁣛
-    /// ![checkmark.gobackward](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/checkmark.gobackward.png)
+    /// ![checkmark.gobackward](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/checkmark.gobackward.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3202,7 +3202,7 @@ public extension SFSymbol {
     static var checkmarkGobackward: SFSymbol { .init(rawValue: "checkmark.gobackward") }
 
     /// 􂂼
-    /// ![checkmark.rectangle.stack](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/checkmark.rectangle.stack.png)
+    /// ![checkmark.rectangle.stack](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/checkmark.rectangle.stack.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3211,7 +3211,7 @@ public extension SFSymbol {
     static var checkmarkRectangleStack: SFSymbol { .init(rawValue: "checkmark.rectangle.stack") }
 
     /// 􂂽
-    /// ![checkmark.rectangle.stack.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/checkmark.rectangle.stack.fill.png)
+    /// ![checkmark.rectangle.stack.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/checkmark.rectangle.stack.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3221,7 +3221,7 @@ public extension SFSymbol {
     static var checkmarkRectangleStackFill: SFSymbol { .init(rawValue: "checkmark.rectangle.stack.fill") }
 
     /// 􁺑
-    /// ![chineseyuanrenminbisign](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/chineseyuanrenminbisign.png)
+    /// ![chineseyuanrenminbisign](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/chineseyuanrenminbisign.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3229,7 +3229,7 @@ public extension SFSymbol {
     static var chineseyuanrenminbisign: SFSymbol { .init(rawValue: "chineseyuanrenminbisign") }
 
     /// 􂈳
-    /// ![chineseyuanrenminbisign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/chineseyuanrenminbisign.arrow.circlepath.png)
+    /// ![chineseyuanrenminbisign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/chineseyuanrenminbisign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3243,7 +3243,7 @@ public extension SFSymbol {
     static var chineseyuanrenminbisignArrowCirclepath: SFSymbol { .init(rawValue: "chineseyuanrenminbisign.arrow.circlepath") }
 
     /// 􀯣
-    /// ![chineseyuanrenminbisign.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/chineseyuanrenminbisign.circle.png)
+    /// ![chineseyuanrenminbisign.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/chineseyuanrenminbisign.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3252,7 +3252,7 @@ public extension SFSymbol {
     static var chineseyuanrenminbisignCircle: SFSymbol { .init(rawValue: "chineseyuanrenminbisign.circle") }
 
     /// 􀯤
-    /// ![chineseyuanrenminbisign.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/chineseyuanrenminbisign.circle.fill.png)
+    /// ![chineseyuanrenminbisign.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/chineseyuanrenminbisign.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3262,7 +3262,7 @@ public extension SFSymbol {
     static var chineseyuanrenminbisignCircleFill: SFSymbol { .init(rawValue: "chineseyuanrenminbisign.circle.fill") }
 
     /// 􀯥
-    /// ![chineseyuanrenminbisign.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/chineseyuanrenminbisign.square.png)
+    /// ![chineseyuanrenminbisign.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/chineseyuanrenminbisign.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3271,7 +3271,7 @@ public extension SFSymbol {
     static var chineseyuanrenminbisignSquare: SFSymbol { .init(rawValue: "chineseyuanrenminbisign.square") }
 
     /// 􀯦
-    /// ![chineseyuanrenminbisign.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/chineseyuanrenminbisign.square.fill.png)
+    /// ![chineseyuanrenminbisign.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/chineseyuanrenminbisign.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3281,7 +3281,7 @@ public extension SFSymbol {
     static var chineseyuanrenminbisignSquareFill: SFSymbol { .init(rawValue: "chineseyuanrenminbisign.square.fill") }
 
     /// 􂀂
-    /// ![circle.badge.checkmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.badge.checkmark.png)
+    /// ![circle.badge.checkmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.badge.checkmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3291,7 +3291,7 @@ public extension SFSymbol {
     static var circleBadgeCheckmark: SFSymbol { .init(rawValue: "circle.badge.checkmark") }
 
     /// 􂀃
-    /// ![circle.badge.checkmark.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.badge.checkmark.fill.png)
+    /// ![circle.badge.checkmark.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.badge.checkmark.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3301,7 +3301,7 @@ public extension SFSymbol {
     static var circleBadgeCheckmarkFill: SFSymbol { .init(rawValue: "circle.badge.checkmark.fill") }
 
     /// 􂁔
-    /// ![circle.badge.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.badge.exclamationmark.png)
+    /// ![circle.badge.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.badge.exclamationmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3311,7 +3311,7 @@ public extension SFSymbol {
     static var circleBadgeExclamationmark: SFSymbol { .init(rawValue: "circle.badge.exclamationmark") }
 
     /// 􂁕
-    /// ![circle.badge.exclamationmark.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.badge.exclamationmark.fill.png)
+    /// ![circle.badge.exclamationmark.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.badge.exclamationmark.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3321,7 +3321,7 @@ public extension SFSymbol {
     static var circleBadgeExclamationmarkFill: SFSymbol { .init(rawValue: "circle.badge.exclamationmark.fill") }
 
     /// 􂁄
-    /// ![circle.badge.minus](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.badge.minus.png)
+    /// ![circle.badge.minus](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.badge.minus.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3331,7 +3331,7 @@ public extension SFSymbol {
     static var circleBadgeMinus: SFSymbol { .init(rawValue: "circle.badge.minus") }
 
     /// 􂁅
-    /// ![circle.badge.minus.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.badge.minus.fill.png)
+    /// ![circle.badge.minus.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.badge.minus.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3341,7 +3341,7 @@ public extension SFSymbol {
     static var circleBadgeMinusFill: SFSymbol { .init(rawValue: "circle.badge.minus.fill") }
 
     /// 􂁀
-    /// ![circle.badge.plus](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.badge.plus.png)
+    /// ![circle.badge.plus](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.badge.plus.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3351,7 +3351,7 @@ public extension SFSymbol {
     static var circleBadgePlus: SFSymbol { .init(rawValue: "circle.badge.plus") }
 
     /// 􂁁
-    /// ![circle.badge.plus.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.badge.plus.fill.png)
+    /// ![circle.badge.plus.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.badge.plus.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3361,7 +3361,7 @@ public extension SFSymbol {
     static var circleBadgePlusFill: SFSymbol { .init(rawValue: "circle.badge.plus.fill") }
 
     /// 􂁌
-    /// ![circle.badge.questionmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.badge.questionmark.png)
+    /// ![circle.badge.questionmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.badge.questionmark.png)
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
@@ -3375,7 +3375,7 @@ public extension SFSymbol {
     static var circleBadgeQuestionmark: SymbolWith1Localization<Ar> { .init(rawValue: "circle.badge.questionmark") }
 
     /// 􂁍
-    /// ![circle.badge.questionmark.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.badge.questionmark.fill.png)
+    /// ![circle.badge.questionmark.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.badge.questionmark.fill.png)
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
@@ -3389,7 +3389,7 @@ public extension SFSymbol {
     static var circleBadgeQuestionmarkFill: SymbolWith1Localization<Ar> { .init(rawValue: "circle.badge.questionmark.fill") }
 
     /// 􂁈
-    /// ![circle.badge.xmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.badge.xmark.png)
+    /// ![circle.badge.xmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.badge.xmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3399,7 +3399,7 @@ public extension SFSymbol {
     static var circleBadgeXmark: SFSymbol { .init(rawValue: "circle.badge.xmark") }
 
     /// 􂁉
-    /// ![circle.badge.xmark.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.badge.xmark.fill.png)
+    /// ![circle.badge.xmark.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.badge.xmark.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3409,7 +3409,7 @@ public extension SFSymbol {
     static var circleBadgeXmarkFill: SFSymbol { .init(rawValue: "circle.badge.xmark.fill") }
 
     /// 􁹰
-    /// ![circle.bottomhalf.filled.inverse](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.bottomhalf.filled.inverse.png)
+    /// ![circle.bottomhalf.filled.inverse](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.bottomhalf.filled.inverse.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3417,7 +3417,7 @@ public extension SFSymbol {
     static var circleBottomhalfFilledInverse: SFSymbol { .init(rawValue: "circle.bottomhalf.filled.inverse") }
 
     /// 􁹨
-    /// ![circle.bottomrighthalf.checkered](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.bottomrighthalf.checkered.png)
+    /// ![circle.bottomrighthalf.checkered](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.bottomrighthalf.checkered.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3430,7 +3430,7 @@ public extension SFSymbol {
     static var circleBottomrighthalfCheckered: SFSymbol { .init(rawValue: "circle.bottomrighthalf.checkered") }
 
     /// 􁊕
-    /// ![circle.dotted.and.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.dotted.and.circle.png)
+    /// ![circle.dotted.and.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.dotted.and.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3439,7 +3439,7 @@ public extension SFSymbol {
     static var circleDottedAndCircle: SFSymbol { .init(rawValue: "circle.dotted.and.circle") }
 
     /// 􁹧
-    /// ![circle.dotted.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.dotted.circle.png)
+    /// ![circle.dotted.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.dotted.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3448,7 +3448,7 @@ public extension SFSymbol {
     static var circleDottedCircle: SFSymbol { .init(rawValue: "circle.dotted.circle") }
 
     /// 􁷟
-    /// ![circle.dotted.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.dotted.circle.fill.png)
+    /// ![circle.dotted.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.dotted.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3458,7 +3458,7 @@ public extension SFSymbol {
     static var circleDottedCircleFill: SFSymbol { .init(rawValue: "circle.dotted.circle.fill") }
 
     /// 􂃻
-    /// ![circle.filled.ipad](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.filled.ipad.png)
+    /// ![circle.filled.ipad](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.filled.ipad.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3467,7 +3467,7 @@ public extension SFSymbol {
     static var circleFilledIpad: SFSymbol { .init(rawValue: "circle.filled.ipad") }
 
     /// 􂃼
-    /// ![circle.filled.ipad.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.filled.ipad.fill.png)
+    /// ![circle.filled.ipad.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.filled.ipad.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3477,7 +3477,7 @@ public extension SFSymbol {
     static var circleFilledIpadFill: SFSymbol { .init(rawValue: "circle.filled.ipad.fill") }
 
     /// 􂃽
-    /// ![circle.filled.ipad.landscape](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.filled.ipad.landscape.png)
+    /// ![circle.filled.ipad.landscape](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.filled.ipad.landscape.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3486,7 +3486,7 @@ public extension SFSymbol {
     static var circleFilledIpadLandscape: SFSymbol { .init(rawValue: "circle.filled.ipad.landscape") }
 
     /// 􂃾
-    /// ![circle.filled.ipad.landscape.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.filled.ipad.landscape.fill.png)
+    /// ![circle.filled.ipad.landscape.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.filled.ipad.landscape.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3496,7 +3496,7 @@ public extension SFSymbol {
     static var circleFilledIpadLandscapeFill: SFSymbol { .init(rawValue: "circle.filled.ipad.landscape.fill") }
 
     /// 􂃯
-    /// ![circle.filled.iphone](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.filled.iphone.png)
+    /// ![circle.filled.iphone](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.filled.iphone.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3505,7 +3505,7 @@ public extension SFSymbol {
     static var circleFilledIphone: SFSymbol { .init(rawValue: "circle.filled.iphone") }
 
     /// 􂃰
-    /// ![circle.filled.iphone.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.filled.iphone.fill.png)
+    /// ![circle.filled.iphone.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.filled.iphone.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3515,7 +3515,7 @@ public extension SFSymbol {
     static var circleFilledIphoneFill: SFSymbol { .init(rawValue: "circle.filled.iphone.fill") }
 
     /// 􁹭
-    /// ![circle.lefthalf.filled.inverse](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.lefthalf.filled.inverse.png)
+    /// ![circle.lefthalf.filled.inverse](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.lefthalf.filled.inverse.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3523,7 +3523,7 @@ public extension SFSymbol {
     static var circleLefthalfFilledInverse: SFSymbol { .init(rawValue: "circle.lefthalf.filled.inverse") }
 
     /// 􁹣
-    /// ![circle.lefthalf.filled.righthalf.striped.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.lefthalf.filled.righthalf.striped.horizontal.png)
+    /// ![circle.lefthalf.filled.righthalf.striped.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.lefthalf.filled.righthalf.striped.horizontal.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3531,7 +3531,7 @@ public extension SFSymbol {
     static var circleLefthalfFilledRighthalfStripedHorizontal: SFSymbol { .init(rawValue: "circle.lefthalf.filled.righthalf.striped.horizontal") }
 
     /// 􁹤
-    /// ![circle.lefthalf.filled.righthalf.striped.horizontal.inverse](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.lefthalf.filled.righthalf.striped.horizontal.inverse.png)
+    /// ![circle.lefthalf.filled.righthalf.striped.horizontal.inverse](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.lefthalf.filled.righthalf.striped.horizontal.inverse.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3539,7 +3539,7 @@ public extension SFSymbol {
     static var circleLefthalfFilledRighthalfStripedHorizontalInverse: SFSymbol { .init(rawValue: "circle.lefthalf.filled.righthalf.striped.horizontal.inverse") }
 
     /// 􁹥
-    /// ![circle.lefthalf.striped.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.lefthalf.striped.horizontal.png)
+    /// ![circle.lefthalf.striped.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.lefthalf.striped.horizontal.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3547,7 +3547,7 @@ public extension SFSymbol {
     static var circleLefthalfStripedHorizontal: SFSymbol { .init(rawValue: "circle.lefthalf.striped.horizontal") }
 
     /// 􁹦
-    /// ![circle.lefthalf.striped.horizontal.inverse](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.lefthalf.striped.horizontal.inverse.png)
+    /// ![circle.lefthalf.striped.horizontal.inverse](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.lefthalf.striped.horizontal.inverse.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3555,7 +3555,7 @@ public extension SFSymbol {
     static var circleLefthalfStripedHorizontalInverse: SFSymbol { .init(rawValue: "circle.lefthalf.striped.horizontal.inverse") }
 
     /// 􁹮
-    /// ![circle.righthalf.filled.inverse](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.righthalf.filled.inverse.png)
+    /// ![circle.righthalf.filled.inverse](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.righthalf.filled.inverse.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3563,7 +3563,7 @@ public extension SFSymbol {
     static var circleRighthalfFilledInverse: SFSymbol { .init(rawValue: "circle.righthalf.filled.inverse") }
 
     /// 􁹯
-    /// ![circle.tophalf.filled.inverse](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/circle.tophalf.filled.inverse.png)
+    /// ![circle.tophalf.filled.inverse](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/circle.tophalf.filled.inverse.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3571,7 +3571,7 @@ public extension SFSymbol {
     static var circleTophalfFilledInverse: SFSymbol { .init(rawValue: "circle.tophalf.filled.inverse") }
 
     /// 􁷞
-    /// ![cloud.rainbow.half](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/cloud.rainbow.half.png)
+    /// ![cloud.rainbow.half](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/cloud.rainbow.half.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3586,7 +3586,7 @@ public extension SFSymbol {
     static var cloudRainbowHalf: SFSymbol { .init(rawValue: "cloud.rainbow.half") }
 
     /// 􁷠
-    /// ![cloud.rainbow.half.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/cloud.rainbow.half.fill.png)
+    /// ![cloud.rainbow.half.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/cloud.rainbow.half.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3601,7 +3601,7 @@ public extension SFSymbol {
     static var cloudRainbowHalfFill: SFSymbol { .init(rawValue: "cloud.rainbow.half.fill") }
 
     /// 􂈧
-    /// ![coloncurrencysign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/coloncurrencysign.arrow.circlepath.png)
+    /// ![coloncurrencysign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/coloncurrencysign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3615,7 +3615,7 @@ public extension SFSymbol {
     static var coloncurrencysignArrowCirclepath: SFSymbol { .init(rawValue: "coloncurrencysign.arrow.circlepath") }
 
     /// 􁣐
-    /// ![creditcard.trianglebadge.exclamationmark.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/creditcard.trianglebadge.exclamationmark.fill.png)
+    /// ![creditcard.trianglebadge.exclamationmark.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/creditcard.trianglebadge.exclamationmark.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3625,7 +3625,7 @@ public extension SFSymbol {
     static var creditcardTrianglebadgeExclamationmarkFill: SFSymbol { .init(rawValue: "creditcard.trianglebadge.exclamationmark.fill") }
 
     /// 􂈩
-    /// ![cruzeirosign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/cruzeirosign.arrow.circlepath.png)
+    /// ![cruzeirosign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/cruzeirosign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3639,7 +3639,7 @@ public extension SFSymbol {
     static var cruzeirosignArrowCirclepath: SFSymbol { .init(rawValue: "cruzeirosign.arrow.circlepath") }
 
     /// 􁷁
-    /// ![cursorarrow.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/cursorarrow.slash.png)
+    /// ![cursorarrow.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/cursorarrow.slash.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3653,7 +3653,7 @@ public extension SFSymbol {
     static var cursorarrowSlash: SFSymbol { .init(rawValue: "cursorarrow.slash") }
 
     /// 􁷂
-    /// ![cursorarrow.slash.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/cursorarrow.slash.square.png)
+    /// ![cursorarrow.slash.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/cursorarrow.slash.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3667,7 +3667,7 @@ public extension SFSymbol {
     static var cursorarrowSlashSquare: SFSymbol { .init(rawValue: "cursorarrow.slash.square") }
 
     /// 􁷃
-    /// ![cursorarrow.slash.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/cursorarrow.slash.square.fill.png)
+    /// ![cursorarrow.slash.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/cursorarrow.slash.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3682,7 +3682,7 @@ public extension SFSymbol {
     static var cursorarrowSlashSquareFill: SFSymbol { .init(rawValue: "cursorarrow.slash.square.fill") }
 
     /// 􁤮
-    /// ![danishkronesign](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/danishkronesign.png)
+    /// ![danishkronesign](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/danishkronesign.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3690,7 +3690,7 @@ public extension SFSymbol {
     static var danishkronesign: SFSymbol { .init(rawValue: "danishkronesign") }
 
     /// 􂈷
-    /// ![danishkronesign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/danishkronesign.arrow.circlepath.png)
+    /// ![danishkronesign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/danishkronesign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3704,7 +3704,7 @@ public extension SFSymbol {
     static var danishkronesignArrowCirclepath: SFSymbol { .init(rawValue: "danishkronesign.arrow.circlepath") }
 
     /// 􀮬
-    /// ![danishkronesign.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/danishkronesign.circle.png)
+    /// ![danishkronesign.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/danishkronesign.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3713,7 +3713,7 @@ public extension SFSymbol {
     static var danishkronesignCircle: SFSymbol { .init(rawValue: "danishkronesign.circle") }
 
     /// 􀮭
-    /// ![danishkronesign.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/danishkronesign.circle.fill.png)
+    /// ![danishkronesign.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/danishkronesign.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3723,7 +3723,7 @@ public extension SFSymbol {
     static var danishkronesignCircleFill: SFSymbol { .init(rawValue: "danishkronesign.circle.fill") }
 
     /// 􀮮
-    /// ![danishkronesign.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/danishkronesign.square.png)
+    /// ![danishkronesign.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/danishkronesign.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3732,7 +3732,7 @@ public extension SFSymbol {
     static var danishkronesignSquare: SFSymbol { .init(rawValue: "danishkronesign.square") }
 
     /// 􀮯
-    /// ![danishkronesign.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/danishkronesign.square.fill.png)
+    /// ![danishkronesign.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/danishkronesign.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3742,7 +3742,7 @@ public extension SFSymbol {
     static var danishkronesignSquareFill: SFSymbol { .init(rawValue: "danishkronesign.square.fill") }
 
     /// 􁿖
-    /// ![dishwasher.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/dishwasher.circle.png)
+    /// ![dishwasher.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/dishwasher.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3751,7 +3751,7 @@ public extension SFSymbol {
     static var dishwasherCircle: SFSymbol { .init(rawValue: "dishwasher.circle") }
 
     /// 􁿗
-    /// ![dishwasher.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/dishwasher.circle.fill.png)
+    /// ![dishwasher.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/dishwasher.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3761,7 +3761,7 @@ public extension SFSymbol {
     static var dishwasherCircleFill: SFSymbol { .init(rawValue: "dishwasher.circle.fill") }
 
     /// 􀫾
-    /// ![doc.badge.clock](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/doc.badge.clock.png)
+    /// ![doc.badge.clock](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/doc.badge.clock.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3776,7 +3776,7 @@ public extension SFSymbol {
     static var docBadgeClock: SFSymbol { .init(rawValue: "doc.badge.clock") }
 
     /// 􀫿
-    /// ![doc.badge.clock.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/doc.badge.clock.fill.png)
+    /// ![doc.badge.clock.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/doc.badge.clock.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3791,7 +3791,7 @@ public extension SFSymbol {
     static var docBadgeClockFill: SFSymbol { .init(rawValue: "doc.badge.clock.fill") }
 
     /// 􂇲
-    /// ![doc.questionmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/doc.questionmark.png)
+    /// ![doc.questionmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/doc.questionmark.png)
     /// 3 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -3810,7 +3810,7 @@ public extension SFSymbol {
     static var docQuestionmark: SymbolWith2Localizations<Ar, Rtl> { .init(rawValue: "doc.questionmark") }
 
     /// 􂇳
-    /// ![doc.questionmark.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/doc.questionmark.fill.png)
+    /// ![doc.questionmark.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/doc.questionmark.fill.png)
     /// 3 Localizations, Single Layerset
     ///
     /// Localizations:
@@ -3828,7 +3828,7 @@ public extension SFSymbol {
     static var docQuestionmarkFill: SymbolWith2Localizations<Ar, Rtl> { .init(rawValue: "doc.questionmark.fill") }
 
     /// 􂀆
-    /// ![dog](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/dog.png)
+    /// ![dog](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/dog.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3836,7 +3836,7 @@ public extension SFSymbol {
     static var dog: SFSymbol { .init(rawValue: "dog") }
 
     /// 􂀾
-    /// ![dog.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/dog.circle.png)
+    /// ![dog.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/dog.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3845,7 +3845,7 @@ public extension SFSymbol {
     static var dogCircle: SFSymbol { .init(rawValue: "dog.circle") }
 
     /// 􂀿
-    /// ![dog.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/dog.circle.fill.png)
+    /// ![dog.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/dog.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3855,7 +3855,7 @@ public extension SFSymbol {
     static var dogCircleFill: SFSymbol { .init(rawValue: "dog.circle.fill") }
 
     /// 􂀇
-    /// ![dog.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/dog.fill.png)
+    /// ![dog.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/dog.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3863,7 +3863,7 @@ public extension SFSymbol {
     static var dogFill: SFSymbol { .init(rawValue: "dog.fill") }
 
     /// 􂈛
-    /// ![dongsign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/dongsign.arrow.circlepath.png)
+    /// ![dongsign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/dongsign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3877,7 +3877,7 @@ public extension SFSymbol {
     static var dongsignArrowCirclepath: SFSymbol { .init(rawValue: "dongsign.arrow.circlepath") }
 
     /// 􂇏
-    /// ![dot.scope](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/dot.scope.png)
+    /// ![dot.scope](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/dot.scope.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3885,7 +3885,7 @@ public extension SFSymbol {
     static var dotScope: SFSymbol { .init(rawValue: "dot.scope") }
 
     /// 􂇌
-    /// ![dot.scope.display](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/dot.scope.display.png)
+    /// ![dot.scope.display](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/dot.scope.display.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3894,7 +3894,7 @@ public extension SFSymbol {
     static var dotScopeDisplay: SFSymbol { .init(rawValue: "dot.scope.display") }
 
     /// 􁿍
-    /// ![dot.scope.laptopcomputer](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/dot.scope.laptopcomputer.png)
+    /// ![dot.scope.laptopcomputer](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/dot.scope.laptopcomputer.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3903,7 +3903,7 @@ public extension SFSymbol {
     static var dotScopeLaptopcomputer: SFSymbol { .init(rawValue: "dot.scope.laptopcomputer") }
 
     /// 􁹡
-    /// ![drop.halffull](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/drop.halffull.png)
+    /// ![drop.halffull](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/drop.halffull.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3911,7 +3911,7 @@ public extension SFSymbol {
     static var dropHalffull: SFSymbol { .init(rawValue: "drop.halffull") }
 
     /// 􁤈
-    /// ![drop.transmission](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/drop.transmission.png)
+    /// ![drop.transmission](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/drop.transmission.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3920,7 +3920,7 @@ public extension SFSymbol {
     static var dropTransmission: SFSymbol { .init(rawValue: "drop.transmission") }
 
     /// 􁿒
-    /// ![dryer.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/dryer.circle.png)
+    /// ![dryer.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/dryer.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -3929,7 +3929,7 @@ public extension SFSymbol {
     static var dryerCircle: SFSymbol { .init(rawValue: "dryer.circle") }
 
     /// 􁿓
-    /// ![dryer.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/dryer.circle.fill.png)
+    /// ![dryer.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/dryer.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3939,7 +3939,7 @@ public extension SFSymbol {
     static var dryerCircleFill: SFSymbol { .init(rawValue: "dryer.circle.fill") }
 
     /// 􀵣
-    /// ![ear.badge.waveform](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ear.badge.waveform.png)
+    /// ![ear.badge.waveform](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ear.badge.waveform.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3949,7 +3949,7 @@ public extension SFSymbol {
     static var earBadgeWaveform: SFSymbol { .init(rawValue: "ear.badge.waveform") }
 
     /// 􁊦
-    /// ![engine.combustion.badge.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/engine.combustion.badge.exclamationmark.png)
+    /// ![engine.combustion.badge.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/engine.combustion.badge.exclamationmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3959,7 +3959,7 @@ public extension SFSymbol {
     static var engineCombustionBadgeExclamationmark: SFSymbol { .init(rawValue: "engine.combustion.badge.exclamationmark") }
 
     /// 􁊧
-    /// ![engine.combustion.badge.exclamationmark.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/engine.combustion.badge.exclamationmark.fill.png)
+    /// ![engine.combustion.badge.exclamationmark.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/engine.combustion.badge.exclamationmark.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3969,7 +3969,7 @@ public extension SFSymbol {
     static var engineCombustionBadgeExclamationmarkFill: SFSymbol { .init(rawValue: "engine.combustion.badge.exclamationmark.fill") }
 
     /// 􁷻
-    /// ![envelope.badge.person.crop](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/envelope.badge.person.crop.png)
+    /// ![envelope.badge.person.crop](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/envelope.badge.person.crop.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3979,7 +3979,7 @@ public extension SFSymbol {
     static var envelopeBadgePersonCrop: SFSymbol { .init(rawValue: "envelope.badge.person.crop") }
 
     /// 􁷽
-    /// ![envelope.badge.person.crop.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/envelope.badge.person.crop.fill.png)
+    /// ![envelope.badge.person.crop.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/envelope.badge.person.crop.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -3989,7 +3989,7 @@ public extension SFSymbol {
     static var envelopeBadgePersonCropFill: SFSymbol { .init(rawValue: "envelope.badge.person.crop.fill") }
 
     /// 􂈚
-    /// ![eurosign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/eurosign.arrow.circlepath.png)
+    /// ![eurosign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/eurosign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4003,7 +4003,7 @@ public extension SFSymbol {
     static var eurosignArrowCirclepath: SFSymbol { .init(rawValue: "eurosign.arrow.circlepath") }
 
     /// 􁤴
-    /// ![eurozonesign](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/eurozonesign.png)
+    /// ![eurozonesign](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/eurozonesign.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4011,7 +4011,7 @@ public extension SFSymbol {
     static var eurozonesign: SFSymbol { .init(rawValue: "eurozonesign") }
 
     /// 􂈸
-    /// ![eurozonesign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/eurozonesign.arrow.circlepath.png)
+    /// ![eurozonesign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/eurozonesign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4025,7 +4025,7 @@ public extension SFSymbol {
     static var eurozonesignArrowCirclepath: SFSymbol { .init(rawValue: "eurozonesign.arrow.circlepath") }
 
     /// 􁤵
-    /// ![eurozonesign.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/eurozonesign.circle.png)
+    /// ![eurozonesign.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/eurozonesign.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4034,7 +4034,7 @@ public extension SFSymbol {
     static var eurozonesignCircle: SFSymbol { .init(rawValue: "eurozonesign.circle") }
 
     /// 􁤶
-    /// ![eurozonesign.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/eurozonesign.circle.fill.png)
+    /// ![eurozonesign.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/eurozonesign.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -4044,7 +4044,7 @@ public extension SFSymbol {
     static var eurozonesignCircleFill: SFSymbol { .init(rawValue: "eurozonesign.circle.fill") }
 
     /// 􁤷
-    /// ![eurozonesign.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/eurozonesign.square.png)
+    /// ![eurozonesign.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/eurozonesign.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4053,7 +4053,7 @@ public extension SFSymbol {
     static var eurozonesignSquare: SFSymbol { .init(rawValue: "eurozonesign.square") }
 
     /// 􁤸
-    /// ![eurozonesign.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/eurozonesign.square.fill.png)
+    /// ![eurozonesign.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/eurozonesign.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -4063,7 +4063,7 @@ public extension SFSymbol {
     static var eurozonesignSquareFill: SFSymbol { .init(rawValue: "eurozonesign.square.fill") }
 
     /// 􁊨
-    /// ![ev.charger](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.charger.png)
+    /// ![ev.charger](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.charger.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4071,7 +4071,7 @@ public extension SFSymbol {
     static var evCharger: SFSymbol { .init(rawValue: "ev.charger") }
 
     /// 􁰪
-    /// ![ev.charger.arrowtriangle.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.charger.arrowtriangle.left.png)
+    /// ![ev.charger.arrowtriangle.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.charger.arrowtriangle.left.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4080,7 +4080,7 @@ public extension SFSymbol {
     static var evChargerArrowtriangleLeft: SFSymbol { .init(rawValue: "ev.charger.arrowtriangle.left") }
 
     /// 􁰫
-    /// ![ev.charger.arrowtriangle.left.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.charger.arrowtriangle.left.fill.png)
+    /// ![ev.charger.arrowtriangle.left.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.charger.arrowtriangle.left.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4089,7 +4089,7 @@ public extension SFSymbol {
     static var evChargerArrowtriangleLeftFill: SFSymbol { .init(rawValue: "ev.charger.arrowtriangle.left.fill") }
 
     /// 􁰲
-    /// ![ev.charger.arrowtriangle.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.charger.arrowtriangle.right.png)
+    /// ![ev.charger.arrowtriangle.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.charger.arrowtriangle.right.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4098,7 +4098,7 @@ public extension SFSymbol {
     static var evChargerArrowtriangleRight: SFSymbol { .init(rawValue: "ev.charger.arrowtriangle.right") }
 
     /// 􁰳
-    /// ![ev.charger.arrowtriangle.right.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.charger.arrowtriangle.right.fill.png)
+    /// ![ev.charger.arrowtriangle.right.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.charger.arrowtriangle.right.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4107,7 +4107,7 @@ public extension SFSymbol {
     static var evChargerArrowtriangleRightFill: SFSymbol { .init(rawValue: "ev.charger.arrowtriangle.right.fill") }
 
     /// 􁰶
-    /// ![ev.charger.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.charger.exclamationmark.png)
+    /// ![ev.charger.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.charger.exclamationmark.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4116,7 +4116,7 @@ public extension SFSymbol {
     static var evChargerExclamationmark: SFSymbol { .init(rawValue: "ev.charger.exclamationmark") }
 
     /// 􁰷
-    /// ![ev.charger.exclamationmark.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.charger.exclamationmark.fill.png)
+    /// ![ev.charger.exclamationmark.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.charger.exclamationmark.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4125,7 +4125,7 @@ public extension SFSymbol {
     static var evChargerExclamationmarkFill: SFSymbol { .init(rawValue: "ev.charger.exclamationmark.fill") }
 
     /// 􁊩
-    /// ![ev.charger.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.charger.fill.png)
+    /// ![ev.charger.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.charger.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4133,7 +4133,7 @@ public extension SFSymbol {
     static var evChargerFill: SFSymbol { .init(rawValue: "ev.charger.fill") }
 
     /// 􁰦
-    /// ![ev.charger.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.charger.slash.png)
+    /// ![ev.charger.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.charger.slash.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4142,7 +4142,7 @@ public extension SFSymbol {
     static var evChargerSlash: SFSymbol { .init(rawValue: "ev.charger.slash") }
 
     /// 􁰧
-    /// ![ev.charger.slash.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.charger.slash.fill.png)
+    /// ![ev.charger.slash.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.charger.slash.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4151,7 +4151,7 @@ public extension SFSymbol {
     static var evChargerSlashFill: SFSymbol { .init(rawValue: "ev.charger.slash.fill") }
 
     /// 􁺰
-    /// ![ev.plug.ac.gb.t](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.plug.ac.gb.t.png)
+    /// ![ev.plug.ac.gb.t](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.plug.ac.gb.t.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4160,7 +4160,7 @@ public extension SFSymbol {
     static var evPlugAcGbT: SFSymbol { .init(rawValue: "ev.plug.ac.gb.t") }
 
     /// 􁺱
-    /// ![ev.plug.ac.gb.t.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.plug.ac.gb.t.fill.png)
+    /// ![ev.plug.ac.gb.t.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.plug.ac.gb.t.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4169,7 +4169,7 @@ public extension SFSymbol {
     static var evPlugAcGbTFill: SFSymbol { .init(rawValue: "ev.plug.ac.gb.t.fill") }
 
     /// 􁺬
-    /// ![ev.plug.ac.type.1](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.plug.ac.type.1.png)
+    /// ![ev.plug.ac.type.1](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.plug.ac.type.1.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4178,7 +4178,7 @@ public extension SFSymbol {
     static var evPlugAcType1: SFSymbol { .init(rawValue: "ev.plug.ac.type.1") }
 
     /// 􁺭
-    /// ![ev.plug.ac.type.1.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.plug.ac.type.1.fill.png)
+    /// ![ev.plug.ac.type.1.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.plug.ac.type.1.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4187,7 +4187,7 @@ public extension SFSymbol {
     static var evPlugAcType1Fill: SFSymbol { .init(rawValue: "ev.plug.ac.type.1.fill") }
 
     /// 􁺮
-    /// ![ev.plug.ac.type.2](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.plug.ac.type.2.png)
+    /// ![ev.plug.ac.type.2](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.plug.ac.type.2.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4196,7 +4196,7 @@ public extension SFSymbol {
     static var evPlugAcType2: SFSymbol { .init(rawValue: "ev.plug.ac.type.2") }
 
     /// 􁺯
-    /// ![ev.plug.ac.type.2.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.plug.ac.type.2.fill.png)
+    /// ![ev.plug.ac.type.2.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.plug.ac.type.2.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4205,7 +4205,7 @@ public extension SFSymbol {
     static var evPlugAcType2Fill: SFSymbol { .init(rawValue: "ev.plug.ac.type.2.fill") }
 
     /// 􁺲
-    /// ![ev.plug.dc.ccs1](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.plug.dc.ccs1.png)
+    /// ![ev.plug.dc.ccs1](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.plug.dc.ccs1.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4214,7 +4214,7 @@ public extension SFSymbol {
     static var evPlugDcCcs1: SFSymbol { .init(rawValue: "ev.plug.dc.ccs1") }
 
     /// 􁺳
-    /// ![ev.plug.dc.ccs1.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.plug.dc.ccs1.fill.png)
+    /// ![ev.plug.dc.ccs1.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.plug.dc.ccs1.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4223,7 +4223,7 @@ public extension SFSymbol {
     static var evPlugDcCcs1Fill: SFSymbol { .init(rawValue: "ev.plug.dc.ccs1.fill") }
 
     /// 􁺴
-    /// ![ev.plug.dc.ccs2](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.plug.dc.ccs2.png)
+    /// ![ev.plug.dc.ccs2](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.plug.dc.ccs2.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4232,7 +4232,7 @@ public extension SFSymbol {
     static var evPlugDcCcs2: SFSymbol { .init(rawValue: "ev.plug.dc.ccs2") }
 
     /// 􁺵
-    /// ![ev.plug.dc.ccs2.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.plug.dc.ccs2.fill.png)
+    /// ![ev.plug.dc.ccs2.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.plug.dc.ccs2.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4241,7 +4241,7 @@ public extension SFSymbol {
     static var evPlugDcCcs2Fill: SFSymbol { .init(rawValue: "ev.plug.dc.ccs2.fill") }
 
     /// 􁺶
-    /// ![ev.plug.dc.chademo](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.plug.dc.chademo.png)
+    /// ![ev.plug.dc.chademo](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.plug.dc.chademo.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4250,7 +4250,7 @@ public extension SFSymbol {
     static var evPlugDcChademo: SFSymbol { .init(rawValue: "ev.plug.dc.chademo") }
 
     /// 􁺷
-    /// ![ev.plug.dc.chademo.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.plug.dc.chademo.fill.png)
+    /// ![ev.plug.dc.chademo.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.plug.dc.chademo.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4259,7 +4259,7 @@ public extension SFSymbol {
     static var evPlugDcChademoFill: SFSymbol { .init(rawValue: "ev.plug.dc.chademo.fill") }
 
     /// 􁺸
-    /// ![ev.plug.dc.gb.t](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.plug.dc.gb.t.png)
+    /// ![ev.plug.dc.gb.t](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.plug.dc.gb.t.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4268,7 +4268,7 @@ public extension SFSymbol {
     static var evPlugDcGbT: SFSymbol { .init(rawValue: "ev.plug.dc.gb.t") }
 
     /// 􁺹
-    /// ![ev.plug.dc.gb.t.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.plug.dc.gb.t.fill.png)
+    /// ![ev.plug.dc.gb.t.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.plug.dc.gb.t.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4277,7 +4277,7 @@ public extension SFSymbol {
     static var evPlugDcGbTFill: SFSymbol { .init(rawValue: "ev.plug.dc.gb.t.fill") }
 
     /// 􁺺
-    /// ![ev.plug.dc.nacs](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.plug.dc.nacs.png)
+    /// ![ev.plug.dc.nacs](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.plug.dc.nacs.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4286,7 +4286,7 @@ public extension SFSymbol {
     static var evPlugDcNacs: SFSymbol { .init(rawValue: "ev.plug.dc.nacs") }
 
     /// 􁺻
-    /// ![ev.plug.dc.nacs.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ev.plug.dc.nacs.fill.png)
+    /// ![ev.plug.dc.nacs.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ev.plug.dc.nacs.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4295,7 +4295,7 @@ public extension SFSymbol {
     static var evPlugDcNacsFill: SFSymbol { .init(rawValue: "ev.plug.dc.nacs.fill") }
 
     /// 􂈂
-    /// ![exclamationmark.magnifyingglass](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/exclamationmark.magnifyingglass.png)
+    /// ![exclamationmark.magnifyingglass](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/exclamationmark.magnifyingglass.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4304,7 +4304,7 @@ public extension SFSymbol {
     static var exclamationmarkMagnifyingglass: SFSymbol { .init(rawValue: "exclamationmark.magnifyingglass") }
 
     /// 􁀓
-    /// ![exclamationmark.tirepressure](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/exclamationmark.tirepressure.png)
+    /// ![exclamationmark.tirepressure](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/exclamationmark.tirepressure.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -4314,7 +4314,7 @@ public extension SFSymbol {
     static var exclamationmarkTirepressure: SFSymbol { .init(rawValue: "exclamationmark.tirepressure") }
 
     /// 􁀮
-    /// ![exclamationmark.warninglight](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/exclamationmark.warninglight.png)
+    /// ![exclamationmark.warninglight](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/exclamationmark.warninglight.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -4324,7 +4324,7 @@ public extension SFSymbol {
     static var exclamationmarkWarninglight: SFSymbol { .init(rawValue: "exclamationmark.warninglight") }
 
     /// 􁀯
-    /// ![exclamationmark.warninglight.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/exclamationmark.warninglight.fill.png)
+    /// ![exclamationmark.warninglight.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/exclamationmark.warninglight.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -4334,7 +4334,7 @@ public extension SFSymbol {
     static var exclamationmarkWarninglightFill: SFSymbol { .init(rawValue: "exclamationmark.warninglight.fill") }
 
     /// 􂀶
-    /// ![eyeglasses.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/eyeglasses.slash.png)
+    /// ![eyeglasses.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/eyeglasses.slash.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4343,7 +4343,7 @@ public extension SFSymbol {
     static var eyeglassesSlash: SFSymbol { .init(rawValue: "eyeglasses.slash") }
 
     /// 􁁋
-    /// ![fan](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/fan.png)
+    /// ![fan](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/fan.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4351,7 +4351,7 @@ public extension SFSymbol {
     static var fan: SFSymbol { .init(rawValue: "fan") }
 
     /// 􁲉
-    /// ![fan.badge.automatic](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/fan.badge.automatic.png)
+    /// ![fan.badge.automatic](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/fan.badge.automatic.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -4361,7 +4361,7 @@ public extension SFSymbol {
     static var fanBadgeAutomatic: SFSymbol { .init(rawValue: "fan.badge.automatic") }
 
     /// 􁲊
-    /// ![fan.badge.automatic.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/fan.badge.automatic.fill.png)
+    /// ![fan.badge.automatic.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/fan.badge.automatic.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -4371,7 +4371,7 @@ public extension SFSymbol {
     static var fanBadgeAutomaticFill: SFSymbol { .init(rawValue: "fan.badge.automatic.fill") }
 
     /// 􁁌
-    /// ![fan.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/fan.fill.png)
+    /// ![fan.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/fan.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4379,7 +4379,7 @@ public extension SFSymbol {
     static var fanFill: SFSymbol { .init(rawValue: "fan.fill") }
 
     /// 􁝚
-    /// ![fan.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/fan.slash.png)
+    /// ![fan.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/fan.slash.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4388,7 +4388,7 @@ public extension SFSymbol {
     static var fanSlash: SFSymbol { .init(rawValue: "fan.slash") }
 
     /// 􁝛
-    /// ![fan.slash.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/fan.slash.fill.png)
+    /// ![fan.slash.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/fan.slash.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4397,7 +4397,7 @@ public extension SFSymbol {
     static var fanSlashFill: SFSymbol { .init(rawValue: "fan.slash.fill") }
 
     /// 􁿼
-    /// ![field.of.view.ultrawide](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/field.of.view.ultrawide.png)
+    /// ![field.of.view.ultrawide](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/field.of.view.ultrawide.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4406,7 +4406,7 @@ public extension SFSymbol {
     static var fieldOfViewUltrawide: SFSymbol { .init(rawValue: "field.of.view.ultrawide") }
 
     /// 􁿽
-    /// ![field.of.view.ultrawide.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/field.of.view.ultrawide.fill.png)
+    /// ![field.of.view.ultrawide.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/field.of.view.ultrawide.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4414,7 +4414,7 @@ public extension SFSymbol {
     static var fieldOfViewUltrawideFill: SFSymbol { .init(rawValue: "field.of.view.ultrawide.fill") }
 
     /// 􁿾
-    /// ![field.of.view.wide](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/field.of.view.wide.png)
+    /// ![field.of.view.wide](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/field.of.view.wide.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4423,7 +4423,7 @@ public extension SFSymbol {
     static var fieldOfViewWide: SFSymbol { .init(rawValue: "field.of.view.wide") }
 
     /// 􁿿
-    /// ![field.of.view.wide.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/field.of.view.wide.fill.png)
+    /// ![field.of.view.wide.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/field.of.view.wide.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4431,7 +4431,7 @@ public extension SFSymbol {
     static var fieldOfViewWideFill: SFSymbol { .init(rawValue: "field.of.view.wide.fill") }
 
     /// 􀕽
-    /// ![figure](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.png)
+    /// ![figure](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4439,7 +4439,7 @@ public extension SFSymbol {
     static var figure: SFSymbol { .init(rawValue: "figure") }
 
     /// 􀘷
-    /// ![figure.2](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.2.png)
+    /// ![figure.2](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.2.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4447,7 +4447,7 @@ public extension SFSymbol {
     static var figure2: SFSymbol { .init(rawValue: "figure.2") }
 
     /// 􀹽
-    /// ![figure.2.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.2.circle.png)
+    /// ![figure.2.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.2.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4456,7 +4456,7 @@ public extension SFSymbol {
     static var figure2Circle: SFSymbol { .init(rawValue: "figure.2.circle") }
 
     /// 􀹾
-    /// ![figure.2.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.2.circle.fill.png)
+    /// ![figure.2.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.2.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -4466,7 +4466,7 @@ public extension SFSymbol {
     static var figure2CircleFill: SFSymbol { .init(rawValue: "figure.2.circle.fill") }
 
     /// 􁣽
-    /// ![figure.child](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.child.png)
+    /// ![figure.child](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.child.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4474,7 +4474,7 @@ public extension SFSymbol {
     static var figureChild: SFSymbol { .init(rawValue: "figure.child") }
 
     /// 􁥾
-    /// ![figure.child.and.lock](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.child.and.lock.png)
+    /// ![figure.child.and.lock](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.child.and.lock.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4483,7 +4483,7 @@ public extension SFSymbol {
     static var figureChildAndLock: SFSymbol { .init(rawValue: "figure.child.and.lock") }
 
     /// 􁥿
-    /// ![figure.child.and.lock.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.child.and.lock.fill.png)
+    /// ![figure.child.and.lock.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.child.and.lock.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4492,7 +4492,7 @@ public extension SFSymbol {
     static var figureChildAndLockFill: SFSymbol { .init(rawValue: "figure.child.and.lock.fill") }
 
     /// 􁦀
-    /// ![figure.child.and.lock.open](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.child.and.lock.open.png)
+    /// ![figure.child.and.lock.open](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.child.and.lock.open.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4501,7 +4501,7 @@ public extension SFSymbol {
     static var figureChildAndLockOpen: SFSymbol { .init(rawValue: "figure.child.and.lock.open") }
 
     /// 􁦁
-    /// ![figure.child.and.lock.open.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.child.and.lock.open.fill.png)
+    /// ![figure.child.and.lock.open.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.child.and.lock.open.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4510,7 +4510,7 @@ public extension SFSymbol {
     static var figureChildAndLockOpenFill: SFSymbol { .init(rawValue: "figure.child.and.lock.open.fill") }
 
     /// 􁣾
-    /// ![figure.child.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.child.circle.png)
+    /// ![figure.child.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.child.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4519,7 +4519,7 @@ public extension SFSymbol {
     static var figureChildCircle: SFSymbol { .init(rawValue: "figure.child.circle") }
 
     /// 􁣿
-    /// ![figure.child.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.child.circle.fill.png)
+    /// ![figure.child.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.child.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -4529,7 +4529,7 @@ public extension SFSymbol {
     static var figureChildCircleFill: SFSymbol { .init(rawValue: "figure.child.circle.fill") }
 
     /// 􁺼
-    /// ![figure.seated.side](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.seated.side.png)
+    /// ![figure.seated.side](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4542,7 +4542,7 @@ public extension SFSymbol {
     static var figureSeatedSide: SFSymbol { .init(rawValue: "figure.seated.side") }
 
     /// 􁁶
-    /// ![figure.seated.side.air.distribution.lower](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.seated.side.air.distribution.lower.png)
+    /// ![figure.seated.side.air.distribution.lower](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.air.distribution.lower.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4556,7 +4556,7 @@ public extension SFSymbol {
     static var figureSeatedSideAirDistributionLower: SFSymbol { .init(rawValue: "figure.seated.side.air.distribution.lower") }
 
     /// 􁁵
-    /// ![figure.seated.side.air.distribution.middle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.seated.side.air.distribution.middle.png)
+    /// ![figure.seated.side.air.distribution.middle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.air.distribution.middle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4570,7 +4570,7 @@ public extension SFSymbol {
     static var figureSeatedSideAirDistributionMiddle: SFSymbol { .init(rawValue: "figure.seated.side.air.distribution.middle") }
 
     /// 􁁸
-    /// ![figure.seated.side.air.distribution.middle.and.lower](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.seated.side.air.distribution.middle.and.lower.png)
+    /// ![figure.seated.side.air.distribution.middle.and.lower](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.air.distribution.middle.and.lower.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4584,7 +4584,7 @@ public extension SFSymbol {
     static var figureSeatedSideAirDistributionMiddleAndLower: SFSymbol { .init(rawValue: "figure.seated.side.air.distribution.middle.and.lower") }
 
     /// 􁻀
-    /// ![figure.seated.side.air.distribution.middle.and.lower.angled](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.seated.side.air.distribution.middle.and.lower.angled.png)
+    /// ![figure.seated.side.air.distribution.middle.and.lower.angled](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.air.distribution.middle.and.lower.angled.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4598,7 +4598,7 @@ public extension SFSymbol {
     static var figureSeatedSideAirDistributionMiddleAndLowerAngled: SFSymbol { .init(rawValue: "figure.seated.side.air.distribution.middle.and.lower.angled") }
 
     /// 􁁷
-    /// ![figure.seated.side.air.distribution.upper](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.seated.side.air.distribution.upper.png)
+    /// ![figure.seated.side.air.distribution.upper](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.air.distribution.upper.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4612,7 +4612,7 @@ public extension SFSymbol {
     static var figureSeatedSideAirDistributionUpper: SFSymbol { .init(rawValue: "figure.seated.side.air.distribution.upper") }
 
     /// 􁺿
-    /// ![figure.seated.side.air.distribution.upper.angled.and.lower.angled](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.seated.side.air.distribution.upper.angled.and.lower.angled.png)
+    /// ![figure.seated.side.air.distribution.upper.angled.and.lower.angled](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.air.distribution.upper.angled.and.lower.angled.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4626,7 +4626,7 @@ public extension SFSymbol {
     static var figureSeatedSideAirDistributionUpperAngledAndLowerAngled: SFSymbol { .init(rawValue: "figure.seated.side.air.distribution.upper.angled.and.lower.angled") }
 
     /// 􁺾
-    /// ![figure.seated.side.air.distribution.upper.angled.and.middle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.seated.side.air.distribution.upper.angled.and.middle.png)
+    /// ![figure.seated.side.air.distribution.upper.angled.and.middle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.air.distribution.upper.angled.and.middle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4640,7 +4640,7 @@ public extension SFSymbol {
     static var figureSeatedSideAirDistributionUpperAngledAndMiddle: SFSymbol { .init(rawValue: "figure.seated.side.air.distribution.upper.angled.and.middle") }
 
     /// 􁺽
-    /// ![figure.seated.side.air.distribution.upper.angled.and.middle.and.lower.angled](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.seated.side.air.distribution.upper.angled.and.middle.and.lower.angled.png)
+    /// ![figure.seated.side.air.distribution.upper.angled.and.middle.and.lower.angled](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.air.distribution.upper.angled.and.middle.and.lower.angled.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4654,7 +4654,7 @@ public extension SFSymbol {
     static var figureSeatedSideAirDistributionUpperAngledAndMiddleAndLowerAngled: SFSymbol { .init(rawValue: "figure.seated.side.air.distribution.upper.angled.and.middle.and.lower.angled") }
 
     /// 􁲍
-    /// ![figure.seated.side.automatic](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.seated.side.automatic.png)
+    /// ![figure.seated.side.automatic](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.automatic.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4668,7 +4668,7 @@ public extension SFSymbol {
     static var figureSeatedSideAutomatic: SFSymbol { .init(rawValue: "figure.seated.side.automatic") }
 
     /// 􁻒
-    /// ![figure.seated.side.windshield.front.and.heat.waves.air.distribution.lower](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.seated.side.windshield.front.and.heat.waves.air.distribution.lower.png)
+    /// ![figure.seated.side.windshield.front.and.heat.waves.air.distribution.lower](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.windshield.front.and.heat.waves.air.distribution.lower.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4682,7 +4682,7 @@ public extension SFSymbol {
     static var figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionLower: SFSymbol { .init(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.lower") }
 
     /// 􁻑
-    /// ![figure.seated.side.windshield.front.and.heat.waves.air.distribution.middle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.seated.side.windshield.front.and.heat.waves.air.distribution.middle.png)
+    /// ![figure.seated.side.windshield.front.and.heat.waves.air.distribution.middle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.windshield.front.and.heat.waves.air.distribution.middle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4696,7 +4696,7 @@ public extension SFSymbol {
     static var figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionMiddle: SFSymbol { .init(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.middle") }
 
     /// 􁻍
-    /// ![figure.seated.side.windshield.front.and.heat.waves.air.distribution.middle.and.lower](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.seated.side.windshield.front.and.heat.waves.air.distribution.middle.and.lower.png)
+    /// ![figure.seated.side.windshield.front.and.heat.waves.air.distribution.middle.and.lower](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.windshield.front.and.heat.waves.air.distribution.middle.and.lower.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4710,7 +4710,7 @@ public extension SFSymbol {
     static var figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionMiddleAndLower: SFSymbol { .init(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.middle.and.lower") }
 
     /// 􁻐
-    /// ![figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.png)
+    /// ![figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4724,7 +4724,7 @@ public extension SFSymbol {
     static var figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionUpper: SFSymbol { .init(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper") }
 
     /// 􁻏
-    /// ![figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.lower](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.lower.png)
+    /// ![figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.lower](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.lower.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4738,7 +4738,7 @@ public extension SFSymbol {
     static var figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionUpperAndLower: SFSymbol { .init(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.lower") }
 
     /// 􁻎
-    /// ![figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.middle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.middle.png)
+    /// ![figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.middle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.middle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4752,7 +4752,7 @@ public extension SFSymbol {
     static var figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionUpperAndMiddle: SFSymbol { .init(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.middle") }
 
     /// 􁻌
-    /// ![figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.middle.and.lower](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.middle.and.lower.png)
+    /// ![figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.middle.and.lower](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.middle.and.lower.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4766,7 +4766,7 @@ public extension SFSymbol {
     static var figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionUpperAndMiddleAndLower: SFSymbol { .init(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.middle.and.lower") }
 
     /// 􁷚
-    /// ![figure.walk.motion.trianglebadge.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/figure.walk.motion.trianglebadge.exclamationmark.png)
+    /// ![figure.walk.motion.trianglebadge.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/figure.walk.motion.trianglebadge.exclamationmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -4776,7 +4776,7 @@ public extension SFSymbol {
     static var figureWalkMotionTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "figure.walk.motion.trianglebadge.exclamationmark") }
 
     /// 􂁞
-    /// ![fireworks](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/fireworks.png)
+    /// ![fireworks](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/fireworks.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4785,7 +4785,7 @@ public extension SFSymbol {
     static var fireworks: SFSymbol { .init(rawValue: "fireworks") }
 
     /// 􂃱
-    /// ![flashlight.off.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/flashlight.off.circle.png)
+    /// ![flashlight.off.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/flashlight.off.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4794,7 +4794,7 @@ public extension SFSymbol {
     static var flashlightOffCircle: SFSymbol { .init(rawValue: "flashlight.off.circle") }
 
     /// 􂃲
-    /// ![flashlight.off.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/flashlight.off.circle.fill.png)
+    /// ![flashlight.off.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/flashlight.off.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -4804,7 +4804,7 @@ public extension SFSymbol {
     static var flashlightOffCircleFill: SFSymbol { .init(rawValue: "flashlight.off.circle.fill") }
 
     /// 􂃳
-    /// ![flashlight.on.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/flashlight.on.circle.png)
+    /// ![flashlight.on.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/flashlight.on.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4813,7 +4813,7 @@ public extension SFSymbol {
     static var flashlightOnCircle: SFSymbol { .init(rawValue: "flashlight.on.circle") }
 
     /// 􂃴
-    /// ![flashlight.on.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/flashlight.on.circle.fill.png)
+    /// ![flashlight.on.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/flashlight.on.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -4823,7 +4823,7 @@ public extension SFSymbol {
     static var flashlightOnCircleFill: SFSymbol { .init(rawValue: "flashlight.on.circle.fill") }
 
     /// 􂃵
-    /// ![flashlight.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/flashlight.slash.png)
+    /// ![flashlight.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/flashlight.slash.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4832,7 +4832,7 @@ public extension SFSymbol {
     static var flashlightSlash: SFSymbol { .init(rawValue: "flashlight.slash") }
 
     /// 􂃶
-    /// ![flashlight.slash.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/flashlight.slash.circle.png)
+    /// ![flashlight.slash.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/flashlight.slash.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4841,7 +4841,7 @@ public extension SFSymbol {
     static var flashlightSlashCircle: SFSymbol { .init(rawValue: "flashlight.slash.circle") }
 
     /// 􂃷
-    /// ![flashlight.slash.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/flashlight.slash.circle.fill.png)
+    /// ![flashlight.slash.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/flashlight.slash.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -4851,7 +4851,7 @@ public extension SFSymbol {
     static var flashlightSlashCircleFill: SFSymbol { .init(rawValue: "flashlight.slash.circle.fill") }
 
     /// 􁰍
-    /// ![flask](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/flask.png)
+    /// ![flask](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/flask.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4860,7 +4860,7 @@ public extension SFSymbol {
     static var flask: SFSymbol { .init(rawValue: "flask") }
 
     /// 􁰎
-    /// ![flask.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/flask.fill.png)
+    /// ![flask.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/flask.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4869,7 +4869,7 @@ public extension SFSymbol {
     static var flaskFill: SFSymbol { .init(rawValue: "flask.fill") }
 
     /// 􂈗
-    /// ![florinsign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/florinsign.arrow.circlepath.png)
+    /// ![florinsign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/florinsign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4883,7 +4883,7 @@ public extension SFSymbol {
     static var florinsignArrowCirclepath: SFSymbol { .init(rawValue: "florinsign.arrow.circlepath") }
 
     /// 􂈖
-    /// ![francsign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/francsign.arrow.circlepath.png)
+    /// ![francsign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/francsign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4897,7 +4897,7 @@ public extension SFSymbol {
     static var francsignArrowCirclepath: SFSymbol { .init(rawValue: "francsign.arrow.circlepath") }
 
     /// 􁈾
-    /// ![fuelpump.arrowtriangle.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/fuelpump.arrowtriangle.left.png)
+    /// ![fuelpump.arrowtriangle.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/fuelpump.arrowtriangle.left.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4906,7 +4906,7 @@ public extension SFSymbol {
     static var fuelpumpArrowtriangleLeft: SFSymbol { .init(rawValue: "fuelpump.arrowtriangle.left") }
 
     /// 􁈿
-    /// ![fuelpump.arrowtriangle.left.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/fuelpump.arrowtriangle.left.fill.png)
+    /// ![fuelpump.arrowtriangle.left.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/fuelpump.arrowtriangle.left.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4915,7 +4915,7 @@ public extension SFSymbol {
     static var fuelpumpArrowtriangleLeftFill: SFSymbol { .init(rawValue: "fuelpump.arrowtriangle.left.fill") }
 
     /// 􁈼
-    /// ![fuelpump.arrowtriangle.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/fuelpump.arrowtriangle.right.png)
+    /// ![fuelpump.arrowtriangle.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/fuelpump.arrowtriangle.right.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4924,7 +4924,7 @@ public extension SFSymbol {
     static var fuelpumpArrowtriangleRight: SFSymbol { .init(rawValue: "fuelpump.arrowtriangle.right") }
 
     /// 􁈽
-    /// ![fuelpump.arrowtriangle.right.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/fuelpump.arrowtriangle.right.fill.png)
+    /// ![fuelpump.arrowtriangle.right.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/fuelpump.arrowtriangle.right.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4933,7 +4933,7 @@ public extension SFSymbol {
     static var fuelpumpArrowtriangleRightFill: SFSymbol { .init(rawValue: "fuelpump.arrowtriangle.right.fill") }
 
     /// 􁥦
-    /// ![fuelpump.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/fuelpump.exclamationmark.png)
+    /// ![fuelpump.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/fuelpump.exclamationmark.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4942,7 +4942,7 @@ public extension SFSymbol {
     static var fuelpumpExclamationmark: SFSymbol { .init(rawValue: "fuelpump.exclamationmark") }
 
     /// 􁥧
-    /// ![fuelpump.exclamationmark.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/fuelpump.exclamationmark.fill.png)
+    /// ![fuelpump.exclamationmark.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/fuelpump.exclamationmark.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4951,7 +4951,7 @@ public extension SFSymbol {
     static var fuelpumpExclamationmarkFill: SFSymbol { .init(rawValue: "fuelpump.exclamationmark.fill") }
 
     /// 􁰚
-    /// ![fuelpump.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/fuelpump.slash.png)
+    /// ![fuelpump.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/fuelpump.slash.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4960,7 +4960,7 @@ public extension SFSymbol {
     static var fuelpumpSlash: SFSymbol { .init(rawValue: "fuelpump.slash") }
 
     /// 􁰛
-    /// ![fuelpump.slash.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/fuelpump.slash.fill.png)
+    /// ![fuelpump.slash.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/fuelpump.slash.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4969,7 +4969,7 @@ public extension SFSymbol {
     static var fuelpumpSlashFill: SFSymbol { .init(rawValue: "fuelpump.slash.fill") }
 
     /// 􁫏
-    /// ![gauge.open.with.lines.needle.33percent](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gauge.open.with.lines.needle.33percent.png)
+    /// ![gauge.open.with.lines.needle.33percent](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gauge.open.with.lines.needle.33percent.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4978,7 +4978,7 @@ public extension SFSymbol {
     static var gaugeOpenWithLinesNeedle33percent: SFSymbol { .init(rawValue: "gauge.open.with.lines.needle.33percent") }
 
     /// 􁉰
-    /// ![gauge.open.with.lines.needle.33percent.and.arrowtriangle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gauge.open.with.lines.needle.33percent.and.arrowtriangle.png)
+    /// ![gauge.open.with.lines.needle.33percent.and.arrowtriangle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gauge.open.with.lines.needle.33percent.and.arrowtriangle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4987,7 +4987,7 @@ public extension SFSymbol {
     static var gaugeOpenWithLinesNeedle33percentAndArrowtriangle: SFSymbol { .init(rawValue: "gauge.open.with.lines.needle.33percent.and.arrowtriangle") }
 
     /// 􁊐
-    /// ![gauge.open.with.lines.needle.33percent.and.arrowtriangle.from.0percent.to.50percent](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gauge.open.with.lines.needle.33percent.and.arrowtriangle.from.0percent.to.50percent.png)
+    /// ![gauge.open.with.lines.needle.33percent.and.arrowtriangle.from.0percent.to.50percent](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gauge.open.with.lines.needle.33percent.and.arrowtriangle.from.0percent.to.50percent.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5001,7 +5001,7 @@ public extension SFSymbol {
     static var gaugeOpenWithLinesNeedle33percentAndArrowtriangleFrom0percentTo50percent: SFSymbol { .init(rawValue: "gauge.open.with.lines.needle.33percent.and.arrowtriangle.from.0percent.to.50percent") }
 
     /// 􁖗
-    /// ![gauge.open.with.lines.needle.67percent.and.arrowtriangle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gauge.open.with.lines.needle.67percent.and.arrowtriangle.png)
+    /// ![gauge.open.with.lines.needle.67percent.and.arrowtriangle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gauge.open.with.lines.needle.67percent.and.arrowtriangle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5010,7 +5010,7 @@ public extension SFSymbol {
     static var gaugeOpenWithLinesNeedle67percentAndArrowtriangle: SFSymbol { .init(rawValue: "gauge.open.with.lines.needle.67percent.and.arrowtriangle") }
 
     /// 􁖜
-    /// ![gauge.open.with.lines.needle.67percent.and.arrowtriangle.and.car](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gauge.open.with.lines.needle.67percent.and.arrowtriangle.and.car.png)
+    /// ![gauge.open.with.lines.needle.67percent.and.arrowtriangle.and.car](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gauge.open.with.lines.needle.67percent.and.arrowtriangle.and.car.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5019,7 +5019,7 @@ public extension SFSymbol {
     static var gaugeOpenWithLinesNeedle67percentAndArrowtriangleAndCar: SFSymbol { .init(rawValue: "gauge.open.with.lines.needle.67percent.and.arrowtriangle.and.car") }
 
     /// 􁖘
-    /// ![gauge.open.with.lines.needle.84percent.exclamation](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gauge.open.with.lines.needle.84percent.exclamation.png)
+    /// ![gauge.open.with.lines.needle.84percent.exclamation](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gauge.open.with.lines.needle.84percent.exclamation.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5028,7 +5028,7 @@ public extension SFSymbol {
     static var gaugeOpenWithLinesNeedle84percentExclamation: SFSymbol { .init(rawValue: "gauge.open.with.lines.needle.84percent.exclamation") }
 
     /// 􁐙
-    /// ![gauge.with.dots.needle.0percent](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gauge.with.dots.needle.0percent.png)
+    /// ![gauge.with.dots.needle.0percent](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gauge.with.dots.needle.0percent.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5037,7 +5037,7 @@ public extension SFSymbol {
     static var gaugeWithDotsNeedle0percent: SFSymbol { .init(rawValue: "gauge.with.dots.needle.0percent") }
 
     /// 􁰉
-    /// ![gauge.with.dots.needle.33percent](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gauge.with.dots.needle.33percent.png)
+    /// ![gauge.with.dots.needle.33percent](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gauge.with.dots.needle.33percent.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5046,7 +5046,7 @@ public extension SFSymbol {
     static var gaugeWithDotsNeedle33percent: SFSymbol { .init(rawValue: "gauge.with.dots.needle.33percent") }
 
     /// 􁐚
-    /// ![gauge.with.dots.needle.50percent](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gauge.with.dots.needle.50percent.png)
+    /// ![gauge.with.dots.needle.50percent](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gauge.with.dots.needle.50percent.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5055,7 +5055,7 @@ public extension SFSymbol {
     static var gaugeWithDotsNeedle50percent: SFSymbol { .init(rawValue: "gauge.with.dots.needle.50percent") }
 
     /// 􀍾
-    /// ![gauge.with.dots.needle.67percent](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gauge.with.dots.needle.67percent.png)
+    /// ![gauge.with.dots.needle.67percent](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gauge.with.dots.needle.67percent.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5064,7 +5064,7 @@ public extension SFSymbol {
     static var gaugeWithDotsNeedle67percent: SFSymbol { .init(rawValue: "gauge.with.dots.needle.67percent") }
 
     /// 􁐛
-    /// ![gauge.with.dots.needle.100percent](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gauge.with.dots.needle.100percent.png)
+    /// ![gauge.with.dots.needle.100percent](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gauge.with.dots.needle.100percent.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5073,7 +5073,7 @@ public extension SFSymbol {
     static var gaugeWithDotsNeedle100percent: SFSymbol { .init(rawValue: "gauge.with.dots.needle.100percent") }
 
     /// 􁐗
-    /// ![gauge.with.dots.needle.bottom.0percent](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gauge.with.dots.needle.bottom.0percent.png)
+    /// ![gauge.with.dots.needle.bottom.0percent](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gauge.with.dots.needle.bottom.0percent.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5082,7 +5082,7 @@ public extension SFSymbol {
     static var gaugeWithDotsNeedleBottom0percent: SFSymbol { .init(rawValue: "gauge.with.dots.needle.bottom.0percent") }
 
     /// 􀍽
-    /// ![gauge.with.dots.needle.bottom.50percent](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gauge.with.dots.needle.bottom.50percent.png)
+    /// ![gauge.with.dots.needle.bottom.50percent](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gauge.with.dots.needle.bottom.50percent.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5091,7 +5091,7 @@ public extension SFSymbol {
     static var gaugeWithDotsNeedleBottom50percent: SFSymbol { .init(rawValue: "gauge.with.dots.needle.bottom.50percent") }
 
     /// 􀓧
-    /// ![gauge.with.dots.needle.bottom.50percent.badge.minus](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gauge.with.dots.needle.bottom.50percent.badge.minus.png)
+    /// ![gauge.with.dots.needle.bottom.50percent.badge.minus](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gauge.with.dots.needle.bottom.50percent.badge.minus.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5101,7 +5101,7 @@ public extension SFSymbol {
     static var gaugeWithDotsNeedleBottom50percentBadgeMinus: SFSymbol { .init(rawValue: "gauge.with.dots.needle.bottom.50percent.badge.minus") }
 
     /// 􀓓
-    /// ![gauge.with.dots.needle.bottom.50percent.badge.plus](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gauge.with.dots.needle.bottom.50percent.badge.plus.png)
+    /// ![gauge.with.dots.needle.bottom.50percent.badge.plus](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gauge.with.dots.needle.bottom.50percent.badge.plus.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5111,7 +5111,7 @@ public extension SFSymbol {
     static var gaugeWithDotsNeedleBottom50percentBadgePlus: SFSymbol { .init(rawValue: "gauge.with.dots.needle.bottom.50percent.badge.plus") }
 
     /// 􁐘
-    /// ![gauge.with.dots.needle.bottom.100percent](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gauge.with.dots.needle.bottom.100percent.png)
+    /// ![gauge.with.dots.needle.bottom.100percent](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gauge.with.dots.needle.bottom.100percent.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5120,7 +5120,7 @@ public extension SFSymbol {
     static var gaugeWithDotsNeedleBottom100percent: SFSymbol { .init(rawValue: "gauge.with.dots.needle.bottom.100percent") }
 
     /// 􁖫
-    /// ![gauge.with.needle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gauge.with.needle.png)
+    /// ![gauge.with.needle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gauge.with.needle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5129,7 +5129,7 @@ public extension SFSymbol {
     static var gaugeWithNeedle: SFSymbol { .init(rawValue: "gauge.with.needle") }
 
     /// 􁖬
-    /// ![gauge.with.needle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gauge.with.needle.fill.png)
+    /// ![gauge.with.needle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gauge.with.needle.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5138,7 +5138,7 @@ public extension SFSymbol {
     static var gaugeWithNeedleFill: SFSymbol { .init(rawValue: "gauge.with.needle.fill") }
 
     /// 􁸝
-    /// ![gearshift.layout.sixspeed](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gearshift.layout.sixspeed.png)
+    /// ![gearshift.layout.sixspeed](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gearshift.layout.sixspeed.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5146,7 +5146,7 @@ public extension SFSymbol {
     static var gearshiftLayoutSixspeed: SFSymbol { .init(rawValue: "gearshift.layout.sixspeed") }
 
     /// 􂈦
-    /// ![guaranisign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/guaranisign.arrow.circlepath.png)
+    /// ![guaranisign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/guaranisign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5160,7 +5160,7 @@ public extension SFSymbol {
     static var guaranisignArrowCirclepath: SFSymbol { .init(rawValue: "guaranisign.arrow.circlepath") }
 
     /// 􂂱
-    /// ![gym.bag](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gym.bag.png)
+    /// ![gym.bag](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gym.bag.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5173,7 +5173,7 @@ public extension SFSymbol {
     static var gymBag: SFSymbol { .init(rawValue: "gym.bag") }
 
     /// 􂂲
-    /// ![gym.bag.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/gym.bag.fill.png)
+    /// ![gym.bag.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/gym.bag.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5186,7 +5186,7 @@ public extension SFSymbol {
     static var gymBagFill: SFSymbol { .init(rawValue: "gym.bag.fill") }
 
     /// 􁾀
-    /// ![hand.point.up.left.and.text](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/hand.point.up.left.and.text.png)
+    /// ![hand.point.up.left.and.text](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/hand.point.up.left.and.text.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5195,7 +5195,7 @@ public extension SFSymbol {
     static var handPointUpLeftAndText: SFSymbol { .init(rawValue: "hand.point.up.left.and.text") }
 
     /// 􁾁
-    /// ![hand.point.up.left.and.text.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/hand.point.up.left.and.text.fill.png)
+    /// ![hand.point.up.left.and.text.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/hand.point.up.left.and.text.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5204,7 +5204,7 @@ public extension SFSymbol {
     static var handPointUpLeftAndTextFill: SFSymbol { .init(rawValue: "hand.point.up.left.and.text.fill") }
 
     /// 􁿜
-    /// ![handbag.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/handbag.circle.png)
+    /// ![handbag.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/handbag.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5213,7 +5213,7 @@ public extension SFSymbol {
     static var handbagCircle: SFSymbol { .init(rawValue: "handbag.circle") }
 
     /// 􁿝
-    /// ![handbag.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/handbag.circle.fill.png)
+    /// ![handbag.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/handbag.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5223,7 +5223,7 @@ public extension SFSymbol {
     static var handbagCircleFill: SFSymbol { .init(rawValue: "handbag.circle.fill") }
 
     /// 􀲮
-    /// ![hands.and.sparkles](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/hands.and.sparkles.png)
+    /// ![hands.and.sparkles](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/hands.and.sparkles.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5232,7 +5232,7 @@ public extension SFSymbol {
     static var handsAndSparkles: SFSymbol { .init(rawValue: "hands.and.sparkles") }
 
     /// 􀲯
-    /// ![hands.and.sparkles.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/hands.and.sparkles.fill.png)
+    /// ![hands.and.sparkles.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/hands.and.sparkles.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5241,7 +5241,7 @@ public extension SFSymbol {
     static var handsAndSparklesFill: SFSymbol { .init(rawValue: "hands.and.sparkles.fill") }
 
     /// 􀠖
-    /// ![hanger](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/hanger.png)
+    /// ![hanger](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/hanger.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5249,7 +5249,7 @@ public extension SFSymbol {
     static var hanger: SFSymbol { .init(rawValue: "hanger") }
 
     /// 􂀸
-    /// ![hare.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/hare.circle.png)
+    /// ![hare.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/hare.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5258,7 +5258,7 @@ public extension SFSymbol {
     static var hareCircle: SFSymbol { .init(rawValue: "hare.circle") }
 
     /// 􂀹
-    /// ![hare.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/hare.circle.fill.png)
+    /// ![hare.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/hare.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5268,7 +5268,7 @@ public extension SFSymbol {
     static var hareCircleFill: SFSymbol { .init(rawValue: "hare.circle.fill") }
 
     /// 􁟹
-    /// ![head.profile.arrow.forward.and.visionpro](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/head.profile.arrow.forward.and.visionpro.png)
+    /// ![head.profile.arrow.forward.and.visionpro](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/head.profile.arrow.forward.and.visionpro.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -5284,7 +5284,7 @@ public extension SFSymbol {
     static var headProfileArrowForwardAndVisionpro: SFSymbol { .init(rawValue: "head.profile.arrow.forward.and.visionpro") }
 
     /// 􁰹
-    /// ![heat.waves](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/heat.waves.png)
+    /// ![heat.waves](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/heat.waves.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5292,7 +5292,7 @@ public extension SFSymbol {
     static var heatWaves: SFSymbol { .init(rawValue: "heat.waves") }
 
     /// 􁄵
-    /// ![horn](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/horn.png)
+    /// ![horn](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/horn.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5300,7 +5300,7 @@ public extension SFSymbol {
     static var horn: SFSymbol { .init(rawValue: "horn") }
 
     /// 􁄷
-    /// ![horn.blast](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/horn.blast.png)
+    /// ![horn.blast](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/horn.blast.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5309,7 +5309,7 @@ public extension SFSymbol {
     static var hornBlast: SFSymbol { .init(rawValue: "horn.blast") }
 
     /// 􁄸
-    /// ![horn.blast.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/horn.blast.fill.png)
+    /// ![horn.blast.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/horn.blast.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5318,7 +5318,7 @@ public extension SFSymbol {
     static var hornBlastFill: SFSymbol { .init(rawValue: "horn.blast.fill") }
 
     /// 􁄶
-    /// ![horn.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/horn.fill.png)
+    /// ![horn.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/horn.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5326,7 +5326,7 @@ public extension SFSymbol {
     static var hornFill: SFSymbol { .init(rawValue: "horn.fill") }
 
     /// 􂇗
-    /// ![hourglass.and.lock](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/hourglass.and.lock.png)
+    /// ![hourglass.and.lock](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/hourglass.and.lock.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5341,7 +5341,7 @@ public extension SFSymbol {
     static var hourglassAndLock: SFSymbol { .init(rawValue: "hourglass.and.lock") }
 
     /// 􂈤
-    /// ![hryvniasign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/hryvniasign.arrow.circlepath.png)
+    /// ![hryvniasign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/hryvniasign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5355,7 +5355,7 @@ public extension SFSymbol {
     static var hryvniasignArrowCirclepath: SFSymbol { .init(rawValue: "hryvniasign.arrow.circlepath") }
 
     /// 􂈜
-    /// ![indianrupeesign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/indianrupeesign.arrow.circlepath.png)
+    /// ![indianrupeesign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/indianrupeesign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5369,7 +5369,7 @@ public extension SFSymbol {
     static var indianrupeesignArrowCirclepath: SFSymbol { .init(rawValue: "indianrupeesign.arrow.circlepath") }
 
     /// 􁤩
-    /// ![ipad.case](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ipad.case.png)
+    /// ![ipad.case](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ipad.case.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -5379,7 +5379,7 @@ public extension SFSymbol {
     static var ipadCase: SFSymbol { .init(rawValue: "ipad.case") }
 
     /// 􁤪
-    /// ![ipad.case.and.iphone.case](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ipad.case.and.iphone.case.png)
+    /// ![ipad.case.and.iphone.case](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ipad.case.and.iphone.case.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -5389,7 +5389,7 @@ public extension SFSymbol {
     static var ipadCaseAndIphoneCase: SFSymbol { .init(rawValue: "ipad.case.and.iphone.case") }
 
     /// 􁣶
-    /// ![ipad.sizes](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ipad.sizes.png)
+    /// ![ipad.sizes](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ipad.sizes.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -5400,7 +5400,7 @@ public extension SFSymbol {
     static var ipadSizes: SFSymbol { .init(rawValue: "ipad.sizes") }
 
     /// 􁰿
-    /// ![iphone.and.arrow.left.and.arrow.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/iphone.and.arrow.left.and.arrow.right.png)
+    /// ![iphone.and.arrow.left.and.arrow.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/iphone.and.arrow.left.and.arrow.right.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -5416,7 +5416,7 @@ public extension SFSymbol {
     static var iphoneAndArrowLeftAndArrowRight: SFSymbol { .init(rawValue: "iphone.and.arrow.left.and.arrow.right") }
 
     /// 􁤨
-    /// ![iphone.case](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/iphone.case.png)
+    /// ![iphone.case](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/iphone.case.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -5426,7 +5426,7 @@ public extension SFSymbol {
     static var iphoneCase: SFSymbol { .init(rawValue: "iphone.case") }
 
     /// 􁣴
-    /// ![iphone.sizes](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/iphone.sizes.png)
+    /// ![iphone.sizes](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/iphone.sizes.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -5437,7 +5437,7 @@ public extension SFSymbol {
     static var iphoneSizes: SFSymbol { .init(rawValue: "iphone.sizes") }
 
     /// 􂃜
-    /// ![kashida.arabic](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/kashida.arabic.png)
+    /// ![kashida.arabic](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/kashida.arabic.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5446,7 +5446,7 @@ public extension SFSymbol {
     static var kashidaArabic: SFSymbol { .init(rawValue: "kashida.arabic") }
 
     /// 􂇮
-    /// ![key.radiowaves.forward.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/key.radiowaves.forward.slash.png)
+    /// ![key.radiowaves.forward.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/key.radiowaves.forward.slash.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5455,7 +5455,7 @@ public extension SFSymbol {
     static var keyRadiowavesForwardSlash: SFSymbol { .init(rawValue: "key.radiowaves.forward.slash") }
 
     /// 􂇰
-    /// ![key.radiowaves.forward.slash.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/key.radiowaves.forward.slash.fill.png)
+    /// ![key.radiowaves.forward.slash.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/key.radiowaves.forward.slash.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5464,7 +5464,7 @@ public extension SFSymbol {
     static var keyRadiowavesForwardSlashFill: SFSymbol { .init(rawValue: "key.radiowaves.forward.slash.fill") }
 
     /// 􂅦
-    /// ![key.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/key.slash.png)
+    /// ![key.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/key.slash.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5473,7 +5473,7 @@ public extension SFSymbol {
     static var keySlash: SFSymbol { .init(rawValue: "key.slash") }
 
     /// 􂅧
-    /// ![key.slash.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/key.slash.fill.png)
+    /// ![key.slash.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/key.slash.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5482,7 +5482,7 @@ public extension SFSymbol {
     static var keySlashFill: SFSymbol { .init(rawValue: "key.slash.fill") }
 
     /// 􂈠
-    /// ![kipsign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/kipsign.arrow.circlepath.png)
+    /// ![kipsign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/kipsign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5496,7 +5496,7 @@ public extension SFSymbol {
     static var kipsignArrowCirclepath: SFSymbol { .init(rawValue: "kipsign.arrow.circlepath") }
 
     /// 􀨇
-    /// ![l.button.roundedbottom.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/l.button.roundedbottom.horizontal.png)
+    /// ![l.button.roundedbottom.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/l.button.roundedbottom.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5505,7 +5505,7 @@ public extension SFSymbol {
     static var lButtonRoundedbottomHorizontal: SFSymbol { .init(rawValue: "l.button.roundedbottom.horizontal") }
 
     /// 􀨈
-    /// ![l.button.roundedbottom.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/l.button.roundedbottom.horizontal.fill.png)
+    /// ![l.button.roundedbottom.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/l.button.roundedbottom.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5515,7 +5515,7 @@ public extension SFSymbol {
     static var lButtonRoundedbottomHorizontalFill: SFSymbol { .init(rawValue: "l.button.roundedbottom.horizontal.fill") }
 
     /// 􀨉
-    /// ![l1.button.roundedbottom.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/l1.button.roundedbottom.horizontal.png)
+    /// ![l1.button.roundedbottom.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/l1.button.roundedbottom.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5524,7 +5524,7 @@ public extension SFSymbol {
     static var l1ButtonRoundedbottomHorizontal: SFSymbol { .init(rawValue: "l1.button.roundedbottom.horizontal") }
 
     /// 􀨊
-    /// ![l1.button.roundedbottom.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/l1.button.roundedbottom.horizontal.fill.png)
+    /// ![l1.button.roundedbottom.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/l1.button.roundedbottom.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5534,7 +5534,7 @@ public extension SFSymbol {
     static var l1ButtonRoundedbottomHorizontalFill: SFSymbol { .init(rawValue: "l1.button.roundedbottom.horizontal.fill") }
 
     /// 􁺁
-    /// ![l1.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/l1.circle.png)
+    /// ![l1.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/l1.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5543,7 +5543,7 @@ public extension SFSymbol {
     static var l1Circle: SFSymbol { .init(rawValue: "l1.circle") }
 
     /// 􁺂
-    /// ![l1.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/l1.circle.fill.png)
+    /// ![l1.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/l1.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5553,7 +5553,7 @@ public extension SFSymbol {
     static var l1CircleFill: SFSymbol { .init(rawValue: "l1.circle.fill") }
 
     /// 􁷳
-    /// ![l2.button.angledtop.vertical.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/l2.button.angledtop.vertical.left.png)
+    /// ![l2.button.angledtop.vertical.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/l2.button.angledtop.vertical.left.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5562,7 +5562,7 @@ public extension SFSymbol {
     static var l2ButtonAngledtopVerticalLeft: SFSymbol { .init(rawValue: "l2.button.angledtop.vertical.left") }
 
     /// 􁷴
-    /// ![l2.button.angledtop.vertical.left.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/l2.button.angledtop.vertical.left.fill.png)
+    /// ![l2.button.angledtop.vertical.left.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/l2.button.angledtop.vertical.left.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5572,7 +5572,7 @@ public extension SFSymbol {
     static var l2ButtonAngledtopVerticalLeftFill: SFSymbol { .init(rawValue: "l2.button.angledtop.vertical.left.fill") }
 
     /// 􀨋
-    /// ![l2.button.roundedtop.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/l2.button.roundedtop.horizontal.png)
+    /// ![l2.button.roundedtop.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/l2.button.roundedtop.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5581,7 +5581,7 @@ public extension SFSymbol {
     static var l2ButtonRoundedtopHorizontal: SFSymbol { .init(rawValue: "l2.button.roundedtop.horizontal") }
 
     /// 􀨌
-    /// ![l2.button.roundedtop.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/l2.button.roundedtop.horizontal.fill.png)
+    /// ![l2.button.roundedtop.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/l2.button.roundedtop.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5591,7 +5591,7 @@ public extension SFSymbol {
     static var l2ButtonRoundedtopHorizontalFill: SFSymbol { .init(rawValue: "l2.button.roundedtop.horizontal.fill") }
 
     /// 􁺅
-    /// ![l2.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/l2.circle.png)
+    /// ![l2.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/l2.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5600,7 +5600,7 @@ public extension SFSymbol {
     static var l2Circle: SFSymbol { .init(rawValue: "l2.circle") }
 
     /// 􁺆
-    /// ![l2.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/l2.circle.fill.png)
+    /// ![l2.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/l2.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5610,7 +5610,7 @@ public extension SFSymbol {
     static var l2CircleFill: SFSymbol { .init(rawValue: "l2.circle.fill") }
 
     /// 􁸇
-    /// ![l3.button.angledbottom.horizontal.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/l3.button.angledbottom.horizontal.left.png)
+    /// ![l3.button.angledbottom.horizontal.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/l3.button.angledbottom.horizontal.left.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5619,7 +5619,7 @@ public extension SFSymbol {
     static var l3ButtonAngledbottomHorizontalLeft: SFSymbol { .init(rawValue: "l3.button.angledbottom.horizontal.left") }
 
     /// 􁸈
-    /// ![l3.button.angledbottom.horizontal.left.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/l3.button.angledbottom.horizontal.left.fill.png)
+    /// ![l3.button.angledbottom.horizontal.left.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/l3.button.angledbottom.horizontal.left.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5629,7 +5629,7 @@ public extension SFSymbol {
     static var l3ButtonAngledbottomHorizontalLeftFill: SFSymbol { .init(rawValue: "l3.button.angledbottom.horizontal.left.fill") }
 
     /// 􁸠
-    /// ![l4.button.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/l4.button.horizontal.png)
+    /// ![l4.button.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/l4.button.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5638,7 +5638,7 @@ public extension SFSymbol {
     static var l4ButtonHorizontal: SFSymbol { .init(rawValue: "l4.button.horizontal") }
 
     /// 􁸡
-    /// ![l4.button.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/l4.button.horizontal.fill.png)
+    /// ![l4.button.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/l4.button.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5648,7 +5648,7 @@ public extension SFSymbol {
     static var l4ButtonHorizontalFill: SFSymbol { .init(rawValue: "l4.button.horizontal.fill") }
 
     /// 􁼛
-    /// ![ladybug.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ladybug.circle.png)
+    /// ![ladybug.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ladybug.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5657,7 +5657,7 @@ public extension SFSymbol {
     static var ladybugCircle: SFSymbol { .init(rawValue: "ladybug.circle") }
 
     /// 􁼜
-    /// ![ladybug.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/ladybug.circle.fill.png)
+    /// ![ladybug.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/ladybug.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5667,7 +5667,7 @@ public extension SFSymbol {
     static var ladybugCircleFill: SFSymbol { .init(rawValue: "ladybug.circle.fill") }
 
     /// 􂈰
-    /// ![larisign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/larisign.arrow.circlepath.png)
+    /// ![larisign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/larisign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5681,7 +5681,7 @@ public extension SFSymbol {
     static var larisignArrowCirclepath: SFSymbol { .init(rawValue: "larisign.arrow.circlepath") }
 
     /// 􂁝
-    /// ![laser.burst](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/laser.burst.png)
+    /// ![laser.burst](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/laser.burst.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5689,7 +5689,7 @@ public extension SFSymbol {
     static var laserBurst: SFSymbol { .init(rawValue: "laser.burst") }
 
     /// 􀣳
-    /// ![lasso.badge.sparkles](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lasso.badge.sparkles.png)
+    /// ![lasso.badge.sparkles](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lasso.badge.sparkles.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5698,7 +5698,7 @@ public extension SFSymbol {
     static var lassoBadgeSparkles: SFSymbol { .init(rawValue: "lasso.badge.sparkles") }
 
     /// 􀨓
-    /// ![lb.button.roundedbottom.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lb.button.roundedbottom.horizontal.png)
+    /// ![lb.button.roundedbottom.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lb.button.roundedbottom.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5707,7 +5707,7 @@ public extension SFSymbol {
     static var lbButtonRoundedbottomHorizontal: SFSymbol { .init(rawValue: "lb.button.roundedbottom.horizontal") }
 
     /// 􀨔
-    /// ![lb.button.roundedbottom.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lb.button.roundedbottom.horizontal.fill.png)
+    /// ![lb.button.roundedbottom.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lb.button.roundedbottom.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5717,7 +5717,7 @@ public extension SFSymbol {
     static var lbButtonRoundedbottomHorizontalFill: SFSymbol { .init(rawValue: "lb.button.roundedbottom.horizontal.fill") }
 
     /// 􁺃
-    /// ![lb.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lb.circle.png)
+    /// ![lb.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lb.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5726,7 +5726,7 @@ public extension SFSymbol {
     static var lbCircle: SFSymbol { .init(rawValue: "lb.circle") }
 
     /// 􁺄
-    /// ![lb.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lb.circle.fill.png)
+    /// ![lb.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lb.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5736,7 +5736,7 @@ public extension SFSymbol {
     static var lbCircleFill: SFSymbol { .init(rawValue: "lb.circle.fill") }
 
     /// 􁣣
-    /// ![left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/left.png)
+    /// ![left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/left.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5744,7 +5744,7 @@ public extension SFSymbol {
     static var left: SFSymbol { .init(rawValue: "left") }
 
     /// 􁣤
-    /// ![left.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/left.circle.png)
+    /// ![left.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/left.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5753,7 +5753,7 @@ public extension SFSymbol {
     static var leftCircle: SFSymbol { .init(rawValue: "left.circle") }
 
     /// 􁣥
-    /// ![left.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/left.circle.fill.png)
+    /// ![left.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/left.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5763,7 +5763,7 @@ public extension SFSymbol {
     static var leftCircleFill: SFSymbol { .init(rawValue: "left.circle.fill") }
 
     /// 􁺪
-    /// ![licenseplate](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/licenseplate.png)
+    /// ![licenseplate](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/licenseplate.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5772,7 +5772,7 @@ public extension SFSymbol {
     static var licenseplate: SFSymbol { .init(rawValue: "licenseplate") }
 
     /// 􁺫
-    /// ![licenseplate.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/licenseplate.fill.png)
+    /// ![licenseplate.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/licenseplate.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5782,7 +5782,7 @@ public extension SFSymbol {
     static var licenseplateFill: SFSymbol { .init(rawValue: "licenseplate.fill") }
 
     /// 􁷘
-    /// ![lightbulb.max](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lightbulb.max.png)
+    /// ![lightbulb.max](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lightbulb.max.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5791,7 +5791,7 @@ public extension SFSymbol {
     static var lightbulbMax: SFSymbol { .init(rawValue: "lightbulb.max") }
 
     /// 􁷙
-    /// ![lightbulb.max.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lightbulb.max.fill.png)
+    /// ![lightbulb.max.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lightbulb.max.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5800,7 +5800,7 @@ public extension SFSymbol {
     static var lightbulbMaxFill: SFSymbol { .init(rawValue: "lightbulb.max.fill") }
 
     /// 􁷖
-    /// ![lightbulb.min](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lightbulb.min.png)
+    /// ![lightbulb.min](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lightbulb.min.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5809,7 +5809,7 @@ public extension SFSymbol {
     static var lightbulbMin: SFSymbol { .init(rawValue: "lightbulb.min") }
 
     /// 􁹄
-    /// ![lightbulb.min.badge.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lightbulb.min.badge.exclamationmark.png)
+    /// ![lightbulb.min.badge.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lightbulb.min.badge.exclamationmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5819,7 +5819,7 @@ public extension SFSymbol {
     static var lightbulbMinBadgeExclamationmark: SFSymbol { .init(rawValue: "lightbulb.min.badge.exclamationmark") }
 
     /// 􁹅
-    /// ![lightbulb.min.badge.exclamationmark.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lightbulb.min.badge.exclamationmark.fill.png)
+    /// ![lightbulb.min.badge.exclamationmark.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lightbulb.min.badge.exclamationmark.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5829,7 +5829,7 @@ public extension SFSymbol {
     static var lightbulbMinBadgeExclamationmarkFill: SFSymbol { .init(rawValue: "lightbulb.min.badge.exclamationmark.fill") }
 
     /// 􁷗
-    /// ![lightbulb.min.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lightbulb.min.fill.png)
+    /// ![lightbulb.min.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lightbulb.min.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5838,7 +5838,7 @@ public extension SFSymbol {
     static var lightbulbMinFill: SFSymbol { .init(rawValue: "lightbulb.min.fill") }
 
     /// 􀷺
-    /// ![lightrail](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lightrail.png)
+    /// ![lightrail](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lightrail.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5846,7 +5846,7 @@ public extension SFSymbol {
     static var lightrail: SFSymbol { .init(rawValue: "lightrail") }
 
     /// 􀷻
-    /// ![lightrail.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lightrail.fill.png)
+    /// ![lightrail.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lightrail.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5854,7 +5854,7 @@ public extension SFSymbol {
     static var lightrailFill: SFSymbol { .init(rawValue: "lightrail.fill") }
 
     /// 􁹩
-    /// ![lightspectrum.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lightspectrum.horizontal.png)
+    /// ![lightspectrum.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lightspectrum.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5863,7 +5863,7 @@ public extension SFSymbol {
     static var lightspectrumHorizontal: SFSymbol { .init(rawValue: "lightspectrum.horizontal") }
 
     /// 􁷹
-    /// ![line.3.horizontal.button.angledtop.vertical.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/line.3.horizontal.button.angledtop.vertical.right.png)
+    /// ![line.3.horizontal.button.angledtop.vertical.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/line.3.horizontal.button.angledtop.vertical.right.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5872,7 +5872,7 @@ public extension SFSymbol {
     static var line3HorizontalButtonAngledtopVerticalRight: SFSymbol { .init(rawValue: "line.3.horizontal.button.angledtop.vertical.right") }
 
     /// 􁷺
-    /// ![line.3.horizontal.button.angledtop.vertical.right.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/line.3.horizontal.button.angledtop.vertical.right.fill.png)
+    /// ![line.3.horizontal.button.angledtop.vertical.right.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/line.3.horizontal.button.angledtop.vertical.right.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5882,7 +5882,7 @@ public extension SFSymbol {
     static var line3HorizontalButtonAngledtopVerticalRightFill: SFSymbol { .init(rawValue: "line.3.horizontal.button.angledtop.vertical.right.fill") }
 
     /// 􂀙
-    /// ![lines.measurement.vertical](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lines.measurement.vertical.png)
+    /// ![lines.measurement.vertical](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lines.measurement.vertical.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5890,7 +5890,7 @@ public extension SFSymbol {
     static var linesMeasurementVertical: SFSymbol { .init(rawValue: "lines.measurement.vertical") }
 
     /// 􂈢
-    /// ![lirasign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lirasign.arrow.circlepath.png)
+    /// ![lirasign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lirasign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5904,7 +5904,7 @@ public extension SFSymbol {
     static var lirasignArrowCirclepath: SFSymbol { .init(rawValue: "lirasign.arrow.circlepath") }
 
     /// 􀙔
-    /// ![livephoto.badge.automatic](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/livephoto.badge.automatic.png)
+    /// ![livephoto.badge.automatic](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/livephoto.badge.automatic.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -5916,7 +5916,7 @@ public extension SFSymbol {
     static var livephotoBadgeAutomatic: SFSymbol { .init(rawValue: "livephoto.badge.automatic") }
 
     /// 􁼵
-    /// ![lizard.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lizard.circle.png)
+    /// ![lizard.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lizard.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5925,7 +5925,7 @@ public extension SFSymbol {
     static var lizardCircle: SFSymbol { .init(rawValue: "lizard.circle") }
 
     /// 􁼶
-    /// ![lizard.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lizard.circle.fill.png)
+    /// ![lizard.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lizard.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5935,7 +5935,7 @@ public extension SFSymbol {
     static var lizardCircleFill: SFSymbol { .init(rawValue: "lizard.circle.fill") }
 
     /// 􁸢
-    /// ![lm.button.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lm.button.horizontal.png)
+    /// ![lm.button.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lm.button.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5944,7 +5944,7 @@ public extension SFSymbol {
     static var lmButtonHorizontal: SFSymbol { .init(rawValue: "lm.button.horizontal") }
 
     /// 􁸣
-    /// ![lm.button.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lm.button.horizontal.fill.png)
+    /// ![lm.button.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lm.button.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5954,7 +5954,7 @@ public extension SFSymbol {
     static var lmButtonHorizontalFill: SFSymbol { .init(rawValue: "lm.button.horizontal.fill") }
 
     /// 􁰏
-    /// ![lock.app.dashed](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lock.app.dashed.png)
+    /// ![lock.app.dashed](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lock.app.dashed.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5963,7 +5963,7 @@ public extension SFSymbol {
     static var lockAppDashed: SFSymbol { .init(rawValue: "lock.app.dashed") }
 
     /// 􂆉
-    /// ![lock.badge.clock](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lock.badge.clock.png)
+    /// ![lock.badge.clock](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lock.badge.clock.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5973,7 +5973,7 @@ public extension SFSymbol {
     static var lockBadgeClock: SFSymbol { .init(rawValue: "lock.badge.clock") }
 
     /// 􂆊
-    /// ![lock.badge.clock.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lock.badge.clock.fill.png)
+    /// ![lock.badge.clock.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lock.badge.clock.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -5983,7 +5983,7 @@ public extension SFSymbol {
     static var lockBadgeClockFill: SFSymbol { .init(rawValue: "lock.badge.clock.fill") }
 
     /// 􂄜
-    /// ![lock.circle.dotted](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lock.circle.dotted.png)
+    /// ![lock.circle.dotted](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lock.circle.dotted.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -5992,7 +5992,7 @@ public extension SFSymbol {
     static var lockCircleDotted: SFSymbol { .init(rawValue: "lock.circle.dotted") }
 
     /// 􁸋
-    /// ![lsb.button.angledbottom.horizontal.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lsb.button.angledbottom.horizontal.left.png)
+    /// ![lsb.button.angledbottom.horizontal.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lsb.button.angledbottom.horizontal.left.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6001,7 +6001,7 @@ public extension SFSymbol {
     static var lsbButtonAngledbottomHorizontalLeft: SFSymbol { .init(rawValue: "lsb.button.angledbottom.horizontal.left") }
 
     /// 􁸌
-    /// ![lsb.button.angledbottom.horizontal.left.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lsb.button.angledbottom.horizontal.left.fill.png)
+    /// ![lsb.button.angledbottom.horizontal.left.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lsb.button.angledbottom.horizontal.left.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6011,7 +6011,7 @@ public extension SFSymbol {
     static var lsbButtonAngledbottomHorizontalLeftFill: SFSymbol { .init(rawValue: "lsb.button.angledbottom.horizontal.left.fill") }
 
     /// 􀨗
-    /// ![lt.button.roundedtop.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lt.button.roundedtop.horizontal.png)
+    /// ![lt.button.roundedtop.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lt.button.roundedtop.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6020,7 +6020,7 @@ public extension SFSymbol {
     static var ltButtonRoundedtopHorizontal: SFSymbol { .init(rawValue: "lt.button.roundedtop.horizontal") }
 
     /// 􀨘
-    /// ![lt.button.roundedtop.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lt.button.roundedtop.horizontal.fill.png)
+    /// ![lt.button.roundedtop.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lt.button.roundedtop.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6030,7 +6030,7 @@ public extension SFSymbol {
     static var ltButtonRoundedtopHorizontalFill: SFSymbol { .init(rawValue: "lt.button.roundedtop.horizontal.fill") }
 
     /// 􁺇
-    /// ![lt.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lt.circle.png)
+    /// ![lt.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lt.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6039,7 +6039,7 @@ public extension SFSymbol {
     static var ltCircle: SFSymbol { .init(rawValue: "lt.circle") }
 
     /// 􁺈
-    /// ![lt.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/lt.circle.fill.png)
+    /// ![lt.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/lt.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6049,7 +6049,7 @@ public extension SFSymbol {
     static var ltCircleFill: SFSymbol { .init(rawValue: "lt.circle.fill") }
 
     /// 􁸤
-    /// ![m1.button.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/m1.button.horizontal.png)
+    /// ![m1.button.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/m1.button.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6058,7 +6058,7 @@ public extension SFSymbol {
     static var m1ButtonHorizontal: SFSymbol { .init(rawValue: "m1.button.horizontal") }
 
     /// 􁸥
-    /// ![m1.button.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/m1.button.horizontal.fill.png)
+    /// ![m1.button.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/m1.button.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6068,7 +6068,7 @@ public extension SFSymbol {
     static var m1ButtonHorizontalFill: SFSymbol { .init(rawValue: "m1.button.horizontal.fill") }
 
     /// 􁸦
-    /// ![m2.button.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/m2.button.horizontal.png)
+    /// ![m2.button.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/m2.button.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6077,7 +6077,7 @@ public extension SFSymbol {
     static var m2ButtonHorizontal: SFSymbol { .init(rawValue: "m2.button.horizontal") }
 
     /// 􁸧
-    /// ![m2.button.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/m2.button.horizontal.fill.png)
+    /// ![m2.button.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/m2.button.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6087,7 +6087,7 @@ public extension SFSymbol {
     static var m2ButtonHorizontalFill: SFSymbol { .init(rawValue: "m2.button.horizontal.fill") }
 
     /// 􁸨
-    /// ![m3.button.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/m3.button.horizontal.png)
+    /// ![m3.button.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/m3.button.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6096,7 +6096,7 @@ public extension SFSymbol {
     static var m3ButtonHorizontal: SFSymbol { .init(rawValue: "m3.button.horizontal") }
 
     /// 􁸩
-    /// ![m3.button.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/m3.button.horizontal.fill.png)
+    /// ![m3.button.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/m3.button.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6106,7 +6106,7 @@ public extension SFSymbol {
     static var m3ButtonHorizontalFill: SFSymbol { .init(rawValue: "m3.button.horizontal.fill") }
 
     /// 􁸪
-    /// ![m4.button.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/m4.button.horizontal.png)
+    /// ![m4.button.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/m4.button.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6115,7 +6115,7 @@ public extension SFSymbol {
     static var m4ButtonHorizontal: SFSymbol { .init(rawValue: "m4.button.horizontal") }
 
     /// 􁸫
-    /// ![m4.button.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/m4.button.horizontal.fill.png)
+    /// ![m4.button.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/m4.button.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6125,7 +6125,7 @@ public extension SFSymbol {
     static var m4ButtonHorizontalFill: SFSymbol { .init(rawValue: "m4.button.horizontal.fill") }
 
     /// 􁟬
-    /// ![macbook](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/macbook.png)
+    /// ![macbook](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/macbook.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -6136,7 +6136,7 @@ public extension SFSymbol {
     static var macbook: SFSymbol { .init(rawValue: "macbook") }
 
     /// 􁜙
-    /// ![macbook.and.visionpro](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/macbook.and.visionpro.png)
+    /// ![macbook.and.visionpro](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/macbook.and.visionpro.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -6152,7 +6152,7 @@ public extension SFSymbol {
     static var macbookAndVisionpro: SFSymbol { .init(rawValue: "macbook.and.visionpro") }
 
     /// 􁟫
-    /// ![macbook.gen1](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/macbook.gen1.png)
+    /// ![macbook.gen1](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/macbook.gen1.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -6163,7 +6163,7 @@ public extension SFSymbol {
     static var macbookGen1: SFSymbol { .init(rawValue: "macbook.gen1") }
 
     /// 􁈸
-    /// ![macbook.gen2](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/macbook.gen2.png)
+    /// ![macbook.gen2](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/macbook.gen2.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -6174,7 +6174,7 @@ public extension SFSymbol {
     static var macbookGen2: SFSymbol { .init(rawValue: "macbook.gen2") }
 
     /// 􁝸
-    /// ![macwindow.and.cursorarrow](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/macwindow.and.cursorarrow.png)
+    /// ![macwindow.and.cursorarrow](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/macwindow.and.cursorarrow.png)
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -6192,7 +6192,7 @@ public extension SFSymbol {
     static var macwindowAndCursorarrow: SymbolWith1Localization<Rtl> { .init(rawValue: "macwindow.and.cursorarrow") }
 
     /// 􂈭
-    /// ![manatsign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/manatsign.arrow.circlepath.png)
+    /// ![manatsign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/manatsign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6206,7 +6206,7 @@ public extension SFSymbol {
     static var manatsignArrowCirclepath: SFSymbol { .init(rawValue: "manatsign.arrow.circlepath") }
 
     /// 􁼡
-    /// ![mappin.and.ellipse.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/mappin.and.ellipse.circle.png)
+    /// ![mappin.and.ellipse.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/mappin.and.ellipse.circle.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6216,7 +6216,7 @@ public extension SFSymbol {
     static var mappinAndEllipseCircle: SFSymbol { .init(rawValue: "mappin.and.ellipse.circle") }
 
     /// 􁼢
-    /// ![mappin.and.ellipse.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/mappin.and.ellipse.circle.fill.png)
+    /// ![mappin.and.ellipse.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/mappin.and.ellipse.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6226,7 +6226,7 @@ public extension SFSymbol {
     static var mappinAndEllipseCircleFill: SFSymbol { .init(rawValue: "mappin.and.ellipse.circle.fill") }
 
     /// 􀼁
-    /// ![message.badge.waveform](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/message.badge.waveform.png)
+    /// ![message.badge.waveform](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/message.badge.waveform.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -6238,7 +6238,7 @@ public extension SFSymbol {
     static var messageBadgeWaveform: SFSymbol { .init(rawValue: "message.badge.waveform") }
 
     /// 􀼂
-    /// ![message.badge.waveform.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/message.badge.waveform.fill.png)
+    /// ![message.badge.waveform.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/message.badge.waveform.fill.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -6250,7 +6250,7 @@ public extension SFSymbol {
     static var messageBadgeWaveformFill: SFSymbol { .init(rawValue: "message.badge.waveform.fill") }
 
     /// 􂈫
-    /// ![millsign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/millsign.arrow.circlepath.png)
+    /// ![millsign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/millsign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6264,7 +6264,7 @@ public extension SFSymbol {
     static var millsignArrowCirclepath: SFSymbol { .init(rawValue: "millsign.arrow.circlepath") }
 
     /// 􁶽
-    /// ![moon.dust](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/moon.dust.png)
+    /// ![moon.dust](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/moon.dust.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6273,7 +6273,7 @@ public extension SFSymbol {
     static var moonDust: SFSymbol { .init(rawValue: "moon.dust") }
 
     /// 􁶿
-    /// ![moon.dust.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/moon.dust.circle.png)
+    /// ![moon.dust.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/moon.dust.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6282,7 +6282,7 @@ public extension SFSymbol {
     static var moonDustCircle: SFSymbol { .init(rawValue: "moon.dust.circle") }
 
     /// 􁷀
-    /// ![moon.dust.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/moon.dust.circle.fill.png)
+    /// ![moon.dust.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/moon.dust.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6292,7 +6292,7 @@ public extension SFSymbol {
     static var moonDustCircleFill: SFSymbol { .init(rawValue: "moon.dust.circle.fill") }
 
     /// 􁶾
-    /// ![moon.dust.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/moon.dust.fill.png)
+    /// ![moon.dust.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/moon.dust.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6302,7 +6302,7 @@ public extension SFSymbol {
     static var moonDustFill: SFSymbol { .init(rawValue: "moon.dust.fill") }
 
     /// 􂂳
-    /// ![moonrise](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/moonrise.png)
+    /// ![moonrise](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/moonrise.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6311,7 +6311,7 @@ public extension SFSymbol {
     static var moonrise: SFSymbol { .init(rawValue: "moonrise") }
 
     /// 􂂵
-    /// ![moonrise.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/moonrise.circle.png)
+    /// ![moonrise.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/moonrise.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6320,7 +6320,7 @@ public extension SFSymbol {
     static var moonriseCircle: SFSymbol { .init(rawValue: "moonrise.circle") }
 
     /// 􂂶
-    /// ![moonrise.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/moonrise.circle.fill.png)
+    /// ![moonrise.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/moonrise.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6330,7 +6330,7 @@ public extension SFSymbol {
     static var moonriseCircleFill: SFSymbol { .init(rawValue: "moonrise.circle.fill") }
 
     /// 􂂴
-    /// ![moonrise.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/moonrise.fill.png)
+    /// ![moonrise.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/moonrise.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6340,7 +6340,7 @@ public extension SFSymbol {
     static var moonriseFill: SFSymbol { .init(rawValue: "moonrise.fill") }
 
     /// 􂂷
-    /// ![moonset](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/moonset.png)
+    /// ![moonset](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/moonset.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6349,7 +6349,7 @@ public extension SFSymbol {
     static var moonset: SFSymbol { .init(rawValue: "moonset") }
 
     /// 􂂹
-    /// ![moonset.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/moonset.circle.png)
+    /// ![moonset.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/moonset.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6358,7 +6358,7 @@ public extension SFSymbol {
     static var moonsetCircle: SFSymbol { .init(rawValue: "moonset.circle") }
 
     /// 􂂺
-    /// ![moonset.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/moonset.circle.fill.png)
+    /// ![moonset.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/moonset.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6368,7 +6368,7 @@ public extension SFSymbol {
     static var moonsetCircleFill: SFSymbol { .init(rawValue: "moonset.circle.fill") }
 
     /// 􂂸
-    /// ![moonset.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/moonset.fill.png)
+    /// ![moonset.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/moonset.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6378,7 +6378,7 @@ public extension SFSymbol {
     static var moonsetFill: SFSymbol { .init(rawValue: "moonset.fill") }
 
     /// 􀜤
-    /// ![movieclapper](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/movieclapper.png)
+    /// ![movieclapper](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/movieclapper.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6387,7 +6387,7 @@ public extension SFSymbol {
     static var movieclapper: SFSymbol { .init(rawValue: "movieclapper") }
 
     /// 􁶺
-    /// ![movieclapper.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/movieclapper.fill.png)
+    /// ![movieclapper.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/movieclapper.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6396,7 +6396,7 @@ public extension SFSymbol {
     static var movieclapperFill: SFSymbol { .init(rawValue: "movieclapper.fill") }
 
     /// 􂈥
-    /// ![nairasign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/nairasign.arrow.circlepath.png)
+    /// ![nairasign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/nairasign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6410,7 +6410,7 @@ public extension SFSymbol {
     static var nairasignArrowCirclepath: SFSymbol { .init(rawValue: "nairasign.arrow.circlepath") }
 
     /// 􁣡
-    /// ![network.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/network.slash.png)
+    /// ![network.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/network.slash.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6420,7 +6420,7 @@ public extension SFSymbol {
     static var networkSlash: SFSymbol { .init(rawValue: "network.slash") }
 
     /// 􁤬
-    /// ![norwegiankronesign](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/norwegiankronesign.png)
+    /// ![norwegiankronesign](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/norwegiankronesign.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6428,7 +6428,7 @@ public extension SFSymbol {
     static var norwegiankronesign: SFSymbol { .init(rawValue: "norwegiankronesign") }
 
     /// 􂈵
-    /// ![norwegiankronesign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/norwegiankronesign.arrow.circlepath.png)
+    /// ![norwegiankronesign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/norwegiankronesign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6442,7 +6442,7 @@ public extension SFSymbol {
     static var norwegiankronesignArrowCirclepath: SFSymbol { .init(rawValue: "norwegiankronesign.arrow.circlepath") }
 
     /// 􀮤
-    /// ![norwegiankronesign.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/norwegiankronesign.circle.png)
+    /// ![norwegiankronesign.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/norwegiankronesign.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6451,7 +6451,7 @@ public extension SFSymbol {
     static var norwegiankronesignCircle: SFSymbol { .init(rawValue: "norwegiankronesign.circle") }
 
     /// 􀮥
-    /// ![norwegiankronesign.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/norwegiankronesign.circle.fill.png)
+    /// ![norwegiankronesign.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/norwegiankronesign.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6461,7 +6461,7 @@ public extension SFSymbol {
     static var norwegiankronesignCircleFill: SFSymbol { .init(rawValue: "norwegiankronesign.circle.fill") }
 
     /// 􀮦
-    /// ![norwegiankronesign.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/norwegiankronesign.square.png)
+    /// ![norwegiankronesign.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/norwegiankronesign.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6470,7 +6470,7 @@ public extension SFSymbol {
     static var norwegiankronesignSquare: SFSymbol { .init(rawValue: "norwegiankronesign.square") }
 
     /// 􀮧
-    /// ![norwegiankronesign.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/norwegiankronesign.square.fill.png)
+    /// ![norwegiankronesign.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/norwegiankronesign.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6480,7 +6480,7 @@ public extension SFSymbol {
     static var norwegiankronesignSquareFill: SFSymbol { .init(rawValue: "norwegiankronesign.square.fill") }
 
     /// 􁢙
-    /// ![opticid](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/opticid.png)
+    /// ![opticid](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/opticid.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -6491,7 +6491,7 @@ public extension SFSymbol {
     static var opticid: SFSymbol { .init(rawValue: "opticid") }
 
     /// 􁣂
-    /// ![opticid.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/opticid.fill.png)
+    /// ![opticid.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/opticid.fill.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -6503,7 +6503,7 @@ public extension SFSymbol {
     static var opticidFill: SFSymbol { .init(rawValue: "opticid.fill") }
 
     /// 􁸬
-    /// ![p1.button.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/p1.button.horizontal.png)
+    /// ![p1.button.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/p1.button.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6512,7 +6512,7 @@ public extension SFSymbol {
     static var p1ButtonHorizontal: SFSymbol { .init(rawValue: "p1.button.horizontal") }
 
     /// 􁸭
-    /// ![p1.button.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/p1.button.horizontal.fill.png)
+    /// ![p1.button.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/p1.button.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6522,7 +6522,7 @@ public extension SFSymbol {
     static var p1ButtonHorizontalFill: SFSymbol { .init(rawValue: "p1.button.horizontal.fill") }
 
     /// 􁸮
-    /// ![p2.button.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/p2.button.horizontal.png)
+    /// ![p2.button.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/p2.button.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6531,7 +6531,7 @@ public extension SFSymbol {
     static var p2ButtonHorizontal: SFSymbol { .init(rawValue: "p2.button.horizontal") }
 
     /// 􁸯
-    /// ![p2.button.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/p2.button.horizontal.fill.png)
+    /// ![p2.button.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/p2.button.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6541,7 +6541,7 @@ public extension SFSymbol {
     static var p2ButtonHorizontalFill: SFSymbol { .init(rawValue: "p2.button.horizontal.fill") }
 
     /// 􁸰
-    /// ![p3.button.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/p3.button.horizontal.png)
+    /// ![p3.button.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/p3.button.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6550,7 +6550,7 @@ public extension SFSymbol {
     static var p3ButtonHorizontal: SFSymbol { .init(rawValue: "p3.button.horizontal") }
 
     /// 􁸱
-    /// ![p3.button.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/p3.button.horizontal.fill.png)
+    /// ![p3.button.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/p3.button.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6560,7 +6560,7 @@ public extension SFSymbol {
     static var p3ButtonHorizontalFill: SFSymbol { .init(rawValue: "p3.button.horizontal.fill") }
 
     /// 􁸲
-    /// ![p4.button.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/p4.button.horizontal.png)
+    /// ![p4.button.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/p4.button.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6569,7 +6569,7 @@ public extension SFSymbol {
     static var p4ButtonHorizontal: SFSymbol { .init(rawValue: "p4.button.horizontal") }
 
     /// 􁸳
-    /// ![p4.button.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/p4.button.horizontal.fill.png)
+    /// ![p4.button.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/p4.button.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6579,7 +6579,7 @@ public extension SFSymbol {
     static var p4ButtonHorizontalFill: SFSymbol { .init(rawValue: "p4.button.horizontal.fill") }
 
     /// 􁸴
-    /// ![paddleshifter.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/paddleshifter.left.png)
+    /// ![paddleshifter.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/paddleshifter.left.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6587,7 +6587,7 @@ public extension SFSymbol {
     static var paddleshifterLeft: SFSymbol { .init(rawValue: "paddleshifter.left") }
 
     /// 􁸵
-    /// ![paddleshifter.left.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/paddleshifter.left.fill.png)
+    /// ![paddleshifter.left.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/paddleshifter.left.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6595,7 +6595,7 @@ public extension SFSymbol {
     static var paddleshifterLeftFill: SFSymbol { .init(rawValue: "paddleshifter.left.fill") }
 
     /// 􁸶
-    /// ![paddleshifter.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/paddleshifter.right.png)
+    /// ![paddleshifter.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/paddleshifter.right.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6603,7 +6603,7 @@ public extension SFSymbol {
     static var paddleshifterRight: SFSymbol { .init(rawValue: "paddleshifter.right") }
 
     /// 􁸷
-    /// ![paddleshifter.right.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/paddleshifter.right.fill.png)
+    /// ![paddleshifter.right.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/paddleshifter.right.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6611,7 +6611,7 @@ public extension SFSymbol {
     static var paddleshifterRightFill: SFSymbol { .init(rawValue: "paddleshifter.right.fill") }
 
     /// 􁷿
-    /// ![pano.badge.play](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/pano.badge.play.png)
+    /// ![pano.badge.play](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/pano.badge.play.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6621,7 +6621,7 @@ public extension SFSymbol {
     static var panoBadgePlay: SFSymbol { .init(rawValue: "pano.badge.play") }
 
     /// 􁸀
-    /// ![pano.badge.play.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/pano.badge.play.fill.png)
+    /// ![pano.badge.play.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/pano.badge.play.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6631,7 +6631,7 @@ public extension SFSymbol {
     static var panoBadgePlayFill: SFSymbol { .init(rawValue: "pano.badge.play.fill") }
 
     /// 􁖲
-    /// ![parkingsign.radiowaves.left.and.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/parkingsign.radiowaves.left.and.right.png)
+    /// ![parkingsign.radiowaves.left.and.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/parkingsign.radiowaves.left.and.right.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6640,7 +6640,7 @@ public extension SFSymbol {
     static var parkingsignRadiowavesLeftAndRight: SFSymbol { .init(rawValue: "parkingsign.radiowaves.left.and.right") }
 
     /// 􁥨
-    /// ![parkingsign.radiowaves.right.and.safetycone](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/parkingsign.radiowaves.right.and.safetycone.png)
+    /// ![parkingsign.radiowaves.right.and.safetycone](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/parkingsign.radiowaves.right.and.safetycone.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6649,7 +6649,7 @@ public extension SFSymbol {
     static var parkingsignRadiowavesRightAndSafetycone: SFSymbol { .init(rawValue: "parkingsign.radiowaves.right.and.safetycone") }
 
     /// 􁉨
-    /// ![parkingsign.steeringwheel](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/parkingsign.steeringwheel.png)
+    /// ![parkingsign.steeringwheel](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/parkingsign.steeringwheel.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6657,7 +6657,7 @@ public extension SFSymbol {
     static var parkingsignSteeringwheel: SFSymbol { .init(rawValue: "parkingsign.steeringwheel") }
 
     /// 􁸗
-    /// ![pedal.accelerator](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/pedal.accelerator.png)
+    /// ![pedal.accelerator](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/pedal.accelerator.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6666,7 +6666,7 @@ public extension SFSymbol {
     static var pedalAccelerator: SFSymbol { .init(rawValue: "pedal.accelerator") }
 
     /// 􁸘
-    /// ![pedal.accelerator.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/pedal.accelerator.fill.png)
+    /// ![pedal.accelerator.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/pedal.accelerator.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6675,7 +6675,7 @@ public extension SFSymbol {
     static var pedalAcceleratorFill: SFSymbol { .init(rawValue: "pedal.accelerator.fill") }
 
     /// 􁸙
-    /// ![pedal.brake](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/pedal.brake.png)
+    /// ![pedal.brake](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/pedal.brake.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6684,7 +6684,7 @@ public extension SFSymbol {
     static var pedalBrake: SFSymbol { .init(rawValue: "pedal.brake") }
 
     /// 􁸚
-    /// ![pedal.brake.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/pedal.brake.fill.png)
+    /// ![pedal.brake.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/pedal.brake.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6693,7 +6693,7 @@ public extension SFSymbol {
     static var pedalBrakeFill: SFSymbol { .init(rawValue: "pedal.brake.fill") }
 
     /// 􁸛
-    /// ![pedal.clutch](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/pedal.clutch.png)
+    /// ![pedal.clutch](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/pedal.clutch.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6702,7 +6702,7 @@ public extension SFSymbol {
     static var pedalClutch: SFSymbol { .init(rawValue: "pedal.clutch") }
 
     /// 􁸜
-    /// ![pedal.clutch.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/pedal.clutch.fill.png)
+    /// ![pedal.clutch.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/pedal.clutch.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6711,7 +6711,7 @@ public extension SFSymbol {
     static var pedalClutchFill: SFSymbol { .init(rawValue: "pedal.clutch.fill") }
 
     /// 􁕍
-    /// ![pencil.and.list.clipboard](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/pencil.and.list.clipboard.png)
+    /// ![pencil.and.list.clipboard](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/pencil.and.list.clipboard.png)
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
@@ -6725,7 +6725,7 @@ public extension SFSymbol {
     static var pencilAndListClipboard: SymbolWith1Localization<Rtl> { .init(rawValue: "pencil.and.list.clipboard") }
 
     /// 􀤒
-    /// ![pencil.and.scribble](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/pencil.and.scribble.png)
+    /// ![pencil.and.scribble](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/pencil.and.scribble.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6734,7 +6734,7 @@ public extension SFSymbol {
     static var pencilAndScribble: SFSymbol { .init(rawValue: "pencil.and.scribble") }
 
     /// 􁿵
-    /// ![pencil.tip.crop.circle.badge.arrow.forward.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/pencil.tip.crop.circle.badge.arrow.forward.fill.png)
+    /// ![pencil.tip.crop.circle.badge.arrow.forward.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/pencil.tip.crop.circle.badge.arrow.forward.fill.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -6746,7 +6746,7 @@ public extension SFSymbol {
     static var pencilTipCropCircleBadgeArrowForwardFill: SFSymbol { .init(rawValue: "pencil.tip.crop.circle.badge.arrow.forward.fill") }
 
     /// 􁿳
-    /// ![pencil.tip.crop.circle.badge.minus.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/pencil.tip.crop.circle.badge.minus.fill.png)
+    /// ![pencil.tip.crop.circle.badge.minus.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/pencil.tip.crop.circle.badge.minus.fill.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -6758,7 +6758,7 @@ public extension SFSymbol {
     static var pencilTipCropCircleBadgeMinusFill: SFSymbol { .init(rawValue: "pencil.tip.crop.circle.badge.minus.fill") }
 
     /// 􁾝
-    /// ![pencil.tip.crop.circle.badge.plus.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/pencil.tip.crop.circle.badge.plus.fill.png)
+    /// ![pencil.tip.crop.circle.badge.plus.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/pencil.tip.crop.circle.badge.plus.fill.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -6770,7 +6770,7 @@ public extension SFSymbol {
     static var pencilTipCropCircleBadgePlusFill: SFSymbol { .init(rawValue: "pencil.tip.crop.circle.badge.plus.fill") }
 
     /// 􁾛
-    /// ![pencil.tip.crop.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/pencil.tip.crop.circle.fill.png)
+    /// ![pencil.tip.crop.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/pencil.tip.crop.circle.fill.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -6782,7 +6782,7 @@ public extension SFSymbol {
     static var pencilTipCropCircleFill: SFSymbol { .init(rawValue: "pencil.tip.crop.circle.fill") }
 
     /// 􁷩
-    /// ![person.2.badge.key](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/person.2.badge.key.png)
+    /// ![person.2.badge.key](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/person.2.badge.key.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -6793,7 +6793,7 @@ public extension SFSymbol {
     static var person2BadgeKey: SFSymbol { .init(rawValue: "person.2.badge.key") }
 
     /// 􁷫
-    /// ![person.2.badge.key.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/person.2.badge.key.fill.png)
+    /// ![person.2.badge.key.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/person.2.badge.key.fill.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -6804,7 +6804,7 @@ public extension SFSymbol {
     static var person2BadgeKeyFill: SFSymbol { .init(rawValue: "person.2.badge.key.fill") }
 
     /// 􁠃
-    /// ![person.and.background.striped.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/person.and.background.striped.horizontal.png)
+    /// ![person.and.background.striped.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/person.and.background.striped.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6813,7 +6813,7 @@ public extension SFSymbol {
     static var personAndBackgroundStripedHorizontal: SFSymbol { .init(rawValue: "person.and.background.striped.horizontal") }
 
     /// 􂄽
-    /// ![person.bubble](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/person.bubble.png)
+    /// ![person.bubble](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/person.bubble.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6822,7 +6822,7 @@ public extension SFSymbol {
     static var personBubble: SFSymbol { .init(rawValue: "person.bubble") }
 
     /// 􂄾
-    /// ![person.bubble.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/person.bubble.fill.png)
+    /// ![person.bubble.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/person.bubble.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6832,7 +6832,7 @@ public extension SFSymbol {
     static var personBubbleFill: SFSymbol { .init(rawValue: "person.bubble.fill") }
 
     /// 􁽓
-    /// ![person.bust.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/person.bust.circle.png)
+    /// ![person.bust.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/person.bust.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6841,7 +6841,7 @@ public extension SFSymbol {
     static var personBustCircle: SFSymbol { .init(rawValue: "person.bust.circle") }
 
     /// 􁽔
-    /// ![person.bust.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/person.bust.circle.fill.png)
+    /// ![person.bust.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/person.bust.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6851,7 +6851,7 @@ public extension SFSymbol {
     static var personBustCircleFill: SFSymbol { .init(rawValue: "person.bust.circle.fill") }
 
     /// 􂅪
-    /// ![person.crop.circle.dashed.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/person.crop.circle.dashed.circle.png)
+    /// ![person.crop.circle.dashed.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/person.crop.circle.dashed.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6860,7 +6860,7 @@ public extension SFSymbol {
     static var personCropCircleDashedCircle: SFSymbol { .init(rawValue: "person.crop.circle.dashed.circle") }
 
     /// 􂃿
-    /// ![person.crop.circle.dashed.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/person.crop.circle.dashed.circle.fill.png)
+    /// ![person.crop.circle.dashed.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/person.crop.circle.dashed.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6870,7 +6870,7 @@ public extension SFSymbol {
     static var personCropCircleDashedCircleFill: SFSymbol { .init(rawValue: "person.crop.circle.dashed.circle.fill") }
 
     /// 􁣔
-    /// ![person.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/person.slash.png)
+    /// ![person.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/person.slash.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6879,7 +6879,7 @@ public extension SFSymbol {
     static var personSlash: SFSymbol { .init(rawValue: "person.slash") }
 
     /// 􁣕
-    /// ![person.slash.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/person.slash.fill.png)
+    /// ![person.slash.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/person.slash.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6888,7 +6888,7 @@ public extension SFSymbol {
     static var personSlashFill: SFSymbol { .init(rawValue: "person.slash.fill") }
 
     /// 􂈞
-    /// ![pesetasign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/pesetasign.arrow.circlepath.png)
+    /// ![pesetasign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/pesetasign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6902,7 +6902,7 @@ public extension SFSymbol {
     static var pesetasignArrowCirclepath: SFSymbol { .init(rawValue: "pesetasign.arrow.circlepath") }
 
     /// 􂈟
-    /// ![pesosign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/pesosign.arrow.circlepath.png)
+    /// ![pesosign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/pesosign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6916,7 +6916,7 @@ public extension SFSymbol {
     static var pesosignArrowCirclepath: SFSymbol { .init(rawValue: "pesosign.arrow.circlepath") }
 
     /// 􀼃
-    /// ![phone.badge.waveform](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/phone.badge.waveform.png)
+    /// ![phone.badge.waveform](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/phone.badge.waveform.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6926,7 +6926,7 @@ public extension SFSymbol {
     static var phoneBadgeWaveform: SFSymbol { .init(rawValue: "phone.badge.waveform") }
 
     /// 􀼄
-    /// ![phone.badge.waveform.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/phone.badge.waveform.fill.png)
+    /// ![phone.badge.waveform.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/phone.badge.waveform.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6936,7 +6936,7 @@ public extension SFSymbol {
     static var phoneBadgeWaveformFill: SFSymbol { .init(rawValue: "phone.badge.waveform.fill") }
 
     /// 􀱮
-    /// ![phone.bubble](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/phone.bubble.png)
+    /// ![phone.bubble](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/phone.bubble.png)
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -6949,7 +6949,7 @@ public extension SFSymbol {
     static var phoneBubble: SymbolWith1Localization<Rtl> { .init(rawValue: "phone.bubble") }
 
     /// 􀱯
-    /// ![phone.bubble.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/phone.bubble.fill.png)
+    /// ![phone.bubble.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/phone.bubble.fill.png)
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
@@ -6963,7 +6963,7 @@ public extension SFSymbol {
     static var phoneBubbleFill: SymbolWith1Localization<Rtl> { .init(rawValue: "phone.bubble.fill") }
 
     /// 􁼧
-    /// ![photo.artframe.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/photo.artframe.circle.png)
+    /// ![photo.artframe.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/photo.artframe.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -6972,7 +6972,7 @@ public extension SFSymbol {
     static var photoArtframeCircle: SFSymbol { .init(rawValue: "photo.artframe.circle") }
 
     /// 􁼨
-    /// ![photo.artframe.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/photo.artframe.circle.fill.png)
+    /// ![photo.artframe.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/photo.artframe.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6982,7 +6982,7 @@ public extension SFSymbol {
     static var photoArtframeCircleFill: SFSymbol { .init(rawValue: "photo.artframe.circle.fill") }
 
     /// 􁃲
-    /// ![photo.badge.arrow.down](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/photo.badge.arrow.down.png)
+    /// ![photo.badge.arrow.down](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/photo.badge.arrow.down.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -6992,7 +6992,7 @@ public extension SFSymbol {
     static var photoBadgeArrowDown: SFSymbol { .init(rawValue: "photo.badge.arrow.down") }
 
     /// 􁃳
-    /// ![photo.badge.arrow.down.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/photo.badge.arrow.down.fill.png)
+    /// ![photo.badge.arrow.down.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/photo.badge.arrow.down.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7002,7 +7002,7 @@ public extension SFSymbol {
     static var photoBadgeArrowDownFill: SFSymbol { .init(rawValue: "photo.badge.arrow.down.fill") }
 
     /// 􁘹
-    /// ![photo.badge.checkmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/photo.badge.checkmark.png)
+    /// ![photo.badge.checkmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/photo.badge.checkmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7012,7 +7012,7 @@ public extension SFSymbol {
     static var photoBadgeCheckmark: SFSymbol { .init(rawValue: "photo.badge.checkmark") }
 
     /// 􁘺
-    /// ![photo.badge.checkmark.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/photo.badge.checkmark.fill.png)
+    /// ![photo.badge.checkmark.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/photo.badge.checkmark.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7022,7 +7022,7 @@ public extension SFSymbol {
     static var photoBadgeCheckmarkFill: SFSymbol { .init(rawValue: "photo.badge.checkmark.fill") }
 
     /// 􁃏
-    /// ![photo.badge.plus](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/photo.badge.plus.png)
+    /// ![photo.badge.plus](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/photo.badge.plus.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7032,7 +7032,7 @@ public extension SFSymbol {
     static var photoBadgePlus: SFSymbol { .init(rawValue: "photo.badge.plus") }
 
     /// 􁃐
-    /// ![photo.badge.plus.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/photo.badge.plus.fill.png)
+    /// ![photo.badge.plus.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/photo.badge.plus.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7042,7 +7042,7 @@ public extension SFSymbol {
     static var photoBadgePlusFill: SFSymbol { .init(rawValue: "photo.badge.plus.fill") }
 
     /// 􁹙
-    /// ![play.house](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/play.house.png)
+    /// ![play.house](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/play.house.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7051,7 +7051,7 @@ public extension SFSymbol {
     static var playHouse: SFSymbol { .init(rawValue: "play.house") }
 
     /// 􁹚
-    /// ![play.house.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/play.house.fill.png)
+    /// ![play.house.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/play.house.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7061,7 +7061,7 @@ public extension SFSymbol {
     static var playHouseFill: SFSymbol { .init(rawValue: "play.house.fill") }
 
     /// 􁻶
-    /// ![point.bottomleft.filled.forward.to.point.topright.scurvepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/point.bottomleft.filled.forward.to.point.topright.scurvepath.png)
+    /// ![point.bottomleft.filled.forward.to.point.topright.scurvepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/point.bottomleft.filled.forward.to.point.topright.scurvepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7070,7 +7070,7 @@ public extension SFSymbol {
     static var pointBottomleftFilledForwardToPointToprightScurvepath: SFSymbol { .init(rawValue: "point.bottomleft.filled.forward.to.point.topright.scurvepath") }
 
     /// 􁻷
-    /// ![point.bottomleft.forward.to.arrowtriangle.uturn.scurvepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/point.bottomleft.forward.to.arrowtriangle.uturn.scurvepath.png)
+    /// ![point.bottomleft.forward.to.arrowtriangle.uturn.scurvepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/point.bottomleft.forward.to.arrowtriangle.uturn.scurvepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7084,7 +7084,7 @@ public extension SFSymbol {
     static var pointBottomleftForwardToArrowtriangleUturnScurvepath: SFSymbol { .init(rawValue: "point.bottomleft.forward.to.arrowtriangle.uturn.scurvepath") }
 
     /// 􁸹
-    /// ![point.bottomleft.forward.to.arrowtriangle.uturn.scurvepath.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/point.bottomleft.forward.to.arrowtriangle.uturn.scurvepath.fill.png)
+    /// ![point.bottomleft.forward.to.arrowtriangle.uturn.scurvepath.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/point.bottomleft.forward.to.arrowtriangle.uturn.scurvepath.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7098,7 +7098,7 @@ public extension SFSymbol {
     static var pointBottomleftForwardToArrowtriangleUturnScurvepathFill: SFSymbol { .init(rawValue: "point.bottomleft.forward.to.arrowtriangle.uturn.scurvepath.fill") }
 
     /// 􁻵
-    /// ![point.bottomleft.forward.to.point.topright.filled.scurvepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/point.bottomleft.forward.to.point.topright.filled.scurvepath.png)
+    /// ![point.bottomleft.forward.to.point.topright.filled.scurvepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/point.bottomleft.forward.to.point.topright.filled.scurvepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7107,7 +7107,7 @@ public extension SFSymbol {
     static var pointBottomleftForwardToPointToprightFilledScurvepath: SFSymbol { .init(rawValue: "point.bottomleft.forward.to.point.topright.filled.scurvepath") }
 
     /// 􁻴
-    /// ![point.bottomleft.forward.to.point.topright.scurvepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/point.bottomleft.forward.to.point.topright.scurvepath.png)
+    /// ![point.bottomleft.forward.to.point.topright.scurvepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/point.bottomleft.forward.to.point.topright.scurvepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7116,7 +7116,7 @@ public extension SFSymbol {
     static var pointBottomleftForwardToPointToprightScurvepath: SFSymbol { .init(rawValue: "point.bottomleft.forward.to.point.topright.scurvepath") }
 
     /// 􁸸
-    /// ![point.bottomleft.forward.to.point.topright.scurvepath.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/point.bottomleft.forward.to.point.topright.scurvepath.fill.png)
+    /// ![point.bottomleft.forward.to.point.topright.scurvepath.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/point.bottomleft.forward.to.point.topright.scurvepath.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7125,7 +7125,7 @@ public extension SFSymbol {
     static var pointBottomleftForwardToPointToprightScurvepathFill: SFSymbol { .init(rawValue: "point.bottomleft.forward.to.point.topright.scurvepath.fill") }
 
     /// 􁻸
-    /// ![point.forward.to.point.capsulepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/point.forward.to.point.capsulepath.png)
+    /// ![point.forward.to.point.capsulepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/point.forward.to.point.capsulepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7134,7 +7134,7 @@ public extension SFSymbol {
     static var pointForwardToPointCapsulepath: SFSymbol { .init(rawValue: "point.forward.to.point.capsulepath") }
 
     /// 􁸺
-    /// ![point.forward.to.point.capsulepath.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/point.forward.to.point.capsulepath.fill.png)
+    /// ![point.forward.to.point.capsulepath.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/point.forward.to.point.capsulepath.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7143,7 +7143,7 @@ public extension SFSymbol {
     static var pointForwardToPointCapsulepathFill: SFSymbol { .init(rawValue: "point.forward.to.point.capsulepath.fill") }
 
     /// 􀣱
-    /// ![point.topleft.down.to.point.bottomright.curvepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/point.topleft.down.to.point.bottomright.curvepath.png)
+    /// ![point.topleft.down.to.point.bottomright.curvepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/point.topleft.down.to.point.bottomright.curvepath.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7153,7 +7153,7 @@ public extension SFSymbol {
     static var pointTopleftDownToPointBottomrightCurvepath: SFSymbol { .init(rawValue: "point.topleft.down.to.point.bottomright.curvepath") }
 
     /// 􀬱
-    /// ![point.topleft.down.to.point.bottomright.curvepath.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/point.topleft.down.to.point.bottomright.curvepath.fill.png)
+    /// ![point.topleft.down.to.point.bottomright.curvepath.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/point.topleft.down.to.point.bottomright.curvepath.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7163,7 +7163,7 @@ public extension SFSymbol {
     static var pointTopleftDownToPointBottomrightCurvepathFill: SFSymbol { .init(rawValue: "point.topleft.down.to.point.bottomright.curvepath.fill") }
 
     /// 􀾔
-    /// ![point.topleft.down.to.point.bottomright.filled.curvepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/point.topleft.down.to.point.bottomright.filled.curvepath.png)
+    /// ![point.topleft.down.to.point.bottomright.filled.curvepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/point.topleft.down.to.point.bottomright.filled.curvepath.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7173,7 +7173,7 @@ public extension SFSymbol {
     static var pointTopleftDownToPointBottomrightFilledCurvepath: SFSymbol { .init(rawValue: "point.topleft.down.to.point.bottomright.filled.curvepath") }
 
     /// 􀾕
-    /// ![point.topleft.filled.down.to.point.bottomright.curvepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/point.topleft.filled.down.to.point.bottomright.curvepath.png)
+    /// ![point.topleft.filled.down.to.point.bottomright.curvepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/point.topleft.filled.down.to.point.bottomright.curvepath.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7183,7 +7183,7 @@ public extension SFSymbol {
     static var pointTopleftFilledDownToPointBottomrightCurvepath: SFSymbol { .init(rawValue: "point.topleft.filled.down.to.point.bottomright.curvepath") }
 
     /// 􁤯
-    /// ![polishzlotysign](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/polishzlotysign.png)
+    /// ![polishzlotysign](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/polishzlotysign.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7191,7 +7191,7 @@ public extension SFSymbol {
     static var polishzlotysign: SFSymbol { .init(rawValue: "polishzlotysign") }
 
     /// 􂈴
-    /// ![polishzlotysign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/polishzlotysign.arrow.circlepath.png)
+    /// ![polishzlotysign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/polishzlotysign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7205,7 +7205,7 @@ public extension SFSymbol {
     static var polishzlotysignArrowCirclepath: SFSymbol { .init(rawValue: "polishzlotysign.arrow.circlepath") }
 
     /// 􁤰
-    /// ![polishzlotysign.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/polishzlotysign.circle.png)
+    /// ![polishzlotysign.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/polishzlotysign.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7214,7 +7214,7 @@ public extension SFSymbol {
     static var polishzlotysignCircle: SFSymbol { .init(rawValue: "polishzlotysign.circle") }
 
     /// 􁤱
-    /// ![polishzlotysign.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/polishzlotysign.circle.fill.png)
+    /// ![polishzlotysign.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/polishzlotysign.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7224,7 +7224,7 @@ public extension SFSymbol {
     static var polishzlotysignCircleFill: SFSymbol { .init(rawValue: "polishzlotysign.circle.fill") }
 
     /// 􁤲
-    /// ![polishzlotysign.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/polishzlotysign.square.png)
+    /// ![polishzlotysign.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/polishzlotysign.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7233,7 +7233,7 @@ public extension SFSymbol {
     static var polishzlotysignSquare: SFSymbol { .init(rawValue: "polishzlotysign.square") }
 
     /// 􁤳
-    /// ![polishzlotysign.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/polishzlotysign.square.fill.png)
+    /// ![polishzlotysign.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/polishzlotysign.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7243,7 +7243,7 @@ public extension SFSymbol {
     static var polishzlotysignSquareFill: SFSymbol { .init(rawValue: "polishzlotysign.square.fill") }
 
     /// 􁣷
-    /// ![powercord](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/powercord.png)
+    /// ![powercord](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/powercord.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7251,7 +7251,7 @@ public extension SFSymbol {
     static var powercord: SFSymbol { .init(rawValue: "powercord") }
 
     /// 􁣸
-    /// ![powercord.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/powercord.fill.png)
+    /// ![powercord.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/powercord.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7259,7 +7259,7 @@ public extension SFSymbol {
     static var powercordFill: SFSymbol { .init(rawValue: "powercord.fill") }
 
     /// 􀨍
-    /// ![r.button.roundedbottom.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/r.button.roundedbottom.horizontal.png)
+    /// ![r.button.roundedbottom.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/r.button.roundedbottom.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7268,7 +7268,7 @@ public extension SFSymbol {
     static var rButtonRoundedbottomHorizontal: SFSymbol { .init(rawValue: "r.button.roundedbottom.horizontal") }
 
     /// 􀨎
-    /// ![r.button.roundedbottom.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/r.button.roundedbottom.horizontal.fill.png)
+    /// ![r.button.roundedbottom.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/r.button.roundedbottom.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7278,7 +7278,7 @@ public extension SFSymbol {
     static var rButtonRoundedbottomHorizontalFill: SFSymbol { .init(rawValue: "r.button.roundedbottom.horizontal.fill") }
 
     /// 􀨏
-    /// ![r1.button.roundedbottom.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/r1.button.roundedbottom.horizontal.png)
+    /// ![r1.button.roundedbottom.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/r1.button.roundedbottom.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7287,7 +7287,7 @@ public extension SFSymbol {
     static var r1ButtonRoundedbottomHorizontal: SFSymbol { .init(rawValue: "r1.button.roundedbottom.horizontal") }
 
     /// 􀨐
-    /// ![r1.button.roundedbottom.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/r1.button.roundedbottom.horizontal.fill.png)
+    /// ![r1.button.roundedbottom.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/r1.button.roundedbottom.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7297,7 +7297,7 @@ public extension SFSymbol {
     static var r1ButtonRoundedbottomHorizontalFill: SFSymbol { .init(rawValue: "r1.button.roundedbottom.horizontal.fill") }
 
     /// 􁺉
-    /// ![r1.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/r1.circle.png)
+    /// ![r1.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/r1.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7306,7 +7306,7 @@ public extension SFSymbol {
     static var r1Circle: SFSymbol { .init(rawValue: "r1.circle") }
 
     /// 􁺊
-    /// ![r1.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/r1.circle.fill.png)
+    /// ![r1.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/r1.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7316,7 +7316,7 @@ public extension SFSymbol {
     static var r1CircleFill: SFSymbol { .init(rawValue: "r1.circle.fill") }
 
     /// 􁷵
-    /// ![r2.button.angledtop.vertical.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/r2.button.angledtop.vertical.right.png)
+    /// ![r2.button.angledtop.vertical.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/r2.button.angledtop.vertical.right.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7325,7 +7325,7 @@ public extension SFSymbol {
     static var r2ButtonAngledtopVerticalRight: SFSymbol { .init(rawValue: "r2.button.angledtop.vertical.right") }
 
     /// 􁷶
-    /// ![r2.button.angledtop.vertical.right.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/r2.button.angledtop.vertical.right.fill.png)
+    /// ![r2.button.angledtop.vertical.right.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/r2.button.angledtop.vertical.right.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7335,7 +7335,7 @@ public extension SFSymbol {
     static var r2ButtonAngledtopVerticalRightFill: SFSymbol { .init(rawValue: "r2.button.angledtop.vertical.right.fill") }
 
     /// 􀨑
-    /// ![r2.button.roundedtop.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/r2.button.roundedtop.horizontal.png)
+    /// ![r2.button.roundedtop.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/r2.button.roundedtop.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7344,7 +7344,7 @@ public extension SFSymbol {
     static var r2ButtonRoundedtopHorizontal: SFSymbol { .init(rawValue: "r2.button.roundedtop.horizontal") }
 
     /// 􀨒
-    /// ![r2.button.roundedtop.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/r2.button.roundedtop.horizontal.fill.png)
+    /// ![r2.button.roundedtop.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/r2.button.roundedtop.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7354,7 +7354,7 @@ public extension SFSymbol {
     static var r2ButtonRoundedtopHorizontalFill: SFSymbol { .init(rawValue: "r2.button.roundedtop.horizontal.fill") }
 
     /// 􁺍
-    /// ![r2.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/r2.circle.png)
+    /// ![r2.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/r2.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7363,7 +7363,7 @@ public extension SFSymbol {
     static var r2Circle: SFSymbol { .init(rawValue: "r2.circle") }
 
     /// 􁺎
-    /// ![r2.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/r2.circle.fill.png)
+    /// ![r2.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/r2.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7373,7 +7373,7 @@ public extension SFSymbol {
     static var r2CircleFill: SFSymbol { .init(rawValue: "r2.circle.fill") }
 
     /// 􁸉
-    /// ![r3.button.angledbottom.horizontal.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/r3.button.angledbottom.horizontal.right.png)
+    /// ![r3.button.angledbottom.horizontal.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/r3.button.angledbottom.horizontal.right.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7382,7 +7382,7 @@ public extension SFSymbol {
     static var r3ButtonAngledbottomHorizontalRight: SFSymbol { .init(rawValue: "r3.button.angledbottom.horizontal.right") }
 
     /// 􁸊
-    /// ![r3.button.angledbottom.horizontal.right.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/r3.button.angledbottom.horizontal.right.fill.png)
+    /// ![r3.button.angledbottom.horizontal.right.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/r3.button.angledbottom.horizontal.right.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7392,7 +7392,7 @@ public extension SFSymbol {
     static var r3ButtonAngledbottomHorizontalRightFill: SFSymbol { .init(rawValue: "r3.button.angledbottom.horizontal.right.fill") }
 
     /// 􁺤
-    /// ![r4.button.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/r4.button.horizontal.png)
+    /// ![r4.button.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/r4.button.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7401,7 +7401,7 @@ public extension SFSymbol {
     static var r4ButtonHorizontal: SFSymbol { .init(rawValue: "r4.button.horizontal") }
 
     /// 􁺥
-    /// ![r4.button.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/r4.button.horizontal.fill.png)
+    /// ![r4.button.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/r4.button.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7411,7 +7411,7 @@ public extension SFSymbol {
     static var r4ButtonHorizontalFill: SFSymbol { .init(rawValue: "r4.button.horizontal.fill") }
 
     /// 􀼭
-    /// ![rainbow](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rainbow.png)
+    /// ![rainbow](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rainbow.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7420,7 +7420,7 @@ public extension SFSymbol {
     static var rainbow: SFSymbol { .init(rawValue: "rainbow") }
 
     /// 􀨕
-    /// ![rb.button.roundedbottom.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rb.button.roundedbottom.horizontal.png)
+    /// ![rb.button.roundedbottom.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rb.button.roundedbottom.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7429,7 +7429,7 @@ public extension SFSymbol {
     static var rbButtonRoundedbottomHorizontal: SFSymbol { .init(rawValue: "rb.button.roundedbottom.horizontal") }
 
     /// 􀨖
-    /// ![rb.button.roundedbottom.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rb.button.roundedbottom.horizontal.fill.png)
+    /// ![rb.button.roundedbottom.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rb.button.roundedbottom.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7439,7 +7439,7 @@ public extension SFSymbol {
     static var rbButtonRoundedbottomHorizontalFill: SFSymbol { .init(rawValue: "rb.button.roundedbottom.horizontal.fill") }
 
     /// 􁺋
-    /// ![rb.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rb.circle.png)
+    /// ![rb.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rb.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7448,7 +7448,7 @@ public extension SFSymbol {
     static var rbCircle: SFSymbol { .init(rawValue: "rb.circle") }
 
     /// 􁺌
-    /// ![rb.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rb.circle.fill.png)
+    /// ![rb.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rb.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7458,7 +7458,7 @@ public extension SFSymbol {
     static var rbCircleFill: SFSymbol { .init(rawValue: "rb.circle.fill") }
 
     /// 􀬄
-    /// ![rectangle.3.group.bubble](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.3.group.bubble.png)
+    /// ![rectangle.3.group.bubble](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.3.group.bubble.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7467,7 +7467,7 @@ public extension SFSymbol {
     static var rectangle3GroupBubble: SFSymbol { .init(rawValue: "rectangle.3.group.bubble") }
 
     /// 􀬅
-    /// ![rectangle.3.group.bubble.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.3.group.bubble.fill.png)
+    /// ![rectangle.3.group.bubble.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.3.group.bubble.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7477,7 +7477,7 @@ public extension SFSymbol {
     static var rectangle3GroupBubbleFill: SFSymbol { .init(rawValue: "rectangle.3.group.bubble.fill") }
 
     /// 􀪫
-    /// ![rectangle.checkered](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.checkered.png)
+    /// ![rectangle.checkered](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.checkered.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7490,7 +7490,7 @@ public extension SFSymbol {
     static var rectangleCheckered: SFSymbol { .init(rawValue: "rectangle.checkered") }
 
     /// 􂇕
-    /// ![rectangle.inset.filled.and.cursorarrow](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.inset.filled.and.cursorarrow.png)
+    /// ![rectangle.inset.filled.and.cursorarrow](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.filled.and.cursorarrow.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7503,7 +7503,7 @@ public extension SFSymbol {
     static var rectangleInsetFilledAndCursorarrow: SFSymbol { .init(rawValue: "rectangle.inset.filled.and.cursorarrow") }
 
     /// 􂃕
-    /// ![rectangle.inset.filled.badge.record](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.inset.filled.badge.record.png)
+    /// ![rectangle.inset.filled.badge.record](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.filled.badge.record.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7517,7 +7517,7 @@ public extension SFSymbol {
     static var rectangleInsetFilledBadgeRecord: SFSymbol { .init(rawValue: "rectangle.inset.filled.badge.record") }
 
     /// 􁻯
-    /// ![rectangle.landscape.rotate](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.landscape.rotate.png)
+    /// ![rectangle.landscape.rotate](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.landscape.rotate.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7526,7 +7526,7 @@ public extension SFSymbol {
     static var rectangleLandscapeRotate: SFSymbol { .init(rawValue: "rectangle.landscape.rotate") }
 
     /// 􂇓
-    /// ![rectangle.on.rectangle.badge.gearshape](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.on.rectangle.badge.gearshape.png)
+    /// ![rectangle.on.rectangle.badge.gearshape](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.on.rectangle.badge.gearshape.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7535,7 +7535,7 @@ public extension SFSymbol {
     static var rectangleOnRectangleBadgeGearshape: SFSymbol { .init(rawValue: "rectangle.on.rectangle.badge.gearshape") }
 
     /// 􁷷
-    /// ![rectangle.on.rectangle.button.angledtop.vertical.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.on.rectangle.button.angledtop.vertical.left.png)
+    /// ![rectangle.on.rectangle.button.angledtop.vertical.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.on.rectangle.button.angledtop.vertical.left.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7544,7 +7544,7 @@ public extension SFSymbol {
     static var rectangleOnRectangleButtonAngledtopVerticalLeft: SFSymbol { .init(rawValue: "rectangle.on.rectangle.button.angledtop.vertical.left") }
 
     /// 􁷸
-    /// ![rectangle.on.rectangle.button.angledtop.vertical.left.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.on.rectangle.button.angledtop.vertical.left.fill.png)
+    /// ![rectangle.on.rectangle.button.angledtop.vertical.left.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.on.rectangle.button.angledtop.vertical.left.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7554,7 +7554,7 @@ public extension SFSymbol {
     static var rectangleOnRectangleButtonAngledtopVerticalLeftFill: SFSymbol { .init(rawValue: "rectangle.on.rectangle.button.angledtop.vertical.left.fill") }
 
     /// 􁥋
-    /// ![rectangle.portrait.badge.plus](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.portrait.badge.plus.png)
+    /// ![rectangle.portrait.badge.plus](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.badge.plus.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7564,7 +7564,7 @@ public extension SFSymbol {
     static var rectanglePortraitBadgePlus: SFSymbol { .init(rawValue: "rectangle.portrait.badge.plus") }
 
     /// 􁥌
-    /// ![rectangle.portrait.badge.plus.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.portrait.badge.plus.fill.png)
+    /// ![rectangle.portrait.badge.plus.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.badge.plus.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7574,7 +7574,7 @@ public extension SFSymbol {
     static var rectanglePortraitBadgePlusFill: SFSymbol { .init(rawValue: "rectangle.portrait.badge.plus.fill") }
 
     /// 􁻮
-    /// ![rectangle.portrait.rotate](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.portrait.rotate.png)
+    /// ![rectangle.portrait.rotate](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.rotate.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7583,7 +7583,7 @@ public extension SFSymbol {
     static var rectanglePortraitRotate: SFSymbol { .init(rawValue: "rectangle.portrait.rotate") }
 
     /// 􁽸
-    /// ![rectangle.ratio.3.to.4](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.ratio.3.to.4.png)
+    /// ![rectangle.ratio.3.to.4](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.ratio.3.to.4.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7591,7 +7591,7 @@ public extension SFSymbol {
     static var rectangleRatio3To4: SFSymbol { .init(rawValue: "rectangle.ratio.3.to.4") }
 
     /// 􁽹
-    /// ![rectangle.ratio.3.to.4.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.ratio.3.to.4.fill.png)
+    /// ![rectangle.ratio.3.to.4.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.ratio.3.to.4.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7599,7 +7599,7 @@ public extension SFSymbol {
     static var rectangleRatio3To4Fill: SFSymbol { .init(rawValue: "rectangle.ratio.3.to.4.fill") }
 
     /// 􁽺
-    /// ![rectangle.ratio.4.to.3](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.ratio.4.to.3.png)
+    /// ![rectangle.ratio.4.to.3](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.ratio.4.to.3.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7607,7 +7607,7 @@ public extension SFSymbol {
     static var rectangleRatio4To3: SFSymbol { .init(rawValue: "rectangle.ratio.4.to.3") }
 
     /// 􁽻
-    /// ![rectangle.ratio.4.to.3.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.ratio.4.to.3.fill.png)
+    /// ![rectangle.ratio.4.to.3.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.ratio.4.to.3.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7615,7 +7615,7 @@ public extension SFSymbol {
     static var rectangleRatio4To3Fill: SFSymbol { .init(rawValue: "rectangle.ratio.4.to.3.fill") }
 
     /// 􁽼
-    /// ![rectangle.ratio.9.to.16](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.ratio.9.to.16.png)
+    /// ![rectangle.ratio.9.to.16](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.ratio.9.to.16.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7623,7 +7623,7 @@ public extension SFSymbol {
     static var rectangleRatio9To16: SFSymbol { .init(rawValue: "rectangle.ratio.9.to.16") }
 
     /// 􁽽
-    /// ![rectangle.ratio.9.to.16.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.ratio.9.to.16.fill.png)
+    /// ![rectangle.ratio.9.to.16.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.ratio.9.to.16.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7631,7 +7631,7 @@ public extension SFSymbol {
     static var rectangleRatio9To16Fill: SFSymbol { .init(rawValue: "rectangle.ratio.9.to.16.fill") }
 
     /// 􁽾
-    /// ![rectangle.ratio.16.to.9](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.ratio.16.to.9.png)
+    /// ![rectangle.ratio.16.to.9](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.ratio.16.to.9.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7639,7 +7639,7 @@ public extension SFSymbol {
     static var rectangleRatio16To9: SFSymbol { .init(rawValue: "rectangle.ratio.16.to.9") }
 
     /// 􁽿
-    /// ![rectangle.ratio.16.to.9.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.ratio.16.to.9.fill.png)
+    /// ![rectangle.ratio.16.to.9.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.ratio.16.to.9.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7647,7 +7647,7 @@ public extension SFSymbol {
     static var rectangleRatio16To9Fill: SFSymbol { .init(rawValue: "rectangle.ratio.16.to.9.fill") }
 
     /// 􁟈
-    /// ![retarder.brakesignal.and.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/retarder.brakesignal.and.exclamationmark.png)
+    /// ![retarder.brakesignal.and.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/retarder.brakesignal.and.exclamationmark.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7656,7 +7656,7 @@ public extension SFSymbol {
     static var retarderBrakesignalAndExclamationmark: SFSymbol { .init(rawValue: "retarder.brakesignal.and.exclamationmark") }
 
     /// 􁟋
-    /// ![retarder.brakesignal.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/retarder.brakesignal.slash.png)
+    /// ![retarder.brakesignal.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/retarder.brakesignal.slash.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7665,7 +7665,7 @@ public extension SFSymbol {
     static var retarderBrakesignalSlash: SFSymbol { .init(rawValue: "retarder.brakesignal.slash") }
 
     /// 􁣦
-    /// ![right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/right.png)
+    /// ![right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/right.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7673,7 +7673,7 @@ public extension SFSymbol {
     static var right: SFSymbol { .init(rawValue: "right") }
 
     /// 􁣧
-    /// ![right.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/right.circle.png)
+    /// ![right.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/right.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7682,7 +7682,7 @@ public extension SFSymbol {
     static var rightCircle: SFSymbol { .init(rawValue: "right.circle") }
 
     /// 􁣨
-    /// ![right.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/right.circle.fill.png)
+    /// ![right.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/right.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7692,7 +7692,7 @@ public extension SFSymbol {
     static var rightCircleFill: SFSymbol { .init(rawValue: "right.circle.fill") }
 
     /// 􁹫
-    /// ![righttriangle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/righttriangle.png)
+    /// ![righttriangle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/righttriangle.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7700,7 +7700,7 @@ public extension SFSymbol {
     static var righttriangle: SFSymbol { .init(rawValue: "righttriangle") }
 
     /// 􁹬
-    /// ![righttriangle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/righttriangle.fill.png)
+    /// ![righttriangle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/righttriangle.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7708,7 +7708,7 @@ public extension SFSymbol {
     static var righttriangleFill: SFSymbol { .init(rawValue: "righttriangle.fill") }
 
     /// 􀍸
-    /// ![righttriangle.split.diagonal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/righttriangle.split.diagonal.png)
+    /// ![righttriangle.split.diagonal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/righttriangle.split.diagonal.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7716,7 +7716,7 @@ public extension SFSymbol {
     static var righttriangleSplitDiagonal: SFSymbol { .init(rawValue: "righttriangle.split.diagonal") }
 
     /// 􀍹
-    /// ![righttriangle.split.diagonal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/righttriangle.split.diagonal.fill.png)
+    /// ![righttriangle.split.diagonal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/righttriangle.split.diagonal.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7724,7 +7724,7 @@ public extension SFSymbol {
     static var righttriangleSplitDiagonalFill: SFSymbol { .init(rawValue: "righttriangle.split.diagonal.fill") }
 
     /// 􁺦
-    /// ![rm.button.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rm.button.horizontal.png)
+    /// ![rm.button.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rm.button.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7733,7 +7733,7 @@ public extension SFSymbol {
     static var rmButtonHorizontal: SFSymbol { .init(rawValue: "rm.button.horizontal") }
 
     /// 􁺧
-    /// ![rm.button.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rm.button.horizontal.fill.png)
+    /// ![rm.button.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rm.button.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7743,7 +7743,7 @@ public extension SFSymbol {
     static var rmButtonHorizontalFill: SFSymbol { .init(rawValue: "rm.button.horizontal.fill") }
 
     /// 􁱀
-    /// ![rotate.3d.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rotate.3d.circle.png)
+    /// ![rotate.3d.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rotate.3d.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7752,7 +7752,7 @@ public extension SFSymbol {
     static var rotate3dCircle: SFSymbol { .init(rawValue: "rotate.3d.circle") }
 
     /// 􁱁
-    /// ![rotate.3d.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rotate.3d.circle.fill.png)
+    /// ![rotate.3d.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rotate.3d.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7762,7 +7762,7 @@ public extension SFSymbol {
     static var rotate3dCircleFill: SFSymbol { .init(rawValue: "rotate.3d.circle.fill") }
 
     /// 􁱂
-    /// ![rotate.3d.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rotate.3d.fill.png)
+    /// ![rotate.3d.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rotate.3d.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7770,7 +7770,7 @@ public extension SFSymbol {
     static var rotate3dFill: SFSymbol { .init(rawValue: "rotate.3d.fill") }
 
     /// 􁸍
-    /// ![rsb.button.angledbottom.horizontal.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rsb.button.angledbottom.horizontal.right.png)
+    /// ![rsb.button.angledbottom.horizontal.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rsb.button.angledbottom.horizontal.right.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7779,7 +7779,7 @@ public extension SFSymbol {
     static var rsbButtonAngledbottomHorizontalRight: SFSymbol { .init(rawValue: "rsb.button.angledbottom.horizontal.right") }
 
     /// 􁸎
-    /// ![rsb.button.angledbottom.horizontal.right.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rsb.button.angledbottom.horizontal.right.fill.png)
+    /// ![rsb.button.angledbottom.horizontal.right.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rsb.button.angledbottom.horizontal.right.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7789,7 +7789,7 @@ public extension SFSymbol {
     static var rsbButtonAngledbottomHorizontalRightFill: SFSymbol { .init(rawValue: "rsb.button.angledbottom.horizontal.right.fill") }
 
     /// 􀨙
-    /// ![rt.button.roundedtop.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rt.button.roundedtop.horizontal.png)
+    /// ![rt.button.roundedtop.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rt.button.roundedtop.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7798,7 +7798,7 @@ public extension SFSymbol {
     static var rtButtonRoundedtopHorizontal: SFSymbol { .init(rawValue: "rt.button.roundedtop.horizontal") }
 
     /// 􀨚
-    /// ![rt.button.roundedtop.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rt.button.roundedtop.horizontal.fill.png)
+    /// ![rt.button.roundedtop.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rt.button.roundedtop.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7808,7 +7808,7 @@ public extension SFSymbol {
     static var rtButtonRoundedtopHorizontalFill: SFSymbol { .init(rawValue: "rt.button.roundedtop.horizontal.fill") }
 
     /// 􁺏
-    /// ![rt.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rt.circle.png)
+    /// ![rt.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rt.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7817,7 +7817,7 @@ public extension SFSymbol {
     static var rtCircle: SFSymbol { .init(rawValue: "rt.circle") }
 
     /// 􁺐
-    /// ![rt.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rt.circle.fill.png)
+    /// ![rt.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rt.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7827,7 +7827,7 @@ public extension SFSymbol {
     static var rtCircleFill: SFSymbol { .init(rawValue: "rt.circle.fill") }
 
     /// 􂈙
-    /// ![rublesign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rublesign.arrow.circlepath.png)
+    /// ![rublesign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rublesign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7841,7 +7841,7 @@ public extension SFSymbol {
     static var rublesignArrowCirclepath: SFSymbol { .init(rawValue: "rublesign.arrow.circlepath") }
 
     /// 􂈮
-    /// ![rupeesign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rupeesign.arrow.circlepath.png)
+    /// ![rupeesign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rupeesign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7855,7 +7855,7 @@ public extension SFSymbol {
     static var rupeesignArrowCirclepath: SFSymbol { .init(rawValue: "rupeesign.arrow.circlepath") }
 
     /// 􂇄
-    /// ![shared.with.you.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/shared.with.you.circle.png)
+    /// ![shared.with.you.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/shared.with.you.circle.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -7871,7 +7871,7 @@ public extension SFSymbol {
     static var sharedWithYouCircle: SFSymbol { .init(rawValue: "shared.with.you.circle") }
 
     /// 􂄀
-    /// ![shared.with.you.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/shared.with.you.circle.fill.png)
+    /// ![shared.with.you.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/shared.with.you.circle.fill.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -7888,7 +7888,7 @@ public extension SFSymbol {
     static var sharedWithYouCircleFill: SFSymbol { .init(rawValue: "shared.with.you.circle.fill") }
 
     /// 􂈬
-    /// ![shekelsign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/shekelsign.arrow.circlepath.png)
+    /// ![shekelsign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/shekelsign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7902,7 +7902,7 @@ public extension SFSymbol {
     static var shekelsignArrowCirclepath: SFSymbol { .init(rawValue: "shekelsign.arrow.circlepath") }
 
     /// 􀵔
-    /// ![shield.checkered](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/shield.checkered.png)
+    /// ![shield.checkered](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/shield.checkered.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7915,7 +7915,7 @@ public extension SFSymbol {
     static var shieldCheckered: SFSymbol { .init(rawValue: "shield.checkered") }
 
     /// 􁷥
-    /// ![shield.lefthalf.filled.badge.checkmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/shield.lefthalf.filled.badge.checkmark.png)
+    /// ![shield.lefthalf.filled.badge.checkmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/shield.lefthalf.filled.badge.checkmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7925,7 +7925,7 @@ public extension SFSymbol {
     static var shieldLefthalfFilledBadgeCheckmark: SFSymbol { .init(rawValue: "shield.lefthalf.filled.badge.checkmark") }
 
     /// 􁷧
-    /// ![shield.lefthalf.filled.trianglebadge.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/shield.lefthalf.filled.trianglebadge.exclamationmark.png)
+    /// ![shield.lefthalf.filled.trianglebadge.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/shield.lefthalf.filled.trianglebadge.exclamationmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7935,7 +7935,7 @@ public extension SFSymbol {
     static var shieldLefthalfFilledTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "shield.lefthalf.filled.trianglebadge.exclamationmark") }
 
     /// 􁣯
-    /// ![shoe](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/shoe.png)
+    /// ![shoe](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/shoe.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7943,7 +7943,7 @@ public extension SFSymbol {
     static var shoe: SFSymbol { .init(rawValue: "shoe") }
 
     /// 􁣱
-    /// ![shoe.2](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/shoe.2.png)
+    /// ![shoe.2](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/shoe.2.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7951,7 +7951,7 @@ public extension SFSymbol {
     static var shoe2: SFSymbol { .init(rawValue: "shoe.2") }
 
     /// 􁣲
-    /// ![shoe.2.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/shoe.2.fill.png)
+    /// ![shoe.2.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/shoe.2.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7959,7 +7959,7 @@ public extension SFSymbol {
     static var shoe2Fill: SFSymbol { .init(rawValue: "shoe.2.fill") }
 
     /// 􁤄
-    /// ![shoe.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/shoe.circle.png)
+    /// ![shoe.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/shoe.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7968,7 +7968,7 @@ public extension SFSymbol {
     static var shoeCircle: SFSymbol { .init(rawValue: "shoe.circle") }
 
     /// 􁤅
-    /// ![shoe.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/shoe.circle.fill.png)
+    /// ![shoe.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/shoe.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -7978,7 +7978,7 @@ public extension SFSymbol {
     static var shoeCircleFill: SFSymbol { .init(rawValue: "shoe.circle.fill") }
 
     /// 􁣰
-    /// ![shoe.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/shoe.fill.png)
+    /// ![shoe.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/shoe.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7986,7 +7986,7 @@ public extension SFSymbol {
     static var shoeFill: SFSymbol { .init(rawValue: "shoe.fill") }
 
     /// 􂂩
-    /// ![skateboard](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/skateboard.png)
+    /// ![skateboard](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/skateboard.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7994,7 +7994,7 @@ public extension SFSymbol {
     static var skateboard: SFSymbol { .init(rawValue: "skateboard") }
 
     /// 􂂪
-    /// ![skateboard.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/skateboard.fill.png)
+    /// ![skateboard.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/skateboard.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8002,7 +8002,7 @@ public extension SFSymbol {
     static var skateboardFill: SFSymbol { .init(rawValue: "skateboard.fill") }
 
     /// 􂂫
-    /// ![skis](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/skis.png)
+    /// ![skis](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/skis.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8010,7 +8010,7 @@ public extension SFSymbol {
     static var skis: SFSymbol { .init(rawValue: "skis") }
 
     /// 􂂬
-    /// ![skis.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/skis.fill.png)
+    /// ![skis.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/skis.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8018,7 +8018,7 @@ public extension SFSymbol {
     static var skisFill: SFSymbol { .init(rawValue: "skis.fill") }
 
     /// 􁵤
-    /// ![slider.horizontal.2.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/slider.horizontal.2.square.png)
+    /// ![slider.horizontal.2.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/slider.horizontal.2.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8027,7 +8027,7 @@ public extension SFSymbol {
     static var sliderHorizontal2Square: SFSymbol { .init(rawValue: "slider.horizontal.2.square") }
 
     /// 􁿌
-    /// ![slider.horizontal.below.sun.max](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/slider.horizontal.below.sun.max.png)
+    /// ![slider.horizontal.below.sun.max](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/slider.horizontal.below.sun.max.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8036,7 +8036,7 @@ public extension SFSymbol {
     static var sliderHorizontalBelowSunMax: SFSymbol { .init(rawValue: "slider.horizontal.below.sun.max") }
 
     /// 􁤫
-    /// ![smartphone](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/smartphone.png)
+    /// ![smartphone](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/smartphone.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8045,7 +8045,7 @@ public extension SFSymbol {
     static var smartphone: SFSymbol { .init(rawValue: "smartphone") }
 
     /// 􂂭
-    /// ![snowboard](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/snowboard.png)
+    /// ![snowboard](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/snowboard.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8053,7 +8053,7 @@ public extension SFSymbol {
     static var snowboard: SFSymbol { .init(rawValue: "snowboard") }
 
     /// 􂂮
-    /// ![snowboard.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/snowboard.fill.png)
+    /// ![snowboard.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/snowboard.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8061,7 +8061,7 @@ public extension SFSymbol {
     static var snowboardFill: SFSymbol { .init(rawValue: "snowboard.fill") }
 
     /// 􁗮
-    /// ![speaker.wave.2.bubble](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/speaker.wave.2.bubble.png)
+    /// ![speaker.wave.2.bubble](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/speaker.wave.2.bubble.png)
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
@@ -8075,7 +8075,7 @@ public extension SFSymbol {
     static var speakerWave2Bubble: SymbolWith1Localization<Rtl> { .init(rawValue: "speaker.wave.2.bubble") }
 
     /// 􁗯
-    /// ![speaker.wave.2.bubble.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/speaker.wave.2.bubble.fill.png)
+    /// ![speaker.wave.2.bubble.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/speaker.wave.2.bubble.fill.png)
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
@@ -8089,7 +8089,7 @@ public extension SFSymbol {
     static var speakerWave2BubbleFill: SymbolWith1Localization<Rtl> { .init(rawValue: "speaker.wave.2.bubble.fill") }
 
     /// 􁸼
-    /// ![square.2.layers.3d.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/square.2.layers.3d.fill.png)
+    /// ![square.2.layers.3d.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/square.2.layers.3d.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8098,7 +8098,7 @@ public extension SFSymbol {
     static var square2Layers3dFill: SFSymbol { .init(rawValue: "square.2.layers.3d.fill") }
 
     /// 􀠹
-    /// ![square.arrowtriangle.4.outward](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/square.arrowtriangle.4.outward.png)
+    /// ![square.arrowtriangle.4.outward](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/square.arrowtriangle.4.outward.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8107,7 +8107,7 @@ public extension SFSymbol {
     static var squareArrowtriangle4Outward: SFSymbol { .init(rawValue: "square.arrowtriangle.4.outward") }
 
     /// 􁥉
-    /// ![square.badge.plus](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/square.badge.plus.png)
+    /// ![square.badge.plus](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/square.badge.plus.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8117,7 +8117,7 @@ public extension SFSymbol {
     static var squareBadgePlus: SFSymbol { .init(rawValue: "square.badge.plus") }
 
     /// 􁥊
-    /// ![square.badge.plus.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/square.badge.plus.fill.png)
+    /// ![square.badge.plus.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/square.badge.plus.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8127,7 +8127,7 @@ public extension SFSymbol {
     static var squareBadgePlusFill: SFSymbol { .init(rawValue: "square.badge.plus.fill") }
 
     /// 􂁟
-    /// ![square.resize](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/square.resize.png)
+    /// ![square.resize](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/square.resize.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8136,7 +8136,7 @@ public extension SFSymbol {
     static var squareResize: SFSymbol { .init(rawValue: "square.resize") }
 
     /// 􁺠
-    /// ![square.resize.down](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/square.resize.down.png)
+    /// ![square.resize.down](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/square.resize.down.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8145,7 +8145,7 @@ public extension SFSymbol {
     static var squareResizeDown: SFSymbol { .init(rawValue: "square.resize.down") }
 
     /// 􁺟
-    /// ![square.resize.up](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/square.resize.up.png)
+    /// ![square.resize.up](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/square.resize.up.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8154,7 +8154,7 @@ public extension SFSymbol {
     static var squareResizeUp: SFSymbol { .init(rawValue: "square.resize.up") }
 
     /// 􀙐
-    /// ![square.stack.3d.up.badge.automatic](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/square.stack.3d.up.badge.automatic.png)
+    /// ![square.stack.3d.up.badge.automatic](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/square.stack.3d.up.badge.automatic.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8164,7 +8164,7 @@ public extension SFSymbol {
     static var squareStack3dUpBadgeAutomatic: SFSymbol { .init(rawValue: "square.stack.3d.up.badge.automatic") }
 
     /// 􀙑
-    /// ![square.stack.3d.up.badge.automatic.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/square.stack.3d.up.badge.automatic.fill.png)
+    /// ![square.stack.3d.up.badge.automatic.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/square.stack.3d.up.badge.automatic.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8174,7 +8174,7 @@ public extension SFSymbol {
     static var squareStack3dUpBadgeAutomaticFill: SFSymbol { .init(rawValue: "square.stack.3d.up.badge.automatic.fill") }
 
     /// 􂅡
-    /// ![square.stack.3d.up.trianglebadge.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/square.stack.3d.up.trianglebadge.exclamationmark.png)
+    /// ![square.stack.3d.up.trianglebadge.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/square.stack.3d.up.trianglebadge.exclamationmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8184,7 +8184,7 @@ public extension SFSymbol {
     static var squareStack3dUpTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "square.stack.3d.up.trianglebadge.exclamationmark") }
 
     /// 􂅢
-    /// ![square.stack.3d.up.trianglebadge.exclamationmark.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/square.stack.3d.up.trianglebadge.exclamationmark.fill.png)
+    /// ![square.stack.3d.up.trianglebadge.exclamationmark.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/square.stack.3d.up.trianglebadge.exclamationmark.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8194,7 +8194,7 @@ public extension SFSymbol {
     static var squareStack3dUpTrianglebadgeExclamationmarkFill: SFSymbol { .init(rawValue: "square.stack.3d.up.trianglebadge.exclamationmark.fill") }
 
     /// 􂆅
-    /// ![squares.leading.rectangle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/squares.leading.rectangle.fill.png)
+    /// ![squares.leading.rectangle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/squares.leading.rectangle.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8203,7 +8203,7 @@ public extension SFSymbol {
     static var squaresLeadingRectangleFill: SFSymbol { .init(rawValue: "squares.leading.rectangle.fill") }
 
     /// 􀩢
-    /// ![squareshape.dotted.squareshape](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/squareshape.dotted.squareshape.png)
+    /// ![squareshape.dotted.squareshape](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/squareshape.dotted.squareshape.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8212,7 +8212,7 @@ public extension SFSymbol {
     static var squareshapeDottedSquareshape: SFSymbol { .init(rawValue: "squareshape.dotted.squareshape") }
 
     /// 􀫴
-    /// ![squareshape.squareshape.dotted](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/squareshape.squareshape.dotted.png)
+    /// ![squareshape.squareshape.dotted](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/squareshape.squareshape.dotted.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8221,7 +8221,7 @@ public extension SFSymbol {
     static var squareshapeSquareshapeDotted: SFSymbol { .init(rawValue: "squareshape.squareshape.dotted") }
 
     /// 􁣖
-    /// ![staroflife.shield](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/staroflife.shield.png)
+    /// ![staroflife.shield](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/staroflife.shield.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8230,7 +8230,7 @@ public extension SFSymbol {
     static var staroflifeShield: SFSymbol { .init(rawValue: "staroflife.shield") }
 
     /// 􁣗
-    /// ![staroflife.shield.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/staroflife.shield.fill.png)
+    /// ![staroflife.shield.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/staroflife.shield.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8240,7 +8240,7 @@ public extension SFSymbol {
     static var staroflifeShieldFill: SFSymbol { .init(rawValue: "staroflife.shield.fill") }
 
     /// 􁢟
-    /// ![steeringwheel.and.liquid.wave](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/steeringwheel.and.liquid.wave.png)
+    /// ![steeringwheel.and.liquid.wave](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/steeringwheel.and.liquid.wave.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8248,7 +8248,7 @@ public extension SFSymbol {
     static var steeringwheelAndLiquidWave: SFSymbol { .init(rawValue: "steeringwheel.and.liquid.wave") }
 
     /// 􁖰
-    /// ![steeringwheel.arrowtriangle.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/steeringwheel.arrowtriangle.left.png)
+    /// ![steeringwheel.arrowtriangle.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/steeringwheel.arrowtriangle.left.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8257,7 +8257,7 @@ public extension SFSymbol {
     static var steeringwheelArrowtriangleLeft: SFSymbol { .init(rawValue: "steeringwheel.arrowtriangle.left") }
 
     /// 􁖱
-    /// ![steeringwheel.arrowtriangle.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/steeringwheel.arrowtriangle.right.png)
+    /// ![steeringwheel.arrowtriangle.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/steeringwheel.arrowtriangle.right.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8266,7 +8266,7 @@ public extension SFSymbol {
     static var steeringwheelArrowtriangleRight: SFSymbol { .init(rawValue: "steeringwheel.arrowtriangle.right") }
 
     /// 􁉛
-    /// ![steeringwheel.badge.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/steeringwheel.badge.exclamationmark.png)
+    /// ![steeringwheel.badge.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/steeringwheel.badge.exclamationmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8276,7 +8276,7 @@ public extension SFSymbol {
     static var steeringwheelBadgeExclamationmark: SFSymbol { .init(rawValue: "steeringwheel.badge.exclamationmark") }
 
     /// 􁿢
-    /// ![steeringwheel.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/steeringwheel.circle.png)
+    /// ![steeringwheel.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/steeringwheel.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8285,7 +8285,7 @@ public extension SFSymbol {
     static var steeringwheelCircle: SFSymbol { .init(rawValue: "steeringwheel.circle") }
 
     /// 􁿣
-    /// ![steeringwheel.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/steeringwheel.circle.fill.png)
+    /// ![steeringwheel.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/steeringwheel.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8295,7 +8295,7 @@ public extension SFSymbol {
     static var steeringwheelCircleFill: SFSymbol { .init(rawValue: "steeringwheel.circle.fill") }
 
     /// 􂈕
-    /// ![sterlingsign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/sterlingsign.arrow.circlepath.png)
+    /// ![sterlingsign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/sterlingsign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8309,7 +8309,7 @@ public extension SFSymbol {
     static var sterlingsignArrowCirclepath: SFSymbol { .init(rawValue: "sterlingsign.arrow.circlepath") }
 
     /// 􁽇
-    /// ![storefront](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/storefront.png)
+    /// ![storefront](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/storefront.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8317,7 +8317,7 @@ public extension SFSymbol {
     static var storefront: SFSymbol { .init(rawValue: "storefront") }
 
     /// 􁽉
-    /// ![storefront.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/storefront.circle.png)
+    /// ![storefront.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/storefront.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8326,7 +8326,7 @@ public extension SFSymbol {
     static var storefrontCircle: SFSymbol { .init(rawValue: "storefront.circle") }
 
     /// 􁽊
-    /// ![storefront.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/storefront.circle.fill.png)
+    /// ![storefront.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/storefront.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8336,7 +8336,7 @@ public extension SFSymbol {
     static var storefrontCircleFill: SFSymbol { .init(rawValue: "storefront.circle.fill") }
 
     /// 􁽈
-    /// ![storefront.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/storefront.fill.png)
+    /// ![storefront.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/storefront.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8344,7 +8344,7 @@ public extension SFSymbol {
     static var storefrontFill: SFSymbol { .init(rawValue: "storefront.fill") }
 
     /// 􀻞
-    /// ![sun.horizon](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/sun.horizon.png)
+    /// ![sun.horizon](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/sun.horizon.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8354,7 +8354,7 @@ public extension SFSymbol {
     static var sunHorizon: SFSymbol { .init(rawValue: "sun.horizon") }
 
     /// 􁛅
-    /// ![sun.horizon.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/sun.horizon.circle.png)
+    /// ![sun.horizon.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/sun.horizon.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8363,7 +8363,7 @@ public extension SFSymbol {
     static var sunHorizonCircle: SFSymbol { .init(rawValue: "sun.horizon.circle") }
 
     /// 􁛆
-    /// ![sun.horizon.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/sun.horizon.circle.fill.png)
+    /// ![sun.horizon.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/sun.horizon.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8373,7 +8373,7 @@ public extension SFSymbol {
     static var sunHorizonCircleFill: SFSymbol { .init(rawValue: "sun.horizon.circle.fill") }
 
     /// 􀻟
-    /// ![sun.horizon.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/sun.horizon.fill.png)
+    /// ![sun.horizon.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/sun.horizon.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8383,7 +8383,7 @@ public extension SFSymbol {
     static var sunHorizonFill: SFSymbol { .init(rawValue: "sun.horizon.fill") }
 
     /// 􁷌
-    /// ![sun.rain](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/sun.rain.png)
+    /// ![sun.rain](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/sun.rain.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8392,7 +8392,7 @@ public extension SFSymbol {
     static var sunRain: SFSymbol { .init(rawValue: "sun.rain") }
 
     /// 􁷎
-    /// ![sun.rain.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/sun.rain.circle.png)
+    /// ![sun.rain.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/sun.rain.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8401,7 +8401,7 @@ public extension SFSymbol {
     static var sunRainCircle: SFSymbol { .init(rawValue: "sun.rain.circle") }
 
     /// 􁷏
-    /// ![sun.rain.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/sun.rain.circle.fill.png)
+    /// ![sun.rain.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/sun.rain.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8411,7 +8411,7 @@ public extension SFSymbol {
     static var sunRainCircleFill: SFSymbol { .init(rawValue: "sun.rain.circle.fill") }
 
     /// 􁷍
-    /// ![sun.rain.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/sun.rain.fill.png)
+    /// ![sun.rain.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/sun.rain.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8421,7 +8421,7 @@ public extension SFSymbol {
     static var sunRainFill: SFSymbol { .init(rawValue: "sun.rain.fill") }
 
     /// 􁷐
-    /// ![sun.snow](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/sun.snow.png)
+    /// ![sun.snow](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/sun.snow.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8430,7 +8430,7 @@ public extension SFSymbol {
     static var sunSnow: SFSymbol { .init(rawValue: "sun.snow") }
 
     /// 􁷒
-    /// ![sun.snow.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/sun.snow.circle.png)
+    /// ![sun.snow.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/sun.snow.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8439,7 +8439,7 @@ public extension SFSymbol {
     static var sunSnowCircle: SFSymbol { .init(rawValue: "sun.snow.circle") }
 
     /// 􁷓
-    /// ![sun.snow.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/sun.snow.circle.fill.png)
+    /// ![sun.snow.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/sun.snow.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8449,7 +8449,7 @@ public extension SFSymbol {
     static var sunSnowCircleFill: SFSymbol { .init(rawValue: "sun.snow.circle.fill") }
 
     /// 􁷑
-    /// ![sun.snow.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/sun.snow.fill.png)
+    /// ![sun.snow.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/sun.snow.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8459,7 +8459,7 @@ public extension SFSymbol {
     static var sunSnowFill: SFSymbol { .init(rawValue: "sun.snow.fill") }
 
     /// 􁻈
-    /// ![sunglasses](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/sunglasses.png)
+    /// ![sunglasses](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/sunglasses.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8469,7 +8469,7 @@ public extension SFSymbol {
     static var sunglasses: SFSymbol { .init(rawValue: "sunglasses") }
 
     /// 􁻉
-    /// ![sunglasses.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/sunglasses.fill.png)
+    /// ![sunglasses.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/sunglasses.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8477,7 +8477,7 @@ public extension SFSymbol {
     static var sunglassesFill: SFSymbol { .init(rawValue: "sunglasses.fill") }
 
     /// 􂂯
-    /// ![surfboard](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/surfboard.png)
+    /// ![surfboard](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/surfboard.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8485,7 +8485,7 @@ public extension SFSymbol {
     static var surfboard: SFSymbol { .init(rawValue: "surfboard") }
 
     /// 􂂰
-    /// ![surfboard.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/surfboard.fill.png)
+    /// ![surfboard.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/surfboard.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8493,7 +8493,7 @@ public extension SFSymbol {
     static var surfboardFill: SFSymbol { .init(rawValue: "surfboard.fill") }
 
     /// 􁥐
-    /// ![suv.side.hill.down](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/suv.side.hill.down.png)
+    /// ![suv.side.hill.down](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/suv.side.hill.down.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8502,7 +8502,7 @@ public extension SFSymbol {
     static var suvSideHillDown: SFSymbol { .init(rawValue: "suv.side.hill.down") }
 
     /// 􁥑
-    /// ![suv.side.hill.down.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/suv.side.hill.down.fill.png)
+    /// ![suv.side.hill.down.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/suv.side.hill.down.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8511,7 +8511,7 @@ public extension SFSymbol {
     static var suvSideHillDownFill: SFSymbol { .init(rawValue: "suv.side.hill.down.fill") }
 
     /// 􁤏
-    /// ![suv.side.hill.up](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/suv.side.hill.up.png)
+    /// ![suv.side.hill.up](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/suv.side.hill.up.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8520,7 +8520,7 @@ public extension SFSymbol {
     static var suvSideHillUp: SFSymbol { .init(rawValue: "suv.side.hill.up") }
 
     /// 􁤐
-    /// ![suv.side.hill.up.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/suv.side.hill.up.fill.png)
+    /// ![suv.side.hill.up.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/suv.side.hill.up.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8529,7 +8529,7 @@ public extension SFSymbol {
     static var suvSideHillUpFill: SFSymbol { .init(rawValue: "suv.side.hill.up.fill") }
 
     /// 􁤀
-    /// ![suv.side.lock](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/suv.side.lock.png)
+    /// ![suv.side.lock](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/suv.side.lock.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8538,7 +8538,7 @@ public extension SFSymbol {
     static var suvSideLock: SFSymbol { .init(rawValue: "suv.side.lock") }
 
     /// 􁤁
-    /// ![suv.side.lock.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/suv.side.lock.fill.png)
+    /// ![suv.side.lock.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/suv.side.lock.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8547,7 +8547,7 @@ public extension SFSymbol {
     static var suvSideLockFill: SFSymbol { .init(rawValue: "suv.side.lock.fill") }
 
     /// 􁤂
-    /// ![suv.side.lock.open](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/suv.side.lock.open.png)
+    /// ![suv.side.lock.open](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/suv.side.lock.open.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8556,7 +8556,7 @@ public extension SFSymbol {
     static var suvSideLockOpen: SFSymbol { .init(rawValue: "suv.side.lock.open") }
 
     /// 􁤃
-    /// ![suv.side.lock.open.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/suv.side.lock.open.fill.png)
+    /// ![suv.side.lock.open.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/suv.side.lock.open.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8565,7 +8565,7 @@ public extension SFSymbol {
     static var suvSideLockOpenFill: SFSymbol { .init(rawValue: "suv.side.lock.open.fill") }
 
     /// 􁤭
-    /// ![swedishkronasign](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/swedishkronasign.png)
+    /// ![swedishkronasign](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/swedishkronasign.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8573,7 +8573,7 @@ public extension SFSymbol {
     static var swedishkronasign: SFSymbol { .init(rawValue: "swedishkronasign") }
 
     /// 􂈶
-    /// ![swedishkronasign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/swedishkronasign.arrow.circlepath.png)
+    /// ![swedishkronasign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/swedishkronasign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8587,7 +8587,7 @@ public extension SFSymbol {
     static var swedishkronasignArrowCirclepath: SFSymbol { .init(rawValue: "swedishkronasign.arrow.circlepath") }
 
     /// 􀮨
-    /// ![swedishkronasign.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/swedishkronasign.circle.png)
+    /// ![swedishkronasign.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/swedishkronasign.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8596,7 +8596,7 @@ public extension SFSymbol {
     static var swedishkronasignCircle: SFSymbol { .init(rawValue: "swedishkronasign.circle") }
 
     /// 􀮩
-    /// ![swedishkronasign.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/swedishkronasign.circle.fill.png)
+    /// ![swedishkronasign.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/swedishkronasign.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8606,7 +8606,7 @@ public extension SFSymbol {
     static var swedishkronasignCircleFill: SFSymbol { .init(rawValue: "swedishkronasign.circle.fill") }
 
     /// 􀮪
-    /// ![swedishkronasign.square](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/swedishkronasign.square.png)
+    /// ![swedishkronasign.square](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/swedishkronasign.square.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8615,7 +8615,7 @@ public extension SFSymbol {
     static var swedishkronasignSquare: SFSymbol { .init(rawValue: "swedishkronasign.square") }
 
     /// 􀮫
-    /// ![swedishkronasign.square.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/swedishkronasign.square.fill.png)
+    /// ![swedishkronasign.square.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/swedishkronasign.square.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8625,7 +8625,7 @@ public extension SFSymbol {
     static var swedishkronasignSquareFill: SFSymbol { .init(rawValue: "swedishkronasign.square.fill") }
 
     /// 􁗫
-    /// ![swiftdata](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/swiftdata.png)
+    /// ![swiftdata](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/swiftdata.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -8635,7 +8635,7 @@ public extension SFSymbol {
     static var swiftdata: SFSymbol { .init(rawValue: "swiftdata") }
 
     /// 􁹢
-    /// ![swirl.circle.righthalf.filled](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/swirl.circle.righthalf.filled.png)
+    /// ![swirl.circle.righthalf.filled](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/swirl.circle.righthalf.filled.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8643,7 +8643,7 @@ public extension SFSymbol {
     static var swirlCircleRighthalfFilled: SFSymbol { .init(rawValue: "swirl.circle.righthalf.filled") }
 
     /// 􁹪
-    /// ![swirl.circle.righthalf.filled.inverse](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/swirl.circle.righthalf.filled.inverse.png)
+    /// ![swirl.circle.righthalf.filled.inverse](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/swirl.circle.righthalf.filled.inverse.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8651,7 +8651,7 @@ public extension SFSymbol {
     static var swirlCircleRighthalfFilledInverse: SFSymbol { .init(rawValue: "swirl.circle.righthalf.filled.inverse") }
 
     /// 􂈝
-    /// ![tengesign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/tengesign.arrow.circlepath.png)
+    /// ![tengesign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/tengesign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8665,7 +8665,7 @@ public extension SFSymbol {
     static var tengesignArrowCirclepath: SFSymbol { .init(rawValue: "tengesign.arrow.circlepath") }
 
     /// 􁷉
-    /// ![thermometer.variable.and.figure](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/thermometer.variable.and.figure.png)
+    /// ![thermometer.variable.and.figure](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/thermometer.variable.and.figure.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8675,7 +8675,7 @@ public extension SFSymbol {
     static var thermometerVariableAndFigure: SFSymbol { .init(rawValue: "thermometer.variable.and.figure") }
 
     /// 􁷊
-    /// ![thermometer.variable.and.figure.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/thermometer.variable.and.figure.circle.png)
+    /// ![thermometer.variable.and.figure.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/thermometer.variable.and.figure.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8684,7 +8684,7 @@ public extension SFSymbol {
     static var thermometerVariableAndFigureCircle: SFSymbol { .init(rawValue: "thermometer.variable.and.figure.circle") }
 
     /// 􁷋
-    /// ![thermometer.variable.and.figure.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/thermometer.variable.and.figure.circle.fill.png)
+    /// ![thermometer.variable.and.figure.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/thermometer.variable.and.figure.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8694,7 +8694,7 @@ public extension SFSymbol {
     static var thermometerVariableAndFigureCircleFill: SFSymbol { .init(rawValue: "thermometer.variable.and.figure.circle.fill") }
 
     /// 􁢶
-    /// ![tirepressure](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/tirepressure.png)
+    /// ![tirepressure](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/tirepressure.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8702,7 +8702,7 @@ public extension SFSymbol {
     static var tirepressure: SFSymbol { .init(rawValue: "tirepressure") }
 
     /// 􂀼
-    /// ![tortoise.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/tortoise.circle.png)
+    /// ![tortoise.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/tortoise.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8711,7 +8711,7 @@ public extension SFSymbol {
     static var tortoiseCircle: SFSymbol { .init(rawValue: "tortoise.circle") }
 
     /// 􂀽
-    /// ![tortoise.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/tortoise.circle.fill.png)
+    /// ![tortoise.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/tortoise.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8721,7 +8721,7 @@ public extension SFSymbol {
     static var tortoiseCircleFill: SFSymbol { .init(rawValue: "tortoise.circle.fill") }
 
     /// 􁢳
-    /// ![traction.control.tirepressure](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/traction.control.tirepressure.png)
+    /// ![traction.control.tirepressure](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/traction.control.tirepressure.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8730,7 +8730,7 @@ public extension SFSymbol {
     static var tractionControlTirepressure: SFSymbol { .init(rawValue: "traction.control.tirepressure") }
 
     /// 􁢵
-    /// ![traction.control.tirepressure.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/traction.control.tirepressure.exclamationmark.png)
+    /// ![traction.control.tirepressure.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/traction.control.tirepressure.exclamationmark.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8739,7 +8739,7 @@ public extension SFSymbol {
     static var tractionControlTirepressureExclamationmark: SFSymbol { .init(rawValue: "traction.control.tirepressure.exclamationmark") }
 
     /// 􁢴
-    /// ![traction.control.tirepressure.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/traction.control.tirepressure.slash.png)
+    /// ![traction.control.tirepressure.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/traction.control.tirepressure.slash.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8748,7 +8748,7 @@ public extension SFSymbol {
     static var tractionControlTirepressureSlash: SFSymbol { .init(rawValue: "traction.control.tirepressure.slash") }
 
     /// 􀥰
-    /// ![triangleshape](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/triangleshape.png)
+    /// ![triangleshape](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/triangleshape.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8756,7 +8756,7 @@ public extension SFSymbol {
     static var triangleshape: SFSymbol { .init(rawValue: "triangleshape") }
 
     /// 􀥱
-    /// ![triangleshape.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/triangleshape.fill.png)
+    /// ![triangleshape.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/triangleshape.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8764,7 +8764,7 @@ public extension SFSymbol {
     static var triangleshapeFill: SFSymbol { .init(rawValue: "triangleshape.fill") }
 
     /// 􁁾
-    /// ![truck.box](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.box.png)
+    /// ![truck.box](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.box.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8772,7 +8772,7 @@ public extension SFSymbol {
     static var truckBox: SFSymbol { .init(rawValue: "truck.box") }
 
     /// 􁂀
-    /// ![truck.box.badge.clock](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.box.badge.clock.png)
+    /// ![truck.box.badge.clock](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.box.badge.clock.png)
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
@@ -8786,7 +8786,7 @@ public extension SFSymbol {
     static var truckBoxBadgeClock: SymbolWith1Localization<Rtl> { .init(rawValue: "truck.box.badge.clock") }
 
     /// 􁂁
-    /// ![truck.box.badge.clock.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.box.badge.clock.fill.png)
+    /// ![truck.box.badge.clock.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.box.badge.clock.fill.png)
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
@@ -8800,7 +8800,7 @@ public extension SFSymbol {
     static var truckBoxBadgeClockFill: SymbolWith1Localization<Rtl> { .init(rawValue: "truck.box.badge.clock.fill") }
 
     /// 􁁿
-    /// ![truck.box.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.box.fill.png)
+    /// ![truck.box.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.box.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8808,7 +8808,7 @@ public extension SFSymbol {
     static var truckBoxFill: SFSymbol { .init(rawValue: "truck.box.fill") }
 
     /// 􁥩
-    /// ![truck.pickup.side](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.png)
+    /// ![truck.pickup.side](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8816,7 +8816,7 @@ public extension SFSymbol {
     static var truckPickupSide: SFSymbol { .init(rawValue: "truck.pickup.side") }
 
     /// 􁥭
-    /// ![truck.pickup.side.air.circulate](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.air.circulate.png)
+    /// ![truck.pickup.side.air.circulate](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.air.circulate.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8825,7 +8825,7 @@ public extension SFSymbol {
     static var truckPickupSideAirCirculate: SFSymbol { .init(rawValue: "truck.pickup.side.air.circulate") }
 
     /// 􁥮
-    /// ![truck.pickup.side.air.circulate.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.air.circulate.fill.png)
+    /// ![truck.pickup.side.air.circulate.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.air.circulate.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8834,7 +8834,7 @@ public extension SFSymbol {
     static var truckPickupSideAirCirculateFill: SFSymbol { .init(rawValue: "truck.pickup.side.air.circulate.fill") }
 
     /// 􁥯
-    /// ![truck.pickup.side.air.fresh](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.air.fresh.png)
+    /// ![truck.pickup.side.air.fresh](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.air.fresh.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8843,7 +8843,7 @@ public extension SFSymbol {
     static var truckPickupSideAirFresh: SFSymbol { .init(rawValue: "truck.pickup.side.air.fresh") }
 
     /// 􁥰
-    /// ![truck.pickup.side.air.fresh.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.air.fresh.fill.png)
+    /// ![truck.pickup.side.air.fresh.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.air.fresh.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8852,7 +8852,7 @@ public extension SFSymbol {
     static var truckPickupSideAirFreshFill: SFSymbol { .init(rawValue: "truck.pickup.side.air.fresh.fill") }
 
     /// 􁥱
-    /// ![truck.pickup.side.and.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.and.exclamationmark.png)
+    /// ![truck.pickup.side.and.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.and.exclamationmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8862,7 +8862,7 @@ public extension SFSymbol {
     static var truckPickupSideAndExclamationmark: SFSymbol { .init(rawValue: "truck.pickup.side.and.exclamationmark") }
 
     /// 􁥲
-    /// ![truck.pickup.side.and.exclamationmark.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.and.exclamationmark.fill.png)
+    /// ![truck.pickup.side.and.exclamationmark.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.and.exclamationmark.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -8872,7 +8872,7 @@ public extension SFSymbol {
     static var truckPickupSideAndExclamationmarkFill: SFSymbol { .init(rawValue: "truck.pickup.side.and.exclamationmark.fill") }
 
     /// 􁥷
-    /// ![truck.pickup.side.arrowtriangle.down](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.arrowtriangle.down.png)
+    /// ![truck.pickup.side.arrowtriangle.down](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.arrowtriangle.down.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8881,7 +8881,7 @@ public extension SFSymbol {
     static var truckPickupSideArrowtriangleDown: SFSymbol { .init(rawValue: "truck.pickup.side.arrowtriangle.down") }
 
     /// 􁥸
-    /// ![truck.pickup.side.arrowtriangle.down.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.arrowtriangle.down.fill.png)
+    /// ![truck.pickup.side.arrowtriangle.down.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.arrowtriangle.down.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8890,7 +8890,7 @@ public extension SFSymbol {
     static var truckPickupSideArrowtriangleDownFill: SFSymbol { .init(rawValue: "truck.pickup.side.arrowtriangle.down.fill") }
 
     /// 􁥵
-    /// ![truck.pickup.side.arrowtriangle.up](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.arrowtriangle.up.png)
+    /// ![truck.pickup.side.arrowtriangle.up](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.arrowtriangle.up.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8899,7 +8899,7 @@ public extension SFSymbol {
     static var truckPickupSideArrowtriangleUp: SFSymbol { .init(rawValue: "truck.pickup.side.arrowtriangle.up") }
 
     /// 􁥳
-    /// ![truck.pickup.side.arrowtriangle.up.arrowtriangle.down](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.arrowtriangle.up.arrowtriangle.down.png)
+    /// ![truck.pickup.side.arrowtriangle.up.arrowtriangle.down](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.arrowtriangle.up.arrowtriangle.down.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8908,7 +8908,7 @@ public extension SFSymbol {
     static var truckPickupSideArrowtriangleUpArrowtriangleDown: SFSymbol { .init(rawValue: "truck.pickup.side.arrowtriangle.up.arrowtriangle.down") }
 
     /// 􁥴
-    /// ![truck.pickup.side.arrowtriangle.up.arrowtriangle.down.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.arrowtriangle.up.arrowtriangle.down.fill.png)
+    /// ![truck.pickup.side.arrowtriangle.up.arrowtriangle.down.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.arrowtriangle.up.arrowtriangle.down.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8917,7 +8917,7 @@ public extension SFSymbol {
     static var truckPickupSideArrowtriangleUpArrowtriangleDownFill: SFSymbol { .init(rawValue: "truck.pickup.side.arrowtriangle.up.arrowtriangle.down.fill") }
 
     /// 􁥶
-    /// ![truck.pickup.side.arrowtriangle.up.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.arrowtriangle.up.fill.png)
+    /// ![truck.pickup.side.arrowtriangle.up.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.arrowtriangle.up.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8926,7 +8926,7 @@ public extension SFSymbol {
     static var truckPickupSideArrowtriangleUpFill: SFSymbol { .init(rawValue: "truck.pickup.side.arrowtriangle.up.fill") }
 
     /// 􁥪
-    /// ![truck.pickup.side.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.fill.png)
+    /// ![truck.pickup.side.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8934,7 +8934,7 @@ public extension SFSymbol {
     static var truckPickupSideFill: SFSymbol { .init(rawValue: "truck.pickup.side.fill") }
 
     /// 􁥫
-    /// ![truck.pickup.side.front.open](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.front.open.png)
+    /// ![truck.pickup.side.front.open](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.front.open.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8943,7 +8943,7 @@ public extension SFSymbol {
     static var truckPickupSideFrontOpen: SFSymbol { .init(rawValue: "truck.pickup.side.front.open") }
 
     /// 􁥬
-    /// ![truck.pickup.side.front.open.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.front.open.fill.png)
+    /// ![truck.pickup.side.front.open.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.front.open.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8952,7 +8952,7 @@ public extension SFSymbol {
     static var truckPickupSideFrontOpenFill: SFSymbol { .init(rawValue: "truck.pickup.side.front.open.fill") }
 
     /// 􁦆
-    /// ![truck.pickup.side.hill.down](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.hill.down.png)
+    /// ![truck.pickup.side.hill.down](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.hill.down.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8961,7 +8961,7 @@ public extension SFSymbol {
     static var truckPickupSideHillDown: SFSymbol { .init(rawValue: "truck.pickup.side.hill.down") }
 
     /// 􁦇
-    /// ![truck.pickup.side.hill.down.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.hill.down.fill.png)
+    /// ![truck.pickup.side.hill.down.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.hill.down.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8970,7 +8970,7 @@ public extension SFSymbol {
     static var truckPickupSideHillDownFill: SFSymbol { .init(rawValue: "truck.pickup.side.hill.down.fill") }
 
     /// 􁠗
-    /// ![truck.pickup.side.hill.up](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.hill.up.png)
+    /// ![truck.pickup.side.hill.up](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.hill.up.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8979,7 +8979,7 @@ public extension SFSymbol {
     static var truckPickupSideHillUp: SFSymbol { .init(rawValue: "truck.pickup.side.hill.up") }
 
     /// 􁠘
-    /// ![truck.pickup.side.hill.up.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.hill.up.fill.png)
+    /// ![truck.pickup.side.hill.up.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.hill.up.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8988,7 +8988,7 @@ public extension SFSymbol {
     static var truckPickupSideHillUpFill: SFSymbol { .init(rawValue: "truck.pickup.side.hill.up.fill") }
 
     /// 􁥹
-    /// ![truck.pickup.side.lock](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.lock.png)
+    /// ![truck.pickup.side.lock](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.lock.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -8997,7 +8997,7 @@ public extension SFSymbol {
     static var truckPickupSideLock: SFSymbol { .init(rawValue: "truck.pickup.side.lock") }
 
     /// 􁥺
-    /// ![truck.pickup.side.lock.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.lock.fill.png)
+    /// ![truck.pickup.side.lock.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.lock.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -9006,7 +9006,7 @@ public extension SFSymbol {
     static var truckPickupSideLockFill: SFSymbol { .init(rawValue: "truck.pickup.side.lock.fill") }
 
     /// 􁥻
-    /// ![truck.pickup.side.lock.open](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.lock.open.png)
+    /// ![truck.pickup.side.lock.open](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.lock.open.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -9015,7 +9015,7 @@ public extension SFSymbol {
     static var truckPickupSideLockOpen: SFSymbol { .init(rawValue: "truck.pickup.side.lock.open") }
 
     /// 􁥼
-    /// ![truck.pickup.side.lock.open.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/truck.pickup.side.lock.open.fill.png)
+    /// ![truck.pickup.side.lock.open.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/truck.pickup.side.lock.open.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -9024,7 +9024,7 @@ public extension SFSymbol {
     static var truckPickupSideLockOpenFill: SFSymbol { .init(rawValue: "truck.pickup.side.lock.open.fill") }
 
     /// 􁽬
-    /// ![tshirt.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/tshirt.circle.png)
+    /// ![tshirt.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/tshirt.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -9033,7 +9033,7 @@ public extension SFSymbol {
     static var tshirtCircle: SFSymbol { .init(rawValue: "tshirt.circle") }
 
     /// 􁽭
-    /// ![tshirt.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/tshirt.circle.fill.png)
+    /// ![tshirt.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/tshirt.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -9043,7 +9043,7 @@ public extension SFSymbol {
     static var tshirtCircleFill: SFSymbol { .init(rawValue: "tshirt.circle.fill") }
 
     /// 􂈪
-    /// ![tugriksign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/tugriksign.arrow.circlepath.png)
+    /// ![tugriksign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/tugriksign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -9057,7 +9057,7 @@ public extension SFSymbol {
     static var tugriksignArrowCirclepath: SFSymbol { .init(rawValue: "tugriksign.arrow.circlepath") }
 
     /// 􂈘
-    /// ![turkishlirasign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/turkishlirasign.arrow.circlepath.png)
+    /// ![turkishlirasign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/turkishlirasign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -9071,7 +9071,7 @@ public extension SFSymbol {
     static var turkishlirasignArrowCirclepath: SFSymbol { .init(rawValue: "turkishlirasign.arrow.circlepath") }
 
     /// 􂆁
-    /// ![tv.badge.wifi](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/tv.badge.wifi.png)
+    /// ![tv.badge.wifi](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/tv.badge.wifi.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -9081,7 +9081,7 @@ public extension SFSymbol {
     static var tvBadgeWifi: SFSymbol { .init(rawValue: "tv.badge.wifi") }
 
     /// 􂆂
-    /// ![tv.badge.wifi.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/tv.badge.wifi.fill.png)
+    /// ![tv.badge.wifi.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/tv.badge.wifi.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -9091,7 +9091,7 @@ public extension SFSymbol {
     static var tvBadgeWifiFill: SFSymbol { .init(rawValue: "tv.badge.wifi.fill") }
 
     /// 􁋞
-    /// ![tv.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/tv.slash.png)
+    /// ![tv.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/tv.slash.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -9100,7 +9100,7 @@ public extension SFSymbol {
     static var tvSlash: SFSymbol { .init(rawValue: "tv.slash") }
 
     /// 􁣘
-    /// ![tv.slash.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/tv.slash.fill.png)
+    /// ![tv.slash.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/tv.slash.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -9109,7 +9109,7 @@ public extension SFSymbol {
     static var tvSlashFill: SFSymbol { .init(rawValue: "tv.slash.fill") }
 
     /// 􀼅
-    /// ![video.badge.waveform](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/video.badge.waveform.png)
+    /// ![video.badge.waveform](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/video.badge.waveform.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9121,7 +9121,7 @@ public extension SFSymbol {
     static var videoBadgeWaveform: SFSymbol { .init(rawValue: "video.badge.waveform") }
 
     /// 􀼆
-    /// ![video.badge.waveform.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/video.badge.waveform.fill.png)
+    /// ![video.badge.waveform.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/video.badge.waveform.fill.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9133,7 +9133,7 @@ public extension SFSymbol {
     static var videoBadgeWaveformFill: SFSymbol { .init(rawValue: "video.badge.waveform.fill") }
 
     /// 􀱰
-    /// ![video.bubble](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/video.bubble.png)
+    /// ![video.bubble](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/video.bubble.png)
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
@@ -9148,7 +9148,7 @@ public extension SFSymbol {
     static var videoBubble: SymbolWith1Localization<Rtl> { .init(rawValue: "video.bubble") }
 
     /// 􀱱
-    /// ![video.bubble.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/video.bubble.fill.png)
+    /// ![video.bubble.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/video.bubble.fill.png)
     /// 2 Localizations, 3 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
@@ -9164,7 +9164,7 @@ public extension SFSymbol {
     static var videoBubbleFill: SymbolWith1Localization<Rtl> { .init(rawValue: "video.bubble.fill") }
 
     /// 􁾄
-    /// ![video.slash.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/video.slash.circle.png)
+    /// ![video.slash.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/video.slash.circle.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9176,7 +9176,7 @@ public extension SFSymbol {
     static var videoSlashCircle: SFSymbol { .init(rawValue: "video.slash.circle") }
 
     /// 􁾅
-    /// ![video.slash.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/video.slash.circle.fill.png)
+    /// ![video.slash.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/video.slash.circle.fill.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9188,7 +9188,7 @@ public extension SFSymbol {
     static var videoSlashCircleFill: SFSymbol { .init(rawValue: "video.slash.circle.fill") }
 
     /// 􁹿
-    /// ![viewfinder.rectangular](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/viewfinder.rectangular.png)
+    /// ![viewfinder.rectangular](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/viewfinder.rectangular.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -9196,7 +9196,7 @@ public extension SFSymbol {
     static var viewfinderRectangular: SFSymbol { .init(rawValue: "viewfinder.rectangular") }
 
     /// 􁣓
-    /// ![viewfinder.trianglebadge.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/viewfinder.trianglebadge.exclamationmark.png)
+    /// ![viewfinder.trianglebadge.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/viewfinder.trianglebadge.exclamationmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -9206,7 +9206,7 @@ public extension SFSymbol {
     static var viewfinderTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "viewfinder.trianglebadge.exclamationmark") }
 
     /// 􁎖
-    /// ![visionpro](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/visionpro.png)
+    /// ![visionpro](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/visionpro.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9222,7 +9222,7 @@ public extension SFSymbol {
     static var visionpro: SFSymbol { .init(rawValue: "visionpro") }
 
     /// 􁳔
-    /// ![visionpro.and.arrow.forward](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/visionpro.and.arrow.forward.png)
+    /// ![visionpro.and.arrow.forward](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/visionpro.and.arrow.forward.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9238,7 +9238,7 @@ public extension SFSymbol {
     static var visionproAndArrowForward: SFSymbol { .init(rawValue: "visionpro.and.arrow.forward") }
 
     /// 􁳕
-    /// ![visionpro.and.arrow.forward.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/visionpro.and.arrow.forward.fill.png)
+    /// ![visionpro.and.arrow.forward.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/visionpro.and.arrow.forward.fill.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9254,7 +9254,7 @@ public extension SFSymbol {
     static var visionproAndArrowForwardFill: SFSymbol { .init(rawValue: "visionpro.and.arrow.forward.fill") }
 
     /// 􁷇
-    /// ![visionpro.badge.exclamationmark](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/visionpro.badge.exclamationmark.png)
+    /// ![visionpro.badge.exclamationmark](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/visionpro.badge.exclamationmark.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9271,7 +9271,7 @@ public extension SFSymbol {
     static var visionproBadgeExclamationmark: SFSymbol { .init(rawValue: "visionpro.badge.exclamationmark") }
 
     /// 􁷈
-    /// ![visionpro.badge.exclamationmark.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/visionpro.badge.exclamationmark.fill.png)
+    /// ![visionpro.badge.exclamationmark.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/visionpro.badge.exclamationmark.fill.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9288,7 +9288,7 @@ public extension SFSymbol {
     static var visionproBadgeExclamationmarkFill: SFSymbol { .init(rawValue: "visionpro.badge.exclamationmark.fill") }
 
     /// 􁼿
-    /// ![visionpro.badge.play](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/visionpro.badge.play.png)
+    /// ![visionpro.badge.play](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/visionpro.badge.play.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9305,7 +9305,7 @@ public extension SFSymbol {
     static var visionproBadgePlay: SFSymbol { .init(rawValue: "visionpro.badge.play") }
 
     /// 􁽀
-    /// ![visionpro.badge.play.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/visionpro.badge.play.fill.png)
+    /// ![visionpro.badge.play.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/visionpro.badge.play.fill.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9322,7 +9322,7 @@ public extension SFSymbol {
     static var visionproBadgePlayFill: SFSymbol { .init(rawValue: "visionpro.badge.play.fill") }
 
     /// 􂅿
-    /// ![visionpro.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/visionpro.circle.png)
+    /// ![visionpro.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/visionpro.circle.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9338,7 +9338,7 @@ public extension SFSymbol {
     static var visionproCircle: SFSymbol { .init(rawValue: "visionpro.circle") }
 
     /// 􂆀
-    /// ![visionpro.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/visionpro.circle.fill.png)
+    /// ![visionpro.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/visionpro.circle.fill.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9355,7 +9355,7 @@ public extension SFSymbol {
     static var visionproCircleFill: SFSymbol { .init(rawValue: "visionpro.circle.fill") }
 
     /// 􁎘
-    /// ![visionpro.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/visionpro.fill.png)
+    /// ![visionpro.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/visionpro.fill.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9370,7 +9370,7 @@ public extension SFSymbol {
     static var visionproFill: SFSymbol { .init(rawValue: "visionpro.fill") }
 
     /// 􁽃
-    /// ![visionpro.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/visionpro.slash.png)
+    /// ![visionpro.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/visionpro.slash.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9386,7 +9386,7 @@ public extension SFSymbol {
     static var visionproSlash: SFSymbol { .init(rawValue: "visionpro.slash") }
 
     /// 􂆞
-    /// ![visionpro.slash.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/visionpro.slash.circle.png)
+    /// ![visionpro.slash.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/visionpro.slash.circle.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9402,7 +9402,7 @@ public extension SFSymbol {
     static var visionproSlashCircle: SFSymbol { .init(rawValue: "visionpro.slash.circle") }
 
     /// 􂆟
-    /// ![visionpro.slash.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/visionpro.slash.circle.fill.png)
+    /// ![visionpro.slash.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/visionpro.slash.circle.fill.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9419,7 +9419,7 @@ public extension SFSymbol {
     static var visionproSlashCircleFill: SFSymbol { .init(rawValue: "visionpro.slash.circle.fill") }
 
     /// 􁽄
-    /// ![visionpro.slash.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/visionpro.slash.fill.png)
+    /// ![visionpro.slash.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/visionpro.slash.fill.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9435,7 +9435,7 @@ public extension SFSymbol {
     static var visionproSlashFill: SFSymbol { .init(rawValue: "visionpro.slash.fill") }
 
     /// 􀭻
-    /// ![voiceover](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/voiceover.png)
+    /// ![voiceover](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/voiceover.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9446,7 +9446,7 @@ public extension SFSymbol {
     static var voiceover: SFSymbol { .init(rawValue: "voiceover") }
 
     /// 􁀬
-    /// ![warninglight](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/warninglight.png)
+    /// ![warninglight](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/warninglight.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -9455,7 +9455,7 @@ public extension SFSymbol {
     static var warninglight: SFSymbol { .init(rawValue: "warninglight") }
 
     /// 􁀭
-    /// ![warninglight.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/warninglight.fill.png)
+    /// ![warninglight.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/warninglight.fill.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -9464,7 +9464,7 @@ public extension SFSymbol {
     static var warninglightFill: SFSymbol { .init(rawValue: "warninglight.fill") }
 
     /// 􁿎
-    /// ![washer.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/washer.circle.png)
+    /// ![washer.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/washer.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -9473,7 +9473,7 @@ public extension SFSymbol {
     static var washerCircle: SFSymbol { .init(rawValue: "washer.circle") }
 
     /// 􁿏
-    /// ![washer.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/washer.circle.fill.png)
+    /// ![washer.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/washer.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -9483,7 +9483,7 @@ public extension SFSymbol {
     static var washerCircleFill: SFSymbol { .init(rawValue: "washer.circle.fill") }
 
     /// 􁞺
-    /// ![watch.analog](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/watch.analog.png)
+    /// ![watch.analog](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/watch.analog.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -9492,7 +9492,7 @@ public extension SFSymbol {
     static var watchAnalog: SFSymbol { .init(rawValue: "watch.analog") }
 
     /// 􁻊
-    /// ![waterbottle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/waterbottle.png)
+    /// ![waterbottle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/waterbottle.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -9500,7 +9500,7 @@ public extension SFSymbol {
     static var waterbottle: SFSymbol { .init(rawValue: "waterbottle") }
 
     /// 􁻋
-    /// ![waterbottle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/waterbottle.fill.png)
+    /// ![waterbottle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/waterbottle.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -9508,7 +9508,7 @@ public extension SFSymbol {
     static var waterbottleFill: SFSymbol { .init(rawValue: "waterbottle.fill") }
 
     /// 􂃓
-    /// ![waveform.and.person.filled](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/waveform.and.person.filled.png)
+    /// ![waveform.and.person.filled](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/waveform.and.person.filled.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -9517,7 +9517,7 @@ public extension SFSymbol {
     static var waveformAndPersonFilled: SFSymbol { .init(rawValue: "waveform.and.person.filled") }
 
     /// 􀻾
-    /// ![waveform.badge.magnifyingglass](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/waveform.badge.magnifyingglass.png)
+    /// ![waveform.badge.magnifyingglass](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/waveform.badge.magnifyingglass.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -9527,7 +9527,7 @@ public extension SFSymbol {
     static var waveformBadgeMagnifyingglass: SFSymbol { .init(rawValue: "waveform.badge.magnifyingglass") }
 
     /// 􁃨
-    /// ![waveform.badge.mic](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/waveform.badge.mic.png)
+    /// ![waveform.badge.mic](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/waveform.badge.mic.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -9542,7 +9542,7 @@ public extension SFSymbol {
     static var waveformBadgeMic: SFSymbol { .init(rawValue: "waveform.badge.mic") }
 
     /// 􂄁
-    /// ![wifi.exclamationmark.circle](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/wifi.exclamationmark.circle.png)
+    /// ![wifi.exclamationmark.circle](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/wifi.exclamationmark.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -9551,7 +9551,7 @@ public extension SFSymbol {
     static var wifiExclamationmarkCircle: SFSymbol { .init(rawValue: "wifi.exclamationmark.circle") }
 
     /// 􂄂
-    /// ![wifi.exclamationmark.circle.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/wifi.exclamationmark.circle.fill.png)
+    /// ![wifi.exclamationmark.circle.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/wifi.exclamationmark.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -9561,7 +9561,7 @@ public extension SFSymbol {
     static var wifiExclamationmarkCircleFill: SFSymbol { .init(rawValue: "wifi.exclamationmark.circle.fill") }
 
     /// 􂈡
-    /// ![wonsign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/wonsign.arrow.circlepath.png)
+    /// ![wonsign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/wonsign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -9575,7 +9575,7 @@ public extension SFSymbol {
     static var wonsignArrowCirclepath: SFSymbol { .init(rawValue: "wonsign.arrow.circlepath") }
 
     /// 􁻇
-    /// ![xserve.raid](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/xserve.raid.png)
+    /// ![xserve.raid](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/xserve.raid.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -9585,7 +9585,7 @@ public extension SFSymbol {
     static var xserveRaid: SFSymbol { .init(rawValue: "xserve.raid") }
 
     /// 􂈔
-    /// ![yensign.arrow.circlepath](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/yensign.arrow.circlepath.png)
+    /// ![yensign.arrow.circlepath](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/yensign.arrow.circlepath.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -9599,7 +9599,7 @@ public extension SFSymbol {
     static var yensignArrowCirclepath: SFSymbol { .init(rawValue: "yensign.arrow.circlepath") }
 
     /// 􁕤
-    /// ![yieldsign](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/yieldsign.png)
+    /// ![yieldsign](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/yieldsign.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -9609,7 +9609,7 @@ public extension SFSymbol {
     static var yieldsign: SFSymbol { .init(rawValue: "yieldsign") }
 
     /// 􁕥
-    /// ![yieldsign.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/yieldsign.fill.png)
+    /// ![yieldsign.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/yieldsign.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -9619,7 +9619,7 @@ public extension SFSymbol {
     static var yieldsignFill: SFSymbol { .init(rawValue: "yieldsign.fill") }
 
     /// 􀨛
-    /// ![zl.button.roundedtop.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/zl.button.roundedtop.horizontal.png)
+    /// ![zl.button.roundedtop.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/zl.button.roundedtop.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -9628,7 +9628,7 @@ public extension SFSymbol {
     static var zlButtonRoundedtopHorizontal: SFSymbol { .init(rawValue: "zl.button.roundedtop.horizontal") }
 
     /// 􀨜
-    /// ![zl.button.roundedtop.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/zl.button.roundedtop.horizontal.fill.png)
+    /// ![zl.button.roundedtop.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/zl.button.roundedtop.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -9638,7 +9638,7 @@ public extension SFSymbol {
     static var zlButtonRoundedtopHorizontalFill: SFSymbol { .init(rawValue: "zl.button.roundedtop.horizontal.fill") }
 
     /// 􀨝
-    /// ![zr.button.roundedtop.horizontal](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/zr.button.roundedtop.horizontal.png)
+    /// ![zr.button.roundedtop.horizontal](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/zr.button.roundedtop.horizontal.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -9647,7 +9647,7 @@ public extension SFSymbol {
     static var zrButtonRoundedtopHorizontal: SFSymbol { .init(rawValue: "zr.button.roundedtop.horizontal") }
 
     /// 􀨞
-    /// ![zr.button.roundedtop.horizontal.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/zr.button.roundedtop.horizontal.fill.png)
+    /// ![zr.button.roundedtop.horizontal.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/zr.button.roundedtop.horizontal.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:

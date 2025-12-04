@@ -4,7 +4,7 @@
 @available(iOS 15.2, macOS 12.1, tvOS 15.2, watchOS 8.3, visionOS 1.0, *)
 public extension SFSymbol {
     /// 􁄣
-    /// ![airpod.gen3.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/airpod.gen3.left.png)
+    /// ![airpod.gen3.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/airpod.gen3.left.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -14,7 +14,7 @@ public extension SFSymbol {
     static var airpodGen3Left: SFSymbol { .init(rawValue: "airpod.gen3.left") }
 
     /// 􁄢
-    /// ![airpod.gen3.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/airpod.gen3.right.png)
+    /// ![airpod.gen3.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/airpod.gen3.right.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -24,7 +24,7 @@ public extension SFSymbol {
     static var airpodGen3Right: SFSymbol { .init(rawValue: "airpod.gen3.right") }
 
     /// 􁄡
-    /// ![airpods.gen3](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/airpods.gen3.png)
+    /// ![airpods.gen3](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/airpods.gen3.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -34,7 +34,7 @@ public extension SFSymbol {
     static var airpodsGen3: SFSymbol { .init(rawValue: "airpods.gen3") }
 
     /// 􁅐
-    /// ![airpods.gen3.chargingcase.wireless](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/airpods.gen3.chargingcase.wireless.png)
+    /// ![airpods.gen3.chargingcase.wireless](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/airpods.gen3.chargingcase.wireless.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -44,7 +44,7 @@ public extension SFSymbol {
     static var airpodsGen3ChargingcaseWireless: SFSymbol { .init(rawValue: "airpods.gen3.chargingcase.wireless") }
 
     /// 􁅑
-    /// ![airpods.gen3.chargingcase.wireless.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/airpods.gen3.chargingcase.wireless.fill.png)
+    /// ![airpods.gen3.chargingcase.wireless.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/airpods.gen3.chargingcase.wireless.fill.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -54,7 +54,7 @@ public extension SFSymbol {
     static var airpodsGen3ChargingcaseWirelessFill: SFSymbol { .init(rawValue: "airpods.gen3.chargingcase.wireless.fill") }
 
     /// 􁅞
-    /// ![beats.fit.pro](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.fit.pro.png)
+    /// ![beats.fit.pro](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -70,7 +70,7 @@ public extension SFSymbol {
     static var beatsFitPro: SFSymbol { .init(rawValue: "beats.fit.pro") }
 
     /// 􁅡
-    /// ![beats.fit.pro.chargingcase](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.fit.pro.chargingcase.png)
+    /// ![beats.fit.pro.chargingcase](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.chargingcase.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -85,7 +85,7 @@ public extension SFSymbol {
     static var beatsFitProChargingcase: SFSymbol { .init(rawValue: "beats.fit.pro.chargingcase") }
 
     /// 􁅢
-    /// ![beats.fit.pro.chargingcase.fill](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.fit.pro.chargingcase.fill.png)
+    /// ![beats.fit.pro.chargingcase.fill](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.chargingcase.fill.png)
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -100,7 +100,7 @@ public extension SFSymbol {
     static var beatsFitProChargingcaseFill: SFSymbol { .init(rawValue: "beats.fit.pro.chargingcase.fill") }
 
     /// 􁅟
-    /// ![beats.fit.pro.left](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.fit.pro.left.png)
+    /// ![beats.fit.pro.left](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.left.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -116,7 +116,7 @@ public extension SFSymbol {
     static var beatsFitProLeft: SFSymbol { .init(rawValue: "beats.fit.pro.left") }
 
     /// 􁅠
-    /// ![beats.fit.pro.right](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/beats.fit.pro.right.png)
+    /// ![beats.fit.pro.right](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.right.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -132,7 +132,7 @@ public extension SFSymbol {
     static var beatsFitProRight: SFSymbol { .init(rawValue: "beats.fit.pro.right") }
 
     /// 􁋶
-    /// ![rectangle.leadinghalf.filled](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.leadinghalf.filled.png)
+    /// ![rectangle.leadinghalf.filled](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.leadinghalf.filled.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -140,7 +140,7 @@ public extension SFSymbol {
     static var rectangleLeadinghalfFilled: SFSymbol { .init(rawValue: "rectangle.leadinghalf.filled") }
 
     /// 􁋷
-    /// ![rectangle.trailinghalf.filled](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/rectangle.trailinghalf.filled.png)
+    /// ![rectangle.trailinghalf.filled](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/rectangle.trailinghalf.filled.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -148,7 +148,7 @@ public extension SFSymbol {
     static var rectangleTrailinghalfFilled: SFSymbol { .init(rawValue: "rectangle.trailinghalf.filled") }
 
     /// 􁋽
-    /// ![square.3.layers.3d.down.left.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/square.3.layers.3d.down.left.slash.png)
+    /// ![square.3.layers.3d.down.left.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/square.3.layers.3d.down.left.slash.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -157,7 +157,7 @@ public extension SFSymbol {
     static var square3Layers3dDownLeftSlash: SFSymbol { .init(rawValue: "square.3.layers.3d.down.left.slash") }
 
     /// 􁋼
-    /// ![square.3.layers.3d.down.right.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/square.3.layers.3d.down.right.slash.png)
+    /// ![square.3.layers.3d.down.right.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/square.3.layers.3d.down.right.slash.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -166,7 +166,7 @@ public extension SFSymbol {
     static var square3Layers3dDownRightSlash: SFSymbol { .init(rawValue: "square.3.layers.3d.down.right.slash") }
 
     /// 􁌅
-    /// ![square.3.stack.3d.slash](https://github.com/guoPhineas/SFSafeSymbols/raw/refs/heads/stable/SymbolsGenerator/Sources/SymbolsGenerator/Resources/SFSymbolImages/square.3.stack.3d.slash.png)
+    /// ![square.3.stack.3d.slash](https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/square.3.stack.3d.slash.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
