@@ -418,6 +418,28 @@ try SFFileManager.write(symbolLocalizations, to: outputDir.appending(path: "Symb
 
 try SFFileManager.write(allSymbolsExtension, to: outputDir.appending(path: "SFSymbol+AllSymbols.swift"))
 
+let symbolToPNG:(Symbol) throws -> Void={symbol in
+    guard let nsImage=NSImage(systemSymbolName: symbol.name, accessibilityDescription: ""),
+          let symbolData=nsImage.exportSymbol(symbolName: symbol.name) else {
+        print("Cannot export SFSymbol(\(symbol.name)) to PNG file")
+        return
+    }
+    
+    let url=outputDir.deletingLastPathComponent()
+        .appending(path: "SymbolImages/")
+        .appending(path: "\(symbol.name).png")
+    
+    try SFFileManager.write(symbolData, to: url)
+}
+
+for _ in groupedSymbols{
+    for symbol in symbols {
+        try symbolToPNG(symbol)
+    }
+}
+
+
+
 // MARK: - Step 5: FINISHING
 
 if symbolsWherePreviewIsntAvailable.isNotEmpty {
