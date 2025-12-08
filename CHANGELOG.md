@@ -16,7 +16,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Fixed
 
-- None
+- Package cannot build below Xcode's verson 26.0
 
 ## [7.0.0] - 2025-10-26
 
