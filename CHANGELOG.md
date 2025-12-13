@@ -16,7 +16,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Fixed
 
-- None
+- Fix to build by pre-Xcode 26.0 versions (By [Phineas Guo](https://github.com/guoPhineas))
 
 ## [7.0.0] - 2025-10-26
 

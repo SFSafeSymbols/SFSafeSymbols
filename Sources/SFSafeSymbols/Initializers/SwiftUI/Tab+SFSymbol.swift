@@ -84,7 +84,11 @@ public extension Tab where Value: Hashable, Content: View, Label : View {
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, *)
     @_disfavoredOverload
     nonisolated init(_ titleResource: LocalizedStringResource, systemSymbol: SFSymbol, value: Value, @ViewBuilder content: () -> Content) where Label == DefaultTabLabel {
+        #if compiler(>=6.2)
         self.init(titleResource, systemImage: systemSymbol.rawValue, value: value,  content: content)
+        #else
+        self.init(String(localized: titleResource), systemImage: systemSymbol.rawValue, value: value, content: content)
+        #endif
     }
     
     /// Creates a tab that the tab view presents when the tab view's selection
@@ -114,7 +118,11 @@ public extension Tab where Value: Hashable, Content: View, Label : View {
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, *)
     @_disfavoredOverload
     nonisolated init(_ titleResource: LocalizedStringResource, systemSymbol: SFSymbol, value: Value, role: TabRole?, @ViewBuilder content: () -> Content) where Label == DefaultTabLabel {
+        #if compiler(>=6.2)
         self.init(titleResource, systemImage: systemSymbol.rawValue, value: value, role: role, content: content)
+        #else
+        self.init(String(localized: titleResource), systemImage: systemSymbol.rawValue, value: value, content: content)
+        #endif
     }
     
     /// Creates a tab that the tab view presents when the tab view's selection
@@ -142,7 +150,11 @@ public extension Tab where Value: Hashable, Content: View, Label : View {
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, *)
     @_disfavoredOverload
     nonisolated init<T>(_ titleResource: LocalizedStringResource, systemSymbol: SFSymbol, value: T, @ViewBuilder content: () -> Content) where Value == T?, Label == DefaultTabLabel, T : Hashable {
+        #if compiler(>=6.2)
         self.init(titleResource, systemImage: systemSymbol.rawValue, value: value, content: content)
+        #else
+        self.init(String(localized: titleResource), systemImage: systemSymbol.rawValue, value: value, content: content)
+        #endif
     }
         
     /// Creates a tab that the tab view presents when the tab view's selection
@@ -172,7 +184,11 @@ public extension Tab where Value: Hashable, Content: View, Label : View {
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, *)
     @_disfavoredOverload
     nonisolated init<T>(_ titleResource: LocalizedStringResource, systemSymbol: SFSymbol, value: T, role: TabRole?, @ViewBuilder content: () -> Content) where Value == T?, Label == DefaultTabLabel, T : Hashable {
+        #if compiler(>=6.2)
         self.init(titleResource, systemImage: systemSymbol.rawValue, value: value, role: role, content: content)
+        #else
+        self.init(String(localized: titleResource), systemImage: systemSymbol.rawValue, value: value, content: content)
+        #endif
     }
 }
 
@@ -233,7 +249,11 @@ public extension Tab where Value == Never, Content: View, Label: View {
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, *)
     @_disfavoredOverload
     nonisolated init(_ titleResource: LocalizedStringResource, systemSymbol: SFSymbol, @ViewBuilder content: () -> Content) where Label == DefaultTabLabel {
+        #if compiler(>=6.2)
         self.init(titleResource, systemImage: systemSymbol.rawValue, content: content)
+        #else
+        self.init(String(localized: titleResource), systemImage: systemSymbol.rawValue,  content: content)
+        #endif
     }
 
     /// Creates a tab with a `SFSymbol` and a localized string resource label.
@@ -247,7 +267,11 @@ public extension Tab where Value == Never, Content: View, Label: View {
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, *)
     @_disfavoredOverload
     nonisolated init(_ titleResource: LocalizedStringResource, systemSymbol: SFSymbol, role: TabRole?, @ViewBuilder content: () -> Content) where Label == DefaultTabLabel {
+        #if compiler(>=6.2)
         self.init(titleResource, systemImage: systemSymbol.rawValue, role: role, content: content)
+        #else
+        self.init(String(localized: titleResource), systemImage: systemSymbol.rawValue,  content: content)
+        #endif
     }
 }
 
