@@ -12,7 +12,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Intelligence.
-    static let appleIntelligenceBadgeXmark = SFSymbol(rawValue: "apple.intelligence.badge.xmark")
+    static var appleIntelligenceBadgeXmark: SFSymbol { .init(rawValue: "apple.intelligence.badge.xmark") }
 
     /// 􂞞
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -22,7 +22,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro 2.
-    static let beatsPowerbeatsPro2 = SFSymbol(rawValue: "beats.powerbeats.pro.2")
+    static var beatsPowerbeatsPro2: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2") }
 
     /// 􂞡
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -31,7 +31,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro 2 case.
-    static let beatsPowerbeatsPro2Chargingcase = SFSymbol(rawValue: "beats.powerbeats.pro.2.chargingcase")
+    static var beatsPowerbeatsPro2Chargingcase: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2.chargingcase") }
 
     /// 􂞢
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -40,7 +40,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro 2 case.
-    static let beatsPowerbeatsPro2ChargingcaseFill = SFSymbol(rawValue: "beats.powerbeats.pro.2.chargingcase.fill")
+    static var beatsPowerbeatsPro2ChargingcaseFill: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2.chargingcase.fill") }
 
     /// 􂞠
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -50,7 +50,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro 2.
-    static let beatsPowerbeatsPro2Left = SFSymbol(rawValue: "beats.powerbeats.pro.2.left")
+    static var beatsPowerbeatsPro2Left: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2.left") }
 
     /// 􂞟
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -60,5 +60,5 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro 2.
-    static let beatsPowerbeatsPro2Right = SFSymbol(rawValue: "beats.powerbeats.pro.2.right")
+    static var beatsPowerbeatsPro2Right: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2.right") }
 }

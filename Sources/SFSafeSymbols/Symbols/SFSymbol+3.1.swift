@@ -9,7 +9,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let boltRingClosed = SFSymbol(rawValue: "bolt.ring.closed")
+    static var boltRingClosed: SFSymbol { .init(rawValue: "bolt.ring.closed") }
 
     /// 􁋂
     /// Single Localization, 2 Layersets
@@ -17,7 +17,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let platterFilledBottomAndArrowDownIphone = SFSymbol(rawValue: "platter.filled.bottom.and.arrow.down.iphone")
+    static var platterFilledBottomAndArrowDownIphone: SFSymbol { .init(rawValue: "platter.filled.bottom.and.arrow.down.iphone") }
 
     /// 􁋀
     /// Single Localization, 2 Layersets
@@ -25,7 +25,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let platterFilledBottomIphone = SFSymbol(rawValue: "platter.filled.bottom.iphone")
+    static var platterFilledBottomIphone: SFSymbol { .init(rawValue: "platter.filled.bottom.iphone") }
 
     /// 􁋁
     /// Single Localization, 2 Layersets
@@ -33,7 +33,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let platterFilledTopAndArrowUpIphone = SFSymbol(rawValue: "platter.filled.top.and.arrow.up.iphone")
+    static var platterFilledTopAndArrowUpIphone: SFSymbol { .init(rawValue: "platter.filled.top.and.arrow.up.iphone") }
 
     /// 􁊿
     /// Single Localization, 2 Layersets
@@ -41,7 +41,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let platterFilledTopIphone = SFSymbol(rawValue: "platter.filled.top.iphone")
+    static var platterFilledTopIphone: SFSymbol { .init(rawValue: "platter.filled.top.iphone") }
 
     /// 􁋜
     /// Single Localization, 3 Layersets
@@ -50,7 +50,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    static let square3Layers3dDownBackward = SFSymbol(rawValue: "square.3.layers.3d.down.backward")
+    static var square3Layers3dDownBackward: SFSymbol { .init(rawValue: "square.3.layers.3d.down.backward") }
 
     /// 􁋛
     /// Single Localization, 3 Layersets
@@ -59,7 +59,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    static let square3Layers3dDownForward = SFSymbol(rawValue: "square.3.layers.3d.down.forward")
+    static var square3Layers3dDownForward: SFSymbol { .init(rawValue: "square.3.layers.3d.down.forward") }
 
     /// 􁉼
     /// Single Localization, 3 Layersets
@@ -68,7 +68,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    static let square3Layers3dDownLeft = SFSymbol(rawValue: "square.3.layers.3d.down.left")
+    static var square3Layers3dDownLeft: SFSymbol { .init(rawValue: "square.3.layers.3d.down.left") }
 
     /// 􁉽
     /// Single Localization, 3 Layersets
@@ -77,33 +77,33 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    static let square3Layers3dDownRight = SFSymbol(rawValue: "square.3.layers.3d.down.right")
+    static var square3Layers3dDownRight: SFSymbol { .init(rawValue: "square.3.layers.3d.down.right") }
 
     /// 􁉀
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let textJustifyLeading = SFSymbol(rawValue: "text.justify.leading")
+    static var textJustifyLeading: SFSymbol { .init(rawValue: "text.justify.leading") }
 
     /// 􀌄
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let textJustifyLeft = SFSymbol(rawValue: "text.justify.left")
+    static var textJustifyLeft: SFSymbol { .init(rawValue: "text.justify.left") }
 
     /// 􀌅
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let textJustifyRight = SFSymbol(rawValue: "text.justify.right")
+    static var textJustifyRight: SFSymbol { .init(rawValue: "text.justify.right") }
 
     /// 􁉁
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let textJustifyTrailing = SFSymbol(rawValue: "text.justify.trailing")
+    static var textJustifyTrailing: SFSymbol { .init(rawValue: "text.justify.trailing") }
 }

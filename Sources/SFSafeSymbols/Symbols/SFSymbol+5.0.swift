@@ -8,7 +8,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let _2h = SFSymbol(rawValue: "2h")
+    static var _2h: SFSymbol { .init(rawValue: "2h") }
 
     /// 􁥞
     /// Single Localization, 2 Layersets
@@ -16,7 +16,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let _2hCircle = SFSymbol(rawValue: "2h.circle")
+    static var _2hCircle: SFSymbol { .init(rawValue: "2h.circle") }
 
     /// 􁥟
     /// Single Localization, 3 Layersets
@@ -25,14 +25,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let _2hCircleFill = SFSymbol(rawValue: "2h.circle.fill")
+    static var _2hCircleFill: SFSymbol { .init(rawValue: "2h.circle.fill") }
 
     /// 􁥝
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let _4a = SFSymbol(rawValue: "4a")
+    static var _4a: SFSymbol { .init(rawValue: "4a") }
 
     /// 􁥤
     /// Single Localization, 2 Layersets
@@ -40,7 +40,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let _4aCircle = SFSymbol(rawValue: "4a.circle")
+    static var _4aCircle: SFSymbol { .init(rawValue: "4a.circle") }
 
     /// 􁥥
     /// Single Localization, 3 Layersets
@@ -49,14 +49,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let _4aCircleFill = SFSymbol(rawValue: "4a.circle.fill")
+    static var _4aCircleFill: SFSymbol { .init(rawValue: "4a.circle.fill") }
 
     /// 􁥛
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let _4h = SFSymbol(rawValue: "4h")
+    static var _4h: SFSymbol { .init(rawValue: "4h") }
 
     /// 􁥠
     /// Single Localization, 2 Layersets
@@ -64,7 +64,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let _4hCircle = SFSymbol(rawValue: "4h.circle")
+    static var _4hCircle: SFSymbol { .init(rawValue: "4h.circle") }
 
     /// 􁥡
     /// Single Localization, 3 Layersets
@@ -73,14 +73,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let _4hCircleFill = SFSymbol(rawValue: "4h.circle.fill")
+    static var _4hCircleFill: SFSymbol { .init(rawValue: "4h.circle.fill") }
 
     /// 􁥜
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let _4l = SFSymbol(rawValue: "4l")
+    static var _4l: SFSymbol { .init(rawValue: "4l") }
 
     /// 􁥢
     /// Single Localization, 2 Layersets
@@ -88,7 +88,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let _4lCircle = SFSymbol(rawValue: "4l.circle")
+    static var _4lCircle: SFSymbol { .init(rawValue: "4l.circle") }
 
     /// 􁥣
     /// Single Localization, 3 Layersets
@@ -97,7 +97,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let _4lCircleFill = SFSymbol(rawValue: "4l.circle.fill")
+    static var _4lCircleFill: SFSymbol { .init(rawValue: "4l.circle.fill") }
 
     /// 􀕾
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -108,7 +108,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Accessibility features.
-    static let accessibility = SFSymbol(rawValue: "accessibility")
+    static var accessibility: SFSymbol { .init(rawValue: "accessibility") }
 
     /// 􀮓
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -119,7 +119,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Accessibility features.
-    static let accessibilityBadgeArrowUpRight = SFSymbol(rawValue: "accessibility.badge.arrow.up.right")
+    static var accessibilityBadgeArrowUpRight: SFSymbol { .init(rawValue: "accessibility.badge.arrow.up.right") }
 
     /// 􀕿
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -130,7 +130,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Accessibility features.
-    static let accessibilityFill = SFSymbol(rawValue: "accessibility.fill")
+    static var accessibilityFill: SFSymbol { .init(rawValue: "accessibility.fill") }
 
     /// 􁔂
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -145,7 +145,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "airpodsProChargingcaseWirelessRadiowavesLeftAndRight")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "airpodsProChargingcaseWirelessRadiowavesLeftAndRight")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "airpodsProChargingcaseWirelessRadiowavesLeftAndRight")
-    static let airpodsproChargingcaseWirelessRadiowavesLeftAndRight = SFSymbol(rawValue: "airpodspro.chargingcase.wireless.radiowaves.left.and.right")
+    static var airpodsproChargingcaseWirelessRadiowavesLeftAndRight: SFSymbol { .init(rawValue: "airpodspro.chargingcase.wireless.radiowaves.left.and.right") }
 
     /// 􁔃
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -160,7 +160,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "airpodsProChargingcaseWirelessRadiowavesLeftAndRightFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "airpodsProChargingcaseWirelessRadiowavesLeftAndRightFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "airpodsProChargingcaseWirelessRadiowavesLeftAndRightFill")
-    static let airpodsproChargingcaseWirelessRadiowavesLeftAndRightFill = SFSymbol(rawValue: "airpodspro.chargingcase.wireless.radiowaves.left.and.right.fill")
+    static var airpodsproChargingcaseWirelessRadiowavesLeftAndRightFill: SFSymbol { .init(rawValue: "airpodspro.chargingcase.wireless.radiowaves.left.and.right.fill") }
 
     /// 􀩼
     /// Single Localization, 2 Layersets
@@ -168,7 +168,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    static let appleTerminal = SFSymbol(rawValue: "apple.terminal")
+    static var appleTerminal: SFSymbol { .init(rawValue: "apple.terminal") }
 
     /// 􀪏
     /// Single Localization, 2 Layersets
@@ -176,7 +176,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    static let appleTerminalFill = SFSymbol(rawValue: "apple.terminal.fill")
+    static var appleTerminalFill: SFSymbol { .init(rawValue: "apple.terminal.fill") }
 
     /// 􁹛
     /// Single Localization, 3 Layersets
@@ -185,7 +185,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let appleTerminalOnRectangle = SFSymbol(rawValue: "apple.terminal.on.rectangle")
+    static var appleTerminalOnRectangle: SFSymbol { .init(rawValue: "apple.terminal.on.rectangle") }
 
     /// 􁹜
     /// Single Localization, 3 Layersets
@@ -194,7 +194,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let appleTerminalOnRectangleFill = SFSymbol(rawValue: "apple.terminal.on.rectangle.fill")
+    static var appleTerminalOnRectangleFill: SFSymbol { .init(rawValue: "apple.terminal.on.rectangle.fill") }
 
     /// 􁰒
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -203,7 +203,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Pencil.
-    static let applepencilAdapterUsbC = SFSymbol(rawValue: "applepencil.adapter.usb.c")
+    static var applepencilAdapterUsbC: SFSymbol { .init(rawValue: "applepencil.adapter.usb.c") }
 
     /// 􁰓
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -212,7 +212,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Pencil.
-    static let applepencilAdapterUsbCFill = SFSymbol(rawValue: "applepencil.adapter.usb.c.fill")
+    static var applepencilAdapterUsbCFill: SFSymbol { .init(rawValue: "applepencil.adapter.usb.c.fill") }
 
     /// 􁤑
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -222,7 +222,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Pencil.
-    static let applepencilAndScribble = SFSymbol(rawValue: "applepencil.and.scribble")
+    static var applepencilAndScribble: SFSymbol { .init(rawValue: "applepencil.and.scribble") }
 
     /// 􁰤
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -231,7 +231,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Pencil.
-    static let applepencilGen1 = SFSymbol(rawValue: "applepencil.gen1")
+    static var applepencilGen1: SFSymbol { .init(rawValue: "applepencil.gen1") }
 
     /// 􁰥
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -240,7 +240,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Pencil.
-    static let applepencilGen2 = SFSymbol(rawValue: "applepencil.gen2")
+    static var applepencilGen2: SFSymbol { .init(rawValue: "applepencil.gen2") }
 
     /// 􁤓
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -250,7 +250,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Pencil.
-    static let applepencilTip = SFSymbol(rawValue: "applepencil.tip")
+    static var applepencilTip: SFSymbol { .init(rawValue: "applepencil.tip") }
 
     /// 􂄅
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
@@ -264,14 +264,14 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
-    static let applewatchAndArrowForward = SymbolWith1Localization<Rtl>(rawValue: "applewatch.and.arrow.forward")
+    static var applewatchAndArrowForward: SymbolWith1Localization<Rtl> { .init(rawValue: "applewatch.and.arrow.forward") }
 
     /// 􁻻
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let appwindowSwipeRectangle = SFSymbol(rawValue: "appwindow.swipe.rectangle")
+    static var appwindowSwipeRectangle: SFSymbol { .init(rawValue: "appwindow.swipe.rectangle") }
 
     /// 􂁢
     /// Single Localization, 2 Layersets
@@ -279,7 +279,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arcadeStick = SFSymbol(rawValue: "arcade.stick")
+    static var arcadeStick: SFSymbol { .init(rawValue: "arcade.stick") }
 
     /// 􂁨
     /// Single Localization, 2 Layersets
@@ -287,7 +287,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arcadeStickAndArrowDown = SFSymbol(rawValue: "arcade.stick.and.arrow.down")
+    static var arcadeStickAndArrowDown: SFSymbol { .init(rawValue: "arcade.stick.and.arrow.down") }
 
     /// 􂁤
     /// Single Localization, 2 Layersets
@@ -295,7 +295,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arcadeStickAndArrowLeft = SFSymbol(rawValue: "arcade.stick.and.arrow.left")
+    static var arcadeStickAndArrowLeft: SFSymbol { .init(rawValue: "arcade.stick.and.arrow.left") }
 
     /// 􂁣
     /// Single Localization, 2 Layersets
@@ -308,7 +308,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "arcadeStickAndArrowLeftAndArrowRightOutward")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "arcadeStickAndArrowLeftAndArrowRightOutward")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "arcadeStickAndArrowLeftAndArrowRightOutward")
-    static let arcadeStickAndArrowLeftAndArrowRight = SFSymbol(rawValue: "arcade.stick.and.arrow.left.and.arrow.right")
+    static var arcadeStickAndArrowLeftAndArrowRight: SFSymbol { .init(rawValue: "arcade.stick.and.arrow.left.and.arrow.right") }
 
     /// 􂁥
     /// Single Localization, 2 Layersets
@@ -316,7 +316,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arcadeStickAndArrowRight = SFSymbol(rawValue: "arcade.stick.and.arrow.right")
+    static var arcadeStickAndArrowRight: SFSymbol { .init(rawValue: "arcade.stick.and.arrow.right") }
 
     /// 􂁧
     /// Single Localization, 2 Layersets
@@ -324,7 +324,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arcadeStickAndArrowUp = SFSymbol(rawValue: "arcade.stick.and.arrow.up")
+    static var arcadeStickAndArrowUp: SFSymbol { .init(rawValue: "arcade.stick.and.arrow.up") }
 
     /// 􂁦
     /// Single Localization, 2 Layersets
@@ -332,7 +332,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arcadeStickAndArrowUpAndArrowDown = SFSymbol(rawValue: "arcade.stick.and.arrow.up.and.arrow.down")
+    static var arcadeStickAndArrowUpAndArrowDown: SFSymbol { .init(rawValue: "arcade.stick.and.arrow.up.and.arrow.down") }
 
     /// 􂁠
     /// Single Localization, 2 Layersets
@@ -340,14 +340,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arcadeStickConsole = SFSymbol(rawValue: "arcade.stick.console")
+    static var arcadeStickConsole: SFSymbol { .init(rawValue: "arcade.stick.console") }
 
     /// 􂁡
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let arcadeStickConsoleFill = SFSymbol(rawValue: "arcade.stick.console.fill")
+    static var arcadeStickConsoleFill: SFSymbol { .init(rawValue: "arcade.stick.console.fill") }
 
     /// 􂅕
     /// Single Localization, 2 Layersets
@@ -355,7 +355,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowBackwardToLineSquare = SFSymbol(rawValue: "arrow.backward.to.line.square")
+    static var arrowBackwardToLineSquare: SFSymbol { .init(rawValue: "arrow.backward.to.line.square") }
 
     /// 􂅖
     /// Single Localization, 3 Layersets
@@ -364,7 +364,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowBackwardToLineSquareFill = SFSymbol(rawValue: "arrow.backward.to.line.square.fill")
+    static var arrowBackwardToLineSquareFill: SFSymbol { .init(rawValue: "arrow.backward.to.line.square.fill") }
 
     /// 􁹠
     /// Single Localization, Single Layerset
@@ -376,7 +376,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "arrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "arrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "arrowTriangleheadCounterclockwiseRotate90")
-    static let arrowCirclepath = SFSymbol(rawValue: "arrow.circlepath")
+    static var arrowCirclepath: SFSymbol { .init(rawValue: "arrow.circlepath") }
 
     /// 􂅛
     /// Single Localization, 2 Layersets
@@ -384,7 +384,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowClockwiseSquare = SFSymbol(rawValue: "arrow.clockwise.square")
+    static var arrowClockwiseSquare: SFSymbol { .init(rawValue: "arrow.clockwise.square") }
 
     /// 􂅜
     /// Single Localization, 3 Layersets
@@ -393,7 +393,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowClockwiseSquareFill = SFSymbol(rawValue: "arrow.clockwise.square.fill")
+    static var arrowClockwiseSquareFill: SFSymbol { .init(rawValue: "arrow.clockwise.square.fill") }
 
     /// 􂅟
     /// Single Localization, 2 Layersets
@@ -401,7 +401,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowCounterclockwiseSquare = SFSymbol(rawValue: "arrow.counterclockwise.square")
+    static var arrowCounterclockwiseSquare: SFSymbol { .init(rawValue: "arrow.counterclockwise.square") }
 
     /// 􂅠
     /// Single Localization, 3 Layersets
@@ -410,7 +410,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowCounterclockwiseSquareFill = SFSymbol(rawValue: "arrow.counterclockwise.square.fill")
+    static var arrowCounterclockwiseSquareFill: SFSymbol { .init(rawValue: "arrow.counterclockwise.square.fill") }
 
     /// 􂄘
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -420,14 +420,14 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
-    static let arrowDownApplewatch = SFSymbol(rawValue: "arrow.down.applewatch")
+    static var arrowDownApplewatch: SFSymbol { .init(rawValue: "arrow.down.applewatch") }
 
     /// 􂄢
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let arrowDownBackwardAndArrowUpForward = SFSymbol(rawValue: "arrow.down.backward.and.arrow.up.forward")
+    static var arrowDownBackwardAndArrowUpForward: SFSymbol { .init(rawValue: "arrow.down.backward.and.arrow.up.forward") }
 
     /// 􂄣
     /// Single Localization, 2 Layersets
@@ -435,7 +435,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowDownBackwardAndArrowUpForwardCircle = SFSymbol(rawValue: "arrow.down.backward.and.arrow.up.forward.circle")
+    static var arrowDownBackwardAndArrowUpForwardCircle: SFSymbol { .init(rawValue: "arrow.down.backward.and.arrow.up.forward.circle") }
 
     /// 􂄤
     /// Single Localization, 3 Layersets
@@ -444,7 +444,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowDownBackwardAndArrowUpForwardCircleFill = SFSymbol(rawValue: "arrow.down.backward.and.arrow.up.forward.circle.fill")
+    static var arrowDownBackwardAndArrowUpForwardCircleFill: SFSymbol { .init(rawValue: "arrow.down.backward.and.arrow.up.forward.circle.fill") }
 
     /// 􂅅
     /// Single Localization, 2 Layersets
@@ -452,7 +452,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowDownBackwardAndArrowUpForwardSquare = SFSymbol(rawValue: "arrow.down.backward.and.arrow.up.forward.square")
+    static var arrowDownBackwardAndArrowUpForwardSquare: SFSymbol { .init(rawValue: "arrow.down.backward.and.arrow.up.forward.square") }
 
     /// 􂅆
     /// Single Localization, 3 Layersets
@@ -461,7 +461,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowDownBackwardAndArrowUpForwardSquareFill = SFSymbol(rawValue: "arrow.down.backward.and.arrow.up.forward.square.fill")
+    static var arrowDownBackwardAndArrowUpForwardSquareFill: SFSymbol { .init(rawValue: "arrow.down.backward.and.arrow.up.forward.square.fill") }
 
     /// 􁻿
     /// Single Localization, 2 Layersets
@@ -469,7 +469,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowDownBackwardToptrailingRectangle = SFSymbol(rawValue: "arrow.down.backward.toptrailing.rectangle")
+    static var arrowDownBackwardToptrailingRectangle: SFSymbol { .init(rawValue: "arrow.down.backward.toptrailing.rectangle") }
 
     /// 􁼀
     /// Single Localization, 3 Layersets
@@ -478,7 +478,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowDownBackwardToptrailingRectangleFill = SFSymbol(rawValue: "arrow.down.backward.toptrailing.rectangle.fill")
+    static var arrowDownBackwardToptrailingRectangleFill: SFSymbol { .init(rawValue: "arrow.down.backward.toptrailing.rectangle.fill") }
 
     /// 􁹟
     /// Single Localization, 2 Layersets
@@ -486,7 +486,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowDownCircleDotted = SFSymbol(rawValue: "arrow.down.circle.dotted")
+    static var arrowDownCircleDotted: SFSymbol { .init(rawValue: "arrow.down.circle.dotted") }
 
     /// 􂅉
     /// Single Localization, 2 Layersets
@@ -494,7 +494,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowDownForwardAndArrowUpBackwardSquare = SFSymbol(rawValue: "arrow.down.forward.and.arrow.up.backward.square")
+    static var arrowDownForwardAndArrowUpBackwardSquare: SFSymbol { .init(rawValue: "arrow.down.forward.and.arrow.up.backward.square") }
 
     /// 􂅊
     /// Single Localization, 3 Layersets
@@ -503,7 +503,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowDownForwardAndArrowUpBackwardSquareFill = SFSymbol(rawValue: "arrow.down.forward.and.arrow.up.backward.square.fill")
+    static var arrowDownForwardAndArrowUpBackwardSquareFill: SFSymbol { .init(rawValue: "arrow.down.forward.and.arrow.up.backward.square.fill") }
 
     /// 􁼋
     /// Single Localization, 2 Layersets
@@ -511,7 +511,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowDownForwardTopleadingRectangle = SFSymbol(rawValue: "arrow.down.forward.topleading.rectangle")
+    static var arrowDownForwardTopleadingRectangle: SFSymbol { .init(rawValue: "arrow.down.forward.topleading.rectangle") }
 
     /// 􁼌
     /// Single Localization, 3 Layersets
@@ -520,14 +520,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowDownForwardTopleadingRectangleFill = SFSymbol(rawValue: "arrow.down.forward.topleading.rectangle.fill")
+    static var arrowDownForwardTopleadingRectangleFill: SFSymbol { .init(rawValue: "arrow.down.forward.topleading.rectangle.fill") }
 
     /// 􂄝
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let arrowDownLeftAndArrowUpRight = SFSymbol(rawValue: "arrow.down.left.and.arrow.up.right")
+    static var arrowDownLeftAndArrowUpRight: SFSymbol { .init(rawValue: "arrow.down.left.and.arrow.up.right") }
 
     /// 􂄞
     /// Single Localization, 2 Layersets
@@ -535,7 +535,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowDownLeftAndArrowUpRightCircle = SFSymbol(rawValue: "arrow.down.left.and.arrow.up.right.circle")
+    static var arrowDownLeftAndArrowUpRightCircle: SFSymbol { .init(rawValue: "arrow.down.left.and.arrow.up.right.circle") }
 
     /// 􂄟
     /// Single Localization, 3 Layersets
@@ -544,7 +544,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowDownLeftAndArrowUpRightCircleFill = SFSymbol(rawValue: "arrow.down.left.and.arrow.up.right.circle.fill")
+    static var arrowDownLeftAndArrowUpRightCircleFill: SFSymbol { .init(rawValue: "arrow.down.left.and.arrow.up.right.circle.fill") }
 
     /// 􂅃
     /// Single Localization, 2 Layersets
@@ -552,7 +552,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowDownLeftAndArrowUpRightSquare = SFSymbol(rawValue: "arrow.down.left.and.arrow.up.right.square")
+    static var arrowDownLeftAndArrowUpRightSquare: SFSymbol { .init(rawValue: "arrow.down.left.and.arrow.up.right.square") }
 
     /// 􂅄
     /// Single Localization, 3 Layersets
@@ -561,7 +561,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowDownLeftAndArrowUpRightSquareFill = SFSymbol(rawValue: "arrow.down.left.and.arrow.up.right.square.fill")
+    static var arrowDownLeftAndArrowUpRightSquareFill: SFSymbol { .init(rawValue: "arrow.down.left.and.arrow.up.right.square.fill") }
 
     /// 􁽧
     /// Single Localization, 2 Layersets
@@ -569,7 +569,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowDownLeftArrowUpRight = SFSymbol(rawValue: "arrow.down.left.arrow.up.right")
+    static var arrowDownLeftArrowUpRight: SFSymbol { .init(rawValue: "arrow.down.left.arrow.up.right") }
 
     /// 􁽨
     /// Single Localization, 2 Layersets
@@ -577,7 +577,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowDownLeftArrowUpRightCircle = SFSymbol(rawValue: "arrow.down.left.arrow.up.right.circle")
+    static var arrowDownLeftArrowUpRightCircle: SFSymbol { .init(rawValue: "arrow.down.left.arrow.up.right.circle") }
 
     /// 􁽩
     /// Single Localization, 3 Layersets
@@ -586,7 +586,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowDownLeftArrowUpRightCircleFill = SFSymbol(rawValue: "arrow.down.left.arrow.up.right.circle.fill")
+    static var arrowDownLeftArrowUpRightCircleFill: SFSymbol { .init(rawValue: "arrow.down.left.arrow.up.right.circle.fill") }
 
     /// 􁽪
     /// Single Localization, 2 Layersets
@@ -594,7 +594,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowDownLeftArrowUpRightSquare = SFSymbol(rawValue: "arrow.down.left.arrow.up.right.square")
+    static var arrowDownLeftArrowUpRightSquare: SFSymbol { .init(rawValue: "arrow.down.left.arrow.up.right.square") }
 
     /// 􁽫
     /// Single Localization, 3 Layersets
@@ -603,7 +603,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowDownLeftArrowUpRightSquareFill = SFSymbol(rawValue: "arrow.down.left.arrow.up.right.square.fill")
+    static var arrowDownLeftArrowUpRightSquareFill: SFSymbol { .init(rawValue: "arrow.down.left.arrow.up.right.square.fill") }
 
     /// 􁻽
     /// Single Localization, 2 Layersets
@@ -611,7 +611,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowDownLeftToprightRectangle = SFSymbol(rawValue: "arrow.down.left.topright.rectangle")
+    static var arrowDownLeftToprightRectangle: SFSymbol { .init(rawValue: "arrow.down.left.topright.rectangle") }
 
     /// 􁻾
     /// Single Localization, 3 Layersets
@@ -620,7 +620,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowDownLeftToprightRectangleFill = SFSymbol(rawValue: "arrow.down.left.topright.rectangle.fill")
+    static var arrowDownLeftToprightRectangleFill: SFSymbol { .init(rawValue: "arrow.down.left.topright.rectangle.fill") }
 
     /// 􂅇
     /// Single Localization, 2 Layersets
@@ -628,7 +628,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowDownRightAndArrowUpLeftSquare = SFSymbol(rawValue: "arrow.down.right.and.arrow.up.left.square")
+    static var arrowDownRightAndArrowUpLeftSquare: SFSymbol { .init(rawValue: "arrow.down.right.and.arrow.up.left.square") }
 
     /// 􂅈
     /// Single Localization, 3 Layersets
@@ -637,7 +637,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowDownRightAndArrowUpLeftSquareFill = SFSymbol(rawValue: "arrow.down.right.and.arrow.up.left.square.fill")
+    static var arrowDownRightAndArrowUpLeftSquareFill: SFSymbol { .init(rawValue: "arrow.down.right.and.arrow.up.left.square.fill") }
 
     /// 􁼉
     /// Single Localization, 2 Layersets
@@ -645,7 +645,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowDownRightTopleftRectangle = SFSymbol(rawValue: "arrow.down.right.topleft.rectangle")
+    static var arrowDownRightTopleftRectangle: SFSymbol { .init(rawValue: "arrow.down.right.topleft.rectangle") }
 
     /// 􁼊
     /// Single Localization, 3 Layersets
@@ -654,7 +654,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowDownRightTopleftRectangleFill = SFSymbol(rawValue: "arrow.down.right.topleft.rectangle.fill")
+    static var arrowDownRightTopleftRectangleFill: SFSymbol { .init(rawValue: "arrow.down.right.topleft.rectangle.fill") }
 
     /// 􂅑
     /// Single Localization, 2 Layersets
@@ -662,7 +662,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowDownToLineSquare = SFSymbol(rawValue: "arrow.down.to.line.square")
+    static var arrowDownToLineSquare: SFSymbol { .init(rawValue: "arrow.down.to.line.square") }
 
     /// 􂅒
     /// Single Localization, 3 Layersets
@@ -671,7 +671,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowDownToLineSquareFill = SFSymbol(rawValue: "arrow.down.to.line.square.fill")
+    static var arrowDownToLineSquareFill: SFSymbol { .init(rawValue: "arrow.down.to.line.square.fill") }
 
     /// 􂅙
     /// Single Localization, 2 Layersets
@@ -679,7 +679,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowForwardToLineSquare = SFSymbol(rawValue: "arrow.forward.to.line.square")
+    static var arrowForwardToLineSquare: SFSymbol { .init(rawValue: "arrow.forward.to.line.square") }
 
     /// 􂅚
     /// Single Localization, 3 Layersets
@@ -688,7 +688,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowForwardToLineSquareFill = SFSymbol(rawValue: "arrow.forward.to.line.square.fill")
+    static var arrowForwardToLineSquareFill: SFSymbol { .init(rawValue: "arrow.forward.to.line.square.fill") }
 
     /// 􂅓
     /// Single Localization, 2 Layersets
@@ -696,7 +696,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowLeftToLineSquare = SFSymbol(rawValue: "arrow.left.to.line.square")
+    static var arrowLeftToLineSquare: SFSymbol { .init(rawValue: "arrow.left.to.line.square") }
 
     /// 􂅔
     /// Single Localization, 3 Layersets
@@ -705,7 +705,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowLeftToLineSquareFill = SFSymbol(rawValue: "arrow.left.to.line.square.fill")
+    static var arrowLeftToLineSquareFill: SFSymbol { .init(rawValue: "arrow.left.to.line.square.fill") }
 
     /// 􂅗
     /// Single Localization, 2 Layersets
@@ -713,7 +713,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowRightToLineSquare = SFSymbol(rawValue: "arrow.right.to.line.square")
+    static var arrowRightToLineSquare: SFSymbol { .init(rawValue: "arrow.right.to.line.square") }
 
     /// 􂅘
     /// Single Localization, 3 Layersets
@@ -722,7 +722,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowRightToLineSquareFill = SFSymbol(rawValue: "arrow.right.to.line.square.fill")
+    static var arrowRightToLineSquareFill: SFSymbol { .init(rawValue: "arrow.right.to.line.square.fill") }
 
     /// 􂆍
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -737,7 +737,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "arrowTrianglehead2ClockwiseRotate90Icloud")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "arrowTrianglehead2ClockwiseRotate90Icloud")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "arrowTrianglehead2ClockwiseRotate90Icloud")
-    static let arrowTriangle2CirclepathIcloud = SFSymbol(rawValue: "arrow.triangle.2.circlepath.icloud")
+    static var arrowTriangle2CirclepathIcloud: SFSymbol { .init(rawValue: "arrow.triangle.2.circlepath.icloud") }
 
     /// 􂆎
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -753,7 +753,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "arrowTrianglehead2ClockwiseRotate90IcloudFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "arrowTrianglehead2ClockwiseRotate90IcloudFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "arrowTrianglehead2ClockwiseRotate90IcloudFill")
-    static let arrowTriangle2CirclepathIcloudFill = SFSymbol(rawValue: "arrow.triangle.2.circlepath.icloud.fill")
+    static var arrowTriangle2CirclepathIcloudFill: SFSymbol { .init(rawValue: "arrow.triangle.2.circlepath.icloud.fill") }
 
     /// 􂅁
     /// Single Localization, 2 Layersets
@@ -761,7 +761,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowUpBackwardAndArrowDownForwardSquare = SFSymbol(rawValue: "arrow.up.backward.and.arrow.down.forward.square")
+    static var arrowUpBackwardAndArrowDownForwardSquare: SFSymbol { .init(rawValue: "arrow.up.backward.and.arrow.down.forward.square") }
 
     /// 􂅂
     /// Single Localization, 3 Layersets
@@ -770,7 +770,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowUpBackwardAndArrowDownForwardSquareFill = SFSymbol(rawValue: "arrow.up.backward.and.arrow.down.forward.square.fill")
+    static var arrowUpBackwardAndArrowDownForwardSquareFill: SFSymbol { .init(rawValue: "arrow.up.backward.and.arrow.down.forward.square.fill") }
 
     /// 􁼃
     /// Single Localization, 2 Layersets
@@ -778,7 +778,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowUpBackwardBottomtrailingRectangle = SFSymbol(rawValue: "arrow.up.backward.bottomtrailing.rectangle")
+    static var arrowUpBackwardBottomtrailingRectangle: SFSymbol { .init(rawValue: "arrow.up.backward.bottomtrailing.rectangle") }
 
     /// 􁼄
     /// Single Localization, 3 Layersets
@@ -787,14 +787,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowUpBackwardBottomtrailingRectangleFill = SFSymbol(rawValue: "arrow.up.backward.bottomtrailing.rectangle.fill")
+    static var arrowUpBackwardBottomtrailingRectangleFill: SFSymbol { .init(rawValue: "arrow.up.backward.bottomtrailing.rectangle.fill") }
 
     /// 􂄬
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let arrowUpForwardAndArrowDownBackward = SFSymbol(rawValue: "arrow.up.forward.and.arrow.down.backward")
+    static var arrowUpForwardAndArrowDownBackward: SFSymbol { .init(rawValue: "arrow.up.forward.and.arrow.down.backward") }
 
     /// 􂄭
     /// Single Localization, 2 Layersets
@@ -802,7 +802,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowUpForwardAndArrowDownBackwardCircle = SFSymbol(rawValue: "arrow.up.forward.and.arrow.down.backward.circle")
+    static var arrowUpForwardAndArrowDownBackwardCircle: SFSymbol { .init(rawValue: "arrow.up.forward.and.arrow.down.backward.circle") }
 
     /// 􂄮
     /// Single Localization, 3 Layersets
@@ -811,7 +811,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowUpForwardAndArrowDownBackwardCircleFill = SFSymbol(rawValue: "arrow.up.forward.and.arrow.down.backward.circle.fill")
+    static var arrowUpForwardAndArrowDownBackwardCircleFill: SFSymbol { .init(rawValue: "arrow.up.forward.and.arrow.down.backward.circle.fill") }
 
     /// 􂅍
     /// Single Localization, 2 Layersets
@@ -819,7 +819,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowUpForwardAndArrowDownBackwardSquare = SFSymbol(rawValue: "arrow.up.forward.and.arrow.down.backward.square")
+    static var arrowUpForwardAndArrowDownBackwardSquare: SFSymbol { .init(rawValue: "arrow.up.forward.and.arrow.down.backward.square") }
 
     /// 􂅎
     /// Single Localization, 3 Layersets
@@ -828,7 +828,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowUpForwardAndArrowDownBackwardSquareFill = SFSymbol(rawValue: "arrow.up.forward.and.arrow.down.backward.square.fill")
+    static var arrowUpForwardAndArrowDownBackwardSquareFill: SFSymbol { .init(rawValue: "arrow.up.forward.and.arrow.down.backward.square.fill") }
 
     /// 􁼇
     /// Single Localization, 2 Layersets
@@ -836,7 +836,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowUpForwardBottomleadingRectangle = SFSymbol(rawValue: "arrow.up.forward.bottomleading.rectangle")
+    static var arrowUpForwardBottomleadingRectangle: SFSymbol { .init(rawValue: "arrow.up.forward.bottomleading.rectangle") }
 
     /// 􁼈
     /// Single Localization, 3 Layersets
@@ -845,7 +845,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowUpForwardBottomleadingRectangleFill = SFSymbol(rawValue: "arrow.up.forward.bottomleading.rectangle.fill")
+    static var arrowUpForwardBottomleadingRectangleFill: SFSymbol { .init(rawValue: "arrow.up.forward.bottomleading.rectangle.fill") }
 
     /// 􂄿
     /// Single Localization, 2 Layersets
@@ -853,7 +853,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowUpLeftAndArrowDownRightSquare = SFSymbol(rawValue: "arrow.up.left.and.arrow.down.right.square")
+    static var arrowUpLeftAndArrowDownRightSquare: SFSymbol { .init(rawValue: "arrow.up.left.and.arrow.down.right.square") }
 
     /// 􂅀
     /// Single Localization, 3 Layersets
@@ -862,7 +862,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowUpLeftAndArrowDownRightSquareFill = SFSymbol(rawValue: "arrow.up.left.and.arrow.down.right.square.fill")
+    static var arrowUpLeftAndArrowDownRightSquareFill: SFSymbol { .init(rawValue: "arrow.up.left.and.arrow.down.right.square.fill") }
 
     /// 􁾒
     /// Single Localization, 2 Layersets
@@ -870,7 +870,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowUpLeftArrowDownRight = SFSymbol(rawValue: "arrow.up.left.arrow.down.right")
+    static var arrowUpLeftArrowDownRight: SFSymbol { .init(rawValue: "arrow.up.left.arrow.down.right") }
 
     /// 􁾓
     /// Single Localization, 2 Layersets
@@ -878,7 +878,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowUpLeftArrowDownRightCircle = SFSymbol(rawValue: "arrow.up.left.arrow.down.right.circle")
+    static var arrowUpLeftArrowDownRightCircle: SFSymbol { .init(rawValue: "arrow.up.left.arrow.down.right.circle") }
 
     /// 􁾔
     /// Single Localization, 3 Layersets
@@ -887,7 +887,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowUpLeftArrowDownRightCircleFill = SFSymbol(rawValue: "arrow.up.left.arrow.down.right.circle.fill")
+    static var arrowUpLeftArrowDownRightCircleFill: SFSymbol { .init(rawValue: "arrow.up.left.arrow.down.right.circle.fill") }
 
     /// 􁾕
     /// Single Localization, 2 Layersets
@@ -895,7 +895,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowUpLeftArrowDownRightSquare = SFSymbol(rawValue: "arrow.up.left.arrow.down.right.square")
+    static var arrowUpLeftArrowDownRightSquare: SFSymbol { .init(rawValue: "arrow.up.left.arrow.down.right.square") }
 
     /// 􁾖
     /// Single Localization, 3 Layersets
@@ -904,7 +904,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowUpLeftArrowDownRightSquareFill = SFSymbol(rawValue: "arrow.up.left.arrow.down.right.square.fill")
+    static var arrowUpLeftArrowDownRightSquareFill: SFSymbol { .init(rawValue: "arrow.up.left.arrow.down.right.square.fill") }
 
     /// 􁼁
     /// Single Localization, 2 Layersets
@@ -912,7 +912,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowUpLeftBottomrightRectangle = SFSymbol(rawValue: "arrow.up.left.bottomright.rectangle")
+    static var arrowUpLeftBottomrightRectangle: SFSymbol { .init(rawValue: "arrow.up.left.bottomright.rectangle") }
 
     /// 􁼂
     /// Single Localization, 3 Layersets
@@ -921,14 +921,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowUpLeftBottomrightRectangleFill = SFSymbol(rawValue: "arrow.up.left.bottomright.rectangle.fill")
+    static var arrowUpLeftBottomrightRectangleFill: SFSymbol { .init(rawValue: "arrow.up.left.bottomright.rectangle.fill") }
 
     /// 􂄧
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let arrowUpRightAndArrowDownLeft = SFSymbol(rawValue: "arrow.up.right.and.arrow.down.left")
+    static var arrowUpRightAndArrowDownLeft: SFSymbol { .init(rawValue: "arrow.up.right.and.arrow.down.left") }
 
     /// 􂄨
     /// Single Localization, 2 Layersets
@@ -936,7 +936,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowUpRightAndArrowDownLeftCircle = SFSymbol(rawValue: "arrow.up.right.and.arrow.down.left.circle")
+    static var arrowUpRightAndArrowDownLeftCircle: SFSymbol { .init(rawValue: "arrow.up.right.and.arrow.down.left.circle") }
 
     /// 􂄩
     /// Single Localization, 3 Layersets
@@ -945,7 +945,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowUpRightAndArrowDownLeftCircleFill = SFSymbol(rawValue: "arrow.up.right.and.arrow.down.left.circle.fill")
+    static var arrowUpRightAndArrowDownLeftCircleFill: SFSymbol { .init(rawValue: "arrow.up.right.and.arrow.down.left.circle.fill") }
 
     /// 􂅋
     /// Single Localization, 2 Layersets
@@ -953,7 +953,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowUpRightAndArrowDownLeftSquare = SFSymbol(rawValue: "arrow.up.right.and.arrow.down.left.square")
+    static var arrowUpRightAndArrowDownLeftSquare: SFSymbol { .init(rawValue: "arrow.up.right.and.arrow.down.left.square") }
 
     /// 􂅌
     /// Single Localization, 3 Layersets
@@ -962,7 +962,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowUpRightAndArrowDownLeftSquareFill = SFSymbol(rawValue: "arrow.up.right.and.arrow.down.left.square.fill")
+    static var arrowUpRightAndArrowDownLeftSquareFill: SFSymbol { .init(rawValue: "arrow.up.right.and.arrow.down.left.square.fill") }
 
     /// 􁼅
     /// Single Localization, 2 Layersets
@@ -970,7 +970,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowUpRightBottomleftRectangle = SFSymbol(rawValue: "arrow.up.right.bottomleft.rectangle")
+    static var arrowUpRightBottomleftRectangle: SFSymbol { .init(rawValue: "arrow.up.right.bottomleft.rectangle") }
 
     /// 􁼆
     /// Single Localization, 3 Layersets
@@ -979,7 +979,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowUpRightBottomleftRectangleFill = SFSymbol(rawValue: "arrow.up.right.bottomleft.rectangle.fill")
+    static var arrowUpRightBottomleftRectangleFill: SFSymbol { .init(rawValue: "arrow.up.right.bottomleft.rectangle.fill") }
 
     /// 􂅏
     /// Single Localization, 2 Layersets
@@ -987,7 +987,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowUpToLineSquare = SFSymbol(rawValue: "arrow.up.to.line.square")
+    static var arrowUpToLineSquare: SFSymbol { .init(rawValue: "arrow.up.to.line.square") }
 
     /// 􂅐
     /// Single Localization, 3 Layersets
@@ -996,7 +996,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowUpToLineSquareFill = SFSymbol(rawValue: "arrow.up.to.line.square.fill")
+    static var arrowUpToLineSquareFill: SFSymbol { .init(rawValue: "arrow.up.to.line.square.fill") }
 
     /// 􁣈
     /// Single Localization, 3 Layersets
@@ -1005,7 +1005,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowUpTrash = SFSymbol(rawValue: "arrow.up.trash")
+    static var arrowUpTrash: SFSymbol { .init(rawValue: "arrow.up.trash") }
 
     /// 􁣉
     /// Single Localization, 3 Layersets
@@ -1014,7 +1014,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowUpTrashFill = SFSymbol(rawValue: "arrow.up.trash.fill")
+    static var arrowUpTrashFill: SFSymbol { .init(rawValue: "arrow.up.trash.fill") }
 
     /// 􁾰
     /// Single Localization, 2 Layersets
@@ -1022,7 +1022,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowkeys = SFSymbol(rawValue: "arrowkeys")
+    static var arrowkeys: SFSymbol { .init(rawValue: "arrowkeys") }
 
     /// 􁾳
     /// Single Localization, 2 Layersets
@@ -1030,7 +1030,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowkeysDownFilled = SFSymbol(rawValue: "arrowkeys.down.filled")
+    static var arrowkeysDownFilled: SFSymbol { .init(rawValue: "arrowkeys.down.filled") }
 
     /// 􁾱
     /// Single Localization, 2 Layersets
@@ -1038,7 +1038,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowkeysFill = SFSymbol(rawValue: "arrowkeys.fill")
+    static var arrowkeysFill: SFSymbol { .init(rawValue: "arrowkeys.fill") }
 
     /// 􁾴
     /// Single Localization, 2 Layersets
@@ -1046,7 +1046,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowkeysLeftFilled = SFSymbol(rawValue: "arrowkeys.left.filled")
+    static var arrowkeysLeftFilled: SFSymbol { .init(rawValue: "arrowkeys.left.filled") }
 
     /// 􁾵
     /// Single Localization, 2 Layersets
@@ -1054,7 +1054,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowkeysRightFilled = SFSymbol(rawValue: "arrowkeys.right.filled")
+    static var arrowkeysRightFilled: SFSymbol { .init(rawValue: "arrowkeys.right.filled") }
 
     /// 􁾲
     /// Single Localization, 2 Layersets
@@ -1062,7 +1062,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowkeysUpFilled = SFSymbol(rawValue: "arrowkeys.up.filled")
+    static var arrowkeysUpFilled: SFSymbol { .init(rawValue: "arrowkeys.up.filled") }
 
     /// 􁾢
     /// Single Localization, 2 Layersets
@@ -1070,7 +1070,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowshapeBackwardCircle = SFSymbol(rawValue: "arrowshape.backward.circle")
+    static var arrowshapeBackwardCircle: SFSymbol { .init(rawValue: "arrowshape.backward.circle") }
 
     /// 􁾣
     /// Single Localization, 3 Layersets
@@ -1079,14 +1079,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowshapeBackwardCircleFill = SFSymbol(rawValue: "arrowshape.backward.circle.fill")
+    static var arrowshapeBackwardCircleFill: SFSymbol { .init(rawValue: "arrowshape.backward.circle.fill") }
 
     /// 􁾬
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let arrowshapeDown = SFSymbol(rawValue: "arrowshape.down")
+    static var arrowshapeDown: SFSymbol { .init(rawValue: "arrowshape.down") }
 
     /// 􁾮
     /// Single Localization, 2 Layersets
@@ -1094,7 +1094,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowshapeDownCircle = SFSymbol(rawValue: "arrowshape.down.circle")
+    static var arrowshapeDownCircle: SFSymbol { .init(rawValue: "arrowshape.down.circle") }
 
     /// 􁾯
     /// Single Localization, 3 Layersets
@@ -1103,14 +1103,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowshapeDownCircleFill = SFSymbol(rawValue: "arrowshape.down.circle.fill")
+    static var arrowshapeDownCircleFill: SFSymbol { .init(rawValue: "arrowshape.down.circle.fill") }
 
     /// 􁾭
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let arrowshapeDownFill = SFSymbol(rawValue: "arrowshape.down.fill")
+    static var arrowshapeDownFill: SFSymbol { .init(rawValue: "arrowshape.down.fill") }
 
     /// 􁾦
     /// Single Localization, 2 Layersets
@@ -1118,7 +1118,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowshapeForwardCircle = SFSymbol(rawValue: "arrowshape.forward.circle")
+    static var arrowshapeForwardCircle: SFSymbol { .init(rawValue: "arrowshape.forward.circle") }
 
     /// 􁾧
     /// Single Localization, 3 Layersets
@@ -1127,21 +1127,21 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowshapeForwardCircleFill = SFSymbol(rawValue: "arrowshape.forward.circle.fill")
+    static var arrowshapeForwardCircleFill: SFSymbol { .init(rawValue: "arrowshape.forward.circle.fill") }
 
     /// 􁉾
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let arrowshapeLeftArrowshapeRight = SFSymbol(rawValue: "arrowshape.left.arrowshape.right")
+    static var arrowshapeLeftArrowshapeRight: SFSymbol { .init(rawValue: "arrowshape.left.arrowshape.right") }
 
     /// 􁉿
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let arrowshapeLeftArrowshapeRightFill = SFSymbol(rawValue: "arrowshape.left.arrowshape.right.fill")
+    static var arrowshapeLeftArrowshapeRightFill: SFSymbol { .init(rawValue: "arrowshape.left.arrowshape.right.fill") }
 
     /// 􁾠
     /// Single Localization, 2 Layersets
@@ -1149,7 +1149,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowshapeLeftCircle = SFSymbol(rawValue: "arrowshape.left.circle")
+    static var arrowshapeLeftCircle: SFSymbol { .init(rawValue: "arrowshape.left.circle") }
 
     /// 􁾡
     /// Single Localization, 3 Layersets
@@ -1158,7 +1158,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowshapeLeftCircleFill = SFSymbol(rawValue: "arrowshape.left.circle.fill")
+    static var arrowshapeLeftCircleFill: SFSymbol { .init(rawValue: "arrowshape.left.circle.fill") }
 
     /// 􁾤
     /// Single Localization, 2 Layersets
@@ -1166,7 +1166,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowshapeRightCircle = SFSymbol(rawValue: "arrowshape.right.circle")
+    static var arrowshapeRightCircle: SFSymbol { .init(rawValue: "arrowshape.right.circle") }
 
     /// 􁾥
     /// Single Localization, 3 Layersets
@@ -1175,14 +1175,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowshapeRightCircleFill = SFSymbol(rawValue: "arrowshape.right.circle.fill")
+    static var arrowshapeRightCircleFill: SFSymbol { .init(rawValue: "arrowshape.right.circle.fill") }
 
     /// 􁾨
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let arrowshapeUp = SFSymbol(rawValue: "arrowshape.up")
+    static var arrowshapeUp: SFSymbol { .init(rawValue: "arrowshape.up") }
 
     /// 􁾪
     /// Single Localization, 2 Layersets
@@ -1190,7 +1190,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowshapeUpCircle = SFSymbol(rawValue: "arrowshape.up.circle")
+    static var arrowshapeUpCircle: SFSymbol { .init(rawValue: "arrowshape.up.circle") }
 
     /// 􁾫
     /// Single Localization, 3 Layersets
@@ -1199,14 +1199,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let arrowshapeUpCircleFill = SFSymbol(rawValue: "arrowshape.up.circle.fill")
+    static var arrowshapeUpCircleFill: SFSymbol { .init(rawValue: "arrowshape.up.circle.fill") }
 
     /// 􁾩
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let arrowshapeUpFill = SFSymbol(rawValue: "arrowshape.up.fill")
+    static var arrowshapeUpFill: SFSymbol { .init(rawValue: "arrowshape.up.fill") }
 
     /// 􁊝
     /// Single Localization, 2 Layersets
@@ -1214,7 +1214,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowtriangleUpArrowtriangleDownWindowLeft = SFSymbol(rawValue: "arrowtriangle.up.arrowtriangle.down.window.left")
+    static var arrowtriangleUpArrowtriangleDownWindowLeft: SFSymbol { .init(rawValue: "arrowtriangle.up.arrowtriangle.down.window.left") }
 
     /// 􁉝
     /// Single Localization, 2 Layersets
@@ -1222,14 +1222,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let arrowtriangleUpArrowtriangleDownWindowRight = SFSymbol(rawValue: "arrowtriangle.up.arrowtriangle.down.window.right")
+    static var arrowtriangleUpArrowtriangleDownWindowRight: SFSymbol { .init(rawValue: "arrowtriangle.up.arrowtriangle.down.window.right") }
 
     /// 􁾍
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let australiandollarsign = SFSymbol(rawValue: "australiandollarsign")
+    static var australiandollarsign: SFSymbol { .init(rawValue: "australiandollarsign") }
 
     /// 􂈹
     /// Single Localization, 2 Layersets
@@ -1242,7 +1242,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "australiandollarsignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "australiandollarsignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "australiandollarsignArrowTriangleheadCounterclockwiseRotate90")
-    static let australiandollarsignArrowCirclepath = SFSymbol(rawValue: "australiandollarsign.arrow.circlepath")
+    static var australiandollarsignArrowCirclepath: SFSymbol { .init(rawValue: "australiandollarsign.arrow.circlepath") }
 
     /// 􀮠
     /// Single Localization, 2 Layersets
@@ -1250,7 +1250,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let australiandollarsignCircle = SFSymbol(rawValue: "australiandollarsign.circle")
+    static var australiandollarsignCircle: SFSymbol { .init(rawValue: "australiandollarsign.circle") }
 
     /// 􀮡
     /// Single Localization, 3 Layersets
@@ -1259,7 +1259,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let australiandollarsignCircleFill = SFSymbol(rawValue: "australiandollarsign.circle.fill")
+    static var australiandollarsignCircleFill: SFSymbol { .init(rawValue: "australiandollarsign.circle.fill") }
 
     /// 􀮢
     /// Single Localization, 2 Layersets
@@ -1267,7 +1267,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let australiandollarsignSquare = SFSymbol(rawValue: "australiandollarsign.square")
+    static var australiandollarsignSquare: SFSymbol { .init(rawValue: "australiandollarsign.square") }
 
     /// 􀮣
     /// Single Localization, 3 Layersets
@@ -1276,7 +1276,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let australiandollarsignSquareFill = SFSymbol(rawValue: "australiandollarsign.square.fill")
+    static var australiandollarsignSquareFill: SFSymbol { .init(rawValue: "australiandollarsign.square.fill") }
 
     /// 􂈣
     /// Single Localization, 2 Layersets
@@ -1289,7 +1289,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "australsignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "australsignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "australsignArrowTriangleheadCounterclockwiseRotate90")
-    static let australsignArrowCirclepath = SFSymbol(rawValue: "australsign.arrow.circlepath")
+    static var australsignArrowCirclepath: SFSymbol { .init(rawValue: "australsign.arrow.circlepath") }
 
     /// 􁟁
     /// Single Localization, 2 Layersets
@@ -1297,7 +1297,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let automaticBrakesignal = SFSymbol(rawValue: "automatic.brakesignal")
+    static var automaticBrakesignal: SFSymbol { .init(rawValue: "automatic.brakesignal") }
 
     /// 􁢧
     /// Single Localization, 3 Layersets
@@ -1306,7 +1306,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let automaticHeadlightHighBeam = SFSymbol(rawValue: "automatic.headlight.high.beam")
+    static var automaticHeadlightHighBeam: SFSymbol { .init(rawValue: "automatic.headlight.high.beam") }
 
     /// 􁢨
     /// Single Localization, 3 Layersets
@@ -1315,7 +1315,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let automaticHeadlightHighBeamFill = SFSymbol(rawValue: "automatic.headlight.high.beam.fill")
+    static var automaticHeadlightHighBeamFill: SFSymbol { .init(rawValue: "automatic.headlight.high.beam.fill") }
 
     /// 􁢩
     /// Single Localization, 3 Layersets
@@ -1324,7 +1324,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let automaticHeadlightLowBeam = SFSymbol(rawValue: "automatic.headlight.low.beam")
+    static var automaticHeadlightLowBeam: SFSymbol { .init(rawValue: "automatic.headlight.low.beam") }
 
     /// 􁢪
     /// Single Localization, 3 Layersets
@@ -1333,7 +1333,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let automaticHeadlightLowBeamFill = SFSymbol(rawValue: "automatic.headlight.low.beam.fill")
+    static var automaticHeadlightLowBeamFill: SFSymbol { .init(rawValue: "automatic.headlight.low.beam.fill") }
 
     /// 􁠤
     /// Single Localization, 2 Layersets
@@ -1341,7 +1341,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let axle2DriveshaftDisengaged = SFSymbol(rawValue: "axle.2.driveshaft.disengaged")
+    static var axle2DriveshaftDisengaged: SFSymbol { .init(rawValue: "axle.2.driveshaft.disengaged") }
 
     /// 􁠢
     /// Single Localization, 2 Layersets
@@ -1349,7 +1349,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let axle2FrontDisengaged = SFSymbol(rawValue: "axle.2.front.disengaged")
+    static var axle2FrontDisengaged: SFSymbol { .init(rawValue: "axle.2.front.disengaged") }
 
     /// 􁠣
     /// Single Localization, 2 Layersets
@@ -1357,7 +1357,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let axle2RearDisengaged = SFSymbol(rawValue: "axle.2.rear.disengaged")
+    static var axle2RearDisengaged: SFSymbol { .init(rawValue: "axle.2.rear.disengaged") }
 
     /// 􁠨
     /// Single Localization, 2 Layersets
@@ -1365,7 +1365,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let axle2RearLock = SFSymbol(rawValue: "axle.2.rear.lock")
+    static var axle2RearLock: SFSymbol { .init(rawValue: "axle.2.rear.lock") }
 
     /// 􂈯
     /// Single Localization, 2 Layersets
@@ -1378,7 +1378,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "bahtsignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "bahtsignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "bahtsignArrowTriangleheadCounterclockwiseRotate90")
-    static let bahtsignArrowCirclepath = SFSymbol(rawValue: "bahtsign.arrow.circlepath")
+    static var bahtsignArrowCirclepath: SFSymbol { .init(rawValue: "bahtsign.arrow.circlepath") }
 
     /// 􀛪
     /// Single Localization, 2 Layersets
@@ -1386,7 +1386,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    static let battery0percent = SFSymbol(rawValue: "battery.0percent")
+    static var battery0percent: SFSymbol { .init(rawValue: "battery.0percent") }
 
     /// 􀛩
     /// Single Localization, 3 Layersets
@@ -1395,7 +1395,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let battery25percent = SFSymbol(rawValue: "battery.25percent")
+    static var battery25percent: SFSymbol { .init(rawValue: "battery.25percent") }
 
     /// 􀺶
     /// Single Localization, 3 Layersets
@@ -1404,7 +1404,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let battery50percent = SFSymbol(rawValue: "battery.50percent")
+    static var battery50percent: SFSymbol { .init(rawValue: "battery.50percent") }
 
     /// 􀺸
     /// Single Localization, 3 Layersets
@@ -1413,7 +1413,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let battery75percent = SFSymbol(rawValue: "battery.75percent")
+    static var battery75percent: SFSymbol { .init(rawValue: "battery.75percent") }
 
     /// 􀛨
     /// Single Localization, 3 Layersets
@@ -1422,7 +1422,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let battery100percent = SFSymbol(rawValue: "battery.100percent")
+    static var battery100percent: SFSymbol { .init(rawValue: "battery.100percent") }
 
     /// 􀢋
     /// 2 Localizations, 3 Layersets
@@ -1435,7 +1435,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let battery100percentBolt = SymbolWith1Localization<Rtl>(rawValue: "battery.100percent.bolt")
+    static var battery100percentBolt: SymbolWith1Localization<Rtl> { .init(rawValue: "battery.100percent.bolt") }
 
     /// 􁁔
     /// Single Localization, 3 Layersets
@@ -1444,7 +1444,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let battery100percentCircle = SFSymbol(rawValue: "battery.100percent.circle")
+    static var battery100percentCircle: SFSymbol { .init(rawValue: "battery.100percent.circle") }
 
     /// 􁁕
     /// Single Localization, 3 Layersets
@@ -1453,7 +1453,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let battery100percentCircleFill = SFSymbol(rawValue: "battery.100percent.circle.fill")
+    static var battery100percentCircleFill: SFSymbol { .init(rawValue: "battery.100percent.circle.fill") }
 
     /// 􁅞
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -1463,7 +1463,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Fit Pro.
-    static let beatsFitpro = SFSymbol(rawValue: "beats.fitpro")
+    static var beatsFitpro: SFSymbol { .init(rawValue: "beats.fitpro") }
 
     /// 􁅡
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -1472,7 +1472,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Fit Pro case.
-    static let beatsFitproChargingcase = SFSymbol(rawValue: "beats.fitpro.chargingcase")
+    static var beatsFitproChargingcase: SFSymbol { .init(rawValue: "beats.fitpro.chargingcase") }
 
     /// 􁅢
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -1481,7 +1481,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Fit Pro case.
-    static let beatsFitproChargingcaseFill = SFSymbol(rawValue: "beats.fitpro.chargingcase.fill")
+    static var beatsFitproChargingcaseFill: SFSymbol { .init(rawValue: "beats.fitpro.chargingcase.fill") }
 
     /// 􁅟
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -1491,7 +1491,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Fit Pro.
-    static let beatsFitproLeft = SFSymbol(rawValue: "beats.fitpro.left")
+    static var beatsFitproLeft: SFSymbol { .init(rawValue: "beats.fitpro.left") }
 
     /// 􁅠
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -1501,7 +1501,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Fit Pro.
-    static let beatsFitproRight = SFSymbol(rawValue: "beats.fitpro.right")
+    static var beatsFitproRight: SFSymbol { .init(rawValue: "beats.fitpro.right") }
 
     /// 􁹳
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -1516,7 +1516,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "beatsStudiobudsPlus")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "beatsStudiobudsPlus")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "beatsStudiobudsPlus")
-    static let beatsStudiobudsplus = SFSymbol(rawValue: "beats.studiobudsplus")
+    static var beatsStudiobudsplus: SFSymbol { .init(rawValue: "beats.studiobudsplus") }
 
     /// 􁹶
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -1530,7 +1530,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "beatsStudiobudsPlusChargingcase")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "beatsStudiobudsPlusChargingcase")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "beatsStudiobudsPlusChargingcase")
-    static let beatsStudiobudsplusChargingcase = SFSymbol(rawValue: "beats.studiobudsplus.chargingcase")
+    static var beatsStudiobudsplusChargingcase: SFSymbol { .init(rawValue: "beats.studiobudsplus.chargingcase") }
 
     /// 􁹷
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -1544,7 +1544,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "beatsStudiobudsPlusChargingcaseFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "beatsStudiobudsPlusChargingcaseFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "beatsStudiobudsPlusChargingcaseFill")
-    static let beatsStudiobudsplusChargingcaseFill = SFSymbol(rawValue: "beats.studiobudsplus.chargingcase.fill")
+    static var beatsStudiobudsplusChargingcaseFill: SFSymbol { .init(rawValue: "beats.studiobudsplus.chargingcase.fill") }
 
     /// 􁹴
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -1559,7 +1559,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "beatsStudiobudsPlusLeft")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "beatsStudiobudsPlusLeft")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "beatsStudiobudsPlusLeft")
-    static let beatsStudiobudsplusLeft = SFSymbol(rawValue: "beats.studiobudsplus.left")
+    static var beatsStudiobudsplusLeft: SFSymbol { .init(rawValue: "beats.studiobudsplus.left") }
 
     /// 􁹵
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -1574,7 +1574,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "beatsStudiobudsPlusRight")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "beatsStudiobudsPlusRight")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "beatsStudiobudsPlusRight")
-    static let beatsStudiobudsplusRight = SFSymbol(rawValue: "beats.studiobudsplus.right")
+    static var beatsStudiobudsplusRight: SFSymbol { .init(rawValue: "beats.studiobudsplus.right") }
 
     /// 􂄱
     /// 2 Localizations, 2 Layersets
@@ -1586,7 +1586,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let bellBadgeSlash = SymbolWith1Localization<Rtl>(rawValue: "bell.badge.slash")
+    static var bellBadgeSlash: SymbolWith1Localization<Rtl> { .init(rawValue: "bell.badge.slash") }
 
     /// 􂄲
     /// 2 Localizations, 2 Layersets
@@ -1598,7 +1598,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let bellBadgeSlashFill = SymbolWith1Localization<Rtl>(rawValue: "bell.badge.slash.fill")
+    static var bellBadgeSlashFill: SymbolWith1Localization<Rtl> { .init(rawValue: "bell.badge.slash.fill") }
 
     /// 􀻿
     /// Single Localization, 3 Layersets
@@ -1607,7 +1607,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let bellBadgeWaveform = SFSymbol(rawValue: "bell.badge.waveform")
+    static var bellBadgeWaveform: SFSymbol { .init(rawValue: "bell.badge.waveform") }
 
     /// 􀼀
     /// Single Localization, 3 Layersets
@@ -1616,7 +1616,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let bellBadgeWaveformFill = SFSymbol(rawValue: "bell.badge.waveform.fill")
+    static var bellBadgeWaveformFill: SFSymbol { .init(rawValue: "bell.badge.waveform.fill") }
 
     /// 􁣙
     /// Single Localization, 2 Layersets
@@ -1624,7 +1624,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let binocularsCircle = SFSymbol(rawValue: "binoculars.circle")
+    static var binocularsCircle: SFSymbol { .init(rawValue: "binoculars.circle") }
 
     /// 􁣚
     /// Single Localization, 3 Layersets
@@ -1633,7 +1633,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let binocularsCircleFill = SFSymbol(rawValue: "binoculars.circle.fill")
+    static var binocularsCircleFill: SFSymbol { .init(rawValue: "binoculars.circle.fill") }
 
     /// 􁼙
     /// Single Localization, 2 Layersets
@@ -1641,7 +1641,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let birdCircle = SFSymbol(rawValue: "bird.circle")
+    static var birdCircle: SFSymbol { .init(rawValue: "bird.circle") }
 
     /// 􁼚
     /// Single Localization, 3 Layersets
@@ -1650,7 +1650,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let birdCircleFill = SFSymbol(rawValue: "bird.circle.fill")
+    static var birdCircleFill: SFSymbol { .init(rawValue: "bird.circle.fill") }
 
     /// 􂈱
     /// Single Localization, 2 Layersets
@@ -1663,7 +1663,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "bitcoinsignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "bitcoinsignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "bitcoinsignArrowTriangleheadCounterclockwiseRotate90")
-    static let bitcoinsignArrowCirclepath = SFSymbol(rawValue: "bitcoinsign.arrow.circlepath")
+    static var bitcoinsignArrowCirclepath: SFSymbol { .init(rawValue: "bitcoinsign.arrow.circlepath") }
 
     /// 􀘳
     /// Single Localization, 3 Layersets
@@ -1672,7 +1672,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let boltBadgeAutomatic = SFSymbol(rawValue: "bolt.badge.automatic")
+    static var boltBadgeAutomatic: SFSymbol { .init(rawValue: "bolt.badge.automatic") }
 
     /// 􀘴
     /// Single Localization, 3 Layersets
@@ -1681,7 +1681,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let boltBadgeAutomaticFill = SFSymbol(rawValue: "bolt.badge.automatic.fill")
+    static var boltBadgeAutomaticFill: SFSymbol { .init(rawValue: "bolt.badge.automatic.fill") }
 
     /// 􁸏
     /// Single Localization, 3 Layersets
@@ -1690,7 +1690,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let boltBadgeCheckmark = SFSymbol(rawValue: "bolt.badge.checkmark")
+    static var boltBadgeCheckmark: SFSymbol { .init(rawValue: "bolt.badge.checkmark") }
 
     /// 􁸑
     /// Single Localization, 3 Layersets
@@ -1699,7 +1699,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let boltBadgeCheckmarkFill = SFSymbol(rawValue: "bolt.badge.checkmark.fill")
+    static var boltBadgeCheckmarkFill: SFSymbol { .init(rawValue: "bolt.badge.checkmark.fill") }
 
     /// 􁸓
     /// Single Localization, 3 Layersets
@@ -1708,7 +1708,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let boltBadgeXmark = SFSymbol(rawValue: "bolt.badge.xmark")
+    static var boltBadgeXmark: SFSymbol { .init(rawValue: "bolt.badge.xmark") }
 
     /// 􁸕
     /// Single Localization, 3 Layersets
@@ -1717,7 +1717,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let boltBadgeXmarkFill = SFSymbol(rawValue: "bolt.badge.xmark.fill")
+    static var boltBadgeXmarkFill: SFSymbol { .init(rawValue: "bolt.badge.xmark.fill") }
 
     /// 􁥽
     /// Single Localization, 2 Layersets
@@ -1725,7 +1725,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let bookAndWrench = SFSymbol(rawValue: "book.and.wrench")
+    static var bookAndWrench: SFSymbol { .init(rawValue: "book.and.wrench") }
 
     /// 􁰸
     /// Single Localization, 2 Layersets
@@ -1733,7 +1733,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let bookAndWrenchFill = SFSymbol(rawValue: "book.and.wrench.fill")
+    static var bookAndWrenchFill: SFSymbol { .init(rawValue: "book.and.wrench.fill") }
 
     /// 􁜾
     /// Single Localization, 2 Layersets
@@ -1741,7 +1741,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let bookPages = SFSymbol(rawValue: "book.pages")
+    static var bookPages: SFSymbol { .init(rawValue: "book.pages") }
 
     /// 􁜿
     /// Single Localization, 3 Layersets
@@ -1750,14 +1750,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
-    static let bookPagesFill = SFSymbol(rawValue: "book.pages.fill")
+    static var bookPagesFill: SFSymbol { .init(rawValue: "book.pages.fill") }
 
     /// 􂂇
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let brainFill = SFSymbol(rawValue: "brain.fill")
+    static var brainFill: SFSymbol { .init(rawValue: "brain.fill") }
 
     /// 􂃈
     /// Single Localization, 2 Layersets
@@ -1765,7 +1765,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let brainFilledHeadProfile = SFSymbol(rawValue: "brain.filled.head.profile")
+    static var brainFilledHeadProfile: SFSymbol { .init(rawValue: "brain.filled.head.profile") }
 
     /// 􂂆
     /// Single Localization, 2 Layersets
@@ -1773,7 +1773,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let brainHeadProfileFill = SFSymbol(rawValue: "brain.head.profile.fill")
+    static var brainHeadProfileFill: SFSymbol { .init(rawValue: "brain.head.profile.fill") }
 
     /// 􂈲
     /// Single Localization, 2 Layersets
@@ -1786,14 +1786,14 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "brazilianrealsignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "brazilianrealsignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "brazilianrealsignArrowTriangleheadCounterclockwiseRotate90")
-    static let brazilianrealsignArrowCirclepath = SFSymbol(rawValue: "brazilianrealsign.arrow.circlepath")
+    static var brazilianrealsignArrowCirclepath: SFSymbol { .init(rawValue: "brazilianrealsign.arrow.circlepath") }
 
     /// 􂄹
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let bubble = SFSymbol(rawValue: "bubble")
+    static var bubble: SFSymbol { .init(rawValue: "bubble") }
 
     /// 􂄻
     /// Single Localization, 2 Layersets
@@ -1801,7 +1801,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let bubbleCircle = SFSymbol(rawValue: "bubble.circle")
+    static var bubbleCircle: SFSymbol { .init(rawValue: "bubble.circle") }
 
     /// 􂄼
     /// Single Localization, 3 Layersets
@@ -1810,14 +1810,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let bubbleCircleFill = SFSymbol(rawValue: "bubble.circle.fill")
+    static var bubbleCircleFill: SFSymbol { .init(rawValue: "bubble.circle.fill") }
 
     /// 􂄺
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let bubbleFill = SFSymbol(rawValue: "bubble.fill")
+    static var bubbleFill: SFSymbol { .init(rawValue: "bubble.fill") }
 
     /// 􂃧
     /// 2 Localizations, 2 Layersets
@@ -1829,7 +1829,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let bubbleLeftAndTextBubbleRight = SymbolWith1Localization<Rtl>(rawValue: "bubble.left.and.text.bubble.right")
+    static var bubbleLeftAndTextBubbleRight: SymbolWith1Localization<Rtl> { .init(rawValue: "bubble.left.and.text.bubble.right") }
 
     /// 􂃨
     /// 2 Localizations, 2 Layersets
@@ -1841,77 +1841,77 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let bubbleLeftAndTextBubbleRightFill = SymbolWith1Localization<Rtl>(rawValue: "bubble.left.and.text.bubble.right.fill")
+    static var bubbleLeftAndTextBubbleRightFill: SymbolWith1Localization<Rtl> { .init(rawValue: "bubble.left.and.text.bubble.right.fill") }
 
     /// 􁸅
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let buttonAngledbottomHorizontalLeft = SFSymbol(rawValue: "button.angledbottom.horizontal.left")
+    static var buttonAngledbottomHorizontalLeft: SFSymbol { .init(rawValue: "button.angledbottom.horizontal.left") }
 
     /// 􁸆
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let buttonAngledbottomHorizontalLeftFill = SFSymbol(rawValue: "button.angledbottom.horizontal.left.fill")
+    static var buttonAngledbottomHorizontalLeftFill: SFSymbol { .init(rawValue: "button.angledbottom.horizontal.left.fill") }
 
     /// 􁸃
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let buttonAngledbottomHorizontalRight = SFSymbol(rawValue: "button.angledbottom.horizontal.right")
+    static var buttonAngledbottomHorizontalRight: SFSymbol { .init(rawValue: "button.angledbottom.horizontal.right") }
 
     /// 􁸄
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let buttonAngledbottomHorizontalRightFill = SFSymbol(rawValue: "button.angledbottom.horizontal.right.fill")
+    static var buttonAngledbottomHorizontalRightFill: SFSymbol { .init(rawValue: "button.angledbottom.horizontal.right.fill") }
 
     /// 􁷯
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let buttonAngledtopVerticalLeft = SFSymbol(rawValue: "button.angledtop.vertical.left")
+    static var buttonAngledtopVerticalLeft: SFSymbol { .init(rawValue: "button.angledtop.vertical.left") }
 
     /// 􁷰
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let buttonAngledtopVerticalLeftFill = SFSymbol(rawValue: "button.angledtop.vertical.left.fill")
+    static var buttonAngledtopVerticalLeftFill: SFSymbol { .init(rawValue: "button.angledtop.vertical.left.fill") }
 
     /// 􁷱
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let buttonAngledtopVerticalRight = SFSymbol(rawValue: "button.angledtop.vertical.right")
+    static var buttonAngledtopVerticalRight: SFSymbol { .init(rawValue: "button.angledtop.vertical.right") }
 
     /// 􁷲
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let buttonAngledtopVerticalRightFill = SFSymbol(rawValue: "button.angledtop.vertical.right.fill")
+    static var buttonAngledtopVerticalRightFill: SFSymbol { .init(rawValue: "button.angledtop.vertical.right.fill") }
 
     /// 􁸞
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let buttonHorizontal = SFSymbol(rawValue: "button.horizontal")
+    static var buttonHorizontal: SFSymbol { .init(rawValue: "button.horizontal") }
 
     /// 􁸟
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let buttonHorizontalFill = SFSymbol(rawValue: "button.horizontal.fill")
+    static var buttonHorizontalFill: SFSymbol { .init(rawValue: "button.horizontal.fill") }
 
     /// 􂁫
     /// Single Localization, 2 Layersets
@@ -1919,7 +1919,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let buttonHorizontalTopPress = SFSymbol(rawValue: "button.horizontal.top.press")
+    static var buttonHorizontalTopPress: SFSymbol { .init(rawValue: "button.horizontal.top.press") }
 
     /// 􂁬
     /// Single Localization, 2 Layersets
@@ -1927,35 +1927,35 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let buttonHorizontalTopPressFill = SFSymbol(rawValue: "button.horizontal.top.press.fill")
+    static var buttonHorizontalTopPressFill: SFSymbol { .init(rawValue: "button.horizontal.top.press.fill") }
 
     /// 􀩺
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let buttonRoundedbottomHorizontal = SFSymbol(rawValue: "button.roundedbottom.horizontal")
+    static var buttonRoundedbottomHorizontal: SFSymbol { .init(rawValue: "button.roundedbottom.horizontal") }
 
     /// 􀩻
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let buttonRoundedbottomHorizontalFill = SFSymbol(rawValue: "button.roundedbottom.horizontal.fill")
+    static var buttonRoundedbottomHorizontalFill: SFSymbol { .init(rawValue: "button.roundedbottom.horizontal.fill") }
 
     /// 􀩸
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let buttonRoundedtopHorizontal = SFSymbol(rawValue: "button.roundedtop.horizontal")
+    static var buttonRoundedtopHorizontal: SFSymbol { .init(rawValue: "button.roundedtop.horizontal") }
 
     /// 􀩹
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let buttonRoundedtopHorizontalFill = SFSymbol(rawValue: "button.roundedtop.horizontal.fill")
+    static var buttonRoundedtopHorizontalFill: SFSymbol { .init(rawValue: "button.roundedtop.horizontal.fill") }
 
     /// 􂂉
     /// Single Localization, 2 Layersets
@@ -1963,7 +1963,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let buttonVerticalLeftPress = SFSymbol(rawValue: "button.vertical.left.press")
+    static var buttonVerticalLeftPress: SFSymbol { .init(rawValue: "button.vertical.left.press") }
 
     /// 􂂊
     /// Single Localization, 2 Layersets
@@ -1971,7 +1971,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let buttonVerticalLeftPressFill = SFSymbol(rawValue: "button.vertical.left.press.fill")
+    static var buttonVerticalLeftPressFill: SFSymbol { .init(rawValue: "button.vertical.left.press.fill") }
 
     /// 􂁩
     /// Single Localization, 2 Layersets
@@ -1979,7 +1979,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let buttonVerticalRightPress = SFSymbol(rawValue: "button.vertical.right.press")
+    static var buttonVerticalRightPress: SFSymbol { .init(rawValue: "button.vertical.right.press") }
 
     /// 􂁪
     /// Single Localization, 2 Layersets
@@ -1987,7 +1987,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let buttonVerticalRightPressFill = SFSymbol(rawValue: "button.vertical.right.press.fill")
+    static var buttonVerticalRightPressFill: SFSymbol { .init(rawValue: "button.vertical.right.press.fill") }
 
     /// 􁊒
     /// Single Localization, 2 Layersets
@@ -1995,7 +1995,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
-    static let cableCoaxial = SFSymbol(rawValue: "cable.coaxial")
+    static var cableCoaxial: SFSymbol { .init(rawValue: "cable.coaxial") }
 
     /// 􂇥
     /// Single Localization, 2 Layersets
@@ -2003,7 +2003,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let cableConnectorSlash = SFSymbol(rawValue: "cable.connector.slash")
+    static var cableConnectorSlash: SFSymbol { .init(rawValue: "cable.connector.slash") }
 
     /// 􁻧
     /// 2 Localizations, 3 Layersets
@@ -2016,7 +2016,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let calendarBadgeCheckmark = SymbolWith1Localization<Rtl>(rawValue: "calendar.badge.checkmark")
+    static var calendarBadgeCheckmark: SymbolWith1Localization<Rtl> { .init(rawValue: "calendar.badge.checkmark") }
 
     /// 􁤥
     /// Single Localization, 3 Layersets
@@ -2025,7 +2025,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let cameraBadgeClock = SFSymbol(rawValue: "camera.badge.clock")
+    static var cameraBadgeClock: SFSymbol { .init(rawValue: "camera.badge.clock") }
 
     /// 􁤦
     /// Single Localization, 3 Layersets
@@ -2034,7 +2034,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let cameraBadgeClockFill = SFSymbol(rawValue: "camera.badge.clock.fill")
+    static var cameraBadgeClockFill: SFSymbol { .init(rawValue: "camera.badge.clock.fill") }
 
     /// 􀢘
     /// Single Localization, 3 Layersets
@@ -2043,7 +2043,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let cameraBadgeEllipsisFill = SFSymbol(rawValue: "camera.badge.ellipsis.fill")
+    static var cameraBadgeEllipsisFill: SFSymbol { .init(rawValue: "camera.badge.ellipsis.fill") }
 
     /// 􂄉
     /// Single Localization, 2 Layersets
@@ -2051,7 +2051,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carFrontWavesDown = SFSymbol(rawValue: "car.front.waves.down")
+    static var carFrontWavesDown: SFSymbol { .init(rawValue: "car.front.waves.down") }
 
     /// 􂄊
     /// Single Localization, 2 Layersets
@@ -2059,7 +2059,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carFrontWavesDownFill = SFSymbol(rawValue: "car.front.waves.down.fill")
+    static var carFrontWavesDownFill: SFSymbol { .init(rawValue: "car.front.waves.down.fill") }
 
     /// 􁣩
     /// Single Localization, 3 Layersets
@@ -2068,7 +2068,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let carRearAndCollisionRoadLane = SFSymbol(rawValue: "car.rear.and.collision.road.lane")
+    static var carRearAndCollisionRoadLane: SFSymbol { .init(rawValue: "car.rear.and.collision.road.lane") }
 
     /// 􁣪
     /// Single Localization, 3 Layersets
@@ -2077,7 +2077,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let carRearAndCollisionRoadLaneSlash = SFSymbol(rawValue: "car.rear.and.collision.road.lane.slash")
+    static var carRearAndCollisionRoadLaneSlash: SFSymbol { .init(rawValue: "car.rear.and.collision.road.lane.slash") }
 
     /// 􁥎
     /// Single Localization, 2 Layersets
@@ -2085,7 +2085,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carSideHillDown = SFSymbol(rawValue: "car.side.hill.down")
+    static var carSideHillDown: SFSymbol { .init(rawValue: "car.side.hill.down") }
 
     /// 􁥏
     /// Single Localization, 2 Layersets
@@ -2093,7 +2093,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carSideHillDownFill = SFSymbol(rawValue: "car.side.hill.down.fill")
+    static var carSideHillDownFill: SFSymbol { .init(rawValue: "car.side.hill.down.fill") }
 
     /// 􁤍
     /// Single Localization, 2 Layersets
@@ -2101,7 +2101,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carSideHillUp = SFSymbol(rawValue: "car.side.hill.up")
+    static var carSideHillUp: SFSymbol { .init(rawValue: "car.side.hill.up") }
 
     /// 􁤎
     /// Single Localization, 2 Layersets
@@ -2109,7 +2109,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carSideHillUpFill = SFSymbol(rawValue: "car.side.hill.up.fill")
+    static var carSideHillUpFill: SFSymbol { .init(rawValue: "car.side.hill.up.fill") }
 
     /// 􁣹
     /// Single Localization, 2 Layersets
@@ -2117,7 +2117,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carSideLock = SFSymbol(rawValue: "car.side.lock")
+    static var carSideLock: SFSymbol { .init(rawValue: "car.side.lock") }
 
     /// 􁣺
     /// Single Localization, 2 Layersets
@@ -2125,7 +2125,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carSideLockFill = SFSymbol(rawValue: "car.side.lock.fill")
+    static var carSideLockFill: SFSymbol { .init(rawValue: "car.side.lock.fill") }
 
     /// 􁣻
     /// Single Localization, 2 Layersets
@@ -2133,7 +2133,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carSideLockOpen = SFSymbol(rawValue: "car.side.lock.open")
+    static var carSideLockOpen: SFSymbol { .init(rawValue: "car.side.lock.open") }
 
     /// 􁣼
     /// Single Localization, 2 Layersets
@@ -2141,7 +2141,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carSideLockOpenFill = SFSymbol(rawValue: "car.side.lock.open.fill")
+    static var carSideLockOpenFill: SFSymbol { .init(rawValue: "car.side.lock.open.fill") }
 
     /// 􁵴
     /// Single Localization, 2 Layersets
@@ -2149,7 +2149,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carSideRearAndCollisionAndCarSideFront = SFSymbol(rawValue: "car.side.rear.and.collision.and.car.side.front")
+    static var carSideRearAndCollisionAndCarSideFront: SFSymbol { .init(rawValue: "car.side.rear.and.collision.and.car.side.front") }
 
     /// 􁵵
     /// Single Localization, 2 Layersets
@@ -2157,7 +2157,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carSideRearAndCollisionAndCarSideFrontSlash = SFSymbol(rawValue: "car.side.rear.and.collision.and.car.side.front.slash")
+    static var carSideRearAndCollisionAndCarSideFrontSlash: SFSymbol { .init(rawValue: "car.side.rear.and.collision.and.car.side.front.slash") }
 
     /// 􁵸
     /// Single Localization, 2 Layersets
@@ -2165,7 +2165,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carSideRearAndExclamationmarkAndCarSideFront = SFSymbol(rawValue: "car.side.rear.and.exclamationmark.and.car.side.front")
+    static var carSideRearAndExclamationmarkAndCarSideFront: SFSymbol { .init(rawValue: "car.side.rear.and.exclamationmark.and.car.side.front") }
 
     /// 􁵷
     /// Single Localization, 2 Layersets
@@ -2173,7 +2173,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carSideRearAndWave3AndCarSideFront = SFSymbol(rawValue: "car.side.rear.and.wave.3.and.car.side.front")
+    static var carSideRearAndWave3AndCarSideFront: SFSymbol { .init(rawValue: "car.side.rear.and.wave.3.and.car.side.front") }
 
     /// 􁵹
     /// Single Localization, 2 Layersets
@@ -2181,7 +2181,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    static let carTopDoorSlidingLeftOpen = SFSymbol(rawValue: "car.top.door.sliding.left.open")
+    static var carTopDoorSlidingLeftOpen: SFSymbol { .init(rawValue: "car.top.door.sliding.left.open") }
 
     /// 􁵺
     /// Single Localization, 2 Layersets
@@ -2189,7 +2189,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    static let carTopDoorSlidingLeftOpenFill = SFSymbol(rawValue: "car.top.door.sliding.left.open.fill")
+    static var carTopDoorSlidingLeftOpenFill: SFSymbol { .init(rawValue: "car.top.door.sliding.left.open.fill") }
 
     /// 􁵻
     /// Single Localization, 2 Layersets
@@ -2197,7 +2197,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    static let carTopDoorSlidingRightOpen = SFSymbol(rawValue: "car.top.door.sliding.right.open")
+    static var carTopDoorSlidingRightOpen: SFSymbol { .init(rawValue: "car.top.door.sliding.right.open") }
 
     /// 􁵼
     /// Single Localization, 2 Layersets
@@ -2205,7 +2205,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    static let carTopDoorSlidingRightOpenFill = SFSymbol(rawValue: "car.top.door.sliding.right.open.fill")
+    static var carTopDoorSlidingRightOpenFill: SFSymbol { .init(rawValue: "car.top.door.sliding.right.open.fill") }
 
     /// 􂂛
     /// Single Localization, 2 Layersets
@@ -2218,7 +2218,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "carTopArrowtriangleFrontLeft")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "carTopArrowtriangleFrontLeft")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "carTopArrowtriangleFrontLeft")
-    static let carTopFrontleftArrowtriangle = SFSymbol(rawValue: "car.top.frontleft.arrowtriangle")
+    static var carTopFrontleftArrowtriangle: SFSymbol { .init(rawValue: "car.top.frontleft.arrowtriangle") }
 
     /// 􂂜
     /// Single Localization, 2 Layersets
@@ -2231,7 +2231,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "carTopArrowtriangleFrontLeftFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "carTopArrowtriangleFrontLeftFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "carTopArrowtriangleFrontLeftFill")
-    static let carTopFrontleftArrowtriangleFill = SFSymbol(rawValue: "car.top.frontleft.arrowtriangle.fill")
+    static var carTopFrontleftArrowtriangleFill: SFSymbol { .init(rawValue: "car.top.frontleft.arrowtriangle.fill") }
 
     /// 􂂝
     /// Single Localization, 2 Layersets
@@ -2244,7 +2244,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "carTopArrowtriangleFrontRight")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "carTopArrowtriangleFrontRight")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "carTopArrowtriangleFrontRight")
-    static let carTopFrontrightArrowtriangle = SFSymbol(rawValue: "car.top.frontright.arrowtriangle")
+    static var carTopFrontrightArrowtriangle: SFSymbol { .init(rawValue: "car.top.frontright.arrowtriangle") }
 
     /// 􂂞
     /// Single Localization, 2 Layersets
@@ -2257,7 +2257,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "carTopArrowtriangleFrontRightFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "carTopArrowtriangleFrontRightFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "carTopArrowtriangleFrontRightFill")
-    static let carTopFrontrightArrowtriangleFill = SFSymbol(rawValue: "car.top.frontright.arrowtriangle.fill")
+    static var carTopFrontrightArrowtriangleFill: SFSymbol { .init(rawValue: "car.top.frontright.arrowtriangle.fill") }
 
     /// 􁢤
     /// Single Localization, 3 Layersets
@@ -2266,7 +2266,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let carTopRadiowavesRearRightBadgeExclamationmark = SFSymbol(rawValue: "car.top.radiowaves.rear.right.badge.exclamationmark")
+    static var carTopRadiowavesRearRightBadgeExclamationmark: SFSymbol { .init(rawValue: "car.top.radiowaves.rear.right.badge.exclamationmark") }
 
     /// 􁢥
     /// Single Localization, 3 Layersets
@@ -2275,7 +2275,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let carTopRadiowavesRearRightBadgeExclamationmarkFill = SFSymbol(rawValue: "car.top.radiowaves.rear.right.badge.exclamationmark.fill")
+    static var carTopRadiowavesRearRightBadgeExclamationmarkFill: SFSymbol { .init(rawValue: "car.top.radiowaves.rear.right.badge.exclamationmark.fill") }
 
     /// 􁢢
     /// Single Localization, 3 Layersets
@@ -2284,7 +2284,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let carTopRadiowavesRearRightBadgeXmark = SFSymbol(rawValue: "car.top.radiowaves.rear.right.badge.xmark")
+    static var carTopRadiowavesRearRightBadgeXmark: SFSymbol { .init(rawValue: "car.top.radiowaves.rear.right.badge.xmark") }
 
     /// 􁢣
     /// Single Localization, 3 Layersets
@@ -2293,7 +2293,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let carTopRadiowavesRearRightBadgeXmarkFill = SFSymbol(rawValue: "car.top.radiowaves.rear.right.badge.xmark.fill")
+    static var carTopRadiowavesRearRightBadgeXmarkFill: SFSymbol { .init(rawValue: "car.top.radiowaves.rear.right.badge.xmark.fill") }
 
     /// 􂂑
     /// Single Localization, 2 Layersets
@@ -2306,7 +2306,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "carTopArrowtriangleRearLeft")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "carTopArrowtriangleRearLeft")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "carTopArrowtriangleRearLeft")
-    static let carTopRearleftArrowtriangle = SFSymbol(rawValue: "car.top.rearleft.arrowtriangle")
+    static var carTopRearleftArrowtriangle: SFSymbol { .init(rawValue: "car.top.rearleft.arrowtriangle") }
 
     /// 􂂒
     /// Single Localization, 2 Layersets
@@ -2319,7 +2319,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "carTopArrowtriangleRearLeftFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "carTopArrowtriangleRearLeftFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "carTopArrowtriangleRearLeftFill")
-    static let carTopRearleftArrowtriangleFill = SFSymbol(rawValue: "car.top.rearleft.arrowtriangle.fill")
+    static var carTopRearleftArrowtriangleFill: SFSymbol { .init(rawValue: "car.top.rearleft.arrowtriangle.fill") }
 
     /// 􂂓
     /// Single Localization, 2 Layersets
@@ -2332,7 +2332,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "carTopArrowtriangleRearRight")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "carTopArrowtriangleRearRight")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "carTopArrowtriangleRearRight")
-    static let carTopRearrightArrowtriangle = SFSymbol(rawValue: "car.top.rearright.arrowtriangle")
+    static var carTopRearrightArrowtriangle: SFSymbol { .init(rawValue: "car.top.rearright.arrowtriangle") }
 
     /// 􂂔
     /// Single Localization, 2 Layersets
@@ -2345,14 +2345,14 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "carTopArrowtriangleRearRightFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "carTopArrowtriangleRearRightFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "carTopArrowtriangleRearRightFill")
-    static let carTopRearrightArrowtriangleFill = SFSymbol(rawValue: "car.top.rearright.arrowtriangle.fill")
+    static var carTopRearrightArrowtriangleFill: SFSymbol { .init(rawValue: "car.top.rearright.arrowtriangle.fill") }
 
     /// 􁊜
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let carWindowLeft = SFSymbol(rawValue: "car.window.left")
+    static var carWindowLeft: SFSymbol { .init(rawValue: "car.window.left") }
 
     /// 􁊠
     /// Single Localization, 3 Layersets
@@ -2361,7 +2361,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let carWindowLeftBadgeExclamationmark = SFSymbol(rawValue: "car.window.left.badge.exclamationmark")
+    static var carWindowLeftBadgeExclamationmark: SFSymbol { .init(rawValue: "car.window.left.badge.exclamationmark") }
 
     /// 􁊣
     /// Single Localization, 3 Layersets
@@ -2370,7 +2370,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let carWindowLeftBadgeXmark = SFSymbol(rawValue: "car.window.left.badge.xmark")
+    static var carWindowLeftBadgeXmark: SFSymbol { .init(rawValue: "car.window.left.badge.xmark") }
 
     /// 􁊞
     /// Single Localization, 2 Layersets
@@ -2378,7 +2378,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carWindowLeftExclamationmark = SFSymbol(rawValue: "car.window.left.exclamationmark")
+    static var carWindowLeftExclamationmark: SFSymbol { .init(rawValue: "car.window.left.exclamationmark") }
 
     /// 􁊡
     /// Single Localization, 2 Layersets
@@ -2386,14 +2386,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carWindowLeftXmark = SFSymbol(rawValue: "car.window.left.xmark")
+    static var carWindowLeftXmark: SFSymbol { .init(rawValue: "car.window.left.xmark") }
 
     /// 􁉜
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let carWindowRight = SFSymbol(rawValue: "car.window.right")
+    static var carWindowRight: SFSymbol { .init(rawValue: "car.window.right") }
 
     /// 􁉟
     /// Single Localization, 3 Layersets
@@ -2402,7 +2402,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let carWindowRightBadgeExclamationmark = SFSymbol(rawValue: "car.window.right.badge.exclamationmark")
+    static var carWindowRightBadgeExclamationmark: SFSymbol { .init(rawValue: "car.window.right.badge.exclamationmark") }
 
     /// 􁉡
     /// Single Localization, 3 Layersets
@@ -2411,7 +2411,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let carWindowRightBadgeXmark = SFSymbol(rawValue: "car.window.right.badge.xmark")
+    static var carWindowRightBadgeXmark: SFSymbol { .init(rawValue: "car.window.right.badge.xmark") }
 
     /// 􁉞
     /// Single Localization, 2 Layersets
@@ -2419,7 +2419,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carWindowRightExclamationmark = SFSymbol(rawValue: "car.window.right.exclamationmark")
+    static var carWindowRightExclamationmark: SFSymbol { .init(rawValue: "car.window.right.exclamationmark") }
 
     /// 􁊚
     /// Single Localization, 2 Layersets
@@ -2427,14 +2427,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carWindowRightXmark = SFSymbol(rawValue: "car.window.right.xmark")
+    static var carWindowRightXmark: SFSymbol { .init(rawValue: "car.window.right.xmark") }
 
     /// 􁦔
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let carseatLeft = SFSymbol(rawValue: "carseat.left")
+    static var carseatLeft: SFSymbol { .init(rawValue: "carseat.left") }
 
     /// 􁖟
     /// Single Localization, 2 Layersets
@@ -2442,7 +2442,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatLeft1 = SFSymbol(rawValue: "carseat.left.1")
+    static var carseatLeft1: SFSymbol { .init(rawValue: "carseat.left.1") }
 
     /// 􁖠
     /// Single Localization, 2 Layersets
@@ -2450,7 +2450,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatLeft1Fill = SFSymbol(rawValue: "carseat.left.1.fill")
+    static var carseatLeft1Fill: SFSymbol { .init(rawValue: "carseat.left.1.fill") }
 
     /// 􁖡
     /// Single Localization, 2 Layersets
@@ -2458,7 +2458,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatLeft2 = SFSymbol(rawValue: "carseat.left.2")
+    static var carseatLeft2: SFSymbol { .init(rawValue: "carseat.left.2") }
 
     /// 􁖢
     /// Single Localization, 2 Layersets
@@ -2466,7 +2466,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatLeft2Fill = SFSymbol(rawValue: "carseat.left.2.fill")
+    static var carseatLeft2Fill: SFSymbol { .init(rawValue: "carseat.left.2.fill") }
 
     /// 􁖣
     /// Single Localization, 2 Layersets
@@ -2474,7 +2474,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatLeft3 = SFSymbol(rawValue: "carseat.left.3")
+    static var carseatLeft3: SFSymbol { .init(rawValue: "carseat.left.3") }
 
     /// 􁖤
     /// Single Localization, 2 Layersets
@@ -2482,7 +2482,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatLeft3Fill = SFSymbol(rawValue: "carseat.left.3.fill")
+    static var carseatLeft3Fill: SFSymbol { .init(rawValue: "carseat.left.3.fill") }
 
     /// 􁋍
     /// Single Localization, 2 Layersets
@@ -2490,7 +2490,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatLeftAndHeatWaves = SFSymbol(rawValue: "carseat.left.and.heat.waves")
+    static var carseatLeftAndHeatWaves: SFSymbol { .init(rawValue: "carseat.left.and.heat.waves") }
 
     /// 􁋎
     /// Single Localization, 2 Layersets
@@ -2498,7 +2498,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatLeftAndHeatWavesFill = SFSymbol(rawValue: "carseat.left.and.heat.waves.fill")
+    static var carseatLeftAndHeatWavesFill: SFSymbol { .init(rawValue: "carseat.left.and.heat.waves.fill") }
 
     /// 􁦌
     /// Single Localization, 2 Layersets
@@ -2506,7 +2506,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatLeftBackrestUpAndDown = SFSymbol(rawValue: "carseat.left.backrest.up.and.down")
+    static var carseatLeftBackrestUpAndDown: SFSymbol { .init(rawValue: "carseat.left.backrest.up.and.down") }
 
     /// 􁦍
     /// Single Localization, 2 Layersets
@@ -2514,7 +2514,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatLeftBackrestUpAndDownFill = SFSymbol(rawValue: "carseat.left.backrest.up.and.down.fill")
+    static var carseatLeftBackrestUpAndDownFill: SFSymbol { .init(rawValue: "carseat.left.backrest.up.and.down.fill") }
 
     /// 􁋑
     /// Single Localization, 2 Layersets
@@ -2522,7 +2522,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatLeftFan = SFSymbol(rawValue: "carseat.left.fan")
+    static var carseatLeftFan: SFSymbol { .init(rawValue: "carseat.left.fan") }
 
     /// 􁋒
     /// Single Localization, 2 Layersets
@@ -2530,14 +2530,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatLeftFanFill = SFSymbol(rawValue: "carseat.left.fan.fill")
+    static var carseatLeftFanFill: SFSymbol { .init(rawValue: "carseat.left.fan.fill") }
 
     /// 􁦕
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let carseatLeftFill = SFSymbol(rawValue: "carseat.left.fill")
+    static var carseatLeftFill: SFSymbol { .init(rawValue: "carseat.left.fill") }
 
     /// 􁦈
     /// Single Localization, 2 Layersets
@@ -2545,7 +2545,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatLeftForwardAndBackward = SFSymbol(rawValue: "carseat.left.forward.and.backward")
+    static var carseatLeftForwardAndBackward: SFSymbol { .init(rawValue: "carseat.left.forward.and.backward") }
 
     /// 􁦉
     /// Single Localization, 2 Layersets
@@ -2553,7 +2553,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatLeftForwardAndBackwardFill = SFSymbol(rawValue: "carseat.left.forward.and.backward.fill")
+    static var carseatLeftForwardAndBackwardFill: SFSymbol { .init(rawValue: "carseat.left.forward.and.backward.fill") }
 
     /// 􁵽
     /// Single Localization, 2 Layersets
@@ -2561,7 +2561,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatLeftMassage = SFSymbol(rawValue: "carseat.left.massage")
+    static var carseatLeftMassage: SFSymbol { .init(rawValue: "carseat.left.massage") }
 
     /// 􁵾
     /// Single Localization, 2 Layersets
@@ -2569,7 +2569,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatLeftMassageFill = SFSymbol(rawValue: "carseat.left.massage.fill")
+    static var carseatLeftMassageFill: SFSymbol { .init(rawValue: "carseat.left.massage.fill") }
 
     /// 􁦐
     /// Single Localization, 2 Layersets
@@ -2577,7 +2577,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatLeftUpAndDown = SFSymbol(rawValue: "carseat.left.up.and.down")
+    static var carseatLeftUpAndDown: SFSymbol { .init(rawValue: "carseat.left.up.and.down") }
 
     /// 􁦑
     /// Single Localization, 2 Layersets
@@ -2585,14 +2585,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatLeftUpAndDownFill = SFSymbol(rawValue: "carseat.left.up.and.down.fill")
+    static var carseatLeftUpAndDownFill: SFSymbol { .init(rawValue: "carseat.left.up.and.down.fill") }
 
     /// 􁦖
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let carseatRight = SFSymbol(rawValue: "carseat.right")
+    static var carseatRight: SFSymbol { .init(rawValue: "carseat.right") }
 
     /// 􁋕
     /// Single Localization, 2 Layersets
@@ -2600,7 +2600,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatRight1 = SFSymbol(rawValue: "carseat.right.1")
+    static var carseatRight1: SFSymbol { .init(rawValue: "carseat.right.1") }
 
     /// 􁋖
     /// Single Localization, 2 Layersets
@@ -2608,7 +2608,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatRight1Fill = SFSymbol(rawValue: "carseat.right.1.fill")
+    static var carseatRight1Fill: SFSymbol { .init(rawValue: "carseat.right.1.fill") }
 
     /// 􁋗
     /// Single Localization, 2 Layersets
@@ -2616,7 +2616,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatRight2 = SFSymbol(rawValue: "carseat.right.2")
+    static var carseatRight2: SFSymbol { .init(rawValue: "carseat.right.2") }
 
     /// 􁋘
     /// Single Localization, 2 Layersets
@@ -2624,7 +2624,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatRight2Fill = SFSymbol(rawValue: "carseat.right.2.fill")
+    static var carseatRight2Fill: SFSymbol { .init(rawValue: "carseat.right.2.fill") }
 
     /// 􁋙
     /// Single Localization, 2 Layersets
@@ -2632,7 +2632,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatRight3 = SFSymbol(rawValue: "carseat.right.3")
+    static var carseatRight3: SFSymbol { .init(rawValue: "carseat.right.3") }
 
     /// 􁋚
     /// Single Localization, 2 Layersets
@@ -2640,7 +2640,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatRight3Fill = SFSymbol(rawValue: "carseat.right.3.fill")
+    static var carseatRight3Fill: SFSymbol { .init(rawValue: "carseat.right.3.fill") }
 
     /// 􁋏
     /// Single Localization, 2 Layersets
@@ -2648,7 +2648,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatRightAndHeatWaves = SFSymbol(rawValue: "carseat.right.and.heat.waves")
+    static var carseatRightAndHeatWaves: SFSymbol { .init(rawValue: "carseat.right.and.heat.waves") }
 
     /// 􁋐
     /// Single Localization, 2 Layersets
@@ -2656,7 +2656,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatRightAndHeatWavesFill = SFSymbol(rawValue: "carseat.right.and.heat.waves.fill")
+    static var carseatRightAndHeatWavesFill: SFSymbol { .init(rawValue: "carseat.right.and.heat.waves.fill") }
 
     /// 􁦎
     /// Single Localization, 2 Layersets
@@ -2664,7 +2664,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatRightBackrestUpAndDown = SFSymbol(rawValue: "carseat.right.backrest.up.and.down")
+    static var carseatRightBackrestUpAndDown: SFSymbol { .init(rawValue: "carseat.right.backrest.up.and.down") }
 
     /// 􁦏
     /// Single Localization, 2 Layersets
@@ -2672,7 +2672,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatRightBackrestUpAndDownFill = SFSymbol(rawValue: "carseat.right.backrest.up.and.down.fill")
+    static var carseatRightBackrestUpAndDownFill: SFSymbol { .init(rawValue: "carseat.right.backrest.up.and.down.fill") }
 
     /// 􁋓
     /// Single Localization, 2 Layersets
@@ -2680,7 +2680,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatRightFan = SFSymbol(rawValue: "carseat.right.fan")
+    static var carseatRightFan: SFSymbol { .init(rawValue: "carseat.right.fan") }
 
     /// 􁋔
     /// Single Localization, 2 Layersets
@@ -2688,14 +2688,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatRightFanFill = SFSymbol(rawValue: "carseat.right.fan.fill")
+    static var carseatRightFanFill: SFSymbol { .init(rawValue: "carseat.right.fan.fill") }
 
     /// 􁦗
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let carseatRightFill = SFSymbol(rawValue: "carseat.right.fill")
+    static var carseatRightFill: SFSymbol { .init(rawValue: "carseat.right.fill") }
 
     /// 􁦊
     /// Single Localization, 2 Layersets
@@ -2703,7 +2703,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatRightForwardAndBackward = SFSymbol(rawValue: "carseat.right.forward.and.backward")
+    static var carseatRightForwardAndBackward: SFSymbol { .init(rawValue: "carseat.right.forward.and.backward") }
 
     /// 􁦋
     /// Single Localization, 2 Layersets
@@ -2711,7 +2711,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatRightForwardAndBackwardFill = SFSymbol(rawValue: "carseat.right.forward.and.backward.fill")
+    static var carseatRightForwardAndBackwardFill: SFSymbol { .init(rawValue: "carseat.right.forward.and.backward.fill") }
 
     /// 􁵿
     /// Single Localization, 2 Layersets
@@ -2719,7 +2719,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatRightMassage = SFSymbol(rawValue: "carseat.right.massage")
+    static var carseatRightMassage: SFSymbol { .init(rawValue: "carseat.right.massage") }
 
     /// 􁶀
     /// Single Localization, 2 Layersets
@@ -2727,7 +2727,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatRightMassageFill = SFSymbol(rawValue: "carseat.right.massage.fill")
+    static var carseatRightMassageFill: SFSymbol { .init(rawValue: "carseat.right.massage.fill") }
 
     /// 􁦒
     /// Single Localization, 2 Layersets
@@ -2735,7 +2735,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatRightUpAndDown = SFSymbol(rawValue: "carseat.right.up.and.down")
+    static var carseatRightUpAndDown: SFSymbol { .init(rawValue: "carseat.right.up.and.down") }
 
     /// 􁦓
     /// Single Localization, 2 Layersets
@@ -2743,14 +2743,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carseatRightUpAndDownFill = SFSymbol(rawValue: "carseat.right.up.and.down.fill")
+    static var carseatRightUpAndDownFill: SFSymbol { .init(rawValue: "carseat.right.up.and.down.fill") }
 
     /// 􂁾
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let cat = SFSymbol(rawValue: "cat")
+    static var cat: SFSymbol { .init(rawValue: "cat") }
 
     /// 􂂀
     /// Single Localization, 2 Layersets
@@ -2758,7 +2758,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let catCircle = SFSymbol(rawValue: "cat.circle")
+    static var catCircle: SFSymbol { .init(rawValue: "cat.circle") }
 
     /// 􂂁
     /// Single Localization, 3 Layersets
@@ -2767,14 +2767,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let catCircleFill = SFSymbol(rawValue: "cat.circle.fill")
+    static var catCircleFill: SFSymbol { .init(rawValue: "cat.circle.fill") }
 
     /// 􂁿
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let catFill = SFSymbol(rawValue: "cat.fill")
+    static var catFill: SFSymbol { .init(rawValue: "cat.fill") }
 
     /// 􂈨
     /// Single Localization, 2 Layersets
@@ -2787,7 +2787,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "cedisignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "cedisignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "cedisignArrowTriangleheadCounterclockwiseRotate90")
-    static let cedisignArrowCirclepath = SFSymbol(rawValue: "cedisign.arrow.circlepath")
+    static var cedisignArrowCirclepath: SFSymbol { .init(rawValue: "cedisign.arrow.circlepath") }
 
     /// 􂈓
     /// Single Localization, 2 Layersets
@@ -2800,7 +2800,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "centsignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "centsignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "centsignArrowTriangleheadCounterclockwiseRotate90")
-    static let centsignArrowCirclepath = SFSymbol(rawValue: "centsign.arrow.circlepath")
+    static var centsignArrowCirclepath: SFSymbol { .init(rawValue: "centsign.arrow.circlepath") }
 
     /// 􀤍
     /// 20 Localizations, 3 Layersets
@@ -2831,7 +2831,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let characterMagnify = SymbolWith19Localizations<Ar, Bn_v6_3, Gu_v6_3, He, Hi, Ja, Kn_v6_3, Ko, Ml_v6_3, Mni_v6_3, Mr_v6_3, Or_v6_3, Pa_v6_3, Sat_v6_3, Si_v6_3, Ta_v6_3, Te_v6_3, Th, Zh>(rawValue: "character.magnify")
+    static var characterMagnify: SymbolWith19Localizations<Ar, Bn_v6_3, Gu_v6_3, He, Hi, Ja, Kn_v6_3, Ko, Ml_v6_3, Mni_v6_3, Mr_v6_3, Or_v6_3, Pa_v6_3, Sat_v6_3, Si_v6_3, Ta_v6_3, Te_v6_3, Th, Zh> { .init(rawValue: "character.magnify") }
 
     /// 􂆏
     /// Single Localization, 2 Layersets
@@ -2839,7 +2839,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let chartBarXaxisAscending = SFSymbol(rawValue: "chart.bar.xaxis.ascending")
+    static var chartBarXaxisAscending: SFSymbol { .init(rawValue: "chart.bar.xaxis.ascending") }
 
     /// 􂆐
     /// 2 Localizations, 3 Layersets
@@ -2852,7 +2852,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let chartBarXaxisAscendingBadgeClock = SymbolWith1Localization<Rtl>(rawValue: "chart.bar.xaxis.ascending.badge.clock")
+    static var chartBarXaxisAscendingBadgeClock: SymbolWith1Localization<Rtl> { .init(rawValue: "chart.bar.xaxis.ascending.badge.clock") }
 
     /// 􂄗
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -2862,7 +2862,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
-    static let checkmarkApplewatch = SFSymbol(rawValue: "checkmark.applewatch")
+    static var checkmarkApplewatch: SFSymbol { .init(rawValue: "checkmark.applewatch") }
 
     /// 􁣛
     /// Single Localization, 2 Layersets
@@ -2875,7 +2875,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "checkmarkArrowTriangleheadCounterclockwise")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "checkmarkArrowTriangleheadCounterclockwise")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "checkmarkArrowTriangleheadCounterclockwise")
-    static let checkmarkGobackward = SFSymbol(rawValue: "checkmark.gobackward")
+    static var checkmarkGobackward: SFSymbol { .init(rawValue: "checkmark.gobackward") }
 
     /// 􂂼
     /// Single Localization, 2 Layersets
@@ -2883,7 +2883,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let checkmarkRectangleStack = SFSymbol(rawValue: "checkmark.rectangle.stack")
+    static var checkmarkRectangleStack: SFSymbol { .init(rawValue: "checkmark.rectangle.stack") }
 
     /// 􂂽
     /// Single Localization, 3 Layersets
@@ -2892,14 +2892,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let checkmarkRectangleStackFill = SFSymbol(rawValue: "checkmark.rectangle.stack.fill")
+    static var checkmarkRectangleStackFill: SFSymbol { .init(rawValue: "checkmark.rectangle.stack.fill") }
 
     /// 􁺑
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let chineseyuanrenminbisign = SFSymbol(rawValue: "chineseyuanrenminbisign")
+    static var chineseyuanrenminbisign: SFSymbol { .init(rawValue: "chineseyuanrenminbisign") }
 
     /// 􂈳
     /// Single Localization, 2 Layersets
@@ -2912,7 +2912,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "chineseyuanrenminbisignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "chineseyuanrenminbisignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "chineseyuanrenminbisignArrowTriangleheadCounterclockwiseRotate90")
-    static let chineseyuanrenminbisignArrowCirclepath = SFSymbol(rawValue: "chineseyuanrenminbisign.arrow.circlepath")
+    static var chineseyuanrenminbisignArrowCirclepath: SFSymbol { .init(rawValue: "chineseyuanrenminbisign.arrow.circlepath") }
 
     /// 􀯣
     /// Single Localization, 2 Layersets
@@ -2920,7 +2920,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let chineseyuanrenminbisignCircle = SFSymbol(rawValue: "chineseyuanrenminbisign.circle")
+    static var chineseyuanrenminbisignCircle: SFSymbol { .init(rawValue: "chineseyuanrenminbisign.circle") }
 
     /// 􀯤
     /// Single Localization, 3 Layersets
@@ -2929,7 +2929,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let chineseyuanrenminbisignCircleFill = SFSymbol(rawValue: "chineseyuanrenminbisign.circle.fill")
+    static var chineseyuanrenminbisignCircleFill: SFSymbol { .init(rawValue: "chineseyuanrenminbisign.circle.fill") }
 
     /// 􀯥
     /// Single Localization, 2 Layersets
@@ -2937,7 +2937,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let chineseyuanrenminbisignSquare = SFSymbol(rawValue: "chineseyuanrenminbisign.square")
+    static var chineseyuanrenminbisignSquare: SFSymbol { .init(rawValue: "chineseyuanrenminbisign.square") }
 
     /// 􀯦
     /// Single Localization, 3 Layersets
@@ -2946,7 +2946,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let chineseyuanrenminbisignSquareFill = SFSymbol(rawValue: "chineseyuanrenminbisign.square.fill")
+    static var chineseyuanrenminbisignSquareFill: SFSymbol { .init(rawValue: "chineseyuanrenminbisign.square.fill") }
 
     /// 􂀂
     /// Single Localization, 3 Layersets
@@ -2955,7 +2955,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let circleBadgeCheckmark = SFSymbol(rawValue: "circle.badge.checkmark")
+    static var circleBadgeCheckmark: SFSymbol { .init(rawValue: "circle.badge.checkmark") }
 
     /// 􂀃
     /// Single Localization, 3 Layersets
@@ -2964,7 +2964,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let circleBadgeCheckmarkFill = SFSymbol(rawValue: "circle.badge.checkmark.fill")
+    static var circleBadgeCheckmarkFill: SFSymbol { .init(rawValue: "circle.badge.checkmark.fill") }
 
     /// 􂁔
     /// Single Localization, 3 Layersets
@@ -2973,7 +2973,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let circleBadgeExclamationmark = SFSymbol(rawValue: "circle.badge.exclamationmark")
+    static var circleBadgeExclamationmark: SFSymbol { .init(rawValue: "circle.badge.exclamationmark") }
 
     /// 􂁕
     /// Single Localization, 3 Layersets
@@ -2982,7 +2982,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let circleBadgeExclamationmarkFill = SFSymbol(rawValue: "circle.badge.exclamationmark.fill")
+    static var circleBadgeExclamationmarkFill: SFSymbol { .init(rawValue: "circle.badge.exclamationmark.fill") }
 
     /// 􂁄
     /// Single Localization, 3 Layersets
@@ -2991,7 +2991,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let circleBadgeMinus = SFSymbol(rawValue: "circle.badge.minus")
+    static var circleBadgeMinus: SFSymbol { .init(rawValue: "circle.badge.minus") }
 
     /// 􂁅
     /// Single Localization, 3 Layersets
@@ -3000,7 +3000,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let circleBadgeMinusFill = SFSymbol(rawValue: "circle.badge.minus.fill")
+    static var circleBadgeMinusFill: SFSymbol { .init(rawValue: "circle.badge.minus.fill") }
 
     /// 􂁀
     /// Single Localization, 3 Layersets
@@ -3009,7 +3009,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let circleBadgePlus = SFSymbol(rawValue: "circle.badge.plus")
+    static var circleBadgePlus: SFSymbol { .init(rawValue: "circle.badge.plus") }
 
     /// 􂁁
     /// Single Localization, 3 Layersets
@@ -3018,7 +3018,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let circleBadgePlusFill = SFSymbol(rawValue: "circle.badge.plus.fill")
+    static var circleBadgePlusFill: SFSymbol { .init(rawValue: "circle.badge.plus.fill") }
 
     /// 􂁌
     /// 2 Localizations, 3 Layersets
@@ -3031,7 +3031,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let circleBadgeQuestionmark = SymbolWith1Localization<Ar>(rawValue: "circle.badge.questionmark")
+    static var circleBadgeQuestionmark: SymbolWith1Localization<Ar> { .init(rawValue: "circle.badge.questionmark") }
 
     /// 􂁍
     /// 2 Localizations, 3 Layersets
@@ -3044,7 +3044,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let circleBadgeQuestionmarkFill = SymbolWith1Localization<Ar>(rawValue: "circle.badge.questionmark.fill")
+    static var circleBadgeQuestionmarkFill: SymbolWith1Localization<Ar> { .init(rawValue: "circle.badge.questionmark.fill") }
 
     /// 􂁈
     /// Single Localization, 3 Layersets
@@ -3053,7 +3053,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let circleBadgeXmark = SFSymbol(rawValue: "circle.badge.xmark")
+    static var circleBadgeXmark: SFSymbol { .init(rawValue: "circle.badge.xmark") }
 
     /// 􂁉
     /// Single Localization, 3 Layersets
@@ -3062,14 +3062,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let circleBadgeXmarkFill = SFSymbol(rawValue: "circle.badge.xmark.fill")
+    static var circleBadgeXmarkFill: SFSymbol { .init(rawValue: "circle.badge.xmark.fill") }
 
     /// 􁹰
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let circleBottomhalfFilledInverse = SFSymbol(rawValue: "circle.bottomhalf.filled.inverse")
+    static var circleBottomhalfFilledInverse: SFSymbol { .init(rawValue: "circle.bottomhalf.filled.inverse") }
 
     /// 􁹨
     /// Single Localization, Single Layerset
@@ -3081,7 +3081,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "circleBottomrighthalfPatternCheckered")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "circleBottomrighthalfPatternCheckered")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "circleBottomrighthalfPatternCheckered")
-    static let circleBottomrighthalfCheckered = SFSymbol(rawValue: "circle.bottomrighthalf.checkered")
+    static var circleBottomrighthalfCheckered: SFSymbol { .init(rawValue: "circle.bottomrighthalf.checkered") }
 
     /// 􁊕
     /// Single Localization, 2 Layersets
@@ -3089,7 +3089,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let circleDottedAndCircle = SFSymbol(rawValue: "circle.dotted.and.circle")
+    static var circleDottedAndCircle: SFSymbol { .init(rawValue: "circle.dotted.and.circle") }
 
     /// 􁹧
     /// Single Localization, 2 Layersets
@@ -3097,7 +3097,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let circleDottedCircle = SFSymbol(rawValue: "circle.dotted.circle")
+    static var circleDottedCircle: SFSymbol { .init(rawValue: "circle.dotted.circle") }
 
     /// 􁷟
     /// Single Localization, 3 Layersets
@@ -3106,7 +3106,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let circleDottedCircleFill = SFSymbol(rawValue: "circle.dotted.circle.fill")
+    static var circleDottedCircleFill: SFSymbol { .init(rawValue: "circle.dotted.circle.fill") }
 
     /// 􂃻
     /// Single Localization, 2 Layersets
@@ -3114,7 +3114,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let circleFilledIpad = SFSymbol(rawValue: "circle.filled.ipad")
+    static var circleFilledIpad: SFSymbol { .init(rawValue: "circle.filled.ipad") }
 
     /// 􂃼
     /// Single Localization, 3 Layersets
@@ -3123,7 +3123,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let circleFilledIpadFill = SFSymbol(rawValue: "circle.filled.ipad.fill")
+    static var circleFilledIpadFill: SFSymbol { .init(rawValue: "circle.filled.ipad.fill") }
 
     /// 􂃽
     /// Single Localization, 2 Layersets
@@ -3131,7 +3131,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let circleFilledIpadLandscape = SFSymbol(rawValue: "circle.filled.ipad.landscape")
+    static var circleFilledIpadLandscape: SFSymbol { .init(rawValue: "circle.filled.ipad.landscape") }
 
     /// 􂃾
     /// Single Localization, 3 Layersets
@@ -3140,7 +3140,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let circleFilledIpadLandscapeFill = SFSymbol(rawValue: "circle.filled.ipad.landscape.fill")
+    static var circleFilledIpadLandscapeFill: SFSymbol { .init(rawValue: "circle.filled.ipad.landscape.fill") }
 
     /// 􂃯
     /// Single Localization, 2 Layersets
@@ -3148,7 +3148,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let circleFilledIphone = SFSymbol(rawValue: "circle.filled.iphone")
+    static var circleFilledIphone: SFSymbol { .init(rawValue: "circle.filled.iphone") }
 
     /// 􂃰
     /// Single Localization, 3 Layersets
@@ -3157,56 +3157,56 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let circleFilledIphoneFill = SFSymbol(rawValue: "circle.filled.iphone.fill")
+    static var circleFilledIphoneFill: SFSymbol { .init(rawValue: "circle.filled.iphone.fill") }
 
     /// 􁹭
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let circleLefthalfFilledInverse = SFSymbol(rawValue: "circle.lefthalf.filled.inverse")
+    static var circleLefthalfFilledInverse: SFSymbol { .init(rawValue: "circle.lefthalf.filled.inverse") }
 
     /// 􁹣
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let circleLefthalfFilledRighthalfStripedHorizontal = SFSymbol(rawValue: "circle.lefthalf.filled.righthalf.striped.horizontal")
+    static var circleLefthalfFilledRighthalfStripedHorizontal: SFSymbol { .init(rawValue: "circle.lefthalf.filled.righthalf.striped.horizontal") }
 
     /// 􁹤
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let circleLefthalfFilledRighthalfStripedHorizontalInverse = SFSymbol(rawValue: "circle.lefthalf.filled.righthalf.striped.horizontal.inverse")
+    static var circleLefthalfFilledRighthalfStripedHorizontalInverse: SFSymbol { .init(rawValue: "circle.lefthalf.filled.righthalf.striped.horizontal.inverse") }
 
     /// 􁹥
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let circleLefthalfStripedHorizontal = SFSymbol(rawValue: "circle.lefthalf.striped.horizontal")
+    static var circleLefthalfStripedHorizontal: SFSymbol { .init(rawValue: "circle.lefthalf.striped.horizontal") }
 
     /// 􁹦
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let circleLefthalfStripedHorizontalInverse = SFSymbol(rawValue: "circle.lefthalf.striped.horizontal.inverse")
+    static var circleLefthalfStripedHorizontalInverse: SFSymbol { .init(rawValue: "circle.lefthalf.striped.horizontal.inverse") }
 
     /// 􁹮
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let circleRighthalfFilledInverse = SFSymbol(rawValue: "circle.righthalf.filled.inverse")
+    static var circleRighthalfFilledInverse: SFSymbol { .init(rawValue: "circle.righthalf.filled.inverse") }
 
     /// 􁹯
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let circleTophalfFilledInverse = SFSymbol(rawValue: "circle.tophalf.filled.inverse")
+    static var circleTophalfFilledInverse: SFSymbol { .init(rawValue: "circle.tophalf.filled.inverse") }
 
     /// 􁷞
     /// Single Localization, 3 Layersets
@@ -3220,7 +3220,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "cloudRainbowCrop")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "cloudRainbowCrop")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "cloudRainbowCrop")
-    static let cloudRainbowHalf = SFSymbol(rawValue: "cloud.rainbow.half")
+    static var cloudRainbowHalf: SFSymbol { .init(rawValue: "cloud.rainbow.half") }
 
     /// 􁷠
     /// Single Localization, 3 Layersets
@@ -3234,7 +3234,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "cloudRainbowCropFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "cloudRainbowCropFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "cloudRainbowCropFill")
-    static let cloudRainbowHalfFill = SFSymbol(rawValue: "cloud.rainbow.half.fill")
+    static var cloudRainbowHalfFill: SFSymbol { .init(rawValue: "cloud.rainbow.half.fill") }
 
     /// 􂈧
     /// Single Localization, 2 Layersets
@@ -3247,7 +3247,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "coloncurrencysignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "coloncurrencysignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "coloncurrencysignArrowTriangleheadCounterclockwiseRotate90")
-    static let coloncurrencysignArrowCirclepath = SFSymbol(rawValue: "coloncurrencysign.arrow.circlepath")
+    static var coloncurrencysignArrowCirclepath: SFSymbol { .init(rawValue: "coloncurrencysign.arrow.circlepath") }
 
     /// 􁣐
     /// Single Localization, 3 Layersets
@@ -3256,7 +3256,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let creditcardTrianglebadgeExclamationmarkFill = SFSymbol(rawValue: "creditcard.trianglebadge.exclamationmark.fill")
+    static var creditcardTrianglebadgeExclamationmarkFill: SFSymbol { .init(rawValue: "creditcard.trianglebadge.exclamationmark.fill") }
 
     /// 􂈩
     /// Single Localization, 2 Layersets
@@ -3269,7 +3269,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "cruzeirosignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "cruzeirosignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "cruzeirosignArrowTriangleheadCounterclockwiseRotate90")
-    static let cruzeirosignArrowCirclepath = SFSymbol(rawValue: "cruzeirosign.arrow.circlepath")
+    static var cruzeirosignArrowCirclepath: SFSymbol { .init(rawValue: "cruzeirosign.arrow.circlepath") }
 
     /// 􁷁
     /// Single Localization, 2 Layersets
@@ -3282,7 +3282,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 26.0, renamed: "pointerArrowSlash")
     @available(watchOS, introduced: 10.0, deprecated: 26.0, renamed: "pointerArrowSlash")
     @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "pointerArrowSlash")
-    static let cursorarrowSlash = SFSymbol(rawValue: "cursorarrow.slash")
+    static var cursorarrowSlash: SFSymbol { .init(rawValue: "cursorarrow.slash") }
 
     /// 􁷂
     /// Single Localization, 2 Layersets
@@ -3295,7 +3295,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 26.0, renamed: "pointerArrowSlashSquare")
     @available(watchOS, introduced: 10.0, deprecated: 26.0, renamed: "pointerArrowSlashSquare")
     @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "pointerArrowSlashSquare")
-    static let cursorarrowSlashSquare = SFSymbol(rawValue: "cursorarrow.slash.square")
+    static var cursorarrowSlashSquare: SFSymbol { .init(rawValue: "cursorarrow.slash.square") }
 
     /// 􁷃
     /// Single Localization, 3 Layersets
@@ -3309,14 +3309,14 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 26.0, renamed: "pointerArrowSlashSquareFill")
     @available(watchOS, introduced: 10.0, deprecated: 26.0, renamed: "pointerArrowSlashSquareFill")
     @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "pointerArrowSlashSquareFill")
-    static let cursorarrowSlashSquareFill = SFSymbol(rawValue: "cursorarrow.slash.square.fill")
+    static var cursorarrowSlashSquareFill: SFSymbol { .init(rawValue: "cursorarrow.slash.square.fill") }
 
     /// 􁤮
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let danishkronesign = SFSymbol(rawValue: "danishkronesign")
+    static var danishkronesign: SFSymbol { .init(rawValue: "danishkronesign") }
 
     /// 􂈷
     /// Single Localization, 2 Layersets
@@ -3329,7 +3329,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "danishkronesignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "danishkronesignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "danishkronesignArrowTriangleheadCounterclockwiseRotate90")
-    static let danishkronesignArrowCirclepath = SFSymbol(rawValue: "danishkronesign.arrow.circlepath")
+    static var danishkronesignArrowCirclepath: SFSymbol { .init(rawValue: "danishkronesign.arrow.circlepath") }
 
     /// 􀮬
     /// Single Localization, 2 Layersets
@@ -3337,7 +3337,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let danishkronesignCircle = SFSymbol(rawValue: "danishkronesign.circle")
+    static var danishkronesignCircle: SFSymbol { .init(rawValue: "danishkronesign.circle") }
 
     /// 􀮭
     /// Single Localization, 3 Layersets
@@ -3346,7 +3346,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let danishkronesignCircleFill = SFSymbol(rawValue: "danishkronesign.circle.fill")
+    static var danishkronesignCircleFill: SFSymbol { .init(rawValue: "danishkronesign.circle.fill") }
 
     /// 􀮮
     /// Single Localization, 2 Layersets
@@ -3354,7 +3354,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let danishkronesignSquare = SFSymbol(rawValue: "danishkronesign.square")
+    static var danishkronesignSquare: SFSymbol { .init(rawValue: "danishkronesign.square") }
 
     /// 􀮯
     /// Single Localization, 3 Layersets
@@ -3363,7 +3363,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let danishkronesignSquareFill = SFSymbol(rawValue: "danishkronesign.square.fill")
+    static var danishkronesignSquareFill: SFSymbol { .init(rawValue: "danishkronesign.square.fill") }
 
     /// 􁿖
     /// Single Localization, 2 Layersets
@@ -3371,7 +3371,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let dishwasherCircle = SFSymbol(rawValue: "dishwasher.circle")
+    static var dishwasherCircle: SFSymbol { .init(rawValue: "dishwasher.circle") }
 
     /// 􁿗
     /// Single Localization, 3 Layersets
@@ -3380,7 +3380,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let dishwasherCircleFill = SFSymbol(rawValue: "dishwasher.circle.fill")
+    static var dishwasherCircleFill: SFSymbol { .init(rawValue: "dishwasher.circle.fill") }
 
     /// 􀫾
     /// Single Localization, 3 Layersets
@@ -3394,7 +3394,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "documentBadgeClock")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "documentBadgeClock")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "documentBadgeClock")
-    static let docBadgeClock = SFSymbol(rawValue: "doc.badge.clock")
+    static var docBadgeClock: SFSymbol { .init(rawValue: "doc.badge.clock") }
 
     /// 􀫿
     /// Single Localization, 3 Layersets
@@ -3408,7 +3408,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "documentBadgeClockFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "documentBadgeClockFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "documentBadgeClockFill")
-    static let docBadgeClockFill = SFSymbol(rawValue: "doc.badge.clock.fill")
+    static var docBadgeClockFill: SFSymbol { .init(rawValue: "doc.badge.clock.fill") }
 
     /// 􂇲
     /// 3 Localizations, 2 Layersets
@@ -3426,7 +3426,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "questionmarkTextPage")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "questionmarkTextPage")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "questionmarkTextPage")
-    static let docQuestionmark = SymbolWith2Localizations<Ar, Rtl>(rawValue: "doc.questionmark")
+    static var docQuestionmark: SymbolWith2Localizations<Ar, Rtl> { .init(rawValue: "doc.questionmark") }
 
     /// 􂇳
     /// 3 Localizations, Single Layerset
@@ -3443,14 +3443,14 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "questionmarkTextPageFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "questionmarkTextPageFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "questionmarkTextPageFill")
-    static let docQuestionmarkFill = SymbolWith2Localizations<Ar, Rtl>(rawValue: "doc.questionmark.fill")
+    static var docQuestionmarkFill: SymbolWith2Localizations<Ar, Rtl> { .init(rawValue: "doc.questionmark.fill") }
 
     /// 􂀆
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let dog = SFSymbol(rawValue: "dog")
+    static var dog: SFSymbol { .init(rawValue: "dog") }
 
     /// 􂀾
     /// Single Localization, 2 Layersets
@@ -3458,7 +3458,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let dogCircle = SFSymbol(rawValue: "dog.circle")
+    static var dogCircle: SFSymbol { .init(rawValue: "dog.circle") }
 
     /// 􂀿
     /// Single Localization, 3 Layersets
@@ -3467,14 +3467,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let dogCircleFill = SFSymbol(rawValue: "dog.circle.fill")
+    static var dogCircleFill: SFSymbol { .init(rawValue: "dog.circle.fill") }
 
     /// 􂀇
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let dogFill = SFSymbol(rawValue: "dog.fill")
+    static var dogFill: SFSymbol { .init(rawValue: "dog.fill") }
 
     /// 􂈛
     /// Single Localization, 2 Layersets
@@ -3487,14 +3487,14 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "dongsignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "dongsignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "dongsignArrowTriangleheadCounterclockwiseRotate90")
-    static let dongsignArrowCirclepath = SFSymbol(rawValue: "dongsign.arrow.circlepath")
+    static var dongsignArrowCirclepath: SFSymbol { .init(rawValue: "dongsign.arrow.circlepath") }
 
     /// 􂇏
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let dotScope = SFSymbol(rawValue: "dot.scope")
+    static var dotScope: SFSymbol { .init(rawValue: "dot.scope") }
 
     /// 􂇌
     /// Single Localization, 2 Layersets
@@ -3502,7 +3502,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let dotScopeDisplay = SFSymbol(rawValue: "dot.scope.display")
+    static var dotScopeDisplay: SFSymbol { .init(rawValue: "dot.scope.display") }
 
     /// 􁿍
     /// Single Localization, 2 Layersets
@@ -3510,14 +3510,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let dotScopeLaptopcomputer = SFSymbol(rawValue: "dot.scope.laptopcomputer")
+    static var dotScopeLaptopcomputer: SFSymbol { .init(rawValue: "dot.scope.laptopcomputer") }
 
     /// 􁹡
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let dropHalffull = SFSymbol(rawValue: "drop.halffull")
+    static var dropHalffull: SFSymbol { .init(rawValue: "drop.halffull") }
 
     /// 􁤈
     /// Single Localization, 2 Layersets
@@ -3525,7 +3525,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let dropTransmission = SFSymbol(rawValue: "drop.transmission")
+    static var dropTransmission: SFSymbol { .init(rawValue: "drop.transmission") }
 
     /// 􁿒
     /// Single Localization, 2 Layersets
@@ -3533,7 +3533,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let dryerCircle = SFSymbol(rawValue: "dryer.circle")
+    static var dryerCircle: SFSymbol { .init(rawValue: "dryer.circle") }
 
     /// 􁿓
     /// Single Localization, 3 Layersets
@@ -3542,7 +3542,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let dryerCircleFill = SFSymbol(rawValue: "dryer.circle.fill")
+    static var dryerCircleFill: SFSymbol { .init(rawValue: "dryer.circle.fill") }
 
     /// 􀵣
     /// Single Localization, 3 Layersets
@@ -3551,7 +3551,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let earBadgeWaveform = SFSymbol(rawValue: "ear.badge.waveform")
+    static var earBadgeWaveform: SFSymbol { .init(rawValue: "ear.badge.waveform") }
 
     /// 􁊦
     /// Single Localization, 3 Layersets
@@ -3560,7 +3560,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let engineCombustionBadgeExclamationmark = SFSymbol(rawValue: "engine.combustion.badge.exclamationmark")
+    static var engineCombustionBadgeExclamationmark: SFSymbol { .init(rawValue: "engine.combustion.badge.exclamationmark") }
 
     /// 􁊧
     /// Single Localization, 3 Layersets
@@ -3569,7 +3569,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let engineCombustionBadgeExclamationmarkFill = SFSymbol(rawValue: "engine.combustion.badge.exclamationmark.fill")
+    static var engineCombustionBadgeExclamationmarkFill: SFSymbol { .init(rawValue: "engine.combustion.badge.exclamationmark.fill") }
 
     /// 􁷻
     /// Single Localization, 3 Layersets
@@ -3578,7 +3578,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let envelopeBadgePersonCrop = SFSymbol(rawValue: "envelope.badge.person.crop")
+    static var envelopeBadgePersonCrop: SFSymbol { .init(rawValue: "envelope.badge.person.crop") }
 
     /// 􁷽
     /// Single Localization, 3 Layersets
@@ -3587,7 +3587,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let envelopeBadgePersonCropFill = SFSymbol(rawValue: "envelope.badge.person.crop.fill")
+    static var envelopeBadgePersonCropFill: SFSymbol { .init(rawValue: "envelope.badge.person.crop.fill") }
 
     /// 􂈚
     /// Single Localization, 2 Layersets
@@ -3600,14 +3600,14 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "eurosignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "eurosignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "eurosignArrowTriangleheadCounterclockwiseRotate90")
-    static let eurosignArrowCirclepath = SFSymbol(rawValue: "eurosign.arrow.circlepath")
+    static var eurosignArrowCirclepath: SFSymbol { .init(rawValue: "eurosign.arrow.circlepath") }
 
     /// 􁤴
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let eurozonesign = SFSymbol(rawValue: "eurozonesign")
+    static var eurozonesign: SFSymbol { .init(rawValue: "eurozonesign") }
 
     /// 􂈸
     /// Single Localization, 2 Layersets
@@ -3620,7 +3620,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "eurozonesignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "eurozonesignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "eurozonesignArrowTriangleheadCounterclockwiseRotate90")
-    static let eurozonesignArrowCirclepath = SFSymbol(rawValue: "eurozonesign.arrow.circlepath")
+    static var eurozonesignArrowCirclepath: SFSymbol { .init(rawValue: "eurozonesign.arrow.circlepath") }
 
     /// 􁤵
     /// Single Localization, 2 Layersets
@@ -3628,7 +3628,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let eurozonesignCircle = SFSymbol(rawValue: "eurozonesign.circle")
+    static var eurozonesignCircle: SFSymbol { .init(rawValue: "eurozonesign.circle") }
 
     /// 􁤶
     /// Single Localization, 3 Layersets
@@ -3637,7 +3637,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let eurozonesignCircleFill = SFSymbol(rawValue: "eurozonesign.circle.fill")
+    static var eurozonesignCircleFill: SFSymbol { .init(rawValue: "eurozonesign.circle.fill") }
 
     /// 􁤷
     /// Single Localization, 2 Layersets
@@ -3645,7 +3645,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let eurozonesignSquare = SFSymbol(rawValue: "eurozonesign.square")
+    static var eurozonesignSquare: SFSymbol { .init(rawValue: "eurozonesign.square") }
 
     /// 􁤸
     /// Single Localization, 3 Layersets
@@ -3654,14 +3654,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let eurozonesignSquareFill = SFSymbol(rawValue: "eurozonesign.square.fill")
+    static var eurozonesignSquareFill: SFSymbol { .init(rawValue: "eurozonesign.square.fill") }
 
     /// 􁊨
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let evCharger = SFSymbol(rawValue: "ev.charger")
+    static var evCharger: SFSymbol { .init(rawValue: "ev.charger") }
 
     /// 􁰪
     /// Single Localization, 2 Layersets
@@ -3669,7 +3669,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evChargerArrowtriangleLeft = SFSymbol(rawValue: "ev.charger.arrowtriangle.left")
+    static var evChargerArrowtriangleLeft: SFSymbol { .init(rawValue: "ev.charger.arrowtriangle.left") }
 
     /// 􁰫
     /// Single Localization, 2 Layersets
@@ -3677,7 +3677,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evChargerArrowtriangleLeftFill = SFSymbol(rawValue: "ev.charger.arrowtriangle.left.fill")
+    static var evChargerArrowtriangleLeftFill: SFSymbol { .init(rawValue: "ev.charger.arrowtriangle.left.fill") }
 
     /// 􁰲
     /// Single Localization, 2 Layersets
@@ -3685,7 +3685,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evChargerArrowtriangleRight = SFSymbol(rawValue: "ev.charger.arrowtriangle.right")
+    static var evChargerArrowtriangleRight: SFSymbol { .init(rawValue: "ev.charger.arrowtriangle.right") }
 
     /// 􁰳
     /// Single Localization, 2 Layersets
@@ -3693,7 +3693,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evChargerArrowtriangleRightFill = SFSymbol(rawValue: "ev.charger.arrowtriangle.right.fill")
+    static var evChargerArrowtriangleRightFill: SFSymbol { .init(rawValue: "ev.charger.arrowtriangle.right.fill") }
 
     /// 􁰶
     /// Single Localization, 2 Layersets
@@ -3701,7 +3701,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evChargerExclamationmark = SFSymbol(rawValue: "ev.charger.exclamationmark")
+    static var evChargerExclamationmark: SFSymbol { .init(rawValue: "ev.charger.exclamationmark") }
 
     /// 􁰷
     /// Single Localization, 2 Layersets
@@ -3709,14 +3709,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evChargerExclamationmarkFill = SFSymbol(rawValue: "ev.charger.exclamationmark.fill")
+    static var evChargerExclamationmarkFill: SFSymbol { .init(rawValue: "ev.charger.exclamationmark.fill") }
 
     /// 􁊩
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let evChargerFill = SFSymbol(rawValue: "ev.charger.fill")
+    static var evChargerFill: SFSymbol { .init(rawValue: "ev.charger.fill") }
 
     /// 􁰦
     /// Single Localization, 2 Layersets
@@ -3724,7 +3724,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evChargerSlash = SFSymbol(rawValue: "ev.charger.slash")
+    static var evChargerSlash: SFSymbol { .init(rawValue: "ev.charger.slash") }
 
     /// 􁰧
     /// Single Localization, 2 Layersets
@@ -3732,7 +3732,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evChargerSlashFill = SFSymbol(rawValue: "ev.charger.slash.fill")
+    static var evChargerSlashFill: SFSymbol { .init(rawValue: "ev.charger.slash.fill") }
 
     /// 􁺰
     /// Single Localization, 2 Layersets
@@ -3740,7 +3740,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evPlugAcGbT = SFSymbol(rawValue: "ev.plug.ac.gb.t")
+    static var evPlugAcGbT: SFSymbol { .init(rawValue: "ev.plug.ac.gb.t") }
 
     /// 􁺱
     /// Single Localization, 2 Layersets
@@ -3748,7 +3748,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evPlugAcGbTFill = SFSymbol(rawValue: "ev.plug.ac.gb.t.fill")
+    static var evPlugAcGbTFill: SFSymbol { .init(rawValue: "ev.plug.ac.gb.t.fill") }
 
     /// 􁺬
     /// Single Localization, 2 Layersets
@@ -3756,7 +3756,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evPlugAcType1 = SFSymbol(rawValue: "ev.plug.ac.type.1")
+    static var evPlugAcType1: SFSymbol { .init(rawValue: "ev.plug.ac.type.1") }
 
     /// 􁺭
     /// Single Localization, 2 Layersets
@@ -3764,7 +3764,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evPlugAcType1Fill = SFSymbol(rawValue: "ev.plug.ac.type.1.fill")
+    static var evPlugAcType1Fill: SFSymbol { .init(rawValue: "ev.plug.ac.type.1.fill") }
 
     /// 􁺮
     /// Single Localization, 2 Layersets
@@ -3772,7 +3772,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evPlugAcType2 = SFSymbol(rawValue: "ev.plug.ac.type.2")
+    static var evPlugAcType2: SFSymbol { .init(rawValue: "ev.plug.ac.type.2") }
 
     /// 􁺯
     /// Single Localization, 2 Layersets
@@ -3780,7 +3780,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evPlugAcType2Fill = SFSymbol(rawValue: "ev.plug.ac.type.2.fill")
+    static var evPlugAcType2Fill: SFSymbol { .init(rawValue: "ev.plug.ac.type.2.fill") }
 
     /// 􁺲
     /// Single Localization, 2 Layersets
@@ -3788,7 +3788,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evPlugDcCcs1 = SFSymbol(rawValue: "ev.plug.dc.ccs1")
+    static var evPlugDcCcs1: SFSymbol { .init(rawValue: "ev.plug.dc.ccs1") }
 
     /// 􁺳
     /// Single Localization, 2 Layersets
@@ -3796,7 +3796,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evPlugDcCcs1Fill = SFSymbol(rawValue: "ev.plug.dc.ccs1.fill")
+    static var evPlugDcCcs1Fill: SFSymbol { .init(rawValue: "ev.plug.dc.ccs1.fill") }
 
     /// 􁺴
     /// Single Localization, 2 Layersets
@@ -3804,7 +3804,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evPlugDcCcs2 = SFSymbol(rawValue: "ev.plug.dc.ccs2")
+    static var evPlugDcCcs2: SFSymbol { .init(rawValue: "ev.plug.dc.ccs2") }
 
     /// 􁺵
     /// Single Localization, 2 Layersets
@@ -3812,7 +3812,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evPlugDcCcs2Fill = SFSymbol(rawValue: "ev.plug.dc.ccs2.fill")
+    static var evPlugDcCcs2Fill: SFSymbol { .init(rawValue: "ev.plug.dc.ccs2.fill") }
 
     /// 􁺶
     /// Single Localization, 2 Layersets
@@ -3820,7 +3820,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evPlugDcChademo = SFSymbol(rawValue: "ev.plug.dc.chademo")
+    static var evPlugDcChademo: SFSymbol { .init(rawValue: "ev.plug.dc.chademo") }
 
     /// 􁺷
     /// Single Localization, 2 Layersets
@@ -3828,7 +3828,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evPlugDcChademoFill = SFSymbol(rawValue: "ev.plug.dc.chademo.fill")
+    static var evPlugDcChademoFill: SFSymbol { .init(rawValue: "ev.plug.dc.chademo.fill") }
 
     /// 􁺸
     /// Single Localization, 2 Layersets
@@ -3836,7 +3836,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evPlugDcGbT = SFSymbol(rawValue: "ev.plug.dc.gb.t")
+    static var evPlugDcGbT: SFSymbol { .init(rawValue: "ev.plug.dc.gb.t") }
 
     /// 􁺹
     /// Single Localization, 2 Layersets
@@ -3844,7 +3844,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evPlugDcGbTFill = SFSymbol(rawValue: "ev.plug.dc.gb.t.fill")
+    static var evPlugDcGbTFill: SFSymbol { .init(rawValue: "ev.plug.dc.gb.t.fill") }
 
     /// 􁺺
     /// Single Localization, 2 Layersets
@@ -3852,7 +3852,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evPlugDcNacs = SFSymbol(rawValue: "ev.plug.dc.nacs")
+    static var evPlugDcNacs: SFSymbol { .init(rawValue: "ev.plug.dc.nacs") }
 
     /// 􁺻
     /// Single Localization, 2 Layersets
@@ -3860,7 +3860,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let evPlugDcNacsFill = SFSymbol(rawValue: "ev.plug.dc.nacs.fill")
+    static var evPlugDcNacsFill: SFSymbol { .init(rawValue: "ev.plug.dc.nacs.fill") }
 
     /// 􂈂
     /// Single Localization, 2 Layersets
@@ -3868,7 +3868,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
-    static let exclamationmarkMagnifyingglass = SFSymbol(rawValue: "exclamationmark.magnifyingglass")
+    static var exclamationmarkMagnifyingglass: SFSymbol { .init(rawValue: "exclamationmark.magnifyingglass") }
 
     /// 􁀓
     /// Single Localization, 3 Layersets
@@ -3877,7 +3877,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let exclamationmarkTirepressure = SFSymbol(rawValue: "exclamationmark.tirepressure")
+    static var exclamationmarkTirepressure: SFSymbol { .init(rawValue: "exclamationmark.tirepressure") }
 
     /// 􁀮
     /// Single Localization, 3 Layersets
@@ -3886,7 +3886,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let exclamationmarkWarninglight = SFSymbol(rawValue: "exclamationmark.warninglight")
+    static var exclamationmarkWarninglight: SFSymbol { .init(rawValue: "exclamationmark.warninglight") }
 
     /// 􁀯
     /// Single Localization, 3 Layersets
@@ -3895,7 +3895,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let exclamationmarkWarninglightFill = SFSymbol(rawValue: "exclamationmark.warninglight.fill")
+    static var exclamationmarkWarninglightFill: SFSymbol { .init(rawValue: "exclamationmark.warninglight.fill") }
 
     /// 􂀶
     /// Single Localization, 2 Layersets
@@ -3903,14 +3903,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let eyeglassesSlash = SFSymbol(rawValue: "eyeglasses.slash")
+    static var eyeglassesSlash: SFSymbol { .init(rawValue: "eyeglasses.slash") }
 
     /// 􁁋
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let fan = SFSymbol(rawValue: "fan")
+    static var fan: SFSymbol { .init(rawValue: "fan") }
 
     /// 􁲉
     /// Single Localization, 3 Layersets
@@ -3919,7 +3919,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let fanBadgeAutomatic = SFSymbol(rawValue: "fan.badge.automatic")
+    static var fanBadgeAutomatic: SFSymbol { .init(rawValue: "fan.badge.automatic") }
 
     /// 􁲊
     /// Single Localization, 3 Layersets
@@ -3928,14 +3928,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let fanBadgeAutomaticFill = SFSymbol(rawValue: "fan.badge.automatic.fill")
+    static var fanBadgeAutomaticFill: SFSymbol { .init(rawValue: "fan.badge.automatic.fill") }
 
     /// 􁁌
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let fanFill = SFSymbol(rawValue: "fan.fill")
+    static var fanFill: SFSymbol { .init(rawValue: "fan.fill") }
 
     /// 􁝚
     /// Single Localization, 2 Layersets
@@ -3943,7 +3943,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let fanSlash = SFSymbol(rawValue: "fan.slash")
+    static var fanSlash: SFSymbol { .init(rawValue: "fan.slash") }
 
     /// 􁝛
     /// Single Localization, 2 Layersets
@@ -3951,7 +3951,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let fanSlashFill = SFSymbol(rawValue: "fan.slash.fill")
+    static var fanSlashFill: SFSymbol { .init(rawValue: "fan.slash.fill") }
 
     /// 􁿼
     /// Single Localization, 2 Layersets
@@ -3959,14 +3959,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    static let fieldOfViewUltrawide = SFSymbol(rawValue: "field.of.view.ultrawide")
+    static var fieldOfViewUltrawide: SFSymbol { .init(rawValue: "field.of.view.ultrawide") }
 
     /// 􁿽
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let fieldOfViewUltrawideFill = SFSymbol(rawValue: "field.of.view.ultrawide.fill")
+    static var fieldOfViewUltrawideFill: SFSymbol { .init(rawValue: "field.of.view.ultrawide.fill") }
 
     /// 􁿾
     /// Single Localization, 2 Layersets
@@ -3974,28 +3974,28 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    static let fieldOfViewWide = SFSymbol(rawValue: "field.of.view.wide")
+    static var fieldOfViewWide: SFSymbol { .init(rawValue: "field.of.view.wide") }
 
     /// 􁿿
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let fieldOfViewWideFill = SFSymbol(rawValue: "field.of.view.wide.fill")
+    static var fieldOfViewWideFill: SFSymbol { .init(rawValue: "field.of.view.wide.fill") }
 
     /// 􀕽
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let figure = SFSymbol(rawValue: "figure")
+    static var figure: SFSymbol { .init(rawValue: "figure") }
 
     /// 􀘷
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let figure2 = SFSymbol(rawValue: "figure.2")
+    static var figure2: SFSymbol { .init(rawValue: "figure.2") }
 
     /// 􀹽
     /// Single Localization, 2 Layersets
@@ -4003,7 +4003,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let figure2Circle = SFSymbol(rawValue: "figure.2.circle")
+    static var figure2Circle: SFSymbol { .init(rawValue: "figure.2.circle") }
 
     /// 􀹾
     /// Single Localization, 3 Layersets
@@ -4012,14 +4012,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let figure2CircleFill = SFSymbol(rawValue: "figure.2.circle.fill")
+    static var figure2CircleFill: SFSymbol { .init(rawValue: "figure.2.circle.fill") }
 
     /// 􁣽
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let figureChild = SFSymbol(rawValue: "figure.child")
+    static var figureChild: SFSymbol { .init(rawValue: "figure.child") }
 
     /// 􁥾
     /// Single Localization, 2 Layersets
@@ -4027,7 +4027,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let figureChildAndLock = SFSymbol(rawValue: "figure.child.and.lock")
+    static var figureChildAndLock: SFSymbol { .init(rawValue: "figure.child.and.lock") }
 
     /// 􁥿
     /// Single Localization, 2 Layersets
@@ -4035,7 +4035,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let figureChildAndLockFill = SFSymbol(rawValue: "figure.child.and.lock.fill")
+    static var figureChildAndLockFill: SFSymbol { .init(rawValue: "figure.child.and.lock.fill") }
 
     /// 􁦀
     /// Single Localization, 2 Layersets
@@ -4043,7 +4043,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let figureChildAndLockOpen = SFSymbol(rawValue: "figure.child.and.lock.open")
+    static var figureChildAndLockOpen: SFSymbol { .init(rawValue: "figure.child.and.lock.open") }
 
     /// 􁦁
     /// Single Localization, 2 Layersets
@@ -4051,7 +4051,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let figureChildAndLockOpenFill = SFSymbol(rawValue: "figure.child.and.lock.open.fill")
+    static var figureChildAndLockOpenFill: SFSymbol { .init(rawValue: "figure.child.and.lock.open.fill") }
 
     /// 􁣾
     /// Single Localization, 2 Layersets
@@ -4059,7 +4059,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let figureChildCircle = SFSymbol(rawValue: "figure.child.circle")
+    static var figureChildCircle: SFSymbol { .init(rawValue: "figure.child.circle") }
 
     /// 􁣿
     /// Single Localization, 3 Layersets
@@ -4068,7 +4068,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let figureChildCircleFill = SFSymbol(rawValue: "figure.child.circle.fill")
+    static var figureChildCircleFill: SFSymbol { .init(rawValue: "figure.child.circle.fill") }
 
     /// 􁺼
     /// Single Localization, Single Layerset
@@ -4080,7 +4080,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "figureSeatedSideLeft")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "figureSeatedSideLeft")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "figureSeatedSideLeft")
-    static let figureSeatedSide = SFSymbol(rawValue: "figure.seated.side")
+    static var figureSeatedSide: SFSymbol { .init(rawValue: "figure.seated.side") }
 
     /// 􁁶
     /// Single Localization, 2 Layersets
@@ -4093,7 +4093,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "figureSeatedSideLeftAirDistributionLower")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "figureSeatedSideLeftAirDistributionLower")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "figureSeatedSideLeftAirDistributionLower")
-    static let figureSeatedSideAirDistributionLower = SFSymbol(rawValue: "figure.seated.side.air.distribution.lower")
+    static var figureSeatedSideAirDistributionLower: SFSymbol { .init(rawValue: "figure.seated.side.air.distribution.lower") }
 
     /// 􁁵
     /// Single Localization, 2 Layersets
@@ -4106,7 +4106,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "figureSeatedSideLeftAirDistributionMiddle")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "figureSeatedSideLeftAirDistributionMiddle")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "figureSeatedSideLeftAirDistributionMiddle")
-    static let figureSeatedSideAirDistributionMiddle = SFSymbol(rawValue: "figure.seated.side.air.distribution.middle")
+    static var figureSeatedSideAirDistributionMiddle: SFSymbol { .init(rawValue: "figure.seated.side.air.distribution.middle") }
 
     /// 􁁸
     /// Single Localization, 2 Layersets
@@ -4119,7 +4119,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "figureSeatedSideLeftAirDistributionMiddleAndLower")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "figureSeatedSideLeftAirDistributionMiddleAndLower")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "figureSeatedSideLeftAirDistributionMiddleAndLower")
-    static let figureSeatedSideAirDistributionMiddleAndLower = SFSymbol(rawValue: "figure.seated.side.air.distribution.middle.and.lower")
+    static var figureSeatedSideAirDistributionMiddleAndLower: SFSymbol { .init(rawValue: "figure.seated.side.air.distribution.middle.and.lower") }
 
     /// 􁻀
     /// Single Localization, 2 Layersets
@@ -4132,7 +4132,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "figureSeatedSideLeftAirDistributionMiddleAndLowerAngled")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "figureSeatedSideLeftAirDistributionMiddleAndLowerAngled")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "figureSeatedSideLeftAirDistributionMiddleAndLowerAngled")
-    static let figureSeatedSideAirDistributionMiddleAndLowerAngled = SFSymbol(rawValue: "figure.seated.side.air.distribution.middle.and.lower.angled")
+    static var figureSeatedSideAirDistributionMiddleAndLowerAngled: SFSymbol { .init(rawValue: "figure.seated.side.air.distribution.middle.and.lower.angled") }
 
     /// 􁁷
     /// Single Localization, 2 Layersets
@@ -4145,7 +4145,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "figureSeatedSideLeftAirDistributionUpper")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "figureSeatedSideLeftAirDistributionUpper")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "figureSeatedSideLeftAirDistributionUpper")
-    static let figureSeatedSideAirDistributionUpper = SFSymbol(rawValue: "figure.seated.side.air.distribution.upper")
+    static var figureSeatedSideAirDistributionUpper: SFSymbol { .init(rawValue: "figure.seated.side.air.distribution.upper") }
 
     /// 􁺿
     /// Single Localization, 2 Layersets
@@ -4158,7 +4158,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "figureSeatedSideLeftAirDistributionUpperAngledAndLowerAngled")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "figureSeatedSideLeftAirDistributionUpperAngledAndLowerAngled")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "figureSeatedSideLeftAirDistributionUpperAngledAndLowerAngled")
-    static let figureSeatedSideAirDistributionUpperAngledAndLowerAngled = SFSymbol(rawValue: "figure.seated.side.air.distribution.upper.angled.and.lower.angled")
+    static var figureSeatedSideAirDistributionUpperAngledAndLowerAngled: SFSymbol { .init(rawValue: "figure.seated.side.air.distribution.upper.angled.and.lower.angled") }
 
     /// 􁺾
     /// Single Localization, 2 Layersets
@@ -4171,7 +4171,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "figureSeatedSideLeftAirDistributionUpperAngledAndMiddle")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "figureSeatedSideLeftAirDistributionUpperAngledAndMiddle")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "figureSeatedSideLeftAirDistributionUpperAngledAndMiddle")
-    static let figureSeatedSideAirDistributionUpperAngledAndMiddle = SFSymbol(rawValue: "figure.seated.side.air.distribution.upper.angled.and.middle")
+    static var figureSeatedSideAirDistributionUpperAngledAndMiddle: SFSymbol { .init(rawValue: "figure.seated.side.air.distribution.upper.angled.and.middle") }
 
     /// 􁺽
     /// Single Localization, 2 Layersets
@@ -4184,7 +4184,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "figureSeatedSideLeftAirDistributionUpperAngledAndMiddleAndLowerAngled")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "figureSeatedSideLeftAirDistributionUpperAngledAndMiddleAndLowerAngled")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "figureSeatedSideLeftAirDistributionUpperAngledAndMiddleAndLowerAngled")
-    static let figureSeatedSideAirDistributionUpperAngledAndMiddleAndLowerAngled = SFSymbol(rawValue: "figure.seated.side.air.distribution.upper.angled.and.middle.and.lower.angled")
+    static var figureSeatedSideAirDistributionUpperAngledAndMiddleAndLowerAngled: SFSymbol { .init(rawValue: "figure.seated.side.air.distribution.upper.angled.and.middle.and.lower.angled") }
 
     /// 􁲍
     /// Single Localization, 2 Layersets
@@ -4197,7 +4197,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "figureSeatedSideLeftAutomatic")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "figureSeatedSideLeftAutomatic")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "figureSeatedSideLeftAutomatic")
-    static let figureSeatedSideAutomatic = SFSymbol(rawValue: "figure.seated.side.automatic")
+    static var figureSeatedSideAutomatic: SFSymbol { .init(rawValue: "figure.seated.side.automatic") }
 
     /// 􁻒
     /// Single Localization, 2 Layersets
@@ -4210,7 +4210,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionLower")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionLower")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionLower")
-    static let figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionLower = SFSymbol(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.lower")
+    static var figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionLower: SFSymbol { .init(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.lower") }
 
     /// 􁻑
     /// Single Localization, 2 Layersets
@@ -4223,7 +4223,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionMiddle")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionMiddle")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionMiddle")
-    static let figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionMiddle = SFSymbol(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.middle")
+    static var figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionMiddle: SFSymbol { .init(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.middle") }
 
     /// 􁻍
     /// Single Localization, 2 Layersets
@@ -4236,7 +4236,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionMiddleAndLower")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionMiddleAndLower")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionMiddleAndLower")
-    static let figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionMiddleAndLower = SFSymbol(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.middle.and.lower")
+    static var figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionMiddleAndLower: SFSymbol { .init(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.middle.and.lower") }
 
     /// 􁻐
     /// Single Localization, 2 Layersets
@@ -4249,7 +4249,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionUpper")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionUpper")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionUpper")
-    static let figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionUpper = SFSymbol(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper")
+    static var figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionUpper: SFSymbol { .init(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper") }
 
     /// 􁻏
     /// Single Localization, 2 Layersets
@@ -4262,7 +4262,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionUpperAndLower")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionUpperAndLower")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionUpperAndLower")
-    static let figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionUpperAndLower = SFSymbol(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.lower")
+    static var figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionUpperAndLower: SFSymbol { .init(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.lower") }
 
     /// 􁻎
     /// Single Localization, 2 Layersets
@@ -4275,7 +4275,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionUpperAndMiddle")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionUpperAndMiddle")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionUpperAndMiddle")
-    static let figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionUpperAndMiddle = SFSymbol(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.middle")
+    static var figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionUpperAndMiddle: SFSymbol { .init(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.middle") }
 
     /// 􁻌
     /// Single Localization, 2 Layersets
@@ -4288,7 +4288,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionUpperAndMiddleAndLower")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionUpperAndMiddleAndLower")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "figureSeatedSideLeftWindshieldFrontAndHeatWavesAirDistributionUpperAndMiddleAndLower")
-    static let figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionUpperAndMiddleAndLower = SFSymbol(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.middle.and.lower")
+    static var figureSeatedSideWindshieldFrontAndHeatWavesAirDistributionUpperAndMiddleAndLower: SFSymbol { .init(rawValue: "figure.seated.side.windshield.front.and.heat.waves.air.distribution.upper.and.middle.and.lower") }
 
     /// 􁷚
     /// Single Localization, 3 Layersets
@@ -4297,7 +4297,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let figureWalkMotionTrianglebadgeExclamationmark = SFSymbol(rawValue: "figure.walk.motion.trianglebadge.exclamationmark")
+    static var figureWalkMotionTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "figure.walk.motion.trianglebadge.exclamationmark") }
 
     /// 􂁞
     /// Single Localization, 2 Layersets
@@ -4305,7 +4305,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let fireworks = SFSymbol(rawValue: "fireworks")
+    static var fireworks: SFSymbol { .init(rawValue: "fireworks") }
 
     /// 􂃱
     /// Single Localization, 2 Layersets
@@ -4313,7 +4313,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let flashlightOffCircle = SFSymbol(rawValue: "flashlight.off.circle")
+    static var flashlightOffCircle: SFSymbol { .init(rawValue: "flashlight.off.circle") }
 
     /// 􂃲
     /// Single Localization, 3 Layersets
@@ -4322,7 +4322,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let flashlightOffCircleFill = SFSymbol(rawValue: "flashlight.off.circle.fill")
+    static var flashlightOffCircleFill: SFSymbol { .init(rawValue: "flashlight.off.circle.fill") }
 
     /// 􂃳
     /// Single Localization, 2 Layersets
@@ -4330,7 +4330,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let flashlightOnCircle = SFSymbol(rawValue: "flashlight.on.circle")
+    static var flashlightOnCircle: SFSymbol { .init(rawValue: "flashlight.on.circle") }
 
     /// 􂃴
     /// Single Localization, 3 Layersets
@@ -4339,7 +4339,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let flashlightOnCircleFill = SFSymbol(rawValue: "flashlight.on.circle.fill")
+    static var flashlightOnCircleFill: SFSymbol { .init(rawValue: "flashlight.on.circle.fill") }
 
     /// 􂃵
     /// Single Localization, 2 Layersets
@@ -4347,7 +4347,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let flashlightSlash = SFSymbol(rawValue: "flashlight.slash")
+    static var flashlightSlash: SFSymbol { .init(rawValue: "flashlight.slash") }
 
     /// 􂃶
     /// Single Localization, 2 Layersets
@@ -4355,7 +4355,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let flashlightSlashCircle = SFSymbol(rawValue: "flashlight.slash.circle")
+    static var flashlightSlashCircle: SFSymbol { .init(rawValue: "flashlight.slash.circle") }
 
     /// 􂃷
     /// Single Localization, 3 Layersets
@@ -4364,7 +4364,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let flashlightSlashCircleFill = SFSymbol(rawValue: "flashlight.slash.circle.fill")
+    static var flashlightSlashCircleFill: SFSymbol { .init(rawValue: "flashlight.slash.circle.fill") }
 
     /// 􁰍
     /// Single Localization, 2 Layersets
@@ -4372,7 +4372,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    static let flask = SFSymbol(rawValue: "flask")
+    static var flask: SFSymbol { .init(rawValue: "flask") }
 
     /// 􁰎
     /// Single Localization, 2 Layersets
@@ -4380,7 +4380,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    static let flaskFill = SFSymbol(rawValue: "flask.fill")
+    static var flaskFill: SFSymbol { .init(rawValue: "flask.fill") }
 
     /// 􂈗
     /// Single Localization, 2 Layersets
@@ -4393,7 +4393,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "florinsignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "florinsignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "florinsignArrowTriangleheadCounterclockwiseRotate90")
-    static let florinsignArrowCirclepath = SFSymbol(rawValue: "florinsign.arrow.circlepath")
+    static var florinsignArrowCirclepath: SFSymbol { .init(rawValue: "florinsign.arrow.circlepath") }
 
     /// 􂈖
     /// Single Localization, 2 Layersets
@@ -4406,7 +4406,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "francsignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "francsignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "francsignArrowTriangleheadCounterclockwiseRotate90")
-    static let francsignArrowCirclepath = SFSymbol(rawValue: "francsign.arrow.circlepath")
+    static var francsignArrowCirclepath: SFSymbol { .init(rawValue: "francsign.arrow.circlepath") }
 
     /// 􁈾
     /// Single Localization, 2 Layersets
@@ -4414,7 +4414,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let fuelpumpArrowtriangleLeft = SFSymbol(rawValue: "fuelpump.arrowtriangle.left")
+    static var fuelpumpArrowtriangleLeft: SFSymbol { .init(rawValue: "fuelpump.arrowtriangle.left") }
 
     /// 􁈿
     /// Single Localization, 2 Layersets
@@ -4422,7 +4422,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let fuelpumpArrowtriangleLeftFill = SFSymbol(rawValue: "fuelpump.arrowtriangle.left.fill")
+    static var fuelpumpArrowtriangleLeftFill: SFSymbol { .init(rawValue: "fuelpump.arrowtriangle.left.fill") }
 
     /// 􁈼
     /// Single Localization, 2 Layersets
@@ -4430,7 +4430,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let fuelpumpArrowtriangleRight = SFSymbol(rawValue: "fuelpump.arrowtriangle.right")
+    static var fuelpumpArrowtriangleRight: SFSymbol { .init(rawValue: "fuelpump.arrowtriangle.right") }
 
     /// 􁈽
     /// Single Localization, 2 Layersets
@@ -4438,7 +4438,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let fuelpumpArrowtriangleRightFill = SFSymbol(rawValue: "fuelpump.arrowtriangle.right.fill")
+    static var fuelpumpArrowtriangleRightFill: SFSymbol { .init(rawValue: "fuelpump.arrowtriangle.right.fill") }
 
     /// 􁥦
     /// Single Localization, 2 Layersets
@@ -4446,7 +4446,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let fuelpumpExclamationmark = SFSymbol(rawValue: "fuelpump.exclamationmark")
+    static var fuelpumpExclamationmark: SFSymbol { .init(rawValue: "fuelpump.exclamationmark") }
 
     /// 􁥧
     /// Single Localization, 2 Layersets
@@ -4454,7 +4454,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let fuelpumpExclamationmarkFill = SFSymbol(rawValue: "fuelpump.exclamationmark.fill")
+    static var fuelpumpExclamationmarkFill: SFSymbol { .init(rawValue: "fuelpump.exclamationmark.fill") }
 
     /// 􁰚
     /// Single Localization, 2 Layersets
@@ -4462,7 +4462,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let fuelpumpSlash = SFSymbol(rawValue: "fuelpump.slash")
+    static var fuelpumpSlash: SFSymbol { .init(rawValue: "fuelpump.slash") }
 
     /// 􁰛
     /// Single Localization, 2 Layersets
@@ -4470,7 +4470,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let fuelpumpSlashFill = SFSymbol(rawValue: "fuelpump.slash.fill")
+    static var fuelpumpSlashFill: SFSymbol { .init(rawValue: "fuelpump.slash.fill") }
 
     /// 􁫏
     /// Single Localization, 2 Layersets
@@ -4478,7 +4478,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let gaugeOpenWithLinesNeedle33percent = SFSymbol(rawValue: "gauge.open.with.lines.needle.33percent")
+    static var gaugeOpenWithLinesNeedle33percent: SFSymbol { .init(rawValue: "gauge.open.with.lines.needle.33percent") }
 
     /// 􁉰
     /// Single Localization, 2 Layersets
@@ -4486,7 +4486,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let gaugeOpenWithLinesNeedle33percentAndArrowtriangle = SFSymbol(rawValue: "gauge.open.with.lines.needle.33percent.and.arrowtriangle")
+    static var gaugeOpenWithLinesNeedle33percentAndArrowtriangle: SFSymbol { .init(rawValue: "gauge.open.with.lines.needle.33percent.and.arrowtriangle") }
 
     /// 􁊐
     /// Single Localization, 2 Layersets
@@ -4499,7 +4499,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "gaugeOpenWithLinesNeedle33percentAndArrowTriangleheadFrom0percentTo50percent")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "gaugeOpenWithLinesNeedle33percentAndArrowTriangleheadFrom0percentTo50percent")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "gaugeOpenWithLinesNeedle33percentAndArrowTriangleheadFrom0percentTo50percent")
-    static let gaugeOpenWithLinesNeedle33percentAndArrowtriangleFrom0percentTo50percent = SFSymbol(rawValue: "gauge.open.with.lines.needle.33percent.and.arrowtriangle.from.0percent.to.50percent")
+    static var gaugeOpenWithLinesNeedle33percentAndArrowtriangleFrom0percentTo50percent: SFSymbol { .init(rawValue: "gauge.open.with.lines.needle.33percent.and.arrowtriangle.from.0percent.to.50percent") }
 
     /// 􁖗
     /// Single Localization, 2 Layersets
@@ -4507,7 +4507,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let gaugeOpenWithLinesNeedle67percentAndArrowtriangle = SFSymbol(rawValue: "gauge.open.with.lines.needle.67percent.and.arrowtriangle")
+    static var gaugeOpenWithLinesNeedle67percentAndArrowtriangle: SFSymbol { .init(rawValue: "gauge.open.with.lines.needle.67percent.and.arrowtriangle") }
 
     /// 􁖜
     /// Single Localization, 2 Layersets
@@ -4515,7 +4515,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let gaugeOpenWithLinesNeedle67percentAndArrowtriangleAndCar = SFSymbol(rawValue: "gauge.open.with.lines.needle.67percent.and.arrowtriangle.and.car")
+    static var gaugeOpenWithLinesNeedle67percentAndArrowtriangleAndCar: SFSymbol { .init(rawValue: "gauge.open.with.lines.needle.67percent.and.arrowtriangle.and.car") }
 
     /// 􁖘
     /// Single Localization, 2 Layersets
@@ -4523,7 +4523,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let gaugeOpenWithLinesNeedle84percentExclamation = SFSymbol(rawValue: "gauge.open.with.lines.needle.84percent.exclamation")
+    static var gaugeOpenWithLinesNeedle84percentExclamation: SFSymbol { .init(rawValue: "gauge.open.with.lines.needle.84percent.exclamation") }
 
     /// 􁐙
     /// Single Localization, 2 Layersets
@@ -4531,7 +4531,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let gaugeWithDotsNeedle0percent = SFSymbol(rawValue: "gauge.with.dots.needle.0percent")
+    static var gaugeWithDotsNeedle0percent: SFSymbol { .init(rawValue: "gauge.with.dots.needle.0percent") }
 
     /// 􁰉
     /// Single Localization, 2 Layersets
@@ -4539,7 +4539,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let gaugeWithDotsNeedle33percent = SFSymbol(rawValue: "gauge.with.dots.needle.33percent")
+    static var gaugeWithDotsNeedle33percent: SFSymbol { .init(rawValue: "gauge.with.dots.needle.33percent") }
 
     /// 􁐚
     /// Single Localization, 2 Layersets
@@ -4547,7 +4547,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let gaugeWithDotsNeedle50percent = SFSymbol(rawValue: "gauge.with.dots.needle.50percent")
+    static var gaugeWithDotsNeedle50percent: SFSymbol { .init(rawValue: "gauge.with.dots.needle.50percent") }
 
     /// 􀍾
     /// Single Localization, 2 Layersets
@@ -4555,7 +4555,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let gaugeWithDotsNeedle67percent = SFSymbol(rawValue: "gauge.with.dots.needle.67percent")
+    static var gaugeWithDotsNeedle67percent: SFSymbol { .init(rawValue: "gauge.with.dots.needle.67percent") }
 
     /// 􁐛
     /// Single Localization, 2 Layersets
@@ -4563,7 +4563,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let gaugeWithDotsNeedle100percent = SFSymbol(rawValue: "gauge.with.dots.needle.100percent")
+    static var gaugeWithDotsNeedle100percent: SFSymbol { .init(rawValue: "gauge.with.dots.needle.100percent") }
 
     /// 􁐗
     /// Single Localization, 2 Layersets
@@ -4571,7 +4571,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let gaugeWithDotsNeedleBottom0percent = SFSymbol(rawValue: "gauge.with.dots.needle.bottom.0percent")
+    static var gaugeWithDotsNeedleBottom0percent: SFSymbol { .init(rawValue: "gauge.with.dots.needle.bottom.0percent") }
 
     /// 􀍽
     /// Single Localization, 2 Layersets
@@ -4579,7 +4579,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let gaugeWithDotsNeedleBottom50percent = SFSymbol(rawValue: "gauge.with.dots.needle.bottom.50percent")
+    static var gaugeWithDotsNeedleBottom50percent: SFSymbol { .init(rawValue: "gauge.with.dots.needle.bottom.50percent") }
 
     /// 􀓧
     /// Single Localization, 3 Layersets
@@ -4588,7 +4588,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Multicolor
     /// - Hierarchical
-    static let gaugeWithDotsNeedleBottom50percentBadgeMinus = SFSymbol(rawValue: "gauge.with.dots.needle.bottom.50percent.badge.minus")
+    static var gaugeWithDotsNeedleBottom50percentBadgeMinus: SFSymbol { .init(rawValue: "gauge.with.dots.needle.bottom.50percent.badge.minus") }
 
     /// 􀓓
     /// Single Localization, 3 Layersets
@@ -4597,7 +4597,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Multicolor
     /// - Hierarchical
-    static let gaugeWithDotsNeedleBottom50percentBadgePlus = SFSymbol(rawValue: "gauge.with.dots.needle.bottom.50percent.badge.plus")
+    static var gaugeWithDotsNeedleBottom50percentBadgePlus: SFSymbol { .init(rawValue: "gauge.with.dots.needle.bottom.50percent.badge.plus") }
 
     /// 􁐘
     /// Single Localization, 2 Layersets
@@ -4605,7 +4605,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let gaugeWithDotsNeedleBottom100percent = SFSymbol(rawValue: "gauge.with.dots.needle.bottom.100percent")
+    static var gaugeWithDotsNeedleBottom100percent: SFSymbol { .init(rawValue: "gauge.with.dots.needle.bottom.100percent") }
 
     /// 􁖫
     /// Single Localization, 2 Layersets
@@ -4613,7 +4613,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let gaugeWithNeedle = SFSymbol(rawValue: "gauge.with.needle")
+    static var gaugeWithNeedle: SFSymbol { .init(rawValue: "gauge.with.needle") }
 
     /// 􁖬
     /// Single Localization, 2 Layersets
@@ -4621,14 +4621,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let gaugeWithNeedleFill = SFSymbol(rawValue: "gauge.with.needle.fill")
+    static var gaugeWithNeedleFill: SFSymbol { .init(rawValue: "gauge.with.needle.fill") }
 
     /// 􁸝
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let gearshiftLayoutSixspeed = SFSymbol(rawValue: "gearshift.layout.sixspeed")
+    static var gearshiftLayoutSixspeed: SFSymbol { .init(rawValue: "gearshift.layout.sixspeed") }
 
     /// 􂈦
     /// Single Localization, 2 Layersets
@@ -4641,7 +4641,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "guaranisignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "guaranisignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "guaranisignArrowTriangleheadCounterclockwiseRotate90")
-    static let guaranisignArrowCirclepath = SFSymbol(rawValue: "guaranisign.arrow.circlepath")
+    static var guaranisignArrowCirclepath: SFSymbol { .init(rawValue: "guaranisign.arrow.circlepath") }
 
     /// 􂂱
     /// Single Localization, Single Layerset
@@ -4653,7 +4653,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "duffleBag")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "duffleBag")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "duffleBag")
-    static let gymBag = SFSymbol(rawValue: "gym.bag")
+    static var gymBag: SFSymbol { .init(rawValue: "gym.bag") }
 
     /// 􂂲
     /// Single Localization, Single Layerset
@@ -4665,7 +4665,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "duffleBagFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "duffleBagFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "duffleBagFill")
-    static let gymBagFill = SFSymbol(rawValue: "gym.bag.fill")
+    static var gymBagFill: SFSymbol { .init(rawValue: "gym.bag.fill") }
 
     /// 􁾀
     /// Single Localization, 2 Layersets
@@ -4673,7 +4673,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let handPointUpLeftAndText = SFSymbol(rawValue: "hand.point.up.left.and.text")
+    static var handPointUpLeftAndText: SFSymbol { .init(rawValue: "hand.point.up.left.and.text") }
 
     /// 􁾁
     /// Single Localization, 2 Layersets
@@ -4681,7 +4681,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let handPointUpLeftAndTextFill = SFSymbol(rawValue: "hand.point.up.left.and.text.fill")
+    static var handPointUpLeftAndTextFill: SFSymbol { .init(rawValue: "hand.point.up.left.and.text.fill") }
 
     /// 􁿜
     /// Single Localization, 2 Layersets
@@ -4689,7 +4689,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let handbagCircle = SFSymbol(rawValue: "handbag.circle")
+    static var handbagCircle: SFSymbol { .init(rawValue: "handbag.circle") }
 
     /// 􁿝
     /// Single Localization, 3 Layersets
@@ -4698,7 +4698,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let handbagCircleFill = SFSymbol(rawValue: "handbag.circle.fill")
+    static var handbagCircleFill: SFSymbol { .init(rawValue: "handbag.circle.fill") }
 
     /// 􀲮
     /// Single Localization, 2 Layersets
@@ -4706,7 +4706,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let handsAndSparkles = SFSymbol(rawValue: "hands.and.sparkles")
+    static var handsAndSparkles: SFSymbol { .init(rawValue: "hands.and.sparkles") }
 
     /// 􀲯
     /// Single Localization, 2 Layersets
@@ -4714,14 +4714,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let handsAndSparklesFill = SFSymbol(rawValue: "hands.and.sparkles.fill")
+    static var handsAndSparklesFill: SFSymbol { .init(rawValue: "hands.and.sparkles.fill") }
 
     /// 􀠖
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let hanger = SFSymbol(rawValue: "hanger")
+    static var hanger: SFSymbol { .init(rawValue: "hanger") }
 
     /// 􂀸
     /// Single Localization, 2 Layersets
@@ -4729,7 +4729,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let hareCircle = SFSymbol(rawValue: "hare.circle")
+    static var hareCircle: SFSymbol { .init(rawValue: "hare.circle") }
 
     /// 􂀹
     /// Single Localization, 3 Layersets
@@ -4738,7 +4738,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let hareCircleFill = SFSymbol(rawValue: "hare.circle.fill")
+    static var hareCircleFill: SFSymbol { .init(rawValue: "hare.circle.fill") }
 
     /// 􁟹
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -4753,21 +4753,21 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "headProfileArrowForwardAndVisionPro")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "headProfileArrowForwardAndVisionPro")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "headProfileArrowForwardAndVisionPro")
-    static let headProfileArrowForwardAndVisionpro = SFSymbol(rawValue: "head.profile.arrow.forward.and.visionpro")
+    static var headProfileArrowForwardAndVisionpro: SFSymbol { .init(rawValue: "head.profile.arrow.forward.and.visionpro") }
 
     /// 􁰹
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let heatWaves = SFSymbol(rawValue: "heat.waves")
+    static var heatWaves: SFSymbol { .init(rawValue: "heat.waves") }
 
     /// 􁄵
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let horn = SFSymbol(rawValue: "horn")
+    static var horn: SFSymbol { .init(rawValue: "horn") }
 
     /// 􁄷
     /// Single Localization, 2 Layersets
@@ -4775,7 +4775,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let hornBlast = SFSymbol(rawValue: "horn.blast")
+    static var hornBlast: SFSymbol { .init(rawValue: "horn.blast") }
 
     /// 􁄸
     /// Single Localization, 2 Layersets
@@ -4783,14 +4783,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let hornBlastFill = SFSymbol(rawValue: "horn.blast.fill")
+    static var hornBlastFill: SFSymbol { .init(rawValue: "horn.blast.fill") }
 
     /// 􁄶
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let hornFill = SFSymbol(rawValue: "horn.fill")
+    static var hornFill: SFSymbol { .init(rawValue: "horn.fill") }
 
     /// 􂇗
     /// Single Localization, 3 Layersets
@@ -4804,7 +4804,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 26.0, renamed: "hourglassBadgeLock")
     @available(watchOS, introduced: 10.0, deprecated: 26.0, renamed: "hourglassBadgeLock")
     @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "hourglassBadgeLock")
-    static let hourglassAndLock = SFSymbol(rawValue: "hourglass.and.lock")
+    static var hourglassAndLock: SFSymbol { .init(rawValue: "hourglass.and.lock") }
 
     /// 􂈤
     /// Single Localization, 2 Layersets
@@ -4817,7 +4817,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "hryvniasignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "hryvniasignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "hryvniasignArrowTriangleheadCounterclockwiseRotate90")
-    static let hryvniasignArrowCirclepath = SFSymbol(rawValue: "hryvniasign.arrow.circlepath")
+    static var hryvniasignArrowCirclepath: SFSymbol { .init(rawValue: "hryvniasign.arrow.circlepath") }
 
     /// 􂈜
     /// Single Localization, 2 Layersets
@@ -4830,7 +4830,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "indianrupeesignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "indianrupeesignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "indianrupeesignArrowTriangleheadCounterclockwiseRotate90")
-    static let indianrupeesignArrowCirclepath = SFSymbol(rawValue: "indianrupeesign.arrow.circlepath")
+    static var indianrupeesignArrowCirclepath: SFSymbol { .init(rawValue: "indianrupeesign.arrow.circlepath") }
 
     /// 􁤩
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -4839,7 +4839,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad case.
-    static let ipadCase = SFSymbol(rawValue: "ipad.case")
+    static var ipadCase: SFSymbol { .init(rawValue: "ipad.case") }
 
     /// 􁤪
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -4848,7 +4848,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad and iPhone case.
-    static let ipadCaseAndIphoneCase = SFSymbol(rawValue: "ipad.case.and.iphone.case")
+    static var ipadCaseAndIphoneCase: SFSymbol { .init(rawValue: "ipad.case.and.iphone.case") }
 
     /// 􁣶
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -4858,7 +4858,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
-    static let ipadSizes = SFSymbol(rawValue: "ipad.sizes")
+    static var ipadSizes: SFSymbol { .init(rawValue: "ipad.sizes") }
 
     /// 􁰿
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -4873,7 +4873,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "iphoneAndArrowLeftAndArrowRightInward")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "iphoneAndArrowLeftAndArrowRightInward")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "iphoneAndArrowLeftAndArrowRightInward")
-    static let iphoneAndArrowLeftAndArrowRight = SFSymbol(rawValue: "iphone.and.arrow.left.and.arrow.right")
+    static var iphoneAndArrowLeftAndArrowRight: SFSymbol { .init(rawValue: "iphone.and.arrow.left.and.arrow.right") }
 
     /// 􁤨
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -4882,7 +4882,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone case.
-    static let iphoneCase = SFSymbol(rawValue: "iphone.case")
+    static var iphoneCase: SFSymbol { .init(rawValue: "iphone.case") }
 
     /// 􁣴
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -4892,7 +4892,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
-    static let iphoneSizes = SFSymbol(rawValue: "iphone.sizes")
+    static var iphoneSizes: SFSymbol { .init(rawValue: "iphone.sizes") }
 
     /// 􂃜
     /// Single Localization, 2 Layersets
@@ -4900,7 +4900,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let kashidaArabic = SFSymbol(rawValue: "kashida.arabic")
+    static var kashidaArabic: SFSymbol { .init(rawValue: "kashida.arabic") }
 
     /// 􂇮
     /// Single Localization, 2 Layersets
@@ -4908,7 +4908,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let keyRadiowavesForwardSlash = SFSymbol(rawValue: "key.radiowaves.forward.slash")
+    static var keyRadiowavesForwardSlash: SFSymbol { .init(rawValue: "key.radiowaves.forward.slash") }
 
     /// 􂇰
     /// Single Localization, 2 Layersets
@@ -4916,7 +4916,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let keyRadiowavesForwardSlashFill = SFSymbol(rawValue: "key.radiowaves.forward.slash.fill")
+    static var keyRadiowavesForwardSlashFill: SFSymbol { .init(rawValue: "key.radiowaves.forward.slash.fill") }
 
     /// 􂅦
     /// Single Localization, 2 Layersets
@@ -4924,7 +4924,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let keySlash = SFSymbol(rawValue: "key.slash")
+    static var keySlash: SFSymbol { .init(rawValue: "key.slash") }
 
     /// 􂅧
     /// Single Localization, 2 Layersets
@@ -4932,7 +4932,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let keySlashFill = SFSymbol(rawValue: "key.slash.fill")
+    static var keySlashFill: SFSymbol { .init(rawValue: "key.slash.fill") }
 
     /// 􂈠
     /// Single Localization, 2 Layersets
@@ -4945,7 +4945,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "kipsignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "kipsignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "kipsignArrowTriangleheadCounterclockwiseRotate90")
-    static let kipsignArrowCirclepath = SFSymbol(rawValue: "kipsign.arrow.circlepath")
+    static var kipsignArrowCirclepath: SFSymbol { .init(rawValue: "kipsign.arrow.circlepath") }
 
     /// 􀨇
     /// Single Localization, 2 Layersets
@@ -4953,7 +4953,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let lButtonRoundedbottomHorizontal = SFSymbol(rawValue: "l.button.roundedbottom.horizontal")
+    static var lButtonRoundedbottomHorizontal: SFSymbol { .init(rawValue: "l.button.roundedbottom.horizontal") }
 
     /// 􀨈
     /// Single Localization, 3 Layersets
@@ -4962,7 +4962,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let lButtonRoundedbottomHorizontalFill = SFSymbol(rawValue: "l.button.roundedbottom.horizontal.fill")
+    static var lButtonRoundedbottomHorizontalFill: SFSymbol { .init(rawValue: "l.button.roundedbottom.horizontal.fill") }
 
     /// 􀨉
     /// Single Localization, 2 Layersets
@@ -4970,7 +4970,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let l1ButtonRoundedbottomHorizontal = SFSymbol(rawValue: "l1.button.roundedbottom.horizontal")
+    static var l1ButtonRoundedbottomHorizontal: SFSymbol { .init(rawValue: "l1.button.roundedbottom.horizontal") }
 
     /// 􀨊
     /// Single Localization, 3 Layersets
@@ -4979,7 +4979,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let l1ButtonRoundedbottomHorizontalFill = SFSymbol(rawValue: "l1.button.roundedbottom.horizontal.fill")
+    static var l1ButtonRoundedbottomHorizontalFill: SFSymbol { .init(rawValue: "l1.button.roundedbottom.horizontal.fill") }
 
     /// 􁺁
     /// Single Localization, 2 Layersets
@@ -4987,7 +4987,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let l1Circle = SFSymbol(rawValue: "l1.circle")
+    static var l1Circle: SFSymbol { .init(rawValue: "l1.circle") }
 
     /// 􁺂
     /// Single Localization, 3 Layersets
@@ -4996,7 +4996,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let l1CircleFill = SFSymbol(rawValue: "l1.circle.fill")
+    static var l1CircleFill: SFSymbol { .init(rawValue: "l1.circle.fill") }
 
     /// 􁷳
     /// Single Localization, 2 Layersets
@@ -5004,7 +5004,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let l2ButtonAngledtopVerticalLeft = SFSymbol(rawValue: "l2.button.angledtop.vertical.left")
+    static var l2ButtonAngledtopVerticalLeft: SFSymbol { .init(rawValue: "l2.button.angledtop.vertical.left") }
 
     /// 􁷴
     /// Single Localization, 3 Layersets
@@ -5013,7 +5013,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let l2ButtonAngledtopVerticalLeftFill = SFSymbol(rawValue: "l2.button.angledtop.vertical.left.fill")
+    static var l2ButtonAngledtopVerticalLeftFill: SFSymbol { .init(rawValue: "l2.button.angledtop.vertical.left.fill") }
 
     /// 􀨋
     /// Single Localization, 2 Layersets
@@ -5021,7 +5021,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let l2ButtonRoundedtopHorizontal = SFSymbol(rawValue: "l2.button.roundedtop.horizontal")
+    static var l2ButtonRoundedtopHorizontal: SFSymbol { .init(rawValue: "l2.button.roundedtop.horizontal") }
 
     /// 􀨌
     /// Single Localization, 3 Layersets
@@ -5030,7 +5030,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let l2ButtonRoundedtopHorizontalFill = SFSymbol(rawValue: "l2.button.roundedtop.horizontal.fill")
+    static var l2ButtonRoundedtopHorizontalFill: SFSymbol { .init(rawValue: "l2.button.roundedtop.horizontal.fill") }
 
     /// 􁺅
     /// Single Localization, 2 Layersets
@@ -5038,7 +5038,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let l2Circle = SFSymbol(rawValue: "l2.circle")
+    static var l2Circle: SFSymbol { .init(rawValue: "l2.circle") }
 
     /// 􁺆
     /// Single Localization, 3 Layersets
@@ -5047,7 +5047,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let l2CircleFill = SFSymbol(rawValue: "l2.circle.fill")
+    static var l2CircleFill: SFSymbol { .init(rawValue: "l2.circle.fill") }
 
     /// 􁸇
     /// Single Localization, 2 Layersets
@@ -5055,7 +5055,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let l3ButtonAngledbottomHorizontalLeft = SFSymbol(rawValue: "l3.button.angledbottom.horizontal.left")
+    static var l3ButtonAngledbottomHorizontalLeft: SFSymbol { .init(rawValue: "l3.button.angledbottom.horizontal.left") }
 
     /// 􁸈
     /// Single Localization, 3 Layersets
@@ -5064,7 +5064,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let l3ButtonAngledbottomHorizontalLeftFill = SFSymbol(rawValue: "l3.button.angledbottom.horizontal.left.fill")
+    static var l3ButtonAngledbottomHorizontalLeftFill: SFSymbol { .init(rawValue: "l3.button.angledbottom.horizontal.left.fill") }
 
     /// 􁸠
     /// Single Localization, 2 Layersets
@@ -5072,7 +5072,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let l4ButtonHorizontal = SFSymbol(rawValue: "l4.button.horizontal")
+    static var l4ButtonHorizontal: SFSymbol { .init(rawValue: "l4.button.horizontal") }
 
     /// 􁸡
     /// Single Localization, 3 Layersets
@@ -5081,7 +5081,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let l4ButtonHorizontalFill = SFSymbol(rawValue: "l4.button.horizontal.fill")
+    static var l4ButtonHorizontalFill: SFSymbol { .init(rawValue: "l4.button.horizontal.fill") }
 
     /// 􁼛
     /// Single Localization, 2 Layersets
@@ -5089,7 +5089,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let ladybugCircle = SFSymbol(rawValue: "ladybug.circle")
+    static var ladybugCircle: SFSymbol { .init(rawValue: "ladybug.circle") }
 
     /// 􁼜
     /// Single Localization, 3 Layersets
@@ -5098,7 +5098,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let ladybugCircleFill = SFSymbol(rawValue: "ladybug.circle.fill")
+    static var ladybugCircleFill: SFSymbol { .init(rawValue: "ladybug.circle.fill") }
 
     /// 􂈰
     /// Single Localization, 2 Layersets
@@ -5111,14 +5111,14 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "larisignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "larisignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "larisignArrowTriangleheadCounterclockwiseRotate90")
-    static let larisignArrowCirclepath = SFSymbol(rawValue: "larisign.arrow.circlepath")
+    static var larisignArrowCirclepath: SFSymbol { .init(rawValue: "larisign.arrow.circlepath") }
 
     /// 􂁝
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let laserBurst = SFSymbol(rawValue: "laser.burst")
+    static var laserBurst: SFSymbol { .init(rawValue: "laser.burst") }
 
     /// 􀣳
     /// Single Localization, 2 Layersets
@@ -5126,7 +5126,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let lassoBadgeSparkles = SFSymbol(rawValue: "lasso.badge.sparkles")
+    static var lassoBadgeSparkles: SFSymbol { .init(rawValue: "lasso.badge.sparkles") }
 
     /// 􀨓
     /// Single Localization, 2 Layersets
@@ -5134,7 +5134,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let lbButtonRoundedbottomHorizontal = SFSymbol(rawValue: "lb.button.roundedbottom.horizontal")
+    static var lbButtonRoundedbottomHorizontal: SFSymbol { .init(rawValue: "lb.button.roundedbottom.horizontal") }
 
     /// 􀨔
     /// Single Localization, 3 Layersets
@@ -5143,7 +5143,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let lbButtonRoundedbottomHorizontalFill = SFSymbol(rawValue: "lb.button.roundedbottom.horizontal.fill")
+    static var lbButtonRoundedbottomHorizontalFill: SFSymbol { .init(rawValue: "lb.button.roundedbottom.horizontal.fill") }
 
     /// 􁺃
     /// Single Localization, 2 Layersets
@@ -5151,7 +5151,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let lbCircle = SFSymbol(rawValue: "lb.circle")
+    static var lbCircle: SFSymbol { .init(rawValue: "lb.circle") }
 
     /// 􁺄
     /// Single Localization, 3 Layersets
@@ -5160,14 +5160,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let lbCircleFill = SFSymbol(rawValue: "lb.circle.fill")
+    static var lbCircleFill: SFSymbol { .init(rawValue: "lb.circle.fill") }
 
     /// 􁣣
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let left = SFSymbol(rawValue: "left")
+    static var left: SFSymbol { .init(rawValue: "left") }
 
     /// 􁣤
     /// Single Localization, 2 Layersets
@@ -5175,7 +5175,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let leftCircle = SFSymbol(rawValue: "left.circle")
+    static var leftCircle: SFSymbol { .init(rawValue: "left.circle") }
 
     /// 􁣥
     /// Single Localization, 3 Layersets
@@ -5184,7 +5184,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let leftCircleFill = SFSymbol(rawValue: "left.circle.fill")
+    static var leftCircleFill: SFSymbol { .init(rawValue: "left.circle.fill") }
 
     /// 􁺪
     /// Single Localization, 2 Layersets
@@ -5192,7 +5192,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let licenseplate = SFSymbol(rawValue: "licenseplate")
+    static var licenseplate: SFSymbol { .init(rawValue: "licenseplate") }
 
     /// 􁺫
     /// Single Localization, 3 Layersets
@@ -5201,7 +5201,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let licenseplateFill = SFSymbol(rawValue: "licenseplate.fill")
+    static var licenseplateFill: SFSymbol { .init(rawValue: "licenseplate.fill") }
 
     /// 􁷘
     /// Single Localization, 2 Layersets
@@ -5209,7 +5209,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let lightbulbMax = SFSymbol(rawValue: "lightbulb.max")
+    static var lightbulbMax: SFSymbol { .init(rawValue: "lightbulb.max") }
 
     /// 􁷙
     /// Single Localization, 2 Layersets
@@ -5217,7 +5217,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let lightbulbMaxFill = SFSymbol(rawValue: "lightbulb.max.fill")
+    static var lightbulbMaxFill: SFSymbol { .init(rawValue: "lightbulb.max.fill") }
 
     /// 􁷖
     /// Single Localization, 2 Layersets
@@ -5225,7 +5225,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let lightbulbMin = SFSymbol(rawValue: "lightbulb.min")
+    static var lightbulbMin: SFSymbol { .init(rawValue: "lightbulb.min") }
 
     /// 􁹄
     /// Single Localization, 3 Layersets
@@ -5234,7 +5234,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let lightbulbMinBadgeExclamationmark = SFSymbol(rawValue: "lightbulb.min.badge.exclamationmark")
+    static var lightbulbMinBadgeExclamationmark: SFSymbol { .init(rawValue: "lightbulb.min.badge.exclamationmark") }
 
     /// 􁹅
     /// Single Localization, 3 Layersets
@@ -5243,7 +5243,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let lightbulbMinBadgeExclamationmarkFill = SFSymbol(rawValue: "lightbulb.min.badge.exclamationmark.fill")
+    static var lightbulbMinBadgeExclamationmarkFill: SFSymbol { .init(rawValue: "lightbulb.min.badge.exclamationmark.fill") }
 
     /// 􁷗
     /// Single Localization, 2 Layersets
@@ -5251,21 +5251,21 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let lightbulbMinFill = SFSymbol(rawValue: "lightbulb.min.fill")
+    static var lightbulbMinFill: SFSymbol { .init(rawValue: "lightbulb.min.fill") }
 
     /// 􀷺
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let lightrail = SFSymbol(rawValue: "lightrail")
+    static var lightrail: SFSymbol { .init(rawValue: "lightrail") }
 
     /// 􀷻
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let lightrailFill = SFSymbol(rawValue: "lightrail.fill")
+    static var lightrailFill: SFSymbol { .init(rawValue: "lightrail.fill") }
 
     /// 􁹩
     /// Single Localization, 2 Layersets
@@ -5273,7 +5273,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    static let lightspectrumHorizontal = SFSymbol(rawValue: "lightspectrum.horizontal")
+    static var lightspectrumHorizontal: SFSymbol { .init(rawValue: "lightspectrum.horizontal") }
 
     /// 􁷹
     /// Single Localization, 2 Layersets
@@ -5281,7 +5281,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let line3HorizontalButtonAngledtopVerticalRight = SFSymbol(rawValue: "line.3.horizontal.button.angledtop.vertical.right")
+    static var line3HorizontalButtonAngledtopVerticalRight: SFSymbol { .init(rawValue: "line.3.horizontal.button.angledtop.vertical.right") }
 
     /// 􁷺
     /// Single Localization, 3 Layersets
@@ -5290,14 +5290,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let line3HorizontalButtonAngledtopVerticalRightFill = SFSymbol(rawValue: "line.3.horizontal.button.angledtop.vertical.right.fill")
+    static var line3HorizontalButtonAngledtopVerticalRightFill: SFSymbol { .init(rawValue: "line.3.horizontal.button.angledtop.vertical.right.fill") }
 
     /// 􂀙
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let linesMeasurementVertical = SFSymbol(rawValue: "lines.measurement.vertical")
+    static var linesMeasurementVertical: SFSymbol { .init(rawValue: "lines.measurement.vertical") }
 
     /// 􂈢
     /// Single Localization, 2 Layersets
@@ -5310,7 +5310,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "lirasignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "lirasignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "lirasignArrowTriangleheadCounterclockwiseRotate90")
-    static let lirasignArrowCirclepath = SFSymbol(rawValue: "lirasign.arrow.circlepath")
+    static var lirasignArrowCirclepath: SFSymbol { .init(rawValue: "lirasign.arrow.circlepath") }
 
     /// 􀙔
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -5321,7 +5321,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Live Photos feature.
-    static let livephotoBadgeAutomatic = SFSymbol(rawValue: "livephoto.badge.automatic")
+    static var livephotoBadgeAutomatic: SFSymbol { .init(rawValue: "livephoto.badge.automatic") }
 
     /// 􁼵
     /// Single Localization, 2 Layersets
@@ -5329,7 +5329,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let lizardCircle = SFSymbol(rawValue: "lizard.circle")
+    static var lizardCircle: SFSymbol { .init(rawValue: "lizard.circle") }
 
     /// 􁼶
     /// Single Localization, 3 Layersets
@@ -5338,7 +5338,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let lizardCircleFill = SFSymbol(rawValue: "lizard.circle.fill")
+    static var lizardCircleFill: SFSymbol { .init(rawValue: "lizard.circle.fill") }
 
     /// 􁸢
     /// Single Localization, 2 Layersets
@@ -5346,7 +5346,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let lmButtonHorizontal = SFSymbol(rawValue: "lm.button.horizontal")
+    static var lmButtonHorizontal: SFSymbol { .init(rawValue: "lm.button.horizontal") }
 
     /// 􁸣
     /// Single Localization, 3 Layersets
@@ -5355,7 +5355,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let lmButtonHorizontalFill = SFSymbol(rawValue: "lm.button.horizontal.fill")
+    static var lmButtonHorizontalFill: SFSymbol { .init(rawValue: "lm.button.horizontal.fill") }
 
     /// 􁰏
     /// Single Localization, 2 Layersets
@@ -5363,7 +5363,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let lockAppDashed = SFSymbol(rawValue: "lock.app.dashed")
+    static var lockAppDashed: SFSymbol { .init(rawValue: "lock.app.dashed") }
 
     /// 􂆉
     /// Single Localization, 3 Layersets
@@ -5372,7 +5372,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let lockBadgeClock = SFSymbol(rawValue: "lock.badge.clock")
+    static var lockBadgeClock: SFSymbol { .init(rawValue: "lock.badge.clock") }
 
     /// 􂆊
     /// Single Localization, 3 Layersets
@@ -5381,7 +5381,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let lockBadgeClockFill = SFSymbol(rawValue: "lock.badge.clock.fill")
+    static var lockBadgeClockFill: SFSymbol { .init(rawValue: "lock.badge.clock.fill") }
 
     /// 􂄜
     /// Single Localization, 2 Layersets
@@ -5389,7 +5389,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let lockCircleDotted = SFSymbol(rawValue: "lock.circle.dotted")
+    static var lockCircleDotted: SFSymbol { .init(rawValue: "lock.circle.dotted") }
 
     /// 􁸋
     /// Single Localization, 2 Layersets
@@ -5397,7 +5397,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let lsbButtonAngledbottomHorizontalLeft = SFSymbol(rawValue: "lsb.button.angledbottom.horizontal.left")
+    static var lsbButtonAngledbottomHorizontalLeft: SFSymbol { .init(rawValue: "lsb.button.angledbottom.horizontal.left") }
 
     /// 􁸌
     /// Single Localization, 3 Layersets
@@ -5406,7 +5406,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let lsbButtonAngledbottomHorizontalLeftFill = SFSymbol(rawValue: "lsb.button.angledbottom.horizontal.left.fill")
+    static var lsbButtonAngledbottomHorizontalLeftFill: SFSymbol { .init(rawValue: "lsb.button.angledbottom.horizontal.left.fill") }
 
     /// 􀨗
     /// Single Localization, 2 Layersets
@@ -5414,7 +5414,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let ltButtonRoundedtopHorizontal = SFSymbol(rawValue: "lt.button.roundedtop.horizontal")
+    static var ltButtonRoundedtopHorizontal: SFSymbol { .init(rawValue: "lt.button.roundedtop.horizontal") }
 
     /// 􀨘
     /// Single Localization, 3 Layersets
@@ -5423,7 +5423,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let ltButtonRoundedtopHorizontalFill = SFSymbol(rawValue: "lt.button.roundedtop.horizontal.fill")
+    static var ltButtonRoundedtopHorizontalFill: SFSymbol { .init(rawValue: "lt.button.roundedtop.horizontal.fill") }
 
     /// 􁺇
     /// Single Localization, 2 Layersets
@@ -5431,7 +5431,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let ltCircle = SFSymbol(rawValue: "lt.circle")
+    static var ltCircle: SFSymbol { .init(rawValue: "lt.circle") }
 
     /// 􁺈
     /// Single Localization, 3 Layersets
@@ -5440,7 +5440,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let ltCircleFill = SFSymbol(rawValue: "lt.circle.fill")
+    static var ltCircleFill: SFSymbol { .init(rawValue: "lt.circle.fill") }
 
     /// 􁸤
     /// Single Localization, 2 Layersets
@@ -5448,7 +5448,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let m1ButtonHorizontal = SFSymbol(rawValue: "m1.button.horizontal")
+    static var m1ButtonHorizontal: SFSymbol { .init(rawValue: "m1.button.horizontal") }
 
     /// 􁸥
     /// Single Localization, 3 Layersets
@@ -5457,7 +5457,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let m1ButtonHorizontalFill = SFSymbol(rawValue: "m1.button.horizontal.fill")
+    static var m1ButtonHorizontalFill: SFSymbol { .init(rawValue: "m1.button.horizontal.fill") }
 
     /// 􁸦
     /// Single Localization, 2 Layersets
@@ -5465,7 +5465,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let m2ButtonHorizontal = SFSymbol(rawValue: "m2.button.horizontal")
+    static var m2ButtonHorizontal: SFSymbol { .init(rawValue: "m2.button.horizontal") }
 
     /// 􁸧
     /// Single Localization, 3 Layersets
@@ -5474,7 +5474,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let m2ButtonHorizontalFill = SFSymbol(rawValue: "m2.button.horizontal.fill")
+    static var m2ButtonHorizontalFill: SFSymbol { .init(rawValue: "m2.button.horizontal.fill") }
 
     /// 􁸨
     /// Single Localization, 2 Layersets
@@ -5482,7 +5482,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let m3ButtonHorizontal = SFSymbol(rawValue: "m3.button.horizontal")
+    static var m3ButtonHorizontal: SFSymbol { .init(rawValue: "m3.button.horizontal") }
 
     /// 􁸩
     /// Single Localization, 3 Layersets
@@ -5491,7 +5491,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let m3ButtonHorizontalFill = SFSymbol(rawValue: "m3.button.horizontal.fill")
+    static var m3ButtonHorizontalFill: SFSymbol { .init(rawValue: "m3.button.horizontal.fill") }
 
     /// 􁸪
     /// Single Localization, 2 Layersets
@@ -5499,7 +5499,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let m4ButtonHorizontal = SFSymbol(rawValue: "m4.button.horizontal")
+    static var m4ButtonHorizontal: SFSymbol { .init(rawValue: "m4.button.horizontal") }
 
     /// 􁸫
     /// Single Localization, 3 Layersets
@@ -5508,7 +5508,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let m4ButtonHorizontalFill = SFSymbol(rawValue: "m4.button.horizontal.fill")
+    static var m4ButtonHorizontalFill: SFSymbol { .init(rawValue: "m4.button.horizontal.fill") }
 
     /// 􁟬
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -5518,7 +5518,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s MacBook.
-    static let macbook = SFSymbol(rawValue: "macbook")
+    static var macbook: SFSymbol { .init(rawValue: "macbook") }
 
     /// 􁜙
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -5533,7 +5533,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "macbookAndVisionPro")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "macbookAndVisionPro")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "macbookAndVisionPro")
-    static let macbookAndVisionpro = SFSymbol(rawValue: "macbook.and.visionpro")
+    static var macbookAndVisionpro: SFSymbol { .init(rawValue: "macbook.and.visionpro") }
 
     /// 􁟫
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -5543,7 +5543,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s MacBook.
-    static let macbookGen1 = SFSymbol(rawValue: "macbook.gen1")
+    static var macbookGen1: SFSymbol { .init(rawValue: "macbook.gen1") }
 
     /// 􁈸
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -5553,7 +5553,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s MacBook.
-    static let macbookGen2 = SFSymbol(rawValue: "macbook.gen2")
+    static var macbookGen2: SFSymbol { .init(rawValue: "macbook.gen2") }
 
     /// 􁝸
     /// 2 Localizations, 2 Layersets
@@ -5570,7 +5570,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 26.0, renamed: "macwindowAndPointerArrow")
     @available(watchOS, introduced: 10.0, deprecated: 26.0, renamed: "macwindowAndPointerArrow")
     @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "macwindowAndPointerArrow")
-    static let macwindowAndCursorarrow = SymbolWith1Localization<Rtl>(rawValue: "macwindow.and.cursorarrow")
+    static var macwindowAndCursorarrow: SymbolWith1Localization<Rtl> { .init(rawValue: "macwindow.and.cursorarrow") }
 
     /// 􂈭
     /// Single Localization, 2 Layersets
@@ -5583,7 +5583,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "manatsignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "manatsignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "manatsignArrowTriangleheadCounterclockwiseRotate90")
-    static let manatsignArrowCirclepath = SFSymbol(rawValue: "manatsign.arrow.circlepath")
+    static var manatsignArrowCirclepath: SFSymbol { .init(rawValue: "manatsign.arrow.circlepath") }
 
     /// 􁼡
     /// Single Localization, 3 Layersets
@@ -5592,7 +5592,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let mappinAndEllipseCircle = SFSymbol(rawValue: "mappin.and.ellipse.circle")
+    static var mappinAndEllipseCircle: SFSymbol { .init(rawValue: "mappin.and.ellipse.circle") }
 
     /// 􁼢
     /// Single Localization, 3 Layersets
@@ -5601,7 +5601,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let mappinAndEllipseCircleFill = SFSymbol(rawValue: "mappin.and.ellipse.circle.fill")
+    static var mappinAndEllipseCircleFill: SFSymbol { .init(rawValue: "mappin.and.ellipse.circle.fill") }
 
     /// 􀼁
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -5612,7 +5612,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
-    static let messageBadgeWaveform = SFSymbol(rawValue: "message.badge.waveform")
+    static var messageBadgeWaveform: SFSymbol { .init(rawValue: "message.badge.waveform") }
 
     /// 􀼂
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -5623,7 +5623,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
-    static let messageBadgeWaveformFill = SFSymbol(rawValue: "message.badge.waveform.fill")
+    static var messageBadgeWaveformFill: SFSymbol { .init(rawValue: "message.badge.waveform.fill") }
 
     /// 􂈫
     /// Single Localization, 2 Layersets
@@ -5636,7 +5636,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "millsignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "millsignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "millsignArrowTriangleheadCounterclockwiseRotate90")
-    static let millsignArrowCirclepath = SFSymbol(rawValue: "millsign.arrow.circlepath")
+    static var millsignArrowCirclepath: SFSymbol { .init(rawValue: "millsign.arrow.circlepath") }
 
     /// 􁶽
     /// Single Localization, 2 Layersets
@@ -5644,7 +5644,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let moonDust = SFSymbol(rawValue: "moon.dust")
+    static var moonDust: SFSymbol { .init(rawValue: "moon.dust") }
 
     /// 􁶿
     /// Single Localization, 2 Layersets
@@ -5652,7 +5652,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let moonDustCircle = SFSymbol(rawValue: "moon.dust.circle")
+    static var moonDustCircle: SFSymbol { .init(rawValue: "moon.dust.circle") }
 
     /// 􁷀
     /// Single Localization, 3 Layersets
@@ -5661,7 +5661,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let moonDustCircleFill = SFSymbol(rawValue: "moon.dust.circle.fill")
+    static var moonDustCircleFill: SFSymbol { .init(rawValue: "moon.dust.circle.fill") }
 
     /// 􁶾
     /// Single Localization, 3 Layersets
@@ -5670,7 +5670,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let moonDustFill = SFSymbol(rawValue: "moon.dust.fill")
+    static var moonDustFill: SFSymbol { .init(rawValue: "moon.dust.fill") }
 
     /// 􂂳
     /// Single Localization, 2 Layersets
@@ -5678,7 +5678,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let moonrise = SFSymbol(rawValue: "moonrise")
+    static var moonrise: SFSymbol { .init(rawValue: "moonrise") }
 
     /// 􂂵
     /// Single Localization, 2 Layersets
@@ -5686,7 +5686,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let moonriseCircle = SFSymbol(rawValue: "moonrise.circle")
+    static var moonriseCircle: SFSymbol { .init(rawValue: "moonrise.circle") }
 
     /// 􂂶
     /// Single Localization, 3 Layersets
@@ -5695,7 +5695,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let moonriseCircleFill = SFSymbol(rawValue: "moonrise.circle.fill")
+    static var moonriseCircleFill: SFSymbol { .init(rawValue: "moonrise.circle.fill") }
 
     /// 􂂴
     /// Single Localization, 3 Layersets
@@ -5704,7 +5704,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let moonriseFill = SFSymbol(rawValue: "moonrise.fill")
+    static var moonriseFill: SFSymbol { .init(rawValue: "moonrise.fill") }
 
     /// 􂂷
     /// Single Localization, 2 Layersets
@@ -5712,7 +5712,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let moonset = SFSymbol(rawValue: "moonset")
+    static var moonset: SFSymbol { .init(rawValue: "moonset") }
 
     /// 􂂹
     /// Single Localization, 2 Layersets
@@ -5720,7 +5720,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let moonsetCircle = SFSymbol(rawValue: "moonset.circle")
+    static var moonsetCircle: SFSymbol { .init(rawValue: "moonset.circle") }
 
     /// 􂂺
     /// Single Localization, 3 Layersets
@@ -5729,7 +5729,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let moonsetCircleFill = SFSymbol(rawValue: "moonset.circle.fill")
+    static var moonsetCircleFill: SFSymbol { .init(rawValue: "moonset.circle.fill") }
 
     /// 􂂸
     /// Single Localization, 3 Layersets
@@ -5738,7 +5738,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let moonsetFill = SFSymbol(rawValue: "moonset.fill")
+    static var moonsetFill: SFSymbol { .init(rawValue: "moonset.fill") }
 
     /// 􀜤
     /// Single Localization, 2 Layersets
@@ -5746,7 +5746,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    static let movieclapper = SFSymbol(rawValue: "movieclapper")
+    static var movieclapper: SFSymbol { .init(rawValue: "movieclapper") }
 
     /// 􁶺
     /// Single Localization, 2 Layersets
@@ -5754,7 +5754,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    static let movieclapperFill = SFSymbol(rawValue: "movieclapper.fill")
+    static var movieclapperFill: SFSymbol { .init(rawValue: "movieclapper.fill") }
 
     /// 􂈥
     /// Single Localization, 2 Layersets
@@ -5767,7 +5767,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "nairasignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "nairasignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "nairasignArrowTriangleheadCounterclockwiseRotate90")
-    static let nairasignArrowCirclepath = SFSymbol(rawValue: "nairasign.arrow.circlepath")
+    static var nairasignArrowCirclepath: SFSymbol { .init(rawValue: "nairasign.arrow.circlepath") }
 
     /// 􁣡
     /// Single Localization, 3 Layersets
@@ -5776,14 +5776,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let networkSlash = SFSymbol(rawValue: "network.slash")
+    static var networkSlash: SFSymbol { .init(rawValue: "network.slash") }
 
     /// 􁤬
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let norwegiankronesign = SFSymbol(rawValue: "norwegiankronesign")
+    static var norwegiankronesign: SFSymbol { .init(rawValue: "norwegiankronesign") }
 
     /// 􂈵
     /// Single Localization, 2 Layersets
@@ -5796,7 +5796,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "norwegiankronesignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "norwegiankronesignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "norwegiankronesignArrowTriangleheadCounterclockwiseRotate90")
-    static let norwegiankronesignArrowCirclepath = SFSymbol(rawValue: "norwegiankronesign.arrow.circlepath")
+    static var norwegiankronesignArrowCirclepath: SFSymbol { .init(rawValue: "norwegiankronesign.arrow.circlepath") }
 
     /// 􀮤
     /// Single Localization, 2 Layersets
@@ -5804,7 +5804,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let norwegiankronesignCircle = SFSymbol(rawValue: "norwegiankronesign.circle")
+    static var norwegiankronesignCircle: SFSymbol { .init(rawValue: "norwegiankronesign.circle") }
 
     /// 􀮥
     /// Single Localization, 3 Layersets
@@ -5813,7 +5813,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let norwegiankronesignCircleFill = SFSymbol(rawValue: "norwegiankronesign.circle.fill")
+    static var norwegiankronesignCircleFill: SFSymbol { .init(rawValue: "norwegiankronesign.circle.fill") }
 
     /// 􀮦
     /// Single Localization, 2 Layersets
@@ -5821,7 +5821,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let norwegiankronesignSquare = SFSymbol(rawValue: "norwegiankronesign.square")
+    static var norwegiankronesignSquare: SFSymbol { .init(rawValue: "norwegiankronesign.square") }
 
     /// 􀮧
     /// Single Localization, 3 Layersets
@@ -5830,7 +5830,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let norwegiankronesignSquareFill = SFSymbol(rawValue: "norwegiankronesign.square.fill")
+    static var norwegiankronesignSquareFill: SFSymbol { .init(rawValue: "norwegiankronesign.square.fill") }
 
     /// 􁢙
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -5840,7 +5840,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Optic ID feature.
-    static let opticid = SFSymbol(rawValue: "opticid")
+    static var opticid: SFSymbol { .init(rawValue: "opticid") }
 
     /// 􁣂
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -5851,7 +5851,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Optic ID feature.
-    static let opticidFill = SFSymbol(rawValue: "opticid.fill")
+    static var opticidFill: SFSymbol { .init(rawValue: "opticid.fill") }
 
     /// 􁸬
     /// Single Localization, 2 Layersets
@@ -5859,7 +5859,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let p1ButtonHorizontal = SFSymbol(rawValue: "p1.button.horizontal")
+    static var p1ButtonHorizontal: SFSymbol { .init(rawValue: "p1.button.horizontal") }
 
     /// 􁸭
     /// Single Localization, 3 Layersets
@@ -5868,7 +5868,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let p1ButtonHorizontalFill = SFSymbol(rawValue: "p1.button.horizontal.fill")
+    static var p1ButtonHorizontalFill: SFSymbol { .init(rawValue: "p1.button.horizontal.fill") }
 
     /// 􁸮
     /// Single Localization, 2 Layersets
@@ -5876,7 +5876,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let p2ButtonHorizontal = SFSymbol(rawValue: "p2.button.horizontal")
+    static var p2ButtonHorizontal: SFSymbol { .init(rawValue: "p2.button.horizontal") }
 
     /// 􁸯
     /// Single Localization, 3 Layersets
@@ -5885,7 +5885,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let p2ButtonHorizontalFill = SFSymbol(rawValue: "p2.button.horizontal.fill")
+    static var p2ButtonHorizontalFill: SFSymbol { .init(rawValue: "p2.button.horizontal.fill") }
 
     /// 􁸰
     /// Single Localization, 2 Layersets
@@ -5893,7 +5893,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let p3ButtonHorizontal = SFSymbol(rawValue: "p3.button.horizontal")
+    static var p3ButtonHorizontal: SFSymbol { .init(rawValue: "p3.button.horizontal") }
 
     /// 􁸱
     /// Single Localization, 3 Layersets
@@ -5902,7 +5902,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let p3ButtonHorizontalFill = SFSymbol(rawValue: "p3.button.horizontal.fill")
+    static var p3ButtonHorizontalFill: SFSymbol { .init(rawValue: "p3.button.horizontal.fill") }
 
     /// 􁸲
     /// Single Localization, 2 Layersets
@@ -5910,7 +5910,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let p4ButtonHorizontal = SFSymbol(rawValue: "p4.button.horizontal")
+    static var p4ButtonHorizontal: SFSymbol { .init(rawValue: "p4.button.horizontal") }
 
     /// 􁸳
     /// Single Localization, 3 Layersets
@@ -5919,35 +5919,35 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let p4ButtonHorizontalFill = SFSymbol(rawValue: "p4.button.horizontal.fill")
+    static var p4ButtonHorizontalFill: SFSymbol { .init(rawValue: "p4.button.horizontal.fill") }
 
     /// 􁸴
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let paddleshifterLeft = SFSymbol(rawValue: "paddleshifter.left")
+    static var paddleshifterLeft: SFSymbol { .init(rawValue: "paddleshifter.left") }
 
     /// 􁸵
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let paddleshifterLeftFill = SFSymbol(rawValue: "paddleshifter.left.fill")
+    static var paddleshifterLeftFill: SFSymbol { .init(rawValue: "paddleshifter.left.fill") }
 
     /// 􁸶
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let paddleshifterRight = SFSymbol(rawValue: "paddleshifter.right")
+    static var paddleshifterRight: SFSymbol { .init(rawValue: "paddleshifter.right") }
 
     /// 􁸷
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let paddleshifterRightFill = SFSymbol(rawValue: "paddleshifter.right.fill")
+    static var paddleshifterRightFill: SFSymbol { .init(rawValue: "paddleshifter.right.fill") }
 
     /// 􁷿
     /// Single Localization, 3 Layersets
@@ -5956,7 +5956,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let panoBadgePlay = SFSymbol(rawValue: "pano.badge.play")
+    static var panoBadgePlay: SFSymbol { .init(rawValue: "pano.badge.play") }
 
     /// 􁸀
     /// Single Localization, 3 Layersets
@@ -5965,7 +5965,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let panoBadgePlayFill = SFSymbol(rawValue: "pano.badge.play.fill")
+    static var panoBadgePlayFill: SFSymbol { .init(rawValue: "pano.badge.play.fill") }
 
     /// 􁖲
     /// Single Localization, 2 Layersets
@@ -5973,7 +5973,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let parkingsignRadiowavesLeftAndRight = SFSymbol(rawValue: "parkingsign.radiowaves.left.and.right")
+    static var parkingsignRadiowavesLeftAndRight: SFSymbol { .init(rawValue: "parkingsign.radiowaves.left.and.right") }
 
     /// 􁥨
     /// Single Localization, 2 Layersets
@@ -5981,14 +5981,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let parkingsignRadiowavesRightAndSafetycone = SFSymbol(rawValue: "parkingsign.radiowaves.right.and.safetycone")
+    static var parkingsignRadiowavesRightAndSafetycone: SFSymbol { .init(rawValue: "parkingsign.radiowaves.right.and.safetycone") }
 
     /// 􁉨
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let parkingsignSteeringwheel = SFSymbol(rawValue: "parkingsign.steeringwheel")
+    static var parkingsignSteeringwheel: SFSymbol { .init(rawValue: "parkingsign.steeringwheel") }
 
     /// 􁸗
     /// Single Localization, 2 Layersets
@@ -5996,7 +5996,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let pedalAccelerator = SFSymbol(rawValue: "pedal.accelerator")
+    static var pedalAccelerator: SFSymbol { .init(rawValue: "pedal.accelerator") }
 
     /// 􁸘
     /// Single Localization, 2 Layersets
@@ -6004,7 +6004,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let pedalAcceleratorFill = SFSymbol(rawValue: "pedal.accelerator.fill")
+    static var pedalAcceleratorFill: SFSymbol { .init(rawValue: "pedal.accelerator.fill") }
 
     /// 􁸙
     /// Single Localization, 2 Layersets
@@ -6012,7 +6012,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let pedalBrake = SFSymbol(rawValue: "pedal.brake")
+    static var pedalBrake: SFSymbol { .init(rawValue: "pedal.brake") }
 
     /// 􁸚
     /// Single Localization, 2 Layersets
@@ -6020,7 +6020,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let pedalBrakeFill = SFSymbol(rawValue: "pedal.brake.fill")
+    static var pedalBrakeFill: SFSymbol { .init(rawValue: "pedal.brake.fill") }
 
     /// 􁸛
     /// Single Localization, 2 Layersets
@@ -6028,7 +6028,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let pedalClutch = SFSymbol(rawValue: "pedal.clutch")
+    static var pedalClutch: SFSymbol { .init(rawValue: "pedal.clutch") }
 
     /// 􁸜
     /// Single Localization, 2 Layersets
@@ -6036,7 +6036,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let pedalClutchFill = SFSymbol(rawValue: "pedal.clutch.fill")
+    static var pedalClutchFill: SFSymbol { .init(rawValue: "pedal.clutch.fill") }
 
     /// 􁕍
     /// 2 Localizations, 3 Layersets
@@ -6049,7 +6049,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let pencilAndListClipboard = SymbolWith1Localization<Rtl>(rawValue: "pencil.and.list.clipboard")
+    static var pencilAndListClipboard: SymbolWith1Localization<Rtl> { .init(rawValue: "pencil.and.list.clipboard") }
 
     /// 􀤒
     /// Single Localization, 2 Layersets
@@ -6057,7 +6057,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let pencilAndScribble = SFSymbol(rawValue: "pencil.and.scribble")
+    static var pencilAndScribble: SFSymbol { .init(rawValue: "pencil.and.scribble") }
 
     /// 􁿵
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -6068,7 +6068,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Markup feature.
-    static let pencilTipCropCircleBadgeArrowForwardFill = SFSymbol(rawValue: "pencil.tip.crop.circle.badge.arrow.forward.fill")
+    static var pencilTipCropCircleBadgeArrowForwardFill: SFSymbol { .init(rawValue: "pencil.tip.crop.circle.badge.arrow.forward.fill") }
 
     /// 􁿳
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -6079,7 +6079,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Markup feature.
-    static let pencilTipCropCircleBadgeMinusFill = SFSymbol(rawValue: "pencil.tip.crop.circle.badge.minus.fill")
+    static var pencilTipCropCircleBadgeMinusFill: SFSymbol { .init(rawValue: "pencil.tip.crop.circle.badge.minus.fill") }
 
     /// 􁾝
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -6090,7 +6090,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Markup feature.
-    static let pencilTipCropCircleBadgePlusFill = SFSymbol(rawValue: "pencil.tip.crop.circle.badge.plus.fill")
+    static var pencilTipCropCircleBadgePlusFill: SFSymbol { .init(rawValue: "pencil.tip.crop.circle.badge.plus.fill") }
 
     /// 􁾛
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -6101,7 +6101,7 @@ public extension SFSymbol {
     /// - Multicolor (iOS 17.1, macOS 14.1, tvOS 17.1, watchOS 10.1)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Markup feature.
-    static let pencilTipCropCircleFill = SFSymbol(rawValue: "pencil.tip.crop.circle.fill")
+    static var pencilTipCropCircleFill: SFSymbol { .init(rawValue: "pencil.tip.crop.circle.fill") }
 
     /// 􁷩
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -6111,7 +6111,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to sharing or using a shared password or passkey.
-    static let person2BadgeKey = SFSymbol(rawValue: "person.2.badge.key")
+    static var person2BadgeKey: SFSymbol { .init(rawValue: "person.2.badge.key") }
 
     /// 􁷫
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -6121,7 +6121,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to sharing or using a shared password or passkey.
-    static let person2BadgeKeyFill = SFSymbol(rawValue: "person.2.badge.key.fill")
+    static var person2BadgeKeyFill: SFSymbol { .init(rawValue: "person.2.badge.key.fill") }
 
     /// 􁠃
     /// Single Localization, 2 Layersets
@@ -6129,7 +6129,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let personAndBackgroundStripedHorizontal = SFSymbol(rawValue: "person.and.background.striped.horizontal")
+    static var personAndBackgroundStripedHorizontal: SFSymbol { .init(rawValue: "person.and.background.striped.horizontal") }
 
     /// 􂄽
     /// Single Localization, 2 Layersets
@@ -6137,7 +6137,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let personBubble = SFSymbol(rawValue: "person.bubble")
+    static var personBubble: SFSymbol { .init(rawValue: "person.bubble") }
 
     /// 􂄾
     /// Single Localization, 3 Layersets
@@ -6146,7 +6146,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
-    static let personBubbleFill = SFSymbol(rawValue: "person.bubble.fill")
+    static var personBubbleFill: SFSymbol { .init(rawValue: "person.bubble.fill") }
 
     /// 􁽓
     /// Single Localization, 2 Layersets
@@ -6154,7 +6154,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let personBustCircle = SFSymbol(rawValue: "person.bust.circle")
+    static var personBustCircle: SFSymbol { .init(rawValue: "person.bust.circle") }
 
     /// 􁽔
     /// Single Localization, 3 Layersets
@@ -6163,7 +6163,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let personBustCircleFill = SFSymbol(rawValue: "person.bust.circle.fill")
+    static var personBustCircleFill: SFSymbol { .init(rawValue: "person.bust.circle.fill") }
 
     /// 􂅪
     /// Single Localization, 2 Layersets
@@ -6171,7 +6171,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let personCropCircleDashedCircle = SFSymbol(rawValue: "person.crop.circle.dashed.circle")
+    static var personCropCircleDashedCircle: SFSymbol { .init(rawValue: "person.crop.circle.dashed.circle") }
 
     /// 􂃿
     /// Single Localization, 3 Layersets
@@ -6180,7 +6180,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let personCropCircleDashedCircleFill = SFSymbol(rawValue: "person.crop.circle.dashed.circle.fill")
+    static var personCropCircleDashedCircleFill: SFSymbol { .init(rawValue: "person.crop.circle.dashed.circle.fill") }
 
     /// 􁣔
     /// Single Localization, 2 Layersets
@@ -6188,7 +6188,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let personSlash = SFSymbol(rawValue: "person.slash")
+    static var personSlash: SFSymbol { .init(rawValue: "person.slash") }
 
     /// 􁣕
     /// Single Localization, 2 Layersets
@@ -6196,7 +6196,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let personSlashFill = SFSymbol(rawValue: "person.slash.fill")
+    static var personSlashFill: SFSymbol { .init(rawValue: "person.slash.fill") }
 
     /// 􂈞
     /// Single Localization, 2 Layersets
@@ -6209,7 +6209,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "pesetasignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "pesetasignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "pesetasignArrowTriangleheadCounterclockwiseRotate90")
-    static let pesetasignArrowCirclepath = SFSymbol(rawValue: "pesetasign.arrow.circlepath")
+    static var pesetasignArrowCirclepath: SFSymbol { .init(rawValue: "pesetasign.arrow.circlepath") }
 
     /// 􂈟
     /// Single Localization, 2 Layersets
@@ -6222,7 +6222,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "pesosignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "pesosignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "pesosignArrowTriangleheadCounterclockwiseRotate90")
-    static let pesosignArrowCirclepath = SFSymbol(rawValue: "pesosign.arrow.circlepath")
+    static var pesosignArrowCirclepath: SFSymbol { .init(rawValue: "pesosign.arrow.circlepath") }
 
     /// 􀼃
     /// Single Localization, 3 Layersets
@@ -6231,7 +6231,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let phoneBadgeWaveform = SFSymbol(rawValue: "phone.badge.waveform")
+    static var phoneBadgeWaveform: SFSymbol { .init(rawValue: "phone.badge.waveform") }
 
     /// 􀼄
     /// Single Localization, 3 Layersets
@@ -6240,7 +6240,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let phoneBadgeWaveformFill = SFSymbol(rawValue: "phone.badge.waveform.fill")
+    static var phoneBadgeWaveformFill: SFSymbol { .init(rawValue: "phone.badge.waveform.fill") }
 
     /// 􀱮
     /// 2 Localizations, 2 Layersets
@@ -6252,7 +6252,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let phoneBubble = SymbolWith1Localization<Rtl>(rawValue: "phone.bubble")
+    static var phoneBubble: SymbolWith1Localization<Rtl> { .init(rawValue: "phone.bubble") }
 
     /// 􀱯
     /// 2 Localizations, 3 Layersets
@@ -6265,7 +6265,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let phoneBubbleFill = SymbolWith1Localization<Rtl>(rawValue: "phone.bubble.fill")
+    static var phoneBubbleFill: SymbolWith1Localization<Rtl> { .init(rawValue: "phone.bubble.fill") }
 
     /// 􁼧
     /// Single Localization, 2 Layersets
@@ -6273,7 +6273,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let photoArtframeCircle = SFSymbol(rawValue: "photo.artframe.circle")
+    static var photoArtframeCircle: SFSymbol { .init(rawValue: "photo.artframe.circle") }
 
     /// 􁼨
     /// Single Localization, 3 Layersets
@@ -6282,7 +6282,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let photoArtframeCircleFill = SFSymbol(rawValue: "photo.artframe.circle.fill")
+    static var photoArtframeCircleFill: SFSymbol { .init(rawValue: "photo.artframe.circle.fill") }
 
     /// 􁃲
     /// Single Localization, 3 Layersets
@@ -6291,7 +6291,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let photoBadgeArrowDown = SFSymbol(rawValue: "photo.badge.arrow.down")
+    static var photoBadgeArrowDown: SFSymbol { .init(rawValue: "photo.badge.arrow.down") }
 
     /// 􁃳
     /// Single Localization, 3 Layersets
@@ -6300,7 +6300,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let photoBadgeArrowDownFill = SFSymbol(rawValue: "photo.badge.arrow.down.fill")
+    static var photoBadgeArrowDownFill: SFSymbol { .init(rawValue: "photo.badge.arrow.down.fill") }
 
     /// 􁘹
     /// Single Localization, 3 Layersets
@@ -6309,7 +6309,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let photoBadgeCheckmark = SFSymbol(rawValue: "photo.badge.checkmark")
+    static var photoBadgeCheckmark: SFSymbol { .init(rawValue: "photo.badge.checkmark") }
 
     /// 􁘺
     /// Single Localization, 3 Layersets
@@ -6318,7 +6318,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let photoBadgeCheckmarkFill = SFSymbol(rawValue: "photo.badge.checkmark.fill")
+    static var photoBadgeCheckmarkFill: SFSymbol { .init(rawValue: "photo.badge.checkmark.fill") }
 
     /// 􁃏
     /// Single Localization, 3 Layersets
@@ -6327,7 +6327,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let photoBadgePlus = SFSymbol(rawValue: "photo.badge.plus")
+    static var photoBadgePlus: SFSymbol { .init(rawValue: "photo.badge.plus") }
 
     /// 􁃐
     /// Single Localization, 3 Layersets
@@ -6336,7 +6336,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let photoBadgePlusFill = SFSymbol(rawValue: "photo.badge.plus.fill")
+    static var photoBadgePlusFill: SFSymbol { .init(rawValue: "photo.badge.plus.fill") }
 
     /// 􁹙
     /// Single Localization, 2 Layersets
@@ -6344,7 +6344,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let playHouse = SFSymbol(rawValue: "play.house")
+    static var playHouse: SFSymbol { .init(rawValue: "play.house") }
 
     /// 􁹚
     /// Single Localization, 3 Layersets
@@ -6353,7 +6353,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let playHouseFill = SFSymbol(rawValue: "play.house.fill")
+    static var playHouseFill: SFSymbol { .init(rawValue: "play.house.fill") }
 
     /// 􁻶
     /// Single Localization, 2 Layersets
@@ -6361,7 +6361,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let pointBottomleftFilledForwardToPointToprightScurvepath = SFSymbol(rawValue: "point.bottomleft.filled.forward.to.point.topright.scurvepath")
+    static var pointBottomleftFilledForwardToPointToprightScurvepath: SFSymbol { .init(rawValue: "point.bottomleft.filled.forward.to.point.topright.scurvepath") }
 
     /// 􁻷
     /// Single Localization, 2 Layersets
@@ -6374,7 +6374,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "pointBottomleftForwardToArrowTriangleUturnScurvepath")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "pointBottomleftForwardToArrowTriangleUturnScurvepath")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "pointBottomleftForwardToArrowTriangleUturnScurvepath")
-    static let pointBottomleftForwardToArrowtriangleUturnScurvepath = SFSymbol(rawValue: "point.bottomleft.forward.to.arrowtriangle.uturn.scurvepath")
+    static var pointBottomleftForwardToArrowtriangleUturnScurvepath: SFSymbol { .init(rawValue: "point.bottomleft.forward.to.arrowtriangle.uturn.scurvepath") }
 
     /// 􁸹
     /// Single Localization, 2 Layersets
@@ -6387,7 +6387,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "pointBottomleftForwardToArrowTriangleUturnScurvepathFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "pointBottomleftForwardToArrowTriangleUturnScurvepathFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "pointBottomleftForwardToArrowTriangleUturnScurvepathFill")
-    static let pointBottomleftForwardToArrowtriangleUturnScurvepathFill = SFSymbol(rawValue: "point.bottomleft.forward.to.arrowtriangle.uturn.scurvepath.fill")
+    static var pointBottomleftForwardToArrowtriangleUturnScurvepathFill: SFSymbol { .init(rawValue: "point.bottomleft.forward.to.arrowtriangle.uturn.scurvepath.fill") }
 
     /// 􁻵
     /// Single Localization, 2 Layersets
@@ -6395,7 +6395,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let pointBottomleftForwardToPointToprightFilledScurvepath = SFSymbol(rawValue: "point.bottomleft.forward.to.point.topright.filled.scurvepath")
+    static var pointBottomleftForwardToPointToprightFilledScurvepath: SFSymbol { .init(rawValue: "point.bottomleft.forward.to.point.topright.filled.scurvepath") }
 
     /// 􁻴
     /// Single Localization, 2 Layersets
@@ -6403,7 +6403,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let pointBottomleftForwardToPointToprightScurvepath = SFSymbol(rawValue: "point.bottomleft.forward.to.point.topright.scurvepath")
+    static var pointBottomleftForwardToPointToprightScurvepath: SFSymbol { .init(rawValue: "point.bottomleft.forward.to.point.topright.scurvepath") }
 
     /// 􁸸
     /// Single Localization, 2 Layersets
@@ -6411,7 +6411,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let pointBottomleftForwardToPointToprightScurvepathFill = SFSymbol(rawValue: "point.bottomleft.forward.to.point.topright.scurvepath.fill")
+    static var pointBottomleftForwardToPointToprightScurvepathFill: SFSymbol { .init(rawValue: "point.bottomleft.forward.to.point.topright.scurvepath.fill") }
 
     /// 􁻸
     /// Single Localization, 2 Layersets
@@ -6419,7 +6419,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let pointForwardToPointCapsulepath = SFSymbol(rawValue: "point.forward.to.point.capsulepath")
+    static var pointForwardToPointCapsulepath: SFSymbol { .init(rawValue: "point.forward.to.point.capsulepath") }
 
     /// 􁸺
     /// Single Localization, 2 Layersets
@@ -6427,7 +6427,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let pointForwardToPointCapsulepathFill = SFSymbol(rawValue: "point.forward.to.point.capsulepath.fill")
+    static var pointForwardToPointCapsulepathFill: SFSymbol { .init(rawValue: "point.forward.to.point.capsulepath.fill") }
 
     /// 􀣱
     /// Single Localization, 3 Layersets
@@ -6436,7 +6436,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let pointTopleftDownToPointBottomrightCurvepath = SFSymbol(rawValue: "point.topleft.down.to.point.bottomright.curvepath")
+    static var pointTopleftDownToPointBottomrightCurvepath: SFSymbol { .init(rawValue: "point.topleft.down.to.point.bottomright.curvepath") }
 
     /// 􀬱
     /// Single Localization, 3 Layersets
@@ -6445,7 +6445,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let pointTopleftDownToPointBottomrightCurvepathFill = SFSymbol(rawValue: "point.topleft.down.to.point.bottomright.curvepath.fill")
+    static var pointTopleftDownToPointBottomrightCurvepathFill: SFSymbol { .init(rawValue: "point.topleft.down.to.point.bottomright.curvepath.fill") }
 
     /// 􀾔
     /// Single Localization, 3 Layersets
@@ -6454,7 +6454,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let pointTopleftDownToPointBottomrightFilledCurvepath = SFSymbol(rawValue: "point.topleft.down.to.point.bottomright.filled.curvepath")
+    static var pointTopleftDownToPointBottomrightFilledCurvepath: SFSymbol { .init(rawValue: "point.topleft.down.to.point.bottomright.filled.curvepath") }
 
     /// 􀾕
     /// Single Localization, 3 Layersets
@@ -6463,14 +6463,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let pointTopleftFilledDownToPointBottomrightCurvepath = SFSymbol(rawValue: "point.topleft.filled.down.to.point.bottomright.curvepath")
+    static var pointTopleftFilledDownToPointBottomrightCurvepath: SFSymbol { .init(rawValue: "point.topleft.filled.down.to.point.bottomright.curvepath") }
 
     /// 􁤯
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let polishzlotysign = SFSymbol(rawValue: "polishzlotysign")
+    static var polishzlotysign: SFSymbol { .init(rawValue: "polishzlotysign") }
 
     /// 􂈴
     /// Single Localization, 2 Layersets
@@ -6483,7 +6483,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "polishzlotysignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "polishzlotysignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "polishzlotysignArrowTriangleheadCounterclockwiseRotate90")
-    static let polishzlotysignArrowCirclepath = SFSymbol(rawValue: "polishzlotysign.arrow.circlepath")
+    static var polishzlotysignArrowCirclepath: SFSymbol { .init(rawValue: "polishzlotysign.arrow.circlepath") }
 
     /// 􁤰
     /// Single Localization, 2 Layersets
@@ -6491,7 +6491,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let polishzlotysignCircle = SFSymbol(rawValue: "polishzlotysign.circle")
+    static var polishzlotysignCircle: SFSymbol { .init(rawValue: "polishzlotysign.circle") }
 
     /// 􁤱
     /// Single Localization, 3 Layersets
@@ -6500,7 +6500,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let polishzlotysignCircleFill = SFSymbol(rawValue: "polishzlotysign.circle.fill")
+    static var polishzlotysignCircleFill: SFSymbol { .init(rawValue: "polishzlotysign.circle.fill") }
 
     /// 􁤲
     /// Single Localization, 2 Layersets
@@ -6508,7 +6508,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let polishzlotysignSquare = SFSymbol(rawValue: "polishzlotysign.square")
+    static var polishzlotysignSquare: SFSymbol { .init(rawValue: "polishzlotysign.square") }
 
     /// 􁤳
     /// Single Localization, 3 Layersets
@@ -6517,21 +6517,21 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let polishzlotysignSquareFill = SFSymbol(rawValue: "polishzlotysign.square.fill")
+    static var polishzlotysignSquareFill: SFSymbol { .init(rawValue: "polishzlotysign.square.fill") }
 
     /// 􁣷
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let powercord = SFSymbol(rawValue: "powercord")
+    static var powercord: SFSymbol { .init(rawValue: "powercord") }
 
     /// 􁣸
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let powercordFill = SFSymbol(rawValue: "powercord.fill")
+    static var powercordFill: SFSymbol { .init(rawValue: "powercord.fill") }
 
     /// 􀨍
     /// Single Localization, 2 Layersets
@@ -6539,7 +6539,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let rButtonRoundedbottomHorizontal = SFSymbol(rawValue: "r.button.roundedbottom.horizontal")
+    static var rButtonRoundedbottomHorizontal: SFSymbol { .init(rawValue: "r.button.roundedbottom.horizontal") }
 
     /// 􀨎
     /// Single Localization, 3 Layersets
@@ -6548,7 +6548,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let rButtonRoundedbottomHorizontalFill = SFSymbol(rawValue: "r.button.roundedbottom.horizontal.fill")
+    static var rButtonRoundedbottomHorizontalFill: SFSymbol { .init(rawValue: "r.button.roundedbottom.horizontal.fill") }
 
     /// 􀨏
     /// Single Localization, 2 Layersets
@@ -6556,7 +6556,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let r1ButtonRoundedbottomHorizontal = SFSymbol(rawValue: "r1.button.roundedbottom.horizontal")
+    static var r1ButtonRoundedbottomHorizontal: SFSymbol { .init(rawValue: "r1.button.roundedbottom.horizontal") }
 
     /// 􀨐
     /// Single Localization, 3 Layersets
@@ -6565,7 +6565,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let r1ButtonRoundedbottomHorizontalFill = SFSymbol(rawValue: "r1.button.roundedbottom.horizontal.fill")
+    static var r1ButtonRoundedbottomHorizontalFill: SFSymbol { .init(rawValue: "r1.button.roundedbottom.horizontal.fill") }
 
     /// 􁺉
     /// Single Localization, 2 Layersets
@@ -6573,7 +6573,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let r1Circle = SFSymbol(rawValue: "r1.circle")
+    static var r1Circle: SFSymbol { .init(rawValue: "r1.circle") }
 
     /// 􁺊
     /// Single Localization, 3 Layersets
@@ -6582,7 +6582,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let r1CircleFill = SFSymbol(rawValue: "r1.circle.fill")
+    static var r1CircleFill: SFSymbol { .init(rawValue: "r1.circle.fill") }
 
     /// 􁷵
     /// Single Localization, 2 Layersets
@@ -6590,7 +6590,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let r2ButtonAngledtopVerticalRight = SFSymbol(rawValue: "r2.button.angledtop.vertical.right")
+    static var r2ButtonAngledtopVerticalRight: SFSymbol { .init(rawValue: "r2.button.angledtop.vertical.right") }
 
     /// 􁷶
     /// Single Localization, 3 Layersets
@@ -6599,7 +6599,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let r2ButtonAngledtopVerticalRightFill = SFSymbol(rawValue: "r2.button.angledtop.vertical.right.fill")
+    static var r2ButtonAngledtopVerticalRightFill: SFSymbol { .init(rawValue: "r2.button.angledtop.vertical.right.fill") }
 
     /// 􀨑
     /// Single Localization, 2 Layersets
@@ -6607,7 +6607,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let r2ButtonRoundedtopHorizontal = SFSymbol(rawValue: "r2.button.roundedtop.horizontal")
+    static var r2ButtonRoundedtopHorizontal: SFSymbol { .init(rawValue: "r2.button.roundedtop.horizontal") }
 
     /// 􀨒
     /// Single Localization, 3 Layersets
@@ -6616,7 +6616,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let r2ButtonRoundedtopHorizontalFill = SFSymbol(rawValue: "r2.button.roundedtop.horizontal.fill")
+    static var r2ButtonRoundedtopHorizontalFill: SFSymbol { .init(rawValue: "r2.button.roundedtop.horizontal.fill") }
 
     /// 􁺍
     /// Single Localization, 2 Layersets
@@ -6624,7 +6624,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let r2Circle = SFSymbol(rawValue: "r2.circle")
+    static var r2Circle: SFSymbol { .init(rawValue: "r2.circle") }
 
     /// 􁺎
     /// Single Localization, 3 Layersets
@@ -6633,7 +6633,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let r2CircleFill = SFSymbol(rawValue: "r2.circle.fill")
+    static var r2CircleFill: SFSymbol { .init(rawValue: "r2.circle.fill") }
 
     /// 􁸉
     /// Single Localization, 2 Layersets
@@ -6641,7 +6641,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let r3ButtonAngledbottomHorizontalRight = SFSymbol(rawValue: "r3.button.angledbottom.horizontal.right")
+    static var r3ButtonAngledbottomHorizontalRight: SFSymbol { .init(rawValue: "r3.button.angledbottom.horizontal.right") }
 
     /// 􁸊
     /// Single Localization, 3 Layersets
@@ -6650,7 +6650,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let r3ButtonAngledbottomHorizontalRightFill = SFSymbol(rawValue: "r3.button.angledbottom.horizontal.right.fill")
+    static var r3ButtonAngledbottomHorizontalRightFill: SFSymbol { .init(rawValue: "r3.button.angledbottom.horizontal.right.fill") }
 
     /// 􁺤
     /// Single Localization, 2 Layersets
@@ -6658,7 +6658,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let r4ButtonHorizontal = SFSymbol(rawValue: "r4.button.horizontal")
+    static var r4ButtonHorizontal: SFSymbol { .init(rawValue: "r4.button.horizontal") }
 
     /// 􁺥
     /// Single Localization, 3 Layersets
@@ -6667,7 +6667,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let r4ButtonHorizontalFill = SFSymbol(rawValue: "r4.button.horizontal.fill")
+    static var r4ButtonHorizontalFill: SFSymbol { .init(rawValue: "r4.button.horizontal.fill") }
 
     /// 􀼭
     /// Single Localization, 2 Layersets
@@ -6675,7 +6675,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    static let rainbow = SFSymbol(rawValue: "rainbow")
+    static var rainbow: SFSymbol { .init(rawValue: "rainbow") }
 
     /// 􀨕
     /// Single Localization, 2 Layersets
@@ -6683,7 +6683,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let rbButtonRoundedbottomHorizontal = SFSymbol(rawValue: "rb.button.roundedbottom.horizontal")
+    static var rbButtonRoundedbottomHorizontal: SFSymbol { .init(rawValue: "rb.button.roundedbottom.horizontal") }
 
     /// 􀨖
     /// Single Localization, 3 Layersets
@@ -6692,7 +6692,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let rbButtonRoundedbottomHorizontalFill = SFSymbol(rawValue: "rb.button.roundedbottom.horizontal.fill")
+    static var rbButtonRoundedbottomHorizontalFill: SFSymbol { .init(rawValue: "rb.button.roundedbottom.horizontal.fill") }
 
     /// 􁺋
     /// Single Localization, 2 Layersets
@@ -6700,7 +6700,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let rbCircle = SFSymbol(rawValue: "rb.circle")
+    static var rbCircle: SFSymbol { .init(rawValue: "rb.circle") }
 
     /// 􁺌
     /// Single Localization, 3 Layersets
@@ -6709,7 +6709,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let rbCircleFill = SFSymbol(rawValue: "rb.circle.fill")
+    static var rbCircleFill: SFSymbol { .init(rawValue: "rb.circle.fill") }
 
     /// 􀬄
     /// Single Localization, 2 Layersets
@@ -6717,7 +6717,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let rectangle3GroupBubble = SFSymbol(rawValue: "rectangle.3.group.bubble")
+    static var rectangle3GroupBubble: SFSymbol { .init(rawValue: "rectangle.3.group.bubble") }
 
     /// 􀬅
     /// Single Localization, 3 Layersets
@@ -6726,7 +6726,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let rectangle3GroupBubbleFill = SFSymbol(rawValue: "rectangle.3.group.bubble.fill")
+    static var rectangle3GroupBubbleFill: SFSymbol { .init(rawValue: "rectangle.3.group.bubble.fill") }
 
     /// 􀪫
     /// Single Localization, Single Layerset
@@ -6738,7 +6738,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "rectanglePatternCheckered")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "rectanglePatternCheckered")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "rectanglePatternCheckered")
-    static let rectangleCheckered = SFSymbol(rawValue: "rectangle.checkered")
+    static var rectangleCheckered: SFSymbol { .init(rawValue: "rectangle.checkered") }
 
     /// 􂇕
     /// Single Localization, Single Layerset
@@ -6750,7 +6750,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "insetFilledRectangleAndCursorarrow")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "insetFilledRectangleAndCursorarrow")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "insetFilledRectangleAndCursorarrow")
-    static let rectangleInsetFilledAndCursorarrow = SFSymbol(rawValue: "rectangle.inset.filled.and.cursorarrow")
+    static var rectangleInsetFilledAndCursorarrow: SFSymbol { .init(rawValue: "rectangle.inset.filled.and.cursorarrow") }
 
     /// 􂃕
     /// Single Localization, 2 Layersets
@@ -6763,7 +6763,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "insetFilledRectangleBadgeRecord")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "insetFilledRectangleBadgeRecord")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "insetFilledRectangleBadgeRecord")
-    static let rectangleInsetFilledBadgeRecord = SFSymbol(rawValue: "rectangle.inset.filled.badge.record")
+    static var rectangleInsetFilledBadgeRecord: SFSymbol { .init(rawValue: "rectangle.inset.filled.badge.record") }
 
     /// 􁻯
     /// Single Localization, 2 Layersets
@@ -6771,7 +6771,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let rectangleLandscapeRotate = SFSymbol(rawValue: "rectangle.landscape.rotate")
+    static var rectangleLandscapeRotate: SFSymbol { .init(rawValue: "rectangle.landscape.rotate") }
 
     /// 􂇓
     /// Single Localization, 2 Layersets
@@ -6779,7 +6779,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let rectangleOnRectangleBadgeGearshape = SFSymbol(rawValue: "rectangle.on.rectangle.badge.gearshape")
+    static var rectangleOnRectangleBadgeGearshape: SFSymbol { .init(rawValue: "rectangle.on.rectangle.badge.gearshape") }
 
     /// 􁷷
     /// Single Localization, 2 Layersets
@@ -6787,7 +6787,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let rectangleOnRectangleButtonAngledtopVerticalLeft = SFSymbol(rawValue: "rectangle.on.rectangle.button.angledtop.vertical.left")
+    static var rectangleOnRectangleButtonAngledtopVerticalLeft: SFSymbol { .init(rawValue: "rectangle.on.rectangle.button.angledtop.vertical.left") }
 
     /// 􁷸
     /// Single Localization, 3 Layersets
@@ -6796,7 +6796,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let rectangleOnRectangleButtonAngledtopVerticalLeftFill = SFSymbol(rawValue: "rectangle.on.rectangle.button.angledtop.vertical.left.fill")
+    static var rectangleOnRectangleButtonAngledtopVerticalLeftFill: SFSymbol { .init(rawValue: "rectangle.on.rectangle.button.angledtop.vertical.left.fill") }
 
     /// 􁥋
     /// Single Localization, 3 Layersets
@@ -6805,7 +6805,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let rectanglePortraitBadgePlus = SFSymbol(rawValue: "rectangle.portrait.badge.plus")
+    static var rectanglePortraitBadgePlus: SFSymbol { .init(rawValue: "rectangle.portrait.badge.plus") }
 
     /// 􁥌
     /// Single Localization, 3 Layersets
@@ -6814,7 +6814,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let rectanglePortraitBadgePlusFill = SFSymbol(rawValue: "rectangle.portrait.badge.plus.fill")
+    static var rectanglePortraitBadgePlusFill: SFSymbol { .init(rawValue: "rectangle.portrait.badge.plus.fill") }
 
     /// 􁻮
     /// Single Localization, 2 Layersets
@@ -6822,63 +6822,63 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let rectanglePortraitRotate = SFSymbol(rawValue: "rectangle.portrait.rotate")
+    static var rectanglePortraitRotate: SFSymbol { .init(rawValue: "rectangle.portrait.rotate") }
 
     /// 􁽸
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let rectangleRatio3To4 = SFSymbol(rawValue: "rectangle.ratio.3.to.4")
+    static var rectangleRatio3To4: SFSymbol { .init(rawValue: "rectangle.ratio.3.to.4") }
 
     /// 􁽹
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let rectangleRatio3To4Fill = SFSymbol(rawValue: "rectangle.ratio.3.to.4.fill")
+    static var rectangleRatio3To4Fill: SFSymbol { .init(rawValue: "rectangle.ratio.3.to.4.fill") }
 
     /// 􁽺
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let rectangleRatio4To3 = SFSymbol(rawValue: "rectangle.ratio.4.to.3")
+    static var rectangleRatio4To3: SFSymbol { .init(rawValue: "rectangle.ratio.4.to.3") }
 
     /// 􁽻
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let rectangleRatio4To3Fill = SFSymbol(rawValue: "rectangle.ratio.4.to.3.fill")
+    static var rectangleRatio4To3Fill: SFSymbol { .init(rawValue: "rectangle.ratio.4.to.3.fill") }
 
     /// 􁽼
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let rectangleRatio9To16 = SFSymbol(rawValue: "rectangle.ratio.9.to.16")
+    static var rectangleRatio9To16: SFSymbol { .init(rawValue: "rectangle.ratio.9.to.16") }
 
     /// 􁽽
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let rectangleRatio9To16Fill = SFSymbol(rawValue: "rectangle.ratio.9.to.16.fill")
+    static var rectangleRatio9To16Fill: SFSymbol { .init(rawValue: "rectangle.ratio.9.to.16.fill") }
 
     /// 􁽾
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let rectangleRatio16To9 = SFSymbol(rawValue: "rectangle.ratio.16.to.9")
+    static var rectangleRatio16To9: SFSymbol { .init(rawValue: "rectangle.ratio.16.to.9") }
 
     /// 􁽿
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let rectangleRatio16To9Fill = SFSymbol(rawValue: "rectangle.ratio.16.to.9.fill")
+    static var rectangleRatio16To9Fill: SFSymbol { .init(rawValue: "rectangle.ratio.16.to.9.fill") }
 
     /// 􁟈
     /// Single Localization, 2 Layersets
@@ -6886,7 +6886,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let retarderBrakesignalAndExclamationmark = SFSymbol(rawValue: "retarder.brakesignal.and.exclamationmark")
+    static var retarderBrakesignalAndExclamationmark: SFSymbol { .init(rawValue: "retarder.brakesignal.and.exclamationmark") }
 
     /// 􁟋
     /// Single Localization, 2 Layersets
@@ -6894,14 +6894,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let retarderBrakesignalSlash = SFSymbol(rawValue: "retarder.brakesignal.slash")
+    static var retarderBrakesignalSlash: SFSymbol { .init(rawValue: "retarder.brakesignal.slash") }
 
     /// 􁣦
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let right = SFSymbol(rawValue: "right")
+    static var right: SFSymbol { .init(rawValue: "right") }
 
     /// 􁣧
     /// Single Localization, 2 Layersets
@@ -6909,7 +6909,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let rightCircle = SFSymbol(rawValue: "right.circle")
+    static var rightCircle: SFSymbol { .init(rawValue: "right.circle") }
 
     /// 􁣨
     /// Single Localization, 3 Layersets
@@ -6918,35 +6918,35 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let rightCircleFill = SFSymbol(rawValue: "right.circle.fill")
+    static var rightCircleFill: SFSymbol { .init(rawValue: "right.circle.fill") }
 
     /// 􁹫
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let righttriangle = SFSymbol(rawValue: "righttriangle")
+    static var righttriangle: SFSymbol { .init(rawValue: "righttriangle") }
 
     /// 􁹬
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let righttriangleFill = SFSymbol(rawValue: "righttriangle.fill")
+    static var righttriangleFill: SFSymbol { .init(rawValue: "righttriangle.fill") }
 
     /// 􀍸
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let righttriangleSplitDiagonal = SFSymbol(rawValue: "righttriangle.split.diagonal")
+    static var righttriangleSplitDiagonal: SFSymbol { .init(rawValue: "righttriangle.split.diagonal") }
 
     /// 􀍹
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let righttriangleSplitDiagonalFill = SFSymbol(rawValue: "righttriangle.split.diagonal.fill")
+    static var righttriangleSplitDiagonalFill: SFSymbol { .init(rawValue: "righttriangle.split.diagonal.fill") }
 
     /// 􁺦
     /// Single Localization, 2 Layersets
@@ -6954,7 +6954,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let rmButtonHorizontal = SFSymbol(rawValue: "rm.button.horizontal")
+    static var rmButtonHorizontal: SFSymbol { .init(rawValue: "rm.button.horizontal") }
 
     /// 􁺧
     /// Single Localization, 3 Layersets
@@ -6963,7 +6963,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let rmButtonHorizontalFill = SFSymbol(rawValue: "rm.button.horizontal.fill")
+    static var rmButtonHorizontalFill: SFSymbol { .init(rawValue: "rm.button.horizontal.fill") }
 
     /// 􁱀
     /// Single Localization, 2 Layersets
@@ -6971,7 +6971,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let rotate3dCircle = SFSymbol(rawValue: "rotate.3d.circle")
+    static var rotate3dCircle: SFSymbol { .init(rawValue: "rotate.3d.circle") }
 
     /// 􁱁
     /// Single Localization, 3 Layersets
@@ -6980,14 +6980,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let rotate3dCircleFill = SFSymbol(rawValue: "rotate.3d.circle.fill")
+    static var rotate3dCircleFill: SFSymbol { .init(rawValue: "rotate.3d.circle.fill") }
 
     /// 􁱂
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let rotate3dFill = SFSymbol(rawValue: "rotate.3d.fill")
+    static var rotate3dFill: SFSymbol { .init(rawValue: "rotate.3d.fill") }
 
     /// 􁸍
     /// Single Localization, 2 Layersets
@@ -6995,7 +6995,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let rsbButtonAngledbottomHorizontalRight = SFSymbol(rawValue: "rsb.button.angledbottom.horizontal.right")
+    static var rsbButtonAngledbottomHorizontalRight: SFSymbol { .init(rawValue: "rsb.button.angledbottom.horizontal.right") }
 
     /// 􁸎
     /// Single Localization, 3 Layersets
@@ -7004,7 +7004,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let rsbButtonAngledbottomHorizontalRightFill = SFSymbol(rawValue: "rsb.button.angledbottom.horizontal.right.fill")
+    static var rsbButtonAngledbottomHorizontalRightFill: SFSymbol { .init(rawValue: "rsb.button.angledbottom.horizontal.right.fill") }
 
     /// 􀨙
     /// Single Localization, 2 Layersets
@@ -7012,7 +7012,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let rtButtonRoundedtopHorizontal = SFSymbol(rawValue: "rt.button.roundedtop.horizontal")
+    static var rtButtonRoundedtopHorizontal: SFSymbol { .init(rawValue: "rt.button.roundedtop.horizontal") }
 
     /// 􀨚
     /// Single Localization, 3 Layersets
@@ -7021,7 +7021,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let rtButtonRoundedtopHorizontalFill = SFSymbol(rawValue: "rt.button.roundedtop.horizontal.fill")
+    static var rtButtonRoundedtopHorizontalFill: SFSymbol { .init(rawValue: "rt.button.roundedtop.horizontal.fill") }
 
     /// 􁺏
     /// Single Localization, 2 Layersets
@@ -7029,7 +7029,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let rtCircle = SFSymbol(rawValue: "rt.circle")
+    static var rtCircle: SFSymbol { .init(rawValue: "rt.circle") }
 
     /// 􁺐
     /// Single Localization, 3 Layersets
@@ -7038,7 +7038,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let rtCircleFill = SFSymbol(rawValue: "rt.circle.fill")
+    static var rtCircleFill: SFSymbol { .init(rawValue: "rt.circle.fill") }
 
     /// 􂈙
     /// Single Localization, 2 Layersets
@@ -7051,7 +7051,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "rublesignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "rublesignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "rublesignArrowTriangleheadCounterclockwiseRotate90")
-    static let rublesignArrowCirclepath = SFSymbol(rawValue: "rublesign.arrow.circlepath")
+    static var rublesignArrowCirclepath: SFSymbol { .init(rawValue: "rublesign.arrow.circlepath") }
 
     /// 􂈮
     /// Single Localization, 2 Layersets
@@ -7064,7 +7064,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "rupeesignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "rupeesignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "rupeesignArrowTriangleheadCounterclockwiseRotate90")
-    static let rupeesignArrowCirclepath = SFSymbol(rawValue: "rupeesign.arrow.circlepath")
+    static var rupeesignArrowCirclepath: SFSymbol { .init(rawValue: "rupeesign.arrow.circlepath") }
 
     /// 􂇄
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -7079,7 +7079,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "sharedwithyouCircle")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "sharedwithyouCircle")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "sharedwithyouCircle")
-    static let sharedWithYouCircle = SFSymbol(rawValue: "shared.with.you.circle")
+    static var sharedWithYouCircle: SFSymbol { .init(rawValue: "shared.with.you.circle") }
 
     /// 􂄀
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -7095,7 +7095,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "sharedwithyouCircleFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "sharedwithyouCircleFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "sharedwithyouCircleFill")
-    static let sharedWithYouCircleFill = SFSymbol(rawValue: "shared.with.you.circle.fill")
+    static var sharedWithYouCircleFill: SFSymbol { .init(rawValue: "shared.with.you.circle.fill") }
 
     /// 􂈬
     /// Single Localization, 2 Layersets
@@ -7108,7 +7108,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "shekelsignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "shekelsignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "shekelsignArrowTriangleheadCounterclockwiseRotate90")
-    static let shekelsignArrowCirclepath = SFSymbol(rawValue: "shekelsign.arrow.circlepath")
+    static var shekelsignArrowCirclepath: SFSymbol { .init(rawValue: "shekelsign.arrow.circlepath") }
 
     /// 􀵔
     /// Single Localization, Single Layerset
@@ -7120,7 +7120,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "shieldPatternCheckered")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "shieldPatternCheckered")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "shieldPatternCheckered")
-    static let shieldCheckered = SFSymbol(rawValue: "shield.checkered")
+    static var shieldCheckered: SFSymbol { .init(rawValue: "shield.checkered") }
 
     /// 􁷥
     /// Single Localization, 3 Layersets
@@ -7129,7 +7129,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let shieldLefthalfFilledBadgeCheckmark = SFSymbol(rawValue: "shield.lefthalf.filled.badge.checkmark")
+    static var shieldLefthalfFilledBadgeCheckmark: SFSymbol { .init(rawValue: "shield.lefthalf.filled.badge.checkmark") }
 
     /// 􁷧
     /// Single Localization, 3 Layersets
@@ -7138,28 +7138,28 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let shieldLefthalfFilledTrianglebadgeExclamationmark = SFSymbol(rawValue: "shield.lefthalf.filled.trianglebadge.exclamationmark")
+    static var shieldLefthalfFilledTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "shield.lefthalf.filled.trianglebadge.exclamationmark") }
 
     /// 􁣯
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let shoe = SFSymbol(rawValue: "shoe")
+    static var shoe: SFSymbol { .init(rawValue: "shoe") }
 
     /// 􁣱
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let shoe2 = SFSymbol(rawValue: "shoe.2")
+    static var shoe2: SFSymbol { .init(rawValue: "shoe.2") }
 
     /// 􁣲
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let shoe2Fill = SFSymbol(rawValue: "shoe.2.fill")
+    static var shoe2Fill: SFSymbol { .init(rawValue: "shoe.2.fill") }
 
     /// 􁤄
     /// Single Localization, 2 Layersets
@@ -7167,7 +7167,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let shoeCircle = SFSymbol(rawValue: "shoe.circle")
+    static var shoeCircle: SFSymbol { .init(rawValue: "shoe.circle") }
 
     /// 􁤅
     /// Single Localization, 3 Layersets
@@ -7176,42 +7176,42 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let shoeCircleFill = SFSymbol(rawValue: "shoe.circle.fill")
+    static var shoeCircleFill: SFSymbol { .init(rawValue: "shoe.circle.fill") }
 
     /// 􁣰
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let shoeFill = SFSymbol(rawValue: "shoe.fill")
+    static var shoeFill: SFSymbol { .init(rawValue: "shoe.fill") }
 
     /// 􂂩
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let skateboard = SFSymbol(rawValue: "skateboard")
+    static var skateboard: SFSymbol { .init(rawValue: "skateboard") }
 
     /// 􂂪
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let skateboardFill = SFSymbol(rawValue: "skateboard.fill")
+    static var skateboardFill: SFSymbol { .init(rawValue: "skateboard.fill") }
 
     /// 􂂫
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let skis = SFSymbol(rawValue: "skis")
+    static var skis: SFSymbol { .init(rawValue: "skis") }
 
     /// 􂂬
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let skisFill = SFSymbol(rawValue: "skis.fill")
+    static var skisFill: SFSymbol { .init(rawValue: "skis.fill") }
 
     /// 􁵤
     /// Single Localization, 2 Layersets
@@ -7219,7 +7219,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let sliderHorizontal2Square = SFSymbol(rawValue: "slider.horizontal.2.square")
+    static var sliderHorizontal2Square: SFSymbol { .init(rawValue: "slider.horizontal.2.square") }
 
     /// 􁿌
     /// Single Localization, 2 Layersets
@@ -7227,7 +7227,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let sliderHorizontalBelowSunMax = SFSymbol(rawValue: "slider.horizontal.below.sun.max")
+    static var sliderHorizontalBelowSunMax: SFSymbol { .init(rawValue: "slider.horizontal.below.sun.max") }
 
     /// 􁤫
     /// Single Localization, 2 Layersets
@@ -7235,21 +7235,21 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let smartphone = SFSymbol(rawValue: "smartphone")
+    static var smartphone: SFSymbol { .init(rawValue: "smartphone") }
 
     /// 􂂭
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let snowboard = SFSymbol(rawValue: "snowboard")
+    static var snowboard: SFSymbol { .init(rawValue: "snowboard") }
 
     /// 􂂮
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let snowboardFill = SFSymbol(rawValue: "snowboard.fill")
+    static var snowboardFill: SFSymbol { .init(rawValue: "snowboard.fill") }
 
     /// 􁗮
     /// 2 Localizations, 3 Layersets
@@ -7262,7 +7262,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let speakerWave2Bubble = SymbolWith1Localization<Rtl>(rawValue: "speaker.wave.2.bubble")
+    static var speakerWave2Bubble: SymbolWith1Localization<Rtl> { .init(rawValue: "speaker.wave.2.bubble") }
 
     /// 􁗯
     /// 2 Localizations, 3 Layersets
@@ -7275,7 +7275,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let speakerWave2BubbleFill = SymbolWith1Localization<Rtl>(rawValue: "speaker.wave.2.bubble.fill")
+    static var speakerWave2BubbleFill: SymbolWith1Localization<Rtl> { .init(rawValue: "speaker.wave.2.bubble.fill") }
 
     /// 􁸼
     /// Single Localization, 2 Layersets
@@ -7283,7 +7283,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let square2Layers3dFill = SFSymbol(rawValue: "square.2.layers.3d.fill")
+    static var square2Layers3dFill: SFSymbol { .init(rawValue: "square.2.layers.3d.fill") }
 
     /// 􀠹
     /// Single Localization, 2 Layersets
@@ -7291,7 +7291,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let squareArrowtriangle4Outward = SFSymbol(rawValue: "square.arrowtriangle.4.outward")
+    static var squareArrowtriangle4Outward: SFSymbol { .init(rawValue: "square.arrowtriangle.4.outward") }
 
     /// 􁥉
     /// Single Localization, 3 Layersets
@@ -7300,7 +7300,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let squareBadgePlus = SFSymbol(rawValue: "square.badge.plus")
+    static var squareBadgePlus: SFSymbol { .init(rawValue: "square.badge.plus") }
 
     /// 􁥊
     /// Single Localization, 3 Layersets
@@ -7309,7 +7309,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let squareBadgePlusFill = SFSymbol(rawValue: "square.badge.plus.fill")
+    static var squareBadgePlusFill: SFSymbol { .init(rawValue: "square.badge.plus.fill") }
 
     /// 􂁟
     /// Single Localization, 2 Layersets
@@ -7317,7 +7317,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let squareResize = SFSymbol(rawValue: "square.resize")
+    static var squareResize: SFSymbol { .init(rawValue: "square.resize") }
 
     /// 􁺠
     /// Single Localization, 2 Layersets
@@ -7325,7 +7325,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let squareResizeDown = SFSymbol(rawValue: "square.resize.down")
+    static var squareResizeDown: SFSymbol { .init(rawValue: "square.resize.down") }
 
     /// 􁺟
     /// Single Localization, 2 Layersets
@@ -7333,7 +7333,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let squareResizeUp = SFSymbol(rawValue: "square.resize.up")
+    static var squareResizeUp: SFSymbol { .init(rawValue: "square.resize.up") }
 
     /// 􀙐
     /// Single Localization, 3 Layersets
@@ -7342,7 +7342,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let squareStack3dUpBadgeAutomatic = SFSymbol(rawValue: "square.stack.3d.up.badge.automatic")
+    static var squareStack3dUpBadgeAutomatic: SFSymbol { .init(rawValue: "square.stack.3d.up.badge.automatic") }
 
     /// 􀙑
     /// Single Localization, 3 Layersets
@@ -7351,7 +7351,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let squareStack3dUpBadgeAutomaticFill = SFSymbol(rawValue: "square.stack.3d.up.badge.automatic.fill")
+    static var squareStack3dUpBadgeAutomaticFill: SFSymbol { .init(rawValue: "square.stack.3d.up.badge.automatic.fill") }
 
     /// 􂅡
     /// Single Localization, 3 Layersets
@@ -7360,7 +7360,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let squareStack3dUpTrianglebadgeExclamationmark = SFSymbol(rawValue: "square.stack.3d.up.trianglebadge.exclamationmark")
+    static var squareStack3dUpTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "square.stack.3d.up.trianglebadge.exclamationmark") }
 
     /// 􂅢
     /// Single Localization, 3 Layersets
@@ -7369,7 +7369,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let squareStack3dUpTrianglebadgeExclamationmarkFill = SFSymbol(rawValue: "square.stack.3d.up.trianglebadge.exclamationmark.fill")
+    static var squareStack3dUpTrianglebadgeExclamationmarkFill: SFSymbol { .init(rawValue: "square.stack.3d.up.trianglebadge.exclamationmark.fill") }
 
     /// 􂆅
     /// Single Localization, 2 Layersets
@@ -7377,7 +7377,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
-    static let squaresLeadingRectangleFill = SFSymbol(rawValue: "squares.leading.rectangle.fill")
+    static var squaresLeadingRectangleFill: SFSymbol { .init(rawValue: "squares.leading.rectangle.fill") }
 
     /// 􀩢
     /// Single Localization, 2 Layersets
@@ -7385,7 +7385,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let squareshapeDottedSquareshape = SFSymbol(rawValue: "squareshape.dotted.squareshape")
+    static var squareshapeDottedSquareshape: SFSymbol { .init(rawValue: "squareshape.dotted.squareshape") }
 
     /// 􀫴
     /// Single Localization, 2 Layersets
@@ -7393,7 +7393,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let squareshapeSquareshapeDotted = SFSymbol(rawValue: "squareshape.squareshape.dotted")
+    static var squareshapeSquareshapeDotted: SFSymbol { .init(rawValue: "squareshape.squareshape.dotted") }
 
     /// 􁣖
     /// Single Localization, 2 Layersets
@@ -7401,7 +7401,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let staroflifeShield = SFSymbol(rawValue: "staroflife.shield")
+    static var staroflifeShield: SFSymbol { .init(rawValue: "staroflife.shield") }
 
     /// 􁣗
     /// Single Localization, 3 Layersets
@@ -7410,14 +7410,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let staroflifeShieldFill = SFSymbol(rawValue: "staroflife.shield.fill")
+    static var staroflifeShieldFill: SFSymbol { .init(rawValue: "staroflife.shield.fill") }
 
     /// 􁢟
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let steeringwheelAndLiquidWave = SFSymbol(rawValue: "steeringwheel.and.liquid.wave")
+    static var steeringwheelAndLiquidWave: SFSymbol { .init(rawValue: "steeringwheel.and.liquid.wave") }
 
     /// 􁖰
     /// Single Localization, 2 Layersets
@@ -7425,7 +7425,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let steeringwheelArrowtriangleLeft = SFSymbol(rawValue: "steeringwheel.arrowtriangle.left")
+    static var steeringwheelArrowtriangleLeft: SFSymbol { .init(rawValue: "steeringwheel.arrowtriangle.left") }
 
     /// 􁖱
     /// Single Localization, 2 Layersets
@@ -7433,7 +7433,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let steeringwheelArrowtriangleRight = SFSymbol(rawValue: "steeringwheel.arrowtriangle.right")
+    static var steeringwheelArrowtriangleRight: SFSymbol { .init(rawValue: "steeringwheel.arrowtriangle.right") }
 
     /// 􁉛
     /// Single Localization, 3 Layersets
@@ -7442,7 +7442,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let steeringwheelBadgeExclamationmark = SFSymbol(rawValue: "steeringwheel.badge.exclamationmark")
+    static var steeringwheelBadgeExclamationmark: SFSymbol { .init(rawValue: "steeringwheel.badge.exclamationmark") }
 
     /// 􁿢
     /// Single Localization, 2 Layersets
@@ -7450,7 +7450,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let steeringwheelCircle = SFSymbol(rawValue: "steeringwheel.circle")
+    static var steeringwheelCircle: SFSymbol { .init(rawValue: "steeringwheel.circle") }
 
     /// 􁿣
     /// Single Localization, 3 Layersets
@@ -7459,7 +7459,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let steeringwheelCircleFill = SFSymbol(rawValue: "steeringwheel.circle.fill")
+    static var steeringwheelCircleFill: SFSymbol { .init(rawValue: "steeringwheel.circle.fill") }
 
     /// 􂈕
     /// Single Localization, 2 Layersets
@@ -7472,14 +7472,14 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "sterlingsignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "sterlingsignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "sterlingsignArrowTriangleheadCounterclockwiseRotate90")
-    static let sterlingsignArrowCirclepath = SFSymbol(rawValue: "sterlingsign.arrow.circlepath")
+    static var sterlingsignArrowCirclepath: SFSymbol { .init(rawValue: "sterlingsign.arrow.circlepath") }
 
     /// 􁽇
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let storefront = SFSymbol(rawValue: "storefront")
+    static var storefront: SFSymbol { .init(rawValue: "storefront") }
 
     /// 􁽉
     /// Single Localization, 2 Layersets
@@ -7487,7 +7487,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let storefrontCircle = SFSymbol(rawValue: "storefront.circle")
+    static var storefrontCircle: SFSymbol { .init(rawValue: "storefront.circle") }
 
     /// 􁽊
     /// Single Localization, 3 Layersets
@@ -7496,14 +7496,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let storefrontCircleFill = SFSymbol(rawValue: "storefront.circle.fill")
+    static var storefrontCircleFill: SFSymbol { .init(rawValue: "storefront.circle.fill") }
 
     /// 􁽈
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let storefrontFill = SFSymbol(rawValue: "storefront.fill")
+    static var storefrontFill: SFSymbol { .init(rawValue: "storefront.fill") }
 
     /// 􀻞
     /// Single Localization, 3 Layersets
@@ -7512,7 +7512,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let sunHorizon = SFSymbol(rawValue: "sun.horizon")
+    static var sunHorizon: SFSymbol { .init(rawValue: "sun.horizon") }
 
     /// 􁛅
     /// Single Localization, 2 Layersets
@@ -7520,7 +7520,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let sunHorizonCircle = SFSymbol(rawValue: "sun.horizon.circle")
+    static var sunHorizonCircle: SFSymbol { .init(rawValue: "sun.horizon.circle") }
 
     /// 􁛆
     /// Single Localization, 3 Layersets
@@ -7529,7 +7529,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let sunHorizonCircleFill = SFSymbol(rawValue: "sun.horizon.circle.fill")
+    static var sunHorizonCircleFill: SFSymbol { .init(rawValue: "sun.horizon.circle.fill") }
 
     /// 􀻟
     /// Single Localization, 3 Layersets
@@ -7538,7 +7538,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let sunHorizonFill = SFSymbol(rawValue: "sun.horizon.fill")
+    static var sunHorizonFill: SFSymbol { .init(rawValue: "sun.horizon.fill") }
 
     /// 􁷌
     /// Single Localization, 2 Layersets
@@ -7546,7 +7546,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let sunRain = SFSymbol(rawValue: "sun.rain")
+    static var sunRain: SFSymbol { .init(rawValue: "sun.rain") }
 
     /// 􁷎
     /// Single Localization, 2 Layersets
@@ -7554,7 +7554,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let sunRainCircle = SFSymbol(rawValue: "sun.rain.circle")
+    static var sunRainCircle: SFSymbol { .init(rawValue: "sun.rain.circle") }
 
     /// 􁷏
     /// Single Localization, 3 Layersets
@@ -7563,7 +7563,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let sunRainCircleFill = SFSymbol(rawValue: "sun.rain.circle.fill")
+    static var sunRainCircleFill: SFSymbol { .init(rawValue: "sun.rain.circle.fill") }
 
     /// 􁷍
     /// Single Localization, 3 Layersets
@@ -7572,7 +7572,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let sunRainFill = SFSymbol(rawValue: "sun.rain.fill")
+    static var sunRainFill: SFSymbol { .init(rawValue: "sun.rain.fill") }
 
     /// 􁷐
     /// Single Localization, 2 Layersets
@@ -7580,7 +7580,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let sunSnow = SFSymbol(rawValue: "sun.snow")
+    static var sunSnow: SFSymbol { .init(rawValue: "sun.snow") }
 
     /// 􁷒
     /// Single Localization, 2 Layersets
@@ -7588,7 +7588,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let sunSnowCircle = SFSymbol(rawValue: "sun.snow.circle")
+    static var sunSnowCircle: SFSymbol { .init(rawValue: "sun.snow.circle") }
 
     /// 􁷓
     /// Single Localization, 3 Layersets
@@ -7597,7 +7597,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let sunSnowCircleFill = SFSymbol(rawValue: "sun.snow.circle.fill")
+    static var sunSnowCircleFill: SFSymbol { .init(rawValue: "sun.snow.circle.fill") }
 
     /// 􁷑
     /// Single Localization, 3 Layersets
@@ -7606,7 +7606,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let sunSnowFill = SFSymbol(rawValue: "sun.snow.fill")
+    static var sunSnowFill: SFSymbol { .init(rawValue: "sun.snow.fill") }
 
     /// 􁻈
     /// Single Localization, 3 Layersets
@@ -7615,28 +7615,28 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let sunglasses = SFSymbol(rawValue: "sunglasses")
+    static var sunglasses: SFSymbol { .init(rawValue: "sunglasses") }
 
     /// 􁻉
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let sunglassesFill = SFSymbol(rawValue: "sunglasses.fill")
+    static var sunglassesFill: SFSymbol { .init(rawValue: "sunglasses.fill") }
 
     /// 􂂯
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let surfboard = SFSymbol(rawValue: "surfboard")
+    static var surfboard: SFSymbol { .init(rawValue: "surfboard") }
 
     /// 􂂰
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let surfboardFill = SFSymbol(rawValue: "surfboard.fill")
+    static var surfboardFill: SFSymbol { .init(rawValue: "surfboard.fill") }
 
     /// 􁥐
     /// Single Localization, 2 Layersets
@@ -7644,7 +7644,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let suvSideHillDown = SFSymbol(rawValue: "suv.side.hill.down")
+    static var suvSideHillDown: SFSymbol { .init(rawValue: "suv.side.hill.down") }
 
     /// 􁥑
     /// Single Localization, 2 Layersets
@@ -7652,7 +7652,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let suvSideHillDownFill = SFSymbol(rawValue: "suv.side.hill.down.fill")
+    static var suvSideHillDownFill: SFSymbol { .init(rawValue: "suv.side.hill.down.fill") }
 
     /// 􁤏
     /// Single Localization, 2 Layersets
@@ -7660,7 +7660,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let suvSideHillUp = SFSymbol(rawValue: "suv.side.hill.up")
+    static var suvSideHillUp: SFSymbol { .init(rawValue: "suv.side.hill.up") }
 
     /// 􁤐
     /// Single Localization, 2 Layersets
@@ -7668,7 +7668,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let suvSideHillUpFill = SFSymbol(rawValue: "suv.side.hill.up.fill")
+    static var suvSideHillUpFill: SFSymbol { .init(rawValue: "suv.side.hill.up.fill") }
 
     /// 􁤀
     /// Single Localization, 2 Layersets
@@ -7676,7 +7676,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let suvSideLock = SFSymbol(rawValue: "suv.side.lock")
+    static var suvSideLock: SFSymbol { .init(rawValue: "suv.side.lock") }
 
     /// 􁤁
     /// Single Localization, 2 Layersets
@@ -7684,7 +7684,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let suvSideLockFill = SFSymbol(rawValue: "suv.side.lock.fill")
+    static var suvSideLockFill: SFSymbol { .init(rawValue: "suv.side.lock.fill") }
 
     /// 􁤂
     /// Single Localization, 2 Layersets
@@ -7692,7 +7692,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let suvSideLockOpen = SFSymbol(rawValue: "suv.side.lock.open")
+    static var suvSideLockOpen: SFSymbol { .init(rawValue: "suv.side.lock.open") }
 
     /// 􁤃
     /// Single Localization, 2 Layersets
@@ -7700,14 +7700,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let suvSideLockOpenFill = SFSymbol(rawValue: "suv.side.lock.open.fill")
+    static var suvSideLockOpenFill: SFSymbol { .init(rawValue: "suv.side.lock.open.fill") }
 
     /// 􁤭
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let swedishkronasign = SFSymbol(rawValue: "swedishkronasign")
+    static var swedishkronasign: SFSymbol { .init(rawValue: "swedishkronasign") }
 
     /// 􂈶
     /// Single Localization, 2 Layersets
@@ -7720,7 +7720,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "swedishkronasignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "swedishkronasignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "swedishkronasignArrowTriangleheadCounterclockwiseRotate90")
-    static let swedishkronasignArrowCirclepath = SFSymbol(rawValue: "swedishkronasign.arrow.circlepath")
+    static var swedishkronasignArrowCirclepath: SFSymbol { .init(rawValue: "swedishkronasign.arrow.circlepath") }
 
     /// 􀮨
     /// Single Localization, 2 Layersets
@@ -7728,7 +7728,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let swedishkronasignCircle = SFSymbol(rawValue: "swedishkronasign.circle")
+    static var swedishkronasignCircle: SFSymbol { .init(rawValue: "swedishkronasign.circle") }
 
     /// 􀮩
     /// Single Localization, 3 Layersets
@@ -7737,7 +7737,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let swedishkronasignCircleFill = SFSymbol(rawValue: "swedishkronasign.circle.fill")
+    static var swedishkronasignCircleFill: SFSymbol { .init(rawValue: "swedishkronasign.circle.fill") }
 
     /// 􀮪
     /// Single Localization, 2 Layersets
@@ -7745,7 +7745,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let swedishkronasignSquare = SFSymbol(rawValue: "swedishkronasign.square")
+    static var swedishkronasignSquare: SFSymbol { .init(rawValue: "swedishkronasign.square") }
 
     /// 􀮫
     /// Single Localization, 3 Layersets
@@ -7754,7 +7754,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let swedishkronasignSquareFill = SFSymbol(rawValue: "swedishkronasign.square.fill")
+    static var swedishkronasignSquareFill: SFSymbol { .init(rawValue: "swedishkronasign.square.fill") }
 
     /// 􁗫
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -7763,21 +7763,21 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s SwiftData.
-    static let swiftdata = SFSymbol(rawValue: "swiftdata")
+    static var swiftdata: SFSymbol { .init(rawValue: "swiftdata") }
 
     /// 􁹢
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let swirlCircleRighthalfFilled = SFSymbol(rawValue: "swirl.circle.righthalf.filled")
+    static var swirlCircleRighthalfFilled: SFSymbol { .init(rawValue: "swirl.circle.righthalf.filled") }
 
     /// 􁹪
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let swirlCircleRighthalfFilledInverse = SFSymbol(rawValue: "swirl.circle.righthalf.filled.inverse")
+    static var swirlCircleRighthalfFilledInverse: SFSymbol { .init(rawValue: "swirl.circle.righthalf.filled.inverse") }
 
     /// 􂈝
     /// Single Localization, 2 Layersets
@@ -7790,7 +7790,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "tengesignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "tengesignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "tengesignArrowTriangleheadCounterclockwiseRotate90")
-    static let tengesignArrowCirclepath = SFSymbol(rawValue: "tengesign.arrow.circlepath")
+    static var tengesignArrowCirclepath: SFSymbol { .init(rawValue: "tengesign.arrow.circlepath") }
 
     /// 􁷉
     /// Single Localization, 3 Layersets
@@ -7799,7 +7799,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let thermometerVariableAndFigure = SFSymbol(rawValue: "thermometer.variable.and.figure")
+    static var thermometerVariableAndFigure: SFSymbol { .init(rawValue: "thermometer.variable.and.figure") }
 
     /// 􁷊
     /// Single Localization, 2 Layersets
@@ -7807,7 +7807,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let thermometerVariableAndFigureCircle = SFSymbol(rawValue: "thermometer.variable.and.figure.circle")
+    static var thermometerVariableAndFigureCircle: SFSymbol { .init(rawValue: "thermometer.variable.and.figure.circle") }
 
     /// 􁷋
     /// Single Localization, 3 Layersets
@@ -7816,14 +7816,14 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let thermometerVariableAndFigureCircleFill = SFSymbol(rawValue: "thermometer.variable.and.figure.circle.fill")
+    static var thermometerVariableAndFigureCircleFill: SFSymbol { .init(rawValue: "thermometer.variable.and.figure.circle.fill") }
 
     /// 􁢶
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let tirepressure = SFSymbol(rawValue: "tirepressure")
+    static var tirepressure: SFSymbol { .init(rawValue: "tirepressure") }
 
     /// 􂀼
     /// Single Localization, 2 Layersets
@@ -7831,7 +7831,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let tortoiseCircle = SFSymbol(rawValue: "tortoise.circle")
+    static var tortoiseCircle: SFSymbol { .init(rawValue: "tortoise.circle") }
 
     /// 􂀽
     /// Single Localization, 3 Layersets
@@ -7840,7 +7840,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let tortoiseCircleFill = SFSymbol(rawValue: "tortoise.circle.fill")
+    static var tortoiseCircleFill: SFSymbol { .init(rawValue: "tortoise.circle.fill") }
 
     /// 􁢳
     /// Single Localization, 2 Layersets
@@ -7848,7 +7848,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let tractionControlTirepressure = SFSymbol(rawValue: "traction.control.tirepressure")
+    static var tractionControlTirepressure: SFSymbol { .init(rawValue: "traction.control.tirepressure") }
 
     /// 􁢵
     /// Single Localization, 2 Layersets
@@ -7856,7 +7856,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let tractionControlTirepressureExclamationmark = SFSymbol(rawValue: "traction.control.tirepressure.exclamationmark")
+    static var tractionControlTirepressureExclamationmark: SFSymbol { .init(rawValue: "traction.control.tirepressure.exclamationmark") }
 
     /// 􁢴
     /// Single Localization, 2 Layersets
@@ -7864,28 +7864,28 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let tractionControlTirepressureSlash = SFSymbol(rawValue: "traction.control.tirepressure.slash")
+    static var tractionControlTirepressureSlash: SFSymbol { .init(rawValue: "traction.control.tirepressure.slash") }
 
     /// 􀥰
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let triangleshape = SFSymbol(rawValue: "triangleshape")
+    static var triangleshape: SFSymbol { .init(rawValue: "triangleshape") }
 
     /// 􀥱
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let triangleshapeFill = SFSymbol(rawValue: "triangleshape.fill")
+    static var triangleshapeFill: SFSymbol { .init(rawValue: "triangleshape.fill") }
 
     /// 􁁾
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let truckBox = SFSymbol(rawValue: "truck.box")
+    static var truckBox: SFSymbol { .init(rawValue: "truck.box") }
 
     /// 􁂀
     /// 2 Localizations, 3 Layersets
@@ -7898,7 +7898,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let truckBoxBadgeClock = SymbolWith1Localization<Rtl>(rawValue: "truck.box.badge.clock")
+    static var truckBoxBadgeClock: SymbolWith1Localization<Rtl> { .init(rawValue: "truck.box.badge.clock") }
 
     /// 􁂁
     /// 2 Localizations, 3 Layersets
@@ -7911,21 +7911,21 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let truckBoxBadgeClockFill = SymbolWith1Localization<Rtl>(rawValue: "truck.box.badge.clock.fill")
+    static var truckBoxBadgeClockFill: SymbolWith1Localization<Rtl> { .init(rawValue: "truck.box.badge.clock.fill") }
 
     /// 􁁿
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let truckBoxFill = SFSymbol(rawValue: "truck.box.fill")
+    static var truckBoxFill: SFSymbol { .init(rawValue: "truck.box.fill") }
 
     /// 􁥩
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let truckPickupSide = SFSymbol(rawValue: "truck.pickup.side")
+    static var truckPickupSide: SFSymbol { .init(rawValue: "truck.pickup.side") }
 
     /// 􁥭
     /// Single Localization, 2 Layersets
@@ -7933,7 +7933,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let truckPickupSideAirCirculate = SFSymbol(rawValue: "truck.pickup.side.air.circulate")
+    static var truckPickupSideAirCirculate: SFSymbol { .init(rawValue: "truck.pickup.side.air.circulate") }
 
     /// 􁥮
     /// Single Localization, 2 Layersets
@@ -7941,7 +7941,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let truckPickupSideAirCirculateFill = SFSymbol(rawValue: "truck.pickup.side.air.circulate.fill")
+    static var truckPickupSideAirCirculateFill: SFSymbol { .init(rawValue: "truck.pickup.side.air.circulate.fill") }
 
     /// 􁥯
     /// Single Localization, 2 Layersets
@@ -7949,7 +7949,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let truckPickupSideAirFresh = SFSymbol(rawValue: "truck.pickup.side.air.fresh")
+    static var truckPickupSideAirFresh: SFSymbol { .init(rawValue: "truck.pickup.side.air.fresh") }
 
     /// 􁥰
     /// Single Localization, 2 Layersets
@@ -7957,7 +7957,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let truckPickupSideAirFreshFill = SFSymbol(rawValue: "truck.pickup.side.air.fresh.fill")
+    static var truckPickupSideAirFreshFill: SFSymbol { .init(rawValue: "truck.pickup.side.air.fresh.fill") }
 
     /// 􁥱
     /// Single Localization, 3 Layersets
@@ -7966,7 +7966,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let truckPickupSideAndExclamationmark = SFSymbol(rawValue: "truck.pickup.side.and.exclamationmark")
+    static var truckPickupSideAndExclamationmark: SFSymbol { .init(rawValue: "truck.pickup.side.and.exclamationmark") }
 
     /// 􁥲
     /// Single Localization, 3 Layersets
@@ -7975,7 +7975,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let truckPickupSideAndExclamationmarkFill = SFSymbol(rawValue: "truck.pickup.side.and.exclamationmark.fill")
+    static var truckPickupSideAndExclamationmarkFill: SFSymbol { .init(rawValue: "truck.pickup.side.and.exclamationmark.fill") }
 
     /// 􁥷
     /// Single Localization, 2 Layersets
@@ -7983,7 +7983,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let truckPickupSideArrowtriangleDown = SFSymbol(rawValue: "truck.pickup.side.arrowtriangle.down")
+    static var truckPickupSideArrowtriangleDown: SFSymbol { .init(rawValue: "truck.pickup.side.arrowtriangle.down") }
 
     /// 􁥸
     /// Single Localization, 2 Layersets
@@ -7991,7 +7991,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let truckPickupSideArrowtriangleDownFill = SFSymbol(rawValue: "truck.pickup.side.arrowtriangle.down.fill")
+    static var truckPickupSideArrowtriangleDownFill: SFSymbol { .init(rawValue: "truck.pickup.side.arrowtriangle.down.fill") }
 
     /// 􁥵
     /// Single Localization, 2 Layersets
@@ -7999,7 +7999,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let truckPickupSideArrowtriangleUp = SFSymbol(rawValue: "truck.pickup.side.arrowtriangle.up")
+    static var truckPickupSideArrowtriangleUp: SFSymbol { .init(rawValue: "truck.pickup.side.arrowtriangle.up") }
 
     /// 􁥳
     /// Single Localization, 2 Layersets
@@ -8007,7 +8007,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let truckPickupSideArrowtriangleUpArrowtriangleDown = SFSymbol(rawValue: "truck.pickup.side.arrowtriangle.up.arrowtriangle.down")
+    static var truckPickupSideArrowtriangleUpArrowtriangleDown: SFSymbol { .init(rawValue: "truck.pickup.side.arrowtriangle.up.arrowtriangle.down") }
 
     /// 􁥴
     /// Single Localization, 2 Layersets
@@ -8015,7 +8015,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let truckPickupSideArrowtriangleUpArrowtriangleDownFill = SFSymbol(rawValue: "truck.pickup.side.arrowtriangle.up.arrowtriangle.down.fill")
+    static var truckPickupSideArrowtriangleUpArrowtriangleDownFill: SFSymbol { .init(rawValue: "truck.pickup.side.arrowtriangle.up.arrowtriangle.down.fill") }
 
     /// 􁥶
     /// Single Localization, 2 Layersets
@@ -8023,14 +8023,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let truckPickupSideArrowtriangleUpFill = SFSymbol(rawValue: "truck.pickup.side.arrowtriangle.up.fill")
+    static var truckPickupSideArrowtriangleUpFill: SFSymbol { .init(rawValue: "truck.pickup.side.arrowtriangle.up.fill") }
 
     /// 􁥪
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let truckPickupSideFill = SFSymbol(rawValue: "truck.pickup.side.fill")
+    static var truckPickupSideFill: SFSymbol { .init(rawValue: "truck.pickup.side.fill") }
 
     /// 􁥫
     /// Single Localization, 2 Layersets
@@ -8038,7 +8038,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    static let truckPickupSideFrontOpen = SFSymbol(rawValue: "truck.pickup.side.front.open")
+    static var truckPickupSideFrontOpen: SFSymbol { .init(rawValue: "truck.pickup.side.front.open") }
 
     /// 􁥬
     /// Single Localization, 2 Layersets
@@ -8046,7 +8046,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    static let truckPickupSideFrontOpenFill = SFSymbol(rawValue: "truck.pickup.side.front.open.fill")
+    static var truckPickupSideFrontOpenFill: SFSymbol { .init(rawValue: "truck.pickup.side.front.open.fill") }
 
     /// 􁦆
     /// Single Localization, 2 Layersets
@@ -8054,7 +8054,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let truckPickupSideHillDown = SFSymbol(rawValue: "truck.pickup.side.hill.down")
+    static var truckPickupSideHillDown: SFSymbol { .init(rawValue: "truck.pickup.side.hill.down") }
 
     /// 􁦇
     /// Single Localization, 2 Layersets
@@ -8062,7 +8062,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let truckPickupSideHillDownFill = SFSymbol(rawValue: "truck.pickup.side.hill.down.fill")
+    static var truckPickupSideHillDownFill: SFSymbol { .init(rawValue: "truck.pickup.side.hill.down.fill") }
 
     /// 􁠗
     /// Single Localization, 2 Layersets
@@ -8070,7 +8070,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let truckPickupSideHillUp = SFSymbol(rawValue: "truck.pickup.side.hill.up")
+    static var truckPickupSideHillUp: SFSymbol { .init(rawValue: "truck.pickup.side.hill.up") }
 
     /// 􁠘
     /// Single Localization, 2 Layersets
@@ -8078,7 +8078,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let truckPickupSideHillUpFill = SFSymbol(rawValue: "truck.pickup.side.hill.up.fill")
+    static var truckPickupSideHillUpFill: SFSymbol { .init(rawValue: "truck.pickup.side.hill.up.fill") }
 
     /// 􁥹
     /// Single Localization, 2 Layersets
@@ -8086,7 +8086,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let truckPickupSideLock = SFSymbol(rawValue: "truck.pickup.side.lock")
+    static var truckPickupSideLock: SFSymbol { .init(rawValue: "truck.pickup.side.lock") }
 
     /// 􁥺
     /// Single Localization, 2 Layersets
@@ -8094,7 +8094,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let truckPickupSideLockFill = SFSymbol(rawValue: "truck.pickup.side.lock.fill")
+    static var truckPickupSideLockFill: SFSymbol { .init(rawValue: "truck.pickup.side.lock.fill") }
 
     /// 􁥻
     /// Single Localization, 2 Layersets
@@ -8102,7 +8102,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let truckPickupSideLockOpen = SFSymbol(rawValue: "truck.pickup.side.lock.open")
+    static var truckPickupSideLockOpen: SFSymbol { .init(rawValue: "truck.pickup.side.lock.open") }
 
     /// 􁥼
     /// Single Localization, 2 Layersets
@@ -8110,7 +8110,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let truckPickupSideLockOpenFill = SFSymbol(rawValue: "truck.pickup.side.lock.open.fill")
+    static var truckPickupSideLockOpenFill: SFSymbol { .init(rawValue: "truck.pickup.side.lock.open.fill") }
 
     /// 􁽬
     /// Single Localization, 2 Layersets
@@ -8118,7 +8118,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let tshirtCircle = SFSymbol(rawValue: "tshirt.circle")
+    static var tshirtCircle: SFSymbol { .init(rawValue: "tshirt.circle") }
 
     /// 􁽭
     /// Single Localization, 3 Layersets
@@ -8127,7 +8127,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let tshirtCircleFill = SFSymbol(rawValue: "tshirt.circle.fill")
+    static var tshirtCircleFill: SFSymbol { .init(rawValue: "tshirt.circle.fill") }
 
     /// 􂈪
     /// Single Localization, 2 Layersets
@@ -8140,7 +8140,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "tugriksignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "tugriksignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "tugriksignArrowTriangleheadCounterclockwiseRotate90")
-    static let tugriksignArrowCirclepath = SFSymbol(rawValue: "tugriksign.arrow.circlepath")
+    static var tugriksignArrowCirclepath: SFSymbol { .init(rawValue: "tugriksign.arrow.circlepath") }
 
     /// 􂈘
     /// Single Localization, 2 Layersets
@@ -8153,7 +8153,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "turkishlirasignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "turkishlirasignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "turkishlirasignArrowTriangleheadCounterclockwiseRotate90")
-    static let turkishlirasignArrowCirclepath = SFSymbol(rawValue: "turkishlirasign.arrow.circlepath")
+    static var turkishlirasignArrowCirclepath: SFSymbol { .init(rawValue: "turkishlirasign.arrow.circlepath") }
 
     /// 􂆁
     /// Single Localization, 3 Layersets
@@ -8162,7 +8162,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let tvBadgeWifi = SFSymbol(rawValue: "tv.badge.wifi")
+    static var tvBadgeWifi: SFSymbol { .init(rawValue: "tv.badge.wifi") }
 
     /// 􂆂
     /// Single Localization, 3 Layersets
@@ -8171,7 +8171,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let tvBadgeWifiFill = SFSymbol(rawValue: "tv.badge.wifi.fill")
+    static var tvBadgeWifiFill: SFSymbol { .init(rawValue: "tv.badge.wifi.fill") }
 
     /// 􁋞
     /// Single Localization, 2 Layersets
@@ -8179,7 +8179,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let tvSlash = SFSymbol(rawValue: "tv.slash")
+    static var tvSlash: SFSymbol { .init(rawValue: "tv.slash") }
 
     /// 􁣘
     /// Single Localization, 2 Layersets
@@ -8187,7 +8187,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let tvSlashFill = SFSymbol(rawValue: "tv.slash.fill")
+    static var tvSlashFill: SFSymbol { .init(rawValue: "tv.slash.fill") }
 
     /// 􀼅
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -8198,7 +8198,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
-    static let videoBadgeWaveform = SFSymbol(rawValue: "video.badge.waveform")
+    static var videoBadgeWaveform: SFSymbol { .init(rawValue: "video.badge.waveform") }
 
     /// 􀼆
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -8209,7 +8209,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
-    static let videoBadgeWaveformFill = SFSymbol(rawValue: "video.badge.waveform.fill")
+    static var videoBadgeWaveformFill: SFSymbol { .init(rawValue: "video.badge.waveform.fill") }
 
     /// 􀱰
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
@@ -8223,7 +8223,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
-    static let videoBubble = SymbolWith1Localization<Rtl>(rawValue: "video.bubble")
+    static var videoBubble: SymbolWith1Localization<Rtl> { .init(rawValue: "video.bubble") }
 
     /// 􀱱
     /// 2 Localizations, 3 Layersets, ⚠️ Restricted
@@ -8238,7 +8238,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
-    static let videoBubbleFill = SymbolWith1Localization<Rtl>(rawValue: "video.bubble.fill")
+    static var videoBubbleFill: SymbolWith1Localization<Rtl> { .init(rawValue: "video.bubble.fill") }
 
     /// 􁾄
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -8249,7 +8249,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
-    static let videoSlashCircle = SFSymbol(rawValue: "video.slash.circle")
+    static var videoSlashCircle: SFSymbol { .init(rawValue: "video.slash.circle") }
 
     /// 􁾅
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -8260,14 +8260,14 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
-    static let videoSlashCircleFill = SFSymbol(rawValue: "video.slash.circle.fill")
+    static var videoSlashCircleFill: SFSymbol { .init(rawValue: "video.slash.circle.fill") }
 
     /// 􁹿
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let viewfinderRectangular = SFSymbol(rawValue: "viewfinder.rectangular")
+    static var viewfinderRectangular: SFSymbol { .init(rawValue: "viewfinder.rectangular") }
 
     /// 􁣓
     /// Single Localization, 3 Layersets
@@ -8276,7 +8276,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let viewfinderTrianglebadgeExclamationmark = SFSymbol(rawValue: "viewfinder.trianglebadge.exclamationmark")
+    static var viewfinderTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "viewfinder.trianglebadge.exclamationmark") }
 
     /// 􁎖
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -8291,7 +8291,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "visionPro")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "visionPro")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "visionPro")
-    static let visionpro = SFSymbol(rawValue: "visionpro")
+    static var visionpro: SFSymbol { .init(rawValue: "visionpro") }
 
     /// 􁳔
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -8306,7 +8306,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "visionProAndArrowForward")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "visionProAndArrowForward")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "visionProAndArrowForward")
-    static let visionproAndArrowForward = SFSymbol(rawValue: "visionpro.and.arrow.forward")
+    static var visionproAndArrowForward: SFSymbol { .init(rawValue: "visionpro.and.arrow.forward") }
 
     /// 􁳕
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -8321,7 +8321,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "visionProAndArrowForwardFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "visionProAndArrowForwardFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "visionProAndArrowForwardFill")
-    static let visionproAndArrowForwardFill = SFSymbol(rawValue: "visionpro.and.arrow.forward.fill")
+    static var visionproAndArrowForwardFill: SFSymbol { .init(rawValue: "visionpro.and.arrow.forward.fill") }
 
     /// 􁷇
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -8337,7 +8337,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "visionProBadgeExclamationmark")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "visionProBadgeExclamationmark")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "visionProBadgeExclamationmark")
-    static let visionproBadgeExclamationmark = SFSymbol(rawValue: "visionpro.badge.exclamationmark")
+    static var visionproBadgeExclamationmark: SFSymbol { .init(rawValue: "visionpro.badge.exclamationmark") }
 
     /// 􁷈
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -8353,7 +8353,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "visionProBadgeExclamationmarkFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "visionProBadgeExclamationmarkFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "visionProBadgeExclamationmarkFill")
-    static let visionproBadgeExclamationmarkFill = SFSymbol(rawValue: "visionpro.badge.exclamationmark.fill")
+    static var visionproBadgeExclamationmarkFill: SFSymbol { .init(rawValue: "visionpro.badge.exclamationmark.fill") }
 
     /// 􁼿
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -8369,7 +8369,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "visionProBadgePlay")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "visionProBadgePlay")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "visionProBadgePlay")
-    static let visionproBadgePlay = SFSymbol(rawValue: "visionpro.badge.play")
+    static var visionproBadgePlay: SFSymbol { .init(rawValue: "visionpro.badge.play") }
 
     /// 􁽀
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -8385,7 +8385,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "visionProBadgePlayFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "visionProBadgePlayFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "visionProBadgePlayFill")
-    static let visionproBadgePlayFill = SFSymbol(rawValue: "visionpro.badge.play.fill")
+    static var visionproBadgePlayFill: SFSymbol { .init(rawValue: "visionpro.badge.play.fill") }
 
     /// 􂅿
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -8400,7 +8400,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "visionProCircle")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "visionProCircle")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "visionProCircle")
-    static let visionproCircle = SFSymbol(rawValue: "visionpro.circle")
+    static var visionproCircle: SFSymbol { .init(rawValue: "visionpro.circle") }
 
     /// 􂆀
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -8416,7 +8416,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "visionProCircleFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "visionProCircleFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "visionProCircleFill")
-    static let visionproCircleFill = SFSymbol(rawValue: "visionpro.circle.fill")
+    static var visionproCircleFill: SFSymbol { .init(rawValue: "visionpro.circle.fill") }
 
     /// 􁎘
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -8430,7 +8430,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "visionProFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "visionProFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "visionProFill")
-    static let visionproFill = SFSymbol(rawValue: "visionpro.fill")
+    static var visionproFill: SFSymbol { .init(rawValue: "visionpro.fill") }
 
     /// 􁽃
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -8445,7 +8445,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "visionProSlash")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "visionProSlash")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "visionProSlash")
-    static let visionproSlash = SFSymbol(rawValue: "visionpro.slash")
+    static var visionproSlash: SFSymbol { .init(rawValue: "visionpro.slash") }
 
     /// 􂆞
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -8460,7 +8460,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "visionProSlashCircle")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "visionProSlashCircle")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "visionProSlashCircle")
-    static let visionproSlashCircle = SFSymbol(rawValue: "visionpro.slash.circle")
+    static var visionproSlashCircle: SFSymbol { .init(rawValue: "visionpro.slash.circle") }
 
     /// 􂆟
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -8476,7 +8476,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "visionProSlashCircleFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "visionProSlashCircleFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "visionProSlashCircleFill")
-    static let visionproSlashCircleFill = SFSymbol(rawValue: "visionpro.slash.circle.fill")
+    static var visionproSlashCircleFill: SFSymbol { .init(rawValue: "visionpro.slash.circle.fill") }
 
     /// 􁽄
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -8491,7 +8491,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "visionProSlashFill")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "visionProSlashFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "visionProSlashFill")
-    static let visionproSlashFill = SFSymbol(rawValue: "visionpro.slash.fill")
+    static var visionproSlashFill: SFSymbol { .init(rawValue: "visionpro.slash.fill") }
 
     /// 􀭻
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -8501,7 +8501,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Accessibility features.
-    static let voiceover = SFSymbol(rawValue: "voiceover")
+    static var voiceover: SFSymbol { .init(rawValue: "voiceover") }
 
     /// 􁀬
     /// Single Localization, 2 Layersets
@@ -8509,7 +8509,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
-    static let warninglight = SFSymbol(rawValue: "warninglight")
+    static var warninglight: SFSymbol { .init(rawValue: "warninglight") }
 
     /// 􁀭
     /// Single Localization, 2 Layersets
@@ -8517,7 +8517,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
-    static let warninglightFill = SFSymbol(rawValue: "warninglight.fill")
+    static var warninglightFill: SFSymbol { .init(rawValue: "warninglight.fill") }
 
     /// 􁿎
     /// Single Localization, 2 Layersets
@@ -8525,7 +8525,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let washerCircle = SFSymbol(rawValue: "washer.circle")
+    static var washerCircle: SFSymbol { .init(rawValue: "washer.circle") }
 
     /// 􁿏
     /// Single Localization, 3 Layersets
@@ -8534,7 +8534,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let washerCircleFill = SFSymbol(rawValue: "washer.circle.fill")
+    static var washerCircleFill: SFSymbol { .init(rawValue: "washer.circle.fill") }
 
     /// 􁞺
     /// Single Localization, 2 Layersets
@@ -8542,21 +8542,21 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let watchAnalog = SFSymbol(rawValue: "watch.analog")
+    static var watchAnalog: SFSymbol { .init(rawValue: "watch.analog") }
 
     /// 􁻊
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let waterbottle = SFSymbol(rawValue: "waterbottle")
+    static var waterbottle: SFSymbol { .init(rawValue: "waterbottle") }
 
     /// 􁻋
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let waterbottleFill = SFSymbol(rawValue: "waterbottle.fill")
+    static var waterbottleFill: SFSymbol { .init(rawValue: "waterbottle.fill") }
 
     /// 􂃓
     /// Single Localization, 2 Layersets
@@ -8564,7 +8564,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let waveformAndPersonFilled = SFSymbol(rawValue: "waveform.and.person.filled")
+    static var waveformAndPersonFilled: SFSymbol { .init(rawValue: "waveform.and.person.filled") }
 
     /// 􀻾
     /// Single Localization, 3 Layersets
@@ -8573,7 +8573,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let waveformBadgeMagnifyingglass = SFSymbol(rawValue: "waveform.badge.magnifyingglass")
+    static var waveformBadgeMagnifyingglass: SFSymbol { .init(rawValue: "waveform.badge.magnifyingglass") }
 
     /// 􁃨
     /// Single Localization, 3 Layersets
@@ -8587,7 +8587,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "waveformBadgeMicrophone")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "waveformBadgeMicrophone")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "waveformBadgeMicrophone")
-    static let waveformBadgeMic = SFSymbol(rawValue: "waveform.badge.mic")
+    static var waveformBadgeMic: SFSymbol { .init(rawValue: "waveform.badge.mic") }
 
     /// 􂄁
     /// Single Localization, 2 Layersets
@@ -8595,7 +8595,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let wifiExclamationmarkCircle = SFSymbol(rawValue: "wifi.exclamationmark.circle")
+    static var wifiExclamationmarkCircle: SFSymbol { .init(rawValue: "wifi.exclamationmark.circle") }
 
     /// 􂄂
     /// Single Localization, 3 Layersets
@@ -8604,7 +8604,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let wifiExclamationmarkCircleFill = SFSymbol(rawValue: "wifi.exclamationmark.circle.fill")
+    static var wifiExclamationmarkCircleFill: SFSymbol { .init(rawValue: "wifi.exclamationmark.circle.fill") }
 
     /// 􂈡
     /// Single Localization, 2 Layersets
@@ -8617,7 +8617,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "wonsignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "wonsignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "wonsignArrowTriangleheadCounterclockwiseRotate90")
-    static let wonsignArrowCirclepath = SFSymbol(rawValue: "wonsign.arrow.circlepath")
+    static var wonsignArrowCirclepath: SFSymbol { .init(rawValue: "wonsign.arrow.circlepath") }
 
     /// 􁻇
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -8626,7 +8626,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Xserve RAID.
-    static let xserveRaid = SFSymbol(rawValue: "xserve.raid")
+    static var xserveRaid: SFSymbol { .init(rawValue: "xserve.raid") }
 
     /// 􂈔
     /// Single Localization, 2 Layersets
@@ -8639,7 +8639,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 17.0, deprecated: 18.0, renamed: "yensignArrowTriangleheadCounterclockwiseRotate90")
     @available(watchOS, introduced: 10.0, deprecated: 11.0, renamed: "yensignArrowTriangleheadCounterclockwiseRotate90")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "yensignArrowTriangleheadCounterclockwiseRotate90")
-    static let yensignArrowCirclepath = SFSymbol(rawValue: "yensign.arrow.circlepath")
+    static var yensignArrowCirclepath: SFSymbol { .init(rawValue: "yensign.arrow.circlepath") }
 
     /// 􁕤
     /// Single Localization, 3 Layersets
@@ -8648,7 +8648,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let yieldsign = SFSymbol(rawValue: "yieldsign")
+    static var yieldsign: SFSymbol { .init(rawValue: "yieldsign") }
 
     /// 􁕥
     /// Single Localization, 3 Layersets
@@ -8657,7 +8657,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let yieldsignFill = SFSymbol(rawValue: "yieldsign.fill")
+    static var yieldsignFill: SFSymbol { .init(rawValue: "yieldsign.fill") }
 
     /// 􀨛
     /// Single Localization, 2 Layersets
@@ -8665,7 +8665,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let zlButtonRoundedtopHorizontal = SFSymbol(rawValue: "zl.button.roundedtop.horizontal")
+    static var zlButtonRoundedtopHorizontal: SFSymbol { .init(rawValue: "zl.button.roundedtop.horizontal") }
 
     /// 􀨜
     /// Single Localization, 3 Layersets
@@ -8674,7 +8674,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let zlButtonRoundedtopHorizontalFill = SFSymbol(rawValue: "zl.button.roundedtop.horizontal.fill")
+    static var zlButtonRoundedtopHorizontalFill: SFSymbol { .init(rawValue: "zl.button.roundedtop.horizontal.fill") }
 
     /// 􀨝
     /// Single Localization, 2 Layersets
@@ -8682,7 +8682,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let zrButtonRoundedtopHorizontal = SFSymbol(rawValue: "zr.button.roundedtop.horizontal")
+    static var zrButtonRoundedtopHorizontal: SFSymbol { .init(rawValue: "zr.button.roundedtop.horizontal") }
 
     /// 􀨞
     /// Single Localization, 3 Layersets
@@ -8691,5 +8691,5 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let zrButtonRoundedtopHorizontalFill = SFSymbol(rawValue: "zr.button.roundedtop.horizontal.fill")
+    static var zrButtonRoundedtopHorizontalFill: SFSymbol { .init(rawValue: "zr.button.roundedtop.horizontal.fill") }
 }

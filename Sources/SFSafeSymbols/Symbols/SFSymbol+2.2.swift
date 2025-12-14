@@ -16,7 +16,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 14.5, deprecated: 18.0, renamed: "airpodsMax")
     @available(watchOS, introduced: 7.4, deprecated: 11.0, renamed: "airpodsMax")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "airpodsMax")
-    static let airpodsmax = SFSymbol(rawValue: "airpodsmax")
+    static var airpodsmax: SFSymbol { .init(rawValue: "airpodsmax") }
 
     /// 􀸎
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -26,7 +26,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
-    static let applewatchSideRight = SFSymbol(rawValue: "applewatch.side.right")
+    static var applewatchSideRight: SFSymbol { .init(rawValue: "applewatch.side.right") }
 
     /// 􀌰
     /// 20 Localizations, 2 Layersets
@@ -56,7 +56,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterBubble = SymbolWith19Localizations<Ar, Bn_v7, Gu_v7, He, Hi_v3, Ja_v3, Kn_v7, Ko_v3, Ml_v7, Mni_v7, Mr_v7, Or_v7, Pa_v7, Sat_v7, Si_v7, Ta_v7, Te_v7, Th_v3, Zh_v3>(rawValue: "character.bubble")
+    static var characterBubble: SymbolWith19Localizations<Ar, Bn_v7, Gu_v7, He, Hi_v3, Ja_v3, Kn_v7, Ko_v3, Ml_v7, Mni_v7, Mr_v7, Or_v7, Pa_v7, Sat_v7, Si_v7, Ta_v7, Te_v7, Th_v3, Zh_v3> { .init(rawValue: "character.bubble") }
 
     /// 􀌱
     /// 20 Localizations, 3 Layersets
@@ -87,7 +87,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    static let characterBubbleFill = SymbolWith19Localizations<Ar, Bn_v7, Gu_v7, He, Hi_v3, Ja_v3, Kn_v7, Ko_v3, Ml_v7, Mni_v7, Mr_v7, Or_v7, Pa_v7, Sat_v7, Si_v7, Ta_v7, Te_v7, Th_v3, Zh_v3>(rawValue: "character.bubble.fill")
+    static var characterBubbleFill: SymbolWith19Localizations<Ar, Bn_v7, Gu_v7, He, Hi_v3, Ja_v3, Kn_v7, Ko_v3, Ml_v7, Mni_v7, Mr_v7, Or_v7, Pa_v7, Sat_v7, Si_v7, Ta_v7, Te_v7, Th_v3, Zh_v3> { .init(rawValue: "character.bubble.fill") }
 
     /// 􀅫
     /// 20 Localizations, 2 Layersets
@@ -117,7 +117,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterCursorIbeam = SymbolWith19Localizations<Ar, Bn_v6_3, Gu_v6_3, He, Hi, Ja, Kn_v6_3, Ko, Ml_v6_3, Mni_v6_3, Mr_v6_3, Or_v6_3, Pa_v6_3, Sat_v6_3, Si_v6_3, Ta_v6_3, Te_v6_3, Th, Zh>(rawValue: "character.cursor.ibeam")
+    static var characterCursorIbeam: SymbolWith19Localizations<Ar, Bn_v6_3, Gu_v6_3, He, Hi, Ja, Kn_v6_3, Ko, Ml_v6_3, Mni_v6_3, Mr_v6_3, Or_v6_3, Pa_v6_3, Sat_v6_3, Si_v6_3, Ta_v6_3, Te_v6_3, Th, Zh> { .init(rawValue: "character.cursor.ibeam") }
 
     /// 􀅶
     /// 19 Localizations, 2 Layersets
@@ -146,7 +146,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let characterTextbox = SymbolWith18Localizations<Ar, Bn_v6_3, Gu_v6_3, He, Hi, Ja, Kn_v6_3, Ko, Ml_v6_3, Mni_v6_3, Mr_v6_3, Or_v6_3, Pa_v6_3, Sat_v6_3, Si_v6_3, Ta_v6_3, Th, Zh>(rawValue: "character.textbox")
+    static var characterTextbox: SymbolWith18Localizations<Ar, Bn_v6_3, Gu_v6_3, He, Hi, Ja, Kn_v6_3, Ko, Ml_v6_3, Mni_v6_3, Mr_v6_3, Or_v6_3, Pa_v6_3, Sat_v6_3, Si_v6_3, Ta_v6_3, Th, Zh> { .init(rawValue: "character.textbox") }
 
     /// 􀷭
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -161,7 +161,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 14.5, deprecated: 18.0, renamed: "hifispeakerAndHomepodMini")
     @available(watchOS, introduced: 7.4, deprecated: 11.0, renamed: "hifispeakerAndHomepodMini")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "hifispeakerAndHomepodMini")
-    static let hifispeakerAndHomepodmini = SFSymbol(rawValue: "hifispeaker.and.homepodmini")
+    static var hifispeakerAndHomepodmini: SFSymbol { .init(rawValue: "hifispeaker.and.homepodmini") }
 
     /// 􀷮
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -176,7 +176,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 14.5, deprecated: 18.0, renamed: "hifispeakerAndHomepodMiniFill")
     @available(watchOS, introduced: 7.4, deprecated: 11.0, renamed: "hifispeakerAndHomepodMiniFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "hifispeakerAndHomepodMiniFill")
-    static let hifispeakerAndHomepodminiFill = SFSymbol(rawValue: "hifispeaker.and.homepodmini.fill")
+    static var hifispeakerAndHomepodminiFill: SFSymbol { .init(rawValue: "hifispeaker.and.homepodmini.fill") }
 
     /// 􀷫
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -191,7 +191,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 14.5, deprecated: 18.0, renamed: "homepodAndHomepodMini")
     @available(watchOS, introduced: 7.4, deprecated: 11.0, renamed: "homepodAndHomepodMini")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "homepodAndHomepodMini")
-    static let homepodAndHomepodmini = SFSymbol(rawValue: "homepod.and.homepodmini")
+    static var homepodAndHomepodmini: SFSymbol { .init(rawValue: "homepod.and.homepodmini") }
 
     /// 􀷬
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -206,7 +206,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 14.5, deprecated: 18.0, renamed: "homepodAndHomepodMiniFill")
     @available(watchOS, introduced: 7.4, deprecated: 11.0, renamed: "homepodAndHomepodMiniFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "homepodAndHomepodMiniFill")
-    static let homepodAndHomepodminiFill = SFSymbol(rawValue: "homepod.and.homepodmini.fill")
+    static var homepodAndHomepodminiFill: SFSymbol { .init(rawValue: "homepod.and.homepodmini.fill") }
 
     /// 􀷧
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -221,7 +221,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 14.5, deprecated: 18.0, renamed: "homepodMini")
     @available(watchOS, introduced: 7.4, deprecated: 11.0, renamed: "homepodMini")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "homepodMini")
-    static let homepodmini = SFSymbol(rawValue: "homepodmini")
+    static var homepodmini: SFSymbol { .init(rawValue: "homepodmini") }
 
     /// 􀷩
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -236,7 +236,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 14.5, deprecated: 18.0, renamed: "homepodMini2")
     @available(watchOS, introduced: 7.4, deprecated: 11.0, renamed: "homepodMini2")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "homepodMini2")
-    static let homepodmini2 = SFSymbol(rawValue: "homepodmini.2")
+    static var homepodmini2: SFSymbol { .init(rawValue: "homepodmini.2") }
 
     /// 􀷪
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -251,7 +251,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 14.5, deprecated: 18.0, renamed: "homepodMini2Fill")
     @available(watchOS, introduced: 7.4, deprecated: 11.0, renamed: "homepodMini2Fill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "homepodMini2Fill")
-    static let homepodmini2Fill = SFSymbol(rawValue: "homepodmini.2.fill")
+    static var homepodmini2Fill: SFSymbol { .init(rawValue: "homepodmini.2.fill") }
 
     /// 􀷨
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -266,7 +266,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 14.5, deprecated: 18.0, renamed: "homepodMiniFill")
     @available(watchOS, introduced: 7.4, deprecated: 11.0, renamed: "homepodMiniFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "homepodMiniFill")
-    static let homepodminiFill = SFSymbol(rawValue: "homepodmini.fill")
+    static var homepodminiFill: SFSymbol { .init(rawValue: "homepodmini.fill") }
 
     /// 􀴊
     /// Single Localization, Single Layerset
@@ -278,5 +278,5 @@ public extension SFSymbol {
     @available(tvOS, introduced: 14.5, deprecated: 15.0, renamed: "rectangleTopthirdInsetFilled")
     @available(watchOS, introduced: 7.4, deprecated: 8.0, renamed: "rectangleTopthirdInsetFilled")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "rectangleTopthirdInsetFilled")
-    static let rectangleTopthirdInsetFill = SFSymbol(rawValue: "rectangle.topthird.inset.fill")
+    static var rectangleTopthirdInsetFill: SFSymbol { .init(rawValue: "rectangle.topthird.inset.fill") }
 }

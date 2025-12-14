@@ -10,7 +10,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static let airpodGen3Left = SFSymbol(rawValue: "airpod.gen3.left")
+    static var airpodGen3Left: SFSymbol { .init(rawValue: "airpod.gen3.left") }
 
     /// 􁄢
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -19,7 +19,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static let airpodGen3Right = SFSymbol(rawValue: "airpod.gen3.right")
+    static var airpodGen3Right: SFSymbol { .init(rawValue: "airpod.gen3.right") }
 
     /// 􁄡
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -28,7 +28,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static let airpodsGen3 = SFSymbol(rawValue: "airpods.gen3")
+    static var airpodsGen3: SFSymbol { .init(rawValue: "airpods.gen3") }
 
     /// 􁅐
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -37,7 +37,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static let airpodsGen3ChargingcaseWireless = SFSymbol(rawValue: "airpods.gen3.chargingcase.wireless")
+    static var airpodsGen3ChargingcaseWireless: SFSymbol { .init(rawValue: "airpods.gen3.chargingcase.wireless") }
 
     /// 􁅑
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -46,7 +46,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static let airpodsGen3ChargingcaseWirelessFill = SFSymbol(rawValue: "airpods.gen3.chargingcase.wireless.fill")
+    static var airpodsGen3ChargingcaseWirelessFill: SFSymbol { .init(rawValue: "airpods.gen3.chargingcase.wireless.fill") }
 
     /// 􁅞
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -61,7 +61,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitpro")
     @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitpro")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "beatsFitpro")
-    static let beatsFitPro = SFSymbol(rawValue: "beats.fit.pro")
+    static var beatsFitPro: SFSymbol { .init(rawValue: "beats.fit.pro") }
 
     /// 􁅡
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -75,7 +75,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproChargingcase")
     @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitproChargingcase")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "beatsFitproChargingcase")
-    static let beatsFitProChargingcase = SFSymbol(rawValue: "beats.fit.pro.chargingcase")
+    static var beatsFitProChargingcase: SFSymbol { .init(rawValue: "beats.fit.pro.chargingcase") }
 
     /// 􁅢
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -89,7 +89,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproChargingcaseFill")
     @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitproChargingcaseFill")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "beatsFitproChargingcaseFill")
-    static let beatsFitProChargingcaseFill = SFSymbol(rawValue: "beats.fit.pro.chargingcase.fill")
+    static var beatsFitProChargingcaseFill: SFSymbol { .init(rawValue: "beats.fit.pro.chargingcase.fill") }
 
     /// 􁅟
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -104,7 +104,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproLeft")
     @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitproLeft")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "beatsFitproLeft")
-    static let beatsFitProLeft = SFSymbol(rawValue: "beats.fit.pro.left")
+    static var beatsFitProLeft: SFSymbol { .init(rawValue: "beats.fit.pro.left") }
 
     /// 􁅠
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -119,21 +119,21 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproRight")
     @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitproRight")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "beatsFitproRight")
-    static let beatsFitProRight = SFSymbol(rawValue: "beats.fit.pro.right")
+    static var beatsFitProRight: SFSymbol { .init(rawValue: "beats.fit.pro.right") }
 
     /// 􁋶
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let rectangleLeadinghalfFilled = SFSymbol(rawValue: "rectangle.leadinghalf.filled")
+    static var rectangleLeadinghalfFilled: SFSymbol { .init(rawValue: "rectangle.leadinghalf.filled") }
 
     /// 􁋷
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let rectangleTrailinghalfFilled = SFSymbol(rawValue: "rectangle.trailinghalf.filled")
+    static var rectangleTrailinghalfFilled: SFSymbol { .init(rawValue: "rectangle.trailinghalf.filled") }
 
     /// 􁋽
     /// Single Localization, 2 Layersets
@@ -141,7 +141,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let square3Layers3dDownLeftSlash = SFSymbol(rawValue: "square.3.layers.3d.down.left.slash")
+    static var square3Layers3dDownLeftSlash: SFSymbol { .init(rawValue: "square.3.layers.3d.down.left.slash") }
 
     /// 􁋼
     /// Single Localization, 2 Layersets
@@ -149,7 +149,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let square3Layers3dDownRightSlash = SFSymbol(rawValue: "square.3.layers.3d.down.right.slash")
+    static var square3Layers3dDownRightSlash: SFSymbol { .init(rawValue: "square.3.layers.3d.down.right.slash") }
 
     /// 􁌅
     /// Single Localization, 2 Layersets
@@ -162,5 +162,5 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.2, deprecated: 16.0, renamed: "square3Layers3dSlash")
     @available(watchOS, introduced: 8.3, deprecated: 9.0, renamed: "square3Layers3dSlash")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "square3Layers3dSlash")
-    static let square3Stack3dSlash = SFSymbol(rawValue: "square.3.stack.3d.slash")
+    static var square3Stack3dSlash: SFSymbol { .init(rawValue: "square.3.stack.3d.slash") }
 }

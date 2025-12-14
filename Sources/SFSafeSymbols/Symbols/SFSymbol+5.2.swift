@@ -10,7 +10,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let squareAndArrowUpBadgeClock = SFSymbol(rawValue: "square.and.arrow.up.badge.clock")
+    static var squareAndArrowUpBadgeClock: SFSymbol { .init(rawValue: "square.and.arrow.up.badge.clock") }
 
     /// 􂋏
     /// Single Localization, 3 Layersets
@@ -19,5 +19,5 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let squareAndArrowUpBadgeClockFill = SFSymbol(rawValue: "square.and.arrow.up.badge.clock.fill")
+    static var squareAndArrowUpBadgeClockFill: SFSymbol { .init(rawValue: "square.and.arrow.up.badge.clock.fill") }
 }
