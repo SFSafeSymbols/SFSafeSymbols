@@ -259,7 +259,7 @@ let symbolToCode: (Symbol) -> String = { symbol in
     }
     let variadics = structNames.isNotEmpty ? "<\(structNames.joined(separator: ", "))>" : ""
 
-    outputString += "\tstatic let \(symbol.propertyName) = \(nonVariadicClassName(localizationCount-1))\(variadics)(rawValue: \"\(symbol.name)\")"
+    outputString += "\tstatic var \(symbol.propertyName): \(nonVariadicClassName(localizationCount-1))\(variadics) { .init(rawValue: \"\(symbol.name)\") }"
 
     return outputString
 }

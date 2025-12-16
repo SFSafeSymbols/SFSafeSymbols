@@ -10,7 +10,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static let airpodsGen4 = SFSymbol(rawValue: "airpods.gen4")
+    static var airpodsGen4: SFSymbol { .init(rawValue: "airpods.gen4") }
 
     /// 􂭆
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -19,7 +19,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static let airpodsGen4ChargingcaseWireless = SFSymbol(rawValue: "airpods.gen4.chargingcase.wireless")
+    static var airpodsGen4ChargingcaseWireless: SFSymbol { .init(rawValue: "airpods.gen4.chargingcase.wireless") }
 
     /// 􂭇
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -28,7 +28,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static let airpodsGen4ChargingcaseWirelessFill = SFSymbol(rawValue: "airpods.gen4.chargingcase.wireless.fill")
+    static var airpodsGen4ChargingcaseWirelessFill: SFSymbol { .init(rawValue: "airpods.gen4.chargingcase.wireless.fill") }
 
     /// 􂭅
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -37,7 +37,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static let airpodsGen4Left = SFSymbol(rawValue: "airpods.gen4.left")
+    static var airpodsGen4Left: SFSymbol { .init(rawValue: "airpods.gen4.left") }
 
     /// 􂭄
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -46,7 +46,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static let airpodsGen4Right = SFSymbol(rawValue: "airpods.gen4.right")
+    static var airpodsGen4Right: SFSymbol { .init(rawValue: "airpods.gen4.right") }
 
     /// 􂷴
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -57,7 +57,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Writing Tools.
-    static let appleWritingTools = SFSymbol(rawValue: "apple.writing.tools")
+    static var appleWritingTools: SFSymbol { .init(rawValue: "apple.writing.tools") }
 
     /// 􂹞
     /// 2 Localizations, Single Layerset
@@ -68,7 +68,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let exclamationmarkTriangleTextPage = SymbolWith1Localization<Rtl>(rawValue: "exclamationmark.triangle.text.page")
+    static var exclamationmarkTriangleTextPage: SymbolWith1Localization<Rtl> { .init(rawValue: "exclamationmark.triangle.text.page") }
 
     /// 􂹟
     /// 2 Localizations, Single Layerset
@@ -79,7 +79,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let exclamationmarkTriangleTextPageFill = SymbolWith1Localization<Rtl>(rawValue: "exclamationmark.triangle.text.page.fill")
+    static var exclamationmarkTriangleTextPageFill: SymbolWith1Localization<Rtl> { .init(rawValue: "exclamationmark.triangle.text.page.fill") }
 
     /// 􂸞
     /// Single Localization, 2 Layersets
@@ -87,7 +87,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let figureSeatedSideLeftAirDistributionUpperAndMiddleAndLower = SFSymbol(rawValue: "figure.seated.side.left.air.distribution.upper.and.middle.and.lower")
+    static var figureSeatedSideLeftAirDistributionUpperAndMiddleAndLower: SFSymbol { .init(rawValue: "figure.seated.side.left.air.distribution.upper.and.middle.and.lower") }
 
     /// 􂸟
     /// Single Localization, 2 Layersets
@@ -95,7 +95,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let figureSeatedSideRightAirDistributionUpperAndMiddleAndLower = SFSymbol(rawValue: "figure.seated.side.right.air.distribution.upper.and.middle.and.lower")
+    static var figureSeatedSideRightAirDistributionUpperAndMiddleAndLower: SFSymbol { .init(rawValue: "figure.seated.side.right.air.distribution.upper.and.middle.and.lower") }
 
     /// 􂸔
     /// Single Localization, 2 Layersets
@@ -103,7 +103,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let headphonesDots = SFSymbol(rawValue: "headphones.dots")
+    static var headphonesDots: SFSymbol { .init(rawValue: "headphones.dots") }
 
     /// 􂹩
     /// Single Localization, 2 Layersets
@@ -111,7 +111,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let infoTriangle = SFSymbol(rawValue: "info.triangle")
+    static var infoTriangle: SFSymbol { .init(rawValue: "info.triangle") }
 
     /// 􂹪
     /// Single Localization, 3 Layersets
@@ -120,7 +120,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let infoTriangleFill = SFSymbol(rawValue: "info.triangle.fill")
+    static var infoTriangleFill: SFSymbol { .init(rawValue: "info.triangle.fill") }
 
     /// 􂸆
     /// Single Localization, 2 Layersets
@@ -128,7 +128,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let insetFilledRectangleAndPersonFilledCircle = SFSymbol(rawValue: "inset.filled.rectangle.and.person.filled.circle")
+    static var insetFilledRectangleAndPersonFilledCircle: SFSymbol { .init(rawValue: "inset.filled.rectangle.and.person.filled.circle") }
 
     /// 􂸇
     /// Single Localization, 3 Layersets
@@ -137,21 +137,21 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let insetFilledRectangleAndPersonFilledCircleFill = SFSymbol(rawValue: "inset.filled.rectangle.and.person.filled.circle.fill")
+    static var insetFilledRectangleAndPersonFilledCircleFill: SFSymbol { .init(rawValue: "inset.filled.rectangle.and.person.filled.circle.fill") }
 
     /// 􂷼
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let receipt = SFSymbol(rawValue: "receipt")
+    static var receipt: SFSymbol { .init(rawValue: "receipt") }
 
     /// 􂷽
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let receiptFill = SFSymbol(rawValue: "receipt.fill")
+    static var receiptFill: SFSymbol { .init(rawValue: "receipt.fill") }
 
     /// 􂸊
     /// Single Localization, 2 Layersets
@@ -159,7 +159,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let wandAndOutline = SFSymbol(rawValue: "wand.and.outline")
+    static var wandAndOutline: SFSymbol { .init(rawValue: "wand.and.outline") }
 
     /// 􂸋
     /// Single Localization, 2 Layersets
@@ -167,5 +167,5 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let wandAndOutlineInverse = SFSymbol(rawValue: "wand.and.outline.inverse")
+    static var wandAndOutlineInverse: SFSymbol { .init(rawValue: "wand.and.outline.inverse") }
 }

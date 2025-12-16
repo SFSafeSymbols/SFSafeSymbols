@@ -9,7 +9,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let boltHouse = SFSymbol(rawValue: "bolt.house")
+    static var boltHouse: SFSymbol { .init(rawValue: "bolt.house") }
 
     /// 􂶡
     /// Single Localization, 3 Layersets
@@ -18,7 +18,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let boltHouseFill = SFSymbol(rawValue: "bolt.house.fill")
+    static var boltHouseFill: SFSymbol { .init(rawValue: "bolt.house.fill") }
 
     /// 􂷔
     /// Single Localization, 2 Layersets
@@ -26,7 +26,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
-    static let cableConnectorVideo = SFSymbol(rawValue: "cable.connector.video")
+    static var cableConnectorVideo: SFSymbol { .init(rawValue: "cable.connector.video") }
 
     /// 􂴾
     /// Single Localization, 2 Layersets
@@ -34,7 +34,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carTopRadiowaves2FrontLeftFrontFrontRight = SFSymbol(rawValue: "car.top.radiowaves.2.front.left.front.front.right")
+    static var carTopRadiowaves2FrontLeftFrontFrontRight: SFSymbol { .init(rawValue: "car.top.radiowaves.2.front.left.front.front.right") }
 
     /// 􂴿
     /// Single Localization, 2 Layersets
@@ -42,7 +42,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carTopRadiowaves2FrontLeftFrontFrontRightFill = SFSymbol(rawValue: "car.top.radiowaves.2.front.left.front.front.right.fill")
+    static var carTopRadiowaves2FrontLeftFrontFrontRightFill: SFSymbol { .init(rawValue: "car.top.radiowaves.2.front.left.front.front.right.fill") }
 
     /// 􂵂
     /// Single Localization, 2 Layersets
@@ -50,7 +50,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carTopRadiowaves2RearLeftRearRearRight = SFSymbol(rawValue: "car.top.radiowaves.2.rear.left.rear.rear.right")
+    static var carTopRadiowaves2RearLeftRearRearRight: SFSymbol { .init(rawValue: "car.top.radiowaves.2.rear.left.rear.rear.right") }
 
     /// 􂵃
     /// Single Localization, 2 Layersets
@@ -58,7 +58,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let carTopRadiowaves2RearLeftRearRearRightFill = SFSymbol(rawValue: "car.top.radiowaves.2.rear.left.rear.rear.right.fill")
+    static var carTopRadiowaves2RearLeftRearRearRightFill: SFSymbol { .init(rawValue: "car.top.radiowaves.2.rear.left.rear.rear.right.fill") }
 
     /// 􂵆
     /// Single Localization, 2 Layersets
@@ -66,7 +66,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let dotCarTopRadiowaves2RearLeftRearRearRight = SFSymbol(rawValue: "dot.car.top.radiowaves.2.rear.left.rear.rear.right")
+    static var dotCarTopRadiowaves2RearLeftRearRearRight: SFSymbol { .init(rawValue: "dot.car.top.radiowaves.2.rear.left.rear.rear.right") }
 
     /// 􂵇
     /// Single Localization, 2 Layersets
@@ -74,21 +74,21 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let dotCarTopRadiowaves2RearLeftRearRearRightFill = SFSymbol(rawValue: "dot.car.top.radiowaves.2.rear.left.rear.rear.right.fill")
+    static var dotCarTopRadiowaves2RearLeftRearRearRightFill: SFSymbol { .init(rawValue: "dot.car.top.radiowaves.2.rear.left.rear.rear.right.fill") }
 
     /// 􀛫
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let envelopeStack = SFSymbol(rawValue: "envelope.stack")
+    static var envelopeStack: SFSymbol { .init(rawValue: "envelope.stack") }
 
     /// 􀛬
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let envelopeStackFill = SFSymbol(rawValue: "envelope.stack.fill")
+    static var envelopeStackFill: SFSymbol { .init(rawValue: "envelope.stack.fill") }
 
     /// 􂷩
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -98,7 +98,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
-    static let exclamationmarkMessage = SFSymbol(rawValue: "exclamationmark.message")
+    static var exclamationmarkMessage: SFSymbol { .init(rawValue: "exclamationmark.message") }
 
     /// 􂷪
     /// Single Localization, 3 Layersets, ⚠️ Restricted
@@ -109,7 +109,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
-    static let exclamationmarkMessageFill = SFSymbol(rawValue: "exclamationmark.message.fill")
+    static var exclamationmarkMessageFill: SFSymbol { .init(rawValue: "exclamationmark.message.fill") }
 
     /// 􂶩
     /// Single Localization, 2 Layersets
@@ -117,7 +117,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let handThumbsdownSlash = SFSymbol(rawValue: "hand.thumbsdown.slash")
+    static var handThumbsdownSlash: SFSymbol { .init(rawValue: "hand.thumbsdown.slash") }
 
     /// 􂶪
     /// Single Localization, 2 Layersets
@@ -125,7 +125,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let handThumbsdownSlashFill = SFSymbol(rawValue: "hand.thumbsdown.slash.fill")
+    static var handThumbsdownSlashFill: SFSymbol { .init(rawValue: "hand.thumbsdown.slash.fill") }
 
     /// 􂶥
     /// Single Localization, 2 Layersets
@@ -133,7 +133,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let handThumbsupSlash = SFSymbol(rawValue: "hand.thumbsup.slash")
+    static var handThumbsupSlash: SFSymbol { .init(rawValue: "hand.thumbsup.slash") }
 
     /// 􂶦
     /// Single Localization, 2 Layersets
@@ -141,14 +141,14 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let handThumbsupSlashFill = SFSymbol(rawValue: "hand.thumbsup.slash.fill")
+    static var handThumbsupSlashFill: SFSymbol { .init(rawValue: "hand.thumbsup.slash.fill") }
 
     /// 􂶟
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let laurelLeadingLaurelTrailing = SFSymbol(rawValue: "laurel.leading.laurel.trailing")
+    static var laurelLeadingLaurelTrailing: SFSymbol { .init(rawValue: "laurel.leading.laurel.trailing") }
 
     /// 􂷃
     /// Single Localization, 3 Layersets
@@ -157,7 +157,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let memoriesBadgeCheckmark = SFSymbol(rawValue: "memories.badge.checkmark")
+    static var memoriesBadgeCheckmark: SFSymbol { .init(rawValue: "memories.badge.checkmark") }
 
     /// 􂷁
     /// Single Localization, 3 Layersets
@@ -166,7 +166,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let memoriesBadgeXmark = SFSymbol(rawValue: "memories.badge.xmark")
+    static var memoriesBadgeXmark: SFSymbol { .init(rawValue: "memories.badge.xmark") }
 
     /// 􂷐
     /// Single Localization, 2 Layersets
@@ -174,7 +174,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let photoBadgeMagnifyingglass = SFSymbol(rawValue: "photo.badge.magnifyingglass")
+    static var photoBadgeMagnifyingglass: SFSymbol { .init(rawValue: "photo.badge.magnifyingglass") }
 
     /// 􂷑
     /// Single Localization, 2 Layersets
@@ -182,7 +182,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let photoBadgeMagnifyingglassFill = SFSymbol(rawValue: "photo.badge.magnifyingglass.fill")
+    static var photoBadgeMagnifyingglassFill: SFSymbol { .init(rawValue: "photo.badge.magnifyingglass.fill") }
 
     /// 􂷫
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
@@ -196,7 +196,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
-    static let questionmarkMessage = SymbolWith1Localization<Ar_v6_2>(rawValue: "questionmark.message")
+    static var questionmarkMessage: SymbolWith1Localization<Ar_v6_2> { .init(rawValue: "questionmark.message") }
 
     /// 􂷬
     /// 2 Localizations, 3 Layersets, ⚠️ Restricted
@@ -211,21 +211,21 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
-    static let questionmarkMessageFill = SymbolWith1Localization<Ar_v6_2>(rawValue: "questionmark.message.fill")
+    static var questionmarkMessageFill: SymbolWith1Localization<Ar_v6_2> { .init(rawValue: "questionmark.message.fill") }
 
     /// 􂶯
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let rectangleGrid3x1 = SFSymbol(rawValue: "rectangle.grid.3x1")
+    static var rectangleGrid3x1: SFSymbol { .init(rawValue: "rectangle.grid.3x1") }
 
     /// 􂶰
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let rectangleGrid3x1Fill = SFSymbol(rawValue: "rectangle.grid.3x1.fill")
+    static var rectangleGrid3x1Fill: SFSymbol { .init(rawValue: "rectangle.grid.3x1.fill") }
 
     /// 􂷡
     /// Single Localization, 3 Layersets
@@ -234,7 +234,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let squareAndArrowDownBadgeCheckmark = SFSymbol(rawValue: "square.and.arrow.down.badge.checkmark")
+    static var squareAndArrowDownBadgeCheckmark: SFSymbol { .init(rawValue: "square.and.arrow.down.badge.checkmark") }
 
     /// 􂷢
     /// Single Localization, 3 Layersets
@@ -243,7 +243,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let squareAndArrowDownBadgeCheckmarkFill = SFSymbol(rawValue: "square.and.arrow.down.badge.checkmark.fill")
+    static var squareAndArrowDownBadgeCheckmarkFill: SFSymbol { .init(rawValue: "square.and.arrow.down.badge.checkmark.fill") }
 
     /// 􂷥
     /// Single Localization, 3 Layersets
@@ -252,7 +252,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let squareAndArrowDownBadgeXmark = SFSymbol(rawValue: "square.and.arrow.down.badge.xmark")
+    static var squareAndArrowDownBadgeXmark: SFSymbol { .init(rawValue: "square.and.arrow.down.badge.xmark") }
 
     /// 􂷦
     /// Single Localization, 3 Layersets
@@ -261,7 +261,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let squareAndArrowDownBadgeXmarkFill = SFSymbol(rawValue: "square.and.arrow.down.badge.xmark.fill")
+    static var squareAndArrowDownBadgeXmarkFill: SFSymbol { .init(rawValue: "square.and.arrow.down.badge.xmark.fill") }
 
     /// 􂷝
     /// Single Localization, 3 Layersets
@@ -270,7 +270,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let waveformBadgeCheckmark = SFSymbol(rawValue: "waveform.badge.checkmark")
+    static var waveformBadgeCheckmark: SFSymbol { .init(rawValue: "waveform.badge.checkmark") }
 
     /// 􂷞
     /// Single Localization, 3 Layersets
@@ -279,7 +279,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let waveformBadgeXmark = SFSymbol(rawValue: "waveform.badge.xmark")
+    static var waveformBadgeXmark: SFSymbol { .init(rawValue: "waveform.badge.xmark") }
 
     /// 􂵊
     /// Single Localization, 2 Layersets
@@ -287,7 +287,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let waveformPathEcgMagnifyingglass = SFSymbol(rawValue: "waveform.path.ecg.magnifyingglass")
+    static var waveformPathEcgMagnifyingglass: SFSymbol { .init(rawValue: "waveform.path.ecg.magnifyingglass") }
 
     /// 􂷚
     /// 2 Localizations, Single Layerset
@@ -298,7 +298,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let waveformPathEcgText = SymbolWith1Localization<Rtl>(rawValue: "waveform.path.ecg.text")
+    static var waveformPathEcgText: SymbolWith1Localization<Rtl> { .init(rawValue: "waveform.path.ecg.text") }
 
     /// 􂵋
     /// 2 Localizations, 2 Layersets
@@ -310,7 +310,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let waveformPathEcgTextClipboard = SymbolWith1Localization<Rtl>(rawValue: "waveform.path.ecg.text.clipboard")
+    static var waveformPathEcgTextClipboard: SymbolWith1Localization<Rtl> { .init(rawValue: "waveform.path.ecg.text.clipboard") }
 
     /// 􂵌
     /// 2 Localizations, 2 Layersets
@@ -322,7 +322,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let waveformPathEcgTextClipboardFill = SymbolWith1Localization<Rtl>(rawValue: "waveform.path.ecg.text.clipboard.fill")
+    static var waveformPathEcgTextClipboardFill: SymbolWith1Localization<Rtl> { .init(rawValue: "waveform.path.ecg.text.clipboard.fill") }
 
     /// 􀳼
     /// 2 Localizations, 2 Layersets
@@ -334,7 +334,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    static let waveformPathEcgTextPage = SymbolWith1Localization<Rtl>(rawValue: "waveform.path.ecg.text.page")
+    static var waveformPathEcgTextPage: SymbolWith1Localization<Rtl> { .init(rawValue: "waveform.path.ecg.text.page") }
 
     /// 􀳽
     /// 2 Localizations, Single Layerset
@@ -345,5 +345,5 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let waveformPathEcgTextPageFill = SymbolWith1Localization<Rtl>(rawValue: "waveform.path.ecg.text.page.fill")
+    static var waveformPathEcgTextPageFill: SymbolWith1Localization<Rtl> { .init(rawValue: "waveform.path.ecg.text.page.fill") }
 }

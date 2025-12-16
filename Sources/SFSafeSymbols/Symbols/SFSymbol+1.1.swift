@@ -10,21 +10,21 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    static let arrowUturnLeftCircleBadgeEllipsis = SFSymbol(rawValue: "arrow.uturn.left.circle.badge.ellipsis")
+    static var arrowUturnLeftCircleBadgeEllipsis: SFSymbol { .init(rawValue: "arrow.uturn.left.circle.badge.ellipsis") }
 
     /// 􀞖
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let aspectratio = SFSymbol(rawValue: "aspectratio")
+    static var aspectratio: SFSymbol { .init(rawValue: "aspectratio") }
 
     /// 􀞏
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let aspectratioFill = SFSymbol(rawValue: "aspectratio.fill")
+    static var aspectratioFill: SFSymbol { .init(rawValue: "aspectratio.fill") }
 
     /// 􀙘
     /// Single Localization, 2 Layersets
@@ -32,35 +32,35 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    static let car = SFSymbol(rawValue: "car")
+    static var car: SFSymbol { .init(rawValue: "car") }
 
     /// 􀞾
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let circleGrid2x2 = SFSymbol(rawValue: "circle.grid.2x2")
+    static var circleGrid2x2: SFSymbol { .init(rawValue: "circle.grid.2x2") }
 
     /// 􀞿
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let circleGrid2x2Fill = SFSymbol(rawValue: "circle.grid.2x2.fill")
+    static var circleGrid2x2Fill: SFSymbol { .init(rawValue: "circle.grid.2x2.fill") }
 
     /// 􀝌
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let flashlightOffFill = SFSymbol(rawValue: "flashlight.off.fill")
+    static var flashlightOffFill: SFSymbol { .init(rawValue: "flashlight.off.fill") }
 
     /// 􀞋
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let flashlightOnFill = SFSymbol(rawValue: "flashlight.on.fill")
+    static var flashlightOnFill: SFSymbol { .init(rawValue: "flashlight.on.fill") }
 
     /// 􀞒
     /// Single Localization, Single Layerset
@@ -72,7 +72,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
     @available(watchOS, introduced: 6.1, deprecated: 7.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
-    static let flipHorizontal = SFSymbol(rawValue: "flip.horizontal")
+    static var flipHorizontal: SFSymbol { .init(rawValue: "flip.horizontal") }
 
     /// 􀞓
     /// Single Localization, Single Layerset
@@ -84,7 +84,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
     @available(watchOS, introduced: 6.1, deprecated: 7.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
-    static let flipHorizontalFill = SFSymbol(rawValue: "flip.horizontal.fill")
+    static var flipHorizontalFill: SFSymbol { .init(rawValue: "flip.horizontal.fill") }
 
     /// 􀜇
     /// Single Localization, 3 Layersets
@@ -93,7 +93,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let mappinCircle = SFSymbol(rawValue: "mappin.circle")
+    static var mappinCircle: SFSymbol { .init(rawValue: "mappin.circle") }
 
     /// 􀜈
     /// Single Localization, 3 Layersets
@@ -102,7 +102,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Multicolor (iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0)
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let mappinCircleFill = SFSymbol(rawValue: "mappin.circle.fill")
+    static var mappinCircleFill: SFSymbol { .init(rawValue: "mappin.circle.fill") }
 
     /// 􀒔
     /// Single Localization, 3 Layersets
@@ -111,7 +111,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let paperclipCircle = SFSymbol(rawValue: "paperclip.circle")
+    static var paperclipCircle: SFSymbol { .init(rawValue: "paperclip.circle") }
 
     /// 􀒕
     /// Single Localization, 3 Layersets
@@ -120,7 +120,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let paperclipCircleFill = SFSymbol(rawValue: "paperclip.circle.fill")
+    static var paperclipCircleFill: SFSymbol { .init(rawValue: "paperclip.circle.fill") }
 
     /// 􀒴
     /// Single Localization, 3 Layersets
@@ -129,7 +129,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let pinCircle = SFSymbol(rawValue: "pin.circle")
+    static var pinCircle: SFSymbol { .init(rawValue: "pin.circle") }
 
     /// 􀒵
     /// Single Localization, 3 Layersets
@@ -138,7 +138,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Multicolor (iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0)
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
-    static let pinCircleFill = SFSymbol(rawValue: "pin.circle.fill")
+    static var pinCircleFill: SFSymbol { .init(rawValue: "pin.circle.fill") }
 
     /// 􀞷
     /// Single Localization, 3 Layersets
@@ -147,12 +147,12 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    static let scissorsBadgeEllipsis = SFSymbol(rawValue: "scissors.badge.ellipsis")
+    static var scissorsBadgeEllipsis: SFSymbol { .init(rawValue: "scissors.badge.ellipsis") }
 
     /// 􀑔
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let studentdesk = SFSymbol(rawValue: "studentdesk")
+    static var studentdesk: SFSymbol { .init(rawValue: "studentdesk") }
 }

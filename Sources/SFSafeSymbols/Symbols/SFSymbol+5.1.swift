@@ -8,14 +8,14 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let chevronCompactBackward = SFSymbol(rawValue: "chevron.compact.backward")
+    static var chevronCompactBackward: SFSymbol { .init(rawValue: "chevron.compact.backward") }
 
     /// 􂉐
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static let chevronCompactForward = SFSymbol(rawValue: "chevron.compact.forward")
+    static var chevronCompactForward: SFSymbol { .init(rawValue: "chevron.compact.forward") }
 
     /// 􂉚
     /// Single Localization, 2 Layersets
@@ -23,7 +23,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let personCropSquareBadgeCamera = SFSymbol(rawValue: "person.crop.square.badge.camera")
+    static var personCropSquareBadgeCamera: SFSymbol { .init(rawValue: "person.crop.square.badge.camera") }
 
     /// 􂉛
     /// Single Localization, 2 Layersets
@@ -31,7 +31,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let personCropSquareBadgeCameraFill = SFSymbol(rawValue: "person.crop.square.badge.camera.fill")
+    static var personCropSquareBadgeCameraFill: SFSymbol { .init(rawValue: "person.crop.square.badge.camera.fill") }
 
     /// 􂉜
     /// Single Localization, 2 Layersets
@@ -39,7 +39,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let personCropSquareBadgeVideo = SFSymbol(rawValue: "person.crop.square.badge.video")
+    static var personCropSquareBadgeVideo: SFSymbol { .init(rawValue: "person.crop.square.badge.video") }
 
     /// 􂉝
     /// Single Localization, 2 Layersets
@@ -47,5 +47,5 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let personCropSquareBadgeVideoFill = SFSymbol(rawValue: "person.crop.square.badge.video.fill")
+    static var personCropSquareBadgeVideoFill: SFSymbol { .init(rawValue: "person.crop.square.badge.video.fill") }
 }

@@ -8,7 +8,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let axle2 = SFSymbol(rawValue: "axle.2")
+    static var axle2: SFSymbol { .init(rawValue: "axle.2") }
 
     /// 􁠡
     /// Single Localization, 2 Layersets
@@ -16,7 +16,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
-    static let axle2FrontAndRearEngaged = SFSymbol(rawValue: "axle.2.front.and.rear.engaged")
+    static var axle2FrontAndRearEngaged: SFSymbol { .init(rawValue: "axle.2.front.and.rear.engaged") }
 
     /// 􁠟
     /// Single Localization, 2 Layersets
@@ -24,7 +24,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
-    static let axle2FrontEngaged = SFSymbol(rawValue: "axle.2.front.engaged")
+    static var axle2FrontEngaged: SFSymbol { .init(rawValue: "axle.2.front.engaged") }
 
     /// 􁠠
     /// Single Localization, 2 Layersets
@@ -32,7 +32,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
-    static let axle2RearEngaged = SFSymbol(rawValue: "axle.2.rear.engaged")
+    static var axle2RearEngaged: SFSymbol { .init(rawValue: "axle.2.rear.engaged") }
 
     /// 􁰼
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -42,7 +42,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats.
-    static let beatsPowerbeatsLeft = SFSymbol(rawValue: "beats.powerbeats.left")
+    static var beatsPowerbeatsLeft: SFSymbol { .init(rawValue: "beats.powerbeats.left") }
 
     /// 􀻕
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -52,7 +52,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats.
-    static let beatsPowerbeatsRight = SFSymbol(rawValue: "beats.powerbeats.right")
+    static var beatsPowerbeatsRight: SFSymbol { .init(rawValue: "beats.powerbeats.right") }
 
     /// 􁰾
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -62,7 +62,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats3.
-    static let beatsPowerbeats3Left = SFSymbol(rawValue: "beats.powerbeats3.left")
+    static var beatsPowerbeats3Left: SFSymbol { .init(rawValue: "beats.powerbeats3.left") }
 
     /// 􁰽
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -72,5 +72,5 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats3.
-    static let beatsPowerbeats3Right = SFSymbol(rawValue: "beats.powerbeats3.right")
+    static var beatsPowerbeats3Right: SFSymbol { .init(rawValue: "beats.powerbeats3.right") }
 }

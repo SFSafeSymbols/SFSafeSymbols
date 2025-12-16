@@ -8,7 +8,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let cameraMacro = SFSymbol(rawValue: "camera.macro")
+    static var cameraMacro: SFSymbol { .init(rawValue: "camera.macro") }
 
     /// 􁂃
     /// Single Localization, 2 Layersets
@@ -16,7 +16,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let cameraMacroCircle = SFSymbol(rawValue: "camera.macro.circle")
+    static var cameraMacroCircle: SFSymbol { .init(rawValue: "camera.macro.circle") }
 
     /// 􁂄
     /// Single Localization, 3 Layersets
@@ -25,7 +25,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    static let cameraMacroCircleFill = SFSymbol(rawValue: "camera.macro.circle.fill")
+    static var cameraMacroCircleFill: SFSymbol { .init(rawValue: "camera.macro.circle.fill") }
 
     /// 􁑢
     /// Single Localization, 2 Layersets
@@ -38,7 +38,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.4, deprecated: 26.0, renamed: "dotsAndLineVerticalAndPointerArrowRectangle")
     @available(watchOS, introduced: 8.5, deprecated: 26.0, renamed: "dotsAndLineVerticalAndPointerArrowRectangle")
     @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "dotsAndLineVerticalAndPointerArrowRectangle")
-    static let dotsAndLineVerticalAndCursorarrowRectangle = SFSymbol(rawValue: "dots.and.line.vertical.and.cursorarrow.rectangle")
+    static var dotsAndLineVerticalAndCursorarrowRectangle: SFSymbol { .init(rawValue: "dots.and.line.vertical.and.cursorarrow.rectangle") }
 
     /// 􁎕
     /// Single Localization, 2 Layersets
@@ -46,7 +46,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let keyViewfinder = SFSymbol(rawValue: "key.viewfinder")
+    static var keyViewfinder: SFSymbol { .init(rawValue: "key.viewfinder") }
 
     /// 􁏺
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -56,7 +56,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to creating or signing in with a passkey.
-    static let personBadgeKey = SFSymbol(rawValue: "person.badge.key")
+    static var personBadgeKey: SFSymbol { .init(rawValue: "person.badge.key") }
 
     /// 􁎨
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -66,5 +66,5 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to creating or signing in with a passkey.
-    static let personBadgeKeyFill = SFSymbol(rawValue: "person.badge.key.fill")
+    static var personBadgeKeyFill: SFSymbol { .init(rawValue: "person.badge.key.fill") }
 }

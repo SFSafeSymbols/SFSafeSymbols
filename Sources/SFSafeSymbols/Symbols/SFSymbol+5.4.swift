@@ -10,7 +10,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Pill.
-    static let beatsPill = SFSymbol(rawValue: "beats.pill")
+    static var beatsPill: SFSymbol { .init(rawValue: "beats.pill") }
 
     /// 􂟋
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -19,7 +19,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Pill.
-    static let beatsPillFill = SFSymbol(rawValue: "beats.pill.fill")
+    static var beatsPillFill: SFSymbol { .init(rawValue: "beats.pill.fill") }
 
     /// 􂟌
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -29,7 +29,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds.
-    static let beatsSolobuds = SFSymbol(rawValue: "beats.solobuds")
+    static var beatsSolobuds: SFSymbol { .init(rawValue: "beats.solobuds") }
 
     /// 􂟏
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -38,7 +38,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds case.
-    static let beatsSolobudsChargingcase = SFSymbol(rawValue: "beats.solobuds.chargingcase")
+    static var beatsSolobudsChargingcase: SFSymbol { .init(rawValue: "beats.solobuds.chargingcase") }
 
     /// 􂟐
     /// Single Localization, Single Layerset, ⚠️ Restricted
@@ -47,7 +47,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds case.
-    static let beatsSolobudsChargingcaseFill = SFSymbol(rawValue: "beats.solobuds.chargingcase.fill")
+    static var beatsSolobudsChargingcaseFill: SFSymbol { .init(rawValue: "beats.solobuds.chargingcase.fill") }
 
     /// 􂟎
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -57,7 +57,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds.
-    static let beatsSolobudsLeft = SFSymbol(rawValue: "beats.solobuds.left")
+    static var beatsSolobudsLeft: SFSymbol { .init(rawValue: "beats.solobuds.left") }
 
     /// 􂟍
     /// Single Localization, 2 Layersets, ⚠️ Restricted
@@ -67,5 +67,5 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds.
-    static let beatsSolobudsRight = SFSymbol(rawValue: "beats.solobuds.right")
+    static var beatsSolobudsRight: SFSymbol { .init(rawValue: "beats.solobuds.right") }
 }
