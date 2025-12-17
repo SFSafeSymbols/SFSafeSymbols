@@ -8,8 +8,9 @@ class TabExtensionTests: XCTestCase {
     /// Tests, whether the `Tab` retrieved via SFSafeSymbols can be retrieved without a crash
     func testInit() {
         if #available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *) {
+            print("Testing validity of symbols via Tab init")
+
             for symbol in TestHelper.allSymbolsWithVariants {
-                print("Testing validity of \"\(symbol.rawValue)\" via Tab init")
 
                 // Test Tab initializers with Value parameter
                 // If this doesn't crash, everything works fine

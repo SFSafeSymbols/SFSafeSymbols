@@ -115,7 +115,7 @@ public extension Tab where Value: Hashable, Content: View, Label : View {
     ///     - value: The `selection` value which selects this tab.
     ///     - role: The role defining the semantic purpose of the tab.
     ///     - content: The view content of the tab.
-    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, *)
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_disfavoredOverload
     nonisolated init(_ titleResource: LocalizedStringResource, systemSymbol: SFSymbol, value: Value, role: TabRole?, @ViewBuilder content: () -> Content) where Label == DefaultTabLabel {
         #if compiler(>=6.2)
@@ -147,7 +147,7 @@ public extension Tab where Value: Hashable, Content: View, Label : View {
     ///     - systemSymbol: The `SFSymbol` describing this image.
     ///     - value: The `selection` value which selects this tab.
     ///     - content: The view content of the tab.
-    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, *)
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_disfavoredOverload
     nonisolated init<T>(_ titleResource: LocalizedStringResource, systemSymbol: SFSymbol, value: T, @ViewBuilder content: () -> Content) where Value == T?, Label == DefaultTabLabel, T : Hashable {
         #if compiler(>=6.2)
@@ -181,7 +181,7 @@ public extension Tab where Value: Hashable, Content: View, Label : View {
     ///     - value: The `selection` value which selects this tab.
     ///     - role: The role defining the semantic purpose of the tab.
     ///     - content: The view content of the tab.
-    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, *)
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_disfavoredOverload
     nonisolated init<T>(_ titleResource: LocalizedStringResource, systemSymbol: SFSymbol, value: T, role: TabRole?, @ViewBuilder content: () -> Content) where Value == T?, Label == DefaultTabLabel, T : Hashable {
         #if compiler(>=6.2)
@@ -246,7 +246,7 @@ public extension Tab where Value == Never, Content: View, Label: View {
     ///       tab item.
     ///     - systemSymbol: The `SFSymbol` describing this image.
     ///     - content: The view content of the tab.
-    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, *)
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_disfavoredOverload
     nonisolated init(_ titleResource: LocalizedStringResource, systemSymbol: SFSymbol, @ViewBuilder content: () -> Content) where Label == DefaultTabLabel {
         #if compiler(>=6.2)
@@ -264,7 +264,7 @@ public extension Tab where Value == Never, Content: View, Label: View {
     ///     - systemSymbol: The `SFSymbol` describing this image.
     ///     - role: The role defining the semantic purpose of the tab.
     ///     - content: The view content of the tab.
-    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, *)
+    @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_disfavoredOverload
     nonisolated init(_ titleResource: LocalizedStringResource, systemSymbol: SFSymbol, role: TabRole?, @ViewBuilder content: () -> Content) where Label == DefaultTabLabel {
         #if compiler(>=6.2)
