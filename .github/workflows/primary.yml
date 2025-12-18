@@ -41,17 +41,6 @@ jobs:
           echo "Currently available simulators:"
           xcrun simctl list devices
 
-      - name: Xcode Test for visionOS (26.1)
-        shell: bash
-        run: |
-          set -o pipefail
-          xcodebuild test \
-            -project "$BITRISE_PROJECT_PATH" \
-            -scheme "$BITRISE_SCHEME" \
-            -destination "platform=visionOS Simulator,name=Apple Vision Pro,OS=26.1" \
-            -resultBundlePath "TestResults-visionOS-26.1.xcresult" \
-          | xcbeautify --preserve-unbeautified
-
       - name: Xcode Test for iOS (17.5)
         shell: bash
         run: |
@@ -60,8 +49,17 @@ jobs:
             -project "$BITRISE_PROJECT_PATH" \
             -scheme "$BITRISE_SCHEME" \
             -destination "platform=iOS Simulator,name=iPhone 15,OS=17.5" \
-            -resultBundlePath "TestResults-iOS-17.5.xcresult" \
-          | xcbeautify --preserve-unbeautified
+            -resultBundlePath "TestResults-iOS-17.5.xcresult"
+
+      - name: Xcode Test for visionOS (26.1)
+        shell: bash
+        run: |
+          set -o pipefail
+          xcodebuild test \
+            -project "$BITRISE_PROJECT_PATH" \
+            -scheme "$BITRISE_SCHEME" \
+            -destination "platform=visionOS Simulator,name=Apple Vision Pro,OS=26.1" \
+            -resultBundlePath "TestResults-visionOS-26.1.xcresult"
 
       - name: Xcode Test for iOS (18.6)
         shell: bash
@@ -71,8 +69,7 @@ jobs:
             -project "$BITRISE_PROJECT_PATH" \
             -scheme "$BITRISE_SCHEME" \
             -destination "platform=iOS Simulator,name=iPhone 16,OS=18.6" \
-            -resultBundlePath "TestResults-iOS-18.6.xcresult" \
-          | xcbeautify --preserve-unbeautified
+            -resultBundlePath "TestResults-iOS-18.6.xcresult"
 
       - name: Xcode Test for iOS (26.1)
         shell: bash
@@ -82,8 +79,7 @@ jobs:
             -project "$BITRISE_PROJECT_PATH" \
             -scheme "$BITRISE_SCHEME" \
             -destination "platform=iOS Simulator,name=iPhone 17,OS=26.1" \
-            -resultBundlePath "TestResults-iOS-26.1.xcresult" \
-          | xcbeautify --preserve-unbeautified
+            -resultBundlePath "TestResults-iOS-26.1.xcresult"
 
       - name: Xcode Test for tvOS (26.1)
         shell: bash
@@ -93,8 +89,7 @@ jobs:
             -project "$BITRISE_PROJECT_PATH" \
             -scheme "$BITRISE_SCHEME" \
             -destination "platform=tvOS Simulator,name=Apple TV,OS=26.1" \
-            -resultBundlePath "TestResults-tvOS-26.1.xcresult" \
-          | xcbeautify --preserve-unbeautified
+            -resultBundlePath "TestResults-tvOS-26.1.xcresult"
 
       - name: Xcode Test for watchOS (26.1)
         shell: bash
@@ -104,8 +99,7 @@ jobs:
             -project "$BITRISE_PROJECT_PATH" \
             -scheme "$BITRISE_SCHEME" \
             -destination "platform=watchOS Simulator,name=Apple Watch SE (40mm) (2nd generation),OS=26.1" \
-            -resultBundlePath "TestResults-watchOS-26.1.xcresult" \
-          | xcbeautify --preserve-unbeautified
+            -resultBundlePath "TestResults-watchOS-26.1.xcresult"
 
       - name: CocoaPods Lint
         shell: bash
