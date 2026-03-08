@@ -15,8 +15,9 @@ class DisplayRepresentationImageTests: XCTestCase {
     /// Tests, whether the `MenuBarExtra` retrieved via SFSafeSymbols can be retrieved without a crash
     func testInit_1() {
         if #available(macOS 13.0, iOS 16.0, watchOS 9.0, tvOS 16.0, *) {
+            print("Testing validity of symbols via MenuBarExtra init")
+
             for symbol in TestHelper.allSymbolsWithVariants {
-                print("Testing validity of \"\(symbol.rawValue)\" via MenuBarExtra init")
 
                 // If these doesn't crash, everything works fine
                 _ = DisplayRepresentation.Image(systemSymbol: symbol, isTemplate: true)

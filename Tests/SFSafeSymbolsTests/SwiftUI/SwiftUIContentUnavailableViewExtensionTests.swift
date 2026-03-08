@@ -8,8 +8,8 @@ class ContentUnavailableViewExtensionTests: XCTestCase {
     /// Tests, whether the `ContentUnavailableView` retrieved via SFSafeSymbols can be retrieved without a crash
     func testInit() {
         if #available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *) {
+            print("Testing validity of symbols via ContentUnavailableView init")
             for symbol in TestHelper.allSymbolsWithVariants {
-                print("Testing validity of \"\(symbol.rawValue)\" via ContentUnavailableView init")
 
                 // If these doesn't crash, everything works fine
                 _ = ContentUnavailableView("Title" as LocalizedStringKey, systemSymbol: symbol)

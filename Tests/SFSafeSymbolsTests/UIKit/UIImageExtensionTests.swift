@@ -22,8 +22,9 @@ class UIImageExtensionTests: XCTestCase {
     /// Tests, whether the `UIImage` retrieved via SFSafeSymbols is equal to the one retrieved via the `String` initializer
     func testInit() {
         if #available(iOS 13.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *) {
+            print("Testing validity of symbols via UIImage init")
+
             for symbol in TestHelper.allSymbolsWithVariants {
-                print("Testing validity of \"\(symbol.rawValue)\" via UIImage init")
 
                 let expected = UIImage(systemName: symbol.rawValue)
                 let actual = UIImage(systemSymbol: symbol)
@@ -49,9 +50,10 @@ class UIImageExtensionTests: XCTestCase {
             ]
 
             // Go over cross product: symbols x configs
-            for symbol in TestHelper.allSymbolsWithVariants {
-                for configuration in configurations {
-                    print("Testing validity of \"\(symbol.rawValue)\" with configuration \"\(configuration)\" via UIImage init")
+            for configuration in configurations {
+                print("Testing validity of symbols with configuration \"\(configuration)\" via UIImage init")
+
+                for symbol in TestHelper.allSymbolsWithVariants {
 
                     let expected = UIImage(systemName: symbol.rawValue, withConfiguration: configuration)
                     let actual = UIImage(systemSymbol: symbol, withConfiguration: configuration)

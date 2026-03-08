@@ -1,0 +1,164 @@
+name: primary
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: primary-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  PROJECT_PATH: SFSafeSymbols.xcodeproj
+  SCHEME: SFSafeSymbols-Package
+
+jobs:
+  xcodes-config:
+    name: Setting Xcode versions
+    runs-on: ubuntu-latest
+    outputs:
+      xcodes: ${{ steps.set.outputs.xcodes }}
+    steps:
+      - id: set
+        run: echo 'xcodes=["16.4","26.3"]' >> $GITHUB_OUTPUT
+
+  test-ios:
+    needs: xcodes-config
+    name: Xcode ${{ matrix.xcode }} • iOS ${{ matrix.config.os }}
+    runs-on: macos-15
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        xcode: ${{ fromJson(needs['xcodes-config'].outputs.xcodes) }}
+        config:
+          - os: "17.5"
+            device: "iPhone 15"
+          - os: "18.6"
+            device: "iPhone 16"
+          - os: "26.2"
+            device: "iPhone 17"
+    env:
+      XCODE: ${{ matrix.xcode }}
+      PLATFORM: iOS
+      OS: ${{ matrix.config.os }}
+      DEVICE: ${{ matrix.config.device }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Tests
+        run: npm ci && npm run xcode-test
+      - if: always()
+        name: Upload Artifacts
+        uses: actions/upload-artifact@v6
+        with:
+          name: xcode${{ matrix.xcode }}-ios${{ matrix.config.os }}
+          path: TestResults-*.xcresult
+
+  test-tvos:
+    needs: xcodes-config
+    name: Xcode ${{ matrix.xcode }} • tvOS ${{ matrix.config.os }}
+    runs-on: macos-15
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        xcode: ${{ fromJson(needs['xcodes-config'].outputs.xcodes) }}
+        config:
+          - os: "26.2"
+            device: "Apple TV"
+    env:
+      XCODE: ${{ matrix.xcode }}
+      PLATFORM: tvOS
+      OS: ${{ matrix.config.os }}
+      DEVICE: ${{ matrix.config.device }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Tests
+        run: npm ci && npm run xcode-test
+      - if: always()
+        name: Upload Artifacts
+        uses: actions/upload-artifact@v6
+        with:
+          name: xcode${{ matrix.xcode }}-tvos${{ matrix.config.os }}
+          path: TestResults-*.xcresult
+
+  test-watchos:
+    needs: xcodes-config
+    name: Xcode ${{ matrix.xcode }} • watchOS ${{ matrix.config.os }}
+    runs-on: macos-15
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        xcode: ${{ fromJson(needs['xcodes-config'].outputs.xcodes) }}
+        config:
+          - os: "26.2"
+            device: "Apple Watch SE (40mm) (2nd generation)"
+    env:
+      XCODE: ${{ matrix.xcode }}
+      PLATFORM: watchOS
+      OS: ${{ matrix.config.os }}
+      DEVICE: ${{ matrix.config.device }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Tests
+        run: npm ci && npm run xcode-test
+      - if: always()
+        name: Upload Artifacts
+        uses: actions/upload-artifact@v6
+        with:
+          name: xcode${{ matrix.xcode }}-watchos${{ matrix.config.os }}
+          path: TestResults-*.xcresult
+
+  test-visionos:
+    needs: xcodes-config
+    name: Xcode ${{ matrix.xcode }} • visionOS ${{ matrix.config.os }}
+    runs-on: macos-15
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        xcode: ${{ fromJson(needs['xcodes-config'].outputs.xcodes) }}
+        config:
+          - os: "26.2"
+            device: "Apple Vision Pro"
+    env:
+      XCODE: ${{ matrix.xcode }}
+      PLATFORM: visionOS
+      OS: ${{ matrix.config.os }}
+      DEVICE: ${{ matrix.config.device }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Tests
+        run: npm ci && npm run xcode-test
+      - if: always()
+        name: Upload Artifacts
+        uses: actions/upload-artifact@v6
+        with:
+          name: xcode${{ matrix.xcode }}-visionos${{ matrix.config.os }}
+          path: TestResults-*.xcresult
+
+  pod-lint:
+    needs: xcodes-config
+    name: CocoaPods Lint • Xcode ${{ matrix.xcode }}
+    runs-on: macos-15
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        xcode: ${{ fromJson(needs['xcodes-config'].outputs.xcodes) }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          export DEVELOPER_DIR="/Applications/Xcode_${{ matrix.xcode }}.app/Contents/Developer"
+          set -o pipefail
+          pod lib lint --allow-warnings --verbose --platforms=ios,tvos,watchos,macos 2>&1 | tee pod-lint-xcode${{ matrix.xcode }}.log
+      - if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: pod-lint-xcode${{ matrix.xcode }}
+          path: pod-lint-xcode${{ matrix.xcode }}.log
