@@ -3,3 +3,6 @@
 /.swiftpm
 /Packages
 *.xcuserstate
+
+# Node
+/node_modules
