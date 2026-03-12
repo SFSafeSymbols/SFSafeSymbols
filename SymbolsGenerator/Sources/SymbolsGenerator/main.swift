@@ -432,8 +432,10 @@ let configuration = NSImage.SymbolConfiguration(pointSize: 35, weight: NSFont.We
 let symbolToPNG:(Symbol) throws -> Void={symbol in
     guard let nsImage=NSImage(systemSymbolName: symbol.name, accessibilityDescription: nil)?
                         .withSymbolConfiguration(configuration),
-          let symbolData=nsImage.exportSymbol(symbolName: symbol.name) else {
+          let symbolData=nsImage.exportSymbol() else {
+        
         print("Cannot export SFSymbol(\(symbol.name)) to PNG file")
+        
         return
     }
     
@@ -444,10 +446,13 @@ let symbolToPNG:(Symbol) throws -> Void={symbol in
     try SFFileManager.write(symbolData, to: url)
 }
 
-for _ in groupedSymbols{
+try await withThrowingTaskGroup(of: Void.self) { group in
     for symbol in symbols {
-        try symbolToPNG(symbol)
+        group.addTask {
+            try symbolToPNG(symbol)
+        }
     }
+    try await group.waitForAll()
 }
 
 

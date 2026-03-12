@@ -10,35 +10,39 @@ import AppKit
 
 
 extension NSImage{
-    func exportSymbol(symbolName:String) -> Data? {
+    func exportSymbol() -> Data? {
         let size = self.size
-        let rect = CGRect(origin: .zero, size: size)
+            let dim = max(size.width, size.height)
+            let squareRect = CGRect(origin: .zero, size: .init(width: dim, height: dim))
+            guard let context = CGContext(
+                data: nil,
+                width: Int(dim),
+                height: Int(dim),
+                bitsPerComponent: 8,
+                bytesPerRow: 0,
+                space: CGColorSpaceCreateDeviceRGB(),
+                bitmapInfo: CGImageAlphaInfo.noneSkipLast.rawValue
+            ) else {
+                return nil
+            }
+            
+            context.setFillColor(.white)
+            context.fill(squareRect)
+            var imageRect = CGRect(
+                x: (dim - size.width) / 2,
+                y: (dim - size.height) / 2,
+                width: size.width,
+                height: size.height
+            )
+            guard let cgImage = self.cgImage(forProposedRect: &imageRect, context: nil, hints: nil) else {
+                return nil
+            }
+            context.draw(cgImage, in: imageRect)
+            guard let opaqueCGImage = context.makeImage() else {
+                return nil
+            }
+            let opaqueBitmap = NSBitmapImageRep(cgImage: opaqueCGImage)
         
-        guard let context = CGContext(
-            data: nil,
-            width: Int(size.width),
-            height: Int(size.height),
-            bitsPerComponent: 8,
-            bytesPerRow: 0,
-            space: CGColorSpaceCreateDeviceRGB(),
-            bitmapInfo: CGImageAlphaInfo.noneSkipLast.rawValue
-        ) else {
-            return nil
-        }
-        
-        context.setFillColor(CGColor(red: 1, green: 1, blue: 1, alpha: 1))
-        context.fill(rect)
-        
-        var imageRect = rect
-        if let cgImage = self.cgImage(forProposedRect: &imageRect, context: nil, hints: nil) {
-            context.draw(cgImage, in: rect)
-        }
-        
-        guard let opaqueCGImage = context.makeImage() else {
-            return nil
-        }
-        
-        let opaqueBitmap = NSBitmapImageRep(cgImage: opaqueCGImage)
-        return opaqueBitmap.representation(using: .png, properties: [:])
+            return opaqueBitmap.representation(using: .png, properties: [:])
     }
 }
