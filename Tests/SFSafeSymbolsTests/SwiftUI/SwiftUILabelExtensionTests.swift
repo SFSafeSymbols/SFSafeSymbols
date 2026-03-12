@@ -8,8 +8,8 @@ class LabelExtensionTests: XCTestCase {
     /// Tests, whether the `Label` retrieved via SFSafeSymbols can be retrieved without a crash
     func testInit() {
         if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *) {
+            print("Testing validity of symbols via Label init")
             for symbol in TestHelper.allSymbolsWithVariants {
-                print("Testing validity of \"\(symbol.rawValue)\" via Label init")
 
                 // If this doesn't crash, everything works fine
                 _ = Label("Title", systemSymbol: symbol)

@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "xcode-test": "tsx .github/scripts/xcode-test.ts"
+  },
+  "devDependencies": {
+    "zx": "^8.8.5",
+    "tsx": "^4.21.0",
+    "@types/node": "^22.0.0"
+  }
+}

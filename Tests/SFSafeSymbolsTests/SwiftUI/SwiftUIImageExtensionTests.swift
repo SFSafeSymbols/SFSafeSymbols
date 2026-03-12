@@ -8,8 +8,9 @@ class ImageExtensionTests: XCTestCase {
     /// Tests, whether the `Image` retrieved via SFSafeSymbols is equal to the one retrieved via the `String` initializer
     func testInit() {
         if #available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *) {
+            print("Testing validity of symbols via Image init")
+
             for symbol in TestHelper.allSymbolsWithVariants {
-                print("Testing validity of \"\(symbol.rawValue)\" via Image init")
 
                 let expected = Image(systemName: symbol.rawValue)
                 let actual = Image(systemSymbol: symbol)

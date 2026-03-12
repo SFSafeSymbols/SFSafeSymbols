@@ -14,8 +14,9 @@ class ButtonExtensionTests: XCTestCase {
     /// Tests, whether the `Label` retrieved via SFSafeSymbols can be retrieved without a crash
     func testInit() {
         if #available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *) {
+            print("Testing validity of symbols via Button init")
+
             for symbol in TestHelper.allSymbolsWithVariants {
-                print("Testing validity of \"\(symbol.rawValue)\" via Label init")
 
                 // If this doesn't crash, everything works fine
                 let title: String = ""

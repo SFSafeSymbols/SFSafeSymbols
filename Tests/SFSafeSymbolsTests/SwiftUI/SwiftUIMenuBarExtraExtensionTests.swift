@@ -8,8 +8,8 @@ class MenuBarExtraExtensionTests: XCTestCase {
     /// Tests, whether the `MenuBarExtra` retrieved via SFSafeSymbols can be retrieved without a crash
     func testInit() {
         if #available(macOS 13.0, *) {
+            print("Testing validity of symbols via MenuBarExtra init")
             for symbol in TestHelper.allSymbolsWithVariants {
-                print("Testing validity of \"\(symbol.rawValue)\" via MenuBarExtra init")
 
                 // If these doesn't crash, everything works fine
                 _ = MenuBarExtra("Title" as LocalizedStringKey, systemSymbol: symbol, isInserted: .constant(true)) {
