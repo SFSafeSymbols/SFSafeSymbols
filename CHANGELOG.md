@@ -8,8 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- Add symbol png generator
-- Add symbol preview in Xcode Quick Help
+- Add symbol preview in Xcode Quick Help (By [Phineas Guo](https://github.com/guoPhineas))
 
 ### Changed
 

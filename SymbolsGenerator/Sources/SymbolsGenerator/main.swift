@@ -188,9 +188,9 @@ let symbolToCode: (Symbol) -> String = { symbol in
     var outputString = "\t/// " + (symbol.preview ?? "No preview available") + "\n"
     
     // Use online image from repo in Github
-    let ImageURL = "https://raw.githubusercontent.com/guoPhineas/SFSafeSymbols/refs/heads/feature/QuickHelpPreview/Sources/SFSafeSymbols/SymbolImages/\(symbol.name).png"
-    outputString += "\t/// ![\(symbol.name)](\(ImageURL))\n"
-    
+    let imageURL = "https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/\(symbol.name).png"
+    outputString += "\t/// ![\(symbol.name)](\(imageURL))\n"
+
     let supplementString = [
         localizationCount > 1 ? "\(localizationCount) Localizations" : "Single Localization",
         layersetString,
