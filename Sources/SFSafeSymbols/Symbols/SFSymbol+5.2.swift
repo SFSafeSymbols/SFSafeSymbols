@@ -4,6 +4,7 @@
 @available(iOS 17.2, macOS 14.2, tvOS 17.2, watchOS 10.2, visionOS 1.1, *)
 public extension SFSymbol {
     /// 􂋍
+    /// ![square.and.arrow.up.badge.clock](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.up.badge.clock.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -13,6 +14,7 @@ public extension SFSymbol {
     static var squareAndArrowUpBadgeClock: SFSymbol { .init(rawValue: "square.and.arrow.up.badge.clock") }
 
     /// 􂋏
+    /// ![square.and.arrow.up.badge.clock.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.up.badge.clock.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:

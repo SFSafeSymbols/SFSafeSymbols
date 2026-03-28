@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.swift_versions = ['5.9', '5.10', '6.0']
 
   spec.source = { :git => "https://github.com/SFSafeSymbols/SFSafeSymbols.git", :tag => "#{spec.version}" }
-  spec.source_files = 'Sources/**/*'
+  spec.source_files = 'Sources/**/*.swift'
 
   spec.weak_framework = 'SwiftUI'
 end

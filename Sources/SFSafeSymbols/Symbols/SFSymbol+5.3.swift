@@ -4,6 +4,7 @@
 @available(iOS 17.4, macOS 14.4, tvOS 17.4, watchOS 10.4, visionOS 1.1, *)
 public extension SFSymbol {
     /// 􁂙
+    /// ![apple.meditate](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/apple.meditate.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -14,6 +15,7 @@ public extension SFSymbol {
     static var appleMeditate: SFSymbol { .init(rawValue: "apple.meditate") }
 
     /// 􁟾
+    /// ![apple.meditate.square.stack](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/apple.meditate.square.stack.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -24,6 +26,7 @@ public extension SFSymbol {
     static var appleMeditateSquareStack: SFSymbol { .init(rawValue: "apple.meditate.square.stack") }
 
     /// 􁟿
+    /// ![apple.meditate.square.stack.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/apple.meditate.square.stack.fill.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -34,6 +37,7 @@ public extension SFSymbol {
     static var appleMeditateSquareStackFill: SFSymbol { .init(rawValue: "apple.meditate.square.stack.fill") }
 
     /// 􂝕
+    /// ![apple.terminal.circle](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/apple.terminal.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -42,6 +46,7 @@ public extension SFSymbol {
     static var appleTerminalCircle: SFSymbol { .init(rawValue: "apple.terminal.circle") }
 
     /// 􂝖
+    /// ![apple.terminal.circle.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/apple.terminal.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -51,6 +56,7 @@ public extension SFSymbol {
     static var appleTerminalCircleFill: SFSymbol { .init(rawValue: "apple.terminal.circle.fill") }
 
     /// 􂞹
+    /// ![arrow.down.app.dashed](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.down.app.dashed.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -59,6 +65,7 @@ public extension SFSymbol {
     static var arrowDownAppDashed: SFSymbol { .init(rawValue: "arrow.down.app.dashed") }
 
     /// 􂞺
+    /// ![arrow.down.app.dashed.trianglebadge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.down.app.dashed.trianglebadge.exclamationmark.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -68,6 +75,7 @@ public extension SFSymbol {
     static var arrowDownAppDashedTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "arrow.down.app.dashed.trianglebadge.exclamationmark") }
 
     /// 􂛍
+    /// ![audio.jack.mono](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/audio.jack.mono.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -75,6 +83,7 @@ public extension SFSymbol {
     static var audioJackMono: SFSymbol { .init(rawValue: "audio.jack.mono") }
 
     /// 􂛋
+    /// ![audio.jack.stereo](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/audio.jack.stereo.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -82,6 +91,7 @@ public extension SFSymbol {
     static var audioJackStereo: SFSymbol { .init(rawValue: "audio.jack.stereo") }
 
     /// 􂕙
+    /// ![ipad.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ipad.badge.exclamationmark.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -93,6 +103,7 @@ public extension SFSymbol {
     static var ipadBadgeExclamationmark: SFSymbol { .init(rawValue: "ipad.badge.exclamationmark") }
 
     /// 􂕑
+    /// ![ipad.gen1.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ipad.gen1.badge.exclamationmark.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -104,6 +115,7 @@ public extension SFSymbol {
     static var ipadGen1BadgeExclamationmark: SFSymbol { .init(rawValue: "ipad.gen1.badge.exclamationmark") }
 
     /// 􂕓
+    /// ![ipad.gen1.landscape.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ipad.gen1.landscape.badge.exclamationmark.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -115,6 +127,7 @@ public extension SFSymbol {
     static var ipadGen1LandscapeBadgeExclamationmark: SFSymbol { .init(rawValue: "ipad.gen1.landscape.badge.exclamationmark") }
 
     /// 􂕕
+    /// ![ipad.gen2.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ipad.gen2.badge.exclamationmark.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -126,6 +139,7 @@ public extension SFSymbol {
     static var ipadGen2BadgeExclamationmark: SFSymbol { .init(rawValue: "ipad.gen2.badge.exclamationmark") }
 
     /// 􂕗
+    /// ![ipad.gen2.landscape.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ipad.gen2.landscape.badge.exclamationmark.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -137,6 +151,7 @@ public extension SFSymbol {
     static var ipadGen2LandscapeBadgeExclamationmark: SFSymbol { .init(rawValue: "ipad.gen2.landscape.badge.exclamationmark") }
 
     /// 􂕛
+    /// ![ipad.landscape.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ipad.landscape.badge.exclamationmark.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -148,6 +163,7 @@ public extension SFSymbol {
     static var ipadLandscapeBadgeExclamationmark: SFSymbol { .init(rawValue: "ipad.landscape.badge.exclamationmark") }
 
     /// 􂕏
+    /// ![iphone.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.badge.exclamationmark.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -159,6 +175,7 @@ public extension SFSymbol {
     static var iphoneBadgeExclamationmark: SFSymbol { .init(rawValue: "iphone.badge.exclamationmark") }
 
     /// 􂓻
+    /// ![iphone.gen1.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.gen1.badge.exclamationmark.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -170,6 +187,7 @@ public extension SFSymbol {
     static var iphoneGen1BadgeExclamationmark: SFSymbol { .init(rawValue: "iphone.gen1.badge.exclamationmark") }
 
     /// 􂕋
+    /// ![iphone.gen2.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.gen2.badge.exclamationmark.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -181,6 +199,7 @@ public extension SFSymbol {
     static var iphoneGen2BadgeExclamationmark: SFSymbol { .init(rawValue: "iphone.gen2.badge.exclamationmark") }
 
     /// 􂕍
+    /// ![iphone.gen3.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.gen3.badge.exclamationmark.png)
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -192,6 +211,7 @@ public extension SFSymbol {
     static var iphoneGen3BadgeExclamationmark: SFSymbol { .init(rawValue: "iphone.gen3.badge.exclamationmark") }
 
     /// 􂙣
+    /// ![medal.star](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/medal.star.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -199,6 +219,7 @@ public extension SFSymbol {
     static var medalStar: SFSymbol { .init(rawValue: "medal.star") }
 
     /// 􂙤
+    /// ![medal.star.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/medal.star.fill.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -206,6 +227,7 @@ public extension SFSymbol {
     static var medalStarFill: SFSymbol { .init(rawValue: "medal.star.fill") }
 
     /// 􂞶
+    /// ![plus.circle.dashed](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/plus.circle.dashed.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -214,6 +236,7 @@ public extension SFSymbol {
     static var plusCircleDashed: SFSymbol { .init(rawValue: "plus.circle.dashed") }
 
     /// 􀮙
+    /// ![translate](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/translate.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:

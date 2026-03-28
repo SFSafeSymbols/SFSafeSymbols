@@ -4,6 +4,7 @@
 @available(iOS 15.4, macOS 12.3, tvOS 15.4, watchOS 8.5, visionOS 1.0, *)
 public extension SFSymbol {
     /// 􁂂
+    /// ![camera.macro](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/camera.macro.png)
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -11,6 +12,7 @@ public extension SFSymbol {
     static var cameraMacro: SFSymbol { .init(rawValue: "camera.macro") }
 
     /// 􁂃
+    /// ![camera.macro.circle](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/camera.macro.circle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -19,6 +21,7 @@ public extension SFSymbol {
     static var cameraMacroCircle: SFSymbol { .init(rawValue: "camera.macro.circle") }
 
     /// 􁂄
+    /// ![camera.macro.circle.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/camera.macro.circle.fill.png)
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
@@ -28,6 +31,7 @@ public extension SFSymbol {
     static var cameraMacroCircleFill: SFSymbol { .init(rawValue: "camera.macro.circle.fill") }
 
     /// 􁑢
+    /// ![dots.and.line.vertical.and.cursorarrow.rectangle](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/dots.and.line.vertical.and.cursorarrow.rectangle.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -41,6 +45,7 @@ public extension SFSymbol {
     static var dotsAndLineVerticalAndCursorarrowRectangle: SFSymbol { .init(rawValue: "dots.and.line.vertical.and.cursorarrow.rectangle") }
 
     /// 􁎕
+    /// ![key.viewfinder](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/key.viewfinder.png)
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -49,6 +54,7 @@ public extension SFSymbol {
     static var keyViewfinder: SFSymbol { .init(rawValue: "key.viewfinder") }
 
     /// 􁏺
+    /// ![person.badge.key](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.badge.key.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -59,6 +65,7 @@ public extension SFSymbol {
     static var personBadgeKey: SFSymbol { .init(rawValue: "person.badge.key") }
 
     /// 􁎨
+    /// ![person.badge.key.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.badge.key.fill.png)
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:

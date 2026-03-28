@@ -183,8 +183,14 @@ let symbolToCode: (Symbol) -> String = { symbol in
         return layersetCount > 1 ? "\(layersetCount) Layersets" : "Single Layerset"
     }()
 
-    // Generate summary for docs (preview + number of localizations, layersets + potential use restriction)
+    // Generate summary for docs (previewImage + number of localizations, layersets + potential use restriction)
+    
     var outputString = "\t/// " + (symbol.preview ?? "No preview available") + "\n"
+    
+    // Use online image from repo in Github
+    let imageURL = "https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/\(symbol.name).png"
+    outputString += "\t/// ![\(symbol.name)](\(imageURL))\n"
+
     let supplementString = [
         localizationCount > 1 ? "\(localizationCount) Localizations" : "Single Localization",
         layersetString,
@@ -418,8 +424,43 @@ try SFFileManager.write(symbolLocalizations, to: outputDir.appending(path: "Symb
 
 try SFFileManager.write(allSymbolsExtension, to: outputDir.appending(path: "SFSymbol+AllSymbols.swift"))
 
+print("Codes generated.")
+print("Generating symbol images...")
+
+let configuration = NSImage.SymbolConfiguration(pointSize: 35, weight: NSFont.Weight(rawValue: 20))
+
+let symbolToPNG:(Symbol) throws -> Void={symbol in
+    guard let nsImage=NSImage(systemSymbolName: symbol.name, accessibilityDescription: nil)?
+                        .withSymbolConfiguration(configuration),
+          let symbolData=nsImage.exportSymbol() else {
+        
+        print("Cannot export SFSymbol(\(symbol.name)) to PNG file")
+        
+        return
+    }
+    
+    let url=outputDir.deletingLastPathComponent()
+        .appending(path: "SymbolImages/")
+        .appending(path: "\(symbol.name).png")
+    
+    try SFFileManager.write(symbolData, to: url)
+}
+
+try await withThrowingTaskGroup(of: Void.self) { group in
+    for symbol in symbols {
+        group.addTask {
+            try symbolToPNG(symbol)
+        }
+    }
+    try await group.waitForAll()
+}
+
+
+
 // MARK: - Step 5: FINISHING
 
 if symbolsWherePreviewIsntAvailable.isNotEmpty {
     print("⚠️ No symbol preview available for symbols \(symbolsWherePreviewIsntAvailable)", to: &stderr)
 }
+
+print("Done")
