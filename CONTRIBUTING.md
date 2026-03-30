@@ -28,7 +28,7 @@ With the current structure of the repository, where **most code is generated** b
     * `layerset_availability.plist` and `legacy_aliases_strings.txt`: Copy from `SF Symbols.app/Contents/Resources/Metadata-Public` (though it seems like the latter isn't updated by Apple anymore).
     * `name_availability.plist`, `name_aliases.strings` and `symbol_restrictions.strings`: Copy from `/System/Library/CoreServices/CoreGlyphs.bundle/Contents/Resources/` or `/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/CoreServices/CoreGlyphs.bundle/`. The latter variant may be the easier one because it only requires the installation of a new Xcode instead of an OS update.
     * `symbol_restrictions_missing.strings`: Is created manually for restricted symbols that are missing from `symbol_restrictions.strings`.
-2. Open a terminal and change to the root folder of the repository. **Then run `make generate-symbol`**.
+2. Open a terminal and change to the root folder of the repository. **Then run `make fork GH_ACCOUNT_NAME PR_BRANCH_NAME` if you're on a fork branch, just `make` otherwise**.
 3. If new files are created by the generator tool (which is expected to happen when updating to a new SF Symbols version), make sure they are **added to the `SFSafeSymbols.xcodeproj`**.
 4. **Update the `README.md`**, so that support for the new SF Symbols version is mentioned there.
 5. **Check the CI configuration** and, if needed, make adjustments (or ask a core contributor to do so), so that the new changes are properly tested with a matching Xcode version.
@@ -40,8 +40,9 @@ To be able to release a new version, you **need to be a core contributor**, i. e
 To release a new version, follow these steps:
 
 1. **Choose a new semantic versioning-compatible version number**. For it to be semantic versioning-compatible, it **MUST** take the form `X.Y.Z`. As an example, version numbers like `1.0` are illegal while version numbers like `1.0.0` are allowed.
-2. **Update to the new the version number** in the `SFSafeSymbols.podspec` and at all places in the `README.md` (Version Badge, Version Badge Alt Text, Installation Instructions).
-3. **Update the `CHANGELOG.md` file** by changing the *Unreleased* title to the version number and the release date. Then add a new *Unreleased* Section on top, keeping the 3 existing subsections (Added, Changed, Fixed).
-4. **Commit these changes directly to the `stable` branch** with the commit message `Bump version number & update changelog`.
-5. **Release on GitHub** and copy the changelog contents for this version into the release notes on GitHub. Make sure that the tag is named similar to the version number.
-6. **Publish on CocoaPods** using `pod trunk push SFSafeSymbols.podspec --allow-warnings`.
+2. Run `make release X.Y.Z` in the terminal
+3. **Update to the new the version number** in the `SFSafeSymbols.podspec` and at all places in the `README.md` (Version Badge, Version Badge Alt Text, Installation Instructions).
+4. **Update the `CHANGELOG.md` file** by changing the *Unreleased* title to the version number and the release date. Then add a new *Unreleased* Section on top, keeping the 3 existing subsections (Added, Changed, Fixed).
+5. **Commit these changes directly to the `stable` branch** with the commit message `Bump version number & update changelog`.
+6. **Release on GitHub** and copy the changelog contents for this version into the release notes on GitHub. Make sure that the tag is named similar to the version number.
+7. **Publish on CocoaPods** using `pod trunk push SFSafeSymbols.podspec --allow-warnings`.

@@ -39,7 +39,7 @@ struct Availability: Comparable, Equatable, Hashable {
 
     var versionUnderscored: String { version.replacingOccurrences(of: ".", with: "_") }
 
-    static private(set) var base: Availability!
+    nonisolated(unsafe) static private(set) var base: Availability!
 
     /// Convert into an expression than can be used in code when prefixed with either `#` or `@`.
     var availableExpression: String {
@@ -179,12 +179,18 @@ enum Localization: String, Hashable, CaseIterable {
     /// E.g. "Ar_v2" or "Ar_v2_0".
     func structName(for availability: Availability) -> String {
         // Remove (possibly multiple) ".0"s from the ending
-        var version = String(availability.version.reversed().drop(while: [".", "0"].contains).reversed())
+        var version = String(
+            availability.version
+                .reversed()
+                .drop(while: { $0 == "0" || $0 == "." })
+                .reversed()
+        )
+
         version = version.replacingOccurrences(of: ".", with: "_")
         let availabilitySuffix = availability.isBase ? "" : ("_v" + version)
         return baseStructName + availabilitySuffix
     }
 }
 
-private let noDots: (String) -> String = { $0.replacingOccurrences(of: ".", with: "") }
-private let decapFirst: (String) -> String = { String($0.prefix(1)).lowercased() + String($0.dropFirst()) }
+private func noDots(_ str: String) -> String { str.replacingOccurrences(of: ".", with: "") }
+private func decapFirst(_ str: String) -> String { str.prefix(1).lowercased() + str.dropFirst() }

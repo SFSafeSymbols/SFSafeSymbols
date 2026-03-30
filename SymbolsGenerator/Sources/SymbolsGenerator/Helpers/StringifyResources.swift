@@ -1,6 +1,6 @@
 import Foundation
 
-private let fm = FileManager.default
+private var fm: FileManager { .default }
 
 func stringifyResources() throws {
     let rootDir = URL(fileURLWithPath: fm.currentDirectoryPath)
