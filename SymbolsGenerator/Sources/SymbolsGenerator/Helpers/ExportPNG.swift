@@ -1,15 +1,15 @@
-//
-//  ExportPNG.swift
-//  SymbolsGenerator
-//
-//  Created by Phineas Guo on 2025/12/4.
-//
-
 import Foundation
 import AppKit
+import UniformTypeIdentifiers
 
+extension GeneratorCore {
+    static var exportImageExtension: String {
+        let type = UTType.png
+        return type.preferredFilenameExtension!
+    }
+}
 
-extension NSImage{
+extension NSImage {
     func exportSymbol() -> Data? {
 
         let size = self.size
