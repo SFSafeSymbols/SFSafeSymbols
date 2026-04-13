@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ### Added
 
 - Add symbol preview in Xcode Quick Help (By [Phineas Guo](https://github.com/guoPhineas))
+- Add `Label` initializer for `LocalizedStringResource` titles (By [Martin Wahlmüller](https://github.com/wallichinz))
 
 ### Changed
 
