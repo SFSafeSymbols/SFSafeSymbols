@@ -35,14 +35,13 @@ With the current structure of the repository, where **most code is generated** b
 
 ## Releasing a new version
 
-To be able to release a new version, you **need to be a core contributor**, i. e. have write access to the repository and CocoaPods. If you have these privileges, it's up to you to release a new version whenever you feel that it's appropriate.
+To be able to release a new version, you **need to be a core contributor**, i. e. have write access to the repository. If you have these privileges, it's up to you to release a new version whenever you feel that it's appropriate.
 
 To release a new version, follow these steps:
 
 1. **Choose a new semantic versioning-compatible version number**. For it to be semantic versioning-compatible, it **MUST** take the form `X.Y.Z`. As an example, version numbers like `1.0` are illegal while version numbers like `1.0.0` are allowed.
 2. Run `make release X.Y.Z` in the terminal
-3. **Update to the new the version number** in the `SFSafeSymbols.podspec` and at all places in the `README.md` (Version Badge, Version Badge Alt Text, Installation Instructions).
+3. **Update to the new the version number** at all places in the `README.md` (Version Badge, Version Badge Alt Text, Installation Instructions).
 4. **Update the `CHANGELOG.md` file** by changing the *Unreleased* title to the version number and the release date. Then add a new *Unreleased* Section on top, keeping the 3 existing subsections (Added, Changed, Fixed).
 5. **Commit these changes directly to the `stable` branch** with the commit message `Bump version number & update changelog`.
 6. **Release on GitHub** and copy the changelog contents for this version into the release notes on GitHub. Make sure that the tag is named similar to the version number.
-7. **Publish on CocoaPods** using `pod trunk push SFSafeSymbols.podspec --allow-warnings`.

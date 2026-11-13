@@ -173,7 +173,6 @@
 		OBJ_30 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_31 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		OBJ_32 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
-		OBJ_33 /* SFSafeSymbols.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SFSafeSymbols.podspec; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		"SFSafeSymbols::SFSafeSymbols::Product" /* SFSafeSymbols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SFSafeSymbols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SFSafeSymbols::SFSafeSymbolsTests::Product" /* SFSafeSymbolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = SFSafeSymbolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -368,7 +367,6 @@
 				OBJ_27 /* LICENSE */,
 				OBJ_31 /* Logo.png */,
 				OBJ_30 /* README.md */,
-				OBJ_33 /* SFSafeSymbols.podspec */,
 			);
 			name = "Root Files";
 			sourceTree = "<group>";

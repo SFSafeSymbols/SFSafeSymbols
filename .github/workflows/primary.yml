@@ -141,24 +141,3 @@ jobs:
         with:
           name: xcode${{ matrix.xcode }}-visionos${{ matrix.config.os }}
           path: TestResults-*.xcresult
-
-  pod-lint:
-    needs: xcodes-config
-    name: CocoaPods Lint • Xcode ${{ matrix.xcode }}
-    runs-on: macos-15
-    timeout-minutes: 60
-    strategy:
-      fail-fast: false
-      matrix:
-        xcode: ${{ fromJson(needs['xcodes-config'].outputs.xcodes) }}
-    steps:
-      - uses: actions/checkout@v4
-      - run: |
-          export DEVELOPER_DIR="/Applications/Xcode_${{ matrix.xcode }}.app/Contents/Developer"
-          set -o pipefail
-          pod lib lint --allow-warnings --verbose --platforms=ios,tvos,watchos,macos 2>&1 | tee pod-lint-xcode${{ matrix.xcode }}.log
-      - if: always()
-        uses: actions/upload-artifact@v6
-        with:
-          name: pod-lint-xcode${{ matrix.xcode }}
-          path: pod-lint-xcode${{ matrix.xcode }}.log
