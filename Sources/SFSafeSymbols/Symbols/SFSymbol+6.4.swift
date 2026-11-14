@@ -13,6 +13,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Intelligence.
+    @_alwaysEmitIntoClient
     static var appleIntelligenceBadgeXmark: SFSymbol { .init(rawValue: "apple.intelligence.badge.xmark") }
 
     /// 􂞞
@@ -24,6 +25,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro 2.
+    @_alwaysEmitIntoClient
     static var beatsPowerbeatsPro2: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2") }
 
     /// 􂞡
@@ -34,6 +36,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro 2 case.
+    @_alwaysEmitIntoClient
     static var beatsPowerbeatsPro2Chargingcase: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2.chargingcase") }
 
     /// 􂞢
@@ -44,6 +47,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro 2 case.
+    @_alwaysEmitIntoClient
     static var beatsPowerbeatsPro2ChargingcaseFill: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2.chargingcase.fill") }
 
     /// 􂞠
@@ -55,6 +59,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro 2.
+    @_alwaysEmitIntoClient
     static var beatsPowerbeatsPro2Left: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2.left") }
 
     /// 􂞟
@@ -66,5 +71,6 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro 2.
+    @_alwaysEmitIntoClient
     static var beatsPowerbeatsPro2Right: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2.right") }
 }

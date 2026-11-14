@@ -2,6 +2,8 @@
 
 @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince3_0: [SFSymbol : Set<Localization>] {
         [
             _1Magnifyingglass: [.hi],
@@ -811,6 +813,8 @@ extension SFSymbol {
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince3_0: Set<SFSymbol> {
         [
             arrowDownToLineAlt,

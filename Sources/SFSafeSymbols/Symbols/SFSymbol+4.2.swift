@@ -9,6 +9,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var axle2: SFSymbol { .init(rawValue: "axle.2") }
 
     /// 􁠡
@@ -18,6 +19,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
+    @_alwaysEmitIntoClient
     static var axle2FrontAndRearEngaged: SFSymbol { .init(rawValue: "axle.2.front.and.rear.engaged") }
 
     /// 􁠟
@@ -27,6 +29,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
+    @_alwaysEmitIntoClient
     static var axle2FrontEngaged: SFSymbol { .init(rawValue: "axle.2.front.engaged") }
 
     /// 􁠠
@@ -36,6 +39,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
+    @_alwaysEmitIntoClient
     static var axle2RearEngaged: SFSymbol { .init(rawValue: "axle.2.rear.engaged") }
 
     /// 􁰼
@@ -47,6 +51,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats.
+    @_alwaysEmitIntoClient
     static var beatsPowerbeatsLeft: SFSymbol { .init(rawValue: "beats.powerbeats.left") }
 
     /// 􀻕
@@ -58,6 +63,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats.
+    @_alwaysEmitIntoClient
     static var beatsPowerbeatsRight: SFSymbol { .init(rawValue: "beats.powerbeats.right") }
 
     /// 􁰾
@@ -69,6 +75,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats3.
+    @_alwaysEmitIntoClient
     static var beatsPowerbeats3Left: SFSymbol { .init(rawValue: "beats.powerbeats3.left") }
 
     /// 􁰽
@@ -80,5 +87,6 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats3.
+    @_alwaysEmitIntoClient
     static var beatsPowerbeats3Right: SFSymbol { .init(rawValue: "beats.powerbeats3.right") }
 }

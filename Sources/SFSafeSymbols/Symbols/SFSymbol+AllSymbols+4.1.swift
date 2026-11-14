@@ -2,6 +2,8 @@
 
 @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince4_1: [SFSymbol : Set<Localization>] {
         [
             _0Circle: [.ar],
@@ -380,6 +382,8 @@ extension SFSymbol {
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince4_1: Set<SFSymbol> {
         [
             handApp,

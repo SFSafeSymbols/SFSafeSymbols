@@ -10,6 +10,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var boltHouse: SFSymbol { .init(rawValue: "bolt.house") }
 
     /// 􂶡
@@ -20,6 +21,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var boltHouseFill: SFSymbol { .init(rawValue: "bolt.house.fill") }
 
     /// 􂷔
@@ -29,6 +31,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    @_alwaysEmitIntoClient
     static var cableConnectorVideo: SFSymbol { .init(rawValue: "cable.connector.video") }
 
     /// 􂴾
@@ -38,6 +41,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var carTopRadiowaves2FrontLeftFrontFrontRight: SFSymbol { .init(rawValue: "car.top.radiowaves.2.front.left.front.front.right") }
 
     /// 􂴿
@@ -47,6 +51,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var carTopRadiowaves2FrontLeftFrontFrontRightFill: SFSymbol { .init(rawValue: "car.top.radiowaves.2.front.left.front.front.right.fill") }
 
     /// 􂵂
@@ -56,6 +61,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var carTopRadiowaves2RearLeftRearRearRight: SFSymbol { .init(rawValue: "car.top.radiowaves.2.rear.left.rear.rear.right") }
 
     /// 􂵃
@@ -65,6 +71,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var carTopRadiowaves2RearLeftRearRearRightFill: SFSymbol { .init(rawValue: "car.top.radiowaves.2.rear.left.rear.rear.right.fill") }
 
     /// 􂵆
@@ -74,6 +81,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var dotCarTopRadiowaves2RearLeftRearRearRight: SFSymbol { .init(rawValue: "dot.car.top.radiowaves.2.rear.left.rear.rear.right") }
 
     /// 􂵇
@@ -83,6 +91,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var dotCarTopRadiowaves2RearLeftRearRearRightFill: SFSymbol { .init(rawValue: "dot.car.top.radiowaves.2.rear.left.rear.rear.right.fill") }
 
     /// 􀛫
@@ -91,6 +100,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var envelopeStack: SFSymbol { .init(rawValue: "envelope.stack") }
 
     /// 􀛬
@@ -99,6 +109,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var envelopeStackFill: SFSymbol { .init(rawValue: "envelope.stack.fill") }
 
     /// 􂷩
@@ -110,6 +121,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
+    @_alwaysEmitIntoClient
     static var exclamationmarkMessage: SFSymbol { .init(rawValue: "exclamationmark.message") }
 
     /// 􂷪
@@ -122,6 +134,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
+    @_alwaysEmitIntoClient
     static var exclamationmarkMessageFill: SFSymbol { .init(rawValue: "exclamationmark.message.fill") }
 
     /// 􂶩
@@ -131,6 +144,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var handThumbsdownSlash: SFSymbol { .init(rawValue: "hand.thumbsdown.slash") }
 
     /// 􂶪
@@ -140,6 +154,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var handThumbsdownSlashFill: SFSymbol { .init(rawValue: "hand.thumbsdown.slash.fill") }
 
     /// 􂶥
@@ -149,6 +164,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var handThumbsupSlash: SFSymbol { .init(rawValue: "hand.thumbsup.slash") }
 
     /// 􂶦
@@ -158,6 +174,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var handThumbsupSlashFill: SFSymbol { .init(rawValue: "hand.thumbsup.slash.fill") }
 
     /// 􂶟
@@ -166,6 +183,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var laurelLeadingLaurelTrailing: SFSymbol { .init(rawValue: "laurel.leading.laurel.trailing") }
 
     /// 􂷃
@@ -176,6 +194,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var memoriesBadgeCheckmark: SFSymbol { .init(rawValue: "memories.badge.checkmark") }
 
     /// 􂷁
@@ -186,6 +205,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var memoriesBadgeXmark: SFSymbol { .init(rawValue: "memories.badge.xmark") }
 
     /// 􂷐
@@ -195,6 +215,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var photoBadgeMagnifyingglass: SFSymbol { .init(rawValue: "photo.badge.magnifyingglass") }
 
     /// 􂷑
@@ -204,6 +225,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var photoBadgeMagnifyingglassFill: SFSymbol { .init(rawValue: "photo.badge.magnifyingglass.fill") }
 
     /// 􂷫
@@ -219,6 +241,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
+    @_alwaysEmitIntoClient
     static var questionmarkMessage: SymbolWith1Localization<Ar_v6_2> { .init(rawValue: "questionmark.message") }
 
     /// 􂷬
@@ -235,6 +258,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
+    @_alwaysEmitIntoClient
     static var questionmarkMessageFill: SymbolWith1Localization<Ar_v6_2> { .init(rawValue: "questionmark.message.fill") }
 
     /// 􂶯
@@ -243,6 +267,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var rectangleGrid3x1: SFSymbol { .init(rawValue: "rectangle.grid.3x1") }
 
     /// 􂶰
@@ -251,6 +276,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var rectangleGrid3x1Fill: SFSymbol { .init(rawValue: "rectangle.grid.3x1.fill") }
 
     /// 􂷡
@@ -261,6 +287,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var squareAndArrowDownBadgeCheckmark: SFSymbol { .init(rawValue: "square.and.arrow.down.badge.checkmark") }
 
     /// 􂷢
@@ -271,6 +298,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var squareAndArrowDownBadgeCheckmarkFill: SFSymbol { .init(rawValue: "square.and.arrow.down.badge.checkmark.fill") }
 
     /// 􂷥
@@ -281,6 +309,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var squareAndArrowDownBadgeXmark: SFSymbol { .init(rawValue: "square.and.arrow.down.badge.xmark") }
 
     /// 􂷦
@@ -291,6 +320,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var squareAndArrowDownBadgeXmarkFill: SFSymbol { .init(rawValue: "square.and.arrow.down.badge.xmark.fill") }
 
     /// 􂷝
@@ -301,6 +331,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var waveformBadgeCheckmark: SFSymbol { .init(rawValue: "waveform.badge.checkmark") }
 
     /// 􂷞
@@ -311,6 +342,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var waveformBadgeXmark: SFSymbol { .init(rawValue: "waveform.badge.xmark") }
 
     /// 􂵊
@@ -320,6 +352,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var waveformPathEcgMagnifyingglass: SFSymbol { .init(rawValue: "waveform.path.ecg.magnifyingglass") }
 
     /// 􂷚
@@ -332,6 +365,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var waveformPathEcgText: SymbolWith1Localization<Rtl> { .init(rawValue: "waveform.path.ecg.text") }
 
     /// 􂵋
@@ -345,6 +379,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var waveformPathEcgTextClipboard: SymbolWith1Localization<Rtl> { .init(rawValue: "waveform.path.ecg.text.clipboard") }
 
     /// 􂵌
@@ -358,6 +393,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var waveformPathEcgTextClipboardFill: SymbolWith1Localization<Rtl> { .init(rawValue: "waveform.path.ecg.text.clipboard.fill") }
 
     /// 􀳼
@@ -371,6 +407,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var waveformPathEcgTextPage: SymbolWith1Localization<Rtl> { .init(rawValue: "waveform.path.ecg.text.page") }
 
     /// 􀳽
@@ -383,5 +420,6 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var waveformPathEcgTextPageFill: SymbolWith1Localization<Rtl> { .init(rawValue: "waveform.path.ecg.text.page.fill") }
 }

@@ -2,6 +2,8 @@
 
 @available(iOS 17.6, macOS 14.6, tvOS 17.6, watchOS 10.6, visionOS 1.3, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince5_4: [SFSymbol : Set<Localization>] {
         [
             beatsPill: [],
@@ -14,6 +16,8 @@ extension SFSymbol {
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince5_4: Set<SFSymbol> {
         []
     }

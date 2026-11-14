@@ -2,6 +2,8 @@
 
 @available(iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1, visionOS 2.1, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince6_1: [SFSymbol : Set<Localization>] {
         [
             boltHouse: [],
@@ -49,6 +51,8 @@ extension SFSymbol {
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince6_1: Set<SFSymbol> {
         [
             ecgTextPage,

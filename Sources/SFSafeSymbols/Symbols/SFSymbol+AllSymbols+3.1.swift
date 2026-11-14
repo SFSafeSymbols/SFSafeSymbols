@@ -2,6 +2,8 @@
 
 @available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, visionOS 1.0, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince3_1: [SFSymbol : Set<Localization>] {
         [
             boltRingClosed: [],
@@ -20,6 +22,8 @@ extension SFSymbol {
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince3_1: Set<SFSymbol> {
         [
             textJustifyleft,

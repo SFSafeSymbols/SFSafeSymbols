@@ -2,6 +2,8 @@
 
 @available(iOS 18.2, macOS 15.2, tvOS 18.2, watchOS 11.2, visionOS 2.2, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince6_2: [SFSymbol : Set<Localization>] {
         [
             airpodsGen4: [],
@@ -28,6 +30,8 @@ extension SFSymbol {
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince6_2: Set<SFSymbol> {
         []
     }

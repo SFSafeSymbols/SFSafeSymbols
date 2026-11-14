@@ -227,6 +227,12 @@ custom_rules:
     severity: warning
 ```
 
+### Binary Size
+
+You can reduce the size impact of `SFSafeSymbols` on your app even further by adding `-Wl,-no_exported_symbols` to the **Other Linker Flags** (`OTHER_LDFLAGS`) of your app target's Release configuration.
+
+This flag stops your app's executable from exporting any symbols, so before enabling it, check that nothing in your setup needs them.
+
 ## Contributing
 
 Contributions are very much welcome! See [CONTRIBUTING.md](https://github.com/SFSafeSymbols/SFSafeSymbols/blob/stable/CONTRIBUTING.md) for more information.

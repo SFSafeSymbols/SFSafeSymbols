@@ -2,6 +2,8 @@
 
 @available(iOS 13.1, macOS 11.0, tvOS 13.0, watchOS 6.1, visionOS 1.0, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince1_1: [SFSymbol : Set<Localization>] {
         [
             arrowUturnLeftCircleBadgeEllipsis: [],
@@ -25,6 +27,8 @@ extension SFSymbol {
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince1_1: Set<SFSymbol> {
         []
     }

@@ -2,6 +2,8 @@
 
 @available(iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4, visionOS 1.0, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince4_2: [SFSymbol : Set<Localization>] {
         [
             _1Lane: [.ar, .hi],
@@ -27,6 +29,8 @@ extension SFSymbol {
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince4_2: Set<SFSymbol> {
         [
             axel2,

@@ -2,6 +2,8 @@
 
 @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince6_0: [SFSymbol : Set<Localization>] {
         [
             _5ArrowTriangleheadClockwise: [.hi],
@@ -1400,6 +1402,8 @@ extension SFSymbol {
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince6_0: Set<SFSymbol> {
         [
             _123Rectangle,

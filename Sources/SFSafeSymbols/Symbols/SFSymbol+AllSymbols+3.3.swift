@@ -2,6 +2,8 @@
 
 @available(iOS 15.4, macOS 12.3, tvOS 15.4, watchOS 8.5, visionOS 1.0, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince3_3: [SFSymbol : Set<Localization>] {
         [
             cameraMacro: [],
@@ -14,6 +16,8 @@ extension SFSymbol {
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince3_3: Set<SFSymbol> {
         []
     }

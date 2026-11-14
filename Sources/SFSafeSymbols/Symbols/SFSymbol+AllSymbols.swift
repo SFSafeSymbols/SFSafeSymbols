@@ -3,9 +3,43 @@
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 extension SFSymbol {
     @available(*, deprecated, renamed: "allSymbols")
+    @_alwaysEmitIntoClient
     public static var allCases: [SFSymbol] { Array(allSymbols) }
 
-    internal static let allLocalizations: [SFSymbol : Set<Localization>] = {
+    /// All symbols available on the current platform and OS version, excluding deprecated ones.
+    ///
+    /// - Important: Referencing this property links the full symbol catalog (about 1 MB) into your module.
+    ///   Apps that only use static symbols such as `.star` don't pay that cost.
+    @_alwaysEmitIntoClient
+    public static var allSymbols: Set<SFSymbol> {
+        _allSymbolsCache.write { cached in
+            if let cached { return cached }
+            let result = _buildAllSymbols
+            cached = result
+            return result
+        }
+    }
+
+    @usableFromInline
+    @_alwaysEmitIntoClient
+    internal static var allLocalizations: [SFSymbol : Set<Localization>] {
+        _allLocalizationsCache.write { cached in
+            if let cached { return cached }
+            let result = _buildAllLocalizations
+            cached = result
+            return result
+        }
+    }
+
+    @usableFromInline
+    internal static let _allSymbolsCache = LockWrapper<Set<SFSymbol>?>(nil)
+
+    @usableFromInline
+    internal static let _allLocalizationsCache = LockWrapper<[SFSymbol : Set<Localization>]?>(nil)
+
+    @usableFromInline
+    @_alwaysEmitIntoClient
+    internal static var _buildAllLocalizations: [SFSymbol : Set<Localization>] {
         var result = localizationsAvailableSince1_0
         if #available(iOS 13.1, watchOS 6.1, *) {
             result.merge(localizationsAvailableSince1_1) { $0.union($1) }
@@ -74,9 +108,11 @@ extension SFSymbol {
             result.merge(localizationsAvailableSince7_0) { $0.union($1) }
         }
         return result
-    }()
+    }
 
-    public static let allSymbols: Set<SFSymbol> = {
+    @usableFromInline
+    @_alwaysEmitIntoClient
+    internal static var _buildAllSymbols: Set<SFSymbol> {
         var result = Set(allLocalizations.keys)
         if #available(iOS 13.1, watchOS 6.1, *) {
             result.subtract(symbolsDeprecatedSince1_1)
@@ -145,5 +181,5 @@ extension SFSymbol {
             result.subtract(symbolsDeprecatedSince7_0)
         }
         return result
-    }()
+    }
 }

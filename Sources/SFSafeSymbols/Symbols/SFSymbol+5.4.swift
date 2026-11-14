@@ -11,6 +11,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Pill.
+    @_alwaysEmitIntoClient
     static var beatsPill: SFSymbol { .init(rawValue: "beats.pill") }
 
     /// 􂟋
@@ -21,6 +22,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Pill.
+    @_alwaysEmitIntoClient
     static var beatsPillFill: SFSymbol { .init(rawValue: "beats.pill.fill") }
 
     /// 􂟌
@@ -32,6 +34,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds.
+    @_alwaysEmitIntoClient
     static var beatsSolobuds: SFSymbol { .init(rawValue: "beats.solobuds") }
 
     /// 􂟏
@@ -42,6 +45,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds case.
+    @_alwaysEmitIntoClient
     static var beatsSolobudsChargingcase: SFSymbol { .init(rawValue: "beats.solobuds.chargingcase") }
 
     /// 􂟐
@@ -52,6 +56,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds case.
+    @_alwaysEmitIntoClient
     static var beatsSolobudsChargingcaseFill: SFSymbol { .init(rawValue: "beats.solobuds.chargingcase.fill") }
 
     /// 􂟎
@@ -63,6 +68,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds.
+    @_alwaysEmitIntoClient
     static var beatsSolobudsLeft: SFSymbol { .init(rawValue: "beats.solobuds.left") }
 
     /// 􂟍
@@ -74,5 +80,6 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds.
+    @_alwaysEmitIntoClient
     static var beatsSolobudsRight: SFSymbol { .init(rawValue: "beats.solobuds.right") }
 }

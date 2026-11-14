@@ -10,6 +10,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var boltRingClosed: SFSymbol { .init(rawValue: "bolt.ring.closed") }
 
     /// 􁋂
@@ -19,6 +20,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var platterFilledBottomAndArrowDownIphone: SFSymbol { .init(rawValue: "platter.filled.bottom.and.arrow.down.iphone") }
 
     /// 􁋀
@@ -28,6 +30,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var platterFilledBottomIphone: SFSymbol { .init(rawValue: "platter.filled.bottom.iphone") }
 
     /// 􁋁
@@ -37,6 +40,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var platterFilledTopAndArrowUpIphone: SFSymbol { .init(rawValue: "platter.filled.top.and.arrow.up.iphone") }
 
     /// 􁊿
@@ -46,6 +50,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var platterFilledTopIphone: SFSymbol { .init(rawValue: "platter.filled.top.iphone") }
 
     /// 􁋜
@@ -56,6 +61,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @_alwaysEmitIntoClient
     static var square3Layers3dDownBackward: SFSymbol { .init(rawValue: "square.3.layers.3d.down.backward") }
 
     /// 􁋛
@@ -66,6 +72,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @_alwaysEmitIntoClient
     static var square3Layers3dDownForward: SFSymbol { .init(rawValue: "square.3.layers.3d.down.forward") }
 
     /// 􁉼
@@ -76,6 +83,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @_alwaysEmitIntoClient
     static var square3Layers3dDownLeft: SFSymbol { .init(rawValue: "square.3.layers.3d.down.left") }
 
     /// 􁉽
@@ -86,6 +94,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @_alwaysEmitIntoClient
     static var square3Layers3dDownRight: SFSymbol { .init(rawValue: "square.3.layers.3d.down.right") }
 
     /// 􁉀
@@ -94,6 +103,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var textJustifyLeading: SFSymbol { .init(rawValue: "text.justify.leading") }
 
     /// 􀌄
@@ -102,6 +112,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var textJustifyLeft: SFSymbol { .init(rawValue: "text.justify.left") }
 
     /// 􀌅
@@ -110,6 +121,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var textJustifyRight: SFSymbol { .init(rawValue: "text.justify.right") }
 
     /// 􁉁
@@ -118,5 +130,6 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var textJustifyTrailing: SFSymbol { .init(rawValue: "text.justify.trailing") }
 }

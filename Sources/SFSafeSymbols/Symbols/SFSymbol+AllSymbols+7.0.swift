@@ -2,6 +2,8 @@
 
 @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince7_0: [SFSymbol : Set<Localization>] {
         [
             _1Calendar: [.ar, .hi],
@@ -471,6 +473,8 @@ extension SFSymbol {
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince7_0: Set<SFSymbol> {
         [
             contextualmenuAndCursorarrow,

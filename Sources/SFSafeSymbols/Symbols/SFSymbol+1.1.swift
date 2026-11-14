@@ -11,6 +11,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @_alwaysEmitIntoClient
     static var arrowUturnLeftCircleBadgeEllipsis: SFSymbol { .init(rawValue: "arrow.uturn.left.circle.badge.ellipsis") }
 
     /// 􀞖
@@ -19,6 +20,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var aspectratio: SFSymbol { .init(rawValue: "aspectratio") }
 
     /// 􀞏
@@ -27,6 +29,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var aspectratioFill: SFSymbol { .init(rawValue: "aspectratio.fill") }
 
     /// 􀙘
@@ -36,6 +39,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @_alwaysEmitIntoClient
     static var car: SFSymbol { .init(rawValue: "car") }
 
     /// 􀞾
@@ -44,6 +48,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var circleGrid2x2: SFSymbol { .init(rawValue: "circle.grid.2x2") }
 
     /// 􀞿
@@ -52,6 +57,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var circleGrid2x2Fill: SFSymbol { .init(rawValue: "circle.grid.2x2.fill") }
 
     /// 􀝌
@@ -60,6 +66,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var flashlightOffFill: SFSymbol { .init(rawValue: "flashlight.off.fill") }
 
     /// 􀞋
@@ -68,6 +75,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var flashlightOnFill: SFSymbol { .init(rawValue: "flashlight.on.fill") }
 
     /// 􀞒
@@ -81,6 +89,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
     @available(watchOS, introduced: 6.1, deprecated: 7.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRight")
+    @_alwaysEmitIntoClient
     static var flipHorizontal: SFSymbol { .init(rawValue: "flip.horizontal") }
 
     /// 􀞓
@@ -94,6 +103,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 13.0, deprecated: 14.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
     @available(watchOS, introduced: 6.1, deprecated: 7.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "arrowLeftAndRightRighttriangleLeftRighttriangleRightFill")
+    @_alwaysEmitIntoClient
     static var flipHorizontalFill: SFSymbol { .init(rawValue: "flip.horizontal.fill") }
 
     /// 􀜇
@@ -104,6 +114,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @_alwaysEmitIntoClient
     static var mappinCircle: SFSymbol { .init(rawValue: "mappin.circle") }
 
     /// 􀜈
@@ -114,6 +125,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Multicolor (iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0)
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @_alwaysEmitIntoClient
     static var mappinCircleFill: SFSymbol { .init(rawValue: "mappin.circle.fill") }
 
     /// 􀒔
@@ -124,6 +136,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @_alwaysEmitIntoClient
     static var paperclipCircle: SFSymbol { .init(rawValue: "paperclip.circle") }
 
     /// 􀒕
@@ -134,6 +147,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @_alwaysEmitIntoClient
     static var paperclipCircleFill: SFSymbol { .init(rawValue: "paperclip.circle.fill") }
 
     /// 􀒴
@@ -144,6 +158,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @_alwaysEmitIntoClient
     static var pinCircle: SFSymbol { .init(rawValue: "pin.circle") }
 
     /// 􀒵
@@ -154,6 +169,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Multicolor (iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0)
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @_alwaysEmitIntoClient
     static var pinCircleFill: SFSymbol { .init(rawValue: "pin.circle.fill") }
 
     /// 􀞷
@@ -164,6 +180,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @_alwaysEmitIntoClient
     static var scissorsBadgeEllipsis: SFSymbol { .init(rawValue: "scissors.badge.ellipsis") }
 
     /// 􀑔
@@ -172,5 +189,6 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var studentdesk: SFSymbol { .init(rawValue: "studentdesk") }
 }

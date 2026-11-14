@@ -2,6 +2,8 @@
 
 @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince2_1: [SFSymbol : Set<Localization>] {
         [
             aqiHigh: [],
@@ -58,6 +60,8 @@ extension SFSymbol {
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince2_1: Set<SFSymbol> {
         [
             a,

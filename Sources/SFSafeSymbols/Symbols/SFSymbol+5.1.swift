@@ -9,6 +9,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var chevronCompactBackward: SFSymbol { .init(rawValue: "chevron.compact.backward") }
 
     /// 􂉐
@@ -17,6 +18,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var chevronCompactForward: SFSymbol { .init(rawValue: "chevron.compact.forward") }
 
     /// 􂉚
@@ -26,6 +28,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var personCropSquareBadgeCamera: SFSymbol { .init(rawValue: "person.crop.square.badge.camera") }
 
     /// 􂉛
@@ -35,6 +38,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var personCropSquareBadgeCameraFill: SFSymbol { .init(rawValue: "person.crop.square.badge.camera.fill") }
 
     /// 􂉜
@@ -44,6 +48,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var personCropSquareBadgeVideo: SFSymbol { .init(rawValue: "person.crop.square.badge.video") }
 
     /// 􂉝
@@ -53,5 +58,6 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var personCropSquareBadgeVideoFill: SFSymbol { .init(rawValue: "person.crop.square.badge.video.fill") }
 }

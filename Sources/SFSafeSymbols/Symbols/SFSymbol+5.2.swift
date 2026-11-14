@@ -11,6 +11,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var squareAndArrowUpBadgeClock: SFSymbol { .init(rawValue: "square.and.arrow.up.badge.clock") }
 
     /// 􂋏
@@ -21,5 +22,6 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var squareAndArrowUpBadgeClockFill: SFSymbol { .init(rawValue: "square.and.arrow.up.badge.clock.fill") }
 }

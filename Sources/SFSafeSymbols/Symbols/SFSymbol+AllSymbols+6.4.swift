@@ -2,6 +2,8 @@
 
 @available(iOS 18.5, macOS 15.5, tvOS 18.5, watchOS 11.5, visionOS 2.5, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince6_4: [SFSymbol : Set<Localization>] {
         [
             appleIntelligenceBadgeXmark: [],
@@ -13,6 +15,8 @@ extension SFSymbol {
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince6_4: Set<SFSymbol> {
         []
     }

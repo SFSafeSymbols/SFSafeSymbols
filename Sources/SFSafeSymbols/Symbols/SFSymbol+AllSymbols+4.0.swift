@@ -2,6 +2,8 @@
 
 @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince4_0: [SFSymbol : Set<Localization>] {
         [
             absBrakesignal: [],
@@ -903,6 +905,8 @@ extension SFSymbol {
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince4_0: Set<SFSymbol> {
         [
             applelogo,

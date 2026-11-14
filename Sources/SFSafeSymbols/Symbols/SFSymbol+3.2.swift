@@ -11,6 +11,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
+    @_alwaysEmitIntoClient
     static var airpodGen3Left: SFSymbol { .init(rawValue: "airpod.gen3.left") }
 
     /// 􁄢
@@ -21,6 +22,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
+    @_alwaysEmitIntoClient
     static var airpodGen3Right: SFSymbol { .init(rawValue: "airpod.gen3.right") }
 
     /// 􁄡
@@ -31,6 +33,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
+    @_alwaysEmitIntoClient
     static var airpodsGen3: SFSymbol { .init(rawValue: "airpods.gen3") }
 
     /// 􁅐
@@ -41,6 +44,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
+    @_alwaysEmitIntoClient
     static var airpodsGen3ChargingcaseWireless: SFSymbol { .init(rawValue: "airpods.gen3.chargingcase.wireless") }
 
     /// 􁅑
@@ -51,6 +55,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
+    @_alwaysEmitIntoClient
     static var airpodsGen3ChargingcaseWirelessFill: SFSymbol { .init(rawValue: "airpods.gen3.chargingcase.wireless.fill") }
 
     /// 􁅞
@@ -67,6 +72,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitpro")
     @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitpro")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "beatsFitpro")
+    @_alwaysEmitIntoClient
     static var beatsFitPro: SFSymbol { .init(rawValue: "beats.fit.pro") }
 
     /// 􁅡
@@ -82,6 +88,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproChargingcase")
     @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitproChargingcase")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "beatsFitproChargingcase")
+    @_alwaysEmitIntoClient
     static var beatsFitProChargingcase: SFSymbol { .init(rawValue: "beats.fit.pro.chargingcase") }
 
     /// 􁅢
@@ -97,6 +104,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproChargingcaseFill")
     @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitproChargingcaseFill")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "beatsFitproChargingcaseFill")
+    @_alwaysEmitIntoClient
     static var beatsFitProChargingcaseFill: SFSymbol { .init(rawValue: "beats.fit.pro.chargingcase.fill") }
 
     /// 􁅟
@@ -113,6 +121,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproLeft")
     @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitproLeft")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "beatsFitproLeft")
+    @_alwaysEmitIntoClient
     static var beatsFitProLeft: SFSymbol { .init(rawValue: "beats.fit.pro.left") }
 
     /// 􁅠
@@ -129,6 +138,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproRight")
     @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitproRight")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "beatsFitproRight")
+    @_alwaysEmitIntoClient
     static var beatsFitProRight: SFSymbol { .init(rawValue: "beats.fit.pro.right") }
 
     /// 􁋶
@@ -137,6 +147,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var rectangleLeadinghalfFilled: SFSymbol { .init(rawValue: "rectangle.leadinghalf.filled") }
 
     /// 􁋷
@@ -145,6 +156,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var rectangleTrailinghalfFilled: SFSymbol { .init(rawValue: "rectangle.trailinghalf.filled") }
 
     /// 􁋽
@@ -154,6 +166,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var square3Layers3dDownLeftSlash: SFSymbol { .init(rawValue: "square.3.layers.3d.down.left.slash") }
 
     /// 􁋼
@@ -163,6 +176,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var square3Layers3dDownRightSlash: SFSymbol { .init(rawValue: "square.3.layers.3d.down.right.slash") }
 
     /// 􁌅
@@ -177,5 +191,6 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.2, deprecated: 16.0, renamed: "square3Layers3dSlash")
     @available(watchOS, introduced: 8.3, deprecated: 9.0, renamed: "square3Layers3dSlash")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "square3Layers3dSlash")
+    @_alwaysEmitIntoClient
     static var square3Stack3dSlash: SFSymbol { .init(rawValue: "square.3.stack.3d.slash") }
 }

@@ -2,6 +2,8 @@
 
 @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince6_3: [SFSymbol : Set<Localization>] {
         [
             arrowBackwardToLineCompact: [],
@@ -112,6 +114,8 @@ extension SFSymbol {
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince6_3: Set<SFSymbol> {
         [
             cursorarrow,

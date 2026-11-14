@@ -16,6 +16,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _1Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "1.calendar") }
 
     /// 􃌧
@@ -31,6 +32,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _2Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "2.calendar") }
 
     /// 􃌨
@@ -46,6 +48,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _3Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "3.calendar") }
 
     /// 􃌩
@@ -61,6 +64,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _4Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "4.calendar") }
 
     /// 􃌪
@@ -76,6 +80,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _5Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "5.calendar") }
 
     /// 􃌫
@@ -91,6 +96,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _6Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "6.calendar") }
 
     /// 􃌬
@@ -106,6 +112,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _7Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "7.calendar") }
 
     /// 􃌭
@@ -121,6 +128,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _8Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "8.calendar") }
 
     /// 􃌮
@@ -136,6 +144,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _9Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "9.calendar") }
 
     /// 􃌯
@@ -151,6 +160,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _10Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "10.calendar") }
 
     /// 􃌰
@@ -166,6 +176,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _11Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "11.calendar") }
 
     /// 􃌱
@@ -181,6 +192,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _12Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "12.calendar") }
 
     /// 􃌲
@@ -196,6 +208,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _13Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "13.calendar") }
 
     /// 􃌳
@@ -211,6 +224,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _14Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "14.calendar") }
 
     /// 􃌴
@@ -226,6 +240,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _15Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "15.calendar") }
 
     /// 􃌵
@@ -241,6 +256,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _16Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "16.calendar") }
 
     /// 􃌶
@@ -256,6 +272,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _17Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "17.calendar") }
 
     /// 􃌷
@@ -271,6 +288,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _18Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "18.calendar") }
 
     /// 􃌸
@@ -286,6 +304,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _19Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "19.calendar") }
 
     /// 􃌹
@@ -301,6 +320,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _20Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "20.calendar") }
 
     /// 􃌺
@@ -316,6 +336,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _21Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "21.calendar") }
 
     /// 􃌻
@@ -331,6 +352,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _22Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "22.calendar") }
 
     /// 􃌼
@@ -346,6 +368,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _23Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "23.calendar") }
 
     /// 􃌽
@@ -361,6 +384,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _24Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "24.calendar") }
 
     /// 􃌾
@@ -376,6 +400,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _25Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "25.calendar") }
 
     /// 􃌿
@@ -391,6 +416,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _26Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "26.calendar") }
 
     /// 􃍀
@@ -406,6 +432,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _27Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "27.calendar") }
 
     /// 􃍁
@@ -421,6 +448,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _28Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "28.calendar") }
 
     /// 􃍂
@@ -436,6 +464,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _29Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "29.calendar") }
 
     /// 􃍃
@@ -451,6 +480,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _30Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "30.calendar") }
 
     /// 􃍄
@@ -466,6 +496,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var _31Calendar: SymbolWith2Localizations<Ar, Hi> { .init(rawValue: "31.calendar") }
 
     /// 􃕆
@@ -474,6 +505,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var ac: SFSymbol { .init(rawValue: "ac") }
 
     /// 􃕇
@@ -483,6 +515,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var acSlash: SFSymbol { .init(rawValue: "ac.slash") }
 
     /// 􃈜
@@ -492,6 +525,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var airplaneCloud: SFSymbol { .init(rawValue: "airplane.cloud") }
 
     /// 􃈛
@@ -501,6 +535,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var airplaneLanded: SFSymbol { .init(rawValue: "airplane.landed") }
 
     /// 􃋁
@@ -510,6 +545,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var airplanePathDotted: SFSymbol { .init(rawValue: "airplane.path.dotted") }
 
     /// 􀷱
@@ -519,6 +555,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var airplaneTicket: SFSymbol { .init(rawValue: "airplane.ticket") }
 
     /// 􀷲
@@ -528,6 +565,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var airplaneTicketFill: SFSymbol { .init(rawValue: "airplane.ticket.fill") }
 
     /// 􃎗
@@ -536,6 +574,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var airplaneUpForward: SFSymbol { .init(rawValue: "airplane.up.forward") }
 
     /// 􃎘
@@ -545,6 +584,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var airplaneUpForwardApp: SFSymbol { .init(rawValue: "airplane.up.forward.app") }
 
     /// 􃎙
@@ -555,6 +595,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var airplaneUpForwardAppFill: SFSymbol { .init(rawValue: "airplane.up.forward.app.fill") }
 
     /// 􀸯
@@ -563,6 +604,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var airplaneUpRight: SFSymbol { .init(rawValue: "airplane.up.right") }
 
     /// 􃋑
@@ -572,6 +614,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var airplaneUpRightApp: SFSymbol { .init(rawValue: "airplane.up.right.app") }
 
     /// 􃋒
@@ -582,6 +625,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var airplaneUpRightAppFill: SFSymbol { .init(rawValue: "airplane.up.right.app.fill") }
 
     /// 􃋰
@@ -590,6 +634,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var airplaneseat: SFSymbol { .init(rawValue: "airplaneseat") }
 
     /// 􂷸
@@ -598,6 +643,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var appBackgroundDotted: SFSymbol { .init(rawValue: "app.background.dotted") }
 
     /// 􃏞
@@ -606,6 +652,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var appGrid: SFSymbol { .init(rawValue: "app.grid") }
 
     /// 􃎺
@@ -614,6 +661,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var appShadow: SFSymbol { .init(rawValue: "app.shadow") }
 
     /// 􃏡
@@ -622,6 +670,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var appSpecular: SFSymbol { .init(rawValue: "app.specular") }
 
     /// 􃏢
@@ -630,6 +679,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var appTranslucent: SFSymbol { .init(rawValue: "app.translucent") }
 
     /// 􃁲
@@ -639,6 +689,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var appleBooksPages: SFSymbol { .init(rawValue: "apple.books.pages") }
 
     /// 􃁳
@@ -649,6 +700,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var appleBooksPagesFill: SFSymbol { .init(rawValue: "apple.books.pages.fill") }
 
     /// 􃁬
@@ -658,6 +710,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var appleClassicalPages: SFSymbol { .init(rawValue: "apple.classical.pages") }
 
     /// 􃁭
@@ -668,6 +721,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var appleClassicalPagesFill: SFSymbol { .init(rawValue: "apple.classical.pages.fill") }
 
     /// 􀠀
@@ -680,6 +734,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomeKit.
+    @_alwaysEmitIntoClient
     static var appleHomekit: SFSymbol { .init(rawValue: "apple.homekit") }
 
     /// 􃁰
@@ -689,6 +744,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var applePodcastsPages: SFSymbol { .init(rawValue: "apple.podcasts.pages") }
 
     /// 􃁱
@@ -699,6 +755,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var applePodcastsPagesFill: SFSymbol { .init(rawValue: "apple.podcasts.pages.fill") }
 
     /// 􃊀
@@ -711,6 +768,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
+    @_alwaysEmitIntoClient
     static var appletvBadgeCheckmark: SFSymbol { .init(rawValue: "appletv.badge.checkmark") }
 
     /// 􃊁
@@ -723,6 +781,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
+    @_alwaysEmitIntoClient
     static var appletvBadgeCheckmarkFill: SFSymbol { .init(rawValue: "appletv.badge.checkmark.fill") }
 
     /// 􁰺
@@ -735,6 +794,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
+    @_alwaysEmitIntoClient
     static var appletvBadgeExclamationmark: SFSymbol { .init(rawValue: "appletv.badge.exclamationmark") }
 
     /// 􁰻
@@ -747,6 +807,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
+    @_alwaysEmitIntoClient
     static var appletvBadgeExclamationmarkFill: SFSymbol { .init(rawValue: "appletv.badge.exclamationmark.fill") }
 
     /// 􃊄
@@ -759,6 +820,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
+    @_alwaysEmitIntoClient
     static var applewatchBadgeCheckmark: SFSymbol { .init(rawValue: "applewatch.badge.checkmark") }
 
     /// 􃔣
@@ -771,6 +833,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
+    @_alwaysEmitIntoClient
     static var applewatchBadgeExclamationmark: SFSymbol { .init(rawValue: "applewatch.badge.exclamationmark") }
 
     /// 􃍤
@@ -787,6 +850,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
+    @_alwaysEmitIntoClient
     static var appsIpadBadgeCheckmark: SymbolWith1Localization<Rtl> { .init(rawValue: "apps.ipad.badge.checkmark") }
 
     /// 􀯗
@@ -799,6 +863,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
+    @_alwaysEmitIntoClient
     static var appsIpadBadgePlus: SFSymbol { .init(rawValue: "apps.ipad.badge.plus") }
 
     /// 􂿬
@@ -814,6 +879,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
+    @_alwaysEmitIntoClient
     static var appsIpadOnRectanglePortraitDashed: SymbolWith1Localization<Rtl> { .init(rawValue: "apps.ipad.on.rectangle.portrait.dashed") }
 
     /// 􃍢
@@ -830,6 +896,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    @_alwaysEmitIntoClient
     static var appsIphoneBadgeCheckmark: SymbolWith1Localization<Rtl> { .init(rawValue: "apps.iphone.badge.checkmark") }
 
     /// 􃂜
@@ -839,6 +906,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var aqiMediumGaugeOpen: SFSymbol { .init(rawValue: "aqi.medium.gauge.open") }
 
     /// 􃇖
@@ -849,6 +917,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var arrowDownCircleBadgePause: SFSymbol { .init(rawValue: "arrow.down.circle.badge.pause") }
 
     /// 􃇗
@@ -859,6 +928,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var arrowDownCircleBadgePauseFill: SFSymbol { .init(rawValue: "arrow.down.circle.badge.pause.fill") }
 
     /// 􃇚
@@ -869,6 +939,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var arrowDownCircleBadgeXmark: SFSymbol { .init(rawValue: "arrow.down.circle.badge.xmark") }
 
     /// 􃇛
@@ -879,6 +950,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var arrowDownCircleBadgeXmarkFill: SFSymbol { .init(rawValue: "arrow.down.circle.badge.xmark.fill") }
 
     /// 􃀩
@@ -892,6 +964,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var arrowForwardFolder: SymbolWith1Localization<Rtl> { .init(rawValue: "arrow.forward.folder") }
 
     /// 􃀪
@@ -906,6 +979,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var arrowForwardFolderFill: SymbolWith1Localization<Rtl> { .init(rawValue: "arrow.forward.folder.fill") }
 
     /// 􀙝
@@ -914,6 +988,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var arrowTriangleheadTurnUpRight: SFSymbol { .init(rawValue: "arrow.trianglehead.turn.up.right") }
 
     /// 􃀧
@@ -923,6 +998,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var arrowUpFolder: SFSymbol { .init(rawValue: "arrow.up.folder") }
 
     /// 􃀨
@@ -933,6 +1009,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var arrowUpFolderFill: SFSymbol { .init(rawValue: "arrow.up.folder.fill") }
 
     /// 􃀷
@@ -942,6 +1019,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var backpackSensorTagRadiowavesLeftAndRight: SFSymbol { .init(rawValue: "backpack.sensor.tag.radiowaves.left.and.right") }
 
     /// 􃀸
@@ -952,6 +1030,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var backpackSensorTagRadiowavesLeftAndRightFill: SFSymbol { .init(rawValue: "backpack.sensor.tag.radiowaves.left.and.right.fill") }
 
     /// 􃍏
@@ -962,6 +1041,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var bedDoubleBadgeCheckmark: SFSymbol { .init(rawValue: "bed.double.badge.checkmark") }
 
     /// 􃍐
@@ -972,6 +1052,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var bedDoubleBadgeCheckmarkFill: SFSymbol { .init(rawValue: "bed.double.badge.checkmark.fill") }
 
     /// 􁈍
@@ -981,6 +1062,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var bellBadgeWaveformSlash: SFSymbol { .init(rawValue: "bell.badge.waveform.slash") }
 
     /// 􁈎
@@ -990,6 +1072,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var bellBadgeWaveformSlashFill: SFSymbol { .init(rawValue: "bell.badge.waveform.slash.fill") }
 
     /// 􃀹
@@ -999,6 +1082,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var bicycleSensorTagRadiowavesLeftAndRight: SFSymbol { .init(rawValue: "bicycle.sensor.tag.radiowaves.left.and.right") }
 
     /// 􃀺
@@ -1009,6 +1093,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var bicycleSensorTagRadiowavesLeftAndRightFill: SFSymbol { .init(rawValue: "bicycle.sensor.tag.radiowaves.left.and.right.fill") }
 
     /// 􃔛
@@ -1017,6 +1102,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var bloodPressureCuff: SFSymbol { .init(rawValue: "blood.pressure.cuff") }
 
     /// 􃓻
@@ -1027,6 +1113,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var bloodPressureCuffBadgeGaugeWithNeedle: SFSymbol { .init(rawValue: "blood.pressure.cuff.badge.gauge.with.needle") }
 
     /// 􃓼
@@ -1037,6 +1124,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var bloodPressureCuffBadgeGaugeWithNeedleFill: SFSymbol { .init(rawValue: "blood.pressure.cuff.badge.gauge.with.needle.fill") }
 
     /// 􃔜
@@ -1045,6 +1133,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var bloodPressureCuffFill: SFSymbol { .init(rawValue: "blood.pressure.cuff.fill") }
 
     /// 􃑏
@@ -1055,6 +1144,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var bookBadgePlus: SFSymbol { .init(rawValue: "book.badge.plus") }
 
     /// 􃑐
@@ -1065,6 +1155,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var bookBadgePlusFill: SFSymbol { .init(rawValue: "book.badge.plus.fill") }
 
     /// 􃀱
@@ -1074,6 +1165,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var briefcaseSensorTagRadiowavesLeftAndRight: SFSymbol { .init(rawValue: "briefcase.sensor.tag.radiowaves.left.and.right") }
 
     /// 􃀲
@@ -1084,6 +1176,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var briefcaseSensorTagRadiowavesLeftAndRightFill: SFSymbol { .init(rawValue: "briefcase.sensor.tag.radiowaves.left.and.right.fill") }
 
     /// 􂭿
@@ -1094,6 +1187,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var calendarBadge: SFSymbol { .init(rawValue: "calendar.badge") }
 
     /// 􃂂
@@ -1104,6 +1198,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var calendarBadgeLock: SFSymbol { .init(rawValue: "calendar.badge.lock") }
 
     /// 􃌄
@@ -1113,6 +1208,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var calendarDayTimelineLeadingCircle: SFSymbol { .init(rawValue: "calendar.day.timeline.leading.circle") }
 
     /// 􃌅
@@ -1123,6 +1219,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var calendarDayTimelineLeadingCircleFill: SFSymbol { .init(rawValue: "calendar.day.timeline.leading.circle.fill") }
 
     /// 􃋶
@@ -1132,6 +1229,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var calendarDayTimelineLeftCircle: SFSymbol { .init(rawValue: "calendar.day.timeline.left.circle") }
 
     /// 􃋷
@@ -1142,6 +1240,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var calendarDayTimelineLeftCircleFill: SFSymbol { .init(rawValue: "calendar.day.timeline.left.circle.fill") }
 
     /// 􃋸
@@ -1151,6 +1250,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var calendarDayTimelineRightCircle: SFSymbol { .init(rawValue: "calendar.day.timeline.right.circle") }
 
     /// 􃋹
@@ -1161,6 +1261,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var calendarDayTimelineRightCircleFill: SFSymbol { .init(rawValue: "calendar.day.timeline.right.circle.fill") }
 
     /// 􃌆
@@ -1170,6 +1271,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var calendarDayTimelineTrailingCircle: SFSymbol { .init(rawValue: "calendar.day.timeline.trailing.circle") }
 
     /// 􃌇
@@ -1180,6 +1282,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var calendarDayTimelineTrailingCircleFill: SFSymbol { .init(rawValue: "calendar.day.timeline.trailing.circle.fill") }
 
     /// 􃀻
@@ -1189,6 +1292,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var cameraSensorTagRadiowavesLeftAndRight: SFSymbol { .init(rawValue: "camera.sensor.tag.radiowaves.left.and.right") }
 
     /// 􃀼
@@ -1199,6 +1303,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var cameraSensorTagRadiowavesLeftAndRightFill: SFSymbol { .init(rawValue: "camera.sensor.tag.radiowaves.left.and.right.fill") }
 
     /// 􃕊
@@ -1208,6 +1313,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var carRearRoadLaneDashedArrowtriangle2Outward: SFSymbol { .init(rawValue: "car.rear.road.lane.dashed.arrowtriangle.2.outward") }
 
     /// 􃖄
@@ -1217,6 +1323,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var carWindowLeftBadgeLock: SFSymbol { .init(rawValue: "car.window.left.badge.lock") }
 
     /// 􃕋
@@ -1226,6 +1333,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var carWindowRightBadgeLock: SFSymbol { .init(rawValue: "car.window.right.badge.lock") }
 
     /// 􃋺
@@ -1235,6 +1343,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var cellularbarsCircle: SFSymbol { .init(rawValue: "cellularbars.circle") }
 
     /// 􃋻
@@ -1245,6 +1354,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var cellularbarsCircleFill: SFSymbol { .init(rawValue: "cellularbars.circle.fill") }
 
     /// 􃅗
@@ -1275,6 +1385,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var characterTextJustify: SymbolWith18Localizations<Ar, Bn, Gu, He, Hi, Ja, Kn, Ko, Ml, Mni, Mr, Or, Pa, Sat, Si, Ta, Th, Zh> { .init(rawValue: "character.text.justify") }
 
     /// 􃒊
@@ -1284,6 +1395,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var chartBarXaxisDescending: SFSymbol { .init(rawValue: "chart.bar.xaxis.descending") }
 
     /// 􂿲
@@ -1293,6 +1405,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var checkmarkApp: SFSymbol { .init(rawValue: "checkmark.app") }
 
     /// 􂿳
@@ -1303,6 +1416,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var checkmarkAppFill: SFSymbol { .init(rawValue: "checkmark.app.fill") }
 
     /// 􃇽
@@ -1312,6 +1426,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var checkmarkArrowTriangleheadClockwise: SFSymbol { .init(rawValue: "checkmark.arrow.trianglehead.clockwise") }
 
     /// 􃋄
@@ -1321,6 +1436,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var checkmarkCircleBadgeAirplane: SFSymbol { .init(rawValue: "checkmark.circle.badge.airplane") }
 
     /// 􃋅
@@ -1330,6 +1446,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var checkmarkCircleBadgeAirplaneFill: SFSymbol { .init(rawValue: "checkmark.circle.badge.airplane.fill") }
 
     /// 􃈆
@@ -1340,6 +1457,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var checkmarkCircleBadgePlus: SFSymbol { .init(rawValue: "checkmark.circle.badge.plus") }
 
     /// 􃈇
@@ -1350,6 +1468,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var checkmarkCircleBadgePlusFill: SFSymbol { .init(rawValue: "checkmark.circle.badge.plus.fill") }
 
     /// 􃑹
@@ -1359,6 +1478,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var checkmarkCircleDotted: SFSymbol { .init(rawValue: "checkmark.circle.dotted") }
 
     /// 􃋂
@@ -1369,6 +1489,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var checkmarkCircleTrianglebadgeExclamationmarkFill: SFSymbol { .init(rawValue: "checkmark.circle.trianglebadge.exclamationmark.fill") }
 
     /// 􂿪
@@ -1379,6 +1500,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var circleGrid2x2TopleftCheckmarkFilled: SFSymbol { .init(rawValue: "circle.grid.2x2.topleft.checkmark.filled") }
 
     /// 􃎷
@@ -1388,6 +1510,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var circleOnSquare: SFSymbol { .init(rawValue: "circle.on.square") }
 
     /// 􃏁
@@ -1397,6 +1520,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var circleOnSquareIntersectionDotted: SFSymbol { .init(rawValue: "circle.on.square.intersection.dotted") }
 
     /// 􃎹
@@ -1405,6 +1529,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var circleOnSquareMerge: SFSymbol { .init(rawValue: "circle.on.square.merge") }
 
     /// 􃋐
@@ -1414,6 +1539,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var clockArrowTriangleheadClockwiseRotate90PathDotted: SFSymbol { .init(rawValue: "clock.arrow.trianglehead.clockwise.rotate.90.path.dotted") }
 
     /// 􃋌
@@ -1423,6 +1549,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var clockBadgeAirplane: SFSymbol { .init(rawValue: "clock.badge.airplane") }
 
     /// 􃋍
@@ -1432,6 +1559,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var clockBadgeAirplaneFill: SFSymbol { .init(rawValue: "clock.badge.airplane.fill") }
 
     /// 􃁋
@@ -1441,6 +1569,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var coatCircle: SFSymbol { .init(rawValue: "coat.circle") }
 
     /// 􃁌
@@ -1451,6 +1580,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var coatCircleFill: SFSymbol { .init(rawValue: "coat.circle.fill") }
 
     /// 􀭈
@@ -1460,6 +1590,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var contextualmenuAndPointerArrow: SFSymbol { .init(rawValue: "contextualmenu.and.pointer.arrow") }
 
     /// 􁂨
@@ -1469,6 +1600,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var creditcardAndNumbers: SFSymbol { .init(rawValue: "creditcard.and.numbers") }
 
     /// 􃔩
@@ -1478,6 +1610,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var creditcardArrowTrianglehead2ClockwiseRotate90: SFSymbol { .init(rawValue: "creditcard.arrow.trianglehead.2.clockwise.rotate.90") }
 
     /// 􃈕
@@ -1486,6 +1619,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var creditcardRewards: SFSymbol { .init(rawValue: "creditcard.rewards") }
 
     /// 􃈖
@@ -1494,6 +1628,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var creditcardRewardsFill: SFSymbol { .init(rawValue: "creditcard.rewards.fill") }
 
     /// 􃅓
@@ -1503,6 +1638,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var cubeCircle: SFSymbol { .init(rawValue: "cube.circle") }
 
     /// 􃅔
@@ -1513,6 +1649,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var cubeCircleFill: SFSymbol { .init(rawValue: "cube.circle.fill") }
 
     /// 􃉞
@@ -1523,6 +1660,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var desktopcomputerBadgeCheckmark: SFSymbol { .init(rawValue: "desktopcomputer.badge.checkmark") }
 
     /// 􃊆
@@ -1533,6 +1671,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var desktopcomputerBadgeShieldCheckmark: SFSymbol { .init(rawValue: "desktopcomputer.badge.shield.checkmark") }
 
     /// 􃒘
@@ -1542,6 +1681,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var displayAndScrewdriver: SFSymbol { .init(rawValue: "display.and.screwdriver") }
 
     /// 􁣊
@@ -1551,6 +1691,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var documentOnTrash: SFSymbol { .init(rawValue: "document.on.trash") }
 
     /// 􁣋
@@ -1560,6 +1701,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var documentOnTrashFill: SFSymbol { .init(rawValue: "document.on.trash.fill") }
 
     /// 􀫍
@@ -1569,6 +1711,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var dotCircleAndPointerArrow: SFSymbol { .init(rawValue: "dot.circle.and.pointer.arrow") }
 
     /// 􃆮
@@ -1578,6 +1721,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var dotCrosshair: SFSymbol { .init(rawValue: "dot.crosshair") }
 
     /// 􁑢
@@ -1587,6 +1731,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var dotsAndLineVerticalAndPointerArrowRectangle: SFSymbol { .init(rawValue: "dots.and.line.vertical.and.pointer.arrow.rectangle") }
 
     /// 􃀍
@@ -1596,6 +1741,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var earbudLeft: SFSymbol { .init(rawValue: "earbud.left") }
 
     /// 􃀌
@@ -1605,6 +1751,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var earbudRight: SFSymbol { .init(rawValue: "earbud.right") }
 
     /// 􃍝
@@ -1613,6 +1760,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var earbudsBoneConduction: SFSymbol { .init(rawValue: "earbuds.bone.conduction") }
 
     /// 􃍟
@@ -1621,6 +1769,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var earbudsBoneConductionLeft: SFSymbol { .init(rawValue: "earbuds.bone.conduction.left") }
 
     /// 􃍞
@@ -1629,6 +1778,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var earbudsBoneConductionRight: SFSymbol { .init(rawValue: "earbuds.bone.conduction.right") }
 
     /// 􃍓
@@ -1638,6 +1788,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var earbudsInEar: SFSymbol { .init(rawValue: "earbuds.in.ear") }
 
     /// 􃍕
@@ -1647,6 +1798,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var earbudsInEarLeft: SFSymbol { .init(rawValue: "earbuds.in.ear.left") }
 
     /// 􃍔
@@ -1656,6 +1808,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var earbudsInEarRight: SFSymbol { .init(rawValue: "earbuds.in.ear.right") }
 
     /// 􃍆
@@ -1665,6 +1818,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var earbudsStemless: SFSymbol { .init(rawValue: "earbuds.stemless") }
 
     /// 􃍈
@@ -1674,6 +1828,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var earbudsStemlessLeft: SFSymbol { .init(rawValue: "earbuds.stemless.left") }
 
     /// 􃍇
@@ -1683,6 +1838,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var earbudsStemlessRight: SFSymbol { .init(rawValue: "earbuds.stemless.right") }
 
     /// 􃏝
@@ -1692,6 +1848,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var ellipsisCalendar: SFSymbol { .init(rawValue: "ellipsis.calendar") }
 
     /// 􃈗
@@ -1702,6 +1859,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var ellipsisCircleBadge: SFSymbol { .init(rawValue: "ellipsis.circle.badge") }
 
     /// 􃈘
@@ -1712,6 +1870,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var ellipsisCircleBadgeFill: SFSymbol { .init(rawValue: "ellipsis.circle.badge.fill") }
 
     /// 􃍸
@@ -1721,6 +1880,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var envelopeAndHandRaised: SFSymbol { .init(rawValue: "envelope.and.hand.raised") }
 
     /// 􃍹
@@ -1730,6 +1890,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var envelopeAndHandRaisedFill: SFSymbol { .init(rawValue: "envelope.and.hand.raised.fill") }
 
     /// 􃈵
@@ -1740,6 +1901,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var envelopeBadgeMinus: SFSymbol { .init(rawValue: "envelope.badge.minus") }
 
     /// 􃈶
@@ -1750,6 +1912,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var envelopeBadgeMinusFill: SFSymbol { .init(rawValue: "envelope.badge.minus.fill") }
 
     /// 􃈳
@@ -1760,6 +1923,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var envelopeBadgePlus: SFSymbol { .init(rawValue: "envelope.badge.plus") }
 
     /// 􃈴
@@ -1770,6 +1934,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var envelopeBadgePlusFill: SFSymbol { .init(rawValue: "envelope.badge.plus.fill") }
 
     /// 􃑭
@@ -1780,6 +1945,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var envelopeOpenBadgeClockFill: SFSymbol { .init(rawValue: "envelope.open.badge.clock.fill") }
 
     /// 􂀚
@@ -1791,6 +1957,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Environments feature.
+    @_alwaysEmitIntoClient
     static var environments: SFSymbol { .init(rawValue: "environments") }
 
     /// 􂀜
@@ -1802,6 +1969,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Environments feature.
+    @_alwaysEmitIntoClient
     static var environmentsCircle: SFSymbol { .init(rawValue: "environments.circle") }
 
     /// 􂀝
@@ -1814,6 +1982,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Environments feature.
+    @_alwaysEmitIntoClient
     static var environmentsCircleFill: SFSymbol { .init(rawValue: "environments.circle.fill") }
 
     /// 􀬮
@@ -1825,6 +1994,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Environments feature.
+    @_alwaysEmitIntoClient
     static var environmentsFill: SFSymbol { .init(rawValue: "environments.fill") }
 
     /// 􂁚
@@ -1836,6 +2006,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Environments feature.
+    @_alwaysEmitIntoClient
     static var environmentsSlash: SFSymbol { .init(rawValue: "environments.slash") }
 
     /// 􂀞
@@ -1847,6 +2018,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Environments feature.
+    @_alwaysEmitIntoClient
     static var environmentsSlashCircle: SFSymbol { .init(rawValue: "environments.slash.circle") }
 
     /// 􂀟
@@ -1859,6 +2031,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Environments feature.
+    @_alwaysEmitIntoClient
     static var environmentsSlashCircleFill: SFSymbol { .init(rawValue: "environments.slash.circle.fill") }
 
     /// 􁦅
@@ -1870,6 +2043,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Environments feature.
+    @_alwaysEmitIntoClient
     static var environmentsSlashFill: SFSymbol { .init(rawValue: "environments.slash.fill") }
 
     /// 􃁕
@@ -1880,6 +2054,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var eraserBadgeXmark: SFSymbol { .init(rawValue: "eraser.badge.xmark") }
 
     /// 􃁖
@@ -1890,6 +2065,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var eraserBadgeXmarkFill: SFSymbol { .init(rawValue: "eraser.badge.xmark.fill") }
 
     /// 􃁙
@@ -1899,6 +2075,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var eraserSlash: SFSymbol { .init(rawValue: "eraser.slash") }
 
     /// 􃁚
@@ -1908,6 +2085,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var eraserSlashFill: SFSymbol { .init(rawValue: "eraser.slash.fill") }
 
     /// 􃁗
@@ -1918,6 +2096,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var eraserTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "eraser.trianglebadge.exclamationmark") }
 
     /// 􃁘
@@ -1928,6 +2107,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var eraserTrianglebadgeExclamationmarkFill: SFSymbol { .init(rawValue: "eraser.trianglebadge.exclamationmark.fill") }
 
     /// 􂽁
@@ -1936,6 +2116,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var eyeHalfClosed: SFSymbol { .init(rawValue: "eye.half.closed") }
 
     /// 􂽂
@@ -1944,6 +2125,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var eyeHalfClosedFill: SFSymbol { .init(rawValue: "eye.half.closed.fill") }
 
     /// 􃒌
@@ -1953,6 +2135,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var fCursiveSlash: SFSymbol { .init(rawValue: "f.cursive.slash") }
 
     /// 􃄻
@@ -1962,6 +2145,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var fanBadgeArrowUpAndDownAndArrowLeftAndRight: SFSymbol { .init(rawValue: "fan.badge.arrow.up.and.down.and.arrow.left.and.right") }
 
     /// 􃄼
@@ -1971,6 +2155,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var fanBadgeArrowUpAndDownAndArrowLeftAndRightFill: SFSymbol { .init(rawValue: "fan.badge.arrow.up.and.down.and.arrow.left.and.right.fill") }
 
     /// 􃂢
@@ -1980,6 +2165,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var fanCircle: SFSymbol { .init(rawValue: "fan.circle") }
 
     /// 􃂣
@@ -1990,6 +2176,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var fanCircleFill: SFSymbol { .init(rawValue: "fan.circle.fill") }
 
     /// 􃂞
@@ -1999,6 +2186,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var fanGaugeOpen: SFSymbol { .init(rawValue: "fan.gauge.open") }
 
     /// 􃅃
@@ -2008,6 +2196,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var figureSeatedSideLeftAirDistributionIndirect: SFSymbol { .init(rawValue: "figure.seated.side.left.air.distribution.indirect") }
 
     /// 􃄿
@@ -2017,6 +2206,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var figureSeatedSideLeftAirDistributionLowerAngledAndUpperAngled: SFSymbol { .init(rawValue: "figure.seated.side.left.air.distribution.lower.angled.and.upper.angled") }
 
     /// 􃅁
@@ -2026,6 +2216,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var figureSeatedSideLeftAirDistributionUpperAngledAndDottedlineAndLowerAngled: SFSymbol { .init(rawValue: "figure.seated.side.left.air.distribution.upper.angled.and.dottedline.and.lower.angled") }
 
     /// 􃅄
@@ -2035,6 +2226,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var figureSeatedSideRightAirDistributionIndirect: SFSymbol { .init(rawValue: "figure.seated.side.right.air.distribution.indirect") }
 
     /// 􃅀
@@ -2044,6 +2236,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var figureSeatedSideRightAirDistributionLowerAngledAndUpperAngled: SFSymbol { .init(rawValue: "figure.seated.side.right.air.distribution.lower.angled.and.upper.angled") }
 
     /// 􃅂
@@ -2053,6 +2246,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var figureSeatedSideRightAirDistributionUpperAngledAndDottedlineAndLowerAngled: SFSymbol { .init(rawValue: "figure.seated.side.right.air.distribution.upper.angled.and.dottedline.and.lower.angled") }
 
     /// 􃌐
@@ -2061,6 +2255,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var figureSeatedSideRightChildLap: SFSymbol { .init(rawValue: "figure.seated.side.right.child.lap") }
 
     /// 􃋱
@@ -2069,6 +2264,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var figureWalkSuitcaseRolling: SFSymbol { .init(rawValue: "figure.walk.suitcase.rolling") }
 
     /// 􃋲
@@ -2078,6 +2274,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var figureWalkSuitcaseRollingCircle: SFSymbol { .init(rawValue: "figure.walk.suitcase.rolling.circle") }
 
     /// 􃋳
@@ -2088,6 +2285,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var figureWalkSuitcaseRollingCircleFill: SFSymbol { .init(rawValue: "figure.walk.suitcase.rolling.circle.fill") }
 
     /// 􀯪
@@ -2101,6 +2299,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var filemenuAndPointerArrow: SymbolWith1Localization<Rtl> { .init(rawValue: "filemenu.and.pointer.arrow") }
 
     /// 􀥯
@@ -2111,6 +2310,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple's Finder app.
+    @_alwaysEmitIntoClient
     static var finder: SFSymbol { .init(rawValue: "finder") }
 
     /// 􃂝
@@ -2120,6 +2320,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var flameGaugeOpen: SFSymbol { .init(rawValue: "flame.gauge.open") }
 
     /// 􃄹
@@ -2128,6 +2329,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var fuelpumpThermometer: SFSymbol { .init(rawValue: "fuelpump.thermometer") }
 
     /// 􃄺
@@ -2136,6 +2338,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var fuelpumpThermometerFill: SFSymbol { .init(rawValue: "fuelpump.thermometer.fill") }
 
     /// 􃊊
@@ -2144,6 +2347,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var gaugeChartLefthalfRighthalf: SFSymbol { .init(rawValue: "gauge.chart.lefthalf.righthalf") }
 
     /// 􃊋
@@ -2152,6 +2356,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var gaugeChartLeftthirdTopthirdRightthird: SFSymbol { .init(rawValue: "gauge.chart.leftthird.topthird.rightthird") }
 
     /// 􃂄
@@ -2160,6 +2365,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var gaugeOpen: SFSymbol { .init(rawValue: "gauge.open") }
 
     /// 􂼑
@@ -2169,6 +2375,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var gaugeOpenRighthalfDottedWithNeedleAndArrowTriangleheadBackward: SFSymbol { .init(rawValue: "gauge.open.righthalf.dotted.with.needle.and.arrow.trianglehead.backward") }
 
     /// 􃑺
@@ -2179,6 +2386,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var globeBadgeClock: SFSymbol { .init(rawValue: "globe.badge.clock") }
 
     /// 􃔇
@@ -2189,6 +2397,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var globeBadgeClockFill: SFSymbol { .init(rawValue: "globe.badge.clock.fill") }
 
     /// 􃁔
@@ -2197,6 +2406,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var globeFill: SFSymbol { .init(rawValue: "globe.fill") }
 
     /// 􃈟
@@ -2206,6 +2416,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var graph2d: SFSymbol { .init(rawValue: "graph.2d") }
 
     /// 􃈠
@@ -2215,6 +2426,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var graph3d: SFSymbol { .init(rawValue: "graph.3d") }
 
     /// 􃐉
@@ -2223,6 +2435,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var guidepointHorizontal: SFSymbol { .init(rawValue: "guidepoint.horizontal") }
 
     /// 􃕵
@@ -2231,6 +2444,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var guidepointVertical: SFSymbol { .init(rawValue: "guidepoint.vertical") }
 
     /// 􃂲
@@ -2240,6 +2454,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var guidepointVerticalArrowtriangleForward: SFSymbol { .init(rawValue: "guidepoint.vertical.arrowtriangle.forward") }
 
     /// 􃂳
@@ -2249,6 +2464,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var guidepointVerticalNumbers: SFSymbol { .init(rawValue: "guidepoint.vertical.numbers") }
 
     /// 􃒆
@@ -2257,6 +2473,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var handThumbsdownFilledHandThumbsup: SFSymbol { .init(rawValue: "hand.thumbsdown.filled.hand.thumbsup") }
 
     /// 􃒄
@@ -2265,6 +2482,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var handThumbsdownHandThumbsup: SFSymbol { .init(rawValue: "hand.thumbsdown.hand.thumbsup") }
 
     /// 􃒅
@@ -2273,6 +2491,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var handThumbsdownHandThumbsupFill: SFSymbol { .init(rawValue: "hand.thumbsdown.hand.thumbsup.fill") }
 
     /// 􃒇
@@ -2281,6 +2500,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var handThumbsdownHandThumbsupFilled: SFSymbol { .init(rawValue: "hand.thumbsdown.hand.thumbsup.filled") }
 
     /// 􃀽
@@ -2290,6 +2510,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var handbagSensorTagRadiowavesLeftAndRight: SFSymbol { .init(rawValue: "handbag.sensor.tag.radiowaves.left.and.right") }
 
     /// 􃀾
@@ -2300,6 +2521,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var handbagSensorTagRadiowavesLeftAndRightFill: SFSymbol { .init(rawValue: "handbag.sensor.tag.radiowaves.left.and.right.fill") }
 
     /// 􃍅
@@ -2308,6 +2530,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var headphonesOverEar: SFSymbol { .init(rawValue: "headphones.over.ear") }
 
     /// 􃀿
@@ -2317,6 +2540,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var headphonesSensorTagRadiowavesLeftAndRight: SFSymbol { .init(rawValue: "headphones.sensor.tag.radiowaves.left.and.right") }
 
     /// 􃁀
@@ -2327,6 +2551,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var headphonesSensorTagRadiowavesLeftAndRightFill: SFSymbol { .init(rawValue: "headphones.sensor.tag.radiowaves.left.and.right.fill") }
 
     /// 􃓫
@@ -2336,6 +2561,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var heartBadgeBolt: SFSymbol { .init(rawValue: "heart.badge.bolt") }
 
     /// 􃓬
@@ -2345,6 +2571,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var heartBadgeBoltFill: SFSymbol { .init(rawValue: "heart.badge.bolt.fill") }
 
     /// 􃓯
@@ -2354,6 +2581,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var heartBadgeBoltSlash: SFSymbol { .init(rawValue: "heart.badge.bolt.slash") }
 
     /// 􃓰
@@ -2363,6 +2591,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var heartBadgeBoltSlashFill: SFSymbol { .init(rawValue: "heart.badge.bolt.slash.fill") }
 
     /// 􃂡
@@ -2372,6 +2601,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var heartGaugeOpen: SFSymbol { .init(rawValue: "heart.gauge.open") }
 
     /// 􃂤
@@ -2381,6 +2611,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var heatWavesCircle: SFSymbol { .init(rawValue: "heat.waves.circle") }
 
     /// 􃂥
@@ -2391,6 +2622,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var heatWavesCircleFill: SFSymbol { .init(rawValue: "heat.waves.circle.fill") }
 
     /// 􃂟
@@ -2400,6 +2632,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var heatWavesGaugeOpen: SFSymbol { .init(rawValue: "heat.waves.gauge.open") }
 
     /// 􃒚
@@ -2410,6 +2643,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var highlighterBadgeEllipsis: SFSymbol { .init(rawValue: "highlighter.badge.ellipsis") }
 
     /// 􃉰
@@ -2426,6 +2660,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod.
+    @_alwaysEmitIntoClient
     static var homepodBadgeCheckmark: SymbolWith1Localization<Rtl> { .init(rawValue: "homepod.badge.checkmark") }
 
     /// 􃉱
@@ -2442,6 +2677,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod.
+    @_alwaysEmitIntoClient
     static var homepodBadgeCheckmarkFill: SymbolWith1Localization<Rtl> { .init(rawValue: "homepod.badge.checkmark.fill") }
 
     /// 􀻹
@@ -2457,6 +2693,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod mini and Apple TV.
+    @_alwaysEmitIntoClient
     static var homepodMiniAndAppletv: SymbolWith1Localization<Rtl> { .init(rawValue: "homepod.mini.and.appletv") }
 
     /// 􀻺
@@ -2472,6 +2709,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod mini and Apple TV.
+    @_alwaysEmitIntoClient
     static var homepodMiniAndAppletvFill: SymbolWith1Localization<Rtl> { .init(rawValue: "homepod.mini.and.appletv.fill") }
 
     /// 􃉸
@@ -2488,6 +2726,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.
+    @_alwaysEmitIntoClient
     static var homepodMiniBadgeCheckmark: SymbolWith1Localization<Rtl> { .init(rawValue: "homepod.mini.badge.checkmark") }
 
     /// 􃉹
@@ -2504,6 +2743,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod mini.
+    @_alwaysEmitIntoClient
     static var homepodMiniBadgeCheckmarkFill: SymbolWith1Localization<Rtl> { .init(rawValue: "homepod.mini.badge.checkmark.fill") }
 
     /// 􂇗
@@ -2514,6 +2754,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var hourglassBadgeLock: SFSymbol { .init(rawValue: "hourglass.badge.lock") }
 
     /// 􃒦
@@ -2523,6 +2764,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var humidifierAndEllipsis: SFSymbol { .init(rawValue: "humidifier.and.ellipsis") }
 
     /// 􃒧
@@ -2532,6 +2774,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var humidifierAndEllipsisFill: SFSymbol { .init(rawValue: "humidifier.and.ellipsis.fill") }
 
     /// 􀚏
@@ -2542,6 +2785,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
+    @_alwaysEmitIntoClient
     static var icloudDashed: SFSymbol { .init(rawValue: "icloud.dashed") }
 
     /// 􃐸
@@ -2551,6 +2795,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var insetFilledBottomleadingBottomtrailingRectangle: SFSymbol { .init(rawValue: "inset.filled.bottomleading.bottomtrailing.rectangle") }
 
     /// 􃐷
@@ -2560,6 +2805,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var insetFilledBottomleftBottomrightRectangle: SFSymbol { .init(rawValue: "inset.filled.bottomleft.bottomright.rectangle") }
 
     /// 􃐥
@@ -2569,6 +2815,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var insetFilledCircleSlash: SFSymbol { .init(rawValue: "inset.filled.circle.slash") }
 
     /// 􃇐
@@ -2578,6 +2825,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var insetFilledLeftthirdMiddlethirdRightthirdRectangle: SFSymbol { .init(rawValue: "inset.filled.leftthird.middlethird.rightthird.rectangle") }
 
     /// 􂖡
@@ -2587,6 +2835,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var insetFilledPano: SFSymbol { .init(rawValue: "inset.filled.pano") }
 
     /// 􂇕
@@ -2596,6 +2845,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var insetFilledRectangleAndPointerArrow: SFSymbol { .init(rawValue: "inset.filled.rectangle.and.pointer.arrow") }
 
     /// 􃈃
@@ -2605,6 +2855,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var insetFilledTopthirdMiddlethirdBottomthirdRectangle: SFSymbol { .init(rawValue: "inset.filled.topthird.middlethird.bottomthird.rectangle") }
 
     /// 􃉖
@@ -2617,6 +2868,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
+    @_alwaysEmitIntoClient
     static var ipadBadgeCheckmark: SFSymbol { .init(rawValue: "ipad.badge.checkmark") }
 
     /// 􃏟
@@ -2627,6 +2879,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
+    @_alwaysEmitIntoClient
     static var ipadGen1CropHomebuttonCircle: SFSymbol { .init(rawValue: "ipad.gen1.crop.homebutton.circle") }
 
     /// 􁣵
@@ -2638,6 +2891,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
+    @_alwaysEmitIntoClient
     static var ipadGen1Sizes: SFSymbol { .init(rawValue: "ipad.gen1.sizes") }
 
     /// 􃉌
@@ -2649,6 +2903,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
+    @_alwaysEmitIntoClient
     static var ipadGen2Sizes: SFSymbol { .init(rawValue: "ipad.gen2.sizes") }
 
     /// 􃔋
@@ -2660,6 +2915,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad and Apple Watch.
+    @_alwaysEmitIntoClient
     static var ipadLandscapeAndApplewatch: SFSymbol { .init(rawValue: "ipad.landscape.and.applewatch") }
 
     /// 􃔍
@@ -2671,6 +2927,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad and iPod. 
+    @_alwaysEmitIntoClient
     static var ipadLandscapeAndIpod: SFSymbol { .init(rawValue: "ipad.landscape.and.ipod") }
 
     /// 􃔏
@@ -2682,6 +2939,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone and iPod.
+    @_alwaysEmitIntoClient
     static var iphoneAndIpod: SFSymbol { .init(rawValue: "iphone.and.ipod") }
 
     /// 􃔕
@@ -2693,6 +2951,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone and Vision Pro.
+    @_alwaysEmitIntoClient
     static var iphoneAndVisionPro: SFSymbol { .init(rawValue: "iphone.and.vision.pro") }
 
     /// 􃉔
@@ -2705,6 +2964,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    @_alwaysEmitIntoClient
     static var iphoneBadgeCheckmark: SFSymbol { .init(rawValue: "iphone.badge.checkmark") }
 
     /// 􃂴
@@ -2715,6 +2975,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    @_alwaysEmitIntoClient
     static var iphoneGen1CropHomebuttonCircle: SFSymbol { .init(rawValue: "iphone.gen1.crop.homebutton.circle") }
 
     /// 􃉈
@@ -2726,6 +2987,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    @_alwaysEmitIntoClient
     static var iphoneGen1Sizes: SFSymbol { .init(rawValue: "iphone.gen1.sizes") }
 
     /// 􁣳
@@ -2737,6 +2999,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    @_alwaysEmitIntoClient
     static var iphoneGen2Sizes: SFSymbol { .init(rawValue: "iphone.gen2.sizes") }
 
     /// 􃉊
@@ -2748,6 +3011,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
+    @_alwaysEmitIntoClient
     static var iphoneGen3Sizes: SFSymbol { .init(rawValue: "iphone.gen3.sizes") }
 
     /// 􂤨
@@ -2757,6 +3021,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var iphonePatternDiagonalline: SFSymbol { .init(rawValue: "iphone.pattern.diagonalline") }
 
     /// 􂿥
@@ -2766,6 +3031,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var iphonePatternDiagonallineOnRectanglePortraitDashed: SFSymbol { .init(rawValue: "iphone.pattern.diagonalline.on.rectangle.portrait.dashed") }
 
     /// 􃔓
@@ -2777,6 +3043,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPod and Apple Watch.
+    @_alwaysEmitIntoClient
     static var ipodAndApplewatch: SFSymbol { .init(rawValue: "ipod.and.applewatch") }
 
     /// 􃔗
@@ -2788,6 +3055,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPod and Vision Pro.
+    @_alwaysEmitIntoClient
     static var ipodAndVisionPro: SFSymbol { .init(rawValue: "ipod.and.vision.pro") }
 
     /// 􃁉
@@ -2797,6 +3065,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var jacketCircle: SFSymbol { .init(rawValue: "jacket.circle") }
 
     /// 􃁊
@@ -2807,6 +3076,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var jacketCircleFill: SFSymbol { .init(rawValue: "jacket.circle.fill") }
 
     /// 􃁁
@@ -2816,6 +3086,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var jacketSensorTagRadiowavesLeftAndRight: SFSymbol { .init(rawValue: "jacket.sensor.tag.radiowaves.left.and.right") }
 
     /// 􃁂
@@ -2826,6 +3097,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var jacketSensorTagRadiowavesLeftAndRightFill: SFSymbol { .init(rawValue: "jacket.sensor.tag.radiowaves.left.and.right.fill") }
 
     /// 􃁇
@@ -2835,6 +3107,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var keyCircle: SFSymbol { .init(rawValue: "key.circle") }
 
     /// 􃁈
@@ -2845,6 +3118,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var keyCircleFill: SFSymbol { .init(rawValue: "key.circle.fill") }
 
     /// 􃀳
@@ -2854,6 +3128,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var keySensorTagRadiowavesLeftAndRight: SFSymbol { .init(rawValue: "key.sensor.tag.radiowaves.left.and.right") }
 
     /// 􃀴
@@ -2864,6 +3139,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var keySensorTagRadiowavesLeftAndRightFill: SFSymbol { .init(rawValue: "key.sensor.tag.radiowaves.left.and.right.fill") }
 
     /// 􃇞
@@ -2873,6 +3149,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var keyShield: SFSymbol { .init(rawValue: "key.shield") }
 
     /// 􃇟
@@ -2883,6 +3160,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var keyShieldFill: SFSymbol { .init(rawValue: "key.shield.fill") }
 
     /// 􃉘
@@ -2893,6 +3171,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var laptopcomputerBadgeCheckmark: SFSymbol { .init(rawValue: "laptopcomputer.badge.checkmark") }
 
     /// 􀫱
@@ -2901,6 +3180,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var lineDiagonalTriangleheadUpRight: SFSymbol { .init(rawValue: "line.diagonal.trianglehead.up.right") }
 
     /// 􃏠
@@ -2909,6 +3189,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var lineDiagonalTriangleheadUpRightLeftDown: SFSymbol { .init(rawValue: "line.diagonal.trianglehead.up.right.left.down") }
 
     /// 􃋮
@@ -2917,6 +3198,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var linesMeasurementHorizontalAlignedBottom: SFSymbol { .init(rawValue: "lines.measurement.horizontal.aligned.bottom") }
 
     /// 􃒜
@@ -2927,6 +3209,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var listBulletBadgeEllipsis: SFSymbol { .init(rawValue: "list.bullet.badge.ellipsis") }
 
     /// 􃒞
@@ -2937,6 +3220,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var listDashBadgeEllipsis: SFSymbol { .init(rawValue: "list.dash.badge.ellipsis") }
 
     /// 􃈩
@@ -2947,6 +3231,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var listDashHeaderRectangleFill: SFSymbol { .init(rawValue: "list.dash.header.rectangle.fill") }
 
     /// 􃒠
@@ -2962,6 +3247,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var listNumberBadgeEllipsis: SymbolWith2Localizations<Hi, Rtl> { .init(rawValue: "list.number.badge.ellipsis") }
 
     /// 􃍰
@@ -2972,6 +3258,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var lockBadgeCheckmark: SFSymbol { .init(rawValue: "lock.badge.checkmark") }
 
     /// 􃍱
@@ -2982,6 +3269,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var lockBadgeCheckmarkFill: SFSymbol { .init(rawValue: "lock.badge.checkmark.fill") }
 
     /// 􃍴
@@ -2992,6 +3280,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var lockBadgeXmark: SFSymbol { .init(rawValue: "lock.badge.xmark") }
 
     /// 􃍵
@@ -3002,6 +3291,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var lockBadgeXmarkFill: SFSymbol { .init(rawValue: "lock.badge.xmark.fill") }
 
     /// 􃊿
@@ -3011,6 +3301,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var lockHeart: SFSymbol { .init(rawValue: "lock.heart") }
 
     /// 􃋀
@@ -3021,6 +3312,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var lockHeartFill: SFSymbol { .init(rawValue: "lock.heart.fill") }
 
     /// 􃐭
@@ -3030,6 +3322,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var lockRectangleDashed: SFSymbol { .init(rawValue: "lock.rectangle.dashed") }
 
     /// 􃔟
@@ -3039,6 +3332,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var lockSquareDashed: SFSymbol { .init(rawValue: "lock.square.dashed") }
 
     /// 􃔑
@@ -3050,6 +3344,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s MacBook and iPod.
+    @_alwaysEmitIntoClient
     static var macbookAndIpod: SFSymbol { .init(rawValue: "macbook.and.ipod") }
 
     /// 􃉚
@@ -3062,6 +3357,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s MacBook.
+    @_alwaysEmitIntoClient
     static var macbookBadgeCheckmark: SFSymbol { .init(rawValue: "macbook.badge.checkmark") }
 
     /// 􃔝
@@ -3074,6 +3370,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s MacBook.
+    @_alwaysEmitIntoClient
     static var macbookBadgeExclamationmark: SFSymbol { .init(rawValue: "macbook.badge.exclamationmark") }
 
     /// 􃊈
@@ -3086,6 +3383,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s MacBook.
+    @_alwaysEmitIntoClient
     static var macbookBadgeShieldCheckmark: SFSymbol { .init(rawValue: "macbook.badge.shield.checkmark") }
 
     /// 􃉏
@@ -3097,6 +3395,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s MacBook.
+    @_alwaysEmitIntoClient
     static var macbookGen1Sizes: SFSymbol { .init(rawValue: "macbook.gen1.sizes") }
 
     /// 􃉐
@@ -3108,6 +3407,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s MacBook.
+    @_alwaysEmitIntoClient
     static var macbookGen2Sizes: SFSymbol { .init(rawValue: "macbook.gen2.sizes") }
 
     /// 􃉎
@@ -3119,6 +3419,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s MacBook.
+    @_alwaysEmitIntoClient
     static var macbookSizes: SFSymbol { .init(rawValue: "macbook.sizes") }
 
     /// 􃉛
@@ -3131,6 +3432,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s MacBook.
+    @_alwaysEmitIntoClient
     static var macbookTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "macbook.trianglebadge.exclamationmark") }
 
     /// 􃉨
@@ -3143,6 +3445,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Mac mini.
+    @_alwaysEmitIntoClient
     static var macminiBadgeCheckmark: SFSymbol { .init(rawValue: "macmini.badge.checkmark") }
 
     /// 􃉩
@@ -3155,6 +3458,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Mac mini.
+    @_alwaysEmitIntoClient
     static var macminiBadgeCheckmarkFill: SFSymbol { .init(rawValue: "macmini.badge.checkmark.fill") }
 
     /// 􃉠
@@ -3167,6 +3471,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Mac Pro.
+    @_alwaysEmitIntoClient
     static var macproGen3BadgeCkeckmark: SFSymbol { .init(rawValue: "macpro.gen3.badge.ckeckmark") }
 
     /// 􃉡
@@ -3179,6 +3484,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Mac Pro.
+    @_alwaysEmitIntoClient
     static var macproGen3BadgeCkeckmarkFill: SFSymbol { .init(rawValue: "macpro.gen3.badge.ckeckmark.fill") }
 
     /// 􃉤
@@ -3191,6 +3497,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Mac Studio.
+    @_alwaysEmitIntoClient
     static var macstudioBadgeCheckmark: SFSymbol { .init(rawValue: "macstudio.badge.checkmark") }
 
     /// 􃉥
@@ -3203,6 +3510,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Mac Studio.
+    @_alwaysEmitIntoClient
     static var macstudioBadgeCheckmarkFill: SFSymbol { .init(rawValue: "macstudio.badge.checkmark.fill") }
 
     /// 􁝸
@@ -3216,6 +3524,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var macwindowAndPointerArrow: SymbolWith1Localization<Rtl> { .init(rawValue: "macwindow.and.pointer.arrow") }
 
     /// 􃑷
@@ -3224,6 +3533,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var macwindowStack: SFSymbol { .init(rawValue: "macwindow.stack") }
 
     /// 􃇼
@@ -3233,6 +3543,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var minusArrowTriangleheadClockwise: SFSymbol { .init(rawValue: "minus.arrow.trianglehead.clockwise") }
 
     /// 􃋯
@@ -3242,6 +3553,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var minusPlusLinesMeasurementHorizontalAlignedBottom: SFSymbol { .init(rawValue: "minus.plus.lines.measurement.horizontal.aligned.bottom") }
 
     /// 􃃂
@@ -3251,6 +3563,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var musicNoteArrowTriangleheadClockwise: SFSymbol { .init(rawValue: "music.note.arrow.trianglehead.clockwise") }
 
     /// 􃑓
@@ -3260,6 +3573,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var musicNoteSlash: SFSymbol { .init(rawValue: "music.note.slash") }
 
     /// 􃐹
@@ -3269,6 +3583,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var musicNoteSquareStack: SFSymbol { .init(rawValue: "music.note.square.stack") }
 
     /// 􃐺
@@ -3279,6 +3594,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var musicNoteSquareStackFill: SFSymbol { .init(rawValue: "music.note.square.stack.fill") }
 
     /// 􃁮
@@ -3288,6 +3604,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var musicPages: SFSymbol { .init(rawValue: "music.pages") }
 
     /// 􃁯
@@ -3298,6 +3615,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var musicPagesFill: SFSymbol { .init(rawValue: "music.pages.fill") }
 
     /// 􀧵
@@ -3306,6 +3624,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var padHeader: SFSymbol { .init(rawValue: "pad.header") }
 
     /// 􀠣
@@ -3314,6 +3633,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var paintBucketClassic: SFSymbol { .init(rawValue: "paint.bucket.classic") }
 
     /// 􃕑
@@ -3324,6 +3644,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var pedestrianGateClosedTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "pedestrian.gate.closed.trianglebadge.exclamationmark") }
 
     /// 􃕐
@@ -3334,6 +3655,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var pedestrianGateOpenTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "pedestrian.gate.open.trianglebadge.exclamationmark") }
 
     /// 􂣑
@@ -3344,6 +3666,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var person2Badge: SFSymbol { .init(rawValue: "person.2.badge") }
 
     /// 􂣒
@@ -3354,6 +3677,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var person2BadgeFill: SFSymbol { .init(rawValue: "person.2.badge.fill") }
 
     /// 􃒈
@@ -3363,6 +3687,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var person2Shield: SFSymbol { .init(rawValue: "person.2.shield") }
 
     /// 􃒉
@@ -3373,6 +3698,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var person2ShieldFill: SFSymbol { .init(rawValue: "person.2.shield.fill") }
 
     /// 􃂇
@@ -3383,6 +3709,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var personCropCircleBadgeEllipsis: SFSymbol { .init(rawValue: "person.crop.circle.badge.ellipsis") }
 
     /// 􃂈
@@ -3393,6 +3720,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var personCropCircleBadgeEllipsisFill: SFSymbol { .init(rawValue: "person.crop.circle.badge.ellipsis.fill") }
 
     /// 􃈮
@@ -3404,6 +3732,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Spatial Audio.
+    @_alwaysEmitIntoClient
     static var personSpatialaudio3dFill: SFSymbol { .init(rawValue: "person.spatialaudio.3d.fill") }
 
     /// 􁀨
@@ -3415,6 +3744,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Spatial Audio.
+    @_alwaysEmitIntoClient
     static var personSpatialaudioFill: SFSymbol { .init(rawValue: "person.spatialaudio.fill") }
 
     /// 􃈭
@@ -3426,6 +3756,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Spatial Audio.
+    @_alwaysEmitIntoClient
     static var personSpatialaudioStereo3dFill: SFSymbol { .init(rawValue: "person.spatialaudio.stereo.3d.fill") }
 
     /// 􁀧
@@ -3437,6 +3768,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Spatial Audio.
+    @_alwaysEmitIntoClient
     static var personSpatialaudioStereoFill: SFSymbol { .init(rawValue: "person.spatialaudio.stereo.fill") }
 
     /// 􃒀
@@ -3447,6 +3779,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var personTextRectangleTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "person.text.rectangle.trianglebadge.exclamationmark") }
 
     /// 􃒁
@@ -3457,6 +3790,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var personTextRectangleTrianglebadgeExclamationmarkFill: SFSymbol { .init(rawValue: "person.text.rectangle.trianglebadge.exclamationmark.fill") }
 
     /// 􃌑
@@ -3466,6 +3800,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var petCarrier: SFSymbol { .init(rawValue: "pet.carrier") }
 
     /// 􃎤
@@ -3475,6 +3810,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var petCarrierCircle: SFSymbol { .init(rawValue: "pet.carrier.circle") }
 
     /// 􃎥
@@ -3485,6 +3821,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var petCarrierCircleFill: SFSymbol { .init(rawValue: "pet.carrier.circle.fill") }
 
     /// 􃌒
@@ -3495,6 +3832,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var petCarrierFill: SFSymbol { .init(rawValue: "pet.carrier.fill") }
 
     /// 􃂓
@@ -3504,6 +3842,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var phonePause: SFSymbol { .init(rawValue: "phone.pause") }
 
     /// 􃂕
@@ -3513,6 +3852,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var phonePauseCircle: SFSymbol { .init(rawValue: "phone.pause.circle") }
 
     /// 􃂖
@@ -3523,6 +3863,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var phonePauseCircleFill: SFSymbol { .init(rawValue: "phone.pause.circle.fill") }
 
     /// 􃂔
@@ -3532,6 +3873,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var phonePauseFill: SFSymbol { .init(rawValue: "phone.pause.fill") }
 
     /// 􃄤
@@ -3541,6 +3883,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var playDiamond: SFSymbol { .init(rawValue: "play.diamond") }
 
     /// 􃄥
@@ -3551,6 +3894,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var playDiamondFill: SFSymbol { .init(rawValue: "play.diamond.fill") }
 
     /// 􃇿
@@ -3560,6 +3904,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var plusArrowTriangleheadCounterclockwise: SFSymbol { .init(rawValue: "plus.arrow.trianglehead.counterclockwise") }
 
     /// 􃁴
@@ -3569,6 +3914,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var plusCapsule: SFSymbol { .init(rawValue: "plus.capsule") }
 
     /// 􃁵
@@ -3579,6 +3925,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var plusCapsuleFill: SFSymbol { .init(rawValue: "plus.capsule.fill") }
 
     /// 􀫌
@@ -3587,6 +3934,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var pointerArrow: SFSymbol { .init(rawValue: "pointer.arrow") }
 
     /// 􀮐
@@ -3596,6 +3944,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var pointerArrowAndSquareOnSquareDashed: SFSymbol { .init(rawValue: "pointer.arrow.and.square.on.square.dashed") }
 
     /// 􀭆
@@ -3605,6 +3954,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var pointerArrowClick: SFSymbol { .init(rawValue: "pointer.arrow.click") }
 
     /// 􀭇
@@ -3615,6 +3965,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var pointerArrowClick2: SFSymbol { .init(rawValue: "pointer.arrow.click.2") }
 
     /// 􀮴
@@ -3625,6 +3976,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var pointerArrowClickBadgeClock: SFSymbol { .init(rawValue: "pointer.arrow.click.badge.clock") }
 
     /// 􃕝
@@ -3633,6 +3985,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var pointerArrowIpad: SFSymbol { .init(rawValue: "pointer.arrow.ipad") }
 
     /// 􃕥
@@ -3642,6 +3995,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var pointerArrowIpadAndSquareOnSquareDashed: SFSymbol { .init(rawValue: "pointer.arrow.ipad.and.square.on.square.dashed") }
 
     /// 􃕤
@@ -3651,6 +4005,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var pointerArrowIpadRays: SFSymbol { .init(rawValue: "pointer.arrow.ipad.rays") }
 
     /// 􃕠
@@ -3660,6 +4015,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var pointerArrowIpadSlash: SFSymbol { .init(rawValue: "pointer.arrow.ipad.slash") }
 
     /// 􃕢
@@ -3669,6 +4025,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var pointerArrowIpadSlashSquare: SFSymbol { .init(rawValue: "pointer.arrow.ipad.slash.square") }
 
     /// 􃕣
@@ -3679,6 +4036,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var pointerArrowIpadSlashSquareFill: SFSymbol { .init(rawValue: "pointer.arrow.ipad.slash.square.fill") }
 
     /// 􃕞
@@ -3688,6 +4046,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var pointerArrowIpadSquare: SFSymbol { .init(rawValue: "pointer.arrow.ipad.square") }
 
     /// 􃕟
@@ -3698,6 +4057,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var pointerArrowIpadSquareFill: SFSymbol { .init(rawValue: "pointer.arrow.ipad.square.fill") }
 
     /// 􀣠
@@ -3706,6 +4066,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var pointerArrowMotionlines: SFSymbol { .init(rawValue: "pointer.arrow.motionlines") }
 
     /// 􀣡
@@ -3715,6 +4076,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var pointerArrowMotionlinesClick: SFSymbol { .init(rawValue: "pointer.arrow.motionlines.click") }
 
     /// 􀇰
@@ -3724,6 +4086,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var pointerArrowRays: SFSymbol { .init(rawValue: "pointer.arrow.rays") }
 
     /// 􁷁
@@ -3733,6 +4096,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var pointerArrowSlash: SFSymbol { .init(rawValue: "pointer.arrow.slash") }
 
     /// 􁷂
@@ -3742,6 +4106,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var pointerArrowSlashSquare: SFSymbol { .init(rawValue: "pointer.arrow.slash.square") }
 
     /// 􁷃
@@ -3752,6 +4117,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var pointerArrowSlashSquareFill: SFSymbol { .init(rawValue: "pointer.arrow.slash.square.fill") }
 
     /// 􀭅
@@ -3761,6 +4127,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var pointerArrowSquare: SFSymbol { .init(rawValue: "pointer.arrow.square") }
 
     /// 􁚀
@@ -3771,6 +4138,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var pointerArrowSquareFill: SFSymbol { .init(rawValue: "pointer.arrow.square.fill") }
 
     /// 􃑊
@@ -3779,6 +4147,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var rectangle3GroupDashed: SFSymbol { .init(rawValue: "rectangle.3.group.dashed") }
 
     /// 􃑼
@@ -3787,6 +4156,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var rectangleGrid1x3: SFSymbol { .init(rawValue: "rectangle.grid.1x3") }
 
     /// 􃑽
@@ -3795,6 +4165,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var rectangleGrid1x3Fill: SFSymbol { .init(rawValue: "rectangle.grid.1x3.fill") }
 
     /// 􃔲
@@ -3804,6 +4175,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var rectangleLandscapeRotateSlash: SFSymbol { .init(rawValue: "rectangle.landscape.rotate.slash") }
 
     /// 􃔵
@@ -3813,6 +4185,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var rectanglePortraitRotateSlash: SFSymbol { .init(rawValue: "rectangle.portrait.rotate.slash") }
 
     /// 􃈑
@@ -3822,6 +4195,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var rectangleStackSlash: SFSymbol { .init(rawValue: "rectangle.stack.slash") }
 
     /// 􃈒
@@ -3831,6 +4205,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var rectangleStackSlashFill: SFSymbol { .init(rawValue: "rectangle.stack.slash.fill") }
 
     /// 􂻛
@@ -3841,6 +4216,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var repeatBadgeXmark: SFSymbol { .init(rawValue: "repeat.badge.xmark") }
 
     /// 􃊍
@@ -3849,6 +4225,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var ring: SFSymbol { .init(rawValue: "ring") }
 
     /// 􃊌
@@ -3857,6 +4234,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var ringDashed: SFSymbol { .init(rawValue: "ring.dashed") }
 
     /// 􃆲
@@ -3866,6 +4244,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var sensorRadiowavesLeftAndRight: SFSymbol { .init(rawValue: "sensor.radiowaves.left.and.right") }
 
     /// 􃆳
@@ -3875,6 +4254,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var sensorRadiowavesLeftAndRightFill: SFSymbol { .init(rawValue: "sensor.radiowaves.left.and.right.fill") }
 
     /// 􃎢
@@ -3883,6 +4263,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var serviceDog: SFSymbol { .init(rawValue: "service.dog") }
 
     /// 􃎣
@@ -3891,6 +4272,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var serviceDogFill: SFSymbol { .init(rawValue: "service.dog.fill") }
 
     /// 􃕉
@@ -3900,6 +4282,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var shoeArrowTriangleheadUpAndDown: SFSymbol { .init(rawValue: "shoe.arrow.trianglehead.up.and.down") }
 
     /// 􃕔
@@ -3909,6 +4292,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var shoeArrowTriangleheadUpAndDownFill: SFSymbol { .init(rawValue: "shoe.arrow.trianglehead.up.and.down.fill") }
 
     /// 􁣫
@@ -3918,6 +4302,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var shoeArrowTriangleheadUpRight: SFSymbol { .init(rawValue: "shoe.arrow.trianglehead.up.right") }
 
     /// 􁣬
@@ -3927,6 +4312,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var shoeArrowTriangleheadUpRightCircle: SFSymbol { .init(rawValue: "shoe.arrow.trianglehead.up.right.circle") }
 
     /// 􁣭
@@ -3937,6 +4323,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var shoeArrowTriangleheadUpRightCircleFill: SFSymbol { .init(rawValue: "shoe.arrow.trianglehead.up.right.circle.fill") }
 
     /// 􁣮
@@ -3946,6 +4333,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var shoeArrowTriangleheadUpRightFill: SFSymbol { .init(rawValue: "shoe.arrow.trianglehead.up.right.fill") }
 
     /// 􀫛
@@ -3957,6 +4345,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Siri.
+    @_alwaysEmitIntoClient
     static var siri: SFSymbol { .init(rawValue: "siri") }
 
     /// 􃁣
@@ -3966,6 +4355,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var sliderHorizontalBelowCircleLefthalfFilled: SFSymbol { .init(rawValue: "slider.horizontal.below.circle.lefthalf.filled") }
 
     /// 􃁤
@@ -3975,6 +4365,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var sliderHorizontalBelowCircleLefthalfFilledInverse: SFSymbol { .init(rawValue: "slider.horizontal.below.circle.lefthalf.filled.inverse") }
 
     /// 􃁥
@@ -3984,6 +4375,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var sliderHorizontalBelowCircleRighthalfFilled: SFSymbol { .init(rawValue: "slider.horizontal.below.circle.righthalf.filled") }
 
     /// 􃁦
@@ -3993,6 +4385,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var sliderHorizontalBelowCircleRighthalfFilledInverse: SFSymbol { .init(rawValue: "slider.horizontal.below.circle.righthalf.filled.inverse") }
 
     /// 􃓿
@@ -4002,6 +4395,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var sparkleTextClipboard: SFSymbol { .init(rawValue: "sparkle.text.clipboard") }
 
     /// 􃔀
@@ -4012,6 +4406,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var sparkleTextClipboardFill: SFSymbol { .init(rawValue: "sparkle.text.clipboard.fill") }
 
     /// 􃈰
@@ -4020,6 +4415,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var sparkles2: SFSymbol { .init(rawValue: "sparkles.2") }
 
     /// 􂊑
@@ -4030,6 +4426,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Spatial Scene feature.
+    @_alwaysEmitIntoClient
     static var spatialCapture: SFSymbol { .init(rawValue: "spatial.capture") }
 
     /// 􂊒
@@ -4040,6 +4437,7 @@ public extension SFSymbol {
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Spatial Scene feature.
+    @_alwaysEmitIntoClient
     static var spatialCaptureFill: SFSymbol { .init(rawValue: "spatial.capture.fill") }
 
     /// 􂊓
@@ -4051,6 +4449,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Spatial Scene feature.
+    @_alwaysEmitIntoClient
     static var spatialCaptureOnHexagon: SFSymbol { .init(rawValue: "spatial.capture.on.hexagon") }
 
     /// 􂊔
@@ -4062,6 +4461,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Spatial Scene feature.
+    @_alwaysEmitIntoClient
     static var spatialCaptureOnHexagonFill: SFSymbol { .init(rawValue: "spatial.capture.on.hexagon.fill") }
 
     /// 􂪙
@@ -4073,6 +4473,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Spatial Scene feature.
+    @_alwaysEmitIntoClient
     static var spatialCaptureSlash: SFSymbol { .init(rawValue: "spatial.capture.slash") }
 
     /// 􂪚
@@ -4084,6 +4485,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Spatial Scene feature.
+    @_alwaysEmitIntoClient
     static var spatialCaptureSlashFill: SFSymbol { .init(rawValue: "spatial.capture.slash.fill") }
 
     /// 􃊺
@@ -4094,6 +4496,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var speakerTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "speaker.trianglebadge.exclamationmark") }
 
     /// 􃊻
@@ -4104,6 +4507,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var speakerTrianglebadgeExclamationmarkFill: SFSymbol { .init(rawValue: "speaker.trianglebadge.exclamationmark.fill") }
 
     /// 􁟀
@@ -4113,6 +4517,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var steeringwheelBadgeLock: SFSymbol { .init(rawValue: "steeringwheel.badge.lock") }
 
     /// 􃐋
@@ -4122,6 +4527,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var strikethroughDouble: SFSymbol { .init(rawValue: "strikethrough.double") }
 
     /// 􃑪
@@ -4130,6 +4536,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var strokeLineDiagonal: SFSymbol { .init(rawValue: "stroke.line.diagonal") }
 
     /// 􃑫
@@ -4139,6 +4546,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var strokeLineDiagonalSlash: SFSymbol { .init(rawValue: "stroke.line.diagonal.slash") }
 
     /// 􃁅
@@ -4148,6 +4556,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var suitcaseCircle: SFSymbol { .init(rawValue: "suitcase.circle") }
 
     /// 􃁆
@@ -4158,6 +4567,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var suitcaseCircleFill: SFSymbol { .init(rawValue: "suitcase.circle.fill") }
 
     /// 􃌈
@@ -4167,6 +4577,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var suitcaseRollingAndFilm: SFSymbol { .init(rawValue: "suitcase.rolling.and.film") }
 
     /// 􃌌
@@ -4176,6 +4587,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var suitcaseRollingAndFilmCircle: SFSymbol { .init(rawValue: "suitcase.rolling.and.film.circle") }
 
     /// 􃌍
@@ -4186,6 +4598,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var suitcaseRollingAndFilmCircleFill: SFSymbol { .init(rawValue: "suitcase.rolling.and.film.circle.fill") }
 
     /// 􃌉
@@ -4195,6 +4608,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var suitcaseRollingAndFilmFill: SFSymbol { .init(rawValue: "suitcase.rolling.and.film.fill") }
 
     /// 􃋕
@@ -4204,6 +4618,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var suitcaseRollingAndSuitcase: SFSymbol { .init(rawValue: "suitcase.rolling.and.suitcase") }
 
     /// 􃋗
@@ -4213,6 +4628,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var suitcaseRollingAndSuitcaseCircle: SFSymbol { .init(rawValue: "suitcase.rolling.and.suitcase.circle") }
 
     /// 􃋘
@@ -4223,6 +4639,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var suitcaseRollingAndSuitcaseCircleFill: SFSymbol { .init(rawValue: "suitcase.rolling.and.suitcase.circle.fill") }
 
     /// 􃋖
@@ -4232,6 +4649,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var suitcaseRollingAndSuitcaseFill: SFSymbol { .init(rawValue: "suitcase.rolling.and.suitcase.fill") }
 
     /// 􃋓
@@ -4241,6 +4659,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var suitcaseRollingCircle: SFSymbol { .init(rawValue: "suitcase.rolling.circle") }
 
     /// 􃋔
@@ -4251,6 +4670,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var suitcaseRollingCircleFill: SFSymbol { .init(rawValue: "suitcase.rolling.circle.fill") }
 
     /// 􃐯
@@ -4259,6 +4679,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var textBelowFolder: SFSymbol { .init(rawValue: "text.below.folder") }
 
     /// 􃐰
@@ -4267,6 +4688,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var textBelowFolderFill: SFSymbol { .init(rawValue: "text.below.folder.fill") }
 
     /// 􂦔
@@ -4278,6 +4700,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to the Apple Intelligence summary feature.
+    @_alwaysEmitIntoClient
     static var textLine2Summary: SFSymbol { .init(rawValue: "text.line.2.summary") }
 
     /// 􃀭
@@ -4290,6 +4713,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to the Apple Intelligence summary feature.
+    @_alwaysEmitIntoClient
     static var textLine2SummaryBadgeXmark: SFSymbol { .init(rawValue: "text.line.2.summary.badge.xmark") }
 
     /// 􂤟
@@ -4301,6 +4725,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to the Apple Intelligence summary feature.
+    @_alwaysEmitIntoClient
     static var textLine3Summary: SFSymbol { .init(rawValue: "text.line.3.summary") }
 
     /// 􀓕
@@ -4310,6 +4735,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var textPadHeader: SFSymbol { .init(rawValue: "text.pad.header") }
 
     /// 􃀑
@@ -4324,6 +4750,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var textPadHeaderBadgeClock: SymbolWith1Localization<Rtl> { .init(rawValue: "text.pad.header.badge.clock") }
 
     /// 􀣙
@@ -4334,6 +4761,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Multicolor
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var textPadHeaderBadgePlus: SFSymbol { .init(rawValue: "text.pad.header.badge.plus") }
 
     /// 􃐵
@@ -4343,6 +4771,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var textRectangle: SFSymbol { .init(rawValue: "text.rectangle") }
 
     /// 􃐶
@@ -4353,6 +4782,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var textRectangleFill: SFSymbol { .init(rawValue: "text.rectangle.fill") }
 
     /// 􃆭
@@ -4362,6 +4792,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var textSquareFilled: SFSymbol { .init(rawValue: "text.square.filled") }
 
     /// 􃒨
@@ -4371,6 +4802,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var thermometerAndEllipsis: SFSymbol { .init(rawValue: "thermometer.and.ellipsis") }
 
     /// 􃂠
@@ -4380,6 +4812,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var thermometerGaugeOpen: SFSymbol { .init(rawValue: "thermometer.gauge.open") }
 
     /// 􂿩
@@ -4389,6 +4822,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var thermometerTirepressure: SFSymbol { .init(rawValue: "thermometer.tirepressure") }
 
     /// 􃐍
@@ -4399,6 +4833,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var thermometerVariableBadgeClock: SFSymbol { .init(rawValue: "thermometer.variable.badge.clock") }
 
     /// 􃐎
@@ -4409,6 +4844,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var thermometerVariableBadgePlay: SFSymbol { .init(rawValue: "thermometer.variable.badge.play") }
 
     /// 􃕙
@@ -4418,6 +4854,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var ticketCircle: SFSymbol { .init(rawValue: "ticket.circle") }
 
     /// 􃕚
@@ -4428,6 +4865,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var ticketCircleFill: SFSymbol { .init(rawValue: "ticket.circle.fill") }
 
     /// 􃀜
@@ -4437,6 +4875,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var tramCard: SFSymbol { .init(rawValue: "tram.card") }
 
     /// 􃀝
@@ -4447,6 +4886,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var tramCardFill: SFSymbol { .init(rawValue: "tram.card.fill") }
 
     /// 􃃬
@@ -4457,6 +4897,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var trayBadge: SFSymbol { .init(rawValue: "tray.badge") }
 
     /// 􃃭
@@ -4467,6 +4908,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var trayBadgeFill: SFSymbol { .init(rawValue: "tray.badge.fill") }
 
     /// 􃁍
@@ -4476,6 +4918,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var umbrellaCircle: SFSymbol { .init(rawValue: "umbrella.circle") }
 
     /// 􃁎
@@ -4486,6 +4929,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var umbrellaCircleFill: SFSymbol { .init(rawValue: "umbrella.circle.fill") }
 
     /// 􃂛
@@ -4495,6 +4939,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var umbrellaGaugeOpen: SFSymbol { .init(rawValue: "umbrella.gauge.open") }
 
     /// 􃁃
@@ -4504,6 +4949,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var umbrellaSensorTagRadiowavesLeftAndRight: SFSymbol { .init(rawValue: "umbrella.sensor.tag.radiowaves.left.and.right") }
 
     /// 􃁄
@@ -4514,6 +4960,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var umbrellaSensorTagRadiowavesLeftAndRightFill: SFSymbol { .init(rawValue: "umbrella.sensor.tag.radiowaves.left.and.right.fill") }
 
     /// 􃐊
@@ -4523,6 +4970,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var underlineDouble: SFSymbol { .init(rawValue: "underline.double") }
 
     /// 􃅅
@@ -4532,6 +4980,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var ventHeatWavesUpward: SFSymbol { .init(rawValue: "vent.heat.waves.upward") }
 
     /// 􃉬
@@ -4544,6 +4993,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Vision Pro.
+    @_alwaysEmitIntoClient
     static var visionProBadgeCheckmark: SFSymbol { .init(rawValue: "vision.pro.badge.checkmark") }
 
     /// 􃉭
@@ -4556,6 +5006,7 @@ public extension SFSymbol {
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Vision Pro.
+    @_alwaysEmitIntoClient
     static var visionProBadgeCheckmarkFill: SFSymbol { .init(rawValue: "vision.pro.badge.checkmark.fill") }
 
     /// 􃀵
@@ -4565,6 +5016,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var walletSensorTagRadiowavesLeftAndRight: SFSymbol { .init(rawValue: "wallet.sensor.tag.radiowaves.left.and.right") }
 
     /// 􃀶
@@ -4575,6 +5027,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var walletSensorTagRadiowavesLeftAndRightFill: SFSymbol { .init(rawValue: "wallet.sensor.tag.radiowaves.left.and.right.fill") }
 
     /// 􃊸
@@ -4583,6 +5036,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var waveformLow: SFSymbol { .init(rawValue: "waveform.low") }
 
     /// 􃊹
@@ -4591,6 +5045,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var waveformMid: SFSymbol { .init(rawValue: "waveform.mid") }
 
     /// 􃔷
@@ -4600,6 +5055,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var wifiBadgeLock: SFSymbol { .init(rawValue: "wifi.badge.lock") }
 
     /// 􃋈
@@ -4609,6 +5065,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var xmarkCircleBadgeAirplane: SFSymbol { .init(rawValue: "xmark.circle.badge.airplane") }
 
     /// 􃋉
@@ -4619,5 +5076,6 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    @_alwaysEmitIntoClient
     static var xmarkCircleBadgeAirplaneFill: SFSymbol { .init(rawValue: "xmark.circle.badge.airplane.fill") }
 }

@@ -2,6 +2,8 @@
 
 @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince5_0: [SFSymbol : Set<Localization>] {
         [
             _2h: [],
@@ -975,6 +977,8 @@ extension SFSymbol {
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince5_0: Set<SFSymbol> {
         [
             aMagnify,

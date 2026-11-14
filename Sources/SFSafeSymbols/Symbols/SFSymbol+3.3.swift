@@ -9,6 +9,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    @_alwaysEmitIntoClient
     static var cameraMacro: SFSymbol { .init(rawValue: "camera.macro") }
 
     /// 􁂃
@@ -18,6 +19,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var cameraMacroCircle: SFSymbol { .init(rawValue: "camera.macro.circle") }
 
     /// 􁂄
@@ -28,6 +30,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @_alwaysEmitIntoClient
     static var cameraMacroCircleFill: SFSymbol { .init(rawValue: "camera.macro.circle.fill") }
 
     /// 􁑢
@@ -42,6 +45,7 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.4, deprecated: 26.0, renamed: "dotsAndLineVerticalAndPointerArrowRectangle")
     @available(watchOS, introduced: 8.5, deprecated: 26.0, renamed: "dotsAndLineVerticalAndPointerArrowRectangle")
     @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "dotsAndLineVerticalAndPointerArrowRectangle")
+    @_alwaysEmitIntoClient
     static var dotsAndLineVerticalAndCursorarrowRectangle: SFSymbol { .init(rawValue: "dots.and.line.vertical.and.cursorarrow.rectangle") }
 
     /// 􁎕
@@ -51,6 +55,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    @_alwaysEmitIntoClient
     static var keyViewfinder: SFSymbol { .init(rawValue: "key.viewfinder") }
 
     /// 􁏺
@@ -62,6 +67,7 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to creating or signing in with a passkey.
+    @_alwaysEmitIntoClient
     static var personBadgeKey: SFSymbol { .init(rawValue: "person.badge.key") }
 
     /// 􁎨
@@ -73,5 +79,6 @@ public extension SFSymbol {
     /// - Hierarchical
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to creating or signing in with a passkey.
+    @_alwaysEmitIntoClient
     static var personBadgeKeyFill: SFSymbol { .init(rawValue: "person.badge.key.fill") }
 }

@@ -2,6 +2,8 @@
 
 @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince2_0: [SFSymbol : Set<Localization>] {
         [
             _1Magnifyingglass: [.ar],
@@ -1021,6 +1023,8 @@ extension SFSymbol {
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince2_0: Set<SFSymbol> {
         [
             arrow2Circlepath,

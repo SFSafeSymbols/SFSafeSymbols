@@ -2,6 +2,8 @@
 
 @available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, visionOS 1.0, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince2_2: [SFSymbol : Set<Localization>] {
         [
             airpodsmax: [],
@@ -22,6 +24,8 @@ extension SFSymbol {
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince2_2: Set<SFSymbol> {
         [
             rectangleTopthirdInset,
