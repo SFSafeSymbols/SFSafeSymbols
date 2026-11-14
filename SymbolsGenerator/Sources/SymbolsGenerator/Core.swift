@@ -568,7 +568,7 @@ class GeneratorCore {
         switch mode {
             case .dev:
                 return make("SFSafeSymbols", "heads/stable")
-            case .fork(let username, let branch):
+            case .pr(let username, let branch):
                 return make(username, "heads/\(branch)")
             case .release(let tag):
                 return make("SFSafeSymbols", "tags/\(tag)")

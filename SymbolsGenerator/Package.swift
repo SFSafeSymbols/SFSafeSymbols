@@ -14,6 +14,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-collections.git", .upToNextMajor(from: "1.4.1")),
         .package(url: "https://github.com/apple/swift-argument-parser.git", .upToNextMajor(from: "1.7.1")),
         .package(url: "https://github.com/mxcl/Version.git", .upToNextMajor(from: "2.2.0")),
+        .package(url: "https://github.com/swiftlang/swift-subprocess.git", .upToNextMajor(from: "1.0.2")),
     ],
     targets: [
         .executableTarget(
@@ -22,6 +23,7 @@ let package = Package(
                 .product(name: "OrderedCollections", package: "swift-collections"),
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
                 .product(name: "Version", package: "Version"),
+                .product(name: "Subprocess", package: "swift-subprocess"),
             ],
             resources: [
                 .copy("Resources"),

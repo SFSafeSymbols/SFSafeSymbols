@@ -28,7 +28,7 @@ With the current structure of the repository, where **most code is generated** b
     * `layerset_availability.plist` and `legacy_aliases_strings.txt`: Copy from `SF Symbols.app/Contents/Resources/Metadata-Public` (though it seems like the latter isn't updated by Apple anymore).
     * `name_availability.plist`, `name_aliases.strings` and `symbol_restrictions.strings`: Copy from `/System/Library/CoreServices/CoreGlyphs.bundle/Contents/Resources/` or `/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/CoreServices/CoreGlyphs.bundle/`. The latter variant may be the easier one because it only requires the installation of a new Xcode instead of an OS update.
     * `symbol_restrictions_missing.strings`: Is created manually for restricted symbols that are missing from `symbol_restrictions.strings`.
-2. Open a terminal and change to the root folder of the repository. **Then run `make fork GH_ACCOUNT_NAME PR_BRANCH_NAME` if you're on a fork branch, just `make` otherwise**.
+2. Open a terminal and change to the root folder of the repository. **Then run `make pr`** (it detects your username and branch from git; use `make pr <username> <branch-name>` to set them explicitly).
 3. If new files are created by the generator tool (which is expected to happen when updating to a new SF Symbols version), make sure they are **added to the `SFSafeSymbols.xcodeproj`**.
 4. **Update the `README.md`**, so that support for the new SF Symbols version is mentioned there.
 5. **Check the CI configuration** and, if needed, make adjustments (or ask a core contributor to do so), so that the new changes are properly tested with a matching Xcode version.
