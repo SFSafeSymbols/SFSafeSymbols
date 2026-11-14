@@ -619,7 +619,7 @@ class GeneratorCore {
     private static func symbolToPNG(_ symbol: Symbol, imagesDir: URL) async throws {
         let configuration = NSImage.SymbolConfiguration(
             pointSize: 35,
-            weight: NSFont.Weight(rawValue: 20)
+            weight: .black
         )
 
         guard let nsImage = NSImage(systemSymbolName: symbol.name, accessibilityDescription: nil)?.withSymbolConfiguration(configuration),

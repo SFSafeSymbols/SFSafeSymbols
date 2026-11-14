@@ -1,5 +1,6 @@
 import Foundation
 import AppKit
+import ImageIO
 import UniformTypeIdentifiers
 
 extension GeneratorCore {
@@ -10,44 +11,61 @@ extension GeneratorCore {
 }
 
 extension NSImage {
-    func exportSymbol() -> Data? {
-
+    func exportSymbol(scale: CGFloat = 1) -> Data? {
         let size = self.size
         let dim = max(size.width, size.height)
-        let squareRect = CGRect(origin: .zero, size: .init(width: dim, height: dim))
-        guard let context = CGContext(
-            data: nil,
-            width: Int(dim),
-            height: Int(dim),
-            bitsPerComponent: 8,
-            bytesPerRow: 0,
-            space: CGColorSpaceCreateDeviceRGB(),
-            bitmapInfo: CGImageAlphaInfo.noneSkipLast.rawValue
-        ) else {
+        let pixelDim = Int((dim * scale).rounded(.up))
+
+        guard let colorSpace = CGColorSpace(name: CGColorSpace.sRGB),
+              let context = CGContext(
+                  data: nil,
+                  width: pixelDim,
+                  height: pixelDim,
+                  bitsPerComponent: 8,
+                  bytesPerRow: 0,
+                  space: colorSpace,
+                  bitmapInfo: CGImageAlphaInfo.noneSkipLast.rawValue
+              )
+        else {
             return nil
         }
 
-        context.setFillColor(.white)
-        context.fill(squareRect)
-        var imageRect = CGRect(
-            x: (dim - size.width) / 2,
-            y: (dim - size.height) / 2,
+        context.setFillColor(CGColor(srgbRed: 1, green: 1, blue: 1, alpha: 1))
+        context.fill(CGRect(x: 0, y: 0, width: pixelDim, height: pixelDim))
+        context.scaleBy(x: scale, y: scale)
+
+        let canvasDim = CGFloat(pixelDim) / scale
+        let imageRect = CGRect(
+            x: ((canvasDim - size.width) / 2 * scale).rounded(.down) / scale,
+            y: ((canvasDim - size.height) / 2 * scale).rounded(.down) / scale,
             width: size.width,
             height: size.height
         )
 
-        var cgImage: CGImage?
+        let previousContext = NSGraphicsContext.current
+        NSGraphicsContext.current = NSGraphicsContext(cgContext: context, flipped: false)
         NSAppearance(named: .aqua)?.performAsCurrentDrawingAppearance {
-            cgImage = self.cgImage(forProposedRect: &imageRect, context: nil, hints: nil)
+            self.draw(in: imageRect)
         }
-        guard let cgImage else { return nil }
+        NSGraphicsContext.current = previousContext
 
-        context.draw(cgImage, in: imageRect)
-        guard let opaqueCGImage = context.makeImage() else {
+        guard let cgImage = context.makeImage() else {
             return nil
         }
-        let opaqueBitmap = NSBitmapImageRep(cgImage: opaqueCGImage)
 
-        return opaqueBitmap.representation(using: .png, properties: [:])
+        let data = NSMutableData()
+        guard let destination = CGImageDestinationCreateWithData(
+            data,
+            UTType.png.identifier as CFString,
+            1,
+            nil
+        ) else {
+            return nil
+        }
+        CGImageDestinationAddImage(destination, cgImage, nil)
+        guard CGImageDestinationFinalize(destination) else {
+            return nil
+        }
+        return data as Data
     }
 }
