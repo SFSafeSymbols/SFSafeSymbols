@@ -24,36 +24,53 @@ jobs:
       xcodes: ${{ steps.set.outputs.xcodes }}
     steps:
       - id: set
-        run: echo 'xcodes=["16.4","26.3"]' >> $GITHUB_OUTPUT
+        run: echo 'xcodes=["26.6","27.2"]' >> $GITHUB_OUTPUT
 
   test-ios:
     needs: xcodes-config
     name: Xcode ${{ matrix.xcode }} • iOS ${{ matrix.config.os }}
-    runs-on: macos-15
+    runs-on: ${{ startsWith(matrix.xcode, '27.') && 'xcode-27' || 'macos-26' }}
     timeout-minutes: 60
     strategy:
       fail-fast: false
       matrix:
         xcode: ${{ fromJson(needs['xcodes-config'].outputs.xcodes) }}
         config:
-          - os: "17.5"
-            device: "iPhone 15"
           - os: "18.6"
             device: "iPhone 16"
-          - os: "26.2"
+          - os: "26.5"
             device: "iPhone 17"
+          - os: "27.2"
+            device: "iPhone 17"
+        exclude:
+          - xcode: "26.6"
+            config:
+              os: "27.2"
+              device: "iPhone 17"
+          # TODO: Remove once Xcode 27 can download iOS 18 simulator runtimes from the command line
+          # (`xcodebuild -downloadPlatform iOS -buildVersion 18.6` fails with "not available for download").
+          # See https://github.com/XcodesOrg/xcodes/issues/450
+          - xcode: "27.2"
+            config:
+              os: "18.6"
+              device: "iPhone 16"
+        include:
+          - xcode: "26.6"
+            config:
+              os: "17.5"
+              device: "iPhone 15"
     env:
       XCODE: ${{ matrix.xcode }}
       PLATFORM: iOS
       OS: ${{ matrix.config.os }}
       DEVICE: ${{ matrix.config.device }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Run Tests
         run: npm ci && npm run xcode-test
       - if: always()
         name: Upload Artifacts
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: xcode${{ matrix.xcode }}-ios${{ matrix.config.os }}
           path: TestResults-*.xcresult
@@ -61,27 +78,32 @@ jobs:
   test-tvos:
     needs: xcodes-config
     name: Xcode ${{ matrix.xcode }} • tvOS ${{ matrix.config.os }}
-    runs-on: macos-15
+    runs-on: ${{ startsWith(matrix.xcode, '27.') && 'xcode-27' || 'macos-26' }}
     timeout-minutes: 60
     strategy:
       fail-fast: false
       matrix:
         xcode: ${{ fromJson(needs['xcodes-config'].outputs.xcodes) }}
         config:
-          - os: "26.2"
-            device: "Apple TV"
+          - os: "27.2"
+            device: "Apple TV 4K (4th generation)"
+        exclude:
+          - xcode: "26.6"
+            config:
+              os: "27.2"
+              device: "Apple TV 4K (4th generation)"
     env:
       XCODE: ${{ matrix.xcode }}
       PLATFORM: tvOS
       OS: ${{ matrix.config.os }}
       DEVICE: ${{ matrix.config.device }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Run Tests
         run: npm ci && npm run xcode-test
       - if: always()
         name: Upload Artifacts
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: xcode${{ matrix.xcode }}-tvos${{ matrix.config.os }}
           path: TestResults-*.xcresult
@@ -89,27 +111,32 @@ jobs:
   test-watchos:
     needs: xcodes-config
     name: Xcode ${{ matrix.xcode }} • watchOS ${{ matrix.config.os }}
-    runs-on: macos-15
+    runs-on: ${{ startsWith(matrix.xcode, '27.') && 'xcode-27' || 'macos-26' }}
     timeout-minutes: 60
     strategy:
       fail-fast: false
       matrix:
         xcode: ${{ fromJson(needs['xcodes-config'].outputs.xcodes) }}
         config:
-          - os: "26.2"
-            device: "Apple Watch SE (40mm) (2nd generation)"
+          - os: "27.2"
+            device: "Apple Watch SE 3 (40mm)"
+        exclude:
+          - xcode: "26.6"
+            config:
+              os: "27.2"
+              device: "Apple Watch SE 3 (40mm)"
     env:
       XCODE: ${{ matrix.xcode }}
       PLATFORM: watchOS
       OS: ${{ matrix.config.os }}
       DEVICE: ${{ matrix.config.device }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Run Tests
         run: npm ci && npm run xcode-test
       - if: always()
         name: Upload Artifacts
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: xcode${{ matrix.xcode }}-watchos${{ matrix.config.os }}
           path: TestResults-*.xcresult
@@ -117,27 +144,32 @@ jobs:
   test-visionos:
     needs: xcodes-config
     name: Xcode ${{ matrix.xcode }} • visionOS ${{ matrix.config.os }}
-    runs-on: macos-15
+    runs-on: ${{ startsWith(matrix.xcode, '27.') && 'xcode-27' || 'macos-26' }}
     timeout-minutes: 120
     strategy:
       fail-fast: false
       matrix:
         xcode: ${{ fromJson(needs['xcodes-config'].outputs.xcodes) }}
         config:
-          - os: "26.2"
+          - os: "27.2"
             device: "Apple Vision Pro"
+        exclude:
+          - xcode: "26.6"
+            config:
+              os: "27.2"
+              device: "Apple Vision Pro"
     env:
       XCODE: ${{ matrix.xcode }}
       PLATFORM: visionOS
       OS: ${{ matrix.config.os }}
       DEVICE: ${{ matrix.config.device }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Run Tests
         run: npm ci && npm run xcode-test
       - if: always()
         name: Upload Artifacts
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: xcode${{ matrix.xcode }}-visionos${{ matrix.config.os }}
           path: TestResults-*.xcresult
