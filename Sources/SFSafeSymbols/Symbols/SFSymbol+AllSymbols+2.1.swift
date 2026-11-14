@@ -6,57 +6,57 @@ extension SFSymbol {
     @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince2_1: [SFSymbol : Set<Localization>] {
         [
-            aqiHigh: [],
-            aqiLow: [],
-            aqiMedium: [],
-            brazilianrealsignCircle: [],
-            brazilianrealsignCircleFill: [],
-            brazilianrealsignSquare: [],
-            brazilianrealsignSquareFill: [],
-            cartCircle: [],
-            cartCircleFill: [],
-            character: [.ar, .he, .hi, .ja, .ko, .th, .zh],
-            characterBookClosed: [.ar, .he, .hi, .ja, .ko, .th, .zh],
-            characterBookClosedFill: [.ar, .he, .hi, .ja, .ko, .th, .zh],
-            clockArrow2Circlepath: [],
-            directcurrent: [],
-            docTextBelowEcg: [.rtl],
-            docTextBelowEcgFill: [.rtl],
-            exclamationmarkApplewatch: [],
-            infinityCircle: [],
-            infinityCircleFill: [],
-            ipadBadgePlay: [],
-            ipadHomebuttonBadgePlay: [],
-            ipadHomebuttonLandscapeBadgePlay: [],
-            ipadLandscapeBadgePlay: [],
-            iphoneBadgePlay: [],
-            iphoneHomebuttonBadgePlay: [],
-            iphoneHomebuttonLandscape: [],
-            iphoneLandscape: [],
-            ipodtouchLandscape: [],
-            lockApplewatch: [],
-            photoTv: [],
-            playTv: [],
-            playTvFill: [],
-            rectangleBadgePersonCrop: [],
-            rectangleFillBadgePersonCrop: [],
-            rectangleTopthirdInset: [],
-            repeat1Circle: [],
-            repeat1CircleFill: [],
-            repeatCircle: [],
-            repeatCircleFill: [],
-            shieldCheckerboard: [],
-            shuffleCircle: [],
-            shuffleCircleFill: [],
-            textBelowPhoto: [.rtl],
-            textBelowPhotoFill: [.rtl],
-            textformatSize: [.ar, .he, .hi, .ja, .ko, .th, .zh],
-            textformatSizeLarger: [.ar, .he, .hi, .ja, .ko, .th, .zh],
-            textformatSizeSmaller: [.ar, .he, .hi, .ja, .ko, .th, .zh],
-            textformatSubscript: [.ar, .he, .hi, .ja, .ko, .th, .zh],
-            textformatSuperscript: [.ar, .he, .hi, .ja, .ko, .th, .zh],
-            torus: [],
-            tvAndMediabox: []
+            .init("aqi.high"): [], // SFSymbol.aqiHigh
+            .init("aqi.low"): [], // SFSymbol.aqiLow
+            .init("aqi.medium"): [], // SFSymbol.aqiMedium
+            .init("brazilianrealsign.circle"): [], // SFSymbol.brazilianrealsignCircle
+            .init("brazilianrealsign.circle.fill"): [], // SFSymbol.brazilianrealsignCircleFill
+            .init("brazilianrealsign.square"): [], // SFSymbol.brazilianrealsignSquare
+            .init("brazilianrealsign.square.fill"): [], // SFSymbol.brazilianrealsignSquareFill
+            .init("cart.circle"): [], // SFSymbol.cartCircle
+            .init("cart.circle.fill"): [], // SFSymbol.cartCircleFill
+            .init("character"): [.ar, .he, .hi, .ja, .ko, .th, .zh], // SFSymbol.character
+            .init("character.book.closed"): [.ar, .he, .hi, .ja, .ko, .th, .zh], // SFSymbol.characterBookClosed
+            .init("character.book.closed.fill"): [.ar, .he, .hi, .ja, .ko, .th, .zh], // SFSymbol.characterBookClosedFill
+            .init("clock.arrow.2.circlepath"): [], // SFSymbol.clockArrow2Circlepath
+            .init("directcurrent"): [], // SFSymbol.directcurrent
+            .init("doc.text.below.ecg"): [.rtl], // SFSymbol.docTextBelowEcg
+            .init("doc.text.below.ecg.fill"): [.rtl], // SFSymbol.docTextBelowEcgFill
+            .init("exclamationmark.applewatch"): [], // SFSymbol.exclamationmarkApplewatch
+            .init("infinity.circle"): [], // SFSymbol.infinityCircle
+            .init("infinity.circle.fill"): [], // SFSymbol.infinityCircleFill
+            .init("ipad.badge.play"): [], // SFSymbol.ipadBadgePlay
+            .init("ipad.homebutton.badge.play"): [], // SFSymbol.ipadHomebuttonBadgePlay
+            .init("ipad.homebutton.landscape.badge.play"): [], // SFSymbol.ipadHomebuttonLandscapeBadgePlay
+            .init("ipad.landscape.badge.play"): [], // SFSymbol.ipadLandscapeBadgePlay
+            .init("iphone.badge.play"): [], // SFSymbol.iphoneBadgePlay
+            .init("iphone.homebutton.badge.play"): [], // SFSymbol.iphoneHomebuttonBadgePlay
+            .init("iphone.homebutton.landscape"): [], // SFSymbol.iphoneHomebuttonLandscape
+            .init("iphone.landscape"): [], // SFSymbol.iphoneLandscape
+            .init("ipodtouch.landscape"): [], // SFSymbol.ipodtouchLandscape
+            .init("lock.applewatch"): [], // SFSymbol.lockApplewatch
+            .init("photo.tv"): [], // SFSymbol.photoTv
+            .init("play.tv"): [], // SFSymbol.playTv
+            .init("play.tv.fill"): [], // SFSymbol.playTvFill
+            .init("rectangle.badge.person.crop"): [], // SFSymbol.rectangleBadgePersonCrop
+            .init("rectangle.fill.badge.person.crop"): [], // SFSymbol.rectangleFillBadgePersonCrop
+            .init("rectangle.topthird.inset"): [], // SFSymbol.rectangleTopthirdInset
+            .init("repeat.1.circle"): [], // SFSymbol.repeat1Circle
+            .init("repeat.1.circle.fill"): [], // SFSymbol.repeat1CircleFill
+            .init("repeat.circle"): [], // SFSymbol.repeatCircle
+            .init("repeat.circle.fill"): [], // SFSymbol.repeatCircleFill
+            .init("shield.checkerboard"): [], // SFSymbol.shieldCheckerboard
+            .init("shuffle.circle"): [], // SFSymbol.shuffleCircle
+            .init("shuffle.circle.fill"): [], // SFSymbol.shuffleCircleFill
+            .init("text.below.photo"): [.rtl], // SFSymbol.textBelowPhoto
+            .init("text.below.photo.fill"): [.rtl], // SFSymbol.textBelowPhotoFill
+            .init("textformat.size"): [.ar, .he, .hi, .ja, .ko, .th, .zh], // SFSymbol.textformatSize
+            .init("textformat.size.larger"): [.ar, .he, .hi, .ja, .ko, .th, .zh], // SFSymbol.textformatSizeLarger
+            .init("textformat.size.smaller"): [.ar, .he, .hi, .ja, .ko, .th, .zh], // SFSymbol.textformatSizeSmaller
+            .init("textformat.subscript"): [.ar, .he, .hi, .ja, .ko, .th, .zh], // SFSymbol.textformatSubscript
+            .init("textformat.superscript"): [.ar, .he, .hi, .ja, .ko, .th, .zh], // SFSymbol.textformatSuperscript
+            .init("torus"): [], // SFSymbol.torus
+            .init("tv.and.mediabox"): [] // SFSymbol.tvAndMediabox
         ]
     }
 
@@ -64,9 +64,9 @@ extension SFSymbol {
     @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince2_1: Set<SFSymbol> {
         [
-            a,
-            aBookClosed,
-            aBookClosedFill
+            .init("a"), // SFSymbol.a
+            .init("a.book.closed"), // SFSymbol.aBookClosed
+            .init("a.book.closed.fill") // SFSymbol.aBookClosedFill
         ]
     }
 }

@@ -6,21 +6,21 @@ extension SFSymbol {
     @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince3_2: [SFSymbol : Set<Localization>] {
         [
-            airpodGen3Left: [],
-            airpodGen3Right: [],
-            airpodsGen3: [],
-            airpodsGen3ChargingcaseWireless: [],
-            airpodsGen3ChargingcaseWirelessFill: [],
-            beatsFitPro: [],
-            beatsFitProChargingcase: [],
-            beatsFitProChargingcaseFill: [],
-            beatsFitProLeft: [],
-            beatsFitProRight: [],
-            rectangleLeadinghalfFilled: [],
-            rectangleTrailinghalfFilled: [],
-            square3Layers3dDownLeftSlash: [],
-            square3Layers3dDownRightSlash: [],
-            square3Stack3dSlash: []
+            .init("airpod.gen3.left"): [], // SFSymbol.airpodGen3Left
+            .init("airpod.gen3.right"): [], // SFSymbol.airpodGen3Right
+            .init("airpods.gen3"): [], // SFSymbol.airpodsGen3
+            .init("airpods.gen3.chargingcase.wireless"): [], // SFSymbol.airpodsGen3ChargingcaseWireless
+            .init("airpods.gen3.chargingcase.wireless.fill"): [], // SFSymbol.airpodsGen3ChargingcaseWirelessFill
+            .init("beats.fit.pro"): [], // SFSymbol.beatsFitPro
+            .init("beats.fit.pro.chargingcase"): [], // SFSymbol.beatsFitProChargingcase
+            .init("beats.fit.pro.chargingcase.fill"): [], // SFSymbol.beatsFitProChargingcaseFill
+            .init("beats.fit.pro.left"): [], // SFSymbol.beatsFitProLeft
+            .init("beats.fit.pro.right"): [], // SFSymbol.beatsFitProRight
+            .init("rectangle.leadinghalf.filled"): [], // SFSymbol.rectangleLeadinghalfFilled
+            .init("rectangle.trailinghalf.filled"): [], // SFSymbol.rectangleTrailinghalfFilled
+            .init("square.3.layers.3d.down.left.slash"): [], // SFSymbol.square3Layers3dDownLeftSlash
+            .init("square.3.layers.3d.down.right.slash"): [], // SFSymbol.square3Layers3dDownRightSlash
+            .init("square.3.stack.3d.slash"): [] // SFSymbol.square3Stack3dSlash
         ]
     }
 

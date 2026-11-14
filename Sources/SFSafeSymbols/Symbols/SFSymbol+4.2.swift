@@ -10,7 +10,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     @_alwaysEmitIntoClient
-    static var axle2: SFSymbol { .init(rawValue: "axle.2") }
+    static var axle2: SFSymbol { .init("axle.2") }
 
     /// 􁠡
     /// ![axle.2.front.and.rear.engaged](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/axle.2.front.and.rear.engaged.png)
@@ -20,7 +20,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     @_alwaysEmitIntoClient
-    static var axle2FrontAndRearEngaged: SFSymbol { .init(rawValue: "axle.2.front.and.rear.engaged") }
+    static var axle2FrontAndRearEngaged: SFSymbol { .init("axle.2.front.and.rear.engaged") }
 
     /// 􁠟
     /// ![axle.2.front.engaged](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/axle.2.front.engaged.png)
@@ -30,7 +30,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     @_alwaysEmitIntoClient
-    static var axle2FrontEngaged: SFSymbol { .init(rawValue: "axle.2.front.engaged") }
+    static var axle2FrontEngaged: SFSymbol { .init("axle.2.front.engaged") }
 
     /// 􁠠
     /// ![axle.2.rear.engaged](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/axle.2.rear.engaged.png)
@@ -40,7 +40,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     @_alwaysEmitIntoClient
-    static var axle2RearEngaged: SFSymbol { .init(rawValue: "axle.2.rear.engaged") }
+    static var axle2RearEngaged: SFSymbol { .init("axle.2.rear.engaged") }
 
     /// 􁰼
     /// ![beats.powerbeats.left](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.left.png)
@@ -52,7 +52,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats.
     @_alwaysEmitIntoClient
-    static var beatsPowerbeatsLeft: SFSymbol { .init(rawValue: "beats.powerbeats.left") }
+    static var beatsPowerbeatsLeft: SFSymbol { .init("beats.powerbeats.left") }
 
     /// 􀻕
     /// ![beats.powerbeats.right](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.right.png)
@@ -64,7 +64,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats.
     @_alwaysEmitIntoClient
-    static var beatsPowerbeatsRight: SFSymbol { .init(rawValue: "beats.powerbeats.right") }
+    static var beatsPowerbeatsRight: SFSymbol { .init("beats.powerbeats.right") }
 
     /// 􁰾
     /// ![beats.powerbeats3.left](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats3.left.png)
@@ -76,7 +76,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats3.
     @_alwaysEmitIntoClient
-    static var beatsPowerbeats3Left: SFSymbol { .init(rawValue: "beats.powerbeats3.left") }
+    static var beatsPowerbeats3Left: SFSymbol { .init("beats.powerbeats3.left") }
 
     /// 􁰽
     /// ![beats.powerbeats3.right](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats3.right.png)
@@ -88,5 +88,5 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats3.
     @_alwaysEmitIntoClient
-    static var beatsPowerbeats3Right: SFSymbol { .init(rawValue: "beats.powerbeats3.right") }
+    static var beatsPowerbeats3Right: SFSymbol { .init("beats.powerbeats3.right") }
 }

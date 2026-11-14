@@ -10,7 +10,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     @_alwaysEmitIntoClient
-    static var chevronCompactBackward: SFSymbol { .init(rawValue: "chevron.compact.backward") }
+    static var chevronCompactBackward: SFSymbol { .init("chevron.compact.backward") }
 
     /// 􂉐
     /// ![chevron.compact.forward](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/chevron.compact.forward.png)
@@ -19,7 +19,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     @_alwaysEmitIntoClient
-    static var chevronCompactForward: SFSymbol { .init(rawValue: "chevron.compact.forward") }
+    static var chevronCompactForward: SFSymbol { .init("chevron.compact.forward") }
 
     /// 􂉚
     /// ![person.crop.square.badge.camera](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.crop.square.badge.camera.png)
@@ -29,7 +29,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     @_alwaysEmitIntoClient
-    static var personCropSquareBadgeCamera: SFSymbol { .init(rawValue: "person.crop.square.badge.camera") }
+    static var personCropSquareBadgeCamera: SFSymbol { .init("person.crop.square.badge.camera") }
 
     /// 􂉛
     /// ![person.crop.square.badge.camera.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.crop.square.badge.camera.fill.png)
@@ -39,7 +39,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     @_alwaysEmitIntoClient
-    static var personCropSquareBadgeCameraFill: SFSymbol { .init(rawValue: "person.crop.square.badge.camera.fill") }
+    static var personCropSquareBadgeCameraFill: SFSymbol { .init("person.crop.square.badge.camera.fill") }
 
     /// 􂉜
     /// ![person.crop.square.badge.video](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.crop.square.badge.video.png)
@@ -49,7 +49,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     @_alwaysEmitIntoClient
-    static var personCropSquareBadgeVideo: SFSymbol { .init(rawValue: "person.crop.square.badge.video") }
+    static var personCropSquareBadgeVideo: SFSymbol { .init("person.crop.square.badge.video") }
 
     /// 􂉝
     /// ![person.crop.square.badge.video.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.crop.square.badge.video.fill.png)
@@ -59,5 +59,5 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     @_alwaysEmitIntoClient
-    static var personCropSquareBadgeVideoFill: SFSymbol { .init(rawValue: "person.crop.square.badge.video.fill") }
+    static var personCropSquareBadgeVideoFill: SFSymbol { .init("person.crop.square.badge.video.fill") }
 }

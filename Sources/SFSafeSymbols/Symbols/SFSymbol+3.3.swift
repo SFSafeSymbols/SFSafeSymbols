@@ -10,7 +10,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     @_alwaysEmitIntoClient
-    static var cameraMacro: SFSymbol { .init(rawValue: "camera.macro") }
+    static var cameraMacro: SFSymbol { .init("camera.macro") }
 
     /// 􁂃
     /// ![camera.macro.circle](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/camera.macro.circle.png)
@@ -20,7 +20,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     @_alwaysEmitIntoClient
-    static var cameraMacroCircle: SFSymbol { .init(rawValue: "camera.macro.circle") }
+    static var cameraMacroCircle: SFSymbol { .init("camera.macro.circle") }
 
     /// 􁂄
     /// ![camera.macro.circle.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/camera.macro.circle.fill.png)
@@ -31,7 +31,7 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
-    static var cameraMacroCircleFill: SFSymbol { .init(rawValue: "camera.macro.circle.fill") }
+    static var cameraMacroCircleFill: SFSymbol { .init("camera.macro.circle.fill") }
 
     /// 􁑢
     /// ![dots.and.line.vertical.and.cursorarrow.rectangle](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/dots.and.line.vertical.and.cursorarrow.rectangle.png)
@@ -46,7 +46,7 @@ public extension SFSymbol {
     @available(watchOS, introduced: 8.5, deprecated: 26.0, renamed: "dotsAndLineVerticalAndPointerArrowRectangle")
     @available(visionOS, introduced: 1.0, deprecated: 26.0, renamed: "dotsAndLineVerticalAndPointerArrowRectangle")
     @_alwaysEmitIntoClient
-    static var dotsAndLineVerticalAndCursorarrowRectangle: SFSymbol { .init(rawValue: "dots.and.line.vertical.and.cursorarrow.rectangle") }
+    static var dotsAndLineVerticalAndCursorarrowRectangle: SFSymbol { .init("dots.and.line.vertical.and.cursorarrow.rectangle") }
 
     /// 􁎕
     /// ![key.viewfinder](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/key.viewfinder.png)
@@ -56,7 +56,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     @_alwaysEmitIntoClient
-    static var keyViewfinder: SFSymbol { .init(rawValue: "key.viewfinder") }
+    static var keyViewfinder: SFSymbol { .init("key.viewfinder") }
 
     /// 􁏺
     /// ![person.badge.key](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.badge.key.png)
@@ -68,7 +68,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to creating or signing in with a passkey.
     @_alwaysEmitIntoClient
-    static var personBadgeKey: SFSymbol { .init(rawValue: "person.badge.key") }
+    static var personBadgeKey: SFSymbol { .init("person.badge.key") }
 
     /// 􁎨
     /// ![person.badge.key.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.badge.key.fill.png)
@@ -80,5 +80,5 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to creating or signing in with a passkey.
     @_alwaysEmitIntoClient
-    static var personBadgeKeyFill: SFSymbol { .init(rawValue: "person.badge.key.fill") }
+    static var personBadgeKeyFill: SFSymbol { .init("person.badge.key.fill") }
 }

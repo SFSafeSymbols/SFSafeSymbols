@@ -6,252 +6,252 @@ extension SFSymbol {
     @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince5_2: [SFSymbol : Set<Localization>] {
         [
-            _0Circle: [.hi],
-            _00Circle: [.ar, .hi],
-            _0CircleFill: [.hi],
-            _00CircleFill: [.ar, .hi],
-            _0Square: [.hi],
-            _00Square: [.ar, .hi],
-            _0SquareFill: [.hi],
-            _00SquareFill: [.ar, .hi],
-            _1Circle: [.hi],
-            _01Circle: [.ar, .hi],
-            _1CircleFill: [.hi],
-            _01CircleFill: [.ar, .hi],
-            _1Square: [.hi],
-            _01Square: [.ar, .hi],
-            _1SquareFill: [.hi],
-            _01SquareFill: [.ar, .hi],
-            _2Circle: [.hi],
-            _02Circle: [.ar, .hi],
-            _2CircleFill: [.hi],
-            _02CircleFill: [.ar, .hi],
-            _2Square: [.hi],
-            _02Square: [.ar, .hi],
-            _2SquareFill: [.hi],
-            _02SquareFill: [.ar, .hi],
-            _3Circle: [.hi],
-            _03Circle: [.ar, .hi],
-            _3CircleFill: [.hi],
-            _03CircleFill: [.ar, .hi],
-            _3Square: [.hi],
-            _03Square: [.ar, .hi],
-            _3SquareFill: [.hi],
-            _03SquareFill: [.ar, .hi],
-            _4Circle: [.hi],
-            _04Circle: [.ar, .hi],
-            _4CircleFill: [.hi],
-            _04CircleFill: [.ar, .hi],
-            _4Square: [.hi],
-            _04Square: [.ar, .hi],
-            _4SquareFill: [.hi],
-            _04SquareFill: [.ar, .hi],
-            _5Circle: [.hi],
-            _05Circle: [.ar, .hi],
-            _5CircleFill: [.hi],
-            _05CircleFill: [.ar, .hi],
-            _5Square: [.hi],
-            _05Square: [.ar, .hi],
-            _5SquareFill: [.hi],
-            _05SquareFill: [.ar, .hi],
-            _6Circle: [.hi],
-            _06Circle: [.ar, .hi],
-            _6CircleFill: [.hi],
-            _06CircleFill: [.ar, .hi],
-            _6Square: [.hi],
-            _06Square: [.ar, .hi],
-            _6SquareFill: [.hi],
-            _06SquareFill: [.ar, .hi],
-            _7Circle: [.hi],
-            _07Circle: [.ar, .hi],
-            _7CircleFill: [.hi],
-            _07CircleFill: [.ar, .hi],
-            _7Square: [.hi],
-            _07Square: [.ar, .hi],
-            _7SquareFill: [.hi],
-            _07SquareFill: [.ar, .hi],
-            _8Circle: [.hi],
-            _08Circle: [.ar, .hi],
-            _8CircleFill: [.hi],
-            _08CircleFill: [.ar, .hi],
-            _8Square: [.hi],
-            _08Square: [.ar, .hi],
-            _8SquareFill: [.hi],
-            _08SquareFill: [.ar, .hi],
-            _9Circle: [.hi],
-            _09Circle: [.ar, .hi],
-            _9CircleFill: [.hi],
-            _09CircleFill: [.ar, .hi],
-            _9Square: [.hi],
-            _09Square: [.ar, .hi],
-            _9SquareFill: [.hi],
-            _09SquareFill: [.ar, .hi],
-            _10Circle: [.ar, .hi],
-            _10CircleFill: [.ar, .hi],
-            _10Square: [.ar, .hi],
-            _10SquareFill: [.ar, .hi],
-            _11Circle: [.ar, .hi],
-            _11CircleFill: [.ar, .hi],
-            _11Square: [.ar, .hi],
-            _11SquareFill: [.ar, .hi],
-            _12Circle: [.ar, .hi],
-            _12CircleFill: [.ar, .hi],
-            _12Square: [.ar, .hi],
-            _12SquareFill: [.ar, .hi],
-            _13Circle: [.ar, .hi],
-            _13CircleFill: [.ar, .hi],
-            _13Square: [.ar, .hi],
-            _13SquareFill: [.ar, .hi],
-            _14Circle: [.ar, .hi],
-            _14CircleFill: [.ar, .hi],
-            _14Square: [.ar, .hi],
-            _14SquareFill: [.ar, .hi],
-            _15Circle: [.ar, .hi],
-            _15CircleFill: [.ar, .hi],
-            _15Square: [.ar, .hi],
-            _15SquareFill: [.ar, .hi],
-            _16Circle: [.ar, .hi],
-            _16CircleFill: [.ar, .hi],
-            _16Square: [.ar, .hi],
-            _16SquareFill: [.ar, .hi],
-            _17Circle: [.ar, .hi],
-            _17CircleFill: [.ar, .hi],
-            _17Square: [.ar, .hi],
-            _17SquareFill: [.ar, .hi],
-            _18Circle: [.ar, .hi],
-            _18CircleFill: [.ar, .hi],
-            _18Square: [.ar, .hi],
-            _18SquareFill: [.ar, .hi],
-            _19Circle: [.ar, .hi],
-            _19CircleFill: [.ar, .hi],
-            _19Square: [.ar, .hi],
-            _19SquareFill: [.ar, .hi],
-            _20Circle: [.ar, .hi],
-            _20CircleFill: [.ar, .hi],
-            _20Square: [.ar, .hi],
-            _20SquareFill: [.ar, .hi],
-            _21Circle: [.ar, .hi],
-            _21CircleFill: [.ar, .hi],
-            _21Square: [.ar, .hi],
-            _21SquareFill: [.ar, .hi],
-            _22Circle: [.ar, .hi],
-            _22CircleFill: [.ar, .hi],
-            _22Square: [.ar, .hi],
-            _22SquareFill: [.ar, .hi],
-            _23Circle: [.ar, .hi],
-            _23CircleFill: [.ar, .hi],
-            _23Square: [.ar, .hi],
-            _23SquareFill: [.ar, .hi],
-            _24Circle: [.ar, .hi],
-            _24CircleFill: [.ar, .hi],
-            _24Square: [.ar, .hi],
-            _24SquareFill: [.ar, .hi],
-            _25Circle: [.ar, .hi],
-            _25CircleFill: [.ar, .hi],
-            _25Square: [.ar, .hi],
-            _25SquareFill: [.ar, .hi],
-            _26Circle: [.ar, .hi],
-            _26CircleFill: [.ar, .hi],
-            _26Square: [.ar, .hi],
-            _26SquareFill: [.ar, .hi],
-            _27Circle: [.ar, .hi],
-            _27CircleFill: [.ar, .hi],
-            _27Square: [.ar, .hi],
-            _27SquareFill: [.ar, .hi],
-            _28Circle: [.ar, .hi],
-            _28CircleFill: [.ar, .hi],
-            _28Square: [.ar, .hi],
-            _28SquareFill: [.ar, .hi],
-            _29Circle: [.ar, .hi],
-            _29CircleFill: [.ar, .hi],
-            _29Square: [.ar, .hi],
-            _29SquareFill: [.ar, .hi],
-            _30Circle: [.ar, .hi],
-            _30CircleFill: [.ar, .hi],
-            _30Square: [.ar, .hi],
-            _30SquareFill: [.ar, .hi],
-            _31Circle: [.ar, .hi],
-            _31CircleFill: [.ar, .hi],
-            _31Square: [.ar, .hi],
-            _31SquareFill: [.ar, .hi],
-            _32Circle: [.ar, .hi],
-            _32CircleFill: [.ar, .hi],
-            _32Square: [.ar, .hi],
-            _32SquareFill: [.ar, .hi],
-            _33Circle: [.ar, .hi],
-            _33CircleFill: [.ar, .hi],
-            _33Square: [.ar, .hi],
-            _33SquareFill: [.ar, .hi],
-            _34Circle: [.ar, .hi],
-            _34CircleFill: [.ar, .hi],
-            _34Square: [.ar, .hi],
-            _34SquareFill: [.ar, .hi],
-            _35Circle: [.ar, .hi],
-            _35CircleFill: [.ar, .hi],
-            _35Square: [.ar, .hi],
-            _35SquareFill: [.ar, .hi],
-            _36Circle: [.ar, .hi],
-            _36CircleFill: [.ar, .hi],
-            _36Square: [.ar, .hi],
-            _36SquareFill: [.ar, .hi],
-            _37Circle: [.ar, .hi],
-            _37CircleFill: [.ar, .hi],
-            _37Square: [.ar, .hi],
-            _37SquareFill: [.ar, .hi],
-            _38Circle: [.ar, .hi],
-            _38CircleFill: [.ar, .hi],
-            _38Square: [.ar, .hi],
-            _38SquareFill: [.ar, .hi],
-            _39Circle: [.ar, .hi],
-            _39CircleFill: [.ar, .hi],
-            _39Square: [.ar, .hi],
-            _39SquareFill: [.ar, .hi],
-            _40Circle: [.ar, .hi],
-            _40CircleFill: [.ar, .hi],
-            _40Square: [.ar, .hi],
-            _40SquareFill: [.ar, .hi],
-            _41Circle: [.ar, .hi],
-            _41CircleFill: [.ar, .hi],
-            _41Square: [.ar, .hi],
-            _41SquareFill: [.ar, .hi],
-            _42Circle: [.ar, .hi],
-            _42CircleFill: [.ar, .hi],
-            _42Square: [.ar, .hi],
-            _42SquareFill: [.ar, .hi],
-            _43Circle: [.ar, .hi],
-            _43CircleFill: [.ar, .hi],
-            _43Square: [.ar, .hi],
-            _43SquareFill: [.ar, .hi],
-            _44Circle: [.ar, .hi],
-            _44CircleFill: [.ar, .hi],
-            _44Square: [.ar, .hi],
-            _44SquareFill: [.ar, .hi],
-            _45Circle: [.ar, .hi],
-            _45CircleFill: [.ar, .hi],
-            _45Square: [.ar, .hi],
-            _45SquareFill: [.ar, .hi],
-            _46Circle: [.ar, .hi],
-            _46CircleFill: [.ar, .hi],
-            _46Square: [.ar, .hi],
-            _46SquareFill: [.ar, .hi],
-            _47Circle: [.ar, .hi],
-            _47CircleFill: [.ar, .hi],
-            _47Square: [.ar, .hi],
-            _47SquareFill: [.ar, .hi],
-            _48Circle: [.ar, .hi],
-            _48CircleFill: [.ar, .hi],
-            _48Square: [.ar, .hi],
-            _48SquareFill: [.ar, .hi],
-            _49Circle: [.ar, .hi],
-            _49CircleFill: [.ar, .hi],
-            _49Square: [.ar, .hi],
-            _49SquareFill: [.ar, .hi],
-            _50Circle: [.ar, .hi],
-            _50CircleFill: [.ar, .hi],
-            _50Square: [.ar, .hi],
-            _50SquareFill: [.ar, .hi],
-            squareAndArrowUpBadgeClock: [],
-            squareAndArrowUpBadgeClockFill: []
+            .init("0.circle"): [.hi], // SFSymbol._0Circle
+            .init("00.circle"): [.ar, .hi], // SFSymbol._00Circle
+            .init("0.circle.fill"): [.hi], // SFSymbol._0CircleFill
+            .init("00.circle.fill"): [.ar, .hi], // SFSymbol._00CircleFill
+            .init("0.square"): [.hi], // SFSymbol._0Square
+            .init("00.square"): [.ar, .hi], // SFSymbol._00Square
+            .init("0.square.fill"): [.hi], // SFSymbol._0SquareFill
+            .init("00.square.fill"): [.ar, .hi], // SFSymbol._00SquareFill
+            .init("1.circle"): [.hi], // SFSymbol._1Circle
+            .init("01.circle"): [.ar, .hi], // SFSymbol._01Circle
+            .init("1.circle.fill"): [.hi], // SFSymbol._1CircleFill
+            .init("01.circle.fill"): [.ar, .hi], // SFSymbol._01CircleFill
+            .init("1.square"): [.hi], // SFSymbol._1Square
+            .init("01.square"): [.ar, .hi], // SFSymbol._01Square
+            .init("1.square.fill"): [.hi], // SFSymbol._1SquareFill
+            .init("01.square.fill"): [.ar, .hi], // SFSymbol._01SquareFill
+            .init("2.circle"): [.hi], // SFSymbol._2Circle
+            .init("02.circle"): [.ar, .hi], // SFSymbol._02Circle
+            .init("2.circle.fill"): [.hi], // SFSymbol._2CircleFill
+            .init("02.circle.fill"): [.ar, .hi], // SFSymbol._02CircleFill
+            .init("2.square"): [.hi], // SFSymbol._2Square
+            .init("02.square"): [.ar, .hi], // SFSymbol._02Square
+            .init("2.square.fill"): [.hi], // SFSymbol._2SquareFill
+            .init("02.square.fill"): [.ar, .hi], // SFSymbol._02SquareFill
+            .init("3.circle"): [.hi], // SFSymbol._3Circle
+            .init("03.circle"): [.ar, .hi], // SFSymbol._03Circle
+            .init("3.circle.fill"): [.hi], // SFSymbol._3CircleFill
+            .init("03.circle.fill"): [.ar, .hi], // SFSymbol._03CircleFill
+            .init("3.square"): [.hi], // SFSymbol._3Square
+            .init("03.square"): [.ar, .hi], // SFSymbol._03Square
+            .init("3.square.fill"): [.hi], // SFSymbol._3SquareFill
+            .init("03.square.fill"): [.ar, .hi], // SFSymbol._03SquareFill
+            .init("4.circle"): [.hi], // SFSymbol._4Circle
+            .init("04.circle"): [.ar, .hi], // SFSymbol._04Circle
+            .init("4.circle.fill"): [.hi], // SFSymbol._4CircleFill
+            .init("04.circle.fill"): [.ar, .hi], // SFSymbol._04CircleFill
+            .init("4.square"): [.hi], // SFSymbol._4Square
+            .init("04.square"): [.ar, .hi], // SFSymbol._04Square
+            .init("4.square.fill"): [.hi], // SFSymbol._4SquareFill
+            .init("04.square.fill"): [.ar, .hi], // SFSymbol._04SquareFill
+            .init("5.circle"): [.hi], // SFSymbol._5Circle
+            .init("05.circle"): [.ar, .hi], // SFSymbol._05Circle
+            .init("5.circle.fill"): [.hi], // SFSymbol._5CircleFill
+            .init("05.circle.fill"): [.ar, .hi], // SFSymbol._05CircleFill
+            .init("5.square"): [.hi], // SFSymbol._5Square
+            .init("05.square"): [.ar, .hi], // SFSymbol._05Square
+            .init("5.square.fill"): [.hi], // SFSymbol._5SquareFill
+            .init("05.square.fill"): [.ar, .hi], // SFSymbol._05SquareFill
+            .init("6.circle"): [.hi], // SFSymbol._6Circle
+            .init("06.circle"): [.ar, .hi], // SFSymbol._06Circle
+            .init("6.circle.fill"): [.hi], // SFSymbol._6CircleFill
+            .init("06.circle.fill"): [.ar, .hi], // SFSymbol._06CircleFill
+            .init("6.square"): [.hi], // SFSymbol._6Square
+            .init("06.square"): [.ar, .hi], // SFSymbol._06Square
+            .init("6.square.fill"): [.hi], // SFSymbol._6SquareFill
+            .init("06.square.fill"): [.ar, .hi], // SFSymbol._06SquareFill
+            .init("7.circle"): [.hi], // SFSymbol._7Circle
+            .init("07.circle"): [.ar, .hi], // SFSymbol._07Circle
+            .init("7.circle.fill"): [.hi], // SFSymbol._7CircleFill
+            .init("07.circle.fill"): [.ar, .hi], // SFSymbol._07CircleFill
+            .init("7.square"): [.hi], // SFSymbol._7Square
+            .init("07.square"): [.ar, .hi], // SFSymbol._07Square
+            .init("7.square.fill"): [.hi], // SFSymbol._7SquareFill
+            .init("07.square.fill"): [.ar, .hi], // SFSymbol._07SquareFill
+            .init("8.circle"): [.hi], // SFSymbol._8Circle
+            .init("08.circle"): [.ar, .hi], // SFSymbol._08Circle
+            .init("8.circle.fill"): [.hi], // SFSymbol._8CircleFill
+            .init("08.circle.fill"): [.ar, .hi], // SFSymbol._08CircleFill
+            .init("8.square"): [.hi], // SFSymbol._8Square
+            .init("08.square"): [.ar, .hi], // SFSymbol._08Square
+            .init("8.square.fill"): [.hi], // SFSymbol._8SquareFill
+            .init("08.square.fill"): [.ar, .hi], // SFSymbol._08SquareFill
+            .init("9.circle"): [.hi], // SFSymbol._9Circle
+            .init("09.circle"): [.ar, .hi], // SFSymbol._09Circle
+            .init("9.circle.fill"): [.hi], // SFSymbol._9CircleFill
+            .init("09.circle.fill"): [.ar, .hi], // SFSymbol._09CircleFill
+            .init("9.square"): [.hi], // SFSymbol._9Square
+            .init("09.square"): [.ar, .hi], // SFSymbol._09Square
+            .init("9.square.fill"): [.hi], // SFSymbol._9SquareFill
+            .init("09.square.fill"): [.ar, .hi], // SFSymbol._09SquareFill
+            .init("10.circle"): [.ar, .hi], // SFSymbol._10Circle
+            .init("10.circle.fill"): [.ar, .hi], // SFSymbol._10CircleFill
+            .init("10.square"): [.ar, .hi], // SFSymbol._10Square
+            .init("10.square.fill"): [.ar, .hi], // SFSymbol._10SquareFill
+            .init("11.circle"): [.ar, .hi], // SFSymbol._11Circle
+            .init("11.circle.fill"): [.ar, .hi], // SFSymbol._11CircleFill
+            .init("11.square"): [.ar, .hi], // SFSymbol._11Square
+            .init("11.square.fill"): [.ar, .hi], // SFSymbol._11SquareFill
+            .init("12.circle"): [.ar, .hi], // SFSymbol._12Circle
+            .init("12.circle.fill"): [.ar, .hi], // SFSymbol._12CircleFill
+            .init("12.square"): [.ar, .hi], // SFSymbol._12Square
+            .init("12.square.fill"): [.ar, .hi], // SFSymbol._12SquareFill
+            .init("13.circle"): [.ar, .hi], // SFSymbol._13Circle
+            .init("13.circle.fill"): [.ar, .hi], // SFSymbol._13CircleFill
+            .init("13.square"): [.ar, .hi], // SFSymbol._13Square
+            .init("13.square.fill"): [.ar, .hi], // SFSymbol._13SquareFill
+            .init("14.circle"): [.ar, .hi], // SFSymbol._14Circle
+            .init("14.circle.fill"): [.ar, .hi], // SFSymbol._14CircleFill
+            .init("14.square"): [.ar, .hi], // SFSymbol._14Square
+            .init("14.square.fill"): [.ar, .hi], // SFSymbol._14SquareFill
+            .init("15.circle"): [.ar, .hi], // SFSymbol._15Circle
+            .init("15.circle.fill"): [.ar, .hi], // SFSymbol._15CircleFill
+            .init("15.square"): [.ar, .hi], // SFSymbol._15Square
+            .init("15.square.fill"): [.ar, .hi], // SFSymbol._15SquareFill
+            .init("16.circle"): [.ar, .hi], // SFSymbol._16Circle
+            .init("16.circle.fill"): [.ar, .hi], // SFSymbol._16CircleFill
+            .init("16.square"): [.ar, .hi], // SFSymbol._16Square
+            .init("16.square.fill"): [.ar, .hi], // SFSymbol._16SquareFill
+            .init("17.circle"): [.ar, .hi], // SFSymbol._17Circle
+            .init("17.circle.fill"): [.ar, .hi], // SFSymbol._17CircleFill
+            .init("17.square"): [.ar, .hi], // SFSymbol._17Square
+            .init("17.square.fill"): [.ar, .hi], // SFSymbol._17SquareFill
+            .init("18.circle"): [.ar, .hi], // SFSymbol._18Circle
+            .init("18.circle.fill"): [.ar, .hi], // SFSymbol._18CircleFill
+            .init("18.square"): [.ar, .hi], // SFSymbol._18Square
+            .init("18.square.fill"): [.ar, .hi], // SFSymbol._18SquareFill
+            .init("19.circle"): [.ar, .hi], // SFSymbol._19Circle
+            .init("19.circle.fill"): [.ar, .hi], // SFSymbol._19CircleFill
+            .init("19.square"): [.ar, .hi], // SFSymbol._19Square
+            .init("19.square.fill"): [.ar, .hi], // SFSymbol._19SquareFill
+            .init("20.circle"): [.ar, .hi], // SFSymbol._20Circle
+            .init("20.circle.fill"): [.ar, .hi], // SFSymbol._20CircleFill
+            .init("20.square"): [.ar, .hi], // SFSymbol._20Square
+            .init("20.square.fill"): [.ar, .hi], // SFSymbol._20SquareFill
+            .init("21.circle"): [.ar, .hi], // SFSymbol._21Circle
+            .init("21.circle.fill"): [.ar, .hi], // SFSymbol._21CircleFill
+            .init("21.square"): [.ar, .hi], // SFSymbol._21Square
+            .init("21.square.fill"): [.ar, .hi], // SFSymbol._21SquareFill
+            .init("22.circle"): [.ar, .hi], // SFSymbol._22Circle
+            .init("22.circle.fill"): [.ar, .hi], // SFSymbol._22CircleFill
+            .init("22.square"): [.ar, .hi], // SFSymbol._22Square
+            .init("22.square.fill"): [.ar, .hi], // SFSymbol._22SquareFill
+            .init("23.circle"): [.ar, .hi], // SFSymbol._23Circle
+            .init("23.circle.fill"): [.ar, .hi], // SFSymbol._23CircleFill
+            .init("23.square"): [.ar, .hi], // SFSymbol._23Square
+            .init("23.square.fill"): [.ar, .hi], // SFSymbol._23SquareFill
+            .init("24.circle"): [.ar, .hi], // SFSymbol._24Circle
+            .init("24.circle.fill"): [.ar, .hi], // SFSymbol._24CircleFill
+            .init("24.square"): [.ar, .hi], // SFSymbol._24Square
+            .init("24.square.fill"): [.ar, .hi], // SFSymbol._24SquareFill
+            .init("25.circle"): [.ar, .hi], // SFSymbol._25Circle
+            .init("25.circle.fill"): [.ar, .hi], // SFSymbol._25CircleFill
+            .init("25.square"): [.ar, .hi], // SFSymbol._25Square
+            .init("25.square.fill"): [.ar, .hi], // SFSymbol._25SquareFill
+            .init("26.circle"): [.ar, .hi], // SFSymbol._26Circle
+            .init("26.circle.fill"): [.ar, .hi], // SFSymbol._26CircleFill
+            .init("26.square"): [.ar, .hi], // SFSymbol._26Square
+            .init("26.square.fill"): [.ar, .hi], // SFSymbol._26SquareFill
+            .init("27.circle"): [.ar, .hi], // SFSymbol._27Circle
+            .init("27.circle.fill"): [.ar, .hi], // SFSymbol._27CircleFill
+            .init("27.square"): [.ar, .hi], // SFSymbol._27Square
+            .init("27.square.fill"): [.ar, .hi], // SFSymbol._27SquareFill
+            .init("28.circle"): [.ar, .hi], // SFSymbol._28Circle
+            .init("28.circle.fill"): [.ar, .hi], // SFSymbol._28CircleFill
+            .init("28.square"): [.ar, .hi], // SFSymbol._28Square
+            .init("28.square.fill"): [.ar, .hi], // SFSymbol._28SquareFill
+            .init("29.circle"): [.ar, .hi], // SFSymbol._29Circle
+            .init("29.circle.fill"): [.ar, .hi], // SFSymbol._29CircleFill
+            .init("29.square"): [.ar, .hi], // SFSymbol._29Square
+            .init("29.square.fill"): [.ar, .hi], // SFSymbol._29SquareFill
+            .init("30.circle"): [.ar, .hi], // SFSymbol._30Circle
+            .init("30.circle.fill"): [.ar, .hi], // SFSymbol._30CircleFill
+            .init("30.square"): [.ar, .hi], // SFSymbol._30Square
+            .init("30.square.fill"): [.ar, .hi], // SFSymbol._30SquareFill
+            .init("31.circle"): [.ar, .hi], // SFSymbol._31Circle
+            .init("31.circle.fill"): [.ar, .hi], // SFSymbol._31CircleFill
+            .init("31.square"): [.ar, .hi], // SFSymbol._31Square
+            .init("31.square.fill"): [.ar, .hi], // SFSymbol._31SquareFill
+            .init("32.circle"): [.ar, .hi], // SFSymbol._32Circle
+            .init("32.circle.fill"): [.ar, .hi], // SFSymbol._32CircleFill
+            .init("32.square"): [.ar, .hi], // SFSymbol._32Square
+            .init("32.square.fill"): [.ar, .hi], // SFSymbol._32SquareFill
+            .init("33.circle"): [.ar, .hi], // SFSymbol._33Circle
+            .init("33.circle.fill"): [.ar, .hi], // SFSymbol._33CircleFill
+            .init("33.square"): [.ar, .hi], // SFSymbol._33Square
+            .init("33.square.fill"): [.ar, .hi], // SFSymbol._33SquareFill
+            .init("34.circle"): [.ar, .hi], // SFSymbol._34Circle
+            .init("34.circle.fill"): [.ar, .hi], // SFSymbol._34CircleFill
+            .init("34.square"): [.ar, .hi], // SFSymbol._34Square
+            .init("34.square.fill"): [.ar, .hi], // SFSymbol._34SquareFill
+            .init("35.circle"): [.ar, .hi], // SFSymbol._35Circle
+            .init("35.circle.fill"): [.ar, .hi], // SFSymbol._35CircleFill
+            .init("35.square"): [.ar, .hi], // SFSymbol._35Square
+            .init("35.square.fill"): [.ar, .hi], // SFSymbol._35SquareFill
+            .init("36.circle"): [.ar, .hi], // SFSymbol._36Circle
+            .init("36.circle.fill"): [.ar, .hi], // SFSymbol._36CircleFill
+            .init("36.square"): [.ar, .hi], // SFSymbol._36Square
+            .init("36.square.fill"): [.ar, .hi], // SFSymbol._36SquareFill
+            .init("37.circle"): [.ar, .hi], // SFSymbol._37Circle
+            .init("37.circle.fill"): [.ar, .hi], // SFSymbol._37CircleFill
+            .init("37.square"): [.ar, .hi], // SFSymbol._37Square
+            .init("37.square.fill"): [.ar, .hi], // SFSymbol._37SquareFill
+            .init("38.circle"): [.ar, .hi], // SFSymbol._38Circle
+            .init("38.circle.fill"): [.ar, .hi], // SFSymbol._38CircleFill
+            .init("38.square"): [.ar, .hi], // SFSymbol._38Square
+            .init("38.square.fill"): [.ar, .hi], // SFSymbol._38SquareFill
+            .init("39.circle"): [.ar, .hi], // SFSymbol._39Circle
+            .init("39.circle.fill"): [.ar, .hi], // SFSymbol._39CircleFill
+            .init("39.square"): [.ar, .hi], // SFSymbol._39Square
+            .init("39.square.fill"): [.ar, .hi], // SFSymbol._39SquareFill
+            .init("40.circle"): [.ar, .hi], // SFSymbol._40Circle
+            .init("40.circle.fill"): [.ar, .hi], // SFSymbol._40CircleFill
+            .init("40.square"): [.ar, .hi], // SFSymbol._40Square
+            .init("40.square.fill"): [.ar, .hi], // SFSymbol._40SquareFill
+            .init("41.circle"): [.ar, .hi], // SFSymbol._41Circle
+            .init("41.circle.fill"): [.ar, .hi], // SFSymbol._41CircleFill
+            .init("41.square"): [.ar, .hi], // SFSymbol._41Square
+            .init("41.square.fill"): [.ar, .hi], // SFSymbol._41SquareFill
+            .init("42.circle"): [.ar, .hi], // SFSymbol._42Circle
+            .init("42.circle.fill"): [.ar, .hi], // SFSymbol._42CircleFill
+            .init("42.square"): [.ar, .hi], // SFSymbol._42Square
+            .init("42.square.fill"): [.ar, .hi], // SFSymbol._42SquareFill
+            .init("43.circle"): [.ar, .hi], // SFSymbol._43Circle
+            .init("43.circle.fill"): [.ar, .hi], // SFSymbol._43CircleFill
+            .init("43.square"): [.ar, .hi], // SFSymbol._43Square
+            .init("43.square.fill"): [.ar, .hi], // SFSymbol._43SquareFill
+            .init("44.circle"): [.ar, .hi], // SFSymbol._44Circle
+            .init("44.circle.fill"): [.ar, .hi], // SFSymbol._44CircleFill
+            .init("44.square"): [.ar, .hi], // SFSymbol._44Square
+            .init("44.square.fill"): [.ar, .hi], // SFSymbol._44SquareFill
+            .init("45.circle"): [.ar, .hi], // SFSymbol._45Circle
+            .init("45.circle.fill"): [.ar, .hi], // SFSymbol._45CircleFill
+            .init("45.square"): [.ar, .hi], // SFSymbol._45Square
+            .init("45.square.fill"): [.ar, .hi], // SFSymbol._45SquareFill
+            .init("46.circle"): [.ar, .hi], // SFSymbol._46Circle
+            .init("46.circle.fill"): [.ar, .hi], // SFSymbol._46CircleFill
+            .init("46.square"): [.ar, .hi], // SFSymbol._46Square
+            .init("46.square.fill"): [.ar, .hi], // SFSymbol._46SquareFill
+            .init("47.circle"): [.ar, .hi], // SFSymbol._47Circle
+            .init("47.circle.fill"): [.ar, .hi], // SFSymbol._47CircleFill
+            .init("47.square"): [.ar, .hi], // SFSymbol._47Square
+            .init("47.square.fill"): [.ar, .hi], // SFSymbol._47SquareFill
+            .init("48.circle"): [.ar, .hi], // SFSymbol._48Circle
+            .init("48.circle.fill"): [.ar, .hi], // SFSymbol._48CircleFill
+            .init("48.square"): [.ar, .hi], // SFSymbol._48Square
+            .init("48.square.fill"): [.ar, .hi], // SFSymbol._48SquareFill
+            .init("49.circle"): [.ar, .hi], // SFSymbol._49Circle
+            .init("49.circle.fill"): [.ar, .hi], // SFSymbol._49CircleFill
+            .init("49.square"): [.ar, .hi], // SFSymbol._49Square
+            .init("49.square.fill"): [.ar, .hi], // SFSymbol._49SquareFill
+            .init("50.circle"): [.ar, .hi], // SFSymbol._50Circle
+            .init("50.circle.fill"): [.ar, .hi], // SFSymbol._50CircleFill
+            .init("50.square"): [.ar, .hi], // SFSymbol._50Square
+            .init("50.square.fill"): [.ar, .hi], // SFSymbol._50SquareFill
+            .init("square.and.arrow.up.badge.clock"): [], // SFSymbol.squareAndArrowUpBadgeClock
+            .init("square.and.arrow.up.badge.clock.fill"): [] // SFSymbol.squareAndArrowUpBadgeClockFill
         ]
     }
 

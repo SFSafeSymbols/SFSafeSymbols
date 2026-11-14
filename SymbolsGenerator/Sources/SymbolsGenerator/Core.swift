@@ -253,12 +253,12 @@ class GeneratorCore {
                 var outputString = "\(baseAvailability)\n"
                 outputString += "public struct \(loc.structName(for: ava)): SymbolLocalization {\n"
                 outputString += "\t@usableFromInline\n"
-                outputString += "\tlet source: SFSymbol\n"
+                outputString += "\tlet source: SFSymbol\n\n"
                 outputString += "\t@_alwaysEmitIntoClient\n"
-                outputString += "\tpublic init(source: SFSymbol) { self.source = source }\n"
+                outputString += "\tpublic init(source: SFSymbol) { self.source = source }\n\n"
                 outputString += "\t@\(ava.availableExpression)\n"
                 outputString += "\t@_alwaysEmitIntoClient\n"
-                outputString += "\tpublic var \(loc.variableName): SFSymbol { .init(rawValue: \"\\(source.rawValue).\\(Localization.\(loc.variableName).rawValue)\") }\n"
+                outputString += "\tpublic var \(loc.variableName): SFSymbol { \(Self.rawValueExpression("\\(source.rawValue).\\(Localization.\(loc.variableName).rawValue)")) }\n"
                 outputString += "}"
                 return outputString
             }
@@ -301,16 +301,16 @@ class GeneratorCore {
             outputString += "\t@usableFromInline\n\t@_alwaysEmitIntoClient\n"
             outputString += "\tinternal static var localizationsAvailableSince\(availability.versionUnderscored): [SFSymbol : Set<Localization>] {\n"
             outputString += "\t\t["
-            outputString += symbolLocalizations
-                .sorted(using: KeyPathComparator(\.key.name))
-                .map {
-                    sym,
-                    loc -> String in
-                    let locSet = "[" + loc.map { "." + $0.variableName }.sorted().joined(
-                        separator: ", "
-                    ) + "]"
-                    return "\n\t\t\t" + sym.propertyName + ": " + locSet
-                }.joined(separator: ",") + "\n"
+            outputString += Self.tableEntries(
+                symbolLocalizations
+                    .sorted(using: KeyPathComparator(\.key.name))
+                    .map { sym, loc in
+                        let locSet = "[" + loc.map { "." + $0.variableName }.sorted().joined(
+                            separator: ", "
+                        ) + "]"
+                        return (Self.rawValueExpression(sym.name) + ": " + locSet, sym.propertyName)
+                    }
+            ) + "\n"
             outputString += "\t\t]\n"
             outputString += "\t}\n"
 
@@ -320,9 +320,9 @@ class GeneratorCore {
                 outputString += "\t@usableFromInline\n\t@_alwaysEmitIntoClient\n"
                 outputString += "\tinternal static var symbolsDeprecatedSince\(availability.versionUnderscored): Set<SFSymbol> {\n"
                 outputString += "\t\t["
-                outputString += symbolsDeprecatedSinceThisAvailability
-                    .map { "\n\t\t\t" + $0.toPropertyName }
-                    .joined(separator: ",")
+                outputString += Self.tableEntries(
+                    symbolsDeprecatedSinceThisAvailability.map { (Self.rawValueExpression($0), $0.toPropertyName) }
+                )
                 outputString += symbolsDeprecatedSinceThisAvailability.isNotEmpty ? "\n\t\t" : ""
                 outputString += "]\n"
                 outputString += "\t}\n"
@@ -580,7 +580,7 @@ class GeneratorCore {
         }
         let variadics = structNames.isNotEmpty ? "<\(structNames.joined(separator: ", "))>" : ""
 
-        outputString += "\t@_alwaysEmitIntoClient\n\tstatic var \(symbol.propertyName): \(nonVariadicClassName(localizationCount-1))\(variadics) { .init(rawValue: \"\(symbol.name)\") }"
+        outputString += "\t@_alwaysEmitIntoClient\n\tstatic var \(symbol.propertyName): \(nonVariadicClassName(localizationCount-1))\(variadics) { \(Self.rawValueExpression(symbol.name)) }"
 
         return outputString
     }
@@ -614,6 +614,20 @@ class GeneratorCore {
             case .release(let tag):
                 return make("SFSafeSymbols", "tags/\(tag)")
         }
+    }
+
+    /// Table lines, each followed by a comment that points to the symbol's getter.
+    private static func tableEntries(_ entries: [(code: String, propertyName: String)]) -> String {
+        entries.enumerated().map { index, entry in
+            let separator = index == entries.count - 1 ? "" : ","
+            return "\n\t\t\t" + entry.code + separator + " // SFSymbol." + entry.propertyName
+        }.joined()
+    }
+
+    /// The expression that creates a symbol from its raw value. The symbol and localization getters use it, and so do
+    /// the generated tables, where referencing deprecated symbols by name would cause deprecation warnings.
+    private static func rawValueExpression(_ rawValue: String) -> String {
+        ".init(\"\(rawValue)\")"
     }
 
     private static func symbolToPNG(_ symbol: Symbol, imagesDir: URL) async throws {

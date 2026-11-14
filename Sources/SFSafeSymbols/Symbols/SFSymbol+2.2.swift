@@ -18,7 +18,7 @@ public extension SFSymbol {
     @available(watchOS, introduced: 7.4, deprecated: 11.0, renamed: "airpodsMax")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "airpodsMax")
     @_alwaysEmitIntoClient
-    static var airpodsmax: SFSymbol { .init(rawValue: "airpodsmax") }
+    static var airpodsmax: SFSymbol { .init("airpodsmax") }
 
     /// 􀸎
     /// ![applewatch.side.right](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/applewatch.side.right.png)
@@ -30,7 +30,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
     @_alwaysEmitIntoClient
-    static var applewatchSideRight: SFSymbol { .init(rawValue: "applewatch.side.right") }
+    static var applewatchSideRight: SFSymbol { .init("applewatch.side.right") }
 
     /// 􀌰
     /// ![character.bubble](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/character.bubble.png)
@@ -62,7 +62,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     @_alwaysEmitIntoClient
-    static var characterBubble: SymbolWith19Localizations<Ar, Bn_v7, Gu_v7, He, Hi_v3, Ja_v3, Kn_v7, Ko_v3, Ml_v7, Mni_v7, Mr_v7, Or_v7, Pa_v7, Sat_v7, Si_v7, Ta_v7, Te_v7, Th_v3, Zh_v3> { .init(rawValue: "character.bubble") }
+    static var characterBubble: SymbolWith19Localizations<Ar, Bn_v7, Gu_v7, He, Hi_v3, Ja_v3, Kn_v7, Ko_v3, Ml_v7, Mni_v7, Mr_v7, Or_v7, Pa_v7, Sat_v7, Si_v7, Ta_v7, Te_v7, Th_v3, Zh_v3> { .init("character.bubble") }
 
     /// 􀌱
     /// ![character.bubble.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/character.bubble.fill.png)
@@ -95,7 +95,7 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
-    static var characterBubbleFill: SymbolWith19Localizations<Ar, Bn_v7, Gu_v7, He, Hi_v3, Ja_v3, Kn_v7, Ko_v3, Ml_v7, Mni_v7, Mr_v7, Or_v7, Pa_v7, Sat_v7, Si_v7, Ta_v7, Te_v7, Th_v3, Zh_v3> { .init(rawValue: "character.bubble.fill") }
+    static var characterBubbleFill: SymbolWith19Localizations<Ar, Bn_v7, Gu_v7, He, Hi_v3, Ja_v3, Kn_v7, Ko_v3, Ml_v7, Mni_v7, Mr_v7, Or_v7, Pa_v7, Sat_v7, Si_v7, Ta_v7, Te_v7, Th_v3, Zh_v3> { .init("character.bubble.fill") }
 
     /// 􀅫
     /// ![character.cursor.ibeam](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/character.cursor.ibeam.png)
@@ -127,7 +127,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     @_alwaysEmitIntoClient
-    static var characterCursorIbeam: SymbolWith19Localizations<Ar, Bn_v6_3, Gu_v6_3, He, Hi, Ja, Kn_v6_3, Ko, Ml_v6_3, Mni_v6_3, Mr_v6_3, Or_v6_3, Pa_v6_3, Sat_v6_3, Si_v6_3, Ta_v6_3, Te_v6_3, Th, Zh> { .init(rawValue: "character.cursor.ibeam") }
+    static var characterCursorIbeam: SymbolWith19Localizations<Ar, Bn_v6_3, Gu_v6_3, He, Hi, Ja, Kn_v6_3, Ko, Ml_v6_3, Mni_v6_3, Mr_v6_3, Or_v6_3, Pa_v6_3, Sat_v6_3, Si_v6_3, Ta_v6_3, Te_v6_3, Th, Zh> { .init("character.cursor.ibeam") }
 
     /// 􀅶
     /// ![character.textbox](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/character.textbox.png)
@@ -158,7 +158,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     @_alwaysEmitIntoClient
-    static var characterTextbox: SymbolWith18Localizations<Ar, Bn_v6_3, Gu_v6_3, He, Hi, Ja, Kn_v6_3, Ko, Ml_v6_3, Mni_v6_3, Mr_v6_3, Or_v6_3, Pa_v6_3, Sat_v6_3, Si_v6_3, Ta_v6_3, Th, Zh> { .init(rawValue: "character.textbox") }
+    static var characterTextbox: SymbolWith18Localizations<Ar, Bn_v6_3, Gu_v6_3, He, Hi, Ja, Kn_v6_3, Ko, Ml_v6_3, Mni_v6_3, Mr_v6_3, Or_v6_3, Pa_v6_3, Sat_v6_3, Si_v6_3, Ta_v6_3, Th, Zh> { .init("character.textbox") }
 
     /// 􀷭
     /// ![hifispeaker.and.homepodmini](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hifispeaker.and.homepodmini.png)
@@ -175,7 +175,7 @@ public extension SFSymbol {
     @available(watchOS, introduced: 7.4, deprecated: 11.0, renamed: "hifispeakerAndHomepodMini")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "hifispeakerAndHomepodMini")
     @_alwaysEmitIntoClient
-    static var hifispeakerAndHomepodmini: SFSymbol { .init(rawValue: "hifispeaker.and.homepodmini") }
+    static var hifispeakerAndHomepodmini: SFSymbol { .init("hifispeaker.and.homepodmini") }
 
     /// 􀷮
     /// ![hifispeaker.and.homepodmini.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hifispeaker.and.homepodmini.fill.png)
@@ -192,7 +192,7 @@ public extension SFSymbol {
     @available(watchOS, introduced: 7.4, deprecated: 11.0, renamed: "hifispeakerAndHomepodMiniFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "hifispeakerAndHomepodMiniFill")
     @_alwaysEmitIntoClient
-    static var hifispeakerAndHomepodminiFill: SFSymbol { .init(rawValue: "hifispeaker.and.homepodmini.fill") }
+    static var hifispeakerAndHomepodminiFill: SFSymbol { .init("hifispeaker.and.homepodmini.fill") }
 
     /// 􀷫
     /// ![homepod.and.homepodmini](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepod.and.homepodmini.png)
@@ -209,7 +209,7 @@ public extension SFSymbol {
     @available(watchOS, introduced: 7.4, deprecated: 11.0, renamed: "homepodAndHomepodMini")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "homepodAndHomepodMini")
     @_alwaysEmitIntoClient
-    static var homepodAndHomepodmini: SFSymbol { .init(rawValue: "homepod.and.homepodmini") }
+    static var homepodAndHomepodmini: SFSymbol { .init("homepod.and.homepodmini") }
 
     /// 􀷬
     /// ![homepod.and.homepodmini.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepod.and.homepodmini.fill.png)
@@ -226,7 +226,7 @@ public extension SFSymbol {
     @available(watchOS, introduced: 7.4, deprecated: 11.0, renamed: "homepodAndHomepodMiniFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "homepodAndHomepodMiniFill")
     @_alwaysEmitIntoClient
-    static var homepodAndHomepodminiFill: SFSymbol { .init(rawValue: "homepod.and.homepodmini.fill") }
+    static var homepodAndHomepodminiFill: SFSymbol { .init("homepod.and.homepodmini.fill") }
 
     /// 􀷧
     /// ![homepodmini](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepodmini.png)
@@ -243,7 +243,7 @@ public extension SFSymbol {
     @available(watchOS, introduced: 7.4, deprecated: 11.0, renamed: "homepodMini")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "homepodMini")
     @_alwaysEmitIntoClient
-    static var homepodmini: SFSymbol { .init(rawValue: "homepodmini") }
+    static var homepodmini: SFSymbol { .init("homepodmini") }
 
     /// 􀷩
     /// ![homepodmini.2](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepodmini.2.png)
@@ -260,7 +260,7 @@ public extension SFSymbol {
     @available(watchOS, introduced: 7.4, deprecated: 11.0, renamed: "homepodMini2")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "homepodMini2")
     @_alwaysEmitIntoClient
-    static var homepodmini2: SFSymbol { .init(rawValue: "homepodmini.2") }
+    static var homepodmini2: SFSymbol { .init("homepodmini.2") }
 
     /// 􀷪
     /// ![homepodmini.2.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepodmini.2.fill.png)
@@ -277,7 +277,7 @@ public extension SFSymbol {
     @available(watchOS, introduced: 7.4, deprecated: 11.0, renamed: "homepodMini2Fill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "homepodMini2Fill")
     @_alwaysEmitIntoClient
-    static var homepodmini2Fill: SFSymbol { .init(rawValue: "homepodmini.2.fill") }
+    static var homepodmini2Fill: SFSymbol { .init("homepodmini.2.fill") }
 
     /// 􀷨
     /// ![homepodmini.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepodmini.fill.png)
@@ -294,7 +294,7 @@ public extension SFSymbol {
     @available(watchOS, introduced: 7.4, deprecated: 11.0, renamed: "homepodMiniFill")
     @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "homepodMiniFill")
     @_alwaysEmitIntoClient
-    static var homepodminiFill: SFSymbol { .init(rawValue: "homepodmini.fill") }
+    static var homepodminiFill: SFSymbol { .init("homepodmini.fill") }
 
     /// 􀴊
     /// ![rectangle.topthird.inset.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.topthird.inset.fill.png)
@@ -308,5 +308,5 @@ public extension SFSymbol {
     @available(watchOS, introduced: 7.4, deprecated: 8.0, renamed: "rectangleTopthirdInsetFilled")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "rectangleTopthirdInsetFilled")
     @_alwaysEmitIntoClient
-    static var rectangleTopthirdInsetFill: SFSymbol { .init(rawValue: "rectangle.topthird.inset.fill") }
+    static var rectangleTopthirdInsetFill: SFSymbol { .init("rectangle.topthird.inset.fill") }
 }

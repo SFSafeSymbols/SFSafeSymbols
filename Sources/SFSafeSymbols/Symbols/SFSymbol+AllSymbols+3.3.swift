@@ -6,13 +6,13 @@ extension SFSymbol {
     @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince3_3: [SFSymbol : Set<Localization>] {
         [
-            cameraMacro: [],
-            cameraMacroCircle: [],
-            cameraMacroCircleFill: [],
-            dotsAndLineVerticalAndCursorarrowRectangle: [],
-            keyViewfinder: [],
-            personBadgeKey: [],
-            personBadgeKeyFill: []
+            .init("camera.macro"): [], // SFSymbol.cameraMacro
+            .init("camera.macro.circle"): [], // SFSymbol.cameraMacroCircle
+            .init("camera.macro.circle.fill"): [], // SFSymbol.cameraMacroCircleFill
+            .init("dots.and.line.vertical.and.cursorarrow.rectangle"): [], // SFSymbol.dotsAndLineVerticalAndCursorarrowRectangle
+            .init("key.viewfinder"): [], // SFSymbol.keyViewfinder
+            .init("person.badge.key"): [], // SFSymbol.personBadgeKey
+            .init("person.badge.key.fill"): [] // SFSymbol.personBadgeKeyFill
         ]
     }
 

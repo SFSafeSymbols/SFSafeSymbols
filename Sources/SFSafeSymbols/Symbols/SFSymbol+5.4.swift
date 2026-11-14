@@ -12,7 +12,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Pill.
     @_alwaysEmitIntoClient
-    static var beatsPill: SFSymbol { .init(rawValue: "beats.pill") }
+    static var beatsPill: SFSymbol { .init("beats.pill") }
 
     /// 􂟋
     /// ![beats.pill.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.pill.fill.png)
@@ -23,7 +23,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Pill.
     @_alwaysEmitIntoClient
-    static var beatsPillFill: SFSymbol { .init(rawValue: "beats.pill.fill") }
+    static var beatsPillFill: SFSymbol { .init("beats.pill.fill") }
 
     /// 􂟌
     /// ![beats.solobuds](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.solobuds.png)
@@ -35,7 +35,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds.
     @_alwaysEmitIntoClient
-    static var beatsSolobuds: SFSymbol { .init(rawValue: "beats.solobuds") }
+    static var beatsSolobuds: SFSymbol { .init("beats.solobuds") }
 
     /// 􂟏
     /// ![beats.solobuds.chargingcase](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.solobuds.chargingcase.png)
@@ -46,7 +46,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds case.
     @_alwaysEmitIntoClient
-    static var beatsSolobudsChargingcase: SFSymbol { .init(rawValue: "beats.solobuds.chargingcase") }
+    static var beatsSolobudsChargingcase: SFSymbol { .init("beats.solobuds.chargingcase") }
 
     /// 􂟐
     /// ![beats.solobuds.chargingcase.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.solobuds.chargingcase.fill.png)
@@ -57,7 +57,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds case.
     @_alwaysEmitIntoClient
-    static var beatsSolobudsChargingcaseFill: SFSymbol { .init(rawValue: "beats.solobuds.chargingcase.fill") }
+    static var beatsSolobudsChargingcaseFill: SFSymbol { .init("beats.solobuds.chargingcase.fill") }
 
     /// 􂟎
     /// ![beats.solobuds.left](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.solobuds.left.png)
@@ -69,7 +69,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds.
     @_alwaysEmitIntoClient
-    static var beatsSolobudsLeft: SFSymbol { .init(rawValue: "beats.solobuds.left") }
+    static var beatsSolobudsLeft: SFSymbol { .init("beats.solobuds.left") }
 
     /// 􂟍
     /// ![beats.solobuds.right](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.solobuds.right.png)
@@ -81,5 +81,5 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds.
     @_alwaysEmitIntoClient
-    static var beatsSolobudsRight: SFSymbol { .init(rawValue: "beats.solobuds.right") }
+    static var beatsSolobudsRight: SFSymbol { .init("beats.solobuds.right") }
 }

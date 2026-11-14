@@ -6,12 +6,12 @@ extension SFSymbol {
     @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince6_4: [SFSymbol : Set<Localization>] {
         [
-            appleIntelligenceBadgeXmark: [],
-            beatsPowerbeatsPro2: [],
-            beatsPowerbeatsPro2Chargingcase: [],
-            beatsPowerbeatsPro2ChargingcaseFill: [],
-            beatsPowerbeatsPro2Left: [],
-            beatsPowerbeatsPro2Right: []
+            .init("apple.intelligence.badge.xmark"): [], // SFSymbol.appleIntelligenceBadgeXmark
+            .init("beats.powerbeats.pro.2"): [], // SFSymbol.beatsPowerbeatsPro2
+            .init("beats.powerbeats.pro.2.chargingcase"): [], // SFSymbol.beatsPowerbeatsPro2Chargingcase
+            .init("beats.powerbeats.pro.2.chargingcase.fill"): [], // SFSymbol.beatsPowerbeatsPro2ChargingcaseFill
+            .init("beats.powerbeats.pro.2.left"): [], // SFSymbol.beatsPowerbeatsPro2Left
+            .init("beats.powerbeats.pro.2.right"): [] // SFSymbol.beatsPowerbeatsPro2Right
         ]
     }
 

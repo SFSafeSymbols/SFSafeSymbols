@@ -26,4 +26,4 @@ class CodableTests: XCTestCase {
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
-extension SFSymbol: Codable { }
+extension SFSafeSymbols.SFSymbol: Swift.Codable { }

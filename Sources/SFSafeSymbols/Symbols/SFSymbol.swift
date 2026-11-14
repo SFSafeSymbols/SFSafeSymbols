@@ -12,6 +12,14 @@ public class SFSymbol: RawRepresentable, Equatable, Hashable, @unchecked Sendabl
     }
 }
 
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+extension SFSymbol {
+    @usableFromInline
+    internal convenience init(_ rawValue: String) {
+        self.init(rawValue: rawValue)
+    }
+}
+
 // MARK: Dynamic Localization
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
@@ -31,7 +39,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     func localized(to localization: Localization) -> SFSymbol? {
         if has(localization: localization) {
-            return SFSymbol(rawValue: "\(rawValue).\(localization.rawValue)")
+            return SFSymbol("\(rawValue).\(localization.rawValue)")
         } else {
             return nil
         }

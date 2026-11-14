@@ -6,21 +6,21 @@ extension SFSymbol {
     @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince2_2: [SFSymbol : Set<Localization>] {
         [
-            airpodsmax: [],
-            applewatchSideRight: [],
-            characterBubble: [.ar, .he],
-            characterBubbleFill: [.ar, .he],
-            characterCursorIbeam: [.ar, .he, .hi, .ja, .ko, .th, .zh],
-            characterTextbox: [.ar, .he, .hi, .ja, .ko, .th, .zh],
-            hifispeakerAndHomepodmini: [],
-            hifispeakerAndHomepodminiFill: [],
-            homepodAndHomepodmini: [],
-            homepodAndHomepodminiFill: [],
-            homepodmini: [],
-            homepodmini2: [],
-            homepodmini2Fill: [],
-            homepodminiFill: [],
-            rectangleTopthirdInsetFill: []
+            .init("airpodsmax"): [], // SFSymbol.airpodsmax
+            .init("applewatch.side.right"): [], // SFSymbol.applewatchSideRight
+            .init("character.bubble"): [.ar, .he], // SFSymbol.characterBubble
+            .init("character.bubble.fill"): [.ar, .he], // SFSymbol.characterBubbleFill
+            .init("character.cursor.ibeam"): [.ar, .he, .hi, .ja, .ko, .th, .zh], // SFSymbol.characterCursorIbeam
+            .init("character.textbox"): [.ar, .he, .hi, .ja, .ko, .th, .zh], // SFSymbol.characterTextbox
+            .init("hifispeaker.and.homepodmini"): [], // SFSymbol.hifispeakerAndHomepodmini
+            .init("hifispeaker.and.homepodmini.fill"): [], // SFSymbol.hifispeakerAndHomepodminiFill
+            .init("homepod.and.homepodmini"): [], // SFSymbol.homepodAndHomepodmini
+            .init("homepod.and.homepodmini.fill"): [], // SFSymbol.homepodAndHomepodminiFill
+            .init("homepodmini"): [], // SFSymbol.homepodmini
+            .init("homepodmini.2"): [], // SFSymbol.homepodmini2
+            .init("homepodmini.2.fill"): [], // SFSymbol.homepodmini2Fill
+            .init("homepodmini.fill"): [], // SFSymbol.homepodminiFill
+            .init("rectangle.topthird.inset.fill"): [] // SFSymbol.rectangleTopthirdInsetFill
         ]
     }
 
@@ -28,11 +28,11 @@ extension SFSymbol {
     @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince2_2: Set<SFSymbol> {
         [
-            rectangleTopthirdInset,
-            tBubble,
-            tBubbleFill,
-            textCursor,
-            textbox
+            .init("rectangle.topthird.inset"), // SFSymbol.rectangleTopthirdInset
+            .init("t.bubble"), // SFSymbol.tBubble
+            .init("t.bubble.fill"), // SFSymbol.tBubbleFill
+            .init("text.cursor"), // SFSymbol.textCursor
+            .init("textbox") // SFSymbol.textbox
         ]
     }
 }

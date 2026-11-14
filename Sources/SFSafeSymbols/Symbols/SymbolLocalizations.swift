@@ -33,1263 +33,1493 @@ public enum Localization: String, Equatable, Sendable {
 public struct Ar: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var ar: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ar.rawValue)") }
+    public var ar: SFSymbol { .init("\(source.rawValue).\(Localization.ar.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ar_v2: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var ar: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ar.rawValue)") }
+    public var ar: SFSymbol { .init("\(source.rawValue).\(Localization.ar.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ar_v2_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var ar: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ar.rawValue)") }
+    public var ar: SFSymbol { .init("\(source.rawValue).\(Localization.ar.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ar_v3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var ar: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ar.rawValue)") }
+    public var ar: SFSymbol { .init("\(source.rawValue).\(Localization.ar.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ar_v4_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 16.1, macOS 13.0, tvOS 16.1, watchOS 9.1, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var ar: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ar.rawValue)") }
+    public var ar: SFSymbol { .init("\(source.rawValue).\(Localization.ar.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ar_v4_2: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var ar: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ar.rawValue)") }
+    public var ar: SFSymbol { .init("\(source.rawValue).\(Localization.ar.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ar_v5_2: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 17.2, macOS 14.2, tvOS 17.2, watchOS 10.2, visionOS 1.1, *)
     @_alwaysEmitIntoClient
-    public var ar: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ar.rawValue)") }
+    public var ar: SFSymbol { .init("\(source.rawValue).\(Localization.ar.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ar_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var ar: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ar.rawValue)") }
+    public var ar: SFSymbol { .init("\(source.rawValue).\(Localization.ar.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ar_v6_2: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.2, macOS 15.2, tvOS 18.2, watchOS 11.2, visionOS 2.2, *)
     @_alwaysEmitIntoClient
-    public var ar: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ar.rawValue)") }
+    public var ar: SFSymbol { .init("\(source.rawValue).\(Localization.ar.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ar_v6_3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
     @_alwaysEmitIntoClient
-    public var ar: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ar.rawValue)") }
+    public var ar: SFSymbol { .init("\(source.rawValue).\(Localization.ar.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Bn: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var bn: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.bn.rawValue)") }
+    public var bn: SFSymbol { .init("\(source.rawValue).\(Localization.bn.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Bn_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var bn: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.bn.rawValue)") }
+    public var bn: SFSymbol { .init("\(source.rawValue).\(Localization.bn.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Bn_v6_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1, visionOS 2.1, *)
     @_alwaysEmitIntoClient
-    public var bn: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.bn.rawValue)") }
+    public var bn: SFSymbol { .init("\(source.rawValue).\(Localization.bn.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Bn_v6_3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
     @_alwaysEmitIntoClient
-    public var bn: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.bn.rawValue)") }
+    public var bn: SFSymbol { .init("\(source.rawValue).\(Localization.bn.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Bn_v7: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_alwaysEmitIntoClient
-    public var bn: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.bn.rawValue)") }
+    public var bn: SFSymbol { .init("\(source.rawValue).\(Localization.bn.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct El: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var el: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.el.rawValue)") }
+    public var el: SFSymbol { .init("\(source.rawValue).\(Localization.el.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct El_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var el: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.el.rawValue)") }
+    public var el: SFSymbol { .init("\(source.rawValue).\(Localization.el.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Gu: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var gu: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.gu.rawValue)") }
+    public var gu: SFSymbol { .init("\(source.rawValue).\(Localization.gu.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Gu_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var gu: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.gu.rawValue)") }
+    public var gu: SFSymbol { .init("\(source.rawValue).\(Localization.gu.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Gu_v6_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1, visionOS 2.1, *)
     @_alwaysEmitIntoClient
-    public var gu: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.gu.rawValue)") }
+    public var gu: SFSymbol { .init("\(source.rawValue).\(Localization.gu.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Gu_v6_3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
     @_alwaysEmitIntoClient
-    public var gu: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.gu.rawValue)") }
+    public var gu: SFSymbol { .init("\(source.rawValue).\(Localization.gu.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Gu_v7: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_alwaysEmitIntoClient
-    public var gu: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.gu.rawValue)") }
+    public var gu: SFSymbol { .init("\(source.rawValue).\(Localization.gu.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct He: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var he: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.he.rawValue)") }
+    public var he: SFSymbol { .init("\(source.rawValue).\(Localization.he.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct He_v2: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var he: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.he.rawValue)") }
+    public var he: SFSymbol { .init("\(source.rawValue).\(Localization.he.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct He_v2_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var he: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.he.rawValue)") }
+    public var he: SFSymbol { .init("\(source.rawValue).\(Localization.he.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct He_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var he: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.he.rawValue)") }
+    public var he: SFSymbol { .init("\(source.rawValue).\(Localization.he.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Hi: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var hi: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.hi.rawValue)") }
+    public var hi: SFSymbol { .init("\(source.rawValue).\(Localization.hi.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Hi_v2: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var hi: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.hi.rawValue)") }
+    public var hi: SFSymbol { .init("\(source.rawValue).\(Localization.hi.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Hi_v2_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var hi: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.hi.rawValue)") }
+    public var hi: SFSymbol { .init("\(source.rawValue).\(Localization.hi.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Hi_v3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var hi: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.hi.rawValue)") }
+    public var hi: SFSymbol { .init("\(source.rawValue).\(Localization.hi.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Hi_v4_2: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var hi: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.hi.rawValue)") }
+    public var hi: SFSymbol { .init("\(source.rawValue).\(Localization.hi.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Hi_v5_2: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 17.2, macOS 14.2, tvOS 17.2, watchOS 10.2, visionOS 1.1, *)
     @_alwaysEmitIntoClient
-    public var hi: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.hi.rawValue)") }
+    public var hi: SFSymbol { .init("\(source.rawValue).\(Localization.hi.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Hi_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var hi: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.hi.rawValue)") }
+    public var hi: SFSymbol { .init("\(source.rawValue).\(Localization.hi.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ja: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var ja: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ja.rawValue)") }
+    public var ja: SFSymbol { .init("\(source.rawValue).\(Localization.ja.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ja_v2: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var ja: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ja.rawValue)") }
+    public var ja: SFSymbol { .init("\(source.rawValue).\(Localization.ja.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ja_v2_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var ja: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ja.rawValue)") }
+    public var ja: SFSymbol { .init("\(source.rawValue).\(Localization.ja.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ja_v3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var ja: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ja.rawValue)") }
+    public var ja: SFSymbol { .init("\(source.rawValue).\(Localization.ja.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ja_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var ja: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ja.rawValue)") }
+    public var ja: SFSymbol { .init("\(source.rawValue).\(Localization.ja.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Km: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var km: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.km.rawValue)") }
+    public var km: SFSymbol { .init("\(source.rawValue).\(Localization.km.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Km_v5: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var km: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.km.rawValue)") }
+    public var km: SFSymbol { .init("\(source.rawValue).\(Localization.km.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Km_v7: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_alwaysEmitIntoClient
-    public var km: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.km.rawValue)") }
+    public var km: SFSymbol { .init("\(source.rawValue).\(Localization.km.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Kn: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var kn: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.kn.rawValue)") }
+    public var kn: SFSymbol { .init("\(source.rawValue).\(Localization.kn.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Kn_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var kn: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.kn.rawValue)") }
+    public var kn: SFSymbol { .init("\(source.rawValue).\(Localization.kn.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Kn_v6_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1, visionOS 2.1, *)
     @_alwaysEmitIntoClient
-    public var kn: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.kn.rawValue)") }
+    public var kn: SFSymbol { .init("\(source.rawValue).\(Localization.kn.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Kn_v6_3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
     @_alwaysEmitIntoClient
-    public var kn: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.kn.rawValue)") }
+    public var kn: SFSymbol { .init("\(source.rawValue).\(Localization.kn.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Kn_v7: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_alwaysEmitIntoClient
-    public var kn: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.kn.rawValue)") }
+    public var kn: SFSymbol { .init("\(source.rawValue).\(Localization.kn.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ko: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var ko: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ko.rawValue)") }
+    public var ko: SFSymbol { .init("\(source.rawValue).\(Localization.ko.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ko_v2: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var ko: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ko.rawValue)") }
+    public var ko: SFSymbol { .init("\(source.rawValue).\(Localization.ko.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ko_v2_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var ko: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ko.rawValue)") }
+    public var ko: SFSymbol { .init("\(source.rawValue).\(Localization.ko.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ko_v3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var ko: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ko.rawValue)") }
+    public var ko: SFSymbol { .init("\(source.rawValue).\(Localization.ko.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ko_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var ko: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ko.rawValue)") }
+    public var ko: SFSymbol { .init("\(source.rawValue).\(Localization.ko.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ml: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var ml: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ml.rawValue)") }
+    public var ml: SFSymbol { .init("\(source.rawValue).\(Localization.ml.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ml_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var ml: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ml.rawValue)") }
+    public var ml: SFSymbol { .init("\(source.rawValue).\(Localization.ml.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ml_v6_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1, visionOS 2.1, *)
     @_alwaysEmitIntoClient
-    public var ml: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ml.rawValue)") }
+    public var ml: SFSymbol { .init("\(source.rawValue).\(Localization.ml.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ml_v6_3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
     @_alwaysEmitIntoClient
-    public var ml: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ml.rawValue)") }
+    public var ml: SFSymbol { .init("\(source.rawValue).\(Localization.ml.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ml_v7: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_alwaysEmitIntoClient
-    public var ml: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ml.rawValue)") }
+    public var ml: SFSymbol { .init("\(source.rawValue).\(Localization.ml.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Mni: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var mni: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.mni.rawValue)") }
+    public var mni: SFSymbol { .init("\(source.rawValue).\(Localization.mni.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Mni_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var mni: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.mni.rawValue)") }
+    public var mni: SFSymbol { .init("\(source.rawValue).\(Localization.mni.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Mni_v6_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1, visionOS 2.1, *)
     @_alwaysEmitIntoClient
-    public var mni: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.mni.rawValue)") }
+    public var mni: SFSymbol { .init("\(source.rawValue).\(Localization.mni.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Mni_v6_3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
     @_alwaysEmitIntoClient
-    public var mni: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.mni.rawValue)") }
+    public var mni: SFSymbol { .init("\(source.rawValue).\(Localization.mni.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Mni_v7: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_alwaysEmitIntoClient
-    public var mni: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.mni.rawValue)") }
+    public var mni: SFSymbol { .init("\(source.rawValue).\(Localization.mni.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Mr: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var mr: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.mr.rawValue)") }
+    public var mr: SFSymbol { .init("\(source.rawValue).\(Localization.mr.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Mr_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var mr: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.mr.rawValue)") }
+    public var mr: SFSymbol { .init("\(source.rawValue).\(Localization.mr.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Mr_v6_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1, visionOS 2.1, *)
     @_alwaysEmitIntoClient
-    public var mr: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.mr.rawValue)") }
+    public var mr: SFSymbol { .init("\(source.rawValue).\(Localization.mr.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Mr_v6_3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
     @_alwaysEmitIntoClient
-    public var mr: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.mr.rawValue)") }
+    public var mr: SFSymbol { .init("\(source.rawValue).\(Localization.mr.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Mr_v7: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_alwaysEmitIntoClient
-    public var mr: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.mr.rawValue)") }
+    public var mr: SFSymbol { .init("\(source.rawValue).\(Localization.mr.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct My: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var my: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.my.rawValue)") }
+    public var my: SFSymbol { .init("\(source.rawValue).\(Localization.my.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct My_v5: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var my: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.my.rawValue)") }
+    public var my: SFSymbol { .init("\(source.rawValue).\(Localization.my.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct My_v7: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_alwaysEmitIntoClient
-    public var my: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.my.rawValue)") }
+    public var my: SFSymbol { .init("\(source.rawValue).\(Localization.my.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Or: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var or: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.or.rawValue)") }
+    public var or: SFSymbol { .init("\(source.rawValue).\(Localization.or.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Or_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var or: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.or.rawValue)") }
+    public var or: SFSymbol { .init("\(source.rawValue).\(Localization.or.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Or_v6_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1, visionOS 2.1, *)
     @_alwaysEmitIntoClient
-    public var or: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.or.rawValue)") }
+    public var or: SFSymbol { .init("\(source.rawValue).\(Localization.or.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Or_v6_3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
     @_alwaysEmitIntoClient
-    public var or: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.or.rawValue)") }
+    public var or: SFSymbol { .init("\(source.rawValue).\(Localization.or.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Or_v7: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_alwaysEmitIntoClient
-    public var or: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.or.rawValue)") }
+    public var or: SFSymbol { .init("\(source.rawValue).\(Localization.or.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Pa: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var pa: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.pa.rawValue)") }
+    public var pa: SFSymbol { .init("\(source.rawValue).\(Localization.pa.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Pa_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var pa: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.pa.rawValue)") }
+    public var pa: SFSymbol { .init("\(source.rawValue).\(Localization.pa.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Pa_v6_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1, visionOS 2.1, *)
     @_alwaysEmitIntoClient
-    public var pa: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.pa.rawValue)") }
+    public var pa: SFSymbol { .init("\(source.rawValue).\(Localization.pa.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Pa_v6_3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
     @_alwaysEmitIntoClient
-    public var pa: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.pa.rawValue)") }
+    public var pa: SFSymbol { .init("\(source.rawValue).\(Localization.pa.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Pa_v7: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_alwaysEmitIntoClient
-    public var pa: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.pa.rawValue)") }
+    public var pa: SFSymbol { .init("\(source.rawValue).\(Localization.pa.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Rtl: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var rtl: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.rtl.rawValue)") }
+    public var rtl: SFSymbol { .init("\(source.rawValue).\(Localization.rtl.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Rtl_v2: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var rtl: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.rtl.rawValue)") }
+    public var rtl: SFSymbol { .init("\(source.rawValue).\(Localization.rtl.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Rtl_v2_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var rtl: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.rtl.rawValue)") }
+    public var rtl: SFSymbol { .init("\(source.rawValue).\(Localization.rtl.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Rtl_v4: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var rtl: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.rtl.rawValue)") }
+    public var rtl: SFSymbol { .init("\(source.rawValue).\(Localization.rtl.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Rtl_v5: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var rtl: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.rtl.rawValue)") }
+    public var rtl: SFSymbol { .init("\(source.rawValue).\(Localization.rtl.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ru: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var ru: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ru.rawValue)") }
+    public var ru: SFSymbol { .init("\(source.rawValue).\(Localization.ru.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Sat: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var sat: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.sat.rawValue)") }
+    public var sat: SFSymbol { .init("\(source.rawValue).\(Localization.sat.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Sat_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var sat: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.sat.rawValue)") }
+    public var sat: SFSymbol { .init("\(source.rawValue).\(Localization.sat.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Sat_v6_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1, visionOS 2.1, *)
     @_alwaysEmitIntoClient
-    public var sat: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.sat.rawValue)") }
+    public var sat: SFSymbol { .init("\(source.rawValue).\(Localization.sat.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Sat_v6_3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
     @_alwaysEmitIntoClient
-    public var sat: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.sat.rawValue)") }
+    public var sat: SFSymbol { .init("\(source.rawValue).\(Localization.sat.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Sat_v7: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_alwaysEmitIntoClient
-    public var sat: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.sat.rawValue)") }
+    public var sat: SFSymbol { .init("\(source.rawValue).\(Localization.sat.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Si: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var si: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.si.rawValue)") }
+    public var si: SFSymbol { .init("\(source.rawValue).\(Localization.si.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Si_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var si: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.si.rawValue)") }
+    public var si: SFSymbol { .init("\(source.rawValue).\(Localization.si.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Si_v6_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1, visionOS 2.1, *)
     @_alwaysEmitIntoClient
-    public var si: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.si.rawValue)") }
+    public var si: SFSymbol { .init("\(source.rawValue).\(Localization.si.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Si_v6_3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
     @_alwaysEmitIntoClient
-    public var si: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.si.rawValue)") }
+    public var si: SFSymbol { .init("\(source.rawValue).\(Localization.si.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Si_v7: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_alwaysEmitIntoClient
-    public var si: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.si.rawValue)") }
+    public var si: SFSymbol { .init("\(source.rawValue).\(Localization.si.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ta: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var ta: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ta.rawValue)") }
+    public var ta: SFSymbol { .init("\(source.rawValue).\(Localization.ta.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ta_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var ta: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ta.rawValue)") }
+    public var ta: SFSymbol { .init("\(source.rawValue).\(Localization.ta.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ta_v6_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1, visionOS 2.1, *)
     @_alwaysEmitIntoClient
-    public var ta: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ta.rawValue)") }
+    public var ta: SFSymbol { .init("\(source.rawValue).\(Localization.ta.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ta_v6_3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
     @_alwaysEmitIntoClient
-    public var ta: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ta.rawValue)") }
+    public var ta: SFSymbol { .init("\(source.rawValue).\(Localization.ta.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ta_v7: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_alwaysEmitIntoClient
-    public var ta: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ta.rawValue)") }
+    public var ta: SFSymbol { .init("\(source.rawValue).\(Localization.ta.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Te: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var te: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.te.rawValue)") }
+    public var te: SFSymbol { .init("\(source.rawValue).\(Localization.te.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Te_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var te: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.te.rawValue)") }
+    public var te: SFSymbol { .init("\(source.rawValue).\(Localization.te.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Te_v6_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1, visionOS 2.1, *)
     @_alwaysEmitIntoClient
-    public var te: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.te.rawValue)") }
+    public var te: SFSymbol { .init("\(source.rawValue).\(Localization.te.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Te_v6_3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
     @_alwaysEmitIntoClient
-    public var te: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.te.rawValue)") }
+    public var te: SFSymbol { .init("\(source.rawValue).\(Localization.te.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Te_v7: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0, visionOS 26.0, *)
     @_alwaysEmitIntoClient
-    public var te: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.te.rawValue)") }
+    public var te: SFSymbol { .init("\(source.rawValue).\(Localization.te.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Th: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var th: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.th.rawValue)") }
+    public var th: SFSymbol { .init("\(source.rawValue).\(Localization.th.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Th_v2: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var th: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.th.rawValue)") }
+    public var th: SFSymbol { .init("\(source.rawValue).\(Localization.th.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Th_v2_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var th: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.th.rawValue)") }
+    public var th: SFSymbol { .init("\(source.rawValue).\(Localization.th.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Th_v3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var th: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.th.rawValue)") }
+    public var th: SFSymbol { .init("\(source.rawValue).\(Localization.th.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Th_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var th: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.th.rawValue)") }
+    public var th: SFSymbol { .init("\(source.rawValue).\(Localization.th.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Zh: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var zh: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.zh.rawValue)") }
+    public var zh: SFSymbol { .init("\(source.rawValue).\(Localization.zh.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Zh_v2: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var zh: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.zh.rawValue)") }
+    public var zh: SFSymbol { .init("\(source.rawValue).\(Localization.zh.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Zh_v2_1: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var zh: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.zh.rawValue)") }
+    public var zh: SFSymbol { .init("\(source.rawValue).\(Localization.zh.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Zh_v3: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     @_alwaysEmitIntoClient
-    public var zh: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.zh.rawValue)") }
+    public var zh: SFSymbol { .init("\(source.rawValue).\(Localization.zh.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Zh_v6: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol
+
     @_alwaysEmitIntoClient
     public init(source: SFSymbol) { self.source = source }
+
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     @_alwaysEmitIntoClient
-    public var zh: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.zh.rawValue)") }
+    public var zh: SFSymbol { .init("\(source.rawValue).\(Localization.zh.rawValue)") }
 }

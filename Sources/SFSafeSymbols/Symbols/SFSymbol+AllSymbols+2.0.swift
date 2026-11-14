@@ -6,1020 +6,1020 @@ extension SFSymbol {
     @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince2_0: [SFSymbol : Set<Localization>] {
         [
-            _1Magnifyingglass: [.ar],
-            _4kTv: [],
-            _4kTvFill: [],
-            aBookClosed: [.ar, .he, .hi, .ja, .ko, .th, .zh],
-            aBookClosedFill: [.ar, .he, .hi, .ja, .ko, .th, .zh],
-            aMagnify: [],
-            abc: [],
-            airplaneCircle: [],
-            airplaneCircleFill: [],
-            airpodLeft: [],
-            airpodRight: [],
-            airpodproLeft: [],
-            airpodproRight: [],
-            airpods: [],
-            airpodspro: [],
-            airportExpress: [],
-            airportExtreme: [],
-            airportExtremeTower: [],
-            amplifier: [],
-            appclip: [],
-            applelogo: [],
-            applescript: [],
-            applescriptFill: [],
-            appletv: [],
-            appletvFill: [],
-            applewatch: [],
-            applewatchRadiowavesLeftAndRight: [],
-            applewatchSlash: [],
-            applewatchWatchface: [],
-            appsIpad: [],
-            appsIpadLandscape: [],
-            appsIphone: [],
-            appsIphoneBadgePlus: [],
-            appsIphoneLandscape: [.rtl],
-            archiveboxCircle: [],
-            archiveboxCircleFill: [],
-            arrowBackward: [],
-            arrowBackwardCircle: [],
-            arrowBackwardCircleFill: [],
-            arrowBackwardSquare: [],
-            arrowBackwardSquareFill: [],
-            arrowClockwiseHeart: [],
-            arrowClockwiseHeartFill: [],
-            arrowDownApp: [],
-            arrowDownAppFill: [],
-            arrowDownBackward: [],
-            arrowDownBackwardCircle: [],
-            arrowDownBackwardCircleFill: [],
-            arrowDownBackwardSquare: [],
-            arrowDownBackwardSquareFill: [],
-            arrowDownForward: [],
-            arrowDownForwardAndArrowUpBackward: [],
-            arrowDownForwardAndArrowUpBackwardCircle: [],
-            arrowDownForwardAndArrowUpBackwardCircleFill: [],
-            arrowDownForwardCircle: [],
-            arrowDownForwardCircleFill: [],
-            arrowDownForwardSquare: [],
-            arrowDownForwardSquareFill: [],
-            arrowDownHeart: [],
-            arrowDownHeartFill: [],
-            arrowDownRightAndArrowUpLeftCircle: [],
-            arrowDownRightAndArrowUpLeftCircleFill: [],
-            arrowForward: [],
-            arrowForwardCircle: [],
-            arrowForwardCircleFill: [],
-            arrowForwardSquare: [],
-            arrowForwardSquareFill: [],
-            arrowLeftAndRightRighttriangleLeftRighttriangleRight: [],
-            arrowLeftAndRightRighttriangleLeftRighttriangleRightFill: [],
-            arrowLeftArrowRight: [],
-            arrowLeftArrowRightCircle: [],
-            arrowLeftArrowRightCircleFill: [],
-            arrowLeftArrowRightSquare: [],
-            arrowLeftArrowRightSquareFill: [],
-            arrowRectanglepath: [],
-            arrowRightDocOnClipboard: [],
-            arrowTriangle2Circlepath: [],
-            arrowTriangle2CirclepathCamera: [],
-            arrowTriangle2CirclepathCameraFill: [],
-            arrowTriangle2CirclepathCircle: [],
-            arrowTriangle2CirclepathCircleFill: [],
-            arrowTriangle2CirclepathDocOnClipboard: [],
-            arrowTriangleBranch: [],
-            arrowTriangleCapsulepath: [],
-            arrowTriangleMerge: [],
-            arrowTrianglePull: [],
-            arrowTriangleSwap: [],
-            arrowTriangleTurnUpRightCircle: [],
-            arrowTriangleTurnUpRightCircleFill: [],
-            arrowTriangleTurnUpRightDiamond: [],
-            arrowTriangleTurnUpRightDiamondFill: [],
-            arrowTurnUpForwardIphone: [],
-            arrowTurnUpForwardIphoneFill: [],
-            arrowUpAndDownAndArrowLeftAndRight: [],
-            arrowUpAndDownRighttriangleUpFillRighttriangleDownFill: [],
-            arrowUpAndDownRighttriangleUpRighttriangleDown: [],
-            arrowUpAndPersonRectanglePortrait: [],
-            arrowUpAndPersonRectangleTurnLeft: [],
-            arrowUpAndPersonRectangleTurnRight: [],
-            arrowUpBackward: [],
-            arrowUpBackwardAndArrowDownForward: [],
-            arrowUpBackwardAndArrowDownForwardCircle: [],
-            arrowUpBackwardAndArrowDownForwardCircleFill: [],
-            arrowUpBackwardCircle: [],
-            arrowUpBackwardCircleFill: [],
-            arrowUpBackwardSquare: [],
-            arrowUpBackwardSquareFill: [],
-            arrowUpDocOnClipboard: [],
-            arrowUpForward: [],
-            arrowUpForwardApp: [],
-            arrowUpForwardAppFill: [],
-            arrowUpForwardCircle: [],
-            arrowUpForwardCircleFill: [],
-            arrowUpForwardSquare: [],
-            arrowUpForwardSquareFill: [],
-            arrowUpHeart: [],
-            arrowUpHeartFill: [],
-            arrowUpLeftAndArrowDownRightCircle: [],
-            arrowUpLeftAndArrowDownRightCircleFill: [],
-            arrowUpLeftAndDownRightAndArrowUpRightAndDownLeft: [],
-            arrowUpLeftAndDownRightMagnifyingglass: [],
-            arrowUpMessage: [],
-            arrowUpMessageFill: [],
-            arrowUpRightAndArrowDownLeftRectangle: [],
-            arrowUpRightAndArrowDownLeftRectangleFill: [],
-            arrowUturnBackward: [],
-            arrowUturnBackwardCircle: [],
-            arrowUturnBackwardCircleBadgeEllipsis: [],
-            arrowUturnBackwardCircleFill: [],
-            arrowUturnBackwardSquare: [],
-            arrowUturnBackwardSquareFill: [],
-            arrowUturnForward: [],
-            arrowUturnForwardCircle: [],
-            arrowUturnForwardCircleFill: [],
-            arrowUturnForwardSquare: [],
-            arrowUturnForwardSquareFill: [],
-            arrowshapeBounceForward: [],
-            arrowshapeBounceForwardFill: [],
-            arrowshapeBounceRight: [],
-            arrowshapeBounceRightFill: [],
-            arrowshapeTurnUpBackward: [],
-            arrowshapeTurnUpBackward2: [],
-            arrowshapeTurnUpBackward2Circle: [],
-            arrowshapeTurnUpBackward2CircleFill: [],
-            arrowshapeTurnUpBackward2Fill: [],
-            arrowshapeTurnUpBackwardCircle: [],
-            arrowshapeTurnUpBackwardCircleFill: [],
-            arrowshapeTurnUpBackwardFill: [],
-            arrowshapeTurnUpForward: [],
-            arrowshapeTurnUpForwardCircle: [],
-            arrowshapeTurnUpForwardCircleFill: [],
-            arrowshapeTurnUpForwardFill: [],
-            arrowshapeTurnUpLeft2Circle: [],
-            arrowshapeTurnUpLeft2CircleFill: [],
-            arrowshapeZigzagForward: [],
-            arrowshapeZigzagForwardFill: [],
-            arrowshapeZigzagRight: [],
-            arrowshapeZigzagRightFill: [],
-            arrowtriangleBackward: [],
-            arrowtriangleBackwardCircle: [],
-            arrowtriangleBackwardCircleFill: [],
-            arrowtriangleBackwardFill: [],
-            arrowtriangleBackwardSquare: [],
-            arrowtriangleBackwardSquareFill: [],
-            arrowtriangleForward: [],
-            arrowtriangleForwardCircle: [],
-            arrowtriangleForwardCircleFill: [],
-            arrowtriangleForwardFill: [],
-            arrowtriangleForwardSquare: [],
-            arrowtriangleForwardSquareFill: [],
-            arrowtriangleLeftAndLineVerticalAndArrowtriangleRight: [],
-            arrowtriangleLeftFillAndLineVerticalAndArrowtriangleRightFill: [],
-            arrowtriangleRightAndLineVerticalAndArrowtriangleLeft: [],
-            arrowtriangleRightFillAndLineVerticalAndArrowtriangleLeftFill: [],
-            atCircle: [],
-            atCircleFill: [],
-            atom: [],
-            backwardFrame: [],
-            backwardFrameFill: [],
-            badgePlusRadiowavesForward: [],
-            bagCircle: [],
-            bagCircleFill: [],
-            banknote: [],
-            banknoteFill: [],
-            barometer: [],
-            battery100Bolt: [.rtl],
-            bellBadge: [],
-            bellBadgeFill: [],
-            bellSlashCircle: [],
-            bellSlashCircleFill: [],
-            bicycle: [],
-            bicycleCircle: [],
-            bicycleCircleFill: [],
-            binoculars: [],
-            binocularsFill: [],
-            boltCar: [],
-            boltCarFill: [],
-            boltFillBatteryblock: [],
-            boltFillBatteryblockFill: [],
-            boltHeart: [],
-            boltHeartFill: [],
-            boltSlashCircle: [],
-            boltSlashCircleFill: [],
-            bonjour: [],
-            bookClosed: [],
-            bookClosedFill: [],
-            bookmarkCircle: [],
-            bookmarkCircleFill: [],
-            bookmarkSlash: [],
-            bookmarkSlashFill: [],
-            booksVertical: [],
-            booksVerticalFill: [],
-            building: [],
-            building2: [],
-            building2CropCircle: [],
-            building2CropCircleFill: [],
-            building2Fill: [],
-            buildingColumns: [],
-            buildingColumnsFill: [],
-            buildingFill: [],
-            bus: [],
-            busDoubledecker: [],
-            busDoubledeckerFill: [],
-            busFill: [],
-            calendarBadgeClock: [.rtl],
-            calendarBadgeExclamationmark: [],
-            cameraAperture: [],
-            cameraBadgeEllipsis: [],
-            cameraFillBadgeEllipsis: [],
-            cameraFilters: [],
-            cameraMeteringCenterWeighted: [],
-            cameraMeteringCenterWeightedAverage: [],
-            cameraMeteringMatrix: [],
-            cameraMeteringMultispot: [],
-            cameraMeteringNone: [],
-            cameraMeteringPartial: [],
-            cameraMeteringSpot: [],
-            cameraMeteringUnknown: [.ar],
-            candybarphone: [],
-            capsulePortrait: [],
-            capsulePortraitFill: [],
-            car2: [],
-            car2Fill: [],
-            carCircle: [],
-            carCircleFill: [],
-            `case`: [],
-            caseFill: [],
-            chartBarDocHorizontal: [],
-            chartBarDocHorizontalFill: [],
-            chartBarXaxis: [],
-            checkerboardRectangle: [],
-            checkmarkIcloud: [],
-            checkmarkIcloudFill: [],
-            checkmarkRectanglePortrait: [],
-            checkmarkRectanglePortraitFill: [],
-            chevronBackward: [],
-            chevronBackward2: [],
-            chevronBackwardCircle: [],
-            chevronBackwardCircleFill: [],
-            chevronBackwardSquare: [],
-            chevronBackwardSquareFill: [],
-            chevronForward: [],
-            chevronForward2: [],
-            chevronForwardCircle: [],
-            chevronForwardCircleFill: [],
-            chevronForwardSquare: [],
-            chevronForwardSquareFill: [],
-            circleBottomhalfFill: [],
-            circleCircle: [],
-            circleCircleFill: [],
-            circleDashed: [],
-            circleDashedInsetFill: [],
-            circleFillSquareFill: [],
-            circleGridCross: [],
-            circleGridCrossDownFill: [],
-            circleGridCrossFill: [],
-            circleGridCrossLeftFill: [],
-            circleGridCrossRightFill: [],
-            circleGridCrossUpFill: [],
-            circleSquare: [],
-            circleTophalfFill: [],
-            circlebadge: [],
-            circlebadge2: [],
-            circlebadge2Fill: [],
-            circlebadgeFill: [],
-            circlesHexagongrid: [],
-            circlesHexagongridFill: [],
-            circlesHexagonpath: [],
-            circlesHexagonpathFill: [],
-            clockArrowCirclepath: [],
-            comb: [],
-            combFill: [],
-            commandCircle: [],
-            commandCircleFill: [],
-            commandSquare: [],
-            commandSquareFill: [],
-            cone: [],
-            coneFill: [],
-            contextualmenuAndCursorarrow: [],
-            cpu: [],
-            creditcardCircle: [],
-            creditcardCircleFill: [],
-            cross: [],
-            crossCase: [],
-            crossCaseFill: [],
-            crossCircle: [],
-            crossCircleFill: [],
-            crossFill: [],
-            crown: [],
-            crownFill: [],
-            cubeTransparent: [],
-            cubeTransparentFill: [],
-            curlybraces: [],
-            curlybracesSquare: [],
-            curlybracesSquareFill: [],
-            cursorarrow: [],
-            cursorarrowAndSquareOnSquareDashed: [],
-            cursorarrowClick: [],
-            cursorarrowClick2: [],
-            cursorarrowClickBadgeClock: [],
-            cursorarrowMotionlines: [],
-            cursorarrowMotionlinesClick: [],
-            cursorarrowRays: [],
-            cursorarrowSquare: [],
-            cylinder: [],
-            cylinderFill: [],
-            cylinderSplit1x2: [],
-            cylinderSplit1x2Fill: [],
-            deskclock: [],
-            deskclockFill: [],
-            dialMax: [],
-            dialMaxFill: [],
-            dialMin: [],
-            dialMinFill: [],
-            diamond: [],
-            diamondFill: [],
-            dieFace1: [],
-            dieFace1Fill: [],
-            dieFace2: [],
-            dieFace2Fill: [],
-            dieFace3: [],
-            dieFace3Fill: [],
-            dieFace4: [],
-            dieFace4Fill: [],
-            dieFace5: [],
-            dieFace5Fill: [],
-            dieFace6: [],
-            dieFace6Fill: [],
-            display: [],
-            display2: [],
-            displayTrianglebadgeExclamationmark: [],
-            docAppend: [.rtl],
-            docAppendFill: [.rtl],
-            docBadgeEllipsis: [],
-            docBadgeGearshape: [],
-            docBadgeGearshapeFill: [],
-            docBadgePlus: [],
-            docFillBadgeEllipsis: [],
-            docFillBadgePlus: [],
-            docPlaintextFill: [],
-            docRichtext: [.ar, .he],
-            docRichtextFill: [.ar, .he],
-            docTextBelowEcg: [],
-            docTextBelowEcgFill: [],
-            docTextFillViewfinder: [],
-            docZipper: [],
-            dockArrowDownRectangle: [],
-            dockArrowUpRectangle: [],
-            dockRectangle: [],
-            dotArrowtrianglesUpRightDownLeftCircle: [],
-            dotCircleAndCursorarrow: [],
-            dotRadiowavesForward: [],
-            dotSquareshape: [],
-            dotSquareshapeFill: [],
-            dotSquareshapeSplit2x2: [],
-            dpad: [],
-            dpadDownFill: [],
-            dpadFill: [],
-            dpadLeftFill: [],
-            dpadRightFill: [],
-            dpadUpFill: [],
-            drop: [],
-            dropFill: [],
-            earBadgeCheckmark: [],
-            earFill: [],
-            earTrianglebadgeExclamationmark: [],
-            earpods: [],
-            ejectCircle: [],
-            ejectCircleFill: [],
-            ellipsisBubble: [],
-            ellipsisBubbleFill: [],
-            ellipsisRectangle: [],
-            ellipsisRectangleFill: [],
-            envelopeArrowTriangleBranch: [],
-            envelopeArrowTriangleBranchFill: [],
-            envelopeBadgeShieldLeadinghalfFill: [],
-            envelopeFillBadgeShieldTrailinghalfFill: [],
-            esim: [],
-            esimFill: [],
-            exclamationmark2: [],
-            exclamationmark3: [],
-            exclamationmarkArrowCirclepath: [],
-            exclamationmarkArrowTriangle2Circlepath: [],
-            externaldrive: [],
-            externaldriveBadgeCheckmark: [],
-            externaldriveBadgeIcloud: [],
-            externaldriveBadgeMinus: [],
-            externaldriveBadgePersonCrop: [],
-            externaldriveBadgePlus: [],
-            externaldriveBadgeTimemachine: [],
-            externaldriveBadgeWifi: [],
-            externaldriveBadgeXmark: [],
-            externaldriveConnectedToLineBelow: [],
-            externaldriveConnectedToLineBelowFill: [],
-            externaldriveFill: [],
-            externaldriveFillBadgeCheckmark: [],
-            externaldriveFillBadgeIcloud: [],
-            externaldriveFillBadgeMinus: [],
-            externaldriveFillBadgePersonCrop: [],
-            externaldriveFillBadgePlus: [],
-            externaldriveFillBadgeTimemachine: [],
-            externaldriveFillBadgeWifi: [],
-            externaldriveFillBadgeXmark: [],
-            eyeCircle: [],
-            eyeCircleFill: [],
-            eyebrow: [],
-            eyes: [],
-            eyesInverse: [],
-            faceDashed: [],
-            faceDashedFill: [],
-            faceSmiling: [],
-            faceSmilingFill: [],
-            faxmachine: [],
-            fiberchannel: [],
-            figureStand: [],
-            figureStandLineDottedFigureStand: [],
-            figureWalk: [],
-            figureWalkCircle: [],
-            figureWalkCircleFill: [],
-            figureWalkDiamond: [],
-            figureWalkDiamondFill: [],
-            figureWave: [],
-            figureWaveCircle: [],
-            figureWaveCircleFill: [],
-            filemenuAndCursorarrow: [.rtl],
-            filemenuAndSelection: [],
-            flagBadgeEllipsis: [],
-            flagBadgeEllipsisFill: [],
-            flagSlashCircle: [],
-            flagSlashCircleFill: [],
-            flipphone: [],
-            fn: [],
-            folderBadgeGear: [],
-            folderBadgeQuestionmark: [.ar],
-            folderFillBadgeGear: [],
-            folderFillBadgeQuestionmark: [.ar],
-            forwardFrame: [],
-            forwardFrameFill: [],
-            gearshape: [],
-            gearshape2: [],
-            gearshape2Fill: [],
-            gearshapeFill: [],
-            giftCircle: [],
-            giftCircleFill: [],
-            giftcard: [],
-            giftcardFill: [],
-            graduationcap: [],
-            graduationcapFill: [],
-            greetingcard: [],
-            greetingcardFill: [],
-            guitarsFill: [],
-            gyroscope: [],
-            hSquareFillOnSquareFill: [],
-            hSquareOnSquare: [],
-            handPointDown: [],
-            handPointDownFill: [],
-            handPointUp: [],
-            handPointUpBraille: [],
-            handPointUpBrailleFill: [],
-            handPointUpFill: [],
-            handPointUpLeft: [],
-            handPointUpLeftFill: [],
-            handTap: [],
-            handTapFill: [],
-            handWave: [],
-            handWaveFill: [],
-            handsClap: [],
-            handsClapFill: [],
-            handsSparkles: [],
-            handsSparklesFill: [],
-            headphonesCircle: [],
-            headphonesCircleFill: [],
-            hearingaidEar: [],
-            heartTextSquare: [],
-            heartTextSquareFill: [],
-            hifispeaker2: [],
-            hifispeaker2Fill: [],
-            hifispeakerAndHomepod: [],
-            hifispeakerAndHomepodFill: [],
-            highlighter: [],
-            homekit: [],
-            homepod: [],
-            homepod2: [],
-            homepod2Fill: [],
-            homepodFill: [],
-            hourglassBadgePlus: [],
-            houseCircle: [],
-            houseCircleFill: [],
-            infinity: [],
-            internaldrive: [],
-            internaldriveFill: [],
-            ipad: [],
-            ipadHomebutton: [],
-            ipadHomebuttonLandscape: [],
-            ipadLandscape: [],
-            iphone: [],
-            iphoneHomebutton: [],
-            iphoneHomebuttonRadiowavesLeftAndRight: [],
-            iphoneHomebuttonSlash: [],
-            iphoneRadiowavesLeftAndRight: [],
-            iphoneSlash: [],
-            ipod: [],
-            ipodshuffleGen1: [],
-            ipodshuffleGen2: [],
-            ipodshuffleGen3: [],
-            ipodshuffleGen4: [],
-            ipodtouch: [],
-            jSquareFillOnSquareFill: [],
-            jSquareOnSquare: [],
-            k: [],
-            key: [],
-            keyFill: [],
-            keyIcloud: [],
-            keyIcloudFill: [],
-            keyboardBadgeEllipsis: [],
-            keyboardChevronCompactLeft: [],
-            keyboardMacwindow: [],
-            keyboardOnehandedLeft: [],
-            keyboardOnehandedRight: [],
-            lJoystick: [],
-            lJoystickDown: [],
-            lJoystickDownFill: [],
-            lJoystickFill: [],
-            lRectangleRoundedbottom: [],
-            lRectangleRoundedbottomFill: [],
-            l1RectangleRoundedbottom: [],
-            l1RectangleRoundedbottomFill: [],
-            l2RectangleRoundedtop: [],
-            l2RectangleRoundedtopFill: [],
-            ladybug: [],
-            ladybugFill: [],
-            laptopcomputer: [],
-            laptopcomputerAndIphone: [],
-            lassoSparkles: [],
-            latch2Case: [],
-            latch2CaseFill: [],
-            lbRectangleRoundedbottom: [],
-            lbRectangleRoundedbottomFill: [],
-            leaf: [],
-            leafArrowTriangleCirclepath: [],
-            leafFill: [],
-            level: [],
-            levelFill: [],
-            lifepreserver: [],
-            lifepreserverFill: [],
-            line3CrossedSwirlCircle: [],
-            line3CrossedSwirlCircleFill: [],
-            lineDiagonal: [],
-            lineDiagonalArrow: [],
-            lineHorizontal2DecreaseCircle: [],
-            lineHorizontal2DecreaseCircleFill: [],
-            lineHorizontal3Circle: [],
-            lineHorizontal3CircleFill: [],
-            lineHorizontalStarFillLineHorizontal: [],
-            lineweight: [],
-            linkBadgePlus: [],
-            listAndFilm: [],
-            listBulletRectangle: [],
-            listNumber: [.ar],
-            listStar: [],
-            listTriangle: [],
-            livephotoBadgeA: [],
-            locationFillViewfinder: [],
-            locationViewfinder: [],
-            lockDoc: [],
-            lockDocFill: [],
-            lockRectangle: [],
-            lockRectangleFill: [],
-            lockRectangleOnRectangle: [],
-            lockRectangleOnRectangleFill: [],
-            lockRectangleStack: [],
-            lockRectangleStackFill: [],
-            lockSquare: [],
-            lockSquareFill: [],
-            lockSquareStack: [],
-            lockSquareStackFill: [],
-            loupe: [],
-            ltRectangleRoundedtop: [],
-            ltRectangleRoundedtopFill: [],
-            lungs: [],
-            lungsFill: [],
-            macmini: [],
-            macminiFill: [],
-            macproGen1: [],
-            macproGen2: [],
-            macproGen2Fill: [],
-            macproGen3: [],
-            macproGen3Server: [],
-            macwindowBadgePlus: [],
-            macwindowOnRectangle: [.rtl],
-            mail: [],
-            mailAndTextMagnifyingglass: [.rtl],
-            mailFill: [],
-            mailStack: [],
-            mailStackFill: [],
-            megaphone: [],
-            megaphoneFill: [],
-            memorychip: [],
-            menubarArrowDownRectangle: [],
-            menubarArrowUpRectangle: [],
-            menubarDockRectangle: [],
-            menubarDockRectangleBadgeRecord: [],
-            menubarRectangle: [],
-            metronomeFill: [],
-            minusDiamond: [],
-            minusDiamondFill: [],
-            minusPlusBatteryblock: [],
-            minusPlusBatteryblockFill: [],
-            minusRectanglePortrait: [],
-            minusRectanglePortraitFill: [],
-            mosaic: [],
-            mosaicFill: [],
-            mount: [],
-            mountFill: [],
-            mouth: [],
-            mouthFill: [],
-            move3d: [],
-            musicNoteHouse: [],
-            musicNoteHouseFill: [],
-            musicQuarternote3: [],
-            mustache: [],
-            mustacheFill: [],
-            network: [],
-            newspaper: [],
-            newspaperFill: [],
-            nose: [],
-            noseFill: [],
-            note: [],
-            noteText: [],
-            noteTextBadgePlus: [],
-            octagon: [],
-            octagonFill: [],
-            opticaldisc: [],
-            opticaldiscdrive: [],
-            opticaldiscdriveFill: [],
-            oval: [],
-            ovalFill: [],
-            ovalPortrait: [],
-            ovalPortraitFill: [],
-            paintbrushPointed: [],
-            paintbrushPointedFill: [],
-            paintpalette: [],
-            paintpaletteFill: [],
-            paperclipBadgeEllipsis: [],
-            paperplaneCircle: [],
-            paperplaneCircleFill: [],
-            paragraphsign: [],
-            pc: [],
-            pencilTipCropCircleBadgeArrowForward: [],
-            percent: [.ar],
-            person2Circle: [],
-            person2CircleFill: [],
-            personAndArrowLeftAndArrowRight: [],
-            personCropCircleBadgeExclamationmark: [],
-            personCropCircleBadgeQuestionmark: [.ar],
-            personCropCircleFillBadgeExclamationmark: [],
-            personCropCircleFillBadgeQuestionmark: [.ar],
-            personCropSquareFillAndAtRectangle: [],
-            personFillAndArrowLeftAndArrowRight: [],
-            personFillBadgeMinus: [],
-            personFillBadgePlus: [],
-            personFillCheckmark: [.rtl],
-            personFillQuestionmark: [.ar, .rtl],
-            personFillTurnDown: [],
-            personFillTurnLeft: [],
-            personFillTurnRight: [],
-            personFillViewfinder: [],
-            personFillXmark: [.rtl],
-            phoneBubbleLeft: [],
-            phoneBubbleLeftFill: [],
-            phoneConnection: [],
-            phoneFillConnection: [],
-            photoOnRectangleAngled: [],
-            pianokeys: [],
-            pianokeysInverse: [],
-            pills: [],
-            pillsFill: [],
-            pip: [],
-            pipEnter: [],
-            pipExit: [],
-            pipFill: [],
-            pipRemove: [],
-            pipSwap: [],
-            placeholdertextFill: [],
-            playSlash: [],
-            playSlashFill: [],
-            plusDiamond: [],
-            plusDiamondFill: [],
-            plusMessage: [],
-            plusMessageFill: [],
-            plusRectangleFillOnFolderFill: [],
-            plusRectangleOnFolder: [],
-            plusRectanglePortrait: [],
-            plusRectanglePortraitFill: [],
-            plusViewfinder: [],
-            pointFillTopleftDownCurvedtoPointFillBottomrightUp: [],
-            pointTopleftDownCurvedtoPointBottomrightUp: [],
-            poweroff: [],
-            poweron: [],
-            powersleep: [],
-            printerDotmatrix: [],
-            printerDotmatrixFill: [],
-            printerDotmatrixFillAndPaperFill: [],
-            printerFillAndPaperFill: [],
-            puzzlepiece: [],
-            puzzlepieceFill: [],
-            pyramid: [],
-            pyramidFill: [],
-            questionmark: [.ar],
-            questionmarkCircle: [.ar],
-            questionmarkCircleFill: [.ar],
-            questionmarkDiamond: [.ar],
-            questionmarkDiamondFill: [.ar],
-            questionmarkFolder: [.ar],
-            questionmarkFolderFill: [.ar],
-            questionmarkSquare: [.ar],
-            questionmarkSquareDashed: [.ar],
-            questionmarkSquareFill: [.ar],
-            questionmarkVideo: [.ar],
-            questionmarkVideoFill: [.ar],
-            quoteBubble: [.rtl],
-            quoteBubbleFill: [.rtl],
-            rJoystick: [],
-            rJoystickDown: [],
-            rJoystickDownFill: [],
-            rJoystickFill: [],
-            rRectangleRoundedbottom: [],
-            rRectangleRoundedbottomFill: [],
-            rSquareFillOnSquareFill: [],
-            rSquareOnSquare: [],
-            r1RectangleRoundedbottom: [],
-            r1RectangleRoundedbottomFill: [],
-            r2RectangleRoundedtop: [],
-            r2RectangleRoundedtopFill: [],
-            radio: [],
-            radioFill: [],
-            rbRectangleRoundedbottom: [],
-            rbRectangleRoundedbottomFill: [],
-            recordCircle: [],
-            recordCircleFill: [],
-            rectangle3OffgridBubbleLeft: [],
-            rectangle3OffgridBubbleLeftFill: [],
-            rectangleAndPencilAndEllipsis: [.rtl],
-            rectangleAndTextMagnifyingglass: [.rtl],
-            rectangleArrowtriangle2Inward: [],
-            rectangleArrowtriangle2Outward: [],
-            rectangleBadgeMinus: [],
-            rectangleBadgePlus: [],
-            rectangleBottomthirdInsetFill: [],
-            rectangleCenterInsetFill: [],
-            rectangleConnectedToLineBelow: [],
-            rectangleDashed: [],
-            rectangleDashedAndPaperclip: [],
-            rectangleDashedBadgeRecord: [],
-            rectangleFillBadgeMinus: [],
-            rectangleFillBadgePlus: [],
-            rectangleFillOnRectangleFillCircle: [],
-            rectangleFillOnRectangleFillCircleFill: [],
-            rectangleFillOnRectangleFillSlashFill: [],
-            rectangleInsetBottomleftFill: [],
-            rectangleInsetBottomrightFill: [],
-            rectangleInsetFill: [],
-            rectangleInsetTopleftFill: [],
-            rectangleInsetToprightFill: [],
-            rectangleLefthalfFill: [],
-            rectangleLefthalfInsetFill: [],
-            rectangleLefthalfInsetFillArrowLeft: [],
-            rectangleLeftthirdInsetFill: [],
-            rectangleOnRectangleSlash: [],
-            rectanglePortrait: [],
-            rectanglePortraitArrowtriangle2Inward: [],
-            rectanglePortraitArrowtriangle2Outward: [],
-            rectanglePortraitFill: [],
-            rectangleRighthalfFill: [],
-            rectangleRighthalfInsetFill: [],
-            rectangleRighthalfInsetFillArrowRight: [],
-            rectangleRightthirdInsetFill: [],
-            rectangleRoundedbottom: [],
-            rectangleRoundedbottomFill: [],
-            rectangleRoundedtop: [],
-            rectangleRoundedtopFill: [],
-            rectangleSlash: [],
-            rectangleSlashFill: [],
-            rectangleSplit1x2: [],
-            rectangleSplit1x2Fill: [],
-            rectangleSplit2x1: [],
-            rectangleSplit2x1Fill: [],
-            rectangleSplit2x2: [],
-            rectangleSplit2x2Fill: [],
-            restart: [],
-            restartCircle: [],
-            rotate3d: [],
-            rtRectangleRoundedtop: [],
-            rtRectangleRoundedtopFill: [],
-            ruler: [],
-            rulerFill: [],
-            scale3d: [],
-            scalemass: [],
-            scalemassFill: [],
-            scanner: [],
-            scannerFill: [],
-            scribbleVariable: [],
-            scroll: [],
-            scrollFill: [],
-            sdcard: [],
-            sdcardFill: [],
-            seal: [],
-            sealFill: [],
-            serverRack: [],
-            shadow: [],
-            shekelsignCircle: [],
-            shekelsignCircleFill: [],
-            shekelsignSquare: [],
-            shekelsignSquareFill: [],
-            shieldLefthalfFillSlash: [],
-            shippingbox: [],
-            shippingboxFill: [],
-            sidebarLeading: [],
-            sidebarSquaresLeading: [],
-            sidebarSquaresLeft: [],
-            sidebarSquaresRight: [],
-            sidebarSquaresTrailing: [],
-            sidebarTrailing: [],
-            signature: [.ar, .he],
-            signpostLeft: [],
-            signpostLeftFill: [],
-            signpostRight: [],
-            signpostRightFill: [],
-            simcard: [],
-            simcard2: [],
-            simcard2Fill: [],
-            simcardFill: [],
-            sleep: [],
-            sliderHorizontalBelowSquareFillAndSquare: [],
-            sliderVertical3: [],
-            sparkle: [],
-            sparklesRectangleStack: [],
-            sparklesRectangleStackFill: [],
-            sparklesSquareFillOnSquare: [],
-            speakerSlashCircle: [.rtl],
-            speakerSlashCircleFill: [.rtl],
-            speakerWave1: [],
-            speakerWave1Fill: [],
-            speakerWave2: [],
-            speakerWave2Circle: [],
-            speakerWave2CircleFill: [],
-            speakerWave2Fill: [],
-            speakerWave3: [],
-            speakerWave3Fill: [],
-            square2Stack3d: [],
-            square2Stack3dBottomFill: [],
-            square2Stack3dTopFill: [],
-            square3Stack3d: [],
-            square3Stack3dBottomFill: [],
-            square3Stack3dMiddleFill: [],
-            square3Stack3dTopFill: [],
-            squareAndAtRectangle: [],
-            squareBottomhalfFill: [],
-            squareCircle: [],
-            squareCircleFill: [],
-            squareDashed: [],
-            squareDashedInsetFill: [],
-            squareFillOnSquare: [],
-            squareFillTextGrid1x2: [],
-            squareGrid3x1BelowLineGrid1x2: [],
-            squareGrid3x1FillBelowLineGrid1x2: [],
-            squareGrid3x1FolderBadgePlus: [],
-            squareGrid3x1FolderFillBadgePlus: [],
-            squareGrid3x3: [],
-            squareGrid3x3BottomleftFill: [],
-            squareGrid3x3BottommiddleFill: [],
-            squareGrid3x3BottomrightFill: [],
-            squareGrid3x3Fill: [],
-            squareGrid3x3FillSquare: [],
-            squareGrid3x3MiddleFill: [],
-            squareGrid3x3MiddleleftFill: [],
-            squareGrid3x3MiddlerightFill: [],
-            squareGrid3x3TopleftFill: [],
-            squareGrid3x3TopmiddleFill: [],
-            squareGrid3x3ToprightFill: [],
-            squareOnSquareDashed: [],
-            squareOnSquareSquareshapeControlhandles: [],
-            squareSlash: [],
-            squareSlashFill: [],
-            squareSplitBottomrightquarter: [],
-            squareSplitBottomrightquarterFill: [],
-            squareSplitDiagonal: [],
-            squareSplitDiagonal2x2: [],
-            squareSplitDiagonal2x2Fill: [],
-            squareSplitDiagonalFill: [],
-            squareStack3dDownForward: [],
-            squareStack3dDownForwardFill: [],
-            squareStack3dForwardDottedline: [],
-            squareStack3dForwardDottedlineFill: [],
-            squareStack3dUpBadgeA: [],
-            squareStack3dUpBadgeAFill: [],
-            squareTophalfFill: [],
-            squareshape: [],
-            squareshapeControlhandlesOnSquareshapeControlhandles: [],
-            squareshapeDashedSquareshape: [],
-            squareshapeFill: [],
-            squareshapeSplit2x2: [],
-            squareshapeSplit2x2Dotted: [],
-            squareshapeSplit3x3: [],
-            squareshapeSquareshapeDashed: [],
-            starLeadinghalfFill: [],
-            starSquare: [],
-            starSquareFill: [],
-            staroflifeCircle: [],
-            staroflifeCircleFill: [],
-            stethoscope: [],
-            sum: [.ar],
-            swift: [],
-            switch2: [],
-            tBubble: [.ar, .he],
-            tBubbleFill: [.ar, .he],
-            tablecells: [],
-            tablecellsBadgeEllipsis: [],
-            tablecellsBadgeEllipsisFill: [],
-            tablecellsFill: [],
-            tagSlash: [],
-            tagSlashFill: [],
-            target: [],
-            teletypeCircle: [],
-            teletypeCircleFill: [],
-            terminal: [],
-            terminalFill: [],
-            textAndCommandMacwindow: [],
-            textBadgeCheckmark: [.rtl],
-            textBelowPhoto: [],
-            textBelowPhotoFill: [],
-            textBookClosed: [],
-            textBookClosedFill: [],
-            textBubble: [.rtl],
-            textBubbleFill: [.rtl],
-            textCursor: [.ar, .he, .hi, .ja, .ko, .th, .zh],
-            textMagnifyingglass: [.rtl],
-            textQuote: [.rtl],
-            textRedaction: [],
-            textbox: [.ar, .he, .hi, .ja, .ko, .th, .zh],
-            textformat123: [.ar],
-            thermometerSunFill: [],
-            ticket: [],
-            ticketFill: [],
-            timelineSelection: [],
-            timerSquare: [],
-            togglepower: [],
-            touchid: [],
-            tram: [],
-            tramCircle: [],
-            tramCircleFill: [],
-            tramTunnelFill: [],
-            trayCircle: [],
-            trayCircleFill: [],
-            triangleCircle: [],
-            triangleCircleFill: [],
-            tvAndHifispeakerFill: [],
-            videoBadgeCheckmark: [],
-            videoBubbleLeft: [],
-            videoBubbleLeftFill: [],
-            videoFillBadgeCheckmark: [],
-            videoFillBadgePlus: [],
-            wake: [],
-            walletPass: [],
-            walletPassFill: [],
-            wave3Backward: [],
-            wave3BackwardCircle: [],
-            wave3BackwardCircleFill: [],
-            wave3Forward: [],
-            wave3ForwardCircle: [],
-            wave3ForwardCircleFill: [],
-            wave3Left: [],
-            wave3LeftCircle: [],
-            wave3LeftCircleFill: [],
-            wave3Right: [],
-            wave3RightCircle: [],
-            wave3RightCircleFill: [],
-            waveformPathEcgRectangle: [],
-            waveformPathEcgRectangleFill: [],
-            wrenchAndScrewdriver: [],
-            wrenchAndScrewdriverFill: [],
-            xmarkBin: [],
-            xmarkBinCircle: [],
-            xmarkBinCircleFill: [],
-            xmarkBinFill: [],
-            xmarkDiamond: [],
-            xmarkDiamondFill: [],
-            xmarkRectanglePortrait: [],
-            xmarkRectanglePortraitFill: [],
-            xserve: [],
-            zlRectangleRoundedtop: [],
-            zlRectangleRoundedtopFill: [],
-            zrRectangleRoundedtop: [],
-            zrRectangleRoundedtopFill: []
+            .init("1.magnifyingglass"): [.ar], // SFSymbol._1Magnifyingglass
+            .init("4k.tv"): [], // SFSymbol._4kTv
+            .init("4k.tv.fill"): [], // SFSymbol._4kTvFill
+            .init("a.book.closed"): [.ar, .he, .hi, .ja, .ko, .th, .zh], // SFSymbol.aBookClosed
+            .init("a.book.closed.fill"): [.ar, .he, .hi, .ja, .ko, .th, .zh], // SFSymbol.aBookClosedFill
+            .init("a.magnify"): [], // SFSymbol.aMagnify
+            .init("abc"): [], // SFSymbol.abc
+            .init("airplane.circle"): [], // SFSymbol.airplaneCircle
+            .init("airplane.circle.fill"): [], // SFSymbol.airplaneCircleFill
+            .init("airpod.left"): [], // SFSymbol.airpodLeft
+            .init("airpod.right"): [], // SFSymbol.airpodRight
+            .init("airpodpro.left"): [], // SFSymbol.airpodproLeft
+            .init("airpodpro.right"): [], // SFSymbol.airpodproRight
+            .init("airpods"): [], // SFSymbol.airpods
+            .init("airpodspro"): [], // SFSymbol.airpodspro
+            .init("airport.express"): [], // SFSymbol.airportExpress
+            .init("airport.extreme"): [], // SFSymbol.airportExtreme
+            .init("airport.extreme.tower"): [], // SFSymbol.airportExtremeTower
+            .init("amplifier"): [], // SFSymbol.amplifier
+            .init("appclip"): [], // SFSymbol.appclip
+            .init("applelogo"): [], // SFSymbol.applelogo
+            .init("applescript"): [], // SFSymbol.applescript
+            .init("applescript.fill"): [], // SFSymbol.applescriptFill
+            .init("appletv"): [], // SFSymbol.appletv
+            .init("appletv.fill"): [], // SFSymbol.appletvFill
+            .init("applewatch"): [], // SFSymbol.applewatch
+            .init("applewatch.radiowaves.left.and.right"): [], // SFSymbol.applewatchRadiowavesLeftAndRight
+            .init("applewatch.slash"): [], // SFSymbol.applewatchSlash
+            .init("applewatch.watchface"): [], // SFSymbol.applewatchWatchface
+            .init("apps.ipad"): [], // SFSymbol.appsIpad
+            .init("apps.ipad.landscape"): [], // SFSymbol.appsIpadLandscape
+            .init("apps.iphone"): [], // SFSymbol.appsIphone
+            .init("apps.iphone.badge.plus"): [], // SFSymbol.appsIphoneBadgePlus
+            .init("apps.iphone.landscape"): [.rtl], // SFSymbol.appsIphoneLandscape
+            .init("archivebox.circle"): [], // SFSymbol.archiveboxCircle
+            .init("archivebox.circle.fill"): [], // SFSymbol.archiveboxCircleFill
+            .init("arrow.backward"): [], // SFSymbol.arrowBackward
+            .init("arrow.backward.circle"): [], // SFSymbol.arrowBackwardCircle
+            .init("arrow.backward.circle.fill"): [], // SFSymbol.arrowBackwardCircleFill
+            .init("arrow.backward.square"): [], // SFSymbol.arrowBackwardSquare
+            .init("arrow.backward.square.fill"): [], // SFSymbol.arrowBackwardSquareFill
+            .init("arrow.clockwise.heart"): [], // SFSymbol.arrowClockwiseHeart
+            .init("arrow.clockwise.heart.fill"): [], // SFSymbol.arrowClockwiseHeartFill
+            .init("arrow.down.app"): [], // SFSymbol.arrowDownApp
+            .init("arrow.down.app.fill"): [], // SFSymbol.arrowDownAppFill
+            .init("arrow.down.backward"): [], // SFSymbol.arrowDownBackward
+            .init("arrow.down.backward.circle"): [], // SFSymbol.arrowDownBackwardCircle
+            .init("arrow.down.backward.circle.fill"): [], // SFSymbol.arrowDownBackwardCircleFill
+            .init("arrow.down.backward.square"): [], // SFSymbol.arrowDownBackwardSquare
+            .init("arrow.down.backward.square.fill"): [], // SFSymbol.arrowDownBackwardSquareFill
+            .init("arrow.down.forward"): [], // SFSymbol.arrowDownForward
+            .init("arrow.down.forward.and.arrow.up.backward"): [], // SFSymbol.arrowDownForwardAndArrowUpBackward
+            .init("arrow.down.forward.and.arrow.up.backward.circle"): [], // SFSymbol.arrowDownForwardAndArrowUpBackwardCircle
+            .init("arrow.down.forward.and.arrow.up.backward.circle.fill"): [], // SFSymbol.arrowDownForwardAndArrowUpBackwardCircleFill
+            .init("arrow.down.forward.circle"): [], // SFSymbol.arrowDownForwardCircle
+            .init("arrow.down.forward.circle.fill"): [], // SFSymbol.arrowDownForwardCircleFill
+            .init("arrow.down.forward.square"): [], // SFSymbol.arrowDownForwardSquare
+            .init("arrow.down.forward.square.fill"): [], // SFSymbol.arrowDownForwardSquareFill
+            .init("arrow.down.heart"): [], // SFSymbol.arrowDownHeart
+            .init("arrow.down.heart.fill"): [], // SFSymbol.arrowDownHeartFill
+            .init("arrow.down.right.and.arrow.up.left.circle"): [], // SFSymbol.arrowDownRightAndArrowUpLeftCircle
+            .init("arrow.down.right.and.arrow.up.left.circle.fill"): [], // SFSymbol.arrowDownRightAndArrowUpLeftCircleFill
+            .init("arrow.forward"): [], // SFSymbol.arrowForward
+            .init("arrow.forward.circle"): [], // SFSymbol.arrowForwardCircle
+            .init("arrow.forward.circle.fill"): [], // SFSymbol.arrowForwardCircleFill
+            .init("arrow.forward.square"): [], // SFSymbol.arrowForwardSquare
+            .init("arrow.forward.square.fill"): [], // SFSymbol.arrowForwardSquareFill
+            .init("arrow.left.and.right.righttriangle.left.righttriangle.right"): [], // SFSymbol.arrowLeftAndRightRighttriangleLeftRighttriangleRight
+            .init("arrow.left.and.right.righttriangle.left.righttriangle.right.fill"): [], // SFSymbol.arrowLeftAndRightRighttriangleLeftRighttriangleRightFill
+            .init("arrow.left.arrow.right"): [], // SFSymbol.arrowLeftArrowRight
+            .init("arrow.left.arrow.right.circle"): [], // SFSymbol.arrowLeftArrowRightCircle
+            .init("arrow.left.arrow.right.circle.fill"): [], // SFSymbol.arrowLeftArrowRightCircleFill
+            .init("arrow.left.arrow.right.square"): [], // SFSymbol.arrowLeftArrowRightSquare
+            .init("arrow.left.arrow.right.square.fill"): [], // SFSymbol.arrowLeftArrowRightSquareFill
+            .init("arrow.rectanglepath"): [], // SFSymbol.arrowRectanglepath
+            .init("arrow.right.doc.on.clipboard"): [], // SFSymbol.arrowRightDocOnClipboard
+            .init("arrow.triangle.2.circlepath"): [], // SFSymbol.arrowTriangle2Circlepath
+            .init("arrow.triangle.2.circlepath.camera"): [], // SFSymbol.arrowTriangle2CirclepathCamera
+            .init("arrow.triangle.2.circlepath.camera.fill"): [], // SFSymbol.arrowTriangle2CirclepathCameraFill
+            .init("arrow.triangle.2.circlepath.circle"): [], // SFSymbol.arrowTriangle2CirclepathCircle
+            .init("arrow.triangle.2.circlepath.circle.fill"): [], // SFSymbol.arrowTriangle2CirclepathCircleFill
+            .init("arrow.triangle.2.circlepath.doc.on.clipboard"): [], // SFSymbol.arrowTriangle2CirclepathDocOnClipboard
+            .init("arrow.triangle.branch"): [], // SFSymbol.arrowTriangleBranch
+            .init("arrow.triangle.capsulepath"): [], // SFSymbol.arrowTriangleCapsulepath
+            .init("arrow.triangle.merge"): [], // SFSymbol.arrowTriangleMerge
+            .init("arrow.triangle.pull"): [], // SFSymbol.arrowTrianglePull
+            .init("arrow.triangle.swap"): [], // SFSymbol.arrowTriangleSwap
+            .init("arrow.triangle.turn.up.right.circle"): [], // SFSymbol.arrowTriangleTurnUpRightCircle
+            .init("arrow.triangle.turn.up.right.circle.fill"): [], // SFSymbol.arrowTriangleTurnUpRightCircleFill
+            .init("arrow.triangle.turn.up.right.diamond"): [], // SFSymbol.arrowTriangleTurnUpRightDiamond
+            .init("arrow.triangle.turn.up.right.diamond.fill"): [], // SFSymbol.arrowTriangleTurnUpRightDiamondFill
+            .init("arrow.turn.up.forward.iphone"): [], // SFSymbol.arrowTurnUpForwardIphone
+            .init("arrow.turn.up.forward.iphone.fill"): [], // SFSymbol.arrowTurnUpForwardIphoneFill
+            .init("arrow.up.and.down.and.arrow.left.and.right"): [], // SFSymbol.arrowUpAndDownAndArrowLeftAndRight
+            .init("arrow.up.and.down.righttriangle.up.fill.righttriangle.down.fill"): [], // SFSymbol.arrowUpAndDownRighttriangleUpFillRighttriangleDownFill
+            .init("arrow.up.and.down.righttriangle.up.righttriangle.down"): [], // SFSymbol.arrowUpAndDownRighttriangleUpRighttriangleDown
+            .init("arrow.up.and.person.rectangle.portrait"): [], // SFSymbol.arrowUpAndPersonRectanglePortrait
+            .init("arrow.up.and.person.rectangle.turn.left"): [], // SFSymbol.arrowUpAndPersonRectangleTurnLeft
+            .init("arrow.up.and.person.rectangle.turn.right"): [], // SFSymbol.arrowUpAndPersonRectangleTurnRight
+            .init("arrow.up.backward"): [], // SFSymbol.arrowUpBackward
+            .init("arrow.up.backward.and.arrow.down.forward"): [], // SFSymbol.arrowUpBackwardAndArrowDownForward
+            .init("arrow.up.backward.and.arrow.down.forward.circle"): [], // SFSymbol.arrowUpBackwardAndArrowDownForwardCircle
+            .init("arrow.up.backward.and.arrow.down.forward.circle.fill"): [], // SFSymbol.arrowUpBackwardAndArrowDownForwardCircleFill
+            .init("arrow.up.backward.circle"): [], // SFSymbol.arrowUpBackwardCircle
+            .init("arrow.up.backward.circle.fill"): [], // SFSymbol.arrowUpBackwardCircleFill
+            .init("arrow.up.backward.square"): [], // SFSymbol.arrowUpBackwardSquare
+            .init("arrow.up.backward.square.fill"): [], // SFSymbol.arrowUpBackwardSquareFill
+            .init("arrow.up.doc.on.clipboard"): [], // SFSymbol.arrowUpDocOnClipboard
+            .init("arrow.up.forward"): [], // SFSymbol.arrowUpForward
+            .init("arrow.up.forward.app"): [], // SFSymbol.arrowUpForwardApp
+            .init("arrow.up.forward.app.fill"): [], // SFSymbol.arrowUpForwardAppFill
+            .init("arrow.up.forward.circle"): [], // SFSymbol.arrowUpForwardCircle
+            .init("arrow.up.forward.circle.fill"): [], // SFSymbol.arrowUpForwardCircleFill
+            .init("arrow.up.forward.square"): [], // SFSymbol.arrowUpForwardSquare
+            .init("arrow.up.forward.square.fill"): [], // SFSymbol.arrowUpForwardSquareFill
+            .init("arrow.up.heart"): [], // SFSymbol.arrowUpHeart
+            .init("arrow.up.heart.fill"): [], // SFSymbol.arrowUpHeartFill
+            .init("arrow.up.left.and.arrow.down.right.circle"): [], // SFSymbol.arrowUpLeftAndArrowDownRightCircle
+            .init("arrow.up.left.and.arrow.down.right.circle.fill"): [], // SFSymbol.arrowUpLeftAndArrowDownRightCircleFill
+            .init("arrow.up.left.and.down.right.and.arrow.up.right.and.down.left"): [], // SFSymbol.arrowUpLeftAndDownRightAndArrowUpRightAndDownLeft
+            .init("arrow.up.left.and.down.right.magnifyingglass"): [], // SFSymbol.arrowUpLeftAndDownRightMagnifyingglass
+            .init("arrow.up.message"): [], // SFSymbol.arrowUpMessage
+            .init("arrow.up.message.fill"): [], // SFSymbol.arrowUpMessageFill
+            .init("arrow.up.right.and.arrow.down.left.rectangle"): [], // SFSymbol.arrowUpRightAndArrowDownLeftRectangle
+            .init("arrow.up.right.and.arrow.down.left.rectangle.fill"): [], // SFSymbol.arrowUpRightAndArrowDownLeftRectangleFill
+            .init("arrow.uturn.backward"): [], // SFSymbol.arrowUturnBackward
+            .init("arrow.uturn.backward.circle"): [], // SFSymbol.arrowUturnBackwardCircle
+            .init("arrow.uturn.backward.circle.badge.ellipsis"): [], // SFSymbol.arrowUturnBackwardCircleBadgeEllipsis
+            .init("arrow.uturn.backward.circle.fill"): [], // SFSymbol.arrowUturnBackwardCircleFill
+            .init("arrow.uturn.backward.square"): [], // SFSymbol.arrowUturnBackwardSquare
+            .init("arrow.uturn.backward.square.fill"): [], // SFSymbol.arrowUturnBackwardSquareFill
+            .init("arrow.uturn.forward"): [], // SFSymbol.arrowUturnForward
+            .init("arrow.uturn.forward.circle"): [], // SFSymbol.arrowUturnForwardCircle
+            .init("arrow.uturn.forward.circle.fill"): [], // SFSymbol.arrowUturnForwardCircleFill
+            .init("arrow.uturn.forward.square"): [], // SFSymbol.arrowUturnForwardSquare
+            .init("arrow.uturn.forward.square.fill"): [], // SFSymbol.arrowUturnForwardSquareFill
+            .init("arrowshape.bounce.forward"): [], // SFSymbol.arrowshapeBounceForward
+            .init("arrowshape.bounce.forward.fill"): [], // SFSymbol.arrowshapeBounceForwardFill
+            .init("arrowshape.bounce.right"): [], // SFSymbol.arrowshapeBounceRight
+            .init("arrowshape.bounce.right.fill"): [], // SFSymbol.arrowshapeBounceRightFill
+            .init("arrowshape.turn.up.backward"): [], // SFSymbol.arrowshapeTurnUpBackward
+            .init("arrowshape.turn.up.backward.2"): [], // SFSymbol.arrowshapeTurnUpBackward2
+            .init("arrowshape.turn.up.backward.2.circle"): [], // SFSymbol.arrowshapeTurnUpBackward2Circle
+            .init("arrowshape.turn.up.backward.2.circle.fill"): [], // SFSymbol.arrowshapeTurnUpBackward2CircleFill
+            .init("arrowshape.turn.up.backward.2.fill"): [], // SFSymbol.arrowshapeTurnUpBackward2Fill
+            .init("arrowshape.turn.up.backward.circle"): [], // SFSymbol.arrowshapeTurnUpBackwardCircle
+            .init("arrowshape.turn.up.backward.circle.fill"): [], // SFSymbol.arrowshapeTurnUpBackwardCircleFill
+            .init("arrowshape.turn.up.backward.fill"): [], // SFSymbol.arrowshapeTurnUpBackwardFill
+            .init("arrowshape.turn.up.forward"): [], // SFSymbol.arrowshapeTurnUpForward
+            .init("arrowshape.turn.up.forward.circle"): [], // SFSymbol.arrowshapeTurnUpForwardCircle
+            .init("arrowshape.turn.up.forward.circle.fill"): [], // SFSymbol.arrowshapeTurnUpForwardCircleFill
+            .init("arrowshape.turn.up.forward.fill"): [], // SFSymbol.arrowshapeTurnUpForwardFill
+            .init("arrowshape.turn.up.left.2.circle"): [], // SFSymbol.arrowshapeTurnUpLeft2Circle
+            .init("arrowshape.turn.up.left.2.circle.fill"): [], // SFSymbol.arrowshapeTurnUpLeft2CircleFill
+            .init("arrowshape.zigzag.forward"): [], // SFSymbol.arrowshapeZigzagForward
+            .init("arrowshape.zigzag.forward.fill"): [], // SFSymbol.arrowshapeZigzagForwardFill
+            .init("arrowshape.zigzag.right"): [], // SFSymbol.arrowshapeZigzagRight
+            .init("arrowshape.zigzag.right.fill"): [], // SFSymbol.arrowshapeZigzagRightFill
+            .init("arrowtriangle.backward"): [], // SFSymbol.arrowtriangleBackward
+            .init("arrowtriangle.backward.circle"): [], // SFSymbol.arrowtriangleBackwardCircle
+            .init("arrowtriangle.backward.circle.fill"): [], // SFSymbol.arrowtriangleBackwardCircleFill
+            .init("arrowtriangle.backward.fill"): [], // SFSymbol.arrowtriangleBackwardFill
+            .init("arrowtriangle.backward.square"): [], // SFSymbol.arrowtriangleBackwardSquare
+            .init("arrowtriangle.backward.square.fill"): [], // SFSymbol.arrowtriangleBackwardSquareFill
+            .init("arrowtriangle.forward"): [], // SFSymbol.arrowtriangleForward
+            .init("arrowtriangle.forward.circle"): [], // SFSymbol.arrowtriangleForwardCircle
+            .init("arrowtriangle.forward.circle.fill"): [], // SFSymbol.arrowtriangleForwardCircleFill
+            .init("arrowtriangle.forward.fill"): [], // SFSymbol.arrowtriangleForwardFill
+            .init("arrowtriangle.forward.square"): [], // SFSymbol.arrowtriangleForwardSquare
+            .init("arrowtriangle.forward.square.fill"): [], // SFSymbol.arrowtriangleForwardSquareFill
+            .init("arrowtriangle.left.and.line.vertical.and.arrowtriangle.right"): [], // SFSymbol.arrowtriangleLeftAndLineVerticalAndArrowtriangleRight
+            .init("arrowtriangle.left.fill.and.line.vertical.and.arrowtriangle.right.fill"): [], // SFSymbol.arrowtriangleLeftFillAndLineVerticalAndArrowtriangleRightFill
+            .init("arrowtriangle.right.and.line.vertical.and.arrowtriangle.left"): [], // SFSymbol.arrowtriangleRightAndLineVerticalAndArrowtriangleLeft
+            .init("arrowtriangle.right.fill.and.line.vertical.and.arrowtriangle.left.fill"): [], // SFSymbol.arrowtriangleRightFillAndLineVerticalAndArrowtriangleLeftFill
+            .init("at.circle"): [], // SFSymbol.atCircle
+            .init("at.circle.fill"): [], // SFSymbol.atCircleFill
+            .init("atom"): [], // SFSymbol.atom
+            .init("backward.frame"): [], // SFSymbol.backwardFrame
+            .init("backward.frame.fill"): [], // SFSymbol.backwardFrameFill
+            .init("badge.plus.radiowaves.forward"): [], // SFSymbol.badgePlusRadiowavesForward
+            .init("bag.circle"): [], // SFSymbol.bagCircle
+            .init("bag.circle.fill"): [], // SFSymbol.bagCircleFill
+            .init("banknote"): [], // SFSymbol.banknote
+            .init("banknote.fill"): [], // SFSymbol.banknoteFill
+            .init("barometer"): [], // SFSymbol.barometer
+            .init("battery.100.bolt"): [.rtl], // SFSymbol.battery100Bolt
+            .init("bell.badge"): [], // SFSymbol.bellBadge
+            .init("bell.badge.fill"): [], // SFSymbol.bellBadgeFill
+            .init("bell.slash.circle"): [], // SFSymbol.bellSlashCircle
+            .init("bell.slash.circle.fill"): [], // SFSymbol.bellSlashCircleFill
+            .init("bicycle"): [], // SFSymbol.bicycle
+            .init("bicycle.circle"): [], // SFSymbol.bicycleCircle
+            .init("bicycle.circle.fill"): [], // SFSymbol.bicycleCircleFill
+            .init("binoculars"): [], // SFSymbol.binoculars
+            .init("binoculars.fill"): [], // SFSymbol.binocularsFill
+            .init("bolt.car"): [], // SFSymbol.boltCar
+            .init("bolt.car.fill"): [], // SFSymbol.boltCarFill
+            .init("bolt.fill.batteryblock"): [], // SFSymbol.boltFillBatteryblock
+            .init("bolt.fill.batteryblock.fill"): [], // SFSymbol.boltFillBatteryblockFill
+            .init("bolt.heart"): [], // SFSymbol.boltHeart
+            .init("bolt.heart.fill"): [], // SFSymbol.boltHeartFill
+            .init("bolt.slash.circle"): [], // SFSymbol.boltSlashCircle
+            .init("bolt.slash.circle.fill"): [], // SFSymbol.boltSlashCircleFill
+            .init("bonjour"): [], // SFSymbol.bonjour
+            .init("book.closed"): [], // SFSymbol.bookClosed
+            .init("book.closed.fill"): [], // SFSymbol.bookClosedFill
+            .init("bookmark.circle"): [], // SFSymbol.bookmarkCircle
+            .init("bookmark.circle.fill"): [], // SFSymbol.bookmarkCircleFill
+            .init("bookmark.slash"): [], // SFSymbol.bookmarkSlash
+            .init("bookmark.slash.fill"): [], // SFSymbol.bookmarkSlashFill
+            .init("books.vertical"): [], // SFSymbol.booksVertical
+            .init("books.vertical.fill"): [], // SFSymbol.booksVerticalFill
+            .init("building"): [], // SFSymbol.building
+            .init("building.2"): [], // SFSymbol.building2
+            .init("building.2.crop.circle"): [], // SFSymbol.building2CropCircle
+            .init("building.2.crop.circle.fill"): [], // SFSymbol.building2CropCircleFill
+            .init("building.2.fill"): [], // SFSymbol.building2Fill
+            .init("building.columns"): [], // SFSymbol.buildingColumns
+            .init("building.columns.fill"): [], // SFSymbol.buildingColumnsFill
+            .init("building.fill"): [], // SFSymbol.buildingFill
+            .init("bus"): [], // SFSymbol.bus
+            .init("bus.doubledecker"): [], // SFSymbol.busDoubledecker
+            .init("bus.doubledecker.fill"): [], // SFSymbol.busDoubledeckerFill
+            .init("bus.fill"): [], // SFSymbol.busFill
+            .init("calendar.badge.clock"): [.rtl], // SFSymbol.calendarBadgeClock
+            .init("calendar.badge.exclamationmark"): [], // SFSymbol.calendarBadgeExclamationmark
+            .init("camera.aperture"): [], // SFSymbol.cameraAperture
+            .init("camera.badge.ellipsis"): [], // SFSymbol.cameraBadgeEllipsis
+            .init("camera.fill.badge.ellipsis"): [], // SFSymbol.cameraFillBadgeEllipsis
+            .init("camera.filters"): [], // SFSymbol.cameraFilters
+            .init("camera.metering.center.weighted"): [], // SFSymbol.cameraMeteringCenterWeighted
+            .init("camera.metering.center.weighted.average"): [], // SFSymbol.cameraMeteringCenterWeightedAverage
+            .init("camera.metering.matrix"): [], // SFSymbol.cameraMeteringMatrix
+            .init("camera.metering.multispot"): [], // SFSymbol.cameraMeteringMultispot
+            .init("camera.metering.none"): [], // SFSymbol.cameraMeteringNone
+            .init("camera.metering.partial"): [], // SFSymbol.cameraMeteringPartial
+            .init("camera.metering.spot"): [], // SFSymbol.cameraMeteringSpot
+            .init("camera.metering.unknown"): [.ar], // SFSymbol.cameraMeteringUnknown
+            .init("candybarphone"): [], // SFSymbol.candybarphone
+            .init("capsule.portrait"): [], // SFSymbol.capsulePortrait
+            .init("capsule.portrait.fill"): [], // SFSymbol.capsulePortraitFill
+            .init("car.2"): [], // SFSymbol.car2
+            .init("car.2.fill"): [], // SFSymbol.car2Fill
+            .init("car.circle"): [], // SFSymbol.carCircle
+            .init("car.circle.fill"): [], // SFSymbol.carCircleFill
+            .init("case"): [], // SFSymbol.`case`
+            .init("case.fill"): [], // SFSymbol.caseFill
+            .init("chart.bar.doc.horizontal"): [], // SFSymbol.chartBarDocHorizontal
+            .init("chart.bar.doc.horizontal.fill"): [], // SFSymbol.chartBarDocHorizontalFill
+            .init("chart.bar.xaxis"): [], // SFSymbol.chartBarXaxis
+            .init("checkerboard.rectangle"): [], // SFSymbol.checkerboardRectangle
+            .init("checkmark.icloud"): [], // SFSymbol.checkmarkIcloud
+            .init("checkmark.icloud.fill"): [], // SFSymbol.checkmarkIcloudFill
+            .init("checkmark.rectangle.portrait"): [], // SFSymbol.checkmarkRectanglePortrait
+            .init("checkmark.rectangle.portrait.fill"): [], // SFSymbol.checkmarkRectanglePortraitFill
+            .init("chevron.backward"): [], // SFSymbol.chevronBackward
+            .init("chevron.backward.2"): [], // SFSymbol.chevronBackward2
+            .init("chevron.backward.circle"): [], // SFSymbol.chevronBackwardCircle
+            .init("chevron.backward.circle.fill"): [], // SFSymbol.chevronBackwardCircleFill
+            .init("chevron.backward.square"): [], // SFSymbol.chevronBackwardSquare
+            .init("chevron.backward.square.fill"): [], // SFSymbol.chevronBackwardSquareFill
+            .init("chevron.forward"): [], // SFSymbol.chevronForward
+            .init("chevron.forward.2"): [], // SFSymbol.chevronForward2
+            .init("chevron.forward.circle"): [], // SFSymbol.chevronForwardCircle
+            .init("chevron.forward.circle.fill"): [], // SFSymbol.chevronForwardCircleFill
+            .init("chevron.forward.square"): [], // SFSymbol.chevronForwardSquare
+            .init("chevron.forward.square.fill"): [], // SFSymbol.chevronForwardSquareFill
+            .init("circle.bottomhalf.fill"): [], // SFSymbol.circleBottomhalfFill
+            .init("circle.circle"): [], // SFSymbol.circleCircle
+            .init("circle.circle.fill"): [], // SFSymbol.circleCircleFill
+            .init("circle.dashed"): [], // SFSymbol.circleDashed
+            .init("circle.dashed.inset.fill"): [], // SFSymbol.circleDashedInsetFill
+            .init("circle.fill.square.fill"): [], // SFSymbol.circleFillSquareFill
+            .init("circle.grid.cross"): [], // SFSymbol.circleGridCross
+            .init("circle.grid.cross.down.fill"): [], // SFSymbol.circleGridCrossDownFill
+            .init("circle.grid.cross.fill"): [], // SFSymbol.circleGridCrossFill
+            .init("circle.grid.cross.left.fill"): [], // SFSymbol.circleGridCrossLeftFill
+            .init("circle.grid.cross.right.fill"): [], // SFSymbol.circleGridCrossRightFill
+            .init("circle.grid.cross.up.fill"): [], // SFSymbol.circleGridCrossUpFill
+            .init("circle.square"): [], // SFSymbol.circleSquare
+            .init("circle.tophalf.fill"): [], // SFSymbol.circleTophalfFill
+            .init("circlebadge"): [], // SFSymbol.circlebadge
+            .init("circlebadge.2"): [], // SFSymbol.circlebadge2
+            .init("circlebadge.2.fill"): [], // SFSymbol.circlebadge2Fill
+            .init("circlebadge.fill"): [], // SFSymbol.circlebadgeFill
+            .init("circles.hexagongrid"): [], // SFSymbol.circlesHexagongrid
+            .init("circles.hexagongrid.fill"): [], // SFSymbol.circlesHexagongridFill
+            .init("circles.hexagonpath"): [], // SFSymbol.circlesHexagonpath
+            .init("circles.hexagonpath.fill"): [], // SFSymbol.circlesHexagonpathFill
+            .init("clock.arrow.circlepath"): [], // SFSymbol.clockArrowCirclepath
+            .init("comb"): [], // SFSymbol.comb
+            .init("comb.fill"): [], // SFSymbol.combFill
+            .init("command.circle"): [], // SFSymbol.commandCircle
+            .init("command.circle.fill"): [], // SFSymbol.commandCircleFill
+            .init("command.square"): [], // SFSymbol.commandSquare
+            .init("command.square.fill"): [], // SFSymbol.commandSquareFill
+            .init("cone"): [], // SFSymbol.cone
+            .init("cone.fill"): [], // SFSymbol.coneFill
+            .init("contextualmenu.and.cursorarrow"): [], // SFSymbol.contextualmenuAndCursorarrow
+            .init("cpu"): [], // SFSymbol.cpu
+            .init("creditcard.circle"): [], // SFSymbol.creditcardCircle
+            .init("creditcard.circle.fill"): [], // SFSymbol.creditcardCircleFill
+            .init("cross"): [], // SFSymbol.cross
+            .init("cross.case"): [], // SFSymbol.crossCase
+            .init("cross.case.fill"): [], // SFSymbol.crossCaseFill
+            .init("cross.circle"): [], // SFSymbol.crossCircle
+            .init("cross.circle.fill"): [], // SFSymbol.crossCircleFill
+            .init("cross.fill"): [], // SFSymbol.crossFill
+            .init("crown"): [], // SFSymbol.crown
+            .init("crown.fill"): [], // SFSymbol.crownFill
+            .init("cube.transparent"): [], // SFSymbol.cubeTransparent
+            .init("cube.transparent.fill"): [], // SFSymbol.cubeTransparentFill
+            .init("curlybraces"): [], // SFSymbol.curlybraces
+            .init("curlybraces.square"): [], // SFSymbol.curlybracesSquare
+            .init("curlybraces.square.fill"): [], // SFSymbol.curlybracesSquareFill
+            .init("cursorarrow"): [], // SFSymbol.cursorarrow
+            .init("cursorarrow.and.square.on.square.dashed"): [], // SFSymbol.cursorarrowAndSquareOnSquareDashed
+            .init("cursorarrow.click"): [], // SFSymbol.cursorarrowClick
+            .init("cursorarrow.click.2"): [], // SFSymbol.cursorarrowClick2
+            .init("cursorarrow.click.badge.clock"): [], // SFSymbol.cursorarrowClickBadgeClock
+            .init("cursorarrow.motionlines"): [], // SFSymbol.cursorarrowMotionlines
+            .init("cursorarrow.motionlines.click"): [], // SFSymbol.cursorarrowMotionlinesClick
+            .init("cursorarrow.rays"): [], // SFSymbol.cursorarrowRays
+            .init("cursorarrow.square"): [], // SFSymbol.cursorarrowSquare
+            .init("cylinder"): [], // SFSymbol.cylinder
+            .init("cylinder.fill"): [], // SFSymbol.cylinderFill
+            .init("cylinder.split.1x2"): [], // SFSymbol.cylinderSplit1x2
+            .init("cylinder.split.1x2.fill"): [], // SFSymbol.cylinderSplit1x2Fill
+            .init("deskclock"): [], // SFSymbol.deskclock
+            .init("deskclock.fill"): [], // SFSymbol.deskclockFill
+            .init("dial.max"): [], // SFSymbol.dialMax
+            .init("dial.max.fill"): [], // SFSymbol.dialMaxFill
+            .init("dial.min"): [], // SFSymbol.dialMin
+            .init("dial.min.fill"): [], // SFSymbol.dialMinFill
+            .init("diamond"): [], // SFSymbol.diamond
+            .init("diamond.fill"): [], // SFSymbol.diamondFill
+            .init("die.face.1"): [], // SFSymbol.dieFace1
+            .init("die.face.1.fill"): [], // SFSymbol.dieFace1Fill
+            .init("die.face.2"): [], // SFSymbol.dieFace2
+            .init("die.face.2.fill"): [], // SFSymbol.dieFace2Fill
+            .init("die.face.3"): [], // SFSymbol.dieFace3
+            .init("die.face.3.fill"): [], // SFSymbol.dieFace3Fill
+            .init("die.face.4"): [], // SFSymbol.dieFace4
+            .init("die.face.4.fill"): [], // SFSymbol.dieFace4Fill
+            .init("die.face.5"): [], // SFSymbol.dieFace5
+            .init("die.face.5.fill"): [], // SFSymbol.dieFace5Fill
+            .init("die.face.6"): [], // SFSymbol.dieFace6
+            .init("die.face.6.fill"): [], // SFSymbol.dieFace6Fill
+            .init("display"): [], // SFSymbol.display
+            .init("display.2"): [], // SFSymbol.display2
+            .init("display.trianglebadge.exclamationmark"): [], // SFSymbol.displayTrianglebadgeExclamationmark
+            .init("doc.append"): [.rtl], // SFSymbol.docAppend
+            .init("doc.append.fill"): [.rtl], // SFSymbol.docAppendFill
+            .init("doc.badge.ellipsis"): [], // SFSymbol.docBadgeEllipsis
+            .init("doc.badge.gearshape"): [], // SFSymbol.docBadgeGearshape
+            .init("doc.badge.gearshape.fill"): [], // SFSymbol.docBadgeGearshapeFill
+            .init("doc.badge.plus"): [], // SFSymbol.docBadgePlus
+            .init("doc.fill.badge.ellipsis"): [], // SFSymbol.docFillBadgeEllipsis
+            .init("doc.fill.badge.plus"): [], // SFSymbol.docFillBadgePlus
+            .init("doc.plaintext.fill"): [], // SFSymbol.docPlaintextFill
+            .init("doc.richtext"): [.ar, .he], // SFSymbol.docRichtext
+            .init("doc.richtext.fill"): [.ar, .he], // SFSymbol.docRichtextFill
+            .init("doc.text.below.ecg"): [], // SFSymbol.docTextBelowEcg
+            .init("doc.text.below.ecg.fill"): [], // SFSymbol.docTextBelowEcgFill
+            .init("doc.text.fill.viewfinder"): [], // SFSymbol.docTextFillViewfinder
+            .init("doc.zipper"): [], // SFSymbol.docZipper
+            .init("dock.arrow.down.rectangle"): [], // SFSymbol.dockArrowDownRectangle
+            .init("dock.arrow.up.rectangle"): [], // SFSymbol.dockArrowUpRectangle
+            .init("dock.rectangle"): [], // SFSymbol.dockRectangle
+            .init("dot.arrowtriangles.up.right.down.left.circle"): [], // SFSymbol.dotArrowtrianglesUpRightDownLeftCircle
+            .init("dot.circle.and.cursorarrow"): [], // SFSymbol.dotCircleAndCursorarrow
+            .init("dot.radiowaves.forward"): [], // SFSymbol.dotRadiowavesForward
+            .init("dot.squareshape"): [], // SFSymbol.dotSquareshape
+            .init("dot.squareshape.fill"): [], // SFSymbol.dotSquareshapeFill
+            .init("dot.squareshape.split.2x2"): [], // SFSymbol.dotSquareshapeSplit2x2
+            .init("dpad"): [], // SFSymbol.dpad
+            .init("dpad.down.fill"): [], // SFSymbol.dpadDownFill
+            .init("dpad.fill"): [], // SFSymbol.dpadFill
+            .init("dpad.left.fill"): [], // SFSymbol.dpadLeftFill
+            .init("dpad.right.fill"): [], // SFSymbol.dpadRightFill
+            .init("dpad.up.fill"): [], // SFSymbol.dpadUpFill
+            .init("drop"): [], // SFSymbol.drop
+            .init("drop.fill"): [], // SFSymbol.dropFill
+            .init("ear.badge.checkmark"): [], // SFSymbol.earBadgeCheckmark
+            .init("ear.fill"): [], // SFSymbol.earFill
+            .init("ear.trianglebadge.exclamationmark"): [], // SFSymbol.earTrianglebadgeExclamationmark
+            .init("earpods"): [], // SFSymbol.earpods
+            .init("eject.circle"): [], // SFSymbol.ejectCircle
+            .init("eject.circle.fill"): [], // SFSymbol.ejectCircleFill
+            .init("ellipsis.bubble"): [], // SFSymbol.ellipsisBubble
+            .init("ellipsis.bubble.fill"): [], // SFSymbol.ellipsisBubbleFill
+            .init("ellipsis.rectangle"): [], // SFSymbol.ellipsisRectangle
+            .init("ellipsis.rectangle.fill"): [], // SFSymbol.ellipsisRectangleFill
+            .init("envelope.arrow.triangle.branch"): [], // SFSymbol.envelopeArrowTriangleBranch
+            .init("envelope.arrow.triangle.branch.fill"): [], // SFSymbol.envelopeArrowTriangleBranchFill
+            .init("envelope.badge.shield.leadinghalf.fill"): [], // SFSymbol.envelopeBadgeShieldLeadinghalfFill
+            .init("envelope.fill.badge.shield.trailinghalf.fill"): [], // SFSymbol.envelopeFillBadgeShieldTrailinghalfFill
+            .init("esim"): [], // SFSymbol.esim
+            .init("esim.fill"): [], // SFSymbol.esimFill
+            .init("exclamationmark.2"): [], // SFSymbol.exclamationmark2
+            .init("exclamationmark.3"): [], // SFSymbol.exclamationmark3
+            .init("exclamationmark.arrow.circlepath"): [], // SFSymbol.exclamationmarkArrowCirclepath
+            .init("exclamationmark.arrow.triangle.2.circlepath"): [], // SFSymbol.exclamationmarkArrowTriangle2Circlepath
+            .init("externaldrive"): [], // SFSymbol.externaldrive
+            .init("externaldrive.badge.checkmark"): [], // SFSymbol.externaldriveBadgeCheckmark
+            .init("externaldrive.badge.icloud"): [], // SFSymbol.externaldriveBadgeIcloud
+            .init("externaldrive.badge.minus"): [], // SFSymbol.externaldriveBadgeMinus
+            .init("externaldrive.badge.person.crop"): [], // SFSymbol.externaldriveBadgePersonCrop
+            .init("externaldrive.badge.plus"): [], // SFSymbol.externaldriveBadgePlus
+            .init("externaldrive.badge.timemachine"): [], // SFSymbol.externaldriveBadgeTimemachine
+            .init("externaldrive.badge.wifi"): [], // SFSymbol.externaldriveBadgeWifi
+            .init("externaldrive.badge.xmark"): [], // SFSymbol.externaldriveBadgeXmark
+            .init("externaldrive.connected.to.line.below"): [], // SFSymbol.externaldriveConnectedToLineBelow
+            .init("externaldrive.connected.to.line.below.fill"): [], // SFSymbol.externaldriveConnectedToLineBelowFill
+            .init("externaldrive.fill"): [], // SFSymbol.externaldriveFill
+            .init("externaldrive.fill.badge.checkmark"): [], // SFSymbol.externaldriveFillBadgeCheckmark
+            .init("externaldrive.fill.badge.icloud"): [], // SFSymbol.externaldriveFillBadgeIcloud
+            .init("externaldrive.fill.badge.minus"): [], // SFSymbol.externaldriveFillBadgeMinus
+            .init("externaldrive.fill.badge.person.crop"): [], // SFSymbol.externaldriveFillBadgePersonCrop
+            .init("externaldrive.fill.badge.plus"): [], // SFSymbol.externaldriveFillBadgePlus
+            .init("externaldrive.fill.badge.timemachine"): [], // SFSymbol.externaldriveFillBadgeTimemachine
+            .init("externaldrive.fill.badge.wifi"): [], // SFSymbol.externaldriveFillBadgeWifi
+            .init("externaldrive.fill.badge.xmark"): [], // SFSymbol.externaldriveFillBadgeXmark
+            .init("eye.circle"): [], // SFSymbol.eyeCircle
+            .init("eye.circle.fill"): [], // SFSymbol.eyeCircleFill
+            .init("eyebrow"): [], // SFSymbol.eyebrow
+            .init("eyes"): [], // SFSymbol.eyes
+            .init("eyes.inverse"): [], // SFSymbol.eyesInverse
+            .init("face.dashed"): [], // SFSymbol.faceDashed
+            .init("face.dashed.fill"): [], // SFSymbol.faceDashedFill
+            .init("face.smiling"): [], // SFSymbol.faceSmiling
+            .init("face.smiling.fill"): [], // SFSymbol.faceSmilingFill
+            .init("faxmachine"): [], // SFSymbol.faxmachine
+            .init("fiberchannel"): [], // SFSymbol.fiberchannel
+            .init("figure.stand"): [], // SFSymbol.figureStand
+            .init("figure.stand.line.dotted.figure.stand"): [], // SFSymbol.figureStandLineDottedFigureStand
+            .init("figure.walk"): [], // SFSymbol.figureWalk
+            .init("figure.walk.circle"): [], // SFSymbol.figureWalkCircle
+            .init("figure.walk.circle.fill"): [], // SFSymbol.figureWalkCircleFill
+            .init("figure.walk.diamond"): [], // SFSymbol.figureWalkDiamond
+            .init("figure.walk.diamond.fill"): [], // SFSymbol.figureWalkDiamondFill
+            .init("figure.wave"): [], // SFSymbol.figureWave
+            .init("figure.wave.circle"): [], // SFSymbol.figureWaveCircle
+            .init("figure.wave.circle.fill"): [], // SFSymbol.figureWaveCircleFill
+            .init("filemenu.and.cursorarrow"): [.rtl], // SFSymbol.filemenuAndCursorarrow
+            .init("filemenu.and.selection"): [], // SFSymbol.filemenuAndSelection
+            .init("flag.badge.ellipsis"): [], // SFSymbol.flagBadgeEllipsis
+            .init("flag.badge.ellipsis.fill"): [], // SFSymbol.flagBadgeEllipsisFill
+            .init("flag.slash.circle"): [], // SFSymbol.flagSlashCircle
+            .init("flag.slash.circle.fill"): [], // SFSymbol.flagSlashCircleFill
+            .init("flipphone"): [], // SFSymbol.flipphone
+            .init("fn"): [], // SFSymbol.fn
+            .init("folder.badge.gear"): [], // SFSymbol.folderBadgeGear
+            .init("folder.badge.questionmark"): [.ar], // SFSymbol.folderBadgeQuestionmark
+            .init("folder.fill.badge.gear"): [], // SFSymbol.folderFillBadgeGear
+            .init("folder.fill.badge.questionmark"): [.ar], // SFSymbol.folderFillBadgeQuestionmark
+            .init("forward.frame"): [], // SFSymbol.forwardFrame
+            .init("forward.frame.fill"): [], // SFSymbol.forwardFrameFill
+            .init("gearshape"): [], // SFSymbol.gearshape
+            .init("gearshape.2"): [], // SFSymbol.gearshape2
+            .init("gearshape.2.fill"): [], // SFSymbol.gearshape2Fill
+            .init("gearshape.fill"): [], // SFSymbol.gearshapeFill
+            .init("gift.circle"): [], // SFSymbol.giftCircle
+            .init("gift.circle.fill"): [], // SFSymbol.giftCircleFill
+            .init("giftcard"): [], // SFSymbol.giftcard
+            .init("giftcard.fill"): [], // SFSymbol.giftcardFill
+            .init("graduationcap"): [], // SFSymbol.graduationcap
+            .init("graduationcap.fill"): [], // SFSymbol.graduationcapFill
+            .init("greetingcard"): [], // SFSymbol.greetingcard
+            .init("greetingcard.fill"): [], // SFSymbol.greetingcardFill
+            .init("guitars.fill"): [], // SFSymbol.guitarsFill
+            .init("gyroscope"): [], // SFSymbol.gyroscope
+            .init("h.square.fill.on.square.fill"): [], // SFSymbol.hSquareFillOnSquareFill
+            .init("h.square.on.square"): [], // SFSymbol.hSquareOnSquare
+            .init("hand.point.down"): [], // SFSymbol.handPointDown
+            .init("hand.point.down.fill"): [], // SFSymbol.handPointDownFill
+            .init("hand.point.up"): [], // SFSymbol.handPointUp
+            .init("hand.point.up.braille"): [], // SFSymbol.handPointUpBraille
+            .init("hand.point.up.braille.fill"): [], // SFSymbol.handPointUpBrailleFill
+            .init("hand.point.up.fill"): [], // SFSymbol.handPointUpFill
+            .init("hand.point.up.left"): [], // SFSymbol.handPointUpLeft
+            .init("hand.point.up.left.fill"): [], // SFSymbol.handPointUpLeftFill
+            .init("hand.tap"): [], // SFSymbol.handTap
+            .init("hand.tap.fill"): [], // SFSymbol.handTapFill
+            .init("hand.wave"): [], // SFSymbol.handWave
+            .init("hand.wave.fill"): [], // SFSymbol.handWaveFill
+            .init("hands.clap"): [], // SFSymbol.handsClap
+            .init("hands.clap.fill"): [], // SFSymbol.handsClapFill
+            .init("hands.sparkles"): [], // SFSymbol.handsSparkles
+            .init("hands.sparkles.fill"): [], // SFSymbol.handsSparklesFill
+            .init("headphones.circle"): [], // SFSymbol.headphonesCircle
+            .init("headphones.circle.fill"): [], // SFSymbol.headphonesCircleFill
+            .init("hearingaid.ear"): [], // SFSymbol.hearingaidEar
+            .init("heart.text.square"): [], // SFSymbol.heartTextSquare
+            .init("heart.text.square.fill"): [], // SFSymbol.heartTextSquareFill
+            .init("hifispeaker.2"): [], // SFSymbol.hifispeaker2
+            .init("hifispeaker.2.fill"): [], // SFSymbol.hifispeaker2Fill
+            .init("hifispeaker.and.homepod"): [], // SFSymbol.hifispeakerAndHomepod
+            .init("hifispeaker.and.homepod.fill"): [], // SFSymbol.hifispeakerAndHomepodFill
+            .init("highlighter"): [], // SFSymbol.highlighter
+            .init("homekit"): [], // SFSymbol.homekit
+            .init("homepod"): [], // SFSymbol.homepod
+            .init("homepod.2"): [], // SFSymbol.homepod2
+            .init("homepod.2.fill"): [], // SFSymbol.homepod2Fill
+            .init("homepod.fill"): [], // SFSymbol.homepodFill
+            .init("hourglass.badge.plus"): [], // SFSymbol.hourglassBadgePlus
+            .init("house.circle"): [], // SFSymbol.houseCircle
+            .init("house.circle.fill"): [], // SFSymbol.houseCircleFill
+            .init("infinity"): [], // SFSymbol.infinity
+            .init("internaldrive"): [], // SFSymbol.internaldrive
+            .init("internaldrive.fill"): [], // SFSymbol.internaldriveFill
+            .init("ipad"): [], // SFSymbol.ipad
+            .init("ipad.homebutton"): [], // SFSymbol.ipadHomebutton
+            .init("ipad.homebutton.landscape"): [], // SFSymbol.ipadHomebuttonLandscape
+            .init("ipad.landscape"): [], // SFSymbol.ipadLandscape
+            .init("iphone"): [], // SFSymbol.iphone
+            .init("iphone.homebutton"): [], // SFSymbol.iphoneHomebutton
+            .init("iphone.homebutton.radiowaves.left.and.right"): [], // SFSymbol.iphoneHomebuttonRadiowavesLeftAndRight
+            .init("iphone.homebutton.slash"): [], // SFSymbol.iphoneHomebuttonSlash
+            .init("iphone.radiowaves.left.and.right"): [], // SFSymbol.iphoneRadiowavesLeftAndRight
+            .init("iphone.slash"): [], // SFSymbol.iphoneSlash
+            .init("ipod"): [], // SFSymbol.ipod
+            .init("ipodshuffle.gen1"): [], // SFSymbol.ipodshuffleGen1
+            .init("ipodshuffle.gen2"): [], // SFSymbol.ipodshuffleGen2
+            .init("ipodshuffle.gen3"): [], // SFSymbol.ipodshuffleGen3
+            .init("ipodshuffle.gen4"): [], // SFSymbol.ipodshuffleGen4
+            .init("ipodtouch"): [], // SFSymbol.ipodtouch
+            .init("j.square.fill.on.square.fill"): [], // SFSymbol.jSquareFillOnSquareFill
+            .init("j.square.on.square"): [], // SFSymbol.jSquareOnSquare
+            .init("k"): [], // SFSymbol.k
+            .init("key"): [], // SFSymbol.key
+            .init("key.fill"): [], // SFSymbol.keyFill
+            .init("key.icloud"): [], // SFSymbol.keyIcloud
+            .init("key.icloud.fill"): [], // SFSymbol.keyIcloudFill
+            .init("keyboard.badge.ellipsis"): [], // SFSymbol.keyboardBadgeEllipsis
+            .init("keyboard.chevron.compact.left"): [], // SFSymbol.keyboardChevronCompactLeft
+            .init("keyboard.macwindow"): [], // SFSymbol.keyboardMacwindow
+            .init("keyboard.onehanded.left"): [], // SFSymbol.keyboardOnehandedLeft
+            .init("keyboard.onehanded.right"): [], // SFSymbol.keyboardOnehandedRight
+            .init("l.joystick"): [], // SFSymbol.lJoystick
+            .init("l.joystick.down"): [], // SFSymbol.lJoystickDown
+            .init("l.joystick.down.fill"): [], // SFSymbol.lJoystickDownFill
+            .init("l.joystick.fill"): [], // SFSymbol.lJoystickFill
+            .init("l.rectangle.roundedbottom"): [], // SFSymbol.lRectangleRoundedbottom
+            .init("l.rectangle.roundedbottom.fill"): [], // SFSymbol.lRectangleRoundedbottomFill
+            .init("l1.rectangle.roundedbottom"): [], // SFSymbol.l1RectangleRoundedbottom
+            .init("l1.rectangle.roundedbottom.fill"): [], // SFSymbol.l1RectangleRoundedbottomFill
+            .init("l2.rectangle.roundedtop"): [], // SFSymbol.l2RectangleRoundedtop
+            .init("l2.rectangle.roundedtop.fill"): [], // SFSymbol.l2RectangleRoundedtopFill
+            .init("ladybug"): [], // SFSymbol.ladybug
+            .init("ladybug.fill"): [], // SFSymbol.ladybugFill
+            .init("laptopcomputer"): [], // SFSymbol.laptopcomputer
+            .init("laptopcomputer.and.iphone"): [], // SFSymbol.laptopcomputerAndIphone
+            .init("lasso.sparkles"): [], // SFSymbol.lassoSparkles
+            .init("latch.2.case"): [], // SFSymbol.latch2Case
+            .init("latch.2.case.fill"): [], // SFSymbol.latch2CaseFill
+            .init("lb.rectangle.roundedbottom"): [], // SFSymbol.lbRectangleRoundedbottom
+            .init("lb.rectangle.roundedbottom.fill"): [], // SFSymbol.lbRectangleRoundedbottomFill
+            .init("leaf"): [], // SFSymbol.leaf
+            .init("leaf.arrow.triangle.circlepath"): [], // SFSymbol.leafArrowTriangleCirclepath
+            .init("leaf.fill"): [], // SFSymbol.leafFill
+            .init("level"): [], // SFSymbol.level
+            .init("level.fill"): [], // SFSymbol.levelFill
+            .init("lifepreserver"): [], // SFSymbol.lifepreserver
+            .init("lifepreserver.fill"): [], // SFSymbol.lifepreserverFill
+            .init("line.3.crossed.swirl.circle"): [], // SFSymbol.line3CrossedSwirlCircle
+            .init("line.3.crossed.swirl.circle.fill"): [], // SFSymbol.line3CrossedSwirlCircleFill
+            .init("line.diagonal"): [], // SFSymbol.lineDiagonal
+            .init("line.diagonal.arrow"): [], // SFSymbol.lineDiagonalArrow
+            .init("line.horizontal.2.decrease.circle"): [], // SFSymbol.lineHorizontal2DecreaseCircle
+            .init("line.horizontal.2.decrease.circle.fill"): [], // SFSymbol.lineHorizontal2DecreaseCircleFill
+            .init("line.horizontal.3.circle"): [], // SFSymbol.lineHorizontal3Circle
+            .init("line.horizontal.3.circle.fill"): [], // SFSymbol.lineHorizontal3CircleFill
+            .init("line.horizontal.star.fill.line.horizontal"): [], // SFSymbol.lineHorizontalStarFillLineHorizontal
+            .init("lineweight"): [], // SFSymbol.lineweight
+            .init("link.badge.plus"): [], // SFSymbol.linkBadgePlus
+            .init("list.and.film"): [], // SFSymbol.listAndFilm
+            .init("list.bullet.rectangle"): [], // SFSymbol.listBulletRectangle
+            .init("list.number"): [.ar], // SFSymbol.listNumber
+            .init("list.star"): [], // SFSymbol.listStar
+            .init("list.triangle"): [], // SFSymbol.listTriangle
+            .init("livephoto.badge.a"): [], // SFSymbol.livephotoBadgeA
+            .init("location.fill.viewfinder"): [], // SFSymbol.locationFillViewfinder
+            .init("location.viewfinder"): [], // SFSymbol.locationViewfinder
+            .init("lock.doc"): [], // SFSymbol.lockDoc
+            .init("lock.doc.fill"): [], // SFSymbol.lockDocFill
+            .init("lock.rectangle"): [], // SFSymbol.lockRectangle
+            .init("lock.rectangle.fill"): [], // SFSymbol.lockRectangleFill
+            .init("lock.rectangle.on.rectangle"): [], // SFSymbol.lockRectangleOnRectangle
+            .init("lock.rectangle.on.rectangle.fill"): [], // SFSymbol.lockRectangleOnRectangleFill
+            .init("lock.rectangle.stack"): [], // SFSymbol.lockRectangleStack
+            .init("lock.rectangle.stack.fill"): [], // SFSymbol.lockRectangleStackFill
+            .init("lock.square"): [], // SFSymbol.lockSquare
+            .init("lock.square.fill"): [], // SFSymbol.lockSquareFill
+            .init("lock.square.stack"): [], // SFSymbol.lockSquareStack
+            .init("lock.square.stack.fill"): [], // SFSymbol.lockSquareStackFill
+            .init("loupe"): [], // SFSymbol.loupe
+            .init("lt.rectangle.roundedtop"): [], // SFSymbol.ltRectangleRoundedtop
+            .init("lt.rectangle.roundedtop.fill"): [], // SFSymbol.ltRectangleRoundedtopFill
+            .init("lungs"): [], // SFSymbol.lungs
+            .init("lungs.fill"): [], // SFSymbol.lungsFill
+            .init("macmini"): [], // SFSymbol.macmini
+            .init("macmini.fill"): [], // SFSymbol.macminiFill
+            .init("macpro.gen1"): [], // SFSymbol.macproGen1
+            .init("macpro.gen2"): [], // SFSymbol.macproGen2
+            .init("macpro.gen2.fill"): [], // SFSymbol.macproGen2Fill
+            .init("macpro.gen3"): [], // SFSymbol.macproGen3
+            .init("macpro.gen3.server"): [], // SFSymbol.macproGen3Server
+            .init("macwindow.badge.plus"): [], // SFSymbol.macwindowBadgePlus
+            .init("macwindow.on.rectangle"): [.rtl], // SFSymbol.macwindowOnRectangle
+            .init("mail"): [], // SFSymbol.mail
+            .init("mail.and.text.magnifyingglass"): [.rtl], // SFSymbol.mailAndTextMagnifyingglass
+            .init("mail.fill"): [], // SFSymbol.mailFill
+            .init("mail.stack"): [], // SFSymbol.mailStack
+            .init("mail.stack.fill"): [], // SFSymbol.mailStackFill
+            .init("megaphone"): [], // SFSymbol.megaphone
+            .init("megaphone.fill"): [], // SFSymbol.megaphoneFill
+            .init("memorychip"): [], // SFSymbol.memorychip
+            .init("menubar.arrow.down.rectangle"): [], // SFSymbol.menubarArrowDownRectangle
+            .init("menubar.arrow.up.rectangle"): [], // SFSymbol.menubarArrowUpRectangle
+            .init("menubar.dock.rectangle"): [], // SFSymbol.menubarDockRectangle
+            .init("menubar.dock.rectangle.badge.record"): [], // SFSymbol.menubarDockRectangleBadgeRecord
+            .init("menubar.rectangle"): [], // SFSymbol.menubarRectangle
+            .init("metronome.fill"): [], // SFSymbol.metronomeFill
+            .init("minus.diamond"): [], // SFSymbol.minusDiamond
+            .init("minus.diamond.fill"): [], // SFSymbol.minusDiamondFill
+            .init("minus.plus.batteryblock"): [], // SFSymbol.minusPlusBatteryblock
+            .init("minus.plus.batteryblock.fill"): [], // SFSymbol.minusPlusBatteryblockFill
+            .init("minus.rectangle.portrait"): [], // SFSymbol.minusRectanglePortrait
+            .init("minus.rectangle.portrait.fill"): [], // SFSymbol.minusRectanglePortraitFill
+            .init("mosaic"): [], // SFSymbol.mosaic
+            .init("mosaic.fill"): [], // SFSymbol.mosaicFill
+            .init("mount"): [], // SFSymbol.mount
+            .init("mount.fill"): [], // SFSymbol.mountFill
+            .init("mouth"): [], // SFSymbol.mouth
+            .init("mouth.fill"): [], // SFSymbol.mouthFill
+            .init("move.3d"): [], // SFSymbol.move3d
+            .init("music.note.house"): [], // SFSymbol.musicNoteHouse
+            .init("music.note.house.fill"): [], // SFSymbol.musicNoteHouseFill
+            .init("music.quarternote.3"): [], // SFSymbol.musicQuarternote3
+            .init("mustache"): [], // SFSymbol.mustache
+            .init("mustache.fill"): [], // SFSymbol.mustacheFill
+            .init("network"): [], // SFSymbol.network
+            .init("newspaper"): [], // SFSymbol.newspaper
+            .init("newspaper.fill"): [], // SFSymbol.newspaperFill
+            .init("nose"): [], // SFSymbol.nose
+            .init("nose.fill"): [], // SFSymbol.noseFill
+            .init("note"): [], // SFSymbol.note
+            .init("note.text"): [], // SFSymbol.noteText
+            .init("note.text.badge.plus"): [], // SFSymbol.noteTextBadgePlus
+            .init("octagon"): [], // SFSymbol.octagon
+            .init("octagon.fill"): [], // SFSymbol.octagonFill
+            .init("opticaldisc"): [], // SFSymbol.opticaldisc
+            .init("opticaldiscdrive"): [], // SFSymbol.opticaldiscdrive
+            .init("opticaldiscdrive.fill"): [], // SFSymbol.opticaldiscdriveFill
+            .init("oval"): [], // SFSymbol.oval
+            .init("oval.fill"): [], // SFSymbol.ovalFill
+            .init("oval.portrait"): [], // SFSymbol.ovalPortrait
+            .init("oval.portrait.fill"): [], // SFSymbol.ovalPortraitFill
+            .init("paintbrush.pointed"): [], // SFSymbol.paintbrushPointed
+            .init("paintbrush.pointed.fill"): [], // SFSymbol.paintbrushPointedFill
+            .init("paintpalette"): [], // SFSymbol.paintpalette
+            .init("paintpalette.fill"): [], // SFSymbol.paintpaletteFill
+            .init("paperclip.badge.ellipsis"): [], // SFSymbol.paperclipBadgeEllipsis
+            .init("paperplane.circle"): [], // SFSymbol.paperplaneCircle
+            .init("paperplane.circle.fill"): [], // SFSymbol.paperplaneCircleFill
+            .init("paragraphsign"): [], // SFSymbol.paragraphsign
+            .init("pc"): [], // SFSymbol.pc
+            .init("pencil.tip.crop.circle.badge.arrow.forward"): [], // SFSymbol.pencilTipCropCircleBadgeArrowForward
+            .init("percent"): [.ar], // SFSymbol.percent
+            .init("person.2.circle"): [], // SFSymbol.person2Circle
+            .init("person.2.circle.fill"): [], // SFSymbol.person2CircleFill
+            .init("person.and.arrow.left.and.arrow.right"): [], // SFSymbol.personAndArrowLeftAndArrowRight
+            .init("person.crop.circle.badge.exclamationmark"): [], // SFSymbol.personCropCircleBadgeExclamationmark
+            .init("person.crop.circle.badge.questionmark"): [.ar], // SFSymbol.personCropCircleBadgeQuestionmark
+            .init("person.crop.circle.fill.badge.exclamationmark"): [], // SFSymbol.personCropCircleFillBadgeExclamationmark
+            .init("person.crop.circle.fill.badge.questionmark"): [.ar], // SFSymbol.personCropCircleFillBadgeQuestionmark
+            .init("person.crop.square.fill.and.at.rectangle"): [], // SFSymbol.personCropSquareFillAndAtRectangle
+            .init("person.fill.and.arrow.left.and.arrow.right"): [], // SFSymbol.personFillAndArrowLeftAndArrowRight
+            .init("person.fill.badge.minus"): [], // SFSymbol.personFillBadgeMinus
+            .init("person.fill.badge.plus"): [], // SFSymbol.personFillBadgePlus
+            .init("person.fill.checkmark"): [.rtl], // SFSymbol.personFillCheckmark
+            .init("person.fill.questionmark"): [.ar, .rtl], // SFSymbol.personFillQuestionmark
+            .init("person.fill.turn.down"): [], // SFSymbol.personFillTurnDown
+            .init("person.fill.turn.left"): [], // SFSymbol.personFillTurnLeft
+            .init("person.fill.turn.right"): [], // SFSymbol.personFillTurnRight
+            .init("person.fill.viewfinder"): [], // SFSymbol.personFillViewfinder
+            .init("person.fill.xmark"): [.rtl], // SFSymbol.personFillXmark
+            .init("phone.bubble.left"): [], // SFSymbol.phoneBubbleLeft
+            .init("phone.bubble.left.fill"): [], // SFSymbol.phoneBubbleLeftFill
+            .init("phone.connection"): [], // SFSymbol.phoneConnection
+            .init("phone.fill.connection"): [], // SFSymbol.phoneFillConnection
+            .init("photo.on.rectangle.angled"): [], // SFSymbol.photoOnRectangleAngled
+            .init("pianokeys"): [], // SFSymbol.pianokeys
+            .init("pianokeys.inverse"): [], // SFSymbol.pianokeysInverse
+            .init("pills"): [], // SFSymbol.pills
+            .init("pills.fill"): [], // SFSymbol.pillsFill
+            .init("pip"): [], // SFSymbol.pip
+            .init("pip.enter"): [], // SFSymbol.pipEnter
+            .init("pip.exit"): [], // SFSymbol.pipExit
+            .init("pip.fill"): [], // SFSymbol.pipFill
+            .init("pip.remove"): [], // SFSymbol.pipRemove
+            .init("pip.swap"): [], // SFSymbol.pipSwap
+            .init("placeholdertext.fill"): [], // SFSymbol.placeholdertextFill
+            .init("play.slash"): [], // SFSymbol.playSlash
+            .init("play.slash.fill"): [], // SFSymbol.playSlashFill
+            .init("plus.diamond"): [], // SFSymbol.plusDiamond
+            .init("plus.diamond.fill"): [], // SFSymbol.plusDiamondFill
+            .init("plus.message"): [], // SFSymbol.plusMessage
+            .init("plus.message.fill"): [], // SFSymbol.plusMessageFill
+            .init("plus.rectangle.fill.on.folder.fill"): [], // SFSymbol.plusRectangleFillOnFolderFill
+            .init("plus.rectangle.on.folder"): [], // SFSymbol.plusRectangleOnFolder
+            .init("plus.rectangle.portrait"): [], // SFSymbol.plusRectanglePortrait
+            .init("plus.rectangle.portrait.fill"): [], // SFSymbol.plusRectanglePortraitFill
+            .init("plus.viewfinder"): [], // SFSymbol.plusViewfinder
+            .init("point.fill.topleft.down.curvedto.point.fill.bottomright.up"): [], // SFSymbol.pointFillTopleftDownCurvedtoPointFillBottomrightUp
+            .init("point.topleft.down.curvedto.point.bottomright.up"): [], // SFSymbol.pointTopleftDownCurvedtoPointBottomrightUp
+            .init("poweroff"): [], // SFSymbol.poweroff
+            .init("poweron"): [], // SFSymbol.poweron
+            .init("powersleep"): [], // SFSymbol.powersleep
+            .init("printer.dotmatrix"): [], // SFSymbol.printerDotmatrix
+            .init("printer.dotmatrix.fill"): [], // SFSymbol.printerDotmatrixFill
+            .init("printer.dotmatrix.fill.and.paper.fill"): [], // SFSymbol.printerDotmatrixFillAndPaperFill
+            .init("printer.fill.and.paper.fill"): [], // SFSymbol.printerFillAndPaperFill
+            .init("puzzlepiece"): [], // SFSymbol.puzzlepiece
+            .init("puzzlepiece.fill"): [], // SFSymbol.puzzlepieceFill
+            .init("pyramid"): [], // SFSymbol.pyramid
+            .init("pyramid.fill"): [], // SFSymbol.pyramidFill
+            .init("questionmark"): [.ar], // SFSymbol.questionmark
+            .init("questionmark.circle"): [.ar], // SFSymbol.questionmarkCircle
+            .init("questionmark.circle.fill"): [.ar], // SFSymbol.questionmarkCircleFill
+            .init("questionmark.diamond"): [.ar], // SFSymbol.questionmarkDiamond
+            .init("questionmark.diamond.fill"): [.ar], // SFSymbol.questionmarkDiamondFill
+            .init("questionmark.folder"): [.ar], // SFSymbol.questionmarkFolder
+            .init("questionmark.folder.fill"): [.ar], // SFSymbol.questionmarkFolderFill
+            .init("questionmark.square"): [.ar], // SFSymbol.questionmarkSquare
+            .init("questionmark.square.dashed"): [.ar], // SFSymbol.questionmarkSquareDashed
+            .init("questionmark.square.fill"): [.ar], // SFSymbol.questionmarkSquareFill
+            .init("questionmark.video"): [.ar], // SFSymbol.questionmarkVideo
+            .init("questionmark.video.fill"): [.ar], // SFSymbol.questionmarkVideoFill
+            .init("quote.bubble"): [.rtl], // SFSymbol.quoteBubble
+            .init("quote.bubble.fill"): [.rtl], // SFSymbol.quoteBubbleFill
+            .init("r.joystick"): [], // SFSymbol.rJoystick
+            .init("r.joystick.down"): [], // SFSymbol.rJoystickDown
+            .init("r.joystick.down.fill"): [], // SFSymbol.rJoystickDownFill
+            .init("r.joystick.fill"): [], // SFSymbol.rJoystickFill
+            .init("r.rectangle.roundedbottom"): [], // SFSymbol.rRectangleRoundedbottom
+            .init("r.rectangle.roundedbottom.fill"): [], // SFSymbol.rRectangleRoundedbottomFill
+            .init("r.square.fill.on.square.fill"): [], // SFSymbol.rSquareFillOnSquareFill
+            .init("r.square.on.square"): [], // SFSymbol.rSquareOnSquare
+            .init("r1.rectangle.roundedbottom"): [], // SFSymbol.r1RectangleRoundedbottom
+            .init("r1.rectangle.roundedbottom.fill"): [], // SFSymbol.r1RectangleRoundedbottomFill
+            .init("r2.rectangle.roundedtop"): [], // SFSymbol.r2RectangleRoundedtop
+            .init("r2.rectangle.roundedtop.fill"): [], // SFSymbol.r2RectangleRoundedtopFill
+            .init("radio"): [], // SFSymbol.radio
+            .init("radio.fill"): [], // SFSymbol.radioFill
+            .init("rb.rectangle.roundedbottom"): [], // SFSymbol.rbRectangleRoundedbottom
+            .init("rb.rectangle.roundedbottom.fill"): [], // SFSymbol.rbRectangleRoundedbottomFill
+            .init("record.circle"): [], // SFSymbol.recordCircle
+            .init("record.circle.fill"): [], // SFSymbol.recordCircleFill
+            .init("rectangle.3.offgrid.bubble.left"): [], // SFSymbol.rectangle3OffgridBubbleLeft
+            .init("rectangle.3.offgrid.bubble.left.fill"): [], // SFSymbol.rectangle3OffgridBubbleLeftFill
+            .init("rectangle.and.pencil.and.ellipsis"): [.rtl], // SFSymbol.rectangleAndPencilAndEllipsis
+            .init("rectangle.and.text.magnifyingglass"): [.rtl], // SFSymbol.rectangleAndTextMagnifyingglass
+            .init("rectangle.arrowtriangle.2.inward"): [], // SFSymbol.rectangleArrowtriangle2Inward
+            .init("rectangle.arrowtriangle.2.outward"): [], // SFSymbol.rectangleArrowtriangle2Outward
+            .init("rectangle.badge.minus"): [], // SFSymbol.rectangleBadgeMinus
+            .init("rectangle.badge.plus"): [], // SFSymbol.rectangleBadgePlus
+            .init("rectangle.bottomthird.inset.fill"): [], // SFSymbol.rectangleBottomthirdInsetFill
+            .init("rectangle.center.inset.fill"): [], // SFSymbol.rectangleCenterInsetFill
+            .init("rectangle.connected.to.line.below"): [], // SFSymbol.rectangleConnectedToLineBelow
+            .init("rectangle.dashed"): [], // SFSymbol.rectangleDashed
+            .init("rectangle.dashed.and.paperclip"): [], // SFSymbol.rectangleDashedAndPaperclip
+            .init("rectangle.dashed.badge.record"): [], // SFSymbol.rectangleDashedBadgeRecord
+            .init("rectangle.fill.badge.minus"): [], // SFSymbol.rectangleFillBadgeMinus
+            .init("rectangle.fill.badge.plus"): [], // SFSymbol.rectangleFillBadgePlus
+            .init("rectangle.fill.on.rectangle.fill.circle"): [], // SFSymbol.rectangleFillOnRectangleFillCircle
+            .init("rectangle.fill.on.rectangle.fill.circle.fill"): [], // SFSymbol.rectangleFillOnRectangleFillCircleFill
+            .init("rectangle.fill.on.rectangle.fill.slash.fill"): [], // SFSymbol.rectangleFillOnRectangleFillSlashFill
+            .init("rectangle.inset.bottomleft.fill"): [], // SFSymbol.rectangleInsetBottomleftFill
+            .init("rectangle.inset.bottomright.fill"): [], // SFSymbol.rectangleInsetBottomrightFill
+            .init("rectangle.inset.fill"): [], // SFSymbol.rectangleInsetFill
+            .init("rectangle.inset.topleft.fill"): [], // SFSymbol.rectangleInsetTopleftFill
+            .init("rectangle.inset.topright.fill"): [], // SFSymbol.rectangleInsetToprightFill
+            .init("rectangle.lefthalf.fill"): [], // SFSymbol.rectangleLefthalfFill
+            .init("rectangle.lefthalf.inset.fill"): [], // SFSymbol.rectangleLefthalfInsetFill
+            .init("rectangle.lefthalf.inset.fill.arrow.left"): [], // SFSymbol.rectangleLefthalfInsetFillArrowLeft
+            .init("rectangle.leftthird.inset.fill"): [], // SFSymbol.rectangleLeftthirdInsetFill
+            .init("rectangle.on.rectangle.slash"): [], // SFSymbol.rectangleOnRectangleSlash
+            .init("rectangle.portrait"): [], // SFSymbol.rectanglePortrait
+            .init("rectangle.portrait.arrowtriangle.2.inward"): [], // SFSymbol.rectanglePortraitArrowtriangle2Inward
+            .init("rectangle.portrait.arrowtriangle.2.outward"): [], // SFSymbol.rectanglePortraitArrowtriangle2Outward
+            .init("rectangle.portrait.fill"): [], // SFSymbol.rectanglePortraitFill
+            .init("rectangle.righthalf.fill"): [], // SFSymbol.rectangleRighthalfFill
+            .init("rectangle.righthalf.inset.fill"): [], // SFSymbol.rectangleRighthalfInsetFill
+            .init("rectangle.righthalf.inset.fill.arrow.right"): [], // SFSymbol.rectangleRighthalfInsetFillArrowRight
+            .init("rectangle.rightthird.inset.fill"): [], // SFSymbol.rectangleRightthirdInsetFill
+            .init("rectangle.roundedbottom"): [], // SFSymbol.rectangleRoundedbottom
+            .init("rectangle.roundedbottom.fill"): [], // SFSymbol.rectangleRoundedbottomFill
+            .init("rectangle.roundedtop"): [], // SFSymbol.rectangleRoundedtop
+            .init("rectangle.roundedtop.fill"): [], // SFSymbol.rectangleRoundedtopFill
+            .init("rectangle.slash"): [], // SFSymbol.rectangleSlash
+            .init("rectangle.slash.fill"): [], // SFSymbol.rectangleSlashFill
+            .init("rectangle.split.1x2"): [], // SFSymbol.rectangleSplit1x2
+            .init("rectangle.split.1x2.fill"): [], // SFSymbol.rectangleSplit1x2Fill
+            .init("rectangle.split.2x1"): [], // SFSymbol.rectangleSplit2x1
+            .init("rectangle.split.2x1.fill"): [], // SFSymbol.rectangleSplit2x1Fill
+            .init("rectangle.split.2x2"): [], // SFSymbol.rectangleSplit2x2
+            .init("rectangle.split.2x2.fill"): [], // SFSymbol.rectangleSplit2x2Fill
+            .init("restart"): [], // SFSymbol.restart
+            .init("restart.circle"): [], // SFSymbol.restartCircle
+            .init("rotate.3d"): [], // SFSymbol.rotate3d
+            .init("rt.rectangle.roundedtop"): [], // SFSymbol.rtRectangleRoundedtop
+            .init("rt.rectangle.roundedtop.fill"): [], // SFSymbol.rtRectangleRoundedtopFill
+            .init("ruler"): [], // SFSymbol.ruler
+            .init("ruler.fill"): [], // SFSymbol.rulerFill
+            .init("scale.3d"): [], // SFSymbol.scale3d
+            .init("scalemass"): [], // SFSymbol.scalemass
+            .init("scalemass.fill"): [], // SFSymbol.scalemassFill
+            .init("scanner"): [], // SFSymbol.scanner
+            .init("scanner.fill"): [], // SFSymbol.scannerFill
+            .init("scribble.variable"): [], // SFSymbol.scribbleVariable
+            .init("scroll"): [], // SFSymbol.scroll
+            .init("scroll.fill"): [], // SFSymbol.scrollFill
+            .init("sdcard"): [], // SFSymbol.sdcard
+            .init("sdcard.fill"): [], // SFSymbol.sdcardFill
+            .init("seal"): [], // SFSymbol.seal
+            .init("seal.fill"): [], // SFSymbol.sealFill
+            .init("server.rack"): [], // SFSymbol.serverRack
+            .init("shadow"): [], // SFSymbol.shadow
+            .init("shekelsign.circle"): [], // SFSymbol.shekelsignCircle
+            .init("shekelsign.circle.fill"): [], // SFSymbol.shekelsignCircleFill
+            .init("shekelsign.square"): [], // SFSymbol.shekelsignSquare
+            .init("shekelsign.square.fill"): [], // SFSymbol.shekelsignSquareFill
+            .init("shield.lefthalf.fill.slash"): [], // SFSymbol.shieldLefthalfFillSlash
+            .init("shippingbox"): [], // SFSymbol.shippingbox
+            .init("shippingbox.fill"): [], // SFSymbol.shippingboxFill
+            .init("sidebar.leading"): [], // SFSymbol.sidebarLeading
+            .init("sidebar.squares.leading"): [], // SFSymbol.sidebarSquaresLeading
+            .init("sidebar.squares.left"): [], // SFSymbol.sidebarSquaresLeft
+            .init("sidebar.squares.right"): [], // SFSymbol.sidebarSquaresRight
+            .init("sidebar.squares.trailing"): [], // SFSymbol.sidebarSquaresTrailing
+            .init("sidebar.trailing"): [], // SFSymbol.sidebarTrailing
+            .init("signature"): [.ar, .he], // SFSymbol.signature
+            .init("signpost.left"): [], // SFSymbol.signpostLeft
+            .init("signpost.left.fill"): [], // SFSymbol.signpostLeftFill
+            .init("signpost.right"): [], // SFSymbol.signpostRight
+            .init("signpost.right.fill"): [], // SFSymbol.signpostRightFill
+            .init("simcard"): [], // SFSymbol.simcard
+            .init("simcard.2"): [], // SFSymbol.simcard2
+            .init("simcard.2.fill"): [], // SFSymbol.simcard2Fill
+            .init("simcard.fill"): [], // SFSymbol.simcardFill
+            .init("sleep"): [], // SFSymbol.sleep
+            .init("slider.horizontal.below.square.fill.and.square"): [], // SFSymbol.sliderHorizontalBelowSquareFillAndSquare
+            .init("slider.vertical.3"): [], // SFSymbol.sliderVertical3
+            .init("sparkle"): [], // SFSymbol.sparkle
+            .init("sparkles.rectangle.stack"): [], // SFSymbol.sparklesRectangleStack
+            .init("sparkles.rectangle.stack.fill"): [], // SFSymbol.sparklesRectangleStackFill
+            .init("sparkles.square.fill.on.square"): [], // SFSymbol.sparklesSquareFillOnSquare
+            .init("speaker.slash.circle"): [.rtl], // SFSymbol.speakerSlashCircle
+            .init("speaker.slash.circle.fill"): [.rtl], // SFSymbol.speakerSlashCircleFill
+            .init("speaker.wave.1"): [], // SFSymbol.speakerWave1
+            .init("speaker.wave.1.fill"): [], // SFSymbol.speakerWave1Fill
+            .init("speaker.wave.2"): [], // SFSymbol.speakerWave2
+            .init("speaker.wave.2.circle"): [], // SFSymbol.speakerWave2Circle
+            .init("speaker.wave.2.circle.fill"): [], // SFSymbol.speakerWave2CircleFill
+            .init("speaker.wave.2.fill"): [], // SFSymbol.speakerWave2Fill
+            .init("speaker.wave.3"): [], // SFSymbol.speakerWave3
+            .init("speaker.wave.3.fill"): [], // SFSymbol.speakerWave3Fill
+            .init("square.2.stack.3d"): [], // SFSymbol.square2Stack3d
+            .init("square.2.stack.3d.bottom.fill"): [], // SFSymbol.square2Stack3dBottomFill
+            .init("square.2.stack.3d.top.fill"): [], // SFSymbol.square2Stack3dTopFill
+            .init("square.3.stack.3d"): [], // SFSymbol.square3Stack3d
+            .init("square.3.stack.3d.bottom.fill"): [], // SFSymbol.square3Stack3dBottomFill
+            .init("square.3.stack.3d.middle.fill"): [], // SFSymbol.square3Stack3dMiddleFill
+            .init("square.3.stack.3d.top.fill"): [], // SFSymbol.square3Stack3dTopFill
+            .init("square.and.at.rectangle"): [], // SFSymbol.squareAndAtRectangle
+            .init("square.bottomhalf.fill"): [], // SFSymbol.squareBottomhalfFill
+            .init("square.circle"): [], // SFSymbol.squareCircle
+            .init("square.circle.fill"): [], // SFSymbol.squareCircleFill
+            .init("square.dashed"): [], // SFSymbol.squareDashed
+            .init("square.dashed.inset.fill"): [], // SFSymbol.squareDashedInsetFill
+            .init("square.fill.on.square"): [], // SFSymbol.squareFillOnSquare
+            .init("square.fill.text.grid.1x2"): [], // SFSymbol.squareFillTextGrid1x2
+            .init("square.grid.3x1.below.line.grid.1x2"): [], // SFSymbol.squareGrid3x1BelowLineGrid1x2
+            .init("square.grid.3x1.fill.below.line.grid.1x2"): [], // SFSymbol.squareGrid3x1FillBelowLineGrid1x2
+            .init("square.grid.3x1.folder.badge.plus"): [], // SFSymbol.squareGrid3x1FolderBadgePlus
+            .init("square.grid.3x1.folder.fill.badge.plus"): [], // SFSymbol.squareGrid3x1FolderFillBadgePlus
+            .init("square.grid.3x3"): [], // SFSymbol.squareGrid3x3
+            .init("square.grid.3x3.bottomleft.fill"): [], // SFSymbol.squareGrid3x3BottomleftFill
+            .init("square.grid.3x3.bottommiddle.fill"): [], // SFSymbol.squareGrid3x3BottommiddleFill
+            .init("square.grid.3x3.bottomright.fill"): [], // SFSymbol.squareGrid3x3BottomrightFill
+            .init("square.grid.3x3.fill"): [], // SFSymbol.squareGrid3x3Fill
+            .init("square.grid.3x3.fill.square"): [], // SFSymbol.squareGrid3x3FillSquare
+            .init("square.grid.3x3.middle.fill"): [], // SFSymbol.squareGrid3x3MiddleFill
+            .init("square.grid.3x3.middleleft.fill"): [], // SFSymbol.squareGrid3x3MiddleleftFill
+            .init("square.grid.3x3.middleright.fill"): [], // SFSymbol.squareGrid3x3MiddlerightFill
+            .init("square.grid.3x3.topleft.fill"): [], // SFSymbol.squareGrid3x3TopleftFill
+            .init("square.grid.3x3.topmiddle.fill"): [], // SFSymbol.squareGrid3x3TopmiddleFill
+            .init("square.grid.3x3.topright.fill"): [], // SFSymbol.squareGrid3x3ToprightFill
+            .init("square.on.square.dashed"): [], // SFSymbol.squareOnSquareDashed
+            .init("square.on.square.squareshape.controlhandles"): [], // SFSymbol.squareOnSquareSquareshapeControlhandles
+            .init("square.slash"): [], // SFSymbol.squareSlash
+            .init("square.slash.fill"): [], // SFSymbol.squareSlashFill
+            .init("square.split.bottomrightquarter"): [], // SFSymbol.squareSplitBottomrightquarter
+            .init("square.split.bottomrightquarter.fill"): [], // SFSymbol.squareSplitBottomrightquarterFill
+            .init("square.split.diagonal"): [], // SFSymbol.squareSplitDiagonal
+            .init("square.split.diagonal.2x2"): [], // SFSymbol.squareSplitDiagonal2x2
+            .init("square.split.diagonal.2x2.fill"): [], // SFSymbol.squareSplitDiagonal2x2Fill
+            .init("square.split.diagonal.fill"): [], // SFSymbol.squareSplitDiagonalFill
+            .init("square.stack.3d.down.forward"): [], // SFSymbol.squareStack3dDownForward
+            .init("square.stack.3d.down.forward.fill"): [], // SFSymbol.squareStack3dDownForwardFill
+            .init("square.stack.3d.forward.dottedline"): [], // SFSymbol.squareStack3dForwardDottedline
+            .init("square.stack.3d.forward.dottedline.fill"): [], // SFSymbol.squareStack3dForwardDottedlineFill
+            .init("square.stack.3d.up.badge.a"): [], // SFSymbol.squareStack3dUpBadgeA
+            .init("square.stack.3d.up.badge.a.fill"): [], // SFSymbol.squareStack3dUpBadgeAFill
+            .init("square.tophalf.fill"): [], // SFSymbol.squareTophalfFill
+            .init("squareshape"): [], // SFSymbol.squareshape
+            .init("squareshape.controlhandles.on.squareshape.controlhandles"): [], // SFSymbol.squareshapeControlhandlesOnSquareshapeControlhandles
+            .init("squareshape.dashed.squareshape"): [], // SFSymbol.squareshapeDashedSquareshape
+            .init("squareshape.fill"): [], // SFSymbol.squareshapeFill
+            .init("squareshape.split.2x2"): [], // SFSymbol.squareshapeSplit2x2
+            .init("squareshape.split.2x2.dotted"): [], // SFSymbol.squareshapeSplit2x2Dotted
+            .init("squareshape.split.3x3"): [], // SFSymbol.squareshapeSplit3x3
+            .init("squareshape.squareshape.dashed"): [], // SFSymbol.squareshapeSquareshapeDashed
+            .init("star.leadinghalf.fill"): [], // SFSymbol.starLeadinghalfFill
+            .init("star.square"): [], // SFSymbol.starSquare
+            .init("star.square.fill"): [], // SFSymbol.starSquareFill
+            .init("staroflife.circle"): [], // SFSymbol.staroflifeCircle
+            .init("staroflife.circle.fill"): [], // SFSymbol.staroflifeCircleFill
+            .init("stethoscope"): [], // SFSymbol.stethoscope
+            .init("sum"): [.ar], // SFSymbol.sum
+            .init("swift"): [], // SFSymbol.swift
+            .init("switch.2"): [], // SFSymbol.switch2
+            .init("t.bubble"): [.ar, .he], // SFSymbol.tBubble
+            .init("t.bubble.fill"): [.ar, .he], // SFSymbol.tBubbleFill
+            .init("tablecells"): [], // SFSymbol.tablecells
+            .init("tablecells.badge.ellipsis"): [], // SFSymbol.tablecellsBadgeEllipsis
+            .init("tablecells.badge.ellipsis.fill"): [], // SFSymbol.tablecellsBadgeEllipsisFill
+            .init("tablecells.fill"): [], // SFSymbol.tablecellsFill
+            .init("tag.slash"): [], // SFSymbol.tagSlash
+            .init("tag.slash.fill"): [], // SFSymbol.tagSlashFill
+            .init("target"): [], // SFSymbol.target
+            .init("teletype.circle"): [], // SFSymbol.teletypeCircle
+            .init("teletype.circle.fill"): [], // SFSymbol.teletypeCircleFill
+            .init("terminal"): [], // SFSymbol.terminal
+            .init("terminal.fill"): [], // SFSymbol.terminalFill
+            .init("text.and.command.macwindow"): [], // SFSymbol.textAndCommandMacwindow
+            .init("text.badge.checkmark"): [.rtl], // SFSymbol.textBadgeCheckmark
+            .init("text.below.photo"): [], // SFSymbol.textBelowPhoto
+            .init("text.below.photo.fill"): [], // SFSymbol.textBelowPhotoFill
+            .init("text.book.closed"): [], // SFSymbol.textBookClosed
+            .init("text.book.closed.fill"): [], // SFSymbol.textBookClosedFill
+            .init("text.bubble"): [.rtl], // SFSymbol.textBubble
+            .init("text.bubble.fill"): [.rtl], // SFSymbol.textBubbleFill
+            .init("text.cursor"): [.ar, .he, .hi, .ja, .ko, .th, .zh], // SFSymbol.textCursor
+            .init("text.magnifyingglass"): [.rtl], // SFSymbol.textMagnifyingglass
+            .init("text.quote"): [.rtl], // SFSymbol.textQuote
+            .init("text.redaction"): [], // SFSymbol.textRedaction
+            .init("textbox"): [.ar, .he, .hi, .ja, .ko, .th, .zh], // SFSymbol.textbox
+            .init("textformat.123"): [.ar], // SFSymbol.textformat123
+            .init("thermometer.sun.fill"): [], // SFSymbol.thermometerSunFill
+            .init("ticket"): [], // SFSymbol.ticket
+            .init("ticket.fill"): [], // SFSymbol.ticketFill
+            .init("timeline.selection"): [], // SFSymbol.timelineSelection
+            .init("timer.square"): [], // SFSymbol.timerSquare
+            .init("togglepower"): [], // SFSymbol.togglepower
+            .init("touchid"): [], // SFSymbol.touchid
+            .init("tram"): [], // SFSymbol.tram
+            .init("tram.circle"): [], // SFSymbol.tramCircle
+            .init("tram.circle.fill"): [], // SFSymbol.tramCircleFill
+            .init("tram.tunnel.fill"): [], // SFSymbol.tramTunnelFill
+            .init("tray.circle"): [], // SFSymbol.trayCircle
+            .init("tray.circle.fill"): [], // SFSymbol.trayCircleFill
+            .init("triangle.circle"): [], // SFSymbol.triangleCircle
+            .init("triangle.circle.fill"): [], // SFSymbol.triangleCircleFill
+            .init("tv.and.hifispeaker.fill"): [], // SFSymbol.tvAndHifispeakerFill
+            .init("video.badge.checkmark"): [], // SFSymbol.videoBadgeCheckmark
+            .init("video.bubble.left"): [], // SFSymbol.videoBubbleLeft
+            .init("video.bubble.left.fill"): [], // SFSymbol.videoBubbleLeftFill
+            .init("video.fill.badge.checkmark"): [], // SFSymbol.videoFillBadgeCheckmark
+            .init("video.fill.badge.plus"): [], // SFSymbol.videoFillBadgePlus
+            .init("wake"): [], // SFSymbol.wake
+            .init("wallet.pass"): [], // SFSymbol.walletPass
+            .init("wallet.pass.fill"): [], // SFSymbol.walletPassFill
+            .init("wave.3.backward"): [], // SFSymbol.wave3Backward
+            .init("wave.3.backward.circle"): [], // SFSymbol.wave3BackwardCircle
+            .init("wave.3.backward.circle.fill"): [], // SFSymbol.wave3BackwardCircleFill
+            .init("wave.3.forward"): [], // SFSymbol.wave3Forward
+            .init("wave.3.forward.circle"): [], // SFSymbol.wave3ForwardCircle
+            .init("wave.3.forward.circle.fill"): [], // SFSymbol.wave3ForwardCircleFill
+            .init("wave.3.left"): [], // SFSymbol.wave3Left
+            .init("wave.3.left.circle"): [], // SFSymbol.wave3LeftCircle
+            .init("wave.3.left.circle.fill"): [], // SFSymbol.wave3LeftCircleFill
+            .init("wave.3.right"): [], // SFSymbol.wave3Right
+            .init("wave.3.right.circle"): [], // SFSymbol.wave3RightCircle
+            .init("wave.3.right.circle.fill"): [], // SFSymbol.wave3RightCircleFill
+            .init("waveform.path.ecg.rectangle"): [], // SFSymbol.waveformPathEcgRectangle
+            .init("waveform.path.ecg.rectangle.fill"): [], // SFSymbol.waveformPathEcgRectangleFill
+            .init("wrench.and.screwdriver"): [], // SFSymbol.wrenchAndScrewdriver
+            .init("wrench.and.screwdriver.fill"): [], // SFSymbol.wrenchAndScrewdriverFill
+            .init("xmark.bin"): [], // SFSymbol.xmarkBin
+            .init("xmark.bin.circle"): [], // SFSymbol.xmarkBinCircle
+            .init("xmark.bin.circle.fill"): [], // SFSymbol.xmarkBinCircleFill
+            .init("xmark.bin.fill"): [], // SFSymbol.xmarkBinFill
+            .init("xmark.diamond"): [], // SFSymbol.xmarkDiamond
+            .init("xmark.diamond.fill"): [], // SFSymbol.xmarkDiamondFill
+            .init("xmark.rectangle.portrait"): [], // SFSymbol.xmarkRectanglePortrait
+            .init("xmark.rectangle.portrait.fill"): [], // SFSymbol.xmarkRectanglePortraitFill
+            .init("xserve"): [], // SFSymbol.xserve
+            .init("zl.rectangle.roundedtop"): [], // SFSymbol.zlRectangleRoundedtop
+            .init("zl.rectangle.roundedtop.fill"): [], // SFSymbol.zlRectangleRoundedtopFill
+            .init("zr.rectangle.roundedtop"): [], // SFSymbol.zrRectangleRoundedtop
+            .init("zr.rectangle.roundedtop.fill"): [] // SFSymbol.zrRectangleRoundedtopFill
         ]
     }
 
@@ -1027,66 +1027,66 @@ extension SFSymbol {
     @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince2_0: Set<SFSymbol> {
         [
-            arrow2Circlepath,
-            arrow2CirclepathCircle,
-            arrow2CirclepathCircleFill,
-            arrowBranch,
-            arrowMerge,
-            arrowRightArrowLeft,
-            arrowRightArrowLeftCircle,
-            arrowRightArrowLeftCircleFill,
-            arrowRightArrowLeftSquare,
-            arrowRightArrowLeftSquareFill,
-            arrowSwap,
-            arrowUpRightDiamond,
-            arrowUpRightDiamondFill,
-            binXmark,
-            binXmarkFill,
-            cameraRotate,
-            cameraRotateFill,
-            circleBottomthirdSplit,
-            circleGridHex,
-            circleGridHexFill,
-            cubeBox,
-            cubeBoxFill,
-            cursorRays,
-            dial,
-            dialFill,
-            ellipsesBubble,
-            ellipsesBubbleFill,
-            flipHorizontal,
-            flipHorizontalFill,
-            leafArrowCirclepath,
-            musicHouse,
-            musicHouseFill,
-            paragraph,
-            pencilAndEllipsisRectangle,
-            personBadgeMinusFill,
-            personBadgePlusFill,
-            personCropCircleBadgeExclam,
-            personCropCircleFillBadgeExclam,
-            radiowavesLeft,
-            radiowavesRight,
-            rectangleDock,
-            sheqelsignCircle,
-            sheqelsignCircleFill,
-            sheqelsignSquare,
-            sheqelsignSquareFill,
-            smiley,
-            smileyFill,
-            speaker1,
-            speaker1Fill,
-            speaker2,
-            speaker2Fill,
-            speaker3,
-            speaker3Fill,
-            squareStack3dDownDottedline,
-            starLefthalfFill,
-            table,
-            tableBadgeMore,
-            tableBadgeMoreFill,
-            tableFill,
-            videoBadgePlusFill
+            .init("arrow.2.circlepath"), // SFSymbol.arrow2Circlepath
+            .init("arrow.2.circlepath.circle"), // SFSymbol.arrow2CirclepathCircle
+            .init("arrow.2.circlepath.circle.fill"), // SFSymbol.arrow2CirclepathCircleFill
+            .init("arrow.branch"), // SFSymbol.arrowBranch
+            .init("arrow.merge"), // SFSymbol.arrowMerge
+            .init("arrow.right.arrow.left"), // SFSymbol.arrowRightArrowLeft
+            .init("arrow.right.arrow.left.circle"), // SFSymbol.arrowRightArrowLeftCircle
+            .init("arrow.right.arrow.left.circle.fill"), // SFSymbol.arrowRightArrowLeftCircleFill
+            .init("arrow.right.arrow.left.square"), // SFSymbol.arrowRightArrowLeftSquare
+            .init("arrow.right.arrow.left.square.fill"), // SFSymbol.arrowRightArrowLeftSquareFill
+            .init("arrow.swap"), // SFSymbol.arrowSwap
+            .init("arrow.up.right.diamond"), // SFSymbol.arrowUpRightDiamond
+            .init("arrow.up.right.diamond.fill"), // SFSymbol.arrowUpRightDiamondFill
+            .init("bin.xmark"), // SFSymbol.binXmark
+            .init("bin.xmark.fill"), // SFSymbol.binXmarkFill
+            .init("camera.rotate"), // SFSymbol.cameraRotate
+            .init("camera.rotate.fill"), // SFSymbol.cameraRotateFill
+            .init("circle.bottomthird.split"), // SFSymbol.circleBottomthirdSplit
+            .init("circle.grid.hex"), // SFSymbol.circleGridHex
+            .init("circle.grid.hex.fill"), // SFSymbol.circleGridHexFill
+            .init("cube.box"), // SFSymbol.cubeBox
+            .init("cube.box.fill"), // SFSymbol.cubeBoxFill
+            .init("cursor.rays"), // SFSymbol.cursorRays
+            .init("dial"), // SFSymbol.dial
+            .init("dial.fill"), // SFSymbol.dialFill
+            .init("ellipses.bubble"), // SFSymbol.ellipsesBubble
+            .init("ellipses.bubble.fill"), // SFSymbol.ellipsesBubbleFill
+            .init("flip.horizontal"), // SFSymbol.flipHorizontal
+            .init("flip.horizontal.fill"), // SFSymbol.flipHorizontalFill
+            .init("leaf.arrow.circlepath"), // SFSymbol.leafArrowCirclepath
+            .init("music.house"), // SFSymbol.musicHouse
+            .init("music.house.fill"), // SFSymbol.musicHouseFill
+            .init("paragraph"), // SFSymbol.paragraph
+            .init("pencil.and.ellipsis.rectangle"), // SFSymbol.pencilAndEllipsisRectangle
+            .init("person.badge.minus.fill"), // SFSymbol.personBadgeMinusFill
+            .init("person.badge.plus.fill"), // SFSymbol.personBadgePlusFill
+            .init("person.crop.circle.badge.exclam"), // SFSymbol.personCropCircleBadgeExclam
+            .init("person.crop.circle.fill.badge.exclam"), // SFSymbol.personCropCircleFillBadgeExclam
+            .init("radiowaves.left"), // SFSymbol.radiowavesLeft
+            .init("radiowaves.right"), // SFSymbol.radiowavesRight
+            .init("rectangle.dock"), // SFSymbol.rectangleDock
+            .init("sheqelsign.circle"), // SFSymbol.sheqelsignCircle
+            .init("sheqelsign.circle.fill"), // SFSymbol.sheqelsignCircleFill
+            .init("sheqelsign.square"), // SFSymbol.sheqelsignSquare
+            .init("sheqelsign.square.fill"), // SFSymbol.sheqelsignSquareFill
+            .init("smiley"), // SFSymbol.smiley
+            .init("smiley.fill"), // SFSymbol.smileyFill
+            .init("speaker.1"), // SFSymbol.speaker1
+            .init("speaker.1.fill"), // SFSymbol.speaker1Fill
+            .init("speaker.2"), // SFSymbol.speaker2
+            .init("speaker.2.fill"), // SFSymbol.speaker2Fill
+            .init("speaker.3"), // SFSymbol.speaker3
+            .init("speaker.3.fill"), // SFSymbol.speaker3Fill
+            .init("square.stack.3d.down.dottedline"), // SFSymbol.squareStack3dDownDottedline
+            .init("star.lefthalf.fill"), // SFSymbol.starLefthalfFill
+            .init("table"), // SFSymbol.table
+            .init("table.badge.more"), // SFSymbol.tableBadgeMore
+            .init("table.badge.more.fill"), // SFSymbol.tableBadgeMoreFill
+            .init("table.fill"), // SFSymbol.tableFill
+            .init("video.badge.plus.fill") // SFSymbol.videoBadgePlusFill
         ]
     }
 }

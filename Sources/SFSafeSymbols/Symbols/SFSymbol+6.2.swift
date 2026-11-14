@@ -12,7 +12,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     @_alwaysEmitIntoClient
-    static var airpodsGen4: SFSymbol { .init(rawValue: "airpods.gen4") }
+    static var airpodsGen4: SFSymbol { .init("airpods.gen4") }
 
     /// 􂭆
     /// ![airpods.gen4.chargingcase.wireless](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpods.gen4.chargingcase.wireless.png)
@@ -23,7 +23,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     @_alwaysEmitIntoClient
-    static var airpodsGen4ChargingcaseWireless: SFSymbol { .init(rawValue: "airpods.gen4.chargingcase.wireless") }
+    static var airpodsGen4ChargingcaseWireless: SFSymbol { .init("airpods.gen4.chargingcase.wireless") }
 
     /// 􂭇
     /// ![airpods.gen4.chargingcase.wireless.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpods.gen4.chargingcase.wireless.fill.png)
@@ -34,7 +34,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     @_alwaysEmitIntoClient
-    static var airpodsGen4ChargingcaseWirelessFill: SFSymbol { .init(rawValue: "airpods.gen4.chargingcase.wireless.fill") }
+    static var airpodsGen4ChargingcaseWirelessFill: SFSymbol { .init("airpods.gen4.chargingcase.wireless.fill") }
 
     /// 􂭅
     /// ![airpods.gen4.left](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpods.gen4.left.png)
@@ -45,7 +45,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     @_alwaysEmitIntoClient
-    static var airpodsGen4Left: SFSymbol { .init(rawValue: "airpods.gen4.left") }
+    static var airpodsGen4Left: SFSymbol { .init("airpods.gen4.left") }
 
     /// 􂭄
     /// ![airpods.gen4.right](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpods.gen4.right.png)
@@ -56,7 +56,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     @_alwaysEmitIntoClient
-    static var airpodsGen4Right: SFSymbol { .init(rawValue: "airpods.gen4.right") }
+    static var airpodsGen4Right: SFSymbol { .init("airpods.gen4.right") }
 
     /// 􂷴
     /// ![apple.writing.tools](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/apple.writing.tools.png)
@@ -69,7 +69,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Writing Tools.
     @_alwaysEmitIntoClient
-    static var appleWritingTools: SFSymbol { .init(rawValue: "apple.writing.tools") }
+    static var appleWritingTools: SFSymbol { .init("apple.writing.tools") }
 
     /// 􂹞
     /// ![exclamationmark.triangle.text.page](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/exclamationmark.triangle.text.page.png)
@@ -82,7 +82,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     @_alwaysEmitIntoClient
-    static var exclamationmarkTriangleTextPage: SymbolWith1Localization<Rtl> { .init(rawValue: "exclamationmark.triangle.text.page") }
+    static var exclamationmarkTriangleTextPage: SymbolWith1Localization<Rtl> { .init("exclamationmark.triangle.text.page") }
 
     /// 􂹟
     /// ![exclamationmark.triangle.text.page.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/exclamationmark.triangle.text.page.fill.png)
@@ -95,7 +95,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     @_alwaysEmitIntoClient
-    static var exclamationmarkTriangleTextPageFill: SymbolWith1Localization<Rtl> { .init(rawValue: "exclamationmark.triangle.text.page.fill") }
+    static var exclamationmarkTriangleTextPageFill: SymbolWith1Localization<Rtl> { .init("exclamationmark.triangle.text.page.fill") }
 
     /// 􂸞
     /// ![figure.seated.side.left.air.distribution.upper.and.middle.and.lower](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.left.air.distribution.upper.and.middle.and.lower.png)
@@ -105,7 +105,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     @_alwaysEmitIntoClient
-    static var figureSeatedSideLeftAirDistributionUpperAndMiddleAndLower: SFSymbol { .init(rawValue: "figure.seated.side.left.air.distribution.upper.and.middle.and.lower") }
+    static var figureSeatedSideLeftAirDistributionUpperAndMiddleAndLower: SFSymbol { .init("figure.seated.side.left.air.distribution.upper.and.middle.and.lower") }
 
     /// 􂸟
     /// ![figure.seated.side.right.air.distribution.upper.and.middle.and.lower](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/figure.seated.side.right.air.distribution.upper.and.middle.and.lower.png)
@@ -115,7 +115,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     @_alwaysEmitIntoClient
-    static var figureSeatedSideRightAirDistributionUpperAndMiddleAndLower: SFSymbol { .init(rawValue: "figure.seated.side.right.air.distribution.upper.and.middle.and.lower") }
+    static var figureSeatedSideRightAirDistributionUpperAndMiddleAndLower: SFSymbol { .init("figure.seated.side.right.air.distribution.upper.and.middle.and.lower") }
 
     /// 􂸔
     /// ![headphones.dots](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/headphones.dots.png)
@@ -125,7 +125,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     @_alwaysEmitIntoClient
-    static var headphonesDots: SFSymbol { .init(rawValue: "headphones.dots") }
+    static var headphonesDots: SFSymbol { .init("headphones.dots") }
 
     /// 􂹩
     /// ![info.triangle](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/info.triangle.png)
@@ -135,7 +135,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     @_alwaysEmitIntoClient
-    static var infoTriangle: SFSymbol { .init(rawValue: "info.triangle") }
+    static var infoTriangle: SFSymbol { .init("info.triangle") }
 
     /// 􂹪
     /// ![info.triangle.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/info.triangle.fill.png)
@@ -146,7 +146,7 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     @_alwaysEmitIntoClient
-    static var infoTriangleFill: SFSymbol { .init(rawValue: "info.triangle.fill") }
+    static var infoTriangleFill: SFSymbol { .init("info.triangle.fill") }
 
     /// 􂸆
     /// ![inset.filled.rectangle.and.person.filled.circle](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/inset.filled.rectangle.and.person.filled.circle.png)
@@ -156,7 +156,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     @_alwaysEmitIntoClient
-    static var insetFilledRectangleAndPersonFilledCircle: SFSymbol { .init(rawValue: "inset.filled.rectangle.and.person.filled.circle") }
+    static var insetFilledRectangleAndPersonFilledCircle: SFSymbol { .init("inset.filled.rectangle.and.person.filled.circle") }
 
     /// 􂸇
     /// ![inset.filled.rectangle.and.person.filled.circle.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/inset.filled.rectangle.and.person.filled.circle.fill.png)
@@ -167,7 +167,7 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     @_alwaysEmitIntoClient
-    static var insetFilledRectangleAndPersonFilledCircleFill: SFSymbol { .init(rawValue: "inset.filled.rectangle.and.person.filled.circle.fill") }
+    static var insetFilledRectangleAndPersonFilledCircleFill: SFSymbol { .init("inset.filled.rectangle.and.person.filled.circle.fill") }
 
     /// 􂷼
     /// ![receipt](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/receipt.png)
@@ -176,7 +176,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     @_alwaysEmitIntoClient
-    static var receipt: SFSymbol { .init(rawValue: "receipt") }
+    static var receipt: SFSymbol { .init("receipt") }
 
     /// 􂷽
     /// ![receipt.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/receipt.fill.png)
@@ -185,7 +185,7 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     @_alwaysEmitIntoClient
-    static var receiptFill: SFSymbol { .init(rawValue: "receipt.fill") }
+    static var receiptFill: SFSymbol { .init("receipt.fill") }
 
     /// 􂸊
     /// ![wand.and.outline](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/wand.and.outline.png)
@@ -195,7 +195,7 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     @_alwaysEmitIntoClient
-    static var wandAndOutline: SFSymbol { .init(rawValue: "wand.and.outline") }
+    static var wandAndOutline: SFSymbol { .init("wand.and.outline") }
 
     /// 􂸋
     /// ![wand.and.outline.inverse](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/wand.and.outline.inverse.png)
@@ -205,5 +205,5 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     @_alwaysEmitIntoClient
-    static var wandAndOutlineInverse: SFSymbol { .init(rawValue: "wand.and.outline.inverse") }
+    static var wandAndOutlineInverse: SFSymbol { .init("wand.and.outline.inverse") }
 }

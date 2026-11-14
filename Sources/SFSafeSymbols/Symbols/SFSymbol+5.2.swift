@@ -12,7 +12,7 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     @_alwaysEmitIntoClient
-    static var squareAndArrowUpBadgeClock: SFSymbol { .init(rawValue: "square.and.arrow.up.badge.clock") }
+    static var squareAndArrowUpBadgeClock: SFSymbol { .init("square.and.arrow.up.badge.clock") }
 
     /// 􂋏
     /// ![square.and.arrow.up.badge.clock.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.up.badge.clock.fill.png)
@@ -23,5 +23,5 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     @_alwaysEmitIntoClient
-    static var squareAndArrowUpBadgeClockFill: SFSymbol { .init(rawValue: "square.and.arrow.up.badge.clock.fill") }
+    static var squareAndArrowUpBadgeClockFill: SFSymbol { .init("square.and.arrow.up.badge.clock.fill") }
 }

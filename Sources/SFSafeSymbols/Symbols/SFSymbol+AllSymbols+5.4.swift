@@ -6,13 +6,13 @@ extension SFSymbol {
     @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince5_4: [SFSymbol : Set<Localization>] {
         [
-            beatsPill: [],
-            beatsPillFill: [],
-            beatsSolobuds: [],
-            beatsSolobudsChargingcase: [],
-            beatsSolobudsChargingcaseFill: [],
-            beatsSolobudsLeft: [],
-            beatsSolobudsRight: []
+            .init("beats.pill"): [], // SFSymbol.beatsPill
+            .init("beats.pill.fill"): [], // SFSymbol.beatsPillFill
+            .init("beats.solobuds"): [], // SFSymbol.beatsSolobuds
+            .init("beats.solobuds.chargingcase"): [], // SFSymbol.beatsSolobudsChargingcase
+            .init("beats.solobuds.chargingcase.fill"): [], // SFSymbol.beatsSolobudsChargingcaseFill
+            .init("beats.solobuds.left"): [], // SFSymbol.beatsSolobudsLeft
+            .init("beats.solobuds.right"): [] // SFSymbol.beatsSolobudsRight
         ]
     }
 

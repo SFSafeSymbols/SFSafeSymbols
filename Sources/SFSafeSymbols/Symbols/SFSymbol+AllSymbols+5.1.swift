@@ -6,12 +6,12 @@ extension SFSymbol {
     @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince5_1: [SFSymbol : Set<Localization>] {
         [
-            chevronCompactBackward: [],
-            chevronCompactForward: [],
-            personCropSquareBadgeCamera: [],
-            personCropSquareBadgeCameraFill: [],
-            personCropSquareBadgeVideo: [],
-            personCropSquareBadgeVideoFill: []
+            .init("chevron.compact.backward"): [], // SFSymbol.chevronCompactBackward
+            .init("chevron.compact.forward"): [], // SFSymbol.chevronCompactForward
+            .init("person.crop.square.badge.camera"): [], // SFSymbol.personCropSquareBadgeCamera
+            .init("person.crop.square.badge.camera.fill"): [], // SFSymbol.personCropSquareBadgeCameraFill
+            .init("person.crop.square.badge.video"): [], // SFSymbol.personCropSquareBadgeVideo
+            .init("person.crop.square.badge.video.fill"): [] // SFSymbol.personCropSquareBadgeVideoFill
         ]
     }
 

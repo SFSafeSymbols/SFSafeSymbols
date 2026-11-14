@@ -14,7 +14,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Intelligence.
     @_alwaysEmitIntoClient
-    static var appleIntelligenceBadgeXmark: SFSymbol { .init(rawValue: "apple.intelligence.badge.xmark") }
+    static var appleIntelligenceBadgeXmark: SFSymbol { .init("apple.intelligence.badge.xmark") }
 
     /// 􂞞
     /// ![beats.powerbeats.pro.2](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.png)
@@ -26,7 +26,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro 2.
     @_alwaysEmitIntoClient
-    static var beatsPowerbeatsPro2: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2") }
+    static var beatsPowerbeatsPro2: SFSymbol { .init("beats.powerbeats.pro.2") }
 
     /// 􂞡
     /// ![beats.powerbeats.pro.2.chargingcase](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.chargingcase.png)
@@ -37,7 +37,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro 2 case.
     @_alwaysEmitIntoClient
-    static var beatsPowerbeatsPro2Chargingcase: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2.chargingcase") }
+    static var beatsPowerbeatsPro2Chargingcase: SFSymbol { .init("beats.powerbeats.pro.2.chargingcase") }
 
     /// 􂞢
     /// ![beats.powerbeats.pro.2.chargingcase.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.chargingcase.fill.png)
@@ -48,7 +48,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro 2 case.
     @_alwaysEmitIntoClient
-    static var beatsPowerbeatsPro2ChargingcaseFill: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2.chargingcase.fill") }
+    static var beatsPowerbeatsPro2ChargingcaseFill: SFSymbol { .init("beats.powerbeats.pro.2.chargingcase.fill") }
 
     /// 􂞠
     /// ![beats.powerbeats.pro.2.left](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.left.png)
@@ -60,7 +60,7 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro 2.
     @_alwaysEmitIntoClient
-    static var beatsPowerbeatsPro2Left: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2.left") }
+    static var beatsPowerbeatsPro2Left: SFSymbol { .init("beats.powerbeats.pro.2.left") }
 
     /// 􂞟
     /// ![beats.powerbeats.pro.2.right](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.right.png)
@@ -72,5 +72,5 @@ public extension SFSymbol {
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro 2.
     @_alwaysEmitIntoClient
-    static var beatsPowerbeatsPro2Right: SFSymbol { .init(rawValue: "beats.powerbeats.pro.2.right") }
+    static var beatsPowerbeatsPro2Right: SFSymbol { .init("beats.powerbeats.pro.2.right") }
 }

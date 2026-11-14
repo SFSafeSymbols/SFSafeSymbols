@@ -6,48 +6,48 @@ extension SFSymbol {
     @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince6_1: [SFSymbol : Set<Localization>] {
         [
-            boltHouse: [],
-            boltHouseFill: [],
-            cableConnectorVideo: [],
-            carTopRadiowaves2FrontLeftFrontFrontRight: [],
-            carTopRadiowaves2FrontLeftFrontFrontRightFill: [],
-            carTopRadiowaves2RearLeftRearRearRight: [],
-            carTopRadiowaves2RearLeftRearRearRightFill: [],
-            characterCircle: [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te],
-            characterCircleFill: [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te],
-            characterSquare: [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te],
-            characterSquareFill: [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te],
-            dotCarTopRadiowaves2RearLeftRearRearRight: [],
-            dotCarTopRadiowaves2RearLeftRearRearRightFill: [],
-            envelopeStack: [],
-            envelopeStackFill: [],
-            exclamationmarkMessage: [],
-            exclamationmarkMessageFill: [],
-            handThumbsdownSlash: [],
-            handThumbsdownSlashFill: [],
-            handThumbsupSlash: [],
-            handThumbsupSlashFill: [],
-            laurelLeadingLaurelTrailing: [],
-            memoriesBadgeCheckmark: [],
-            memoriesBadgeXmark: [],
-            photoBadgeMagnifyingglass: [],
-            photoBadgeMagnifyingglassFill: [],
-            questionmarkMessage: [],
-            questionmarkMessageFill: [],
-            rectangleGrid3x1: [],
-            rectangleGrid3x1Fill: [],
-            squareAndArrowDownBadgeCheckmark: [],
-            squareAndArrowDownBadgeCheckmarkFill: [],
-            squareAndArrowDownBadgeXmark: [],
-            squareAndArrowDownBadgeXmarkFill: [],
-            waveformBadgeCheckmark: [],
-            waveformBadgeXmark: [],
-            waveformPathEcgMagnifyingglass: [],
-            waveformPathEcgText: [.rtl],
-            waveformPathEcgTextClipboard: [.rtl],
-            waveformPathEcgTextClipboardFill: [.rtl],
-            waveformPathEcgTextPage: [.rtl],
-            waveformPathEcgTextPageFill: [.rtl]
+            .init("bolt.house"): [], // SFSymbol.boltHouse
+            .init("bolt.house.fill"): [], // SFSymbol.boltHouseFill
+            .init("cable.connector.video"): [], // SFSymbol.cableConnectorVideo
+            .init("car.top.radiowaves.2.front.left.front.front.right"): [], // SFSymbol.carTopRadiowaves2FrontLeftFrontFrontRight
+            .init("car.top.radiowaves.2.front.left.front.front.right.fill"): [], // SFSymbol.carTopRadiowaves2FrontLeftFrontFrontRightFill
+            .init("car.top.radiowaves.2.rear.left.rear.rear.right"): [], // SFSymbol.carTopRadiowaves2RearLeftRearRearRight
+            .init("car.top.radiowaves.2.rear.left.rear.rear.right.fill"): [], // SFSymbol.carTopRadiowaves2RearLeftRearRearRightFill
+            .init("character.circle"): [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te], // SFSymbol.characterCircle
+            .init("character.circle.fill"): [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te], // SFSymbol.characterCircleFill
+            .init("character.square"): [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te], // SFSymbol.characterSquare
+            .init("character.square.fill"): [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te], // SFSymbol.characterSquareFill
+            .init("dot.car.top.radiowaves.2.rear.left.rear.rear.right"): [], // SFSymbol.dotCarTopRadiowaves2RearLeftRearRearRight
+            .init("dot.car.top.radiowaves.2.rear.left.rear.rear.right.fill"): [], // SFSymbol.dotCarTopRadiowaves2RearLeftRearRearRightFill
+            .init("envelope.stack"): [], // SFSymbol.envelopeStack
+            .init("envelope.stack.fill"): [], // SFSymbol.envelopeStackFill
+            .init("exclamationmark.message"): [], // SFSymbol.exclamationmarkMessage
+            .init("exclamationmark.message.fill"): [], // SFSymbol.exclamationmarkMessageFill
+            .init("hand.thumbsdown.slash"): [], // SFSymbol.handThumbsdownSlash
+            .init("hand.thumbsdown.slash.fill"): [], // SFSymbol.handThumbsdownSlashFill
+            .init("hand.thumbsup.slash"): [], // SFSymbol.handThumbsupSlash
+            .init("hand.thumbsup.slash.fill"): [], // SFSymbol.handThumbsupSlashFill
+            .init("laurel.leading.laurel.trailing"): [], // SFSymbol.laurelLeadingLaurelTrailing
+            .init("memories.badge.checkmark"): [], // SFSymbol.memoriesBadgeCheckmark
+            .init("memories.badge.xmark"): [], // SFSymbol.memoriesBadgeXmark
+            .init("photo.badge.magnifyingglass"): [], // SFSymbol.photoBadgeMagnifyingglass
+            .init("photo.badge.magnifyingglass.fill"): [], // SFSymbol.photoBadgeMagnifyingglassFill
+            .init("questionmark.message"): [], // SFSymbol.questionmarkMessage
+            .init("questionmark.message.fill"): [], // SFSymbol.questionmarkMessageFill
+            .init("rectangle.grid.3x1"): [], // SFSymbol.rectangleGrid3x1
+            .init("rectangle.grid.3x1.fill"): [], // SFSymbol.rectangleGrid3x1Fill
+            .init("square.and.arrow.down.badge.checkmark"): [], // SFSymbol.squareAndArrowDownBadgeCheckmark
+            .init("square.and.arrow.down.badge.checkmark.fill"): [], // SFSymbol.squareAndArrowDownBadgeCheckmarkFill
+            .init("square.and.arrow.down.badge.xmark"): [], // SFSymbol.squareAndArrowDownBadgeXmark
+            .init("square.and.arrow.down.badge.xmark.fill"): [], // SFSymbol.squareAndArrowDownBadgeXmarkFill
+            .init("waveform.badge.checkmark"): [], // SFSymbol.waveformBadgeCheckmark
+            .init("waveform.badge.xmark"): [], // SFSymbol.waveformBadgeXmark
+            .init("waveform.path.ecg.magnifyingglass"): [], // SFSymbol.waveformPathEcgMagnifyingglass
+            .init("waveform.path.ecg.text"): [.rtl], // SFSymbol.waveformPathEcgText
+            .init("waveform.path.ecg.text.clipboard"): [.rtl], // SFSymbol.waveformPathEcgTextClipboard
+            .init("waveform.path.ecg.text.clipboard.fill"): [.rtl], // SFSymbol.waveformPathEcgTextClipboardFill
+            .init("waveform.path.ecg.text.page"): [.rtl], // SFSymbol.waveformPathEcgTextPage
+            .init("waveform.path.ecg.text.page.fill"): [.rtl] // SFSymbol.waveformPathEcgTextPageFill
         ]
     }
 
@@ -55,8 +55,8 @@ extension SFSymbol {
     @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince6_1: Set<SFSymbol> {
         [
-            ecgTextPage,
-            ecgTextPageFill
+            .init("ecg.text.page"), // SFSymbol.ecgTextPage
+            .init("ecg.text.page.fill") // SFSymbol.ecgTextPageFill
         ]
     }
 }
