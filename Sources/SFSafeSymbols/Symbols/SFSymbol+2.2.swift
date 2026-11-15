@@ -3,8 +3,7 @@
 // 2.2 Symbols
 @available(iOS 14.5, macOS 11.3, tvOS 14.5, watchOS 7.4, visionOS 1.0, *)
 public extension SFSymbol {
-    /// 􀺹
-    /// ![airpodsmax](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpodsmax.png)
+    /// ![􀺹](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpodsmax.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -20,8 +19,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airpodsmax: SFSymbol { .init("airpodsmax") }
 
-    /// 􀸎
-    /// ![applewatch.side.right](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/applewatch.side.right.png)
+    /// ![􀸎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/applewatch.side.right.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -32,8 +30,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var applewatchSideRight: SFSymbol { .init("applewatch.side.right") }
 
-    /// 􀌰
-    /// ![character.bubble](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/character.bubble.png)
+    /// ![􀌰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/character.bubble.png)\
     /// 20 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -64,8 +61,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var characterBubble: SymbolWith19Localizations<Ar, Bn_v7, Gu_v7, He, Hi_v3, Ja_v3, Kn_v7, Ko_v3, Ml_v7, Mni_v7, Mr_v7, Or_v7, Pa_v7, Sat_v7, Si_v7, Ta_v7, Te_v7, Th_v3, Zh_v3> { .init("character.bubble") }
 
-    /// 􀌱
-    /// ![character.bubble.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/character.bubble.fill.png)
+    /// ![􀌱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/character.bubble.fill.png)\
     /// 20 Localizations, 3 Layersets
     ///
     /// Localizations:
@@ -97,8 +93,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var characterBubbleFill: SymbolWith19Localizations<Ar, Bn_v7, Gu_v7, He, Hi_v3, Ja_v3, Kn_v7, Ko_v3, Ml_v7, Mni_v7, Mr_v7, Or_v7, Pa_v7, Sat_v7, Si_v7, Ta_v7, Te_v7, Th_v3, Zh_v3> { .init("character.bubble.fill") }
 
-    /// 􀅫
-    /// ![character.cursor.ibeam](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/character.cursor.ibeam.png)
+    /// ![􀅫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/character.cursor.ibeam.png)\
     /// 20 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -129,8 +124,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var characterCursorIbeam: SymbolWith19Localizations<Ar, Bn_v6_3, Gu_v6_3, He, Hi, Ja, Kn_v6_3, Ko, Ml_v6_3, Mni_v6_3, Mr_v6_3, Or_v6_3, Pa_v6_3, Sat_v6_3, Si_v6_3, Ta_v6_3, Te_v6_3, Th, Zh> { .init("character.cursor.ibeam") }
 
-    /// 􀅶
-    /// ![character.textbox](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/character.textbox.png)
+    /// ![􀅶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/character.textbox.png)\
     /// 19 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -160,8 +154,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var characterTextbox: SymbolWith18Localizations<Ar, Bn_v6_3, Gu_v6_3, He, Hi, Ja, Kn_v6_3, Ko, Ml_v6_3, Mni_v6_3, Mr_v6_3, Or_v6_3, Pa_v6_3, Sat_v6_3, Si_v6_3, Ta_v6_3, Th, Zh> { .init("character.textbox") }
 
-    /// 􀷭
-    /// ![hifispeaker.and.homepodmini](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hifispeaker.and.homepodmini.png)
+    /// ![􀷭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hifispeaker.and.homepodmini.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -177,8 +170,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var hifispeakerAndHomepodmini: SFSymbol { .init("hifispeaker.and.homepodmini") }
 
-    /// 􀷮
-    /// ![hifispeaker.and.homepodmini.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hifispeaker.and.homepodmini.fill.png)
+    /// ![􀷮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hifispeaker.and.homepodmini.fill.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -194,8 +186,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var hifispeakerAndHomepodminiFill: SFSymbol { .init("hifispeaker.and.homepodmini.fill") }
 
-    /// 􀷫
-    /// ![homepod.and.homepodmini](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepod.and.homepodmini.png)
+    /// ![􀷫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepod.and.homepodmini.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -211,8 +202,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var homepodAndHomepodmini: SFSymbol { .init("homepod.and.homepodmini") }
 
-    /// 􀷬
-    /// ![homepod.and.homepodmini.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepod.and.homepodmini.fill.png)
+    /// ![􀷬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepod.and.homepodmini.fill.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -228,8 +218,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var homepodAndHomepodminiFill: SFSymbol { .init("homepod.and.homepodmini.fill") }
 
-    /// 􀷧
-    /// ![homepodmini](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepodmini.png)
+    /// ![􀷧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepodmini.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -245,8 +234,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var homepodmini: SFSymbol { .init("homepodmini") }
 
-    /// 􀷩
-    /// ![homepodmini.2](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepodmini.2.png)
+    /// ![􀷩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepodmini.2.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -262,8 +250,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var homepodmini2: SFSymbol { .init("homepodmini.2") }
 
-    /// 􀷪
-    /// ![homepodmini.2.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepodmini.2.fill.png)
+    /// ![􀷪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepodmini.2.fill.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -279,8 +266,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var homepodmini2Fill: SFSymbol { .init("homepodmini.2.fill") }
 
-    /// 􀷨
-    /// ![homepodmini.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepodmini.fill.png)
+    /// ![􀷨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepodmini.fill.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -296,8 +282,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var homepodminiFill: SFSymbol { .init("homepodmini.fill") }
 
-    /// 􀴊
-    /// ![rectangle.topthird.inset.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.topthird.inset.fill.png)
+    /// ![􀴊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.topthird.inset.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:

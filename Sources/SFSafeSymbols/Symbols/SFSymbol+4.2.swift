@@ -3,8 +3,7 @@
 // 4.2 Symbols
 @available(iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4, visionOS 1.0, *)
 public extension SFSymbol {
-    /// 􁢚
-    /// ![axle.2](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/axle.2.png)
+    /// ![􁢚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/axle.2.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -12,8 +11,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var axle2: SFSymbol { .init("axle.2") }
 
-    /// 􁠡
-    /// ![axle.2.front.and.rear.engaged](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/axle.2.front.and.rear.engaged.png)
+    /// ![􁠡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/axle.2.front.and.rear.engaged.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -22,8 +20,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var axle2FrontAndRearEngaged: SFSymbol { .init("axle.2.front.and.rear.engaged") }
 
-    /// 􁠟
-    /// ![axle.2.front.engaged](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/axle.2.front.engaged.png)
+    /// ![􁠟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/axle.2.front.engaged.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -32,8 +29,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var axle2FrontEngaged: SFSymbol { .init("axle.2.front.engaged") }
 
-    /// 􁠠
-    /// ![axle.2.rear.engaged](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/axle.2.rear.engaged.png)
+    /// ![􁠠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/axle.2.rear.engaged.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -42,8 +38,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var axle2RearEngaged: SFSymbol { .init("axle.2.rear.engaged") }
 
-    /// 􁰼
-    /// ![beats.powerbeats.left](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.left.png)
+    /// ![􁰼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.left.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -54,8 +49,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsPowerbeatsLeft: SFSymbol { .init("beats.powerbeats.left") }
 
-    /// 􀻕
-    /// ![beats.powerbeats.right](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.right.png)
+    /// ![􀻕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.right.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -66,8 +60,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsPowerbeatsRight: SFSymbol { .init("beats.powerbeats.right") }
 
-    /// 􁰾
-    /// ![beats.powerbeats3.left](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats3.left.png)
+    /// ![􁰾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats3.left.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -78,8 +71,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsPowerbeats3Left: SFSymbol { .init("beats.powerbeats3.left") }
 
-    /// 􁰽
-    /// ![beats.powerbeats3.right](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats3.right.png)
+    /// ![􁰽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats3.right.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:

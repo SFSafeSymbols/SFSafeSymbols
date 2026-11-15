@@ -439,10 +439,9 @@ class GeneratorCore {
         let localizationCount = symbol.availableLocalizations.values.joined().count + 1
         let layersetCount = completeLayersets.values.joined().count + 1
 
-        var lines = [symbol.preview ?? "No preview available"]
-
-        // Use online image from repo in Github
-        lines.append("![\(symbol.name)](\(makeImageURL(for: symbol)))")
+        // The image's alt text is the preview glyph: autocomplete shows alt text instead of images, while Quick Help
+        // shows the image, and can't render the glyph anyway (its fonts don't contain SF Symbols)
+        var lines = ["![\(symbol.preview ?? symbol.name)](\(makeImageURL(for: symbol)))"]
 
         let summary = [
             localizationCount > 1 ? "\(localizationCount) Localizations" : "Single Localization",
@@ -450,6 +449,9 @@ class GeneratorCore {
             symbol.restriction != nil ? "⚠️ Restricted" : nil
         ].compactMap { $0 }.joined(separator: ", ")
         if summary.isNotEmpty {
+            // A hard line break (trailing `\`) keeps the summary in the first paragraph, which autocomplete shows,
+            // while giving it more room below the image in Quick Help
+            lines[0] += "\\"
             lines.append(summary)
         }
 

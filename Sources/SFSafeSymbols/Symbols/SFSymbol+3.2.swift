@@ -3,8 +3,7 @@
 // 3.2 Symbols
 @available(iOS 15.2, macOS 12.1, tvOS 15.2, watchOS 8.3, visionOS 1.0, *)
 public extension SFSymbol {
-    /// 􁄣
-    /// ![airpod.gen3.left](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpod.gen3.left.png)
+    /// ![􁄣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpod.gen3.left.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -14,8 +13,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airpodGen3Left: SFSymbol { .init("airpod.gen3.left") }
 
-    /// 􁄢
-    /// ![airpod.gen3.right](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpod.gen3.right.png)
+    /// ![􁄢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpod.gen3.right.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -25,8 +23,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airpodGen3Right: SFSymbol { .init("airpod.gen3.right") }
 
-    /// 􁄡
-    /// ![airpods.gen3](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpods.gen3.png)
+    /// ![􁄡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpods.gen3.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -36,8 +33,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airpodsGen3: SFSymbol { .init("airpods.gen3") }
 
-    /// 􁅐
-    /// ![airpods.gen3.chargingcase.wireless](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpods.gen3.chargingcase.wireless.png)
+    /// ![􁅐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpods.gen3.chargingcase.wireless.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -47,8 +43,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airpodsGen3ChargingcaseWireless: SFSymbol { .init("airpods.gen3.chargingcase.wireless") }
 
-    /// 􁅑
-    /// ![airpods.gen3.chargingcase.wireless.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpods.gen3.chargingcase.wireless.fill.png)
+    /// ![􁅑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpods.gen3.chargingcase.wireless.fill.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -58,8 +53,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airpodsGen3ChargingcaseWirelessFill: SFSymbol { .init("airpods.gen3.chargingcase.wireless.fill") }
 
-    /// 􁅞
-    /// ![beats.fit.pro](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.png)
+    /// ![􁅞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -75,8 +69,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsFitPro: SFSymbol { .init("beats.fit.pro") }
 
-    /// 􁅡
-    /// ![beats.fit.pro.chargingcase](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.chargingcase.png)
+    /// ![􁅡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.chargingcase.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -91,8 +84,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsFitProChargingcase: SFSymbol { .init("beats.fit.pro.chargingcase") }
 
-    /// 􁅢
-    /// ![beats.fit.pro.chargingcase.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.chargingcase.fill.png)
+    /// ![􁅢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.chargingcase.fill.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -107,8 +99,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsFitProChargingcaseFill: SFSymbol { .init("beats.fit.pro.chargingcase.fill") }
 
-    /// 􁅟
-    /// ![beats.fit.pro.left](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.left.png)
+    /// ![􁅟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.left.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -124,8 +115,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsFitProLeft: SFSymbol { .init("beats.fit.pro.left") }
 
-    /// 􁅠
-    /// ![beats.fit.pro.right](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.right.png)
+    /// ![􁅠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.right.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
@@ -141,8 +131,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsFitProRight: SFSymbol { .init("beats.fit.pro.right") }
 
-    /// 􁋶
-    /// ![rectangle.leadinghalf.filled](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.leadinghalf.filled.png)
+    /// ![􁋶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.leadinghalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -150,8 +139,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleLeadinghalfFilled: SFSymbol { .init("rectangle.leadinghalf.filled") }
 
-    /// 􁋷
-    /// ![rectangle.trailinghalf.filled](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.trailinghalf.filled.png)
+    /// ![􁋷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.trailinghalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -159,8 +147,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleTrailinghalfFilled: SFSymbol { .init("rectangle.trailinghalf.filled") }
 
-    /// 􁋽
-    /// ![square.3.layers.3d.down.left.slash](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.3.layers.3d.down.left.slash.png)
+    /// ![􁋽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.3.layers.3d.down.left.slash.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -169,8 +156,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var square3Layers3dDownLeftSlash: SFSymbol { .init("square.3.layers.3d.down.left.slash") }
 
-    /// 􁋼
-    /// ![square.3.layers.3d.down.right.slash](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.3.layers.3d.down.right.slash.png)
+    /// ![􁋼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.3.layers.3d.down.right.slash.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -179,8 +165,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var square3Layers3dDownRightSlash: SFSymbol { .init("square.3.layers.3d.down.right.slash") }
 
-    /// 􁌅
-    /// ![square.3.stack.3d.slash](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.3.stack.3d.slash.png)
+    /// ![􁌅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.3.stack.3d.slash.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
