@@ -1,11 +1,11 @@
 import Foundation
 import AppKit
-import ImageIO
 import UniformTypeIdentifiers
+import WebP
 
 extension GeneratorCore {
     static var exportImageExtension: String {
-        let type = UTType.png
+        let type = UTType.webP
         return type.preferredFilenameExtension!
     }
 }
@@ -13,34 +13,26 @@ extension GeneratorCore {
 extension NSImage {
     func exportSymbol(scale: CGFloat = 1) -> Data? {
         let size = self.size
-        let dim = max(size.width, size.height)
-        let pixelDim = Int((dim * scale).rounded(.up))
+        let pixelWidth = Int((size.width * scale).rounded(.up))
+        let pixelHeight = Int((size.height * scale).rounded(.up))
 
         guard let colorSpace = CGColorSpace(name: CGColorSpace.sRGB),
               let context = CGContext(
                   data: nil,
-                  width: pixelDim,
-                  height: pixelDim,
+                  width: pixelWidth,
+                  height: pixelHeight,
                   bitsPerComponent: 8,
                   bytesPerRow: 0,
                   space: colorSpace,
-                  bitmapInfo: CGImageAlphaInfo.noneSkipLast.rawValue
+                  bitmapInfo: CGImageAlphaInfo.premultipliedLast.rawValue
               )
         else {
             return nil
         }
 
-        context.setFillColor(CGColor(srgbRed: 1, green: 1, blue: 1, alpha: 1))
-        context.fill(CGRect(x: 0, y: 0, width: pixelDim, height: pixelDim))
         context.scaleBy(x: scale, y: scale)
 
-        let canvasDim = CGFloat(pixelDim) / scale
-        let imageRect = CGRect(
-            x: ((canvasDim - size.width) / 2 * scale).rounded(.down) / scale,
-            y: ((canvasDim - size.height) / 2 * scale).rounded(.down) / scale,
-            width: size.width,
-            height: size.height
-        )
+        let imageRect = CGRect(origin: .zero, size: size)
 
         let previousContext = NSGraphicsContext.current
         NSGraphicsContext.current = NSGraphicsContext(cgContext: context, flipped: false)
@@ -49,23 +41,18 @@ extension NSImage {
         }
         NSGraphicsContext.current = previousContext
 
+        // A mid gray that reads about equally well on Quick Help's light and dark backgrounds
+        context.setBlendMode(.sourceIn)
+        context.setFillColor(CGColor(srgbRed: 0x9A / 255, green: 0x9A / 255, blue: 0x9F / 255, alpha: 1))
+        context.fill(imageRect)
+
         guard let cgImage = context.makeImage() else {
             return nil
         }
 
-        let data = NSMutableData()
-        guard let destination = CGImageDestinationCreateWithData(
-            data,
-            UTType.png.identifier as CFString,
-            1,
-            nil
-        ) else {
+        guard let config = try? WebPEncoderConfig.losslessPreset(level: 9) else {
             return nil
         }
-        CGImageDestinationAddImage(destination, cgImage, nil)
-        guard CGImageDestinationFinalize(destination) else {
-            return nil
-        }
-        return data as Data
+        return try? WebPEncoder().encode(normalizing: cgImage, config: config)
     }
 }

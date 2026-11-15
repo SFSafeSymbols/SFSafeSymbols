@@ -17,6 +17,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 - Only the symbols your app uses are now linked into it; referencing `allSymbols`, `has(localization:)` or `localized(to:)` links the full symbol catalog (about 1 MB) (By [Steven Sorial](https://github.com/StevenSorial))
 - Raised the minimum Swift version to 6.0 (Xcode 16.0) (By [Steven Sorial](https://github.com/StevenSorial))
 - Dropped CocoaPods support; `7.0.0` is the last version available via CocoaPods (By [Steven Sorial](https://github.com/StevenSorial))
+- The symbols generator now reads all symbol data from the Mac it runs on, so updating to a new SF Symbols version no longer requires copying files from the SF Symbols app or a simulator (By [Steven Sorial](https://github.com/StevenSorial))
 
 ### Fixed
 

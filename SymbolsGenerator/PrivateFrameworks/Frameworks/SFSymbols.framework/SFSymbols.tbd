@@ -1,0 +1,33 @@
+--- !tapi-tbd
+# Linker stub for the private /System/Library/PrivateFrameworks/SFSymbols.framework (it lives in the dyld shared
+# cache, so there is no file to link against). Lists only the symbols used through ../../Modules/SFSymbols.swiftmodule;
+# regenerate the list with `nm -u` on an object file that uses the module when adding declarations there.
+tbd-version: 4
+targets: [ x86_64-macos, arm64-macos, arm64e-macos ]
+install-name: '/System/Library/PrivateFrameworks/SFSymbols.framework/Versions/A/SFSymbols'
+exports:
+  - targets: [ x86_64-macos, arm64-macos, arm64e-macos ]
+    symbols: [
+      '_$s9SFSymbols12AvailabilityV24earliestSupportedRelease3forAA7VersionVSgAC8PlatformO_tF',
+      '_$s9SFSymbols12AvailabilityV8PlatformO9sfSymbolsyA2EmFWC',
+      '_$s9SFSymbols12AvailabilityV8PlatformOMa',
+      '_$s9SFSymbols12AvailabilityVMa',
+      '_$s9SFSymbols12AvailabilityVMn',
+      '_$s9SFSymbols13SymbolFeatureV10multicolorACvgZ',
+      '_$s9SFSymbols13SymbolFeatureV12hierarchicalACvgZ',
+      '_$s9SFSymbols13SymbolFeatureVMa',
+      '_$s9SFSymbols13SymbolFeatureVMn',
+      '_$s9SFSymbols14SymbolMetadataV11accessLevelAA06AccessE0Ovg',
+      '_$s9SFSymbols14SymbolMetadataV12availability3forAA12AvailabilityVSgAA0B7FeatureV_tF',
+      '_$s9SFSymbols14SymbolMetadataV13privateScalars7UnicodeO0E0VSgvg',
+      '_$s9SFSymbols14SymbolMetadataV4nameSSvg',
+      '_$s9SFSymbols14SymbolMetadataVMa',
+      '_$s9SFSymbols14SymbolMetadataVMn',
+      '_$s9SFSymbols19SymbolMetadataStoreV06symbolC013forSystemNameAA0bC0VSgSS_tF',
+      '_$s9SFSymbols19SymbolMetadataStoreV6systemACvgZ',
+      '_$s9SFSymbols19SymbolMetadataStoreVMa',
+      '_$s9SFSymbols7VersionV11descriptionSSvg',
+      '_$s9SFSymbols7VersionVMa',
+      '_$s9SFSymbols7VersionVMn'
+    ]
+...

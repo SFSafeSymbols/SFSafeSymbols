@@ -1,0 +1,37 @@
+// swift-interface-format-version: 1.0
+// swift-module-flags: -module-name SFSymbols -enable-library-evolution
+//
+// A hand-written subset of the private /System/Library/PrivateFrameworks/SFSymbols.framework, which has no public
+// headers or module. It reads the symbol metadata the system ships for SF Symbols. Declarations must match the
+// framework's exported symbols exactly (see ../../Frameworks/SFSymbols.framework/SFSymbols.tbd).
+import Swift
+import Foundation
+
+public struct SymbolMetadataStore {
+  public static var system: SymbolMetadataStore { get }
+  /// Resolves old names (aliases) to the current symbol.
+  public func symbolMetadata(forSystemName: String) -> SymbolMetadata?
+}
+
+public struct SymbolMetadata {
+  public var name: String { get }
+  /// The symbol's character in the SF fonts' private use area.
+  public var privateScalar: Unicode.Scalar? { get }
+  public func availability(for: SymbolFeature) -> Availability?
+}
+
+public struct SymbolFeature {
+  public static var hierarchical: SymbolFeature { get }
+  public static var multicolor: SymbolFeature { get }
+}
+
+public struct Availability {
+  public enum Platform: String {
+    case iOS, macCatalyst, macOS, sfSymbols, tvOS, visionOS, watchOS
+  }
+  public func earliestSupportedRelease(for: Platform) -> Version?
+}
+
+public struct Version {
+  public var description: String { get }
+}

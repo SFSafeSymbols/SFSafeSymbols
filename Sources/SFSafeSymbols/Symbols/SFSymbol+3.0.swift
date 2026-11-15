@@ -3,7 +3,7 @@
 // 3.0 Symbols
 @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
 public extension SFSymbol {
-    /// ![􁂷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/123.rectangle.png)\
+    /// ![􁂷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/123.rectangle.png)\
     /// 3 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -13,7 +13,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "numbersRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "numbersRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "numbersRectangle")
@@ -22,7 +22,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var _123Rectangle: SymbolWith2Localizations<Ar, Hi> { .init("123.rectangle") }
 
-    /// ![􁂸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/123.rectangle.fill.png)\
+    /// ![􁂸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/123.rectangle.fill.png)\
     /// 3 Localizations, 3 Layersets
     ///
     /// Localizations:
@@ -32,7 +32,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "numbersRectangleFill")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "numbersRectangleFill")
@@ -42,30 +42,30 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var _123RectangleFill: SymbolWith2Localizations<Ar, Hi> { .init("123.rectangle.fill") }
 
-    /// ![􀷯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airplane.arrival.png)\
+    /// ![􀷯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airplane.arrival.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var airplaneArrival: SFSymbol { .init("airplane.arrival") }
 
-    /// ![􀷰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airplane.departure.png)\
+    /// ![􀷰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airplane.departure.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var airplaneDeparture: SFSymbol { .init("airplane.departure") }
 
-    /// ![􀱫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airplayaudio.badge.exclamationmark.png)\
+    /// ![􀱫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airplayaudio.badge.exclamationmark.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPlay.
@@ -77,13 +77,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airplayaudioBadgeExclamationmark: SFSymbol { .init("airplayaudio.badge.exclamationmark") }
 
-    /// ![􀾧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airplayaudio.circle.png)\
-    /// Single Localization, 3 Layersets, ⚠️ Restricted
+    /// ![􀾧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airplayaudio.circle.png)\
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPlay.
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "airplayAudioCircle")
@@ -94,12 +93,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airplayaudioCircle: SFSymbol { .init("airplayaudio.circle") }
 
-    /// ![􀾨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airplayaudio.circle.fill.png)\
+    /// ![􀾨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airplayaudio.circle.fill.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPlay.
@@ -111,12 +110,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airplayaudioCircleFill: SFSymbol { .init("airplayaudio.circle.fill") }
 
-    /// ![􀱪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airplayvideo.badge.exclamationmark.png)\
+    /// ![􀱪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airplayvideo.badge.exclamationmark.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPlay.
@@ -128,12 +127,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airplayvideoBadgeExclamationmark: SFSymbol { .init("airplayvideo.badge.exclamationmark") }
 
-    /// ![􀾑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airplayvideo.circle.png)\
+    /// ![􀾑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airplayvideo.circle.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPlay.
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "airplayVideoCircle")
@@ -144,12 +143,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airplayvideoCircle: SFSymbol { .init("airplayvideo.circle") }
 
-    /// ![􀾒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airplayvideo.circle.fill.png)\
+    /// ![􀾒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airplayvideo.circle.fill.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPlay.
@@ -161,7 +160,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airplayvideoCircleFill: SFSymbol { .init("airplayvideo.circle.fill") }
 
-    /// ![􀹧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpods.chargingcase.png)\
+    /// ![􀹧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airpods.chargingcase.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -171,7 +170,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airpodsChargingcase: SFSymbol { .init("airpods.chargingcase") }
 
-    /// ![􀹨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpods.chargingcase.fill.png)\
+    /// ![􀹨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airpods.chargingcase.fill.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -181,7 +180,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airpodsChargingcaseFill: SFSymbol { .init("airpods.chargingcase.fill") }
 
-    /// ![􀹩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpods.chargingcase.wireless.png)\
+    /// ![􀹩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airpods.chargingcase.wireless.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -191,7 +190,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airpodsChargingcaseWireless: SFSymbol { .init("airpods.chargingcase.wireless") }
 
-    /// ![􀹪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpods.chargingcase.wireless.fill.png)\
+    /// ![􀹪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airpods.chargingcase.wireless.fill.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -201,7 +200,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airpodsChargingcaseWirelessFill: SFSymbol { .init("airpods.chargingcase.wireless.fill") }
 
-    /// ![􀹫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpodspro.chargingcase.wireless.png)\
+    /// ![􀹫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airpodspro.chargingcase.wireless.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -216,7 +215,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airpodsproChargingcaseWireless: SFSymbol { .init("airpodspro.chargingcase.wireless") }
 
-    /// ![􀹬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpodspro.chargingcase.wireless.fill.png)\
+    /// ![􀹬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airpodspro.chargingcase.wireless.fill.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -231,7 +230,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airpodsproChargingcaseWirelessFill: SFSymbol { .init("airpodspro.chargingcase.wireless.fill") }
 
-    /// ![􁄾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airtag.png)\
+    /// ![􁄾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airtag.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -241,7 +240,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airtag: SFSymbol { .init("airtag") }
 
-    /// ![􁄿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airtag.fill.png)\
+    /// ![􁄿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airtag.fill.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -251,8 +250,8 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var airtagFill: SFSymbol { .init("airtag.fill") }
 
-    /// ![􁄼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airtag.radiowaves.forward.png)\
-    /// 2 Localizations, 3 Layersets, ⚠️ Restricted
+    /// ![􁄼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airtag.radiowaves.forward.png)\
+    /// 2 Localizations, 2 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
     /// - Left-to-Right
@@ -260,15 +259,14 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirTag.
     @_alwaysEmitIntoClient
     static var airtagRadiowavesForward: SymbolWith1Localization<Rtl> { .init("airtag.radiowaves.forward") }
 
-    /// ![􁄽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airtag.radiowaves.forward.fill.png)\
-    /// 2 Localizations, 3 Layersets, ⚠️ Restricted
+    /// ![􁄽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airtag.radiowaves.forward.fill.png)\
+    /// 2 Localizations, 2 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
     /// - Left-to-Right
@@ -276,136 +274,130 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirTag.
     @_alwaysEmitIntoClient
     static var airtagRadiowavesForwardFill: SymbolWith1Localization<Rtl> { .init("airtag.radiowaves.forward.fill") }
 
-    /// ![􀩉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/align.horizontal.center.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀩉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/align.horizontal.center.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var alignHorizontalCenter: SFSymbol { .init("align.horizontal.center") }
 
-    /// ![􀥗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/align.horizontal.center.fill.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀥗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/align.horizontal.center.fill.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var alignHorizontalCenterFill: SFSymbol { .init("align.horizontal.center.fill") }
 
-    /// ![􀩈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/align.horizontal.left.png)\
+    /// ![􀩈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/align.horizontal.left.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var alignHorizontalLeft: SFSymbol { .init("align.horizontal.left") }
 
-    /// ![􀥖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/align.horizontal.left.fill.png)\
+    /// ![􀥖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/align.horizontal.left.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var alignHorizontalLeftFill: SFSymbol { .init("align.horizontal.left.fill") }
 
-    /// ![􀩊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/align.horizontal.right.png)\
+    /// ![􀩊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/align.horizontal.right.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var alignHorizontalRight: SFSymbol { .init("align.horizontal.right") }
 
-    /// ![􀥘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/align.horizontal.right.fill.png)\
+    /// ![􀥘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/align.horizontal.right.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var alignHorizontalRightFill: SFSymbol { .init("align.horizontal.right.fill") }
 
-    /// ![􀩍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/align.vertical.bottom.png)\
+    /// ![􀩍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/align.vertical.bottom.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var alignVerticalBottom: SFSymbol { .init("align.vertical.bottom") }
 
-    /// ![􀥛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/align.vertical.bottom.fill.png)\
+    /// ![􀥛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/align.vertical.bottom.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var alignVerticalBottomFill: SFSymbol { .init("align.vertical.bottom.fill") }
 
-    /// ![􀩌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/align.vertical.center.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀩌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/align.vertical.center.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var alignVerticalCenter: SFSymbol { .init("align.vertical.center") }
 
-    /// ![􀥚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/align.vertical.center.fill.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀥚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/align.vertical.center.fill.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var alignVerticalCenterFill: SFSymbol { .init("align.vertical.center.fill") }
 
-    /// ![􀩋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/align.vertical.top.png)\
+    /// ![􀩋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/align.vertical.top.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var alignVerticalTop: SFSymbol { .init("align.vertical.top") }
 
-    /// ![􀥙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/align.vertical.top.fill.png)\
+    /// ![􀥙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/align.vertical.top.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var alignVerticalTopFill: SFSymbol { .init("align.vertical.top.fill") }
 
-    /// ![􀬭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/allergens.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀬭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/allergens.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    /// - Hierarchical (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var allergens: SFSymbol { .init("allergens") }
 
-    /// ![􁆭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/alternatingcurrent.png)\
+    /// ![􁆭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/alternatingcurrent.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -413,67 +405,66 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var alternatingcurrent: SFSymbol { .init("alternatingcurrent") }
 
-    /// ![􀷈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/antenna.radiowaves.left.and.right.circle.png)\
+    /// ![􀷈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/antenna.radiowaves.left.and.right.circle.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var antennaRadiowavesLeftAndRightCircle: SFSymbol { .init("antenna.radiowaves.left.and.right.circle") }
 
-    /// ![􀷉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/antenna.radiowaves.left.and.right.circle.fill.png)\
+    /// ![􀷉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/antenna.radiowaves.left.and.right.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var antennaRadiowavesLeftAndRightCircleFill: SFSymbol { .init("antenna.radiowaves.left.and.right.circle.fill") }
 
-    /// ![􁅒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/antenna.radiowaves.left.and.right.slash.png)\
+    /// ![􁅒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/antenna.radiowaves.left.and.right.slash.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     @_alwaysEmitIntoClient
     static var antennaRadiowavesLeftAndRightSlash: SFSymbol { .init("antenna.radiowaves.left.and.right.slash") }
 
-    /// ![􁂠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/app.badge.checkmark.png)\
+    /// ![􁂠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/app.badge.checkmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var appBadgeCheckmark: SFSymbol { .init("app.badge.checkmark") }
 
-    /// ![􁂡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/app.badge.checkmark.fill.png)\
+    /// ![􁂡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/app.badge.checkmark.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var appBadgeCheckmarkFill: SFSymbol { .init("app.badge.checkmark.fill") }
 
-    /// ![􁀘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/app.connected.to.app.below.fill.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􁀘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/app.connected.to.app.below.fill.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var appConnectedToAppBelowFill: SFSymbol { .init("app.connected.to.app.below.fill") }
 
-    /// ![􀿫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/app.dashed.png)\
+    /// ![􀿫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/app.dashed.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -481,7 +472,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var appDashed: SFSymbol { .init("app.dashed") }
 
-    /// ![􀺮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/applepencil.png)\
+    /// ![􀺮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/applepencil.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -491,7 +482,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var applepencil: SFSymbol { .init("applepencil") }
 
-    /// ![􀼩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/appletvremote.gen1.png)\
+    /// ![􀼩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/appletvremote.gen1.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -501,7 +492,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var appletvremoteGen1: SFSymbol { .init("appletvremote.gen1") }
 
-    /// ![􀼪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/appletvremote.gen1.fill.png)\
+    /// ![􀼪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/appletvremote.gen1.fill.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -511,7 +502,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var appletvremoteGen1Fill: SFSymbol { .init("appletvremote.gen1.fill") }
 
-    /// ![􀼫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/appletvremote.gen2.png)\
+    /// ![􀼫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/appletvremote.gen2.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -521,7 +512,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var appletvremoteGen2: SFSymbol { .init("appletvremote.gen2") }
 
-    /// ![􀼬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/appletvremote.gen2.fill.png)\
+    /// ![􀼬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/appletvremote.gen2.fill.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -531,7 +522,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var appletvremoteGen2Fill: SFSymbol { .init("appletvremote.gen2.fill") }
 
-    /// ![􀝩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/appletvremote.gen3.png)\
+    /// ![􀝩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/appletvremote.gen3.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -541,7 +532,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var appletvremoteGen3: SFSymbol { .init("appletvremote.gen3") }
 
-    /// ![􀝪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/appletvremote.gen3.fill.png)\
+    /// ![􀝪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/appletvremote.gen3.fill.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -551,7 +542,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var appletvremoteGen3Fill: SFSymbol { .init("appletvremote.gen3.fill") }
 
-    /// ![􀼧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/appletvremote.gen4.png)\
+    /// ![􀼧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/appletvremote.gen4.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -561,7 +552,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var appletvremoteGen4: SFSymbol { .init("appletvremote.gen4") }
 
-    /// ![􀼨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/appletvremote.gen4.fill.png)\
+    /// ![􀼨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/appletvremote.gen4.fill.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -571,12 +562,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var appletvremoteGen4Fill: SFSymbol { .init("appletvremote.gen4.fill") }
 
-    /// ![􀴪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/applewatch.case.inset.filled.png)\
+    /// ![􀴪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/applewatch.case.inset.filled.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledApplewatchCase")
@@ -587,19 +578,19 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var applewatchCaseInsetFilled: SFSymbol { .init("applewatch.case.inset.filled") }
 
-    /// ![􁀒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arkit.badge.xmark.png)\
+    /// ![􁀒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arkit.badge.xmark.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s ARKit.
     @_alwaysEmitIntoClient
     static var arkitBadgeXmark: SFSymbol { .init("arkit.badge.xmark") }
 
-    /// ![􁂊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.backward.to.line.png)\
+    /// ![􁂊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.backward.to.line.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -607,45 +598,45 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var arrowBackwardToLine: SFSymbol { .init("arrow.backward.to.line") }
 
-    /// ![􁂌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.backward.to.line.circle.png)\
+    /// ![􁂌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.backward.to.line.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var arrowBackwardToLineCircle: SFSymbol { .init("arrow.backward.to.line.circle") }
 
-    /// ![􁂍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.backward.to.line.circle.fill.png)\
+    /// ![􁂍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.backward.to.line.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var arrowBackwardToLineCircleFill: SFSymbol { .init("arrow.backward.to.line.circle.fill") }
 
-    /// ![􀓈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.down.to.line.circle.png)\
+    /// ![􀓈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.down.to.line.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var arrowDownToLineCircle: SFSymbol { .init("arrow.down.to.line.circle") }
 
-    /// ![􀓉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.down.to.line.circle.fill.png)\
+    /// ![􀓉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.down.to.line.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var arrowDownToLineCircleFill: SFSymbol { .init("arrow.down.to.line.circle.fill") }
 
-    /// ![􀅄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.down.to.line.compact.png)\
+    /// ![􀅄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.down.to.line.compact.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -653,7 +644,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var arrowDownToLineCompact: SFSymbol { .init("arrow.down.to.line.compact") }
 
-    /// ![􁂎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.forward.to.line.png)\
+    /// ![􁂎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.forward.to.line.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -661,45 +652,45 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var arrowForwardToLine: SFSymbol { .init("arrow.forward.to.line") }
 
-    /// ![􁂐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.forward.to.line.circle.png)\
+    /// ![􁂐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.forward.to.line.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var arrowForwardToLineCircle: SFSymbol { .init("arrow.forward.to.line.circle") }
 
-    /// ![􁂑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.forward.to.line.circle.fill.png)\
+    /// ![􁂑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.forward.to.line.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var arrowForwardToLineCircleFill: SFSymbol { .init("arrow.forward.to.line.circle.fill") }
 
-    /// ![􀓊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.left.to.line.circle.png)\
+    /// ![􀓊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.left.to.line.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var arrowLeftToLineCircle: SFSymbol { .init("arrow.left.to.line.circle") }
 
-    /// ![􀓋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.left.to.line.circle.fill.png)\
+    /// ![􀓋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.left.to.line.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var arrowLeftToLineCircleFill: SFSymbol { .init("arrow.left.to.line.circle.fill") }
 
-    /// ![􀅅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.left.to.line.compact.png)\
+    /// ![􀅅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.left.to.line.compact.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -707,26 +698,26 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var arrowLeftToLineCompact: SFSymbol { .init("arrow.left.to.line.compact") }
 
-    /// ![􀓌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.right.to.line.circle.png)\
+    /// ![􀓌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.right.to.line.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var arrowRightToLineCircle: SFSymbol { .init("arrow.right.to.line.circle") }
 
-    /// ![􀓍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.right.to.line.circle.fill.png)\
+    /// ![􀓍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.right.to.line.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var arrowRightToLineCircleFill: SFSymbol { .init("arrow.right.to.line.circle.fill") }
 
-    /// ![􀅆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.right.to.line.compact.png)\
+    /// ![􀅆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.right.to.line.compact.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -734,12 +725,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var arrowRightToLineCompact: SFSymbol { .init("arrow.right.to.line.compact") }
 
-    /// ![􀟩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.up.and.down.righttriangle.up.righttriangle.down.fill.png)\
+    /// ![􀟩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.up.and.down.righttriangle.up.righttriangle.down.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "arrowTriangleheadUpAndDownRighttriangleUpRighttriangleDownFill")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "arrowTriangleheadUpAndDownRighttriangleUpRighttriangleDownFill")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "arrowTriangleheadUpAndDownRighttriangleUpRighttriangleDownFill")
@@ -748,26 +739,26 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var arrowUpAndDownRighttriangleUpRighttriangleDownFill: SFSymbol { .init("arrow.up.and.down.righttriangle.up.righttriangle.down.fill") }
 
-    /// ![􀓆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.up.to.line.circle.png)\
+    /// ![􀓆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.up.to.line.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var arrowUpToLineCircle: SFSymbol { .init("arrow.up.to.line.circle") }
 
-    /// ![􀓇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.up.to.line.circle.fill.png)\
+    /// ![􀓇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.up.to.line.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var arrowUpToLineCircleFill: SFSymbol { .init("arrow.up.to.line.circle.fill") }
 
-    /// ![􀅃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.up.to.line.compact.png)\
+    /// ![􀅃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.up.to.line.compact.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -775,7 +766,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var arrowUpToLineCompact: SFSymbol { .init("arrow.up.to.line.compact") }
 
-    /// ![􀟦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrowtriangle.left.and.line.vertical.and.arrowtriangle.right.fill.png)\
+    /// ![􀟦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrowtriangle.left.and.line.vertical.and.arrowtriangle.right.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -783,7 +774,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var arrowtriangleLeftAndLineVerticalAndArrowtriangleRightFill: SFSymbol { .init("arrowtriangle.left.and.line.vertical.and.arrowtriangle.right.fill") }
 
-    /// ![􀟧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrowtriangle.right.and.line.vertical.and.arrowtriangle.left.fill.png)\
+    /// ![􀟧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrowtriangle.right.and.line.vertical.and.arrowtriangle.left.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -791,7 +782,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var arrowtriangleRightAndLineVerticalAndArrowtriangleLeftFill: SFSymbol { .init("arrowtriangle.right.and.line.vertical.and.arrowtriangle.left.fill") }
 
-    /// ![􀸓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/asterisk.png)\
+    /// ![􀸓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/asterisk.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -799,32 +790,31 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var asterisk: SFSymbol { .init("asterisk") }
 
-    /// ![􀺃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/backward.circle.png)\
+    /// ![􀺃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/backward.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var backwardCircle: SFSymbol { .init("backward.circle") }
 
-    /// ![􀺄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/backward.circle.fill.png)\
+    /// ![􀺄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/backward.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var backwardCircleFill: SFSymbol { .init("backward.circle.fill") }
 
-    /// ![􀺶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/battery.50.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀺶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/battery.50.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "battery50percent")
     @available(macOS, introduced: 12.0, deprecated: 14.0, renamed: "battery50percent")
     @available(tvOS, introduced: 15.0, deprecated: 17.0, renamed: "battery50percent")
@@ -833,13 +823,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var battery50: SFSymbol { .init("battery.50") }
 
-    /// ![􀺸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/battery.75.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀺸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/battery.75.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "battery75percent")
     @available(macOS, introduced: 12.0, deprecated: 14.0, renamed: "battery75percent")
     @available(tvOS, introduced: 15.0, deprecated: 17.0, renamed: "battery75percent")
@@ -848,56 +837,56 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var battery75: SFSymbol { .init("battery.75") }
 
-    /// ![􀺒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.earphones.png)\
+    /// ![􀺒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.earphones.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats earphones.
     @_alwaysEmitIntoClient
     static var beatsEarphones: SFSymbol { .init("beats.earphones") }
 
-    /// ![􀺭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.headphones.png)\
+    /// ![􀺭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.headphones.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats headphones.
     @_alwaysEmitIntoClient
     static var beatsHeadphones: SFSymbol { .init("beats.headphones") }
 
-    /// ![􀻔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.png)\
+    /// ![􀻔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats.
     @_alwaysEmitIntoClient
     static var beatsPowerbeats: SFSymbol { .init("beats.powerbeats") }
 
-    /// ![􀺯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats3.png)\
+    /// ![􀺯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats3.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats3.
     @_alwaysEmitIntoClient
     static var beatsPowerbeats3: SFSymbol { .init("beats.powerbeats3") }
 
-    /// ![􀹭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeatspro.png)\
+    /// ![􀹭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.powerbeatspro.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro.
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "beatsPowerbeatsPro")
@@ -908,7 +897,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsPowerbeatspro: SFSymbol { .init("beats.powerbeatspro") }
 
-    /// ![􀹰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeatspro.chargingcase.png)\
+    /// ![􀹰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.powerbeatspro.chargingcase.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -923,7 +912,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsPowerbeatsproChargingcase: SFSymbol { .init("beats.powerbeatspro.chargingcase") }
 
-    /// ![􀹱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeatspro.chargingcase.fill.png)\
+    /// ![􀹱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.powerbeatspro.chargingcase.fill.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -938,12 +927,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsPowerbeatsproChargingcaseFill: SFSymbol { .init("beats.powerbeatspro.chargingcase.fill") }
 
-    /// ![􀹯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeatspro.left.png)\
+    /// ![􀹯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.powerbeatspro.left.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro.
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "beatsPowerbeatsProLeft")
@@ -954,12 +943,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsPowerbeatsproLeft: SFSymbol { .init("beats.powerbeatspro.left") }
 
-    /// ![􀹮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeatspro.right.png)\
+    /// ![􀹮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.powerbeatspro.right.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro.
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "beatsPowerbeatsProRight")
@@ -970,12 +959,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsPowerbeatsproRight: SFSymbol { .init("beats.powerbeatspro.right") }
 
-    /// ![􀾣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.studiobud.left.png)\
+    /// ![􀾣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.studiobud.left.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Studio Buds.
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "beatsStudiobudsLeft")
@@ -986,12 +975,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsStudiobudLeft: SFSymbol { .init("beats.studiobud.left") }
 
-    /// ![􀾤](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.studiobud.right.png)\
+    /// ![􀾤](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.studiobud.right.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Studio Buds.
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "beatsStudiobudsRight")
@@ -1002,18 +991,18 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsStudiobudRight: SFSymbol { .init("beats.studiobud.right") }
 
-    /// ![􀾢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.studiobuds.png)\
+    /// ![􀾢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.studiobuds.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Studio Buds.
     @_alwaysEmitIntoClient
     static var beatsStudiobuds: SFSymbol { .init("beats.studiobuds") }
 
-    /// ![􀾥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.studiobuds.chargingcase.png)\
+    /// ![􀾥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.studiobuds.chargingcase.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -1023,7 +1012,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsStudiobudsChargingcase: SFSymbol { .init("beats.studiobuds.chargingcase") }
 
-    /// ![􀾦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.studiobuds.chargingcase.fill.png)\
+    /// ![􀾦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.studiobuds.chargingcase.fill.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -1033,33 +1022,32 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsStudiobudsChargingcaseFill: SFSymbol { .init("beats.studiobuds.chargingcase.fill") }
 
-    /// ![􁁏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bed.double.circle.png)\
+    /// ![􁁏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bed.double.circle.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var bedDoubleCircle: SFSymbol { .init("bed.double.circle") }
 
-    /// ![􁁐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bed.double.circle.fill.png)\
+    /// ![􁁐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bed.double.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var bedDoubleCircleFill: SFSymbol { .init("bed.double.circle.fill") }
 
-    /// ![􀻿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bell.and.waveform.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀻿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bell.and.waveform.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "bellBadgeWaveform")
     @available(macOS, introduced: 12.0, deprecated: 14.0, renamed: "bellBadgeWaveform")
     @available(tvOS, introduced: 15.0, deprecated: 17.0, renamed: "bellBadgeWaveform")
@@ -1068,13 +1056,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var bellAndWaveform: SFSymbol { .init("bell.and.waveform") }
 
-    /// ![􀼀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bell.and.waveform.fill.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀼀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bell.and.waveform.fill.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "bellBadgeWaveformFill")
     @available(macOS, introduced: 12.0, deprecated: 14.0, renamed: "bellBadgeWaveformFill")
     @available(tvOS, introduced: 15.0, deprecated: 17.0, renamed: "bellBadgeWaveformFill")
@@ -1083,183 +1070,182 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var bellAndWaveformFill: SFSymbol { .init("bell.and.waveform.fill") }
 
-    /// ![􀰷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bell.badge.circle.png)\
+    /// ![􀰷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bell.badge.circle.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var bellBadgeCircle: SFSymbol { .init("bell.badge.circle") }
 
-    /// ![􀰸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bell.badge.circle.fill.png)\
+    /// ![􀰸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bell.badge.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var bellBadgeCircleFill: SFSymbol { .init("bell.badge.circle.fill") }
 
-    /// ![􀼷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bell.square.png)\
+    /// ![􀼷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bell.square.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var bellSquare: SFSymbol { .init("bell.square") }
 
-    /// ![􀼸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bell.square.fill.png)\
+    /// ![􀼸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bell.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var bellSquareFill: SFSymbol { .init("bell.square.fill") }
 
-    /// ![􀫮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bolt.batteryblock.png)\
+    /// ![􀫮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bolt.batteryblock.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var boltBatteryblock: SFSymbol { .init("bolt.batteryblock") }
 
-    /// ![􀫯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bolt.batteryblock.fill.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀫯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bolt.batteryblock.fill.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var boltBatteryblockFill: SFSymbol { .init("bolt.batteryblock.fill") }
 
-    /// ![􁄲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bolt.car.circle.png)\
+    /// ![􁄲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bolt.car.circle.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var boltCarCircle: SFSymbol { .init("bolt.car.circle") }
 
-    /// ![􁄳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bolt.car.circle.fill.png)\
+    /// ![􁄳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bolt.car.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var boltCarCircleFill: SFSymbol { .init("bolt.car.circle.fill") }
 
-    /// ![􁃗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bolt.shield.png)\
+    /// ![􁃗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bolt.shield.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var boltShield: SFSymbol { .init("bolt.shield") }
 
-    /// ![􁃘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bolt.shield.fill.png)\
+    /// ![􁃘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bolt.shield.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var boltShieldFill: SFSymbol { .init("bolt.shield.fill") }
 
-    /// ![􀼵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bolt.square.png)\
+    /// ![􀼵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bolt.square.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var boltSquare: SFSymbol { .init("bolt.square") }
 
-    /// ![􀼶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bolt.square.fill.png)\
+    /// ![􀼶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bolt.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var boltSquareFill: SFSymbol { .init("bolt.square.fill") }
 
-    /// ![􁇣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/book.closed.circle.png)\
+    /// ![􁇣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/book.closed.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var bookClosedCircle: SFSymbol { .init("book.closed.circle") }
 
-    /// ![􁇤](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/book.closed.circle.fill.png)\
+    /// ![􁇤](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/book.closed.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var bookClosedCircleFill: SFSymbol { .init("book.closed.circle.fill") }
 
-    /// ![􀼹](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bookmark.square.png)\
+    /// ![􀼹](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bookmark.square.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var bookmarkSquare: SFSymbol { .init("bookmark.square") }
 
-    /// ![􀼺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bookmark.square.fill.png)\
+    /// ![􀼺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bookmark.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var bookmarkSquareFill: SFSymbol { .init("bookmark.square.fill") }
 
-    /// ![􁆼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/books.vertical.circle.png)\
+    /// ![􁆼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/books.vertical.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var booksVerticalCircle: SFSymbol { .init("books.vertical.circle") }
 
-    /// ![􁆽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/books.vertical.circle.fill.png)\
+    /// ![􁆽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/books.vertical.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var booksVerticalCircleFill: SFSymbol { .init("books.vertical.circle.fill") }
 
-    /// ![􀯐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/brain.png)\
+    /// ![􀯐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/brain.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1267,131 +1253,134 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var brain: SFSymbol { .init("brain") }
 
-    /// ![􀯏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/brain.head.profile.png)\
+    /// ![􀯏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/brain.head.profile.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var brainHeadProfile: SFSymbol { .init("brain.head.profile") }
 
-    /// ![􀷡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/briefcase.circle.png)\
+    /// ![􀷡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/briefcase.circle.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var briefcaseCircle: SFSymbol { .init("briefcase.circle") }
 
-    /// ![􀷢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/briefcase.circle.fill.png)\
+    /// ![􀷢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/briefcase.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var briefcaseCircleFill: SFSymbol { .init("briefcase.circle.fill") }
 
-    /// ![􁃒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bubble.left.and.exclamationmark.bubble.right.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var bubbleLeftAndExclamationmarkBubbleRight: SFSymbol { .init("bubble.left.and.exclamationmark.bubble.right") }
-
-    /// ![􁃓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bubble.left.and.exclamationmark.bubble.right.fill.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var bubbleLeftAndExclamationmarkBubbleRightFill: SFSymbol { .init("bubble.left.and.exclamationmark.bubble.right.fill") }
-
-    /// ![􁇐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bubble.left.circle.png)\
+    /// ![􁃒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bubble.left.and.exclamationmark.bubble.right.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var bubbleLeftAndExclamationmarkBubbleRight: SFSymbol { .init("bubble.left.and.exclamationmark.bubble.right") }
+
+    /// ![􁃓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bubble.left.and.exclamationmark.bubble.right.fill.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var bubbleLeftAndExclamationmarkBubbleRightFill: SFSymbol { .init("bubble.left.and.exclamationmark.bubble.right.fill") }
+
+    /// ![􁇐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bubble.left.circle.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var bubbleLeftCircle: SFSymbol { .init("bubble.left.circle") }
 
-    /// ![􁇑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bubble.left.circle.fill.png)\
+    /// ![􁇑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bubble.left.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var bubbleLeftCircleFill: SFSymbol { .init("bubble.left.circle.fill") }
 
-    /// ![􁇎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bubble.right.circle.png)\
+    /// ![􁇎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bubble.right.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var bubbleRightCircle: SFSymbol { .init("bubble.right.circle") }
 
-    /// ![􁇏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bubble.right.circle.fill.png)\
+    /// ![􁇏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bubble.right.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var bubbleRightCircleFill: SFSymbol { .init("bubble.right.circle.fill") }
 
-    /// ![􁇆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/building.columns.circle.png)\
+    /// ![􁇆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/building.columns.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
+    @available(iOS, introduced: 15.0, deprecated: 27.0, renamed: "buildingClassicalColumnsCircle")
+    @available(macOS, introduced: 12.0, deprecated: 27.0, renamed: "buildingClassicalColumnsCircle")
+    @available(tvOS, introduced: 15.0, deprecated: 27.0, renamed: "buildingClassicalColumnsCircle")
+    @available(watchOS, introduced: 8.0, deprecated: 27.0, renamed: "buildingClassicalColumnsCircle")
+    @available(visionOS, introduced: 1.0, deprecated: 27.0, renamed: "buildingClassicalColumnsCircle")
     @_alwaysEmitIntoClient
     static var buildingColumnsCircle: SFSymbol { .init("building.columns.circle") }
 
-    /// ![􁇇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/building.columns.circle.fill.png)\
+    /// ![􁇇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/building.columns.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var buildingColumnsCircleFill: SFSymbol { .init("building.columns.circle.fill") }
 
-    /// ![􀺦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/cable.connector.png)\
+    /// ![􀺦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/cable.connector.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var cableConnector: SFSymbol { .init("cable.connector") }
 
-    /// ![􀴞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/cable.connector.horizontal.png)\
+    /// ![􀴞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/cable.connector.horizontal.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var cableConnectorHorizontal: SFSymbol { .init("cable.connector.horizontal") }
 
-    /// ![􀷶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/cablecar.png)\
+    /// ![􀷶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/cablecar.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1399,7 +1388,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var cablecar: SFSymbol { .init("cablecar") }
 
-    /// ![􀷷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/cablecar.fill.png)\
+    /// ![􀷷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/cablecar.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1407,65 +1396,65 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var cablecarFill: SFSymbol { .init("cablecar.fill") }
 
-    /// ![􁁃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/calendar.day.timeline.leading.png)\
+    /// ![􁁃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/calendar.day.timeline.leading.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var calendarDayTimelineLeading: SFSymbol { .init("calendar.day.timeline.leading") }
 
-    /// ![􀻤](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/calendar.day.timeline.left.png)\
+    /// ![􀻤](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/calendar.day.timeline.left.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var calendarDayTimelineLeft: SFSymbol { .init("calendar.day.timeline.left") }
 
-    /// ![􀻣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/calendar.day.timeline.right.png)\
+    /// ![􀻣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/calendar.day.timeline.right.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var calendarDayTimelineRight: SFSymbol { .init("calendar.day.timeline.right") }
 
-    /// ![􁁂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/calendar.day.timeline.trailing.png)\
+    /// ![􁁂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/calendar.day.timeline.trailing.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var calendarDayTimelineTrailing: SFSymbol { .init("calendar.day.timeline.trailing") }
 
-    /// ![􀹺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/camera.shutter.button.png)\
+    /// ![􀹺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/camera.shutter.button.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var cameraShutterButton: SFSymbol { .init("camera.shutter.button") }
 
-    /// ![􀹻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/camera.shutter.button.fill.png)\
+    /// ![􀹻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/camera.shutter.button.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var cameraShutterButtonFill: SFSymbol { .init("camera.shutter.button.fill") }
 
-    /// ![􀿶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/capsule.bottomhalf.filled.png)\
+    /// ![􀿶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/capsule.bottomhalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1473,12 +1462,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var capsuleBottomhalfFilled: SFSymbol { .init("capsule.bottomhalf.filled") }
 
-    /// ![􀾚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/capsule.inset.filled.png)\
+    /// ![􀾚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/capsule.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledCapsule")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledCapsule")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledCapsule")
@@ -1487,7 +1476,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var capsuleInsetFilled: SFSymbol { .init("capsule.inset.filled") }
 
-    /// ![􀿳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/capsule.lefthalf.filled.png)\
+    /// ![􀿳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/capsule.lefthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1495,7 +1484,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var capsuleLefthalfFilled: SFSymbol { .init("capsule.lefthalf.filled") }
 
-    /// ![􀿺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/capsule.portrait.bottomhalf.filled.png)\
+    /// ![􀿺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/capsule.portrait.bottomhalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1503,12 +1492,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var capsulePortraitBottomhalfFilled: SFSymbol { .init("capsule.portrait.bottomhalf.filled") }
 
-    /// ![􀾛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/capsule.portrait.inset.filled.png)\
+    /// ![􀾛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/capsule.portrait.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledCapsulePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledCapsulePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledCapsulePortrait")
@@ -1517,7 +1506,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var capsulePortraitInsetFilled: SFSymbol { .init("capsule.portrait.inset.filled") }
 
-    /// ![􀿷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/capsule.portrait.lefthalf.filled.png)\
+    /// ![􀿷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/capsule.portrait.lefthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1525,7 +1514,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var capsulePortraitLefthalfFilled: SFSymbol { .init("capsule.portrait.lefthalf.filled") }
 
-    /// ![􀿸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/capsule.portrait.righthalf.filled.png)\
+    /// ![􀿸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/capsule.portrait.righthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1533,7 +1522,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var capsulePortraitRighthalfFilled: SFSymbol { .init("capsule.portrait.righthalf.filled") }
 
-    /// ![􀿹](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/capsule.portrait.tophalf.filled.png)\
+    /// ![􀿹](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/capsule.portrait.tophalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1541,7 +1530,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var capsulePortraitTophalfFilled: SFSymbol { .init("capsule.portrait.tophalf.filled") }
 
-    /// ![􀿴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/capsule.righthalf.filled.png)\
+    /// ![􀿴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/capsule.righthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1549,7 +1538,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var capsuleRighthalfFilled: SFSymbol { .init("capsule.righthalf.filled") }
 
-    /// ![􀿵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/capsule.tophalf.filled.png)\
+    /// ![􀿵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/capsule.tophalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1557,7 +1546,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var capsuleTophalfFilled: SFSymbol { .init("capsule.tophalf.filled") }
 
-    /// ![􀸌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/car.ferry.png)\
+    /// ![􀸌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/car.ferry.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1565,7 +1554,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var carFerry: SFSymbol { .init("car.ferry") }
 
-    /// ![􀸍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/car.ferry.fill.png)\
+    /// ![􀸍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/car.ferry.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1573,46 +1562,44 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var carFerryFill: SFSymbol { .init("car.ferry.fill") }
 
-    /// ![􀑁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/chart.line.uptrend.xyaxis.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var chartLineUptrendXyaxis: SFSymbol { .init("chart.line.uptrend.xyaxis") }
-
-    /// ![􀴚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/chart.line.uptrend.xyaxis.circle.png)\
+    /// ![􀑁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/chart.line.uptrend.xyaxis.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var chartLineUptrendXyaxis: SFSymbol { .init("chart.line.uptrend.xyaxis") }
+
+    /// ![􀴚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/chart.line.uptrend.xyaxis.circle.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var chartLineUptrendXyaxisCircle: SFSymbol { .init("chart.line.uptrend.xyaxis.circle") }
 
-    /// ![􀴛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/chart.line.uptrend.xyaxis.circle.fill.png)\
+    /// ![􀴛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/chart.line.uptrend.xyaxis.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var chartLineUptrendXyaxisCircleFill: SFSymbol { .init("chart.line.uptrend.xyaxis.circle.fill") }
 
-    /// ![􁂥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/chart.xyaxis.line.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􁂥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/chart.xyaxis.line.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var chartXyaxisLine: SFSymbol { .init("chart.xyaxis.line") }
 
-    /// ![􀵔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/checkerboard.shield.png)\
+    /// ![􀵔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/checkerboard.shield.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1625,7 +1612,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var checkerboardShield: SFSymbol { .init("checkerboard.shield") }
 
-    /// ![􀷾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/checklist.png)\
+    /// ![􀷾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/checklist.png)\
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -1634,11 +1621,11 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var checklist: SymbolWith1Localization<Rtl> { .init("checklist") }
 
-    /// ![􀿋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/checkmark.bubble.png)\
+    /// ![􀿋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/checkmark.bubble.png)\
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -1647,12 +1634,12 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var checkmarkBubble: SymbolWith1Localization<Rtl_v5> { .init("checkmark.bubble") }
 
-    /// ![􀿌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/checkmark.bubble.fill.png)\
-    /// 2 Localizations, 3 Layersets
+    /// ![􀿌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/checkmark.bubble.fill.png)\
+    /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Left-to-Right
@@ -1660,42 +1647,41 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var checkmarkBubbleFill: SymbolWith1Localization<Rtl_v5> { .init("checkmark.bubble.fill") }
 
-    /// ![􁃎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/checkmark.circle.trianglebadge.exclamationmark.png)\
+    /// ![􁃎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/checkmark.circle.trianglebadge.exclamationmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var checkmarkCircleTrianglebadgeExclamationmark: SFSymbol { .init("checkmark.circle.trianglebadge.exclamationmark") }
 
-    /// ![􁁚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/checkmark.diamond.png)\
+    /// ![􁁚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/checkmark.diamond.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var checkmarkDiamond: SFSymbol { .init("checkmark.diamond") }
 
-    /// ![􁁛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/checkmark.diamond.fill.png)\
+    /// ![􁁛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/checkmark.diamond.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var checkmarkDiamondFill: SFSymbol { .init("checkmark.diamond.fill") }
 
-    /// ![􀙚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/chevron.left.forwardslash.chevron.right.png)\
+    /// ![􀙚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/chevron.left.forwardslash.chevron.right.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1703,16 +1689,16 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var chevronLeftForwardslashChevronRight: SFSymbol { .init("chevron.left.forwardslash.chevron.right") }
 
-    /// ![􀠌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.and.line.horizontal.png)\
+    /// ![􀠌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.and.line.horizontal.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Hierarchical/Palette (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     @_alwaysEmitIntoClient
     static var circleAndLineHorizontal: SFSymbol { .init("circle.and.line.horizontal") }
 
-    /// ![􀞍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.and.line.horizontal.fill.png)\
+    /// ![􀞍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.and.line.horizontal.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1720,7 +1706,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var circleAndLineHorizontalFill: SFSymbol { .init("circle.and.line.horizontal.fill") }
 
-    /// ![􀪖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.bottomhalf.filled.png)\
+    /// ![􀪖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.bottomhalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1728,12 +1714,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var circleBottomhalfFilled: SFSymbol { .init("circle.bottomhalf.filled") }
 
-    /// ![􀧒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.dashed.inset.filled.png)\
+    /// ![􀧒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.dashed.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledCircleDashed")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledCircleDashed")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledCircleDashed")
@@ -1742,7 +1728,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var circleDashedInsetFilled: SFSymbol { .init("circle.dashed.inset.filled") }
 
-    /// ![􁅃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.dotted.png)\
+    /// ![􁅃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.dotted.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1750,7 +1736,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var circleDotted: SFSymbol { .init("circle.dotted") }
 
-    /// ![􀺇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.grid.2x1.png)\
+    /// ![􀺇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.grid.2x1.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1758,7 +1744,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var circleGrid2x1: SFSymbol { .init("circle.grid.2x1") }
 
-    /// ![􀺈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.grid.2x1.fill.png)\
+    /// ![􀺈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.grid.2x1.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1766,80 +1752,80 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var circleGrid2x1Fill: SFSymbol { .init("circle.grid.2x1.fill") }
 
-    /// ![􀺉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.grid.2x1.left.filled.png)\
+    /// ![􀺉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.grid.2x1.left.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var circleGrid2x1LeftFilled: SFSymbol { .init("circle.grid.2x1.left.filled") }
 
-    /// ![􀺊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.grid.2x1.right.filled.png)\
+    /// ![􀺊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.grid.2x1.right.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var circleGrid2x1RightFilled: SFSymbol { .init("circle.grid.2x1.right.filled") }
 
-    /// ![􀺲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.grid.3x3.circle.png)\
+    /// ![􀺲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.grid.3x3.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var circleGrid3x3Circle: SFSymbol { .init("circle.grid.3x3.circle") }
 
-    /// ![􀺳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.grid.3x3.circle.fill.png)\
+    /// ![􀺳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.grid.3x3.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var circleGrid3x3CircleFill: SFSymbol { .init("circle.grid.3x3.circle.fill") }
 
-    /// ![􀩇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.grid.cross.down.filled.png)\
+    /// ![􀩇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.grid.cross.down.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var circleGridCrossDownFilled: SFSymbol { .init("circle.grid.cross.down.filled") }
 
-    /// ![􀩄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.grid.cross.left.filled.png)\
+    /// ![􀩄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.grid.cross.left.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var circleGridCrossLeftFilled: SFSymbol { .init("circle.grid.cross.left.filled") }
 
-    /// ![􀩆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.grid.cross.right.filled.png)\
+    /// ![􀩆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.grid.cross.right.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var circleGridCrossRightFilled: SFSymbol { .init("circle.grid.cross.right.filled") }
 
-    /// ![􀩅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.grid.cross.up.filled.png)\
+    /// ![􀩅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.grid.cross.up.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var circleGridCrossUpFilled: SFSymbol { .init("circle.grid.cross.up.filled") }
 
-    /// ![􀙢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.hexagongrid.png)\
+    /// ![􀙢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.hexagongrid.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1847,26 +1833,26 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var circleHexagongrid: SFSymbol { .init("circle.hexagongrid") }
 
-    /// ![􀷙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.hexagongrid.circle.png)\
+    /// ![􀷙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.hexagongrid.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var circleHexagongridCircle: SFSymbol { .init("circle.hexagongrid.circle") }
 
-    /// ![􀷚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.hexagongrid.circle.fill.png)\
+    /// ![􀷚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.hexagongrid.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var circleHexagongridCircleFill: SFSymbol { .init("circle.hexagongrid.circle.fill") }
 
-    /// ![􀙣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.hexagongrid.fill.png)\
+    /// ![􀙣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.hexagongrid.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -1875,7 +1861,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var circleHexagongridFill: SFSymbol { .init("circle.hexagongrid.fill") }
 
-    /// ![􀬎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.hexagonpath.png)\
+    /// ![􀬎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.hexagonpath.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1883,7 +1869,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var circleHexagonpath: SFSymbol { .init("circle.hexagonpath") }
 
-    /// ![􀬏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.hexagonpath.fill.png)\
+    /// ![􀬏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.hexagonpath.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1891,12 +1877,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var circleHexagonpathFill: SFSymbol { .init("circle.hexagonpath.fill") }
 
-    /// ![􀝜](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.inset.filled.png)\
+    /// ![􀝜](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledCircle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledCircle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledCircle")
@@ -1905,7 +1891,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var circleInsetFilled: SFSymbol { .init("circle.inset.filled") }
 
-    /// ![􀀂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.lefthalf.filled.png)\
+    /// ![􀀂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.lefthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1913,7 +1899,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var circleLefthalfFilled: SFSymbol { .init("circle.lefthalf.filled") }
 
-    /// ![􀀃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.righthalf.filled.png)\
+    /// ![􀀃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.righthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1921,35 +1907,35 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var circleRighthalfFilled: SFSymbol { .init("circle.righthalf.filled") }
 
-    /// ![􀻃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.slash.png)\
+    /// ![􀻃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.slash.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var circleSlash: SFSymbol { .init("circle.slash") }
 
-    /// ![􀻄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.slash.fill.png)\
+    /// ![􀻄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.slash.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var circleSlashFill: SFSymbol { .init("circle.slash.fill") }
 
-    /// ![􀧻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.square.fill.png)\
+    /// ![􀧻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var circleSquareFill: SFSymbol { .init("circle.square.fill") }
 
-    /// ![􀪗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/circle.tophalf.filled.png)\
+    /// ![􀪗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/circle.tophalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -1957,66 +1943,66 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var circleTophalfFilled: SFSymbol { .init("circle.tophalf.filled") }
 
-    /// ![􀹴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/clock.badge.checkmark.png)\
+    /// ![􀹴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/clock.badge.checkmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var clockBadgeCheckmark: SFSymbol { .init("clock.badge.checkmark") }
 
-    /// ![􀹵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/clock.badge.checkmark.fill.png)\
+    /// ![􀹵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/clock.badge.checkmark.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var clockBadgeCheckmarkFill: SFSymbol { .init("clock.badge.checkmark.fill") }
 
-    /// ![􀹶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/clock.badge.exclamationmark.png)\
+    /// ![􀹶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/clock.badge.exclamationmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var clockBadgeExclamationmark: SFSymbol { .init("clock.badge.exclamationmark") }
 
-    /// ![􀹷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/clock.badge.exclamationmark.fill.png)\
+    /// ![􀹷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/clock.badge.exclamationmark.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var clockBadgeExclamationmarkFill: SFSymbol { .init("clock.badge.exclamationmark.fill") }
 
-    /// ![􁆸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/clock.circle.png)\
+    /// ![􁆸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/clock.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var clockCircle: SFSymbol { .init("clock.circle") }
 
-    /// ![􁆹](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/clock.circle.fill.png)\
+    /// ![􁆹](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/clock.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var clockCircleFill: SFSymbol { .init("clock.circle.fill") }
 
-    /// ![􀺣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/computermouse.png)\
+    /// ![􀺣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/computermouse.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2024,7 +2010,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var computermouse: SFSymbol { .init("computermouse") }
 
-    /// ![􀺤](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/computermouse.fill.png)\
+    /// ![􀺤](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/computermouse.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2032,7 +2018,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var computermouseFill: SFSymbol { .init("computermouse.fill") }
 
-    /// ![􀧓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/cpu.fill.png)\
+    /// ![􀧓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/cpu.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2040,12 +2026,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var cpuFill: SFSymbol { .init("cpu.fill") }
 
-    /// ![􁂨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/creditcard.and.123.png)\
+    /// ![􁂨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/creditcard.and.123.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 26.0, renamed: "creditcardAndNumbers")
     @available(macOS, introduced: 12.0, deprecated: 26.0, renamed: "creditcardAndNumbers")
     @available(tvOS, introduced: 15.0, deprecated: 26.0, renamed: "creditcardAndNumbers")
@@ -2054,37 +2040,37 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var creditcardAnd123: SFSymbol { .init("creditcard.and.123") }
 
-    /// ![􁄭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/creditcard.trianglebadge.exclamationmark.png)\
+    /// ![􁄭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/creditcard.trianglebadge.exclamationmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var creditcardTrianglebadgeExclamationmark: SFSymbol { .init("creditcard.trianglebadge.exclamationmark") }
 
-    /// ![􀼘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/cross.vial.png)\
+    /// ![􀼘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/cross.vial.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var crossVial: SFSymbol { .init("cross.vial") }
 
-    /// ![􀼙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/cross.vial.fill.png)\
+    /// ![􀼙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/cross.vial.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var crossVialFill: SFSymbol { .init("cross.vial.fill") }
 
-    /// ![􀸘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/cup.and.saucer.png)\
+    /// ![􀸘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/cup.and.saucer.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2092,7 +2078,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var cupAndSaucer: SFSymbol { .init("cup.and.saucer") }
 
-    /// ![􀸙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/cup.and.saucer.fill.png)\
+    /// ![􀸙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/cup.and.saucer.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2100,66 +2086,66 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var cupAndSaucerFill: SFSymbol { .init("cup.and.saucer.fill") }
 
-    /// ![􁂈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/delete.backward.png)\
+    /// ![􁂈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/delete.backward.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var deleteBackward: SFSymbol { .init("delete.backward") }
 
-    /// ![􁂉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/delete.backward.fill.png)\
+    /// ![􁂉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/delete.backward.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var deleteBackwardFill: SFSymbol { .init("delete.backward.fill") }
 
-    /// ![􁂒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/delete.forward.png)\
+    /// ![􁂒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/delete.forward.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var deleteForward: SFSymbol { .init("delete.forward") }
 
-    /// ![􁂓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/delete.forward.fill.png)\
+    /// ![􁂓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/delete.forward.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var deleteForwardFill: SFSymbol { .init("delete.forward.fill") }
 
-    /// ![􀶾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/desktopcomputer.and.arrow.down.png)\
+    /// ![􀶾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/desktopcomputer.and.arrow.down.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var desktopcomputerAndArrowDown: SFSymbol { .init("desktopcomputer.and.arrow.down") }
 
-    /// ![􁃃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/desktopcomputer.trianglebadge.exclamationmark.png)\
+    /// ![􁃃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/desktopcomputer.trianglebadge.exclamationmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var desktopcomputerTrianglebadgeExclamationmark: SFSymbol { .init("desktopcomputer.trianglebadge.exclamationmark") }
 
-    /// ![􁀆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/diamond.bottomhalf.filled.png)\
+    /// ![􁀆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/diamond.bottomhalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2167,31 +2153,31 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var diamondBottomhalfFilled: SFSymbol { .init("diamond.bottomhalf.filled") }
 
-    /// ![􁇡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/diamond.circle.png)\
+    /// ![􁇡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/diamond.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var diamondCircle: SFSymbol { .init("diamond.circle") }
 
-    /// ![􁇢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/diamond.circle.fill.png)\
+    /// ![􁇢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/diamond.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var diamondCircleFill: SFSymbol { .init("diamond.circle.fill") }
 
-    /// ![􀾗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/diamond.inset.filled.png)\
+    /// ![􀾗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/diamond.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledDiamond")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledDiamond")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledDiamond")
@@ -2200,7 +2186,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var diamondInsetFilled: SFSymbol { .init("diamond.inset.filled") }
 
-    /// ![􁀃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/diamond.lefthalf.filled.png)\
+    /// ![􁀃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/diamond.lefthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2208,7 +2194,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var diamondLefthalfFilled: SFSymbol { .init("diamond.lefthalf.filled") }
 
-    /// ![􁀄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/diamond.righthalf.filled.png)\
+    /// ![􁀄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/diamond.righthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2216,7 +2202,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var diamondRighthalfFilled: SFSymbol { .init("diamond.righthalf.filled") }
 
-    /// ![􁀅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/diamond.tophalf.filled.png)\
+    /// ![􁀅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/diamond.tophalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2224,168 +2210,166 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var diamondTophalfFilled: SFSymbol { .init("diamond.tophalf.filled") }
 
-    /// ![􀺴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/dice.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀺴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/dice.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var dice: SFSymbol { .init("dice") }
 
-    /// ![􀺵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/dice.fill.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀺵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/dice.fill.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var diceFill: SFSymbol { .init("dice.fill") }
 
-    /// ![􀻖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/digitalcrown.arrow.clockwise.png)\
+    /// ![􀻖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/digitalcrown.arrow.clockwise.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     @_alwaysEmitIntoClient
     static var digitalcrownArrowClockwise: SFSymbol { .init("digitalcrown.arrow.clockwise") }
 
-    /// ![􀻗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/digitalcrown.arrow.clockwise.fill.png)\
+    /// ![􀻗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/digitalcrown.arrow.clockwise.fill.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     @_alwaysEmitIntoClient
     static var digitalcrownArrowClockwiseFill: SFSymbol { .init("digitalcrown.arrow.clockwise.fill") }
 
-    /// ![􀻘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/digitalcrown.arrow.counterclockwise.png)\
+    /// ![􀻘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/digitalcrown.arrow.counterclockwise.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     @_alwaysEmitIntoClient
     static var digitalcrownArrowCounterclockwise: SFSymbol { .init("digitalcrown.arrow.counterclockwise") }
 
-    /// ![􀻙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/digitalcrown.arrow.counterclockwise.fill.png)\
+    /// ![􀻙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/digitalcrown.arrow.counterclockwise.fill.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     @_alwaysEmitIntoClient
     static var digitalcrownArrowCounterclockwiseFill: SFSymbol { .init("digitalcrown.arrow.counterclockwise.fill") }
 
-    /// ![􀻱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/digitalcrown.horizontal.arrow.clockwise.png)\
+    /// ![􀻱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/digitalcrown.horizontal.arrow.clockwise.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     @_alwaysEmitIntoClient
     static var digitalcrownHorizontalArrowClockwise: SFSymbol { .init("digitalcrown.horizontal.arrow.clockwise") }
 
-    /// ![􀻲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/digitalcrown.horizontal.arrow.clockwise.fill.png)\
+    /// ![􀻲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/digitalcrown.horizontal.arrow.clockwise.fill.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     @_alwaysEmitIntoClient
     static var digitalcrownHorizontalArrowClockwiseFill: SFSymbol { .init("digitalcrown.horizontal.arrow.clockwise.fill") }
 
-    /// ![􀻳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/digitalcrown.horizontal.arrow.counterclockwise.png)\
+    /// ![􀻳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/digitalcrown.horizontal.arrow.counterclockwise.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     @_alwaysEmitIntoClient
     static var digitalcrownHorizontalArrowCounterclockwise: SFSymbol { .init("digitalcrown.horizontal.arrow.counterclockwise") }
 
-    /// ![􀻴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/digitalcrown.horizontal.arrow.counterclockwise.fill.png)\
+    /// ![􀻴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/digitalcrown.horizontal.arrow.counterclockwise.fill.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     @_alwaysEmitIntoClient
     static var digitalcrownHorizontalArrowCounterclockwiseFill: SFSymbol { .init("digitalcrown.horizontal.arrow.counterclockwise.fill") }
 
-    /// ![􀴣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/digitalcrown.horizontal.press.png)\
+    /// ![􀴣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/digitalcrown.horizontal.press.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     @_alwaysEmitIntoClient
     static var digitalcrownHorizontalPress: SFSymbol { .init("digitalcrown.horizontal.press") }
 
-    /// ![􀴤](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/digitalcrown.horizontal.press.fill.png)\
+    /// ![􀴤](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/digitalcrown.horizontal.press.fill.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     @_alwaysEmitIntoClient
     static var digitalcrownHorizontalPressFill: SFSymbol { .init("digitalcrown.horizontal.press.fill") }
 
-    /// ![􀴡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/digitalcrown.press.png)\
+    /// ![􀴡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/digitalcrown.press.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     @_alwaysEmitIntoClient
     static var digitalcrownPress: SFSymbol { .init("digitalcrown.press") }
 
-    /// ![􀴢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/digitalcrown.press.fill.png)\
+    /// ![􀴢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/digitalcrown.press.fill.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     @_alwaysEmitIntoClient
     static var digitalcrownPressFill: SFSymbol { .init("digitalcrown.press.fill") }
 
-    /// ![􀶽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/display.and.arrow.down.png)\
+    /// ![􀶽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/display.and.arrow.down.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var displayAndArrowDown: SFSymbol { .init("display.and.arrow.down") }
 
-    /// ![􀩽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/doc.text.image.png)\
+    /// ![􀩽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/doc.text.image.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2398,7 +2382,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var docTextImage: SFSymbol { .init("doc.text.image") }
 
-    /// ![􀩾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/doc.text.image.fill.png)\
+    /// ![􀩾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/doc.text.image.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2412,12 +2396,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var docTextImageFill: SFSymbol { .init("doc.text.image.fill") }
 
-    /// ![􀎾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/doc.viewfinder.png)\
+    /// ![􀎾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/doc.viewfinder.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "documentViewfinder")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "documentViewfinder")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "documentViewfinder")
@@ -2426,12 +2410,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var docViewfinder: SFSymbol { .init("doc.viewfinder") }
 
-    /// ![􀡢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/doc.viewfinder.fill.png)\
+    /// ![􀡢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/doc.viewfinder.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "documentViewfinderFill")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "documentViewfinderFill")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "documentViewfinderFill")
@@ -2440,105 +2424,102 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var docViewfinderFill: SFSymbol { .init("doc.viewfinder.fill") }
 
-    /// ![􀺪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/dot.circle.and.hand.point.up.left.fill.png)\
+    /// ![􀺪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/dot.circle.and.hand.point.up.left.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var dotCircleAndHandPointUpLeftFill: SFSymbol { .init("dot.circle.and.hand.point.up.left.fill") }
 
-    /// ![􁇞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/dot.circle.viewfinder.png)\
+    /// ![􁇞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/dot.circle.viewfinder.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var dotCircleViewfinder: SFSymbol { .init("dot.circle.viewfinder") }
 
-    /// ![􀼗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/dot.radiowaves.up.forward.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀼗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/dot.radiowaves.up.forward.png)\
+    /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var dotRadiowavesUpForward: SFSymbol { .init("dot.radiowaves.up.forward") }
 
-    /// ![􁇝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/dot.viewfinder.png)\
+    /// ![􁇝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/dot.viewfinder.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var dotViewfinder: SFSymbol { .init("dot.viewfinder") }
 
-    /// ![􀨀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/dpad.down.filled.png)\
+    /// ![􀨀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/dpad.down.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var dpadDownFilled: SFSymbol { .init("dpad.down.filled") }
 
-    /// ![􀧽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/dpad.left.filled.png)\
+    /// ![􀧽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/dpad.left.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var dpadLeftFilled: SFSymbol { .init("dpad.left.filled") }
 
-    /// ![􀧿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/dpad.right.filled.png)\
+    /// ![􀧿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/dpad.right.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var dpadRightFilled: SFSymbol { .init("dpad.right.filled") }
 
-    /// ![􀧾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/dpad.up.filled.png)\
+    /// ![􀧾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/dpad.up.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var dpadUpFilled: SFSymbol { .init("dpad.up.filled") }
 
-    /// ![􁇊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/drop.circle.png)\
+    /// ![􁇊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/drop.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var dropCircle: SFSymbol { .init("drop.circle") }
 
-    /// ![􁇋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/drop.circle.fill.png)\
+    /// ![􁇋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/drop.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var dropCircleFill: SFSymbol { .init("drop.circle.fill") }
 
-    /// ![􀵣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ear.and.waveform.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀵣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/ear.and.waveform.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "earBadgeWaveform")
     @available(macOS, introduced: 12.0, deprecated: 14.0, renamed: "earBadgeWaveform")
     @available(tvOS, introduced: 15.0, deprecated: 17.0, renamed: "earBadgeWaveform")
@@ -2547,16 +2528,16 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var earAndWaveform: SFSymbol { .init("ear.and.waveform") }
 
-    /// ![􀸸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/earbuds.png)\
+    /// ![􀸸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/earbuds.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var earbuds: SFSymbol { .init("earbuds") }
 
-    /// ![􀹥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/earbuds.case.png)\
+    /// ![􀹥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/earbuds.case.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2564,7 +2545,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var earbudsCase: SFSymbol { .init("earbuds.case") }
 
-    /// ![􀹦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/earbuds.case.fill.png)\
+    /// ![􀹦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/earbuds.case.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2572,152 +2553,149 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var earbudsCaseFill: SFSymbol { .init("earbuds.case.fill") }
 
-    /// ![􁇵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ellipsis.curlybraces.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􁇵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/ellipsis.curlybraces.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var ellipsisCurlybraces: SFSymbol { .init("ellipsis.curlybraces") }
 
-    /// ![􁁟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ellipsis.vertical.bubble.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􁁟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/ellipsis.vertical.bubble.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var ellipsisVerticalBubble: SFSymbol { .init("ellipsis.vertical.bubble") }
 
-    /// ![􁁠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ellipsis.vertical.bubble.fill.png)\
+    /// ![􁁠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/ellipsis.vertical.bubble.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var ellipsisVerticalBubbleFill: SFSymbol { .init("ellipsis.vertical.bubble.fill") }
 
-    /// ![􀫙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/envelope.badge.shield.half.filled.png)\
+    /// ![􀫙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/envelope.badge.shield.half.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var envelopeBadgeShieldHalfFilled: SFSymbol { .init("envelope.badge.shield.half.filled") }
 
-    /// ![􀫚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/envelope.badge.shield.half.filled.fill.png)\
+    /// ![􀫚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/envelope.badge.shield.half.filled.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var envelopeBadgeShieldHalfFilledFill: SFSymbol { .init("envelope.badge.shield.half.filled.fill") }
 
-    /// ![􁆶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/exclamationmark.bubble.circle.png)\
+    /// ![􁆶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/exclamationmark.bubble.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var exclamationmarkBubbleCircle: SFSymbol { .init("exclamationmark.bubble.circle") }
 
-    /// ![􁆷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/exclamationmark.bubble.circle.fill.png)\
+    /// ![􁆷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/exclamationmark.bubble.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var exclamationmarkBubbleCircleFill: SFSymbol { .init("exclamationmark.bubble.circle.fill") }
 
-    /// ![􀜁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/eye.slash.circle.png)\
+    /// ![􀜁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/eye.slash.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var eyeSlashCircle: SFSymbol { .init("eye.slash.circle") }
 
-    /// ![􀜂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/eye.slash.circle.fill.png)\
+    /// ![􀜂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/eye.slash.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var eyeSlashCircleFill: SFSymbol { .init("eye.slash.circle.fill") }
 
-    /// ![􀽇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/eye.square.png)\
+    /// ![􀽇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/eye.square.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var eyeSquare: SFSymbol { .init("eye.square") }
 
-    /// ![􀽈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/eye.square.fill.png)\
+    /// ![􀽈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/eye.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var eyeSquareFill: SFSymbol { .init("eye.square.fill") }
 
-    /// ![􁂔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/eye.trianglebadge.exclamationmark.png)\
+    /// ![􁂔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/eye.trianglebadge.exclamationmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var eyeTrianglebadgeExclamationmark: SFSymbol { .init("eye.trianglebadge.exclamationmark") }
 
-    /// ![􁂕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/eye.trianglebadge.exclamationmark.fill.png)\
+    /// ![􁂕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/eye.trianglebadge.exclamationmark.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var eyeTrianglebadgeExclamationmarkFill: SFSymbol { .init("eye.trianglebadge.exclamationmark.fill") }
 
-    /// ![􁃌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/facemask.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􁃌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/facemask.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var facemask: SFSymbol { .init("facemask") }
 
-    /// ![􁃍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/facemask.fill.png)\
+    /// ![􁃍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/facemask.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var facemaskFill: SFSymbol { .init("facemask.fill") }
 
-    /// ![􁁋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/fanblades.png)\
+    /// ![􁁋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/fanblades.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2730,7 +2708,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var fanblades: SFSymbol { .init("fanblades") }
 
-    /// ![􁁌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/fanblades.fill.png)\
+    /// ![􁁌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/fanblades.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2743,7 +2721,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var fanbladesFill: SFSymbol { .init("fanblades.fill") }
 
-    /// ![􀸅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ferry.png)\
+    /// ![􀸅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/ferry.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2751,7 +2729,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var ferry: SFSymbol { .init("ferry") }
 
-    /// ![􀸆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ferry.fill.png)\
+    /// ![􀸆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/ferry.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2759,7 +2737,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var ferryFill: SFSymbol { .init("ferry.fill") }
 
-    /// ![􀥢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/fibrechannel.png)\
+    /// ![􀥢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/fibrechannel.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2767,7 +2745,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var fibrechannel: SFSymbol { .init("fibrechannel") }
 
-    /// ![􁈑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/figure.roll.png)\
+    /// ![􁈑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/figure.roll.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2775,119 +2753,119 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var figureRoll: SFSymbol { .init("figure.roll") }
 
-    /// ![􀸊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/film.circle.png)\
+    /// ![􀸊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/film.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var filmCircle: SFSymbol { .init("film.circle") }
 
-    /// ![􀸋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/film.circle.fill.png)\
+    /// ![􀸋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/film.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var filmCircleFill: SFSymbol { .init("film.circle.fill") }
 
-    /// ![􀶶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/flag.2.crossed.png)\
+    /// ![􀶶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/flag.2.crossed.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var flag2Crossed: SFSymbol { .init("flag.2.crossed") }
 
-    /// ![􀶷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/flag.2.crossed.fill.png)\
+    /// ![􀶷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/flag.2.crossed.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var flag2CrossedFill: SFSymbol { .init("flag.2.crossed.fill") }
 
-    /// ![􁁜](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/flag.and.flag.filled.crossed.png)\
+    /// ![􁁜](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/flag.and.flag.filled.crossed.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var flagAndFlagFilledCrossed: SFSymbol { .init("flag.and.flag.filled.crossed") }
 
-    /// ![􀶸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/flag.filled.and.flag.crossed.png)\
+    /// ![􀶸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/flag.filled.and.flag.crossed.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var flagFilledAndFlagCrossed: SFSymbol { .init("flag.filled.and.flag.crossed") }
 
-    /// ![􀼳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/flag.square.png)\
+    /// ![􀼳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/flag.square.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var flagSquare: SFSymbol { .init("flag.square") }
 
-    /// ![􀼴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/flag.square.fill.png)\
+    /// ![􀼴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/flag.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var flagSquareFill: SFSymbol { .init("flag.square.fill") }
 
-    /// ![􁇒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/flame.circle.png)\
+    /// ![􁇒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/flame.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var flameCircle: SFSymbol { .init("flame.circle") }
 
-    /// ![􁇓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/flame.circle.fill.png)\
+    /// ![􁇓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/flame.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var flameCircleFill: SFSymbol { .init("flame.circle.fill") }
 
-    /// ![􀣍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/folder.badge.gearshape.png)\
+    /// ![􀣍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/folder.badge.gearshape.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var folderBadgeGearshape: SFSymbol { .init("folder.badge.gearshape") }
 
-    /// ![􀣎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/folder.fill.badge.gearshape.png)\
+    /// ![􀣎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/folder.fill.badge.gearshape.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var folderFillBadgeGearshape: SFSymbol { .init("folder.fill.badge.gearshape") }
 
-    /// ![􀸩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/fork.knife.png)\
+    /// ![􀸩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/fork.knife.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -2896,46 +2874,46 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var forkKnife: SFSymbol { .init("fork.knife") }
 
-    /// ![􀸹](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/fork.knife.circle.png)\
+    /// ![􀸹](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/fork.knife.circle.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var forkKnifeCircle: SFSymbol { .init("fork.knife.circle") }
 
-    /// ![􀸺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/fork.knife.circle.fill.png)\
+    /// ![􀸺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/fork.knife.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var forkKnifeCircleFill: SFSymbol { .init("fork.knife.circle.fill") }
 
-    /// ![􀺅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/forward.circle.png)\
+    /// ![􀺅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/forward.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var forwardCircle: SFSymbol { .init("forward.circle") }
 
-    /// ![􀺆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/forward.circle.fill.png)\
+    /// ![􀺆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/forward.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var forwardCircleFill: SFSymbol { .init("forward.circle.fill") }
 
-    /// ![􀵞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/fuelpump.png)\
+    /// ![􀵞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/fuelpump.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2943,26 +2921,26 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var fuelpump: SFSymbol { .init("fuelpump") }
 
-    /// ![􀵠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/fuelpump.circle.png)\
+    /// ![􀵠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/fuelpump.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var fuelpumpCircle: SFSymbol { .init("fuelpump.circle") }
 
-    /// ![􀵡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/fuelpump.circle.fill.png)\
+    /// ![􀵡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/fuelpump.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var fuelpumpCircleFill: SFSymbol { .init("fuelpump.circle.fill") }
 
-    /// ![􀵟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/fuelpump.fill.png)\
+    /// ![􀵟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/fuelpump.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -2970,76 +2948,76 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var fuelpumpFill: SFSymbol { .init("fuelpump.fill") }
 
-    /// ![􁅦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/gear.badge.checkmark.png)\
+    /// ![􁅦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/gear.badge.checkmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 15.2, macOS 12.1, tvOS 15.2, watchOS 8.3)
     @_alwaysEmitIntoClient
     static var gearBadgeCheckmark: SFSymbol { .init("gear.badge.checkmark") }
 
-    /// ![􁅨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/gear.badge.questionmark.png)\
+    /// ![􁅨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/gear.badge.questionmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var gearBadgeQuestionmark: SFSymbol { .init("gear.badge.questionmark") }
 
-    /// ![􁅧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/gear.badge.xmark.png)\
+    /// ![􁅧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/gear.badge.xmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var gearBadgeXmark: SFSymbol { .init("gear.badge.xmark") }
 
-    /// ![􀺺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/gear.circle.png)\
+    /// ![􀺺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/gear.circle.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var gearCircle: SFSymbol { .init("gear.circle") }
 
-    /// ![􀺻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/gear.circle.fill.png)\
+    /// ![􀺻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/gear.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var gearCircleFill: SFSymbol { .init("gear.circle.fill") }
 
-    /// ![􀺼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/gearshape.circle.png)\
+    /// ![􀺼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/gearshape.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var gearshapeCircle: SFSymbol { .init("gearshape.circle") }
 
-    /// ![􀺽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/gearshape.circle.fill.png)\
+    /// ![􀺽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/gearshape.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var gearshapeCircleFill: SFSymbol { .init("gearshape.circle.fill") }
 
-    /// ![􀵱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/globe.americas.png)\
+    /// ![􀵱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/globe.americas.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3047,7 +3025,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var globeAmericas: SFSymbol { .init("globe.americas") }
 
-    /// ![􀵲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/globe.americas.fill.png)\
+    /// ![􀵲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/globe.americas.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3055,7 +3033,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var globeAmericasFill: SFSymbol { .init("globe.americas.fill") }
 
-    /// ![􀵵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/globe.asia.australia.png)\
+    /// ![􀵵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/globe.asia.australia.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3063,7 +3041,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var globeAsiaAustralia: SFSymbol { .init("globe.asia.australia") }
 
-    /// ![􀵶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/globe.asia.australia.fill.png)\
+    /// ![􀵶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/globe.asia.australia.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3071,17 +3049,17 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var globeAsiaAustraliaFill: SFSymbol { .init("globe.asia.australia.fill") }
 
-    /// ![􁅍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/globe.badge.chevron.backward.png)\
+    /// ![􁅍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/globe.badge.chevron.backward.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var globeBadgeChevronBackward: SFSymbol { .init("globe.badge.chevron.backward") }
 
-    /// ![􀵳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/globe.europe.africa.png)\
+    /// ![􀵳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/globe.europe.africa.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3089,7 +3067,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var globeEuropeAfrica: SFSymbol { .init("globe.europe.africa") }
 
-    /// ![􀵴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/globe.europe.africa.fill.png)\
+    /// ![􀵴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/globe.europe.africa.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3097,7 +3075,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var globeEuropeAfricaFill: SFSymbol { .init("globe.europe.africa.fill") }
 
-    /// ![􀶱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/gobackward.5.png)\
+    /// ![􀶱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/gobackward.5.png)\
     /// 3 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -3107,7 +3085,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "_5ArrowTriangleheadCounterclockwise")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "_5ArrowTriangleheadCounterclockwise")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "_5ArrowTriangleheadCounterclockwise")
@@ -3116,7 +3094,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var gobackward5: SymbolWith2Localizations<Ar, Hi> { .init("gobackward.5") }
 
-    /// ![􀶰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/goforward.5.png)\
+    /// ![􀶰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/goforward.5.png)\
     /// 3 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -3126,7 +3104,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "_5ArrowTriangleheadClockwise")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "_5ArrowTriangleheadClockwise")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "_5ArrowTriangleheadClockwise")
@@ -3135,202 +3113,199 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var goforward5: SymbolWith2Localizations<Ar, Hi> { .init("goforward.5") }
 
-    /// ![􁆾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/graduationcap.circle.png)\
+    /// ![􁆾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/graduationcap.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var graduationcapCircle: SFSymbol { .init("graduationcap.circle") }
 
-    /// ![􁆿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/graduationcap.circle.fill.png)\
+    /// ![􁆿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/graduationcap.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var graduationcapCircleFill: SFSymbol { .init("graduationcap.circle.fill") }
 
-    /// ![􀭝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/h.square.on.square.fill.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var hSquareOnSquareFill: SFSymbol { .init("h.square.on.square.fill") }
-
-    /// ![􀷔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hammer.circle.png)\
+    /// ![􀭝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/h.square.on.square.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var hSquareOnSquareFill: SFSymbol { .init("h.square.on.square.fill") }
+
+    /// ![􀷔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hammer.circle.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var hammerCircle: SFSymbol { .init("hammer.circle") }
 
-    /// ![􀷕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hammer.circle.fill.png)\
+    /// ![􀷕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hammer.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var hammerCircleFill: SFSymbol { .init("hammer.circle.fill") }
 
-    /// ![􀷊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hand.raised.circle.png)\
+    /// ![􀷊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hand.raised.circle.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var handRaisedCircle: SFSymbol { .init("hand.raised.circle") }
 
-    /// ![􀷋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hand.raised.circle.fill.png)\
+    /// ![􀷋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hand.raised.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var handRaisedCircleFill: SFSymbol { .init("hand.raised.circle.fill") }
 
-    /// ![􀽓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hand.raised.square.png)\
+    /// ![􀽓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hand.raised.square.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var handRaisedSquare: SFSymbol { .init("hand.raised.square") }
 
-    /// ![􀽔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hand.raised.square.fill.png)\
+    /// ![􀽔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hand.raised.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var handRaisedSquareFill: SFSymbol { .init("hand.raised.square.fill") }
 
-    /// ![􀴨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hand.raised.square.on.square.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var handRaisedSquareOnSquare: SFSymbol { .init("hand.raised.square.on.square") }
-
-    /// ![􀴩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hand.raised.square.on.square.fill.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var handRaisedSquareOnSquareFill: SFSymbol { .init("hand.raised.square.on.square.fill") }
-
-    /// ![􀷟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hand.thumbsdown.circle.png)\
+    /// ![􀴨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hand.raised.square.on.square.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var handRaisedSquareOnSquare: SFSymbol { .init("hand.raised.square.on.square") }
+
+    /// ![􀴩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hand.raised.square.on.square.fill.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var handRaisedSquareOnSquareFill: SFSymbol { .init("hand.raised.square.on.square.fill") }
+
+    /// ![􀷟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hand.thumbsdown.circle.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var handThumbsdownCircle: SFSymbol { .init("hand.thumbsdown.circle") }
 
-    /// ![􀷠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hand.thumbsdown.circle.fill.png)\
+    /// ![􀷠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hand.thumbsdown.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var handThumbsdownCircleFill: SFSymbol { .init("hand.thumbsdown.circle.fill") }
 
-    /// ![􀷝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hand.thumbsup.circle.png)\
+    /// ![􀷝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hand.thumbsup.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var handThumbsupCircle: SFSymbol { .init("hand.thumbsup.circle") }
 
-    /// ![􀷞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hand.thumbsup.circle.fill.png)\
+    /// ![􀷞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hand.thumbsup.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var handThumbsupCircleFill: SFSymbol { .init("hand.thumbsup.circle.fill") }
 
-    /// ![􀪓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hearingdevice.ear.png)\
+    /// ![􀪓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hearingdevice.ear.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var hearingdeviceEar: SFSymbol { .init("hearingdevice.ear") }
 
-    /// ![􁃪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/heart.rectangle.png)\
+    /// ![􁃪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/heart.rectangle.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var heartRectangle: SFSymbol { .init("heart.rectangle") }
 
-    /// ![􁃫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/heart.rectangle.fill.png)\
+    /// ![􁃫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/heart.rectangle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var heartRectangleFill: SFSymbol { .init("heart.rectangle.fill") }
 
-    /// ![􀼱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/heart.square.png)\
+    /// ![􀼱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/heart.square.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var heartSquare: SFSymbol { .init("heart.square") }
 
-    /// ![􀼲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/heart.square.fill.png)\
+    /// ![􀼲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/heart.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var heartSquareFill: SFSymbol { .init("heart.square.fill") }
 
-    /// ![􁀿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hexagon.bottomhalf.filled.png)\
+    /// ![􁀿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hexagon.bottomhalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3338,7 +3313,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var hexagonBottomhalfFilled: SFSymbol { .init("hexagon.bottomhalf.filled") }
 
-    /// ![􁀉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hexagon.lefthalf.filled.png)\
+    /// ![􁀉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hexagon.lefthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3346,7 +3321,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var hexagonLefthalfFilled: SFSymbol { .init("hexagon.lefthalf.filled") }
 
-    /// ![􁀊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hexagon.righthalf.filled.png)\
+    /// ![􁀊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hexagon.righthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3354,7 +3329,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var hexagonRighthalfFilled: SFSymbol { .init("hexagon.righthalf.filled") }
 
-    /// ![􁀾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hexagon.tophalf.filled.png)\
+    /// ![􁀾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hexagon.tophalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3362,7 +3337,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var hexagonTophalfFilled: SFSymbol { .init("hexagon.tophalf.filled") }
 
-    /// ![􀻻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hifispeaker.and.appletv.png)\
+    /// ![􀻻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hifispeaker.and.appletv.png)\
     /// 2 Localizations, Single Layerset, ⚠️ Restricted
     ///
     /// Localizations:
@@ -3376,7 +3351,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var hifispeakerAndAppletv: SymbolWith1Localization<Rtl_v4> { .init("hifispeaker.and.appletv") }
 
-    /// ![􀻼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hifispeaker.and.appletv.fill.png)\
+    /// ![􀻼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hifispeaker.and.appletv.fill.png)\
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
@@ -3385,13 +3360,13 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
+    /// - Hierarchical/Palette (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     @_alwaysEmitIntoClient
     static var hifispeakerAndAppletvFill: SymbolWith1Localization<Rtl_v4> { .init("hifispeaker.and.appletv.fill") }
 
-    /// ![􀺌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepod.and.appletv.png)\
+    /// ![􀺌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/homepod.and.appletv.png)\
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
@@ -3400,13 +3375,13 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod and Apple TV.
     @_alwaysEmitIntoClient
     static var homepodAndAppletv: SymbolWith1Localization<Rtl_v4> { .init("homepod.and.appletv") }
 
-    /// ![􀺍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepod.and.appletv.fill.png)\
+    /// ![􀺍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/homepod.and.appletv.fill.png)\
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
@@ -3415,13 +3390,13 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod and Apple TV.
     @_alwaysEmitIntoClient
     static var homepodAndAppletvFill: SymbolWith1Localization<Rtl_v4> { .init("homepod.and.appletv.fill") }
 
-    /// ![􀻹](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepodmini.and.appletv.png)\
+    /// ![􀻹](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/homepodmini.and.appletv.png)\
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
@@ -3430,7 +3405,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod mini and Apple TV.
     @available(iOS, introduced: 15.0, deprecated: 26.0, renamed: "homepodMiniAndAppletv")
@@ -3441,7 +3416,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var homepodminiAndAppletv: SymbolWith1Localization<Rtl_v4> { .init("homepodmini.and.appletv") }
 
-    /// ![􀻺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/homepodmini.and.appletv.fill.png)\
+    /// ![􀻺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/homepodmini.and.appletv.fill.png)\
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
@@ -3450,7 +3425,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod mini and Apple TV.
     @available(iOS, introduced: 15.0, deprecated: 26.0, renamed: "homepodMiniAndAppletvFill")
@@ -3461,105 +3436,103 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var homepodminiAndAppletvFill: SymbolWith1Localization<Rtl_v4> { .init("homepodmini.and.appletv.fill") }
 
-    /// ![􀖈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hourglass.bottomhalf.filled.png)\
+    /// ![􀖈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hourglass.bottomhalf.filled.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var hourglassBottomhalfFilled: SFSymbol { .init("hourglass.bottomhalf.filled") }
 
-    /// ![􁇛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hourglass.circle.png)\
+    /// ![􁇛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hourglass.circle.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var hourglassCircle: SFSymbol { .init("hourglass.circle") }
 
-    /// ![􁇜](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hourglass.circle.fill.png)\
+    /// ![􁇜](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hourglass.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var hourglassCircleFill: SFSymbol { .init("hourglass.circle.fill") }
 
-    /// ![􀖉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hourglass.tophalf.filled.png)\
+    /// ![􀖉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hourglass.tophalf.filled.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var hourglassTophalfFilled: SFSymbol { .init("hourglass.tophalf.filled") }
 
-    /// ![􁃚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/humidity.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var humidity: SFSymbol { .init("humidity") }
-
-    /// ![􁃛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/humidity.fill.png)\
+    /// ![􁃚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/humidity.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var humidity: SFSymbol { .init("humidity") }
+
+    /// ![􁃛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/humidity.fill.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var humidityFill: SFSymbol { .init("humidity.fill") }
 
-    /// ![􀽑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/icloud.square.png)\
+    /// ![􀽑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/icloud.square.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
     @_alwaysEmitIntoClient
     static var icloudSquare: SFSymbol { .init("icloud.square") }
 
-    /// ![􀽒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/icloud.square.fill.png)\
+    /// ![􀽒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/icloud.square.fill.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
     @_alwaysEmitIntoClient
     static var icloudSquareFill: SFSymbol { .init("icloud.square.fill") }
 
-    /// ![􀷀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ipad.and.arrow.forward.png)\
+    /// ![􀷀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/ipad.and.arrow.forward.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var ipadAndArrowForward: SFSymbol { .init("ipad.and.arrow.forward") }
 
-    /// ![􁄟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ipad.and.iphone.png)\
-    /// Single Localization, 3 Layersets, ⚠️ Restricted
+    /// ![􁄟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/ipad.and.iphone.png)\
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad and iPhone.
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "ipadLandscapeAndIphone")
@@ -3570,21 +3543,21 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var ipadAndIphone: SFSymbol { .init("ipad.and.iphone") }
 
-    /// ![􁀲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ipad.rear.camera.png)\
+    /// ![􁀲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/ipad.rear.camera.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var ipadRearCamera: SFSymbol { .init("ipad.rear.camera") }
 
-    /// ![􀶼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.and.arrow.forward.png)\
+    /// ![􀶼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.and.arrow.forward.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "iphoneAndArrowForwardInward")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "iphoneAndArrowForwardInward")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "iphoneAndArrowForwardInward")
@@ -3593,35 +3566,35 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var iphoneAndArrowForward: SFSymbol { .init("iphone.and.arrow.forward") }
 
-    /// ![􁄩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.circle.png)\
+    /// ![􁄩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.circle.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     @_alwaysEmitIntoClient
     static var iphoneCircle: SFSymbol { .init("iphone.circle") }
 
-    /// ![􁄪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.circle.fill.png)\
+    /// ![􁄪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.circle.fill.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     @_alwaysEmitIntoClient
     static var iphoneCircleFill: SFSymbol { .init("iphone.circle.fill") }
 
-    /// ![􁄥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.homebutton.circle.png)\
+    /// ![􁄥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.homebutton.circle.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     @available(iOS, introduced: 15.0, deprecated: 16.1, renamed: "iphoneGen1Circle")
@@ -3632,12 +3605,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var iphoneHomebuttonCircle: SFSymbol { .init("iphone.homebutton.circle") }
 
-    /// ![􁄦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.homebutton.circle.fill.png)\
+    /// ![􁄦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.homebutton.circle.fill.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
@@ -3649,13 +3622,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var iphoneHomebuttonCircleFill: SFSymbol { .init("iphone.homebutton.circle.fill") }
 
-    /// ![􁅚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.homebutton.radiowaves.left.and.right.circle.png)\
-    /// Single Localization, 3 Layersets, ⚠️ Restricted
+    /// ![􁅚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.homebutton.radiowaves.left.and.right.circle.png)\
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     @available(iOS, introduced: 15.0, deprecated: 16.1, renamed: "iphoneGen1RadiowavesLeftAndRightCircle")
@@ -3666,12 +3638,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var iphoneHomebuttonRadiowavesLeftAndRightCircle: SFSymbol { .init("iphone.homebutton.radiowaves.left.and.right.circle") }
 
-    /// ![􁅛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.homebutton.radiowaves.left.and.right.circle.fill.png)\
+    /// ![􁅛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.homebutton.radiowaves.left.and.right.circle.fill.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
@@ -3683,12 +3655,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var iphoneHomebuttonRadiowavesLeftAndRightCircleFill: SFSymbol { .init("iphone.homebutton.radiowaves.left.and.right.circle.fill") }
 
-    /// ![􁄧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.homebutton.slash.circle.png)\
+    /// ![􁄧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.homebutton.slash.circle.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     @available(iOS, introduced: 15.0, deprecated: 16.1, renamed: "iphoneGen1SlashCircle")
@@ -3699,12 +3671,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var iphoneHomebuttonSlashCircle: SFSymbol { .init("iphone.homebutton.slash.circle") }
 
-    /// ![􁄨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.homebutton.slash.circle.fill.png)\
+    /// ![􁄨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.homebutton.slash.circle.fill.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
@@ -3716,92 +3688,89 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var iphoneHomebuttonSlashCircleFill: SFSymbol { .init("iphone.homebutton.slash.circle.fill") }
 
-    /// ![􁅜](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.radiowaves.left.and.right.circle.png)\
-    /// Single Localization, 3 Layersets, ⚠️ Restricted
+    /// ![􁅜](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.radiowaves.left.and.right.circle.png)\
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     @_alwaysEmitIntoClient
     static var iphoneRadiowavesLeftAndRightCircle: SFSymbol { .init("iphone.radiowaves.left.and.right.circle") }
 
-    /// ![􁅝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.radiowaves.left.and.right.circle.fill.png)\
+    /// ![􁅝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.radiowaves.left.and.right.circle.fill.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     @_alwaysEmitIntoClient
     static var iphoneRadiowavesLeftAndRightCircleFill: SFSymbol { .init("iphone.radiowaves.left.and.right.circle.fill") }
 
-    /// ![􀾖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.rear.camera.png)\
+    /// ![􀾖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.rear.camera.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var iphoneRearCamera: SFSymbol { .init("iphone.rear.camera") }
 
-    /// ![􁄫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.slash.circle.png)\
+    /// ![􁄫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.slash.circle.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     @_alwaysEmitIntoClient
     static var iphoneSlashCircle: SFSymbol { .init("iphone.slash.circle") }
 
-    /// ![􁄬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.slash.circle.fill.png)\
+    /// ![􁄬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.slash.circle.fill.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     @_alwaysEmitIntoClient
     static var iphoneSlashCircleFill: SFSymbol { .init("iphone.slash.circle.fill") }
 
-    /// ![􀺐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.smartbatterycase.gen1.png)\
-    /// Single Localization, 3 Layersets, ⚠️ Restricted
+    /// ![􀺐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.smartbatterycase.gen1.png)\
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone Smart Battery Case.
     @_alwaysEmitIntoClient
     static var iphoneSmartbatterycaseGen1: SFSymbol { .init("iphone.smartbatterycase.gen1") }
 
-    /// ![􀺏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.smartbatterycase.gen2.png)\
-    /// Single Localization, 3 Layersets, ⚠️ Restricted
+    /// ![􀺏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.smartbatterycase.gen2.png)\
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone Smart Battery Case.
     @_alwaysEmitIntoClient
     static var iphoneSmartbatterycaseGen2: SFSymbol { .init("iphone.smartbatterycase.gen2") }
 
-    /// ![􁂲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ipodtouch.slash.png)\
+    /// ![􁂲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/ipodtouch.slash.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPod touch.
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "ipodTouchSlash")
@@ -3812,37 +3781,34 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var ipodtouchSlash: SFSymbol { .init("ipodtouch.slash") }
 
-    /// ![􀼍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ivfluid.bag.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀼍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/ivfluid.bag.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    /// - Hierarchical (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var ivfluidBag: SFSymbol { .init("ivfluid.bag") }
 
-    /// ![􀼎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ivfluid.bag.fill.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀼎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/ivfluid.bag.fill.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    /// - Hierarchical (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var ivfluidBagFill: SFSymbol { .init("ivfluid.bag.fill") }
 
-    /// ![􀭛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/j.square.on.square.fill.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀭛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/j.square.on.square.fill.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var jSquareOnSquareFill: SFSymbol { .init("j.square.on.square.fill") }
 
-    /// ![􀺑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/keyboard.fill.png)\
+    /// ![􀺑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/keyboard.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3850,98 +3816,97 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var keyboardFill: SFSymbol { .init("keyboard.fill") }
 
-    /// ![􀦔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/l.joystick.press.down.png)\
+    /// ![􀦔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/l.joystick.press.down.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lJoystickPressDown: SFSymbol { .init("l.joystick.press.down") }
 
-    /// ![􀫃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/l.joystick.press.down.fill.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀫃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/l.joystick.press.down.fill.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lJoystickPressDownFill: SFSymbol { .init("l.joystick.press.down.fill") }
 
-    /// ![􀿜](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/l.joystick.tilt.down.png)\
+    /// ![􀿜](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/l.joystick.tilt.down.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lJoystickTiltDown: SFSymbol { .init("l.joystick.tilt.down") }
 
-    /// ![􀿝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/l.joystick.tilt.down.fill.png)\
+    /// ![􀿝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/l.joystick.tilt.down.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lJoystickTiltDownFill: SFSymbol { .init("l.joystick.tilt.down.fill") }
 
-    /// ![􀿖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/l.joystick.tilt.left.png)\
+    /// ![􀿖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/l.joystick.tilt.left.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lJoystickTiltLeft: SFSymbol { .init("l.joystick.tilt.left") }
 
-    /// ![􀿗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/l.joystick.tilt.left.fill.png)\
+    /// ![􀿗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/l.joystick.tilt.left.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lJoystickTiltLeftFill: SFSymbol { .init("l.joystick.tilt.left.fill") }
 
-    /// ![􀿘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/l.joystick.tilt.right.png)\
+    /// ![􀿘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/l.joystick.tilt.right.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lJoystickTiltRight: SFSymbol { .init("l.joystick.tilt.right") }
 
-    /// ![􀿙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/l.joystick.tilt.right.fill.png)\
+    /// ![􀿙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/l.joystick.tilt.right.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lJoystickTiltRightFill: SFSymbol { .init("l.joystick.tilt.right.fill") }
 
-    /// ![􀿚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/l.joystick.tilt.up.png)\
+    /// ![􀿚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/l.joystick.tilt.up.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lJoystickTiltUp: SFSymbol { .init("l.joystick.tilt.up") }
 
-    /// ![􀿛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/l.joystick.tilt.up.fill.png)\
+    /// ![􀿛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/l.joystick.tilt.up.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lJoystickTiltUpFill: SFSymbol { .init("l.joystick.tilt.up.fill") }
 
-    /// ![􀰵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/lanyardcard.png)\
+    /// ![􀰵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/lanyardcard.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3949,7 +3914,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var lanyardcard: SFSymbol { .init("lanyardcard") }
 
-    /// ![􀰶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/lanyardcard.fill.png)\
+    /// ![􀰶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/lanyardcard.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -3957,31 +3922,31 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var lanyardcardFill: SFSymbol { .init("lanyardcard.fill") }
 
-    /// ![􀶿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/laptopcomputer.and.arrow.down.png)\
+    /// ![􀶿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/laptopcomputer.and.arrow.down.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var laptopcomputerAndArrowDown: SFSymbol { .init("laptopcomputer.and.arrow.down") }
 
-    /// ![􁃂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/laptopcomputer.trianglebadge.exclamationmark.png)\
+    /// ![􁃂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/laptopcomputer.trianglebadge.exclamationmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var laptopcomputerTrianglebadgeExclamationmark: SFSymbol { .init("laptopcomputer.trianglebadge.exclamationmark") }
 
-    /// ![􀣳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/lasso.and.sparkles.png)\
+    /// ![􀣳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/lasso.and.sparkles.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "lassoBadgeSparkles")
     @available(macOS, introduced: 12.0, deprecated: 14.0, renamed: "lassoBadgeSparkles")
     @available(tvOS, introduced: 15.0, deprecated: 17.0, renamed: "lassoBadgeSparkles")
@@ -3990,65 +3955,65 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var lassoAndSparkles: SFSymbol { .init("lasso.and.sparkles") }
 
-    /// ![􁂬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/leaf.circle.png)\
+    /// ![􁂬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/leaf.circle.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var leafCircle: SFSymbol { .init("leaf.circle") }
 
-    /// ![􁂭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/leaf.circle.fill.png)\
+    /// ![􁂭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/leaf.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var leafCircleFill: SFSymbol { .init("leaf.circle.fill") }
 
-    /// ![􁇖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/lightbulb.circle.png)\
+    /// ![􁇖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/lightbulb.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lightbulbCircle: SFSymbol { .init("lightbulb.circle") }
 
-    /// ![􁇗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/lightbulb.circle.fill.png)\
+    /// ![􁇗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/lightbulb.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var lightbulbCircleFill: SFSymbol { .init("lightbulb.circle.fill") }
 
-    /// ![􀘵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/line.2.horizontal.decrease.circle.png)\
+    /// ![􀘵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/line.2.horizontal.decrease.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var line2HorizontalDecreaseCircle: SFSymbol { .init("line.2.horizontal.decrease.circle") }
 
-    /// ![􀘶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/line.2.horizontal.decrease.circle.fill.png)\
+    /// ![􀘶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/line.2.horizontal.decrease.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var line2HorizontalDecreaseCircleFill: SFSymbol { .init("line.2.horizontal.decrease.circle.fill") }
 
-    /// ![􀌇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/line.3.horizontal.png)\
+    /// ![􀌇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/line.3.horizontal.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4056,26 +4021,26 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var line3Horizontal: SFSymbol { .init("line.3.horizontal") }
 
-    /// ![􀧱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/line.3.horizontal.circle.png)\
+    /// ![􀧱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/line.3.horizontal.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var line3HorizontalCircle: SFSymbol { .init("line.3.horizontal.circle") }
 
-    /// ![􀧲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/line.3.horizontal.circle.fill.png)\
+    /// ![􀧲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/line.3.horizontal.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var line3HorizontalCircleFill: SFSymbol { .init("line.3.horizontal.circle.fill") }
 
-    /// ![􀜓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/line.3.horizontal.decrease.png)\
+    /// ![􀜓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/line.3.horizontal.decrease.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4083,243 +4048,250 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var line3HorizontalDecrease: SFSymbol { .init("line.3.horizontal.decrease") }
 
-    /// ![􀌈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/line.3.horizontal.decrease.circle.png)\
+    /// ![􀌈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/line.3.horizontal.decrease.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var line3HorizontalDecreaseCircle: SFSymbol { .init("line.3.horizontal.decrease.circle") }
 
-    /// ![􀌉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/line.3.horizontal.decrease.circle.fill.png)\
+    /// ![􀌉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/line.3.horizontal.decrease.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var line3HorizontalDecreaseCircleFill: SFSymbol { .init("line.3.horizontal.decrease.circle.fill") }
 
-    /// ![􀰬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/lines.measurement.horizontal.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀰬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/lines.measurement.horizontal.png)\
+    /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var linesMeasurementHorizontal: SFSymbol { .init("lines.measurement.horizontal") }
 
-    /// ![􀻧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/list.bullet.circle.png)\
+    /// ![􀻧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/list.bullet.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var listBulletCircle: SFSymbol { .init("list.bullet.circle") }
 
-    /// ![􀻨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/list.bullet.circle.fill.png)\
+    /// ![􀻨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/list.bullet.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var listBulletCircleFill: SFSymbol { .init("list.bullet.circle.fill") }
 
-    /// ![􀺿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/list.bullet.rectangle.fill.png)\
+    /// ![􀺿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/list.bullet.rectangle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var listBulletRectangleFill: SFSymbol { .init("list.bullet.rectangle.fill") }
 
-    /// ![􀹲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/list.bullet.rectangle.portrait.png)\
+    /// ![􀹲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/list.bullet.rectangle.portrait.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
+    @available(iOS, introduced: 15.0, deprecated: 27.2, renamed: "listBulletPage")
+    @available(macOS, introduced: 12.0, deprecated: 27.2, renamed: "listBulletPage")
+    @available(tvOS, introduced: 15.0, deprecated: 27.2, renamed: "listBulletPage")
+    @available(watchOS, introduced: 8.0, deprecated: 27.2, renamed: "listBulletPage")
+    @available(visionOS, introduced: 1.0, deprecated: 27.2, renamed: "listBulletPage")
     @_alwaysEmitIntoClient
     static var listBulletRectanglePortrait: SFSymbol { .init("list.bullet.rectangle.portrait") }
 
-    /// ![􀹳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/list.bullet.rectangle.portrait.fill.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀹳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/list.bullet.rectangle.portrait.fill.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
+    @available(iOS, introduced: 15.0, deprecated: 27.2, renamed: "listBulletPageFill")
+    @available(macOS, introduced: 12.0, deprecated: 27.2, renamed: "listBulletPageFill")
+    @available(tvOS, introduced: 15.0, deprecated: 27.2, renamed: "listBulletPageFill")
+    @available(watchOS, introduced: 8.0, deprecated: 27.2, renamed: "listBulletPageFill")
+    @available(visionOS, introduced: 1.0, deprecated: 27.2, renamed: "listBulletPageFill")
     @_alwaysEmitIntoClient
     static var listBulletRectanglePortraitFill: SFSymbol { .init("list.bullet.rectangle.portrait.fill") }
 
-    /// ![􀹆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/list.dash.header.rectangle.png)\
+    /// ![􀹆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/list.dash.header.rectangle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var listDashHeaderRectangle: SFSymbol { .init("list.dash.header.rectangle") }
 
-    /// ![􁈟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/location.magnifyingglass.png)\
+    /// ![􁈟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/location.magnifyingglass.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Hierarchical/Palette (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
     @_alwaysEmitIntoClient
     static var locationMagnifyingglass: SFSymbol { .init("location.magnifyingglass") }
 
-    /// ![􀷌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/location.north.circle.png)\
+    /// ![􀷌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/location.north.circle.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var locationNorthCircle: SFSymbol { .init("location.north.circle") }
 
-    /// ![􀷍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/location.north.circle.fill.png)\
+    /// ![􀷍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/location.north.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var locationNorthCircleFill: SFSymbol { .init("location.north.circle.fill") }
 
-    /// ![􀼻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/location.square.png)\
+    /// ![􀼻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/location.square.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var locationSquare: SFSymbol { .init("location.square") }
 
-    /// ![􀼼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/location.square.fill.png)\
+    /// ![􀼼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/location.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var locationSquareFill: SFSymbol { .init("location.square.fill") }
 
-    /// ![􀼒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/lock.desktopcomputer.png)\
+    /// ![􀼒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/lock.desktopcomputer.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lockDesktopcomputer: SFSymbol { .init("lock.desktopcomputer") }
 
-    /// ![􀼑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/lock.display.png)\
+    /// ![􀼑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/lock.display.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lockDisplay: SFSymbol { .init("lock.display") }
 
-    /// ![􀼕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/lock.ipad.png)\
+    /// ![􀼕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/lock.ipad.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lockIpad: SFSymbol { .init("lock.ipad") }
 
-    /// ![􀼔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/lock.iphone.png)\
+    /// ![􀼔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/lock.iphone.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lockIphone: SFSymbol { .init("lock.iphone") }
 
-    /// ![􀼓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/lock.laptopcomputer.png)\
+    /// ![􀼓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/lock.laptopcomputer.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lockLaptopcomputer: SFSymbol { .init("lock.laptopcomputer") }
 
-    /// ![􀼡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/lock.open.applewatch.png)\
+    /// ![􀼡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/lock.open.applewatch.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
     @_alwaysEmitIntoClient
     static var lockOpenApplewatch: SFSymbol { .init("lock.open.applewatch") }
 
-    /// ![􀼝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/lock.open.desktopcomputer.png)\
+    /// ![􀼝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/lock.open.desktopcomputer.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lockOpenDesktopcomputer: SFSymbol { .init("lock.open.desktopcomputer") }
 
-    /// ![􀼜](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/lock.open.display.png)\
+    /// ![􀼜](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/lock.open.display.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lockOpenDisplay: SFSymbol { .init("lock.open.display") }
 
-    /// ![􀼠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/lock.open.ipad.png)\
+    /// ![􀼠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/lock.open.ipad.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lockOpenIpad: SFSymbol { .init("lock.open.ipad") }
 
-    /// ![􀼟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/lock.open.iphone.png)\
+    /// ![􀼟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/lock.open.iphone.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lockOpenIphone: SFSymbol { .init("lock.open.iphone") }
 
-    /// ![􀼞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/lock.open.laptopcomputer.png)\
+    /// ![􀼞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/lock.open.laptopcomputer.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var lockOpenLaptopcomputer: SFSymbol { .init("lock.open.laptopcomputer") }
 
-    /// ![􀾈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/logo.playstation.png)\
+    /// ![􀾈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/logo.playstation.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -4334,7 +4306,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var logoPlaystation: SFSymbol { .init("logo.playstation") }
 
-    /// ![􀾉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/logo.xbox.png)\
+    /// ![􀾉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/logo.xbox.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -4349,7 +4321,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var logoXbox: SFSymbol { .init("logo.xbox") }
 
-    /// ![􀼢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/macpro.gen1.fill.png)\
+    /// ![􀼢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/macpro.gen1.fill.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -4359,7 +4331,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var macproGen1Fill: SFSymbol { .init("macpro.gen1.fill") }
 
-    /// ![􀼣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/macpro.gen3.fill.png)\
+    /// ![􀼣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/macpro.gen3.fill.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -4369,7 +4341,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var macproGen3Fill: SFSymbol { .init("macpro.gen3.fill") }
 
-    /// ![􁂾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/magazine.png)\
+    /// ![􁂾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/magazine.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4377,7 +4349,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var magazine: SFSymbol { .init("magazine") }
 
-    /// ![􁂿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/magazine.fill.png)\
+    /// ![􁂿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/magazine.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4385,7 +4357,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var magazineFill: SFSymbol { .init("magazine.fill") }
 
-    /// ![􀺰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/magicmouse.png)\
+    /// ![􀺰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/magicmouse.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -4395,7 +4367,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var magicmouse: SFSymbol { .init("magicmouse") }
 
-    /// ![􀺱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/magicmouse.fill.png)\
+    /// ![􀺱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/magicmouse.fill.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -4405,97 +4377,97 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var magicmouseFill: SFSymbol { .init("magicmouse.fill") }
 
-    /// ![􀺓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/magsafe.batterypack.png)\
+    /// ![􀺓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/magsafe.batterypack.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s MagSafe Battery Pack.
     @_alwaysEmitIntoClient
     static var magsafeBatterypack: SFSymbol { .init("magsafe.batterypack") }
 
-    /// ![􀺔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/magsafe.batterypack.fill.png)\
+    /// ![􀺔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/magsafe.batterypack.fill.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s MagSafe Battery Pack.
     @_alwaysEmitIntoClient
     static var magsafeBatterypackFill: SFSymbol { .init("magsafe.batterypack.fill") }
 
-    /// ![􀻫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/map.circle.png)\
+    /// ![􀻫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/map.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var mapCircle: SFSymbol { .init("map.circle") }
 
-    /// ![􀻬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/map.circle.fill.png)\
+    /// ![􀻬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/map.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var mapCircleFill: SFSymbol { .init("map.circle.fill") }
 
-    /// ![􁇯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/mappin.slash.circle.png)\
+    /// ![􁇯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/mappin.slash.circle.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     @_alwaysEmitIntoClient
     static var mappinSlashCircle: SFSymbol { .init("mappin.slash.circle") }
 
-    /// ![􁇰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/mappin.slash.circle.fill.png)\
+    /// ![􁇰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/mappin.slash.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var mappinSlashCircleFill: SFSymbol { .init("mappin.slash.circle.fill") }
 
-    /// ![􀽕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/mappin.square.png)\
+    /// ![􀽕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/mappin.square.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var mappinSquare: SFSymbol { .init("mappin.square") }
 
-    /// ![􀽖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/mappin.square.fill.png)\
+    /// ![􀽖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/mappin.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var mappinSquareFill: SFSymbol { .init("mappin.square.fill") }
 
-    /// ![􀺥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/mediastick.png)\
+    /// ![􀺥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/mediastick.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var mediastick: SFSymbol { .init("mediastick") }
 
-    /// ![􀧖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/memorychip.fill.png)\
+    /// ![􀧖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/memorychip.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4503,7 +4475,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var memorychipFill: SFSymbol { .init("memorychip.fill") }
 
-    /// ![􀻒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/menucard.png)\
+    /// ![􀻒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/menucard.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4511,7 +4483,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var menucard: SFSymbol { .init("menucard") }
 
-    /// ![􀻓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/menucard.fill.png)\
+    /// ![􀻓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/menucard.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -4520,13 +4492,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var menucardFill: SFSymbol { .init("menucard.fill") }
 
-    /// ![􀼁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/message.and.waveform.png)\
-    /// Single Localization, 3 Layersets, ⚠️ Restricted
+    /// ![􀼁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/message.and.waveform.png)\
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "messageBadgeWaveform")
@@ -4537,13 +4508,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var messageAndWaveform: SFSymbol { .init("message.and.waveform") }
 
-    /// ![􀼂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/message.and.waveform.fill.png)\
-    /// Single Localization, 3 Layersets, ⚠️ Restricted
+    /// ![􀼂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/message.and.waveform.fill.png)\
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "messageBadgeWaveformFill")
@@ -4554,12 +4524,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var messageAndWaveformFill: SFSymbol { .init("message.and.waveform.fill") }
 
-    /// ![􀺁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/mic.badge.plus.png)\
+    /// ![􀺁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/mic.badge.plus.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "microphoneBadgePlus")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "microphoneBadgePlus")
@@ -4569,12 +4539,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var micBadgePlus: SFSymbol { .init("mic.badge.plus") }
 
-    /// ![􀺂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/mic.fill.badge.plus.png)\
+    /// ![􀺂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/mic.fill.badge.plus.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "microphoneBadgePlusFill")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "microphoneBadgePlusFill")
@@ -4584,12 +4554,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var micFillBadgePlus: SFSymbol { .init("mic.fill.badge.plus") }
 
-    /// ![􀻩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/mic.slash.circle.png)\
+    /// ![􀻩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/mic.slash.circle.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "microphoneSlashCircle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "microphoneSlashCircle")
@@ -4599,12 +4569,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var micSlashCircle: SFSymbol { .init("mic.slash.circle") }
 
-    /// ![􀻪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/mic.slash.circle.fill.png)\
+    /// ![􀻪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/mic.slash.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "microphoneSlashCircleFill")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "microphoneSlashCircleFill")
@@ -4614,12 +4584,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var micSlashCircleFill: SFSymbol { .init("mic.slash.circle.fill") }
 
-    /// ![􀼿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/mic.square.png)\
+    /// ![􀼿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/mic.square.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "microphoneSquare")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "microphoneSquare")
@@ -4629,12 +4599,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var micSquare: SFSymbol { .init("mic.square") }
 
-    /// ![􀽀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/mic.square.fill.png)\
+    /// ![􀽀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/mic.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "microphoneSquareFill")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "microphoneSquareFill")
@@ -4644,7 +4614,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var micSquareFill: SFSymbol { .init("mic.square.fill") }
 
-    /// ![􀅻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/minus.forwardslash.plus.png)\
+    /// ![􀅻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/minus.forwardslash.plus.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4652,12 +4622,11 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var minusForwardslashPlus: SFSymbol { .init("minus.forwardslash.plus") }
 
-    /// ![􁁑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/music.mic.circle.png)\
-    /// Single Localization, 2 Layersets
+    /// ![􁁑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/music.mic.circle.png)\
+    /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "musicMicrophoneCircle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "musicMicrophoneCircle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "musicMicrophoneCircle")
@@ -4666,13 +4635,11 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var musicMicCircle: SFSymbol { .init("music.mic.circle") }
 
-    /// ![􁁒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/music.mic.circle.fill.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􁁒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/music.mic.circle.fill.png)\
+    /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "musicMicrophoneCircleFill")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "musicMicrophoneCircleFill")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "musicMicrophoneCircleFill")
@@ -4681,54 +4648,53 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var musicMicCircleFill: SFSymbol { .init("music.mic.circle.fill") }
 
-    /// ![􀎵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/music.note.tv.png)\
+    /// ![􀎵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/music.note.tv.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var musicNoteTv: SFSymbol { .init("music.note.tv") }
 
-    /// ![􀒷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/music.note.tv.fill.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀒷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/music.note.tv.fill.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var musicNoteTvFill: SFSymbol { .init("music.note.tv.fill") }
 
-    /// ![􁅏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/network.badge.shield.half.filled.png)\
+    /// ![􁅏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/network.badge.shield.half.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var networkBadgeShieldHalfFilled: SFSymbol { .init("network.badge.shield.half.filled") }
 
-    /// ![􁆴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/newspaper.circle.png)\
+    /// ![􁆴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/newspaper.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var newspaperCircle: SFSymbol { .init("newspaper.circle") }
 
-    /// ![􁆵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/newspaper.circle.fill.png)\
+    /// ![􁆵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/newspaper.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var newspaperCircleFill: SFSymbol { .init("newspaper.circle.fill") }
 
-    /// ![􁀽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/octagon.bottomhalf.filled.png)\
+    /// ![􁀽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/octagon.bottomhalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4736,7 +4702,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var octagonBottomhalfFilled: SFSymbol { .init("octagon.bottomhalf.filled") }
 
-    /// ![􁀇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/octagon.lefthalf.filled.png)\
+    /// ![􁀇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/octagon.lefthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4744,7 +4710,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var octagonLefthalfFilled: SFSymbol { .init("octagon.lefthalf.filled") }
 
-    /// ![􁀈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/octagon.righthalf.filled.png)\
+    /// ![􁀈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/octagon.righthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4752,7 +4718,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var octagonRighthalfFilled: SFSymbol { .init("octagon.righthalf.filled") }
 
-    /// ![􁀼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/octagon.tophalf.filled.png)\
+    /// ![􁀼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/octagon.tophalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4760,7 +4726,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var octagonTophalfFilled: SFSymbol { .init("octagon.tophalf.filled") }
 
-    /// ![􀿾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/oval.bottomhalf.filled.png)\
+    /// ![􀿾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/oval.bottomhalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4768,12 +4734,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var ovalBottomhalfFilled: SFSymbol { .init("oval.bottomhalf.filled") }
 
-    /// ![􀾜](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/oval.inset.filled.png)\
+    /// ![􀾜](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/oval.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledOval")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledOval")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledOval")
@@ -4782,7 +4748,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var ovalInsetFilled: SFSymbol { .init("oval.inset.filled") }
 
-    /// ![􀿻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/oval.lefthalf.filled.png)\
+    /// ![􀿻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/oval.lefthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4790,7 +4756,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var ovalLefthalfFilled: SFSymbol { .init("oval.lefthalf.filled") }
 
-    /// ![􁀂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/oval.portrait.bottomhalf.filled.png)\
+    /// ![􁀂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/oval.portrait.bottomhalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4798,12 +4764,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var ovalPortraitBottomhalfFilled: SFSymbol { .init("oval.portrait.bottomhalf.filled") }
 
-    /// ![􀾝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/oval.portrait.inset.filled.png)\
+    /// ![􀾝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/oval.portrait.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledOvalPortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledOvalPortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledOvalPortrait")
@@ -4812,7 +4778,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var ovalPortraitInsetFilled: SFSymbol { .init("oval.portrait.inset.filled") }
 
-    /// ![􀿿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/oval.portrait.lefthalf.filled.png)\
+    /// ![􀿿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/oval.portrait.lefthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4820,7 +4786,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var ovalPortraitLefthalfFilled: SFSymbol { .init("oval.portrait.lefthalf.filled") }
 
-    /// ![􁀀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/oval.portrait.righthalf.filled.png)\
+    /// ![􁀀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/oval.portrait.righthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4828,7 +4794,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var ovalPortraitRighthalfFilled: SFSymbol { .init("oval.portrait.righthalf.filled") }
 
-    /// ![􁀁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/oval.portrait.tophalf.filled.png)\
+    /// ![􁀁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/oval.portrait.tophalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4836,7 +4802,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var ovalPortraitTophalfFilled: SFSymbol { .init("oval.portrait.tophalf.filled") }
 
-    /// ![􀿼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/oval.righthalf.filled.png)\
+    /// ![􀿼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/oval.righthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4844,7 +4810,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var ovalRighthalfFilled: SFSymbol { .init("oval.righthalf.filled") }
 
-    /// ![􀿽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/oval.tophalf.filled.png)\
+    /// ![􀿽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/oval.tophalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4852,7 +4818,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var ovalTophalfFilled: SFSymbol { .init("oval.tophalf.filled") }
 
-    /// ![􀸏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/parentheses.png)\
+    /// ![􀸏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/parentheses.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4860,7 +4826,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var parentheses: SFSymbol { .init("parentheses") }
 
-    /// ![􀵢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/parkingsign.png)\
+    /// ![􀵢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/parkingsign.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4868,26 +4834,26 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var parkingsign: SFSymbol { .init("parkingsign") }
 
-    /// ![􀷁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/parkingsign.circle.png)\
+    /// ![􀷁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/parkingsign.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var parkingsignCircle: SFSymbol { .init("parkingsign.circle") }
 
-    /// ![􀷂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/parkingsign.circle.fill.png)\
+    /// ![􀷂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/parkingsign.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var parkingsignCircleFill: SFSymbol { .init("parkingsign.circle.fill") }
 
-    /// ![􀾞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/pawprint.png)\
+    /// ![􀾞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/pawprint.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4895,26 +4861,26 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var pawprint: SFSymbol { .init("pawprint") }
 
-    /// ![􁂰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/pawprint.circle.png)\
+    /// ![􁂰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/pawprint.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var pawprintCircle: SFSymbol { .init("pawprint.circle") }
 
-    /// ![􁂱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/pawprint.circle.fill.png)\
+    /// ![􁂱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/pawprint.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var pawprintCircleFill: SFSymbol { .init("pawprint.circle.fill") }
 
-    /// ![􀾟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/pawprint.fill.png)\
+    /// ![􀾟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/pawprint.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4922,7 +4888,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var pawprintFill: SFSymbol { .init("pawprint.fill") }
 
-    /// ![􀺎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/peacesign.png)\
+    /// ![􀺎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/peacesign.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4930,7 +4896,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var peacesign: SFSymbol { .init("peacesign") }
 
-    /// ![􀶺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/pentagon.png)\
+    /// ![􀶺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/pentagon.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4938,7 +4904,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var pentagon: SFSymbol { .init("pentagon") }
 
-    /// ![􁀻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/pentagon.bottomhalf.filled.png)\
+    /// ![􁀻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/pentagon.bottomhalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4946,7 +4912,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var pentagonBottomhalfFilled: SFSymbol { .init("pentagon.bottomhalf.filled") }
 
-    /// ![􀶻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/pentagon.fill.png)\
+    /// ![􀶻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/pentagon.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4954,7 +4920,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var pentagonFill: SFSymbol { .init("pentagon.fill") }
 
-    /// ![􁀋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/pentagon.lefthalf.filled.png)\
+    /// ![􁀋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/pentagon.lefthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4962,7 +4928,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var pentagonLefthalfFilled: SFSymbol { .init("pentagon.lefthalf.filled") }
 
-    /// ![􁀌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/pentagon.righthalf.filled.png)\
+    /// ![􁀌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/pentagon.righthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4970,7 +4936,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var pentagonRighthalfFilled: SFSymbol { .init("pentagon.righthalf.filled") }
 
-    /// ![􁀺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/pentagon.tophalf.filled.png)\
+    /// ![􁀺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/pentagon.tophalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4978,7 +4944,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var pentagonTophalfFilled: SFSymbol { .init("pentagon.tophalf.filled") }
 
-    /// ![􀓥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.2.crop.square.stack.png)\
+    /// ![􀓥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.2.crop.square.stack.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -4986,156 +4952,152 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var person2CropSquareStack: SFSymbol { .init("person.2.crop.square.stack") }
 
-    /// ![􀓦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.2.crop.square.stack.fill.png)\
+    /// ![􀓦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.2.crop.square.stack.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
+    /// - Hierarchical/Palette (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     /// - Multicolor (iOS 17.1, macOS 14.1, tvOS 17.1, watchOS 10.1)
     @_alwaysEmitIntoClient
     static var person2CropSquareStackFill: SFSymbol { .init("person.2.crop.square.stack.fill") }
 
-    /// ![􀾌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.2.wave.2.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var person2Wave2: SFSymbol { .init("person.2.wave.2") }
-
-    /// ![􀾍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.2.wave.2.fill.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var person2Wave2Fill: SFSymbol { .init("person.2.wave.2.fill") }
-
-    /// ![􀻷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.3.sequence.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var person3Sequence: SFSymbol { .init("person.3.sequence") }
-
-    /// ![􀻸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.3.sequence.fill.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var person3SequenceFill: SFSymbol { .init("person.3.sequence.fill") }
-
-    /// ![􁅖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.badge.clock.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var personBadgeClock: SFSymbol { .init("person.badge.clock") }
-
-    /// ![􁅗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.badge.clock.fill.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var personBadgeClockFill: SFSymbol { .init("person.badge.clock.fill") }
-
-    /// ![􀿏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.crop.artframe.png)\
+    /// ![􀾌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.2.wave.2.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
-    static var personCropArtframe: SFSymbol { .init("person.crop.artframe") }
+    static var person2Wave2: SFSymbol { .init("person.2.wave.2") }
 
-    /// ![􁂛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.crop.circle.badge.png)\
+    /// ![􀾍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.2.wave.2.fill.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var person2Wave2Fill: SFSymbol { .init("person.2.wave.2.fill") }
+
+    /// ![􀻷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.3.sequence.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var person3Sequence: SFSymbol { .init("person.3.sequence") }
+
+    /// ![􀻸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.3.sequence.fill.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var person3SequenceFill: SFSymbol { .init("person.3.sequence.fill") }
+
+    /// ![􁅖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.badge.clock.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @_alwaysEmitIntoClient
+    static var personBadgeClock: SFSymbol { .init("person.badge.clock") }
+
+    /// ![􁅗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.badge.clock.fill.png)\
+    /// Single Localization, 3 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
+    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    @_alwaysEmitIntoClient
+    static var personBadgeClockFill: SFSymbol { .init("person.badge.clock.fill") }
+
+    /// ![􀿏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.crop.artframe.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var personCropArtframe: SFSymbol { .init("person.crop.artframe") }
+
+    /// ![􁂛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.crop.circle.badge.png)\
+    /// Single Localization, 3 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
     @_alwaysEmitIntoClient
     static var personCropCircleBadge: SFSymbol { .init("person.crop.circle.badge") }
 
-    /// ![􁅔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.crop.circle.badge.clock.png)\
+    /// ![􁅔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.crop.circle.badge.clock.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var personCropCircleBadgeClock: SFSymbol { .init("person.crop.circle.badge.clock") }
 
-    /// ![􁅕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.crop.circle.badge.clock.fill.png)\
+    /// ![􁅕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.crop.circle.badge.clock.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var personCropCircleBadgeClockFill: SFSymbol { .init("person.crop.circle.badge.clock.fill") }
 
-    /// ![􀉸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.crop.circle.badge.exclamationmark.fill.png)\
+    /// ![􀉸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.crop.circle.badge.exclamationmark.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var personCropCircleBadgeExclamationmarkFill: SFSymbol { .init("person.crop.circle.badge.exclamationmark.fill") }
 
-    /// ![􁂜](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.crop.circle.badge.fill.png)\
+    /// ![􁂜](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.crop.circle.badge.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
     @_alwaysEmitIntoClient
     static var personCropCircleBadgeFill: SFSymbol { .init("person.crop.circle.badge.fill") }
 
-    /// ![􁃈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.crop.circle.badge.moon.png)\
+    /// ![􁃈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.crop.circle.badge.moon.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var personCropCircleBadgeMoon: SFSymbol { .init("person.crop.circle.badge.moon") }
 
-    /// ![􁃉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.crop.circle.badge.moon.fill.png)\
+    /// ![􁃉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.crop.circle.badge.moon.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var personCropCircleBadgeMoonFill: SFSymbol { .init("person.crop.circle.badge.moon.fill") }
 
-    /// ![􀭾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.crop.circle.badge.questionmark.fill.png)\
+    /// ![􀭾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.crop.circle.badge.questionmark.fill.png)\
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
@@ -5144,12 +5106,12 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var personCropCircleBadgeQuestionmarkFill: SymbolWith1Localization<Ar> { .init("person.crop.circle.badge.questionmark.fill") }
 
-    /// ![􀏻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.crop.rectangle.stack.png)\
+    /// ![􀏻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.crop.rectangle.stack.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5157,100 +5119,96 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var personCropRectangleStack: SFSymbol { .init("person.crop.rectangle.stack") }
 
-    /// ![􀏼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.crop.rectangle.stack.fill.png)\
+    /// ![􀏼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.crop.rectangle.stack.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 17.1, macOS 14.1, tvOS 17.1, watchOS 10.1)
+    /// - Hierarchical/Palette (iOS 17.1, macOS 14.1, tvOS 17.1, watchOS 10.1)
     /// - Multicolor (iOS 17.1, macOS 14.1, tvOS 17.1, watchOS 10.1)
     @_alwaysEmitIntoClient
     static var personCropRectangleStackFill: SFSymbol { .init("person.crop.rectangle.stack.fill") }
 
-    /// ![􀦎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.crop.square.filled.and.at.rectangle.png)\
+    /// ![􀦎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.crop.square.filled.and.at.rectangle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var personCropSquareFilledAndAtRectangle: SFSymbol { .init("person.crop.square.filled.and.at.rectangle") }
 
-    /// ![􀿐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.crop.square.filled.and.at.rectangle.fill.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var personCropSquareFilledAndAtRectangleFill: SFSymbol { .init("person.crop.square.filled.and.at.rectangle.fill") }
-
-    /// ![􀿒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.text.rectangle.png)\
+    /// ![􀿐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.crop.square.filled.and.at.rectangle.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var personCropSquareFilledAndAtRectangleFill: SFSymbol { .init("person.crop.square.filled.and.at.rectangle.fill") }
+
+    /// ![􀿒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.text.rectangle.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var personTextRectangle: SFSymbol { .init("person.text.rectangle") }
 
-    /// ![􀿓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.text.rectangle.fill.png)\
+    /// ![􀿓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.text.rectangle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var personTextRectangleFill: SFSymbol { .init("person.text.rectangle.fill") }
 
-    /// ![􁅇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.wave.2.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var personWave2: SFSymbol { .init("person.wave.2") }
-
-    /// ![􁅈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/person.wave.2.fill.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var personWave2Fill: SFSymbol { .init("person.wave.2.fill") }
-
-    /// ![􁈨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/personalhotspot.circle.png)\
+    /// ![􁅇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.wave.2.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var personWave2: SFSymbol { .init("person.wave.2") }
+
+    /// ![􁅈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/person.wave.2.fill.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var personWave2Fill: SFSymbol { .init("person.wave.2.fill") }
+
+    /// ![􁈨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/personalhotspot.circle.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var personalhotspotCircle: SFSymbol { .init("personalhotspot.circle") }
 
-    /// ![􁈩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/personalhotspot.circle.fill.png)\
+    /// ![􁈩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/personalhotspot.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var personalhotspotCircleFill: SFSymbol { .init("personalhotspot.circle.fill") }
 
-    /// ![􀼃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/phone.and.waveform.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀼃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/phone.and.waveform.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "phoneBadgeWaveform")
     @available(macOS, introduced: 12.0, deprecated: 14.0, renamed: "phoneBadgeWaveform")
     @available(tvOS, introduced: 15.0, deprecated: 17.0, renamed: "phoneBadgeWaveform")
@@ -5259,13 +5217,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var phoneAndWaveform: SFSymbol { .init("phone.and.waveform") }
 
-    /// ![􀼄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/phone.and.waveform.fill.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀼄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/phone.and.waveform.fill.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "phoneBadgeWaveformFill")
     @available(macOS, introduced: 12.0, deprecated: 14.0, renamed: "phoneBadgeWaveformFill")
     @available(tvOS, introduced: 15.0, deprecated: 17.0, renamed: "phoneBadgeWaveformFill")
@@ -5274,213 +5231,210 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var phoneAndWaveformFill: SFSymbol { .init("phone.and.waveform.fill") }
 
-    /// ![􁀶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/photo.artframe.png)\
+    /// ![􁀶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/photo.artframe.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var photoArtframe: SFSymbol { .init("photo.artframe") }
 
-    /// ![􁂮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/photo.circle.png)\
+    /// ![􁂮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/photo.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var photoCircle: SFSymbol { .init("photo.circle") }
 
-    /// ![􁂯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/photo.circle.fill.png)\
+    /// ![􁂯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/photo.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var photoCircleFill: SFSymbol { .init("photo.circle.fill") }
 
-    /// ![􁇂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/pills.circle.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􁇂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/pills.circle.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var pillsCircle: SFSymbol { .init("pills.circle") }
 
-    /// ![􁇃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/pills.circle.fill.png)\
+    /// ![􁇃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/pills.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var pillsCircleFill: SFSymbol { .init("pills.circle.fill") }
 
-    /// ![􀽋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/pin.square.png)\
+    /// ![􀽋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/pin.square.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var pinSquare: SFSymbol { .init("pin.square") }
 
-    /// ![􀽌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/pin.square.fill.png)\
+    /// ![􀽌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/pin.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var pinSquareFill: SFSymbol { .init("pin.square.fill") }
 
-    /// ![􁁍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/platter.2.filled.ipad.png)\
+    /// ![􁁍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/platter.2.filled.ipad.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var platter2FilledIpad: SFSymbol { .init("platter.2.filled.ipad") }
 
-    /// ![􁁎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/platter.2.filled.ipad.landscape.png)\
+    /// ![􁁎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/platter.2.filled.ipad.landscape.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var platter2FilledIpadLandscape: SFSymbol { .init("platter.2.filled.ipad.landscape") }
 
-    /// ![􀾩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/platter.2.filled.iphone.png)\
+    /// ![􀾩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/platter.2.filled.iphone.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var platter2FilledIphone: SFSymbol { .init("platter.2.filled.iphone") }
 
-    /// ![􀾪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/platter.2.filled.iphone.landscape.png)\
+    /// ![􀾪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/platter.2.filled.iphone.landscape.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var platter2FilledIphoneLandscape: SFSymbol { .init("platter.2.filled.iphone.landscape") }
 
-    /// ![􁃇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/platter.bottom.applewatch.case.png)\
+    /// ![􁃇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/platter.bottom.applewatch.case.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
     @_alwaysEmitIntoClient
     static var platterBottomApplewatchCase: SFSymbol { .init("platter.bottom.applewatch.case") }
 
-    /// ![􁃅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/platter.filled.bottom.applewatch.case.png)\
+    /// ![􁃅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/platter.filled.bottom.applewatch.case.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
     @_alwaysEmitIntoClient
     static var platterFilledBottomApplewatchCase: SFSymbol { .init("platter.filled.bottom.applewatch.case") }
 
-    /// ![􁃄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/platter.filled.top.applewatch.case.png)\
+    /// ![􁃄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/platter.filled.top.applewatch.case.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
     @_alwaysEmitIntoClient
     static var platterFilledTopApplewatchCase: SFSymbol { .init("platter.filled.top.applewatch.case") }
 
-    /// ![􁃆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/platter.top.applewatch.case.png)\
+    /// ![􁃆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/platter.top.applewatch.case.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
     @_alwaysEmitIntoClient
     static var platterTopApplewatchCase: SFSymbol { .init("platter.top.applewatch.case") }
 
-    /// ![􀾬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/play.rectangle.on.rectangle.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var playRectangleOnRectangle: SFSymbol { .init("play.rectangle.on.rectangle") }
-
-    /// ![􁃀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/play.rectangle.on.rectangle.circle.png)\
+    /// ![􀾬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/play.rectangle.on.rectangle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var playRectangleOnRectangle: SFSymbol { .init("play.rectangle.on.rectangle") }
+
+    /// ![􁃀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/play.rectangle.on.rectangle.circle.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var playRectangleOnRectangleCircle: SFSymbol { .init("play.rectangle.on.rectangle.circle") }
 
-    /// ![􁃁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/play.rectangle.on.rectangle.circle.fill.png)\
+    /// ![􁃁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/play.rectangle.on.rectangle.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var playRectangleOnRectangleCircleFill: SFSymbol { .init("play.rectangle.on.rectangle.circle.fill") }
 
-    /// ![􀾭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/play.rectangle.on.rectangle.fill.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var playRectangleOnRectangleFill: SFSymbol { .init("play.rectangle.on.rectangle.fill") }
-
-    /// ![􀽍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/play.square.png)\
+    /// ![􀾭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/play.rectangle.on.rectangle.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var playRectangleOnRectangleFill: SFSymbol { .init("play.rectangle.on.rectangle.fill") }
+
+    /// ![􀽍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/play.square.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var playSquare: SFSymbol { .init("play.square") }
 
-    /// ![􀽎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/play.square.fill.png)\
+    /// ![􀽎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/play.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var playSquareFill: SFSymbol { .init("play.square.fill") }
 
-    /// ![􀅺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/plus.forwardslash.minus.png)\
+    /// ![􀅺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/plus.forwardslash.minus.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5488,51 +5442,50 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var plusForwardslashMinus: SFSymbol { .init("plus.forwardslash.minus") }
 
-    /// ![􀤱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/plus.rectangle.on.folder.fill.png)\
+    /// ![􀤱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/plus.rectangle.on.folder.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var plusRectangleOnFolderFill: SFSymbol { .init("plus.rectangle.on.folder.fill") }
 
-    /// ![􀴥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/plus.square.dashed.png)\
+    /// ![􀴥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/plus.square.dashed.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var plusSquareDashed: SFSymbol { .init("plus.square.dashed") }
 
-    /// ![􁆬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/point.3.connected.trianglepath.dotted.png)\
+    /// ![􁆬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/point.3.connected.trianglepath.dotted.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     @_alwaysEmitIntoClient
     static var point3ConnectedTrianglepathDotted: SFSymbol { .init("point.3.connected.trianglepath.dotted") }
 
-    /// ![􁅥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/point.3.filled.connected.trianglepath.dotted.png)\
+    /// ![􁅥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/point.3.filled.connected.trianglepath.dotted.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var point3FilledConnectedTrianglepathDotted: SFSymbol { .init("point.3.filled.connected.trianglepath.dotted") }
 
-    /// ![􀾕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/point.filled.topleft.down.curvedto.point.bottomright.up.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀾕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/point.filled.topleft.down.curvedto.point.bottomright.up.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "pointTopleftFilledDownToPointBottomrightCurvepath")
     @available(macOS, introduced: 12.0, deprecated: 14.0, renamed: "pointTopleftFilledDownToPointBottomrightCurvepath")
     @available(tvOS, introduced: 15.0, deprecated: 17.0, renamed: "pointTopleftFilledDownToPointBottomrightCurvepath")
@@ -5541,13 +5494,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var pointFilledTopleftDownCurvedtoPointBottomrightUp: SFSymbol { .init("point.filled.topleft.down.curvedto.point.bottomright.up") }
 
-    /// ![􀬱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/point.topleft.down.curvedto.point.bottomright.up.fill.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀬱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/point.topleft.down.curvedto.point.bottomright.up.fill.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "pointTopleftDownToPointBottomrightCurvepathFill")
     @available(macOS, introduced: 12.0, deprecated: 14.0, renamed: "pointTopleftDownToPointBottomrightCurvepathFill")
     @available(tvOS, introduced: 15.0, deprecated: 17.0, renamed: "pointTopleftDownToPointBottomrightCurvepathFill")
@@ -5556,13 +5508,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var pointTopleftDownCurvedtoPointBottomrightUpFill: SFSymbol { .init("point.topleft.down.curvedto.point.bottomright.up.fill") }
 
-    /// ![􀾔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/point.topleft.down.curvedto.point.filled.bottomright.up.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀾔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/point.topleft.down.curvedto.point.filled.bottomright.up.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "pointTopleftDownToPointBottomrightFilledCurvepath")
     @available(macOS, introduced: 12.0, deprecated: 14.0, renamed: "pointTopleftDownToPointBottomrightFilledCurvepath")
     @available(tvOS, introduced: 15.0, deprecated: 17.0, renamed: "pointTopleftDownToPointBottomrightFilledCurvepath")
@@ -5571,26 +5522,26 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var pointTopleftDownCurvedtoPointFilledBottomrightUp: SFSymbol { .init("point.topleft.down.curvedto.point.filled.bottomright.up") }
 
-    /// ![􀷃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/power.circle.png)\
+    /// ![􀷃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/power.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var powerCircle: SFSymbol { .init("power.circle") }
 
-    /// ![􀷄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/power.circle.fill.png)\
+    /// ![􀷄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/power.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var powerCircleFill: SFSymbol { .init("power.circle.fill") }
 
-    /// ![􀆩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/power.dotted.png)\
+    /// ![􀆩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/power.dotted.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5598,7 +5549,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var powerDotted: SFSymbol { .init("power.dotted") }
 
-    /// ![􀡷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/powerplug.png)\
+    /// ![􀡷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/powerplug.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5606,7 +5557,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var powerplug: SFSymbol { .init("powerplug") }
 
-    /// ![􀡸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/powerplug.fill.png)\
+    /// ![􀡸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/powerplug.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5614,7 +5565,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var powerplugFill: SFSymbol { .init("powerplug.fill") }
 
-    /// ![􀪿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/printer.dotmatrix.filled.and.paper.png)\
+    /// ![􀪿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/printer.dotmatrix.filled.and.paper.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5622,7 +5573,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var printerDotmatrixFilledAndPaper: SFSymbol { .init("printer.dotmatrix.filled.and.paper") }
 
-    /// ![􀪾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/printer.filled.and.paper.png)\
+    /// ![􀪾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/printer.filled.and.paper.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5630,7 +5581,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var printerFilledAndPaper: SFSymbol { .init("printer.filled.and.paper") }
 
-    /// ![􀥭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/puzzlepiece.extension.png)\
+    /// ![􀥭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/puzzlepiece.extension.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5638,7 +5589,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var puzzlepieceExtension: SFSymbol { .init("puzzlepiece.extension") }
 
-    /// ![􀥮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/puzzlepiece.extension.fill.png)\
+    /// ![􀥮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/puzzlepiece.extension.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5646,7 +5597,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var puzzlepieceExtensionFill: SFSymbol { .init("puzzlepiece.extension.fill") }
 
-    /// ![􀿨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/questionmark.app.png)\
+    /// ![􀿨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/questionmark.app.png)\
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -5655,11 +5606,11 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var questionmarkApp: SymbolWith1Localization<Ar> { .init("questionmark.app") }
 
-    /// ![􀿪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/questionmark.app.dashed.png)\
+    /// ![􀿪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/questionmark.app.dashed.png)\
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -5668,11 +5619,11 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var questionmarkAppDashed: SymbolWith1Localization<Ar> { .init("questionmark.app.dashed") }
 
-    /// ![􀿩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/questionmark.app.fill.png)\
+    /// ![􀿩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/questionmark.app.fill.png)\
     /// 2 Localizations, 3 Layersets
     ///
     /// Localizations:
@@ -5681,12 +5632,12 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var questionmarkAppFill: SymbolWith1Localization<Ar> { .init("questionmark.app.fill") }
 
-    /// ![􁈐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/quote.closing.png)\
+    /// ![􁈐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/quote.closing.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5694,7 +5645,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var quoteClosing: SFSymbol { .init("quote.closing") }
 
-    /// ![􁈏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/quote.opening.png)\
+    /// ![􁈏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/quote.opening.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5702,117 +5653,115 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var quoteOpening: SFSymbol { .init("quote.opening") }
 
-    /// ![􀦕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/r.joystick.press.down.png)\
+    /// ![􀦕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/r.joystick.press.down.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rJoystickPressDown: SFSymbol { .init("r.joystick.press.down") }
 
-    /// ![􀫄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/r.joystick.press.down.fill.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀫄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/r.joystick.press.down.fill.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rJoystickPressDownFill: SFSymbol { .init("r.joystick.press.down.fill") }
 
-    /// ![􀿤](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/r.joystick.tilt.down.png)\
+    /// ![􀿤](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/r.joystick.tilt.down.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rJoystickTiltDown: SFSymbol { .init("r.joystick.tilt.down") }
 
-    /// ![􀿥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/r.joystick.tilt.down.fill.png)\
+    /// ![􀿥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/r.joystick.tilt.down.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rJoystickTiltDownFill: SFSymbol { .init("r.joystick.tilt.down.fill") }
 
-    /// ![􀿞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/r.joystick.tilt.left.png)\
+    /// ![􀿞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/r.joystick.tilt.left.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rJoystickTiltLeft: SFSymbol { .init("r.joystick.tilt.left") }
 
-    /// ![􀿟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/r.joystick.tilt.left.fill.png)\
+    /// ![􀿟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/r.joystick.tilt.left.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rJoystickTiltLeftFill: SFSymbol { .init("r.joystick.tilt.left.fill") }
 
-    /// ![􀿠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/r.joystick.tilt.right.png)\
+    /// ![􀿠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/r.joystick.tilt.right.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rJoystickTiltRight: SFSymbol { .init("r.joystick.tilt.right") }
 
-    /// ![􀿡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/r.joystick.tilt.right.fill.png)\
+    /// ![􀿡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/r.joystick.tilt.right.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rJoystickTiltRightFill: SFSymbol { .init("r.joystick.tilt.right.fill") }
 
-    /// ![􀿢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/r.joystick.tilt.up.png)\
+    /// ![􀿢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/r.joystick.tilt.up.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rJoystickTiltUp: SFSymbol { .init("r.joystick.tilt.up") }
 
-    /// ![􀿣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/r.joystick.tilt.up.fill.png)\
+    /// ![􀿣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/r.joystick.tilt.up.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rJoystickTiltUpFill: SFSymbol { .init("r.joystick.tilt.up.fill") }
 
-    /// ![􀭙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/r.square.on.square.fill.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var rSquareOnSquareFill: SFSymbol { .init("r.square.on.square.fill") }
-
-    /// ![􁁀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.2.swap.png)\
+    /// ![􀭙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/r.square.on.square.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var rSquareOnSquareFill: SFSymbol { .init("r.square.on.square.fill") }
+
+    /// ![􁁀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.2.swap.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectangle2Swap: SFSymbol { .init("rectangle.2.swap") }
 
-    /// ![􀇴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.3.group.png)\
+    /// ![􀇴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.3.group.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5820,12 +5769,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangle3Group: SFSymbol { .init("rectangle.3.group") }
 
-    /// ![􀬄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.3.group.bubble.left.png)\
+    /// ![􀬄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.3.group.bubble.left.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "rectangle3GroupBubble")
     @available(macOS, introduced: 12.0, deprecated: 14.0, renamed: "rectangle3GroupBubble")
     @available(tvOS, introduced: 15.0, deprecated: 17.0, renamed: "rectangle3GroupBubble")
@@ -5834,12 +5783,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangle3GroupBubbleLeft: SFSymbol { .init("rectangle.3.group.bubble.left") }
 
-    /// ![􀬅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.3.group.bubble.left.fill.png)\
+    /// ![􀬅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.3.group.bubble.left.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "rectangle3GroupBubbleFill")
     @available(macOS, introduced: 12.0, deprecated: 14.0, renamed: "rectangle3GroupBubbleFill")
@@ -5849,7 +5798,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangle3GroupBubbleLeftFill: SFSymbol { .init("rectangle.3.group.bubble.left.fill") }
 
-    /// ![􀚅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.3.group.fill.png)\
+    /// ![􀚅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.3.group.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5857,35 +5806,34 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangle3GroupFill: SFSymbol { .init("rectangle.3.group.fill") }
 
-    /// ![􀪤](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.and.hand.point.up.left.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀪤](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.and.hand.point.up.left.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectangleAndHandPointUpLeft: SFSymbol { .init("rectangle.and.hand.point.up.left") }
 
-    /// ![􀪥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.and.hand.point.up.left.fill.png)\
+    /// ![􀪥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.and.hand.point.up.left.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectangleAndHandPointUpLeftFill: SFSymbol { .init("rectangle.and.hand.point.up.left.fill") }
 
-    /// ![􀪧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.and.hand.point.up.left.filled.png)\
+    /// ![􀪧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.and.hand.point.up.left.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectangleAndHandPointUpLeftFilled: SFSymbol { .init("rectangle.and.hand.point.up.left.filled") }
 
-    /// ![􀿰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.bottomhalf.filled.png)\
+    /// ![􀿰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.bottomhalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -5893,12 +5841,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleBottomhalfFilled: SFSymbol { .init("rectangle.bottomhalf.filled") }
 
-    /// ![􀾯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.bottomhalf.inset.filled.png)\
+    /// ![􀾯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.bottomhalf.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomhalfRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledBottomhalfRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomhalfRectangle")
@@ -5907,12 +5855,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleBottomhalfInsetFilled: SFSymbol { .init("rectangle.bottomhalf.inset.filled") }
 
-    /// ![􀨨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.bottomthird.inset.filled.png)\
+    /// ![􀨨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.bottomthird.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomthirdRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledBottomthirdRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomthirdRectangle")
@@ -5921,12 +5869,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleBottomthirdInsetFilled: SFSymbol { .init("rectangle.bottomthird.inset.filled") }
 
-    /// ![􀥝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.center.inset.filled.png)\
+    /// ![􀥝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.center.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledCenterRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledCenterRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledCenterRectangle")
@@ -5935,12 +5883,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleCenterInsetFilled: SFSymbol { .init("rectangle.center.inset.filled") }
 
-    /// ![􁈔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.center.inset.filled.badge.plus.png)\
+    /// ![􁈔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.center.inset.filled.badge.plus.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1)
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledCenterRectangleBadgePlus")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledCenterRectangleBadgePlus")
@@ -5950,22 +5898,21 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleCenterInsetFilledBadgePlus: SFSymbol { .init("rectangle.center.inset.filled.badge.plus") }
 
-    /// ![􀪦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.filled.and.hand.point.up.left.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var rectangleFilledAndHandPointUpLeft: SFSymbol { .init("rectangle.filled.and.hand.point.up.left") }
-
-    /// ![􁁫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.bottomleading.filled.png)\
+    /// ![􀪦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.filled.and.hand.point.up.left.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var rectangleFilledAndHandPointUpLeft: SFSymbol { .init("rectangle.filled.and.hand.point.up.left") }
+
+    /// ![􁁫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.bottomleading.filled.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomleadingRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledBottomleadingRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomleadingRectangle")
@@ -5974,12 +5921,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleInsetBottomleadingFilled: SFSymbol { .init("rectangle.inset.bottomleading.filled") }
 
-    /// ![􀭵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.bottomleft.filled.png)\
+    /// ![􀭵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.bottomleft.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomleftRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledBottomleftRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomleftRectangle")
@@ -5988,12 +5935,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleInsetBottomleftFilled: SFSymbol { .init("rectangle.inset.bottomleft.filled") }
 
-    /// ![􀭶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.bottomright.filled.png)\
+    /// ![􀭶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.bottomright.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomrightRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledBottomrightRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomrightRectangle")
@@ -6002,12 +5949,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleInsetBottomrightFilled: SFSymbol { .init("rectangle.inset.bottomright.filled") }
 
-    /// ![􁁬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.bottomtrailing.filled.png)\
+    /// ![􁁬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.bottomtrailing.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomtrailingRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledBottomtrailingRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomtrailingRectangle")
@@ -6016,12 +5963,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleInsetBottomtrailingFilled: SFSymbol { .init("rectangle.inset.bottomtrailing.filled") }
 
-    /// ![􀤳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.filled.png)\
+    /// ![􀤳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledRectangle")
@@ -6030,12 +5977,11 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleInsetFilled: SFSymbol { .init("rectangle.inset.filled") }
 
-    /// ![􁅀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.filled.and.person.filled.png)\
-    /// Single Localization, 2 Layersets
+    /// ![􁅀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.filled.and.person.filled.png)\
+    /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledRectangleAndPersonFilled")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledRectangleAndPersonFilled")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledRectangleAndPersonFilled")
@@ -6044,12 +5990,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleInsetFilledAndPersonFilled: SFSymbol { .init("rectangle.inset.filled.and.person.filled") }
 
-    /// ![􀶣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.filled.on.rectangle.png)\
+    /// ![􀶣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.filled.on.rectangle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledRectangleOnRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledRectangleOnRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledRectangleOnRectangle")
@@ -6058,12 +6004,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleInsetFilledOnRectangle: SFSymbol { .init("rectangle.inset.filled.on.rectangle") }
 
-    /// ![􁁩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.topleading.filled.png)\
+    /// ![􁁩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.topleading.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTopleadingRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledTopleadingRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTopleadingRectangle")
@@ -6072,12 +6018,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleInsetTopleadingFilled: SFSymbol { .init("rectangle.inset.topleading.filled") }
 
-    /// ![􀭳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.topleft.filled.png)\
+    /// ![􀭳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.topleft.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTopleftRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledTopleftRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTopleftRectangle")
@@ -6086,12 +6032,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleInsetTopleftFilled: SFSymbol { .init("rectangle.inset.topleft.filled") }
 
-    /// ![􀭴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.topright.filled.png)\
+    /// ![􀭴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.topright.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledToprightRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledToprightRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledToprightRectangle")
@@ -6100,12 +6046,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleInsetToprightFilled: SFSymbol { .init("rectangle.inset.topright.filled") }
 
-    /// ![􁁪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.toptrailing.filled.png)\
+    /// ![􁁪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.inset.toptrailing.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledToptrailingRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledToptrailingRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledToptrailingRectangle")
@@ -6114,12 +6060,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleInsetToptrailingFilled: SFSymbol { .init("rectangle.inset.toptrailing.filled") }
 
-    /// ![􁁣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.leadinghalf.inset.filled.png)\
+    /// ![􁁣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.leadinghalf.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLeadinghalfRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledLeadinghalfRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLeadinghalfRectangle")
@@ -6128,12 +6074,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleLeadinghalfInsetFilled: SFSymbol { .init("rectangle.leadinghalf.inset.filled") }
 
-    /// ![􁁥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.leadinghalf.inset.filled.arrow.leading.png)\
+    /// ![􁁥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.leadinghalf.inset.filled.arrow.leading.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLeadinghalfArrowLeadingRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledLeadinghalfArrowLeadingRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLeadinghalfArrowLeadingRectangle")
@@ -6142,12 +6088,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleLeadinghalfInsetFilledArrowLeading: SFSymbol { .init("rectangle.leadinghalf.inset.filled.arrow.leading") }
 
-    /// ![􁁧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.leadingthird.inset.filled.png)\
+    /// ![􁁧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.leadingthird.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLeadingthirdRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledLeadingthirdRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLeadingthirdRectangle")
@@ -6156,7 +6102,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleLeadingthirdInsetFilled: SFSymbol { .init("rectangle.leadingthird.inset.filled") }
 
-    /// ![􀤶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.lefthalf.filled.png)\
+    /// ![􀤶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.lefthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6164,12 +6110,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleLefthalfFilled: SFSymbol { .init("rectangle.lefthalf.filled") }
 
-    /// ![􀤴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.lefthalf.inset.filled.png)\
+    /// ![􀤴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.lefthalf.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLefthalfRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledLefthalfRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLefthalfRectangle")
@@ -6178,12 +6124,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleLefthalfInsetFilled: SFSymbol { .init("rectangle.lefthalf.inset.filled") }
 
-    /// ![􀥞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.lefthalf.inset.filled.arrow.left.png)\
+    /// ![􀥞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.lefthalf.inset.filled.arrow.left.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLefthalfArrowLeftRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledLefthalfArrowLeftRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLefthalfArrowLeftRectangle")
@@ -6192,12 +6138,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleLefthalfInsetFilledArrowLeft: SFSymbol { .init("rectangle.lefthalf.inset.filled.arrow.left") }
 
-    /// ![􀨱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.leftthird.inset.filled.png)\
+    /// ![􀨱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.leftthird.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLeftthirdRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledLeftthirdRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLeftthirdRectangle")
@@ -6206,91 +6152,91 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleLeftthirdInsetFilled: SFSymbol { .init("rectangle.leftthird.inset.filled") }
 
-    /// ![􀤽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.on.rectangle.circle.png)\
+    /// ![􀤽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.on.rectangle.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectangleOnRectangleCircle: SFSymbol { .init("rectangle.on.rectangle.circle") }
 
-    /// ![􀤾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.on.rectangle.circle.fill.png)\
+    /// ![􀤾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.on.rectangle.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var rectangleOnRectangleCircleFill: SFSymbol { .init("rectangle.on.rectangle.circle.fill") }
 
-    /// ![􀻯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.on.rectangle.slash.circle.png)\
+    /// ![􀻯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.on.rectangle.slash.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectangleOnRectangleSlashCircle: SFSymbol { .init("rectangle.on.rectangle.slash.circle") }
 
-    /// ![􀻰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.on.rectangle.slash.circle.fill.png)\
+    /// ![􀻰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.on.rectangle.slash.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var rectangleOnRectangleSlashCircleFill: SFSymbol { .init("rectangle.on.rectangle.slash.circle.fill") }
 
-    /// ![􀤿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.on.rectangle.slash.fill.png)\
+    /// ![􀤿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.on.rectangle.slash.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectangleOnRectangleSlashFill: SFSymbol { .init("rectangle.on.rectangle.slash.fill") }
 
-    /// ![􀽏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.on.rectangle.square.png)\
+    /// ![􀽏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.on.rectangle.square.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectangleOnRectangleSquare: SFSymbol { .init("rectangle.on.rectangle.square") }
 
-    /// ![􀽐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.on.rectangle.square.fill.png)\
+    /// ![􀽐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.on.rectangle.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var rectangleOnRectangleSquareFill: SFSymbol { .init("rectangle.on.rectangle.square.fill") }
 
-    /// ![􀻵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.and.arrow.right.png)\
+    /// ![􀻵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.and.arrow.right.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectanglePortraitAndArrowRight: SFSymbol { .init("rectangle.portrait.and.arrow.right") }
 
-    /// ![􀻶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.and.arrow.right.fill.png)\
+    /// ![􀻶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.and.arrow.right.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
+    /// - Hierarchical/Palette (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
     @_alwaysEmitIntoClient
     static var rectanglePortraitAndArrowRightFill: SFSymbol { .init("rectangle.portrait.and.arrow.right.fill") }
 
-    /// ![􀿲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.bottomhalf.filled.png)\
+    /// ![􀿲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.bottomhalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6298,12 +6244,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitBottomhalfFilled: SFSymbol { .init("rectangle.portrait.bottomhalf.filled") }
 
-    /// ![􀽺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.bottomhalf.inset.filled.png)\
+    /// ![􀽺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.bottomhalf.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomhalfRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledBottomhalfRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomhalfRectanglePortrait")
@@ -6312,12 +6258,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitBottomhalfInsetFilled: SFSymbol { .init("rectangle.portrait.bottomhalf.inset.filled") }
 
-    /// ![􁁳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.bottomleading.inset.filled.png)\
+    /// ![􁁳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.bottomleading.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomleadingRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledBottomleadingRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomleadingRectanglePortrait")
@@ -6326,12 +6272,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitBottomleadingInsetFilled: SFSymbol { .init("rectangle.portrait.bottomleading.inset.filled") }
 
-    /// ![􀾃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.bottomleft.inset.filled.png)\
+    /// ![􀾃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.bottomleft.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomleftRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledBottomleftRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomleftRectanglePortrait")
@@ -6340,12 +6286,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitBottomleftInsetFilled: SFSymbol { .init("rectangle.portrait.bottomleft.inset.filled") }
 
-    /// ![􀾂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.bottomright.inset.filled.png)\
+    /// ![􀾂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.bottomright.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomrightRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledBottomrightRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomrightRectanglePortrait")
@@ -6354,12 +6300,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitBottomrightInsetFilled: SFSymbol { .init("rectangle.portrait.bottomright.inset.filled") }
 
-    /// ![􀽾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.bottomthird.inset.filled.png)\
+    /// ![􀽾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.bottomthird.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomthirdRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledBottomthirdRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomthirdRectanglePortrait")
@@ -6368,12 +6314,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitBottomthirdInsetFilled: SFSymbol { .init("rectangle.portrait.bottomthird.inset.filled") }
 
-    /// ![􁁴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.bottomtrailing.inset.filled.png)\
+    /// ![􁁴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.bottomtrailing.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomtrailingRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledBottomtrailingRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledBottomtrailingRectanglePortrait")
@@ -6382,12 +6328,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitBottomtrailingInsetFilled: SFSymbol { .init("rectangle.portrait.bottomtrailing.inset.filled") }
 
-    /// ![􀽿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.center.inset.filled.png)\
+    /// ![􀽿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.center.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledCenterRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledCenterRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledCenterRectanglePortrait")
@@ -6396,12 +6342,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitCenterInsetFilled: SFSymbol { .init("rectangle.portrait.center.inset.filled") }
 
-    /// ![􀽸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.inset.filled.png)\
+    /// ![􀽸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledRectanglePortrait")
@@ -6410,12 +6356,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitInsetFilled: SFSymbol { .init("rectangle.portrait.inset.filled") }
 
-    /// ![􁁭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.leadinghalf.inset.filled.png)\
+    /// ![􁁭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.leadinghalf.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLeadinghalfRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledLeadinghalfRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLeadinghalfRectanglePortrait")
@@ -6424,12 +6370,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitLeadinghalfInsetFilled: SFSymbol { .init("rectangle.portrait.leadinghalf.inset.filled") }
 
-    /// ![􁁯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.leadingthird.inset.filled.png)\
+    /// ![􁁯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.leadingthird.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLeadingthirdRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledLeadingthirdRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLeadingthirdRectanglePortrait")
@@ -6438,7 +6384,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitLeadingthirdInsetFilled: SFSymbol { .init("rectangle.portrait.leadingthird.inset.filled") }
 
-    /// ![􀿬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.lefthalf.filled.png)\
+    /// ![􀿬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.lefthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6446,12 +6392,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitLefthalfFilled: SFSymbol { .init("rectangle.portrait.lefthalf.filled") }
 
-    /// ![􀾄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.lefthalf.inset.filled.png)\
+    /// ![􀾄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.lefthalf.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLefthalfRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledLefthalfRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLefthalfRectanglePortrait")
@@ -6460,12 +6406,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitLefthalfInsetFilled: SFSymbol { .init("rectangle.portrait.lefthalf.inset.filled") }
 
-    /// ![􀽼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.leftthird.inset.filled.png)\
+    /// ![􀽼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.leftthird.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLeftthirdRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledLeftthirdRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledLeftthirdRectanglePortrait")
@@ -6474,44 +6420,43 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitLeftthirdInsetFilled: SFSymbol { .init("rectangle.portrait.leftthird.inset.filled") }
 
-    /// ![􀽰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.on.rectangle.portrait.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀽰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.on.rectangle.portrait.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectanglePortraitOnRectanglePortrait: SFSymbol { .init("rectangle.portrait.on.rectangle.portrait") }
 
-    /// ![􀽱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.on.rectangle.portrait.fill.png)\
+    /// ![􀽱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.on.rectangle.portrait.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectanglePortraitOnRectanglePortraitFill: SFSymbol { .init("rectangle.portrait.on.rectangle.portrait.fill") }
 
-    /// ![􀽲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.on.rectangle.portrait.slash.png)\
+    /// ![􀽲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.on.rectangle.portrait.slash.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectanglePortraitOnRectanglePortraitSlash: SFSymbol { .init("rectangle.portrait.on.rectangle.portrait.slash") }
 
-    /// ![􀽳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.on.rectangle.portrait.slash.fill.png)\
+    /// ![􀽳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.on.rectangle.portrait.slash.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectanglePortraitOnRectanglePortraitSlashFill: SFSymbol { .init("rectangle.portrait.on.rectangle.portrait.slash.fill") }
 
-    /// ![􀿭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.righthalf.filled.png)\
+    /// ![􀿭](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.righthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6519,12 +6464,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitRighthalfFilled: SFSymbol { .init("rectangle.portrait.righthalf.filled") }
 
-    /// ![􀾅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.righthalf.inset.filled.png)\
+    /// ![􀾅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.righthalf.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledRighthalfRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledRighthalfRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledRighthalfRectanglePortrait")
@@ -6533,12 +6478,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitRighthalfInsetFilled: SFSymbol { .init("rectangle.portrait.righthalf.inset.filled") }
 
-    /// ![􀽻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.rightthird.inset.filled.png)\
+    /// ![􀽻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.rightthird.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledRightthirdRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledRightthirdRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledRightthirdRectanglePortrait")
@@ -6547,25 +6492,25 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitRightthirdInsetFilled: SFSymbol { .init("rectangle.portrait.rightthird.inset.filled") }
 
-    /// ![􀾆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.slash.png)\
+    /// ![􀾆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.slash.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectanglePortraitSlash: SFSymbol { .init("rectangle.portrait.slash") }
 
-    /// ![􀾇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.slash.fill.png)\
+    /// ![􀾇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.slash.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectanglePortraitSlashFill: SFSymbol { .init("rectangle.portrait.slash.fill") }
 
-    /// ![􀽴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.split.2x1.png)\
+    /// ![􀽴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.split.2x1.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6573,7 +6518,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitSplit2x1: SFSymbol { .init("rectangle.portrait.split.2x1") }
 
-    /// ![􀽵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.split.2x1.fill.png)\
+    /// ![􀽵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.split.2x1.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6581,25 +6526,25 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitSplit2x1Fill: SFSymbol { .init("rectangle.portrait.split.2x1.fill") }
 
-    /// ![􀽶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.split.2x1.slash.png)\
+    /// ![􀽶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.split.2x1.slash.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectanglePortraitSplit2x1Slash: SFSymbol { .init("rectangle.portrait.split.2x1.slash") }
 
-    /// ![􀽷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.split.2x1.slash.fill.png)\
+    /// ![􀽷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.split.2x1.slash.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectanglePortraitSplit2x1SlashFill: SFSymbol { .init("rectangle.portrait.split.2x1.slash.fill") }
 
-    /// ![􀿱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.tophalf.filled.png)\
+    /// ![􀿱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.tophalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6607,12 +6552,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitTophalfFilled: SFSymbol { .init("rectangle.portrait.tophalf.filled") }
 
-    /// ![􀽹](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.tophalf.inset.filled.png)\
+    /// ![􀽹](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.tophalf.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTophalfRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledTophalfRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTophalfRectanglePortrait")
@@ -6621,12 +6566,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitTophalfInsetFilled: SFSymbol { .init("rectangle.portrait.tophalf.inset.filled") }
 
-    /// ![􁁱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.topleading.inset.filled.png)\
+    /// ![􁁱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.topleading.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTopleadingRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledTopleadingRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTopleadingRectanglePortrait")
@@ -6635,12 +6580,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitTopleadingInsetFilled: SFSymbol { .init("rectangle.portrait.topleading.inset.filled") }
 
-    /// ![􀾀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.topleft.inset.filled.png)\
+    /// ![􀾀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.topleft.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTopleftRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledTopleftRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTopleftRectanglePortrait")
@@ -6649,12 +6594,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitTopleftInsetFilled: SFSymbol { .init("rectangle.portrait.topleft.inset.filled") }
 
-    /// ![􀾁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.topright.inset.filled.png)\
+    /// ![􀾁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.topright.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledToprightRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledToprightRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledToprightRectanglePortrait")
@@ -6663,12 +6608,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitToprightInsetFilled: SFSymbol { .init("rectangle.portrait.topright.inset.filled") }
 
-    /// ![􀽽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.topthird.inset.filled.png)\
+    /// ![􀽽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.topthird.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTopthirdRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledTopthirdRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTopthirdRectanglePortrait")
@@ -6677,12 +6622,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitTopthirdInsetFilled: SFSymbol { .init("rectangle.portrait.topthird.inset.filled") }
 
-    /// ![􁁲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.toptrailing.inset.filled.png)\
+    /// ![􁁲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.toptrailing.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledToptrailingRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledToptrailingRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledToptrailingRectanglePortrait")
@@ -6691,12 +6636,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitToptrailingInsetFilled: SFSymbol { .init("rectangle.portrait.toptrailing.inset.filled") }
 
-    /// ![􁁮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.trailinghalf.inset.filled.png)\
+    /// ![􁁮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.trailinghalf.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTrailinghalfRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledTrailinghalfRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTrailinghalfRectanglePortrait")
@@ -6705,12 +6650,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitTrailinghalfInsetFilled: SFSymbol { .init("rectangle.portrait.trailinghalf.inset.filled") }
 
-    /// ![􁁰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.trailingthird.inset.filled.png)\
+    /// ![􁁰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.portrait.trailingthird.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTrailingthirdRectanglePortrait")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledTrailingthirdRectanglePortrait")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTrailingthirdRectanglePortrait")
@@ -6719,7 +6664,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectanglePortraitTrailingthirdInsetFilled: SFSymbol { .init("rectangle.portrait.trailingthird.inset.filled") }
 
-    /// ![􀤷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.righthalf.filled.png)\
+    /// ![􀤷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.righthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6727,12 +6672,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleRighthalfFilled: SFSymbol { .init("rectangle.righthalf.filled") }
 
-    /// ![􀤵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.righthalf.inset.filled.png)\
+    /// ![􀤵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.righthalf.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledRighthalfRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledRighthalfRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledRighthalfRectangle")
@@ -6741,12 +6686,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleRighthalfInsetFilled: SFSymbol { .init("rectangle.righthalf.inset.filled") }
 
-    /// ![􀥟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.righthalf.inset.filled.arrow.right.png)\
+    /// ![􀥟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.righthalf.inset.filled.arrow.right.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledRighthalfArrowRightRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledRighthalfArrowRightRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledRighthalfArrowRightRectangle")
@@ -6755,12 +6700,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleRighthalfInsetFilledArrowRight: SFSymbol { .init("rectangle.righthalf.inset.filled.arrow.right") }
 
-    /// ![􀨩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.rightthird.inset.filled.png)\
+    /// ![􀨩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.rightthird.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledRightthirdRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledRightthirdRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledRightthirdRectangle")
@@ -6769,55 +6714,55 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleRightthirdInsetFilled: SFSymbol { .init("rectangle.rightthird.inset.filled") }
 
-    /// ![􀾊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.split.2x1.slash.png)\
+    /// ![􀾊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.split.2x1.slash.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectangleSplit2x1Slash: SFSymbol { .init("rectangle.split.2x1.slash") }
 
-    /// ![􀾋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.split.2x1.slash.fill.png)\
+    /// ![􀾋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.split.2x1.slash.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var rectangleSplit2x1SlashFill: SFSymbol { .init("rectangle.split.2x1.slash.fill") }
 
-    /// ![􀏺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.stack.badge.person.crop.fill.png)\
+    /// ![􀏺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.stack.badge.person.crop.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var rectangleStackBadgePersonCropFill: SFSymbol { .init("rectangle.stack.badge.person.crop.fill") }
 
-    /// ![􀽙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.stack.badge.play.png)\
+    /// ![􀽙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.stack.badge.play.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var rectangleStackBadgePlay: SFSymbol { .init("rectangle.stack.badge.play") }
 
-    /// ![􀽚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.stack.badge.play.fill.png)\
+    /// ![􀽚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.stack.badge.play.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var rectangleStackBadgePlayFill: SFSymbol { .init("rectangle.stack.badge.play.fill") }
 
-    /// ![􀿯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.tophalf.filled.png)\
+    /// ![􀿯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.tophalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6825,12 +6770,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleTophalfFilled: SFSymbol { .init("rectangle.tophalf.filled") }
 
-    /// ![􀾮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.tophalf.inset.filled.png)\
+    /// ![􀾮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.tophalf.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTophalfRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledTophalfRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTophalfRectangle")
@@ -6839,12 +6784,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleTophalfInsetFilled: SFSymbol { .init("rectangle.tophalf.inset.filled") }
 
-    /// ![􀴊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.topthird.inset.filled.png)\
+    /// ![􀴊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.topthird.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTopthirdRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledTopthirdRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTopthirdRectangle")
@@ -6853,12 +6798,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleTopthirdInsetFilled: SFSymbol { .init("rectangle.topthird.inset.filled") }
 
-    /// ![􁁤](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.trailinghalf.inset.filled.png)\
+    /// ![􁁤](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.trailinghalf.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTrailinghalfRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledTrailinghalfRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTrailinghalfRectangle")
@@ -6867,12 +6812,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleTrailinghalfInsetFilled: SFSymbol { .init("rectangle.trailinghalf.inset.filled") }
 
-    /// ![􁁦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.trailinghalf.inset.filled.arrow.trailing.png)\
+    /// ![􁁦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.trailinghalf.inset.filled.arrow.trailing.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTrailinghalfArrowTrailingRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledTrailinghalfArrowTrailingRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTrailinghalfArrowTrailingRectangle")
@@ -6881,12 +6826,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleTrailinghalfInsetFilledArrowTrailing: SFSymbol { .init("rectangle.trailinghalf.inset.filled.arrow.trailing") }
 
-    /// ![􁁨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.trailingthird.inset.filled.png)\
+    /// ![􁁨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.trailingthird.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTrailingthirdRectangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledTrailingthirdRectangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTrailingthirdRectangle")
@@ -6895,17 +6840,17 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var rectangleTrailingthirdInsetFilled: SFSymbol { .init("rectangle.trailingthird.inset.filled") }
 
-    /// ![􀶞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/restart.circle.fill.png)\
+    /// ![􀶞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/restart.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var restartCircleFill: SFSymbol { .init("restart.circle.fill") }
 
-    /// ![􁂆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/return.left.png)\
+    /// ![􁂆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/return.left.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6913,7 +6858,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var returnLeft: SFSymbol { .init("return.left") }
 
-    /// ![􁂇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/return.right.png)\
+    /// ![􁂇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/return.right.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6921,26 +6866,26 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var returnRight: SFSymbol { .init("return.right") }
 
-    /// ![􁇔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/scissors.circle.png)\
+    /// ![􁇔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/scissors.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var scissorsCircle: SFSymbol { .init("scissors.circle") }
 
-    /// ![􁇕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/scissors.circle.fill.png)\
+    /// ![􁇕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/scissors.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var scissorsCircleFill: SFSymbol { .init("scissors.circle.fill") }
 
-    /// ![􁈌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/scooter.png)\
+    /// ![􁈌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/scooter.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6948,7 +6893,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var scooter: SFSymbol { .init("scooter") }
 
-    /// ![􀤈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/screwdriver.png)\
+    /// ![􀤈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/screwdriver.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6956,7 +6901,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var screwdriver: SFSymbol { .init("screwdriver") }
 
-    /// ![􀤉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/screwdriver.fill.png)\
+    /// ![􀤉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/screwdriver.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -6964,50 +6909,47 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var screwdriverFill: SFSymbol { .init("screwdriver.fill") }
 
-    /// ![􁁝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/sensor.tag.radiowaves.forward.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􁁝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/sensor.tag.radiowaves.forward.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var sensorTagRadiowavesForward: SFSymbol { .init("sensor.tag.radiowaves.forward") }
 
-    /// ![􁁞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/sensor.tag.radiowaves.forward.fill.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􁁞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/sensor.tag.radiowaves.forward.fill.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var sensorTagRadiowavesForwardFill: SFSymbol { .init("sensor.tag.radiowaves.forward.fill") }
 
-    /// ![􁃑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/shareplay.png)\
-    /// Single Localization, 3 Layersets, ⚠️ Restricted
+    /// ![􁃑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/shareplay.png)\
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s SharePlay.
     @_alwaysEmitIntoClient
     static var shareplay: SFSymbol { .init("shareplay") }
 
-    /// ![􀴔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/shareplay.slash.png)\
+    /// ![􀴔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/shareplay.slash.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s SharePlay.
     @_alwaysEmitIntoClient
     static var shareplaySlash: SFSymbol { .init("shareplay.slash") }
 
-    /// ![􀙨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/shield.lefthalf.filled.png)\
+    /// ![􀙨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/shield.lefthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7015,16 +6957,16 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var shieldLefthalfFilled: SFSymbol { .init("shield.lefthalf.filled") }
 
-    /// ![􀲊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/shield.lefthalf.filled.slash.png)\
+    /// ![􀲊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/shield.lefthalf.filled.slash.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var shieldLefthalfFilledSlash: SFSymbol { .init("shield.lefthalf.filled.slash") }
 
-    /// ![􀿮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/shield.righthalf.filled.png)\
+    /// ![􀿮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/shield.righthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7032,50 +6974,50 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var shieldRighthalfFilled: SFSymbol { .init("shield.righthalf.filled") }
 
-    /// ![􁇈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/shippingbox.circle.png)\
+    /// ![􁇈](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/shippingbox.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var shippingboxCircle: SFSymbol { .init("shippingbox.circle") }
 
-    /// ![􁇉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/shippingbox.circle.fill.png)\
+    /// ![􁇉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/shippingbox.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var shippingboxCircleFill: SFSymbol { .init("shippingbox.circle.fill") }
 
-    /// ![􀶟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/sleep.circle.png)\
+    /// ![􀶟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/sleep.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var sleepCircle: SFSymbol { .init("sleep.circle") }
 
-    /// ![􀶠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/sleep.circle.fill.png)\
+    /// ![􀶠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/sleep.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var sleepCircleFill: SFSymbol { .init("sleep.circle.fill") }
 
-    /// ![􁅊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/slider.horizontal.2.rectangle.and.arrow.triangle.2.circlepath.png)\
+    /// ![􁅊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/slider.horizontal.2.rectangle.and.arrow.triangle.2.circlepath.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "sliderHorizontal2RectangleAndArrowTrianglehead2ClockwiseRotate90")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "sliderHorizontal2RectangleAndArrowTrianglehead2ClockwiseRotate90")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "sliderHorizontal2RectangleAndArrowTrianglehead2ClockwiseRotate90")
@@ -7084,146 +7026,142 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var sliderHorizontal2RectangleAndArrowTriangle2Circlepath: SFSymbol { .init("slider.horizontal.2.rectangle.and.arrow.triangle.2.circlepath") }
 
-    /// ![􀰗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/slider.horizontal.below.square.filled.and.square.png)\
+    /// ![􀰗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/slider.horizontal.below.square.filled.and.square.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var sliderHorizontalBelowSquareFilledAndSquare: SFSymbol { .init("slider.horizontal.below.square.filled.and.square") }
 
-    /// ![􀍷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/smallcircle.filled.circle.png)\
+    /// ![􀍷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/smallcircle.filled.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var smallcircleFilledCircle: SFSymbol { .init("smallcircle.filled.circle") }
 
-    /// ![􀕩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/smallcircle.filled.circle.fill.png)\
+    /// ![􀕩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/smallcircle.filled.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var smallcircleFilledCircleFill: SFSymbol { .init("smallcircle.filled.circle.fill") }
 
-    /// ![􀇥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/snowflake.png)\
-    /// Single Localization, 2 Layersets
+    /// ![􀇥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/snowflake.png)\
+    /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Multicolor
     @_alwaysEmitIntoClient
     static var snowflake: SFSymbol { .init("snowflake") }
 
-    /// ![􁇌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/snowflake.circle.png)\
+    /// ![􁇌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/snowflake.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var snowflakeCircle: SFSymbol { .init("snowflake.circle") }
 
-    /// ![􁇍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/snowflake.circle.fill.png)\
+    /// ![􁇍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/snowflake.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var snowflakeCircleFill: SFSymbol { .init("snowflake.circle.fill") }
 
-    /// ![􁇥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/sparkle.magnifyingglass.png)\
+    /// ![􁇥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/sparkle.magnifyingglass.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    /// - Hierarchical/Palette (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
     @_alwaysEmitIntoClient
     static var sparkleMagnifyingglass: SFSymbol { .init("sparkle.magnifyingglass") }
 
-    /// ![􀰙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/sparkles.square.filled.on.square.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var sparklesSquareFilledOnSquare: SFSymbol { .init("sparkles.square.filled.on.square") }
-
-    /// ![􁅋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/sparkles.tv.png)\
+    /// ![􀰙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/sparkles.square.filled.on.square.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var sparklesSquareFilledOnSquare: SFSymbol { .init("sparkles.square.filled.on.square") }
+
+    /// ![􁅋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/sparkles.tv.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var sparklesTv: SFSymbol { .init("sparkles.tv") }
 
-    /// ![􁅌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/sparkles.tv.fill.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􁅌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/sparkles.tv.fill.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var sparklesTvFill: SFSymbol { .init("sparkles.tv.fill") }
 
-    /// ![􀾏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/speaker.badge.exclamationmark.png)\
+    /// ![􀾏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/speaker.badge.exclamationmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var speakerBadgeExclamationmark: SFSymbol { .init("speaker.badge.exclamationmark") }
 
-    /// ![􀾐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/speaker.badge.exclamationmark.fill.png)\
+    /// ![􀾐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/speaker.badge.exclamationmark.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var speakerBadgeExclamationmarkFill: SFSymbol { .init("speaker.badge.exclamationmark.fill") }
 
-    /// ![􀻁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/speaker.circle.png)\
+    /// ![􀻁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/speaker.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var speakerCircle: SFSymbol { .init("speaker.circle") }
 
-    /// ![􀻂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/speaker.circle.fill.png)\
+    /// ![􀻂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/speaker.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var speakerCircleFill: SFSymbol { .init("speaker.circle.fill") }
 
-    /// ![􀯯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.2.stack.3d.bottom.filled.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀯯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.2.stack.3d.bottom.filled.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 16.0, renamed: "square2Layers3dBottomFilled")
     @available(macOS, introduced: 12.0, deprecated: 13.0, renamed: "square2Layers3dBottomFilled")
     @available(tvOS, introduced: 15.0, deprecated: 16.0, renamed: "square2Layers3dBottomFilled")
@@ -7232,13 +7170,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var square2Stack3dBottomFilled: SFSymbol { .init("square.2.stack.3d.bottom.filled") }
 
-    /// ![􀯮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.2.stack.3d.top.filled.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀯮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.2.stack.3d.top.filled.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 16.0, renamed: "square2Layers3dTopFilled")
     @available(macOS, introduced: 12.0, deprecated: 13.0, renamed: "square2Layers3dTopFilled")
     @available(tvOS, introduced: 15.0, deprecated: 16.0, renamed: "square2Layers3dTopFilled")
@@ -7247,13 +7184,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var square2Stack3dTopFilled: SFSymbol { .init("square.2.stack.3d.top.filled") }
 
-    /// ![􀯳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.3.stack.3d.bottom.filled.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀯳](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.3.stack.3d.bottom.filled.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 16.0, renamed: "square3Layers3dBottomFilled")
     @available(macOS, introduced: 12.0, deprecated: 13.0, renamed: "square3Layers3dBottomFilled")
     @available(tvOS, introduced: 15.0, deprecated: 16.0, renamed: "square3Layers3dBottomFilled")
@@ -7262,13 +7198,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var square3Stack3dBottomFilled: SFSymbol { .init("square.3.stack.3d.bottom.filled") }
 
-    /// ![􀯲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.3.stack.3d.middle.filled.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀯲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.3.stack.3d.middle.filled.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 16.0, renamed: "square3Layers3dMiddleFilled")
     @available(macOS, introduced: 12.0, deprecated: 13.0, renamed: "square3Layers3dMiddleFilled")
     @available(tvOS, introduced: 15.0, deprecated: 16.0, renamed: "square3Layers3dMiddleFilled")
@@ -7277,13 +7212,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var square3Stack3dMiddleFilled: SFSymbol { .init("square.3.stack.3d.middle.filled") }
 
-    /// ![􀯱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.3.stack.3d.top.filled.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀯱](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.3.stack.3d.top.filled.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 16.0, renamed: "square3Layers3dTopFilled")
     @available(macOS, introduced: 12.0, deprecated: 13.0, renamed: "square3Layers3dTopFilled")
     @available(tvOS, introduced: 15.0, deprecated: 16.0, renamed: "square3Layers3dTopFilled")
@@ -7292,55 +7226,54 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var square3Stack3dTopFilled: SFSymbol { .init("square.3.stack.3d.top.filled") }
 
-    /// ![􁅅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.up.circle.png)\
+    /// ![􁅅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.up.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var squareAndArrowUpCircle: SFSymbol { .init("square.and.arrow.up.circle") }
 
-    /// ![􁅆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.up.circle.fill.png)\
+    /// ![􁅆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.up.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var squareAndArrowUpCircleFill: SFSymbol { .init("square.and.arrow.up.circle.fill") }
 
-    /// ![􁂚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.up.trianglebadge.exclamationmark.png)\
+    /// ![􁂚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.up.trianglebadge.exclamationmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var squareAndArrowUpTrianglebadgeExclamationmark: SFSymbol { .init("square.and.arrow.up.trianglebadge.exclamationmark") }
 
-    /// ![􀿑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.and.at.rectangle.fill.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var squareAndAtRectangleFill: SFSymbol { .init("square.and.at.rectangle.fill") }
-
-    /// ![􀐔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.and.line.vertical.and.square.filled.png)\
+    /// ![􀿑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.and.at.rectangle.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var squareAndAtRectangleFill: SFSymbol { .init("square.and.at.rectangle.fill") }
+
+    /// ![􀐔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.and.line.vertical.and.square.filled.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var squareAndLineVerticalAndSquareFilled: SFSymbol { .init("square.and.line.vertical.and.square.filled") }
 
-    /// ![􀪚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.bottomhalf.filled.png)\
+    /// ![􀪚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.bottomhalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7348,12 +7281,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var squareBottomhalfFilled: SFSymbol { .init("square.bottomhalf.filled") }
 
-    /// ![􀧑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.dashed.inset.filled.png)\
+    /// ![􀧑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.dashed.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledSquareDashed")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledSquareDashed")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledSquareDashed")
@@ -7362,7 +7295,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var squareDashedInsetFilled: SFSymbol { .init("square.dashed.inset.filled") }
 
-    /// ![􀐒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.fill.and.line.vertical.and.square.fill.png)\
+    /// ![􀐒](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.fill.and.line.vertical.and.square.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7370,26 +7303,25 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var squareFillAndLineVerticalAndSquareFill: SFSymbol { .init("square.fill.and.line.vertical.and.square.fill") }
 
-    /// ![􀐓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.filled.and.line.vertical.and.square.png)\
+    /// ![􀐓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.filled.and.line.vertical.and.square.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var squareFilledAndLineVerticalAndSquare: SFSymbol { .init("square.filled.and.line.vertical.and.square") }
 
-    /// ![􀫝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.filled.on.square.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀫝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.filled.on.square.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var squareFilledOnSquare: SFSymbol { .init("square.filled.on.square") }
 
-    /// ![􀤲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.grid.3x1.below.line.grid.1x2.fill.png)\
+    /// ![􀤲](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.grid.3x1.below.line.grid.1x2.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7397,102 +7329,102 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var squareGrid3x1BelowLineGrid1x2Fill: SFSymbol { .init("square.grid.3x1.below.line.grid.1x2.fill") }
 
-    /// ![􀦺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.bottomleft.filled.png)\
+    /// ![􀦺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.bottomleft.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var squareGrid3x3BottomleftFilled: SFSymbol { .init("square.grid.3x3.bottomleft.filled") }
 
-    /// ![􀦻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.bottommiddle.filled.png)\
+    /// ![􀦻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.bottommiddle.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var squareGrid3x3BottommiddleFilled: SFSymbol { .init("square.grid.3x3.bottommiddle.filled") }
 
-    /// ![􀦼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.bottomright.filled.png)\
+    /// ![􀦼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.bottomright.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var squareGrid3x3BottomrightFilled: SFSymbol { .init("square.grid.3x3.bottomright.filled") }
 
-    /// ![􀦸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.middle.filled.png)\
+    /// ![􀦸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.middle.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var squareGrid3x3MiddleFilled: SFSymbol { .init("square.grid.3x3.middle.filled") }
 
-    /// ![􀦷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.middleleft.filled.png)\
+    /// ![􀦷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.middleleft.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var squareGrid3x3MiddleleftFilled: SFSymbol { .init("square.grid.3x3.middleleft.filled") }
 
-    /// ![􀦹](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.middleright.filled.png)\
+    /// ![􀦹](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.middleright.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var squareGrid3x3MiddlerightFilled: SFSymbol { .init("square.grid.3x3.middleright.filled") }
 
-    /// ![􀫐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.square.png)\
+    /// ![􀫐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.square.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var squareGrid3x3Square: SFSymbol { .init("square.grid.3x3.square") }
 
-    /// ![􀦴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.topleft.filled.png)\
+    /// ![􀦴](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.topleft.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var squareGrid3x3TopleftFilled: SFSymbol { .init("square.grid.3x3.topleft.filled") }
 
-    /// ![􀦵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.topmiddle.filled.png)\
+    /// ![􀦵](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.topmiddle.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var squareGrid3x3TopmiddleFilled: SFSymbol { .init("square.grid.3x3.topmiddle.filled") }
 
-    /// ![􀦶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.topright.filled.png)\
+    /// ![􀦶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.grid.3x3.topright.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var squareGrid3x3ToprightFilled: SFSymbol { .init("square.grid.3x3.topright.filled") }
 
-    /// ![􀾘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.inset.filled.png)\
+    /// ![􀾘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledSquare")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledSquare")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledSquare")
@@ -7501,7 +7433,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var squareInsetFilled: SFSymbol { .init("square.inset.filled") }
 
-    /// ![􀚓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.lefthalf.filled.png)\
+    /// ![􀚓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.lefthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7509,7 +7441,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var squareLefthalfFilled: SFSymbol { .init("square.lefthalf.filled") }
 
-    /// ![􀚔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.righthalf.filled.png)\
+    /// ![􀚔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.righthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7517,26 +7449,26 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var squareRighthalfFilled: SFSymbol { .init("square.righthalf.filled") }
 
-    /// ![􀻡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.text.square.png)\
+    /// ![􀻡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.text.square.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var squareTextSquare: SFSymbol { .init("square.text.square") }
 
-    /// ![􀻢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.text.square.fill.png)\
+    /// ![􀻢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.text.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var squareTextSquareFill: SFSymbol { .init("square.text.square.fill") }
 
-    /// ![􀪛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.tophalf.filled.png)\
+    /// ![􀪛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.tophalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7544,26 +7476,26 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var squareTophalfFilled: SFSymbol { .init("square.tophalf.filled") }
 
-    /// ![􁂪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/star.bubble.png)\
+    /// ![􁂪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/star.bubble.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var starBubble: SFSymbol { .init("star.bubble") }
 
-    /// ![􁂫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/star.bubble.fill.png)\
+    /// ![􁂫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/star.bubble.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var starBubbleFill: SFSymbol { .init("star.bubble.fill") }
 
-    /// ![􀋄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/star.leadinghalf.filled.png)\
+    /// ![􀋄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/star.leadinghalf.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
@@ -7572,26 +7504,26 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var starLeadinghalfFilled: SFSymbol { .init("star.leadinghalf.filled") }
 
-    /// ![􁇄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/stethoscope.circle.png)\
+    /// ![􁇄](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/stethoscope.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var stethoscopeCircle: SFSymbol { .init("stethoscope.circle") }
 
-    /// ![􁇅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/stethoscope.circle.fill.png)\
+    /// ![􁇅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/stethoscope.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var stethoscopeCircleFill: SFSymbol { .init("stethoscope.circle.fill") }
 
-    /// ![􀶉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/suitcase.png)\
+    /// ![􀶉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/suitcase.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7599,25 +7531,25 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var suitcase: SFSymbol { .init("suitcase") }
 
-    /// ![􀶋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/suitcase.cart.png)\
+    /// ![􀶋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/suitcase.cart.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var suitcaseCart: SFSymbol { .init("suitcase.cart") }
 
-    /// ![􀶌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/suitcase.cart.fill.png)\
+    /// ![􀶌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/suitcase.cart.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var suitcaseCartFill: SFSymbol { .init("suitcase.cart.fill") }
 
-    /// ![􀶊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/suitcase.fill.png)\
+    /// ![􀶊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/suitcase.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7625,13 +7557,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var suitcaseFill: SFSymbol { .init("suitcase.fill") }
 
-    /// ![􀻞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/sun.and.horizon.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀻞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/sun.and.horizon.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "sunHorizon")
     @available(macOS, introduced: 12.0, deprecated: 14.0, renamed: "sunHorizon")
     @available(tvOS, introduced: 15.0, deprecated: 17.0, renamed: "sunHorizon")
@@ -7640,12 +7571,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var sunAndHorizon: SFSymbol { .init("sun.and.horizon") }
 
-    /// ![􀻟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/sun.and.horizon.fill.png)\
+    /// ![􀻟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/sun.and.horizon.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "sunHorizonFill")
     @available(macOS, introduced: 12.0, deprecated: 14.0, renamed: "sunHorizonFill")
@@ -7655,154 +7586,153 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var sunAndHorizonFill: SFSymbol { .init("sun.and.horizon.fill") }
 
-    /// ![􀷎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/sun.max.circle.png)\
+    /// ![􀷎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/sun.max.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var sunMaxCircle: SFSymbol { .init("sun.max.circle") }
 
-    /// ![􀷏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/sun.max.circle.fill.png)\
+    /// ![􀷏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/sun.max.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var sunMaxCircleFill: SFSymbol { .init("sun.max.circle.fill") }
 
-    /// ![􀏦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/tablecells.fill.badge.ellipsis.png)\
+    /// ![􀏦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/tablecells.fill.badge.ellipsis.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var tablecellsFillBadgeEllipsis: SFSymbol { .init("tablecells.fill.badge.ellipsis") }
 
-    /// ![􀽁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/tag.square.png)\
+    /// ![􀽁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/tag.square.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var tagSquare: SFSymbol { .init("tag.square") }
 
-    /// ![􀽂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/tag.square.fill.png)\
+    /// ![􀽂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/tag.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var tagSquareFill: SFSymbol { .init("tag.square.fill") }
 
-    /// ![􀻐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/takeoutbag.and.cup.and.straw.png)\
+    /// ![􀻐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/takeoutbag.and.cup.and.straw.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var takeoutbagAndCupAndStraw: SFSymbol { .init("takeoutbag.and.cup.and.straw") }
 
-    /// ![􀻑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/takeoutbag.and.cup.and.straw.fill.png)\
+    /// ![􀻑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/takeoutbag.and.cup.and.straw.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var takeoutbagAndCupAndStrawFill: SFSymbol { .init("takeoutbag.and.cup.and.straw.fill") }
 
-    /// ![􀴦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/teletype.answer.circle.png)\
+    /// ![􀴦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/teletype.answer.circle.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Teletype feature.
     @_alwaysEmitIntoClient
     static var teletypeAnswerCircle: SFSymbol { .init("teletype.answer.circle") }
 
-    /// ![􀴧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/teletype.answer.circle.fill.png)\
+    /// ![􀴧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/teletype.answer.circle.fill.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Teletype feature.
     @_alwaysEmitIntoClient
     static var teletypeAnswerCircleFill: SFSymbol { .init("teletype.answer.circle.fill") }
 
-    /// ![􁂶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/testtube.2.png)\
+    /// ![􁂶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/testtube.2.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var testtube2: SFSymbol { .init("testtube.2") }
 
-    /// ![􀹃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/text.viewfinder.png)\
+    /// ![􀹃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/text.viewfinder.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var textViewfinder: SFSymbol { .init("text.viewfinder") }
 
-    /// ![􀺧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/theatermasks.png)\
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
-    @_alwaysEmitIntoClient
-    static var theatermasks: SFSymbol { .init("theatermasks") }
-
-    /// ![􁂻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/theatermasks.circle.png)\
+    /// ![􀺧](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/theatermasks.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var theatermasks: SFSymbol { .init("theatermasks") }
+
+    /// ![􁂻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/theatermasks.circle.png)\
+    /// Single Localization, 2 Layersets
+    ///
+    /// Layersets:
+    /// - Monochrome
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var theatermasksCircle: SFSymbol { .init("theatermasks.circle") }
 
-    /// ![􁂼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/theatermasks.circle.fill.png)\
+    /// ![􁂼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/theatermasks.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var theatermasksCircleFill: SFSymbol { .init("theatermasks.circle.fill") }
 
-    /// ![􀺨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/theatermasks.fill.png)\
+    /// ![􀺨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/theatermasks.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var theatermasksFill: SFSymbol { .init("theatermasks.fill") }
 
-    /// ![􀼮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/train.side.front.car.png)\
+    /// ![􀼮](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/train.side.front.car.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7810,7 +7740,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var trainSideFrontCar: SFSymbol { .init("train.side.front.car") }
 
-    /// ![􀼯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/train.side.middle.car.png)\
+    /// ![􀼯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/train.side.middle.car.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7818,7 +7748,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var trainSideMiddleCar: SFSymbol { .init("train.side.middle.car") }
 
-    /// ![􀼰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/train.side.rear.car.png)\
+    /// ![􀼰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/train.side.rear.car.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7826,7 +7756,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var trainSideRearCar: SFSymbol { .init("train.side.rear.car") }
 
-    /// ![􀜝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/tram.fill.tunnel.png)\
+    /// ![􀜝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/tram.fill.tunnel.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7834,16 +7764,16 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var tramFillTunnel: SFSymbol { .init("tram.fill.tunnel") }
 
-    /// ![􀡛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/trapezoid.and.line.horizontal.png)\
+    /// ![􀡛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/trapezoid.and.line.horizontal.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Hierarchical/Palette (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     @_alwaysEmitIntoClient
     static var trapezoidAndLineHorizontal: SFSymbol { .init("trapezoid.and.line.horizontal") }
 
-    /// ![􀞑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/trapezoid.and.line.horizontal.fill.png)\
+    /// ![􀞑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/trapezoid.and.line.horizontal.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7851,16 +7781,16 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var trapezoidAndLineHorizontalFill: SFSymbol { .init("trapezoid.and.line.horizontal.fill") }
 
-    /// ![􀡠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/trapezoid.and.line.vertical.png)\
+    /// ![􀡠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/trapezoid.and.line.vertical.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    /// - Hierarchical/Palette (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     @_alwaysEmitIntoClient
     static var trapezoidAndLineVertical: SFSymbol { .init("trapezoid.and.line.vertical") }
 
-    /// ![􀞐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/trapezoid.and.line.vertical.fill.png)\
+    /// ![􀞐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/trapezoid.and.line.vertical.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7868,67 +7798,67 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var trapezoidAndLineVerticalFill: SFSymbol { .init("trapezoid.and.line.vertical.fill") }
 
-    /// ![􀿍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/trash.slash.circle.png)\
+    /// ![􀿍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/trash.slash.circle.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var trashSlashCircle: SFSymbol { .init("trash.slash.circle") }
 
-    /// ![􀿎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/trash.slash.circle.fill.png)\
+    /// ![􀿎](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/trash.slash.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var trashSlashCircleFill: SFSymbol { .init("trash.slash.circle.fill") }
 
-    /// ![􀿔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/trash.slash.square.png)\
+    /// ![􀿔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/trash.slash.square.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var trashSlashSquare: SFSymbol { .init("trash.slash.square") }
 
-    /// ![􀿕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/trash.slash.square.fill.png)\
+    /// ![􀿕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/trash.slash.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var trashSlashSquareFill: SFSymbol { .init("trash.slash.square.fill") }
 
-    /// ![􀼽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/trash.square.png)\
+    /// ![􀼽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/trash.square.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var trashSquare: SFSymbol { .init("trash.square") }
 
-    /// ![􀼾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/trash.square.fill.png)\
+    /// ![􀼾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/trash.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var trashSquareFill: SFSymbol { .init("trash.square.fill") }
 
-    /// ![􁀹](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/triangle.bottomhalf.filled.png)\
+    /// ![􁀹](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/triangle.bottomhalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7936,12 +7866,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var triangleBottomhalfFilled: SFSymbol { .init("triangle.bottomhalf.filled") }
 
-    /// ![􀾙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/triangle.inset.filled.png)\
+    /// ![􀾙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/triangle.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTriangle")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledTriangle")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTriangle")
@@ -7950,7 +7880,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var triangleInsetFilled: SFSymbol { .init("triangle.inset.filled") }
 
-    /// ![􀚕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/triangle.lefthalf.filled.png)\
+    /// ![􀚕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/triangle.lefthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7958,7 +7888,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var triangleLefthalfFilled: SFSymbol { .init("triangle.lefthalf.filled") }
 
-    /// ![􀚖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/triangle.righthalf.filled.png)\
+    /// ![􀚖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/triangle.righthalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7966,7 +7896,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var triangleRighthalfFilled: SFSymbol { .init("triangle.righthalf.filled") }
 
-    /// ![􁀸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/triangle.tophalf.filled.png)\
+    /// ![􁀸](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/triangle.tophalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7974,7 +7904,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var triangleTophalfFilled: SFSymbol { .init("triangle.tophalf.filled") }
 
-    /// ![􀾠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/tshirt.png)\
+    /// ![􀾠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/tshirt.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7982,7 +7912,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var tshirt: SFSymbol { .init("tshirt") }
 
-    /// ![􀾡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/tshirt.fill.png)\
+    /// ![􀾡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/tshirt.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -7990,12 +7920,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var tshirtFill: SFSymbol { .init("tshirt.fill") }
 
-    /// ![􀷘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/tv.inset.filled.png)\
+    /// ![􀷘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/tv.inset.filled.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTv")
     @available(macOS, introduced: 12.0, deprecated: 15.0, renamed: "insetFilledTv")
     @available(tvOS, introduced: 15.0, deprecated: 18.0, renamed: "insetFilledTv")
@@ -8004,13 +7934,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var tvInsetFilled: SFSymbol { .init("tv.inset.filled") }
 
-    /// ![􀼅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/video.and.waveform.png)\
-    /// Single Localization, 3 Layersets, ⚠️ Restricted
+    /// ![􀼅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/video.and.waveform.png)\
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "videoBadgeWaveform")
@@ -8021,13 +7950,12 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var videoAndWaveform: SFSymbol { .init("video.and.waveform") }
 
-    /// ![􀼆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/video.and.waveform.fill.png)\
-    /// Single Localization, 3 Layersets, ⚠️ Restricted
+    /// ![􀼆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/video.and.waveform.fill.png)\
+    /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "videoBadgeWaveformFill")
@@ -8038,91 +7966,90 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var videoAndWaveformFill: SFSymbol { .init("video.and.waveform.fill") }
 
-    /// ![􁃊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/video.badge.ellipsis.png)\
+    /// ![􁃊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/video.badge.ellipsis.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
     @_alwaysEmitIntoClient
     static var videoBadgeEllipsis: SFSymbol { .init("video.badge.ellipsis") }
 
-    /// ![􁃋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/video.fill.badge.ellipsis.png)\
+    /// ![􁃋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/video.fill.badge.ellipsis.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
     @_alwaysEmitIntoClient
     static var videoFillBadgeEllipsis: SFSymbol { .init("video.fill.badge.ellipsis") }
 
-    /// ![􀽉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/video.square.png)\
+    /// ![􀽉](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/video.square.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
     @_alwaysEmitIntoClient
     static var videoSquare: SFSymbol { .init("video.square") }
 
-    /// ![􀽊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/video.square.fill.png)\
+    /// ![􀽊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/video.square.fill.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
     @_alwaysEmitIntoClient
     static var videoSquareFill: SFSymbol { .init("video.square.fill") }
 
-    /// ![􀶡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/wake.circle.png)\
+    /// ![􀶡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/wake.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @_alwaysEmitIntoClient
     static var wakeCircle: SFSymbol { .init("wake.circle") }
 
-    /// ![􀶢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/wake.circle.fill.png)\
+    /// ![􀶢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/wake.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var wakeCircleFill: SFSymbol { .init("wake.circle.fill") }
 
-    /// ![􀺗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/watchface.applewatch.case.png)\
+    /// ![􀺗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/watchface.applewatch.case.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
     @_alwaysEmitIntoClient
     static var watchfaceApplewatchCase: SFSymbol { .init("watchface.applewatch.case") }
 
-    /// ![􀻾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/waveform.and.magnifyingglass.png)\
-    /// Single Localization, 3 Layersets
+    /// ![􀻾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/waveform.and.magnifyingglass.png)\
+    /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.0, deprecated: 17.0, renamed: "waveformBadgeMagnifyingglass")
     @available(macOS, introduced: 12.0, deprecated: 14.0, renamed: "waveformBadgeMagnifyingglass")
     @available(tvOS, introduced: 15.0, deprecated: 17.0, renamed: "waveformBadgeMagnifyingglass")
@@ -8131,7 +8058,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var waveformAndMagnifyingglass: SFSymbol { .init("waveform.and.magnifyingglass") }
 
-    /// ![􁃨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/waveform.and.mic.png)\
+    /// ![􁃨](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/waveform.and.mic.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
@@ -8144,92 +8071,92 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var waveformAndMic: SFSymbol { .init("waveform.and.mic") }
 
-    /// ![􀻽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/waveform.badge.exclamationmark.png)\
+    /// ![􀻽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/waveform.badge.exclamationmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var waveformBadgeExclamationmark: SFSymbol { .init("waveform.badge.exclamationmark") }
 
-    /// ![􀸷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/waveform.badge.minus.png)\
+    /// ![􀸷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/waveform.badge.minus.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var waveformBadgeMinus: SFSymbol { .init("waveform.badge.minus") }
 
-    /// ![􀸶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/waveform.badge.plus.png)\
+    /// ![􀸶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/waveform.badge.plus.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var waveformBadgePlus: SFSymbol { .init("waveform.badge.plus") }
 
-    /// ![􀷖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/wifi.circle.png)\
+    /// ![􀷖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/wifi.circle.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var wifiCircle: SFSymbol { .init("wifi.circle") }
 
-    /// ![􀷗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/wifi.circle.fill.png)\
+    /// ![􀷗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/wifi.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     @_alwaysEmitIntoClient
     static var wifiCircleFill: SFSymbol { .init("wifi.circle.fill") }
 
-    /// ![􀽗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/wifi.square.png)\
+    /// ![􀽗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/wifi.square.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var wifiSquare: SFSymbol { .init("wifi.square") }
 
-    /// ![􀽘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/wifi.square.fill.png)\
+    /// ![􀽘](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/wifi.square.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var wifiSquareFill: SFSymbol { .init("wifi.square.fill") }
 
-    /// ![􀺾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/xmark.app.png)\
+    /// ![􀺾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/xmark.app.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
     @_alwaysEmitIntoClient
     static var xmarkApp: SFSymbol { .init("xmark.app") }
 
-    /// ![􀻀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/xmark.app.fill.png)\
+    /// ![􀻀](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/xmark.app.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     @_alwaysEmitIntoClient
     static var xmarkAppFill: SFSymbol { .init("xmark.app.fill") }

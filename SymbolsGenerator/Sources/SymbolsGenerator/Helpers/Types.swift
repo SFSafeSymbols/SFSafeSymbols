@@ -86,12 +86,6 @@ struct Availability: Comparable, Equatable, Hashable {
     }
 }
 
-/// A single layerset availability specification when scanned from the layerset plist
-struct LayersetAvailability {
-    var name: String
-    var availability: Availability
-}
-
 struct VersionString: RawRepresentable, Comparable, Hashable, CustomStringConvertible {
 
     let rawValue: String

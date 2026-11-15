@@ -3,30 +3,30 @@
 // 6.4 Symbols
 @available(iOS 18.5, macOS 15.5, tvOS 18.5, watchOS 11.5, visionOS 2.5, *)
 public extension SFSymbol {
-    /// ![􃀫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/apple.intelligence.badge.xmark.png)\
+    /// ![􃀫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/apple.intelligence.badge.xmark.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Intelligence.
     @_alwaysEmitIntoClient
     static var appleIntelligenceBadgeXmark: SFSymbol { .init("apple.intelligence.badge.xmark") }
 
-    /// ![􂞞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.png)\
+    /// ![􂞞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro 2.
     @_alwaysEmitIntoClient
     static var beatsPowerbeatsPro2: SFSymbol { .init("beats.powerbeats.pro.2") }
 
-    /// ![􂞡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.chargingcase.png)\
+    /// ![􂞡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.chargingcase.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -36,7 +36,7 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsPowerbeatsPro2Chargingcase: SFSymbol { .init("beats.powerbeats.pro.2.chargingcase") }
 
-    /// ![􂞢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.chargingcase.fill.png)\
+    /// ![􂞢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.chargingcase.fill.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -46,23 +46,23 @@ public extension SFSymbol {
     @_alwaysEmitIntoClient
     static var beatsPowerbeatsPro2ChargingcaseFill: SFSymbol { .init("beats.powerbeats.pro.2.chargingcase.fill") }
 
-    /// ![􂞠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.left.png)\
+    /// ![􂞠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.left.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro 2.
     @_alwaysEmitIntoClient
     static var beatsPowerbeatsPro2Left: SFSymbol { .init("beats.powerbeats.pro.2.left") }
 
-    /// ![􂞟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.right.png)\
+    /// ![􂞟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.powerbeats.pro.2.right.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats Pro 2.
     @_alwaysEmitIntoClient

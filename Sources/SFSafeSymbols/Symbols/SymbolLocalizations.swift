@@ -1122,6 +1122,19 @@ public struct Rtl_v5: SymbolLocalization {
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Rtl_v8_2: SymbolLocalization {
+    @usableFromInline
+    let source: SFSymbol
+
+    @_alwaysEmitIntoClient
+    public init(source: SFSymbol) { self.source = source }
+
+    @available(iOS 27.2, macOS 27.2, tvOS 27.2, watchOS 27.2, visionOS 27.2, *)
+    @_alwaysEmitIntoClient
+    public var rtl: SFSymbol { .init("\(source.rawValue).\(Localization.rtl.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ru: SymbolLocalization {
     @usableFromInline
     let source: SFSymbol

@@ -24,67 +24,58 @@ class GeneratorCore {
     }
 
     func run() async throws {
-        try stringifyResources()
+        // MARK: - Step 1: READ THE SYSTEM'S SF SYMBOLS DATA
 
-        // MARK: - Step 1: READ INPUT FILES
+        guard
+            case let (allSymbols, availabilities)? = try SystemSymbols
+                .read(file: "name_availability", withExtension: "plist")
+                .parse(using: SymbolManifestParser.parse)
+                else {
+            fatalError("Error reading name_availability.plist")
+        }
 
-        var nameAliases = try SFFileManager
-            .read(file: "name_aliases", withExtension: "strings")
-            .parse(using: StringDictionaryFileParser.parse)
-            .map({ (oldName: $0.key, newName: $0.value) })
-
-        let legacyAliases = try SFFileManager
-            .read(file: "legacy_aliases", withExtension: "strings")
-            .parse(using: StringDictionaryFileParser.parse)
-            .map({ (legacyName: $0.key, releasedName: $0.value) })
-
-        var symbolRestrictions = try SFFileManager
+        let symbolRestrictions = try SystemSymbols
             .read(file: "symbol_restrictions", withExtension: "strings")
             .parse(using: StringDictionaryFileParser.parse)
 
-        let missingSymbolRestrictions = try SFFileManager
-            .read(file: "symbol_restrictions_missing", withExtension: "strings")
+        let symbolCategories = try PropertyListDecoder().decode(
+            [String: [String]].self,
+            from: SystemSymbols.read(file: "symbol_categories", withExtension: "plist")
+        )
+
+        // The SF Symbols app hides restricted devices with a badge or slash (e. g. `macpro.gen1.badge.checkmark`), which
+        // are composite-only, but not other restricted composite-only symbols (e. g. `video.badge.questionmark`)
+        let symbolManifest = allSymbols.filter {
+            symbolRestrictions[$0.name] == nil
+            || symbolCategories[$0.name]?.contains("devices") != true
+            || !SystemSymbols.isCompositeOnly($0.name)
+        }
+
+        let scannedSymbolForName = Dictionary(symbolManifest.map { ($0.name, $0) }) { first, _ in first }
+
+        // Renames whose old name was public. The others are names used internally before a symbol's release.
+        let nameAliases = try SystemSymbols
+            .read(file: "name_aliases", withExtension: "strings")
             .parse(using: StringDictionaryFileParser.parse)
+            .map({ (oldName: $0.key, newName: $0.value) })
+            .filter { scannedSymbolForName[$0.oldName] != nil }
 
-        let symbolNames = try SFFileManager
-            .read(file: "symbol_names", withExtension: "txt")
-            .parse(using: SymbolNamesFileParser.parse)
+        let availabilityForVersion = Dictionary(availabilities.map { ($0.version, $0) }) { first, _ in first }
 
-        let symbolPreviews = try SFFileManager
-            .read(file: "symbol_previews", withExtension: "txt")
-            .parse(using: SymbolPreviewsFileParser.parse)
-
-        guard
-            let symbolManifest = try SFFileManager
-                .read(file: "name_availability", withExtension: "plist")
-                .parse(using: SymbolManifestParser.parse),
-            let layerSetAvailabilitiesList = try SFFileManager
-                .read(file: "layerset_availability", withExtension: "plist")
-                .parse(using: LayersetAvailabilityParser.parse)
-        else {
-            fatalError("Error reading input files")
+        /// The layersets other than monochrome, with the release that introduced them.
+        func layersetAvailabilities(of name: String) -> [Availability: Set<String>] {
+            SystemSymbols.layersetVersions(of: name).reduce(into: [:]) { result, layerset in
+                guard let availability = availabilityForVersion[layerset.value] else {
+                    fatalError("SF Symbols \(layerset.value) (\(layerset.key) layerset of \(name)) has no release in name_availability.plist")
+                }
+                result[availability, default: []].insert(layerset.key)
+            }
         }
 
         // MARK: - Step 2: MERGE INTO SINGLE DATABASE
 
-        // Create symbol preview dictionary based on symbolNames and symbolPreviews
-        let symbolPreviewForName: [String: String] = Dictionary(
-            uniqueKeysWithValues: zip(symbolNames, symbolPreviews)
-        )
         var symbolsWherePreviewIsntAvailable: [String] = []
 
-        // Remove legacy symbols
-        let legacyNames = Set(legacyAliases.map(\.legacyName))
-        nameAliases = nameAliases.filter { !legacyNames.contains($0.oldName) }
-
-        // Add missing restricted symbols
-        symbolRestrictions = symbolRestrictions
-            .merging(missingSymbolRestrictions) { original, _ in
-                print("Duplicate restricted symbol was found")
-                return original
-            }
-
-        let scannedSymbolForName = Dictionary(symbolManifest.map { ($0.name, $0) }) { first, _ in first }
         let newNameForOldName = Dictionary(nameAliases.map { ($0.oldName, $0.newName) }) { first, _ in first }
         let oldNamesForNewName = Dictionary(grouping: nameAliases, by: \.newName).mapValues { $0.map(\.oldName) }
 
@@ -117,8 +108,7 @@ class GeneratorCore {
 
             // Only lookup layerset availability for main name (without localization suffix)
             // Assuming it is equal across all localizations...
-            let availableLayersets: [Availability: Set<String>] = (layerSetAvailabilitiesList[nameWithoutSuffix] ?? [])
-                .reduce(into: [:]) { $0[$1.availability, default: []].insert($1.name) }
+            let availableLayersets = layersetAvailabilities(of: nameWithoutSuffix)
 
             if let index = symbolIndexForName[nameWithoutSuffix] {
                 // The symbol already exists -> Manage localizations
@@ -138,7 +128,7 @@ class GeneratorCore {
 
             // The symbol doesn't exist yet
             let otherAliases = allAliases(for: nameWithoutSuffix)
-            let preview = otherAliases.lazy.compactMap { symbolPreviewForName[$0.name] }.first
+            let preview = otherAliases.lazy.compactMap { SystemSymbols.preview(of: $0.name) }.first
             if preview == nil {
                 symbolsWherePreviewIsntAvailable.append(nameWithoutSuffix)
             }
@@ -278,7 +268,7 @@ class GeneratorCore {
         }
         for symbol in symbols {
             for (availability, localizations) in symbol.availableLocalizations
-            where symbol.availability > availability && availabilities.contains(availability) {
+                    where symbol.availability > availability && availabilities.contains(availability) {
                 for localization in localizations {
                     usedCombinations[localization.structName(for: availability)] = (localization, availability)
                 }
@@ -441,7 +431,13 @@ class GeneratorCore {
 
         // The image's alt text is the preview glyph: autocomplete shows alt text instead of images, while Quick Help
         // shows the image, and can't render the glyph anyway (its fonts don't contain SF Symbols)
-        var lines = ["![\(symbol.preview ?? symbol.name)](\(makeImageURL(for: symbol)))"]
+        let imageURL = makeImageURL(for: symbol)
+        var lines = ["![\(symbol.preview ?? "No preview available")](\(imageURL?.absoluteString ?? ""))"]
+        if imageURL != nil {
+            // A hard line break (trailing `\`) keeps the summary in the first paragraph, which autocomplete shows,
+            // while giving it more room below the image in Quick Help
+            lines[0] += "\\"
+        }
 
         let summary = [
             localizationCount > 1 ? "\(localizationCount) Localizations" : "Single Localization",
@@ -449,9 +445,6 @@ class GeneratorCore {
             symbol.restriction != nil ? "⚠️ Restricted" : nil
         ].compactMap { $0 }.joined(separator: ", ")
         if summary.isNotEmpty {
-            // A hard line break (trailing `\`) keeps the summary in the first paragraph, which autocomplete shows,
-            // while giving it more room below the image in Quick Help
-            lines[0] += "\\"
             lines.append(summary)
         }
 
@@ -468,7 +461,7 @@ class GeneratorCore {
         if hasLayersetInfo {
             // Generate layerset availability docs based on the assumption that layersets don't get removed
             lines += ["", "Layersets:", "- Monochrome"]
-            lines += Self.introductionList(completeLayersets, of: symbol) { $0.sorted().map(\.capitalized) }
+            lines += Self.introductionList(completeLayersets, of: symbol) { $0.sorted().map(Self.layersetTitle) }
         } else {
             lines += ["", "Layerset information unavailable"]
         }
@@ -495,11 +488,17 @@ class GeneratorCore {
             guard newItems.isNotEmpty else { continue }
             handledItems.formUnion(newItems)
             let notice = availability < symbol.availability
-                ? " (iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS))"
-                : ""
+            ? " (iOS \(availability.iOS), macOS \(availability.macOS), tvOS \(availability.tvOS), watchOS \(availability.watchOS))"
+            : ""
             lines += titles(newItems).map { "- \($0)\(notice)" }
         }
         return lines
+    }
+
+    /// The documented name of a layerset. Palette rendering uses the hierarchical layerset (the SF Symbols app shows
+    /// the hierarchical availability for both), so they're documented, and counted, as one.
+    private static func layersetTitle(_ layerset: String) -> String {
+        layerset == "hierarchical" ? "Hierarchical/Palette" : layerset.capitalized
     }
 
     private func layersetsOfAllVersions(of symbol: Symbol) -> [Availability: Set<String>] {
@@ -509,7 +508,8 @@ class GeneratorCore {
         return symbol.availableLayersets.merging(symbolsByName[otherVersion.name]!.availableLayersets) { $0.union($1) }
     }
 
-    private func makeImageURL(for symbol: Symbol) -> URL {
+    private func makeImageURL(for symbol: Symbol) -> URL? {
+        guard Self.symbolToNSImage(symbol) != nil else { return nil }
 
         func make(_ user: String, _ ref: String) -> URL {
             let dir = Self.imageDirectoryPath
@@ -544,15 +544,20 @@ class GeneratorCore {
 
     // MARK: - Images
 
-    private static func symbolToPNG(_ symbol: Symbol, imagesDir: URL) async throws {
+    private static func symbolToNSImage(_ symbol: Symbol) -> NSImage? {
         let configuration = NSImage.SymbolConfiguration(
             pointSize: 35,
             weight: .black
         )
+        return NSImage(
+            systemSymbolName: symbol.name,
+            accessibilityDescription: nil
+        )?.withSymbolConfiguration(configuration)
+    }
 
-        guard let nsImage = NSImage(systemSymbolName: symbol.name, accessibilityDescription: nil)?.withSymbolConfiguration(configuration),
-              let imageData = nsImage.exportSymbol()
-        else {
+    private static func symbolToPNG(_ symbol: Symbol, imagesDir: URL) async throws {
+        guard let nsImage = symbolToNSImage(symbol),
+              let imageData = nsImage.exportSymbol() else {
             print("Cannot export SFSymbol(\(symbol.name)) to PNG file")
             return
         }

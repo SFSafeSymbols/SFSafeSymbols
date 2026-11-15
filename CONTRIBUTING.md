@@ -22,12 +22,12 @@ Please write **meaningful commit messages** (see rationale [here](http://chris.b
 
 With the current structure of the repository, where **most code is generated** by the `SymbolsGenerator` helper tool, it is quite easy to update `SFSafeSymbols` to a new SF Symbols version (as long as there are no breaking changes in the way Apple organizes the symbols):
 
-1. **Update the files** in the `/SymbolsGenerator/Sources/SymbolsGenerator` folder to the latest SF Symbols version.
-    * `symbol_names.txt`: SFSymbols app -> sort by name -> select all -> right-click -> 'Copy Names'.
-    * `symbol_previews.txt`: SFSymbols app -> sort by name -> select all -> right-click -> 'Copy Symbols'.
-    * `layerset_availability.plist` and `legacy_aliases_strings.txt`: Copy from `SF Symbols.app/Contents/Resources/Metadata-Public` (though it seems like the latter isn't updated by Apple anymore).
-    * `name_availability.plist`, `name_aliases.strings` and `symbol_restrictions.strings`: Copy from `/System/Library/CoreServices/CoreGlyphs.bundle/Contents/Resources/` or `/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/CoreServices/CoreGlyphs.bundle/`. The latter variant may be the easier one because it only requires the installation of a new Xcode instead of an OS update.
-    * `symbol_restrictions_missing.strings`: Is created manually for restricted symbols that are missing from `symbol_restrictions.strings`.
+1. **Update your Mac to the macOS version that ships the new SF Symbols version.** The generator reads all symbol data from the Mac it runs on, so the generated code matches that Mac's SF Symbols version. No files need to be copied into the repository. The generator loads:
+    * `name_availability.plist`, `name_aliases.strings`, `symbol_restrictions.strings` and `symbol_categories.plist` from `/System/Library/CoreServices/CoreGlyphs.bundle/Contents/Resources/`: the symbols with their availability, renames, use restrictions and categories.
+    * The symbols' metadata from the private `/System/Library/PrivateFrameworks/SFSymbols.framework`: the preview glyphs used in the documentation and the layerset availability. The generator accesses it through the module interface and linker stub in `/SymbolsGenerator/PrivateFrameworks`.
+    * The symbol png images from AppKit (`NSImage(systemSymbolName:accessibilityDescription:)`).
+
+    If Apple changes the format of these files, update the parsers in `/SymbolsGenerator/Sources/SymbolsGenerator/Parsers` and `/SymbolsGenerator/Sources/SymbolsGenerator/Helpers/SystemSymbols.swift`.
 2. Open a terminal and change to the root folder of the repository. **Then run `make pr`** (it detects your username and branch from git; use `make pr <username> <branch-name>` to set them explicitly).
 3. If new files are created by the generator tool (which is expected to happen when updating to a new SF Symbols version), make sure they are **added to the `SFSafeSymbols.xcodeproj`**.
 4. **Update the `README.md`**, so that support for the new SF Symbols version is mentioned there.

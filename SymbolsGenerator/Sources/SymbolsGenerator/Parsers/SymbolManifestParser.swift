@@ -13,7 +13,8 @@ struct SymbolManifestParser {
         var yearToReleaseMapping: [String: [String: String]]
     }
 
-    static func parse(availabilityFileData: Data) throws -> SymbolManifest? {
+    /// The symbols, and all releases of `year_to_release` (some of which may introduce no symbols).
+    static func parse(availabilityFileData: Data) throws -> (symbols: SymbolManifest, availabilities: [Availability])? {
         let data = availabilityFileData
         let plist = try PropertyListDecoder().decode(Plist.self, from: data)
 
@@ -47,6 +48,6 @@ struct SymbolManifestParser {
             symbolsForName[scannedSymbol.name]!.allSatisfy { $0.availability == scannedSymbol.availability }
         }
         
-        return availabilityFile
+        return (availabilityFile, availabilities)
     }
 }
