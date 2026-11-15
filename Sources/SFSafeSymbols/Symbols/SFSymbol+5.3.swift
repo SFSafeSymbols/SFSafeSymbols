@@ -3,246 +3,246 @@
 // 5.3 Symbols
 @available(iOS 17.4, macOS 14.4, tvOS 17.4, watchOS 10.4, visionOS 1.1, *)
 public extension SFSymbol {
-    /// 􁂙
-    /// ![apple.meditate](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/apple.meditate.png)
+    /// ![􁂙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/apple.meditate.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Meditation in Fitness+.
-    static var appleMeditate: SFSymbol { .init(rawValue: "apple.meditate") }
+    @_alwaysEmitIntoClient
+    static var appleMeditate: SFSymbol { .init("apple.meditate") }
 
-    /// 􁟾
-    /// ![apple.meditate.square.stack](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/apple.meditate.square.stack.png)
+    /// ![􁟾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/apple.meditate.square.stack.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Meditation in Fitness+.
-    static var appleMeditateSquareStack: SFSymbol { .init(rawValue: "apple.meditate.square.stack") }
+    @_alwaysEmitIntoClient
+    static var appleMeditateSquareStack: SFSymbol { .init("apple.meditate.square.stack") }
 
-    /// 􁟿
-    /// ![apple.meditate.square.stack.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/apple.meditate.square.stack.fill.png)
+    /// ![􁟿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/apple.meditate.square.stack.fill.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Meditation in Fitness+.
-    static var appleMeditateSquareStackFill: SFSymbol { .init(rawValue: "apple.meditate.square.stack.fill") }
+    @_alwaysEmitIntoClient
+    static var appleMeditateSquareStackFill: SFSymbol { .init("apple.meditate.square.stack.fill") }
 
-    /// 􂝕
-    /// ![apple.terminal.circle](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/apple.terminal.circle.png)
+    /// ![􂝕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/apple.terminal.circle.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var appleTerminalCircle: SFSymbol { .init(rawValue: "apple.terminal.circle") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var appleTerminalCircle: SFSymbol { .init("apple.terminal.circle") }
 
-    /// 􂝖
-    /// ![apple.terminal.circle.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/apple.terminal.circle.fill.png)
+    /// ![􂝖](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/apple.terminal.circle.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
-    static var appleTerminalCircleFill: SFSymbol { .init(rawValue: "apple.terminal.circle.fill") }
+    @_alwaysEmitIntoClient
+    static var appleTerminalCircleFill: SFSymbol { .init("apple.terminal.circle.fill") }
 
-    /// 􂞹
-    /// ![arrow.down.app.dashed](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.down.app.dashed.png)
+    /// ![􂞹](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.down.app.dashed.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var arrowDownAppDashed: SFSymbol { .init(rawValue: "arrow.down.app.dashed") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var arrowDownAppDashed: SFSymbol { .init("arrow.down.app.dashed") }
 
-    /// 􂞺
-    /// ![arrow.down.app.dashed.trianglebadge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/arrow.down.app.dashed.trianglebadge.exclamationmark.png)
+    /// ![􂞺](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/arrow.down.app.dashed.trianglebadge.exclamationmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
-    static var arrowDownAppDashedTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "arrow.down.app.dashed.trianglebadge.exclamationmark") }
+    @_alwaysEmitIntoClient
+    static var arrowDownAppDashedTrianglebadgeExclamationmark: SFSymbol { .init("arrow.down.app.dashed.trianglebadge.exclamationmark") }
 
-    /// 􂛍
-    /// ![audio.jack.mono](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/audio.jack.mono.png)
+    /// ![􂛍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/audio.jack.mono.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static var audioJackMono: SFSymbol { .init(rawValue: "audio.jack.mono") }
+    @_alwaysEmitIntoClient
+    static var audioJackMono: SFSymbol { .init("audio.jack.mono") }
 
-    /// 􂛋
-    /// ![audio.jack.stereo](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/audio.jack.stereo.png)
+    /// ![􂛋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/audio.jack.stereo.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static var audioJackStereo: SFSymbol { .init(rawValue: "audio.jack.stereo") }
+    @_alwaysEmitIntoClient
+    static var audioJackStereo: SFSymbol { .init("audio.jack.stereo") }
 
-    /// 􂕙
-    /// ![ipad.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ipad.badge.exclamationmark.png)
+    /// ![􂕙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/ipad.badge.exclamationmark.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
-    static var ipadBadgeExclamationmark: SFSymbol { .init(rawValue: "ipad.badge.exclamationmark") }
+    @_alwaysEmitIntoClient
+    static var ipadBadgeExclamationmark: SFSymbol { .init("ipad.badge.exclamationmark") }
 
-    /// 􂕑
-    /// ![ipad.gen1.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ipad.gen1.badge.exclamationmark.png)
+    /// ![􂕑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/ipad.gen1.badge.exclamationmark.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
-    static var ipadGen1BadgeExclamationmark: SFSymbol { .init(rawValue: "ipad.gen1.badge.exclamationmark") }
+    @_alwaysEmitIntoClient
+    static var ipadGen1BadgeExclamationmark: SFSymbol { .init("ipad.gen1.badge.exclamationmark") }
 
-    /// 􂕓
-    /// ![ipad.gen1.landscape.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ipad.gen1.landscape.badge.exclamationmark.png)
+    /// ![􂕓](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/ipad.gen1.landscape.badge.exclamationmark.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
-    static var ipadGen1LandscapeBadgeExclamationmark: SFSymbol { .init(rawValue: "ipad.gen1.landscape.badge.exclamationmark") }
+    @_alwaysEmitIntoClient
+    static var ipadGen1LandscapeBadgeExclamationmark: SFSymbol { .init("ipad.gen1.landscape.badge.exclamationmark") }
 
-    /// 􂕕
-    /// ![ipad.gen2.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ipad.gen2.badge.exclamationmark.png)
+    /// ![􂕕](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/ipad.gen2.badge.exclamationmark.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
-    static var ipadGen2BadgeExclamationmark: SFSymbol { .init(rawValue: "ipad.gen2.badge.exclamationmark") }
+    @_alwaysEmitIntoClient
+    static var ipadGen2BadgeExclamationmark: SFSymbol { .init("ipad.gen2.badge.exclamationmark") }
 
-    /// 􂕗
-    /// ![ipad.gen2.landscape.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ipad.gen2.landscape.badge.exclamationmark.png)
+    /// ![􂕗](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/ipad.gen2.landscape.badge.exclamationmark.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
-    static var ipadGen2LandscapeBadgeExclamationmark: SFSymbol { .init(rawValue: "ipad.gen2.landscape.badge.exclamationmark") }
+    @_alwaysEmitIntoClient
+    static var ipadGen2LandscapeBadgeExclamationmark: SFSymbol { .init("ipad.gen2.landscape.badge.exclamationmark") }
 
-    /// 􂕛
-    /// ![ipad.landscape.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/ipad.landscape.badge.exclamationmark.png)
+    /// ![􂕛](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/ipad.landscape.badge.exclamationmark.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
-    static var ipadLandscapeBadgeExclamationmark: SFSymbol { .init(rawValue: "ipad.landscape.badge.exclamationmark") }
+    @_alwaysEmitIntoClient
+    static var ipadLandscapeBadgeExclamationmark: SFSymbol { .init("ipad.landscape.badge.exclamationmark") }
 
-    /// 􂕏
-    /// ![iphone.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.badge.exclamationmark.png)
+    /// ![􂕏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.badge.exclamationmark.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
-    static var iphoneBadgeExclamationmark: SFSymbol { .init(rawValue: "iphone.badge.exclamationmark") }
+    @_alwaysEmitIntoClient
+    static var iphoneBadgeExclamationmark: SFSymbol { .init("iphone.badge.exclamationmark") }
 
-    /// 􂓻
-    /// ![iphone.gen1.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.gen1.badge.exclamationmark.png)
+    /// ![􂓻](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.gen1.badge.exclamationmark.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
-    static var iphoneGen1BadgeExclamationmark: SFSymbol { .init(rawValue: "iphone.gen1.badge.exclamationmark") }
+    @_alwaysEmitIntoClient
+    static var iphoneGen1BadgeExclamationmark: SFSymbol { .init("iphone.gen1.badge.exclamationmark") }
 
-    /// 􂕋
-    /// ![iphone.gen2.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.gen2.badge.exclamationmark.png)
+    /// ![􂕋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.gen2.badge.exclamationmark.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
-    static var iphoneGen2BadgeExclamationmark: SFSymbol { .init(rawValue: "iphone.gen2.badge.exclamationmark") }
+    @_alwaysEmitIntoClient
+    static var iphoneGen2BadgeExclamationmark: SFSymbol { .init("iphone.gen2.badge.exclamationmark") }
 
-    /// 􂕍
-    /// ![iphone.gen3.badge.exclamationmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/iphone.gen3.badge.exclamationmark.png)
+    /// ![􂕍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/iphone.gen3.badge.exclamationmark.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
-    static var iphoneGen3BadgeExclamationmark: SFSymbol { .init(rawValue: "iphone.gen3.badge.exclamationmark") }
+    @_alwaysEmitIntoClient
+    static var iphoneGen3BadgeExclamationmark: SFSymbol { .init("iphone.gen3.badge.exclamationmark") }
 
-    /// 􂙣
-    /// ![medal.star](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/medal.star.png)
+    /// ![􂙣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/medal.star.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static var medalStar: SFSymbol { .init(rawValue: "medal.star") }
+    @_alwaysEmitIntoClient
+    static var medalStar: SFSymbol { .init("medal.star") }
 
-    /// 􂙤
-    /// ![medal.star.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/medal.star.fill.png)
+    /// ![􂙤](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/medal.star.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static var medalStarFill: SFSymbol { .init(rawValue: "medal.star.fill") }
+    @_alwaysEmitIntoClient
+    static var medalStarFill: SFSymbol { .init("medal.star.fill") }
 
-    /// 􂞶
-    /// ![plus.circle.dashed](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/plus.circle.dashed.png)
+    /// ![􂞶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/plus.circle.dashed.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var plusCircleDashed: SFSymbol { .init(rawValue: "plus.circle.dashed") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var plusCircleDashed: SFSymbol { .init("plus.circle.dashed") }
 
-    /// 􀮙
-    /// ![translate](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/translate.png)
+    /// ![􀮙](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/translate.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s translation features.
-    static var translate: SFSymbol { .init(rawValue: "translate") }
+    @_alwaysEmitIntoClient
+    static var translate: SFSymbol { .init("translate") }
 }

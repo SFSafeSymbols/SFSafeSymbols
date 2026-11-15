@@ -2,17 +2,21 @@
 
 @available(iOS 18.5, macOS 15.5, tvOS 18.5, watchOS 11.5, visionOS 2.5, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince6_4: [SFSymbol : Set<Localization>] {
         [
-            appleIntelligenceBadgeXmark: [],
-            beatsPowerbeatsPro2: [],
-            beatsPowerbeatsPro2Chargingcase: [],
-            beatsPowerbeatsPro2ChargingcaseFill: [],
-            beatsPowerbeatsPro2Left: [],
-            beatsPowerbeatsPro2Right: []
+            .init("apple.intelligence.badge.xmark"): [], // SFSymbol.appleIntelligenceBadgeXmark
+            .init("beats.powerbeats.pro.2"): [], // SFSymbol.beatsPowerbeatsPro2
+            .init("beats.powerbeats.pro.2.chargingcase"): [], // SFSymbol.beatsPowerbeatsPro2Chargingcase
+            .init("beats.powerbeats.pro.2.chargingcase.fill"): [], // SFSymbol.beatsPowerbeatsPro2ChargingcaseFill
+            .init("beats.powerbeats.pro.2.left"): [], // SFSymbol.beatsPowerbeatsPro2Left
+            .init("beats.powerbeats.pro.2.right"): [] // SFSymbol.beatsPowerbeatsPro2Right
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince6_4: Set<SFSymbol> {
         []
     }

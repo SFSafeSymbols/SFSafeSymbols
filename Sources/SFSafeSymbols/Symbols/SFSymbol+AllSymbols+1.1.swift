@@ -2,29 +2,33 @@
 
 @available(iOS 13.1, macOS 11.0, tvOS 13.0, watchOS 6.1, visionOS 1.0, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince1_1: [SFSymbol : Set<Localization>] {
         [
-            arrowUturnLeftCircleBadgeEllipsis: [],
-            aspectratio: [],
-            aspectratioFill: [],
-            car: [],
-            circleGrid2x2: [],
-            circleGrid2x2Fill: [],
-            flashlightOffFill: [],
-            flashlightOnFill: [],
-            flipHorizontal: [],
-            flipHorizontalFill: [],
-            mappinCircle: [],
-            mappinCircleFill: [],
-            paperclipCircle: [],
-            paperclipCircleFill: [],
-            pinCircle: [],
-            pinCircleFill: [],
-            scissorsBadgeEllipsis: [],
-            studentdesk: []
+            .init("arrow.uturn.left.circle.badge.ellipsis"): [], // SFSymbol.arrowUturnLeftCircleBadgeEllipsis
+            .init("aspectratio"): [], // SFSymbol.aspectratio
+            .init("aspectratio.fill"): [], // SFSymbol.aspectratioFill
+            .init("car"): [], // SFSymbol.car
+            .init("circle.grid.2x2"): [], // SFSymbol.circleGrid2x2
+            .init("circle.grid.2x2.fill"): [], // SFSymbol.circleGrid2x2Fill
+            .init("flashlight.off.fill"): [], // SFSymbol.flashlightOffFill
+            .init("flashlight.on.fill"): [], // SFSymbol.flashlightOnFill
+            .init("flip.horizontal"): [], // SFSymbol.flipHorizontal
+            .init("flip.horizontal.fill"): [], // SFSymbol.flipHorizontalFill
+            .init("mappin.circle"): [], // SFSymbol.mappinCircle
+            .init("mappin.circle.fill"): [], // SFSymbol.mappinCircleFill
+            .init("paperclip.circle"): [], // SFSymbol.paperclipCircle
+            .init("paperclip.circle.fill"): [], // SFSymbol.paperclipCircleFill
+            .init("pin.circle"): [], // SFSymbol.pinCircle
+            .init("pin.circle.fill"): [], // SFSymbol.pinCircleFill
+            .init("scissors.badge.ellipsis"): [], // SFSymbol.scissorsBadgeEllipsis
+            .init("studentdesk"): [] // SFSymbol.studentdesk
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince1_1: Set<SFSymbol> {
         []
     }

@@ -28,10 +28,16 @@
 		949BD15F2B74156800A10AB7 /* Button+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949BD15E2B74156800A10AB7 /* Button+SFSymbol.swift */; };
 		A43C044E2E14796600BD5E45 /* SFSymbol+6.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C044B2E14796600BD5E45 /* SFSymbol+6.3.swift */; };
 		A43C044F2E14796600BD5E45 /* SFSymbol+7.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C044D2E14796600BD5E45 /* SFSymbol+7.0.swift */; };
+		76CB51470A5757E55AB8CE12 /* SFSymbol+7.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1365802CD8560750B0DC799 /* SFSymbol+7.1.swift */; };
+		DC080ED89F83426283A97E19 /* SFSymbol+8.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE68BFBAF35AEF480AF8F59 /* SFSymbol+8.0.swift */; };
+		9A85F8B49C12D7A62CFFCB7E /* SFSymbol+8.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC03056469A6DAF6956DD3E /* SFSymbol+8.2.swift */; };
 		A43C04502E14796600BD5E45 /* SFSymbol+6.4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C044C2E14796600BD5E45 /* SFSymbol+6.4.swift */; };
 		A43C04542E14798800BD5E45 /* SFSymbol+AllSymbols+6.4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C04522E14798800BD5E45 /* SFSymbol+AllSymbols+6.4.swift */; };
 		A43C04552E14798800BD5E45 /* SFSymbol+AllSymbols+6.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C04512E14798800BD5E45 /* SFSymbol+AllSymbols+6.3.swift */; };
 		A43C04562E14798800BD5E45 /* SFSymbol+AllSymbols+7.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C04532E14798800BD5E45 /* SFSymbol+AllSymbols+7.0.swift */; };
+		D9FE12163BFAE3B2FB832A51 /* SFSymbol+AllSymbols+7.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230BAF26F9D04BB2EEF92C5B /* SFSymbol+AllSymbols+7.1.swift */; };
+		4C99DCFCC2B924B8D0F8026D /* SFSymbol+AllSymbols+8.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010B48B0EB4BECD9E2292F87 /* SFSymbol+AllSymbols+8.0.swift */; };
+		8B597A18250D595A14F46818 /* SFSymbol+AllSymbols+8.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D38146797268F567EDF7D /* SFSymbol+AllSymbols+8.2.swift */; };
 		B0031A482D6945720040002B /* SFSymbol+AllSymbols+6.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0031A462D6945720040002B /* SFSymbol+AllSymbols+6.1.swift */; };
 		B0031A492D6945720040002B /* SFSymbol+6.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0031A442D6945720040002B /* SFSymbol+6.1.swift */; };
 		B0031A4A2D6945720040002B /* SFSymbol+6.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0031A452D6945720040002B /* SFSymbol+6.2.swift */; };
@@ -63,6 +69,7 @@
 		CC1D812F27F758D200CACDC7 /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D812E27F758D200CACDC7 /* TestHelper.swift */; };
 		CCA29C3D285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA29C3B285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift */; };
 		CCA29C3E285B4E9400133245 /* SFSymbol+4.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA29C3C285B4E9400133245 /* SFSymbol+4.0.swift */; };
+		5AFE10C12F0B000100A1B2C3 /* LockWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE10C22F0B000100A1B2C3 /* LockWrapper.swift */; };
 		CCCCCFEC252F61E700C7CE9F /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE5252F61E700C7CE9F /* SFSymbol.swift */; };
 		CCCCCFEE252F61E700C7CE9F /* Image+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE8252F61E700C7CE9F /* Image+SFSymbol.swift */; };
 		CCCCCFEF252F61E700C7CE9F /* UIApplicationShortcutIcon+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCFE9252F61E700C7CE9F /* UIApplicationShortcutIcon+SFSymbol.swift */; };
@@ -116,9 +123,15 @@
 		A43C044B2E14796600BD5E45 /* SFSymbol+6.3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+6.3.swift"; sourceTree = "<group>"; };
 		A43C044C2E14796600BD5E45 /* SFSymbol+6.4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+6.4.swift"; sourceTree = "<group>"; };
 		A43C044D2E14796600BD5E45 /* SFSymbol+7.0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+7.0.swift"; sourceTree = "<group>"; };
+		D1365802CD8560750B0DC799 /* SFSymbol+7.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+7.1.swift"; sourceTree = "<group>"; };
+		7FE68BFBAF35AEF480AF8F59 /* SFSymbol+8.0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+8.0.swift"; sourceTree = "<group>"; };
+		2AC03056469A6DAF6956DD3E /* SFSymbol+8.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+8.2.swift"; sourceTree = "<group>"; };
 		A43C04512E14798800BD5E45 /* SFSymbol+AllSymbols+6.3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+6.3.swift"; sourceTree = "<group>"; };
 		A43C04522E14798800BD5E45 /* SFSymbol+AllSymbols+6.4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+6.4.swift"; sourceTree = "<group>"; };
 		A43C04532E14798800BD5E45 /* SFSymbol+AllSymbols+7.0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+7.0.swift"; sourceTree = "<group>"; };
+		230BAF26F9D04BB2EEF92C5B /* SFSymbol+AllSymbols+7.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+7.1.swift"; sourceTree = "<group>"; };
+		010B48B0EB4BECD9E2292F87 /* SFSymbol+AllSymbols+8.0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+8.0.swift"; sourceTree = "<group>"; };
+		0D2D38146797268F567EDF7D /* SFSymbol+AllSymbols+8.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+8.2.swift"; sourceTree = "<group>"; };
 		B0031A442D6945720040002B /* SFSymbol+6.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+6.1.swift"; sourceTree = "<group>"; };
 		B0031A452D6945720040002B /* SFSymbol+6.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+6.2.swift"; sourceTree = "<group>"; };
 		B0031A462D6945720040002B /* SFSymbol+AllSymbols+6.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+6.1.swift"; sourceTree = "<group>"; };
@@ -150,6 +163,7 @@
 		CC1D812E27F758D200CACDC7 /* TestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelper.swift; sourceTree = "<group>"; };
 		CCA29C3B285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+4.0.swift"; sourceTree = "<group>"; };
 		CCA29C3C285B4E9400133245 /* SFSymbol+4.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+4.0.swift"; sourceTree = "<group>"; };
+		5AFE10C22F0B000100A1B2C3 /* LockWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockWrapper.swift; sourceTree = "<group>"; };
 		CCCCCFE5252F61E700C7CE9F /* SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbol.swift; sourceTree = "<group>"; };
 		CCCCCFE8252F61E700C7CE9F /* Image+SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+SFSymbol.swift"; sourceTree = "<group>"; };
 		CCCCCFE9252F61E700C7CE9F /* UIApplicationShortcutIcon+SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplicationShortcutIcon+SFSymbol.swift"; sourceTree = "<group>"; };
@@ -173,7 +187,6 @@
 		OBJ_30 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_31 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		OBJ_32 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
-		OBJ_33 /* SFSafeSymbols.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SFSafeSymbols.podspec; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		"SFSafeSymbols::SFSafeSymbols::Product" /* SFSafeSymbols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SFSafeSymbols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SFSafeSymbols::SFSafeSymbolsTests::Product" /* SFSafeSymbolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = SFSafeSymbolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,10 +214,19 @@
 		96244F11253F15B700253B88 /* SFSafeSymbols */ = {
 			isa = PBXGroup;
 			children = (
+				5AFE10C32F0B000100A1B2C3 /* Helpers */,
 				CCCCCFE6252F61E700C7CE9F /* Initializers */,
 				CCCCCFE4252F61E700C7CE9F /* Symbols */,
 			);
 			path = SFSafeSymbols;
+			sourceTree = "<group>";
+		};
+		5AFE10C32F0B000100A1B2C3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5AFE10C22F0B000100A1B2C3 /* LockWrapper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		B0031A542D6A166E0040002B /* AppIntents */ = {
@@ -289,6 +311,9 @@
 				A43C044B2E14796600BD5E45 /* SFSymbol+6.3.swift */,
 				A43C044C2E14796600BD5E45 /* SFSymbol+6.4.swift */,
 				A43C044D2E14796600BD5E45 /* SFSymbol+7.0.swift */,
+				D1365802CD8560750B0DC799 /* SFSymbol+7.1.swift */,
+				7FE68BFBAF35AEF480AF8F59 /* SFSymbol+8.0.swift */,
+				2AC03056469A6DAF6956DD3E /* SFSymbol+8.2.swift */,
 				636A46B528002818007E6028 /* SFSymbol+AllSymbols.swift */,
 				636A46AB28002816007E6028 /* SFSymbol+AllSymbols+1.0.swift */,
 				B0AEA82E2801A8FE00A02015 /* SFSymbol+AllSymbols+1.1.swift */,
@@ -313,6 +338,9 @@
 				A43C04512E14798800BD5E45 /* SFSymbol+AllSymbols+6.3.swift */,
 				A43C04522E14798800BD5E45 /* SFSymbol+AllSymbols+6.4.swift */,
 				A43C04532E14798800BD5E45 /* SFSymbol+AllSymbols+7.0.swift */,
+				230BAF26F9D04BB2EEF92C5B /* SFSymbol+AllSymbols+7.1.swift */,
+				010B48B0EB4BECD9E2292F87 /* SFSymbol+AllSymbols+8.0.swift */,
+				0D2D38146797268F567EDF7D /* SFSymbol+AllSymbols+8.2.swift */,
 				636A46AF28002817007E6028 /* SymbolLocalizations.swift */,
 			);
 			path = Symbols;
@@ -368,7 +396,6 @@
 				OBJ_27 /* LICENSE */,
 				OBJ_31 /* Logo.png */,
 				OBJ_30 /* README.md */,
-				OBJ_33 /* SFSafeSymbols.podspec */,
 			);
 			name = "Root Files";
 			sourceTree = "<group>";
@@ -508,6 +535,9 @@
 				CCA29C3E285B4E9400133245 /* SFSymbol+4.0.swift in Sources */,
 				A43C044E2E14796600BD5E45 /* SFSymbol+6.3.swift in Sources */,
 				A43C044F2E14796600BD5E45 /* SFSymbol+7.0.swift in Sources */,
+				76CB51470A5757E55AB8CE12 /* SFSymbol+7.1.swift in Sources */,
+				DC080ED89F83426283A97E19 /* SFSymbol+8.0.swift in Sources */,
+				9A85F8B49C12D7A62CFFCB7E /* SFSymbol+8.2.swift in Sources */,
 				A43C04502E14796600BD5E45 /* SFSymbol+6.4.swift in Sources */,
 				B0AEA82B2801A8E000A02015 /* SFSymbol+1.1.swift in Sources */,
 				636A46C728002819007E6028 /* SFSymbol+1.0.swift in Sources */,
@@ -520,6 +550,7 @@
 				636A46C328002819007E6028 /* SFSymbol+AllSymbols+3.0.swift in Sources */,
 				636A46C628002819007E6028 /* SFSymbol+3.2.swift in Sources */,
 				CCCCCFEE252F61E700C7CE9F /* Image+SFSymbol.swift in Sources */,
+				5AFE10C12F0B000100A1B2C3 /* LockWrapper.swift in Sources */,
 				CCCCCFEC252F61E700C7CE9F /* SFSymbol.swift in Sources */,
 				636A46C128002819007E6028 /* SFSymbol+AllSymbols+3.1.swift in Sources */,
 				636A46C828002819007E6028 /* SFSymbol+2.2.swift in Sources */,
@@ -545,6 +576,9 @@
 				A43C04542E14798800BD5E45 /* SFSymbol+AllSymbols+6.4.swift in Sources */,
 				A43C04552E14798800BD5E45 /* SFSymbol+AllSymbols+6.3.swift in Sources */,
 				A43C04562E14798800BD5E45 /* SFSymbol+AllSymbols+7.0.swift in Sources */,
+				D9FE12163BFAE3B2FB832A51 /* SFSymbol+AllSymbols+7.1.swift in Sources */,
+				4C99DCFCC2B924B8D0F8026D /* SFSymbol+AllSymbols+8.0.swift in Sources */,
+				8B597A18250D595A14F46818 /* SFSymbol+AllSymbols+8.2.swift in Sources */,
 				B0031A562D6A169E0040002B /* DisplayRepresentationImage+SFSymbol.swift in Sources */,
 				636A46BD28002819007E6028 /* SFSymbol+2.0.swift in Sources */,
 				CCCCCFEF252F61E700C7CE9F /* UIApplicationShortcutIcon+SFSymbol.swift in Sources */,
@@ -611,7 +645,7 @@
 					"SWIFT_PACKAGE=1",
 					"DEBUG=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -633,9 +667,9 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SFSafeSymbols.xcodeproj/SFSafeSymbols_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -648,8 +682,8 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 6.0;
 				TARGET_NAME = SFSafeSymbols;
-				TVOS_DEPLOYMENT_TARGET = 12.0;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -663,9 +697,9 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SFSafeSymbols.xcodeproj/SFSafeSymbols_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -678,8 +712,8 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 6.0;
 				TARGET_NAME = SFSafeSymbols;
-				TVOS_DEPLOYMENT_TARGET = 12.0;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -697,7 +731,7 @@
 					"$(inherited)",
 					"SWIFT_PACKAGE=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -721,9 +755,9 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SFSafeSymbols.xcodeproj/SFSafeSymbolsTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -732,8 +766,8 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = SFSafeSymbolsTests;
-				TVOS_DEPLOYMENT_TARGET = 12.0;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -750,9 +784,9 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SFSafeSymbols.xcodeproj/SFSafeSymbolsTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -761,8 +795,8 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = SFSafeSymbolsTests;
-				TVOS_DEPLOYMENT_TARGET = 12.0;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};

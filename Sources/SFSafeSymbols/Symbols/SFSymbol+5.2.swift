@@ -3,23 +3,23 @@
 // 5.2 Symbols
 @available(iOS 17.2, macOS 14.2, tvOS 17.2, watchOS 10.2, visionOS 1.1, *)
 public extension SFSymbol {
-    /// 􂋍
-    /// ![square.and.arrow.up.badge.clock](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.up.badge.clock.png)
+    /// ![􂋍](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.up.badge.clock.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
-    static var squareAndArrowUpBadgeClock: SFSymbol { .init(rawValue: "square.and.arrow.up.badge.clock") }
+    @_alwaysEmitIntoClient
+    static var squareAndArrowUpBadgeClock: SFSymbol { .init("square.and.arrow.up.badge.clock") }
 
-    /// 􂋏
-    /// ![square.and.arrow.up.badge.clock.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.up.badge.clock.fill.png)
+    /// ![􂋏](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.up.badge.clock.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
-    static var squareAndArrowUpBadgeClockFill: SFSymbol { .init(rawValue: "square.and.arrow.up.badge.clock.fill") }
+    @_alwaysEmitIntoClient
+    static var squareAndArrowUpBadgeClockFill: SFSymbol { .init("square.and.arrow.up.badge.clock.fill") }
 }

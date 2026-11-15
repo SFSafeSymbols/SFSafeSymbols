@@ -2,17 +2,21 @@
 
 @available(iOS 17.1, macOS 14.1, tvOS 17.1, watchOS 10.1, visionOS 1.0, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince5_1: [SFSymbol : Set<Localization>] {
         [
-            chevronCompactBackward: [],
-            chevronCompactForward: [],
-            personCropSquareBadgeCamera: [],
-            personCropSquareBadgeCameraFill: [],
-            personCropSquareBadgeVideo: [],
-            personCropSquareBadgeVideoFill: []
+            .init("chevron.compact.backward"): [], // SFSymbol.chevronCompactBackward
+            .init("chevron.compact.forward"): [], // SFSymbol.chevronCompactForward
+            .init("person.crop.square.badge.camera"): [], // SFSymbol.personCropSquareBadgeCamera
+            .init("person.crop.square.badge.camera.fill"): [], // SFSymbol.personCropSquareBadgeCameraFill
+            .init("person.crop.square.badge.video"): [], // SFSymbol.personCropSquareBadgeVideo
+            .init("person.crop.square.badge.video.fill"): [] // SFSymbol.personCropSquareBadgeVideoFill
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince5_1: Set<SFSymbol> {
         []
     }

@@ -6,7 +6,7 @@ SWIFT_CMD := swift run -c release --package-path SymbolsGenerator SymbolsGenerat
 ARGS := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
 $(eval $(ARGS):;@:)
 
-.PHONY: default release fork
+.PHONY: default release pr
 
 DEFAULT := $(SWIFT_CMD) --dev
 
@@ -15,15 +15,16 @@ default:
 	$(DEFAULT)
 
 dev:
-	$(DEFAULT)
+	$(DEFAULT) $(ARGS)
 
 # make release [tag]
 release:
 	$(SWIFT_CMD) --release $(if $(word 1, $(ARGS)),--tag $(word 1, $(ARGS)))
 
-# make fork [user] [branch]
-fork:
-	$(SWIFT_CMD) --fork $(if $(word 1, $(ARGS)),--username $(word 1, $(ARGS))) $(if $(word 2, $(ARGS)),--branch $(word 2, $(ARGS)))
+# make pr                              (detects the username and branch from git)
+# make pr <username> <branch-name>
+pr:
+	$(SWIFT_CMD) --pr $(ARGS)
 
 %:
 	@:

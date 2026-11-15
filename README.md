@@ -28,7 +28,7 @@
         <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage: Compatible">
     </a>
     <a href="https://cocoapods.org/pods/SFSafeSymbols">
-    <img src="https://img.shields.io/badge/CocoaPods-compatible-4BC51D.svg?style=flat" alt="CocoaPods: Compatible">
+    <img src="https://img.shields.io/badge/CocoaPods-up%20to%207.0.0-lightgrey.svg?style=flat" alt="CocoaPods: Up to 7.0.0">
     </a>
 </p>
 
@@ -92,7 +92,7 @@ The following SF Symbols versions are currently supported:
 
 ## Installation
 
-`SFSafeSymbols` can be installed via the **Swift Package Manager (recommended)**, Carthage or CocoaPods.
+`SFSafeSymbols` can be installed via the **Swift Package Manager (recommended)** or Carthage. Versions up to `7.0.0` are also available via CocoaPods.
 
 Supported platforms are `iOS (11.0+)`, `macOS (10.13+)`, `tvOS (11.0+)` and `watchOS (4.0+)`, although the actual functionality is of course only accessible starting with `iOS 13.0`, `macOS 11.0`, `tvOS 13.0` and `watchOS 6.0`.
 
@@ -120,9 +120,9 @@ github "SFSafeSymbols/SFSafeSymbols" ~> 7.0.0
 
 Then run `carthage update`.
 
-### CocoaPods
+### CocoaPods (up to 7.0.0)
 
-Add the following entry to your Podfile:
+CocoaPods is no longer supported: `7.0.0` is the last version published there, and newer versions are only available via the Swift Package Manager or Carthage. To use `7.0.0`, add the following entry to your Podfile:
 
 ```rb
 pod 'SFSafeSymbols', '~> 7.0.0'
@@ -226,6 +226,12 @@ custom_rules:
     regex: "(Image\\(systemName:)|(NSImage\\(symbolName:)|(Label[^,]+?,\\s*systemImage:)|(UIApplicationShortcutIcon\\(systemImageName:)"
     severity: warning
 ```
+
+### Binary Size
+
+You can reduce the size impact of `SFSafeSymbols` on your app even further by adding `-Wl,-no_exported_symbols` to the **Other Linker Flags** (`OTHER_LDFLAGS`) of your app target's Release configuration.
+
+This flag stops your app's executable from exporting any symbols, so before enabling it, check that nothing in your setup needs them.
 
 ## Contributing
 

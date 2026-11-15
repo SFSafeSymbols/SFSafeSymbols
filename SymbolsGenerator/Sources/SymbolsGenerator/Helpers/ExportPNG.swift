@@ -1,53 +1,58 @@
 import Foundation
 import AppKit
 import UniformTypeIdentifiers
+import WebP
 
 extension GeneratorCore {
     static var exportImageExtension: String {
-        let type = UTType.png
+        let type = UTType.webP
         return type.preferredFilenameExtension!
     }
 }
 
 extension NSImage {
-    func exportSymbol() -> Data? {
-
+    func exportSymbol(scale: CGFloat = 1) -> Data? {
         let size = self.size
-        let dim = max(size.width, size.height)
-        let squareRect = CGRect(origin: .zero, size: .init(width: dim, height: dim))
-        guard let context = CGContext(
-            data: nil,
-            width: Int(dim),
-            height: Int(dim),
-            bitsPerComponent: 8,
-            bytesPerRow: 0,
-            space: CGColorSpaceCreateDeviceRGB(),
-            bitmapInfo: CGImageAlphaInfo.noneSkipLast.rawValue
-        ) else {
+        let pixelWidth = Int((size.width * scale).rounded(.up))
+        let pixelHeight = Int((size.height * scale).rounded(.up))
+
+        guard let colorSpace = CGColorSpace(name: CGColorSpace.sRGB),
+              let context = CGContext(
+                  data: nil,
+                  width: pixelWidth,
+                  height: pixelHeight,
+                  bitsPerComponent: 8,
+                  bytesPerRow: 0,
+                  space: colorSpace,
+                  bitmapInfo: CGImageAlphaInfo.premultipliedLast.rawValue
+              )
+        else {
             return nil
         }
 
-        context.setFillColor(.white)
-        context.fill(squareRect)
-        var imageRect = CGRect(
-            x: (dim - size.width) / 2,
-            y: (dim - size.height) / 2,
-            width: size.width,
-            height: size.height
-        )
+        context.scaleBy(x: scale, y: scale)
 
-        var cgImage: CGImage?
+        let imageRect = CGRect(origin: .zero, size: size)
+
+        let previousContext = NSGraphicsContext.current
+        NSGraphicsContext.current = NSGraphicsContext(cgContext: context, flipped: false)
         NSAppearance(named: .aqua)?.performAsCurrentDrawingAppearance {
-            cgImage = self.cgImage(forProposedRect: &imageRect, context: nil, hints: nil)
+            self.draw(in: imageRect)
         }
-        guard let cgImage else { return nil }
+        NSGraphicsContext.current = previousContext
 
-        context.draw(cgImage, in: imageRect)
-        guard let opaqueCGImage = context.makeImage() else {
+        // A mid gray that reads about equally well on Quick Help's light and dark backgrounds
+        context.setBlendMode(.sourceIn)
+        context.setFillColor(CGColor(srgbRed: 0x9A / 255, green: 0x9A / 255, blue: 0x9F / 255, alpha: 1))
+        context.fill(imageRect)
+
+        guard let cgImage = context.makeImage() else {
             return nil
         }
-        let opaqueBitmap = NSBitmapImageRep(cgImage: opaqueCGImage)
 
-        return opaqueBitmap.representation(using: .png, properties: [:])
+        guard let config = try? WebPEncoderConfig.losslessPreset(level: 9) else {
+            return nil
+        }
+        return try? WebPEncoder().encode(normalizing: cgImage, config: config)
     }
 }

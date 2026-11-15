@@ -2,28 +2,32 @@
 
 @available(iOS 15.1, macOS 12.0, tvOS 15.1, watchOS 8.1, visionOS 1.0, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince3_1: [SFSymbol : Set<Localization>] {
         [
-            boltRingClosed: [],
-            platterFilledBottomAndArrowDownIphone: [],
-            platterFilledBottomIphone: [],
-            platterFilledTopAndArrowUpIphone: [],
-            platterFilledTopIphone: [],
-            square3Layers3dDownBackward: [],
-            square3Layers3dDownForward: [],
-            square3Layers3dDownLeft: [],
-            square3Layers3dDownRight: [],
-            textJustifyLeading: [],
-            textJustifyLeft: [],
-            textJustifyRight: [],
-            textJustifyTrailing: []
+            .init("bolt.ring.closed"): [], // SFSymbol.boltRingClosed
+            .init("platter.filled.bottom.and.arrow.down.iphone"): [], // SFSymbol.platterFilledBottomAndArrowDownIphone
+            .init("platter.filled.bottom.iphone"): [], // SFSymbol.platterFilledBottomIphone
+            .init("platter.filled.top.and.arrow.up.iphone"): [], // SFSymbol.platterFilledTopAndArrowUpIphone
+            .init("platter.filled.top.iphone"): [], // SFSymbol.platterFilledTopIphone
+            .init("square.3.layers.3d.down.backward"): [], // SFSymbol.square3Layers3dDownBackward
+            .init("square.3.layers.3d.down.forward"): [], // SFSymbol.square3Layers3dDownForward
+            .init("square.3.layers.3d.down.left"): [], // SFSymbol.square3Layers3dDownLeft
+            .init("square.3.layers.3d.down.right"): [], // SFSymbol.square3Layers3dDownRight
+            .init("text.justify.leading"): [], // SFSymbol.textJustifyLeading
+            .init("text.justify.left"): [], // SFSymbol.textJustifyLeft
+            .init("text.justify.right"): [], // SFSymbol.textJustifyRight
+            .init("text.justify.trailing"): [] // SFSymbol.textJustifyTrailing
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince3_1: Set<SFSymbol> {
         [
-            textJustifyleft,
-            textJustifyright
+            .init("text.justifyleft"), // SFSymbol.textJustifyleft
+            .init("text.justifyright") // SFSymbol.textJustifyright
         ]
     }
 }

@@ -2,34 +2,38 @@
 
 @available(iOS 17.4, macOS 14.4, tvOS 17.4, watchOS 10.4, visionOS 1.1, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince5_3: [SFSymbol : Set<Localization>] {
         [
-            appleMeditate: [],
-            appleMeditateSquareStack: [],
-            appleMeditateSquareStackFill: [],
-            appleTerminalCircle: [],
-            appleTerminalCircleFill: [],
-            arrowDownAppDashed: [],
-            arrowDownAppDashedTrianglebadgeExclamationmark: [],
-            audioJackMono: [],
-            audioJackStereo: [],
-            ipadBadgeExclamationmark: [],
-            ipadGen1BadgeExclamationmark: [],
-            ipadGen1LandscapeBadgeExclamationmark: [],
-            ipadGen2BadgeExclamationmark: [],
-            ipadGen2LandscapeBadgeExclamationmark: [],
-            ipadLandscapeBadgeExclamationmark: [],
-            iphoneBadgeExclamationmark: [],
-            iphoneGen1BadgeExclamationmark: [],
-            iphoneGen2BadgeExclamationmark: [],
-            iphoneGen3BadgeExclamationmark: [],
-            medalStar: [],
-            medalStarFill: [],
-            plusCircleDashed: [],
-            translate: []
+            .init("apple.meditate"): [], // SFSymbol.appleMeditate
+            .init("apple.meditate.square.stack"): [], // SFSymbol.appleMeditateSquareStack
+            .init("apple.meditate.square.stack.fill"): [], // SFSymbol.appleMeditateSquareStackFill
+            .init("apple.terminal.circle"): [], // SFSymbol.appleTerminalCircle
+            .init("apple.terminal.circle.fill"): [], // SFSymbol.appleTerminalCircleFill
+            .init("arrow.down.app.dashed"): [], // SFSymbol.arrowDownAppDashed
+            .init("arrow.down.app.dashed.trianglebadge.exclamationmark"): [], // SFSymbol.arrowDownAppDashedTrianglebadgeExclamationmark
+            .init("audio.jack.mono"): [], // SFSymbol.audioJackMono
+            .init("audio.jack.stereo"): [], // SFSymbol.audioJackStereo
+            .init("ipad.badge.exclamationmark"): [], // SFSymbol.ipadBadgeExclamationmark
+            .init("ipad.gen1.badge.exclamationmark"): [], // SFSymbol.ipadGen1BadgeExclamationmark
+            .init("ipad.gen1.landscape.badge.exclamationmark"): [], // SFSymbol.ipadGen1LandscapeBadgeExclamationmark
+            .init("ipad.gen2.badge.exclamationmark"): [], // SFSymbol.ipadGen2BadgeExclamationmark
+            .init("ipad.gen2.landscape.badge.exclamationmark"): [], // SFSymbol.ipadGen2LandscapeBadgeExclamationmark
+            .init("ipad.landscape.badge.exclamationmark"): [], // SFSymbol.ipadLandscapeBadgeExclamationmark
+            .init("iphone.badge.exclamationmark"): [], // SFSymbol.iphoneBadgeExclamationmark
+            .init("iphone.gen1.badge.exclamationmark"): [], // SFSymbol.iphoneGen1BadgeExclamationmark
+            .init("iphone.gen2.badge.exclamationmark"): [], // SFSymbol.iphoneGen2BadgeExclamationmark
+            .init("iphone.gen3.badge.exclamationmark"): [], // SFSymbol.iphoneGen3BadgeExclamationmark
+            .init("medal.star"): [], // SFSymbol.medalStar
+            .init("medal.star.fill"): [], // SFSymbol.medalStarFill
+            .init("plus.circle.dashed"): [], // SFSymbol.plusCircleDashed
+            .init("translate"): [] // SFSymbol.translate
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince5_3: Set<SFSymbol> {
         []
     }

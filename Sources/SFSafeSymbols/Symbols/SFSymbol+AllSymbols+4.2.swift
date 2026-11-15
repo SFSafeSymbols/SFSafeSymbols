@@ -2,37 +2,41 @@
 
 @available(iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4, visionOS 1.0, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince4_2: [SFSymbol : Set<Localization>] {
         [
-            _1Lane: [.ar, .hi],
-            _2Lane: [.ar, .hi],
-            _3Lane: [.ar, .hi],
-            _4Lane: [.ar, .hi],
-            _5Lane: [.ar, .hi],
-            _6Lane: [.ar, .hi],
-            _7Lane: [.ar, .hi],
-            _8Lane: [.ar, .hi],
-            _9Lane: [.ar, .hi],
-            _10Lane: [.ar, .hi],
-            _11Lane: [.ar, .hi],
-            _12Lane: [.ar, .hi],
-            axle2: [],
-            axle2FrontAndRearEngaged: [],
-            axle2FrontEngaged: [],
-            axle2RearEngaged: [],
-            beatsPowerbeatsLeft: [],
-            beatsPowerbeatsRight: [],
-            beatsPowerbeats3Left: [],
-            beatsPowerbeats3Right: []
+            .init("1.lane"): [.ar, .hi], // SFSymbol._1Lane
+            .init("2.lane"): [.ar, .hi], // SFSymbol._2Lane
+            .init("3.lane"): [.ar, .hi], // SFSymbol._3Lane
+            .init("4.lane"): [.ar, .hi], // SFSymbol._4Lane
+            .init("5.lane"): [.ar, .hi], // SFSymbol._5Lane
+            .init("6.lane"): [.ar, .hi], // SFSymbol._6Lane
+            .init("7.lane"): [.ar, .hi], // SFSymbol._7Lane
+            .init("8.lane"): [.ar, .hi], // SFSymbol._8Lane
+            .init("9.lane"): [.ar, .hi], // SFSymbol._9Lane
+            .init("10.lane"): [.ar, .hi], // SFSymbol._10Lane
+            .init("11.lane"): [.ar, .hi], // SFSymbol._11Lane
+            .init("12.lane"): [.ar, .hi], // SFSymbol._12Lane
+            .init("axle.2"): [], // SFSymbol.axle2
+            .init("axle.2.front.and.rear.engaged"): [], // SFSymbol.axle2FrontAndRearEngaged
+            .init("axle.2.front.engaged"): [], // SFSymbol.axle2FrontEngaged
+            .init("axle.2.rear.engaged"): [], // SFSymbol.axle2RearEngaged
+            .init("beats.powerbeats.left"): [], // SFSymbol.beatsPowerbeatsLeft
+            .init("beats.powerbeats.right"): [], // SFSymbol.beatsPowerbeatsRight
+            .init("beats.powerbeats3.left"): [], // SFSymbol.beatsPowerbeats3Left
+            .init("beats.powerbeats3.right"): [] // SFSymbol.beatsPowerbeats3Right
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince4_2: Set<SFSymbol> {
         [
-            axel2,
-            axel2FrontAndRearEngaged,
-            axel2FrontEngaged,
-            axel2RearEngaged
+            .init("axel.2"), // SFSymbol.axel2
+            .init("axel.2.front.and.rear.engaged"), // SFSymbol.axel2FrontAndRearEngaged
+            .init("axel.2.front.engaged"), // SFSymbol.axel2FrontEngaged
+            .init("axel.2.rear.engaged") // SFSymbol.axel2RearEngaged
         ]
     }
 }

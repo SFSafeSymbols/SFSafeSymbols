@@ -2,32 +2,36 @@
 
 @available(iOS 18.2, macOS 15.2, tvOS 18.2, watchOS 11.2, visionOS 2.2, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince6_2: [SFSymbol : Set<Localization>] {
         [
-            airpodsGen4: [],
-            airpodsGen4ChargingcaseWireless: [],
-            airpodsGen4ChargingcaseWirelessFill: [],
-            airpodsGen4Left: [],
-            airpodsGen4Right: [],
-            appleWritingTools: [],
-            exclamationmarkTriangleTextPage: [.rtl],
-            exclamationmarkTriangleTextPageFill: [.rtl],
-            figureSeatedSideLeftAirDistributionUpperAndMiddleAndLower: [],
-            figureSeatedSideRightAirDistributionUpperAndMiddleAndLower: [],
-            headphonesDots: [],
-            infoTriangle: [],
-            infoTriangleFill: [],
-            insetFilledRectangleAndPersonFilledCircle: [],
-            insetFilledRectangleAndPersonFilledCircleFill: [],
-            questionmarkMessage: [.ar],
-            questionmarkMessageFill: [.ar],
-            receipt: [],
-            receiptFill: [],
-            wandAndOutline: [],
-            wandAndOutlineInverse: []
+            .init("airpods.gen4"): [], // SFSymbol.airpodsGen4
+            .init("airpods.gen4.chargingcase.wireless"): [], // SFSymbol.airpodsGen4ChargingcaseWireless
+            .init("airpods.gen4.chargingcase.wireless.fill"): [], // SFSymbol.airpodsGen4ChargingcaseWirelessFill
+            .init("airpods.gen4.left"): [], // SFSymbol.airpodsGen4Left
+            .init("airpods.gen4.right"): [], // SFSymbol.airpodsGen4Right
+            .init("apple.writing.tools"): [], // SFSymbol.appleWritingTools
+            .init("exclamationmark.triangle.text.page"): [.rtl], // SFSymbol.exclamationmarkTriangleTextPage
+            .init("exclamationmark.triangle.text.page.fill"): [.rtl], // SFSymbol.exclamationmarkTriangleTextPageFill
+            .init("figure.seated.side.left.air.distribution.upper.and.middle.and.lower"): [], // SFSymbol.figureSeatedSideLeftAirDistributionUpperAndMiddleAndLower
+            .init("figure.seated.side.right.air.distribution.upper.and.middle.and.lower"): [], // SFSymbol.figureSeatedSideRightAirDistributionUpperAndMiddleAndLower
+            .init("headphones.dots"): [], // SFSymbol.headphonesDots
+            .init("info.triangle"): [], // SFSymbol.infoTriangle
+            .init("info.triangle.fill"): [], // SFSymbol.infoTriangleFill
+            .init("inset.filled.rectangle.and.person.filled.circle"): [], // SFSymbol.insetFilledRectangleAndPersonFilledCircle
+            .init("inset.filled.rectangle.and.person.filled.circle.fill"): [], // SFSymbol.insetFilledRectangleAndPersonFilledCircleFill
+            .init("questionmark.message"): [.ar], // SFSymbol.questionmarkMessage
+            .init("questionmark.message.fill"): [.ar], // SFSymbol.questionmarkMessageFill
+            .init("receipt"): [], // SFSymbol.receipt
+            .init("receipt.fill"): [], // SFSymbol.receiptFill
+            .init("wand.and.outline"): [], // SFSymbol.wandAndOutline
+            .init("wand.and.outline.inverse"): [] // SFSymbol.wandAndOutlineInverse
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince6_2: Set<SFSymbol> {
         []
     }

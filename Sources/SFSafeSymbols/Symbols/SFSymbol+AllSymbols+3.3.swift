@@ -2,18 +2,22 @@
 
 @available(iOS 15.4, macOS 12.3, tvOS 15.4, watchOS 8.5, visionOS 1.0, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince3_3: [SFSymbol : Set<Localization>] {
         [
-            cameraMacro: [],
-            cameraMacroCircle: [],
-            cameraMacroCircleFill: [],
-            dotsAndLineVerticalAndCursorarrowRectangle: [],
-            keyViewfinder: [],
-            personBadgeKey: [],
-            personBadgeKeyFill: []
+            .init("camera.macro"): [], // SFSymbol.cameraMacro
+            .init("camera.macro.circle"): [], // SFSymbol.cameraMacroCircle
+            .init("camera.macro.circle.fill"): [], // SFSymbol.cameraMacroCircleFill
+            .init("dots.and.line.vertical.and.cursorarrow.rectangle"): [], // SFSymbol.dotsAndLineVerticalAndCursorarrowRectangle
+            .init("key.viewfinder"): [], // SFSymbol.keyViewfinder
+            .init("person.badge.key"): [], // SFSymbol.personBadgeKey
+            .init("person.badge.key.fill"): [] // SFSymbol.personBadgeKeyFill
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince3_3: Set<SFSymbol> {
         []
     }

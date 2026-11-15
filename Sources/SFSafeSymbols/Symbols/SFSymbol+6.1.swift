@@ -3,211 +3,210 @@
 // 6.1 Symbols
 @available(iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1, visionOS 2.1, *)
 public extension SFSymbol {
-    /// 􂶠
-    /// ![bolt.house](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bolt.house.png)
+    /// ![􂶠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bolt.house.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var boltHouse: SFSymbol { .init(rawValue: "bolt.house") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var boltHouse: SFSymbol { .init("bolt.house") }
 
-    /// 􂶡
-    /// ![bolt.house.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/bolt.house.fill.png)
+    /// ![􂶡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/bolt.house.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
-    static var boltHouseFill: SFSymbol { .init(rawValue: "bolt.house.fill") }
+    @_alwaysEmitIntoClient
+    static var boltHouseFill: SFSymbol { .init("bolt.house.fill") }
 
-    /// 􂷔
-    /// ![cable.connector.video](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/cable.connector.video.png)
+    /// ![􂷔](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/cable.connector.video.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
-    static var cableConnectorVideo: SFSymbol { .init(rawValue: "cable.connector.video") }
+    /// - Hierarchical/Palette (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    @_alwaysEmitIntoClient
+    static var cableConnectorVideo: SFSymbol { .init("cable.connector.video") }
 
-    /// 􂴾
-    /// ![car.top.radiowaves.2.front.left.front.front.right](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/car.top.radiowaves.2.front.left.front.front.right.png)
+    /// ![􂴾](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/car.top.radiowaves.2.front.left.front.front.right.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var carTopRadiowaves2FrontLeftFrontFrontRight: SFSymbol { .init(rawValue: "car.top.radiowaves.2.front.left.front.front.right") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var carTopRadiowaves2FrontLeftFrontFrontRight: SFSymbol { .init("car.top.radiowaves.2.front.left.front.front.right") }
 
-    /// 􂴿
-    /// ![car.top.radiowaves.2.front.left.front.front.right.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/car.top.radiowaves.2.front.left.front.front.right.fill.png)
+    /// ![􂴿](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/car.top.radiowaves.2.front.left.front.front.right.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var carTopRadiowaves2FrontLeftFrontFrontRightFill: SFSymbol { .init(rawValue: "car.top.radiowaves.2.front.left.front.front.right.fill") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var carTopRadiowaves2FrontLeftFrontFrontRightFill: SFSymbol { .init("car.top.radiowaves.2.front.left.front.front.right.fill") }
 
-    /// 􂵂
-    /// ![car.top.radiowaves.2.rear.left.rear.rear.right](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/car.top.radiowaves.2.rear.left.rear.rear.right.png)
+    /// ![􂵂](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/car.top.radiowaves.2.rear.left.rear.rear.right.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var carTopRadiowaves2RearLeftRearRearRight: SFSymbol { .init(rawValue: "car.top.radiowaves.2.rear.left.rear.rear.right") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var carTopRadiowaves2RearLeftRearRearRight: SFSymbol { .init("car.top.radiowaves.2.rear.left.rear.rear.right") }
 
-    /// 􂵃
-    /// ![car.top.radiowaves.2.rear.left.rear.rear.right.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/car.top.radiowaves.2.rear.left.rear.rear.right.fill.png)
+    /// ![􂵃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/car.top.radiowaves.2.rear.left.rear.rear.right.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var carTopRadiowaves2RearLeftRearRearRightFill: SFSymbol { .init(rawValue: "car.top.radiowaves.2.rear.left.rear.rear.right.fill") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var carTopRadiowaves2RearLeftRearRearRightFill: SFSymbol { .init("car.top.radiowaves.2.rear.left.rear.rear.right.fill") }
 
-    /// 􂵆
-    /// ![dot.car.top.radiowaves.2.rear.left.rear.rear.right](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/dot.car.top.radiowaves.2.rear.left.rear.rear.right.png)
+    /// ![􂵆](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/dot.car.top.radiowaves.2.rear.left.rear.rear.right.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var dotCarTopRadiowaves2RearLeftRearRearRight: SFSymbol { .init(rawValue: "dot.car.top.radiowaves.2.rear.left.rear.rear.right") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var dotCarTopRadiowaves2RearLeftRearRearRight: SFSymbol { .init("dot.car.top.radiowaves.2.rear.left.rear.rear.right") }
 
-    /// 􂵇
-    /// ![dot.car.top.radiowaves.2.rear.left.rear.rear.right.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/dot.car.top.radiowaves.2.rear.left.rear.rear.right.fill.png)
+    /// ![􂵇](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/dot.car.top.radiowaves.2.rear.left.rear.rear.right.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var dotCarTopRadiowaves2RearLeftRearRearRightFill: SFSymbol { .init(rawValue: "dot.car.top.radiowaves.2.rear.left.rear.rear.right.fill") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var dotCarTopRadiowaves2RearLeftRearRearRightFill: SFSymbol { .init("dot.car.top.radiowaves.2.rear.left.rear.rear.right.fill") }
 
-    /// 􀛫
-    /// ![envelope.stack](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/envelope.stack.png)
+    /// ![􀛫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/envelope.stack.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static var envelopeStack: SFSymbol { .init(rawValue: "envelope.stack") }
+    @_alwaysEmitIntoClient
+    static var envelopeStack: SFSymbol { .init("envelope.stack") }
 
-    /// 􀛬
-    /// ![envelope.stack.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/envelope.stack.fill.png)
+    /// ![􀛬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/envelope.stack.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static var envelopeStackFill: SFSymbol { .init(rawValue: "envelope.stack.fill") }
+    @_alwaysEmitIntoClient
+    static var envelopeStackFill: SFSymbol { .init("envelope.stack.fill") }
 
-    /// 􂷩
-    /// ![exclamationmark.message](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/exclamationmark.message.png)
+    /// ![􂷩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/exclamationmark.message.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
-    static var exclamationmarkMessage: SFSymbol { .init(rawValue: "exclamationmark.message") }
+    @_alwaysEmitIntoClient
+    static var exclamationmarkMessage: SFSymbol { .init("exclamationmark.message") }
 
-    /// 􂷪
-    /// ![exclamationmark.message.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/exclamationmark.message.fill.png)
+    /// ![􂷪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/exclamationmark.message.fill.png)\
     /// Single Localization, 3 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
-    static var exclamationmarkMessageFill: SFSymbol { .init(rawValue: "exclamationmark.message.fill") }
+    @_alwaysEmitIntoClient
+    static var exclamationmarkMessageFill: SFSymbol { .init("exclamationmark.message.fill") }
 
-    /// 􂶩
-    /// ![hand.thumbsdown.slash](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hand.thumbsdown.slash.png)
+    /// ![􂶩](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hand.thumbsdown.slash.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var handThumbsdownSlash: SFSymbol { .init(rawValue: "hand.thumbsdown.slash") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var handThumbsdownSlash: SFSymbol { .init("hand.thumbsdown.slash") }
 
-    /// 􂶪
-    /// ![hand.thumbsdown.slash.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hand.thumbsdown.slash.fill.png)
+    /// ![􂶪](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hand.thumbsdown.slash.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var handThumbsdownSlashFill: SFSymbol { .init(rawValue: "hand.thumbsdown.slash.fill") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var handThumbsdownSlashFill: SFSymbol { .init("hand.thumbsdown.slash.fill") }
 
-    /// 􂶥
-    /// ![hand.thumbsup.slash](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hand.thumbsup.slash.png)
+    /// ![􂶥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hand.thumbsup.slash.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var handThumbsupSlash: SFSymbol { .init(rawValue: "hand.thumbsup.slash") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var handThumbsupSlash: SFSymbol { .init("hand.thumbsup.slash") }
 
-    /// 􂶦
-    /// ![hand.thumbsup.slash.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/hand.thumbsup.slash.fill.png)
+    /// ![􂶦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/hand.thumbsup.slash.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var handThumbsupSlashFill: SFSymbol { .init(rawValue: "hand.thumbsup.slash.fill") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var handThumbsupSlashFill: SFSymbol { .init("hand.thumbsup.slash.fill") }
 
-    /// 􂶟
-    /// ![laurel.leading.laurel.trailing](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/laurel.leading.laurel.trailing.png)
+    /// ![􂶟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/laurel.leading.laurel.trailing.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static var laurelLeadingLaurelTrailing: SFSymbol { .init(rawValue: "laurel.leading.laurel.trailing") }
+    @_alwaysEmitIntoClient
+    static var laurelLeadingLaurelTrailing: SFSymbol { .init("laurel.leading.laurel.trailing") }
 
-    /// 􂷃
-    /// ![memories.badge.checkmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/memories.badge.checkmark.png)
+    /// ![􂷃](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/memories.badge.checkmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
-    static var memoriesBadgeCheckmark: SFSymbol { .init(rawValue: "memories.badge.checkmark") }
+    @_alwaysEmitIntoClient
+    static var memoriesBadgeCheckmark: SFSymbol { .init("memories.badge.checkmark") }
 
-    /// 􂷁
-    /// ![memories.badge.xmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/memories.badge.xmark.png)
+    /// ![􂷁](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/memories.badge.xmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
-    static var memoriesBadgeXmark: SFSymbol { .init(rawValue: "memories.badge.xmark") }
+    @_alwaysEmitIntoClient
+    static var memoriesBadgeXmark: SFSymbol { .init("memories.badge.xmark") }
 
-    /// 􂷐
-    /// ![photo.badge.magnifyingglass](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/photo.badge.magnifyingglass.png)
+    /// ![􂷐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/photo.badge.magnifyingglass.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var photoBadgeMagnifyingglass: SFSymbol { .init(rawValue: "photo.badge.magnifyingglass") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var photoBadgeMagnifyingglass: SFSymbol { .init("photo.badge.magnifyingglass") }
 
-    /// 􂷑
-    /// ![photo.badge.magnifyingglass.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/photo.badge.magnifyingglass.fill.png)
+    /// ![􂷑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/photo.badge.magnifyingglass.fill.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var photoBadgeMagnifyingglassFill: SFSymbol { .init(rawValue: "photo.badge.magnifyingglass.fill") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var photoBadgeMagnifyingglassFill: SFSymbol { .init("photo.badge.magnifyingglass.fill") }
 
-    /// 􂷫
-    /// ![questionmark.message](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/questionmark.message.png)
+    /// ![􂷫](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/questionmark.message.png)\
     /// 2 Localizations, 2 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
@@ -216,13 +215,13 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
-    static var questionmarkMessage: SymbolWith1Localization<Ar_v6_2> { .init(rawValue: "questionmark.message") }
+    @_alwaysEmitIntoClient
+    static var questionmarkMessage: SymbolWith1Localization<Ar_v6_2> { .init("questionmark.message") }
 
-    /// 􂷬
-    /// ![questionmark.message.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/questionmark.message.fill.png)
+    /// ![􂷬](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/questionmark.message.fill.png)\
     /// 2 Localizations, 3 Layersets, ⚠️ Restricted
     ///
     /// Localizations:
@@ -231,99 +230,99 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
-    static var questionmarkMessageFill: SymbolWith1Localization<Ar_v6_2> { .init(rawValue: "questionmark.message.fill") }
+    @_alwaysEmitIntoClient
+    static var questionmarkMessageFill: SymbolWith1Localization<Ar_v6_2> { .init("questionmark.message.fill") }
 
-    /// 􂶯
-    /// ![rectangle.grid.3x1](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.grid.3x1.png)
+    /// ![􂶯](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.grid.3x1.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static var rectangleGrid3x1: SFSymbol { .init(rawValue: "rectangle.grid.3x1") }
+    @_alwaysEmitIntoClient
+    static var rectangleGrid3x1: SFSymbol { .init("rectangle.grid.3x1") }
 
-    /// 􂶰
-    /// ![rectangle.grid.3x1.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.grid.3x1.fill.png)
+    /// ![􂶰](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.grid.3x1.fill.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static var rectangleGrid3x1Fill: SFSymbol { .init(rawValue: "rectangle.grid.3x1.fill") }
+    @_alwaysEmitIntoClient
+    static var rectangleGrid3x1Fill: SFSymbol { .init("rectangle.grid.3x1.fill") }
 
-    /// 􂷡
-    /// ![square.and.arrow.down.badge.checkmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.down.badge.checkmark.png)
+    /// ![􂷡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.down.badge.checkmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
-    static var squareAndArrowDownBadgeCheckmark: SFSymbol { .init(rawValue: "square.and.arrow.down.badge.checkmark") }
+    @_alwaysEmitIntoClient
+    static var squareAndArrowDownBadgeCheckmark: SFSymbol { .init("square.and.arrow.down.badge.checkmark") }
 
-    /// 􂷢
-    /// ![square.and.arrow.down.badge.checkmark.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.down.badge.checkmark.fill.png)
+    /// ![􂷢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.down.badge.checkmark.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
-    static var squareAndArrowDownBadgeCheckmarkFill: SFSymbol { .init(rawValue: "square.and.arrow.down.badge.checkmark.fill") }
+    @_alwaysEmitIntoClient
+    static var squareAndArrowDownBadgeCheckmarkFill: SFSymbol { .init("square.and.arrow.down.badge.checkmark.fill") }
 
-    /// 􂷥
-    /// ![square.and.arrow.down.badge.xmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.down.badge.xmark.png)
+    /// ![􂷥](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.down.badge.xmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
-    static var squareAndArrowDownBadgeXmark: SFSymbol { .init(rawValue: "square.and.arrow.down.badge.xmark") }
+    @_alwaysEmitIntoClient
+    static var squareAndArrowDownBadgeXmark: SFSymbol { .init("square.and.arrow.down.badge.xmark") }
 
-    /// 􂷦
-    /// ![square.and.arrow.down.badge.xmark.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.down.badge.xmark.fill.png)
+    /// ![􂷦](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.and.arrow.down.badge.xmark.fill.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
-    static var squareAndArrowDownBadgeXmarkFill: SFSymbol { .init(rawValue: "square.and.arrow.down.badge.xmark.fill") }
+    @_alwaysEmitIntoClient
+    static var squareAndArrowDownBadgeXmarkFill: SFSymbol { .init("square.and.arrow.down.badge.xmark.fill") }
 
-    /// 􂷝
-    /// ![waveform.badge.checkmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/waveform.badge.checkmark.png)
+    /// ![􂷝](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/waveform.badge.checkmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
-    static var waveformBadgeCheckmark: SFSymbol { .init(rawValue: "waveform.badge.checkmark") }
+    @_alwaysEmitIntoClient
+    static var waveformBadgeCheckmark: SFSymbol { .init("waveform.badge.checkmark") }
 
-    /// 􂷞
-    /// ![waveform.badge.xmark](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/waveform.badge.xmark.png)
+    /// ![􂷞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/waveform.badge.xmark.png)\
     /// Single Localization, 3 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     /// - Multicolor
-    static var waveformBadgeXmark: SFSymbol { .init(rawValue: "waveform.badge.xmark") }
+    @_alwaysEmitIntoClient
+    static var waveformBadgeXmark: SFSymbol { .init("waveform.badge.xmark") }
 
-    /// 􂵊
-    /// ![waveform.path.ecg.magnifyingglass](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/waveform.path.ecg.magnifyingglass.png)
+    /// ![􂵊](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/waveform.path.ecg.magnifyingglass.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var waveformPathEcgMagnifyingglass: SFSymbol { .init(rawValue: "waveform.path.ecg.magnifyingglass") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var waveformPathEcgMagnifyingglass: SFSymbol { .init("waveform.path.ecg.magnifyingglass") }
 
-    /// 􂷚
-    /// ![waveform.path.ecg.text](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/waveform.path.ecg.text.png)
+    /// ![􂷚](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/waveform.path.ecg.text.png)\
     /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
@@ -332,10 +331,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static var waveformPathEcgText: SymbolWith1Localization<Rtl> { .init(rawValue: "waveform.path.ecg.text") }
+    @_alwaysEmitIntoClient
+    static var waveformPathEcgText: SymbolWith1Localization<Rtl> { .init("waveform.path.ecg.text") }
 
-    /// 􂵋
-    /// ![waveform.path.ecg.text.clipboard](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/waveform.path.ecg.text.clipboard.png)
+    /// ![􂵋](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/waveform.path.ecg.text.clipboard.png)\
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -344,11 +343,11 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var waveformPathEcgTextClipboard: SymbolWith1Localization<Rtl> { .init(rawValue: "waveform.path.ecg.text.clipboard") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var waveformPathEcgTextClipboard: SymbolWith1Localization<Rtl> { .init("waveform.path.ecg.text.clipboard") }
 
-    /// 􂵌
-    /// ![waveform.path.ecg.text.clipboard.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/waveform.path.ecg.text.clipboard.fill.png)
+    /// ![􂵌](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/waveform.path.ecg.text.clipboard.fill.png)\
     /// 2 Localizations, 2 Layersets
     ///
     /// Localizations:
@@ -357,24 +356,11 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var waveformPathEcgTextClipboardFill: SymbolWith1Localization<Rtl> { .init(rawValue: "waveform.path.ecg.text.clipboard.fill") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var waveformPathEcgTextClipboardFill: SymbolWith1Localization<Rtl> { .init("waveform.path.ecg.text.clipboard.fill") }
 
-    /// 􀳼
-    /// ![waveform.path.ecg.text.page](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/waveform.path.ecg.text.page.png)
-    /// 2 Localizations, 2 Layersets
-    ///
-    /// Localizations:
-    /// - Left-to-Right
-    /// - Right-to-Left
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Multicolor
-    static var waveformPathEcgTextPage: SymbolWith1Localization<Rtl> { .init(rawValue: "waveform.path.ecg.text.page") }
-
-    /// 􀳽
-    /// ![waveform.path.ecg.text.page.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/waveform.path.ecg.text.page.fill.png)
+    /// ![􀳼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/waveform.path.ecg.text.page.png)\
     /// 2 Localizations, Single Layerset
     ///
     /// Localizations:
@@ -383,5 +369,18 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static var waveformPathEcgTextPageFill: SymbolWith1Localization<Rtl> { .init(rawValue: "waveform.path.ecg.text.page.fill") }
+    @_alwaysEmitIntoClient
+    static var waveformPathEcgTextPage: SymbolWith1Localization<Rtl> { .init("waveform.path.ecg.text.page") }
+
+    /// ![􀳽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/waveform.path.ecg.text.page.fill.png)\
+    /// 2 Localizations, Single Layerset
+    ///
+    /// Localizations:
+    /// - Left-to-Right
+    /// - Right-to-Left
+    ///
+    /// Layersets:
+    /// - Monochrome
+    @_alwaysEmitIntoClient
+    static var waveformPathEcgTextPageFill: SymbolWith1Localization<Rtl> { .init("waveform.path.ecg.text.page.fill") }
 }

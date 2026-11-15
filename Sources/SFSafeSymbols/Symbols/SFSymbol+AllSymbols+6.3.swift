@@ -2,121 +2,125 @@
 
 @available(iOS 18.4, macOS 15.4, tvOS 18.4, watchOS 11.4, visionOS 2.4, *)
 extension SFSymbol {
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var localizationsAvailableSince6_3: [SFSymbol : Set<Localization>] {
         [
-            arrowBackwardToLineCompact: [],
-            arrowForwardToLineCompact: [],
-            carSideArrowLeftAndRight: [],
-            carSideArrowLeftAndRightFill: [],
-            carSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangle: [],
-            carSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangleFill: [],
-            carSideRearAndCollisionAndCarSideFrontAndArrowForward: [],
-            carSideRearAndCollisionAndCarSideFrontAndSteeringwheel: [],
-            carTopLaneDashedDepartureLeftSlash: [],
-            carTopLaneDashedDepartureLeftSlashFill: [],
-            carTopLaneDashedDepartureRightSlash: [],
-            carTopLaneDashedDepartureRightSlashFill: [],
-            characterCursorIbeam: [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te],
-            characterMagnify: [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te],
-            characterTextbox: [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta],
-            characterTextboxBadgeSparkles: [.ar, .bn, .gu, .he, .hi, .ja, .kn, .ko, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .th, .zh],
-            convertibleSideArrowLeftAndRight: [],
-            convertibleSideArrowLeftAndRightFill: [],
-            convertibleSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangle: [],
-            convertibleSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangleFill: [],
-            cursorarrowResizeNorthEastSouthEast: [],
-            electronicTollCollection: [],
-            electronicTollCollectionRectangle: [],
-            electronicTollCollectionRectangleFill: [],
-            electronicTollCollectionRectangleSlash: [],
-            electronicTollCollectionRectangleSlashFill: [],
-            electronicTollCollectionRectangleTrianglebadgeExclamationmark: [],
-            electronicTollCollectionRectangleTrianglebadgeExclamationmarkFill: [],
-            engineEmissionAndDrop2WaterWaveBelow: [],
-            envelopeAndArrow3Down: [],
-            envelopeAndArrow3DownFill: [],
-            flagPatternCheckeredLc: [],
-            fuelFilterWater: [],
-            function: [.ar],
-            hydrogen: [],
-            hydrogenCircle: [],
-            hydrogenCircleFill: [],
-            hydrogenSquare: [],
-            hydrogenSquareFill: [],
-            infoCircleTextPage: [.rtl],
-            infoCircleTextPageFill: [.rtl],
-            keyCarSide: [],
-            keyCarSideFill: [],
-            keyConvertibleSide: [],
-            keyConvertibleSideFill: [],
-            keySuvSide: [],
-            keySuvSideFill: [],
-            keyTruckPickupSide: [],
-            keyTruckPickupSideFill: [],
-            longTextPageAndPencil: [],
-            longTextPageAndPencilFill: [],
-            macminiGen2: [],
-            macminiGen2Fill: [],
-            macminiGen3: [],
-            macminiGen3Fill: [],
-            memoriesSlash: [],
-            minusPlusBatteryblockStackArrowtriangleLeft: [],
-            minusPlusBatteryblockStackArrowtriangleLeftFill: [],
-            minusPlusBatteryblockStackArrowtriangleRight: [],
-            minusPlusBatteryblockStackArrowtriangleRightAndArrowtriangleLeft: [],
-            minusPlusBatteryblockStackArrowtriangleRightAndArrowtriangleLeftFill: [],
-            minusPlusBatteryblockStackArrowtriangleRightFill: [],
-            nosignBadgeClock: [],
-            personCheckmarkAndXmark: [.rtl],
-            personFillCheckmarkAndXmark: [.rtl],
-            photoBadgeShieldExclamationmark: [],
-            photoBadgeShieldExclamationmarkFill: [],
-            photoTrianglebadgeExclamationmark: [],
-            photoTrianglebadgeExclamationmarkFill: [],
-            pi: [],
-            piCircle: [],
-            piCircleFill: [],
-            piSquare: [],
-            piSquareFill: [],
-            plusMinusCapsule: [],
-            plusMinusCapsuleFill: [],
-            repeatBadgeXmarkCircleFill: [],
-            roadLaneArrowtriangle2Outward: [],
-            roboticVacuumAndArrowtriangleUp: [],
-            roboticVacuumAndArrowtriangleUpFill: [],
-            roboticVacuumAndEllipsis: [],
-            roboticVacuumAndEllipsisFill: [],
-            spoonServing: [],
-            squareAndArrowUpBadgeCheckmark: [],
-            squareAndArrowUpBadgeCheckmarkFill: [],
-            squareshapeSplit2x2DottedInside: [],
-            squareshapeSplit2x2DottedInsideAndOutside: [],
-            squareshapeSplit2x2DottedOutside: [],
-            starHexagon: [],
-            starHexagonFill: [],
-            suvSideArrowLeftAndRight: [],
-            suvSideArrowLeftAndRightFill: [],
-            suvSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangle: [],
-            suvSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangleFill: [],
-            textformat: [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te],
-            textformatAlt: [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te],
-            textformatCharacters: [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te],
-            textformatCharactersArrowLeftAndRight: [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te],
-            textformatCharactersDottedunderline: [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te],
-            textformatSubscript: [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te],
-            textformatSuperscript: [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te],
-            truckPickupSideArrowLeftAndRight: [],
-            truckPickupSideArrowLeftAndRightFill: [],
-            truckPickupSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangle: [],
-            truckPickupSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangleFill: []
+            .init("arrow.backward.to.line.compact"): [], // SFSymbol.arrowBackwardToLineCompact
+            .init("arrow.forward.to.line.compact"): [], // SFSymbol.arrowForwardToLineCompact
+            .init("car.side.arrow.left.and.right"): [], // SFSymbol.carSideArrowLeftAndRight
+            .init("car.side.arrow.left.and.right.fill"): [], // SFSymbol.carSideArrowLeftAndRightFill
+            .init("car.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle"): [], // SFSymbol.carSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangle
+            .init("car.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle.fill"): [], // SFSymbol.carSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangleFill
+            .init("car.side.rear.and.collision.and.car.side.front.and.arrow.forward"): [], // SFSymbol.carSideRearAndCollisionAndCarSideFrontAndArrowForward
+            .init("car.side.rear.and.collision.and.car.side.front.and.steeringwheel"): [], // SFSymbol.carSideRearAndCollisionAndCarSideFrontAndSteeringwheel
+            .init("car.top.lane.dashed.departure.left.slash"): [], // SFSymbol.carTopLaneDashedDepartureLeftSlash
+            .init("car.top.lane.dashed.departure.left.slash.fill"): [], // SFSymbol.carTopLaneDashedDepartureLeftSlashFill
+            .init("car.top.lane.dashed.departure.right.slash"): [], // SFSymbol.carTopLaneDashedDepartureRightSlash
+            .init("car.top.lane.dashed.departure.right.slash.fill"): [], // SFSymbol.carTopLaneDashedDepartureRightSlashFill
+            .init("character.cursor.ibeam"): [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te], // SFSymbol.characterCursorIbeam
+            .init("character.magnify"): [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te], // SFSymbol.characterMagnify
+            .init("character.textbox"): [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta], // SFSymbol.characterTextbox
+            .init("character.textbox.badge.sparkles"): [.ar, .bn, .gu, .he, .hi, .ja, .kn, .ko, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .th, .zh], // SFSymbol.characterTextboxBadgeSparkles
+            .init("convertible.side.arrow.left.and.right"): [], // SFSymbol.convertibleSideArrowLeftAndRight
+            .init("convertible.side.arrow.left.and.right.fill"): [], // SFSymbol.convertibleSideArrowLeftAndRightFill
+            .init("convertible.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle"): [], // SFSymbol.convertibleSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangle
+            .init("convertible.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle.fill"): [], // SFSymbol.convertibleSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangleFill
+            .init("cursorarrow.resize.north.east.south.east"): [], // SFSymbol.cursorarrowResizeNorthEastSouthEast
+            .init("electronic.toll.collection"): [], // SFSymbol.electronicTollCollection
+            .init("electronic.toll.collection.rectangle"): [], // SFSymbol.electronicTollCollectionRectangle
+            .init("electronic.toll.collection.rectangle.fill"): [], // SFSymbol.electronicTollCollectionRectangleFill
+            .init("electronic.toll.collection.rectangle.slash"): [], // SFSymbol.electronicTollCollectionRectangleSlash
+            .init("electronic.toll.collection.rectangle.slash.fill"): [], // SFSymbol.electronicTollCollectionRectangleSlashFill
+            .init("electronic.toll.collection.rectangle.trianglebadge.exclamationmark"): [], // SFSymbol.electronicTollCollectionRectangleTrianglebadgeExclamationmark
+            .init("electronic.toll.collection.rectangle.trianglebadge.exclamationmark.fill"): [], // SFSymbol.electronicTollCollectionRectangleTrianglebadgeExclamationmarkFill
+            .init("engine.emission.and.drop.2.water.wave.below"): [], // SFSymbol.engineEmissionAndDrop2WaterWaveBelow
+            .init("envelope.and.arrow.3.down"): [], // SFSymbol.envelopeAndArrow3Down
+            .init("envelope.and.arrow.3.down.fill"): [], // SFSymbol.envelopeAndArrow3DownFill
+            .init("flag.pattern.checkered.lc"): [], // SFSymbol.flagPatternCheckeredLc
+            .init("fuel.filter.water"): [], // SFSymbol.fuelFilterWater
+            .init("function"): [.ar], // SFSymbol.function
+            .init("hydrogen"): [], // SFSymbol.hydrogen
+            .init("hydrogen.circle"): [], // SFSymbol.hydrogenCircle
+            .init("hydrogen.circle.fill"): [], // SFSymbol.hydrogenCircleFill
+            .init("hydrogen.square"): [], // SFSymbol.hydrogenSquare
+            .init("hydrogen.square.fill"): [], // SFSymbol.hydrogenSquareFill
+            .init("info.circle.text.page"): [.rtl], // SFSymbol.infoCircleTextPage
+            .init("info.circle.text.page.fill"): [.rtl], // SFSymbol.infoCircleTextPageFill
+            .init("key.car.side"): [], // SFSymbol.keyCarSide
+            .init("key.car.side.fill"): [], // SFSymbol.keyCarSideFill
+            .init("key.convertible.side"): [], // SFSymbol.keyConvertibleSide
+            .init("key.convertible.side.fill"): [], // SFSymbol.keyConvertibleSideFill
+            .init("key.suv.side"): [], // SFSymbol.keySuvSide
+            .init("key.suv.side.fill"): [], // SFSymbol.keySuvSideFill
+            .init("key.truck.pickup.side"): [], // SFSymbol.keyTruckPickupSide
+            .init("key.truck.pickup.side.fill"): [], // SFSymbol.keyTruckPickupSideFill
+            .init("long.text.page.and.pencil"): [], // SFSymbol.longTextPageAndPencil
+            .init("long.text.page.and.pencil.fill"): [], // SFSymbol.longTextPageAndPencilFill
+            .init("macmini.gen2"): [], // SFSymbol.macminiGen2
+            .init("macmini.gen2.fill"): [], // SFSymbol.macminiGen2Fill
+            .init("macmini.gen3"): [], // SFSymbol.macminiGen3
+            .init("macmini.gen3.fill"): [], // SFSymbol.macminiGen3Fill
+            .init("memories.slash"): [], // SFSymbol.memoriesSlash
+            .init("minus.plus.batteryblock.stack.arrowtriangle.left"): [], // SFSymbol.minusPlusBatteryblockStackArrowtriangleLeft
+            .init("minus.plus.batteryblock.stack.arrowtriangle.left.fill"): [], // SFSymbol.minusPlusBatteryblockStackArrowtriangleLeftFill
+            .init("minus.plus.batteryblock.stack.arrowtriangle.right"): [], // SFSymbol.minusPlusBatteryblockStackArrowtriangleRight
+            .init("minus.plus.batteryblock.stack.arrowtriangle.right.and.arrowtriangle.left"): [], // SFSymbol.minusPlusBatteryblockStackArrowtriangleRightAndArrowtriangleLeft
+            .init("minus.plus.batteryblock.stack.arrowtriangle.right.and.arrowtriangle.left.fill"): [], // SFSymbol.minusPlusBatteryblockStackArrowtriangleRightAndArrowtriangleLeftFill
+            .init("minus.plus.batteryblock.stack.arrowtriangle.right.fill"): [], // SFSymbol.minusPlusBatteryblockStackArrowtriangleRightFill
+            .init("nosign.badge.clock"): [], // SFSymbol.nosignBadgeClock
+            .init("person.checkmark.and.xmark"): [.rtl], // SFSymbol.personCheckmarkAndXmark
+            .init("person.fill.checkmark.and.xmark"): [.rtl], // SFSymbol.personFillCheckmarkAndXmark
+            .init("photo.badge.shield.exclamationmark"): [], // SFSymbol.photoBadgeShieldExclamationmark
+            .init("photo.badge.shield.exclamationmark.fill"): [], // SFSymbol.photoBadgeShieldExclamationmarkFill
+            .init("photo.trianglebadge.exclamationmark"): [], // SFSymbol.photoTrianglebadgeExclamationmark
+            .init("photo.trianglebadge.exclamationmark.fill"): [], // SFSymbol.photoTrianglebadgeExclamationmarkFill
+            .init("pi"): [], // SFSymbol.pi
+            .init("pi.circle"): [], // SFSymbol.piCircle
+            .init("pi.circle.fill"): [], // SFSymbol.piCircleFill
+            .init("pi.square"): [], // SFSymbol.piSquare
+            .init("pi.square.fill"): [], // SFSymbol.piSquareFill
+            .init("plus.minus.capsule"): [], // SFSymbol.plusMinusCapsule
+            .init("plus.minus.capsule.fill"): [], // SFSymbol.plusMinusCapsuleFill
+            .init("repeat.badge.xmark.circle.fill"): [], // SFSymbol.repeatBadgeXmarkCircleFill
+            .init("road.lane.arrowtriangle.2.outward"): [], // SFSymbol.roadLaneArrowtriangle2Outward
+            .init("robotic.vacuum.and.arrowtriangle.up"): [], // SFSymbol.roboticVacuumAndArrowtriangleUp
+            .init("robotic.vacuum.and.arrowtriangle.up.fill"): [], // SFSymbol.roboticVacuumAndArrowtriangleUpFill
+            .init("robotic.vacuum.and.ellipsis"): [], // SFSymbol.roboticVacuumAndEllipsis
+            .init("robotic.vacuum.and.ellipsis.fill"): [], // SFSymbol.roboticVacuumAndEllipsisFill
+            .init("spoon.serving"): [], // SFSymbol.spoonServing
+            .init("square.and.arrow.up.badge.checkmark"): [], // SFSymbol.squareAndArrowUpBadgeCheckmark
+            .init("square.and.arrow.up.badge.checkmark.fill"): [], // SFSymbol.squareAndArrowUpBadgeCheckmarkFill
+            .init("squareshape.split.2x2.dotted.inside"): [], // SFSymbol.squareshapeSplit2x2DottedInside
+            .init("squareshape.split.2x2.dotted.inside.and.outside"): [], // SFSymbol.squareshapeSplit2x2DottedInsideAndOutside
+            .init("squareshape.split.2x2.dotted.outside"): [], // SFSymbol.squareshapeSplit2x2DottedOutside
+            .init("star.hexagon"): [], // SFSymbol.starHexagon
+            .init("star.hexagon.fill"): [], // SFSymbol.starHexagonFill
+            .init("suv.side.arrow.left.and.right"): [], // SFSymbol.suvSideArrowLeftAndRight
+            .init("suv.side.arrow.left.and.right.fill"): [], // SFSymbol.suvSideArrowLeftAndRightFill
+            .init("suv.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle"): [], // SFSymbol.suvSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangle
+            .init("suv.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle.fill"): [], // SFSymbol.suvSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangleFill
+            .init("textformat"): [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te], // SFSymbol.textformat
+            .init("textformat.alt"): [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te], // SFSymbol.textformatAlt
+            .init("textformat.characters"): [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te], // SFSymbol.textformatCharacters
+            .init("textformat.characters.arrow.left.and.right"): [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te], // SFSymbol.textformatCharactersArrowLeftAndRight
+            .init("textformat.characters.dottedunderline"): [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te], // SFSymbol.textformatCharactersDottedunderline
+            .init("textformat.subscript"): [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te], // SFSymbol.textformatSubscript
+            .init("textformat.superscript"): [.bn, .gu, .kn, .ml, .mni, .mr, .or, .pa, .sat, .si, .ta, .te], // SFSymbol.textformatSuperscript
+            .init("truck.pickup.side.arrow.left.and.right"): [], // SFSymbol.truckPickupSideArrowLeftAndRight
+            .init("truck.pickup.side.arrow.left.and.right.fill"): [], // SFSymbol.truckPickupSideArrowLeftAndRightFill
+            .init("truck.pickup.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle"): [], // SFSymbol.truckPickupSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangle
+            .init("truck.pickup.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle.fill"): [] // SFSymbol.truckPickupSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangleFill
         ]
     }
 
+    @usableFromInline
+    @_alwaysEmitIntoClient
     internal static var symbolsDeprecatedSince6_3: Set<SFSymbol> {
         [
-            cursorarrow,
-            squareshapeDottedSplit2x2,
-            squareshapeSplit2x2Dotted
+            .init("cursorarrow"), // SFSymbol.cursorarrow
+            .init("squareshape.dotted.split.2x2"), // SFSymbol.squareshapeDottedSplit2x2
+            .init("squareshape.split.2x2.dotted") // SFSymbol.squareshapeSplit2x2Dotted
         ]
     }
 }

@@ -13,7 +13,8 @@ struct SymbolManifestParser {
         var yearToReleaseMapping: [String: [String: String]]
     }
 
-    static func parse(availabilityFileData: Data) throws -> SymbolManifest? {
+    /// The symbols, and all releases of `year_to_release` (some of which may introduce no symbols).
+    static func parse(availabilityFileData: Data) throws -> (symbols: SymbolManifest, availabilities: [Availability])? {
         let data = availabilityFileData
         let plist = try PropertyListDecoder().decode(Plist.self, from: data)
 
@@ -30,8 +31,10 @@ struct SymbolManifestParser {
             )
         }
 
+        let availabilityForYear = Dictionary(availabilities.map { ($0.year, $0) }) { first, _ in first }
+
         for (key, value) in plist.symbols.sorted(using: KeyPathComparator(\.key)) {
-            guard let availability = (availabilities.first { $0.year == value }) else {
+            guard let availability = availabilityForYear[value] else {
                 // Cancel on single failure
                 return nil
             }
@@ -40,10 +43,11 @@ struct SymbolManifestParser {
 
         // Unfortunately, the data is inconsistent and for some symbols there are conflicting availability dates
         // We just remove those symbols completely
+        let symbolsForName = Dictionary(grouping: availabilityFile, by: \.name)
         availabilityFile = availabilityFile.filter { scannedSymbol in
-            !availabilityFile.contains { $0.name == scannedSymbol.name && $0.availability != scannedSymbol.availability }
+            symbolsForName[scannedSymbol.name]!.allSatisfy { $0.availability == scannedSymbol.availability }
         }
         
-        return availabilityFile
+        return (availabilityFile, availabilities)
     }
 }

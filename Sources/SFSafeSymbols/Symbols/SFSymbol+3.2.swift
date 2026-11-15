@@ -3,63 +3,62 @@
 // 3.2 Symbols
 @available(iOS 15.2, macOS 12.1, tvOS 15.2, watchOS 8.3, visionOS 1.0, *)
 public extension SFSymbol {
-    /// 􁄣
-    /// ![airpod.gen3.left](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpod.gen3.left.png)
+    /// ![􁄣](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airpod.gen3.left.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static var airpodGen3Left: SFSymbol { .init(rawValue: "airpod.gen3.left") }
+    @_alwaysEmitIntoClient
+    static var airpodGen3Left: SFSymbol { .init("airpod.gen3.left") }
 
-    /// 􁄢
-    /// ![airpod.gen3.right](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpod.gen3.right.png)
+    /// ![􁄢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airpod.gen3.right.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static var airpodGen3Right: SFSymbol { .init(rawValue: "airpod.gen3.right") }
+    @_alwaysEmitIntoClient
+    static var airpodGen3Right: SFSymbol { .init("airpod.gen3.right") }
 
-    /// 􁄡
-    /// ![airpods.gen3](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpods.gen3.png)
+    /// ![􁄡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airpods.gen3.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static var airpodsGen3: SFSymbol { .init(rawValue: "airpods.gen3") }
+    @_alwaysEmitIntoClient
+    static var airpodsGen3: SFSymbol { .init("airpods.gen3") }
 
-    /// 􁅐
-    /// ![airpods.gen3.chargingcase.wireless](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpods.gen3.chargingcase.wireless.png)
+    /// ![􁅐](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airpods.gen3.chargingcase.wireless.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static var airpodsGen3ChargingcaseWireless: SFSymbol { .init(rawValue: "airpods.gen3.chargingcase.wireless") }
+    @_alwaysEmitIntoClient
+    static var airpodsGen3ChargingcaseWireless: SFSymbol { .init("airpods.gen3.chargingcase.wireless") }
 
-    /// 􁅑
-    /// ![airpods.gen3.chargingcase.wireless.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/airpods.gen3.chargingcase.wireless.fill.png)
+    /// ![􁅑](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/airpods.gen3.chargingcase.wireless.fill.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
-    static var airpodsGen3ChargingcaseWirelessFill: SFSymbol { .init(rawValue: "airpods.gen3.chargingcase.wireless.fill") }
+    @_alwaysEmitIntoClient
+    static var airpodsGen3ChargingcaseWirelessFill: SFSymbol { .init("airpods.gen3.chargingcase.wireless.fill") }
 
-    /// 􁅞
-    /// ![beats.fit.pro](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.png)
+    /// ![􁅞](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Fit Pro.
     @available(iOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitpro")
@@ -67,10 +66,10 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitpro")
     @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitpro")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "beatsFitpro")
-    static var beatsFitPro: SFSymbol { .init(rawValue: "beats.fit.pro") }
+    @_alwaysEmitIntoClient
+    static var beatsFitPro: SFSymbol { .init("beats.fit.pro") }
 
-    /// 􁅡
-    /// ![beats.fit.pro.chargingcase](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.chargingcase.png)
+    /// ![􁅡](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.chargingcase.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -82,10 +81,10 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproChargingcase")
     @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitproChargingcase")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "beatsFitproChargingcase")
-    static var beatsFitProChargingcase: SFSymbol { .init(rawValue: "beats.fit.pro.chargingcase") }
+    @_alwaysEmitIntoClient
+    static var beatsFitProChargingcase: SFSymbol { .init("beats.fit.pro.chargingcase") }
 
-    /// 􁅢
-    /// ![beats.fit.pro.chargingcase.fill](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.chargingcase.fill.png)
+    /// ![􁅢](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.chargingcase.fill.png)\
     /// Single Localization, Single Layerset, ⚠️ Restricted
     ///
     /// Layersets:
@@ -97,15 +96,15 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproChargingcaseFill")
     @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitproChargingcaseFill")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "beatsFitproChargingcaseFill")
-    static var beatsFitProChargingcaseFill: SFSymbol { .init(rawValue: "beats.fit.pro.chargingcase.fill") }
+    @_alwaysEmitIntoClient
+    static var beatsFitProChargingcaseFill: SFSymbol { .init("beats.fit.pro.chargingcase.fill") }
 
-    /// 􁅟
-    /// ![beats.fit.pro.left](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.left.png)
+    /// ![􁅟](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.left.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Fit Pro.
     @available(iOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproLeft")
@@ -113,15 +112,15 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproLeft")
     @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitproLeft")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "beatsFitproLeft")
-    static var beatsFitProLeft: SFSymbol { .init(rawValue: "beats.fit.pro.left") }
+    @_alwaysEmitIntoClient
+    static var beatsFitProLeft: SFSymbol { .init("beats.fit.pro.left") }
 
-    /// 􁅠
-    /// ![beats.fit.pro.right](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.right.png)
+    /// ![􁅠](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/beats.fit.pro.right.png)\
     /// Single Localization, 2 Layersets, ⚠️ Restricted
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Fit Pro.
     @available(iOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproRight")
@@ -129,53 +128,54 @@ public extension SFSymbol {
     @available(tvOS, introduced: 15.2, deprecated: 17.0, renamed: "beatsFitproRight")
     @available(watchOS, introduced: 8.3, deprecated: 10.0, renamed: "beatsFitproRight")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "beatsFitproRight")
-    static var beatsFitProRight: SFSymbol { .init(rawValue: "beats.fit.pro.right") }
+    @_alwaysEmitIntoClient
+    static var beatsFitProRight: SFSymbol { .init("beats.fit.pro.right") }
 
-    /// 􁋶
-    /// ![rectangle.leadinghalf.filled](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.leadinghalf.filled.png)
+    /// ![􁋶](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.leadinghalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static var rectangleLeadinghalfFilled: SFSymbol { .init(rawValue: "rectangle.leadinghalf.filled") }
+    @_alwaysEmitIntoClient
+    static var rectangleLeadinghalfFilled: SFSymbol { .init("rectangle.leadinghalf.filled") }
 
-    /// 􁋷
-    /// ![rectangle.trailinghalf.filled](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/rectangle.trailinghalf.filled.png)
+    /// ![􁋷](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/rectangle.trailinghalf.filled.png)\
     /// Single Localization, Single Layerset
     ///
     /// Layersets:
     /// - Monochrome
-    static var rectangleTrailinghalfFilled: SFSymbol { .init(rawValue: "rectangle.trailinghalf.filled") }
+    @_alwaysEmitIntoClient
+    static var rectangleTrailinghalfFilled: SFSymbol { .init("rectangle.trailinghalf.filled") }
 
-    /// 􁋽
-    /// ![square.3.layers.3d.down.left.slash](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.3.layers.3d.down.left.slash.png)
+    /// ![􁋽](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.3.layers.3d.down.left.slash.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var square3Layers3dDownLeftSlash: SFSymbol { .init(rawValue: "square.3.layers.3d.down.left.slash") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var square3Layers3dDownLeftSlash: SFSymbol { .init("square.3.layers.3d.down.left.slash") }
 
-    /// 􁋼
-    /// ![square.3.layers.3d.down.right.slash](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.3.layers.3d.down.right.slash.png)
+    /// ![􁋼](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.3.layers.3d.down.right.slash.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
-    static var square3Layers3dDownRightSlash: SFSymbol { .init(rawValue: "square.3.layers.3d.down.right.slash") }
+    /// - Hierarchical/Palette
+    @_alwaysEmitIntoClient
+    static var square3Layers3dDownRightSlash: SFSymbol { .init("square.3.layers.3d.down.right.slash") }
 
-    /// 􁌅
-    /// ![square.3.stack.3d.slash](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/stable/Sources/SFSafeSymbols/SymbolImages/square.3.stack.3d.slash.png)
+    /// ![􁌅](https://raw.githubusercontent.com/SFSafeSymbols/SFSafeSymbols/refs/heads/v8/Sources/SFSafeSymbols/SymbolImages/square.3.stack.3d.slash.png)\
     /// Single Localization, 2 Layersets
     ///
     /// Layersets:
     /// - Monochrome
-    /// - Hierarchical
+    /// - Hierarchical/Palette
     @available(iOS, introduced: 15.2, deprecated: 16.0, renamed: "square3Layers3dSlash")
     @available(macOS, introduced: 12.1, deprecated: 13.0, renamed: "square3Layers3dSlash")
     @available(tvOS, introduced: 15.2, deprecated: 16.0, renamed: "square3Layers3dSlash")
     @available(watchOS, introduced: 8.3, deprecated: 9.0, renamed: "square3Layers3dSlash")
     @available(visionOS, introduced: 1.0, deprecated: 1.0, renamed: "square3Layers3dSlash")
-    static var square3Stack3dSlash: SFSymbol { .init(rawValue: "square.3.stack.3d.slash") }
+    @_alwaysEmitIntoClient
+    static var square3Stack3dSlash: SFSymbol { .init("square.3.stack.3d.slash") }
 }

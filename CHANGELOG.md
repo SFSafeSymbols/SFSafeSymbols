@@ -9,14 +9,20 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ### Added
 
 - Add symbol preview in Xcode Quick Help (By [Phineas Guo](https://github.com/guoPhineas))
+- Add `make pr` for contributors, which detects the username and branch from git (By [Steven Sorial](https://github.com/StevenSorial))
 
 ### Changed
 
 - Switched to computed properties for a smaller binary size (By [Steven Sorial](https://github.com/StevenSorial))
+- Only the symbols your app uses are now linked into it; referencing `allSymbols`, `has(localization:)` or `localized(to:)` links the full symbol catalog (about 1 MB) (By [Steven Sorial](https://github.com/StevenSorial))
+- Raised the minimum Swift version to 6.0 (Xcode 16.0) (By [Steven Sorial](https://github.com/StevenSorial))
+- Dropped CocoaPods support; `7.0.0` is the last version available via CocoaPods (By [Steven Sorial](https://github.com/StevenSorial))
+- The symbols generator now reads all symbol data from the Mac it runs on, so updating to a new SF Symbols version no longer requires copying files from the SF Symbols app or a simulator (By [Steven Sorial](https://github.com/StevenSorial))
 
 ### Fixed
 
 - Fix to build by pre-Xcode 26.0 versions (By [Phineas Guo](https://github.com/guoPhineas))
+- Fix static localization (e.g. `SFSymbol.character.ar`) not being accessible outside the library (By [Steven Sorial](https://github.com/StevenSorial))
 
 ## [7.0.0] - 2025-10-26
 
