@@ -29,11 +29,13 @@ struct LayersetAvailabilityParser {
             )
         }
 
+        let availabilityForYear = Dictionary(availabilities.map { ($0.year, $0) }) { first, _ in first }
+
         for (key, value) in plist.symbols.sorted(using: KeyPathComparator(\.key)) {
             var layerSetAvailabilities = [LayersetAvailability]()
 
             for (layerset, year) in value {
-                guard let availability = (availabilities.first { $0.year == year }) else {
+                guard let availability = availabilityForYear[year] else {
                     // Cancel on single failure
                     return nil
                 }

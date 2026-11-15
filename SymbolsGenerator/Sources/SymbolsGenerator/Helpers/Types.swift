@@ -28,16 +28,17 @@ struct Availability: Comparable, Equatable, Hashable {
     var visionOS: VersionString
     private var _macOS: VersionString
     var year: String // E. g. "2020" or "2020.1"
+    /// The SFSafeSymbols version that corresponds to `year`, e. g. "2.0" or "2.1".
+    let version: String
+    var versionUnderscored: String { version.replacingOccurrences(of: ".", with: "_") }
 
     var isBase: Bool { version == "1.0" }
     var macOS: VersionString { _macOS.rawValue == "10.15" ? .init(rawValue: "11.0") : _macOS }
 
-    var version: String {
-        let ver = Decimal(string: "1.0")! + (Decimal(string: year)! - Decimal(string: "2019")!)
-        return String(format: "%.1f", NSDecimalNumber(decimal: ver).doubleValue)
-    }
-
-    var versionUnderscored: String { version.replacingOccurrences(of: ".", with: "_") }
+    /// The platforms of `@available` attributes, with their versions.
+    static let platformVersions: [(platform: String, version: KeyPath<Availability, VersionString> & Sendable)] = [
+        ("iOS", \.iOS), ("macOS", \.macOS), ("tvOS", \.tvOS), ("watchOS", \.watchOS), ("visionOS", \.visionOS),
+    ]
 
     nonisolated(unsafe) static private(set) var base: Availability!
 
@@ -65,6 +66,8 @@ struct Availability: Comparable, Equatable, Hashable {
         self.watchOS = .init(rawValue: watchOS)
         self.visionOS = .init(rawValue: visionOS)
         self.year = year
+        let version = Decimal(string: "1.0")! + (Decimal(string: year)! - Decimal(string: "2019")!)
+        self.version = String(format: "%.1f", NSDecimalNumber(decimal: version).doubleValue)
 
         if isBase { Availability.base = self }
     }

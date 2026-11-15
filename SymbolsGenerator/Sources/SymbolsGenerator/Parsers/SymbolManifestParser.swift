@@ -30,8 +30,10 @@ struct SymbolManifestParser {
             )
         }
 
+        let availabilityForYear = Dictionary(availabilities.map { ($0.year, $0) }) { first, _ in first }
+
         for (key, value) in plist.symbols.sorted(using: KeyPathComparator(\.key)) {
-            guard let availability = (availabilities.first { $0.year == value }) else {
+            guard let availability = availabilityForYear[value] else {
                 // Cancel on single failure
                 return nil
             }
@@ -40,8 +42,9 @@ struct SymbolManifestParser {
 
         // Unfortunately, the data is inconsistent and for some symbols there are conflicting availability dates
         // We just remove those symbols completely
+        let symbolsForName = Dictionary(grouping: availabilityFile, by: \.name)
         availabilityFile = availabilityFile.filter { scannedSymbol in
-            !availabilityFile.contains { $0.name == scannedSymbol.name && $0.availability != scannedSymbol.availability }
+            symbolsForName[scannedSymbol.name]!.allSatisfy { $0.availability == scannedSymbol.availability }
         }
         
         return availabilityFile
